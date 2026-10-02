@@ -1,0 +1,1757 @@
+{
+  "testId": "band-a-test-01",
+  "listening": {
+    "listening-q01": {
+      "number": 1,
+      "correctAnswer": "B",
+      "vi": "Họ đang ở đâu? A. Ngân hàng. B. Lớp học. C. Bưu điện.",
+      "evidence": {
+        "traditional": "教室",
+        "simplified": "教室"
+      }
+    },
+    "listening-q02": {
+      "number": 2,
+      "correctAnswer": "A",
+      "vi": "Cửa sổ bị làm sao? A. Cửa sổ bị vỡ. B. Cửa sổ được mở ra. C. Cửa sổ biến mất.",
+      "evidence": {
+        "traditional": "窗戶破了",
+        "simplified": "窗户破了"
+      }
+    },
+    "listening-q03": {
+      "number": 3,
+      "correctAnswer": "B",
+      "vi": "Trên bàn học có mấy quyển sách? A. Hai quyển. B. Bốn quyển. C. Mười quyển.",
+      "evidence": {
+        "traditional": "桌子上有四本書",
+        "simplified": "桌子上有四本书"
+      }
+    },
+    "listening-q04": {
+      "number": 4,
+      "correctAnswer": "B",
+      "vi": "Trong hình có gì? A. Một bát mì. B. Một bát cơm. C. Một bát canh.",
+      "evidence": {
+        "traditional": "一碗飯",
+        "simplified": "一碗饭"
+      }
+    },
+    "listening-q05": {
+      "number": 5,
+      "correctAnswer": "A",
+      "vi": "Người này đang làm gì? A. Chơi bóng rổ. B. Chơi quần vợt. C. Chơi bóng chày.",
+      "evidence": {
+        "traditional": "打籃球",
+        "simplified": "打篮球"
+      }
+    },
+    "listening-q06": {
+      "number": 6,
+      "correctAnswer": "A",
+      "vi": "Học sinh này đang làm sao? A. Cô ấy đang khóc. B. Cô ấy đang cười. C. Cô ấy đang nói chuyện.",
+      "evidence": {
+        "traditional": "她在哭",
+        "simplified": "她在哭"
+      }
+    },
+    "listening-q07": {
+      "number": 7,
+      "correctAnswer": "C",
+      "vi": "Trên tường có gì? A. Hoa. B. Cửa sổ. C. Tranh.",
+      "evidence": {
+        "traditional": "牆上有畫",
+        "simplified": "墙上有画"
+      }
+    },
+    "listening-q08": {
+      "number": 8,
+      "correctAnswer": "A",
+      "vi": "Tiểu Trương đang ở đâu? A. Ở nhà hàng. B. Ở hiệu sách. C. Ở văn phòng.",
+      "evidence": {
+        "traditional": "他在餐廳",
+        "simplified": "他在餐厅"
+      }
+    },
+    "listening-q09": {
+      "number": 9,
+      "correctAnswer": "B",
+      "vi": "Người đàn ông này đang làm gì? A. Đi mua thức ăn. B. Nấu cơm. C. Giặt quần áo.",
+      "evidence": {
+        "traditional": "他正在煮飯",
+        "simplified": "他正在煮饭"
+      }
+    },
+    "listening-q10": {
+      "number": 10,
+      "correctAnswer": "B",
+      "vi": "Thời tiết trong hình thế nào? A. Trời mưa. B. Trời có tuyết. C. Trời nắng.",
+      "evidence": {
+        "traditional": "下雪",
+        "simplified": "下雪"
+      }
+    },
+    "listening-q11": {
+      "number": 11,
+      "correctAnswer": "A",
+      "vi": "Họ đang làm gì? A. Xem phim. B. Đọc báo. C. Hát.",
+      "evidence": {
+        "traditional": "他們正在看電影",
+        "simplified": "他们正在看电影"
+      }
+    },
+    "listening-q12": {
+      "number": 12,
+      "correctAnswer": "C",
+      "vi": "Vương Tiểu Minh đến trường bằng cách nào? A. Lái xe. B. Đi bộ. C. Đi xe đạp.",
+      "evidence": {
+        "traditional": "他騎腳踏車",
+        "simplified": "他骑脚踏车"
+      }
+    },
+    "listening-q13": {
+      "number": 13,
+      "correctAnswer": "A",
+      "vi": "Mẹ đã mua gì? A. Vài đôi giày. B. Vài bộ quần áo. C. Vài đôi tất.",
+      "evidence": {
+        "traditional": "幾雙鞋子",
+        "simplified": "几双鞋子"
+      }
+    },
+    "listening-q14": {
+      "number": 14,
+      "correctAnswer": "B",
+      "vi": "Bên cạnh cặp sách có gì? A. Một quyển sách. B. Một cây bút. C. Một tờ giấy.",
+      "evidence": {
+        "traditional": "一枝筆",
+        "simplified": "一枝笔"
+      }
+    },
+    "listening-q15": {
+      "number": 15,
+      "correctAnswer": "C",
+      "vi": "Các học sinh học bằng cách nào? A. Qua điện thoại. B. Qua tivi. C. Qua máy tính.",
+      "evidence": {
+        "traditional": "他們用電腦上課",
+        "simplified": "他们用电脑上课"
+      }
+    },
+    "listening-q16": {
+      "number": 16,
+      "correctAnswer": "C",
+      "vi": "Nguyệt Hoa làm nghề gì? A. Cảnh sát. B. Bác sĩ. C. Giáo viên.",
+      "evidence": {
+        "traditional": "她是老師",
+        "simplified": "她是老师"
+      }
+    },
+    "listening-q17": {
+      "number": 17,
+      "correctAnswer": "A",
+      "vi": "Ông Lý đang uống gì? A. Rượu. B. Trà. C. Cà phê.",
+      "evidence": {
+        "traditional": "他在喝酒",
+        "simplified": "他在喝酒"
+      }
+    },
+    "listening-q18": {
+      "number": 18,
+      "correctAnswer": "A",
+      "vi": "Đại Hoa đang làm gì? A. Đọc sách. B. Viết chữ. C. Nghe nhạc.",
+      "evidence": {
+        "traditional": "他正在讀書",
+        "simplified": "他正在读书"
+      }
+    },
+    "listening-q19": {
+      "number": 19,
+      "correctAnswer": "C",
+      "vi": "Trong ba đứa trẻ này, ai cao nhất? A. Cả ba cao bằng nhau. B. Cô bé mặc quần ngắn. C. Cậu bé mặc quần dài.",
+      "evidence": {
+        "traditional": "穿長褲的男孩最高",
+        "simplified": "穿长裤的男孩最高"
+      }
+    },
+    "listening-q20": {
+      "number": 20,
+      "correctAnswer": "B",
+      "vi": "Trong nhà Tiểu Thiên còn có những ai? A. Ông và bố. B. Bà và mẹ. C. Mẹ và bố.",
+      "evidence": {
+        "traditional": "他家裡有奶奶和媽媽",
+        "simplified": "他家里有奶奶和妈妈"
+      }
+    },
+    "listening-q21": {
+      "number": 21,
+      "correctAnswer": "C",
+      "vi": "Ở đây có những loại trái cây nào? A. Dưa hấu và táo. B. Chuối và dưa hấu. C. Táo và chuối.",
+      "evidence": {
+        "traditional": "蘋果和香蕉",
+        "simplified": "苹果和香蕉"
+      }
+    },
+    "listening-q22": {
+      "number": 22,
+      "correctAnswer": "C",
+      "vi": "Cho hỏi cây bút ở đâu? A. Trước máy tính. B. Dưới tờ giấy. C. Trên mặt bàn.",
+      "evidence": {
+        "traditional": "筆在桌子上面",
+        "simplified": "笔在桌子上面"
+      }
+    },
+    "listening-q23": {
+      "number": 23,
+      "correctAnswer": "A",
+      "vi": "Thời tiết hôm nay thế nào? A. Mưa to và gió lớn. B. Gió lớn và nắng gắt. C. Nắng gắt và mưa to.",
+      "evidence": {
+        "traditional": "今天雨很大，風也很大",
+        "simplified": "今天雨很大，风也很大"
+      }
+    },
+    "listening-q24": {
+      "number": 24,
+      "correctAnswer": "B",
+      "vi": "Mỹ Mỹ đã mua gì? A. Túi xách và bánh bao. B. Giày và túi xách. C. Bánh bao và giày.",
+      "evidence": {
+        "traditional": "美美買了鞋子和皮包",
+        "simplified": "美美买了鞋子和皮包"
+      }
+    },
+    "listening-q25": {
+      "number": 25,
+      "correctAnswer": "A",
+      "vi": "Tiểu Minh đang làm gì? A. Khám bệnh ở bệnh viện. B. Đặt lịch khám qua mạng. C. Lấy thuốc ở hiệu thuốc.",
+      "evidence": {
+        "traditional": "他正在醫院看病",
+        "simplified": "他正在医院看病"
+      }
+    },
+    "listening-q26": {
+      "number": 26,
+      "correctAnswer": "C",
+      "vi": "Nam: Thưa cô, chuyến đi lần này chúng em cần mang gì? Nữ: Ở đó lạnh lắm, hãy mang theo áo khoác nhé!",
+      "evidence": {
+        "traditional": "帶件外套吧",
+        "simplified": "带件外套吧"
+      }
+    },
+    "listening-q27": {
+      "number": 27,
+      "correctAnswer": "A",
+      "vi": "Nam: Chúng ta đi hát nhé? Nữ: Răng tôi đau quá, tôi không muốn đi.",
+      "evidence": {
+        "traditional": "我牙齒好痛",
+        "simplified": "我牙齿好痛"
+      }
+    },
+    "listening-q28": {
+      "number": 28,
+      "correctAnswer": "B",
+      "vi": "Nam: Bạn nghĩ đặt cái bàn ở đâu thì tốt hơn? Nữ: Đặt trước cửa sổ nhé! Ở đó sáng hơn.",
+      "evidence": {
+        "traditional": "放在窗戶前面吧",
+        "simplified": "放在窗户前面吧"
+      }
+    },
+    "listening-q29": {
+      "number": 29,
+      "correctAnswer": "C",
+      "vi": "Nam: Cuối tuần này bạn muốn đi đâu chơi? Nữ: Trời nóng thế này, tôi muốn ra biển đi dạo.",
+      "evidence": {
+        "traditional": "我想去海邊走走",
+        "simplified": "我想去海边走走"
+      }
+    },
+    "listening-q30": {
+      "number": 30,
+      "correctAnswer": "A",
+      "vi": "Nữ: Bộ quần áo hôm qua dì mang đến thế nào? Nam: Chật quá.",
+      "evidence": {
+        "traditional": "太小了",
+        "simplified": "太小了"
+      }
+    },
+    "listening-q31": {
+      "number": 31,
+      "correctAnswer": "C",
+      "vi": "Nam: Vương Tiểu Mỹ trông thế nào? Nữ: Cô ấy để tóc dài và đeo kính.",
+      "evidence": {
+        "traditional": "頭髮長長的，戴眼鏡",
+        "simplified": "头发长长的，戴眼镜"
+      }
+    },
+    "listening-q32": {
+      "number": 32,
+      "correctAnswer": "B",
+      "vi": "Nam: Cho hỏi đi đến ga tàu như thế nào? Nữ: Bạn cứ đi thẳng, ga tàu ở bên phải.",
+      "evidence": {
+        "traditional": "車站在你的右邊",
+        "simplified": "车站在你的右边"
+      }
+    },
+    "listening-q33": {
+      "number": 33,
+      "correctAnswer": "C",
+      "vi": "Nam: Xin chào, mua hai chiếc hamburger bây giờ sẽ được tặng sữa. Anh/chị muốn gọi gì? Nữ: Tôi muốn hai chiếc hamburger và sữa lạnh, cảm ơn!",
+      "evidence": {
+        "traditional": "我要兩個漢堡，還有，我要冰牛奶喔",
+        "simplified": "我要两个汉堡，还有，我要冰牛奶喔"
+      }
+    },
+    "listening-q34": {
+      "number": 34,
+      "correctAnswer": "B",
+      "vi": "Nam: Sắp đến năm mới rồi, bạn định làm gì? Nữ: Tôi sẽ đến công viên nghe hòa nhạc. Đi cùng nhé!",
+      "evidence": {
+        "traditional": "我要去公園聽音樂會",
+        "simplified": "我要去公园听音乐会"
+      }
+    },
+    "listening-q35": {
+      "number": 35,
+      "correctAnswer": "C",
+      "vi": "Nam: Thưa cô, chiếc áo này giá 900 đồng. Cô còn muốn mua gì khác không? Nữ: Ừm, còn chiếc tôi đang cầm trên tay nữa.",
+      "evidence": {
+        "traditional": "還有我手上這一件",
+        "simplified": "还有我手上这一件"
+      }
+    },
+    "listening-q36": {
+      "number": 36,
+      "correctAnswer": "C",
+      "vi": "Nam: Ủa, sao bạn ở bệnh viện? Nữ: Em gái tôi vừa sinh một bé trai, tôi đến thăm hai mẹ con.",
+      "evidence": {
+        "traditional": "我妹妹生了一個兒子",
+        "simplified": "我妹妹生了一个儿子"
+      }
+    },
+    "listening-q37": {
+      "number": 37,
+      "correctAnswer": "B",
+      "vi": "Nam: Nghe nói tháng trước bạn đi du lịch cùng gia đình? Nữ: Không, tôi đi một mình.",
+      "evidence": {
+        "traditional": "我是自己一個人去的",
+        "simplified": "我是自己一个人去的"
+      }
+    },
+    "listening-q38": {
+      "number": 38,
+      "correctAnswer": "C",
+      "vi": "Nam: Cuối tuần này bạn bè tôi đến chơi. Tôi có thể đưa họ đi đâu? Nữ: Bạn có thể đưa họ đến sân bóng chày; đi xe buýt số 240 là tới nhanh thôi.",
+      "evidence": {
+        "traditional": "你可以帶他們到棒球場，坐240號公車很快就到了",
+        "simplified": "你可以带他们到棒球场，坐240号公车很快就到了"
+      }
+    },
+    "listening-q39": {
+      "number": 39,
+      "correctAnswer": "B",
+      "vi": "Nam: Tôi muốn ra sân bay, nên đi bằng cách nào? Nữ: Bạn có thể đi tàu điện ngầm; phía trước có ga tàu điện ngầm.",
+      "evidence": {
+        "traditional": "你可以坐地鐵",
+        "simplified": "你可以坐地铁"
+      }
+    },
+    "listening-q40": {
+      "number": 40,
+      "correctAnswer": "A",
+      "vi": "Nam: Chiếc áo khoác này giá 500 đồng à? Nữ: Không đắt đến thế đâu.",
+      "evidence": {
+        "traditional": "沒那麼貴",
+        "simplified": "没那么贵"
+      }
+    },
+    "listening-q41": {
+      "number": 41,
+      "correctAnswer": "C",
+      "vi": "Nam: Có chiếc quần nào cỡ lớn hơn không? Nữ: Quần màu đen cỡ 40 được không? Nam: Được, tôi thử nhé? Nữ: Được, mời anh qua đây. Câu hỏi: Họ đang ở đâu?",
+      "evidence": {
+        "traditional": "我可以試試嗎",
+        "simplified": "我可以试试吗"
+      }
+    },
+    "listening-q42": {
+      "number": 42,
+      "correctAnswer": "B",
+      "vi": "Nam: Tôi tìm quyển sách dùng trong lớp của thầy Vương. Thư viện có quyển này không? Nữ: Đợi chút, tôi tra trên mạng. Quyển này đã được mượn hai tuần trước. Nam: Vậy tôi còn có thể mượn ở đâu? Nữ: Tôi nghĩ giờ bạn chỉ có thể đến hiệu sách trong trường để mua. Câu hỏi: Cô ấy nghĩ nam sinh nên tìm sách ở đâu?",
+      "evidence": {
+        "traditional": "只能去學校的書店買了",
+        "simplified": "只能去学校的书店买了"
+      }
+    },
+    "listening-q43": {
+      "number": 43,
+      "correctAnswer": "C",
+      "vi": "Nam: Xin chào, tôi có thể giúp gì? Nữ: Tờ giấy này ghi rằng học bơi lúc này sẽ rẻ hơn. Nam: Đúng vậy, buổi sáng từ thứ Hai đến thứ Sáu rẻ hơn. Buổi tối thì giá như bình thường. Nữ: Tôi hiểu rồi, tôi có thể học ban ngày. Câu hỏi: Học bơi khi nào rẻ hơn?",
+      "evidence": {
+        "traditional": "星期一到星期五的早上比較便宜",
+        "simplified": "星期一到星期五的早上比较便宜"
+      }
+    },
+    "listening-q44": {
+      "number": 44,
+      "correctAnswer": "A",
+      "vi": "Nam: Thưa cô, ngày mai chúng ta học ở đâu? Nữ: Ngày mai học trực tuyến nên sẽ học ở phòng máy tính. Nam: Phòng máy tính đi lối nào? Nữ: Phòng máy tính ở tầng trên thư viện. Câu hỏi: Phòng máy tính ở đâu?",
+      "evidence": {
+        "traditional": "電腦教室就在圖書館樓上",
+        "simplified": "电脑教室就在图书馆楼上"
+      }
+    },
+    "listening-q45": {
+      "number": 45,
+      "correctAnswer": "C",
+      "vi": "Nam: Cho hỏi chuyến tàu lúc 10 giờ 20 đã chạy chưa? Nữ: Bây giờ đã 10 giờ 25, tàu chạy từ lâu rồi. Nam: Khi nào còn chuyến khác? Nữ: Hai mươi phút nữa sẽ có tàu. Câu hỏi: Người đàn ông có thể đi chuyến tàu lúc mấy giờ?",
+      "evidence": {
+        "traditional": "二十分鐘以後就有車了",
+        "simplified": "二十分钟以后就有车了"
+      }
+    },
+    "listening-q46": {
+      "number": 46,
+      "correctAnswer": "A",
+      "vi": "Nam: Mẹ có thấy sách giáo khoa của con không? Nữ: Không có ở bàn học à? Nam: Con tìm rồi, không thấy. Sắp đến giờ học rồi, tệ quá. Nữ: Hoặc ở bàn học, hoặc ở cùng chỗ với từ điển; con thử tìm xem. Câu hỏi: Người mẹ muốn nói gì?",
+      "evidence": {
+        "traditional": "不是放在書桌上，就是跟字典放在一起",
+        "simplified": "不是放在书桌上，就是跟字典放在一起"
+      }
+    },
+    "listening-q47": {
+      "number": 47,
+      "correctAnswer": "A",
+      "vi": "Nam: Lâu rồi tôi chưa đến đây, nơi này thay đổi nhiều quá. Nữ: Trước đây phong cảnh đẹp, giờ chỗ nào cũng đông người. Nam: Đông người không tốt sao? Nữ: Tôi thích không gian yên tĩnh. Câu hỏi: Câu cuối của cô ấy có ý gì?",
+      "evidence": {
+        "traditional": "我喜歡安靜的環境",
+        "simplified": "我喜欢安静的环境"
+      }
+    },
+    "listening-q48": {
+      "number": 48,
+      "correctAnswer": "D",
+      "vi": "Nam: Sao em chưa từng mặc chiếc váy nào anh mua cho? Nữ: Nếu là trước khi sinh con, chắc em sẽ mặc hết. Nam: Em đâu có béo lên; bây giờ mặc vẫn đẹp mà! Nữ: Mặc quần tiện chăm sóc con hơn. Câu hỏi: Cô ấy muốn nói gì?",
+      "evidence": {
+        "traditional": "穿褲子比較方便照顧小孩",
+        "simplified": "穿裤子比较方便照顾小孩"
+      }
+    },
+    "listening-q49": {
+      "number": 49,
+      "correctAnswer": "A",
+      "vi": "Nam: Mời vào, có chuyện gì vậy? Nữ: Thưa sếp, gần đây tôi luôn thấy mệt và không khỏe. Tôi muốn xin nghỉ. Nam: Cô muốn nghỉ bao lâu? Nữ: Nếu được, tôi muốn nghỉ một tháng; nếu không thì hai tuần cũng được. Câu hỏi: Cô ấy mong sếp đồng ý điều gì?",
+      "evidence": {
+        "traditional": "我想請一個月",
+        "simplified": "我想请一个月"
+      }
+    },
+    "listening-q50": {
+      "number": 50,
+      "correctAnswer": "C",
+      "vi": "Nam: A lô mẹ, mẹ gửi cho con ít tiền nhé, con cần mua quần áo. Nữ: Con đã mang quần áo theo rồi mà, sao còn mua nữa? Nam: Con béo lên, quần áo cũ không mặc vừa nữa. Nữ: Con mới đi học nửa năm đã béo lên rồi; chắc đồ ăn ở đó ngon lắm. Câu hỏi: Người con trai nói gì với mẹ qua điện thoại?",
+      "evidence": {
+        "traditional": "我變胖了，那些衣服都穿不下了",
+        "simplified": "我变胖了，那些衣服都穿不下了"
+      }
+    }
+  },
+  "reading": {
+    "reading-q01": {
+      "number": 1,
+      "correctAnswer": "B",
+      "kind": "question",
+      "vi": "Trên bàn có ba loại trái cây.",
+      "evidence": {
+        "traditional": {
+          "chinese": "1. 桌子上放著三種水果。",
+          "x": 96,
+          "y": 20,
+          "width": 397,
+          "height": 42,
+          "sourceWidth": 1169,
+          "sourceHeight": 336
+        },
+        "simplified": {
+          "chinese": "1. 桌子上放着三种水果。",
+          "x": 96,
+          "y": 20,
+          "width": 397,
+          "height": 42,
+          "sourceWidth": 1169,
+          "sourceHeight": 336
+        }
+      }
+    },
+    "reading-q02": {
+      "number": 2,
+      "correctAnswer": "B",
+      "kind": "question",
+      "vi": "Ông Vương đang vẽ khuôn mặt của Tiểu Thiên.",
+      "evidence": {
+        "traditional": {
+          "chinese": "2. 老王正畫著小天的臉。",
+          "x": 96,
+          "y": 20,
+          "width": 396,
+          "height": 42,
+          "sourceWidth": 1169,
+          "sourceHeight": 336
+        },
+        "simplified": {
+          "chinese": "2. 老王正画着小天的脸。",
+          "x": 96,
+          "y": 20,
+          "width": 396,
+          "height": 42,
+          "sourceWidth": 1169,
+          "sourceHeight": 336
+        }
+      }
+    },
+    "reading-q03": {
+      "number": 3,
+      "correctAnswer": "A",
+      "kind": "question",
+      "vi": "Phòng của anh ấy rất sạch sẽ.",
+      "evidence": {
+        "traditional": {
+          "chinese": "3. 他的房間很乾淨。",
+          "x": 96,
+          "y": 20,
+          "width": 332,
+          "height": 40,
+          "sourceWidth": 1169,
+          "sourceHeight": 336
+        },
+        "simplified": {
+          "chinese": "3． 他的房间很干净。",
+          "x": 96,
+          "y": 20,
+          "width": 332,
+          "height": 40,
+          "sourceWidth": 1169,
+          "sourceHeight": 336
+        }
+      }
+    },
+    "reading-q04": {
+      "number": 4,
+      "correctAnswer": "C",
+      "kind": "question",
+      "vi": "Vương Tiểu Minh viết ba chữ “Lý Thiên Hoa” lên giấy.",
+      "evidence": {
+        "traditional": {
+          "chinese": "4. 王小明把李天華三個字寫在紙上。",
+          "x": 91,
+          "y": 15,
+          "width": 567,
+          "height": 47,
+          "sourceWidth": 1169,
+          "sourceHeight": 336
+        },
+        "simplified": {
+          "chinese": "4. 王小明把李天华三个字写在纸上。",
+          "x": 91,
+          "y": 15,
+          "width": 567,
+          "height": 47,
+          "sourceWidth": 1169,
+          "sourceHeight": 336
+        }
+      }
+    },
+    "reading-q05": {
+      "number": 5,
+      "correctAnswer": "B",
+      "kind": "question",
+      "vi": "Chí Minh chơi nhiều môn bóng, nhưng thích bóng đá nhất.",
+      "evidence": {
+        "traditional": {
+          "chinese": "5. 志明什麼球都玩，但是最喜歡玩足球。",
+          "x": 96,
+          "y": 20,
+          "width": 629,
+          "height": 40,
+          "sourceWidth": 1169,
+          "sourceHeight": 444
+        },
+        "simplified": {
+          "chinese": "5. 志明什么球都玩，但是最喜欢玩足球。",
+          "x": 96,
+          "y": 20,
+          "width": 625,
+          "height": 40,
+          "sourceWidth": 1169,
+          "sourceHeight": 444
+        }
+      }
+    },
+    "reading-q06": {
+      "number": 6,
+      "correctAnswer": "C",
+      "kind": "question",
+      "vi": "Cẩn thận! Nước trong cốc của bạn sắp đầy tràn rồi!",
+      "evidence": {
+        "traditional": {
+          "chinese": "6. 小心！你杯子裡的水快要滿了！",
+          "x": 96,
+          "y": 14,
+          "width": 530,
+          "height": 52,
+          "sourceWidth": 1169,
+          "sourceHeight": 336
+        },
+        "simplified": {
+          "chinese": "6. 小心！你杯子里的水快要满了！",
+          "x": 96,
+          "y": 16,
+          "width": 530,
+          "height": 48,
+          "sourceWidth": 1169,
+          "sourceHeight": 336
+        }
+      }
+    },
+    "reading-q07": {
+      "number": 7,
+      "correctAnswer": "A",
+      "kind": "question",
+      "vi": "Qua ngã tư phía trước rồi đi tiếp một lát là đến bệnh viện.",
+      "evidence": {
+        "traditional": {
+          "chinese": "7. 過了前面的路口，再往前走一會兒就到醫院了。",
+          "x": 94,
+          "y": 20,
+          "width": 763,
+          "height": 44,
+          "sourceWidth": 1169,
+          "sourceHeight": 336
+        },
+        "simplified": {
+          "chinese": "7. 过了前面的路口，再往前走一会儿就到医院了。",
+          "x": 94,
+          "y": 20,
+          "width": 761,
+          "height": 44,
+          "sourceWidth": 1169,
+          "sourceHeight": 336
+        }
+      }
+    },
+    "reading-q08": {
+      "number": 8,
+      "correctAnswer": "C",
+      "kind": "question",
+      "vi": "Bình thường tôi dậy lúc sáu giờ, nhưng hôm nay muộn hơn nửa tiếng.",
+      "evidence": {
+        "traditional": {
+          "chinese": "8. 我平常都六點起床，可是今天晚了半小時。",
+          "x": 96,
+          "y": 20,
+          "width": 694,
+          "height": 42,
+          "sourceWidth": 1169,
+          "sourceHeight": 336
+        },
+        "simplified": {
+          "chinese": "8. 我平常都六点起床，可是今天晚了半小时。",
+          "x": 96,
+          "y": 20,
+          "width": 694,
+          "height": 42,
+          "sourceWidth": 1169,
+          "sourceHeight": 336
+        }
+      }
+    },
+    "reading-q09": {
+      "number": 9,
+      "correctAnswer": "C",
+      "kind": "question",
+      "vi": "Ông Trương thích nghe nhạc khi lái xe.",
+      "evidence": {
+        "traditional": {
+          "chinese": "9. 張先生開車的時候喜歡聽音樂。",
+          "x": 96,
+          "y": 20,
+          "width": 530,
+          "height": 40,
+          "sourceWidth": 1169,
+          "sourceHeight": 336
+        },
+        "simplified": {
+          "chinese": "9. 张先生开车的时候喜欢听音乐。",
+          "x": 96,
+          "y": 20,
+          "width": 528,
+          "height": 40,
+          "sourceWidth": 1169,
+          "sourceHeight": 336
+        }
+      }
+    },
+    "reading-q10": {
+      "number": 10,
+      "correctAnswer": "B",
+      "kind": "question",
+      "vi": "Mấy tối nay gió thổi rất mạnh.",
+      "evidence": {
+        "traditional": {
+          "chinese": "10. 這幾天晚上的風好大。",
+          "x": 90,
+          "y": 20,
+          "width": 402,
+          "height": 40,
+          "sourceWidth": 1169,
+          "sourceHeight": 444
+        },
+        "simplified": {
+          "chinese": "10. 这几天晚上的风好大。",
+          "x": 90,
+          "y": 20,
+          "width": 402,
+          "height": 40,
+          "sourceWidth": 1169,
+          "sourceHeight": 444
+        }
+      }
+    },
+    "reading-q11": {
+      "number": 11,
+      "correctAnswer": "B",
+      "kind": "question",
+      "vi": "Sau khi đọc xong thư, em gái thấy rất vui.",
+      "evidence": {
+        "traditional": {
+          "chinese": "11. 妹妹看完信以後，心情很愉快。",
+          "x": 82,
+          "y": 20,
+          "width": 536,
+          "height": 40,
+          "sourceWidth": 1169,
+          "sourceHeight": 348
+        },
+        "simplified": {
+          "chinese": "11. 妹妹看完信以后，心情很愉快。",
+          "x": 82,
+          "y": 20,
+          "width": 536,
+          "height": 40,
+          "sourceWidth": 1169,
+          "sourceHeight": 348
+        }
+      }
+    },
+    "reading-q12": {
+      "number": 12,
+      "correctAnswer": "B",
+      "kind": "question",
+      "vi": "Tháng sau cả nhà chúng tôi sẽ chuyển đến ngôi nhà có cây lớn trong sân.",
+      "evidence": {
+        "traditional": {
+          "chinese": "12． 我們全家下個月就要搬到院子裡有大樹的房子住了。",
+          "x": 80,
+          "y": 20,
+          "width": 835,
+          "height": 40,
+          "sourceWidth": 1169,
+          "sourceHeight": 341
+        },
+        "simplified": {
+          "chinese": "12. 我们全家下个月就要搬到院子里有大树的房子住了。",
+          "x": 78,
+          "y": 20,
+          "width": 837,
+          "height": 42,
+          "sourceWidth": 1169,
+          "sourceHeight": 341
+        }
+      }
+    },
+    "reading-q13": {
+      "number": 13,
+      "correctAnswer": "C",
+      "kind": "question",
+      "vi": "Vì mẹ sợ độ cao nên chưa từng leo núi cùng bố.",
+      "evidence": {
+        "traditional": {
+          "chinese": "13. 因為媽媽怕高，所以沒和爸爸一起爬過山。",
+          "x": 82,
+          "y": 20,
+          "width": 701,
+          "height": 40,
+          "sourceWidth": 1169,
+          "sourceHeight": 339
+        },
+        "simplified": {
+          "chinese": "13. 因为妈妈怕高，所以没和爸爸一起爬过山。",
+          "x": 82,
+          "y": 20,
+          "width": 699,
+          "height": 40,
+          "sourceWidth": 1169,
+          "sourceHeight": 339
+        }
+      }
+    },
+    "reading-q14": {
+      "number": 14,
+      "correctAnswer": "C",
+      "kind": "question",
+      "vi": "Họ hẹn sau giờ học gặp nhau trước cổng trường, rồi cùng đi chơi bóng.",
+      "evidence": {
+        "traditional": {
+          "chinese": "14. 他們約好下課以後，先在學校門口見面，再一起去打球。",
+          "x": 80,
+          "y": 20,
+          "width": 901,
+          "height": 40,
+          "sourceWidth": 1169,
+          "sourceHeight": 337
+        },
+        "simplified": {
+          "chinese": "14. 他们约好下课以后，先在学校门口见面，再一起去打球。",
+          "x": 80,
+          "y": 20,
+          "width": 899,
+          "height": 40,
+          "sourceWidth": 1169,
+          "sourceHeight": 337
+        }
+      }
+    },
+    "reading-q15": {
+      "number": 15,
+      "correctAnswer": "B",
+      "kind": "question",
+      "vi": "Tiểu Mỹ và bạn muốn đến trung tâm thương mại mua mũ, nhưng cuối cùng chỉ mua ít đồ ăn vặt rồi về.",
+      "evidence": {
+        "traditional": {
+          "chinese": "15. 小美和朋友想到百貨公司買帽子，可是最後只買了點心就離開了。",
+          "x": 82,
+          "y": 20,
+          "width": 1011,
+          "height": 42,
+          "sourceWidth": 1169,
+          "sourceHeight": 424
+        },
+        "simplified": {
+          "chinese": "15. 小美和朋友想到百货公司买帽子，可是最后只买了点心就离开了。",
+          "x": 77,
+          "y": 20,
+          "width": 1015,
+          "height": 42,
+          "sourceWidth": 1169,
+          "sourceHeight": 424
+        }
+      }
+    },
+    "reading-q16": {
+      "number": 16,
+      "correctAnswer": "C",
+      "kind": "answer",
+      "vi": "Có vài chú chim nhỏ đậu trên mái nhà.",
+      "evidence": {
+        "traditional": {
+          "chinese": "（C）幾隻小鳥停在屋子上面。",
+          "x": 559,
+          "y": 203,
+          "width": 436,
+          "height": 42,
+          "sourceWidth": 1169,
+          "sourceHeight": 328
+        },
+        "simplified": {
+          "chinese": "（C） 几只小鸟停在屋子上面。",
+          "x": 554,
+          "y": 203,
+          "width": 441,
+          "height": 47,
+          "sourceWidth": 1169,
+          "sourceHeight": 328
+        }
+      }
+    },
+    "reading-q17": {
+      "number": 17,
+      "correctAnswer": "A",
+      "kind": "answer",
+      "vi": "Ở đây có cây và một ngôi nhà.",
+      "evidence": {
+        "traditional": {
+          "chinese": "（A）這裡有樹和一間房子。",
+          "x": 559,
+          "y": 112,
+          "width": 402,
+          "height": 42,
+          "sourceWidth": 1169,
+          "sourceHeight": 329
+        },
+        "simplified": {
+          "chinese": "（A）这里有树和一间房子。",
+          "x": 554,
+          "y": 112,
+          "width": 407,
+          "height": 47,
+          "sourceWidth": 1169,
+          "sourceHeight": 329
+        }
+      }
+    },
+    "reading-q18": {
+      "number": 18,
+      "correctAnswer": "A",
+      "kind": "answer",
+      "vi": "Cô ấy đang nghỉ ngơi.",
+      "evidence": {
+        "traditional": {
+          "chinese": "（A）她正在休息。",
+          "x": 558,
+          "y": 114,
+          "width": 272,
+          "height": 42,
+          "sourceWidth": 1169,
+          "sourceHeight": 329
+        },
+        "simplified": {
+          "chinese": "（A）她正在休息。",
+          "x": 558,
+          "y": 114,
+          "width": 270,
+          "height": 42,
+          "sourceWidth": 1169,
+          "sourceHeight": 329
+        }
+      }
+    },
+    "reading-q19": {
+      "number": 19,
+      "correctAnswer": "B",
+      "kind": "answer",
+      "vi": "Cô gái tóc dài mặc váy.",
+      "evidence": {
+        "traditional": {
+          "chinese": "（B） 長頭髮的小姐穿裙子。",
+          "x": 558,
+          "y": 161,
+          "width": 402,
+          "height": 42,
+          "sourceWidth": 1169,
+          "sourceHeight": 329
+        },
+        "simplified": {
+          "chinese": "（B） 长头发的小姐穿裙子。",
+          "x": 558,
+          "y": 161,
+          "width": 402,
+          "height": 42,
+          "sourceWidth": 1169,
+          "sourceHeight": 329
+        }
+      }
+    },
+    "reading-q20": {
+      "number": 20,
+      "correctAnswer": "C",
+      "kind": "answer",
+      "vi": "Sau mười hai giờ có thể đến quán ăn nhỏ để ăn cơm.",
+      "evidence": {
+        "traditional": {
+          "chinese": "（C） 十二點以後可以去小吃店吃飯。",
+          "x": 556,
+          "y": 216,
+          "width": 536,
+          "height": 42,
+          "sourceWidth": 1169,
+          "sourceHeight": 479
+        },
+        "simplified": {
+          "chinese": "（C） 十二点以后可以去小吃店吃饭。",
+          "x": 556,
+          "y": 216,
+          "width": 536,
+          "height": 42,
+          "sourceWidth": 1169,
+          "sourceHeight": 479
+        }
+      }
+    },
+    "reading-q21": {
+      "number": 21,
+      "correctAnswer": "C",
+      "kind": "answer",
+      "vi": "Uống thuốc sau khi ăn cơm. Trên nhãn ghi uống ba lần mỗi ngày, mỗi lần hai viên.",
+      "evidence": {
+        "traditional": {
+          "chinese": "（C）先吃飯再吃藥。",
+          "x": 506,
+          "y": 284,
+          "width": 302,
+          "height": 40,
+          "sourceWidth": 1169,
+          "sourceHeight": 552
+        },
+        "simplified": {
+          "chinese": "（C） 先吃饭再吃药。",
+          "x": 540,
+          "y": 284,
+          "width": 300,
+          "height": 40,
+          "sourceWidth": 1169,
+          "sourceHeight": 570
+        }
+      }
+    },
+    "reading-q22": {
+      "number": 22,
+      "correctAnswer": "A",
+      "kind": "answer",
+      "vi": "Mua vé sau buổi trưa sẽ đắt hơn: vé buổi sáng 190 đồng, các suất từ trưa trở đi 250 đồng.",
+      "evidence": {
+        "traditional": {
+          "chinese": "（A）中午以後買票比較貴。",
+          "x": 506,
+          "y": 218,
+          "width": 404,
+          "height": 42,
+          "sourceWidth": 1169,
+          "sourceHeight": 565
+        },
+        "simplified": {
+          "chinese": "（A）中午以后买票比较贵。",
+          "x": 540,
+          "y": 216,
+          "width": 404,
+          "height": 48,
+          "sourceWidth": 1169,
+          "sourceHeight": 590
+        }
+      }
+    },
+    "reading-q23": {
+      "number": 23,
+      "correctAnswer": "B",
+      "kind": "answer",
+      "vi": "Hôm nay cô giáo này mặc váy.",
+      "evidence": {
+        "traditional": {
+          "chinese": "（B） 這位老師今天穿裙子。",
+          "x": 506,
+          "y": 244,
+          "width": 402,
+          "height": 42,
+          "sourceWidth": 1169,
+          "sourceHeight": 662
+        },
+        "simplified": {
+          "chinese": "（B） 这位老师今天穿裙子。",
+          "x": 540,
+          "y": 239,
+          "width": 402,
+          "height": 47,
+          "sourceWidth": 1169,
+          "sourceHeight": 618
+        }
+      }
+    },
+    "reading-q24": {
+      "number": 24,
+      "correctAnswer": "C",
+      "kind": "answer",
+      "vi": "Cậu bé đi phía trước cô bé.",
+      "evidence": {
+        "traditional": {
+          "chinese": "（C） 男孩走在女孩的前面。",
+          "x": 587,
+          "y": 214,
+          "width": 402,
+          "height": 42,
+          "sourceWidth": 1169,
+          "sourceHeight": 332
+        },
+        "simplified": {
+          "chinese": "（C） 男孩走在女孩的前面。",
+          "x": 578,
+          "y": 211,
+          "width": 411,
+          "height": 47,
+          "sourceWidth": 1169,
+          "sourceHeight": 332
+        }
+      }
+    },
+    "reading-q25": {
+      "number": 25,
+      "correctAnswer": "C",
+      "kind": "answer",
+      "vi": "Khách nữ này đã mua hai cốc nước ép trái cây.",
+      "evidence": {
+        "traditional": {
+          "chinese": "（C） 這位女客人買了兩杯果汁。",
+          "x": 589,
+          "y": 214,
+          "width": 466,
+          "height": 38,
+          "sourceWidth": 1169,
+          "sourceHeight": 332
+        },
+        "simplified": {
+          "chinese": "（C） 这位女客人买了两杯果汁。",
+          "x": 589,
+          "y": 214,
+          "width": 466,
+          "height": 38,
+          "sourceWidth": 1169,
+          "sourceHeight": 332
+        }
+      }
+    },
+    "reading-q26": {
+      "number": 26,
+      "correctAnswer": "B",
+      "kind": "answer",
+      "vi": "Ở đây một đêm tốn hơn hai trăm đồng.",
+      "evidence": {
+        "traditional": {
+          "chinese": "（B） 在這兒住一晚要兩百多塊。",
+          "x": 591,
+          "y": 166,
+          "width": 464,
+          "height": 40,
+          "sourceWidth": 1169,
+          "sourceHeight": 332
+        },
+        "simplified": {
+          "chinese": "（B） 在这儿住一晚要两百多块。",
+          "x": 591,
+          "y": 166,
+          "width": 464,
+          "height": 40,
+          "sourceWidth": 1169,
+          "sourceHeight": 332
+        }
+      }
+    },
+    "reading-q27": {
+      "number": 27,
+      "correctAnswer": "B",
+      "kind": "answer",
+      "vi": "Cô gái đang chờ xe cầm một túi trái cây.",
+      "evidence": {
+        "traditional": {
+          "chinese": "（B） 等車的小姐拿著一袋水果。",
+          "x": 591,
+          "y": 166,
+          "width": 464,
+          "height": 40,
+          "sourceWidth": 1169,
+          "sourceHeight": 332
+        },
+        "simplified": {
+          "chinese": "（B） 等车的小姐拿着一袋水果。",
+          "x": 588,
+          "y": 162,
+          "width": 470,
+          "height": 47,
+          "sourceWidth": 1169,
+          "sourceHeight": 332
+        }
+      }
+    },
+    "reading-q28": {
+      "number": 28,
+      "correctAnswer": "C",
+      "kind": "answer",
+      "vi": "Cửa hàng này còn bán quần dài và túi xách.",
+      "evidence": {
+        "traditional": {
+          "chinese": "（C） 這家店也賣褲子和皮包。",
+          "x": 587,
+          "y": 212,
+          "width": 436,
+          "height": 44,
+          "sourceWidth": 1169,
+          "sourceHeight": 468
+        },
+        "simplified": {
+          "chinese": "（C） 这家店也卖裤子和皮包。",
+          "x": 578,
+          "y": 211,
+          "width": 446,
+          "height": 52,
+          "sourceWidth": 1169,
+          "sourceHeight": 468
+        }
+      }
+    },
+    "reading-q29": {
+      "number": 29,
+      "correctAnswer": "B",
+      "kind": "answer",
+      "vi": "Lý Thiên Minh muốn tìm người nước ngoài để học tiếng Anh; thông báo cho biết anh ấy có thể dạy tiếng Trung.",
+      "evidence": {
+        "traditional": {
+          "chinese": "（B） 李天明要找外國人學英文。",
+          "x": 150,
+          "y": 589,
+          "width": 480,
+          "height": 52,
+          "sourceWidth": 1169,
+          "sourceHeight": 802
+        },
+        "simplified": {
+          "chinese": "（B） 李天明要找外国人学英文。",
+          "x": 150,
+          "y": 582,
+          "width": 480,
+          "height": 52,
+          "sourceWidth": 1169,
+          "sourceHeight": 795
+        }
+      }
+    },
+    "reading-q30": {
+      "number": 30,
+      "correctAnswer": "B",
+      "kind": "answer",
+      "vi": "Mỗi người có thể đi du lịch Hàn Quốc với giá chưa tới hai mươi nghìn đồng.",
+      "evidence": {
+        "traditional": {
+          "chinese": "（B） 一個人不到兩萬就可以去韓國旅行。",
+          "x": 160,
+          "y": 580,
+          "width": 601,
+          "height": 42,
+          "sourceWidth": 1169,
+          "sourceHeight": 968
+        },
+        "simplified": {
+          "chinese": "（B） 一个人不到两万就可以去韩国旅行。",
+          "x": 158,
+          "y": 673,
+          "width": 601,
+          "height": 42,
+          "sourceWidth": 1169,
+          "sourceHeight": 975
+        }
+      }
+    },
+    "reading-q31": {
+      "number": 31,
+      "correctAnswer": "C",
+      "kind": "question",
+      "vi": "Cô bé đeo kính đang đọc sách.",
+      "evidence": {
+        "traditional": {
+          "chinese": "（C）戴",
+          "x": 139,
+          "y": 826,
+          "width": 108,
+          "height": 42,
+          "sourceWidth": 1193,
+          "sourceHeight": 1784
+        },
+        "simplified": {
+          "chinese": "（C）戴",
+          "x": 139,
+          "y": 823,
+          "width": 110,
+          "height": 44,
+          "sourceWidth": 1193,
+          "sourceHeight": 1784
+        }
+      }
+    },
+    "reading-q32": {
+      "number": 32,
+      "correctAnswer": "B",
+      "kind": "question",
+      "vi": "Cô ấy vừa đọc sách vừa dùng đũa ăn mì.",
+      "evidence": {
+        "traditional": {
+          "chinese": "（B）用",
+          "x": 139,
+          "y": 986,
+          "width": 106,
+          "height": 44,
+          "sourceWidth": 1193,
+          "sourceHeight": 1784
+        },
+        "simplified": {
+          "chinese": "（B）用",
+          "x": 139,
+          "y": 989,
+          "width": 108,
+          "height": 39,
+          "sourceWidth": 1193,
+          "sourceHeight": 1784
+        }
+      }
+    },
+    "reading-q33": {
+      "number": 33,
+      "correctAnswer": "A",
+      "kind": "question",
+      "vi": "Bên cạnh cô bé có một chú chó.",
+      "evidence": {
+        "traditional": {
+          "chinese": "（A）旁邊",
+          "x": 139,
+          "y": 1149,
+          "width": 144,
+          "height": 43,
+          "sourceWidth": 1193,
+          "sourceHeight": 1784
+        },
+        "simplified": {
+          "chinese": "（A）旁边",
+          "x": 139,
+          "y": 1149,
+          "width": 144,
+          "height": 43,
+          "sourceWidth": 1193,
+          "sourceHeight": 1784
+        }
+      }
+    },
+    "reading-q34": {
+      "number": 34,
+      "correctAnswer": "A",
+      "kind": "question",
+      "vi": "Chú chó ấy đang ngủ.",
+      "evidence": {
+        "traditional": {
+          "chinese": "（A）在",
+          "x": 139,
+          "y": 1360,
+          "width": 110,
+          "height": 42,
+          "sourceWidth": 1193,
+          "sourceHeight": 1784
+        },
+        "simplified": {
+          "chinese": "（A）在",
+          "x": 139,
+          "y": 1360,
+          "width": 110,
+          "height": 42,
+          "sourceWidth": 1193,
+          "sourceHeight": 1784
+        }
+      }
+    },
+    "reading-q35": {
+      "number": 35,
+      "correctAnswer": "B",
+      "kind": "question",
+      "vi": "Cô bé và chú chó là bạn tốt.",
+      "evidence": {
+        "traditional": {
+          "chinese": "（B）跟",
+          "x": 139,
+          "y": 1619,
+          "width": 110,
+          "height": 39,
+          "sourceWidth": 1193,
+          "sourceHeight": 1784
+        },
+        "simplified": {
+          "chinese": "（B） 跟",
+          "x": 139,
+          "y": 1617,
+          "width": 110,
+          "height": 42,
+          "sourceWidth": 1193,
+          "sourceHeight": 1784
+        }
+      }
+    },
+    "reading-q36": {
+      "number": 36,
+      "correctAnswer": "B",
+      "kind": "question",
+      "vi": "Ngày 5 tháng 9 là sinh nhật của cô bé.",
+      "evidence": {
+        "traditional": {
+          "chinese": "（B） 生日",
+          "x": 164,
+          "y": 775,
+          "width": 140,
+          "height": 47,
+          "sourceWidth": 1193,
+          "sourceHeight": 1784
+        },
+        "simplified": {
+          "chinese": "（B） 生日",
+          "x": 164,
+          "y": 775,
+          "width": 140,
+          "height": 48,
+          "sourceWidth": 1193,
+          "sourceHeight": 1784
+        }
+      }
+    },
+    "reading-q37": {
+      "number": 37,
+      "correctAnswer": "A",
+      "kind": "question",
+      "vi": "Mọi người đều giúp cô bé tổ chức mừng sinh nhật.",
+      "evidence": {
+        "traditional": {
+          "chinese": "（A）幫",
+          "x": 165,
+          "y": 937,
+          "width": 108,
+          "height": 47,
+          "sourceWidth": 1193,
+          "sourceHeight": 1784
+        },
+        "simplified": {
+          "chinese": "（A）帮",
+          "x": 165,
+          "y": 937,
+          "width": 108,
+          "height": 47,
+          "sourceWidth": 1193,
+          "sourceHeight": 1784
+        }
+      }
+    },
+    "reading-q38": {
+      "number": 38,
+      "correctAnswer": "A",
+      "kind": "question",
+      "vi": "Cô bé nhận được rất nhiều quà.",
+      "evidence": {
+        "traditional": {
+          "chinese": "（A）收",
+          "x": 164,
+          "y": 1149,
+          "width": 114,
+          "height": 46,
+          "sourceWidth": 1193,
+          "sourceHeight": 1784
+        },
+        "simplified": {
+          "chinese": "（A） 收",
+          "x": 165,
+          "y": 1150,
+          "width": 113,
+          "height": 44,
+          "sourceWidth": 1193,
+          "sourceHeight": 1784
+        }
+      }
+    },
+    "reading-q39": {
+      "number": 39,
+      "correctAnswer": "C",
+      "kind": "question",
+      "vi": "Vì vậy hôm nay cô bé rất vui.",
+      "evidence": {
+        "traditional": {
+          "chinese": "（C）高興",
+          "x": 165,
+          "y": 1453,
+          "width": 144,
+          "height": 45,
+          "sourceWidth": 1193,
+          "sourceHeight": 1784
+        },
+        "simplified": {
+          "chinese": "（C） 高兴",
+          "x": 167,
+          "y": 1453,
+          "width": 139,
+          "height": 45,
+          "sourceWidth": 1193,
+          "sourceHeight": 1784
+        }
+      }
+    },
+    "reading-q40": {
+      "number": 40,
+      "correctAnswer": "A",
+      "kind": "question",
+      "vi": "Cô bé mong năm sau có thể đến Đức chơi.",
+      "evidence": {
+        "traditional": {
+          "chinese": "（A） 到",
+          "x": 165,
+          "y": 1570,
+          "width": 110,
+          "height": 42,
+          "sourceWidth": 1193,
+          "sourceHeight": 1784
+        },
+        "simplified": {
+          "chinese": "（A） 到",
+          "x": 165,
+          "y": 1570,
+          "width": 110,
+          "height": 42,
+          "sourceWidth": 1193,
+          "sourceHeight": 1784
+        }
+      }
+    },
+    "reading-q41": {
+      "number": 41,
+      "correctAnswer": "B",
+      "kind": "question",
+      "vi": "Tối qua tôi thấy không khỏe, hơi đau đầu nên đi ngủ sớm.",
+      "evidence": {
+        "traditional": {
+          "chinese": "（B） 頭有點兒痛",
+          "x": 170,
+          "y": 525,
+          "width": 255,
+          "height": 42,
+          "sourceWidth": 1193,
+          "sourceHeight": 1784
+        },
+        "simplified": {
+          "chinese": "（B） 头有点儿痛",
+          "x": 170,
+          "y": 525,
+          "width": 255,
+          "height": 42,
+          "sourceWidth": 1193,
+          "sourceHeight": 1784
+        }
+      }
+    },
+    "reading-q42": {
+      "number": 42,
+      "correctAnswer": "E",
+      "kind": "question",
+      "vi": "Sáng nay thức dậy, tôi thấy còn khó chịu hơn.",
+      "evidence": {
+        "traditional": {
+          "chinese": "（E） 更不舒服了",
+          "x": 173,
+          "y": 691,
+          "width": 250,
+          "height": 42,
+          "sourceWidth": 1193,
+          "sourceHeight": 1784
+        },
+        "simplified": {
+          "chinese": "（E） 更不舒服了",
+          "x": 173,
+          "y": 691,
+          "width": 250,
+          "height": 42,
+          "sourceWidth": 1193,
+          "sourceHeight": 1784
+        }
+      }
+    },
+    "reading-q43": {
+      "number": 43,
+      "correctAnswer": "A",
+      "kind": "question",
+      "vi": "Bác sĩ cho tôi thuốc và dặn tôi nghỉ ngơi, uống nhiều nước để mau khỏe.",
+      "evidence": {
+        "traditional": {
+          "chinese": "（A） 還告訴我",
+          "x": 170,
+          "y": 469,
+          "width": 225,
+          "height": 47,
+          "sourceWidth": 1193,
+          "sourceHeight": 1784
+        },
+        "simplified": {
+          "chinese": "（A）还告诉我",
+          "x": 170,
+          "y": 468,
+          "width": 227,
+          "height": 44,
+          "sourceWidth": 1193,
+          "sourceHeight": 1784
+        }
+      }
+    },
+    "reading-q44": {
+      "number": 44,
+      "correctAnswer": "C",
+      "kind": "question",
+      "vi": "Mấy ngày nay lúc nóng lúc lạnh nên rất dễ bị ốm.",
+      "evidence": {
+        "traditional": {
+          "chinese": "（C） 很容易生病",
+          "x": 167,
+          "y": 579,
+          "width": 258,
+          "height": 45,
+          "sourceWidth": 1193,
+          "sourceHeight": 1784
+        },
+        "simplified": {
+          "chinese": "（C） 很容易生病",
+          "x": 170,
+          "y": 579,
+          "width": 255,
+          "height": 45,
+          "sourceWidth": 1193,
+          "sourceHeight": 1784
+        }
+      }
+    },
+    "reading-q45": {
+      "number": 45,
+      "correctAnswer": "F",
+      "kind": "question",
+      "vi": "Tôi phải chú ý chăm sóc sức khỏe hơn để không bị cảm lại.",
+      "evidence": {
+        "traditional": {
+          "chinese": "（F） 多注意自己的身體",
+          "x": 173,
+          "y": 743,
+          "width": 356,
+          "height": 44,
+          "sourceWidth": 1193,
+          "sourceHeight": 1784
+        },
+        "simplified": {
+          "chinese": "（F） 多注意自己的身体",
+          "x": 173,
+          "y": 743,
+          "width": 354,
+          "height": 44,
+          "sourceWidth": 1193,
+          "sourceHeight": 1784
+        }
+      }
+    },
+    "reading-q46": {
+      "number": 46,
+      "correctAnswer": "D",
+      "kind": "answer",
+      "vi": "Một cuộc khảo sát cho thấy nhiều nhân viên không dám xin nghỉ khi bị ốm vì sợ sếp không vui và cho rằng họ thiếu trách nhiệm. Có người cho rằng đây là trách nhiệm của công ty: một công ty tốt nên chăm lo cho nhân viên, thay vì để họ đánh đổi sức khỏe lấy tiền. Vì thế, giúp nhân viên cảm thấy hạnh phúc nên là mục tiêu của các doanh nghiệp sau này. Đáp án: Chăm sóc sức khỏe quan trọng hơn chỉ chăm làm việc.",
+      "evidence": {
+        "traditional": {
+          "chinese": "（D）照顧身體比認真工作更重要",
+          "x": 92,
+          "y": 558,
+          "width": 484,
+          "height": 40,
+          "sourceWidth": 1193,
+          "sourceHeight": 848
+        },
+        "simplified": {
+          "chinese": "（D）照顾身体比认真工作更重要",
+          "x": 92,
+          "y": 558,
+          "width": 486,
+          "height": 40,
+          "sourceWidth": 1193,
+          "sourceHeight": 848
+        }
+      }
+    },
+    "reading-q47": {
+      "number": 47,
+      "correctAnswer": "A",
+      "kind": "answer",
+      "vi": "Nếu ngày nào bạn cũng thấy mệt, một báo cáo có thể giúp tìm ra nguyên nhân. Báo cáo nêu ra các khả năng như ít vận động, uống không đủ nước, hay nghĩ theo chiều hướng xấu, bỏ bữa sáng và ăn nhiều thức ăn thiếu dinh dưỡng. Chỉ cần xem mình có những thói quen nào trong số đó rồi thử thay đổi, bạn sẽ có thể khỏe hơn. Đáp án: Nên tạo thói quen vận động.",
+      "evidence": {
+        "traditional": {
+          "chinese": "（A） 要培養運動的好習慣",
+          "x": 102,
+          "y": 390,
+          "width": 388,
+          "height": 40,
+          "sourceWidth": 1193,
+          "sourceHeight": 906
+        },
+        "simplified": {
+          "chinese": "（A） 要培养运动的好习惯",
+          "x": 100,
+          "y": 390,
+          "width": 390,
+          "height": 42,
+          "sourceWidth": 1193,
+          "sourceHeight": 906
+        }
+      }
+    },
+    "reading-q48": {
+      "number": 48,
+      "correctAnswer": "B",
+      "kind": "answer",
+      "vi": "Ngày xưa, một nơi rất lâu không có mưa. Người dân cầu mưa mãi không được nên mời một ông lão thông thái từ xa đến. Ông đi quan sát quanh vùng, rồi nhờ dựng một căn nhà nhỏ để ở một mình trong ba ngày và không gặp ai. Ba ngày sau trời thực sự đổ mưa. Khi được hỏi cách làm, ông đáp rằng khi lòng mình yên tĩnh thì bên ngoài cũng trở nên yên tĩnh. Đáp án: Muốn thay đổi hoàn cảnh, trước tiên hãy thay đổi tâm trạng.",
+      "evidence": {
+        "traditional": {
+          "chinese": "（B）想改變環境，就先改變心情",
+          "x": 84,
+          "y": 521,
+          "width": 486,
+          "height": 42,
+          "sourceWidth": 1193,
+          "sourceHeight": 955
+        },
+        "simplified": {
+          "chinese": "（B）想改变环境，就先改变心情",
+          "x": 86,
+          "y": 521,
+          "width": 484,
+          "height": 40,
+          "sourceWidth": 1193,
+          "sourceHeight": 955
+        }
+      }
+    },
+    "reading-q49": {
+      "number": 49,
+      "correctAnswer": "C",
+      "kind": "answer",
+      "vi": "Mỗi người có cách nghĩ, cách sử dụng và mức độ coi trọng tiền bạc khác nhau. Có người nói tiền không có tính cách riêng; nó vào tay ai thì mang dáng dấp của người ấy. Vì quan điểm khác nhau, người ta chọn lối sống khác nhau: có người làm việc chăm chỉ, ít tiêu tiền để số dư ngân hàng tăng lên; người khác thấy tiền chỉ cần đủ dùng, vì thời gian của mình cũng có giá trị. Đáp án: Ai cũng có quan điểm riêng về tiền.",
+      "evidence": {
+        "traditional": {
+          "chinese": "（C）人人有自己對錢的看法",
+          "x": 83,
+          "y": 537,
+          "width": 420,
+          "height": 48,
+          "sourceWidth": 1193,
+          "sourceHeight": 799
+        },
+        "simplified": {
+          "chinese": "（C）人人有自己对钱的看法",
+          "x": 84,
+          "y": 541,
+          "width": 418,
+          "height": 44,
+          "sourceWidth": 1193,
+          "sourceHeight": 799
+        }
+      }
+    },
+    "reading-q50": {
+      "number": 50,
+      "correctAnswer": "A",
+      "kind": "answer",
+      "vi": "Trước đây, trước cửa rạp chiếu phim thường có biển yêu cầu khán giả không mang đồ ăn mua bên ngoài vào; nếu muốn ăn thì phải mua ở rạp. Sau đó, tin tức cho rằng khán giả có thể từ chối tuân theo quy định ấy. Tác giả nghĩ yêu cầu của rạp không phải vô lý, vì rạp phải dọn rác sau buổi chiếu. Hơn nữa, thức ăn có mùi lạ có thể làm phiền những người xem phim khác. Đáp án: Nên tránh ăn những món có mùi đặc biệt trong rạp.",
+      "evidence": {
+        "traditional": {
+          "chinese": "（A）應該要避免吃有特別味道的東西",
+          "x": 83,
+          "y": 472,
+          "width": 551,
+          "height": 44,
+          "sourceWidth": 1193,
+          "sourceHeight": 1753
+        },
+        "simplified": {
+          "chinese": "（A）应该要避免吃有特别味道的东西",
+          "x": 83,
+          "y": 472,
+          "width": 551,
+          "height": 44,
+          "sourceWidth": 1193,
+          "sourceHeight": 1753
+        }
+      }
+    }
+  }
+}

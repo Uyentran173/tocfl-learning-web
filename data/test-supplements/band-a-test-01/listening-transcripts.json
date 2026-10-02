@@ -1,0 +1,308 @@
+{
+  "schemaVersion": "1.0",
+  "examId": "band-a-test-01",
+  "componentId": "listening",
+  "source": "Official supplied listening script PDF",
+  "questions": [
+    {
+      "questionId": "listening-q01",
+      "number": 1,
+      "traditional": "他們在哪裡？\n(A)\n銀行\n(B)\n教室\n(C)\n郵局",
+      "simplified": "他们在哪里？\n(A)\n银行\n(B)\n教室\n(C)\n邮局"
+    },
+    {
+      "questionId": "listening-q02",
+      "number": 2,
+      "traditional": "窗戶怎麼了？\n(A)\n窗戶破了\n(B)\n窗戶打開了\n(C)\n窗戶不見了",
+      "simplified": "窗户怎么了？\n(A)\n窗户破了\n(B)\n窗户打开了\n(C)\n窗户不见了"
+    },
+    {
+      "questionId": "listening-q03",
+      "number": 3,
+      "traditional": "書桌上有幾本書？\n(A)\n桌子上有兩本書\n(B)\n桌子上有四本書\n(C)\n桌子上有十本書",
+      "simplified": "书桌上有几本书？\n(A)\n桌子上有两本书\n(B)\n桌子上有四本书\n(C)\n桌子上有十本书"
+    },
+    {
+      "questionId": "listening-q04",
+      "number": 4,
+      "traditional": "圖片裡有什麼？\n(A)\n一碗麵\n(B)\n一碗飯\n(C)\n一碗湯",
+      "simplified": "图片里有什么？\n(A)\n一碗面\n(B)\n一碗饭\n(C)\n一碗汤"
+    },
+    {
+      "questionId": "listening-q05",
+      "number": 5,
+      "traditional": "這個人在做什麼？\n(A)\n打籃球\n(B)\n打網球\n(C)\n打棒球",
+      "simplified": "这个人在做什么？\n(A)\n打篮球\n(B)\n打网球\n(C)\n打棒球"
+    },
+    {
+      "questionId": "listening-q06",
+      "number": 6,
+      "traditional": "這位學生怎麼了？\n(A)\n她在哭\n(B)\n她在笑\n(C)\n她在說話",
+      "simplified": "这位学生怎么了？\n(A)\n她在哭\n(B)\n她在笑\n(C)\n她在说话"
+    },
+    {
+      "questionId": "listening-q07",
+      "number": 7,
+      "traditional": "牆上有什麼？\n(A)\n牆上有花\n(B)\n牆上有窗\n(C)\n牆上有畫",
+      "simplified": "墙上有什么？\n(A)\n墙上有花\n(B)\n墙上有窗\n(C)\n墙上有画"
+    },
+    {
+      "questionId": "listening-q08",
+      "number": 8,
+      "traditional": "小張在哪裡？\n(A)\n他在餐廳\n(B)\n他在書店\n(C)\n他在辦公室",
+      "simplified": "小张在哪里？\n(A)\n他在餐厅\n(B)\n他在书店\n(C)\n他在办公室"
+    },
+    {
+      "questionId": "listening-q09",
+      "number": 9,
+      "traditional": "這位先生正在做什麼？\n(A)\n他正在買菜\n(B)\n他正在煮飯\n(C)\n他正在洗衣服",
+      "simplified": "这位先生正在做什么？\n(A)\n他正在买菜\n(B)\n他正在煮饭\n(C)\n他正在洗衣服"
+    },
+    {
+      "questionId": "listening-q10",
+      "number": 10,
+      "traditional": "圖片裡的天氣怎麼樣？\n(A)\n下雨\n(B)\n下雪\n(C)\n晴天",
+      "simplified": "图片里的天气怎么样？\n(A)\n下雨\n(B)\n下雪\n(C)\n晴天"
+    },
+    {
+      "questionId": "listening-q11",
+      "number": 11,
+      "traditional": "他們正在做什麼？\n(A)\n他們正在看電影\n(B)\n他們正在看報紙\n(C)\n他們正在唱歌兒",
+      "simplified": "他们正在做什么？\n(A)\n他们正在看电影\n(B)\n他们正在看报纸\n(C)\n他们正在唱歌儿"
+    },
+    {
+      "questionId": "listening-q12",
+      "number": 12,
+      "traditional": "王小明怎麼去學校？\n(A)\n他開車\n(B)\n他走路\n(C)\n他騎腳踏車",
+      "simplified": "王小明怎么去学校？\n(A)\n他开车\n(B)\n他走路\n(C)\n他骑脚踏车"
+    },
+    {
+      "questionId": "listening-q13",
+      "number": 13,
+      "traditional": "媽媽買了什麼？\n(A)\n幾雙鞋子\n(B)\n幾件衣服\n(C)\n幾雙襪子",
+      "simplified": "妈妈买了什么？\n(A)\n几双鞋子\n(B)\n几件衣服\n(C)\n几双袜子"
+    },
+    {
+      "questionId": "listening-q14",
+      "number": 14,
+      "traditional": "書包旁邊有什麼？\n(A)\n一本書\n(B)\n一枝筆\n(C)\n一張紙",
+      "simplified": "书包旁边有什么？\n(A)\n一本书\n(B)\n一枝笔\n(C)\n一张纸"
+    },
+    {
+      "questionId": "listening-q15",
+      "number": 15,
+      "traditional": "學生們怎麼上課？\n(A)\n他們用電話上課\n(B)\n他們用電視上課\n(C)\n他們用電腦上課",
+      "simplified": "学生们怎么上课？\n(A)\n他们用电话上课\n(B)\n他们用电视上课\n(C)\n他们用电脑上课"
+    },
+    {
+      "questionId": "listening-q16",
+      "number": 16,
+      "traditional": "月華的工作是什麼？\n(A)\n她是警察\n(B)\n她是醫生\n(C)\n她是老師",
+      "simplified": "月华的工作是什么？\n(A)\n她是警察\n(B)\n她是医生\n(C)\n她是老师"
+    },
+    {
+      "questionId": "listening-q17",
+      "number": 17,
+      "traditional": "老李在喝什麼？\n(A)\n他在喝酒\n(B)\n他在喝茶\n(C)\n他在喝咖啡",
+      "simplified": "老李在喝什么？\n(A)\n他在喝酒\n(B)\n他在喝茶\n(C)\n他在喝咖啡"
+    },
+    {
+      "questionId": "listening-q18",
+      "number": 18,
+      "traditional": "大華正在做什麼？\n(A)\n他正在讀書\n(B)\n他正在寫字\n(C)\n他正在聽音樂",
+      "simplified": "大华正在做什么？\n(A)\n他正在读书\n(B)\n他正在写字\n(C)\n他正在听音乐"
+    },
+    {
+      "questionId": "listening-q19",
+      "number": 19,
+      "traditional": "這三個小孩哪個最高？\n(A)\n他們一樣高\n(B)\n穿短褲的女孩最高\n(C)\n穿長褲的男孩最高",
+      "simplified": "这三个小孩哪个最高？\n(A)\n他们一样高\n(B)\n穿短裤的女孩最高\n(C)\n穿长裤的男孩最高"
+    },
+    {
+      "questionId": "listening-q20",
+      "number": 20,
+      "traditional": "小天家裡還有哪些人？\n(A)\n他家裡有爺爺和爸爸\n(B)\n他家裡有奶奶和媽媽\n(C)\n他家裡有媽媽和爸爸",
+      "simplified": "小天家里还有哪些人？\n(A)\n他家里有爷爷和爸爸\n(B)\n他家里有奶奶和妈妈\n(C)\n他家里有妈妈和爸爸"
+    },
+    {
+      "questionId": "listening-q21",
+      "number": 21,
+      "traditional": "這裡有什麼水果？\n(A)\n西瓜和蘋果\n(B)\n香蕉和西瓜\n(C)\n蘋果和香蕉",
+      "simplified": "这里有什么水果？\n(A)\n西瓜和苹果\n(B)\n香蕉和西瓜\n(C)\n苹果和香蕉"
+    },
+    {
+      "questionId": "listening-q22",
+      "number": 22,
+      "traditional": "請問，筆在哪兒？\n(A)\n筆在電腦前面\n(B)\n筆在紙的下面\n(C)\n筆在桌子上面",
+      "simplified": "请问，笔在哪儿？\n(A)\n笔在电脑前面\n(B)\n笔在纸的下面\n(C)\n笔在桌子上面"
+    },
+    {
+      "questionId": "listening-q23",
+      "number": 23,
+      "traditional": "今天天氣怎麼樣？\n(A)\n今天雨很大，風也很大\n(B)\n今天風很大，太陽也很大\n(C)\n今天太陽很大，雨也很大",
+      "simplified": "今天天气怎么样？\n(A)\n今天雨很大，风也很大\n(B)\n今天风很大，太阳也很大\n(C)\n今天太阳很大，雨也很大"
+    },
+    {
+      "questionId": "listening-q24",
+      "number": 24,
+      "traditional": "美美買了什麼？\n(A)\n美美買了皮包和包子\n(B)\n美美買了鞋子和皮包\n(C)\n美美買了包子和鞋子",
+      "simplified": "美美买了什么？\n(A)\n美美买了皮包和包子\n(B)\n美美买了鞋子和皮包\n(C)\n美美买了包子和鞋子"
+    },
+    {
+      "questionId": "listening-q25",
+      "number": 25,
+      "traditional": "小明正在做什麼？\n(A)\n他正在醫院看病\n(B)\n他正在網路掛號\n(C)\n他正在藥房拿藥",
+      "simplified": "小明正在做什么？\n(A)\n他正在医院看病\n(B)\n他正在网路挂号\n(C)\n他正在药房拿药"
+    },
+    {
+      "questionId": "listening-q26",
+      "number": 26,
+      "traditional": "男\n老師，我們這次旅行要帶什麼？\n女\n那裡很冷，帶件外套吧！",
+      "simplified": "男\n老师，我们这次旅行要带什么？\n女\n那里很冷，带件外套吧！"
+    },
+    {
+      "questionId": "listening-q27",
+      "number": 27,
+      "traditional": "男\n我們去唱歌，好嗎？\n女\n我牙齒好痛，我不想去。",
+      "simplified": "男\n我们去唱歌，好吗？\n女\n我牙齿好痛，我不想去。"
+    },
+    {
+      "questionId": "listening-q28",
+      "number": 28,
+      "traditional": "男\n你覺得桌子放在哪兒比較好呢？\n女\n放在窗戶前面吧！那兒比較亮。",
+      "simplified": "男\n你觉得桌子放在哪儿比较好呢？\n女\n放在窗户前面吧！那儿比较亮。"
+    },
+    {
+      "questionId": "listening-q29",
+      "number": 29,
+      "traditional": "男\n這個週末，你想去哪兒玩？\n女\n天氣那麼熱，我想去海邊走走。",
+      "simplified": "男\n这个周末，你想去哪儿玩？\n女\n天气那么热，我想去海边走走。"
+    },
+    {
+      "questionId": "listening-q30",
+      "number": 30,
+      "traditional": "女\n昨天阿姨拿來的那件衣服怎麼樣？\n男\n太小了。",
+      "simplified": "女\n昨天阿姨拿来的那件衣服怎么样？\n男\n太小了。"
+    },
+    {
+      "questionId": "listening-q31",
+      "number": 31,
+      "traditional": "男\n王小美長得怎麼樣？\n女\n她的頭髮長長的，戴眼鏡。",
+      "simplified": "男\n王小美长得怎么样？\n女\n她的头发长长的，戴眼镜。"
+    },
+    {
+      "questionId": "listening-q32",
+      "number": 32,
+      "traditional": "男\n請問火車站怎麼走?\n女\n你一直往前走，車站在你的右邊。",
+      "simplified": "男\n请问火车站怎么走?\n女\n你一直往前走，车站在你的右边。"
+    },
+    {
+      "questionId": "listening-q33",
+      "number": 33,
+      "traditional": "男\n您好，現在買兩個漢堡，就送牛奶，請問您要點什麼呢？\n女\n我要兩個漢堡，還有，我要冰牛奶喔，謝謝！",
+      "simplified": "男\n您好，现在买两个汉堡，就送牛奶，请问您要点什么呢？\n女\n我要两个汉堡，还有，我要冰牛奶喔，谢谢！"
+    },
+    {
+      "questionId": "listening-q34",
+      "number": 34,
+      "traditional": "男\n新年快到了，你打算做什麼？\n女\n我要去公園聽音樂會，一起來吧！",
+      "simplified": "男\n新年快到了，你打算做什么？\n女\n我要去公园听音乐会，一起来吧！"
+    },
+    {
+      "questionId": "listening-q35",
+      "number": 35,
+      "traditional": "男\n小姐，這件衣服是九百元，請問您還要買別的東西嗎？\n女\n嗯，還有我手上這一件。",
+      "simplified": "男\n小姐，这件衣服是九百元，请问您还要买别的东西吗？\n女\n嗯，还有我手上这一件。"
+    },
+    {
+      "questionId": "listening-q36",
+      "number": 36,
+      "traditional": "男\n咦？你怎麼在醫院呢？\n女\n我妹妹生了一個兒子，我來看他們。",
+      "simplified": "男\n咦？你怎么在医院呢？\n女\n我妹妹生了一个儿子，我来看他们。"
+    },
+    {
+      "questionId": "listening-q37",
+      "number": 37,
+      "traditional": "男\n聽說上個月你跟你的家人一起去旅行？\n女\n不，我是自己一個人去的。",
+      "simplified": "男\n听说上个月你跟你的家人一起去旅行？\n女\n不，我是自己一个人去的。"
+    },
+    {
+      "questionId": "listening-q38",
+      "number": 38,
+      "traditional": "男\n我的朋友這個週末要來找我，我可以帶他們去哪裡玩呢？\n女\n你可以帶他們到棒球場，坐240號公車很快就到了。",
+      "simplified": "男\n我的朋友这个周末要来找我，我可以带他们去哪里玩呢？\n女\n你可以带他们到棒球场，坐240号公车很快就到了。"
+    },
+    {
+      "questionId": "listening-q39",
+      "number": 39,
+      "traditional": "男\n我要去機場，請問應該怎麼去？\n女\n你可以坐地鐵，前面就有地鐵站。",
+      "simplified": "男\n我要去机场，请问应该怎么去？\n女\n你可以坐地铁，前面就有地铁站。"
+    },
+    {
+      "questionId": "listening-q40",
+      "number": 40,
+      "traditional": "男\n這件外套要五百元嗎？\n女\n沒那麼貴。",
+      "simplified": "男\n这件外套要五百元吗？\n女\n没那么贵。"
+    },
+    {
+      "questionId": "listening-q41",
+      "number": 41,
+      "traditional": "男\n這件褲子有大一點兒的嗎？\n女\n黑色40號，好嗎？\n男\n好，我可以試試嗎？\n女\n可以，請到這裡來。\n男\n請問他們現在在哪裡？",
+      "simplified": "男\n这件裤子有大一点儿的吗？\n女\n黑色40号，好吗？\n男\n好，我可以试试吗？\n女\n可以，请到这里来。\n男\n请问他们现在在哪里？"
+    },
+    {
+      "questionId": "listening-q42",
+      "number": 42,
+      "traditional": "男\n你好，我想找王老師上課用的書，請問這本書圖書館有嗎？\n女\n等一下，我上網看看。這本書兩個禮拜以前已經被借走了。\n男\n那怎麼辦？我還可以去哪裡借這本書？\n女\n我想你現在只能去學校的書店買了。\n男\n請問這位小姐認為男同學應該去哪裡找書？",
+      "simplified": "男\n你好，我想找王老师上课用的书，请问这本书图书馆有吗？\n女\n等一下，我上网看看。这本书两个礼拜以前已经被借走了。\n男\n那怎么办？我还可以去哪里借这本书？\n女\n我想你现在只能去学校的书店买了。\n男\n请问这位小姐认为男同学应该去哪里找书？"
+    },
+    {
+      "questionId": "listening-q43",
+      "number": 43,
+      "traditional": "男\n您好，請問有什麼事嗎？\n女\n你好，這張紙上寫著現在學游泳，比較便宜。\n男\n是的，星期一到星期五的早上比較便宜。但是晚上來學，就和平常一樣\n了。\n女\n我知道了，我可以白天來上課。\n男\n請問什麼時候學游泳比較便宜？",
+      "simplified": "男\n您好，请问有什么事吗？\n女\n你好，这张纸上写着现在学游泳，比较便宜。\n男\n是的，星期一到星期五的早上比较便宜。但是晚上来学，就和平常一样\n了。\n女\n我知道了，我可以白天来上课。\n男\n请问什么时候学游泳比较便宜？"
+    },
+    {
+      "questionId": "listening-q44",
+      "number": 44,
+      "traditional": "男\n老師，明天我們在哪裡上課？\n女\n明天我們要上網，所以要去電腦教室上課。\n男\n電腦教室怎麼走？\n女\n電腦教室就在圖書館樓上。\n男\n請問電腦教室在哪裡？",
+      "simplified": "男\n老师，明天我们在哪里上课？\n女\n明天我们要上网，所以要去电脑教室上课。\n男\n电脑教室怎么走？\n女\n电脑教室就在图书馆楼上。\n男\n请问电脑教室在哪里？"
+    },
+    {
+      "questionId": "listening-q45",
+      "number": 45,
+      "traditional": "男\n請問十點二十分的火車開了嗎？\n女\n現在都二十五分了，早就開了。\n男\n幾點還有車？\n女\n二十分鐘以後就有車了。\n男\n請問這位先生可以坐什麼時候的火車？",
+      "simplified": "男\n请问十点二十分的火车开了吗？\n女\n现在都二十五分了，早就开了。\n男\n几点还有车？\n女\n二十分钟以后就有车了。\n男\n请问这位先生可以坐什么时候的火车？"
+    },
+    {
+      "questionId": "listening-q46",
+      "number": 46,
+      "traditional": "男\n媽，你看見我的課本嗎？\n女\n書桌那裡沒有嗎？\n男\n找過了，都沒有。等一下就要上課了，真糟糕。\n女\n不是放在書桌上，就是跟字典放在一起，你去看看。\n男\n這位太太的意思是什麼？",
+      "simplified": "男\n妈，你看见我的课本吗？\n女\n书桌那里没有吗？\n男\n找过了，都没有。等一下就要上课了，真糟糕。\n女\n不是放在书桌上，就是跟字典放在一起，你去看看。\n男\n这位太太的意思是什么？"
+    },
+    {
+      "questionId": "listening-q47",
+      "number": 47,
+      "traditional": "男\n好久沒來這裡了，變了好多喔。\n女\n以前這裡是漂亮的風景，現在這裡到處都是人。\n男\n人多不好嗎？\n女\n我喜歡安靜的環境。\n男\n這位小姐最後的意思是什麼？",
+      "simplified": "男\n好久没来这里了，变了好多喔。\n女\n以前这里是漂亮的风景，现在这里到处都是人。\n男\n人多不好吗？\n女\n我喜欢安静的环境。\n男\n这位小姐最后的意思是什么？"
+    },
+    {
+      "questionId": "listening-q48",
+      "number": 48,
+      "traditional": "男\n為什麼我買給妳的裙子，妳一件都沒穿過？\n女\n如果是在生小孩以前，我應該~都會穿。\n男\n妳又沒變胖，現在穿也一樣好看啊！\n女\n穿褲子比較方便照顧小孩。\n男\n這位小姐的意思是什麼？",
+      "simplified": "男\n为什么我买给妳的裙子，妳一件都没穿过？\n女\n如果是在生小孩以前，我应该~都会穿。\n男\n妳又没变胖，现在穿也一样好看啊！\n女\n穿裤子比较方便照顾小孩。\n男\n这位小姐的意思是什么？"
+    },
+    {
+      "questionId": "listening-q49",
+      "number": 49,
+      "traditional": "男\n請進，有什麼事嗎？\n女\n老闆，我最近總是覺得很累、很不舒服。我想請假。\n男\n妳想請多久呢？\n女\n如果可以的話，我想請一個月；但是如果不行，兩個星期也可以。\n男\n這位小姐希望老闆答應她什麼事？",
+      "simplified": "男\n请进，有什么事吗？\n女\n老板，我最近总是觉得很累、很不舒服。我想请假。\n男\n妳想请多久呢？\n女\n如果可以的话，我想请一个月；但是如果不行，两个星期也可以。\n男\n这位小姐希望老板答应她什么事？"
+    },
+    {
+      "questionId": "listening-q50",
+      "number": 50,
+      "traditional": "男\n喂，媽，請寄一些錢給我，我要買衣服。\n女\n衣服不是都帶去了嗎？為什麼還要買？\n男\n我變胖了，那些衣服都穿不下了。\n女\n你才去念了半年的書就變胖了，我想那裡的東西一定很好吃。\n男\n這個兒子打電話跟母親說什麼？",
+      "simplified": "男\n喂，妈，请寄一些钱给我，我要买衣服。\n女\n衣服不是都带去了吗？为什么还要买？\n男\n我变胖了，那些衣服都穿不下了。\n女\n你才去念了半年的书就变胖了，我想那里的东西一定很好吃。\n男\n这个儿子打电话跟母亲说什么？"
+    }
+  ]
+}

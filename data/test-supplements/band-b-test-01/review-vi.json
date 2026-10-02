@@ -1,0 +1,1507 @@
+{
+  "testId": "band-b-test-01",
+  "listening": {
+    "listening-q01": {
+      "evidenceTraditional": "到高雄大概要五個小時",
+      "vi": "Đến Cao Hùng mất khoảng năm giờ."
+    },
+    "listening-q02": {
+      "evidenceTraditional": "房東要把房子賣了",
+      "vi": "Chủ nhà sắp bán căn nhà đó."
+    },
+    "listening-q03": {
+      "evidenceTraditional": "找了比較遠的地方停車",
+      "vi": "Cô ấy phải tìm chỗ đỗ xe xa hơn."
+    },
+    "listening-q04": {
+      "evidenceTraditional": "昨天玩得太累了",
+      "vi": "Hôm qua cô ấy đi chơi quá mệt nên hôm nay muốn nghỉ ở nhà."
+    },
+    "listening-q05": {
+      "evidenceTraditional": "差不多一年一次",
+      "vi": "Cô ấy đi du lịch khoảng một lần mỗi năm."
+    },
+    "listening-q06": {
+      "evidenceTraditional": "還是寫不出來",
+      "vi": "Cô ấy vẫn chưa viết được bài tập."
+    },
+    "listening-q07": {
+      "evidenceTraditional": "哪來的錢呢",
+      "vi": "Cô ấy cho rằng họ không có tiền để mua xe."
+    },
+    "listening-q08": {
+      "evidenceTraditional": "我對做菜一直很有興趣",
+      "vi": "Cô ấy luôn thích nấu ăn."
+    },
+    "listening-q09": {
+      "evidenceTraditional": "我早就準備好了",
+      "vi": "Cô ấy đã chuẩn bị cho kỳ thi từ trước."
+    },
+    "listening-q10": {
+      "evidenceTraditional": "雨越下越大",
+      "vi": "Mưa càng lúc càng lớn."
+    },
+    "listening-q11": {
+      "evidenceTraditional": "語法好難懂",
+      "vi": "Anh ấy thấy ngữ pháp rất khó hiểu."
+    },
+    "listening-q12": {
+      "evidenceTraditional": "可不可以過兩天再還",
+      "vi": "Cô ấy muốn trả sách muộn thêm hai ngày."
+    },
+    "listening-q13": {
+      "evidenceTraditional": "吃一點兒蛋糕也沒關係",
+      "vi": "Cô ấy đồng ý ăn một chút bánh kem."
+    },
+    "listening-q14": {
+      "evidenceTraditional": "我喜歡這支手錶",
+      "vi": "Cô ấy thích chiếc đồng hồ được tặng."
+    },
+    "listening-q15": {
+      "evidenceTraditional": "念書念不了幾頁，就想出去玩",
+      "vi": "Mới học được vài trang, Tiểu Minh đã muốn ra ngoài chơi."
+    },
+    "listening-q16": {
+      "evidenceTraditional": "公司對我們很好",
+      "vi": "Công ty đối xử với nhân viên rất tốt."
+    },
+    "listening-q17": {
+      "evidenceTraditional": "你先去檢查比較好",
+      "vi": "Cô ấy khuyên anh ấy đi khám trước."
+    },
+    "listening-q18": {
+      "evidenceTraditional": "拿這些錢去住老人照顧中\n心",
+      "vi": "Khi về già, cô ấy định dùng tiền hưu trí để ở trung tâm chăm sóc người cao tuổi."
+    },
+    "listening-q19": {
+      "evidenceTraditional": "所有食物任你選，讓你吃到飽",
+      "vi": "Ở nhà hàng này, khách có thể tự chọn món và ăn thỏa thích."
+    },
+    "listening-q20": {
+      "evidenceTraditional": "光修理的費用就能買一部新的電視",
+      "vi": "Tiền sửa chiếc tivi cũ đã đủ để mua một chiếc mới."
+    },
+    "listening-q21": {
+      "evidenceTraditional": "我有很多舊衣服，這些衣服已經不穿了",
+      "vi": "Cô ấy có nhiều quần áo cũ không còn mặc nữa."
+    },
+    "listening-q22": {
+      "evidenceTraditional": "我也來把它\n們放到網站上賣給有需要的人好了",
+      "vi": "Anh ấy muốn đăng sách cũ lên mạng để bán cho người cần."
+    },
+    "listening-q23": {
+      "evidenceTraditional": "送運動器材比較好",
+      "vi": "Người anh cho rằng tặng dụng cụ thể thao sẽ tốt hơn."
+    },
+    "listening-q24": {
+      "evidenceTraditional": "我們一次要買三輛囉",
+      "vi": "Vì cả hai anh em đều chưa có xe, cô ấy nghĩ họ phải mua tổng cộng ba chiếc xe đạp."
+    },
+    "listening-q25": {
+      "evidenceTraditional": "未來一定有發展",
+      "vi": "Cô ấy tin rằng làm việc tại công ty này sẽ có cơ hội phát triển."
+    },
+    "listening-q26": {
+      "evidenceTraditional": "開發新客戶以及新市場",
+      "vi": "Theo cô ấy, nhân viên kinh doanh cần tìm khách hàng và thị trường mới."
+    },
+    "listening-q27": {
+      "evidenceTraditional": "沒有開拓海外市場的經驗",
+      "vi": "Người quản lý nói cô ấy thiếu kinh nghiệm phát triển thị trường nước ngoài."
+    },
+    "listening-q28": {
+      "evidenceTraditional": "有七分鐘的時間可以互相談話",
+      "vi": "Trong buổi hẹn hò nhanh, mỗi cặp có bảy phút trò chuyện."
+    },
+    "listening-q29": {
+      "evidenceTraditional": "無法深入地了解一個人",
+      "vi": "Thời gian trò chuyện quá ngắn nên khó hiểu sâu về một người."
+    },
+    "listening-q30": {
+      "evidenceTraditional": "這種活動很有效率",
+      "vi": "Anh ấy thấy hoạt động này hiệu quả để làm quen với nhiều người."
+    },
+    "listening-q31": {
+      "evidenceTraditional": "會晚半個小時到",
+      "vi": "Chuyến tàu số 110 sẽ đến muộn nửa giờ."
+    },
+    "listening-q32": {
+      "evidenceTraditional": "真皮皮包一個一\n千塊，一個一千塊，買一送一",
+      "vi": "Một chiếc túi da giá 1.000 Đài tệ và được mua một tặng một."
+    },
+    "listening-q33": {
+      "evidenceTraditional": "老師們會教大\n家唱中國新年的歌兒",
+      "vi": "Các giáo viên sẽ dạy mọi người hát bài mừng năm mới Trung Hoa."
+    },
+    "listening-q34": {
+      "evidenceTraditional": "看圖片點菜",
+      "vi": "Gia đình ông Vương gọi món bằng cách nhìn hình ảnh."
+    },
+    "listening-q35": {
+      "evidenceTraditional": "第一是背課\n文",
+      "vi": "Bài tập đầu tiên là học thuộc bài khóa."
+    },
+    "listening-q36": {
+      "evidenceTraditional": "先考第七課的內容",
+      "vi": "Đầu buổi học sau, giáo viên sẽ kiểm tra bài số bảy."
+    },
+    "listening-q37": {
+      "evidenceTraditional": "早晚的天氣變化很大",
+      "vi": "Thời tiết buổi sáng và buổi tối chênh lệch khá nhiều."
+    },
+    "listening-q38": {
+      "evidenceTraditional": "白天是晴天",
+      "vi": "Ngày mai ban ngày trời nắng."
+    },
+    "listening-q39": {
+      "evidenceTraditional": "我最喜歡鳥了",
+      "vi": "Người nói thích chim nhất."
+    },
+    "listening-q40": {
+      "evidenceTraditional": "我吃了那邊\n賣的牛奶冰",
+      "vi": "Người nói đã ăn kem sữa bán ở vườn thú."
+    },
+    "listening-q41": {
+      "evidenceTraditional": "一百七十公分高，但是卻有一百公斤重",
+      "vi": "Ông ấy cao 170 cm nhưng nặng tới 100 kg."
+    },
+    "listening-q42": {
+      "evidenceTraditional": "要多吃青菜",
+      "vi": "Bác sĩ khuyên ông ấy ăn nhiều rau hơn."
+    },
+    "listening-q43": {
+      "evidenceTraditional": "在公司的網站上用英文寫文章",
+      "vi": "Công ty cần người viết bài bằng tiếng Anh trên trang web."
+    },
+    "listening-q44": {
+      "evidenceTraditional": "先讓他工作三個月",
+      "vi": "Công ty quyết định cho Đại Vĩ thử làm việc ba tháng."
+    },
+    "listening-q45": {
+      "evidenceTraditional": "睡足自己身體所需要的量",
+      "vi": "Ngủ đủ theo nhu cầu của cơ thể mới là phù hợp."
+    },
+    "listening-q46": {
+      "evidenceTraditional": "評估白天的精神",
+      "vi": "Có thể biết mình ngủ đủ hay chưa bằng cách đánh giá mức tỉnh táo ban ngày."
+    },
+    "listening-q47": {
+      "evidenceTraditional": "觀察自己在白天的時候精\n神、情緒等各方面是否良好及穩定",
+      "vi": "Cần quan sát xem ban ngày tinh thần, cảm xúc và cơ thể có ổn định hay không."
+    },
+    "listening-q48": {
+      "evidenceTraditional": "騎自行車與性別差異的研究報告",
+      "vi": "Bản tin đề cập mối liên hệ giữa giới tính và việc đi xe đạp."
+    },
+    "listening-q49": {
+      "evidenceTraditional": "騎自行車的女性越多，就\n表示這個都市越適合騎自行車",
+      "vi": "Tỷ lệ phụ nữ đi xe đạp càng cao, thành phố càng phù hợp với việc đi xe đạp."
+    },
+    "listening-q50": {
+      "evidenceTraditional": "讓路線通往超級市場、學校或托\n兒所等實用的目的地",
+      "vi": "Đường xe đạp nên dẫn đến những nơi thiết thực như siêu thị, trường học và nhà trẻ."
+    }
+  },
+  "reading": {
+    "reading-q01": {
+      "number": 1,
+      "correctAnswer": "C",
+      "kind": "answer",
+      "vi": "Bà Trương được đưa đến bệnh viện.",
+      "evidence": {
+        "traditional": {
+          "chinese": "被",
+          "x": 96,
+          "y": 510,
+          "width": 110,
+          "height": 34,
+          "sourceWidth": 1018,
+          "sourceHeight": 1193
+        },
+        "simplified": {
+          "chinese": "被",
+          "x": 98,
+          "y": 532,
+          "width": 108,
+          "height": 32,
+          "sourceWidth": 1018,
+          "sourceHeight": 1216
+        }
+      }
+    },
+    "reading-q02": {
+      "number": 2,
+      "correctAnswer": "C",
+      "kind": "answer",
+      "vi": "Ông Trương cũng đi cùng vợ đến bệnh viện.",
+      "evidence": {
+        "traditional": {
+          "chinese": "陪",
+          "x": 594,
+          "y": 510,
+          "width": 106,
+          "height": 32,
+          "sourceWidth": 1018,
+          "sourceHeight": 1193
+        },
+        "simplified": {
+          "chinese": "陪",
+          "x": 594,
+          "y": 532,
+          "width": 108,
+          "height": 32,
+          "sourceWidth": 1018,
+          "sourceHeight": 1216
+        }
+      }
+    },
+    "reading-q03": {
+      "number": 3,
+      "correctAnswer": "A",
+      "kind": "answer",
+      "vi": "Ông ấy sắp trở thành bố.",
+      "evidence": {
+        "traditional": {
+          "chinese": "當",
+          "x": 96,
+          "y": 709,
+          "width": 110,
+          "height": 32,
+          "sourceWidth": 1018,
+          "sourceHeight": 1193
+        },
+        "simplified": {
+          "chinese": "当",
+          "x": 98,
+          "y": 732,
+          "width": 106,
+          "height": 30,
+          "sourceWidth": 1018,
+          "sourceHeight": 1216
+        }
+      }
+    },
+    "reading-q04": {
+      "number": 4,
+      "correctAnswer": "B",
+      "kind": "answer",
+      "vi": "Hai vợ chồng đặt tên cho con.",
+      "evidence": {
+        "traditional": {
+          "chinese": "為",
+          "x": 594,
+          "y": 755,
+          "width": 106,
+          "height": 32,
+          "sourceWidth": 1018,
+          "sourceHeight": 1193
+        },
+        "simplified": {
+          "chinese": "为",
+          "x": 594,
+          "y": 780,
+          "width": 104,
+          "height": 32,
+          "sourceWidth": 1018,
+          "sourceHeight": 1216
+        }
+      }
+    },
+    "reading-q05": {
+      "number": 5,
+      "correctAnswer": "D",
+      "kind": "answer",
+      "vi": "Họ mong con gái lớn lên xinh đẹp và vui vẻ.",
+      "evidence": {
+        "traditional": {
+          "chinese": "希望",
+          "x": 96,
+          "y": 1142,
+          "width": 144,
+          "height": 37,
+          "sourceWidth": 1018,
+          "sourceHeight": 1193
+        },
+        "simplified": {
+          "chinese": "希望",
+          "x": 98,
+          "y": 1166,
+          "width": 142,
+          "height": 34,
+          "sourceWidth": 1018,
+          "sourceHeight": 1216
+        }
+      }
+    },
+    "reading-q06": {
+      "number": 6,
+      "correctAnswer": "A",
+      "kind": "answer",
+      "vi": "Tiểu Trần và Tiểu Lý là bạn thân từ thời đại học.",
+      "evidence": {
+        "traditional": {
+          "chinese": "時代",
+          "x": 98,
+          "y": 419,
+          "width": 142,
+          "height": 34,
+          "sourceWidth": 1001,
+          "sourceHeight": 1197
+        },
+        "simplified": {
+          "chinese": "时代",
+          "x": 96,
+          "y": 441,
+          "width": 144,
+          "height": 35,
+          "sourceWidth": 1001,
+          "sourceHeight": 1221
+        }
+      }
+    },
+    "reading-q07": {
+      "number": 7,
+      "correctAnswer": "B",
+      "kind": "answer",
+      "vi": "Sau khi tốt nghiệp, họ đã nhiều năm không gặp nhau.",
+      "evidence": {
+        "traditional": {
+          "chinese": "好幾",
+          "x": 589,
+          "y": 466,
+          "width": 142,
+          "height": 36,
+          "sourceWidth": 1001,
+          "sourceHeight": 1197
+        },
+        "simplified": {
+          "chinese": "好几",
+          "x": 589,
+          "y": 489,
+          "width": 144,
+          "height": 37,
+          "sourceWidth": 1001,
+          "sourceHeight": 1221
+        }
+      }
+    },
+    "reading-q08": {
+      "number": 8,
+      "correctAnswer": "A",
+      "kind": "answer",
+      "vi": "Một lần, Tiểu Trần bỗng nhớ đến Tiểu Lý.",
+      "evidence": {
+        "traditional": {
+          "chinese": "忽然",
+          "x": 94,
+          "y": 713,
+          "width": 144,
+          "height": 35,
+          "sourceWidth": 1001,
+          "sourceHeight": 1197
+        },
+        "simplified": {
+          "chinese": "忽然",
+          "x": 98,
+          "y": 736,
+          "width": 142,
+          "height": 32,
+          "sourceWidth": 1001,
+          "sourceHeight": 1221
+        }
+      }
+    },
+    "reading-q09": {
+      "number": 9,
+      "correctAnswer": "D",
+      "kind": "answer",
+      "vi": "Anh ấy tìm Tiểu Lý theo địa chỉ ghi trên thư.",
+      "evidence": {
+        "traditional": {
+          "chinese": "照",
+          "x": 589,
+          "y": 855,
+          "width": 112,
+          "height": 34,
+          "sourceWidth": 1001,
+          "sourceHeight": 1197
+        },
+        "simplified": {
+          "chinese": "照",
+          "x": 589,
+          "y": 879,
+          "width": 112,
+          "height": 34,
+          "sourceWidth": 1001,
+          "sourceHeight": 1221
+        }
+      }
+    },
+    "reading-q10": {
+      "number": 10,
+      "correctAnswer": "C",
+      "kind": "answer",
+      "vi": "Có lẽ từ sau khi Tiểu Lý chuyển nhà, họ không gặp nhau nữa.",
+      "evidence": {
+        "traditional": {
+          "chinese": "可能",
+          "x": 98,
+          "y": 1101,
+          "width": 140,
+          "height": 32,
+          "sourceWidth": 1001,
+          "sourceHeight": 1197
+        },
+        "simplified": {
+          "chinese": "可能",
+          "x": 98,
+          "y": 1125,
+          "width": 138,
+          "height": 32,
+          "sourceWidth": 1001,
+          "sourceHeight": 1221
+        }
+      }
+    },
+    "reading-q11": {
+      "number": 11,
+      "correctAnswer": "A",
+      "kind": "answer",
+      "vi": "Dù già hay trẻ, ai cũng có thể coi khiêu vũ là một hình thức vận động.",
+      "evidence": {
+        "traditional": {
+          "chinese": "不論…都…",
+          "x": 96,
+          "y": 468,
+          "width": 244,
+          "height": 30,
+          "sourceWidth": 1016,
+          "sourceHeight": 1245
+        },
+        "simplified": {
+          "chinese": "不论…都…",
+          "x": 96,
+          "y": 496,
+          "width": 244,
+          "height": 32,
+          "sourceWidth": 1016,
+          "sourceHeight": 1273
+        }
+      }
+    },
+    "reading-q12": {
+      "number": 12,
+      "correctAnswer": "C",
+      "kind": "answer",
+      "vi": "Khiêu vũ giúp cô ấy giảm áp lực công việc.",
+      "evidence": {
+        "traditional": {
+          "chinese": "減輕",
+          "x": 590,
+          "y": 562,
+          "width": 142,
+          "height": 34,
+          "sourceWidth": 1016,
+          "sourceHeight": 1245
+        },
+        "simplified": {
+          "chinese": "减轻",
+          "x": 590,
+          "y": 589,
+          "width": 142,
+          "height": 36,
+          "sourceWidth": 1016,
+          "sourceHeight": 1273
+        }
+      }
+    },
+    "reading-q13": {
+      "number": 13,
+      "correctAnswer": "B",
+      "kind": "answer",
+      "vi": "Sau ba năm tập khiêu vũ, cô ấy khỏe hơn.",
+      "evidence": {
+        "traditional": {
+          "chinese": "經過",
+          "x": 98,
+          "y": 807,
+          "width": 140,
+          "height": 32,
+          "sourceWidth": 1016,
+          "sourceHeight": 1245
+        },
+        "simplified": {
+          "chinese": "经过",
+          "x": 96,
+          "y": 835,
+          "width": 142,
+          "height": 32,
+          "sourceWidth": 1016,
+          "sourceHeight": 1273
+        }
+      }
+    },
+    "reading-q14": {
+      "number": 14,
+      "correctAnswer": "A",
+      "kind": "answer",
+      "vi": "Cô ấy còn giành chức vô địch cuộc thi khiêu vũ.",
+      "evidence": {
+        "traditional": {
+          "chinese": "得到",
+          "x": 590,
+          "y": 761,
+          "width": 142,
+          "height": 34,
+          "sourceWidth": 1016,
+          "sourceHeight": 1245
+        },
+        "simplified": {
+          "chinese": "得到",
+          "x": 588,
+          "y": 789,
+          "width": 144,
+          "height": 35,
+          "sourceWidth": 1016,
+          "sourceHeight": 1273
+        }
+      }
+    },
+    "reading-q15": {
+      "number": 15,
+      "correctAnswer": "D",
+      "kind": "answer",
+      "vi": "Dù công việc bận rộn, cô ấy vẫn đến lớp khiêu vũ.",
+      "evidence": {
+        "traditional": {
+          "chinese": "就算",
+          "x": 96,
+          "y": 1194,
+          "width": 144,
+          "height": 35,
+          "sourceWidth": 1016,
+          "sourceHeight": 1245
+        },
+        "simplified": {
+          "chinese": "就算",
+          "x": 96,
+          "y": 1223,
+          "width": 142,
+          "height": 34,
+          "sourceWidth": 1016,
+          "sourceHeight": 1273
+        }
+      }
+    },
+    "reading-q16": {
+      "number": 16,
+      "correctAnswer": "D",
+      "kind": "answer",
+      "vi": "Tiểu Minh đã ở Hàn Quốc bốn đêm.",
+      "evidence": {
+        "traditional": {
+          "chinese": "小明在韓國住了四個晚上",
+          "x": 89,
+          "y": 558,
+          "width": 448,
+          "height": 38,
+          "sourceWidth": 1015,
+          "sourceHeight": 609
+        },
+        "simplified": {
+          "chinese": "小明在韩国住了四个晚上",
+          "x": 89,
+          "y": 582,
+          "width": 448,
+          "height": 38,
+          "sourceWidth": 1015,
+          "sourceHeight": 633
+        }
+      }
+    },
+    "reading-q17": {
+      "number": 17,
+      "correctAnswer": "D",
+      "kind": "answer",
+      "vi": "Người mẹ khuyến khích con tự giải quyết vấn đề.",
+      "evidence": {
+        "traditional": {
+          "chinese": "鼓勵孩子自己解決",
+          "x": 96,
+          "y": 584,
+          "width": 340,
+          "height": 30,
+          "sourceWidth": 1013,
+          "sourceHeight": 632
+        },
+        "simplified": {
+          "chinese": "鼓励孩子自己解决",
+          "x": 98,
+          "y": 583,
+          "width": 340,
+          "height": 32,
+          "sourceWidth": 1014,
+          "sourceHeight": 633
+        }
+      }
+    },
+    "reading-q18": {
+      "number": 18,
+      "correctAnswer": "B",
+      "kind": "answer",
+      "vi": "Một người chỉ học hết tiểu học đã trở thành chủ khách sạn.",
+      "evidence": {
+        "traditional": {
+          "chinese": "一個只有小學畢業的人，變成旅館老闆",
+          "x": 89,
+          "y": 557,
+          "width": 643,
+          "height": 38,
+          "sourceWidth": 1015,
+          "sourceHeight": 988
+        },
+        "simplified": {
+          "chinese": "一个只有小学毕业的人，变成旅馆老板",
+          "x": 98,
+          "y": 591,
+          "width": 636,
+          "height": 34,
+          "sourceWidth": 1016,
+          "sourceHeight": 1021
+        }
+      }
+    },
+    "reading-q19": {
+      "number": 19,
+      "correctAnswer": "D",
+      "kind": "answer",
+      "vi": "Tiểu Anh nghĩ tiểu thuyết và bộ phim không có gì khác nhau. Đây là nhận định sai theo bài đọc.",
+      "evidence": {
+        "traditional": {
+          "chinese": "小英覺得「旅館主人」的小說和電影沒什麼不同",
+          "x": 89,
+          "y": 929,
+          "width": 778,
+          "height": 46,
+          "sourceWidth": 1015,
+          "sourceHeight": 988
+        },
+        "simplified": {
+          "chinese": "小英觉得「旅馆主人」的小说和电影没什么不同",
+          "x": 94,
+          "y": 966,
+          "width": 769,
+          "height": 43,
+          "sourceWidth": 1016,
+          "sourceHeight": 1021
+        }
+      }
+    },
+    "reading-q20": {
+      "number": 20,
+      "correctAnswer": "B",
+      "kind": "answer",
+      "vi": "Bài viết nói về ảnh hưởng của một cơn bão lớn đối với cuộc sống.",
+      "evidence": {
+        "traditional": {
+          "chinese": "大颱風對人們生活的影響",
+          "x": 93,
+          "y": 512,
+          "width": 440,
+          "height": 38,
+          "sourceWidth": 1016,
+          "sourceHeight": 940
+        },
+        "simplified": {
+          "chinese": "大台风对人们生活的影响",
+          "x": 96,
+          "y": 540,
+          "width": 438,
+          "height": 34,
+          "sourceWidth": 1016,
+          "sourceHeight": 968
+        }
+      }
+    },
+    "reading-q21": {
+      "number": 21,
+      "correctAnswer": "D",
+      "kind": "answer",
+      "vi": "Dù bão lớn, mọi người vẫn phải tiếp tục đi làm. Đây là nhận định sai theo bài đọc.",
+      "evidence": {
+        "traditional": {
+          "chinese": "雖然大颱風來，還是要繼續上班",
+          "x": 80,
+          "y": 889,
+          "width": 555,
+          "height": 38,
+          "sourceWidth": 1016,
+          "sourceHeight": 940
+        },
+        "simplified": {
+          "chinese": "虽然大台风来，还是要继续上班",
+          "x": 98,
+          "y": 918,
+          "width": 538,
+          "height": 32,
+          "sourceWidth": 1016,
+          "sourceHeight": 968
+        }
+      }
+    },
+    "reading-q22": {
+      "number": 22,
+      "correctAnswer": "C",
+      "kind": "answer",
+      "vi": "Quảng cáo có thể tạo ra hình ảnh đẹp cho sản phẩm.",
+      "evidence": {
+        "traditional": {
+          "chinese": "廣告能創造美好形象",
+          "x": 86,
+          "y": 633,
+          "width": 374,
+          "height": 34,
+          "sourceWidth": 1016,
+          "sourceHeight": 1013
+        },
+        "simplified": {
+          "chinese": "广告能创造美好形象",
+          "x": 88,
+          "y": 692,
+          "width": 372,
+          "height": 32,
+          "sourceWidth": 1016,
+          "sourceHeight": 1072
+        }
+      }
+    },
+    "reading-q23": {
+      "number": 23,
+      "correctAnswer": "C",
+      "kind": "answer",
+      "vi": "Nội dung quảng cáo được thiết kế cho từng nhóm người cụ thể.",
+      "evidence": {
+        "traditional": {
+          "chinese": "廣告會針對特定對象設計內容",
+          "x": 86,
+          "y": 917,
+          "width": 506,
+          "height": 34,
+          "sourceWidth": 1016,
+          "sourceHeight": 1013
+        },
+        "simplified": {
+          "chinese": "广告会针对特定对象设计内容",
+          "x": 80,
+          "y": 974,
+          "width": 508,
+          "height": 40,
+          "sourceWidth": 1016,
+          "sourceHeight": 1072
+        }
+      }
+    },
+    "reading-q24": {
+      "number": 24,
+      "correctAnswer": "B",
+      "kind": "answer",
+      "vi": "Máy tính Tiểu Trần bán đã được dùng một năm.",
+      "evidence": {
+        "traditional": {
+          "chinese": "小陳賣的電腦用了一年了",
+          "x": 98,
+          "y": 1138,
+          "width": 435,
+          "height": 32,
+          "sourceWidth": 1006,
+          "sourceHeight": 1566
+        },
+        "simplified": {
+          "chinese": "小陈卖的电脑用了一年了",
+          "x": 97,
+          "y": 1088,
+          "width": 436,
+          "height": 33,
+          "sourceWidth": 975,
+          "sourceHeight": 1515
+        }
+      }
+    },
+    "reading-q25": {
+      "number": 25,
+      "correctAnswer": "C",
+      "kind": "answer",
+      "vi": "Người muốn mua máy tính mới nên tìm ông Vương.",
+      "evidence": {
+        "traditional": {
+          "chinese": "王先生",
+          "x": 98,
+          "y": 1467,
+          "width": 173,
+          "height": 34,
+          "sourceWidth": 1006,
+          "sourceHeight": 1566
+        },
+        "simplified": {
+          "chinese": "王先生",
+          "x": 97,
+          "y": 1417,
+          "width": 174,
+          "height": 36,
+          "sourceWidth": 975,
+          "sourceHeight": 1515
+        }
+      }
+    },
+    "reading-q26": {
+      "number": 26,
+      "correctAnswer": "C",
+      "kind": "answer",
+      "vi": "Bạn trai của cô ấy đã tìm được công việc mới.",
+      "evidence": {
+        "traditional": {
+          "chinese": "她男朋友找到了新工作",
+          "x": 96,
+          "y": 1321,
+          "width": 405,
+          "height": 35,
+          "sourceWidth": 975,
+          "sourceHeight": 1702
+        },
+        "simplified": {
+          "chinese": "她男朋友找到了新工作",
+          "x": 96,
+          "y": 1191,
+          "width": 405,
+          "height": 34,
+          "sourceWidth": 921,
+          "sourceHeight": 1573
+        }
+      }
+    },
+    "reading-q27": {
+      "number": 27,
+      "correctAnswer": "D",
+      "kind": "answer",
+      "vi": "Tiểu Mỹ muốn biết công việc của Đại Trung có suôn sẻ không. Đây là nhận định sai theo bức thư.",
+      "evidence": {
+        "traditional": {
+          "chinese": "小美想知道大忠的工作做得好不好",
+          "x": 96,
+          "y": 1653,
+          "width": 575,
+          "height": 32,
+          "sourceWidth": 975,
+          "sourceHeight": 1702
+        },
+        "simplified": {
+          "chinese": "小美想知道大忠的工作做得好不好",
+          "x": 96,
+          "y": 1523,
+          "width": 576,
+          "height": 32,
+          "sourceWidth": 921,
+          "sourceHeight": 1573
+        }
+      }
+    },
+    "reading-q28": {
+      "number": 28,
+      "correctAnswer": "C",
+      "kind": "answer",
+      "vi": "Tâm Mỹ có lớp toán vào thứ Ba. Đây là nhận định sai theo sổ ghi chép.",
+      "evidence": {
+        "traditional": {
+          "chinese": "心美星期二上數學課",
+          "x": 97,
+          "y": 1293,
+          "width": 374,
+          "height": 34,
+          "sourceWidth": 939,
+          "sourceHeight": 1673
+        },
+        "simplified": {
+          "chinese": "心美星期二上数学课",
+          "x": 97,
+          "y": 1175,
+          "width": 371,
+          "height": 34,
+          "sourceWidth": 882,
+          "sourceHeight": 1558
+        }
+      }
+    },
+    "reading-q29": {
+      "number": 29,
+      "correctAnswer": "D",
+      "kind": "answer",
+      "vi": "Tâm Mỹ làm việc vào thứ Sáu và thứ Hai.",
+      "evidence": {
+        "traditional": {
+          "chinese": "星期五和星期一",
+          "x": 97,
+          "y": 1622,
+          "width": 313,
+          "height": 34,
+          "sourceWidth": 939,
+          "sourceHeight": 1673
+        },
+        "simplified": {
+          "chinese": "星期五和星期一",
+          "x": 97,
+          "y": 1508,
+          "width": 312,
+          "height": 32,
+          "sourceWidth": 882,
+          "sourceHeight": 1558
+        }
+      }
+    },
+    "reading-q30": {
+      "number": 30,
+      "correctAnswer": "D",
+      "kind": "answer",
+      "vi": "Đặt vòi bơm vào bình xăng rồi nhấn “Bắt đầu”.",
+      "evidence": {
+        "traditional": {
+          "chinese": "油槍放入油箱後，再按「開始」",
+          "x": 89,
+          "y": 1315,
+          "width": 527,
+          "height": 41,
+          "sourceWidth": 959,
+          "sourceHeight": 1654
+        },
+        "simplified": {
+          "chinese": "油枪放入油箱后，再按「开始」",
+          "x": 87,
+          "y": 1323,
+          "width": 528,
+          "height": 41,
+          "sourceWidth": 967,
+          "sourceHeight": 1661
+        }
+      }
+    },
+    "reading-q31": {
+      "number": 31,
+      "correctAnswer": "B",
+      "kind": "answer",
+      "vi": "Nếu gặp vấn đề, hãy tìm nhân viên phục vụ để được giúp đỡ.",
+      "evidence": {
+        "traditional": {
+          "chinese": "找服務員解決問題",
+          "x": 89,
+          "y": 1510,
+          "width": 338,
+          "height": 34,
+          "sourceWidth": 959,
+          "sourceHeight": 1654
+        },
+        "simplified": {
+          "chinese": "找服务员解决问题",
+          "x": 87,
+          "y": 1516,
+          "width": 338,
+          "height": 34,
+          "sourceWidth": 967,
+          "sourceHeight": 1661
+        }
+      }
+    },
+    "reading-q32": {
+      "number": 32,
+      "correctAnswer": "C",
+      "kind": "answer",
+      "vi": "Không được để sản phẩm ở nơi có ánh nắng chiếu vào.",
+      "evidence": {
+        "traditional": {
+          "chinese": "不能放在陽光照得到的地方",
+          "x": 86,
+          "y": 951,
+          "width": 472,
+          "height": 32,
+          "sourceWidth": 1020,
+          "sourceHeight": 1331
+        },
+        "simplified": {
+          "chinese": "不能放在阳光照得到的地方",
+          "x": 84,
+          "y": 924,
+          "width": 474,
+          "height": 34,
+          "sourceWidth": 1021,
+          "sourceHeight": 1304
+        }
+      }
+    },
+    "reading-q33": {
+      "number": 33,
+      "correctAnswer": "C",
+      "kind": "answer",
+      "vi": "Nếu sản phẩm có vị lạ, hãy gửi sản phẩm cho công ty.",
+      "evidence": {
+        "traditional": {
+          "chinese": "把產品寄給這家公司",
+          "x": 86,
+          "y": 1235,
+          "width": 370,
+          "height": 30,
+          "sourceWidth": 1020,
+          "sourceHeight": 1331
+        },
+        "simplified": {
+          "chinese": "把产品寄给这家公司",
+          "x": 84,
+          "y": 1208,
+          "width": 372,
+          "height": 34,
+          "sourceWidth": 1021,
+          "sourceHeight": 1304
+        }
+      }
+    },
+    "reading-q34": {
+      "number": 34,
+      "correctAnswer": "C",
+      "kind": "answer",
+      "vi": "Khách sạn vẫn chưa biết David sẽ quyết định thế nào.",
+      "evidence": {
+        "traditional": {
+          "chinese": "這家飯店還不知道大衛的決定",
+          "x": 87,
+          "y": 1232,
+          "width": 504,
+          "height": 35,
+          "sourceWidth": 1020,
+          "sourceHeight": 1615
+        },
+        "simplified": {
+          "chinese": "这家饭店还不知道大卫的决定",
+          "x": 87,
+          "y": 1194,
+          "width": 506,
+          "height": 34,
+          "sourceWidth": 1015,
+          "sourceHeight": 1577
+        }
+      }
+    },
+    "reading-q35": {
+      "number": 35,
+      "correctAnswer": "D",
+      "kind": "answer",
+      "vi": "Có thể gọi cho khách sạn lúc 21 giờ ngày 22 tháng 12.",
+      "evidence": {
+        "traditional": {
+          "chinese": "12/22 晚上九點",
+          "x": 87,
+          "y": 1566,
+          "width": 298,
+          "height": 31,
+          "sourceWidth": 1020,
+          "sourceHeight": 1615
+        },
+        "simplified": {
+          "chinese": "12/22 晚上九点",
+          "x": 87,
+          "y": 1527,
+          "width": 300,
+          "height": 32,
+          "sourceWidth": 1015,
+          "sourceHeight": 1577
+        }
+      }
+    },
+    "reading-q36": {
+      "number": 36,
+      "correctAnswer": "B",
+      "kind": "answer",
+      "vi": "Tờ báo cần bài giới thiệu một nhân vật nổi tiếng ở địa phương.",
+      "evidence": {
+        "traditional": {
+          "chinese": "本地名人介紹",
+          "x": 86,
+          "y": 836,
+          "width": 272,
+          "height": 32,
+          "sourceWidth": 1041,
+          "sourceHeight": 1306
+        },
+        "simplified": {
+          "chinese": "本地名人介绍",
+          "x": 86,
+          "y": 836,
+          "width": 272,
+          "height": 32,
+          "sourceWidth": 1041,
+          "sourceHeight": 1306
+        }
+      }
+    },
+    "reading-q37": {
+      "number": 37,
+      "correctAnswer": "C",
+      "kind": "answer",
+      "vi": "Nếu tác phẩm được sử dụng, bản quyền sẽ không còn thuộc tác giả.",
+      "evidence": {
+        "traditional": {
+          "chinese": "如果被採用，版權不是作者的",
+          "x": 86,
+          "y": 1210,
+          "width": 506,
+          "height": 30,
+          "sourceWidth": 1041,
+          "sourceHeight": 1306
+        },
+        "simplified": {
+          "chinese": "如果被采用，版权不是作者的",
+          "x": 86,
+          "y": 1208,
+          "width": 506,
+          "height": 32,
+          "sourceWidth": 1041,
+          "sourceHeight": 1306
+        }
+      }
+    },
+    "reading-q38": {
+      "number": 38,
+      "correctAnswer": "D",
+      "kind": "answer",
+      "vi": "Bài viết nói về những vấn đề nảy sinh khi sử dụng thẻ tín dụng.",
+      "evidence": {
+        "traditional": {
+          "chinese": "使用信用卡後發生的問題",
+          "x": 96,
+          "y": 701,
+          "width": 444,
+          "height": 34,
+          "sourceWidth": 1017,
+          "sourceHeight": 1365
+        },
+        "simplified": {
+          "chinese": "使用信用卡后发生的问题",
+          "x": 96,
+          "y": 740,
+          "width": 442,
+          "height": 35,
+          "sourceWidth": 1017,
+          "sourceHeight": 1403
+        }
+      }
+    },
+    "reading-q39": {
+      "number": 39,
+      "correctAnswer": "C",
+      "kind": "answer",
+      "vi": "Cô ấy phải làm ba công việc để trả tiền cho ngân hàng.",
+      "evidence": {
+        "traditional": {
+          "chinese": "她必須還錢給銀行",
+          "x": 96,
+          "y": 939,
+          "width": 342,
+          "height": 32,
+          "sourceWidth": 1017,
+          "sourceHeight": 1365
+        },
+        "simplified": {
+          "chinese": "她必须还钱给银行",
+          "x": 96,
+          "y": 976,
+          "width": 340,
+          "height": 33,
+          "sourceWidth": 1017,
+          "sourceHeight": 1403
+        }
+      }
+    },
+    "reading-q40": {
+      "number": 40,
+      "correctAnswer": "A",
+      "kind": "answer",
+      "vi": "Một số người có quá nhiều thẻ tín dụng. Bài đọc không nêu đây là nguyên nhân.",
+      "evidence": {
+        "traditional": {
+          "chinese": "有些人有太多張信用卡",
+          "x": 96,
+          "y": 1173,
+          "width": 410,
+          "height": 34,
+          "sourceWidth": 1017,
+          "sourceHeight": 1365
+        },
+        "simplified": {
+          "chinese": "有些人有太多张信用卡",
+          "x": 96,
+          "y": 1211,
+          "width": 410,
+          "height": 35,
+          "sourceWidth": 1017,
+          "sourceHeight": 1403
+        }
+      }
+    },
+    "reading-q41": {
+      "number": 41,
+      "correctAnswer": "A",
+      "kind": "answer",
+      "vi": "Khách sạn không còn phòng trống để vợ chồng Collins đổi phòng.",
+      "evidence": {
+        "traditional": {
+          "chinese": "旅館沒有空房了",
+          "x": 88,
+          "y": 749,
+          "width": 307,
+          "height": 33,
+          "sourceWidth": 1016,
+          "sourceHeight": 1506
+        },
+        "simplified": {
+          "chinese": "旅馆没有空房了",
+          "x": 89,
+          "y": 804,
+          "width": 304,
+          "height": 34,
+          "sourceWidth": 1017,
+          "sourceHeight": 1563
+        }
+      }
+    },
+    "reading-q42": {
+      "number": 42,
+      "correctAnswer": "B",
+      "kind": "answer",
+      "vi": "Ông Collins đánh thức vợ vì nghĩ rằng ma đã xuất hiện.",
+      "evidence": {
+        "traditional": {
+          "chinese": "他覺得鬼來了",
+          "x": 90,
+          "y": 1079,
+          "width": 269,
+          "height": 35,
+          "sourceWidth": 1016,
+          "sourceHeight": 1506
+        },
+        "simplified": {
+          "chinese": "他觉得鬼来了",
+          "x": 89,
+          "y": 1133,
+          "width": 270,
+          "height": 34,
+          "sourceWidth": 1017,
+          "sourceHeight": 1563
+        }
+      }
+    },
+    "reading-q43": {
+      "number": 43,
+      "correctAnswer": "A",
+      "kind": "answer",
+      "vi": "Con ma muốn nói tiếng Anh với bà Collins. Đây là nhận định sai theo bài đọc.",
+      "evidence": {
+        "traditional": {
+          "chinese": "鬼想和柯林斯太太說英文",
+          "x": 90,
+          "y": 1316,
+          "width": 440,
+          "height": 33,
+          "sourceWidth": 1016,
+          "sourceHeight": 1506
+        },
+        "simplified": {
+          "chinese": "鬼想和柯林斯太太说英文",
+          "x": 89,
+          "y": 1370,
+          "width": 440,
+          "height": 34,
+          "sourceWidth": 1017,
+          "sourceHeight": 1563
+        }
+      }
+    },
+    "reading-q44": {
+      "number": 44,
+      "correctAnswer": "D",
+      "kind": "answer",
+      "vi": "Giấc mơ có thể giúp con người hiểu rõ bản thân.",
+      "evidence": {
+        "traditional": {
+          "chinese": "夢可以幫助人們了解自己",
+          "x": 88,
+          "y": 982,
+          "width": 440,
+          "height": 37,
+          "sourceWidth": 1017,
+          "sourceHeight": 1601
+        },
+        "simplified": {
+          "chinese": "梦可以帮助人们了解自己",
+          "x": 90,
+          "y": 1049,
+          "width": 441,
+          "height": 34,
+          "sourceWidth": 1017,
+          "sourceHeight": 1667
+        }
+      }
+    },
+    "reading-q45": {
+      "number": 45,
+      "correctAnswer": "D",
+      "kind": "answer",
+      "vi": "Người mơ thấy mình đến muộn có thể đã quên một cuộc hẹn sắp tới.",
+      "evidence": {
+        "traditional": {
+          "chinese": "他忘記有個約會快到了",
+          "x": 88,
+          "y": 1268,
+          "width": 405,
+          "height": 33,
+          "sourceWidth": 1017,
+          "sourceHeight": 1601
+        },
+        "simplified": {
+          "chinese": "他忘记有个约会快到了",
+          "x": 90,
+          "y": 1332,
+          "width": 404,
+          "height": 34,
+          "sourceWidth": 1017,
+          "sourceHeight": 1667
+        }
+      }
+    },
+    "reading-q46": {
+      "number": 46,
+      "correctAnswer": "A",
+      "kind": "answer",
+      "vi": "Người phụ nữ ấy đang giận chồng.",
+      "evidence": {
+        "traditional": {
+          "chinese": "她生丈夫的氣",
+          "x": 86,
+          "y": 1410,
+          "width": 279,
+          "height": 33,
+          "sourceWidth": 1017,
+          "sourceHeight": 1601
+        },
+        "simplified": {
+          "chinese": "她生丈夫的气",
+          "x": 87,
+          "y": 1473,
+          "width": 278,
+          "height": 34,
+          "sourceWidth": 1017,
+          "sourceHeight": 1667
+        }
+      }
+    },
+    "reading-q47": {
+      "number": 47,
+      "correctAnswer": "A",
+      "kind": "answer",
+      "vi": "Bài viết nói về cách xua tan phiền muộn.",
+      "evidence": {
+        "traditional": {
+          "chinese": "如何消除煩惱",
+          "x": 169,
+          "y": 929,
+          "width": 278,
+          "height": 37,
+          "sourceWidth": 1014,
+          "sourceHeight": 1973
+        },
+        "simplified": {
+          "chinese": "如何消除烦恼",
+          "x": 169,
+          "y": 1003,
+          "width": 279,
+          "height": 36,
+          "sourceWidth": 1015,
+          "sourceHeight": 2047
+        }
+      }
+    },
+    "reading-q48": {
+      "number": 48,
+      "correctAnswer": "B",
+      "kind": "answer",
+      "vi": "Theo tác giả, phiền muộn nảy sinh khi ta quá coi trọng mọi chuyện.",
+      "evidence": {
+        "traditional": {
+          "chinese": "太在乎每件事",
+          "x": 169,
+          "y": 1259,
+          "width": 278,
+          "height": 37,
+          "sourceWidth": 1014,
+          "sourceHeight": 1973
+        },
+        "simplified": {
+          "chinese": "太在乎每件事",
+          "x": 172,
+          "y": 1330,
+          "width": 276,
+          "height": 42,
+          "sourceWidth": 1015,
+          "sourceHeight": 2047
+        }
+      }
+    },
+    "reading-q49": {
+      "number": 49,
+      "correctAnswer": "A",
+      "kind": "answer",
+      "vi": "Rủ bạn bè đi uống rượu không phải cách được bài viết nhắc tới.",
+      "evidence": {
+        "traditional": {
+          "chinese": "找朋友一起喝酒",
+          "x": 172,
+          "y": 1497,
+          "width": 306,
+          "height": 34,
+          "sourceWidth": 1014,
+          "sourceHeight": 1973
+        },
+        "simplified": {
+          "chinese": "找朋友一起喝酒",
+          "x": 172,
+          "y": 1571,
+          "width": 309,
+          "height": 36,
+          "sourceWidth": 1015,
+          "sourceHeight": 2047
+        }
+      }
+    },
+    "reading-q50": {
+      "number": 50,
+      "correctAnswer": "D",
+      "kind": "answer",
+      "vi": "Dù xảy ra chuyện gì, chúng ta vẫn có cách giải quyết.",
+      "evidence": {
+        "traditional": {
+          "chinese": "無論發生任何事情都有方法解決",
+          "x": 172,
+          "y": 1918,
+          "width": 539,
+          "height": 38,
+          "sourceWidth": 1014,
+          "sourceHeight": 1973
+        },
+        "simplified": {
+          "chinese": "无论发生任何事情都有方法解决",
+          "x": 172,
+          "y": 1993,
+          "width": 546,
+          "height": 39,
+          "sourceWidth": 1015,
+          "sourceHeight": 2047
+        }
+      }
+    }
+  }
+}

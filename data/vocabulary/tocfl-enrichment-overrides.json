@@ -1,0 +1,2028 @@
+{
+  "datasetId": "tocfl-vocabulary-20240923",
+  "entries": {
+    "tocfl-20240923-novice-1-0002": {
+      "meaningVi": "bạn"
+    },
+    "tocfl-20240923-novice-1-0003": {
+      "meaningVi": "anh ấy; cô ấy",
+      "exampleVi": "Anh ấy đi mua sữa."
+    },
+    "tocfl-20240923-novice-1-0004": {
+      "meaningVi": "chúng tôi; chúng ta",
+      "exampleVi": "Chúng ta đi ăn nhé."
+    },
+    "tocfl-20240923-novice-1-0005": {
+      "meaningVi": "các bạn",
+      "exampleVi": "Các bạn khỏe không?"
+    },
+    "tocfl-20240923-novice-1-0007": {
+      "meaningVi": "ngài; ông/bà (lịch sự)",
+      "exampleVi": "Chào thầy/cô ạ."
+    },
+    "tocfl-20240923-novice-1-0009": {
+      "meaningVi": "họ và tên",
+      "exampleVi": "Họ tên của tôi là Lý Minh."
+    },
+    "tocfl-20240923-novice-1-0011": {
+      "meaningVi": "nước; quốc gia",
+      "exampleTraditional": "你是哪一國的人？",
+      "exampleVi": "Bạn là người nước nào?"
+    },
+    "tocfl-20240923-novice-1-0013": {
+      "meaningVi": "Mỹ; Hoa Kỳ"
+    },
+    "tocfl-20240923-novice-1-0016": {
+      "exampleTraditional": "你叫什麼名字？",
+      "exampleVi": "Bạn tên là gì?"
+    },
+    "tocfl-20240923-novice-1-0017": {
+      "meaningVi": "nhà; gia đình",
+      "exampleTraditional": "我家有三個人。",
+      "exampleVi": "Nhà tôi có ba người."
+    },
+    "tocfl-20240923-novice-1-0018": {
+      "exampleTraditional": "這是我的電話。",
+      "exampleVi": "Đây là điện thoại của tôi."
+    },
+    "tocfl-20240923-novice-1-0020": {
+      "meaningVi": "giờ; tiếng (đơn vị thời gian)",
+      "exampleTraditional": "我等了一個小時。",
+      "exampleVi": "Tôi đã đợi một tiếng."
+    },
+    "tocfl-20240923-novice-1-0022": {
+      "exampleTraditional": "我今年十歲。",
+      "exampleVi": "Năm nay tôi mười tuổi."
+    },
+    "tocfl-20240923-novice-1-0026": {
+      "exampleTraditional": "我早上七點起床。",
+      "exampleVi": "Tôi thức dậy lúc bảy giờ sáng."
+    },
+    "tocfl-20240923-novice-1-0032": {
+      "exampleTraditional": "我住在二樓。",
+      "exampleVi": "Tôi sống ở tầng hai."
+    },
+    "tocfl-20240923-novice-1-0033": {
+      "exampleTraditional": "我有三個球。",
+      "exampleVi": "Tôi có ba quả bóng."
+    },
+    "tocfl-20240923-novice-1-0035": {
+      "exampleTraditional": "我有五個球。",
+      "exampleVi": "Tôi có năm quả bóng."
+    },
+    "tocfl-20240923-novice-1-0042": {
+      "meaningVi": "lúc; khi",
+      "exampleVi": "Tôi nhớ lúc đó."
+    },
+    "tocfl-20240923-novice-1-0043": {
+      "meaningVi": "trăm",
+      "exampleTraditional": "這裡有一百個人。",
+      "exampleVi": "Ở đây có một trăm người."
+    },
+    "tocfl-20240923-novice-1-0044": {
+      "meaningVi": "một nửa; nửa",
+      "exampleTraditional": "我喝了半杯水。",
+      "exampleVi": "Tôi đã uống nửa cốc nước."
+    },
+    "tocfl-20240923-novice-1-0045": {
+      "meaningVi": "nghìn; một nghìn",
+      "exampleTraditional": "我有一千元。",
+      "exampleVi": "Tôi có một nghìn Đài tệ."
+    },
+    "tocfl-20240923-novice-1-0046": {
+      "meaningVi": "bố; cha",
+      "exampleTraditional": "爸爸在家。",
+      "exampleVi": "Bố ở nhà."
+    },
+    "tocfl-20240923-novice-1-0047": {
+      "meaningVi": "mẹ",
+      "exampleTraditional": "媽媽在家。",
+      "exampleVi": "Mẹ ở nhà."
+    },
+    "tocfl-20240923-novice-1-0048": {
+      "meaningVi": "anh trai",
+      "exampleTraditional": "哥哥在學校。",
+      "exampleVi": "Anh trai ở trường."
+    },
+    "tocfl-20240923-novice-1-0049": {
+      "meaningVi": "em trai",
+      "exampleTraditional": "弟弟在看書。",
+      "exampleVi": "Em trai đang đọc sách."
+    },
+    "tocfl-20240923-novice-1-0050": {
+      "meaningVi": "chị gái",
+      "exampleTraditional": "姐姐今天很忙。",
+      "exampleVi": "Hôm nay chị gái rất bận."
+    },
+    "tocfl-20240923-novice-1-0051": {
+      "meaningVi": "em gái",
+      "exampleTraditional": "妹妹今天很忙。",
+      "exampleVi": "Hôm nay em gái rất bận."
+    },
+    "tocfl-20240923-novice-1-0053": {
+      "exampleTraditional": "這是我的書。",
+      "exampleVi": "Đây là sách của tôi."
+    },
+    "tocfl-20240923-novice-1-0055": {
+      "meaningVi": "phút",
+      "exampleTraditional": "現在是三點十分。",
+      "exampleVi": "Bây giờ là ba giờ mười phút."
+    },
+    "tocfl-20240923-novice-1-0057": {
+      "meaningVi": "cái; người (lượng từ phổ biến)"
+    },
+    "tocfl-20240923-novice-1-0059": {
+      "meaningVi": "năm",
+      "exampleTraditional": "一年有十二個月。",
+      "exampleVi": "Một năm có mười hai tháng."
+    },
+    "tocfl-20240923-novice-1-0062": {
+      "meaningVi": "là"
+    },
+    "tocfl-20240923-novice-1-0063": {
+      "exampleTraditional": "我姓陳。",
+      "exampleVi": "Tôi họ Trần."
+    },
+    "tocfl-20240923-novice-1-0067": {
+      "exampleTraditional": "這朵花很漂亮。",
+      "exampleVi": "Bông hoa này rất đẹp."
+    },
+    "tocfl-20240923-novice-1-0068": {
+      "meaningVi": "cao",
+      "exampleTraditional": "他很高。",
+      "exampleVi": "Anh ấy rất cao."
+    },
+    "tocfl-20240923-novice-1-0069": {
+      "meaningVi": "già; cũ",
+      "exampleTraditional": "他老了。",
+      "exampleVi": "Ông ấy đã già."
+    },
+    "tocfl-20240923-novice-1-0070": {
+      "meaningVi": "tốt; ổn",
+      "exampleTraditional": "今天天氣很好。",
+      "exampleVi": "Hôm nay thời tiết rất đẹp."
+    },
+    "tocfl-20240923-novice-1-0071": {
+      "meaningVi": "rất",
+      "exampleTraditional": "他很高。",
+      "exampleVi": "Anh ấy rất cao."
+    },
+    "tocfl-20240923-novice-1-0073": {
+      "exampleTraditional": "我有一台電腦。",
+      "exampleVi": "Tôi có một chiếc máy tính."
+    },
+    "tocfl-20240923-novice-1-0077": {
+      "meaningVi": "học sinh; sinh viên",
+      "exampleTraditional": "她是學生。",
+      "exampleVi": "Cô ấy là học sinh."
+    },
+    "tocfl-20240923-novice-1-0078": {
+      "exampleTraditional": "哥哥在上大學。",
+      "exampleVi": "Anh trai đang học đại học."
+    },
+    "tocfl-20240923-novice-1-0079": {
+      "exampleTraditional": "我去學校。",
+      "exampleVi": "Tôi đến trường."
+    },
+    "tocfl-20240923-novice-1-0080": {
+      "meaningVi": "tiếng Trung"
+    },
+    "tocfl-20240923-novice-1-0082": {
+      "meaningVi": "chữ; ký tự",
+      "exampleVi": "Đây là một chữ."
+    },
+    "tocfl-20240923-novice-1-0084": {
+      "meaningVi": "học"
+    },
+    "tocfl-20240923-novice-1-0086": {
+      "meaningVi": "nói"
+    },
+    "tocfl-20240923-novice-1-0088": {
+      "meaningVi": "nghe",
+      "exampleTraditional": "我聽老師說話。",
+      "exampleVi": "Tôi nghe thầy cô nói."
+    },
+    "tocfl-20240923-novice-1-0089": {
+      "meaningVi": "đúng; đối với",
+      "exampleTraditional": "這個答案對了。",
+      "exampleVi": "Đáp án này đúng rồi."
+    },
+    "tocfl-20240923-novice-1-0090": {
+      "meaningVi": "có thể",
+      "exampleTraditional": "我能說中文。",
+      "exampleVi": "Tôi có thể nói tiếng Trung."
+    },
+    "tocfl-20240923-novice-1-0091": {
+      "meaningVi": "có thể; được phép"
+    },
+    "tocfl-20240923-novice-1-0096": {
+      "meaningVi": "lâu",
+      "exampleTraditional": "他等了很久。",
+      "exampleVi": "Anh ấy đã đợi rất lâu."
+    },
+    "tocfl-20240923-novice-1-0097": {
+      "meaningVi": "sớm",
+      "exampleTraditional": "他來得很早。",
+      "exampleVi": "Anh ấy đến rất sớm."
+    },
+    "tocfl-20240923-novice-1-0103": {
+      "meaningVi": "đi; đi bộ",
+      "exampleTraditional": "我們走吧。",
+      "exampleVi": "Chúng ta đi thôi."
+    },
+    "tocfl-20240923-novice-1-0105": {
+      "meaningVi": "xem; nhìn; đọc",
+      "exampleTraditional": "我看書。",
+      "exampleVi": "Tôi đọc sách."
+    },
+    "tocfl-20240923-novice-1-0107": {
+      "meaningVi": "gì; cái gì",
+      "exampleTraditional": "這是什麼？",
+      "exampleVi": "Đây là gì?"
+    },
+    "tocfl-20240923-novice-1-0108": {
+      "meaningVi": "bạn; bạn bè"
+    },
+    "tocfl-20240923-novice-1-0109": {
+      "meaningVi": "đồ vật; đồ",
+      "exampleVi": "Tôi đã mua vài món đồ."
+    },
+    "tocfl-20240923-novice-1-0110": {
+      "meaningVi": "nhé; đi (trợ từ gợi ý)"
+    },
+    "tocfl-20240923-novice-1-0111": {
+      "meaningVi": "trợ từ dùng để hỏi tiếp",
+      "exampleTraditional": "我的書呢？",
+      "exampleVi": "Sách của tôi đâu?"
+    },
+    "tocfl-20240923-novice-1-0112": {
+      "meaningVi": "trợ từ tạo câu hỏi có/không",
+      "exampleVi": "Bạn đã đến chưa?"
+    },
+    "tocfl-20240923-novice-1-0114": {
+      "meaningVi": "làm; nấu",
+      "exampleTraditional": "我做晚飯。",
+      "exampleVi": "Tôi nấu bữa tối."
+    },
+    "tocfl-20240923-novice-1-0116": {
+      "meaningVi": "thế nào; ra sao"
+    },
+    "tocfl-20240923-novice-1-0117": {
+      "meaningVi": "tên là; gọi",
+      "exampleTraditional": "我叫小明。",
+      "exampleVi": "Tôi tên là Tiểu Minh."
+    },
+    "tocfl-20240923-novice-1-0118": {
+      "exampleTraditional": "謝謝你！",
+      "exampleVi": "Cảm ơn bạn!"
+    },
+    "tocfl-20240923-novice-1-0120": {
+      "meaningVi": "xin hỏi",
+      "exampleTraditional": "請問，你叫什麼名字？",
+      "exampleVi": "Xin hỏi, bạn tên là gì?"
+    },
+    "tocfl-20240923-novice-1-0122": {
+      "meaningVi": "kia; đó"
+    },
+    "tocfl-20240923-novice-1-0123": {
+      "meaningVi": "xe buýt"
+    },
+    "tocfl-20240923-novice-1-0124": {
+      "meaningVi": "xe; ô tô",
+      "exampleTraditional": "我開車去上班。",
+      "exampleVi": "Tôi lái xe đi làm."
+    },
+    "tocfl-20240923-novice-1-0125": {
+      "meaningVi": "đến; tới",
+      "exampleVi": "Tôi đã đến trường."
+    },
+    "tocfl-20240923-novice-1-0127": {
+      "meaningVi": "về; trở lại",
+      "exampleTraditional": "我回家了。",
+      "exampleVi": "Tôi về nhà rồi."
+    },
+    "tocfl-20240923-novice-1-0130": {
+      "exampleTraditional": "他在那裡。",
+      "exampleVi": "Anh ấy ở đó."
+    },
+    "tocfl-20240923-novice-1-0131": {
+      "exampleVi": "Bạn đã đi đâu?"
+    },
+    "tocfl-20240923-novice-1-0133": {
+      "meaningVi": "tiền",
+      "exampleTraditional": "我有一點錢。",
+      "exampleVi": "Tôi có một ít tiền."
+    },
+    "tocfl-20240923-novice-1-0134": {
+      "meaningVi": "bao nhiêu"
+    },
+    "tocfl-20240923-novice-1-0137": {
+      "meaningVi": "rẻ",
+      "exampleTraditional": "這本書很便宜。",
+      "exampleVi": "Cuốn sách này rất rẻ."
+    },
+    "tocfl-20240923-novice-1-0139": {
+      "meaningVi": "nhỏ",
+      "exampleTraditional": "這隻貓很小。",
+      "exampleVi": "Con mèo này rất nhỏ."
+    },
+    "tocfl-20240923-novice-1-0140": {
+      "meaningVi": "khó",
+      "exampleTraditional": "這個字很難寫。",
+      "exampleVi": "Chữ này khó viết."
+    },
+    "tocfl-20240923-novice-1-0143": {
+      "meaningVi": "muốn; nghĩ",
+      "exampleTraditional": "我想買這本書。",
+      "exampleVi": "Tôi muốn mua cuốn sách này."
+    },
+    "tocfl-20240923-novice-1-0144": {
+      "meaningVi": "mấy; bao nhiêu",
+      "exampleTraditional": "你有幾本書？",
+      "exampleVi": "Bạn có mấy quyển sách?"
+    },
+    "tocfl-20240923-novice-1-0145": {
+      "meaningVi": "miếng; đồng (tiền)",
+      "exampleVi": "Cô ấy đã mua một miếng bánh."
+    },
+    "tocfl-20240923-novice-1-0146": {
+      "meaningVi": "vị (lượng từ chỉ người)",
+      "exampleTraditional": "那位老師很好。",
+      "exampleVi": "Thầy/cô giáo đó rất tốt."
+    },
+    "tocfl-20240923-novice-1-0149": {
+      "meaningVi": "mời; xin hãy"
+    },
+    "tocfl-20240923-novice-1-0150": {
+      "meaningVi": "cũng",
+      "exampleTraditional": "我喜歡喝咖啡，也喜歡喝茶。",
+      "exampleVi": "Tôi thích uống cà phê và cũng thích uống trà."
+    },
+    "tocfl-20240923-novice-1-0153": {
+      "meaningVi": "đều; tất cả",
+      "exampleVi": "Cô ấy và em trai đều đã đến."
+    },
+    "tocfl-20240923-novice-1-0156": {
+      "meaningVi": "hay; hoặc",
+      "exampleTraditional": "你喝茶還是咖啡？",
+      "exampleVi": "Bạn uống trà hay cà phê?"
+    },
+    "tocfl-20240923-novice-1-0157": {
+      "meaningVi": "trợ từ chỉ sự hoàn thành hoặc thay đổi",
+      "exampleVi": "Tôi đã ăn cơm."
+    },
+    "tocfl-20240923-novice-1-0158": {
+      "meaningVi": "trợ từ nối bổ ngữ",
+      "exampleTraditional": "他跑得很快。",
+      "exampleVi": "Anh ấy chạy rất nhanh."
+    },
+    "tocfl-20240923-novice-1-0159": {
+      "meaningVi": "trợ từ chỉ kinh nghiệm đã từng",
+      "exampleTraditional": "我去過台灣。",
+      "exampleVi": "Tôi từng đến Đài Loan."
+    },
+    "tocfl-20240923-novice-2-0001": {
+      "meaningVi": "nam; con trai",
+      "exampleVi": "Cậu ấy là con trai."
+    },
+    "tocfl-20240923-novice-2-0002": {
+      "meaningVi": "nữ; con gái"
+    },
+    "tocfl-20240923-novice-2-0003": {
+      "meaningVi": "đứa trẻ; con"
+    },
+    "tocfl-20240923-novice-2-0004": {
+      "meaningVi": "cô; chị (cách gọi lịch sự)",
+      "exampleTraditional": "那位小姐在買書。",
+      "exampleVi": "Cô gái kia đang mua sách."
+    },
+    "tocfl-20240923-novice-2-0005": {
+      "meaningVi": "ông; anh (cách gọi lịch sự); chồng",
+      "exampleTraditional": "這位先生是老師。",
+      "exampleVi": "Người đàn ông này là giáo viên."
+    },
+    "tocfl-20240923-novice-2-0007": {
+      "exampleTraditional": "她有一個女兒。",
+      "exampleVi": "Cô ấy có một con gái."
+    },
+    "tocfl-20240923-novice-2-0015": {
+      "meaningVi": "tháng",
+      "exampleTraditional": "一月有三十一天。",
+      "exampleVi": "Tháng Một có ba mươi mốt ngày."
+    },
+    "tocfl-20240923-novice-2-0016": {
+      "meaningVi": "ngày",
+      "exampleTraditional": "今天是九月五日。",
+      "exampleVi": "Hôm nay là ngày 5 tháng 9."
+    },
+    "tocfl-20240923-novice-2-0017": {
+      "meaningVi": "tuần",
+      "exampleTraditional": "一個星期有七天。",
+      "exampleVi": "Một tuần có bảy ngày."
+    },
+    "tocfl-20240923-novice-2-0019": {
+      "meaningVi": "chủ nhật",
+      "exampleTraditional": "禮拜天我們去公園。",
+      "exampleVi": "Chủ nhật chúng tôi đến công viên."
+    },
+    "tocfl-20240923-novice-2-0020": {
+      "exampleTraditional": "我週末去公園。",
+      "exampleVi": "Cuối tuần tôi đến công viên."
+    },
+    "tocfl-20240923-novice-2-0021": {
+      "meaningVi": "số; ngày (trong tháng)",
+      "exampleTraditional": "今天是五號。",
+      "exampleVi": "Hôm nay là ngày mùng 5."
+    },
+    "tocfl-20240923-novice-2-0022": {
+      "meaningVi": "ngày; trời",
+      "exampleTraditional": "一天有二十四小時。",
+      "exampleVi": "Một ngày có hai mươi bốn giờ."
+    },
+    "tocfl-20240923-novice-2-0024": {
+      "meaningVi": "ở; tại"
+    },
+    "tocfl-20240923-novice-2-0027": {
+      "meaningVi": "quá; rất"
+    },
+    "tocfl-20240923-novice-2-0029": {
+      "meaningVi": "quốc gia; đất nước",
+      "exampleTraditional": "我愛我的國家。",
+      "exampleVi": "Tôi yêu đất nước của mình."
+    },
+    "tocfl-20240923-novice-2-0030": {
+      "meaningVi": "phút"
+    },
+    "tocfl-20240923-novice-2-0031": {
+      "meaningVi": "người nhà; gia đình",
+      "exampleTraditional": "我的家人今天來看我。",
+      "exampleVi": "Hôm nay người nhà đến thăm tôi."
+    },
+    "tocfl-20240923-novice-2-0032": {
+      "meaningVi": "béo; mập",
+      "exampleTraditional": "這隻貓很胖。",
+      "exampleVi": "Con mèo này rất mập."
+    },
+    "tocfl-20240923-novice-2-0033": {
+      "meaningVi": "thấp (chiều cao)"
+    },
+    "tocfl-20240923-novice-2-0034": {
+      "meaningVi": "gầy; ốm",
+      "exampleTraditional": "她很瘦。",
+      "exampleVi": "Cô ấy rất gầy."
+    },
+    "tocfl-20240923-novice-2-0035": {
+      "meaningVi": "mười nghìn; vạn",
+      "exampleTraditional": "他有一萬元。",
+      "exampleVi": "Anh ấy có mười nghìn Đài tệ."
+    },
+    "tocfl-20240923-novice-2-0036": {
+      "meaningVi": "giờ; tiếng",
+      "exampleTraditional": "我等了一個鐘頭。",
+      "exampleVi": "Tôi đã đợi một tiếng."
+    },
+    "tocfl-20240923-novice-2-0040": {
+      "meaningVi": "năm kia (hai năm trước)",
+      "exampleVi": "Tôi đã mua một chiếc điện thoại mới vào năm kia."
+    },
+    "tocfl-20240923-novice-2-0041": {
+      "meaningVi": "năm sau nữa (hai năm sau)",
+      "exampleTraditional": "我後年去台灣。",
+      "exampleVi": "Năm sau nữa tôi sẽ đến Đài Loan."
+    },
+    "tocfl-20240923-novice-2-0042": {
+      "meaningVi": "bản thân; của mình"
+    },
+    "tocfl-20240923-novice-2-0044": {
+      "meaningVi": "chúng (đồ vật)",
+      "exampleTraditional": "這些書很好看，我喜歡它們。",
+      "exampleVi": "Những cuốn sách này hay, tôi thích chúng."
+    },
+    "tocfl-20240923-novice-2-0048": {
+      "meaningVi": "nên; có lẽ",
+      "exampleTraditional": "你應該多喝水。",
+      "exampleVi": "Bạn nên uống nhiều nước."
+    },
+    "tocfl-20240923-novice-2-0055": {
+      "meaningVi": "quyển (lượng từ cho sách)",
+      "exampleTraditional": "我有三本書。",
+      "exampleVi": "Tôi có ba quyển sách."
+    },
+    "tocfl-20240923-novice-2-0056": {
+      "meaningVi": "tờ; chiếc (lượng từ cho vật phẳng)",
+      "exampleTraditional": "我有一張紙。",
+      "exampleVi": "Tôi có một tờ giấy."
+    },
+    "tocfl-20240923-novice-2-0059": {
+      "meaningVi": "câu hỏi; vấn đề",
+      "exampleTraditional": "我有一個問題。",
+      "exampleVi": "Tôi có một câu hỏi."
+    },
+    "tocfl-20240923-novice-2-0060": {
+      "exampleVi": "Chữ này có nghĩa là gì?"
+    },
+    "tocfl-20240923-novice-2-0062": {
+      "meaningVi": "vẽ; bức tranh"
+    },
+    "tocfl-20240923-novice-2-0063": {
+      "meaningVi": "đọc"
+    },
+    "tocfl-20240923-novice-2-0064": {
+      "meaningVi": "biết; có thể"
+    },
+    "tocfl-20240923-novice-2-0066": {
+      "meaningVi": "tan học; hết giờ học",
+      "exampleTraditional": "我們四點下課。",
+      "exampleVi": "Chúng tôi tan học lúc bốn giờ."
+    },
+    "tocfl-20240923-novice-2-0067": {
+      "meaningVi": "nói chuyện"
+    },
+    "tocfl-20240923-novice-2-0068": {
+      "meaningVi": "thi; kỳ thi"
+    },
+    "tocfl-20240923-novice-2-0070": {
+      "meaningVi": "đọc; học",
+      "exampleTraditional": "她在念書。",
+      "exampleVi": "Cô ấy đang học bài."
+    },
+    "tocfl-20240923-novice-2-0071": {
+      "meaningVi": "tiết học; bài học",
+      "exampleTraditional": "我今天有兩節課。",
+      "exampleVi": "Hôm nay tôi có hai tiết học."
+    },
+    "tocfl-20240923-novice-2-0073": {
+      "meaningVi": "nói cho; kể cho",
+      "exampleTraditional": "請告訴我你的名字。",
+      "exampleVi": "Hãy cho tôi biết tên bạn."
+    },
+    "tocfl-20240923-novice-2-0074": {
+      "meaningVi": "sai; nhầm",
+      "exampleTraditional": "這個答案錯了。",
+      "exampleVi": "Đáp án này sai rồi."
+    },
+    "tocfl-20240923-novice-2-0075": {
+      "exampleTraditional": "我晚上做功課。",
+      "exampleVi": "Tôi làm bài tập về nhà vào buổi tối."
+    },
+    "tocfl-20240923-novice-2-0076": {
+      "meaningVi": "phòng học; lớp học",
+      "exampleTraditional": "學生在教室裡。",
+      "exampleVi": "Học sinh ở trong lớp học."
+    },
+    "tocfl-20240923-novice-2-0078": {
+      "exampleVi": "Để tôi nghỉ một lát nhé."
+    },
+    "tocfl-20240923-novice-2-0079": {
+      "meaningVi": "nhà; căn phòng"
+    },
+    "tocfl-20240923-novice-2-0080": {
+      "exampleTraditional": "這是我的房間。",
+      "exampleVi": "Đây là phòng của tôi."
+    },
+    "tocfl-20240923-novice-2-0081": {
+      "meaningVi": "tầng; tòa nhà",
+      "exampleTraditional": "我住在二樓。",
+      "exampleVi": "Tôi sống ở tầng hai."
+    },
+    "tocfl-20240923-novice-2-0082": {
+      "meaningVi": "cửa; cổng",
+      "exampleTraditional": "請開門。",
+      "exampleVi": "Xin mở cửa."
+    },
+    "tocfl-20240923-novice-2-0083": {
+      "meaningVi": "cửa ra vào; trước cửa",
+      "exampleVi": "Chúng tôi gặp hàng xóm ở cửa."
+    },
+    "tocfl-20240923-novice-2-0084": {
+      "meaningVi": "bàn",
+      "exampleTraditional": "這張桌子很大。",
+      "exampleVi": "Chiếc bàn này rất lớn."
+    },
+    "tocfl-20240923-novice-2-0087": {
+      "meaningVi": "mở; bật"
+    },
+    "tocfl-20240923-novice-2-0088": {
+      "meaningVi": "thấp",
+      "exampleTraditional": "這張桌子太低了。",
+      "exampleVi": "Chiếc bàn này thấp quá."
+    },
+    "tocfl-20240923-novice-2-0091": {
+      "exampleTraditional": "今天的空氣很清新。",
+      "exampleVi": "Không khí hôm nay rất trong lành."
+    },
+    "tocfl-20240923-novice-2-0093": {
+      "meaningVi": "nóng",
+      "exampleTraditional": "今天很熱。",
+      "exampleVi": "Hôm nay trời rất nóng."
+    },
+    "tocfl-20240923-novice-2-0094": {
+      "meaningVi": "mưa",
+      "exampleTraditional": "今天的雨很大。",
+      "exampleVi": "Mưa hôm nay rất lớn."
+    },
+    "tocfl-20240923-novice-2-0098": {
+      "exampleTraditional": "花很漂亮。",
+      "exampleVi": "Hoa rất đẹp."
+    },
+    "tocfl-20240923-novice-2-0099": {
+      "meaningVi": "cây; cành (lượng từ)"
+    },
+    "tocfl-20240923-novice-2-0100": {
+      "exampleTraditional": "水裡有一條魚。",
+      "exampleVi": "Có một con cá dưới nước."
+    },
+    "tocfl-20240923-novice-2-0101": {
+      "meaningVi": "gà",
+      "exampleTraditional": "我家有一隻雞。",
+      "exampleVi": "Nhà tôi có một con gà."
+    },
+    "tocfl-20240923-novice-2-0102": {
+      "meaningVi": "bò",
+      "exampleTraditional": "我看到一頭牛。",
+      "exampleVi": "Tôi nhìn thấy một con bò."
+    },
+    "tocfl-20240923-novice-2-0105": {
+      "exampleTraditional": "我喜歡喝茶。",
+      "exampleVi": "Tôi thích uống trà."
+    },
+    "tocfl-20240923-novice-2-0108": {
+      "meaningVi": "thức dậy",
+      "exampleTraditional": "我每天早上七點起床。",
+      "exampleVi": "Tôi thức dậy lúc bảy giờ sáng mỗi ngày."
+    },
+    "tocfl-20240923-novice-2-0109": {
+      "exampleTraditional": "坐公車很方便。",
+      "exampleVi": "Đi xe buýt rất tiện."
+    },
+    "tocfl-20240923-novice-2-0110": {
+      "meaningVi": "ngủ; đi ngủ",
+      "exampleTraditional": "我十點睡覺。",
+      "exampleVi": "Tôi đi ngủ lúc mười giờ."
+    },
+    "tocfl-20240923-novice-2-0111": {
+      "meaningVi": "đứng dậy; thức dậy",
+      "exampleTraditional": "我早上七點起來。",
+      "exampleVi": "Tôi thức dậy lúc bảy giờ sáng."
+    },
+    "tocfl-20240923-novice-2-0114": {
+      "meaningVi": "mỗi",
+      "exampleTraditional": "我每天喝水。",
+      "exampleVi": "Tôi uống nước mỗi ngày."
+    },
+    "tocfl-20240923-novice-2-0115": {
+      "meaningVi": "đánh; chơi (môn thể thao)",
+      "exampleTraditional": "他在打球。",
+      "exampleVi": "Anh ấy đang chơi bóng."
+    },
+    "tocfl-20240923-novice-2-0116": {
+      "meaningVi": "chơi",
+      "exampleTraditional": "孩子在公園玩。",
+      "exampleVi": "Bọn trẻ chơi ở công viên."
+    },
+    "tocfl-20240923-novice-2-0117": {
+      "meaningVi": "tập thể dục; vận động",
+      "exampleTraditional": "我每天運動。",
+      "exampleVi": "Tôi tập thể dục mỗi ngày."
+    },
+    "tocfl-20240923-novice-2-0119": {
+      "meaningVi": "hát"
+    },
+    "tocfl-20240923-novice-2-0121": {
+      "meaningVi": "vẫn; còn",
+      "exampleVi": "Anh ấy vẫn đang làm việc nên không có thời gian về nhà."
+    },
+    "tocfl-20240923-novice-2-0123": {
+      "meaningVi": "bài hát",
+      "exampleTraditional": "這首歌很好聽。",
+      "exampleVi": "Bài hát này nghe rất hay."
+    },
+    "tocfl-20240923-novice-2-0124": {
+      "meaningVi": "nhảy múa; khiêu vũ"
+    },
+    "tocfl-20240923-novice-2-0125": {
+      "meaningVi": "lại; thêm lần nữa"
+    },
+    "tocfl-20240923-novice-2-0126": {
+      "meaningVi": "quả bóng",
+      "exampleTraditional": "我有一個球。",
+      "exampleVi": "Tôi có một quả bóng."
+    },
+    "tocfl-20240923-novice-2-0127": {
+      "meaningVi": "giới thiệu",
+      "exampleTraditional": "我介紹朋友給老師。",
+      "exampleVi": "Tôi giới thiệu bạn mình với thầy/cô."
+    },
+    "tocfl-20240923-novice-2-0128": {
+      "meaningVi": "không sao; không có gì",
+      "exampleTraditional": "沒關係！",
+      "exampleVi": "Không sao đâu!"
+    },
+    "tocfl-20240923-novice-2-0129": {
+      "meaningVi": "việc; chuyện"
+    },
+    "tocfl-20240923-novice-2-0130": {
+      "meaningVi": "thế nào; sao",
+      "exampleTraditional": "你怎麼去學校？",
+      "exampleVi": "Bạn đến trường bằng cách nào?"
+    },
+    "tocfl-20240923-novice-2-0131": {
+      "meaningVi": "nào"
+    },
+    "tocfl-20240923-novice-2-0133": {
+      "meaningVi": "phía trên; trên",
+      "exampleTraditional": "書在桌子上面。",
+      "exampleVi": "Sách ở trên bàn."
+    },
+    "tocfl-20240923-novice-2-0134": {
+      "meaningVi": "phía dưới; dưới",
+      "exampleTraditional": "書在桌子下面。",
+      "exampleVi": "Sách ở dưới bàn."
+    },
+    "tocfl-20240923-novice-2-0138": {
+      "meaningVi": "phía sau; đằng sau"
+    },
+    "tocfl-20240923-novice-2-0141": {
+      "meaningVi": "bên cạnh",
+      "exampleVi": "Tôi ngồi bên cạnh và đọc sách."
+    },
+    "tocfl-20240923-novice-2-0142": {
+      "meaningVi": "bên trong",
+      "exampleTraditional": "書在箱子裡。",
+      "exampleVi": "Sách ở trong hộp."
+    },
+    "tocfl-20240923-novice-2-0144": {
+      "meaningVi": "nơi; chỗ",
+      "exampleTraditional": "我喜歡這個地方。",
+      "exampleVi": "Tôi thích nơi này."
+    },
+    "tocfl-20240923-novice-2-0145": {
+      "meaningVi": "gần; khu vực gần đó"
+    },
+    "tocfl-20240923-novice-2-0146": {
+      "meaningVi": "mang theo",
+      "exampleTraditional": "我帶了水和麵包。",
+      "exampleVi": "Tôi mang theo nước và bánh mì."
+    },
+    "tocfl-20240923-novice-2-0147": {
+      "meaningVi": "cầm; lấy",
+      "exampleTraditional": "她拿了一本書。",
+      "exampleVi": "Cô ấy lấy một cuốn sách."
+    },
+    "tocfl-20240923-novice-2-0149": {
+      "meaningVi": "nhanh",
+      "exampleTraditional": "他走得很快。",
+      "exampleVi": "Anh ấy đi rất nhanh."
+    },
+    "tocfl-20240923-novice-2-0154": {
+      "meaningVi": "chiếc (lượng từ cho xe)",
+      "exampleTraditional": "我有一輛車。",
+      "exampleVi": "Tôi có một chiếc xe."
+    },
+    "tocfl-20240923-novice-2-0155": {
+      "meaningVi": "ra; đi ra",
+      "exampleVi": "Anh ấy ra khỏi cửa."
+    },
+    "tocfl-20240923-novice-2-0158": {
+      "meaningVi": "tay",
+      "exampleTraditional": "我的手很冷。",
+      "exampleVi": "Tay tôi rất lạnh."
+    },
+    "tocfl-20240923-novice-2-0160": {
+      "meaningVi": "cơ thể; sức khỏe",
+      "exampleTraditional": "我今天身體不舒服。",
+      "exampleVi": "Hôm nay tôi không khỏe."
+    },
+    "tocfl-20240923-novice-2-0161": {
+      "meaningVi": "mắt",
+      "exampleTraditional": "她的眼睛很大。",
+      "exampleVi": "Mắt cô ấy rất to."
+    },
+    "tocfl-20240923-novice-2-0162": {
+      "meaningVi": "mũi",
+      "exampleTraditional": "我的鼻子很小。",
+      "exampleVi": "Mũi tôi nhỏ."
+    },
+    "tocfl-20240923-novice-2-0163": {
+      "meaningVi": "thuốc",
+      "exampleTraditional": "醫生給我藥。",
+      "exampleVi": "Bác sĩ cho tôi thuốc."
+    },
+    "tocfl-20240923-novice-2-0164": {
+      "meaningVi": "mệt",
+      "exampleTraditional": "我今天很累。",
+      "exampleVi": "Hôm nay tôi rất mệt."
+    },
+    "tocfl-20240923-novice-2-0165": {
+      "meaningVi": "đầu",
+      "exampleTraditional": "我的頭很痛。",
+      "exampleVi": "Đầu tôi rất đau."
+    },
+    "tocfl-20240923-novice-2-0167": {
+      "meaningVi": "bị cảm; cảm lạnh",
+      "exampleTraditional": "我感冒了。",
+      "exampleVi": "Tôi bị cảm rồi."
+    },
+    "tocfl-20240923-novice-2-0170": {
+      "meaningVi": "đau",
+      "exampleTraditional": "我的手很痛。",
+      "exampleVi": "Tay tôi rất đau."
+    },
+    "tocfl-20240923-novice-2-0171": {
+      "meaningVi": "miệng",
+      "exampleTraditional": "她的嘴巴很小。",
+      "exampleVi": "Miệng cô ấy nhỏ."
+    },
+    "tocfl-20240923-novice-2-0172": {
+      "meaningVi": "bệnh",
+      "exampleTraditional": "他的病好了。",
+      "exampleVi": "Bệnh của anh ấy đã khỏi."
+    },
+    "tocfl-20240923-novice-2-0174": {
+      "meaningVi": "đồng; Đài tệ (đơn vị tiền)",
+      "exampleTraditional": "這本書五十元。",
+      "exampleVi": "Cuốn sách này giá 50 Đài tệ."
+    },
+    "tocfl-20240923-novice-2-0177": {
+      "meaningVi": "hơn; so với",
+      "exampleVi": "Cô ấy cao hơn em gái."
+    },
+    "tocfl-20240923-novice-2-0178": {
+      "meaningVi": "muốn; cần",
+      "exampleTraditional": "我要喝水。",
+      "exampleVi": "Tôi muốn uống nước."
+    },
+    "tocfl-20240923-novice-2-0182": {
+      "meaningVi": "gặp; thấy",
+      "exampleTraditional": "我們明天見。",
+      "exampleVi": "Hẹn gặp ngày mai."
+    },
+    "tocfl-20240923-novice-2-0183": {
+      "meaningVi": "nhìn thấy; bắt gặp"
+    },
+    "tocfl-20240923-novice-2-0185": {
+      "meaningVi": "cửa hàng; tiệm",
+      "exampleTraditional": "這家店賣麵包。",
+      "exampleVi": "Cửa hàng này bán bánh mì."
+    },
+    "tocfl-20240923-novice-2-0186": {
+      "meaningVi": "ngắn",
+      "exampleTraditional": "這支筆很短。",
+      "exampleVi": "Cây bút này rất ngắn."
+    },
+    "tocfl-20240923-novice-2-0187": {
+      "meaningVi": "no",
+      "exampleTraditional": "我吃飽了。",
+      "exampleVi": "Tôi ăn no rồi."
+    },
+    "tocfl-20240923-novice-2-0188": {
+      "meaningVi": "cũ",
+      "exampleTraditional": "這本書很舊。",
+      "exampleVi": "Cuốn sách này rất cũ."
+    },
+    "tocfl-20240923-novice-2-0189": {
+      "meaningVi": "giống; giống như",
+      "exampleTraditional": "他像爸爸。",
+      "exampleVi": "Anh ấy giống bố."
+    },
+    "tocfl-20240923-novice-2-0190": {
+      "meaningVi": "tổng cộng; tất cả",
+      "exampleTraditional": "我們一共有三個人。",
+      "exampleVi": "Chúng tôi có tất cả ba người."
+    },
+    "tocfl-20240923-novice-2-0191": {
+      "meaningVi": "đủ",
+      "exampleTraditional": "錢夠了。",
+      "exampleVi": "Tiền đủ rồi."
+    },
+    "tocfl-20240923-novice-2-0193": {
+      "meaningVi": "cái; chiếc (lượng từ cho quần áo, vật)",
+      "exampleTraditional": "她買了一件外套。",
+      "exampleVi": "Cô ấy mua một chiếc áo khoác."
+    },
+    "tocfl-20240923-novice-2-0194": {
+      "meaningVi": "cốc; ly (lượng từ)",
+      "exampleTraditional": "我喝了一杯水。",
+      "exampleVi": "Tôi uống một cốc nước."
+    },
+    "tocfl-20240923-novice-2-0195": {
+      "meaningVi": "cốc; ly"
+    },
+    "tocfl-20240923-novice-2-0196": {
+      "meaningVi": "rau; món ăn"
+    },
+    "tocfl-20240923-novice-2-0197": {
+      "meaningVi": "thịt",
+      "exampleTraditional": "我喜歡吃肉。",
+      "exampleVi": "Tôi thích ăn thịt."
+    },
+    "tocfl-20240923-novice-2-0198": {
+      "meaningVi": "rượu; đồ uống có cồn"
+    },
+    "tocfl-20240923-novice-2-0200": {
+      "meaningVi": "ít",
+      "exampleTraditional": "這裡的人很少。",
+      "exampleVi": "Ở đây có rất ít người."
+    },
+    "tocfl-20240923-novice-2-0201": {
+      "meaningVi": "nhiều",
+      "exampleTraditional": "這裡的人很多。",
+      "exampleVi": "Ở đây có rất nhiều người."
+    },
+    "tocfl-20240923-novice-2-0202": {
+      "meaningVi": "món ăn vặt; quà vặt",
+      "exampleTraditional": "夜市有很多小吃。",
+      "exampleVi": "Chợ đêm có nhiều món ăn vặt."
+    },
+    "tocfl-20240923-novice-2-0203": {
+      "meaningVi": "sữa bò"
+    },
+    "tocfl-20240923-novice-2-0205": {
+      "meaningVi": "sủi cảo; bánh xếp",
+      "exampleVi": "Tôi thích ăn sủi cảo."
+    },
+    "tocfl-20240923-novice-2-0207": {
+      "meaningVi": "canh; súp",
+      "exampleVi": "Tôi đã uống một bát súp nóng vào bữa sáng."
+    },
+    "tocfl-20240923-novice-2-0208": {
+      "meaningVi": "bánh bao",
+      "exampleVi": "Tôi thích ăn bánh bao."
+    },
+    "tocfl-20240923-novice-2-0209": {
+      "meaningVi": "bánh ngọt; bánh kem",
+      "exampleVi": "Tôi thích ăn bánh ngọt."
+    },
+    "tocfl-20240923-novice-2-0213": {
+      "meaningVi": "thức ăn; thực phẩm",
+      "exampleTraditional": "這些食物很好吃。",
+      "exampleVi": "Những món ăn này rất ngon."
+    },
+    "tocfl-20240923-novice-2-0214": {
+      "meaningVi": "đồ uống",
+      "exampleTraditional": "這家店有很多飲料。",
+      "exampleVi": "Cửa hàng này có nhiều loại đồ uống."
+    },
+    "tocfl-20240923-novice-2-0216": {
+      "meaningVi": "ngọt"
+    },
+    "tocfl-20240923-novice-2-0220": {
+      "meaningVi": "đá; món đá bào",
+      "exampleVi": "Mùa hè cô ấy thích ăn đá bào."
+    },
+    "tocfl-20240923-novice-2-0221": {
+      "meaningVi": "cùng nhau",
+      "exampleVi": "Chúng tôi cùng đi xem phim."
+    },
+    "tocfl-20240923-novice-2-0222": {
+      "meaningVi": "vì; bởi vì",
+      "exampleTraditional": "因為下雨，我們沒去公園。",
+      "exampleVi": "Vì trời mưa, chúng tôi không đến công viên."
+    },
+    "tocfl-20240923-novice-2-0224": {
+      "meaningVi": "vì vậy; cho nên",
+      "exampleVi": "Anh ấy bận nên đã đến muộn."
+    },
+    "tocfl-20240923-novice-2-0225": {
+      "meaningVi": "theo; với"
+    },
+    "tocfl-20240923-novice-2-0227": {
+      "meaningVi": "có thể; có lẽ"
+    },
+    "tocfl-20240923-novice-2-0228": {
+      "meaningVi": "bên; cạnh",
+      "exampleTraditional": "我站在路邊。",
+      "exampleVi": "Tôi đứng bên đường."
+    },
+    "tocfl-20240923-novice-2-0231": {
+      "meaningVi": "sau đó",
+      "exampleTraditional": "我吃完飯，然後去學校。",
+      "exampleVi": "Tôi ăn xong rồi đến trường."
+    },
+    "tocfl-20240923-novice-2-0232": {
+      "meaningVi": "phải; cần",
+      "exampleTraditional": "我得回家了。",
+      "exampleVi": "Tôi phải về nhà rồi."
+    },
+    "tocfl-20240923-novice-2-0233": {
+      "meaningVi": "trợ từ chỉ trạng thái tiếp diễn"
+    },
+    "tocfl-20240923-novice-2-0234": {
+      "meaningVi": "hơi; một chút",
+      "exampleVi": "Anh ấy hơi đói."
+    },
+    "tocfl-20240923-novice-1-0025": {
+      "exampleVi": "Hôm qua tôi đến công viên."
+    },
+    "tocfl-20240923-novice-1-0028": {
+      "exampleVi": "Buổi trưa tôi ăn cơm."
+    },
+    "tocfl-20240923-novice-1-0029": {
+      "exampleVi": "Chiều tôi đến trường."
+    },
+    "tocfl-20240923-novice-1-0030": {
+      "exampleVi": "Buổi tối tôi đi ngủ."
+    },
+    "tocfl-20240923-novice-1-0101": {
+      "exampleVi": "Trước đây tôi biết đi xe đạp."
+    },
+    "tocfl-20240923-novice-1-0132": {
+      "exampleVi": "Hôm nay tôi lái xe đi làm."
+    },
+    "tocfl-20240923-novice-1-0147": {
+      "meaningVi": "cơm; bữa ăn"
+    },
+    "tocfl-20240923-novice-1-0155": {
+      "exampleVi": "Tôi thích ăn món tráng miệng nhưng không thường xuyên."
+    },
+    "tocfl-20240923-novice-2-0010": {
+      "exampleVi": "Chúng ta đi theo con đường này đến trường."
+    },
+    "tocfl-20240923-novice-2-0025": {
+      "exampleVi": "Tôi thích ăn món tráng miệng."
+    },
+    "tocfl-20240923-novice-2-0038": {
+      "exampleVi": "Hôm kia tôi đã đi khám bác sĩ."
+    },
+    "tocfl-20240923-novice-2-0043": {
+      "meaningVi": "nó (đồ vật, động vật)"
+    },
+    "tocfl-20240923-novice-2-0057": {
+      "meaningVi": "tiếng Anh"
+    },
+    "tocfl-20240923-novice-2-0058": {
+      "exampleVi": "Tôi dùng giấy để viết một lá thư."
+    },
+    "tocfl-20240923-novice-2-0069": {
+      "exampleVi": "Tôi hiểu ý bạn."
+    },
+    "tocfl-20240923-novice-2-0096": {
+      "exampleTraditional": "今天下午風很大。",
+      "exampleVi": "Chiều nay gió lớn."
+    },
+    "tocfl-20240923-novice-2-0103": {
+      "meaningVi": "lợn; heo"
+    },
+    "tocfl-20240923-novice-2-0132": {
+      "exampleTraditional": "他躲在房間裡面。",
+      "exampleVi": "Anh ấy trốn trong phòng."
+    },
+    "tocfl-20240923-novice-2-0152": {
+      "exampleVi": "Hằng ngày tôi đi tàu hỏa đến chỗ làm."
+    },
+    "tocfl-20240923-novice-2-0153": {
+      "exampleVi": "Hôm nay tôi đi máy bay đến Đài Bắc."
+    },
+    "tocfl-20240923-novice-2-0156": {
+      "exampleVi": "Anh ấy đi vào trong."
+    },
+    "tocfl-20240923-novice-2-0217": {
+      "exampleTraditional": "請給我菜單。",
+      "exampleVi": "Cho tôi xin thực đơn."
+    },
+    "tocfl-20240923-novice-2-0219": {
+      "meaningVi": "bát; tô"
+    },
+    "tocfl-20240923-novice-2-0223": {
+      "meaningVi": "và; cùng với"
+    },
+    "tocfl-20240923-level-1-0001": {
+      "meaningVi": "số không",
+      "exampleVi": "Con số này là số không.",
+      "exampleTraditional": "這個數字是零。",
+      "exampleSimplified": "这个数字是零。"
+    },
+    "tocfl-20240923-level-1-0004": {
+      "meaningVi": "gia đình",
+      "exampleVi": "Gia đình tôi có bốn người.",
+      "exampleTraditional": "我的家庭有四個人。",
+      "exampleSimplified": "我的家庭有四个人。"
+    },
+    "tocfl-20240923-level-1-0008": {
+      "meaningVi": "trẻ; trẻ tuổi",
+      "exampleVi": "Mẹ tôi rất trẻ.",
+      "exampleTraditional": "我媽媽很年輕。",
+      "exampleSimplified": "我妈妈很年轻。"
+    },
+    "tocfl-20240923-level-1-0010": {
+      "meaningVi": "nữ sinh; học sinh nữ",
+      "exampleVi": "Lớp này có mười nữ sinh.",
+      "exampleTraditional": "這個班有十個女生。",
+      "exampleSimplified": "这个班有十个女生。"
+    },
+    "tocfl-20240923-level-1-0011": {
+      "meaningVi": "số; số hiệu",
+      "exampleVi": "Hãy viết số điện thoại của bạn.",
+      "exampleTraditional": "請寫下你的電話號碼。",
+      "exampleSimplified": "请写下你的电话号码。"
+    },
+    "tocfl-20240923-level-1-0012": {
+      "meaningVi": "đang; ở",
+      "exampleVi": "Sách của tôi ở trên bàn.",
+      "exampleTraditional": "我的書在桌上。",
+      "exampleSimplified": "我的书在桌上。"
+    },
+    "tocfl-20240923-level-1-0013": {
+      "meaningVi": "nào; ở đâu",
+      "exampleVi": "Cuốn sách nào là của bạn?",
+      "exampleTraditional": "哪本書是你的？",
+      "exampleSimplified": "哪本书是你的？"
+    },
+    "tocfl-20240923-level-1-0017": {
+      "meaningVi": "thành phố",
+      "exampleVi": "Thành phố này có nhiều công viên.",
+      "exampleTraditional": "這個城市有很多公園。",
+      "exampleSimplified": "这个城市有很多公园。"
+    },
+    "tocfl-20240923-level-1-0020": {
+      "meaningVi": "tuần",
+      "exampleVi": "Tuần sau tôi sẽ đến Đài Nam.",
+      "exampleTraditional": "下個禮拜我要去台南。",
+      "exampleSimplified": "下个礼拜我要去台南。"
+    },
+    "tocfl-20240923-level-1-0024": {
+      "meaningVi": "kết hôn",
+      "exampleVi": "Anh trai tôi sẽ kết hôn vào năm sau.",
+      "exampleTraditional": "我哥哥明年要結婚。",
+      "exampleSimplified": "我哥哥明年要结婚。"
+    },
+    "tocfl-20240923-level-1-0091": {
+      "meaningVi": "được; ổn",
+      "exampleVi": "Làm như vậy có được không?",
+      "exampleTraditional": "這樣行嗎？",
+      "exampleSimplified": "这样行吗？"
+    },
+    "tocfl-20240923-level-1-0098": {
+      "meaningVi": "trả lại; hoàn lại",
+      "exampleVi": "Ngày mai tôi sẽ trả bạn cuốn sách này.",
+      "exampleTraditional": "我明天還你這本書。",
+      "exampleSimplified": "我明天还你这本书。"
+    },
+    "tocfl-20240923-level-1-0132": {
+      "meaningVi": "mặt đất; đất",
+      "exampleVi": "Đứa trẻ ngồi trên mặt đất.",
+      "exampleTraditional": "孩子坐在地上。",
+      "exampleSimplified": "孩子坐在地上。"
+    },
+    "tocfl-20240923-level-1-0347": {
+      "meaningVi": "một cách... (trợ từ chỉ trạng thái)",
+      "exampleVi": "Anh ấy vui vẻ cười.",
+      "exampleTraditional": "他高興地笑了。",
+      "exampleSimplified": "他高兴地笑了。"
+    },
+    "tocfl-20240923-level-1-0136": {
+      "meaningVi": "chim",
+      "exampleVi": "Trên cây có một con chim.",
+      "exampleTraditional": "樹上有一隻鳥。",
+      "exampleSimplified": "树上有一只鸟。"
+    },
+    "tocfl-20240923-level-1-0143": {
+      "meaningVi": "dài",
+      "exampleVi": "Con đường này rất dài.",
+      "exampleTraditional": "這條路很長。",
+      "exampleSimplified": "这条路很长。"
+    },
+    "tocfl-20240923-level-1-0152": {
+      "meaningVi": "cởi; tháo",
+      "exampleVi": "Trời nóng rồi, tôi cởi áo khoác.",
+      "exampleTraditional": "天氣熱了，我脫下外套。",
+      "exampleSimplified": "天气热了，我脱下外套。"
+    },
+    "tocfl-20240923-level-1-0157": {
+      "meaningVi": "đá",
+      "exampleVi": "Anh ấy đá bóng trong công viên.",
+      "exampleTraditional": "他在公園踢球。",
+      "exampleSimplified": "他在公园踢球。"
+    },
+    "tocfl-20240923-level-1-0170": {
+      "meaningVi": "lần",
+      "exampleVi": "Tôi đã đến Đài Bắc hai lần.",
+      "exampleTraditional": "我去過台北兩次。",
+      "exampleSimplified": "我去过台北两次。"
+    },
+    "tocfl-20240923-level-1-0186": {
+      "meaningVi": "mới; chỉ mới",
+      "exampleVi": "Mãi đến mười giờ anh ấy mới về nhà.",
+      "exampleTraditional": "他十點才回家。",
+      "exampleSimplified": "他十点才回家。"
+    },
+    "tocfl-20240923-level-1-0192": {
+      "meaningVi": "alô; này",
+      "exampleVi": "Alô, xin hỏi bạn tìm ai?",
+      "exampleTraditional": "喂，請問你找誰？",
+      "exampleSimplified": "喂，请问你找谁？"
+    },
+    "tocfl-20240923-level-1-0213": {
+      "meaningVi": "kéo",
+      "exampleVi": "Hãy giúp tôi kéo cửa ra.",
+      "exampleTraditional": "請幫我拉開門。",
+      "exampleSimplified": "请帮我拉开门。"
+    },
+    "tocfl-20240923-level-1-0204": {
+      "meaningVi": "thư",
+      "exampleVi": "Hôm qua anh ấy đã viết xong một lá thư.",
+      "exampleTraditional": "昨天他寫好了一封信。",
+      "exampleSimplified": "昨天他写好了一封信。"
+    },
+    "tocfl-20240923-level-1-0225": {
+      "meaningVi": "nhà nghỉ; khách sạn",
+      "exampleVi": "Chúng tôi ở khách sạn gần nhà ga.",
+      "exampleTraditional": "我們住在車站附近的旅館。",
+      "exampleSimplified": "我们住在车站附近的旅馆。"
+    },
+    "tocfl-20240923-level-1-0248": {
+      "meaningVi": "rơi; mất đi",
+      "exampleVi": "Bút của tôi rơi xuống đất.",
+      "exampleTraditional": "我的筆掉在地上了。",
+      "exampleSimplified": "我的笔掉在地上了。"
+    },
+    "tocfl-20240923-level-1-0313": {
+      "meaningVi": "phần; suất",
+      "exampleVi": "Tôi muốn gọi một phần cơm chiên.",
+      "exampleTraditional": "我想點一份炒飯。",
+      "exampleSimplified": "我想点一份炒饭。"
+    },
+    "tocfl-20240923-level-1-0310": {
+      "meaningVi": "miếng; lát",
+      "exampleVi": "Tôi ăn một lát bánh mì.",
+      "exampleTraditional": "我吃了一片麵包。",
+      "exampleSimplified": "我吃了一片面包。"
+    },
+    "tocfl-20240923-level-1-0321": {
+      "meaningVi": "thơm",
+      "exampleVi": "Bát canh này có mùi rất thơm.",
+      "exampleTraditional": "這碗湯聞起來很香。",
+      "exampleSimplified": "这碗汤闻起来很香。"
+    },
+    "tocfl-20240923-level-1-0329": {
+      "meaningVi": "đi qua; vượt qua",
+      "exampleVi": "Ngày nào tôi cũng đi qua cây cầu này.",
+      "exampleTraditional": "我每天過這座橋。",
+      "exampleSimplified": "我每天过这座桥。"
+    },
+    "tocfl-20240923-level-1-0335": {
+      "meaningVi": "để; cho phép",
+      "exampleVi": "Hãy để tôi xem thử.",
+      "exampleTraditional": "請讓我看看。",
+      "exampleSimplified": "请让我看看。"
+    },
+    "tocfl-20240923-level-1-0341": {
+      "meaningVi": "nhé; đấy (trợ từ cảm thán)",
+      "exampleVi": "Thời tiết hôm nay đẹp quá!",
+      "exampleTraditional": "今天的天氣真好呀！",
+      "exampleSimplified": "今天的天气真好呀！"
+    },
+    "tocfl-20240923-level-1-0346": {
+      "meaningVi": "nhưng; tuy nhiên",
+      "exampleVi": "Tôi muốn đi, nhưng hôm nay không có thời gian.",
+      "exampleTraditional": "我想去，不過今天沒時間。",
+      "exampleSimplified": "我想去，不过今天没时间。"
+    },
+    "tocfl-20240923-level-1-0062": {
+      "meaningVi": "đi học",
+      "exampleVi": "Ngày nào tôi cũng đi học lúc tám giờ.",
+      "exampleTraditional": "我每天八點上學。",
+      "exampleSimplified": "我每天八点上学。"
+    },
+    "tocfl-20240923-level-1-0254": {
+      "meaningVi": "bụng",
+      "exampleVi": "Bụng tôi hơi đau.",
+      "exampleTraditional": "我的肚子有點痛。",
+      "exampleSimplified": "我的肚子有点痛。"
+    },
+    "tocfl-20240923-level-1-0166": {
+      "meaningVi": "lên mạng",
+      "exampleVi": "Tôi thường lên mạng đọc blog bằng tiếng Anh và tiếng Trung."
+    },
+    "tocfl-20240923-level-1-0274": {
+      "meaningVi": "tất; vớ",
+      "exampleVi": "Anh ấy mang vớ ngược."
+    },
+    "tocfl-20240923-level-1-0277": {
+      "meaningVi": "quần",
+      "exampleVi": "Anh ấy mặc chiếc quần sạch."
+    },
+    "tocfl-20240923-level-1-0303": {
+      "meaningVi": "kem",
+      "exampleVi": "Bạn không nên ăn nhiều kem như vậy."
+    },
+    "tocfl-20240923-level-2-0016": {
+      "meaningVi": "chẳng bao lâu; mới đây",
+      "exampleVi": "Anh ấy vừa đến đây chưa lâu."
+    },
+    "tocfl-20240923-level-2-0053": {
+      "meaningVi": "dì; cô",
+      "exampleVi": "Dì tôi mang hoa đến cho tôi."
+    },
+    "tocfl-20240923-level-2-0107": {
+      "meaningVi": "bạn cùng phòng",
+      "exampleVi": "Bạn cùng phòng của tôi đang học tiếng Trung."
+    },
+    "tocfl-20240923-level-2-0166": {
+      "meaningVi": "ngày nắng đẹp",
+      "exampleVi": "Hy vọng Chủ Nhật trời sẽ nắng đẹp."
+    },
+    "tocfl-20240923-level-2-0192": {
+      "meaningVi": "dép lê",
+      "exampleVi": "Hãy mang đôi dép lê này."
+    },
+    "tocfl-20240923-level-2-0204": {
+      "meaningVi": "dã ngoại; đi picnic",
+      "exampleVi": "Tôi vẫn nhớ lần chúng ta cùng đi dã ngoại."
+    },
+    "tocfl-20240923-level-2-0246": {
+      "meaningVi": "ở lại; giữ lại",
+      "exampleVi": "Ở lại hay rời đi là quyền của bạn."
+    },
+    "tocfl-20240923-level-2-0331": {
+      "meaningVi": "gửi bảo đảm; đăng ký khám",
+      "exampleVi": "Hãy gửi món này bằng thư bảo đảm."
+    },
+    "tocfl-20240923-level-2-0385": {
+      "meaningVi": "bộ (lượng từ)",
+      "exampleVi": "Cô ấy mua một bộ quần áo mới."
+    },
+    "tocfl-20240923-level-2-0100": {
+      "meaningVi": "kỳ nghỉ xuân",
+      "exampleVi": "Tôi dự định đến Úc vào kỳ nghỉ xuân."
+    },
+    "tocfl-20240923-level-2-0389": {
+      "meaningVi": "thịt giăm bông",
+      "exampleVi": "Tôi nghĩ bạn nên ăn bánh mì kẹp thịt giăm bông."
+    },
+    "tocfl-20240923-level-2-0163": {
+      "meaningVi": "mặt trăng",
+      "exampleVi": "Họ thích những ngôi sao đẹp và mặt trăng."
+    },
+    "tocfl-20240923-level-2-0294": {
+      "meaningVi": "rơi; đổ xuống (mưa)",
+      "exampleVi": "Mưa đã rơi từ sáng đến giờ."
+    },
+    "tocfl-20240923-level-2-0194": {
+      "meaningVi": "chải; cọ; quét",
+      "exampleVi": "Anh ấy đánh răng mỗi ngày.",
+      "exampleTraditional": "他每天刷牙。",
+      "exampleSimplified": "他每天刷牙。"
+    },
+    "tocfl-20240923-level-2-0137": {
+      "meaningVi": "chỗ ngồi; tòa (lượng từ)",
+      "exampleVi": "Ngọn núi này rất cao.",
+      "exampleTraditional": "這座山很高。",
+      "exampleSimplified": "这座山很高。"
+    },
+    "tocfl-20240923-level-2-0392": {
+      "meaningVi": "gạo",
+      "exampleVi": "Bao gạo này rất nặng.",
+      "exampleTraditional": "這袋米很重。",
+      "exampleSimplified": "这袋米很重。"
+    },
+    "tocfl-20240923-level-2-0295": {
+      "meaningVi": "lên; đi lên",
+      "exampleVi": "Anh ấy đi lên cầu thang.",
+      "exampleTraditional": "他走上樓梯。",
+      "exampleSimplified": "他走上楼梯。"
+    },
+    "tocfl-20240923-level-2-0374": {
+      "meaningVi": "hào; một phần mười đồng",
+      "exampleVi": "Cây bút này chỉ có giá năm hào.",
+      "exampleTraditional": "這支筆只要五毛錢。",
+      "exampleSimplified": "这支笔只要五毛钱。"
+    },
+    "tocfl-20240923-level-2-0380": {
+      "meaningVi": "hết; sạch (bổ ngữ kết quả)",
+      "exampleVi": "Anh ấy đã tiêu hết tiền.",
+      "exampleTraditional": "他把錢花光了。",
+      "exampleSimplified": "他把钱花光了。"
+    },
+    "tocfl-20240923-level-2-0381": {
+      "meaningVi": "chết",
+      "exampleVi": "Cây già đó đã chết.",
+      "exampleTraditional": "那棵老樹死了。",
+      "exampleSimplified": "那棵老树死了。"
+    },
+    "tocfl-20240923-level-2-0416": {
+      "meaningVi": "xào; rang",
+      "exampleVi": "Mẹ đang xào rau.",
+      "exampleTraditional": "媽媽正在炒青菜。",
+      "exampleSimplified": "妈妈正在炒青菜。"
+    },
+    "tocfl-20240923-level-2-0417": {
+      "meaningVi": "chiên; rán",
+      "exampleVi": "Anh ấy thích ăn gà rán.",
+      "exampleTraditional": "他喜歡吃炸雞。",
+      "exampleSimplified": "他喜欢吃炸鸡。"
+    },
+    "tocfl-20240923-level-2-0454": {
+      "meaningVi": "cả; nguyên",
+      "exampleVi": "Anh ấy bận cả ngày.",
+      "exampleTraditional": "他忙了一整天。",
+      "exampleSimplified": "他忙了一整天。"
+    },
+    "tocfl-20240923-level-2-0467": {
+      "meaningVi": "phiền; bực mình",
+      "exampleVi": "Chuyện này thật phiền.",
+      "exampleTraditional": "這件事真煩。",
+      "exampleSimplified": "这件事真烦。"
+    },
+    "tocfl-20240923-level-2-0476": {
+      "meaningVi": "và; hơn nữa",
+      "exampleVi": "Cách này đơn giản và hiệu quả.",
+      "exampleTraditional": "這個方法簡單且有效。",
+      "exampleSimplified": "这个方法简单且有效。"
+    },
+    "tocfl-20240923-level-2-0475": {
+      "meaningVi": "pha; ngâm",
+      "exampleVi": "Tôi pha một tách trà ô long.",
+      "exampleTraditional": "我泡了一杯烏龍茶。",
+      "exampleSimplified": "我泡了一杯乌龙茶。"
+    },
+    "tocfl-20240923-level-2-0459": {
+      "meaningVi": "trống; rỗng",
+      "exampleVi": "Trong lớp học không có ai.",
+      "exampleTraditional": "教室裡是空的。",
+      "exampleSimplified": "教室里是空的。"
+    },
+    "tocfl-20240923-level-2-0460": {
+      "meaningVi": "trống; rỗng",
+      "exampleVi": "Trong lớp học không có ai.",
+      "exampleTraditional": "教室裡是空的。",
+      "exampleSimplified": "教室里是空的。"
+    },
+    "tocfl-20240923-level-2-0190": {
+      "meaningVi": "cái gối",
+      "exampleVi": "Gối của tôi rất mềm.",
+      "exampleTraditional": "我的枕頭很軟。",
+      "exampleSimplified": "我的枕头很软。"
+    },
+    "tocfl-20240923-level-2-0178": {
+      "meaningVi": "đáy; phía dưới",
+      "exampleVi": "Dưới đáy cốc vẫn còn một ít nước.",
+      "exampleTraditional": "杯子底還有一點水。",
+      "exampleSimplified": "杯子底还有一点水。"
+    },
+    "tocfl-20240923-level-2-0408": {
+      "meaningVi": "hôi; thối",
+      "exampleVi": "Đôi giày này hơi hôi.",
+      "exampleTraditional": "這雙鞋有點臭。",
+      "exampleSimplified": "这双鞋有点臭。"
+    },
+    "tocfl-20240923-level-2-0411": {
+      "meaningVi": "viên; hạt (lượng từ)",
+      "exampleVi": "Cô ấy uống một viên thuốc.",
+      "exampleTraditional": "她吃了一顆藥。",
+      "exampleSimplified": "她吃了一颗药。"
+    },
+    "tocfl-20240923-level-2-0042": {
+      "meaningVi": "ngốc; chậm hiểu",
+      "exampleVi": "Anh ấy không ngốc, chỉ là chưa học được thôi.",
+      "exampleTraditional": "他不笨，只是還沒學會。",
+      "exampleSimplified": "他不笨，只是还没学会。"
+    },
+    "tocfl-20240923-level-2-0207": {
+      "meaningVi": "bắt; nắm lấy",
+      "exampleVi": "Anh ấy chộp lấy chiếc mũ đang bay đi.",
+      "exampleTraditional": "他抓住了飛走的帽子。",
+      "exampleSimplified": "他抓住了飞走的帽子。"
+    },
+    "tocfl-20240923-level-2-0379": {
+      "meaningVi": "tròn",
+      "exampleVi": "Cái đĩa này có hình tròn.",
+      "exampleTraditional": "這個盤子是圓的。",
+      "exampleSimplified": "这个盘子是圆的。"
+    },
+    "tocfl-20240923-level-1-0003": {
+      "meaningVi": "bà nội"
+    },
+    "tocfl-20240923-level-1-0030": {
+      "meaningVi": "khóc"
+    },
+    "tocfl-20240923-level-1-0036": {
+      "meaningVi": "thông minh"
+    },
+    "tocfl-20240923-level-1-0037": {
+      "meaningVi": "tin tưởng"
+    },
+    "tocfl-20240923-level-1-0041": {
+      "meaningVi": "thói quen; quen với"
+    },
+    "tocfl-20240923-level-1-0046": {
+      "meaningVi": "văn phòng"
+    },
+    "tocfl-20240923-level-1-0052": {
+      "meaningVi": "tan làm"
+    },
+    "tocfl-20240923-level-1-0057": {
+      "meaningVi": "kế hoạch; lên kế hoạch"
+    },
+    "tocfl-20240923-level-1-0059": {
+      "meaningVi": "nếu",
+      "exampleVi": "Nếu không có tôi, bạn sẽ chẳng làm được gì cả."
+    },
+    "tocfl-20240923-level-1-0063": {
+      "meaningVi": "bắt đầu năm học; khai giảng"
+    },
+    "tocfl-20240923-level-1-0066": {
+      "meaningVi": "bài tập"
+    },
+    "tocfl-20240923-level-1-0074": {
+      "meaningVi": "đọc sách; học bài"
+    },
+    "tocfl-20240923-level-1-0078": {
+      "meaningVi": "hình vẽ; bức tranh"
+    },
+    "tocfl-20240923-level-1-0086": {
+      "meaningVi": "rõ ràng"
+    },
+    "tocfl-20240923-level-1-0096": {
+      "meaningVi": "nộp; giao",
+      "exampleVi": "Bạn đã nộp bài tập chưa?"
+    },
+    "tocfl-20240923-level-1-0109": {
+      "meaningVi": "tầng trên; trên lầu"
+    },
+    "tocfl-20240923-level-1-0110": {
+      "meaningVi": "tầng dưới; dưới lầu"
+    },
+    "tocfl-20240923-level-1-0119": {
+      "meaningVi": "đóng"
+    },
+    "tocfl-20240923-level-1-0124": {
+      "meaningVi": "điện"
+    },
+    "tocfl-20240923-level-1-0134": {
+      "meaningVi": "hồ"
+    },
+    "tocfl-20240923-level-1-0146": {
+      "meaningVi": "tắm"
+    },
+    "tocfl-20240923-level-1-0148": {
+      "meaningVi": "phát hiện; nhận ra"
+    },
+    "tocfl-20240923-level-1-0155": {
+      "meaningVi": "bơi"
+    },
+    "tocfl-20240923-level-1-0156": {
+      "meaningVi": "chạy; chạy bộ"
+    },
+    "tocfl-20240923-level-1-0161": {
+      "meaningVi": "bóng chày"
+    },
+    "tocfl-20240923-level-1-0174": {
+      "meaningVi": "âm nhạc"
+    },
+    "tocfl-20240923-level-1-0179": {
+      "meaningVi": "đôi khi; có lúc"
+    },
+    "tocfl-20240923-level-1-0188": {
+      "meaningVi": "khách sáo; lịch sự"
+    },
+    "tocfl-20240923-level-1-0190": {
+      "meaningVi": "ngại; xin lỗi"
+    },
+    "tocfl-20240923-level-1-0215": {
+      "meaningVi": "làm thế nào; phải làm sao"
+    },
+    "tocfl-20240923-level-1-0216": {
+      "meaningVi": "nhà ga; trạm xe"
+    },
+    "tocfl-20240923-level-1-0224": {
+      "meaningVi": "nhà hàng; khách sạn"
+    },
+    "tocfl-20240923-level-1-0227": {
+      "meaningVi": "tham quan"
+    },
+    "tocfl-20240923-level-1-0232": {
+      "meaningVi": "phong cảnh"
+    },
+    "tocfl-20240923-level-1-0234": {
+      "meaningVi": "phía tây; miền tây"
+    },
+    "tocfl-20240923-level-1-0237": {
+      "meaningVi": "ở giữa; trung gian",
+      "exampleVi": "Em trai đứng ở giữa."
+    },
+    "tocfl-20240923-level-1-0238": {
+      "meaningVi": "cách; rời xa"
+    },
+    "tocfl-20240923-level-1-0242": {
+      "meaningVi": "tặng; đưa tiễn"
+    },
+    "tocfl-20240923-level-1-0246": {
+      "meaningVi": "hướng về; với"
+    },
+    "tocfl-20240923-level-1-0265": {
+      "meaningVi": "cửa hàng"
+    },
+    "tocfl-20240923-level-1-0273": {
+      "meaningVi": "đồng hồ đeo tay"
+    },
+    "tocfl-20240923-level-1-0276": {
+      "meaningVi": "váy"
+    },
+    "tocfl-20240923-level-1-0286": {
+      "meaningVi": "thử"
+    },
+    "tocfl-20240923-level-1-0287": {
+      "meaningVi": "nhẹ"
+    },
+    "tocfl-20240923-level-1-0288": {
+      "meaningVi": "nặng"
+    },
+    "tocfl-20240923-level-1-0290": {
+      "meaningVi": "đặc biệt",
+      "exampleVi": "Bạn đang làm điều gì đặc biệt không?"
+    },
+    "tocfl-20240923-level-1-0297": {
+      "meaningVi": "bánh hamburger"
+    },
+    "tocfl-20240923-level-1-0298": {
+      "meaningVi": "táo"
+    },
+    "tocfl-20240923-level-1-0300": {
+      "meaningVi": "bia"
+    },
+    "tocfl-20240923-level-1-0302": {
+      "meaningVi": "món ăn nhẹ; điểm tâm"
+    },
+    "tocfl-20240923-level-1-0306": {
+      "meaningVi": "cái nĩa"
+    },
+    "tocfl-20240923-level-1-0308": {
+      "meaningVi": "thìa; muỗng"
+    },
+    "tocfl-20240923-level-1-0309": {
+      "meaningVi": "cái đĩa"
+    },
+    "tocfl-20240923-level-1-0311": {
+      "meaningVi": "chai; lọ"
+    },
+    "tocfl-20240923-level-1-0316": {
+      "meaningVi": "mùi vị; hương vị"
+    },
+    "tocfl-20240923-level-1-0318": {
+      "meaningVi": "đắng"
+    },
+    "tocfl-20240923-level-1-0320": {
+      "meaningVi": "cay"
+    },
+    "tocfl-20240923-level-1-0326": {
+      "meaningVi": "tất cả"
+    },
+    "tocfl-20240923-level-1-0333": {
+      "meaningVi": "đem; lấy (giới từ đưa tân ngữ lên trước)"
+    },
+    "tocfl-20240923-level-1-0334": {
+      "meaningVi": "bị (trợ từ câu bị động)"
+    },
+    "tocfl-20240923-level-1-0337": {
+      "meaningVi": "như thế; vậy thì"
+    },
+    "tocfl-20240923-level-1-0338": {
+      "meaningVi": "như thế này; đến mức này"
+    },
+    "tocfl-20240923-level-1-0340": {
+      "meaningVi": "rồi; nhé (trợ từ cuối câu)",
+      "exampleVi": "Bạn coi tôi là cái gì?"
+    },
+    "tocfl-20240923-level-1-0345": {
+      "meaningVi": "một chút; một lát"
+    },
+    "tocfl-20240923-level-2-0001": {
+      "meaningVi": "sinh ra"
+    },
+    "tocfl-20240923-level-2-0004": {
+      "meaningVi": "tiếng mẹ đẻ"
+    },
+    "tocfl-20240923-level-2-0009": {
+      "meaningVi": "ban ngày",
+      "exampleVi": "Ngày ban ngày, các cháu được bà nội chăm sóc."
+    },
+    "tocfl-20240923-level-2-0011": {
+      "meaningVi": "ban đêm; buổi tối"
+    },
+    "tocfl-20240923-level-2-0018": {
+      "meaningVi": "sớm hơn; điểm tâm"
+    },
+    "tocfl-20240923-level-2-0026": {
+      "meaningVi": "ông ngoại",
+      "exampleVi": "Bố của mẹ tôi là ông ngoại tôi."
+    },
+    "tocfl-20240923-level-2-0027": {
+      "meaningVi": "bà ngoại",
+      "exampleVi": "Chúng tôi lo lắng vì ông ngoại và bà ngoại."
+    },
+    "tocfl-20240923-level-2-0028": {
+      "meaningVi": "bác trai (anh của bố)"
+    },
+    "tocfl-20240923-level-2-0029": {
+      "meaningVi": "bác trai"
+    },
+    "tocfl-20240923-level-2-0030": {
+      "meaningVi": "bác gái"
+    },
+    "tocfl-20240923-level-2-0031": {
+      "meaningVi": "chú (em trai của bố)"
+    },
+    "tocfl-20240923-level-2-0032": {
+      "meaningVi": "cô (chị hoặc em gái của bố)"
+    },
+    "tocfl-20240923-level-2-0034": {
+      "meaningVi": "cháu trai"
+    },
+    "tocfl-20240923-level-2-0039": {
+      "meaningVi": "đau lòng; buồn"
+    },
+    "tocfl-20240923-level-2-0040": {
+      "meaningVi": "đẹp"
+    },
+    "tocfl-20240923-level-2-0041": {
+      "meaningVi": "đẹp trai"
+    },
+    "tocfl-20240923-level-2-0046": {
+      "meaningVi": "lễ phép; phép lịch sự"
+    },
+    "tocfl-20240923-level-2-0051": {
+      "meaningVi": "kém; tệ"
+    },
+    "tocfl-20240923-level-2-0054": {
+      "meaningVi": "bên cạnh"
+    },
+    "tocfl-20240923-level-2-0056": {
+      "meaningVi": "lớn lên; trưởng thành"
+    },
+    "tocfl-20240923-level-2-0059": {
+      "meaningVi": "họp; tham dự cuộc họp"
+    },
+    "tocfl-20240923-level-2-0066": {
+      "meaningVi": "quản lý"
+    },
+    "tocfl-20240923-level-2-0069": {
+      "meaningVi": "làm; xử lý; tổ chức"
+    },
+    "tocfl-20240923-level-2-0070": {
+      "meaningVi": "làm thêm"
+    },
+    "tocfl-20240923-level-2-0075": {
+      "meaningVi": "thi; kiểm tra"
+    },
+    "tocfl-20240923-level-2-0081": {
+      "meaningVi": "học bài; đọc sách"
+    },
+    "tocfl-20240923-level-2-0082": {
+      "meaningVi": "lịch sử"
+    },
+    "tocfl-20240923-level-2-0086": {
+      "meaningVi": "bài văn; viết văn"
+    },
+    "tocfl-20240923-level-2-0093": {
+      "meaningVi": "trừ; ngoại trừ; chia"
+    },
+    "tocfl-20240923-level-2-0101": {
+      "meaningVi": "kỳ nghỉ hè"
+    },
+    "tocfl-20240923-level-2-0103": {
+      "meaningVi": "nghỉ phép; ngày nghỉ"
+    },
+    "tocfl-20240923-level-2-0099": {
+      "meaningVi": "nghỉ học; nghỉ lễ"
+    },
+    "tocfl-20240923-level-2-0117": {
+      "meaningVi": "đồng ý"
+    },
+    "tocfl-20240923-level-2-0128": {
+      "meaningVi": "trở lên; ở trên"
+    },
+    "tocfl-20240923-level-2-0129": {
+      "meaningVi": "trở xuống; ở dưới"
+    },
+    "tocfl-20240923-level-2-0116": {
+      "meaningVi": "thảo luận"
+    },
+    "tocfl-20240923-level-2-0135": {
+      "meaningVi": "đề nghị; lời khuyên"
+    },
+    "tocfl-20240923-level-2-0148": {
+      "meaningVi": "cái tủ"
+    },
+    "tocfl-20240923-level-2-0159": {
+      "meaningVi": "cái ô; cây dù"
+    },
+    "tocfl-20240923-level-2-0170": {
+      "meaningVi": "khô"
+    },
+    "tocfl-20240923-level-2-0174": {
+      "meaningVi": "mùa; mùa trong năm"
+    },
+    "tocfl-20240923-level-2-0175": {
+      "meaningVi": "bảo vệ môi trường",
+      "exampleVi": "Bạn có bao nhiêu thân thiện với môi trường?"
+    },
+    "tocfl-20240923-level-2-0179": {
+      "meaningVi": "bên dưới"
+    },
+    "tocfl-20240923-level-2-0187": {
+      "meaningVi": "chảy"
+    },
+    "tocfl-20240923-level-2-0188": {
+      "meaningVi": "đổ mồ hôi"
+    },
+    "tocfl-20240923-level-2-0189": {
+      "meaningVi": "giấc mơ; mơ"
+    },
+    "tocfl-20240923-level-2-0191": {
+      "meaningVi": "đồng hồ báo thức"
+    },
+    "tocfl-20240923-level-2-0216": {
+      "meaningVi": "nhận; thu; cất"
+    },
+    "tocfl-20240923-level-2-0220": {
+      "meaningVi": "nhạc cụ"
+    },
+    "tocfl-20240923-level-2-0221": {
+      "meaningVi": "đàn guitar"
+    },
+    "tocfl-20240923-level-2-0228": {
+      "meaningVi": "bơi; đi chơi"
+    },
+    "tocfl-20240923-level-2-0239": {
+      "meaningVi": "hợp tác"
+    },
+    "tocfl-20240923-level-2-0241": {
+      "meaningVi": "mời ăn; đãi khách"
+    },
+    "tocfl-20240923-level-2-0249": {
+      "meaningVi": "tem thư"
+    },
+    "tocfl-20240923-level-2-0252": {
+      "meaningVi": "làm; xử lý"
+    },
+    "tocfl-20240923-level-2-0258": {
+      "meaningVi": "cùng nhau; một miếng"
+    },
+    "tocfl-20240923-level-2-0268": {
+      "meaningVi": "ở giữa; trong số đó"
+    },
+    "tocfl-20240923-level-2-0269": {
+      "meaningVi": "pháp luật"
+    },
+    "tocfl-20240923-level-2-0289": {
+      "meaningVi": "tàu điện đô thị (MRT)"
+    },
+    "tocfl-20240923-level-2-0293": {
+      "meaningVi": "bay"
+    },
+    "tocfl-20240923-level-2-0301": {
+      "meaningVi": "châu Âu"
+    },
+    "tocfl-20240923-level-2-0302": {
+      "meaningVi": "châu Á"
+    },
+    "tocfl-20240923-level-2-0303": {
+      "meaningVi": "lục địa; đại lục"
+    },
+    "tocfl-20240923-level-2-0326": {
+      "meaningVi": "ho"
+    },
+    "tocfl-20240923-level-2-0338": {
+      "meaningVi": "bình thường"
+    },
+    "tocfl-20240923-level-2-0349": {
+      "meaningVi": "cửa hàng bách hóa"
+    },
+    "tocfl-20240923-level-2-0353": {
+      "meaningVi": "xếp hàng"
+    },
+    "tocfl-20240923-level-2-0355": {
+      "meaningVi": "quẹt thẻ; thanh toán bằng thẻ"
+    },
+    "tocfl-20240923-level-2-0373": {
+      "meaningVi": "tiết kiệm; gửi tiền"
+    },
+    "tocfl-20240923-level-2-0377": {
+      "meaningVi": "phù hợp"
+    },
+    "tocfl-20240923-level-2-0386": {
+      "meaningVi": "món salad"
+    },
+    "tocfl-20240923-level-2-0388": {
+      "meaningVi": "hải sản"
+    },
+    "tocfl-20240923-level-2-0390": {
+      "meaningVi": "bánh mì xúc xích"
+    },
+    "tocfl-20240923-level-2-0391": {
+      "meaningVi": "bánh bao không nhân; màn thầu"
+    },
+    "tocfl-20240923-level-2-0395": {
+      "meaningVi": "nho"
+    },
+    "tocfl-20240923-level-2-0396": {
+      "meaningVi": "xoài"
+    },
+    "tocfl-20240923-level-2-0405": {
+      "meaningVi": "muối"
+    },
+    "tocfl-20240923-level-2-0412": {
+      "meaningVi": "bất kỳ"
+    },
+    "tocfl-20240923-level-2-0413": {
+      "meaningVi": "nhiều"
+    },
+    "tocfl-20240923-level-2-0443": {
+      "meaningVi": "kết quả; rốt cuộc"
+    },
+    "tocfl-20240923-level-2-0482": {
+      "meaningVi": "khoảng; chừng; trái phải"
+    },
+    "tocfl-20240923-level-2-0483": {
+      "meaningVi": "khi; làm; đảm nhiệm"
+    },
+    "tocfl-20240923-level-2-0484": {
+      "meaningVi": "loại; hạng"
+    },
+    "tocfl-20240923-level-2-0485": {
+      "meaningVi": "loại; kiểu"
+    },
+    "tocfl-20240923-level-2-0462": {
+      "meaningVi": "lần; gấp"
+    },
+    "tocfl-20240923-level-2-0453": {
+      "meaningVi": "càng... càng..."
+    },
+    "tocfl-20240923-level-2-0436": {
+      "meaningVi": "khác"
+    },
+    "tocfl-20240923-level-2-0461": {
+      "meaningVi": "ngay cả; nối liền"
+    },
+    "tocfl-20240923-level-2-0449": {
+      "meaningVi": "khá; tương đương"
+    },
+    "tocfl-20240923-level-1-0145": {
+      "exampleVi": "Bạn vẫn phải giặt quần áo của bạn."
+    },
+    "tocfl-20240923-level-1-0181": {
+      "exampleVi": "Em trai tôi luôn thức dậy sớm hơn tôi."
+    },
+    "tocfl-20240923-level-2-0111": {
+      "exampleVi": "Tôi đã giúp em trai tôi di chuyển bàn học của anh ấy."
+    },
+    "tocfl-20240923-level-2-0215": {
+      "exampleVi": "Em trai rất quan tâm đến tiếng Anh và âm nhạc."
+    },
+    "tocfl-20240923-level-2-0217": {
+      "exampleVi": "Bạn muốn nói đến tự do sao?"
+    },
+    "tocfl-20240923-level-2-0233": {
+      "exampleVi": "Khi em trai tôi còn nhỏ, tôi thường đi cùng anh ấy đến công viên."
+    },
+    "tocfl-20240923-level-2-0439": {
+      "exampleVi": "Bạn có rõ không, khoảng thời gian và địa điểm cụ thể là gì?"
+    },
+    "tocfl-20240923-level-2-0287": {
+      "meaningVi": "thuyền; tàu",
+      "exampleVi": "Con tàu này sẽ đi Bành Hồ.",
+      "exampleTraditional": "這艘船要去澎湖。",
+      "exampleSimplified": "这艘船要去澎湖。"
+    },
+    "tocfl-20240923-level-2-0242": {
+      "meaningVi": "hẹn; thỏa thuận"
+    },
+    "tocfl-20240923-level-2-0399": {
+      "meaningVi": "nước ngọt cola"
+    },
+    "tocfl-20240923-level-2-0162": {
+      "meaningVi": "tự nhiên; đương nhiên"
+    },
+    "tocfl-20240923-level-2-0366": {
+      "meaningVi": "giày da",
+      "exampleVi": "Đôi giày da màu đen của tôi cần sửa lại gót."
+    },
+    "tocfl-20240923-level-1-0067": {
+      "meaningVi": "điểm số; thành tích học tập"
+    },
+    "tocfl-20240923-level-1-0312": {
+      "meaningVi": "lượng từ chỉ vật dài, mảnh"
+    },
+    "tocfl-20240923-level-2-0432": {
+      "meaningVi": "biết bao; thật là",
+      "exampleVi": "Bạn là một cậu trai dễ thương đến mức nào!"
+    },
+    "tocfl-20240923-level-1-0048": {
+      "meaningVi": "y tá; điều dưỡng",
+      "exampleVi": "Y tá sẽ hướng dẫn bạn cách thực hiện."
+    },
+    "tocfl-20240923-level-1-0150": {
+      "exampleVi": "Bạn chuyển đến Berlin từ khi nào vậy?"
+    },
+    "tocfl-20240923-level-1-0206": {
+      "exampleVi": "Bạn đã quen biết cô ấy vào lúc nào và ở đâu?"
+    },
+    "tocfl-20240923-level-2-0324": {
+      "exampleVi": "Bạn mặt bạn tệ quá, mau đi ngủ đi."
+    },
+    "tocfl-20240923-level-2-0435": {
+      "exampleVi": "Bạn đợi một chút rồi gọi lại cho tao, được không?"
+    }
+  }
+}

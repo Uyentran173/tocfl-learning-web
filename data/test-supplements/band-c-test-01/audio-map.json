@@ -1,0 +1,281 @@
+{
+  "sourceArchive": "mock_BandC_mp3.rar",
+  "tracks": [
+    {
+      "source": "0-1.mp3",
+      "path": "listening/audio/exam-intro.mp3"
+    },
+    {
+      "source": "1-00000.mp3",
+      "path": "listening/audio/part-1-intro.mp3"
+    },
+    {
+      "source": "2-00000.mp3",
+      "path": "listening/audio/part-2-intro.mp3"
+    },
+    {
+      "source": "3-00000.mp3",
+      "path": "listening/audio/ending.mp3"
+    },
+    {
+      "source": "1-01-0.mp3",
+      "path": "listening/audio/group-q01-q02.mp3"
+    },
+    {
+      "source": "1-01-1.mp3",
+      "path": "listening/audio/q01.mp3"
+    },
+    {
+      "source": "1-02.mp3",
+      "path": "listening/audio/q02.mp3"
+    },
+    {
+      "source": "1-03-0.mp3",
+      "path": "listening/audio/group-q03-q04.mp3"
+    },
+    {
+      "source": "1-03-1.mp3",
+      "path": "listening/audio/q03.mp3"
+    },
+    {
+      "source": "1-04.mp3",
+      "path": "listening/audio/q04.mp3"
+    },
+    {
+      "source": "1-05-0.mp3",
+      "path": "listening/audio/group-q05-q07.mp3"
+    },
+    {
+      "source": "1-05-1.mp3",
+      "path": "listening/audio/q05.mp3"
+    },
+    {
+      "source": "1-06.mp3",
+      "path": "listening/audio/q06.mp3"
+    },
+    {
+      "source": "1-07.mp3",
+      "path": "listening/audio/q07.mp3"
+    },
+    {
+      "source": "1-08-0.mp3",
+      "path": "listening/audio/group-q08-q10.mp3"
+    },
+    {
+      "source": "1-08-1.mp3",
+      "path": "listening/audio/q08.mp3"
+    },
+    {
+      "source": "1-09.mp3",
+      "path": "listening/audio/q09.mp3"
+    },
+    {
+      "source": "1-10.mp3",
+      "path": "listening/audio/q10.mp3"
+    },
+    {
+      "source": "1-11-0.mp3",
+      "path": "listening/audio/group-q11-q13.mp3"
+    },
+    {
+      "source": "1-11-1.mp3",
+      "path": "listening/audio/q11.mp3"
+    },
+    {
+      "source": "1-12.mp3",
+      "path": "listening/audio/q12.mp3"
+    },
+    {
+      "source": "1-13.mp3",
+      "path": "listening/audio/q13.mp3"
+    },
+    {
+      "source": "1-14-0.mp3",
+      "path": "listening/audio/group-q14-q17.mp3"
+    },
+    {
+      "source": "1-14-1.mp3",
+      "path": "listening/audio/q14.mp3"
+    },
+    {
+      "source": "1-15.mp3",
+      "path": "listening/audio/q15.mp3"
+    },
+    {
+      "source": "1-16.mp3",
+      "path": "listening/audio/q16.mp3"
+    },
+    {
+      "source": "1-17.mp3",
+      "path": "listening/audio/q17.mp3"
+    },
+    {
+      "source": "1-18-0.mp3",
+      "path": "listening/audio/group-q18-q21.mp3"
+    },
+    {
+      "source": "1-18-1.mp3",
+      "path": "listening/audio/q18.mp3"
+    },
+    {
+      "source": "1-19.mp3",
+      "path": "listening/audio/q19.mp3"
+    },
+    {
+      "source": "1-20.mp3",
+      "path": "listening/audio/q20.mp3"
+    },
+    {
+      "source": "1-21.mp3",
+      "path": "listening/audio/q21.mp3"
+    },
+    {
+      "source": "1-22-0.mp3",
+      "path": "listening/audio/group-q22-q25.mp3"
+    },
+    {
+      "source": "1-22-1.mp3",
+      "path": "listening/audio/q22.mp3"
+    },
+    {
+      "source": "1-23.mp3",
+      "path": "listening/audio/q23.mp3"
+    },
+    {
+      "source": "1-24.mp3",
+      "path": "listening/audio/q24.mp3"
+    },
+    {
+      "source": "1-25.mp3",
+      "path": "listening/audio/q25.mp3"
+    },
+    {
+      "source": "2-26-0.mp3",
+      "path": "listening/audio/group-q26-q27.mp3"
+    },
+    {
+      "source": "2-26-1.mp3",
+      "path": "listening/audio/q26.mp3"
+    },
+    {
+      "source": "2-27.mp3",
+      "path": "listening/audio/q27.mp3"
+    },
+    {
+      "source": "2-28-0.mp3",
+      "path": "listening/audio/group-q28-q30.mp3"
+    },
+    {
+      "source": "2-28-1.mp3",
+      "path": "listening/audio/q28.mp3"
+    },
+    {
+      "source": "2-29.mp3",
+      "path": "listening/audio/q29.mp3"
+    },
+    {
+      "source": "2-30.mp3",
+      "path": "listening/audio/q30.mp3"
+    },
+    {
+      "source": "2-31-0.mp3",
+      "path": "listening/audio/group-q31-q33.mp3"
+    },
+    {
+      "source": "2-31-1.mp3",
+      "path": "listening/audio/q31.mp3"
+    },
+    {
+      "source": "2-32.mp3",
+      "path": "listening/audio/q32.mp3"
+    },
+    {
+      "source": "2-33.mp3",
+      "path": "listening/audio/q33.mp3"
+    },
+    {
+      "source": "2-34-0.mp3",
+      "path": "listening/audio/group-q34-q37.mp3"
+    },
+    {
+      "source": "2-34-1.mp3",
+      "path": "listening/audio/q34.mp3"
+    },
+    {
+      "source": "2-35.mp3",
+      "path": "listening/audio/q35.mp3"
+    },
+    {
+      "source": "2-36.mp3",
+      "path": "listening/audio/q36.mp3"
+    },
+    {
+      "source": "2-37.mp3",
+      "path": "listening/audio/q37.mp3"
+    },
+    {
+      "source": "2-38-0.mp3",
+      "path": "listening/audio/group-q38-q41.mp3"
+    },
+    {
+      "source": "2-38-1.mp3",
+      "path": "listening/audio/q38.mp3"
+    },
+    {
+      "source": "2-39.mp3",
+      "path": "listening/audio/q39.mp3"
+    },
+    {
+      "source": "2-40.mp3",
+      "path": "listening/audio/q40.mp3"
+    },
+    {
+      "source": "2-41.mp3",
+      "path": "listening/audio/q41.mp3"
+    },
+    {
+      "source": "2-42-0.mp3",
+      "path": "listening/audio/group-q42-q45.mp3"
+    },
+    {
+      "source": "2-42-1.mp3",
+      "path": "listening/audio/q42.mp3"
+    },
+    {
+      "source": "2-43.mp3",
+      "path": "listening/audio/q43.mp3"
+    },
+    {
+      "source": "2-44.mp3",
+      "path": "listening/audio/q44.mp3"
+    },
+    {
+      "source": "2-45.mp3",
+      "path": "listening/audio/q45.mp3"
+    },
+    {
+      "source": "2-46-0.mp3",
+      "path": "listening/audio/group-q46-q50.mp3"
+    },
+    {
+      "source": "2-46-1.mp3",
+      "path": "listening/audio/q46.mp3"
+    },
+    {
+      "source": "2-47.mp3",
+      "path": "listening/audio/q47.mp3"
+    },
+    {
+      "source": "2-48.mp3",
+      "path": "listening/audio/q48.mp3"
+    },
+    {
+      "source": "2-49.mp3",
+      "path": "listening/audio/q49.mp3"
+    },
+    {
+      "source": "2-50.mp3",
+      "path": "listening/audio/q50.mp3"
+    }
+  ]
+}

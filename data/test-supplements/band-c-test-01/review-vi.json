@@ -1,0 +1,2007 @@
+{
+  "testId": "band-c-test-01",
+  "listening": {
+    "listening-q01": {
+      "number": 1,
+      "correctAnswer": "C",
+      "groupId": "tg-q01-q02",
+      "questionChinese": {
+        "traditional": "這位小姐打算怎麼辦？",
+        "simplified": "这位小姐打算怎么办？"
+      },
+      "questionVietnamese": "Người phụ nữ định làm gì?",
+      "optionVietnamese": [
+        "chuyển nhà ngay",
+        "không trả tiền thuê",
+        "tiếp tục ở lại",
+        "tìm người ở ghép"
+      ],
+      "transcriptVietnamese": "Nam: Tiểu Thanh, gần đây cậu có chuyện gì à? Cậu thường xuyên buồn rầu như vậy.\nNữ: Gần đây chủ nhà cứ nói muốn tăng tiền thuê phòng của tôi. Tôi vốn định tìm phòng khác, nhưng phải chuẩn bị tiền đặt cọc hai tháng cộng với tiền thuê tháng đó, thật sự không kham nổi. Dạo này tôi đang kẹt tiền, đành thôi vậy.\nNam: Chủ nhà của tôi cũng chẳng khá hơn. Cái máy giặt ấy không biết đã dùng bao nhiêu năm rồi; cuối cùng nó hỏng mà ông ta lại đổ lỗi cho tôi. Ông ta không chỉ bảo tôi dọn đi mà còn nói sẽ lấy tiền cọc của tôi để bồi thường. Thật quá vô lý!\nNữ: Thế cậu định làm gì?\nNam: Tôi ấy à, ngày nào chủ nhà chưa trả lại tiền cọc, ngày đó tôi chưa dọn đi.",
+      "evidence": {
+        "traditional": "我最近手頭很緊，只好作罷",
+        "simplified": "我最近手头很紧，只好作罢"
+      },
+      "explanation": "Cô muốn tìm nhà khác nhưng thiếu tiền cọc và tiền thuê nên đành bỏ ý định chuyển."
+    },
+    "listening-q02": {
+      "number": 2,
+      "correctAnswer": "D",
+      "groupId": "tg-q01-q02",
+      "questionChinese": {
+        "traditional": "這位先生打算怎麼辦？",
+        "simplified": "这位先生打算怎么办？"
+      },
+      "questionVietnamese": "Người đàn ông định làm gì?",
+      "optionVietnamese": [
+        "không cần tiền cọc nữa",
+        "ở thêm một ngày rồi chuyển",
+        "đòi tiền cọc nhưng không chuyển",
+        "nhận lại tiền cọc rồi mới chuyển"
+      ],
+      "transcriptVietnamese": "Nam: Tiểu Thanh, gần đây cậu có chuyện gì à? Cậu thường xuyên buồn rầu như vậy.\nNữ: Gần đây chủ nhà cứ nói muốn tăng tiền thuê phòng của tôi. Tôi vốn định tìm phòng khác, nhưng phải chuẩn bị tiền đặt cọc hai tháng cộng với tiền thuê tháng đó, thật sự không kham nổi. Dạo này tôi đang kẹt tiền, đành thôi vậy.\nNam: Chủ nhà của tôi cũng chẳng khá hơn. Cái máy giặt ấy không biết đã dùng bao nhiêu năm rồi; cuối cùng nó hỏng mà ông ta lại đổ lỗi cho tôi. Ông ta không chỉ bảo tôi dọn đi mà còn nói sẽ lấy tiền cọc của tôi để bồi thường. Thật quá vô lý!\nNữ: Thế cậu định làm gì?\nNam: Tôi ấy à, ngày nào chủ nhà chưa trả lại tiền cọc, ngày đó tôi chưa dọn đi.",
+      "evidence": {
+        "traditional": "房東一天不退押金給我，我就一天不搬家",
+        "simplified": "房东一天不退押金给我，我就一天不搬家"
+      },
+      "explanation": "Anh nói rõ sẽ không chuyển cho đến khi chủ nhà hoàn cọc; D khớp điều kiện này."
+    },
+    "listening-q03": {
+      "number": 3,
+      "correctAnswer": "A",
+      "groupId": "tg-q03-q04",
+      "questionChinese": {
+        "traditional": "這位小姐說大江先生的兒子怎麼樣？",
+        "simplified": "这位小姐说大江先生的儿子怎么样？"
+      },
+      "questionVietnamese": "Con trai nhà văn Oe ra sao?",
+      "optionVietnamese": [
+        "vượt qua trở ngại bẩm sinh",
+        "chuyên viết nhạc cho trẻ khuyết tật",
+        "viết văn hơn cả cha",
+        "phổ nhạc tác phẩm của cha"
+      ],
+      "transcriptVietnamese": "Nam: Tôi vừa đọc xong tác phẩm của ông Oe. Ông ấy đúng là một nhà văn xuất sắc.\nNữ: À, tôi chưa đọc sách của ông ấy, nhưng lại là người hâm mộ nhạc của con trai ông. Nghe nói khi sinh ra, con trai ông có khuyết tật ở não nên khả năng ngôn ngữ không thể phát triển bình thường. Nhưng anh ấy không vì thế mà buông xuôi; nhờ tài năng âm nhạc đặc biệt, anh ấy đã phát hành mấy album riêng rồi đấy!\nNam: Vậy sao? Tôi nghĩ ông Oe hẳn rất tự hào về con trai mình!\nNữ: Chắc chắn rồi. Tôi nhớ trong một buổi diễn thuyết, ông Oe từng nói với người nghe: “Có người bảo tôi nhạc của con trai tôi được yêu thích vì rất dịu dàng, có tác dụng như khúc hát ru. Nếu nghe nhạc của nó xong mà vẫn không ngủ được, thì hãy thử đọc sách tôi viết nhé!” Ha ha!",
+      "evidence": {
+        "traditional": "並沒有因此自暴自棄，憑著獨特的音樂天分",
+        "simplified": "并没有因此自暴自弃，凭着独特的音乐天分"
+      },
+      "explanation": "Dù gặp trở ngại về ngôn ngữ, anh vẫn phát triển tài năng âm nhạc và ra album."
+    },
+    "listening-q04": {
+      "number": 4,
+      "correctAnswer": "A",
+      "groupId": "tg-q03-q04",
+      "questionChinese": {
+        "traditional": "在演講中，大江先生說他自己的書怎麼樣？",
+        "simplified": "在演讲中，大江先生说他自己的书怎么样？"
+      },
+      "questionVietnamese": "Trong bài diễn thuyết, nhà văn nói sách của mình thế nào?",
+      "optionVietnamese": [
+        "khiến người ta buồn ngủ",
+        "giúp sáng tác nhạc",
+        "khiến người ta quên ngủ",
+        "giới thiệu nhạc con trai"
+      ],
+      "transcriptVietnamese": "Nam: Tôi vừa đọc xong tác phẩm của ông Oe. Ông ấy đúng là một nhà văn xuất sắc.\nNữ: À, tôi chưa đọc sách của ông ấy, nhưng lại là người hâm mộ nhạc của con trai ông. Nghe nói khi sinh ra, con trai ông có khuyết tật ở não nên khả năng ngôn ngữ không thể phát triển bình thường. Nhưng anh ấy không vì thế mà buông xuôi; nhờ tài năng âm nhạc đặc biệt, anh ấy đã phát hành mấy album riêng rồi đấy!\nNam: Vậy sao? Tôi nghĩ ông Oe hẳn rất tự hào về con trai mình!\nNữ: Chắc chắn rồi. Tôi nhớ trong một buổi diễn thuyết, ông Oe từng nói với người nghe: “Có người bảo tôi nhạc của con trai tôi được yêu thích vì rất dịu dàng, có tác dụng như khúc hát ru. Nếu nghe nhạc của nó xong mà vẫn không ngủ được, thì hãy thử đọc sách tôi viết nhé!” Ha ha!",
+      "evidence": {
+        "traditional": "還是睡不著，那就來看看我寫的書吧",
+        "simplified": "还是睡不着，那就来看看我写的书吧"
+      },
+      "explanation": "Ông nói đùa rằng nếu nhạc ru ngủ chưa hiệu quả thì đọc sách của ông, ngụ ý sách dễ làm người ta buồn ngủ."
+    },
+    "listening-q05": {
+      "number": 5,
+      "correctAnswer": "B",
+      "groupId": "tg-q05-q07",
+      "questionChinese": {
+        "traditional": "這項服務有什麼優點？",
+        "simplified": "这项服务有什么优点？"
+      },
+      "questionVietnamese": "Dịch vụ mới có ưu điểm gì?",
+      "optionVietnamese": [
+        "giảm viện phí",
+        "giữ kín thông tin riêng của người bệnh",
+        "chọn bác sĩ",
+        "đặt lịch trước"
+      ],
+      "transcriptVietnamese": "Nam: Ha ha, cậu xem tin này chưa? Bây giờ đến bệnh viện khám bệnh, không cần chờ cô y tá gọi tên nữa. Bệnh viện sẽ phát cho cậu một máy báo. Khi máy reo tức là đến lượt cậu, có thể vào thẳng phòng khám.\nNữ: Sao phải phiền phức thế? Y tá gọi tên trực tiếp cũng rõ ràng mà!\nNam: Nhưng đôi khi tôi không muốn người khác biết mình bị bệnh gì, khám ở khoa nào! Theo cách trước đây, y tá vừa gọi tên là cả phòng chờ đều nghe thấy. Không có người quen thì thôi; lỡ gặp người quen và họ biết tôi bị bệnh gì, tôi sẽ rất ngượng.\nNữ: Tôi thì không để ý chuyện đó. Nhưng bình thường phòng chờ đông nghịt người. Có dịch vụ này, chắc tôi có thể đi dạo gần bệnh viện, không cần cứ ngồi đợi ở đó, đúng không?\nNam: Đúng vậy. Nhưng vì chi phí dịch vụ khá cao, hiện chỉ áp dụng tại một số khoa mà bệnh nhân dễ thấy ngại, như sản phụ khoa, tiết niệu; không phải khoa nào cũng có.\nNữ: Thế bố tôi đã lớn tuổi, tai lại có vấn đề, không nghe được tiếng máy báo thì sao?\nNam: Cậu đừng lo. Máy có nhiều kiểu báo: phát sáng, rung, hoặc phát nhạc. Ngay cả bệnh nhân khiếm thị hay khiếm thính cũng dùng được. Sau khi dùng, nhân viên y tế còn thu máy về, sát trùng bằng cồn để tránh lây truyền vi rút. Chu đáo thật đấy!",
+      "evidence": {
+        "traditional": "不希望別人知道我生什麼病、看哪科醫生",
+        "simplified": "不希望别人知道我生什么病、看哪科医生"
+      },
+      "explanation": "Thiết bị thay việc gọi tên công khai, giúp người bệnh tránh lộ chuyện khám bệnh."
+    },
+    "listening-q06": {
+      "number": 6,
+      "correctAnswer": "B",
+      "groupId": "tg-q05-q07",
+      "questionChinese": {
+        "traditional": "這項服務改善了哪種現象？",
+        "simplified": "这项服务改善了哪种现象？"
+      },
+      "questionVietnamese": "Dịch vụ cải thiện tình trạng nào?",
+      "optionVietnamese": [
+        "khó lấy số khám",
+        "phòng chờ quá đông",
+        "không tìm thấy phòng khám",
+        "lo lắng khi chờ"
+      ],
+      "transcriptVietnamese": "Nam: Ha ha, cậu xem tin này chưa? Bây giờ đến bệnh viện khám bệnh, không cần chờ cô y tá gọi tên nữa. Bệnh viện sẽ phát cho cậu một máy báo. Khi máy reo tức là đến lượt cậu, có thể vào thẳng phòng khám.\nNữ: Sao phải phiền phức thế? Y tá gọi tên trực tiếp cũng rõ ràng mà!\nNam: Nhưng đôi khi tôi không muốn người khác biết mình bị bệnh gì, khám ở khoa nào! Theo cách trước đây, y tá vừa gọi tên là cả phòng chờ đều nghe thấy. Không có người quen thì thôi; lỡ gặp người quen và họ biết tôi bị bệnh gì, tôi sẽ rất ngượng.\nNữ: Tôi thì không để ý chuyện đó. Nhưng bình thường phòng chờ đông nghịt người. Có dịch vụ này, chắc tôi có thể đi dạo gần bệnh viện, không cần cứ ngồi đợi ở đó, đúng không?\nNam: Đúng vậy. Nhưng vì chi phí dịch vụ khá cao, hiện chỉ áp dụng tại một số khoa mà bệnh nhân dễ thấy ngại, như sản phụ khoa, tiết niệu; không phải khoa nào cũng có.\nNữ: Thế bố tôi đã lớn tuổi, tai lại có vấn đề, không nghe được tiếng máy báo thì sao?\nNam: Cậu đừng lo. Máy có nhiều kiểu báo: phát sáng, rung, hoặc phát nhạc. Ngay cả bệnh nhân khiếm thị hay khiếm thính cũng dùng được. Sau khi dùng, nhân viên y tế còn thu máy về, sát trùng bằng cồn để tránh lây truyền vi rút. Chu đáo thật đấy!",
+      "evidence": {
+        "traditional": "可以到醫院附近走走，不用老是等在那兒",
+        "simplified": "可以到医院附近走走，不用老是等在那儿"
+      },
+      "explanation": "Người bệnh có thể rời phòng chờ trong lúc đợi, giảm cảnh tập trung quá đông."
+    },
+    "listening-q07": {
+      "number": 7,
+      "correctAnswer": "D",
+      "groupId": "tg-q05-q07",
+      "questionChinese": {
+        "traditional": "關於這項服務，哪一個是對的？",
+        "simplified": "关于这项服务，哪一个是对的？"
+      },
+      "questionVietnamese": "Điều nào đúng về dịch vụ này?",
+      "optionVietnamese": [
+        "có ở mọi khoa",
+        "chủ yếu cho người già",
+        "dùng xong bỏ đi",
+        "tính đến nhu cầu của người khiếm thị, khiếm thính"
+      ],
+      "transcriptVietnamese": "Nam: Ha ha, cậu xem tin này chưa? Bây giờ đến bệnh viện khám bệnh, không cần chờ cô y tá gọi tên nữa. Bệnh viện sẽ phát cho cậu một máy báo. Khi máy reo tức là đến lượt cậu, có thể vào thẳng phòng khám.\nNữ: Sao phải phiền phức thế? Y tá gọi tên trực tiếp cũng rõ ràng mà!\nNam: Nhưng đôi khi tôi không muốn người khác biết mình bị bệnh gì, khám ở khoa nào! Theo cách trước đây, y tá vừa gọi tên là cả phòng chờ đều nghe thấy. Không có người quen thì thôi; lỡ gặp người quen và họ biết tôi bị bệnh gì, tôi sẽ rất ngượng.\nNữ: Tôi thì không để ý chuyện đó. Nhưng bình thường phòng chờ đông nghịt người. Có dịch vụ này, chắc tôi có thể đi dạo gần bệnh viện, không cần cứ ngồi đợi ở đó, đúng không?\nNam: Đúng vậy. Nhưng vì chi phí dịch vụ khá cao, hiện chỉ áp dụng tại một số khoa mà bệnh nhân dễ thấy ngại, như sản phụ khoa, tiết niệu; không phải khoa nào cũng có.\nNữ: Thế bố tôi đã lớn tuổi, tai lại có vấn đề, không nghe được tiếng máy báo thì sao?\nNam: Cậu đừng lo. Máy có nhiều kiểu báo: phát sáng, rung, hoặc phát nhạc. Ngay cả bệnh nhân khiếm thị hay khiếm thính cũng dùng được. Sau khi dùng, nhân viên y tế còn thu máy về, sát trùng bằng cồn để tránh lây truyền vi rút. Chu đáo thật đấy!",
+      "evidence": {
+        "traditional": "視障或聽障的病患都可以使用",
+        "simplified": "视障或听障的病患都可以使用"
+      },
+      "explanation": "Máy có nhiều kiểu báo hiệu, phục vụ cả người có khó khăn về thị giác hoặc thính giác."
+    },
+    "listening-q08": {
+      "number": 8,
+      "correctAnswer": "C",
+      "groupId": "tg-q08-q10",
+      "questionChinese": {
+        "traditional": "關於實施這項政策，下面哪一個是對的？",
+        "simplified": "关于实施这项政策，下面哪一个是对的？"
+      },
+      "questionVietnamese": "Điều nào đúng về chính sách ở trại giam?",
+      "optionVietnamese": [
+        "đồ ăn ít được chuộng",
+        "đa số trại làm đồ thủ công",
+        "có tính đến người thụ án dài",
+        "chỉ người từng làm ẩm thực mới tham gia"
+      ],
+      "transcriptVietnamese": "Nam: Tôi rất tán thành chính sách cậu vừa nhắc tới: chính phủ khuyến khích mỗi trại giam tự phát triển sản phẩm đặc trưng. Có nơi chuyên dạy người đang thụ án làm xì dầu truyền thống, có nơi dạy làm sô cô la thủ công. Việc đó vừa tăng thu nhập cho trại giam, vừa giúp họ được đào tạo nghề.\nNữ: Đúng vậy. Thông thường, phần lớn trại giam chọn làm thực phẩm giá phải chăng, thích hợp làm quà tặng và rất được mọi người ưa chuộng. Nhưng cũng có trại giam nghĩ ra cách khác: làm đồ thủ công cần học lâu và đòi hỏi tay nghề cao. Tuy tốn thời gian, công sức, công việc ấy lại hợp với người phải thụ án lâu năm.\nNam: Tôi nghĩ bất kể làm sản phẩm nào, chỉ cần giúp họ học được một nghề để tự nuôi sống bản thân sau khi ra tù là tốt rồi.\nNữ: Đúng, đó cũng là mục tiêu ban đầu của chính sách. Tiếc là theo số liệu tôi có, tỷ lệ tái phạm sau khi ra tù vẫn gần như trước, không giảm đáng kể.\nNam: Tại sao vậy?\nNữ: Tôi nghĩ ngoài những yếu tố từ chính người từng thụ án, nguyên nhân chính vẫn là xã hội có định kiến với người từng ngồi tù. Vì vậy, dù có tay nghề, họ vẫn gặp khó khắp nơi khi xin việc. Cuối cùng, dưới áp lực cuộc sống, họ đành trở lại nghề cũ và đi vào con đường không lối thoát.",
+      "evidence": {
+        "traditional": "很適合刑期較長的犯人",
+        "simplified": "很适合刑期较长的犯人"
+      },
+      "explanation": "Đồ thủ công cần huấn luyện lâu nên phù hợp với người có thời gian thụ án dài."
+    },
+    "listening-q09": {
+      "number": 9,
+      "correctAnswer": "D",
+      "groupId": "tg-q08-q10",
+      "questionChinese": {
+        "traditional": "這位小姐用統計資料來說明哪一個現象？",
+        "simplified": "这位小姐用统计资料来说明哪一个现象？"
+      },
+      "questionVietnamese": "Số liệu người phụ nữ đưa ra cho thấy điều gì?",
+      "optionVietnamese": [
+        "số người vào tù không đổi",
+        "người có nghề ít vào tù",
+        "hàng hóa trại giam được ưa chuộng",
+        "tỷ lệ tái phạm gần như không đổi"
+      ],
+      "transcriptVietnamese": "Nam: Tôi rất tán thành chính sách cậu vừa nhắc tới: chính phủ khuyến khích mỗi trại giam tự phát triển sản phẩm đặc trưng. Có nơi chuyên dạy người đang thụ án làm xì dầu truyền thống, có nơi dạy làm sô cô la thủ công. Việc đó vừa tăng thu nhập cho trại giam, vừa giúp họ được đào tạo nghề.\nNữ: Đúng vậy. Thông thường, phần lớn trại giam chọn làm thực phẩm giá phải chăng, thích hợp làm quà tặng và rất được mọi người ưa chuộng. Nhưng cũng có trại giam nghĩ ra cách khác: làm đồ thủ công cần học lâu và đòi hỏi tay nghề cao. Tuy tốn thời gian, công sức, công việc ấy lại hợp với người phải thụ án lâu năm.\nNam: Tôi nghĩ bất kể làm sản phẩm nào, chỉ cần giúp họ học được một nghề để tự nuôi sống bản thân sau khi ra tù là tốt rồi.\nNữ: Đúng, đó cũng là mục tiêu ban đầu của chính sách. Tiếc là theo số liệu tôi có, tỷ lệ tái phạm sau khi ra tù vẫn gần như trước, không giảm đáng kể.\nNam: Tại sao vậy?\nNữ: Tôi nghĩ ngoài những yếu tố từ chính người từng thụ án, nguyên nhân chính vẫn là xã hội có định kiến với người từng ngồi tù. Vì vậy, dù có tay nghề, họ vẫn gặp khó khắp nơi khi xin việc. Cuối cùng, dưới áp lực cuộc sống, họ đành trở lại nghề cũ và đi vào con đường không lối thoát.",
+      "evidence": {
+        "traditional": "再度犯罪的比例還是跟過去不相上下",
+        "simplified": "再度犯罪的比例还是跟过去不相上下"
+      },
+      "explanation": "“Không khác trước bao nhiêu” chỉ tỷ lệ tái phạm chưa giảm đáng kể."
+    },
+    "listening-q10": {
+      "number": 10,
+      "correctAnswer": "B",
+      "groupId": "tg-q08-q10",
+      "questionChinese": {
+        "traditional": "根據對話，使出獄的人再度犯罪的主要因素是什麼？",
+        "simplified": "根据对话，使出狱的人再度犯罪的主要因素是什么？"
+      },
+      "questionVietnamese": "Nguyên nhân chính khiến người ra tù tái phạm là gì?",
+      "optionVietnamese": [
+        "kinh tế suy thoái",
+        "xã hội khó chấp nhận họ",
+        "thiếu kỹ năng mưu sinh",
+        "không được trợ cấp"
+      ],
+      "transcriptVietnamese": "Nam: Tôi rất tán thành chính sách cậu vừa nhắc tới: chính phủ khuyến khích mỗi trại giam tự phát triển sản phẩm đặc trưng. Có nơi chuyên dạy người đang thụ án làm xì dầu truyền thống, có nơi dạy làm sô cô la thủ công. Việc đó vừa tăng thu nhập cho trại giam, vừa giúp họ được đào tạo nghề.\nNữ: Đúng vậy. Thông thường, phần lớn trại giam chọn làm thực phẩm giá phải chăng, thích hợp làm quà tặng và rất được mọi người ưa chuộng. Nhưng cũng có trại giam nghĩ ra cách khác: làm đồ thủ công cần học lâu và đòi hỏi tay nghề cao. Tuy tốn thời gian, công sức, công việc ấy lại hợp với người phải thụ án lâu năm.\nNam: Tôi nghĩ bất kể làm sản phẩm nào, chỉ cần giúp họ học được một nghề để tự nuôi sống bản thân sau khi ra tù là tốt rồi.\nNữ: Đúng, đó cũng là mục tiêu ban đầu của chính sách. Tiếc là theo số liệu tôi có, tỷ lệ tái phạm sau khi ra tù vẫn gần như trước, không giảm đáng kể.\nNam: Tại sao vậy?\nNữ: Tôi nghĩ ngoài những yếu tố từ chính người từng thụ án, nguyên nhân chính vẫn là xã hội có định kiến với người từng ngồi tù. Vì vậy, dù có tay nghề, họ vẫn gặp khó khắp nơi khi xin việc. Cuối cùng, dưới áp lực cuộc sống, họ đành trở lại nghề cũ và đi vào con đường không lối thoát.",
+      "evidence": {
+        "traditional": "社會大眾對坐過牢的人有一定的疑慮",
+        "simplified": "社会大众对坐过牢的人有一定的疑虑"
+      },
+      "explanation": "Họ khó xin việc vì thành kiến xã hội, rồi chịu áp lực mưu sinh và tái phạm."
+    },
+    "listening-q11": {
+      "number": 11,
+      "correctAnswer": "C",
+      "groupId": "tg-q11-q13",
+      "questionChinese": {
+        "traditional": "林教授的研究，為什麼引起大家的關注？",
+        "simplified": "林教授的研究，为什么引起大家的关注？"
+      },
+      "questionVietnamese": "Vì sao nghiên cứu của giáo sư Lâm được chú ý?",
+      "optionVietnamese": [
+        "giải thích bí mật hình thành trầm hương",
+        "ngăn sâu hại trầm hương",
+        "tìm cách tăng sản lượng trầm hương",
+        "chứng minh trầm hương trồng nhân tạo được"
+      ],
+      "transcriptVietnamese": "Nam: Chào giáo sư Lâm. Nghiên cứu bà vừa chia sẻ với chúng tôi rất thú vị. Tôi muốn hỏi mấy điều. Thứ nhất, nghiên cứu của bà có phát hiện rất đáng kinh ngạc về việc tăng sản lượng trầm hương, nhưng một công trình hoàn chỉnh như vậy lại chỉ mất một năm! Quả thật quá… quá đáng kinh ngạc! Bà thực sự chỉ mất một năm để tìm ra yếu tố then chốt giúp tăng sản lượng trầm hương sao? Ngoài ra, nghiên cứu này đã được công chúng quan tâm và giúp ích nhiều cho nông dân. Xin hỏi kế hoạch tiếp theo của bà là gì?\nNữ: Trưởng khu Trương đúng là người tinh ý. Thông thường, việc này quả thực không thể hoàn thành trong thời gian ngắn. Nhưng các học giả ở đây đều biết tôi đã theo dõi từ lâu cơ chế tự vệ của cây khi bị côn trùng hoặc vi sinh vật gây hại. Vì thế, tuy tôi đưa ra kết quả trong một năm, có thể nói đó là thành quả từ hơn mười năm nỗ lực của tôi. Còn về bước tiếp theo của nghiên cứu này… trưởng khu đang hỏi thay cho nông dân phải không? Xin yên tâm, tôi sẽ ưu tiên cung cấp kết quả nghiên cứu cho nông dân địa phương, hy vọng giúp được họ.",
+      "evidence": {
+        "traditional": "提高沉香產量上，有著非常驚人的發現",
+        "simplified": "提高沉香产量上，有着非常惊人的发现"
+      },
+      "explanation": "Phát hiện đáng chú ý liên quan trực tiếp đến tăng sản lượng trầm hương."
+    },
+    "listening-q12": {
+      "number": 12,
+      "correctAnswer": "B",
+      "groupId": "tg-q11-q13",
+      "questionChinese": {
+        "traditional": "根據張主任的提問，可以知道他對這項研究的看法為何？",
+        "simplified": "根据张主任的提问，可以知道他对这项研究的看法为何？"
+      },
+      "questionVietnamese": "Qua câu hỏi, trưởng khu nhìn nhận nghiên cứu ra sao?",
+      "optionVietnamese": [
+        "nghi ngờ kết quả",
+        "thán phục phát hiện",
+        "công nhận phương pháp",
+        "nghi ngờ động cơ"
+      ],
+      "transcriptVietnamese": "Nam: Chào giáo sư Lâm. Nghiên cứu bà vừa chia sẻ với chúng tôi rất thú vị. Tôi muốn hỏi mấy điều. Thứ nhất, nghiên cứu của bà có phát hiện rất đáng kinh ngạc về việc tăng sản lượng trầm hương, nhưng một công trình hoàn chỉnh như vậy lại chỉ mất một năm! Quả thật quá… quá đáng kinh ngạc! Bà thực sự chỉ mất một năm để tìm ra yếu tố then chốt giúp tăng sản lượng trầm hương sao? Ngoài ra, nghiên cứu này đã được công chúng quan tâm và giúp ích nhiều cho nông dân. Xin hỏi kế hoạch tiếp theo của bà là gì?\nNữ: Trưởng khu Trương đúng là người tinh ý. Thông thường, việc này quả thực không thể hoàn thành trong thời gian ngắn. Nhưng các học giả ở đây đều biết tôi đã theo dõi từ lâu cơ chế tự vệ của cây khi bị côn trùng hoặc vi sinh vật gây hại. Vì thế, tuy tôi đưa ra kết quả trong một năm, có thể nói đó là thành quả từ hơn mười năm nỗ lực của tôi. Còn về bước tiếp theo của nghiên cứu này… trưởng khu đang hỏi thay cho nông dân phải không? Xin yên tâm, tôi sẽ ưu tiên cung cấp kết quả nghiên cứu cho nông dân địa phương, hy vọng giúp được họ.",
+      "evidence": {
+        "traditional": "這實在太…太驚人了",
+        "simplified": "这实在太…太惊人了"
+      },
+      "explanation": "Ông liên tục bày tỏ sự ngạc nhiên và đánh giá cao phát hiện trong thời gian ngắn."
+    },
+    "listening-q13": {
+      "number": 13,
+      "correctAnswer": "A",
+      "groupId": "tg-q11-q13",
+      "questionChinese": {
+        "traditional": "關於張主任提的問題，林教授的回應是什麼？",
+        "simplified": "关于张主任提的问题，林教授的回应是什么？"
+      },
+      "questionVietnamese": "Giáo sư Lâm đáp lại điều gì?",
+      "optionVietnamese": [
+        "nghiên cứu thực tế kéo dài hơn một năm",
+        "cần làm thêm thí nghiệm",
+        "cần trưởng khu giúp",
+        "sẽ theo dõi lâu dài"
+      ],
+      "transcriptVietnamese": "Nam: Chào giáo sư Lâm. Nghiên cứu bà vừa chia sẻ với chúng tôi rất thú vị. Tôi muốn hỏi mấy điều. Thứ nhất, nghiên cứu của bà có phát hiện rất đáng kinh ngạc về việc tăng sản lượng trầm hương, nhưng một công trình hoàn chỉnh như vậy lại chỉ mất một năm! Quả thật quá… quá đáng kinh ngạc! Bà thực sự chỉ mất một năm để tìm ra yếu tố then chốt giúp tăng sản lượng trầm hương sao? Ngoài ra, nghiên cứu này đã được công chúng quan tâm và giúp ích nhiều cho nông dân. Xin hỏi kế hoạch tiếp theo của bà là gì?\nNữ: Trưởng khu Trương đúng là người tinh ý. Thông thường, việc này quả thực không thể hoàn thành trong thời gian ngắn. Nhưng các học giả ở đây đều biết tôi đã theo dõi từ lâu cơ chế tự vệ của cây khi bị côn trùng hoặc vi sinh vật gây hại. Vì thế, tuy tôi đưa ra kết quả trong một năm, có thể nói đó là thành quả từ hơn mười năm nỗ lực của tôi. Còn về bước tiếp theo của nghiên cứu này… trưởng khu đang hỏi thay cho nông dân phải không? Xin yên tâm, tôi sẽ ưu tiên cung cấp kết quả nghiên cứu cho nông dân địa phương, hy vọng giúp được họ.",
+      "evidence": {
+        "traditional": "應該算是我這十幾年來的努力吧",
+        "simplified": "应该算是我这十几年来的努力吧"
+      },
+      "explanation": "Bà giải thích kết quả năm nay dựa trên hơn mười năm nghiên cứu trước đó."
+    },
+    "listening-q14": {
+      "number": 14,
+      "correctAnswer": "D",
+      "groupId": "tg-q14-q17",
+      "questionChinese": {
+        "traditional": "對話中提到，這家網路書店早期所使用的策略是什麼？",
+        "simplified": "对话中提到，这家网路书店早期所使用的策略是什么？"
+      },
+      "questionVietnamese": "Hiệu sách trực tuyến từng dùng chiến lược gì?",
+      "optionVietnamese": [
+        "mua một cuốn được miễn phí vận chuyển",
+        "gộp phí vận chuyển vào giá sách",
+        "phí vận chuyển tăng theo giá trị đơn",
+        "mua đạt mức nhất định được phí vận chuyển thấp"
+      ],
+      "transcriptVietnamese": "Nữ: Quốc Cường, tôi thường đỗ xe gần đường Trung Hiếu Đông ở Đài Bắc. Một giờ tốn 50 Đài tệ, nhưng nếu mua hàng từ 200 Đài tệ thì được đỗ miễn phí một giờ. Vì ưu đãi này mà tôi thường tiêu nhiều tiền hơn.\nNam: Mỹ Trân, chuyện đó chẳng lạ gì, vì cậu đã rơi vào cái bẫy “miễn phí”. Lấy ví dụ nhé, cậu biết hiệu sách trực tuyến nổi tiếng kia chứ? Nghe nói chiến lược trước đây của họ khác bây giờ. Lúc ấy, chỉ cần đơn hàng đạt… ừm, giả sử 1.000 Đài tệ, thì phí giao hàng chỉ có 50 Đài tệ. Nhưng dù phí thấp như vậy, nó vẫn không hấp dẫn bằng miễn phí giao hàng. Sau đó họ dứt khoát nâng mức tối thiểu lên 2.000 Đài tệ rồi miễn phí giao hàng. Kết quả là doanh số tăng vọt! Cậu thấy không, thực ra cậu đã tiêu nhiều tiền hơn.\nNữ: Đôi khi thật chẳng hiểu nổi tâm lý người tiêu dùng chúng ta!\nNam: Thật ra, trong đa số trường hợp, nhận đồ miễn phí là hoàn toàn hợp lý; không nhận thì phí. Nhưng nếu phải đáp ứng điều kiện mới được nhận, người ta sẽ có tâm lý ham món lợi nhỏ, nghĩ rằng không mất một xu thì sao có thể thiệt được. Thế là ai cũng chọn phương án “miễn phí”, lại quên rằng mình đã trả nhiều hơn để có quyền ấy. Nhiều hãng cũng nắm đúng tâm lý này mà tung ra nước ngọt “không năng lượng”, bánh quy “không calo”. Kết quả là người tiêu dùng quên mất mình đang muốn giảm cân, rồi uống nhiều hơn, ăn nhiều hơn.",
+      "evidence": {
+        "traditional": "只要你的訂單金額達到",
+        "simplified": "只要你的订单金额达到"
+      },
+      "explanation": "Trước đây đơn đạt một ngưỡng sẽ được phí vận chuyển thấp, chưa phải miễn phí."
+    },
+    "listening-q15": {
+      "number": 15,
+      "correctAnswer": "C",
+      "groupId": "tg-q14-q17",
+      "questionChinese": {
+        "traditional": "這家網路書店如何改變策略？",
+        "simplified": "这家网路书店如何改变策略？"
+      },
+      "questionVietnamese": "Hiệu sách đổi chiến lược ra sao?",
+      "optionVietnamese": [
+        "miễn phí vô điều kiện",
+        "thành viên được miễn phí",
+        "nâng ngưỡng đơn hàng để được miễn phí",
+        "mua sách chỉ định được miễn phí"
+      ],
+      "transcriptVietnamese": "Nữ: Quốc Cường, tôi thường đỗ xe gần đường Trung Hiếu Đông ở Đài Bắc. Một giờ tốn 50 Đài tệ, nhưng nếu mua hàng từ 200 Đài tệ thì được đỗ miễn phí một giờ. Vì ưu đãi này mà tôi thường tiêu nhiều tiền hơn.\nNam: Mỹ Trân, chuyện đó chẳng lạ gì, vì cậu đã rơi vào cái bẫy “miễn phí”. Lấy ví dụ nhé, cậu biết hiệu sách trực tuyến nổi tiếng kia chứ? Nghe nói chiến lược trước đây của họ khác bây giờ. Lúc ấy, chỉ cần đơn hàng đạt… ừm, giả sử 1.000 Đài tệ, thì phí giao hàng chỉ có 50 Đài tệ. Nhưng dù phí thấp như vậy, nó vẫn không hấp dẫn bằng miễn phí giao hàng. Sau đó họ dứt khoát nâng mức tối thiểu lên 2.000 Đài tệ rồi miễn phí giao hàng. Kết quả là doanh số tăng vọt! Cậu thấy không, thực ra cậu đã tiêu nhiều tiền hơn.\nNữ: Đôi khi thật chẳng hiểu nổi tâm lý người tiêu dùng chúng ta!\nNam: Thật ra, trong đa số trường hợp, nhận đồ miễn phí là hoàn toàn hợp lý; không nhận thì phí. Nhưng nếu phải đáp ứng điều kiện mới được nhận, người ta sẽ có tâm lý ham món lợi nhỏ, nghĩ rằng không mất một xu thì sao có thể thiệt được. Thế là ai cũng chọn phương án “miễn phí”, lại quên rằng mình đã trả nhiều hơn để có quyền ấy. Nhiều hãng cũng nắm đúng tâm lý này mà tung ra nước ngọt “không năng lượng”, bánh quy “không calo”. Kết quả là người tiêu dùng quên mất mình đang muốn giảm cân, rồi uống nhiều hơn, ăn nhiều hơn.",
+      "evidence": {
+        "traditional": "提高門檻，改成購物滿兩千塊就可以免運費",
+        "simplified": "提高门槛，改成购物满两千块就可以免运费"
+      },
+      "explanation": "Cửa hàng nâng số tiền cần mua rồi mới miễn phí giao hàng."
+    },
+    "listening-q16": {
+      "number": 16,
+      "correctAnswer": "D",
+      "groupId": "tg-q14-q17",
+      "questionChinese": {
+        "traditional": "這位先生提到的汽水和零食有什麼特色？",
+        "simplified": "这位先生提到的汽水和零食有什么特色？"
+      },
+      "questionVietnamese": "Nước ngọt và đồ ăn vặt được nhắc đến có đặc điểm gì?",
+      "optionVietnamese": [
+        "đều tặng quà",
+        "đều miễn phí",
+        "giảm chi phí sản xuất",
+        "khiến khách tưởng dùng không có gánh nặng"
+      ],
+      "transcriptVietnamese": "Nữ: Quốc Cường, tôi thường đỗ xe gần đường Trung Hiếu Đông ở Đài Bắc. Một giờ tốn 50 Đài tệ, nhưng nếu mua hàng từ 200 Đài tệ thì được đỗ miễn phí một giờ. Vì ưu đãi này mà tôi thường tiêu nhiều tiền hơn.\nNam: Mỹ Trân, chuyện đó chẳng lạ gì, vì cậu đã rơi vào cái bẫy “miễn phí”. Lấy ví dụ nhé, cậu biết hiệu sách trực tuyến nổi tiếng kia chứ? Nghe nói chiến lược trước đây của họ khác bây giờ. Lúc ấy, chỉ cần đơn hàng đạt… ừm, giả sử 1.000 Đài tệ, thì phí giao hàng chỉ có 50 Đài tệ. Nhưng dù phí thấp như vậy, nó vẫn không hấp dẫn bằng miễn phí giao hàng. Sau đó họ dứt khoát nâng mức tối thiểu lên 2.000 Đài tệ rồi miễn phí giao hàng. Kết quả là doanh số tăng vọt! Cậu thấy không, thực ra cậu đã tiêu nhiều tiền hơn.\nNữ: Đôi khi thật chẳng hiểu nổi tâm lý người tiêu dùng chúng ta!\nNam: Thật ra, trong đa số trường hợp, nhận đồ miễn phí là hoàn toàn hợp lý; không nhận thì phí. Nhưng nếu phải đáp ứng điều kiện mới được nhận, người ta sẽ có tâm lý ham món lợi nhỏ, nghĩ rằng không mất một xu thì sao có thể thiệt được. Thế là ai cũng chọn phương án “miễn phí”, lại quên rằng mình đã trả nhiều hơn để có quyền ấy. Nhiều hãng cũng nắm đúng tâm lý này mà tung ra nước ngọt “không năng lượng”, bánh quy “không calo”. Kết quả là người tiêu dùng quên mất mình đang muốn giảm cân, rồi uống nhiều hơn, ăn nhiều hơn.",
+      "evidence": {
+        "traditional": "「零熱量」汽水、「零卡路里」餅乾",
+        "simplified": "「零热量」汽水、「零卡路里」饼干"
+      },
+      "explanation": "Nhãn “không calo” tạo cảm giác không gây hại, khiến người đang giảm cân dùng nhiều hơn."
+    },
+    "listening-q17": {
+      "number": 17,
+      "correctAnswer": "A",
+      "groupId": "tg-q14-q17",
+      "questionChinese": {
+        "traditional": "這位先生認為免費的贈品或服務怎麼樣？",
+        "simplified": "这位先生认为免费的赠品或服务怎么样？"
+      },
+      "questionVietnamese": "Người đàn ông nghĩ sao về đồ tặng hoặc dịch vụ miễn phí?",
+      "optionVietnamese": [
+        "chưa chắc đã lời",
+        "luôn có lợi cho người mua",
+        "chắc chắn kém chất lượng",
+        "chưa chắc được thích"
+      ],
+      "transcriptVietnamese": "Nữ: Quốc Cường, tôi thường đỗ xe gần đường Trung Hiếu Đông ở Đài Bắc. Một giờ tốn 50 Đài tệ, nhưng nếu mua hàng từ 200 Đài tệ thì được đỗ miễn phí một giờ. Vì ưu đãi này mà tôi thường tiêu nhiều tiền hơn.\nNam: Mỹ Trân, chuyện đó chẳng lạ gì, vì cậu đã rơi vào cái bẫy “miễn phí”. Lấy ví dụ nhé, cậu biết hiệu sách trực tuyến nổi tiếng kia chứ? Nghe nói chiến lược trước đây của họ khác bây giờ. Lúc ấy, chỉ cần đơn hàng đạt… ừm, giả sử 1.000 Đài tệ, thì phí giao hàng chỉ có 50 Đài tệ. Nhưng dù phí thấp như vậy, nó vẫn không hấp dẫn bằng miễn phí giao hàng. Sau đó họ dứt khoát nâng mức tối thiểu lên 2.000 Đài tệ rồi miễn phí giao hàng. Kết quả là doanh số tăng vọt! Cậu thấy không, thực ra cậu đã tiêu nhiều tiền hơn.\nNữ: Đôi khi thật chẳng hiểu nổi tâm lý người tiêu dùng chúng ta!\nNam: Thật ra, trong đa số trường hợp, nhận đồ miễn phí là hoàn toàn hợp lý; không nhận thì phí. Nhưng nếu phải đáp ứng điều kiện mới được nhận, người ta sẽ có tâm lý ham món lợi nhỏ, nghĩ rằng không mất một xu thì sao có thể thiệt được. Thế là ai cũng chọn phương án “miễn phí”, lại quên rằng mình đã trả nhiều hơn để có quyền ấy. Nhiều hãng cũng nắm đúng tâm lý này mà tung ra nước ngọt “không năng lượng”, bánh quy “không calo”. Kết quả là người tiêu dùng quên mất mình đang muốn giảm cân, rồi uống nhiều hơn, ăn nhiều hơn.",
+      "evidence": {
+        "traditional": "為了這個免費的權利付出更多",
+        "simplified": "为了这个免费的权利付出更多"
+      },
+      "explanation": "“Miễn phí” có điều kiện có thể khiến khách tốn nhiều tiền hơn lợi ích nhận được."
+    },
+    "listening-q18": {
+      "number": 18,
+      "correctAnswer": "A",
+      "groupId": "tg-q18-q21",
+      "questionChinese": {
+        "traditional": "這個網站能讓人做什麼？",
+        "simplified": "这个网站能让人做什么？"
+      },
+      "questionVietnamese": "Trang web cho người dùng làm gì?",
+      "optionVietnamese": [
+        "đùa vui cho thư giãn",
+        "bầu người nổi tiếng nhất",
+        "gặp người thành đạt",
+        "tự giới thiệu trên mạng"
+      ],
+      "transcriptVietnamese": "Nam: Tiểu Tình, mau lại đây xem trang web này! Nó nói mình là “trang web nổi tiếng nhất thế giới” đấy!\nNữ: Mỗi ngày trên mạng có biết bao trang mới. Ai dám nói trang của mình nổi tiếng nhất thế giới chứ? Đúng là khoác lác!\nNam: Khoan, nếu xem kỹ luật chơi, cậu sẽ thấy họ nói vậy cũng có lý. Trong năm nay, cậu có thể lên mạng đăng ký tên và danh hiệu bất cứ lúc nào. Thích danh hiệu nào thì chọn danh hiệu ấy: cậu có thể là “đứa trẻ nổi tiếng nhất Trái Đất”, cũng có thể là “người chồng chu đáo nhất thế giới”. Sau đó chỉ cần trả một đô la Mỹ, trang web sẽ gửi cho cậu một tệp. In tệp ấy ra sẽ thành tờ giấy khen được thiết kế sẵn, có tên và danh hiệu của cậu. Cậu có thể mang đi khoe với người khác! Nếu không thích kiểu trình bày, cậu còn có thể trả thêm tiền để đổi phông chữ hoặc ảnh.\nNữ: Nghe cũng vui đấy, nhưng nói cho cùng chẳng phải chỉ là trò kiếm tiền sao?\nNam: Số tiền cậu trả thật ra có ý nghĩa. Trước khi nhận giấy khen, trang web sẽ mời cậu bỏ phiếu cho một tổ chức công ích. Danh sách gồm các tổ chức công ích và từ thiện quốc tế. Khi hoạt động kết thúc, trang web sẽ thống kê tổ chức nào được nhiều phiếu nhất rồi quyên 80% số tiền huy động được cho tổ chức ấy. Vậy nên cũng có thể xem đây là một hoạt động công ích.\nNữ: Ha ha, thế thì họ cũng có lòng. Nhưng nếu tôi là người phụ trách một tổ chức công ích, tôi sẽ không muốn họ công bố kết quả.\nNam: Sao thế? Đó có thể gọi là “tổ chức công ích nổi tiếng nhất thế giới” mà!\nNữ: Nhưng nếu có một tổ chức nổi tiếng nhất, phần lớn tiền quyên góp rất dễ dồn vào đó. Những tổ chức từ thiện khác sẽ nhận được ít tiền hơn và càng khó tồn tại.",
+      "evidence": {
+        "traditional": "要什麼名號隨你選",
+        "simplified": "要什么名号随你选"
+      },
+      "explanation": "Người dùng tự chọn danh hiệu vui để nhận giấy chứng nhận, chủ yếu là một trò giải trí."
+    },
+    "listening-q19": {
+      "number": 19,
+      "correctAnswer": "C",
+      "groupId": "tg-q18-q21",
+      "questionChinese": {
+        "traditional": "關於這個網站所提供的檔案，哪一個是對的？",
+        "simplified": "关于这个网站所提供的档案，哪一个是对的？"
+      },
+      "questionVietnamese": "Điều nào đúng về tệp giấy chứng nhận?",
+      "optionVietnamese": [
+        "có giá trị pháp lý",
+        "đổi kiểu miễn phí",
+        "có thể đăng ký bất kỳ lúc nào trong một năm",
+        "chỉ tổ chức từ thiện được đăng ký"
+      ],
+      "transcriptVietnamese": "Nam: Tiểu Tình, mau lại đây xem trang web này! Nó nói mình là “trang web nổi tiếng nhất thế giới” đấy!\nNữ: Mỗi ngày trên mạng có biết bao trang mới. Ai dám nói trang của mình nổi tiếng nhất thế giới chứ? Đúng là khoác lác!\nNam: Khoan, nếu xem kỹ luật chơi, cậu sẽ thấy họ nói vậy cũng có lý. Trong năm nay, cậu có thể lên mạng đăng ký tên và danh hiệu bất cứ lúc nào. Thích danh hiệu nào thì chọn danh hiệu ấy: cậu có thể là “đứa trẻ nổi tiếng nhất Trái Đất”, cũng có thể là “người chồng chu đáo nhất thế giới”. Sau đó chỉ cần trả một đô la Mỹ, trang web sẽ gửi cho cậu một tệp. In tệp ấy ra sẽ thành tờ giấy khen được thiết kế sẵn, có tên và danh hiệu của cậu. Cậu có thể mang đi khoe với người khác! Nếu không thích kiểu trình bày, cậu còn có thể trả thêm tiền để đổi phông chữ hoặc ảnh.\nNữ: Nghe cũng vui đấy, nhưng nói cho cùng chẳng phải chỉ là trò kiếm tiền sao?\nNam: Số tiền cậu trả thật ra có ý nghĩa. Trước khi nhận giấy khen, trang web sẽ mời cậu bỏ phiếu cho một tổ chức công ích. Danh sách gồm các tổ chức công ích và từ thiện quốc tế. Khi hoạt động kết thúc, trang web sẽ thống kê tổ chức nào được nhiều phiếu nhất rồi quyên 80% số tiền huy động được cho tổ chức ấy. Vậy nên cũng có thể xem đây là một hoạt động công ích.\nNữ: Ha ha, thế thì họ cũng có lòng. Nhưng nếu tôi là người phụ trách một tổ chức công ích, tôi sẽ không muốn họ công bố kết quả.\nNam: Sao thế? Đó có thể gọi là “tổ chức công ích nổi tiếng nhất thế giới” mà!\nNữ: Nhưng nếu có một tổ chức nổi tiếng nhất, phần lớn tiền quyên góp rất dễ dồn vào đó. Những tổ chức từ thiện khác sẽ nhận được ít tiền hơn và càng khó tồn tại.",
+      "evidence": {
+        "traditional": "在這一年內，你可以隨時上網去登記",
+        "simplified": "在这一年内，你可以随时上网去登记"
+      },
+      "explanation": "Trang web cho đăng ký suốt một năm; đổi phông hoặc ảnh lại phải trả thêm."
+    },
+    "listening-q20": {
+      "number": 20,
+      "correctAnswer": "B",
+      "groupId": "tg-q18-q21",
+      "questionChinese": {
+        "traditional": "這個網站怎麼利用賺到的錢？",
+        "simplified": "这个网站怎么利用赚到的钱？"
+      },
+      "questionVietnamese": "Trang web dùng tiền thu được thế nào?",
+      "optionVietnamese": [
+        "chia đều cho các tổ chức",
+        "trao cho tổ chức được nhiều phiếu nhất",
+        "lập tổ chức quốc tế",
+        "mời người nổi tiếng gây quỹ"
+      ],
+      "transcriptVietnamese": "Nam: Tiểu Tình, mau lại đây xem trang web này! Nó nói mình là “trang web nổi tiếng nhất thế giới” đấy!\nNữ: Mỗi ngày trên mạng có biết bao trang mới. Ai dám nói trang của mình nổi tiếng nhất thế giới chứ? Đúng là khoác lác!\nNam: Khoan, nếu xem kỹ luật chơi, cậu sẽ thấy họ nói vậy cũng có lý. Trong năm nay, cậu có thể lên mạng đăng ký tên và danh hiệu bất cứ lúc nào. Thích danh hiệu nào thì chọn danh hiệu ấy: cậu có thể là “đứa trẻ nổi tiếng nhất Trái Đất”, cũng có thể là “người chồng chu đáo nhất thế giới”. Sau đó chỉ cần trả một đô la Mỹ, trang web sẽ gửi cho cậu một tệp. In tệp ấy ra sẽ thành tờ giấy khen được thiết kế sẵn, có tên và danh hiệu của cậu. Cậu có thể mang đi khoe với người khác! Nếu không thích kiểu trình bày, cậu còn có thể trả thêm tiền để đổi phông chữ hoặc ảnh.\nNữ: Nghe cũng vui đấy, nhưng nói cho cùng chẳng phải chỉ là trò kiếm tiền sao?\nNam: Số tiền cậu trả thật ra có ý nghĩa. Trước khi nhận giấy khen, trang web sẽ mời cậu bỏ phiếu cho một tổ chức công ích. Danh sách gồm các tổ chức công ích và từ thiện quốc tế. Khi hoạt động kết thúc, trang web sẽ thống kê tổ chức nào được nhiều phiếu nhất rồi quyên 80% số tiền huy động được cho tổ chức ấy. Vậy nên cũng có thể xem đây là một hoạt động công ích.\nNữ: Ha ha, thế thì họ cũng có lòng. Nhưng nếu tôi là người phụ trách một tổ chức công ích, tôi sẽ không muốn họ công bố kết quả.\nNam: Sao thế? Đó có thể gọi là “tổ chức công ích nổi tiếng nhất thế giới” mà!\nNữ: Nhưng nếu có một tổ chức nổi tiếng nhất, phần lớn tiền quyên góp rất dễ dồn vào đó. Những tổ chức từ thiện khác sẽ nhận được ít tiền hơn và càng khó tồn tại.",
+      "evidence": {
+        "traditional": "將募得款項的80%，都捐給這家機構",
+        "simplified": "将募得款项的80%，都捐给这家机构"
+      },
+      "explanation": "80% khoản thu được tặng tổ chức có nhiều phiếu bầu nhất."
+    },
+    "listening-q21": {
+      "number": 21,
+      "correctAnswer": "B",
+      "groupId": "tg-q18-q21",
+      "questionChinese": {
+        "traditional": "這位小姐為什麼希望網站不要公布票選結果？",
+        "simplified": "这位小姐为什么希望网站不要公布票选结果？"
+      },
+      "questionVietnamese": "Vì sao người phụ nữ không muốn công bố kết quả bầu chọn?",
+      "optionVietnamese": [
+        "sợ trang web chiếm tiền",
+        "sợ tiền quyên góp phân bố không đều",
+        "không muốn trang web nổi tiếng",
+        "sợ mất mặt"
+      ],
+      "transcriptVietnamese": "Nam: Tiểu Tình, mau lại đây xem trang web này! Nó nói mình là “trang web nổi tiếng nhất thế giới” đấy!\nNữ: Mỗi ngày trên mạng có biết bao trang mới. Ai dám nói trang của mình nổi tiếng nhất thế giới chứ? Đúng là khoác lác!\nNam: Khoan, nếu xem kỹ luật chơi, cậu sẽ thấy họ nói vậy cũng có lý. Trong năm nay, cậu có thể lên mạng đăng ký tên và danh hiệu bất cứ lúc nào. Thích danh hiệu nào thì chọn danh hiệu ấy: cậu có thể là “đứa trẻ nổi tiếng nhất Trái Đất”, cũng có thể là “người chồng chu đáo nhất thế giới”. Sau đó chỉ cần trả một đô la Mỹ, trang web sẽ gửi cho cậu một tệp. In tệp ấy ra sẽ thành tờ giấy khen được thiết kế sẵn, có tên và danh hiệu của cậu. Cậu có thể mang đi khoe với người khác! Nếu không thích kiểu trình bày, cậu còn có thể trả thêm tiền để đổi phông chữ hoặc ảnh.\nNữ: Nghe cũng vui đấy, nhưng nói cho cùng chẳng phải chỉ là trò kiếm tiền sao?\nNam: Số tiền cậu trả thật ra có ý nghĩa. Trước khi nhận giấy khen, trang web sẽ mời cậu bỏ phiếu cho một tổ chức công ích. Danh sách gồm các tổ chức công ích và từ thiện quốc tế. Khi hoạt động kết thúc, trang web sẽ thống kê tổ chức nào được nhiều phiếu nhất rồi quyên 80% số tiền huy động được cho tổ chức ấy. Vậy nên cũng có thể xem đây là một hoạt động công ích.\nNữ: Ha ha, thế thì họ cũng có lòng. Nhưng nếu tôi là người phụ trách một tổ chức công ích, tôi sẽ không muốn họ công bố kết quả.\nNam: Sao thế? Đó có thể gọi là “tổ chức công ích nổi tiếng nhất thế giới” mà!\nNữ: Nhưng nếu có một tổ chức nổi tiếng nhất, phần lớn tiền quyên góp rất dễ dồn vào đó. Những tổ chức từ thiện khác sẽ nhận được ít tiền hơn và càng khó tồn tại.",
+      "evidence": {
+        "traditional": "大部分的捐款都集中到那一家",
+        "simplified": "大部分的捐款都集中到那一家"
+      },
+      "explanation": "Cô lo một tổ chức hút gần hết đóng góp, làm các tổ chức khác khó tồn tại."
+    },
+    "listening-q22": {
+      "number": 22,
+      "correctAnswer": "C",
+      "groupId": "tg-q22-q25",
+      "questionChinese": {
+        "traditional": "這一場辯論的主題是什麼？",
+        "simplified": "这一场辩论的主题是什么？"
+      },
+      "questionVietnamese": "Hai người tranh luận vấn đề gì?",
+      "optionVietnamese": [
+        "sinh sản có liên quan tiến hóa không",
+        "tiến hóa nhằm thích nghi môi trường không",
+        "mọi loài chỉ có một cơ chế tiến hóa không",
+        "tiến hóa có cần can thiệp của con người không"
+      ],
+      "transcriptVietnamese": "Nam: Darwin ở thế kỷ 19 cho rằng các loài không hoàn hảo ngay từ đầu, mà dần trở nên hoàn thiện qua cạnh tranh sinh tồn. Vì thế ông đưa ra thuyết tiến hóa “cạnh tranh sinh tồn, chọn lọc tự nhiên, kẻ thích nghi tồn tại”, đồng thời nhấn mạnh đây là cơ chế tiến hóa duy nhất.\nNữ: Chọn lọc tự nhiên là cơ chế tiến hóa duy nhất sao? Không chỉ tôi phản đối; ngay cả các nhà sinh học cùng thời cũng phần lớn hoài nghi. Chẳng hạn, chiếc đuôi rực rỡ của công thường cản nó chạy thoát khi gặp nguy hiểm. Nếu chỉ có “chọn lọc tự nhiên, kẻ thích nghi tồn tại”, sao đặc điểm gây bất lợi cho việc sinh tồn lại tiến hóa được? Vậy chọn lọc tự nhiên sao có thể là cơ chế duy nhất!\nNam: Để giải thích mâu thuẫn này và bổ sung chỗ còn thiếu của thuyết tiến hóa, Darwin còn đưa ra thuyết “chọn lọc giới tính”: cá thể cái chọn bạn đời dựa vào những đặc điểm trang trí trên cơ thể cá thể đực. Đuôi công rực rỡ là ví dụ điển hình. Nhà toán học Fisher cũng dùng mô hình toán học để ủng hộ thuyết ấy.\nNữ: Thuyết chọn lọc giới tính hoàn toàn không thuyết phục được giới học thuật. Wallace, người xây dựng học thuyết tiến hóa cùng thời Darwin, đã phản đối rất mạnh. Ngay cả ngày nay, vẫn có học giả cho rằng thuyết tiến hóa không giải thích được khía cạnh xã hội của tiến hóa, như việc chủ động chọn giới tính khi sinh con hay phá thai do con người quyết định. Những hành vi ấy chẳng liên quan gì đến chọn lọc tự nhiên.\nNam: Khoan đã, phá thai do con người chủ động quyết định ư? Kết quả của sự can thiệp có chủ ý sao có thể đem so với cơ chế tiến hóa tự nhiên? Vì vậy tôi vẫn cho rằng cơ chế tiến hóa là “cạnh tranh sinh tồn, chọn lọc tự nhiên, kẻ thích nghi tồn tại”.",
+      "evidence": {
+        "traditional": "物競天擇是演化的唯一機制？",
+        "simplified": "物竞天择是演化的唯一机制？"
+      },
+      "explanation": "Trọng tâm tranh luận là chọn lọc tự nhiên có phải cơ chế duy nhất của tiến hóa hay không."
+    },
+    "listening-q23": {
+      "number": 23,
+      "correctAnswer": "B",
+      "groupId": "tg-q22-q25",
+      "questionChinese": {
+        "traditional": "根據這位小姐的說法，當時的生物學家對「演化論」看法為何？",
+        "simplified": "根据这位小姐的说法，当时的生物学家对「演化论」看法为何？"
+      },
+      "questionVietnamese": "Theo người phụ nữ, giới sinh học thời đó nhìn thuyết tiến hóa thế nào?",
+      "optionVietnamese": [
+        "tin hoàn toàn",
+        "có thái độ chất vấn",
+        "khinh thường",
+        "đồng loạt khen"
+      ],
+      "transcriptVietnamese": "Nam: Darwin ở thế kỷ 19 cho rằng các loài không hoàn hảo ngay từ đầu, mà dần trở nên hoàn thiện qua cạnh tranh sinh tồn. Vì thế ông đưa ra thuyết tiến hóa “cạnh tranh sinh tồn, chọn lọc tự nhiên, kẻ thích nghi tồn tại”, đồng thời nhấn mạnh đây là cơ chế tiến hóa duy nhất.\nNữ: Chọn lọc tự nhiên là cơ chế tiến hóa duy nhất sao? Không chỉ tôi phản đối; ngay cả các nhà sinh học cùng thời cũng phần lớn hoài nghi. Chẳng hạn, chiếc đuôi rực rỡ của công thường cản nó chạy thoát khi gặp nguy hiểm. Nếu chỉ có “chọn lọc tự nhiên, kẻ thích nghi tồn tại”, sao đặc điểm gây bất lợi cho việc sinh tồn lại tiến hóa được? Vậy chọn lọc tự nhiên sao có thể là cơ chế duy nhất!\nNam: Để giải thích mâu thuẫn này và bổ sung chỗ còn thiếu của thuyết tiến hóa, Darwin còn đưa ra thuyết “chọn lọc giới tính”: cá thể cái chọn bạn đời dựa vào những đặc điểm trang trí trên cơ thể cá thể đực. Đuôi công rực rỡ là ví dụ điển hình. Nhà toán học Fisher cũng dùng mô hình toán học để ủng hộ thuyết ấy.\nNữ: Thuyết chọn lọc giới tính hoàn toàn không thuyết phục được giới học thuật. Wallace, người xây dựng học thuyết tiến hóa cùng thời Darwin, đã phản đối rất mạnh. Ngay cả ngày nay, vẫn có học giả cho rằng thuyết tiến hóa không giải thích được khía cạnh xã hội của tiến hóa, như việc chủ động chọn giới tính khi sinh con hay phá thai do con người quyết định. Những hành vi ấy chẳng liên quan gì đến chọn lọc tự nhiên.\nNam: Khoan đã, phá thai do con người chủ động quyết định ư? Kết quả của sự can thiệp có chủ ý sao có thể đem so với cơ chế tiến hóa tự nhiên? Vì vậy tôi vẫn cho rằng cơ chế tiến hóa là “cạnh tranh sinh tồn, chọn lọc tự nhiên, kẻ thích nghi tồn tại”.",
+      "evidence": {
+        "traditional": "多抱持著質疑的態度",
+        "simplified": "多抱持着质疑的态度"
+      },
+      "explanation": "Cụm này nghĩa là phần lớn vẫn hoài nghi, chứ không hoàn toàn tin hay bác bỏ."
+    },
+    "listening-q24": {
+      "number": 24,
+      "correctAnswer": "A",
+      "groupId": "tg-q22-q25",
+      "questionChinese": {
+        "traditional": "根據這位小姐的說法，當時的學者對「性擇論」看法為何？",
+        "simplified": "根据这位小姐的说法，当时的学者对「性择论」看法为何？"
+      },
+      "questionVietnamese": "Theo người phụ nữ, giới học giả thời đó phản ứng thế nào với chọn lọc giới tính?",
+      "optionVietnamese": [
+        "phản đối mạnh hơn",
+        "chứng minh thiếu sót bằng mô hình toán",
+        "cho rằng đã bù chỗ thiếu của tiến hóa",
+        "cho rằng giải thích tiến hóa xã hội"
+      ],
+      "transcriptVietnamese": "Nam: Darwin ở thế kỷ 19 cho rằng các loài không hoàn hảo ngay từ đầu, mà dần trở nên hoàn thiện qua cạnh tranh sinh tồn. Vì thế ông đưa ra thuyết tiến hóa “cạnh tranh sinh tồn, chọn lọc tự nhiên, kẻ thích nghi tồn tại”, đồng thời nhấn mạnh đây là cơ chế tiến hóa duy nhất.\nNữ: Chọn lọc tự nhiên là cơ chế tiến hóa duy nhất sao? Không chỉ tôi phản đối; ngay cả các nhà sinh học cùng thời cũng phần lớn hoài nghi. Chẳng hạn, chiếc đuôi rực rỡ của công thường cản nó chạy thoát khi gặp nguy hiểm. Nếu chỉ có “chọn lọc tự nhiên, kẻ thích nghi tồn tại”, sao đặc điểm gây bất lợi cho việc sinh tồn lại tiến hóa được? Vậy chọn lọc tự nhiên sao có thể là cơ chế duy nhất!\nNam: Để giải thích mâu thuẫn này và bổ sung chỗ còn thiếu của thuyết tiến hóa, Darwin còn đưa ra thuyết “chọn lọc giới tính”: cá thể cái chọn bạn đời dựa vào những đặc điểm trang trí trên cơ thể cá thể đực. Đuôi công rực rỡ là ví dụ điển hình. Nhà toán học Fisher cũng dùng mô hình toán học để ủng hộ thuyết ấy.\nNữ: Thuyết chọn lọc giới tính hoàn toàn không thuyết phục được giới học thuật. Wallace, người xây dựng học thuyết tiến hóa cùng thời Darwin, đã phản đối rất mạnh. Ngay cả ngày nay, vẫn có học giả cho rằng thuyết tiến hóa không giải thích được khía cạnh xã hội của tiến hóa, như việc chủ động chọn giới tính khi sinh con hay phá thai do con người quyết định. Những hành vi ấy chẳng liên quan gì đến chọn lọc tự nhiên.\nNam: Khoan đã, phá thai do con người chủ động quyết định ư? Kết quả của sự can thiệp có chủ ý sao có thể đem so với cơ chế tiến hóa tự nhiên? Vì vậy tôi vẫn cho rằng cơ chế tiến hóa là “cạnh tranh sinh tồn, chọn lọc tự nhiên, kẻ thích nghi tồn tại”.",
+      "evidence": {
+        "traditional": "華萊士就強烈反對「性擇」學說",
+        "simplified": "华莱士就强烈反对「性择」学说"
+      },
+      "explanation": "Bà dẫn Wallace là người phản đối mạnh thuyết chọn lọc giới tính."
+    },
+    "listening-q25": {
+      "number": 25,
+      "correctAnswer": "A",
+      "groupId": "tg-q22-q25",
+      "questionChinese": {
+        "traditional": "這一場辯論的結果是什麼？",
+        "simplified": "这一场辩论的结果是什么？"
+      },
+      "questionVietnamese": "Cuộc tranh luận có kết quả gì?",
+      "optionVietnamese": [
+        "cô gái chưa thuyết phục được đối phương",
+        "cô khiến người kia bó tay",
+        "cô phản bác hiệu quả",
+        "cô khiến người kia câm lặng"
+      ],
+      "transcriptVietnamese": "Nam: Darwin ở thế kỷ 19 cho rằng các loài không hoàn hảo ngay từ đầu, mà dần trở nên hoàn thiện qua cạnh tranh sinh tồn. Vì thế ông đưa ra thuyết tiến hóa “cạnh tranh sinh tồn, chọn lọc tự nhiên, kẻ thích nghi tồn tại”, đồng thời nhấn mạnh đây là cơ chế tiến hóa duy nhất.\nNữ: Chọn lọc tự nhiên là cơ chế tiến hóa duy nhất sao? Không chỉ tôi phản đối; ngay cả các nhà sinh học cùng thời cũng phần lớn hoài nghi. Chẳng hạn, chiếc đuôi rực rỡ của công thường cản nó chạy thoát khi gặp nguy hiểm. Nếu chỉ có “chọn lọc tự nhiên, kẻ thích nghi tồn tại”, sao đặc điểm gây bất lợi cho việc sinh tồn lại tiến hóa được? Vậy chọn lọc tự nhiên sao có thể là cơ chế duy nhất!\nNam: Để giải thích mâu thuẫn này và bổ sung chỗ còn thiếu của thuyết tiến hóa, Darwin còn đưa ra thuyết “chọn lọc giới tính”: cá thể cái chọn bạn đời dựa vào những đặc điểm trang trí trên cơ thể cá thể đực. Đuôi công rực rỡ là ví dụ điển hình. Nhà toán học Fisher cũng dùng mô hình toán học để ủng hộ thuyết ấy.\nNữ: Thuyết chọn lọc giới tính hoàn toàn không thuyết phục được giới học thuật. Wallace, người xây dựng học thuyết tiến hóa cùng thời Darwin, đã phản đối rất mạnh. Ngay cả ngày nay, vẫn có học giả cho rằng thuyết tiến hóa không giải thích được khía cạnh xã hội của tiến hóa, như việc chủ động chọn giới tính khi sinh con hay phá thai do con người quyết định. Những hành vi ấy chẳng liên quan gì đến chọn lọc tự nhiên.\nNam: Khoan đã, phá thai do con người chủ động quyết định ư? Kết quả của sự can thiệp có chủ ý sao có thể đem so với cơ chế tiến hóa tự nhiên? Vì vậy tôi vẫn cho rằng cơ chế tiến hóa là “cạnh tranh sinh tồn, chọn lọc tự nhiên, kẻ thích nghi tồn tại”.",
+      "evidence": {
+        "traditional": "所以，我認為演化的機制就是「物競天擇，適者生存」",
+        "simplified": "所以，我认为演化的机制就是「物竞天择，适者生存」"
+      },
+      "explanation": "Cuối đối thoại, người đàn ông vẫn giữ quan điểm cũ, nên hai bên chưa thuyết phục được nhau."
+    },
+    "listening-q26": {
+      "number": 26,
+      "correctAnswer": "D",
+      "groupId": "tg-q26-q27",
+      "questionChinese": {
+        "traditional": "這家公司的特色是什麼？",
+        "simplified": "这家公司的特色是什么？"
+      },
+      "questionVietnamese": "Điểm đặc biệt của công ty là gì?",
+      "optionVietnamese": [
+        "gửi rất nhanh",
+        "gửi miễn phí",
+        "chỉ gửi thư cho chính mình",
+        "chọn thời gian giao thư linh hoạt"
+      ],
+      "transcriptVietnamese": "Ngày nay, làm gì người ta cũng coi trọng hiệu quả, đặc biệt là các công ty chuyển phát nhanh: đã nhanh rồi còn phải nhanh hơn. Thế nhưng ở Bắc Kinh, Trung Quốc, một công ty lại làm ngược lại và kinh doanh dịch vụ chuyển phát chậm. Từ khi mở cửa, công ty đã nhận hơn 20.000 lá thư. Khách hàng mang những lá thư đầy tình cảm đến gửi, chỉ định một ngày phát thư, trả đủ phí rồi rời đi. Hóa ra dịch vụ chuyển phát chậm làm ăn với tương lai: người nhận có thể là chính người gửi hoặc người khác. Công ty sẽ giao thư vào đúng thời điểm người gửi đã chỉ định. Nhưng là khách hàng, có lẽ bạn phải cầu mong việc kinh doanh của công ty ngày càng tốt, để họ đừng đóng cửa trước khi đến ngày giao thư.",
+      "evidence": {
+        "traditional": "寄件人指定的時間，將信件送達",
+        "simplified": "寄件人指定的时间，将信件送达"
+      },
+      "explanation": "Người gửi chọn ngày giao trong tương lai; người nhận có thể là bất kỳ ai."
+    },
+    "listening-q27": {
+      "number": 27,
+      "correctAnswer": "D",
+      "groupId": "tg-q26-q27",
+      "questionChinese": {
+        "traditional": "報導最後指出，消費者該擔心什麼？",
+        "simplified": "报导最后指出，消费者该担心什么？"
+      },
+      "questionVietnamese": "Người đưa tin nói khách cần lo điều gì?",
+      "optionVietnamese": [
+        "thư bị thất lạc",
+        "thư không tới ngay",
+        "công ty quá đông khách nên chậm",
+        "tới ngày hẹn công ty không còn gửi thư"
+      ],
+      "transcriptVietnamese": "Ngày nay, làm gì người ta cũng coi trọng hiệu quả, đặc biệt là các công ty chuyển phát nhanh: đã nhanh rồi còn phải nhanh hơn. Thế nhưng ở Bắc Kinh, Trung Quốc, một công ty lại làm ngược lại và kinh doanh dịch vụ chuyển phát chậm. Từ khi mở cửa, công ty đã nhận hơn 20.000 lá thư. Khách hàng mang những lá thư đầy tình cảm đến gửi, chỉ định một ngày phát thư, trả đủ phí rồi rời đi. Hóa ra dịch vụ chuyển phát chậm làm ăn với tương lai: người nhận có thể là chính người gửi hoặc người khác. Công ty sẽ giao thư vào đúng thời điểm người gửi đã chỉ định. Nhưng là khách hàng, có lẽ bạn phải cầu mong việc kinh doanh của công ty ngày càng tốt, để họ đừng đóng cửa trước khi đến ngày giao thư.",
+      "evidence": {
+        "traditional": "不要在寄送時間到之前就倒閉了",
+        "simplified": "不要在寄送时间到之前就倒闭了"
+      },
+      "explanation": "Nếu công ty đóng cửa trước ngày hẹn, thư sẽ không được chuyển đi."
+    },
+    "listening-q28": {
+      "number": 28,
+      "correctAnswer": "A",
+      "groupId": "tg-q28-q30",
+      "questionChinese": {
+        "traditional": "朱熹一開始聽到買「東西」時，他的反應是什麼？",
+        "simplified": "朱熹一开始听到买「东西」时，他的反应是什么？"
+      },
+      "questionVietnamese": "Ban đầu Chu Hi phản ứng thế nào khi nghe “mua đông tây”?",
+      "optionVietnamese": [
+        "bối rối",
+        "dẫn nhiều ví dụ",
+        "đã hiểu rõ",
+        "luống cuống"
+      ],
+      "transcriptVietnamese": "Khi đi mua sắm, người ta thường nói đi mua “đông tây”, tức mua đồ. Nhưng tại sao lại dùng hai chữ “đông” và “tây”? Cách nói ấy bắt nguồn từ đâu? Chuyện kể rằng vào đời Tống có một học giả nổi tiếng tên Chu Hi. Một hôm, trên đường ông gặp người bạn đang xách giỏ đi tới. Chu Hi hỏi: “Anh đi đâu đấy?”. Người bạn đáp: “Ra phố mua ‘đông tây’!”. Chu Hi hỏi: “Đông tây ư? Mua bằng cách nào? Giá bao nhiêu? Thế nam bắc có mua được không? Sao chỉ mua đông tây mà không mua nam bắc?”. Người bạn mỉm cười hỏi lại: “Tương ứng với Kim, Mộc, Thủy, Hỏa, Thổ, được gọi chung là ngũ hành, là những gì?”.\nChu Hi suy nghĩ rồi mỉm cười: “À, Kim, Mộc, Thủy, Hỏa, Thổ; đông, nam, tây, bắc, giữa. Phương đông thuộc Mộc, phương tây thuộc Kim. Kim và Mộc đều có thể cho vào giỏ; phương bắc thuộc Thủy, phương nam thuộc Hỏa, mà nước và lửa thì không thể đựng trong giỏ. Vì vậy chúng ta chỉ nói mua ‘đông tây’, chứ không nói mua ‘nam bắc’”.",
+      "evidence": {
+        "traditional": "為什麼只買東西，不買南北？",
+        "simplified": "为什么只买东西，不买南北？"
+      },
+      "explanation": "Ông đặt hàng loạt câu hỏi vì chưa hiểu cách gọi này."
+    },
+    "listening-q29": {
+      "number": 29,
+      "correctAnswer": "B",
+      "groupId": "tg-q28-q30",
+      "questionChinese": {
+        "traditional": "朋友從什麼角度來回答朱熹的問題？",
+        "simplified": "朋友从什么角度来回答朱熹的问题？"
+      },
+      "questionVietnamese": "Người bạn giải đáp theo góc độ nào?",
+      "optionVietnamese": [
+        "nguồn gốc hàng hóa",
+        "thuộc tính của phương hướng",
+        "chất liệu cái giỏ",
+        "vị trí khu chợ"
+      ],
+      "transcriptVietnamese": "Khi đi mua sắm, người ta thường nói đi mua “đông tây”, tức mua đồ. Nhưng tại sao lại dùng hai chữ “đông” và “tây”? Cách nói ấy bắt nguồn từ đâu? Chuyện kể rằng vào đời Tống có một học giả nổi tiếng tên Chu Hi. Một hôm, trên đường ông gặp người bạn đang xách giỏ đi tới. Chu Hi hỏi: “Anh đi đâu đấy?”. Người bạn đáp: “Ra phố mua ‘đông tây’!”. Chu Hi hỏi: “Đông tây ư? Mua bằng cách nào? Giá bao nhiêu? Thế nam bắc có mua được không? Sao chỉ mua đông tây mà không mua nam bắc?”. Người bạn mỉm cười hỏi lại: “Tương ứng với Kim, Mộc, Thủy, Hỏa, Thổ, được gọi chung là ngũ hành, là những gì?”.\nChu Hi suy nghĩ rồi mỉm cười: “À, Kim, Mộc, Thủy, Hỏa, Thổ; đông, nam, tây, bắc, giữa. Phương đông thuộc Mộc, phương tây thuộc Kim. Kim và Mộc đều có thể cho vào giỏ; phương bắc thuộc Thủy, phương nam thuộc Hỏa, mà nước và lửa thì không thể đựng trong giỏ. Vì vậy chúng ta chỉ nói mua ‘đông tây’, chứ không nói mua ‘nam bắc’”.",
+      "evidence": {
+        "traditional": "與金木水火土相配",
+        "simplified": "与金木水火土相配"
+      },
+      "explanation": "Ông bạn gợi ngũ hành tương ứng với các phương hướng, không bàn hàng hay chợ."
+    },
+    "listening-q30": {
+      "number": 30,
+      "correctAnswer": "C",
+      "groupId": "tg-q28-q30",
+      "questionChinese": {
+        "traditional": "最後，根據朱熹的說法，「東西」各代表什麼？",
+        "simplified": "最后，根据朱熹的说法，「东西」各代表什么？"
+      },
+      "questionVietnamese": "Theo lời Chu Hi, “đông” và “tây” ứng với gì?",
+      "optionVietnamese": [
+        "Kim và Hỏa",
+        "Mộc và Thủy",
+        "Mộc và Kim",
+        "Thủy và Hỏa"
+      ],
+      "transcriptVietnamese": "Khi đi mua sắm, người ta thường nói đi mua “đông tây”, tức mua đồ. Nhưng tại sao lại dùng hai chữ “đông” và “tây”? Cách nói ấy bắt nguồn từ đâu? Chuyện kể rằng vào đời Tống có một học giả nổi tiếng tên Chu Hi. Một hôm, trên đường ông gặp người bạn đang xách giỏ đi tới. Chu Hi hỏi: “Anh đi đâu đấy?”. Người bạn đáp: “Ra phố mua ‘đông tây’!”. Chu Hi hỏi: “Đông tây ư? Mua bằng cách nào? Giá bao nhiêu? Thế nam bắc có mua được không? Sao chỉ mua đông tây mà không mua nam bắc?”. Người bạn mỉm cười hỏi lại: “Tương ứng với Kim, Mộc, Thủy, Hỏa, Thổ, được gọi chung là ngũ hành, là những gì?”.\nChu Hi suy nghĩ rồi mỉm cười: “À, Kim, Mộc, Thủy, Hỏa, Thổ; đông, nam, tây, bắc, giữa. Phương đông thuộc Mộc, phương tây thuộc Kim. Kim và Mộc đều có thể cho vào giỏ; phương bắc thuộc Thủy, phương nam thuộc Hỏa, mà nước và lửa thì không thể đựng trong giỏ. Vì vậy chúng ta chỉ nói mua ‘đông tây’, chứ không nói mua ‘nam bắc’”.",
+      "evidence": {
+        "traditional": "東方呢，屬木頭的木，西方則屬金子的金",
+        "simplified": "东方呢，属木头的木，西方则属金子的金"
+      },
+      "explanation": "Phương đông ứng Mộc, phương tây ứng Kim; lựa chọn C đúng thứ tự."
+    },
+    "listening-q31": {
+      "number": 31,
+      "correctAnswer": "B",
+      "groupId": "tg-q31-q33",
+      "questionChinese": {
+        "traditional": "人們為什麼需要這項服務？",
+        "simplified": "人们为什么需要这项服务？"
+      },
+      "questionVietnamese": "Vì sao người ta cần dịch vụ này?",
+      "optionVietnamese": [
+        "không diệt được vi rút mạng",
+        "không biết khi nào sẽ qua đời",
+        "không hiểu rủi ro đầu tư mạng",
+        "sợ tài khoản bị lấy cắp"
+      ],
+      "transcriptVietnamese": "Cùng với sự phát triển của công nghệ và sự phổ biến của Internet, thư điện tử, ngân hàng trực tuyến, mạng xã hội và nhắn tin tức thời đã trở thành một phần quan trọng của cuộc sống hiện đại. Từ thư từ qua lại, ảnh sinh hoạt, công việc ở công ty cho đến thông tin tài chính, phần lớn đều được lưu trong tài khoản trực tuyến của người dùng. Nhưng với những dịch vụ phải nhập mật khẩu mới đăng nhập được, nếu người dùng đột ngột qua đời, những thông tin riêng tư vốn được tài khoản bảo vệ liệu có bị lộ ra ngoài không? Người thân của người đã mất có quyền lấy những dữ liệu ấy không?\nĐể giải quyết những băn khoăn đó, nhiều công ty nhận quản lý tài khoản trực tuyến đã xuất hiện. Sau khi trả phí, người dùng có thể lưu các mật khẩu vào cơ sở dữ liệu của công ty quản lý. Họ cũng có thể chỉ định những người khác nhau được nhận mật khẩu của từng tài khoản, như khi phân chia tài sản. Khi người dùng qua đời, công ty sẽ xác nhận với luật sư hoặc gia đình, rồi giao dữ liệu cho “người thụ hưởng” được người dùng chỉ định lúc còn sống, hoặc đóng tài khoản theo hướng dẫn của họ.",
+      "evidence": {
+        "traditional": "一旦使用者突然死亡",
+        "simplified": "一旦使用者突然死亡"
+      },
+      "explanation": "Dịch vụ dự phòng việc người dùng qua đời bất ngờ, để tài khoản và dữ liệu có người xử lý."
+    },
+    "listening-q32": {
+      "number": 32,
+      "correctAnswer": "D",
+      "groupId": "tg-q31-q33",
+      "questionChinese": {
+        "traditional": "這項服務的重心是什麼？",
+        "simplified": "这项服务的重心是什么？"
+      },
+      "questionVietnamese": "Trọng tâm của dịch vụ là gì?",
+      "optionVietnamese": [
+        "sao lưu máy tính",
+        "xóa tài khoản ít dùng",
+        "chia sẻ dữ liệu bất kỳ lúc nào",
+        "xử lý tài khoản như tài sản để lại"
+      ],
+      "transcriptVietnamese": "Cùng với sự phát triển của công nghệ và sự phổ biến của Internet, thư điện tử, ngân hàng trực tuyến, mạng xã hội và nhắn tin tức thời đã trở thành một phần quan trọng của cuộc sống hiện đại. Từ thư từ qua lại, ảnh sinh hoạt, công việc ở công ty cho đến thông tin tài chính, phần lớn đều được lưu trong tài khoản trực tuyến của người dùng. Nhưng với những dịch vụ phải nhập mật khẩu mới đăng nhập được, nếu người dùng đột ngột qua đời, những thông tin riêng tư vốn được tài khoản bảo vệ liệu có bị lộ ra ngoài không? Người thân của người đã mất có quyền lấy những dữ liệu ấy không?\nĐể giải quyết những băn khoăn đó, nhiều công ty nhận quản lý tài khoản trực tuyến đã xuất hiện. Sau khi trả phí, người dùng có thể lưu các mật khẩu vào cơ sở dữ liệu của công ty quản lý. Họ cũng có thể chỉ định những người khác nhau được nhận mật khẩu của từng tài khoản, như khi phân chia tài sản. Khi người dùng qua đời, công ty sẽ xác nhận với luật sư hoặc gia đình, rồi giao dữ liệu cho “người thụ hưởng” được người dùng chỉ định lúc còn sống, hoặc đóng tài khoản theo hướng dẫn của họ.",
+      "evidence": {
+        "traditional": "像分配財產一樣，指定不同的人繼承不同帳號的密碼",
+        "simplified": "像分配财产一样，指定不同的人继承不同帐号的密码"
+      },
+      "explanation": "Người dùng chỉ định người thừa hưởng mật khẩu, tương tự phân chia di sản."
+    },
+    "listening-q33": {
+      "number": 33,
+      "correctAnswer": "D",
+      "groupId": "tg-q31-q33",
+      "questionChinese": {
+        "traditional": "客戶使用這項服務時，哪一個是對的？",
+        "simplified": "客户使用这项服务时，哪一个是对的？"
+      },
+      "questionVietnamese": "Điều nào đúng khi dùng dịch vụ?",
+      "optionVietnamese": [
+        "miễn phí",
+        "chống vi rút",
+        "chỉ giao mật khẩu cho một người",
+        "có thể nhờ công ty đóng tài khoản"
+      ],
+      "transcriptVietnamese": "Cùng với sự phát triển của công nghệ và sự phổ biến của Internet, thư điện tử, ngân hàng trực tuyến, mạng xã hội và nhắn tin tức thời đã trở thành một phần quan trọng của cuộc sống hiện đại. Từ thư từ qua lại, ảnh sinh hoạt, công việc ở công ty cho đến thông tin tài chính, phần lớn đều được lưu trong tài khoản trực tuyến của người dùng. Nhưng với những dịch vụ phải nhập mật khẩu mới đăng nhập được, nếu người dùng đột ngột qua đời, những thông tin riêng tư vốn được tài khoản bảo vệ liệu có bị lộ ra ngoài không? Người thân của người đã mất có quyền lấy những dữ liệu ấy không?\nĐể giải quyết những băn khoăn đó, nhiều công ty nhận quản lý tài khoản trực tuyến đã xuất hiện. Sau khi trả phí, người dùng có thể lưu các mật khẩu vào cơ sở dữ liệu của công ty quản lý. Họ cũng có thể chỉ định những người khác nhau được nhận mật khẩu của từng tài khoản, như khi phân chia tài sản. Khi người dùng qua đời, công ty sẽ xác nhận với luật sư hoặc gia đình, rồi giao dữ liệu cho “người thụ hưởng” được người dùng chỉ định lúc còn sống, hoặc đóng tài khoản theo hướng dẫn của họ.",
+      "evidence": {
+        "traditional": "或是依指示關閉帳號",
+        "simplified": "或是依指示关闭帐号"
+      },
+      "explanation": "Ngoài bàn giao dữ liệu, công ty có thể đóng tài khoản theo chỉ dẫn đã để lại."
+    },
+    "listening-q34": {
+      "number": 34,
+      "correctAnswer": "C",
+      "groupId": "tg-q34-q37",
+      "questionChinese": {
+        "traditional": "帕梅森提出什麼方法來拯救動植物？",
+        "simplified": "帕梅森提出什么方法来拯救动植物？"
+      },
+      "questionVietnamese": "Parmesan đề xuất cách nào để cứu động, thực vật?",
+      "optionVietnamese": [
+        "lập khu bảo tồn",
+        "giảm nóng lên toàn cầu",
+        "giúp chúng di cư",
+        "cải thiện môi trường địa phương"
+      ],
+      "transcriptVietnamese": "Những năm gần đây, ngày càng nhiều loài động, thực vật không thể tiếp tục sinh sống vì Trái Đất nóng lên và khí hậu thay đổi. Trước vấn đề này, Parmesan đề xuất một cách mà phần lớn nhà sinh học cho là không khả thi: giúp các loài di cư hoặc chuyển chúng đến nơi khác.\nParmesan nói rằng dù cách này gây tranh cãi, nó rất có thể là cách duy nhất cứu nhiều loài đang bên bờ tuyệt chủng. Trên Trái Đất có không ít loài không thích nghi được với môi trường sau biến đổi khí hậu, nhưng cũng không thể rời nơi ở để chuyển đến vùng thích hợp. Để cứu chúng, cách hiệu quả nhất là con người giúp chúng di cư hoặc chuyển nơi sống.\nTuy nhiên, nhiều nhà sinh học cho rằng cách làm này quá ngây thơ. Mỗi vùng đều có hệ sinh thái riêng. Một khi đưa loài mới từ nơi khác đến, môi trường địa phương có thể thay đổi rất mạnh và mất cân bằng. Ta có thể chuyển một loài động vật sắp tuyệt chủng đến môi trường thích hợp, nhưng nếu ở đó nó không có thiên địch, nó có thể sinh sản nhanh không ngừng, ăn nhiều loài động, thực vật bản địa và khiến các loài khác tuyệt chủng.\nĐồng thời, một số học giả chỉ ra rằng cách Parmesan đề xuất tốn rất nhiều tiền. Cuối cùng, người ta chắc chắn sẽ ưu tiên những loài có lợi ích kinh tế. Nói cách khác, vẫn dùng giá trị của con người để quyết định cứu loài nào trước; không thể chăm lo cho mọi loài đang bên bờ tuyệt chủng, cũng không thể cải thiện vấn đề một cách hiệu quả.",
+      "evidence": {
+        "traditional": "幫助生物遷徙或是移植",
+        "simplified": "帮助生物迁徙或是移植"
+      },
+      "explanation": "Bà đề nghị con người giúp loài không tự chuyển được tới nơi có khí hậu phù hợp."
+    },
+    "listening-q35": {
+      "number": 35,
+      "correctAnswer": "A",
+      "groupId": "tg-q34-q37",
+      "questionChinese": {
+        "traditional": "帕梅森為什麼想透過這個方式來拯救動植物？",
+        "simplified": "帕梅森为什么想透过这个方式来拯救动植物？"
+      },
+      "questionVietnamese": "Vì sao Parmesan chọn cách này?",
+      "optionVietnamese": [
+        "cho rằng hiệu quả nhất",
+        "rất tiết kiệm",
+        "chăm lo được đa số loài",
+        "ít hại sinh giới nhất"
+      ],
+      "transcriptVietnamese": "Những năm gần đây, ngày càng nhiều loài động, thực vật không thể tiếp tục sinh sống vì Trái Đất nóng lên và khí hậu thay đổi. Trước vấn đề này, Parmesan đề xuất một cách mà phần lớn nhà sinh học cho là không khả thi: giúp các loài di cư hoặc chuyển chúng đến nơi khác.\nParmesan nói rằng dù cách này gây tranh cãi, nó rất có thể là cách duy nhất cứu nhiều loài đang bên bờ tuyệt chủng. Trên Trái Đất có không ít loài không thích nghi được với môi trường sau biến đổi khí hậu, nhưng cũng không thể rời nơi ở để chuyển đến vùng thích hợp. Để cứu chúng, cách hiệu quả nhất là con người giúp chúng di cư hoặc chuyển nơi sống.\nTuy nhiên, nhiều nhà sinh học cho rằng cách làm này quá ngây thơ. Mỗi vùng đều có hệ sinh thái riêng. Một khi đưa loài mới từ nơi khác đến, môi trường địa phương có thể thay đổi rất mạnh và mất cân bằng. Ta có thể chuyển một loài động vật sắp tuyệt chủng đến môi trường thích hợp, nhưng nếu ở đó nó không có thiên địch, nó có thể sinh sản nhanh không ngừng, ăn nhiều loài động, thực vật bản địa và khiến các loài khác tuyệt chủng.\nĐồng thời, một số học giả chỉ ra rằng cách Parmesan đề xuất tốn rất nhiều tiền. Cuối cùng, người ta chắc chắn sẽ ưu tiên những loài có lợi ích kinh tế. Nói cách khác, vẫn dùng giá trị của con người để quyết định cứu loài nào trước; không thể chăm lo cho mọi loài đang bên bờ tuyệt chủng, cũng không thể cải thiện vấn đề một cách hiệu quả.",
+      "evidence": {
+        "traditional": "最有效率的方法就是由人類幫忙遷徙或移植",
+        "simplified": "最有效率的方法就是由人类帮忙迁徙或移植"
+      },
+      "explanation": "Bà coi di dời là cách hiệu quả nhất để cứu những loài không thể tự rời nơi sống cũ."
+    },
+    "listening-q36": {
+      "number": 36,
+      "correctAnswer": "A",
+      "groupId": "tg-q34-q37",
+      "questionChinese": {
+        "traditional": "為什麼不少生物學家反對帕梅森提出的方法？",
+        "simplified": "为什么不少生物学家反对帕梅森提出的方法？"
+      },
+      "questionVietnamese": "Vì sao nhiều nhà sinh học phản đối?",
+      "optionVietnamese": [
+        "có thể phá vỡ cân bằng sinh thái",
+        "làm đổi khí hậu",
+        "khiến người săn bắt, chặt phá",
+        "không cải thiện môi trường"
+      ],
+      "transcriptVietnamese": "Những năm gần đây, ngày càng nhiều loài động, thực vật không thể tiếp tục sinh sống vì Trái Đất nóng lên và khí hậu thay đổi. Trước vấn đề này, Parmesan đề xuất một cách mà phần lớn nhà sinh học cho là không khả thi: giúp các loài di cư hoặc chuyển chúng đến nơi khác.\nParmesan nói rằng dù cách này gây tranh cãi, nó rất có thể là cách duy nhất cứu nhiều loài đang bên bờ tuyệt chủng. Trên Trái Đất có không ít loài không thích nghi được với môi trường sau biến đổi khí hậu, nhưng cũng không thể rời nơi ở để chuyển đến vùng thích hợp. Để cứu chúng, cách hiệu quả nhất là con người giúp chúng di cư hoặc chuyển nơi sống.\nTuy nhiên, nhiều nhà sinh học cho rằng cách làm này quá ngây thơ. Mỗi vùng đều có hệ sinh thái riêng. Một khi đưa loài mới từ nơi khác đến, môi trường địa phương có thể thay đổi rất mạnh và mất cân bằng. Ta có thể chuyển một loài động vật sắp tuyệt chủng đến môi trường thích hợp, nhưng nếu ở đó nó không có thiên địch, nó có thể sinh sản nhanh không ngừng, ăn nhiều loài động, thực vật bản địa và khiến các loài khác tuyệt chủng.\nĐồng thời, một số học giả chỉ ra rằng cách Parmesan đề xuất tốn rất nhiều tiền. Cuối cùng, người ta chắc chắn sẽ ưu tiên những loài có lợi ích kinh tế. Nói cách khác, vẫn dùng giá trị của con người để quyết định cứu loài nào trước; không thể chăm lo cho mọi loài đang bên bờ tuyệt chủng, cũng không thể cải thiện vấn đề một cách hiệu quả.",
+      "evidence": {
+        "traditional": "破壞平衡",
+        "simplified": "破坏平衡"
+      },
+      "explanation": "Loài mới đưa vào có thể sinh sôi, săn loài bản địa và làm hệ sinh thái mất cân bằng."
+    },
+    "listening-q37": {
+      "number": 37,
+      "correctAnswer": "D",
+      "groupId": "tg-q34-q37",
+      "questionChinese": {
+        "traditional": "學者們認為帕梅森的方法比較能拯救哪些動植物？",
+        "simplified": "学者们认为帕梅森的方法比较能拯救哪些动植物？"
+      },
+      "questionVietnamese": "Theo học giả, phương pháp này có thể ưu tiên loài nào?",
+      "optionVietnamese": [
+        "loài tự di cư",
+        "loài ít lợi ích kinh tế",
+        "loài chưa nguy cấp",
+        "loài được con người coi là có giá trị"
+      ],
+      "transcriptVietnamese": "Những năm gần đây, ngày càng nhiều loài động, thực vật không thể tiếp tục sinh sống vì Trái Đất nóng lên và khí hậu thay đổi. Trước vấn đề này, Parmesan đề xuất một cách mà phần lớn nhà sinh học cho là không khả thi: giúp các loài di cư hoặc chuyển chúng đến nơi khác.\nParmesan nói rằng dù cách này gây tranh cãi, nó rất có thể là cách duy nhất cứu nhiều loài đang bên bờ tuyệt chủng. Trên Trái Đất có không ít loài không thích nghi được với môi trường sau biến đổi khí hậu, nhưng cũng không thể rời nơi ở để chuyển đến vùng thích hợp. Để cứu chúng, cách hiệu quả nhất là con người giúp chúng di cư hoặc chuyển nơi sống.\nTuy nhiên, nhiều nhà sinh học cho rằng cách làm này quá ngây thơ. Mỗi vùng đều có hệ sinh thái riêng. Một khi đưa loài mới từ nơi khác đến, môi trường địa phương có thể thay đổi rất mạnh và mất cân bằng. Ta có thể chuyển một loài động vật sắp tuyệt chủng đến môi trường thích hợp, nhưng nếu ở đó nó không có thiên địch, nó có thể sinh sản nhanh không ngừng, ăn nhiều loài động, thực vật bản địa và khiến các loài khác tuyệt chủng.\nĐồng thời, một số học giả chỉ ra rằng cách Parmesan đề xuất tốn rất nhiều tiền. Cuối cùng, người ta chắc chắn sẽ ưu tiên những loài có lợi ích kinh tế. Nói cách khác, vẫn dùng giá trị của con người để quyết định cứu loài nào trước; không thể chăm lo cho mọi loài đang bên bờ tuyệt chủng, cũng không thể cải thiện vấn đề một cách hiệu quả.",
+      "evidence": {
+        "traditional": "優先考慮具有經濟效益的物種",
+        "simplified": "优先考虑具有经济效益的物种"
+      },
+      "explanation": "Chi phí lớn khiến việc lựa chọn cứu loài chịu ảnh hưởng của giá trị kinh tế do con người đặt ra."
+    },
+    "listening-q38": {
+      "number": 38,
+      "correctAnswer": "D",
+      "groupId": "tg-q38-q41",
+      "questionChinese": {
+        "traditional": "這項腦細胞研究的主要發現是什麼？",
+        "simplified": "这项脑细胞研究的主要发现是什么？"
+      },
+      "questionVietnamese": "Phát hiện chính về tế bào não là gì?",
+      "optionVietnamese": [
+        "kích thước tế bào không liên quan trí thông minh",
+        "tế bào phát triển hoàn chỉnh từ lúc sinh",
+        "thay thế nhanh hơn tế bào khác",
+        "có thể sống lâu hơn cơ thể gốc"
+      ],
+      "transcriptVietnamese": "Nghiên cứu của các nhà khoa học Ý cho thấy: nếu tế bào não của một sinh vật được cấy sang sinh vật khác, chúng có thể sống cho đến khi sinh vật nhận tế bào già và chết. Vì vậy, các nhà nghiên cứu cho rằng tế bào thần kinh não không có tuổi thọ cố định. Kết quả này rất có ý nghĩa đối với việc cấy ghép tế bào thần kinh ở người và việc ứng dụng vào điều trị bệnh Alzheimer hoặc Parkinson.\nCác nhà nghiên cứu dùng chuột để làm thí nghiệm. Chuột nhà nhỏ sống trung bình chỉ 18 tháng, còn chuột nhà lớn thường sống lâu gấp đôi. Trước tiên, họ lấy tế bào não của chuột nhỏ, rồi cấy vào não của 60 bào thai chuột lớn. Sau đó họ để những con chuột lớn trưởng thành. Khi chúng già yếu, sắp chết và được dự đoán chỉ còn sống chưa đến hai ngày, họ lại quan sát não của chúng.\nHọ phát hiện những con chuột lớn trong thí nghiệm phát triển hoàn toàn bình thường và đến lúc già cũng không có vấn đề thần kinh nào. Tuy có nhiều tế bào não hơn, chúng không thông minh hơn. Ngoài ra, sau khi chuột lớn chết, tế bào thần kinh não lấy từ chuột nhỏ vẫn còn sống. Vì vậy, các nhà khoa học suy đoán rằng nếu cấy tế bào não vào một sinh vật sống lâu hơn nữa, tuổi thọ của tế bào não chuột nhỏ cũng sẽ kéo dài theo.",
+      "evidence": {
+        "traditional": "小家鼠的腦神經依然活著",
+        "simplified": "小家鼠的脑神经依然活着"
+      },
+      "explanation": "Sau khi chuột nhận chết, tế bào não từ chuột cho vẫn sống; tuổi thọ tế bào không bị giới hạn bởi vật chủ ban đầu."
+    },
+    "listening-q39": {
+      "number": 39,
+      "correctAnswer": "A",
+      "groupId": "tg-q38-q41",
+      "questionChinese": {
+        "traditional": "研究的結果，在哪方面深具意義？",
+        "simplified": "研究的结果，在哪方面深具意义？"
+      },
+      "questionVietnamese": "Kết quả nghiên cứu có ý nghĩa với lĩnh vực nào?",
+      "optionVietnamese": [
+        "điều trị thần kinh não",
+        "chẩn đoán tuổi não",
+        "chữa đột quỵ",
+        "đo chức năng não"
+      ],
+      "transcriptVietnamese": "Nghiên cứu của các nhà khoa học Ý cho thấy: nếu tế bào não của một sinh vật được cấy sang sinh vật khác, chúng có thể sống cho đến khi sinh vật nhận tế bào già và chết. Vì vậy, các nhà nghiên cứu cho rằng tế bào thần kinh não không có tuổi thọ cố định. Kết quả này rất có ý nghĩa đối với việc cấy ghép tế bào thần kinh ở người và việc ứng dụng vào điều trị bệnh Alzheimer hoặc Parkinson.\nCác nhà nghiên cứu dùng chuột để làm thí nghiệm. Chuột nhà nhỏ sống trung bình chỉ 18 tháng, còn chuột nhà lớn thường sống lâu gấp đôi. Trước tiên, họ lấy tế bào não của chuột nhỏ, rồi cấy vào não của 60 bào thai chuột lớn. Sau đó họ để những con chuột lớn trưởng thành. Khi chúng già yếu, sắp chết và được dự đoán chỉ còn sống chưa đến hai ngày, họ lại quan sát não của chúng.\nHọ phát hiện những con chuột lớn trong thí nghiệm phát triển hoàn toàn bình thường và đến lúc già cũng không có vấn đề thần kinh nào. Tuy có nhiều tế bào não hơn, chúng không thông minh hơn. Ngoài ra, sau khi chuột lớn chết, tế bào thần kinh não lấy từ chuột nhỏ vẫn còn sống. Vì vậy, các nhà khoa học suy đoán rằng nếu cấy tế bào não vào một sinh vật sống lâu hơn nữa, tuổi thọ của tế bào não chuột nhỏ cũng sẽ kéo dài theo.",
+      "evidence": {
+        "traditional": "阿茲海默症或帕金森氏症的治療",
+        "simplified": "阿兹海默症或帕金森氏症的治疗"
+      },
+      "explanation": "Bài nhắc khả năng ứng dụng ghép tế bào để chữa bệnh thần kinh như Alzheimer và Parkinson."
+    },
+    "listening-q40": {
+      "number": 40,
+      "correctAnswer": "B",
+      "groupId": "tg-q38-q41",
+      "questionChinese": {
+        "traditional": "研究人員如何進行實驗？",
+        "simplified": "研究人员如何进行实验？"
+      },
+      "questionVietnamese": "Nhà nghiên cứu thí nghiệm ra sao?",
+      "optionVietnamese": [
+        "nuôi tế bào rồi cấy vào chuột nhỏ",
+        "cấy tế bào chuột nhỏ vào chuột lớn non",
+        "cấy tế bào chuột lớn trưởng thành vào chuột nhỏ",
+        "cấy tế bào vào chuột nhỏ sắp chết"
+      ],
+      "transcriptVietnamese": "Nghiên cứu của các nhà khoa học Ý cho thấy: nếu tế bào não của một sinh vật được cấy sang sinh vật khác, chúng có thể sống cho đến khi sinh vật nhận tế bào già và chết. Vì vậy, các nhà nghiên cứu cho rằng tế bào thần kinh não không có tuổi thọ cố định. Kết quả này rất có ý nghĩa đối với việc cấy ghép tế bào thần kinh ở người và việc ứng dụng vào điều trị bệnh Alzheimer hoặc Parkinson.\nCác nhà nghiên cứu dùng chuột để làm thí nghiệm. Chuột nhà nhỏ sống trung bình chỉ 18 tháng, còn chuột nhà lớn thường sống lâu gấp đôi. Trước tiên, họ lấy tế bào não của chuột nhỏ, rồi cấy vào não của 60 bào thai chuột lớn. Sau đó họ để những con chuột lớn trưởng thành. Khi chúng già yếu, sắp chết và được dự đoán chỉ còn sống chưa đến hai ngày, họ lại quan sát não của chúng.\nHọ phát hiện những con chuột lớn trong thí nghiệm phát triển hoàn toàn bình thường và đến lúc già cũng không có vấn đề thần kinh nào. Tuy có nhiều tế bào não hơn, chúng không thông minh hơn. Ngoài ra, sau khi chuột lớn chết, tế bào thần kinh não lấy từ chuột nhỏ vẫn còn sống. Vì vậy, các nhà khoa học suy đoán rằng nếu cấy tế bào não vào một sinh vật sống lâu hơn nữa, tuổi thọ của tế bào não chuột nhỏ cũng sẽ kéo dài theo.",
+      "evidence": {
+        "traditional": "取出小家鼠的腦細胞，然後植入60 隻大家鼠胎兒的腦部裡",
+        "simplified": "取出小家鼠的脑细胞，然后植入60 只大家鼠胎儿的脑部里"
+      },
+      "explanation": "Nguồn tế bào là chuột sống ngắn, vật nhận là bào thai chuột sống lâu hơn."
+    },
+    "listening-q41": {
+      "number": 41,
+      "correctAnswer": "C",
+      "groupId": "tg-q38-q41",
+      "questionChinese": {
+        "traditional": "關於研究中的家鼠，下面敘述哪一項正確？",
+        "simplified": "关于研究中的家鼠，下面叙述哪一项正确？"
+      },
+      "questionVietnamese": "Điều nào đúng về chuột trong nghiên cứu?",
+      "optionVietnamese": [
+        "thần kinh chuột lớn teo dần",
+        "chuột nhỏ sống lâu hơn",
+        "chuột lớn không có di chứng sau thí nghiệm",
+        "hai loài có số tế bào não bằng nhau"
+      ],
+      "transcriptVietnamese": "Nghiên cứu của các nhà khoa học Ý cho thấy: nếu tế bào não của một sinh vật được cấy sang sinh vật khác, chúng có thể sống cho đến khi sinh vật nhận tế bào già và chết. Vì vậy, các nhà nghiên cứu cho rằng tế bào thần kinh não không có tuổi thọ cố định. Kết quả này rất có ý nghĩa đối với việc cấy ghép tế bào thần kinh ở người và việc ứng dụng vào điều trị bệnh Alzheimer hoặc Parkinson.\nCác nhà nghiên cứu dùng chuột để làm thí nghiệm. Chuột nhà nhỏ sống trung bình chỉ 18 tháng, còn chuột nhà lớn thường sống lâu gấp đôi. Trước tiên, họ lấy tế bào não của chuột nhỏ, rồi cấy vào não của 60 bào thai chuột lớn. Sau đó họ để những con chuột lớn trưởng thành. Khi chúng già yếu, sắp chết và được dự đoán chỉ còn sống chưa đến hai ngày, họ lại quan sát não của chúng.\nHọ phát hiện những con chuột lớn trong thí nghiệm phát triển hoàn toàn bình thường và đến lúc già cũng không có vấn đề thần kinh nào. Tuy có nhiều tế bào não hơn, chúng không thông minh hơn. Ngoài ra, sau khi chuột lớn chết, tế bào thần kinh não lấy từ chuột nhỏ vẫn còn sống. Vì vậy, các nhà khoa học suy đoán rằng nếu cấy tế bào não vào một sinh vật sống lâu hơn nữa, tuổi thọ của tế bào não chuột nhỏ cũng sẽ kéo dài theo.",
+      "evidence": {
+        "traditional": "完全正常地成長，而且年老時沒有產生任何的腦神經問題",
+        "simplified": "完全正常地成长，而且年老时没有产生任何的脑神经问题"
+      },
+      "explanation": "Chuột được cấy phát triển bình thường và về già không xuất hiện vấn đề thần kinh."
+    },
+    "listening-q42": {
+      "number": 42,
+      "correctAnswer": "B",
+      "groupId": "tg-q42-q45",
+      "questionChinese": {
+        "traditional": "《南半球跨國農用土地交易》報告，提出了哪方面的問題？",
+        "simplified": "《南半球跨国农用土地交易》报告，提出了哪方面的问题？"
+      },
+      "questionVietnamese": "Báo cáo đặt ra vấn đề gì?",
+      "optionVietnamese": [
+        "tranh chấp thương mại xuyên quốc gia",
+        "tính hợp lý của mua bán đất nông nghiệp xuyên quốc gia",
+        "bảo vệ quyền của nhà đầu tư",
+        "mua bán đất có tăng sản lượng không"
+      ],
+      "transcriptVietnamese": "Một tổ chức nghiên cứu phi chính phủ ở châu Âu công bố báo cáo “Giao dịch đất nông nghiệp xuyên quốc gia ở Nam bán cầu”. Báo cáo đặt câu hỏi: các nhà đầu tư từ nước phát triển hoặc tại địa phương có nên mua đất nông nghiệp của các nước đang phát triển không?\nNhà đầu tư nước ngoài nói họ mua đất bỏ hoang; vì thế khi khai khẩn và bắt đầu sản xuất, sản lượng lương thực toàn cầu sẽ tăng theo. Dù họ tuyên bố mọi giao dịch đều công khai, minh bạch, người ta vẫn đặt câu hỏi: trước sức ép nghèo khó và sức hút của tiền mặt, cái giá của việc bán đất là gì? Tại sao chúng ta không cho người nghèo bán thận cho người trả giá cao nhất, nhưng lại cho họ bán đất nông nghiệp vốn là nguồn sống của mình? Hơn nữa, lương thực được trồng trên các vùng đất ấy hoàn toàn không dành cho dân địa phương mà chỉ để xuất khẩu!\nDù đã có nhiều vụ xâm phạm quyền lợi liên quan đến mua bán đất nông nghiệp, đến nay nạn nhân vẫn không biết kêu ở đâu. Năm 2001, một tập đoàn cà phê đã cưỡng ép dân ở một số làng Uganda rời đi để lập đồn điền cà phê quy mô lớn. Tới giờ, những người bị đuổi không những chưa được bồi thường mà còn sống trong cảnh vô cùng nghèo khó.\nCả Uganda lẫn nước nơi tập đoàn này đặt trụ sở đều được bảo vệ theo công ước quốc tế. Năm ấy, nước của tập đoàn thậm chí còn là một trong những bên thúc đẩy công ước. Nhìn vào đó, liệu ta có thể trông đợi chủ đất địa phương nhận được khoản bồi thường tốt hơn từ các nhà đầu tư này không?",
+      "evidence": {
+        "traditional": "應該購買開發中國家的農地嗎？",
+        "simplified": "应该购买开发中国家的农地吗？"
+      },
+      "explanation": "Câu hỏi trung tâm là có nên mua đất nông nghiệp của nước đang phát triển hay không."
+    },
+    "listening-q43": {
+      "number": 43,
+      "correctAnswer": "A",
+      "groupId": "tg-q42-q45",
+      "questionChinese": {
+        "traditional": "投資者對於跨國土地投資的看法是什麼？",
+        "simplified": "投资者对于跨国土地投资的看法是什么？"
+      },
+      "questionVietnamese": "Nhà đầu tư đánh giá việc mua đất thế nào?",
+      "optionVietnamese": [
+        "khẳng định sẽ tăng lương thực toàn cầu",
+        "giúp nước bán đất hết đói",
+        "nâng đời sống dân địa phương",
+        "giải quyết thiếu lương thực địa phương"
+      ],
+      "transcriptVietnamese": "Một tổ chức nghiên cứu phi chính phủ ở châu Âu công bố báo cáo “Giao dịch đất nông nghiệp xuyên quốc gia ở Nam bán cầu”. Báo cáo đặt câu hỏi: các nhà đầu tư từ nước phát triển hoặc tại địa phương có nên mua đất nông nghiệp của các nước đang phát triển không?\nNhà đầu tư nước ngoài nói họ mua đất bỏ hoang; vì thế khi khai khẩn và bắt đầu sản xuất, sản lượng lương thực toàn cầu sẽ tăng theo. Dù họ tuyên bố mọi giao dịch đều công khai, minh bạch, người ta vẫn đặt câu hỏi: trước sức ép nghèo khó và sức hút của tiền mặt, cái giá của việc bán đất là gì? Tại sao chúng ta không cho người nghèo bán thận cho người trả giá cao nhất, nhưng lại cho họ bán đất nông nghiệp vốn là nguồn sống của mình? Hơn nữa, lương thực được trồng trên các vùng đất ấy hoàn toàn không dành cho dân địa phương mà chỉ để xuất khẩu!\nDù đã có nhiều vụ xâm phạm quyền lợi liên quan đến mua bán đất nông nghiệp, đến nay nạn nhân vẫn không biết kêu ở đâu. Năm 2001, một tập đoàn cà phê đã cưỡng ép dân ở một số làng Uganda rời đi để lập đồn điền cà phê quy mô lớn. Tới giờ, những người bị đuổi không những chưa được bồi thường mà còn sống trong cảnh vô cùng nghèo khó.\nCả Uganda lẫn nước nơi tập đoàn này đặt trụ sở đều được bảo vệ theo công ước quốc tế. Năm ấy, nước của tập đoàn thậm chí còn là một trong những bên thúc đẩy công ước. Nhìn vào đó, liệu ta có thể trông đợi chủ đất địa phương nhận được khoản bồi thường tốt hơn từ các nhà đầu tư này không?",
+      "evidence": {
+        "traditional": "全球糧食產量也會跟著提高",
+        "simplified": "全球粮食产量也会跟着提高"
+      },
+      "explanation": "Đó là lập luận của nhà đầu tư; bài sau đó chất vấn tác động thực tế đến dân địa phương."
+    },
+    "listening-q44": {
+      "number": 44,
+      "correctAnswer": "C",
+      "groupId": "tg-q42-q45",
+      "questionChinese": {
+        "traditional": "說話者對於這些問題的看法是什麼？",
+        "simplified": "说话者对于这些问题的看法是什么？"
+      },
+      "questionVietnamese": "Người đưa tin nhìn nhận vấn đề ra sao?",
+      "optionVietnamese": [
+        "nên mở bán đất nước nghèo",
+        "hiểu mong muốn thoát nghèo",
+        "có nhiều chuyện bên mạnh chèn ép bên yếu",
+        "khai hoang chắc chắn hại môi trường"
+      ],
+      "transcriptVietnamese": "Một tổ chức nghiên cứu phi chính phủ ở châu Âu công bố báo cáo “Giao dịch đất nông nghiệp xuyên quốc gia ở Nam bán cầu”. Báo cáo đặt câu hỏi: các nhà đầu tư từ nước phát triển hoặc tại địa phương có nên mua đất nông nghiệp của các nước đang phát triển không?\nNhà đầu tư nước ngoài nói họ mua đất bỏ hoang; vì thế khi khai khẩn và bắt đầu sản xuất, sản lượng lương thực toàn cầu sẽ tăng theo. Dù họ tuyên bố mọi giao dịch đều công khai, minh bạch, người ta vẫn đặt câu hỏi: trước sức ép nghèo khó và sức hút của tiền mặt, cái giá của việc bán đất là gì? Tại sao chúng ta không cho người nghèo bán thận cho người trả giá cao nhất, nhưng lại cho họ bán đất nông nghiệp vốn là nguồn sống của mình? Hơn nữa, lương thực được trồng trên các vùng đất ấy hoàn toàn không dành cho dân địa phương mà chỉ để xuất khẩu!\nDù đã có nhiều vụ xâm phạm quyền lợi liên quan đến mua bán đất nông nghiệp, đến nay nạn nhân vẫn không biết kêu ở đâu. Năm 2001, một tập đoàn cà phê đã cưỡng ép dân ở một số làng Uganda rời đi để lập đồn điền cà phê quy mô lớn. Tới giờ, những người bị đuổi không những chưa được bồi thường mà còn sống trong cảnh vô cùng nghèo khó.\nCả Uganda lẫn nước nơi tập đoàn này đặt trụ sở đều được bảo vệ theo công ước quốc tế. Năm ấy, nước của tập đoàn thậm chí còn là một trong những bên thúc đẩy công ước. Nhìn vào đó, liệu ta có thể trông đợi chủ đất địa phương nhận được khoản bồi thường tốt hơn từ các nhà đầu tư này không?",
+      "evidence": {
+        "traditional": "受害者到現在仍是投訴無門",
+        "simplified": "受害者到现在仍是投诉无门"
+      },
+      "explanation": "Ví dụ dân Uganda bị đuổi, không được đền bù cho thấy bất bình đẳng và xâm phạm quyền lợi."
+    },
+    "listening-q45": {
+      "number": 45,
+      "correctAnswer": "D",
+      "groupId": "tg-q42-q45",
+      "questionChinese": {
+        "traditional": "這篇報導指出，一旦發生交易糾紛，地主國能怎麼做？",
+        "simplified": "这篇报导指出，一旦发生交易纠纷，地主国能怎么做？"
+      },
+      "questionVietnamese": "Nếu xảy ra tranh chấp, nước sở hữu đất có thể làm gì?",
+      "optionVietnamese": [
+        "chủ động dừng đầu tư",
+        "chỉ chịu lỗ",
+        "nhờ dư luận quốc tế trước",
+        "khó tự bảo vệ quyền lợi"
+      ],
+      "transcriptVietnamese": "Một tổ chức nghiên cứu phi chính phủ ở châu Âu công bố báo cáo “Giao dịch đất nông nghiệp xuyên quốc gia ở Nam bán cầu”. Báo cáo đặt câu hỏi: các nhà đầu tư từ nước phát triển hoặc tại địa phương có nên mua đất nông nghiệp của các nước đang phát triển không?\nNhà đầu tư nước ngoài nói họ mua đất bỏ hoang; vì thế khi khai khẩn và bắt đầu sản xuất, sản lượng lương thực toàn cầu sẽ tăng theo. Dù họ tuyên bố mọi giao dịch đều công khai, minh bạch, người ta vẫn đặt câu hỏi: trước sức ép nghèo khó và sức hút của tiền mặt, cái giá của việc bán đất là gì? Tại sao chúng ta không cho người nghèo bán thận cho người trả giá cao nhất, nhưng lại cho họ bán đất nông nghiệp vốn là nguồn sống của mình? Hơn nữa, lương thực được trồng trên các vùng đất ấy hoàn toàn không dành cho dân địa phương mà chỉ để xuất khẩu!\nDù đã có nhiều vụ xâm phạm quyền lợi liên quan đến mua bán đất nông nghiệp, đến nay nạn nhân vẫn không biết kêu ở đâu. Năm 2001, một tập đoàn cà phê đã cưỡng ép dân ở một số làng Uganda rời đi để lập đồn điền cà phê quy mô lớn. Tới giờ, những người bị đuổi không những chưa được bồi thường mà còn sống trong cảnh vô cùng nghèo khó.\nCả Uganda lẫn nước nơi tập đoàn này đặt trụ sở đều được bảo vệ theo công ước quốc tế. Năm ấy, nước của tập đoàn thậm chí còn là một trong những bên thúc đẩy công ước. Nhìn vào đó, liệu ta có thể trông đợi chủ đất địa phương nhận được khoản bồi thường tốt hơn từ các nhà đầu tư này không?",
+      "evidence": {
+        "traditional": "受害者到現在仍是投訴無門",
+        "simplified": "受害者到现在仍是投诉无门"
+      },
+      "explanation": "Bài nói nạn nhân thiếu kênh khiếu nại và khó nhận bồi thường, nên khả năng tự bảo vệ quyền lợi rất hạn chế."
+    },
+    "listening-q46": {
+      "number": 46,
+      "correctAnswer": "B",
+      "groupId": "tg-q46-q50",
+      "questionChinese": {
+        "traditional": "根據故事，為什麼賽夏人懼怕矮人？",
+        "simplified": "根据故事，为什么赛夏人惧怕矮人？"
+      },
+      "questionVietnamese": "Vì sao người Saisiyat sợ người lùn?",
+      "optionVietnamese": [
+        "người lùn nóng nảy",
+        "giỏi phép thuật",
+        "giỏi chiến đấu",
+        "rất đoàn kết"
+      ],
+      "transcriptVietnamese": "Lễ cúng linh hồn người lùn là lễ hội quan trọng nhất của người Saisiyat. Lễ được tổ chức khoảng tháng mười âm lịch; người Saisiyat gọi là “Pas-ta-ai”. Truyền thuyết kể rằng từ rất lâu trước đây, có một nhóm người lùn sống trong núi. Họ chỉ cao khoảng ba thước nhưng rất khỏe tay và giỏi phép thuật, nên người Saisiyat rất sợ họ.\nTuy vậy, vì người lùn hát hay múa giỏi, năm nào đến lễ mừng mùa được mùa, người Saisiyat cũng mời họ cùng hát múa. Nhưng người lùn lại lợi dụng dịp ấy để xâm hại phụ nữ Saisiyat. Sau lễ hội, dân làng mới phát hiện nhiều phụ nữ trong tộc đã mang thai, nên họ ngày càng căm giận người lùn. Một năm nọ, khi người lùn lại quấy rối phụ nữ trong lễ hội và bị bắt gặp, người Saisiyat quyết định dạy họ một bài học. Họ bí mật mai phục trên đường người lùn trở về, đặt bẫy khiến từng người rơi xuống vực sâu mà chết. Người lùn thương vong rất nhiều, chỉ hai người may mắn sống sót.\nHai người này biết chính mình đã gây ra chuyện, nên quyết định rời đi. Trước khi đi, họ dạy lại bài hát và điệu múa của lễ hội cho người Saisiyat. Tuy đã loại bỏ được điều khiến mình lo sợ, người Saisiyat vẫn thấy bất an, nên bắt đầu làm lễ cúng người lùn để xoa dịu linh hồn họ và mong hóa giải thù hận giữa hai bên.\nTừ đó, vào đêm trăng tròn khi vụ thu hoạch mùa thu đã xong và bước sang mùa tích trữ, người Saisiyat lại hát múa liên tục, mời linh hồn người lùn trở về vui cùng mình, đồng thời qua tiếng hát cầu xin họ tha thứ và ban phúc.",
+      "evidence": {
+        "traditional": "擅長法術，所以賽夏人很怕他們",
+        "simplified": "擅长法术，所以赛夏人很怕他们"
+      },
+      "explanation": "Nguồn nỗi sợ được nói thẳng: người lùn khỏe và giỏi phép thuật."
+    },
+    "listening-q47": {
+      "number": 47,
+      "correctAnswer": "B",
+      "groupId": "tg-q46-q50",
+      "questionChinese": {
+        "traditional": "賽夏人用什麼方法報復矮人？",
+        "simplified": "赛夏人用什么方法报复矮人？"
+      },
+      "questionVietnamese": "Người Saisiyat trả thù bằng cách nào?",
+      "optionVietnamese": [
+        "cướp đất",
+        "đặt bẫy giết người lùn",
+        "làm phụ nữ người lùn mang thai",
+        "dùng phép khiến họ sợ"
+      ],
+      "transcriptVietnamese": "Lễ cúng linh hồn người lùn là lễ hội quan trọng nhất của người Saisiyat. Lễ được tổ chức khoảng tháng mười âm lịch; người Saisiyat gọi là “Pas-ta-ai”. Truyền thuyết kể rằng từ rất lâu trước đây, có một nhóm người lùn sống trong núi. Họ chỉ cao khoảng ba thước nhưng rất khỏe tay và giỏi phép thuật, nên người Saisiyat rất sợ họ.\nTuy vậy, vì người lùn hát hay múa giỏi, năm nào đến lễ mừng mùa được mùa, người Saisiyat cũng mời họ cùng hát múa. Nhưng người lùn lại lợi dụng dịp ấy để xâm hại phụ nữ Saisiyat. Sau lễ hội, dân làng mới phát hiện nhiều phụ nữ trong tộc đã mang thai, nên họ ngày càng căm giận người lùn. Một năm nọ, khi người lùn lại quấy rối phụ nữ trong lễ hội và bị bắt gặp, người Saisiyat quyết định dạy họ một bài học. Họ bí mật mai phục trên đường người lùn trở về, đặt bẫy khiến từng người rơi xuống vực sâu mà chết. Người lùn thương vong rất nhiều, chỉ hai người may mắn sống sót.\nHai người này biết chính mình đã gây ra chuyện, nên quyết định rời đi. Trước khi đi, họ dạy lại bài hát và điệu múa của lễ hội cho người Saisiyat. Tuy đã loại bỏ được điều khiến mình lo sợ, người Saisiyat vẫn thấy bất an, nên bắt đầu làm lễ cúng người lùn để xoa dịu linh hồn họ và mong hóa giải thù hận giữa hai bên.\nTừ đó, vào đêm trăng tròn khi vụ thu hoạch mùa thu đã xong và bước sang mùa tích trữ, người Saisiyat lại hát múa liên tục, mời linh hồn người lùn trở về vui cùng mình, đồng thời qua tiếng hát cầu xin họ tha thứ và ban phúc.",
+      "evidence": {
+        "traditional": "設下陷阱，讓矮人們一個一個跌落深淵",
+        "simplified": "设下陷阱，让矮人们一个一个跌落深渊"
+      },
+      "explanation": "Họ phục kích trên đường về và đặt bẫy khiến nhiều người lùn rơi xuống vực."
+    },
+    "listening-q48": {
+      "number": 48,
+      "correctAnswer": "C",
+      "groupId": "tg-q46-q50",
+      "questionChinese": {
+        "traditional": "矮人對於賽夏人的攻擊，有什麼反應？",
+        "simplified": "矮人对于赛夏人的攻击，有什么反应？"
+      },
+      "questionVietnamese": "Người lùn phản ứng thế nào sau vụ tấn công?",
+      "optionVietnamese": [
+        "trả đũa",
+        "im lặng chịu đựng",
+        "rời đi xa",
+        "van xin"
+      ],
+      "transcriptVietnamese": "Lễ cúng linh hồn người lùn là lễ hội quan trọng nhất của người Saisiyat. Lễ được tổ chức khoảng tháng mười âm lịch; người Saisiyat gọi là “Pas-ta-ai”. Truyền thuyết kể rằng từ rất lâu trước đây, có một nhóm người lùn sống trong núi. Họ chỉ cao khoảng ba thước nhưng rất khỏe tay và giỏi phép thuật, nên người Saisiyat rất sợ họ.\nTuy vậy, vì người lùn hát hay múa giỏi, năm nào đến lễ mừng mùa được mùa, người Saisiyat cũng mời họ cùng hát múa. Nhưng người lùn lại lợi dụng dịp ấy để xâm hại phụ nữ Saisiyat. Sau lễ hội, dân làng mới phát hiện nhiều phụ nữ trong tộc đã mang thai, nên họ ngày càng căm giận người lùn. Một năm nọ, khi người lùn lại quấy rối phụ nữ trong lễ hội và bị bắt gặp, người Saisiyat quyết định dạy họ một bài học. Họ bí mật mai phục trên đường người lùn trở về, đặt bẫy khiến từng người rơi xuống vực sâu mà chết. Người lùn thương vong rất nhiều, chỉ hai người may mắn sống sót.\nHai người này biết chính mình đã gây ra chuyện, nên quyết định rời đi. Trước khi đi, họ dạy lại bài hát và điệu múa của lễ hội cho người Saisiyat. Tuy đã loại bỏ được điều khiến mình lo sợ, người Saisiyat vẫn thấy bất an, nên bắt đầu làm lễ cúng người lùn để xoa dịu linh hồn họ và mong hóa giải thù hận giữa hai bên.\nTừ đó, vào đêm trăng tròn khi vụ thu hoạch mùa thu đã xong và bước sang mùa tích trữ, người Saisiyat lại hát múa liên tục, mời linh hồn người lùn trở về vui cùng mình, đồng thời qua tiếng hát cầu xin họ tha thứ và ban phúc.",
+      "evidence": {
+        "traditional": "便決定離開",
+        "simplified": "便决定离开"
+      },
+      "explanation": "Hai người sống sót nhận lỗi rồi rời khỏi nơi ấy."
+    },
+    "listening-q49": {
+      "number": 49,
+      "correctAnswer": "B",
+      "groupId": "tg-q46-q50",
+      "questionChinese": {
+        "traditional": "為什麼賽夏人要舉辦這個祭典？",
+        "simplified": "为什么赛夏人要举办这个祭典？"
+      },
+      "questionVietnamese": "Vì sao người Saisiyat tổ chức lễ?",
+      "optionVietnamese": [
+        "mừng chiến thắng",
+        "cầu xin người lùn tha thứ",
+        "tưởng niệm chiến binh chết",
+        "dâng phụ nữ cho người lùn"
+      ],
+      "transcriptVietnamese": "Lễ cúng linh hồn người lùn là lễ hội quan trọng nhất của người Saisiyat. Lễ được tổ chức khoảng tháng mười âm lịch; người Saisiyat gọi là “Pas-ta-ai”. Truyền thuyết kể rằng từ rất lâu trước đây, có một nhóm người lùn sống trong núi. Họ chỉ cao khoảng ba thước nhưng rất khỏe tay và giỏi phép thuật, nên người Saisiyat rất sợ họ.\nTuy vậy, vì người lùn hát hay múa giỏi, năm nào đến lễ mừng mùa được mùa, người Saisiyat cũng mời họ cùng hát múa. Nhưng người lùn lại lợi dụng dịp ấy để xâm hại phụ nữ Saisiyat. Sau lễ hội, dân làng mới phát hiện nhiều phụ nữ trong tộc đã mang thai, nên họ ngày càng căm giận người lùn. Một năm nọ, khi người lùn lại quấy rối phụ nữ trong lễ hội và bị bắt gặp, người Saisiyat quyết định dạy họ một bài học. Họ bí mật mai phục trên đường người lùn trở về, đặt bẫy khiến từng người rơi xuống vực sâu mà chết. Người lùn thương vong rất nhiều, chỉ hai người may mắn sống sót.\nHai người này biết chính mình đã gây ra chuyện, nên quyết định rời đi. Trước khi đi, họ dạy lại bài hát và điệu múa của lễ hội cho người Saisiyat. Tuy đã loại bỏ được điều khiến mình lo sợ, người Saisiyat vẫn thấy bất an, nên bắt đầu làm lễ cúng người lùn để xoa dịu linh hồn họ và mong hóa giải thù hận giữa hai bên.\nTừ đó, vào đêm trăng tròn khi vụ thu hoạch mùa thu đã xong và bước sang mùa tích trữ, người Saisiyat lại hát múa liên tục, mời linh hồn người lùn trở về vui cùng mình, đồng thời qua tiếng hát cầu xin họ tha thứ và ban phúc.",
+      "evidence": {
+        "traditional": "希望化解彼此的仇恨",
+        "simplified": "希望化解彼此的仇恨"
+      },
+      "explanation": "Họ làm lễ để xoa dịu linh hồn người lùn, hóa giải thù hận và xin tha thứ."
+    },
+    "listening-q50": {
+      "number": 50,
+      "correctAnswer": "C",
+      "groupId": "tg-q46-q50",
+      "questionChinese": {
+        "traditional": "這個祭典什麼時候舉辦？",
+        "simplified": "这个祭典什么时候举办？"
+      },
+      "questionVietnamese": "Lễ được tổ chức khi nào?",
+      "optionVietnamese": [
+        "sau gieo cấy mùa xuân",
+        "sau trồng trọt mùa hè",
+        "sau thu hoạch mùa thu",
+        "sau mùa cất trữ mùa đông"
+      ],
+      "transcriptVietnamese": "Lễ cúng linh hồn người lùn là lễ hội quan trọng nhất của người Saisiyat. Lễ được tổ chức khoảng tháng mười âm lịch; người Saisiyat gọi là “Pas-ta-ai”. Truyền thuyết kể rằng từ rất lâu trước đây, có một nhóm người lùn sống trong núi. Họ chỉ cao khoảng ba thước nhưng rất khỏe tay và giỏi phép thuật, nên người Saisiyat rất sợ họ.\nTuy vậy, vì người lùn hát hay múa giỏi, năm nào đến lễ mừng mùa được mùa, người Saisiyat cũng mời họ cùng hát múa. Nhưng người lùn lại lợi dụng dịp ấy để xâm hại phụ nữ Saisiyat. Sau lễ hội, dân làng mới phát hiện nhiều phụ nữ trong tộc đã mang thai, nên họ ngày càng căm giận người lùn. Một năm nọ, khi người lùn lại quấy rối phụ nữ trong lễ hội và bị bắt gặp, người Saisiyat quyết định dạy họ một bài học. Họ bí mật mai phục trên đường người lùn trở về, đặt bẫy khiến từng người rơi xuống vực sâu mà chết. Người lùn thương vong rất nhiều, chỉ hai người may mắn sống sót.\nHai người này biết chính mình đã gây ra chuyện, nên quyết định rời đi. Trước khi đi, họ dạy lại bài hát và điệu múa của lễ hội cho người Saisiyat. Tuy đã loại bỏ được điều khiến mình lo sợ, người Saisiyat vẫn thấy bất an, nên bắt đầu làm lễ cúng người lùn để xoa dịu linh hồn họ và mong hóa giải thù hận giữa hai bên.\nTừ đó, vào đêm trăng tròn khi vụ thu hoạch mùa thu đã xong và bước sang mùa tích trữ, người Saisiyat lại hát múa liên tục, mời linh hồn người lùn trở về vui cùng mình, đồng thời qua tiếng hát cầu xin họ tha thứ và ban phúc.",
+      "evidence": {
+        "traditional": "秋收冬藏之際",
+        "simplified": "秋收冬藏之际"
+      },
+      "explanation": "Cụm này chỉ thời điểm sau thu hoạch mùa thu, trước hoặc vào giai đoạn cất trữ mùa đông."
+    }
+  },
+  "reading": {
+    "reading-q01": {
+      "number": 1,
+      "correctAnswer": "B",
+      "groupId": "reading-g-q01-q05",
+      "passageVietnamese": "Từ thế kỷ 15, châu Âu đã có báo chép tay đưa tin về chính trị, chiến tranh, thị trường và lịch tàu. Dù vượt khỏi hình thức thư từ cá nhân truyền thống, báo chép tay vẫn chỉ lan truyền trong phạm vi nhỏ. Phải đến khi kỹ thuật in tiến bộ, báo chí mới có thể phát hành rộng rãi. Sự phổ biến của báo chí cũng gắn chặt với sự phát triển của thương mại hiện đại. Kinh tế tăng trưởng nhanh khiến các vùng, các quốc gia liên hệ mật thiết hơn; con người cần hiểu nhau và thông tin cần được truyền đi nhanh. Vì thế, mức độ phụ thuộc vào báo chí tăng dần, ngành báo phát triển mạnh.",
+      "questionVietnamese": "Điền chỗ trống 1.",
+      "optionVietnamese": [
+        "vì",
+        "mặc dù",
+        "nếu đã",
+        "tuy nhiên"
+      ],
+      "evidence": {
+        "traditional": "但傳播的範圍還很小",
+        "simplified": "但传播的范围还很小"
+      },
+      "explanation": "Có sự đối lập giữa việc vượt khỏi thư riêng và phạm vi truyền bá vẫn hẹp; đáp án B mở đầu mệnh đề nhượng bộ."
+    },
+    "reading-q02": {
+      "number": 2,
+      "correctAnswer": "D",
+      "groupId": "reading-g-q01-q05",
+      "passageVietnamese": "Từ thế kỷ 15, châu Âu đã có báo chép tay đưa tin về chính trị, chiến tranh, thị trường và lịch tàu. Dù vượt khỏi hình thức thư từ cá nhân truyền thống, báo chép tay vẫn chỉ lan truyền trong phạm vi nhỏ. Phải đến khi kỹ thuật in tiến bộ, báo chí mới có thể phát hành rộng rãi. Sự phổ biến của báo chí cũng gắn chặt với sự phát triển của thương mại hiện đại. Kinh tế tăng trưởng nhanh khiến các vùng, các quốc gia liên hệ mật thiết hơn; con người cần hiểu nhau và thông tin cần được truyền đi nhanh. Vì thế, mức độ phụ thuộc vào báo chí tăng dần, ngành báo phát triển mạnh.",
+      "questionVietnamese": "Điền chỗ trống 2.",
+      "optionVietnamese": [
+        "từ trước đến nay",
+        "nhất thời",
+        "một khi",
+        "mãi cho đến"
+      ],
+      "evidence": {
+        "traditional": "要等到印刷技術進步",
+        "simplified": "要等到印刷技术进步"
+      },
+      "explanation": "Đáp án D diễn tả phải chờ mãi cho tới khi kỹ thuật in phát triển."
+    },
+    "reading-q03": {
+      "number": 3,
+      "correctAnswer": "A",
+      "groupId": "reading-g-q01-q05",
+      "passageVietnamese": "Từ thế kỷ 15, châu Âu đã có báo chép tay đưa tin về chính trị, chiến tranh, thị trường và lịch tàu. Dù vượt khỏi hình thức thư từ cá nhân truyền thống, báo chép tay vẫn chỉ lan truyền trong phạm vi nhỏ. Phải đến khi kỹ thuật in tiến bộ, báo chí mới có thể phát hành rộng rãi. Sự phổ biến của báo chí cũng gắn chặt với sự phát triển của thương mại hiện đại. Kinh tế tăng trưởng nhanh khiến các vùng, các quốc gia liên hệ mật thiết hơn; con người cần hiểu nhau và thông tin cần được truyền đi nhanh. Vì thế, mức độ phụ thuộc vào báo chí tăng dần, ngành báo phát triển mạnh.",
+      "questionVietnamese": "Điền chỗ trống 3.",
+      "optionVietnamese": [
+        "nhờ đó có thể",
+        "đem ra để",
+        "dùng để",
+        "đủ để"
+      ],
+      "evidence": {
+        "traditional": "報紙才【3】大量發行",
+        "simplified": "报纸才【3】大量发行"
+      },
+      "explanation": "Sau khi kỹ thuật in phát triển, báo mới có điều kiện phát hành rộng; đáp án A diễn tả khả năng ấy."
+    },
+    "reading-q04": {
+      "number": 4,
+      "correctAnswer": "B",
+      "groupId": "reading-g-q01-q05",
+      "passageVietnamese": "Từ thế kỷ 15, châu Âu đã có báo chép tay đưa tin về chính trị, chiến tranh, thị trường và lịch tàu. Dù vượt khỏi hình thức thư từ cá nhân truyền thống, báo chép tay vẫn chỉ lan truyền trong phạm vi nhỏ. Phải đến khi kỹ thuật in tiến bộ, báo chí mới có thể phát hành rộng rãi. Sự phổ biến của báo chí cũng gắn chặt với sự phát triển của thương mại hiện đại. Kinh tế tăng trưởng nhanh khiến các vùng, các quốc gia liên hệ mật thiết hơn; con người cần hiểu nhau và thông tin cần được truyền đi nhanh. Vì thế, mức độ phụ thuộc vào báo chí tăng dần, ngành báo phát triển mạnh.",
+      "questionVietnamese": "Điền chỗ trống 4.",
+      "optionVietnamese": [
+        "khó tránh",
+        "không tách rời",
+        "không đi được",
+        "không nổi lên được"
+      ],
+      "evidence": {
+        "traditional": "跟近代商業的發展【4】關係",
+        "simplified": "跟近代商业的发展【4】关系"
+      },
+      "explanation": "Đáp án B tạo thành cụm nghĩa là có liên hệ chặt chẽ với sự phát triển thương mại."
+    },
+    "reading-q05": {
+      "number": 5,
+      "correctAnswer": "C",
+      "groupId": "reading-g-q01-q05",
+      "passageVietnamese": "Từ thế kỷ 15, châu Âu đã có báo chép tay đưa tin về chính trị, chiến tranh, thị trường và lịch tàu. Dù vượt khỏi hình thức thư từ cá nhân truyền thống, báo chép tay vẫn chỉ lan truyền trong phạm vi nhỏ. Phải đến khi kỹ thuật in tiến bộ, báo chí mới có thể phát hành rộng rãi. Sự phổ biến của báo chí cũng gắn chặt với sự phát triển của thương mại hiện đại. Kinh tế tăng trưởng nhanh khiến các vùng, các quốc gia liên hệ mật thiết hơn; con người cần hiểu nhau và thông tin cần được truyền đi nhanh. Vì thế, mức độ phụ thuộc vào báo chí tăng dần, ngành báo phát triển mạnh.",
+      "questionVietnamese": "Điền chỗ trống 5.",
+      "optionVietnamese": [
+        "cực kỳ",
+        "khá",
+        "ngày càng",
+        "sau đó"
+      ],
+      "evidence": {
+        "traditional": "依賴也就【5】加深",
+        "simplified": "依赖也就【5】加深"
+      },
+      "explanation": "Mức độ phụ thuộc tăng theo thời gian, nên đáp án C mang nghĩa “ngày càng”."
+    },
+    "reading-q06": {
+      "number": 6,
+      "correctAnswer": "C",
+      "groupId": "reading-g-q06-q10",
+      "passageVietnamese": "Hiện nay nhiều trường tiểu học và trung học khuyến khích học sinh học bằng máy tính. Nhưng cho trẻ dùng máy tính của người lớn khó tránh khỏi đủ loại lo ngại: cha mẹ sợ trẻ xóa nhầm tệp quan trọng hoặc vào mạng khiến máy nhiễm vi rút. So với việc máy bị nhiễm vi rút, điều đáng lo hơn là trẻ lỡ vào trang khiêu dâm hay cờ bạc. Vì tỷ lệ trẻ dùng máy tính tăng hằng năm, có hãng nhìn thấy xu hướng này và tung ra máy tính dành riêng cho trẻ. Máy vừa cài sẵn phần mềm học tập, vừa cho phép cha mẹ theo dõi việc trẻ lên mạng. Sản phẩm được đón nhận ngay khi ra mắt, đạt doanh số ấn tượng và đem lại lợi nhuận lớn cho hãng.",
+      "questionVietnamese": "Điền chỗ trống 6.",
+      "optionVietnamese": [
+        "không ngờ",
+        "chưa chắc",
+        "khó tránh",
+        "dù cho"
+      ],
+      "evidence": {
+        "traditional": "讓小孩用，【6】會有各種顧慮",
+        "simplified": "让小孩用，【6】会有各种顾虑"
+      },
+      "explanation": "Cho trẻ dùng máy của người lớn thì khó tránh khỏi lo ngại; đáp án C phù hợp ngữ cảnh."
+    },
+    "reading-q07": {
+      "number": 7,
+      "correctAnswer": "B",
+      "groupId": "reading-g-q06-q10",
+      "passageVietnamese": "Hiện nay nhiều trường tiểu học và trung học khuyến khích học sinh học bằng máy tính. Nhưng cho trẻ dùng máy tính của người lớn khó tránh khỏi đủ loại lo ngại: cha mẹ sợ trẻ xóa nhầm tệp quan trọng hoặc vào mạng khiến máy nhiễm vi rút. So với việc máy bị nhiễm vi rút, điều đáng lo hơn là trẻ lỡ vào trang khiêu dâm hay cờ bạc. Vì tỷ lệ trẻ dùng máy tính tăng hằng năm, có hãng nhìn thấy xu hướng này và tung ra máy tính dành riêng cho trẻ. Máy vừa cài sẵn phần mềm học tập, vừa cho phép cha mẹ theo dõi việc trẻ lên mạng. Sản phẩm được đón nhận ngay khi ra mắt, đạt doanh số ấn tượng và đem lại lợi nhuận lớn cho hãng.",
+      "questionVietnamese": "Điền chỗ trống 7.",
+      "optionVietnamese": [
+        "e rằng",
+        "lỡ như",
+        "thậm chí",
+        "hơn nữa"
+      ],
+      "evidence": {
+        "traditional": "小孩逛到色情或賭博網站，那就更糟糕了",
+        "simplified": "小孩逛到色情或赌博网站，那就更糟糕了"
+      },
+      "explanation": "Đáp án B đặt ra tình huống xấu có thể xảy ra: lỡ trẻ vào trang không phù hợp."
+    },
+    "reading-q08": {
+      "number": 8,
+      "correctAnswer": "A",
+      "groupId": "reading-g-q06-q10",
+      "passageVietnamese": "Hiện nay nhiều trường tiểu học và trung học khuyến khích học sinh học bằng máy tính. Nhưng cho trẻ dùng máy tính của người lớn khó tránh khỏi đủ loại lo ngại: cha mẹ sợ trẻ xóa nhầm tệp quan trọng hoặc vào mạng khiến máy nhiễm vi rút. So với việc máy bị nhiễm vi rút, điều đáng lo hơn là trẻ lỡ vào trang khiêu dâm hay cờ bạc. Vì tỷ lệ trẻ dùng máy tính tăng hằng năm, có hãng nhìn thấy xu hướng này và tung ra máy tính dành riêng cho trẻ. Máy vừa cài sẵn phần mềm học tập, vừa cho phép cha mẹ theo dõi việc trẻ lên mạng. Sản phẩm được đón nhận ngay khi ra mắt, đạt doanh số ấn tượng và đem lại lợi nhuận lớn cho hãng.",
+      "questionVietnamese": "Điền chỗ trống 8.",
+      "optionVietnamese": [
+        "một (lượng từ cho xu hướng)",
+        "một (lượng từ cho kiểu)",
+        "một (lượng từ cho mảnh)",
+        "một (lượng từ cho chuỗi)"
+      ],
+      "evidence": {
+        "traditional": "這【8】趨勢",
+        "simplified": "这【8】趋势"
+      },
+      "explanation": "Đáp án A là lượng từ dùng với “xu thế”; các lượng từ còn lại không tự nhiên ở đây."
+    },
+    "reading-q09": {
+      "number": 9,
+      "correctAnswer": "D",
+      "groupId": "reading-g-q06-q10",
+      "passageVietnamese": "Hiện nay nhiều trường tiểu học và trung học khuyến khích học sinh học bằng máy tính. Nhưng cho trẻ dùng máy tính của người lớn khó tránh khỏi đủ loại lo ngại: cha mẹ sợ trẻ xóa nhầm tệp quan trọng hoặc vào mạng khiến máy nhiễm vi rút. So với việc máy bị nhiễm vi rút, điều đáng lo hơn là trẻ lỡ vào trang khiêu dâm hay cờ bạc. Vì tỷ lệ trẻ dùng máy tính tăng hằng năm, có hãng nhìn thấy xu hướng này và tung ra máy tính dành riêng cho trẻ. Máy vừa cài sẵn phần mềm học tập, vừa cho phép cha mẹ theo dõi việc trẻ lên mạng. Sản phẩm được đón nhận ngay khi ra mắt, đạt doanh số ấn tượng và đem lại lợi nhuận lớn cho hãng.",
+      "questionVietnamese": "Điền chỗ trống 9.",
+      "optionVietnamese": [
+        "tuy… nhưng…",
+        "trừ khi… mới…",
+        "bất kể… cũng…",
+        "không những… mà còn…"
+      ],
+      "evidence": {
+        "traditional": "內建各種學習軟體，【9】可讓父母監控",
+        "simplified": "内建各种学习软体，【9】可让父母监控"
+      },
+      "explanation": "Hai tính năng được bổ sung cho nhau; đáp án D nối ý “không những… mà còn…”."
+    },
+    "reading-q10": {
+      "number": 10,
+      "correctAnswer": "C",
+      "groupId": "reading-g-q06-q10",
+      "passageVietnamese": "Hiện nay nhiều trường tiểu học và trung học khuyến khích học sinh học bằng máy tính. Nhưng cho trẻ dùng máy tính của người lớn khó tránh khỏi đủ loại lo ngại: cha mẹ sợ trẻ xóa nhầm tệp quan trọng hoặc vào mạng khiến máy nhiễm vi rút. So với việc máy bị nhiễm vi rút, điều đáng lo hơn là trẻ lỡ vào trang khiêu dâm hay cờ bạc. Vì tỷ lệ trẻ dùng máy tính tăng hằng năm, có hãng nhìn thấy xu hướng này và tung ra máy tính dành riêng cho trẻ. Máy vừa cài sẵn phần mềm học tập, vừa cho phép cha mẹ theo dõi việc trẻ lên mạng. Sản phẩm được đón nhận ngay khi ra mắt, đạt doanh số ấn tượng và đem lại lợi nhuận lớn cho hãng.",
+      "questionVietnamese": "Điền chỗ trống 10.",
+      "optionVietnamese": [
+        "khách hàng",
+        "việc bán hàng",
+        "thành tích kinh doanh",
+        "tình hình kinh tế"
+      ],
+      "evidence": {
+        "traditional": "創造出亮眼的【10】",
+        "simplified": "创造出亮眼的【10】"
+      },
+      "explanation": "Đáp án C tạo thành cụm “thành tích kinh doanh nổi bật”, phù hợp việc hãng thu lợi lớn."
+    },
+    "reading-q11": {
+      "number": 11,
+      "correctAnswer": "D",
+      "groupId": "reading-g-q11-q15",
+      "passageVietnamese": "Mỗi khi nhìn lại đời mình, tôi nhận ra những biến cố và trắc trở từng trải qua dường như đã trở thành nguồn sức mạnh và dưỡng chất. Nếu không có chúng, có lẽ tôi đã không gặp những con người và sự việc đáng quý trên đường đời. Thời gian dần làm phai những điều ấy, để lại hơi ấm đan từ niềm vui và nước mắt; hối hận và bất mãn trước kia cũng tan biến. Tôi thường kể chuyện đó cho bạn bè. Họ khuyên tôi viết lại: thay vì ôm ký ức xuống mồ, hãy gom thành sách để khi một ngày tôi không còn nhớ, vẫn có người nhớ giúp tôi.",
+      "questionVietnamese": "Điền chỗ trống 11.",
+      "optionVietnamese": [
+        "mù quáng làm theo",
+        "tuân theo",
+        "tán thưởng",
+        "gặp phải"
+      ],
+      "evidence": {
+        "traditional": "所【11】的意外",
+        "simplified": "所【11】的意外"
+      },
+      "explanation": "Đáp án D mang nghĩa “gặp biến cố”; những động từ khác không đi tự nhiên với danh từ này."
+    },
+    "reading-q12": {
+      "number": 12,
+      "correctAnswer": "D",
+      "groupId": "reading-g-q11-q15",
+      "passageVietnamese": "Mỗi khi nhìn lại đời mình, tôi nhận ra những biến cố và trắc trở từng trải qua dường như đã trở thành nguồn sức mạnh và dưỡng chất. Nếu không có chúng, có lẽ tôi đã không gặp những con người và sự việc đáng quý trên đường đời. Thời gian dần làm phai những điều ấy, để lại hơi ấm đan từ niềm vui và nước mắt; hối hận và bất mãn trước kia cũng tan biến. Tôi thường kể chuyện đó cho bạn bè. Họ khuyên tôi viết lại: thay vì ôm ký ức xuống mồ, hãy gom thành sách để khi một ngày tôi không còn nhớ, vẫn có người nhớ giúp tôi.",
+      "questionVietnamese": "Điền chỗ trống 12.",
+      "optionVietnamese": [
+        "chưa",
+        "khỏi cần",
+        "đừng",
+        "nếu không có"
+      ],
+      "evidence": {
+        "traditional": "若【12】這些意外與曲折",
+        "simplified": "若【12】这些意外与曲折"
+      },
+      "explanation": "Đáp án D hoàn thành ý “nếu không có”; vế sau nói tác giả sẽ không gặp những người, việc đáng quý."
+    },
+    "reading-q13": {
+      "number": 13,
+      "correctAnswer": "A",
+      "groupId": "reading-g-q11-q15",
+      "passageVietnamese": "Mỗi khi nhìn lại đời mình, tôi nhận ra những biến cố và trắc trở từng trải qua dường như đã trở thành nguồn sức mạnh và dưỡng chất. Nếu không có chúng, có lẽ tôi đã không gặp những con người và sự việc đáng quý trên đường đời. Thời gian dần làm phai những điều ấy, để lại hơi ấm đan từ niềm vui và nước mắt; hối hận và bất mãn trước kia cũng tan biến. Tôi thường kể chuyện đó cho bạn bè. Họ khuyên tôi viết lại: thay vì ôm ký ức xuống mồ, hãy gom thành sách để khi một ngày tôi không còn nhớ, vẫn có người nhớ giúp tôi.",
+      "questionVietnamese": "Điền chỗ trống 13.",
+      "optionVietnamese": [
+        "làm phai nhạt",
+        "cắt giảm",
+        "tiêu hao",
+        "bóc lột"
+      ],
+      "evidence": {
+        "traditional": "在時間漸漸【13】一切後",
+        "simplified": "在时间渐渐【13】一切后"
+      },
+      "explanation": "Thời gian làm phai cảm xúc và ký ức; đáp án A là cách dùng phù hợp."
+    },
+    "reading-q14": {
+      "number": 14,
+      "correctAnswer": "B",
+      "groupId": "reading-g-q11-q15",
+      "passageVietnamese": "Mỗi khi nhìn lại đời mình, tôi nhận ra những biến cố và trắc trở từng trải qua dường như đã trở thành nguồn sức mạnh và dưỡng chất. Nếu không có chúng, có lẽ tôi đã không gặp những con người và sự việc đáng quý trên đường đời. Thời gian dần làm phai những điều ấy, để lại hơi ấm đan từ niềm vui và nước mắt; hối hận và bất mãn trước kia cũng tan biến. Tôi thường kể chuyện đó cho bạn bè. Họ khuyên tôi viết lại: thay vì ôm ký ức xuống mồ, hãy gom thành sách để khi một ngày tôi không còn nhớ, vẫn có người nhớ giúp tôi.",
+      "questionVietnamese": "Điền chỗ trống 14.",
+      "optionVietnamese": [
+        "qua đời",
+        "tan biến",
+        "quay trở lại",
+        "sợ mất hồn"
+      ],
+      "evidence": {
+        "traditional": "悔恨和不滿彷彿都已【14】",
+        "simplified": "悔恨和不满仿佛都已【14】"
+      },
+      "explanation": "Đáp án B ví sự hối hận, bất mãn tan biến như mây mù."
+    },
+    "reading-q15": {
+      "number": 15,
+      "correctAnswer": "D",
+      "groupId": "reading-g-q11-q15",
+      "passageVietnamese": "Mỗi khi nhìn lại đời mình, tôi nhận ra những biến cố và trắc trở từng trải qua dường như đã trở thành nguồn sức mạnh và dưỡng chất. Nếu không có chúng, có lẽ tôi đã không gặp những con người và sự việc đáng quý trên đường đời. Thời gian dần làm phai những điều ấy, để lại hơi ấm đan từ niềm vui và nước mắt; hối hận và bất mãn trước kia cũng tan biến. Tôi thường kể chuyện đó cho bạn bè. Họ khuyên tôi viết lại: thay vì ôm ký ức xuống mồ, hãy gom thành sách để khi một ngày tôi không còn nhớ, vẫn có người nhớ giúp tôi.",
+      "questionVietnamese": "Điền chỗ trống 15.",
+      "optionVietnamese": [
+        "vì… nên…",
+        "cho dù… vẫn…",
+        "dù sao… rồi…",
+        "thay vì… chi bằng…"
+      ],
+      "evidence": {
+        "traditional": "自己帶著回憶走進棺材，【15】集結成冊",
+        "simplified": "自己带着回忆走进棺材，【15】集结成册"
+      },
+      "explanation": "Tác giả đối chiếu hai lựa chọn: thay vì giữ ký ức cho riêng mình, chi bằng viết thành sách. Đáp án D phù hợp."
+    },
+    "reading-q16": {
+      "number": 16,
+      "correctAnswer": "C",
+      "groupId": "reading-g-q16-q17",
+      "passageVietnamese": "Ở Đài Loan, nam giới sống ít hơn nữ giới trung bình khoảng năm năm. Dù vậy, họ không chú ý sức khỏe hơn; ngay cả khi ốm, họ thường viện cớ bận và không có thời gian để tránh đi khám. Theo chuyên gia, nhiều nam giới đối xử với sức khỏe như một món đồ: còn dùng tạm được thì khỏi sửa. Họ cố lờ đi bệnh vặt vì sợ bác sĩ phát hiện thêm nhiều bệnh hoặc phải uống thuốc suốt đời. Tuổi thọ khác nhau một phần do di truyền và thể trạng bẩm sinh, nhưng nhiều chuyên gia cho rằng thái độ của nam giới đối với sức khỏe mới là yếu tố đáng chú ý hơn gen.",
+      "questionVietnamese": "Theo bài, vì sao nam giới không muốn đi khám bác sĩ?",
+      "optionVietnamese": [
+        "không có thời gian",
+        "cơ thể luôn khỏe mạnh",
+        "sợ phát hiện nhiều bệnh",
+        "cho rằng bác sĩ chỉ phát hiện bệnh nhẹ"
+      ],
+      "evidence": {
+        "traditional": "害怕一去看醫師就會發現許多毛病",
+        "simplified": "害怕一去看医师就会发现许多毛病"
+      },
+      "explanation": "Họ viện cớ bận, nhưng bài nói rõ nỗi sợ thực sự là bác sĩ phát hiện thêm nhiều vấn đề sức khỏe."
+    },
+    "reading-q17": {
+      "number": 17,
+      "correctAnswer": "A",
+      "groupId": "reading-g-q16-q17",
+      "passageVietnamese": "Ở Đài Loan, nam giới sống ít hơn nữ giới trung bình khoảng năm năm. Dù vậy, họ không chú ý sức khỏe hơn; ngay cả khi ốm, họ thường viện cớ bận và không có thời gian để tránh đi khám. Theo chuyên gia, nhiều nam giới đối xử với sức khỏe như một món đồ: còn dùng tạm được thì khỏi sửa. Họ cố lờ đi bệnh vặt vì sợ bác sĩ phát hiện thêm nhiều bệnh hoặc phải uống thuốc suốt đời. Tuổi thọ khác nhau một phần do di truyền và thể trạng bẩm sinh, nhưng nhiều chuyên gia cho rằng thái độ của nam giới đối với sức khỏe mới là yếu tố đáng chú ý hơn gen.",
+      "questionVietnamese": "Theo chuyên gia, nguyên nhân chính khiến nam giới sống ngắn hơn nữ giới là gì?",
+      "optionVietnamese": [
+        "không coi trọng sức khỏe",
+        "liên quan đến gen",
+        "áp lực công việc lớn",
+        "sức đề kháng kém"
+      ],
+      "evidence": {
+        "traditional": "倒不如說與男人對健康的態度有關",
+        "simplified": "倒不如说与男人对健康的态度有关"
+      },
+      "explanation": "Bài có nhắc yếu tố bẩm sinh, nhưng chuyên gia nhấn mạnh thái độ đối với sức khỏe."
+    },
+    "reading-q18": {
+      "number": 18,
+      "correctAnswer": "B",
+      "groupId": "reading-g-q18-q20",
+      "passageVietnamese": "Chim ruồi là loài chim rất nhỏ, chỉ bằng ngón tay cái. Mỏ dài và mảnh, chúng chỉ ăn mật hoa cùng côn trùng nhỏ trên hoa, ngày ngày bay quanh vài loại cây. Có lẽ vì thức ăn đơn điệu nên chúng không lớn, cũng không bay cao. Có người học theo cách giống chim ruồi: thích đọc nhưng chỉ vùi đầu vào sách của mình, thành nô lệ cho sách và không quan tâm thế giới xung quanh. Nỗ lực đọc của họ đáng quý, song điều đáng lo là mắc kẹt trong tháp ngà. Đọc sách như ăn uống, không nên chỉ ăn một món: ngoài sách in, còn phải đọc cuốn sách lớn là cuộc đời.",
+      "questionVietnamese": "Tác giả dùng chim ruồi để ví với kiểu người nào?",
+      "optionVietnamese": [
+        "người không đọc sách",
+        "người chỉ biết vùi đầu đọc sách",
+        "người đọc ít sách",
+        "người giả vờ đọc sách"
+      ],
+      "evidence": {
+        "traditional": "一心只讀自己的書",
+        "simplified": "一心只读自己的书"
+      },
+      "explanation": "Điểm giống chim ruồi là chỉ tiếp nhận một loại “thức ăn”: họ chỉ đọc sách của mình mà thiếu trải nghiệm khác."
+    },
+    "reading-q19": {
+      "number": 19,
+      "correctAnswer": "C",
+      "groupId": "reading-g-q18-q20",
+      "passageVietnamese": "Chim ruồi là loài chim rất nhỏ, chỉ bằng ngón tay cái. Mỏ dài và mảnh, chúng chỉ ăn mật hoa cùng côn trùng nhỏ trên hoa, ngày ngày bay quanh vài loại cây. Có lẽ vì thức ăn đơn điệu nên chúng không lớn, cũng không bay cao. Có người học theo cách giống chim ruồi: thích đọc nhưng chỉ vùi đầu vào sách của mình, thành nô lệ cho sách và không quan tâm thế giới xung quanh. Nỗ lực đọc của họ đáng quý, song điều đáng lo là mắc kẹt trong tháp ngà. Đọc sách như ăn uống, không nên chỉ ăn một món: ngoài sách in, còn phải đọc cuốn sách lớn là cuộc đời.",
+      "questionVietnamese": "Theo tác giả, người giống chim ruồi gặp vấn đề gì?",
+      "optionVietnamese": [
+        "không đủ chuyên sâu",
+        "không đủ chăm chỉ",
+        "không quan tâm thế sự",
+        "không coi trọng đạo đức"
+      ],
+      "evidence": {
+        "traditional": "任天塌下來也不管",
+        "simplified": "任天塌下来也不管"
+      },
+      "explanation": "Hình ảnh “trời sập cũng mặc” cho thấy họ chỉ vùi đầu vào sách và thờ ơ với thế giới."
+    },
+    "reading-q20": {
+      "number": 20,
+      "correctAnswer": "D",
+      "groupId": "reading-g-q18-q20",
+      "passageVietnamese": "Chim ruồi là loài chim rất nhỏ, chỉ bằng ngón tay cái. Mỏ dài và mảnh, chúng chỉ ăn mật hoa cùng côn trùng nhỏ trên hoa, ngày ngày bay quanh vài loại cây. Có lẽ vì thức ăn đơn điệu nên chúng không lớn, cũng không bay cao. Có người học theo cách giống chim ruồi: thích đọc nhưng chỉ vùi đầu vào sách của mình, thành nô lệ cho sách và không quan tâm thế giới xung quanh. Nỗ lực đọc của họ đáng quý, song điều đáng lo là mắc kẹt trong tháp ngà. Đọc sách như ăn uống, không nên chỉ ăn một món: ngoài sách in, còn phải đọc cuốn sách lớn là cuộc đời.",
+      "questionVietnamese": "Tác giả nhìn nhận việc đọc sách như thế nào?",
+      "optionVietnamese": [
+        "không cần đọc nhiều sách",
+        "ăn uống quan trọng hơn đọc sách",
+        "đọc sách không nên bị thế sự quấy nhiễu",
+        "tiếp thu kiến thức không chỉ từ sách in"
+      ],
+      "evidence": {
+        "traditional": "印刷的書籍要讀，人生這本大書更得讀",
+        "simplified": "印刷的书籍要读，人生这本大书更得读"
+      },
+      "explanation": "Tác giả khuyên đọc cả sách in lẫn “cuốn sách cuộc đời”, tức học từ trải nghiệm thực tế."
+    },
+    "reading-q21": {
+      "number": 21,
+      "correctAnswer": "A",
+      "groupId": "reading-g-q21-q23",
+      "passageVietnamese": "Nên dùng loại giấy vệ sinh nào? Nghe có vẻ là chuyện nhỏ, nhưng lại ảnh hưởng rất lớn đến môi trường. Các chuyên gia nói giấy vệ sinh siêu mềm dùng dễ chịu, song mức độ tàn phá môi trường thậm chí còn nghiêm trọng hơn ô tô tốn xăng hoặc đồ ăn nhiều rác thải. Sợi dài của gỗ nguyên sinh dễ tơi và phồng, thích hợp làm giấy rất mềm, nên phần lớn giấy siêu mềm bán trên thị trường đến từ rừng nguyên sinh. Quá trình làm bột giấy còn dùng nhiều hóa chất. Dùng loại giấy này thường xuyên đồng nghĩa với một cái giá môi trường rất lớn.\n\nỞ châu Âu và Mỹ Latinh, không ít hãng sản xuất giấy vệ sinh từ gỗ tái chế. Tuy vậy, nhiều người vẫn nghĩ giấy làm từ vật liệu tái chế kém chất lượng, cứng như bìa, khó dùng, thậm chí gây hại da; bài viết khẳng định đó là ngộ nhận. Tổ chức Hòa bình Xanh đã phát tài liệu phản đối quảng cáo giấy siêu mềm của ngành giấy và kêu gọi người tiêu dùng chú ý lựa chọn sản phẩm. Mỗi lần dùng giấy vệ sinh có thể chỉ ba giây; không đáng hy sinh môi trường sinh thái quý giá chỉ vì chút cảm giác êm mềm ấy.",
+      "questionVietnamese": "Tác giả khuyên người mua giấy vệ sinh cân nhắc yếu tố nào?",
+      "optionVietnamese": [
+        "nguyên liệu",
+        "giá cả",
+        "cảm giác khi dùng",
+        "thương hiệu"
+      ],
+      "evidence": {
+        "traditional": "超柔軟衛生紙大多來自原始森林",
+        "simplified": "超柔软卫生纸大多来自原始森林"
+      },
+      "explanation": "Nguồn gỗ nguyên sinh tạo độ mềm nhưng gây tổn hại môi trường; vì vậy cần xét nguyên liệu."
+    },
+    "reading-q22": {
+      "number": 22,
+      "correctAnswer": "C",
+      "groupId": "reading-g-q21-q23",
+      "passageVietnamese": "Nên dùng loại giấy vệ sinh nào? Nghe có vẻ là chuyện nhỏ, nhưng lại ảnh hưởng rất lớn đến môi trường. Các chuyên gia nói giấy vệ sinh siêu mềm dùng dễ chịu, song mức độ tàn phá môi trường thậm chí còn nghiêm trọng hơn ô tô tốn xăng hoặc đồ ăn nhiều rác thải. Sợi dài của gỗ nguyên sinh dễ tơi và phồng, thích hợp làm giấy rất mềm, nên phần lớn giấy siêu mềm bán trên thị trường đến từ rừng nguyên sinh. Quá trình làm bột giấy còn dùng nhiều hóa chất. Dùng loại giấy này thường xuyên đồng nghĩa với một cái giá môi trường rất lớn.\n\nỞ châu Âu và Mỹ Latinh, không ít hãng sản xuất giấy vệ sinh từ gỗ tái chế. Tuy vậy, nhiều người vẫn nghĩ giấy làm từ vật liệu tái chế kém chất lượng, cứng như bìa, khó dùng, thậm chí gây hại da; bài viết khẳng định đó là ngộ nhận. Tổ chức Hòa bình Xanh đã phát tài liệu phản đối quảng cáo giấy siêu mềm của ngành giấy và kêu gọi người tiêu dùng chú ý lựa chọn sản phẩm. Mỗi lần dùng giấy vệ sinh có thể chỉ ba giây; không đáng hy sinh môi trường sinh thái quý giá chỉ vì chút cảm giác êm mềm ấy.",
+      "questionVietnamese": "Từ “ngộ nhận” ở đoạn hai nói đến điều gì?",
+      "optionVietnamese": [
+        "dùng giấy vệ sinh có hại cho người",
+        "dùng giấy vệ sinh không hại môi trường",
+        "giấy làm từ vật liệu tái chế khó dùng",
+        "sản phẩm châu Âu, Mỹ Latinh tốt hơn"
+      ],
+      "evidence": {
+        "traditional": "用回收品做出的衛生紙品質差、硬如紙板、難以使用",
+        "simplified": "用回收品做出的卫生纸品质差、硬如纸板、难以使用"
+      },
+      "explanation": "Bài gọi quan niệm giấy tái chế kém, cứng và khó dùng là một sự ngộ nhận."
+    },
+    "reading-q23": {
+      "number": 23,
+      "correctAnswer": "D",
+      "groupId": "reading-g-q21-q23",
+      "passageVietnamese": "Nên dùng loại giấy vệ sinh nào? Nghe có vẻ là chuyện nhỏ, nhưng lại ảnh hưởng rất lớn đến môi trường. Các chuyên gia nói giấy vệ sinh siêu mềm dùng dễ chịu, song mức độ tàn phá môi trường thậm chí còn nghiêm trọng hơn ô tô tốn xăng hoặc đồ ăn nhiều rác thải. Sợi dài của gỗ nguyên sinh dễ tơi và phồng, thích hợp làm giấy rất mềm, nên phần lớn giấy siêu mềm bán trên thị trường đến từ rừng nguyên sinh. Quá trình làm bột giấy còn dùng nhiều hóa chất. Dùng loại giấy này thường xuyên đồng nghĩa với một cái giá môi trường rất lớn.\n\nỞ châu Âu và Mỹ Latinh, không ít hãng sản xuất giấy vệ sinh từ gỗ tái chế. Tuy vậy, nhiều người vẫn nghĩ giấy làm từ vật liệu tái chế kém chất lượng, cứng như bìa, khó dùng, thậm chí gây hại da; bài viết khẳng định đó là ngộ nhận. Tổ chức Hòa bình Xanh đã phát tài liệu phản đối quảng cáo giấy siêu mềm của ngành giấy và kêu gọi người tiêu dùng chú ý lựa chọn sản phẩm. Mỗi lần dùng giấy vệ sinh có thể chỉ ba giây; không đáng hy sinh môi trường sinh thái quý giá chỉ vì chút cảm giác êm mềm ấy.",
+      "questionVietnamese": "Ý chính của bài là gì?",
+      "optionVietnamese": [
+        "khuyên ngừng dùng giấy vệ sinh",
+        "đề xuất tái sử dụng giấy đã dùng",
+        "cách làm giấy mềm hơn",
+        "thế nào là giấy vệ sinh thân thiện môi trường"
+      ],
+      "evidence": {
+        "traditional": "重視衛生紙產品的選擇",
+        "simplified": "重视卫生纸产品的选择"
+      },
+      "explanation": "Từ nguyên liệu đến lời kêu gọi lựa chọn giấy, bài tập trung vào tác động môi trường của sản phẩm."
+    },
+    "reading-q24": {
+      "number": 24,
+      "correctAnswer": "A",
+      "groupId": "reading-g-q24-q27",
+      "passageVietnamese": "Từ đầu kỷ Jura hơn 200 triệu năm trước, thân hình khổng lồ là đặc điểm phổ biến ở động vật sống trên cạn. Cơ thể càng lớn, chúng càng khó bị săn và càng dễ bắt mồi. Linh dương dễ trở thành con mồi của sư tử, linh cẩu và chó săn, còn voi và tê giác trưởng thành hầu như không bị đe dọa; con non cũng được cha mẹ to lớn bảo vệ. Với động vật ăn cỏ, thân hình cao giúp chúng ăn lá trên cây cao. Hươu cao cổ và voi có thể cao tới năm mét; voi còn dùng thân mình xô đổ cây cao.\n\nNhững lợi ích khác ít dễ thấy hơn: nếu đi cùng một quãng đường, một con voi nặng năm tấn tiêu hao ít năng lượng hơn cả đàn linh dương có tổng trọng lượng năm tấn. Tốc độ trao đổi chất cũng giảm khi cơ thể lớn lên. Vì vậy, chuột chù mỗi ngày phải ăn lượng thức ăn vượt quá trọng lượng bản thân, trong khi voi chỉ cần ăn bằng khoảng 5% trọng lượng của nó. Cơ thể đồ sộ còn giữ nhiệt như một tấm cách nhiệt, giúp con vật chịu được chênh lệch nhiệt độ lớn.\n\nTuy nhiên, kích thước lớn cũng có hại. Động vật lớn ăn nhiều nên tổng số cá thể có hạn: ngay trước khi bị con người săn bắt, voi và tê giác châu Phi cũng chỉ có hàng triệu con, trong khi loài gặm nhấm có tới hàng chục tỷ con. Động vật khổng lồ còn khó chui hang, leo cây hay bay lượn như động vật nhỏ.",
+      "questionVietnamese": "Đoạn đầu nói đến điều nào?",
+      "optionVietnamese": [
+        "thân hình lớn giúp động vật ăn cỏ kiếm thức ăn",
+        "đa số động vật ăn cỏ đều to",
+        "voi hoặc tê giác con dễ bị tấn công nhất",
+        "sư tử và linh cẩu cũng săn động vật lớn"
+      ],
+      "evidence": {
+        "traditional": "可以吃到更高處的樹葉",
+        "simplified": "可以吃到更高处的树叶"
+      },
+      "explanation": "Động vật ăn cỏ cao lớn với tới lá trên cao; các ý còn lại không đúng với đoạn đầu."
+    },
+    "reading-q25": {
+      "number": 25,
+      "correctAnswer": "B",
+      "groupId": "reading-g-q24-q27",
+      "passageVietnamese": "Từ đầu kỷ Jura hơn 200 triệu năm trước, thân hình khổng lồ là đặc điểm phổ biến ở động vật sống trên cạn. Cơ thể càng lớn, chúng càng khó bị săn và càng dễ bắt mồi. Linh dương dễ trở thành con mồi của sư tử, linh cẩu và chó săn, còn voi và tê giác trưởng thành hầu như không bị đe dọa; con non cũng được cha mẹ to lớn bảo vệ. Với động vật ăn cỏ, thân hình cao giúp chúng ăn lá trên cây cao. Hươu cao cổ và voi có thể cao tới năm mét; voi còn dùng thân mình xô đổ cây cao.\n\nNhững lợi ích khác ít dễ thấy hơn: nếu đi cùng một quãng đường, một con voi nặng năm tấn tiêu hao ít năng lượng hơn cả đàn linh dương có tổng trọng lượng năm tấn. Tốc độ trao đổi chất cũng giảm khi cơ thể lớn lên. Vì vậy, chuột chù mỗi ngày phải ăn lượng thức ăn vượt quá trọng lượng bản thân, trong khi voi chỉ cần ăn bằng khoảng 5% trọng lượng của nó. Cơ thể đồ sộ còn giữ nhiệt như một tấm cách nhiệt, giúp con vật chịu được chênh lệch nhiệt độ lớn.\n\nTuy nhiên, kích thước lớn cũng có hại. Động vật lớn ăn nhiều nên tổng số cá thể có hạn: ngay trước khi bị con người săn bắt, voi và tê giác châu Phi cũng chỉ có hàng triệu con, trong khi loài gặm nhấm có tới hàng chục tỷ con. Động vật khổng lồ còn khó chui hang, leo cây hay bay lượn như động vật nhỏ.",
+      "questionVietnamese": "Vì sao đoạn đầu nhắc đến linh dương?",
+      "optionVietnamese": [
+        "vì chúng là thức ăn chính của thú lớn",
+        "để minh họa động vật nhỏ dễ bị săn",
+        "để nhấn mạnh thú lớn kém linh hoạt",
+        "để nói thú lớn đa phần ăn cỏ"
+      ],
+      "evidence": {
+        "traditional": "羚羊很容易淪為獅子、土狼和獵犬的獵物",
+        "simplified": "羚羊很容易沦为狮子、土狼和猎犬的猎物"
+      },
+      "explanation": "Linh dương được đối chiếu với voi, tê giác ít bị đe dọa, làm rõ lợi thế phòng vệ của thân hình lớn."
+    },
+    "reading-q26": {
+      "number": 26,
+      "correctAnswer": "C",
+      "groupId": "reading-g-q24-q27",
+      "passageVietnamese": "Từ đầu kỷ Jura hơn 200 triệu năm trước, thân hình khổng lồ là đặc điểm phổ biến ở động vật sống trên cạn. Cơ thể càng lớn, chúng càng khó bị săn và càng dễ bắt mồi. Linh dương dễ trở thành con mồi của sư tử, linh cẩu và chó săn, còn voi và tê giác trưởng thành hầu như không bị đe dọa; con non cũng được cha mẹ to lớn bảo vệ. Với động vật ăn cỏ, thân hình cao giúp chúng ăn lá trên cây cao. Hươu cao cổ và voi có thể cao tới năm mét; voi còn dùng thân mình xô đổ cây cao.\n\nNhững lợi ích khác ít dễ thấy hơn: nếu đi cùng một quãng đường, một con voi nặng năm tấn tiêu hao ít năng lượng hơn cả đàn linh dương có tổng trọng lượng năm tấn. Tốc độ trao đổi chất cũng giảm khi cơ thể lớn lên. Vì vậy, chuột chù mỗi ngày phải ăn lượng thức ăn vượt quá trọng lượng bản thân, trong khi voi chỉ cần ăn bằng khoảng 5% trọng lượng của nó. Cơ thể đồ sộ còn giữ nhiệt như một tấm cách nhiệt, giúp con vật chịu được chênh lệch nhiệt độ lớn.\n\nTuy nhiên, kích thước lớn cũng có hại. Động vật lớn ăn nhiều nên tổng số cá thể có hạn: ngay trước khi bị con người săn bắt, voi và tê giác châu Phi cũng chỉ có hàng triệu con, trong khi loài gặm nhấm có tới hàng chục tỷ con. Động vật khổng lồ còn khó chui hang, leo cây hay bay lượn như động vật nhỏ.",
+      "questionVietnamese": "Theo đoạn hai, thân hình lớn có tác động gì?",
+      "optionVietnamese": [
+        "tăng trao đổi chất",
+        "nhanh tiêu hao năng lượng",
+        "giúp giữ ấm",
+        "phải ăn lượng thức ăn bằng trọng lượng cơ thể"
+      ],
+      "evidence": {
+        "traditional": "像隔熱板一樣的保溫作用",
+        "simplified": "像隔热板一样的保温作用"
+      },
+      "explanation": "Bài ví thân hình lớn như tấm cách nhiệt; những phương án kia trái nội dung đoạn hai."
+    },
+    "reading-q27": {
+      "number": 27,
+      "correctAnswer": "A",
+      "groupId": "reading-g-q24-q27",
+      "passageVietnamese": "Từ đầu kỷ Jura hơn 200 triệu năm trước, thân hình khổng lồ là đặc điểm phổ biến ở động vật sống trên cạn. Cơ thể càng lớn, chúng càng khó bị săn và càng dễ bắt mồi. Linh dương dễ trở thành con mồi của sư tử, linh cẩu và chó săn, còn voi và tê giác trưởng thành hầu như không bị đe dọa; con non cũng được cha mẹ to lớn bảo vệ. Với động vật ăn cỏ, thân hình cao giúp chúng ăn lá trên cây cao. Hươu cao cổ và voi có thể cao tới năm mét; voi còn dùng thân mình xô đổ cây cao.\n\nNhững lợi ích khác ít dễ thấy hơn: nếu đi cùng một quãng đường, một con voi nặng năm tấn tiêu hao ít năng lượng hơn cả đàn linh dương có tổng trọng lượng năm tấn. Tốc độ trao đổi chất cũng giảm khi cơ thể lớn lên. Vì vậy, chuột chù mỗi ngày phải ăn lượng thức ăn vượt quá trọng lượng bản thân, trong khi voi chỉ cần ăn bằng khoảng 5% trọng lượng của nó. Cơ thể đồ sộ còn giữ nhiệt như một tấm cách nhiệt, giúp con vật chịu được chênh lệch nhiệt độ lớn.\n\nTuy nhiên, kích thước lớn cũng có hại. Động vật lớn ăn nhiều nên tổng số cá thể có hạn: ngay trước khi bị con người săn bắt, voi và tê giác châu Phi cũng chỉ có hàng triệu con, trong khi loài gặm nhấm có tới hàng chục tỷ con. Động vật khổng lồ còn khó chui hang, leo cây hay bay lượn như động vật nhỏ.",
+      "questionVietnamese": "Đoạn cuối so sánh động vật lớn và nhỏ ở hai mặt nào?",
+      "optionVietnamese": [
+        "số lượng và độ linh hoạt",
+        "tỷ lệ sinh và tử",
+        "thức ăn và chỗ ở",
+        "săn mồi và chạy trốn"
+      ],
+      "evidence": {
+        "traditional": "其總數自然有限",
+        "simplified": "其总数自然有限"
+      },
+      "explanation": "Đoạn so số lượng ít của thú lớn với số lượng rất đông của thú nhỏ, rồi so khả năng chui hang, leo cây, bay."
+    },
+    "reading-q28": {
+      "number": 28,
+      "correctAnswer": "D",
+      "groupId": "reading-g-q28-q31",
+      "passageVietnamese": "Khi phát triển, doanh nghiệp nên tự nghiên cứu sản phẩm hay hợp tác với doanh nghiệp khác? Báo cáo của một trường kinh doanh cho rằng câu trả lời chủ yếu phụ thuộc vào mức độ phức tạp của sản phẩm. Sản phẩm quá đơn giản hoặc quá phức tạp đều ít phù hợp để hợp tác; với sản phẩm có độ phức tạp trung bình, làm chung có thể tốt hơn tự làm.\n\nVới sản phẩm đơn giản, chính công ty đã có thể tìm hướng thiết kế tốt nhất hoặc tự giải quyết vấn đề kỹ thuật, nên tìm đối tác chỉ thêm việc. Với sản phẩm rất phức tạp, quá nhiều chi tiết cùng khác biệt lớn về quan điểm dễ làm nảy sinh bất đồng trong nghiên cứu hay tiếp thị, khiến hiệu suất giảm mạnh.\n\nVới sản phẩm phức tạp vừa phải như máy tính cá nhân, tìm đối tác thường tốt hơn đóng cửa tự làm. Dù tranh luận và bất đồng khó tránh, lắng nghe ý tưởng của đối tác có thể khơi gợi cảm hứng, giúp chia sẻ sáng kiến. Các bên còn có thể cùng khảo sát thị trường để nhanh chóng nắm xu hướng tiêu dùng. Những lợi ích ấy vượt xa tác động xấu của việc không thống nhất ý kiến.",
+      "questionVietnamese": "Đoạn đầu chủ yếu bàn điều gì?",
+      "optionVietnamese": [
+        "cách tìm đối tác",
+        "sản phẩm nào có thị trường",
+        "vì sao phải độc lập",
+        "cách phát triển sản phẩm phù hợp nhất"
+      ],
+      "evidence": {
+        "traditional": "答案主要取決於產品本身的複雜度",
+        "simplified": "答案主要取决于产品本身的复杂度"
+      },
+      "explanation": "Bài đặt vấn đề tự phát triển hay hợp tác, rồi dùng độ phức tạp để chọn cách làm."
+    },
+    "reading-q29": {
+      "number": 29,
+      "correctAnswer": "C",
+      "groupId": "reading-g-q28-q31",
+      "passageVietnamese": "Khi phát triển, doanh nghiệp nên tự nghiên cứu sản phẩm hay hợp tác với doanh nghiệp khác? Báo cáo của một trường kinh doanh cho rằng câu trả lời chủ yếu phụ thuộc vào mức độ phức tạp của sản phẩm. Sản phẩm quá đơn giản hoặc quá phức tạp đều ít phù hợp để hợp tác; với sản phẩm có độ phức tạp trung bình, làm chung có thể tốt hơn tự làm.\n\nVới sản phẩm đơn giản, chính công ty đã có thể tìm hướng thiết kế tốt nhất hoặc tự giải quyết vấn đề kỹ thuật, nên tìm đối tác chỉ thêm việc. Với sản phẩm rất phức tạp, quá nhiều chi tiết cùng khác biệt lớn về quan điểm dễ làm nảy sinh bất đồng trong nghiên cứu hay tiếp thị, khiến hiệu suất giảm mạnh.\n\nVới sản phẩm phức tạp vừa phải như máy tính cá nhân, tìm đối tác thường tốt hơn đóng cửa tự làm. Dù tranh luận và bất đồng khó tránh, lắng nghe ý tưởng của đối tác có thể khơi gợi cảm hứng, giúp chia sẻ sáng kiến. Các bên còn có thể cùng khảo sát thị trường để nhanh chóng nắm xu hướng tiêu dùng. Những lợi ích ấy vượt xa tác động xấu của việc không thống nhất ý kiến.",
+      "questionVietnamese": "Khi nào công ty thích hợp tự phát triển sản phẩm ít phức tạp?",
+      "optionVietnamese": [
+        "khi kinh tế suy thoái",
+        "khi tìm được đối tác",
+        "khi tự giải quyết được vấn đề",
+        "khi nội bộ bất đồng"
+      ],
+      "evidence": {
+        "traditional": "公司本身就能找出最佳的設計方向或是解決技術問題",
+        "simplified": "公司本身就能找出最佳的设计方向或是解决技术问题"
+      },
+      "explanation": "Với sản phẩm đơn giản, công ty tự xử lý được thiết kế và kỹ thuật nên không cần đối tác."
+    },
+    "reading-q30": {
+      "number": 30,
+      "correctAnswer": "B",
+      "groupId": "reading-g-q28-q31",
+      "passageVietnamese": "Khi phát triển, doanh nghiệp nên tự nghiên cứu sản phẩm hay hợp tác với doanh nghiệp khác? Báo cáo của một trường kinh doanh cho rằng câu trả lời chủ yếu phụ thuộc vào mức độ phức tạp của sản phẩm. Sản phẩm quá đơn giản hoặc quá phức tạp đều ít phù hợp để hợp tác; với sản phẩm có độ phức tạp trung bình, làm chung có thể tốt hơn tự làm.\n\nVới sản phẩm đơn giản, chính công ty đã có thể tìm hướng thiết kế tốt nhất hoặc tự giải quyết vấn đề kỹ thuật, nên tìm đối tác chỉ thêm việc. Với sản phẩm rất phức tạp, quá nhiều chi tiết cùng khác biệt lớn về quan điểm dễ làm nảy sinh bất đồng trong nghiên cứu hay tiếp thị, khiến hiệu suất giảm mạnh.\n\nVới sản phẩm phức tạp vừa phải như máy tính cá nhân, tìm đối tác thường tốt hơn đóng cửa tự làm. Dù tranh luận và bất đồng khó tránh, lắng nghe ý tưởng của đối tác có thể khơi gợi cảm hứng, giúp chia sẻ sáng kiến. Các bên còn có thể cùng khảo sát thị trường để nhanh chóng nắm xu hướng tiêu dùng. Những lợi ích ấy vượt xa tác động xấu của việc không thống nhất ý kiến.",
+      "questionVietnamese": "Theo tác giả, điều gì xảy ra khi các công ty hợp tác phát triển máy tính cá nhân?",
+      "optionVietnamese": [
+        "khó xảy ra bất đồng",
+        "có thể tăng sức sáng tạo",
+        "dễ làm thị trường thu hẹp",
+        "cho thấy công ty gặp khó"
+      ],
+      "evidence": {
+        "traditional": "有利於刺激靈感、分享創意",
+        "simplified": "有利于刺激灵感、分享创意"
+      },
+      "explanation": "Hợp tác có thể gây tranh luận, nhưng bài nhấn mạnh lợi ích khơi gợi ý tưởng và chia sẻ sáng tạo."
+    },
+    "reading-q31": {
+      "number": 31,
+      "correctAnswer": "C",
+      "groupId": "reading-g-q28-q31",
+      "passageVietnamese": "Khi phát triển, doanh nghiệp nên tự nghiên cứu sản phẩm hay hợp tác với doanh nghiệp khác? Báo cáo của một trường kinh doanh cho rằng câu trả lời chủ yếu phụ thuộc vào mức độ phức tạp của sản phẩm. Sản phẩm quá đơn giản hoặc quá phức tạp đều ít phù hợp để hợp tác; với sản phẩm có độ phức tạp trung bình, làm chung có thể tốt hơn tự làm.\n\nVới sản phẩm đơn giản, chính công ty đã có thể tìm hướng thiết kế tốt nhất hoặc tự giải quyết vấn đề kỹ thuật, nên tìm đối tác chỉ thêm việc. Với sản phẩm rất phức tạp, quá nhiều chi tiết cùng khác biệt lớn về quan điểm dễ làm nảy sinh bất đồng trong nghiên cứu hay tiếp thị, khiến hiệu suất giảm mạnh.\n\nVới sản phẩm phức tạp vừa phải như máy tính cá nhân, tìm đối tác thường tốt hơn đóng cửa tự làm. Dù tranh luận và bất đồng khó tránh, lắng nghe ý tưởng của đối tác có thể khơi gợi cảm hứng, giúp chia sẻ sáng kiến. Các bên còn có thể cùng khảo sát thị trường để nhanh chóng nắm xu hướng tiêu dùng. Những lợi ích ấy vượt xa tác động xấu của việc không thống nhất ý kiến.",
+      "questionVietnamese": "Điều nào không phải lợi ích của việc tự phát triển sản phẩm?",
+      "optionVietnamese": [
+        "có thể tăng hiệu suất",
+        "tránh bất đồng ý kiến",
+        "nhanh nắm tình hình thị trường",
+        "thích hợp với sản phẩm khá phức tạp"
+      ],
+      "evidence": {
+        "traditional": "一起進行市場調查、快速掌握消費動向",
+        "simplified": "一起进行市场调查、快速掌握消费动向"
+      },
+      "explanation": "Nắm nhanh xu hướng thị trường được nêu như lợi ích của hợp tác, không phải tự phát triển."
+    },
+    "reading-q32": {
+      "number": 32,
+      "correctAnswer": "A",
+      "groupId": "reading-g-q32-q35",
+      "passageVietnamese": "Xe đạp có trọng tâm cao, lốp hẹp, khó giữ thăng bằng và khó phanh, nên thực ra là phương tiện khá nguy hiểm. May thay, xe chạy bằng sức người: người bình thường khó đạp nhanh hơn 30 km/giờ, duy trì tốc độ cao còn khó hơn, vì thế xe đạp vẫn tương đối an toàn.\n\nBộ chuyển số giúp đạp hiệu quả hơn, đi nhanh hơn và leo dốc cao hơn, nhưng cũng kéo theo rủi ro. Khi xuống dốc, tốc độ xe đạp có thể gần bằng ô tô hoặc xe máy, trong khi thiết kế của nó vốn không phù hợp chạy nhanh. Nếu không giảm tốc kịp khi vào cua, người đi xe dễ mất thăng bằng và trượt, có thể rơi xuống vực hoặc lao sang làn đường ngược chiều, dẫn đến thương tích nặng hay tử vong.\n\n【I】 Những năm gần đây, xe đạp càng được làm nhẹ, lốp càng hẹp và mặt lốp càng trơn. 【II】 Theo lẽ thường, người đạp xe giải trí không cần chạy theo loại xe đua như vậy. Đáng tiếc, nó lại là xu hướng chính trên thị trường xe đạp Đài Loan. 【III】 Ai cũng muốn so xe nào nhẹ, xe nào nhanh; các hãng thì sẵn lòng bán đủ loại trang bị và mẫu xe để thu lợi lớn. 【IV】",
+      "questionVietnamese": "Theo đoạn đầu, điểm an toàn của xe đạp nằm ở đâu?",
+      "optionVietnamese": [
+        "tốc độ có giới hạn",
+        "rèn thăng bằng",
+        "phanh là dừng ngay",
+        "tăng tốc nhanh trong thời gian ngắn"
+      ],
+      "evidence": {
+        "traditional": "要踩出三十公里以上的時速已不容易",
+        "simplified": "要踩出三十公里以上的时速已不容易"
+      },
+      "explanation": "Xe đạp khó đạt và duy trì tốc độ cao bằng sức người; đó là lý do nó tương đối an toàn."
+    },
+    "reading-q33": {
+      "number": 33,
+      "correctAnswer": "B",
+      "groupId": "reading-g-q32-q35",
+      "passageVietnamese": "Xe đạp có trọng tâm cao, lốp hẹp, khó giữ thăng bằng và khó phanh, nên thực ra là phương tiện khá nguy hiểm. May thay, xe chạy bằng sức người: người bình thường khó đạp nhanh hơn 30 km/giờ, duy trì tốc độ cao còn khó hơn, vì thế xe đạp vẫn tương đối an toàn.\n\nBộ chuyển số giúp đạp hiệu quả hơn, đi nhanh hơn và leo dốc cao hơn, nhưng cũng kéo theo rủi ro. Khi xuống dốc, tốc độ xe đạp có thể gần bằng ô tô hoặc xe máy, trong khi thiết kế của nó vốn không phù hợp chạy nhanh. Nếu không giảm tốc kịp khi vào cua, người đi xe dễ mất thăng bằng và trượt, có thể rơi xuống vực hoặc lao sang làn đường ngược chiều, dẫn đến thương tích nặng hay tử vong.\n\n【I】 Những năm gần đây, xe đạp càng được làm nhẹ, lốp càng hẹp và mặt lốp càng trơn. 【II】 Theo lẽ thường, người đạp xe giải trí không cần chạy theo loại xe đua như vậy. Đáng tiếc, nó lại là xu hướng chính trên thị trường xe đạp Đài Loan. 【III】 Ai cũng muốn so xe nào nhẹ, xe nào nhanh; các hãng thì sẵn lòng bán đủ loại trang bị và mẫu xe để thu lợi lớn. 【IV】",
+      "questionVietnamese": "Đoạn hai chủ yếu nói điều gì?",
+      "optionVietnamese": [
+        "đi chậm chưa chắc an toàn",
+        "thiết kế xe đạp không hợp tốc độ cao",
+        "xe đạp ít nguy hiểm hơn ô tô, xe máy",
+        "thiếu đồ bảo hộ là nguyên nhân chính"
+      ],
+      "evidence": {
+        "traditional": "先天條件其實並不適合高速騎乘",
+        "simplified": "先天条件其实并不适合高速骑乘"
+      },
+      "explanation": "Dù bộ chuyển số giúp đi nhanh, thiết kế vốn không hợp tốc độ cao, nhất là khi xuống dốc và rẽ."
+    },
+    "reading-q34": {
+      "number": 34,
+      "correctAnswer": "C",
+      "groupId": "reading-g-q32-q35",
+      "passageVietnamese": "Xe đạp có trọng tâm cao, lốp hẹp, khó giữ thăng bằng và khó phanh, nên thực ra là phương tiện khá nguy hiểm. May thay, xe chạy bằng sức người: người bình thường khó đạp nhanh hơn 30 km/giờ, duy trì tốc độ cao còn khó hơn, vì thế xe đạp vẫn tương đối an toàn.\n\nBộ chuyển số giúp đạp hiệu quả hơn, đi nhanh hơn và leo dốc cao hơn, nhưng cũng kéo theo rủi ro. Khi xuống dốc, tốc độ xe đạp có thể gần bằng ô tô hoặc xe máy, trong khi thiết kế của nó vốn không phù hợp chạy nhanh. Nếu không giảm tốc kịp khi vào cua, người đi xe dễ mất thăng bằng và trượt, có thể rơi xuống vực hoặc lao sang làn đường ngược chiều, dẫn đến thương tích nặng hay tử vong.\n\n【I】 Những năm gần đây, xe đạp càng được làm nhẹ, lốp càng hẹp và mặt lốp càng trơn. 【II】 Theo lẽ thường, người đạp xe giải trí không cần chạy theo loại xe đua như vậy. Đáng tiếc, nó lại là xu hướng chính trên thị trường xe đạp Đài Loan. 【III】 Ai cũng muốn so xe nào nhẹ, xe nào nhanh; các hãng thì sẵn lòng bán đủ loại trang bị và mẫu xe để thu lợi lớn. 【IV】",
+      "questionVietnamese": "Theo đoạn ba, thị trường xe đạp hiện gặp vấn đề gì?",
+      "optionVietnamese": [
+        "xe đạp giải trí chưa đủ an toàn",
+        "người dân dùng xe giải trí để đua",
+        "người mua chuộng xe kiểu đua",
+        "chỉ xe đạp giải trí có thị trường"
+      ],
+      "evidence": {
+        "traditional": "這偏偏是目前台灣單車市場的主流",
+        "simplified": "这偏偏是目前台湾单车市场的主流"
+      },
+      "explanation": "“Loại xe đua này” lại thành xu hướng chủ đạo dù người đạp để giải trí không cần nó."
+    },
+    "reading-q35": {
+      "number": 35,
+      "correctAnswer": "B",
+      "groupId": "reading-g-q32-q35",
+      "passageVietnamese": "Xe đạp có trọng tâm cao, lốp hẹp, khó giữ thăng bằng và khó phanh, nên thực ra là phương tiện khá nguy hiểm. May thay, xe chạy bằng sức người: người bình thường khó đạp nhanh hơn 30 km/giờ, duy trì tốc độ cao còn khó hơn, vì thế xe đạp vẫn tương đối an toàn.\n\nBộ chuyển số giúp đạp hiệu quả hơn, đi nhanh hơn và leo dốc cao hơn, nhưng cũng kéo theo rủi ro. Khi xuống dốc, tốc độ xe đạp có thể gần bằng ô tô hoặc xe máy, trong khi thiết kế của nó vốn không phù hợp chạy nhanh. Nếu không giảm tốc kịp khi vào cua, người đi xe dễ mất thăng bằng và trượt, có thể rơi xuống vực hoặc lao sang làn đường ngược chiều, dẫn đến thương tích nặng hay tử vong.\n\n【I】 Những năm gần đây, xe đạp càng được làm nhẹ, lốp càng hẹp và mặt lốp càng trơn. 【II】 Theo lẽ thường, người đạp xe giải trí không cần chạy theo loại xe đua như vậy. Đáng tiếc, nó lại là xu hướng chính trên thị trường xe đạp Đài Loan. 【III】 Ai cũng muốn so xe nào nhẹ, xe nào nhanh; các hãng thì sẵn lòng bán đủ loại trang bị và mẫu xe để thu lợi lớn. 【IV】",
+      "questionVietnamese": "Câu nói về xe đua đi ngược nguyên tắc an toàn nên đặt ở vị trí nào?",
+      "optionVietnamese": [
+        "vị trí I",
+        "vị trí II",
+        "vị trí III",
+        "vị trí IV"
+      ],
+      "evidence": {
+        "traditional": "輪胎越變越窄，胎面越來越趨於平滑",
+        "simplified": "轮胎越变越窄、胎面越来越趋于平滑"
+      },
+      "explanation": "Câu cần đặt sau phần mô tả xe đua ngày càng nhẹ, lốp hẹp và trơn, rồi mới chuyển sang nhu cầu của người đi xe giải trí: vị trí II."
+    },
+    "reading-q36": {
+      "number": 36,
+      "correctAnswer": "C",
+      "groupId": "reading-g-q36-q39",
+      "passageVietnamese": "Tôi thường tự hỏi: ở nhà sang, được thăng chức hay tăng lương có thật sự khiến người ta hạnh phúc? Đọc xong cuốn “Chúc bạn năm nay hạnh phúc” của giáo sư Bào, tôi nhận ra đó chỉ là niềm vui lóe lên rồi tắt, chưa phải hạnh phúc bền lâu. Như sách viết, hạnh phúc là cảm giác mãn nguyện và an lành trải khắp cuộc sống, còn niềm vui giống pháo hoa, thoáng chốc đã qua.\n\nBiết điều ấy không có nghĩa là dễ thực hiện. Cuốn sách nói hạnh phúc cần được rèn luyện, và con chó đang đuổi thỏ hạnh phúc hơn con chó nằm ngủ ngoài hiên. Không phải vì nó bắt được thỏ: khi bận rộn vượt qua thử thách, ta thường phát hiện tài năng và giá trị của mình. Điều này cũng giải thích vì sao nhiều người giàu không phải đối mặt với khó khăn vẫn không hạnh phúc.\n\nMột nghiên cứu trên tạp chí của Viện Hàn lâm Khoa học cho rằng 50% hạnh phúc do mức hạnh phúc nền quyết định, điều kiện sống chỉ chiếm 10%, còn 40% phụ thuộc vào hành động. Nói cách khác, suy nghĩ có vai trò dẫn dắt hạnh phúc. Giáo sư Bào ví bộ não chỉ nặng 1,35 kg nhưng điều khiển cả cơ thể và hướng đi cuộc đời, giống người phi công nhẹ hơn chiếc máy bay rất nhiều nhưng vẫn điều khiển đường bay.\n\nGần đây tôi làm theo lời khuyên trong sách: tập mỉm cười và nghĩ “mình rất hạnh phúc”. Cách ấy giúp tôi nhận ra những điều làm mình vui trong cuộc sống. Nhưng theo trải nghiệm của tôi, đừng nói “mình muốn hạnh phúc”: câu ấy ngầm thừa nhận hiện tại mình không hạnh phúc và có thể phản tác dụng.",
+      "questionVietnamese": "Từ “đó” ở đoạn đầu chỉ điều gì?",
+      "optionVietnamese": [
+        "hạnh phúc thật, bền lâu",
+        "trạng thái thỏa mãn",
+        "mục tiêu vật chất trong cuộc sống",
+        "cuốn sách “Chúc bạn năm nay hạnh phúc”"
+      ],
+      "evidence": {
+        "traditional": "住豪宅或是升職、加薪",
+        "simplified": "住豪宅或是升职、加薪"
+      },
+      "explanation": "“Đó” quay lại những thứ tác giả vừa liệt kê: nhà sang, thăng chức, tăng lương."
+    },
+    "reading-q37": {
+      "number": 37,
+      "correctAnswer": "B",
+      "groupId": "reading-g-q36-q39",
+      "passageVietnamese": "Tôi thường tự hỏi: ở nhà sang, được thăng chức hay tăng lương có thật sự khiến người ta hạnh phúc? Đọc xong cuốn “Chúc bạn năm nay hạnh phúc” của giáo sư Bào, tôi nhận ra đó chỉ là niềm vui lóe lên rồi tắt, chưa phải hạnh phúc bền lâu. Như sách viết, hạnh phúc là cảm giác mãn nguyện và an lành trải khắp cuộc sống, còn niềm vui giống pháo hoa, thoáng chốc đã qua.\n\nBiết điều ấy không có nghĩa là dễ thực hiện. Cuốn sách nói hạnh phúc cần được rèn luyện, và con chó đang đuổi thỏ hạnh phúc hơn con chó nằm ngủ ngoài hiên. Không phải vì nó bắt được thỏ: khi bận rộn vượt qua thử thách, ta thường phát hiện tài năng và giá trị của mình. Điều này cũng giải thích vì sao nhiều người giàu không phải đối mặt với khó khăn vẫn không hạnh phúc.\n\nMột nghiên cứu trên tạp chí của Viện Hàn lâm Khoa học cho rằng 50% hạnh phúc do mức hạnh phúc nền quyết định, điều kiện sống chỉ chiếm 10%, còn 40% phụ thuộc vào hành động. Nói cách khác, suy nghĩ có vai trò dẫn dắt hạnh phúc. Giáo sư Bào ví bộ não chỉ nặng 1,35 kg nhưng điều khiển cả cơ thể và hướng đi cuộc đời, giống người phi công nhẹ hơn chiếc máy bay rất nhiều nhưng vẫn điều khiển đường bay.\n\nGần đây tôi làm theo lời khuyên trong sách: tập mỉm cười và nghĩ “mình rất hạnh phúc”. Cách ấy giúp tôi nhận ra những điều làm mình vui trong cuộc sống. Nhưng theo trải nghiệm của tôi, đừng nói “mình muốn hạnh phúc”: câu ấy ngầm thừa nhận hiện tại mình không hạnh phúc và có thể phản tác dụng.",
+      "questionVietnamese": "Vì sao giáo sư Bào nhắc con chó đuổi thỏ?",
+      "optionVietnamese": [
+        "để nói thiếu dũng khí thì không vui",
+        "để nói hạnh phúc đến từ quá trình theo đuổi",
+        "để nói người ta không phân biệt được vui và hạnh phúc",
+        "để nói đa số người hiện đại sống không mục tiêu"
+      ],
+      "evidence": {
+        "traditional": "並非為捉到兔子能令人快樂",
+        "simplified": "并非为捉到兔子能令人快乐"
+      },
+      "explanation": "Niềm vui nằm ở việc vượt thử thách và khám phá năng lực, không chỉ ở kết quả bắt được thỏ."
+    },
+    "reading-q38": {
+      "number": 38,
+      "correctAnswer": "A",
+      "groupId": "reading-g-q36-q39",
+      "passageVietnamese": "Tôi thường tự hỏi: ở nhà sang, được thăng chức hay tăng lương có thật sự khiến người ta hạnh phúc? Đọc xong cuốn “Chúc bạn năm nay hạnh phúc” của giáo sư Bào, tôi nhận ra đó chỉ là niềm vui lóe lên rồi tắt, chưa phải hạnh phúc bền lâu. Như sách viết, hạnh phúc là cảm giác mãn nguyện và an lành trải khắp cuộc sống, còn niềm vui giống pháo hoa, thoáng chốc đã qua.\n\nBiết điều ấy không có nghĩa là dễ thực hiện. Cuốn sách nói hạnh phúc cần được rèn luyện, và con chó đang đuổi thỏ hạnh phúc hơn con chó nằm ngủ ngoài hiên. Không phải vì nó bắt được thỏ: khi bận rộn vượt qua thử thách, ta thường phát hiện tài năng và giá trị của mình. Điều này cũng giải thích vì sao nhiều người giàu không phải đối mặt với khó khăn vẫn không hạnh phúc.\n\nMột nghiên cứu trên tạp chí của Viện Hàn lâm Khoa học cho rằng 50% hạnh phúc do mức hạnh phúc nền quyết định, điều kiện sống chỉ chiếm 10%, còn 40% phụ thuộc vào hành động. Nói cách khác, suy nghĩ có vai trò dẫn dắt hạnh phúc. Giáo sư Bào ví bộ não chỉ nặng 1,35 kg nhưng điều khiển cả cơ thể và hướng đi cuộc đời, giống người phi công nhẹ hơn chiếc máy bay rất nhiều nhưng vẫn điều khiển đường bay.\n\nGần đây tôi làm theo lời khuyên trong sách: tập mỉm cười và nghĩ “mình rất hạnh phúc”. Cách ấy giúp tôi nhận ra những điều làm mình vui trong cuộc sống. Nhưng theo trải nghiệm của tôi, đừng nói “mình muốn hạnh phúc”: câu ấy ngầm thừa nhận hiện tại mình không hạnh phúc và có thể phản tác dụng.",
+      "questionVietnamese": "Ví dụ người lái máy bay minh họa điều gì?",
+      "optionVietnamese": [
+        "hạnh phúc là lựa chọn có ý thức",
+        "hạnh phúc không nên phân cấp",
+        "một nửa hạnh phúc do hành động quyết định",
+        "sức mạnh của hạnh phúc rất lớn"
+      ],
+      "evidence": {
+        "traditional": "快樂是由思維主導的",
+        "simplified": "快乐是由思维主导的"
+      },
+      "explanation": "Phi công nhỏ bé điều khiển máy bay lớn như suy nghĩ dẫn dắt hành động; đáp án A diễn đạt ý này."
+    },
+    "reading-q39": {
+      "number": 39,
+      "correctAnswer": "C",
+      "groupId": "reading-g-q36-q39",
+      "passageVietnamese": "Tôi thường tự hỏi: ở nhà sang, được thăng chức hay tăng lương có thật sự khiến người ta hạnh phúc? Đọc xong cuốn “Chúc bạn năm nay hạnh phúc” của giáo sư Bào, tôi nhận ra đó chỉ là niềm vui lóe lên rồi tắt, chưa phải hạnh phúc bền lâu. Như sách viết, hạnh phúc là cảm giác mãn nguyện và an lành trải khắp cuộc sống, còn niềm vui giống pháo hoa, thoáng chốc đã qua.\n\nBiết điều ấy không có nghĩa là dễ thực hiện. Cuốn sách nói hạnh phúc cần được rèn luyện, và con chó đang đuổi thỏ hạnh phúc hơn con chó nằm ngủ ngoài hiên. Không phải vì nó bắt được thỏ: khi bận rộn vượt qua thử thách, ta thường phát hiện tài năng và giá trị của mình. Điều này cũng giải thích vì sao nhiều người giàu không phải đối mặt với khó khăn vẫn không hạnh phúc.\n\nMột nghiên cứu trên tạp chí của Viện Hàn lâm Khoa học cho rằng 50% hạnh phúc do mức hạnh phúc nền quyết định, điều kiện sống chỉ chiếm 10%, còn 40% phụ thuộc vào hành động. Nói cách khác, suy nghĩ có vai trò dẫn dắt hạnh phúc. Giáo sư Bào ví bộ não chỉ nặng 1,35 kg nhưng điều khiển cả cơ thể và hướng đi cuộc đời, giống người phi công nhẹ hơn chiếc máy bay rất nhiều nhưng vẫn điều khiển đường bay.\n\nGần đây tôi làm theo lời khuyên trong sách: tập mỉm cười và nghĩ “mình rất hạnh phúc”. Cách ấy giúp tôi nhận ra những điều làm mình vui trong cuộc sống. Nhưng theo trải nghiệm của tôi, đừng nói “mình muốn hạnh phúc”: câu ấy ngầm thừa nhận hiện tại mình không hạnh phúc và có thể phản tác dụng.",
+      "questionVietnamese": "Sau khi đọc sách, tác giả rút ra điều gì?",
+      "optionVietnamese": [
+        "không nên coi hạnh phúc là phần thưởng",
+        "phải thừa nhận lý do mình không vui",
+        "đừng thường xuyên nói ra rằng mình đang tìm hạnh phúc",
+        "mỉm cười chẳng có tác dụng"
+      ],
+      "evidence": {
+        "traditional": "千萬別說出「我想要快樂」",
+        "simplified": "千万别说出「我想要快乐」"
+      },
+      "explanation": "Tác giả thấy mỉm cười có ích nhưng tránh nói “tôi muốn vui”, vì câu đó dễ củng cố cảm giác mình đang không vui."
+    },
+    "reading-q40": {
+      "number": 40,
+      "correctAnswer": "B",
+      "groupId": "reading-g-q40-q44",
+      "passageVietnamese": "Giải thưởng Nước Stockholm năm 2008 được trao cho giáo sư Tony Allan, người đưa ra khái niệm “nước ảo”: lượng nước cần cho quá trình sản xuất và bán thực phẩm hoặc hàng tiêu dùng. Con người không chỉ dùng nước khi uống hay tắm; tiêu thụ sản phẩm khác cũng dùng rất nhiều nước. Chẳng hạn, một tách cà phê cần 140 lít nước trong các khâu trồng, sản xuất, đóng gói và vận chuyển, tương đương lượng nước một người Anh dùng trung bình mỗi ngày để uống và sinh hoạt.\n\nKhái niệm này còn giải thích cách “giao dịch nước ảo”, có ảnh hưởng lớn đến chính sách thương mại và sử dụng nước toàn cầu. Nông nghiệp ở vùng khí hậu ẩm thường dùng nước mưa tự nhiên rẻ hơn hệ thống tưới tốn kém, nên giảm được chi phí sản xuất. Những vùng ấy có thể “xuất khẩu” nước sang nước nóng, khô hạn thông qua nông sản. Ngược lại, nước khô hạn có thể nhập cây trồng cần nhiều nước để giảm áp lực lên nguồn nước trong nước. Trên giấy tờ, người ta chỉ thấy giao dịch nông sản; thực chất còn có sự trao đổi nguồn nước.\n\nỞ Ai Cập, ngày càng nhiều món ăn truyền thống được làm từ lương thực nhập khẩu, thay vì lúa mì tưới bằng nước sông Nile. Nếu Ai Cập nhất quyết tự trồng toàn bộ ngũ cốc, nước này sẽ sớm thiếu nước.\n\nBáo cáo của Tuần lễ Nước Thế giới cũng dùng khái niệm trên để chỉ ra rằng khủng hoảng lương thực toàn cầu hiện nay nằm ở sự lãng phí quá mức chứ không phải sản xuất không đủ. Từ sản xuất, chế biến, vận chuyển, bảo quản, bán đến nấu ăn, mỗi khâu đều dùng nước. Vứt thức ăn đã mua cũng đồng nghĩa lãng phí nước dùng để trồng, chở và cất giữ nó. Các chuyên gia cho rằng chỉ khi tránh lãng phí thực phẩm mới có thể thực hiện chính sách tiết kiệm nước hiệu quả.",
+      "questionVietnamese": "Theo đoạn đầu, “nước ảo” chủ yếu giải thích điều gì?",
+      "optionVietnamese": [
+        "nước đã dùng có thể tái chế",
+        "quá trình sản xuất hàng hóa cũng dùng nước",
+        "con người dùng ít nước hơn tưởng tượng",
+        "dùng công nghệ thay nước"
+      ],
+      "evidence": {
+        "traditional": "食品或消費品在生產及銷售過程中所需要的用水量",
+        "simplified": "食品或消费品在生产及销售过程中所需要的用水量"
+      },
+      "explanation": "“Nước ảo” tính cả nước dùng trong sản xuất, bán hàng, ngoài lượng nước sinh hoạt trực tiếp."
+    },
+    "reading-q41": {
+      "number": 41,
+      "correctAnswer": "A",
+      "groupId": "reading-g-q40-q44",
+      "passageVietnamese": "Giải thưởng Nước Stockholm năm 2008 được trao cho giáo sư Tony Allan, người đưa ra khái niệm “nước ảo”: lượng nước cần cho quá trình sản xuất và bán thực phẩm hoặc hàng tiêu dùng. Con người không chỉ dùng nước khi uống hay tắm; tiêu thụ sản phẩm khác cũng dùng rất nhiều nước. Chẳng hạn, một tách cà phê cần 140 lít nước trong các khâu trồng, sản xuất, đóng gói và vận chuyển, tương đương lượng nước một người Anh dùng trung bình mỗi ngày để uống và sinh hoạt.\n\nKhái niệm này còn giải thích cách “giao dịch nước ảo”, có ảnh hưởng lớn đến chính sách thương mại và sử dụng nước toàn cầu. Nông nghiệp ở vùng khí hậu ẩm thường dùng nước mưa tự nhiên rẻ hơn hệ thống tưới tốn kém, nên giảm được chi phí sản xuất. Những vùng ấy có thể “xuất khẩu” nước sang nước nóng, khô hạn thông qua nông sản. Ngược lại, nước khô hạn có thể nhập cây trồng cần nhiều nước để giảm áp lực lên nguồn nước trong nước. Trên giấy tờ, người ta chỉ thấy giao dịch nông sản; thực chất còn có sự trao đổi nguồn nước.\n\nỞ Ai Cập, ngày càng nhiều món ăn truyền thống được làm từ lương thực nhập khẩu, thay vì lúa mì tưới bằng nước sông Nile. Nếu Ai Cập nhất quyết tự trồng toàn bộ ngũ cốc, nước này sẽ sớm thiếu nước.\n\nBáo cáo của Tuần lễ Nước Thế giới cũng dùng khái niệm trên để chỉ ra rằng khủng hoảng lương thực toàn cầu hiện nay nằm ở sự lãng phí quá mức chứ không phải sản xuất không đủ. Từ sản xuất, chế biến, vận chuyển, bảo quản, bán đến nấu ăn, mỗi khâu đều dùng nước. Vứt thức ăn đã mua cũng đồng nghĩa lãng phí nước dùng để trồng, chở và cất giữ nó. Các chuyên gia cho rằng chỉ khi tránh lãng phí thực phẩm mới có thể thực hiện chính sách tiết kiệm nước hiệu quả.",
+      "questionVietnamese": "Theo đoạn hai, các nước có khí hậu ẩm sử dụng nguồn nước như thế nào?",
+      "optionVietnamese": [
+        "bán nông sản",
+        "xuất khẩu nhiều nước uống",
+        "nhập nhiều nông sản",
+        "xây hệ thống tưới hoàn chỉnh"
+      ],
+      "evidence": {
+        "traditional": "通過農作物，將水資源「出口」",
+        "simplified": "通过农作物，将水资源「出口」"
+      },
+      "explanation": "Họ trồng bằng nước mưa rồi bán nông sản; đó là cách “xuất khẩu” nước gián tiếp."
+    },
+    "reading-q42": {
+      "number": 42,
+      "correctAnswer": "B",
+      "groupId": "reading-g-q40-q44",
+      "passageVietnamese": "Giải thưởng Nước Stockholm năm 2008 được trao cho giáo sư Tony Allan, người đưa ra khái niệm “nước ảo”: lượng nước cần cho quá trình sản xuất và bán thực phẩm hoặc hàng tiêu dùng. Con người không chỉ dùng nước khi uống hay tắm; tiêu thụ sản phẩm khác cũng dùng rất nhiều nước. Chẳng hạn, một tách cà phê cần 140 lít nước trong các khâu trồng, sản xuất, đóng gói và vận chuyển, tương đương lượng nước một người Anh dùng trung bình mỗi ngày để uống và sinh hoạt.\n\nKhái niệm này còn giải thích cách “giao dịch nước ảo”, có ảnh hưởng lớn đến chính sách thương mại và sử dụng nước toàn cầu. Nông nghiệp ở vùng khí hậu ẩm thường dùng nước mưa tự nhiên rẻ hơn hệ thống tưới tốn kém, nên giảm được chi phí sản xuất. Những vùng ấy có thể “xuất khẩu” nước sang nước nóng, khô hạn thông qua nông sản. Ngược lại, nước khô hạn có thể nhập cây trồng cần nhiều nước để giảm áp lực lên nguồn nước trong nước. Trên giấy tờ, người ta chỉ thấy giao dịch nông sản; thực chất còn có sự trao đổi nguồn nước.\n\nỞ Ai Cập, ngày càng nhiều món ăn truyền thống được làm từ lương thực nhập khẩu, thay vì lúa mì tưới bằng nước sông Nile. Nếu Ai Cập nhất quyết tự trồng toàn bộ ngũ cốc, nước này sẽ sớm thiếu nước.\n\nBáo cáo của Tuần lễ Nước Thế giới cũng dùng khái niệm trên để chỉ ra rằng khủng hoảng lương thực toàn cầu hiện nay nằm ở sự lãng phí quá mức chứ không phải sản xuất không đủ. Từ sản xuất, chế biến, vận chuyển, bảo quản, bán đến nấu ăn, mỗi khâu đều dùng nước. Vứt thức ăn đã mua cũng đồng nghĩa lãng phí nước dùng để trồng, chở và cất giữ nó. Các chuyên gia cho rằng chỉ khi tránh lãng phí thực phẩm mới có thể thực hiện chính sách tiết kiệm nước hiệu quả.",
+      "questionVietnamese": "Theo đoạn hai, cách giao dịch “nước ảo” nào đúng?",
+      "optionVietnamese": [
+        "bán công nghệ khai thác nước",
+        "trao đổi qua nông sản",
+        "chủ yếu qua mạng",
+        "không cần hàng hóa trung gian"
+      ],
+      "evidence": {
+        "traditional": "檯面上的交易只看得到農產品",
+        "simplified": "台面上的交易只看得到农产品"
+      },
+      "explanation": "Bề mặt là giao dịch nông sản, nhưng bên trong cũng là trao đổi lượng nước dùng để sản xuất."
+    },
+    "reading-q43": {
+      "number": 43,
+      "correctAnswer": "B",
+      "groupId": "reading-g-q40-q44",
+      "passageVietnamese": "Giải thưởng Nước Stockholm năm 2008 được trao cho giáo sư Tony Allan, người đưa ra khái niệm “nước ảo”: lượng nước cần cho quá trình sản xuất và bán thực phẩm hoặc hàng tiêu dùng. Con người không chỉ dùng nước khi uống hay tắm; tiêu thụ sản phẩm khác cũng dùng rất nhiều nước. Chẳng hạn, một tách cà phê cần 140 lít nước trong các khâu trồng, sản xuất, đóng gói và vận chuyển, tương đương lượng nước một người Anh dùng trung bình mỗi ngày để uống và sinh hoạt.\n\nKhái niệm này còn giải thích cách “giao dịch nước ảo”, có ảnh hưởng lớn đến chính sách thương mại và sử dụng nước toàn cầu. Nông nghiệp ở vùng khí hậu ẩm thường dùng nước mưa tự nhiên rẻ hơn hệ thống tưới tốn kém, nên giảm được chi phí sản xuất. Những vùng ấy có thể “xuất khẩu” nước sang nước nóng, khô hạn thông qua nông sản. Ngược lại, nước khô hạn có thể nhập cây trồng cần nhiều nước để giảm áp lực lên nguồn nước trong nước. Trên giấy tờ, người ta chỉ thấy giao dịch nông sản; thực chất còn có sự trao đổi nguồn nước.\n\nỞ Ai Cập, ngày càng nhiều món ăn truyền thống được làm từ lương thực nhập khẩu, thay vì lúa mì tưới bằng nước sông Nile. Nếu Ai Cập nhất quyết tự trồng toàn bộ ngũ cốc, nước này sẽ sớm thiếu nước.\n\nBáo cáo của Tuần lễ Nước Thế giới cũng dùng khái niệm trên để chỉ ra rằng khủng hoảng lương thực toàn cầu hiện nay nằm ở sự lãng phí quá mức chứ không phải sản xuất không đủ. Từ sản xuất, chế biến, vận chuyển, bảo quản, bán đến nấu ăn, mỗi khâu đều dùng nước. Vứt thức ăn đã mua cũng đồng nghĩa lãng phí nước dùng để trồng, chở và cất giữ nó. Các chuyên gia cho rằng chỉ khi tránh lãng phí thực phẩm mới có thể thực hiện chính sách tiết kiệm nước hiệu quả.",
+      "questionVietnamese": "Vì sao Ai Cập dùng lương thực nhập khẩu?",
+      "optionVietnamese": [
+        "không trồng được lúa mì",
+        "tiết kiệm nước trong nước",
+        "do thói quen ăn uống",
+        "có đủ nước để trao đổi"
+      ],
+      "evidence": {
+        "traditional": "很快就會面臨水資源不足的窘境",
+        "simplified": "很快就会面临水资源不足的窘境"
+      },
+      "explanation": "Nếu tự trồng hết ngũ cốc, Ai Cập sẽ sớm thiếu nước; nhập khẩu giúp giảm áp lực đó."
+    },
+    "reading-q44": {
+      "number": 44,
+      "correctAnswer": "C",
+      "groupId": "reading-g-q40-q44",
+      "passageVietnamese": "Giải thưởng Nước Stockholm năm 2008 được trao cho giáo sư Tony Allan, người đưa ra khái niệm “nước ảo”: lượng nước cần cho quá trình sản xuất và bán thực phẩm hoặc hàng tiêu dùng. Con người không chỉ dùng nước khi uống hay tắm; tiêu thụ sản phẩm khác cũng dùng rất nhiều nước. Chẳng hạn, một tách cà phê cần 140 lít nước trong các khâu trồng, sản xuất, đóng gói và vận chuyển, tương đương lượng nước một người Anh dùng trung bình mỗi ngày để uống và sinh hoạt.\n\nKhái niệm này còn giải thích cách “giao dịch nước ảo”, có ảnh hưởng lớn đến chính sách thương mại và sử dụng nước toàn cầu. Nông nghiệp ở vùng khí hậu ẩm thường dùng nước mưa tự nhiên rẻ hơn hệ thống tưới tốn kém, nên giảm được chi phí sản xuất. Những vùng ấy có thể “xuất khẩu” nước sang nước nóng, khô hạn thông qua nông sản. Ngược lại, nước khô hạn có thể nhập cây trồng cần nhiều nước để giảm áp lực lên nguồn nước trong nước. Trên giấy tờ, người ta chỉ thấy giao dịch nông sản; thực chất còn có sự trao đổi nguồn nước.\n\nỞ Ai Cập, ngày càng nhiều món ăn truyền thống được làm từ lương thực nhập khẩu, thay vì lúa mì tưới bằng nước sông Nile. Nếu Ai Cập nhất quyết tự trồng toàn bộ ngũ cốc, nước này sẽ sớm thiếu nước.\n\nBáo cáo của Tuần lễ Nước Thế giới cũng dùng khái niệm trên để chỉ ra rằng khủng hoảng lương thực toàn cầu hiện nay nằm ở sự lãng phí quá mức chứ không phải sản xuất không đủ. Từ sản xuất, chế biến, vận chuyển, bảo quản, bán đến nấu ăn, mỗi khâu đều dùng nước. Vứt thức ăn đã mua cũng đồng nghĩa lãng phí nước dùng để trồng, chở và cất giữ nó. Các chuyên gia cho rằng chỉ khi tránh lãng phí thực phẩm mới có thể thực hiện chính sách tiết kiệm nước hiệu quả.",
+      "questionVietnamese": "Ý chính của đoạn cuối là gì?",
+      "optionVietnamese": [
+        "cải tiến sản xuất lương thực",
+        "sản xuất lương thực giúp tiết kiệm nước",
+        "lãng phí thức ăn cũng là lãng phí nước",
+        "thiếu nước gây thiếu lương thực toàn cầu"
+      ],
+      "evidence": {
+        "traditional": "丟棄買回來的食物，也意味著浪費了",
+        "simplified": "丢弃买回来的食物，也意味着浪费了"
+      },
+      "explanation": "Bỏ thức ăn đồng nghĩa bỏ phí lượng nước dùng suốt quá trình sản xuất và vận chuyển."
+    },
+    "reading-q45": {
+      "number": 45,
+      "correctAnswer": "D",
+      "groupId": "reading-g-q45-q50",
+      "passageVietnamese": "Bạn tôi, ông Trương, mua bảo hiểm nhân thọ trọn đời kèm bảo hiểm y tế cho phẫu thuật. Ông mong khi đau ốm hoặc gặp tai nạn sẽ được hỗ trợ viện phí hay bồi thường. Người mua bảo hiểm thường cũng chỉ muốn có sự bảo đảm và yên tâm như vậy. Thế nhưng hai năm trước, sau ca phẫu thuật đục thủy tinh thể, ông xin tiền bảo hiểm mà bị công ty từ chối.\n\nNhân viên bảo hiểm nói điều khoản yêu cầu người được bảo hiểm phải nằm viện sau phẫu thuật mới được nhận tiền. Ông Trương mổ và về ngay trong ngày nên không đủ điều kiện. Ông rất bất bình: trước đây mổ đục thủy tinh thể đúng là phải nằm viện, nhưng y học đã tiến bộ, nay mổ xong có thể về ngay, không cần chiếm giường bệnh và lãng phí nguồn lực y tế.\n\nÔng Trương khiếu nại đến Trung tâm Phát triển Bảo hiểm để đòi bồi thường theo đường hợp pháp. Trung tâm xác nhận ông không nằm viện và cũng không cần nằm viện; thực tế ca mổ không đáp ứng điều kiện trong hợp đồng, nên công ty từ chối chi trả đúng theo thỏa thuận. Ông không phục, lên mạng đăng những nhận xét bất lợi cho công ty. Sau đó công ty kiện ông về hành vi phỉ báng ác ý.\n\nQua lại như vậy, hai bên đều chịu thiệt. Theo tác giả, công ty bám sát điều khoản thì có lý về mặt hợp đồng, nhưng về tình lại quá lạnh lùng và thiếu cảm thông. Công ty nên nhìn xa hơn, chủ động trao đổi, cân nhắc hỗ trợ một phần và linh hoạt ngoài câu chữ của hợp đồng. Cách ấy có thể nâng hình ảnh của công ty, giúp người được bảo hiểm và đem lại lợi ích cho cả hai bên.",
+      "questionVietnamese": "Nên thêm câu nào vào chỗ trống ở đoạn đầu?",
+      "optionVietnamese": [
+        "có người không muốn mua bảo hiểm vì nghĩ mình khỏe",
+        "công ty bảo hiểm thường viện cớ để từ chối bồi thường",
+        "điều khoản bảo hiểm khó tránh thiếu sót",
+        "người mua bảo hiểm đều muốn yên tâm và được bảo vệ"
+      ],
+      "evidence": {
+        "traditional": "希望在有生之年若患病、遭逢意外時，能獲得醫療補助或理賠",
+        "simplified": "希望在有生之年若患病、遭逢意外时，能获得医疗补助或理赔"
+      },
+      "explanation": "Câu D tiếp nối mục đích mua bảo hiểm để an tâm; sau đó “tuy nhiên” mới chuyển sang trường hợp bị từ chối."
+    },
+    "reading-q46": {
+      "number": 46,
+      "correctAnswer": "C",
+      "groupId": "reading-g-q45-q50",
+      "passageVietnamese": "Bạn tôi, ông Trương, mua bảo hiểm nhân thọ trọn đời kèm bảo hiểm y tế cho phẫu thuật. Ông mong khi đau ốm hoặc gặp tai nạn sẽ được hỗ trợ viện phí hay bồi thường. Người mua bảo hiểm thường cũng chỉ muốn có sự bảo đảm và yên tâm như vậy. Thế nhưng hai năm trước, sau ca phẫu thuật đục thủy tinh thể, ông xin tiền bảo hiểm mà bị công ty từ chối.\n\nNhân viên bảo hiểm nói điều khoản yêu cầu người được bảo hiểm phải nằm viện sau phẫu thuật mới được nhận tiền. Ông Trương mổ và về ngay trong ngày nên không đủ điều kiện. Ông rất bất bình: trước đây mổ đục thủy tinh thể đúng là phải nằm viện, nhưng y học đã tiến bộ, nay mổ xong có thể về ngay, không cần chiếm giường bệnh và lãng phí nguồn lực y tế.\n\nÔng Trương khiếu nại đến Trung tâm Phát triển Bảo hiểm để đòi bồi thường theo đường hợp pháp. Trung tâm xác nhận ông không nằm viện và cũng không cần nằm viện; thực tế ca mổ không đáp ứng điều kiện trong hợp đồng, nên công ty từ chối chi trả đúng theo thỏa thuận. Ông không phục, lên mạng đăng những nhận xét bất lợi cho công ty. Sau đó công ty kiện ông về hành vi phỉ báng ác ý.\n\nQua lại như vậy, hai bên đều chịu thiệt. Theo tác giả, công ty bám sát điều khoản thì có lý về mặt hợp đồng, nhưng về tình lại quá lạnh lùng và thiếu cảm thông. Công ty nên nhìn xa hơn, chủ động trao đổi, cân nhắc hỗ trợ một phần và linh hoạt ngoài câu chữ của hợp đồng. Cách ấy có thể nâng hình ảnh của công ty, giúp người được bảo hiểm và đem lại lợi ích cho cả hai bên.",
+      "questionVietnamese": "Theo đoạn hai, ông Trương nghĩ gì?",
+      "optionVietnamese": [
+        "bệnh viện không nên bỏ qua quy trình quan trọng",
+        "bệnh viện phải báo phí nằm viện",
+        "công ty bảo hiểm không nên chỉ xét có nằm viện hay không",
+        "công ty phải trả theo số ngày nằm viện"
+      ],
+      "evidence": {
+        "traditional": "手術完後即可離開，根本不必住院",
+        "simplified": "手术完后即可离开，根本不必住院"
+      },
+      "explanation": "Ông cho rằng mổ xong có thể về ngay, nên việc có nằm viện không nên quyết định bồi thường."
+    },
+    "reading-q47": {
+      "number": 47,
+      "correctAnswer": "C",
+      "groupId": "reading-g-q45-q50",
+      "passageVietnamese": "Bạn tôi, ông Trương, mua bảo hiểm nhân thọ trọn đời kèm bảo hiểm y tế cho phẫu thuật. Ông mong khi đau ốm hoặc gặp tai nạn sẽ được hỗ trợ viện phí hay bồi thường. Người mua bảo hiểm thường cũng chỉ muốn có sự bảo đảm và yên tâm như vậy. Thế nhưng hai năm trước, sau ca phẫu thuật đục thủy tinh thể, ông xin tiền bảo hiểm mà bị công ty từ chối.\n\nNhân viên bảo hiểm nói điều khoản yêu cầu người được bảo hiểm phải nằm viện sau phẫu thuật mới được nhận tiền. Ông Trương mổ và về ngay trong ngày nên không đủ điều kiện. Ông rất bất bình: trước đây mổ đục thủy tinh thể đúng là phải nằm viện, nhưng y học đã tiến bộ, nay mổ xong có thể về ngay, không cần chiếm giường bệnh và lãng phí nguồn lực y tế.\n\nÔng Trương khiếu nại đến Trung tâm Phát triển Bảo hiểm để đòi bồi thường theo đường hợp pháp. Trung tâm xác nhận ông không nằm viện và cũng không cần nằm viện; thực tế ca mổ không đáp ứng điều kiện trong hợp đồng, nên công ty từ chối chi trả đúng theo thỏa thuận. Ông không phục, lên mạng đăng những nhận xét bất lợi cho công ty. Sau đó công ty kiện ông về hành vi phỉ báng ác ý.\n\nQua lại như vậy, hai bên đều chịu thiệt. Theo tác giả, công ty bám sát điều khoản thì có lý về mặt hợp đồng, nhưng về tình lại quá lạnh lùng và thiếu cảm thông. Công ty nên nhìn xa hơn, chủ động trao đổi, cân nhắc hỗ trợ một phần và linh hoạt ngoài câu chữ của hợp đồng. Cách ấy có thể nâng hình ảnh của công ty, giúp người được bảo hiểm và đem lại lợi ích cho cả hai bên.",
+      "questionVietnamese": "Câu “ông Trương không có chỗ đứng trong cuộc tranh cãi” nghĩa là gì?",
+      "optionVietnamese": [
+        "ông mất can đảm",
+        "ông đã chuẩn bị kỹ",
+        "ông thiếu lý lẽ thuyết phục",
+        "ông đùn đẩy trách nhiệm"
+      ],
+      "evidence": {
+        "traditional": "手術實際狀況不符條款約定要件而未獲給付",
+        "simplified": "手术实际状况不符条款约定要件而未获给付"
+      },
+      "explanation": "Theo hợp đồng, ca mổ không đáp ứng điều kiện nằm viện; vì thế lập luận đòi bồi thường không vững."
+    },
+    "reading-q48": {
+      "number": 48,
+      "correctAnswer": "B",
+      "groupId": "reading-g-q45-q50",
+      "passageVietnamese": "Bạn tôi, ông Trương, mua bảo hiểm nhân thọ trọn đời kèm bảo hiểm y tế cho phẫu thuật. Ông mong khi đau ốm hoặc gặp tai nạn sẽ được hỗ trợ viện phí hay bồi thường. Người mua bảo hiểm thường cũng chỉ muốn có sự bảo đảm và yên tâm như vậy. Thế nhưng hai năm trước, sau ca phẫu thuật đục thủy tinh thể, ông xin tiền bảo hiểm mà bị công ty từ chối.\n\nNhân viên bảo hiểm nói điều khoản yêu cầu người được bảo hiểm phải nằm viện sau phẫu thuật mới được nhận tiền. Ông Trương mổ và về ngay trong ngày nên không đủ điều kiện. Ông rất bất bình: trước đây mổ đục thủy tinh thể đúng là phải nằm viện, nhưng y học đã tiến bộ, nay mổ xong có thể về ngay, không cần chiếm giường bệnh và lãng phí nguồn lực y tế.\n\nÔng Trương khiếu nại đến Trung tâm Phát triển Bảo hiểm để đòi bồi thường theo đường hợp pháp. Trung tâm xác nhận ông không nằm viện và cũng không cần nằm viện; thực tế ca mổ không đáp ứng điều kiện trong hợp đồng, nên công ty từ chối chi trả đúng theo thỏa thuận. Ông không phục, lên mạng đăng những nhận xét bất lợi cho công ty. Sau đó công ty kiện ông về hành vi phỉ báng ác ý.\n\nQua lại như vậy, hai bên đều chịu thiệt. Theo tác giả, công ty bám sát điều khoản thì có lý về mặt hợp đồng, nhưng về tình lại quá lạnh lùng và thiếu cảm thông. Công ty nên nhìn xa hơn, chủ động trao đổi, cân nhắc hỗ trợ một phần và linh hoạt ngoài câu chữ của hợp đồng. Cách ấy có thể nâng hình ảnh của công ty, giúp người được bảo hiểm và đem lại lợi ích cho cả hai bên.",
+      "questionVietnamese": "Công ty bảo hiểm giữ lập trường nào?",
+      "optionVietnamese": [
+        "cho rằng người được bảo hiểm lãng phí y tế",
+        "luôn làm theo nội dung hợp đồng",
+        "sau đó đồng ý bồi thường một phần",
+        "sau đó thừa nhận hợp đồng thiếu tình người"
+      ],
+      "evidence": {
+        "traditional": "保險公司堅守合約條款",
+        "simplified": "保险公司坚守合约条款"
+      },
+      "explanation": "Bài nói công ty giữ đúng điều khoản; đề nghị hỗ trợ một phần chỉ là ý kiến của tác giả."
+    },
+    "reading-q49": {
+      "number": 49,
+      "correctAnswer": "A",
+      "groupId": "reading-g-q45-q50",
+      "passageVietnamese": "Bạn tôi, ông Trương, mua bảo hiểm nhân thọ trọn đời kèm bảo hiểm y tế cho phẫu thuật. Ông mong khi đau ốm hoặc gặp tai nạn sẽ được hỗ trợ viện phí hay bồi thường. Người mua bảo hiểm thường cũng chỉ muốn có sự bảo đảm và yên tâm như vậy. Thế nhưng hai năm trước, sau ca phẫu thuật đục thủy tinh thể, ông xin tiền bảo hiểm mà bị công ty từ chối.\n\nNhân viên bảo hiểm nói điều khoản yêu cầu người được bảo hiểm phải nằm viện sau phẫu thuật mới được nhận tiền. Ông Trương mổ và về ngay trong ngày nên không đủ điều kiện. Ông rất bất bình: trước đây mổ đục thủy tinh thể đúng là phải nằm viện, nhưng y học đã tiến bộ, nay mổ xong có thể về ngay, không cần chiếm giường bệnh và lãng phí nguồn lực y tế.\n\nÔng Trương khiếu nại đến Trung tâm Phát triển Bảo hiểm để đòi bồi thường theo đường hợp pháp. Trung tâm xác nhận ông không nằm viện và cũng không cần nằm viện; thực tế ca mổ không đáp ứng điều kiện trong hợp đồng, nên công ty từ chối chi trả đúng theo thỏa thuận. Ông không phục, lên mạng đăng những nhận xét bất lợi cho công ty. Sau đó công ty kiện ông về hành vi phỉ báng ác ý.\n\nQua lại như vậy, hai bên đều chịu thiệt. Theo tác giả, công ty bám sát điều khoản thì có lý về mặt hợp đồng, nhưng về tình lại quá lạnh lùng và thiếu cảm thông. Công ty nên nhìn xa hơn, chủ động trao đổi, cân nhắc hỗ trợ một phần và linh hoạt ngoài câu chữ của hợp đồng. Cách ấy có thể nâng hình ảnh của công ty, giúp người được bảo hiểm và đem lại lợi ích cho cả hai bên.",
+      "questionVietnamese": "Theo đoạn cuối, tác giả nghĩ công ty bảo hiểm thế nào?",
+      "optionVietnamese": [
+        "quá thiếu tình người",
+        "không nên tránh gặp mặt",
+        "phải bồi thường toàn bộ",
+        "làm sai cả tình lẫn lý"
+      ],
+      "evidence": {
+        "traditional": "在「情」方面未免有失人情味、過於冷血",
+        "simplified": "在「情」方面未免有失人情味、过于冷血"
+      },
+      "explanation": "Tác giả công nhận công ty có lý theo hợp đồng nhưng phê bình cách xử lý quá lạnh lùng."
+    },
+    "reading-q50": {
+      "number": 50,
+      "correctAnswer": "A",
+      "groupId": "reading-g-q45-q50",
+      "passageVietnamese": "Bạn tôi, ông Trương, mua bảo hiểm nhân thọ trọn đời kèm bảo hiểm y tế cho phẫu thuật. Ông mong khi đau ốm hoặc gặp tai nạn sẽ được hỗ trợ viện phí hay bồi thường. Người mua bảo hiểm thường cũng chỉ muốn có sự bảo đảm và yên tâm như vậy. Thế nhưng hai năm trước, sau ca phẫu thuật đục thủy tinh thể, ông xin tiền bảo hiểm mà bị công ty từ chối.\n\nNhân viên bảo hiểm nói điều khoản yêu cầu người được bảo hiểm phải nằm viện sau phẫu thuật mới được nhận tiền. Ông Trương mổ và về ngay trong ngày nên không đủ điều kiện. Ông rất bất bình: trước đây mổ đục thủy tinh thể đúng là phải nằm viện, nhưng y học đã tiến bộ, nay mổ xong có thể về ngay, không cần chiếm giường bệnh và lãng phí nguồn lực y tế.\n\nÔng Trương khiếu nại đến Trung tâm Phát triển Bảo hiểm để đòi bồi thường theo đường hợp pháp. Trung tâm xác nhận ông không nằm viện và cũng không cần nằm viện; thực tế ca mổ không đáp ứng điều kiện trong hợp đồng, nên công ty từ chối chi trả đúng theo thỏa thuận. Ông không phục, lên mạng đăng những nhận xét bất lợi cho công ty. Sau đó công ty kiện ông về hành vi phỉ báng ác ý.\n\nQua lại như vậy, hai bên đều chịu thiệt. Theo tác giả, công ty bám sát điều khoản thì có lý về mặt hợp đồng, nhưng về tình lại quá lạnh lùng và thiếu cảm thông. Công ty nên nhìn xa hơn, chủ động trao đổi, cân nhắc hỗ trợ một phần và linh hoạt ngoài câu chữ của hợp đồng. Cách ấy có thể nâng hình ảnh của công ty, giúp người được bảo hiểm và đem lại lợi ích cho cả hai bên.",
+      "questionVietnamese": "Nhan đề nào phù hợp nhất với bài?",
+      "optionVietnamese": [
+        "sự linh hoạt ngoài điều khoản trên giấy",
+        "chuyện người nhỏ thắng công ty lớn",
+        "ví dụ trên không ngay dưới sẽ loạn",
+        "phải có bên thứ ba mới cùng có lợi"
+      ],
+      "evidence": {
+        "traditional": "如能不拘泥於明文規定",
+        "simplified": "如能不拘泥于明文规定"
+      },
+      "explanation": "Bài đề xuất công ty linh hoạt ngoài chữ nghĩa hợp đồng để đôi bên cùng có lợi."
+    }
+  }
+}

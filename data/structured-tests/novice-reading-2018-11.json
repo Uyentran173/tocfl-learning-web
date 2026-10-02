@@ -1,0 +1,1042 @@
+{
+  "schemaVersion": "2.0",
+  "exam": {
+    "id": "novice-reading-2018-11",
+    "title": "TOCFL Band Novice — Đề 01",
+    "level": "Novice",
+    "variants": [
+      "traditional",
+      "simplified"
+    ],
+    "defaultVariant": "traditional",
+    "componentOrder": [
+      "listening",
+      "reading"
+    ],
+    "questionNumbering": "restart_per_component",
+    "totalQuestions": 50,
+    "estimatedDurationSeconds": 3000,
+    "choiceLabels": [
+      "A",
+      "B",
+      "C"
+    ]
+  },
+  "flow": {
+    "order": [
+      "listening",
+      "reading"
+    ],
+    "mustCompleteInOrder": true,
+    "preserveSelectedVariantBetweenComponents": true,
+    "note": "Listening is completed first, then Reading."
+  },
+  "components": {
+    "listening": {
+      "id": "listening",
+      "title": "TOCFL Novice Listening",
+      "order": 1,
+      "totalQuestions": 25,
+      "estimatedDurationSeconds": 1500,
+      "timingMode": "audio_driven",
+      "sections": [
+        {
+          "id": "listening-part-1",
+          "title": "Part 1",
+          "questionFormat": "audio_sentence_to_image",
+          "startQuestion": 1,
+          "endQuestion": 10,
+          "introAudio": "/tests/novice-reading-2018-11/listening/audio/part-1-intro.mp3"
+        },
+        {
+          "id": "listening-part-2",
+          "title": "Part 2",
+          "questionFormat": "image_to_audio_sentences",
+          "startQuestion": 11,
+          "endQuestion": 20,
+          "introAudio": "/tests/novice-reading-2018-11/listening/audio/part-2-intro.mp3"
+        },
+        {
+          "id": "listening-part-3",
+          "title": "Part 3",
+          "questionFormat": "dialogue_question",
+          "startQuestion": 21,
+          "endQuestion": 25,
+          "introAudio": "/tests/novice-reading-2018-11/listening/audio/part-3-intro.mp3"
+        }
+      ],
+      "audio": {
+        "endingTrack": "/tests/novice-reading-2018-11/listening/audio/ending.mp3",
+        "questionTracksAlreadyContainOfficialRepeatsAndPauses": true,
+        "note": "Do not synthesize or duplicate the spoken repetitions in code; use the supplied tracks as-is."
+      },
+      "scoring": {
+        "type": "lookup_table",
+        "maxScore": 80,
+        "scoreByCorrectCount": {
+          "1": 10,
+          "2": 17,
+          "3": 22,
+          "4": 26,
+          "5": 29,
+          "6": 32,
+          "7": 35,
+          "8": 37,
+          "9": 39,
+          "10": 41,
+          "11": 43,
+          "12": 45,
+          "13": 47,
+          "14": 49,
+          "15": 51,
+          "16": 53,
+          "17": 55,
+          "18": 57,
+          "19": 60,
+          "20": 62,
+          "21": 65,
+          "22": 69,
+          "23": 74,
+          "24": 80,
+          "25": 80
+        },
+        "note": "The supplied score table starts at 1 correct answer; no 0-correct row was supplied."
+      },
+      "questions": [
+        {
+          "id": "listening-q01",
+          "number": 1,
+          "sectionId": "listening-part-1",
+          "type": "audio_to_image",
+          "variantInvariant": true,
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/listening/assets/shared/q01.png",
+            "simplified": "/tests/novice-reading-2018-11/listening/assets/shared/q01.png"
+          },
+          "audio": "/tests/novice-reading-2018-11/listening/audio/q01.mp3",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B"
+        },
+        {
+          "id": "listening-q02",
+          "number": 2,
+          "sectionId": "listening-part-1",
+          "type": "audio_to_image",
+          "variantInvariant": true,
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/listening/assets/shared/q02.png",
+            "simplified": "/tests/novice-reading-2018-11/listening/assets/shared/q02.png"
+          },
+          "audio": "/tests/novice-reading-2018-11/listening/audio/q02.mp3",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "id": "listening-q03",
+          "number": 3,
+          "sectionId": "listening-part-1",
+          "type": "audio_to_image",
+          "variantInvariant": true,
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/listening/assets/shared/q03.png",
+            "simplified": "/tests/novice-reading-2018-11/listening/assets/shared/q03.png"
+          },
+          "audio": "/tests/novice-reading-2018-11/listening/audio/q03.mp3",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "id": "listening-q04",
+          "number": 4,
+          "sectionId": "listening-part-1",
+          "type": "audio_to_image",
+          "variantInvariant": true,
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/listening/assets/shared/q04.png",
+            "simplified": "/tests/novice-reading-2018-11/listening/assets/shared/q04.png"
+          },
+          "audio": "/tests/novice-reading-2018-11/listening/audio/q04.mp3",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "id": "listening-q05",
+          "number": 5,
+          "sectionId": "listening-part-1",
+          "type": "audio_to_image",
+          "variantInvariant": true,
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/listening/assets/shared/q05.png",
+            "simplified": "/tests/novice-reading-2018-11/listening/assets/shared/q05.png"
+          },
+          "audio": "/tests/novice-reading-2018-11/listening/audio/q05.mp3",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "id": "listening-q06",
+          "number": 6,
+          "sectionId": "listening-part-1",
+          "type": "audio_to_image",
+          "variantInvariant": true,
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/listening/assets/shared/q06.png",
+            "simplified": "/tests/novice-reading-2018-11/listening/assets/shared/q06.png"
+          },
+          "audio": "/tests/novice-reading-2018-11/listening/audio/q06.mp3",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "id": "listening-q07",
+          "number": 7,
+          "sectionId": "listening-part-1",
+          "type": "audio_to_image",
+          "variantInvariant": true,
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/listening/assets/shared/q07.png",
+            "simplified": "/tests/novice-reading-2018-11/listening/assets/shared/q07.png"
+          },
+          "audio": "/tests/novice-reading-2018-11/listening/audio/q07.mp3",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "id": "listening-q08",
+          "number": 8,
+          "sectionId": "listening-part-1",
+          "type": "audio_to_image",
+          "variantInvariant": true,
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/listening/assets/shared/q08.png",
+            "simplified": "/tests/novice-reading-2018-11/listening/assets/shared/q08.png"
+          },
+          "audio": "/tests/novice-reading-2018-11/listening/audio/q08.mp3",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "id": "listening-q09",
+          "number": 9,
+          "sectionId": "listening-part-1",
+          "type": "audio_to_image",
+          "variantInvariant": true,
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/listening/assets/shared/q09.png",
+            "simplified": "/tests/novice-reading-2018-11/listening/assets/shared/q09.png"
+          },
+          "audio": "/tests/novice-reading-2018-11/listening/audio/q09.mp3",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B"
+        },
+        {
+          "id": "listening-q10",
+          "number": 10,
+          "sectionId": "listening-part-1",
+          "type": "audio_to_image",
+          "variantInvariant": true,
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/listening/assets/shared/q10.png",
+            "simplified": "/tests/novice-reading-2018-11/listening/assets/shared/q10.png"
+          },
+          "audio": "/tests/novice-reading-2018-11/listening/audio/q10.mp3",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "id": "listening-q11",
+          "number": 11,
+          "sectionId": "listening-part-2",
+          "type": "image_to_audio_choices",
+          "variantInvariant": true,
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/listening/assets/shared/q11.png",
+            "simplified": "/tests/novice-reading-2018-11/listening/assets/shared/q11.png"
+          },
+          "audio": "/tests/novice-reading-2018-11/listening/audio/q11.mp3",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "id": "listening-q12",
+          "number": 12,
+          "sectionId": "listening-part-2",
+          "type": "image_to_audio_choices",
+          "variantInvariant": true,
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/listening/assets/shared/q12.png",
+            "simplified": "/tests/novice-reading-2018-11/listening/assets/shared/q12.png"
+          },
+          "audio": "/tests/novice-reading-2018-11/listening/audio/q12.mp3",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B"
+        },
+        {
+          "id": "listening-q13",
+          "number": 13,
+          "sectionId": "listening-part-2",
+          "type": "image_to_audio_choices",
+          "variantInvariant": true,
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/listening/assets/shared/q13.png",
+            "simplified": "/tests/novice-reading-2018-11/listening/assets/shared/q13.png"
+          },
+          "audio": "/tests/novice-reading-2018-11/listening/audio/q13.mp3",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "id": "listening-q14",
+          "number": 14,
+          "sectionId": "listening-part-2",
+          "type": "image_to_audio_choices",
+          "variantInvariant": true,
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/listening/assets/shared/q14.png",
+            "simplified": "/tests/novice-reading-2018-11/listening/assets/shared/q14.png"
+          },
+          "audio": "/tests/novice-reading-2018-11/listening/audio/q14.mp3",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "id": "listening-q15",
+          "number": 15,
+          "sectionId": "listening-part-2",
+          "type": "image_to_audio_choices",
+          "variantInvariant": true,
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/listening/assets/shared/q15.png",
+            "simplified": "/tests/novice-reading-2018-11/listening/assets/shared/q15.png"
+          },
+          "audio": "/tests/novice-reading-2018-11/listening/audio/q15.mp3",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B"
+        },
+        {
+          "id": "listening-q16",
+          "number": 16,
+          "sectionId": "listening-part-2",
+          "type": "image_to_audio_choices",
+          "variantInvariant": true,
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/listening/assets/shared/q16.png",
+            "simplified": "/tests/novice-reading-2018-11/listening/assets/shared/q16.png"
+          },
+          "audio": "/tests/novice-reading-2018-11/listening/audio/q16.mp3",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "id": "listening-q17",
+          "number": 17,
+          "sectionId": "listening-part-2",
+          "type": "image_to_audio_choices",
+          "variantInvariant": true,
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/listening/assets/shared/q17.png",
+            "simplified": "/tests/novice-reading-2018-11/listening/assets/shared/q17.png"
+          },
+          "audio": "/tests/novice-reading-2018-11/listening/audio/q17.mp3",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "id": "listening-q18",
+          "number": 18,
+          "sectionId": "listening-part-2",
+          "type": "image_to_audio_choices",
+          "variantInvariant": true,
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/listening/assets/shared/q18.png",
+            "simplified": "/tests/novice-reading-2018-11/listening/assets/shared/q18.png"
+          },
+          "audio": "/tests/novice-reading-2018-11/listening/audio/q18.mp3",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B"
+        },
+        {
+          "id": "listening-q19",
+          "number": 19,
+          "sectionId": "listening-part-2",
+          "type": "image_to_audio_choices",
+          "variantInvariant": true,
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/listening/assets/shared/q19.png",
+            "simplified": "/tests/novice-reading-2018-11/listening/assets/shared/q19.png"
+          },
+          "audio": "/tests/novice-reading-2018-11/listening/audio/q19.mp3",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B"
+        },
+        {
+          "id": "listening-q20",
+          "number": 20,
+          "sectionId": "listening-part-2",
+          "type": "image_to_audio_choices",
+          "variantInvariant": true,
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/listening/assets/shared/q20.png",
+            "simplified": "/tests/novice-reading-2018-11/listening/assets/shared/q20.png"
+          },
+          "audio": "/tests/novice-reading-2018-11/listening/audio/q20.mp3",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "id": "listening-q21",
+          "number": 21,
+          "sectionId": "listening-part-3",
+          "type": "audio_dialogue_question",
+          "variantInvariant": false,
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/listening/assets/traditional/q21.png",
+            "simplified": "/tests/novice-reading-2018-11/listening/assets/simplified/q21.png"
+          },
+          "audio": "/tests/novice-reading-2018-11/listening/audio/q21.mp3",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B"
+        },
+        {
+          "id": "listening-q22",
+          "number": 22,
+          "sectionId": "listening-part-3",
+          "type": "audio_dialogue_question",
+          "variantInvariant": false,
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/listening/assets/traditional/q22.png",
+            "simplified": "/tests/novice-reading-2018-11/listening/assets/simplified/q22.png"
+          },
+          "audio": "/tests/novice-reading-2018-11/listening/audio/q22.mp3",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "id": "listening-q23",
+          "number": 23,
+          "sectionId": "listening-part-3",
+          "type": "audio_dialogue_question",
+          "variantInvariant": false,
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/listening/assets/traditional/q23.png",
+            "simplified": "/tests/novice-reading-2018-11/listening/assets/simplified/q23.png"
+          },
+          "audio": "/tests/novice-reading-2018-11/listening/audio/q23.mp3",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A"
+        },
+        {
+          "id": "listening-q24",
+          "number": 24,
+          "sectionId": "listening-part-3",
+          "type": "audio_dialogue_question",
+          "variantInvariant": false,
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/listening/assets/traditional/q24.png",
+            "simplified": "/tests/novice-reading-2018-11/listening/assets/simplified/q24.png"
+          },
+          "audio": "/tests/novice-reading-2018-11/listening/audio/q24.mp3",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C"
+        },
+        {
+          "id": "listening-q25",
+          "number": 25,
+          "sectionId": "listening-part-3",
+          "type": "audio_dialogue_question",
+          "variantInvariant": false,
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/listening/assets/traditional/q25.png",
+            "simplified": "/tests/novice-reading-2018-11/listening/assets/simplified/q25.png"
+          },
+          "audio": "/tests/novice-reading-2018-11/listening/audio/q25.mp3",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C"
+        }
+      ]
+    },
+    "reading": {
+      "id": "reading",
+      "title": "TOCFL Novice Reading Mock Test 201811",
+      "order": 2,
+      "totalQuestions": 25,
+      "durationSeconds": 1500,
+      "timingMode": "countdown",
+      "sections": [
+        {
+          "id": "reading-part-1",
+          "title": "Part 1",
+          "questionFormat": "text_to_image",
+          "startQuestion": 1,
+          "endQuestion": 15
+        },
+        {
+          "id": "reading-part-2",
+          "title": "Part 2",
+          "questionFormat": "image_to_text",
+          "startQuestion": 16,
+          "endQuestion": 25
+        }
+      ],
+      "scoring": {
+        "type": "lookup_table",
+        "maxScore": 80,
+        "scoreByCorrectCount": {
+          "1": 12,
+          "2": 20,
+          "3": 25,
+          "4": 29,
+          "5": 32,
+          "6": 35,
+          "7": 38,
+          "8": 40,
+          "9": 42,
+          "10": 44,
+          "11": 47,
+          "12": 49,
+          "13": 51,
+          "14": 53,
+          "15": 55,
+          "16": 57,
+          "17": 59,
+          "18": 61,
+          "19": 64,
+          "20": 67,
+          "21": 70,
+          "22": 74,
+          "23": 79,
+          "24": 80,
+          "25": 80
+        },
+        "note": "The supplied score table starts at 1 correct answer; no 0-correct row was supplied, so 0 is intentionally not invented here."
+      },
+      "questions": [
+        {
+          "id": "reading-q01",
+          "number": 1,
+          "sectionId": "reading-part-1",
+          "type": "single_choice",
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/reading/assets/traditional/q01.png",
+            "simplified": "/tests/novice-reading-2018-11/reading/assets/simplified/q01.png"
+          },
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "variantInvariant": false
+        },
+        {
+          "id": "reading-q02",
+          "number": 2,
+          "sectionId": "reading-part-1",
+          "type": "single_choice",
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/reading/assets/traditional/q02.png",
+            "simplified": "/tests/novice-reading-2018-11/reading/assets/simplified/q02.png"
+          },
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "variantInvariant": false
+        },
+        {
+          "id": "reading-q03",
+          "number": 3,
+          "sectionId": "reading-part-1",
+          "type": "single_choice",
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/reading/assets/traditional/q03.png",
+            "simplified": "/tests/novice-reading-2018-11/reading/assets/simplified/q03.png"
+          },
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "variantInvariant": false
+        },
+        {
+          "id": "reading-q04",
+          "number": 4,
+          "sectionId": "reading-part-1",
+          "type": "single_choice",
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/reading/assets/traditional/q04.png",
+            "simplified": "/tests/novice-reading-2018-11/reading/assets/simplified/q04.png"
+          },
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "variantInvariant": false
+        },
+        {
+          "id": "reading-q05",
+          "number": 5,
+          "sectionId": "reading-part-1",
+          "type": "single_choice",
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/reading/assets/traditional/q05.png",
+            "simplified": "/tests/novice-reading-2018-11/reading/assets/simplified/q05.png"
+          },
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "variantInvariant": false
+        },
+        {
+          "id": "reading-q06",
+          "number": 6,
+          "sectionId": "reading-part-1",
+          "type": "single_choice",
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/reading/assets/traditional/q06.png",
+            "simplified": "/tests/novice-reading-2018-11/reading/assets/simplified/q06.png"
+          },
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "variantInvariant": false
+        },
+        {
+          "id": "reading-q07",
+          "number": 7,
+          "sectionId": "reading-part-1",
+          "type": "single_choice",
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/reading/assets/traditional/q07.png",
+            "simplified": "/tests/novice-reading-2018-11/reading/assets/simplified/q07.png"
+          },
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "variantInvariant": false
+        },
+        {
+          "id": "reading-q08",
+          "number": 8,
+          "sectionId": "reading-part-1",
+          "type": "single_choice",
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/reading/assets/traditional/q08.png",
+            "simplified": "/tests/novice-reading-2018-11/reading/assets/simplified/q08.png"
+          },
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "variantInvariant": false
+        },
+        {
+          "id": "reading-q09",
+          "number": 9,
+          "sectionId": "reading-part-1",
+          "type": "single_choice",
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/reading/assets/traditional/q09.png",
+            "simplified": "/tests/novice-reading-2018-11/reading/assets/simplified/q09.png"
+          },
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "variantInvariant": false
+        },
+        {
+          "id": "reading-q10",
+          "number": 10,
+          "sectionId": "reading-part-1",
+          "type": "single_choice",
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/reading/assets/traditional/q10.png",
+            "simplified": "/tests/novice-reading-2018-11/reading/assets/simplified/q10.png"
+          },
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "variantInvariant": false
+        },
+        {
+          "id": "reading-q11",
+          "number": 11,
+          "sectionId": "reading-part-1",
+          "type": "single_choice",
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/reading/assets/traditional/q11.png",
+            "simplified": "/tests/novice-reading-2018-11/reading/assets/simplified/q11.png"
+          },
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "variantInvariant": false
+        },
+        {
+          "id": "reading-q12",
+          "number": 12,
+          "sectionId": "reading-part-1",
+          "type": "single_choice",
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/reading/assets/traditional/q12.png",
+            "simplified": "/tests/novice-reading-2018-11/reading/assets/simplified/q12.png"
+          },
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "variantInvariant": false
+        },
+        {
+          "id": "reading-q13",
+          "number": 13,
+          "sectionId": "reading-part-1",
+          "type": "single_choice",
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/reading/assets/traditional/q13.png",
+            "simplified": "/tests/novice-reading-2018-11/reading/assets/simplified/q13.png"
+          },
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "variantInvariant": false
+        },
+        {
+          "id": "reading-q14",
+          "number": 14,
+          "sectionId": "reading-part-1",
+          "type": "single_choice",
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/reading/assets/traditional/q14.png",
+            "simplified": "/tests/novice-reading-2018-11/reading/assets/simplified/q14.png"
+          },
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "variantInvariant": false
+        },
+        {
+          "id": "reading-q15",
+          "number": 15,
+          "sectionId": "reading-part-1",
+          "type": "single_choice",
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/reading/assets/traditional/q15.png",
+            "simplified": "/tests/novice-reading-2018-11/reading/assets/simplified/q15.png"
+          },
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "variantInvariant": false
+        },
+        {
+          "id": "reading-q16",
+          "number": 16,
+          "sectionId": "reading-part-2",
+          "type": "single_choice",
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/reading/assets/traditional/q16.png",
+            "simplified": "/tests/novice-reading-2018-11/reading/assets/simplified/q16.png"
+          },
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "variantInvariant": false
+        },
+        {
+          "id": "reading-q17",
+          "number": 17,
+          "sectionId": "reading-part-2",
+          "type": "single_choice",
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/reading/assets/traditional/q17.png",
+            "simplified": "/tests/novice-reading-2018-11/reading/assets/simplified/q17.png"
+          },
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "variantInvariant": false
+        },
+        {
+          "id": "reading-q18",
+          "number": 18,
+          "sectionId": "reading-part-2",
+          "type": "single_choice",
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/reading/assets/traditional/q18.png",
+            "simplified": "/tests/novice-reading-2018-11/reading/assets/simplified/q18.png"
+          },
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "variantInvariant": false
+        },
+        {
+          "id": "reading-q19",
+          "number": 19,
+          "sectionId": "reading-part-2",
+          "type": "single_choice",
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/reading/assets/traditional/q19.png",
+            "simplified": "/tests/novice-reading-2018-11/reading/assets/simplified/q19.png"
+          },
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "variantInvariant": false
+        },
+        {
+          "id": "reading-q20",
+          "number": 20,
+          "sectionId": "reading-part-2",
+          "type": "single_choice",
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/reading/assets/traditional/q20.png",
+            "simplified": "/tests/novice-reading-2018-11/reading/assets/simplified/q20.png"
+          },
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "variantInvariant": false
+        },
+        {
+          "id": "reading-q21",
+          "number": 21,
+          "sectionId": "reading-part-2",
+          "type": "single_choice",
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/reading/assets/traditional/q21.png",
+            "simplified": "/tests/novice-reading-2018-11/reading/assets/simplified/q21.png"
+          },
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "variantInvariant": false
+        },
+        {
+          "id": "reading-q22",
+          "number": 22,
+          "sectionId": "reading-part-2",
+          "type": "single_choice",
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/reading/assets/traditional/q22.png",
+            "simplified": "/tests/novice-reading-2018-11/reading/assets/simplified/q22.png"
+          },
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "variantInvariant": false
+        },
+        {
+          "id": "reading-q23",
+          "number": 23,
+          "sectionId": "reading-part-2",
+          "type": "single_choice",
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/reading/assets/traditional/q23.png",
+            "simplified": "/tests/novice-reading-2018-11/reading/assets/simplified/q23.png"
+          },
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "variantInvariant": false
+        },
+        {
+          "id": "reading-q24",
+          "number": 24,
+          "sectionId": "reading-part-2",
+          "type": "single_choice",
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/reading/assets/traditional/q24.png",
+            "simplified": "/tests/novice-reading-2018-11/reading/assets/simplified/q24.png"
+          },
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "variantInvariant": false
+        },
+        {
+          "id": "reading-q25",
+          "number": 25,
+          "sectionId": "reading-part-2",
+          "type": "single_choice",
+          "assets": {
+            "traditional": "/tests/novice-reading-2018-11/reading/assets/traditional/q25.png",
+            "simplified": "/tests/novice-reading-2018-11/reading/assets/simplified/q25.png"
+          },
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "variantInvariant": false
+        }
+      ]
+    }
+  }
+}

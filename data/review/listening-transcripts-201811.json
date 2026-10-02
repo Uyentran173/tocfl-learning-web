@@ -1,0 +1,634 @@
+{
+  "schemaVersion": "1.0",
+  "examId": "tocfl-novice-mock-201811",
+  "componentId": "listening",
+  "purpose": "Supplemental transcript data for on-demand review/explanation UI.",
+  "source": {
+    "title": "準備級模擬試題聽力測驗腳本 / Script of Listening Test",
+    "note": "Traditional Chinese text is transcribed from the supplied official script PDF. Simplified Chinese is a script-variant conversion prepared for the website."
+  },
+  "display": {
+    "defaultHidden": true,
+    "revealMode": "user_action",
+    "recommendedButtonLabelVi": "Xem script",
+    "recommendedButtonLabelTraditional": "查看逐字稿",
+    "recommendedButtonLabelSimplified": "查看逐字稿",
+    "recommendedTiming": "after_answer_or_after_submission",
+    "variantAware": true
+  },
+  "integration": {
+    "questionIdPattern": "listening-qNN",
+    "joinKey": "questionId",
+    "doNotCreateNewQuestions": true,
+    "doNotReplaceAudio": true,
+    "doNotReplaceQuestionAssets": true,
+    "note": "Attach this transcript object to the existing listening questions. The existing exam package remains the source of truth for media, scoring, answers, and exam flow."
+  },
+  "questions": [
+    {
+      "questionId": "listening-q01",
+      "number": 1,
+      "part": 1,
+      "scriptType": "sentence",
+      "correctAnswer": "B",
+      "script": {
+        "traditional": {
+          "sentence": "我要喝茶。"
+        },
+        "simplified": {
+          "sentence": "我要喝茶。"
+        }
+      }
+    },
+    {
+      "questionId": "listening-q02",
+      "number": 2,
+      "part": 1,
+      "scriptType": "sentence",
+      "correctAnswer": "C",
+      "script": {
+        "traditional": {
+          "sentence": "這是我的書。"
+        },
+        "simplified": {
+          "sentence": "这是我的书。"
+        }
+      }
+    },
+    {
+      "questionId": "listening-q03",
+      "number": 3,
+      "part": 1,
+      "scriptType": "sentence",
+      "correctAnswer": "A",
+      "script": {
+        "traditional": {
+          "sentence": "他早上八點起床。"
+        },
+        "simplified": {
+          "sentence": "他早上八点起床。"
+        }
+      }
+    },
+    {
+      "questionId": "listening-q04",
+      "number": 4,
+      "part": 1,
+      "scriptType": "sentence",
+      "correctAnswer": "A",
+      "script": {
+        "traditional": {
+          "sentence": "我只買了褲子。"
+        },
+        "simplified": {
+          "sentence": "我只买了裤子。"
+        }
+      }
+    },
+    {
+      "questionId": "listening-q05",
+      "number": 5,
+      "part": 1,
+      "scriptType": "sentence",
+      "correctAnswer": "C",
+      "script": {
+        "traditional": {
+          "sentence": "這裡有三杯水。"
+        },
+        "simplified": {
+          "sentence": "这里有三杯水。"
+        }
+      }
+    },
+    {
+      "questionId": "listening-q06",
+      "number": 6,
+      "part": 1,
+      "scriptType": "sentence",
+      "correctAnswer": "C",
+      "script": {
+        "traditional": {
+          "sentence": "我的生日是七月十一號。"
+        },
+        "simplified": {
+          "sentence": "我的生日是七月十一号。"
+        }
+      }
+    },
+    {
+      "questionId": "listening-q07",
+      "number": 7,
+      "part": 1,
+      "scriptType": "sentence",
+      "correctAnswer": "A",
+      "script": {
+        "traditional": {
+          "sentence": "他在穿鞋子。"
+        },
+        "simplified": {
+          "sentence": "他在穿鞋子。"
+        }
+      }
+    },
+    {
+      "questionId": "listening-q08",
+      "number": 8,
+      "part": 1,
+      "scriptType": "sentence",
+      "correctAnswer": "A",
+      "script": {
+        "traditional": {
+          "sentence": "那裡有狗。"
+        },
+        "simplified": {
+          "sentence": "那里有狗。"
+        }
+      }
+    },
+    {
+      "questionId": "listening-q09",
+      "number": 9,
+      "part": 1,
+      "scriptType": "sentence",
+      "correctAnswer": "B",
+      "script": {
+        "traditional": {
+          "sentence": "他開車去學校。"
+        },
+        "simplified": {
+          "sentence": "他开车去学校。"
+        }
+      }
+    },
+    {
+      "questionId": "listening-q10",
+      "number": 10,
+      "part": 1,
+      "scriptType": "sentence",
+      "correctAnswer": "C",
+      "script": {
+        "traditional": {
+          "sentence": "王太太在醫院工作。"
+        },
+        "simplified": {
+          "sentence": "王太太在医院工作。"
+        }
+      }
+    },
+    {
+      "questionId": "listening-q11",
+      "number": 11,
+      "part": 2,
+      "scriptType": "spoken_choices",
+      "correctAnswer": "A",
+      "script": {
+        "traditional": {
+          "choices": {
+            "A": "公司的電話號碼是 8651-0426。",
+            "B": "公司的電話號碼是 8671-0426。",
+            "C": "公司的電話號碼是 8691-0426。"
+          }
+        },
+        "simplified": {
+          "choices": {
+            "A": "公司的电话号码是 8651-0426。",
+            "B": "公司的电话号码是 8671-0426。",
+            "C": "公司的电话号码是 8691-0426。"
+          }
+        }
+      }
+    },
+    {
+      "questionId": "listening-q12",
+      "number": 12,
+      "part": 2,
+      "scriptType": "spoken_choices",
+      "correctAnswer": "B",
+      "script": {
+        "traditional": {
+          "choices": {
+            "A": "十一月九號是星期五。",
+            "B": "十一月十號是星期五。",
+            "C": "十一月十一號是星期五。"
+          }
+        },
+        "simplified": {
+          "choices": {
+            "A": "十一月九号是星期五。",
+            "B": "十一月十号是星期五。",
+            "C": "十一月十一号是星期五。"
+          }
+        }
+      }
+    },
+    {
+      "questionId": "listening-q13",
+      "number": 13,
+      "part": 2,
+      "scriptType": "spoken_choices",
+      "correctAnswer": "A",
+      "script": {
+        "traditional": {
+          "choices": {
+            "A": "他在吃東西。",
+            "B": "他在找東西。",
+            "C": "他在洗東西。"
+          }
+        },
+        "simplified": {
+          "choices": {
+            "A": "他在吃东西。",
+            "B": "他在找东西。",
+            "C": "他在洗东西。"
+          }
+        }
+      }
+    },
+    {
+      "questionId": "listening-q14",
+      "number": 14,
+      "part": 2,
+      "scriptType": "spoken_choices",
+      "correctAnswer": "C",
+      "script": {
+        "traditional": {
+          "choices": {
+            "A": "我下午去餐廳。",
+            "B": "我下午去市場。",
+            "C": "我下午去圖書館。"
+          }
+        },
+        "simplified": {
+          "choices": {
+            "A": "我下午去餐厅。",
+            "B": "我下午去市场。",
+            "C": "我下午去图书馆。"
+          }
+        }
+      }
+    },
+    {
+      "questionId": "listening-q15",
+      "number": 15,
+      "part": 2,
+      "scriptType": "spoken_choices",
+      "correctAnswer": "B",
+      "script": {
+        "traditional": {
+          "choices": {
+            "A": "他拿著票。",
+            "B": "他拿著魚。",
+            "C": "他拿著藥。"
+          }
+        },
+        "simplified": {
+          "choices": {
+            "A": "他拿着票。",
+            "B": "他拿着鱼。",
+            "C": "他拿着药。"
+          }
+        }
+      }
+    },
+    {
+      "questionId": "listening-q16",
+      "number": 16,
+      "part": 2,
+      "scriptType": "spoken_choices",
+      "correctAnswer": "C",
+      "script": {
+        "traditional": {
+          "choices": {
+            "A": "這是電腦。",
+            "B": "這是電視。",
+            "C": "這是手機。"
+          }
+        },
+        "simplified": {
+          "choices": {
+            "A": "这是电脑。",
+            "B": "这是电视。",
+            "C": "这是手机。"
+          }
+        }
+      }
+    },
+    {
+      "questionId": "listening-q17",
+      "number": 17,
+      "part": 2,
+      "scriptType": "spoken_choices",
+      "correctAnswer": "A",
+      "script": {
+        "traditional": {
+          "choices": {
+            "A": "房子旁邊有樹。",
+            "B": "房子旁邊有海。",
+            "C": "房子旁邊有山。"
+          }
+        },
+        "simplified": {
+          "choices": {
+            "A": "房子旁边有树。",
+            "B": "房子旁边有海。",
+            "C": "房子旁边有山。"
+          }
+        }
+      }
+    },
+    {
+      "questionId": "listening-q18",
+      "number": 18,
+      "part": 2,
+      "scriptType": "spoken_choices",
+      "correctAnswer": "B",
+      "script": {
+        "traditional": {
+          "choices": {
+            "A": "他覺得他寫得不好。",
+            "B": "他覺得他畫得不好。",
+            "C": "他覺得他唱得不好。"
+          }
+        },
+        "simplified": {
+          "choices": {
+            "A": "他觉得他写得不好。",
+            "B": "他觉得他画得不好。",
+            "C": "他觉得他唱得不好。"
+          }
+        }
+      }
+    },
+    {
+      "questionId": "listening-q19",
+      "number": 19,
+      "part": 2,
+      "scriptType": "spoken_choices",
+      "correctAnswer": "B",
+      "script": {
+        "traditional": {
+          "choices": {
+            "A": "這裡不可以說話。",
+            "B": "這裡不可以喝酒。",
+            "C": "這裡不可以睡覺。"
+          }
+        },
+        "simplified": {
+          "choices": {
+            "A": "这里不可以说话。",
+            "B": "这里不可以喝酒。",
+            "C": "这里不可以睡觉。"
+          }
+        }
+      }
+    },
+    {
+      "questionId": "listening-q20",
+      "number": 20,
+      "part": 2,
+      "scriptType": "spoken_choices",
+      "correctAnswer": "A",
+      "script": {
+        "traditional": {
+          "choices": {
+            "A": "李小姐給男孩子信。",
+            "B": "李小姐給男孩子花。",
+            "C": "李小姐給男孩子筆。"
+          }
+        },
+        "simplified": {
+          "choices": {
+            "A": "李小姐给男孩子信。",
+            "B": "李小姐给男孩子花。",
+            "C": "李小姐给男孩子笔。"
+          }
+        }
+      }
+    },
+    {
+      "questionId": "listening-q21",
+      "number": 21,
+      "part": 3,
+      "scriptType": "dialogue_question_choices",
+      "correctAnswer": "B",
+      "script": {
+        "traditional": {
+          "dialogue": [
+            {
+              "speaker": "男",
+              "text": "美美，你今年去日本玩嗎？"
+            },
+            {
+              "speaker": "女",
+              "text": "不，我今年去台灣玩。"
+            }
+          ],
+          "question": "美美今年去哪裡玩？",
+          "choices": {
+            "A": "日本",
+            "B": "台灣",
+            "C": "美國"
+          }
+        },
+        "simplified": {
+          "dialogue": [
+            {
+              "speaker": "男",
+              "text": "美美，你今年去日本玩吗？"
+            },
+            {
+              "speaker": "女",
+              "text": "不，我今年去台湾玩。"
+            }
+          ],
+          "question": "美美今年去哪里玩？",
+          "choices": {
+            "A": "日本",
+            "B": "台湾",
+            "C": "美国"
+          }
+        }
+      }
+    },
+    {
+      "questionId": "listening-q22",
+      "number": 22,
+      "part": 3,
+      "scriptType": "dialogue_question_choices",
+      "correctAnswer": "A",
+      "script": {
+        "traditional": {
+          "dialogue": [
+            {
+              "speaker": "男",
+              "text": "小美，明天我們一起去運動吧？"
+            },
+            {
+              "speaker": "女",
+              "text": "好啊，我很喜歡運動。"
+            }
+          ],
+          "question": "明天他們要一起做什麼？",
+          "choices": {
+            "A": "運動",
+            "B": "學習",
+            "C": "吃飯"
+          }
+        },
+        "simplified": {
+          "dialogue": [
+            {
+              "speaker": "男",
+              "text": "小美，明天我们一起去运动吧？"
+            },
+            {
+              "speaker": "女",
+              "text": "好啊，我很喜欢运动。"
+            }
+          ],
+          "question": "明天他们要一起做什么？",
+          "choices": {
+            "A": "运动",
+            "B": "学习",
+            "C": "吃饭"
+          }
+        }
+      }
+    },
+    {
+      "questionId": "listening-q23",
+      "number": 23,
+      "part": 3,
+      "scriptType": "dialogue_question_choices",
+      "correctAnswer": "A",
+      "script": {
+        "traditional": {
+          "dialogue": [
+            {
+              "speaker": "女",
+              "text": "大明，你在做什麼？"
+            },
+            {
+              "speaker": "男",
+              "text": "我在找我的書。"
+            }
+          ],
+          "question": "大明在做什麼？",
+          "choices": {
+            "A": "找書",
+            "B": "買書",
+            "C": "看書"
+          }
+        },
+        "simplified": {
+          "dialogue": [
+            {
+              "speaker": "女",
+              "text": "大明，你在做什么？"
+            },
+            {
+              "speaker": "男",
+              "text": "我在找我的书。"
+            }
+          ],
+          "question": "大明在做什么？",
+          "choices": {
+            "A": "找书",
+            "B": "买书",
+            "C": "看书"
+          }
+        }
+      }
+    },
+    {
+      "questionId": "listening-q24",
+      "number": 24,
+      "part": 3,
+      "scriptType": "dialogue_question_choices",
+      "correctAnswer": "C",
+      "script": {
+        "traditional": {
+          "dialogue": [
+            {
+              "speaker": "男",
+              "text": "林太太，你兒子今年十四歲嗎？"
+            },
+            {
+              "speaker": "女",
+              "text": "不，他今年十七歲了。"
+            }
+          ],
+          "question": "林太太的兒子今年幾歲？",
+          "choices": {
+            "A": "十一歲",
+            "B": "十四歲",
+            "C": "十七歲"
+          }
+        },
+        "simplified": {
+          "dialogue": [
+            {
+              "speaker": "男",
+              "text": "林太太，你儿子今年十四岁吗？"
+            },
+            {
+              "speaker": "女",
+              "text": "不，他今年十七岁了。"
+            }
+          ],
+          "question": "林太太的儿子今年几岁？",
+          "choices": {
+            "A": "十一岁",
+            "B": "十四岁",
+            "C": "十七岁"
+          }
+        }
+      }
+    },
+    {
+      "questionId": "listening-q25",
+      "number": 25,
+      "part": 3,
+      "scriptType": "dialogue_question_choices",
+      "correctAnswer": "C",
+      "script": {
+        "traditional": {
+          "dialogue": [
+            {
+              "speaker": "女",
+              "text": "小張，星期天跟我們去看電影吧？"
+            },
+            {
+              "speaker": "男",
+              "text": "我不能去，我星期天要參加考試。"
+            }
+          ],
+          "question": "小張星期天要做什麼？",
+          "choices": {
+            "A": "唱歌",
+            "B": "看電影",
+            "C": "參加考試"
+          }
+        },
+        "simplified": {
+          "dialogue": [
+            {
+              "speaker": "女",
+              "text": "小张，星期天跟我们去看电影吧？"
+            },
+            {
+              "speaker": "男",
+              "text": "我不能去，我星期天要参加考试。"
+            }
+          ],
+          "question": "小张星期天要做什么？",
+          "choices": {
+            "A": "唱歌",
+            "B": "看电影",
+            "C": "参加考试"
+          }
+        }
+      }
+    }
+  ]
+}

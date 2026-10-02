@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { useEffect, useRef, type ReactNode } from "react";
+import { memo, useEffect, useRef, type ReactNode } from "react";
 import type { Question } from "@/lib/tests";
 import { getBandAReadingVisual } from "@/lib/band-a-reading-visual";
 import BandAReadingImage from "./BandAReadingImage";
@@ -33,12 +33,12 @@ export function AudioPlayer({ question, review = false, autoplayOnMount = false 
   </div>;
 }
 
-export function QuestionContent({ question, review = false, afterAudio, imageEvidence, autoplayAudio = false }: { question: Question; review?: boolean; afterAudio?: ReactNode; imageEvidence?: SourceEvidence; autoplayAudio?: boolean }) {
+export const QuestionContent = memo(function QuestionContent({ question, review = false, afterAudio, imageEvidence, autoplayAudio = false }: { question: Question; review?: boolean; afterAudio?: ReactNode; imageEvidence?: SourceEvidence; autoplayAudio?: boolean }) {
   const documentQuestion = isBandBDocumentQuestion(question);
   return <div className="space-y-5">
     {question.section === "listening" && <AudioPlayer key={question.id} question={question} review={review} autoplayOnMount={autoplayAudio} />}
     {review && question.section === "listening" && afterAudio}
-    {question.imageUrl && (review || !question.sourceImageReviewOnly || documentQuestion) && (question.sourceVisual ? <StructuredSourceImage question={question} /> : getBandAReadingVisual(question) ? <BandAReadingImage question={question} evidence={review ? imageEvidence : undefined} /> : getBandBReadingVisual(question) ? <BandBReadingImage question={question} evidence={review ? imageEvidence : undefined} /> : <div className="rounded-xl border border-[var(--border)] bg-white p-4 text-center">{review && imageEvidence ? <span className="relative inline-block max-w-full leading-none"><Image src={question.imageUrl} alt={question.imageAlt || "Hình câu hỏi"} width={1530} height={660} unoptimized className="mx-auto h-auto max-h-[520px] w-auto max-w-full object-contain" /><span aria-hidden="true" className="review-image-evidence" style={{ left: `${imageEvidence.x / imageEvidence.sourceWidth * 100}%`, top: `${imageEvidence.y / imageEvidence.sourceHeight * 100}%`, width: `${imageEvidence.width / imageEvidence.sourceWidth * 100}%`, height: `${imageEvidence.height / imageEvidence.sourceHeight * 100}%` }} /></span> : <Image src={question.imageUrl} alt={question.imageAlt || "Hình câu hỏi"} width={1530} height={660} unoptimized className="mx-auto h-auto max-h-[520px] w-auto max-w-full object-contain" />}</div>)}
+    {question.imageUrl && (review || !question.sourceImageReviewOnly || documentQuestion) && (question.sourceVisual ? <StructuredSourceImage question={question} /> : getBandAReadingVisual(question) ? <BandAReadingImage question={question} evidence={review ? imageEvidence : undefined} /> : getBandBReadingVisual(question) ? <BandBReadingImage question={question} evidence={review ? imageEvidence : undefined} /> : <div className="rounded-xl border border-[var(--border)] bg-white p-4 text-center">{review && imageEvidence ? <span className="relative inline-block max-w-full leading-none"><Image src={question.imageUrl} alt={question.imageAlt || "Hình câu hỏi"} width={1530} height={660} unoptimized loading="eager" className="mx-auto h-auto max-h-[520px] w-auto max-w-full object-contain" /><span aria-hidden="true" className="review-image-evidence" style={{ left: `${imageEvidence.x / imageEvidence.sourceWidth * 100}%`, top: `${imageEvidence.y / imageEvidence.sourceHeight * 100}%`, width: `${imageEvidence.width / imageEvidence.sourceWidth * 100}%`, height: `${imageEvidence.height / imageEvidence.sourceHeight * 100}%` }} /></span> : <Image src={question.imageUrl} alt={question.imageAlt || "Hình câu hỏi"} width={1530} height={660} unoptimized loading="eager" className="mx-auto h-auto max-h-[520px] w-auto max-w-full object-contain" />}</div>)}
     {question.passage && !documentQuestion && (!review || !question.sourceImageReviewOnly) && <div className={review ? "rounded-r-xl border-l-4 border-[var(--brand)] bg-[var(--brand-soft)] px-5 py-5" : "rounded-r-xl border-l-4 border-[var(--brand-border)] bg-[var(--brand-soft)] px-5 py-5"}>
       <p className={review ? "mb-2 text-xs font-bold uppercase tracking-[.14em] text-[var(--brand)]" : "mb-2 text-xs font-bold uppercase tracking-[.14em] muted"}>Đoạn văn</p>
       <p lang={question.script === "simplified" ? "zh-Hans" : "zh-Hant"} className={review ? "text-xl leading-9 text-[#1C1C1C]" : `text-lg leading-9 ${question.sourceImageReviewOnly ? "whitespace-pre-line" : ""}`}><AnnotatableText field="passage" text={question.passage}/></p>
@@ -48,9 +48,9 @@ export function QuestionContent({ question, review = false, afterAudio, imageEvi
       <h2 lang={question.script === "simplified" ? "zh-Hans" : "zh-Hant"} className={review ? "text-2xl leading-9 font-semibold text-[#1C1C1C]" : "text-xl leading-9 font-semibold sm:text-2xl"}><AnnotatableText field="question" text={question.question}/></h2>
     </div>}
   </div>;
-}
+});
 
-export function ChoiceList({ question, selected, onSelect, review = false }: { question: Question; selected?: number; onSelect?: (choice: number) => void; review?: boolean }) {
+export const ChoiceList = memo(function ChoiceList({ question, selected, onSelect, review = false }: { question: Question; selected?: number; onSelect?: (choice: number) => void; review?: boolean }) {
   const practiceAnnotations = usePracticeAnnotationMode() && question.section === "reading" && !review;
   const imageChoices = question.choiceImages?.some(Boolean);
   return <div className={imageChoices ? "mt-7 grid gap-3 sm:grid-cols-3" : "mt-7 space-y-3"} role={review ? undefined : "radiogroup"} aria-label="Các đáp án">{question.choices.map((choice, index) => {
@@ -68,18 +68,18 @@ export function ChoiceList({ question, selected, onSelect, review = false }: { q
       onSelect?.(index);
     }} className={["flex min-h-14 w-full cursor-pointer items-center gap-4 rounded-xl border px-4 py-3 text-left transition-colors", optionColor].join(" ")}>
       <button type="button" role="radio" aria-label={`Chọn đáp án ${letters[index]}: ${choice}`} aria-checked={selected === index} onClick={() => onSelect?.(index)} className={["flex h-8 w-8 shrink-0 items-center justify-center rounded-full border text-sm font-bold focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--brand)]", letterColor].join(" ")}>{letters[index]}</button>
-      <span lang={question.script === "simplified" ? "zh-Hans" : "zh-Hant"} className="min-w-0 flex-1 text-lg leading-7"><AnnotatableText field={`choice:${index}`} text={choice}/>{question.choiceImages?.[index] && <Image src={question.choiceImages[index]!} alt={`Hình đáp án ${letters[index] ?? index + 1}`} width={510} height={440} unoptimized className="mt-1 h-auto max-h-44 w-auto max-w-full rounded-lg object-contain" />}</span>
+      <span lang={question.script === "simplified" ? "zh-Hans" : "zh-Hant"} className="min-w-0 flex-1 text-lg leading-7"><AnnotatableText field={`choice:${index}`} text={choice}/>{question.choiceImages?.[index] && <Image src={question.choiceImages[index]!} alt={`Hình đáp án ${letters[index] ?? index + 1}`} width={510} height={440} unoptimized loading="eager" className="mt-1 h-auto max-h-44 w-auto max-w-full rounded-lg object-contain" />}</span>
     </div>;
     return <button type="button" key={index} disabled={review} role={review ? undefined : "radio"} aria-label={sourceCrop ? `Đáp án ${letters[index]}` : undefined} aria-checked={review ? undefined : selected === index} onClick={() => onSelect?.(index)} className={["flex min-h-14 w-full gap-4 border px-4 py-3 text-left transition-colors", imageChoices ? "flex-col items-start" : "items-center", review ? "rounded-xl cursor-default" : "rounded-xl", optionColor].join(" ")}>
       {!sourceCrop && <span className={["flex h-8 w-8 shrink-0 items-center justify-center rounded-full border text-sm font-bold", letterColor].join(" ")}>{letters[index]}</span>}
-      <span lang={question.script === "simplified" ? "zh-Hans" : "zh-Hant"} className={review ? "min-w-0 flex-1 text-lg leading-7 text-[#1C1C1C]" : "min-w-0 flex-1 text-lg leading-7"}>{sourceCrop ? <CroppedSource question={question} crop={sourceCrop} label={`Đáp án ${letters[index]}`} /> : choice}{question.choiceImages?.[index] && <Image src={question.choiceImages[index]!} alt={`Hình đáp án ${letters[index] ?? index + 1}`} width={510} height={440} unoptimized className="mt-1 h-auto max-h-44 w-auto max-w-full rounded-lg object-contain" />}</span>
+      <span lang={question.script === "simplified" ? "zh-Hans" : "zh-Hant"} className={review ? "min-w-0 flex-1 text-lg leading-7 text-[#1C1C1C]" : "min-w-0 flex-1 text-lg leading-7"}>{sourceCrop ? <CroppedSource question={question} crop={sourceCrop} label={`Đáp án ${letters[index]}`} /> : choice}{question.choiceImages?.[index] && <Image src={question.choiceImages[index]!} alt={`Hình đáp án ${letters[index] ?? index + 1}`} width={510} height={440} unoptimized loading="eager" className="mt-1 h-auto max-h-44 w-auto max-w-full rounded-lg object-contain" />}</span>
       {isCorrect && <span className="ml-auto text-xs font-bold text-[var(--brand)]">Đáp án đúng</span>}
       {isWrong && <span className="ml-auto text-xs font-bold text-[#922f2f]">Đáp án của bạn</span>}
     </button>;
   })}</div>;
-}
+});
 
-export function QuestionNavigator({ questions, currentIndex, answers, onJump, review = false, isUnavailable }: { questions: Question[]; currentIndex: number; answers: Record<string, number>; onJump: (index: number) => void; review?: boolean; isUnavailable?: (question: Question) => boolean }) {
+export const QuestionNavigator = memo(function QuestionNavigator({ questions, currentIndex, answers, onJump, review = false, isUnavailable }: { questions: Question[]; currentIndex: number; answers: Record<string, number>; onJump: (index: number) => void; review?: boolean; isUnavailable?: (question: Question) => boolean }) {
   if (review) return <div>
     <div className="mb-4 flex items-start justify-between gap-3"><h2 className="text-sm font-bold text-[#1C1C1C]">Điều hướng câu hỏi</h2><span className="text-xs text-[#596473]">{Object.keys(answers).length} / {questions.length} đã trả lời</span></div>
     <div className="grid grid-cols-5 gap-2 sm:grid-cols-8 lg:grid-cols-5">{questions.map((question, index) => {
@@ -93,4 +93,4 @@ export function QuestionNavigator({ questions, currentIndex, answers, onJump, re
   </div>;
 
   return <div><div className="mb-4 flex items-center justify-between"><h2 className="text-sm font-bold text-[var(--brand)]">Điều hướng câu hỏi</h2><span className="text-xs muted">Đã trả lời {Object.keys(answers).length} / {questions.length}</span></div><div className="grid grid-cols-5 gap-2 sm:grid-cols-8 lg:grid-cols-5">{questions.map((question, index) => <button key={question.id} type="button" disabled={isUnavailable?.(question)} onClick={() => onJump(index)} aria-label={(question.section === "listening" ? "Nghe" : "Đọc") + ", câu " + (question.number ?? index + 1) + (answers[question.id] === undefined ? ", chưa trả lời" : ", đã trả lời") + (isUnavailable?.(question) ? ", đã hết giờ phần này" : "")} aria-current={currentIndex === index ? "step" : undefined} className={["h-10 rounded-2xl border text-sm font-bold transition-colors disabled:cursor-not-allowed disabled:opacity-40", currentIndex === index ? "border-[var(--brand)] bg-[var(--brand)] text-white" : answers[question.id] !== undefined ? "border-[var(--brand-border)] bg-[var(--brand-soft)] text-[var(--brand)]" : "border-[var(--border)] bg-white text-[var(--muted)] hover:border-[var(--brand-border)]"].join(" ")}>{question.section === "listening" ? "N" : "Đ"}{question.number ?? index + 1}</button>)}</div><div className="mt-5 flex flex-wrap gap-x-4 gap-y-2 text-xs muted"><span>● Câu hiện tại</span><span>▣ Đã trả lời</span><span>□ Chưa trả lời</span><span>N: Nghe · Đ: Đọc</span></div></div>;
-}
+});

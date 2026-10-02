@@ -9,6 +9,7 @@ import { SimulationExam, SimulationExamShell } from "./SimulationExam";
 import ListeningIntroStep from "./ListeningIntroStep";
 import { PracticeAnnotationProvider } from "./PracticeAnnotations";
 import SubmitModal from "./SubmitModal";
+import { useExamImagePreload } from "./useExamImagePreload";
 
 export default function ExamClient({ test }: { test: MockTest }) {
   const router = useRouter();
@@ -27,6 +28,8 @@ export default function ExamClient({ test }: { test: MockTest }) {
   const listeningPhaseRef = useRef<"idle" | "playing" | "answering" | "advancing" | "blocked">("idle");
   const lastAdvanceAtRef = useRef(0);
   const advanceListeningRef = useRef<() => void>(() => {});
+  const visibleIndex = session?.currentIndex ?? 0;
+  const questionAssetsReady = useExamImagePreload(test.questions, visibleIndex);
 
   const update = useCallback((next: ExamSession) => { sessionRef.current = next; setSession(next); saveSession(next); }, []);
   const stopListeningAudio = useCallback(() => {
@@ -169,6 +172,46 @@ export default function ExamClient({ test }: { test: MockTest }) {
     return () => window.removeEventListener("keydown", onKey);
   }, [confirmOpen]);
 
+  const jump = useCallback((nextIndex: number) => {
+    const current = sessionRef.current;
+    if (!current || current.status !== "in-progress") return;
+    const currentQuestion = test.questions[current.currentIndex];
+    const target = test.questions[nextIndex];
+    const targetUnavailable = target && current.mode !== "simulation" && target.section !== currentQuestion.section && (current.practiceRemaining?.[target.section] ?? PRACTICE_SECTION_SECONDS) <= 0;
+    if (target && !targetUnavailable && (current.mode !== "simulation" || (current.readingStarted && target.section === "reading"))) {
+      const next = current.mode === "simulation" ? { ...current, currentIndex: nextIndex } : enterPracticeSection(test, current, nextIndex);
+      update(next);
+      if (current.mode !== "simulation" && current.activeSection !== next.activeSection) { setRemaining(next.remainingSeconds); setSectionNotice(""); }
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      document.querySelector(".sim-scroll-region")?.scrollTo({ top: 0 });
+    }
+  }, [test, update]);
+  const select = useCallback((choice: number) => {
+    const current = sessionRef.current;
+    if (!current || current.status !== "in-progress" || current.currentIndex !== visibleIndex) return;
+    const activeQuestion = test.questions[current.currentIndex];
+    if (!activeQuestion || (current.mode === "simulation" && activeQuestion.section === "reading" && !current.readingStarted)) return;
+    const answers = { ...current.answers };
+    if (activeQuestion.metadata?.uniqueChoiceUsageWithinSection) {
+      const selectedId = activeQuestion.choiceIds?.[choice];
+      for (const sibling of test.questions) {
+        if (sibling.id !== activeQuestion.id && sibling.sectionId === activeQuestion.sectionId && sibling.choiceIds?.[answers[sibling.id]] === selectedId) delete answers[sibling.id];
+      }
+    }
+    answers[activeQuestion.id] = choice;
+    update({ ...current, answers });
+  }, [test.questions, update, visibleIndex]);
+  const previousQuestion = useCallback(() => { const current = sessionRef.current; if (current) jump(current.currentIndex - 1); }, [jump]);
+  const nextQuestion = useCallback(() => { const current = sessionRef.current; if (!current) return; if (test.questions[current.currentIndex]?.section === "listening") advanceListening(); else jump(current.currentIndex + 1); }, [advanceListening, jump, test.questions]);
+  const requestSubmit = useCallback(() => setConfirmOpen(true), []);
+  const beginReading = useCallback(() => { const current = sessionRef.current; if (!current || current.readingStarted) return; const seconds = PRACTICE_SECTION_SECONDS; const deadlineAt = Date.now() + seconds * 1000; update({ ...current, readingStarted: true, deadlineAt, remainingSeconds: seconds, sectionCompleted: { ...current.sectionCompleted, listening: true } }); setRemaining(seconds); }, [update]);
+  const retryAudio = useCallback(() => { const current = sessionRef.current; if (current) startListeningAudio(current.currentIndex, true); }, [startListeningAudio]);
+  const isUnavailable = useCallback((item: (typeof test.questions)[number]) => {
+    const current = sessionRef.current;
+    if (!current || current.mode === "simulation") return false;
+    return item.section !== test.questions[current.currentIndex]?.section && (current.practiceRemaining?.[item.section] ?? PRACTICE_SECTION_SECONDS) <= 0;
+  }, [test.questions]);
+
   if (showIntro) return <SimulationExam phase="intro" test={test} onStart={() => {
     const saved = readSession(test.id);
     const firstIsReading = test.questions[0]?.section === "reading";
@@ -199,29 +242,6 @@ export default function ExamClient({ test }: { test: MockTest }) {
   const question = test.questions[index];
   const answered = test.questions.filter((item) => session.answers[item.id] !== undefined).length;
   const unavailable = (section: "listening" | "reading") => session.mode !== "simulation" && section !== question.section && (session.practiceRemaining?.[section] ?? PRACTICE_SECTION_SECONDS) <= 0;
-  const jump = (nextIndex: number) => {
-    if (nextIndex >= 0 && nextIndex < test.questions.length && !unavailable(test.questions[nextIndex].section) && (sessionRef.current?.mode !== "simulation" || (sessionRef.current.readingStarted && test.questions[nextIndex].section === "reading"))) {
-      const current = sessionRef.current!;
-      const next = current.mode === "simulation" ? { ...current, currentIndex: nextIndex } : enterPracticeSection(test, current, nextIndex);
-      update(next);
-      if (current.mode !== "simulation" && current.activeSection !== next.activeSection) { setRemaining(next.remainingSeconds); setSectionNotice(""); }
-      window.scrollTo({ top: 0, behavior: "smooth" });
-      document.querySelector(".sim-scroll-region")?.scrollTo({ top: 0 });
-    }
-  };
-  const select = (choice: number) => {
-    const current = sessionRef.current!;
-    if (current.currentIndex !== index || (current.mode === "simulation" && question.section === "reading" && !current.readingStarted)) return;
-    const answers = { ...current.answers };
-    if (question.metadata?.uniqueChoiceUsageWithinSection) {
-      const selectedId = question.choiceIds?.[choice];
-      for (const sibling of test.questions) {
-        if (sibling.id !== question.id && sibling.sectionId === question.sectionId && sibling.choiceIds?.[answers[sibling.id]] === selectedId) delete answers[sibling.id];
-      }
-    }
-    answers[question.id] = choice;
-    update({ ...current, answers });
-  };
   const submitModal = confirmOpen && <SubmitModal answered={answered} total={test.questions.length} onContinue={() => setConfirmOpen(false)} onSubmit={finish} />;
 
   if (session.mode === "simulation") {
@@ -236,13 +256,14 @@ export default function ExamClient({ test }: { test: MockTest }) {
         volume={volume}
         onVolumeChange={setVolume}
         onSelect={select}
-        onPrevious={() => jump(index - 1)}
-        onNext={() => question.section === "listening" ? advanceListening() : jump(index + 1)}
-        onFinish={() => setConfirmOpen(true)}
+        onPrevious={previousQuestion}
+        onNext={nextQuestion}
+        onFinish={requestSubmit}
         readingTransition={question.section === "reading" && !session.readingStarted}
-        onBeginReading={() => { const current = sessionRef.current!; if (current.readingStarted) return; const seconds = PRACTICE_SECTION_SECONDS; const deadlineAt = Date.now() + seconds * 1000; update({ ...current, readingStarted: true, deadlineAt, remainingSeconds: seconds, sectionCompleted: { ...current.sectionCompleted, listening: true } }); setRemaining(seconds); }}
+        onBeginReading={beginReading}
         audioBlocked={audioBlocked}
-        onRetryAudio={() => startListeningAudio(index, true)}
+        onRetryAudio={retryAudio}
+        questionAssetsReady={questionAssetsReady}
       />
       {submitModal}
     </>;
@@ -280,14 +301,14 @@ export default function ExamClient({ test }: { test: MockTest }) {
         </div>
         <aside className="hidden lg:block">
           <div className="paper sticky top-28 rounded-2xl p-5">
-            <QuestionNavigator questions={test.questions} currentIndex={index} answers={session.answers} onJump={jump} isUnavailable={(item) => unavailable(item.section)}/>
+            <QuestionNavigator questions={test.questions} currentIndex={index} answers={session.answers} onJump={jump} isUnavailable={isUnavailable}/>
             <p className="mt-6 border-t border-[var(--border)] pt-5 text-sm muted">Câu trả lời được lưu ngay khi bạn chọn.</p>
           </div>
         </aside>
       </div>
       <details className="paper mt-5 rounded-2xl p-5 lg:hidden">
         <summary className="cursor-pointer font-bold text-[var(--brand)]">Điều hướng câu hỏi · Đã trả lời {answered}/{test.questions.length}</summary>
-        <div className="mt-5"><QuestionNavigator questions={test.questions} currentIndex={index} answers={session.answers} onJump={jump} isUnavailable={(item) => unavailable(item.section)}/></div>
+        <div className="mt-5"><QuestionNavigator questions={test.questions} currentIndex={index} answers={session.answers} onJump={jump} isUnavailable={isUnavailable}/></div>
       </details>
     </main>
     {submitModal}

@@ -16,8 +16,9 @@
   --font-chinese: "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
 }
 body { margin: 0; background: var(--page); color: var(--text); font-family: var(--font-ui); }
-button { cursor: pointer; }
+button { cursor: pointer; touch-action: manipulation; }
 button:disabled { cursor: not-allowed; }
+button:not(:disabled):active { transform: translateY(1px); filter: brightness(.94); transition-duration: 0ms; }
 :focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
 .paper { background: var(--surface); border: 1px solid var(--border); border-radius: 18px; box-shadow: 0 8px 28px rgba(20,42,78,.045); }
 .muted { color: var(--muted); }
@@ -240,6 +241,11 @@ button:disabled { cursor: not-allowed; }
 .sim-audio-recovery button { margin-top: 10px; }
 .sim-image-area { display: flex; justify-content: center; align-items: center; margin: 5px auto 26px; }
 .sim-question-image { max-width: 100%; max-height: 440px; width: auto; height: auto; object-fit: contain; }
+.sim-question-loading { min-height: 520px; }
+.sim-loading-line, .sim-loading-image { background: var(--brand-soft); border-radius: 12px; }
+.sim-loading-line { width: 90px; height: 24px; margin-bottom: 28px; }
+.sim-loading-line-wide { width: min(100%, 780px); height: 48px; margin: 14px auto; }
+.sim-loading-image { width: min(100%, 780px); aspect-ratio: 16 / 9; max-height: 360px; margin: 0 auto 25px; }
 .sim-listening-prompt { max-width: 780px; margin: 14px auto 22px; font-size: 24px; font-weight: 500; line-height: 1.7; }
 .sim-passage { max-width: 780px; margin: 12px auto; font-size: 21px; line-height: 1.8; }
 .sim-options { max-width: 780px; margin: 14px auto 0; border: 0; padding: 0; }
@@ -250,6 +256,7 @@ button:disabled { cursor: not-allowed; }
 @media (max-width: 600px) { .sim-image-options { grid-template-columns: 1fr; } }
 .sim-option { display: flex; align-items: flex-start; gap: 11px; min-height: 47px; padding: 6px 10px; border-radius: 10px; font-size: 21px; line-height: 1.55; cursor: pointer; }
 .sim-option:hover { background: var(--brand-soft); }
+.sim-option:active { background: var(--brand-soft-hover); }
 .sim-option:focus-within { outline: 2px solid var(--focus); outline-offset: 1px; }
 .sim-option input { width: 17px; height: 17px; margin: 8px 0 0; accent-color: var(--brand); flex: 0 0 auto; }
 .sim-option-letter { min-width: 42px; font-family: Georgia, serif; white-space: nowrap; }

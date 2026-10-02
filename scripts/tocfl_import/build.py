@@ -6,6 +6,30 @@ from pathlib import Path
 
 from .discovery import ImportErrorWithContext
 from .pdf import extract_answers, extract_listening_choices, extract_reading, extract_scores, extract_transcripts
+from .visual_pdf import extract_image_paper
+
+
+def matching_legacy_test(data_dir: Path, band: str, source_files: dict) -> str | None:
+    """Detect an earlier manually imported copy using both full keys and score tables."""
+    answers = {skill: extract_answers(source_files[skill]["answer_pdf"], skill) for skill in ("listening", "reading")}
+    scores = {skill: extract_scores(source_files[skill]["score_pdf"], len(answers[skill]), skill) for skill in ("listening", "reading")}
+    matches = []
+    for file in data_dir.glob("*.json"):
+        try:
+            data = json.loads(file.read_text())
+            exam = data["exam"]
+            if exam.get("level") not in {f"Band {band}", band} or exam.get("source"):
+                continue
+            if all(len(data["components"][skill]["questions"]) == len(answers[skill]) and
+                   all(question["correctAnswer"] == answers[skill][question["number"]] for question in data["components"][skill]["questions"]) and
+                   data["components"][skill]["scoring"]["scoreByCorrectCount"] == scores[skill]
+                   for skill in ("listening", "reading")):
+                matches.append(exam["id"])
+        except (KeyError, TypeError, ValueError):
+            continue
+    if len(matches) > 1:
+        raise ImportErrorWithContext(f"Official Band {band} paper matches multiple legacy tests: {matches}")
+    return matches[0] if matches else None
 
 
 def next_test_id(data_dir: Path, band: str) -> str:
@@ -26,8 +50,9 @@ def next_test_id(data_dir: Path, band: str) -> str:
     return f"{prefix}-test-{max(numbers, default=0) + 1:02d}"
 
 
-def ensure_new_source(data_dir: Path, band: str, series: int) -> None:
+def existing_source_id(data_dir: Path, band: str, series: int) -> str | None:
     expected_level = f"Band {band}"
+    matches = set()
     for file in data_dir.glob("*.json"):
         try:
             exam = json.loads(file.read_text())["exam"]
@@ -35,7 +60,23 @@ def ensure_new_source(data_dir: Path, band: str, series: int) -> None:
             continue
         source = exam.get("source")
         if exam.get("level") == expected_level and isinstance(source, dict) and source.get("series") == series:
-            raise ImportErrorWithContext(f"Official Band {band} series {series} is already imported as {exam['id']}; refusing a duplicate")
+            matches.add(exam["id"])
+    for file in (data_dir.parent / "import-manifests").glob("*.json"):
+        try:
+            manifest = json.loads(file.read_text())
+        except ValueError:
+            continue
+        if manifest.get("sourceIdentity") == f"official-tocfl:{band.lower()}:{series}":
+            matches.add(manifest["testId"])
+    if len(matches) > 1:
+        raise ImportErrorWithContext(f"Official Band {band} series {series} is mapped to conflicting test IDs: {sorted(matches)}")
+    return next(iter(matches), None)
+
+
+def ensure_new_source(data_dir: Path, band: str, series: int) -> None:
+    existing = existing_source_id(data_dir, band, series)
+    if existing:
+        raise ImportErrorWithContext(f"Official Band {band} series {series} is already imported as {existing}; refusing a duplicate")
 
 
 def audio_plan(tracks: list[dict[str, str]], test_id: str) -> tuple[dict, dict[int, dict], list[dict], dict[str, str]]:
@@ -49,6 +90,7 @@ def audio_plan(tracks: list[dict[str, str]], test_id: str) -> tuple[dict, dict[i
     downloads: dict[str, str] = {}
     pending = None
     pending_questions: list[tuple[int, dict]] = []
+    instruction_count = 0
 
     def flush():
         nonlocal pending, pending_questions
@@ -68,6 +110,8 @@ def audio_plan(tracks: list[dict[str, str]], test_id: str) -> tuple[dict, dict[i
 
     for i, track in enumerate(tracks):
         label = track["label"].strip()
+        if path(track) in downloads and downloads[path(track)] != track["url"]:
+            raise ImportErrorWithContext(f"Two official audio URLs map to the same local file {path(track)}")
         downloads[path(track)] = track["url"]
         if re.fullmatch(r"\d{1,2}", label):
             n = int(label)
@@ -84,12 +128,13 @@ def audio_plan(tracks: list[dict[str, str]], test_id: str) -> tuple[dict, dict[i
             pending = track
             continue
         flush()
-        if "第一部分" in label:
-            role = "part_1_instructions"
-            audio["part1Intro"] = path(track)
-        elif "第二部分" in label:
-            role = "part_2_instructions"
-            audio["part2Intro"] = path(track)
+        if "部分說明" in label:
+            instruction_count += 1
+            role = f"part_{instruction_count}_instructions"
+            audio[f"part{instruction_count}Intro"] = path(track)
+            expected_label = "一二三四五"[instruction_count - 1] if instruction_count <= 5 else None
+            if expected_label and expected_label not in label:
+                audio.setdefault("sourceLabelWarnings", []).append(f"{role}: official label {label!r}")
         elif not label and not question_audio:
             role = "part_1_preamble"
             audio["part1Preamble"] = path(track)
@@ -109,14 +154,19 @@ def audio_plan(tracks: list[dict[str, str]], test_id: str) -> tuple[dict, dict[i
 
 def _sections(skill: str, count: int, playback: list[dict] | None = None) -> list[dict]:
     if skill == "listening":
-        part2 = next((i for i, step in enumerate(playback or []) if step.get("role") == "part_2_instructions"), None)
-        if part2 is None:
-            raise ImportErrorWithContext("Listening audio has no Part 2 boundary")
-        after = next((step for step in (playback or [])[part2 + 1:] if step["type"] in {"question", "question_group"}), None)
-        if not after:
-            raise ImportErrorWithContext("Listening Part 2 has no question")
-        first = int((after.get("questionId") or after["questionTracks"][0]["questionId"]).split("q")[-1])
-        return [{"id": "listening-part-1", "title": "Part 1 Dialogue", "startQuestion": 1, "endQuestion": first - 1}, {"id": "listening-part-2", "title": "Part 2 Monologue", "startQuestion": first, "endQuestion": count}]
+        boundaries = []
+        steps = playback or []
+        for index, step in enumerate(steps):
+            if step.get("type") != "track" or not re.fullmatch(r"part_\d+_instructions", step.get("role", "")):
+                continue
+            after = next((item for item in steps[index + 1:] if item["type"] in {"question", "question_group"}), None)
+            if not after:
+                raise ImportErrorWithContext(f"Listening instruction {step['role']} has no following question")
+            first = int((after.get("questionId") or after["questionTracks"][0]["questionId"]).split("q")[-1])
+            boundaries.append(first)
+        if not boundaries or boundaries[0] != 1 or boundaries != sorted(set(boundaries)):
+            raise ImportErrorWithContext(f"Listening instruction boundaries are ambiguous: {boundaries}")
+        return [{"id": f"listening-part-{index + 1}", "title": f"Part {index + 1}", "startQuestion": start, "endQuestion": (boundaries[index + 1] - 1 if index + 1 < len(boundaries) else count)} for index, start in enumerate(boundaries)]
     raise ValueError(skill)
 
 
@@ -126,9 +176,10 @@ def _transcript_entries(raw: dict[int, str], groups: list[dict]) -> list[dict]:
     for group in groups:
         first = group["questions"][0]
         previous = raw.get(first - 1, "")
-        split = previous.rfind("請聽")
-        if split < 0:
-            raise ImportErrorWithContext(f"Transcript has no shared passage before Q{first}")
+        boundary = re.search(r"[？?][^\n]*\n(?:[ \t]*\n)+", previous)
+        split = boundary.end() if boundary else previous.rfind("請聽")
+        if split < 0 or not previous[:split].strip():
+            raise ImportErrorWithContext(f"Transcript has no separable shared passage before Q{first}")
         shared = previous[split:].strip()
         if not shared:
             raise ImportErrorWithContext(f"Empty shared transcript for Q{first}")
@@ -144,15 +195,56 @@ def _transcript_entries(raw: dict[int, str], groups: list[dict]) -> list[dict]:
     return entries
 
 
-def build_package(source_files: dict[str, dict[str, bytes]], tracks: list[dict[str, str]], test_id: str, band: str, series: int, source_urls: dict, asset_dir: Path):
+def _attach_images(question: dict, extracts: dict, number: int, skill: str, test_id: str, asset_dir: Path) -> None:
+    image_paths = {}
+    choice_paths = {}
+    visual = {}
+    for script, extracted in extracts.items():
+        source = extracted.questions[number]
+        if source.get("visual"):
+            visual[script] = source["visual"]
+        if source.get("imageKey"):
+            key = source["imageKey"]
+            relative = Path(skill) / "assets" / script / f"{key}.png"
+            target = asset_dir / relative
+            target.parent.mkdir(parents=True, exist_ok=True)
+            if not target.exists():
+                target.write_bytes(extracted.images[key])
+            image_paths[script] = f"/tests/{test_id}/{relative.as_posix()}"
+        if source.get("choiceImageKeys"):
+            paths = []
+            for key in source["choiceImageKeys"]:
+                relative = Path(skill) / "assets" / script / f"{key}.png"
+                target = asset_dir / relative
+                target.parent.mkdir(parents=True, exist_ok=True)
+                target.write_bytes(extracted.images[key])
+                paths.append(f"/tests/{test_id}/{relative.as_posix()}")
+            choice_paths[script] = paths
+    if image_paths:
+        if set(image_paths) != {"traditional", "simplified"}:
+            raise ImportErrorWithContext(f"{skill} Q{number} image missing in one script")
+        question["assets"] = image_paths
+    if choice_paths:
+        if set(choice_paths) != {"traditional", "simplified"} or len(choice_paths["traditional"]) != len(question["choices"]) or len(choice_paths["simplified"]) != len(question["choices"]):
+            raise ImportErrorWithContext(f"{skill} Q{number} image choices differ between scripts")
+        question["choiceImages"] = choice_paths
+    if visual:
+        if set(visual) != {"traditional", "simplified"}:
+            raise ImportErrorWithContext(f"{skill} Q{number} page crop missing in one script")
+        question["visual"] = visual
+
+
+def build_package(source_files: dict[str, dict[str, bytes]], tracks: list[dict[str, str]], test_id: str, band: str, series: int, source_urls: dict, asset_dir: Path, title: str | None = None):
     if set(source_files) != {"listening", "reading"}:
         raise ImportErrorWithContext("Publication requires both Listening and Reading; use --type all")
     listening = source_files["listening"]
     reading = source_files["reading"]
-    l_answers = extract_answers(listening["answer_pdf"])
-    r_answers = extract_answers(reading["answer_pdf"])
-    l_choice = {script: extract_listening_choices(listening[f"{script}_pdf"]) for script in ("traditional", "simplified")}
-    r_data = {script: extract_reading(reading[f"{script}_pdf"], script) for script in ("traditional", "simplified")}
+    l_answers = extract_answers(listening["answer_pdf"], "listening")
+    r_answers = extract_answers(reading["answer_pdf"], "reading")
+    image_paper = band in {"Novice", "A"}
+    l_visual = {script: extract_image_paper(listening[f"{script}_pdf"], "listening", band, len(l_answers)) for script in ("traditional", "simplified")} if image_paper else None
+    l_choice = {script: {n: q["choiceText"] for n, q in l_visual[script].questions.items()} for script in l_visual} if l_visual else {script: extract_listening_choices(listening[f"{script}_pdf"]) for script in ("traditional", "simplified")}
+    r_data = {script: extract_image_paper(reading[f"{script}_pdf"], "reading", band, len(r_answers)) if image_paper else extract_reading(reading[f"{script}_pdf"], script) for script in ("traditional", "simplified")}
     l_count, r_count = len(l_answers), len(r_answers)
     expected = 25 if band == "Novice" else 50
     if (l_count, r_count) != (expected, expected):
@@ -167,9 +259,18 @@ def build_package(source_files: dict[str, dict[str, bytes]], tracks: list[dict[s
     transcript_path = Path("data/test-supplements") / test_id / "listening-transcripts.json"
     sections_l = _sections("listening", l_count, playback)
     gap_numbers = [n for n, q in r_data["traditional"].questions.items() if q["type"] == "gap_filling"]
-    if gap_numbers != list(range(1, len(gap_numbers) + 1)):
+    if not image_paper and gap_numbers != list(range(1, len(gap_numbers) + 1)):
         raise ImportErrorWithContext("Reading gap-filling questions are not a consecutive first part")
-    sections_r = [{"id": "reading-part-1", "title": "Part 1 Gap Filling", "startQuestion": 1, "endQuestion": len(gap_numbers)}, {"id": "reading-part-2", "title": "Part 2 Reading Comprehension", "startQuestion": len(gap_numbers) + 1, "endQuestion": r_count}]
+    if band == "A":
+        boundaries = [1, 16, 31, 41, 46, 51]
+    elif band == "Novice":
+        boundaries = [1, 16, 26]
+    else:
+        boundaries = [1, len(gap_numbers) + 1, r_count + 1]
+    sections_r = [{"id": f"reading-part-{i + 1}", "title": f"Part {i + 1}", "startQuestion": start, "endQuestion": boundaries[i + 1] - 1} for i, start in enumerate(boundaries[:-1])]
+    if band == "A":
+        sections_r[3]["sharedChoicePool"] = list("ABCDEF")
+        sections_r[3]["uniqueChoiceUsageWithinSection"] = True
     for script in ("traditional", "simplified"):
         if {n: q["type"] for n, q in r_data[script].questions.items()} != {n: q["type"] for n, q in r_data["traditional"].questions.items()}:
             raise ImportErrorWithContext("Traditional/Simplified Reading types differ")
@@ -177,7 +278,11 @@ def build_package(source_files: dict[str, dict[str, bytes]], tracks: list[dict[s
             raise ImportErrorWithContext("Traditional/Simplified Reading passage groups differ")
     l_questions = []
     for n in range(1, l_count + 1):
-        l_questions.append({"id": f"listening-q{n:02d}", "number": n, "sectionId": sections_l[0]["id"] if n <= sections_l[0]["endQuestion"] else sections_l[1]["id"], "type": "listening_multiple_choice", "choices": list("ABCD"), "correctAnswer": l_answers[n], "choiceText": {script: l_choice[script][n] for script in l_choice}, "audio": question_audio[n], "transcriptGroupId": f"tg-q{n:02d}"})
+        labels = l_visual["traditional"].questions[n]["choices"] if l_visual else list("ABCD")
+        q = {"id": f"listening-q{n:02d}", "number": n, "sectionId": next(section["id"] for section in sections_l if section["startQuestion"] <= n <= section["endQuestion"]), "type": "listening_multiple_choice", "choices": labels, "correctAnswer": l_answers[n], "choiceText": {script: l_choice[script][n] for script in l_choice}, "audio": question_audio[n], "transcriptGroupId": f"tg-q{n:02d}"}
+        if l_visual:
+            _attach_images(q, l_visual, n, "listening", test_id, asset_dir)
+        l_questions.append(q)
     r_questions = []
     display_contexts = {}
     for group in r_data["traditional"].contexts:
@@ -187,11 +292,13 @@ def build_package(source_files: dict[str, dict[str, bytes]], tracks: list[dict[s
     for n in range(1, r_count + 1):
         original = r_data["traditional"].questions[n]
         other = r_data["simplified"].questions[n]
-        q = {"id": f"reading-q{n:02d}", "number": n, "sectionId": sections_r[0]["id"] if n <= len(gap_numbers) else sections_r[1]["id"], "type": original["type"], "choices": list("ABCD"), "correctAnswer": r_answers[n], "stimulusGroupId": original["stimulusGroupId"], "choiceText": {"traditional": original["choiceText"], "simplified": other["choiceText"]}}
-        if original["type"] == "reading_comprehension":
+        q = {"id": f"reading-q{n:02d}", "number": n, "sectionId": next(section["id"] for section in sections_r if section["startQuestion"] <= n <= section["endQuestion"]), "type": original["type"], "choices": original.get("choices", list("ABCD")), "correctAnswer": r_answers[n], "stimulusGroupId": original["stimulusGroupId"], "choiceText": {"traditional": original["choiceText"], "simplified": other["choiceText"]}}
+        if original["type"] == "reading_comprehension" or image_paper:
             q["questionText"] = {"traditional": original["questionText"], "simplified": other["questionText"]}
+        if image_paper:
+            _attach_images(q, r_data, n, "reading", test_id, asset_dir)
         image_paths = {}
-        for script in r_data:
+        for script in (() if image_paper else r_data):
             image = r_data[script].images.get(original["stimulusGroupId"])
             if image:
                 relative = Path("reading/assets") / script / "groups" / f"{original['stimulusGroupId']}.png"
@@ -205,6 +312,6 @@ def build_package(source_files: dict[str, dict[str, bytes]], tracks: list[dict[s
             q["assets"] = image_paths
         r_questions.append(q)
     supplement = {"schemaVersion": "1.0", "examId": test_id, "componentId": "listening", "source": source_urls["listening"]["transcript_pdf"], "display": {"defaultHidden": True, "recommendedUse": "review_or_explanation", "variantAware": True}, "questions": _transcript_entries(transcript, audio["groups"])}
-    score_l, score_r = extract_scores(listening["score_pdf"], l_count), extract_scores(reading["score_pdf"], r_count)
-    package = {"schemaVersion": "1.0", "exam": {"id": test_id, "title": f"TOCFL Band {band} — Đề {test_id.rsplit('-', 1)[-1]}", "level": f"Band {band}", "variants": ["traditional", "simplified"], "defaultVariant": "traditional", "componentOrder": ["listening", "reading"], "questionNumbering": "restart_per_component", "totalQuestions": l_count + r_count, "componentScoresSeparate": True, "publishReady": True, "source": {"officialUrl": source_urls["page_url"], "series": series, "files": source_urls}}, "flow": {"order": ["listening", "reading"], "mustCompleteInOrder": True, "preserveSelectedVariantBetweenComponents": True}, "components": {"listening": {"id": "listening", "title": "Nghe", "order": 1, "durationSeconds": 3600, "totalQuestions": l_count, "choiceLabels": list("ABCD"), "sections": sections_l, "audio": audio, "transcriptDataPath": transcript_path.as_posix(), "scoring": {"type": "lookup_table", "maxScore": max(score_l.values()), "scoreByCorrectCount": score_l}, "questions": l_questions}, "reading": {"id": "reading", "title": "Đọc", "order": 2, "durationSeconds": 3600, "totalQuestions": r_count, "choiceLabels": list("ABCD"), "sections": sections_r, "scoring": {"type": "lookup_table", "maxScore": max(score_r.values()), "scoreByCorrectCount": score_r}, "questions": r_questions, "displayContexts": display_contexts}}}
+    score_l, score_r = extract_scores(listening["score_pdf"], l_count, "listening"), extract_scores(reading["score_pdf"], r_count, "reading")
+    package = {"schemaVersion": "1.0", "exam": {"id": test_id, "title": title or f"TOCFL Band {band} — Đề {test_id.rsplit('-', 1)[-1]}", "level": f"Band {band}", "variants": ["traditional", "simplified"], "defaultVariant": "traditional", "componentOrder": ["listening", "reading"], "questionNumbering": "restart_per_component", "totalQuestions": l_count + r_count, "componentScoresSeparate": True, "publishReady": True, "source": {"officialUrl": source_urls["page_url"], "series": series, "files": source_urls}, "sourceWarnings": [{"script": script, "message": warning} for script in r_data for warning in getattr(r_data[script], "warnings", [])]}, "flow": {"order": ["listening", "reading"], "mustCompleteInOrder": True, "preserveSelectedVariantBetweenComponents": True}, "components": {"listening": {"id": "listening", "title": "Nghe", "order": 1, "durationSeconds": 3600, "totalQuestions": l_count, "choiceLabels": list("ABCD"), "sections": sections_l, "audio": audio, "transcriptDataPath": transcript_path.as_posix(), "scoring": {"type": "lookup_table", "maxScore": max(score_l.values()), "scoreByCorrectCount": score_l}, "questions": l_questions}, "reading": {"id": "reading", "title": "Đọc", "order": 2, "durationSeconds": 3600, "totalQuestions": r_count, "choiceLabels": list("ABCD"), "sections": sections_r, "scoring": {"type": "lookup_table", "maxScore": max(score_r.values()), "scoreByCorrectCount": score_r}, "questions": r_questions, "displayContexts": display_contexts}}}
     return package, supplement, downloads

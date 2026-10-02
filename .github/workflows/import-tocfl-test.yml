@@ -17,6 +17,11 @@ on:
         required: true
         type: choice
         options: [all, listening, reading]
+      update:
+        description: Re-import an existing official Series into its current test ID
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -46,7 +51,13 @@ jobs:
         env:
           TOCFL_SERIES: ${{ inputs.series }}
           TOCFL_BAND: ${{ inputs.band }}
-        run: pnpm tocfl:import --series "$TOCFL_SERIES" --band "$TOCFL_BAND" --type all
+          TOCFL_UPDATE: ${{ inputs.update }}
+        run: |
+          if [ "$TOCFL_UPDATE" = 'true' ]; then
+            pnpm tocfl:import --series "$TOCFL_SERIES" --band "$TOCFL_BAND" --type all --update
+          else
+            pnpm tocfl:import --series "$TOCFL_SERIES" --band "$TOCFL_BAND" --type all
+          fi
       - name: Inspect individual component
         if: inputs.component != 'all'
         env:
@@ -66,4 +77,5 @@ jobs:
           add-paths: |
             data/structured-tests/**
             data/test-supplements/**
+            data/import-manifests/**
             public/tests/**

@@ -5,7 +5,7 @@ from pathlib import Path
 from .discovery import ImportErrorWithContext
 
 
-def validate_package(package: dict, supplement: dict, asset_root: Path) -> None:
+def validate_package(package: dict, supplement: dict, asset_root: Path, check_audio_files: bool = True) -> None:
     exam = package["exam"]
     components = package["components"]
     if exam["variants"] != ["traditional", "simplified"] or exam["componentOrder"] != ["listening", "reading"]:
@@ -24,10 +24,18 @@ def validate_package(package: dict, supplement: dict, asset_root: Path) -> None:
             if question["id"] in all_ids or question["number"] != number:
                 raise ImportErrorWithContext(f"Duplicate or out-of-order {skill} Q{number}")
             all_ids.add(question["id"])
-            if question["choices"] != list("ABCD") or question["correctAnswer"] not in question["choices"]:
+            if question["choices"] != list("ABCDEF")[:len(question["choices"])] or question["correctAnswer"] not in question["choices"]:
                 raise ImportErrorWithContext(f"Invalid answer for {skill} Q{number}")
-            if any(len(question["choiceText"][s]) != 4 or any(not x.strip() for x in question["choiceText"][s]) for s in exam["variants"]):
-                raise ImportErrorWithContext(f"Missing answer text in {skill} Q{number}")
+            for script in exam["variants"]:
+                words = question["choiceText"][script]
+                images = question.get("choiceImages", {}).get(script, [])
+                if len(words) != len(question["choices"]) or (images and len(images) != len(words)):
+                    raise ImportErrorWithContext(f"Answer-choice count mismatch in {skill} Q{number} ({script})")
+                if skill == "reading" and any(not text.strip() and not (images and images[i]) and not question.get("visual", {}).get(script, {}).get("prompt") for i, text in enumerate(words)):
+                    raise ImportErrorWithContext(f"Missing answer text/image in {skill} Q{number} ({script})")
+                for url in images:
+                    if f"/{script}/" not in url or not _asset_exists(url, asset_root, exam["id"]):
+                        raise ImportErrorWithContext(f"Missing/wrong choice image for {skill} Q{number}: {url}")
             section = next((s for s in component["sections"] if s["id"] == question["sectionId"]), None)
             if not section or not section["startQuestion"] <= number <= section["endQuestion"]:
                 raise ImportErrorWithContext(f"Wrong section for {skill} Q{number}")
@@ -37,9 +45,9 @@ def validate_package(package: dict, supplement: dict, asset_root: Path) -> None:
             if skill == "reading":
                 group = question["stimulusGroupId"]
                 context = component["displayContexts"].get(group)
-                if not context or any(not context.get(script) and script not in question.get("assets", {}) for script in exam["variants"]):
+                if not context or any(not context.get(script) and script not in question.get("assets", {}) and not question.get("questionText", {}).get(script) for script in exam["variants"]):
                     raise ImportErrorWithContext(f"Reading Q{number} has no matching passage/image in both scripts")
-                if question["type"] == "reading_comprehension" and any(not question["questionText"][s] for s in exam["variants"]):
+                if question["type"] == "reading_comprehension" and any(not question["questionText"][s] and s not in question.get("assets", {}) for s in exam["variants"]):
                     raise ImportErrorWithContext(f"Missing question text for Reading Q{number}")
     if total != exam["totalQuestions"]:
         raise ImportErrorWithContext("Combined question count mismatch")
@@ -54,7 +62,7 @@ def validate_package(package: dict, supplement: dict, asset_root: Path) -> None:
                 raise ImportErrorWithContext(f"Shared-audio group {step['id']} has fewer than two questions")
             ordered.extend(track["questionId"] for track in step["questionTracks"])
         for url in _plan_paths(step):
-            if not _asset_exists(url, asset_root, exam["id"]):
+            if check_audio_files and not _asset_exists(url, asset_root, exam["id"]):
                 raise ImportErrorWithContext(f"Missing official audio: {url}")
     if ordered != [q["id"] for q in listening["questions"]]:
         raise ImportErrorWithContext("Listening playback order does not match question order")

@@ -8,6 +8,7 @@ type PackageQuestion = {
   assets?: Record<ScriptVariant, string>; audio?: PackageAudio;
   choices: string[]; correctAnswer: string; variantInvariant?: boolean;
   choiceText?: Record<ScriptVariant, string[]>;
+  choiceImages?: Record<ScriptVariant, string[]>;
   stimulusGroupId?: string;
   questionText?: Record<ScriptVariant, string>;
   visual?: Record<ScriptVariant, SourceVisual>;
@@ -50,7 +51,7 @@ export function validateStructuredPackage(data: StructuredPackage, assetExists: 
       if (!Array.isArray(question.choices) || question.choices.length < 2 || new Set(question.choices).size !== question.choices.length || question.choices.some((choice, choiceIndex) => choice !== String.fromCharCode(65 + choiceIndex)) || !question.choices.includes(question.correctAnswer)) errors.push(`Đáp án câu ${question.id} không hợp lệ.`);
       if (question.choiceText && (["traditional", "simplified"] as const).some((script) =>
         question.choiceText?.[script]?.length !== question.choices.length ||
-        question.choiceText[script].some((choice) => !choice.trim()))) errors.push(`Thiếu chữ đáp án câu ${question.id}.`);
+        question.choiceText[script].some((choice, index) => !choice.trim() && skill === "reading" && !question.choiceImages?.[script]?.[index] && !question.visual?.[script]?.prompt))) errors.push(`Thiếu nội dung đáp án câu ${question.id}.`);
       if (skill === "listening") {
         const audio = question.audio;
         if (!audio || (typeof audio === "string" ? !assetExists(audio) :
@@ -62,7 +63,9 @@ export function validateStructuredPackage(data: StructuredPackage, assetExists: 
       for (const script of ["traditional", "simplified"] as const) {
         const path = question.assets?.[script];
         if (path && !assetExists(path)) errors.push(`Thiếu ảnh ${script} của câu ${question.id}.`);
-        if (!path && !question.choiceText?.[script]?.every((choice) => choice.trim())) errors.push(`Thiếu nội dung hoặc ảnh ${script} của câu ${question.id}.`);
+        const optionImages = question.choiceImages?.[script];
+        if (optionImages && (optionImages.length !== question.choices.length || optionImages.some((image) => !image || !assetExists(image) || !image.includes(`/${script}/`)))) errors.push(`Thiếu ảnh đáp án ${script} của câu ${question.id}.`);
+        if (skill === "reading" && !path && !question.questionText?.[script] && !component.displayContexts?.[question.stimulusGroupId ?? ""]?.[script]) errors.push(`Thiếu nội dung hoặc ảnh ${script} của câu ${question.id}.`);
         if (path && !question.variantInvariant && !path.includes(`/${script}/`)) errors.push(`Sai bản chữ ${script} của câu ${question.id}.`);
         const visual = question.visual?.[script];
         if (exam.id === "band-c-test-01" && (!visual || visual.choices?.length !== question.choices.length || (skill === "reading" && !visual.context))) errors.push(`Thiếu vùng hiển thị câu ${question.id} (${script}).`);
@@ -136,6 +139,7 @@ export function materializeStructuredTest(data: StructuredPackage, script: Scrip
       reviewAudioSequence: typeof item.audio === "object" ? item.audio.reviewSequence : undefined,
       introAudioUrl: item.number === 1 && skill === "listening" ? undefined : component.sections.find((part) => part.id === item.sectionId && part.startQuestion === item.number)?.introAudio,
       choices: item.choiceText?.[script] ?? item.choices.map(() => ""), choiceIds: item.choices,
+      choiceImages: item.choiceImages?.[script],
       correctAnswer: item.choices.indexOf(item.correctAnswer), script,
       metadata: component.sections.find((part) => part.id === item.sectionId)?.uniqueChoiceUsageWithinSection ? { uniqueChoiceUsageWithinSection: true } : undefined,
       });

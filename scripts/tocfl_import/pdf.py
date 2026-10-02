@@ -17,18 +17,30 @@ def clean(value: str) -> str:
     return re.sub(r"[ \t]+", " ", value).strip()
 
 
-def extract_answers(data: bytes) -> dict[int, str]:
+def extract_answers(data: bytes, skill: str | None = None) -> dict[int, str]:
     text = "\n".join(page.get_text() for page in fitz.open(stream=data, filetype="pdf"))
-    pairs = re.findall(r"(?m)^\s*(\d{1,2})\s*\n\s*([A-D])\s*$", text)
+    if "TOCFL-Novice Listening" in text and "TOCFL-Novice Reading" in text:
+        if skill not in {"listening", "reading"}:
+            raise ImportErrorWithContext("Combined Novice answer key needs a skill")
+        start = text.index(f"TOCFL-Novice {skill.title()}")
+        stop = text.find("TOCFL-Novice Reading", start + 1) if skill == "listening" else -1
+        text = text[start:stop if stop >= 0 else None]
+    pairs = re.findall(r"(?m)^\s*(\d{1,2})\s*\n\s*([A-F])\s*$", text)
     answers = {int(number): answer for number, answer in pairs}
     if len(answers) != len(pairs) or sorted(answers) != list(range(1, len(answers) + 1)):
         raise ImportErrorWithContext("Answer key contains missing or duplicate question numbers")
     return answers
 
 
-def extract_scores(data: bytes, count: int) -> dict[str, int]:
+def extract_scores(data: bytes, count: int, skill: str | None = None) -> dict[str, int]:
     text = "\n".join(page.get_text() for page in fitz.open(stream=data, filetype="pdf"))
     numbers = [int(x) for x in re.findall(r"(?m)^\s*(\d{1,3})\s*$", text)]
+    if count == 25 and "Band Novice" in text and skill in {"listening", "reading"}:
+        # The official Novice sheet interleaves Listening and Reading columns.
+        if len(numbers) < 100:
+            raise ImportErrorWithContext("Combined Novice score table has fewer than 100 numeric cells")
+        offset = 0 if skill == "listening" else 2
+        numbers = [value for i in range(0, 100, 4) for value in numbers[i + offset:i + offset + 2]]
     # Official tables are two columns; text extraction lists each column top-to-bottom.
     pairs = [(numbers[i], numbers[i + 1]) for i in range(0, len(numbers) - 1, 2)]
     scores = {str(n): score for n, score in pairs if 1 <= n <= count and 0 <= score <= 80}
@@ -46,6 +58,16 @@ def _options(segment: str) -> tuple[str, list[str]]:
     if any(not choice for choice in choices):
         raise ImportErrorWithContext("Empty PDF answer choice")
     return prompt, choices
+
+
+def normalize_printed_choice_labels(segment: str, number: int, page_number: int) -> tuple[str, str | None]:
+    matches = list(OPTION.finditer(segment))
+    if [match.group(1) for match in matches] != ["A", "B", "C", "C"]:
+        return segment, None
+    fourth = matches[-1]
+    corrected = segment[:fourth.start(1)] + "D" + segment[fourth.end(1):]
+    warning = f"Reading Q{number}, PDF page {page_number}: printed fourth option is labeled C; mapped by fourth position to D"
+    return corrected, warning
 
 
 def extract_listening_choices(data: bytes) -> dict[int, list[str]]:
@@ -109,6 +131,7 @@ class ReadingExtract:
     questions: dict[int, dict]
     contexts: dict[str, str]
     images: dict[str, bytes]
+    warnings: list[str]
 
 
 def _semantic_image(page) -> bytes | None:
@@ -128,11 +151,26 @@ def _semantic_image(page) -> bytes | None:
     return pix.tobytes("png")
 
 
+def _vector_document_image(page) -> bytes | None:
+    """Preserve a boxed document drawn as PDF vectors, including its text layout."""
+    drawings = page.get_drawings()
+    if not drawings:
+        return None
+    bounds = fitz.Rect()
+    for drawing in drawings:
+        bounds |= drawing["rect"]
+    if bounds.width < 250 or bounds.height < 200 or bounds.get_area() < page.rect.get_area() * .15:
+        return None
+    clip = (bounds + (-3, -3, 3, 3)) & page.rect
+    return page.get_pixmap(matrix=fitz.Matrix(2, 2), clip=clip, alpha=False).tobytes("png")
+
+
 def extract_reading(data: bytes, variant: str) -> ReadingExtract:
     doc = fitz.open(stream=data, filetype="pdf")
     questions: dict[int, dict] = {}
     contexts: dict[str, str] = {}
     images: dict[str, bytes] = {}
+    warnings: list[str] = []
     in_comprehension = False
     group_index = 0
     current_group = ""
@@ -156,7 +194,13 @@ def extract_reading(data: bytes, variant: str) -> ReadingExtract:
         first_comprehension = max(questions, default=0) + 1
         tokens = sorted([(m.start(), m.end(), "heading", None) for m in HEADING.finditer(text)] + [(m.start(), m.end(), "question", int(m.group(1))) for m in QUESTION.finditer(text) if int(m.group(1)) >= first_comprehension])
         semantic = _semantic_image(page)
+        vector_document = False
+        if not semantic and not any(token[2] == "question" for token in tokens):
+            semantic = _vector_document_image(page)
+            vector_document = semantic is not None
         if not tokens:
+            if vector_document:
+                current_context = ""
             if semantic:
                 if not current_group:
                     group_index += 1
@@ -173,7 +217,8 @@ def extract_reading(data: bytes, variant: str) -> ReadingExtract:
                 current_context = ""
                 if semantic:
                     images[current_group] = semantic
-                current_context += clean(segment) + "\n" if not (i + 1 < len(tokens) and tokens[i + 1][2] == "question") else clean(segment) + "\n"
+                if not vector_document:
+                    current_context += clean(segment) + "\n"
                 continue
             if not current_group:
                 group_index += 1
@@ -182,7 +227,13 @@ def extract_reading(data: bytes, variant: str) -> ReadingExtract:
                 current_context += clean(text[:start]) + "\n"
             if semantic and current_group not in images:
                 images[current_group] = semantic
-            prompt, choice_text = _options(segment)
+            segment, warning = normalize_printed_choice_labels(segment, number, page.number + 1)
+            if warning:
+                warnings.append(warning)
+            try:
+                prompt, choice_text = _options(segment)
+            except ImportErrorWithContext as error:
+                raise ImportErrorWithContext(f"Reading Q{number}, PDF page {page.number + 1}: {error}") from error
             if number in questions:
                 raise ImportErrorWithContext(f"Duplicate Reading Q{number}")
             questions[number] = {"type": "reading_comprehension", "stimulusGroupId": current_group, "questionText": prompt, "choiceText": choice_text}
@@ -193,12 +244,14 @@ def extract_reading(data: bytes, variant: str) -> ReadingExtract:
         group = question["stimulusGroupId"]
         if not contexts.get(group) and group not in images:
             raise ImportErrorWithContext(f"Reading group {group} has no passage or document image")
-    return ReadingExtract(questions, contexts, images)
+    return ReadingExtract(questions, contexts, images, warnings)
 
 
 def extract_transcripts(data: bytes, expected_count: int) -> dict[int, str]:
     text = "\n".join(p.get_text() for p in fitz.open(stream=data, filetype="pdf"))
     matches = list(QUESTION.finditer(text))
+    if not matches:
+        matches = list(re.finditer(r"(?m)^\s*(\d{1,2})\s*$", text))
     result = {}
     for i, match in enumerate(matches):
         n = int(match.group(1))

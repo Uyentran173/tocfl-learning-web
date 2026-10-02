@@ -5,7 +5,7 @@ type PackageAudio = string | { mode: "self_contained" | "shared_group"; path?: s
 
 type PackageQuestion = {
   id: string; number: number; sectionId: string; type: string;
-  assets: Record<ScriptVariant, string>; audio?: PackageAudio;
+  assets?: Record<ScriptVariant, string>; audio?: PackageAudio;
   choices: string[]; correctAnswer: string; variantInvariant?: boolean;
   choiceText?: Record<ScriptVariant, string[]>;
   stimulusGroupId?: string;
@@ -61,7 +61,8 @@ export function validateStructuredPackage(data: StructuredPackage, assetExists: 
       }
       for (const script of ["traditional", "simplified"] as const) {
         const path = question.assets?.[script];
-        if (!path || !assetExists(path)) errors.push(`Thiếu ảnh ${script} của câu ${question.id}.`);
+        if (path && !assetExists(path)) errors.push(`Thiếu ảnh ${script} của câu ${question.id}.`);
+        if (!path && !question.choiceText?.[script]?.every((choice) => choice.trim())) errors.push(`Thiếu nội dung hoặc ảnh ${script} của câu ${question.id}.`);
         if (path && !question.variantInvariant && !path.includes(`/${script}/`)) errors.push(`Sai bản chữ ${script} của câu ${question.id}.`);
         const visual = question.visual?.[script];
         if (exam.id === "band-c-test-01" && (!visual || visual.choices?.length !== question.choices.length || (skill === "reading" && !visual.context))) errors.push(`Thiếu vùng hiển thị câu ${question.id} (${script}).`);
@@ -71,7 +72,7 @@ export function validateStructuredPackage(data: StructuredPackage, assetExists: 
         }
       }
       if (question.variantInvariant && question.assets?.traditional !== question.assets?.simplified) errors.push(`Ảnh dùng chung câu ${question.id} không khớp.`);
-      if (!question.variantInvariant && question.assets?.traditional === question.assets?.simplified) errors.push(`Hai bản chữ câu ${question.id} bị trùng.`);
+      if (!question.variantInvariant && question.assets?.traditional && question.assets.traditional === question.assets.simplified) errors.push(`Hai bản chữ câu ${question.id} bị trùng.`);
     }
   }
   const listening = components.listening;
@@ -126,7 +127,7 @@ export function materializeStructuredTest(data: StructuredPackage, script: Scrip
       type: "multiple-choice" as const,
       question: skill === "reading" ? item.questionText?.[script] ?? "" : "",
       passage: skill === "reading" && item.stimulusGroupId ? component.displayContexts?.[item.stimulusGroupId]?.[script] : undefined,
-      imageUrl: bandCText ? undefined : item.assets[script],
+      imageUrl: bandCText ? undefined : item.assets?.[script],
       sourceVisual: bandCText ? undefined : item.visual?.[script],
       sourceImageReviewOnly: exam.id === "band-b-test-01",
       imageAlt: `Nội dung câu ${item.number}, chữ ${script === "traditional" ? "Phồn thể" : "Giản thể"}`,

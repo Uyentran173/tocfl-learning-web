@@ -33,7 +33,7 @@ export function readSession(id: string): ExamSession | null {
 }
 export function saveSession(session: ExamSession) { window.localStorage.setItem(key(session.testId), JSON.stringify(session)); }
 export function clearSession(id: string) { window.localStorage.removeItem(key(id)); }
-export function startSession(test: MockTest, mode: ExamMode = "practice"): ExamSession {
+export function startSession(test: Pick<MockTest, "id" | "questions" | "listeningIntroAudio" | "script" | "scope">, mode: ExamMode = "practice"): ExamSession {
   const startedAt = Date.now();
   const activeSection = test.questions[0]?.section ?? "listening";
   const startsWithReading = mode === "simulation" && activeSection === "reading";

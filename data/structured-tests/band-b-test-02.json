@@ -1,0 +1,4264 @@
+{
+  "schemaVersion": "1.0",
+  "exam": {
+    "id": "band-b-test-02",
+    "title": "TOCFL Band B — Đề 02",
+    "level": "Band B",
+    "variants": [
+      "traditional",
+      "simplified"
+    ],
+    "defaultVariant": "traditional",
+    "componentOrder": [
+      "listening",
+      "reading"
+    ],
+    "questionNumbering": "restart_per_component",
+    "totalQuestions": 100,
+    "componentScoresSeparate": true,
+    "publishReady": true,
+    "source": {
+      "officialUrl": "https://tocfl.edu.tw/tocfl/index.php/exam/test/page/1?pressBtn=(MockText)",
+      "series": 5,
+      "files": {
+        "listening": {
+          "traditional_pdf": "https://tocfl.edu.tw/tocfl/assets/files/mock/ls_mock5_test_BandB_t.pdf",
+          "simplified_pdf": "https://tocfl.edu.tw/tocfl/assets/files/mock/ls_mock5_test_BandB_s.pdf",
+          "online_audio": "https://eapi.sc-top.org.tw/video/NABC.php?lv=B5",
+          "audio_archive": "https://tocfl.edu.tw/tocfl/assets/files/mock/mock5_BandB_mp3.rar",
+          "answer_pdf": "https://tocfl.edu.tw/tocfl/assets/files/mock/ls_mock5_test_BandB_answer.pdf",
+          "transcript_pdf": "https://tocfl.edu.tw/tocfl/assets/files/mock/ls_mock5_test_BandB_listen.pdf",
+          "score_pdf": "https://tocfl.edu.tw/tocfl/assets/files/mock/Table5_Listening_B.pdf"
+        },
+        "reading": {
+          "traditional_pdf": "https://tocfl.edu.tw/tocfl/assets/files/mock/rd_mock5_test_BandB_t.pdf",
+          "simplified_pdf": "https://tocfl.edu.tw/tocfl/assets/files/mock/rd_mock5_test_BandB_s.pdf",
+          "answer_pdf": "https://tocfl.edu.tw/tocfl/assets/files/mock/rd_mock5_test_BandB_answer.pdf",
+          "score_pdf": "https://tocfl.edu.tw/tocfl/assets/files/mock/Table5_Reading_B.pdf"
+        },
+        "page_url": "https://tocfl.edu.tw/tocfl/index.php/exam/test/page/1?pressBtn=(MockText)"
+      }
+    },
+    "sourceWarnings": []
+  },
+  "flow": {
+    "order": [
+      "listening",
+      "reading"
+    ],
+    "mustCompleteInOrder": true,
+    "preserveSelectedVariantBetweenComponents": true
+  },
+  "components": {
+    "listening": {
+      "id": "listening",
+      "title": "Nghe",
+      "order": 1,
+      "durationSeconds": 3600,
+      "totalQuestions": 50,
+      "choiceLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "sections": [
+        {
+          "id": "listening-part-1",
+          "title": "Part 1",
+          "startQuestion": 1,
+          "endQuestion": 30
+        },
+        {
+          "id": "listening-part-2",
+          "title": "Part 2",
+          "startQuestion": 31,
+          "endQuestion": 50
+        }
+      ],
+      "audio": {
+        "provided": true,
+        "groups": [
+          {
+            "id": "ag-q14-q15",
+            "questions": [
+              14,
+              15
+            ],
+            "sharedAudio": "/tests/band-b-test-02/listening/audio/016.mp3",
+            "questionTracks": {
+              "14": "/tests/band-b-test-02/listening/audio/017.mp3",
+              "15": "/tests/band-b-test-02/listening/audio/018.mp3"
+            }
+          },
+          {
+            "id": "ag-q16-q17",
+            "questions": [
+              16,
+              17
+            ],
+            "sharedAudio": "/tests/band-b-test-02/listening/audio/019.mp3",
+            "questionTracks": {
+              "16": "/tests/band-b-test-02/listening/audio/020.mp3",
+              "17": "/tests/band-b-test-02/listening/audio/021.mp3"
+            }
+          },
+          {
+            "id": "ag-q18-q19",
+            "questions": [
+              18,
+              19
+            ],
+            "sharedAudio": "/tests/band-b-test-02/listening/audio/022.mp3",
+            "questionTracks": {
+              "18": "/tests/band-b-test-02/listening/audio/023.mp3",
+              "19": "/tests/band-b-test-02/listening/audio/024.mp3"
+            }
+          },
+          {
+            "id": "ag-q20-q21",
+            "questions": [
+              20,
+              21
+            ],
+            "sharedAudio": "/tests/band-b-test-02/listening/audio/025.mp3",
+            "questionTracks": {
+              "20": "/tests/band-b-test-02/listening/audio/026.mp3",
+              "21": "/tests/band-b-test-02/listening/audio/027.mp3"
+            }
+          },
+          {
+            "id": "ag-q22-q23",
+            "questions": [
+              22,
+              23
+            ],
+            "sharedAudio": "/tests/band-b-test-02/listening/audio/028.mp3",
+            "questionTracks": {
+              "22": "/tests/band-b-test-02/listening/audio/029.mp3",
+              "23": "/tests/band-b-test-02/listening/audio/030.mp3"
+            }
+          },
+          {
+            "id": "ag-q24-q25",
+            "questions": [
+              24,
+              25
+            ],
+            "sharedAudio": "/tests/band-b-test-02/listening/audio/031.mp3",
+            "questionTracks": {
+              "24": "/tests/band-b-test-02/listening/audio/032.mp3",
+              "25": "/tests/band-b-test-02/listening/audio/033.mp3"
+            }
+          },
+          {
+            "id": "ag-q26-q27",
+            "questions": [
+              26,
+              27
+            ],
+            "sharedAudio": "/tests/band-b-test-02/listening/audio/034.mp3",
+            "questionTracks": {
+              "26": "/tests/band-b-test-02/listening/audio/035.mp3",
+              "27": "/tests/band-b-test-02/listening/audio/036.mp3"
+            }
+          },
+          {
+            "id": "ag-q28-q30",
+            "questions": [
+              28,
+              29,
+              30
+            ],
+            "sharedAudio": "/tests/band-b-test-02/listening/audio/037.mp3",
+            "questionTracks": {
+              "28": "/tests/band-b-test-02/listening/audio/038.mp3",
+              "29": "/tests/band-b-test-02/listening/audio/039.mp3",
+              "30": "/tests/band-b-test-02/listening/audio/040.mp3"
+            }
+          },
+          {
+            "id": "ag-q31-q32",
+            "questions": [
+              31,
+              32
+            ],
+            "sharedAudio": "/tests/band-b-test-02/listening/audio/042.mp3",
+            "questionTracks": {
+              "31": "/tests/band-b-test-02/listening/audio/043.mp3",
+              "32": "/tests/band-b-test-02/listening/audio/044.mp3"
+            }
+          },
+          {
+            "id": "ag-q33-q34",
+            "questions": [
+              33,
+              34
+            ],
+            "sharedAudio": "/tests/band-b-test-02/listening/audio/045.mp3",
+            "questionTracks": {
+              "33": "/tests/band-b-test-02/listening/audio/046.mp3",
+              "34": "/tests/band-b-test-02/listening/audio/047.mp3"
+            }
+          },
+          {
+            "id": "ag-q35-q36",
+            "questions": [
+              35,
+              36
+            ],
+            "sharedAudio": "/tests/band-b-test-02/listening/audio/048.mp3",
+            "questionTracks": {
+              "35": "/tests/band-b-test-02/listening/audio/049.mp3",
+              "36": "/tests/band-b-test-02/listening/audio/050.mp3"
+            }
+          },
+          {
+            "id": "ag-q37-q38",
+            "questions": [
+              37,
+              38
+            ],
+            "sharedAudio": "/tests/band-b-test-02/listening/audio/051.mp3",
+            "questionTracks": {
+              "37": "/tests/band-b-test-02/listening/audio/052.mp3",
+              "38": "/tests/band-b-test-02/listening/audio/053.mp3"
+            }
+          },
+          {
+            "id": "ag-q39-q40",
+            "questions": [
+              39,
+              40
+            ],
+            "sharedAudio": "/tests/band-b-test-02/listening/audio/054.mp3",
+            "questionTracks": {
+              "39": "/tests/band-b-test-02/listening/audio/055.mp3",
+              "40": "/tests/band-b-test-02/listening/audio/056.mp3"
+            }
+          },
+          {
+            "id": "ag-q41-q42",
+            "questions": [
+              41,
+              42
+            ],
+            "sharedAudio": "/tests/band-b-test-02/listening/audio/057.mp3",
+            "questionTracks": {
+              "41": "/tests/band-b-test-02/listening/audio/058.mp3",
+              "42": "/tests/band-b-test-02/listening/audio/059.mp3"
+            }
+          },
+          {
+            "id": "ag-q43-q44",
+            "questions": [
+              43,
+              44
+            ],
+            "sharedAudio": "/tests/band-b-test-02/listening/audio/060.mp3",
+            "questionTracks": {
+              "43": "/tests/band-b-test-02/listening/audio/061.mp3",
+              "44": "/tests/band-b-test-02/listening/audio/062.mp3"
+            }
+          },
+          {
+            "id": "ag-q45-q47",
+            "questions": [
+              45,
+              46,
+              47
+            ],
+            "sharedAudio": "/tests/band-b-test-02/listening/audio/063.mp3",
+            "questionTracks": {
+              "45": "/tests/band-b-test-02/listening/audio/064.mp3",
+              "46": "/tests/band-b-test-02/listening/audio/065.mp3",
+              "47": "/tests/band-b-test-02/listening/audio/066.mp3"
+            }
+          },
+          {
+            "id": "ag-q48-q50",
+            "questions": [
+              48,
+              49,
+              50
+            ],
+            "sharedAudio": "/tests/band-b-test-02/listening/audio/067.mp3",
+            "questionTracks": {
+              "48": "/tests/band-b-test-02/listening/audio/068.mp3",
+              "49": "/tests/band-b-test-02/listening/audio/069.mp3",
+              "50": "/tests/band-b-test-02/listening/audio/070.mp3"
+            }
+          }
+        ],
+        "part1Preamble": "/tests/band-b-test-02/listening/audio/001.mp3",
+        "part1Intro": "/tests/band-b-test-02/listening/audio/002.mp3",
+        "part2Intro": "/tests/band-b-test-02/listening/audio/041.mp3",
+        "endingTrack": "/tests/band-b-test-02/listening/audio/071.mp3",
+        "examPlaybackPlan": [
+          {
+            "type": "track",
+            "role": "part_1_preamble",
+            "path": "/tests/band-b-test-02/listening/audio/001.mp3"
+          },
+          {
+            "type": "track",
+            "role": "part_1_instructions",
+            "path": "/tests/band-b-test-02/listening/audio/002.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q01",
+            "path": "/tests/band-b-test-02/listening/audio/003.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q02",
+            "path": "/tests/band-b-test-02/listening/audio/004.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q03",
+            "path": "/tests/band-b-test-02/listening/audio/005.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q04",
+            "path": "/tests/band-b-test-02/listening/audio/006.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q05",
+            "path": "/tests/band-b-test-02/listening/audio/007.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q06",
+            "path": "/tests/band-b-test-02/listening/audio/008.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q07",
+            "path": "/tests/band-b-test-02/listening/audio/009.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q08",
+            "path": "/tests/band-b-test-02/listening/audio/010.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q09",
+            "path": "/tests/band-b-test-02/listening/audio/011.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q10",
+            "path": "/tests/band-b-test-02/listening/audio/012.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q11",
+            "path": "/tests/band-b-test-02/listening/audio/013.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q12",
+            "path": "/tests/band-b-test-02/listening/audio/014.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q13",
+            "path": "/tests/band-b-test-02/listening/audio/015.mp3"
+          },
+          {
+            "type": "question_group",
+            "id": "ag-q14-q15",
+            "sharedAudio": "/tests/band-b-test-02/listening/audio/016.mp3",
+            "questionTracks": [
+              {
+                "questionId": "listening-q14",
+                "path": "/tests/band-b-test-02/listening/audio/017.mp3"
+              },
+              {
+                "questionId": "listening-q15",
+                "path": "/tests/band-b-test-02/listening/audio/018.mp3"
+              }
+            ]
+          },
+          {
+            "type": "question_group",
+            "id": "ag-q16-q17",
+            "sharedAudio": "/tests/band-b-test-02/listening/audio/019.mp3",
+            "questionTracks": [
+              {
+                "questionId": "listening-q16",
+                "path": "/tests/band-b-test-02/listening/audio/020.mp3"
+              },
+              {
+                "questionId": "listening-q17",
+                "path": "/tests/band-b-test-02/listening/audio/021.mp3"
+              }
+            ]
+          },
+          {
+            "type": "question_group",
+            "id": "ag-q18-q19",
+            "sharedAudio": "/tests/band-b-test-02/listening/audio/022.mp3",
+            "questionTracks": [
+              {
+                "questionId": "listening-q18",
+                "path": "/tests/band-b-test-02/listening/audio/023.mp3"
+              },
+              {
+                "questionId": "listening-q19",
+                "path": "/tests/band-b-test-02/listening/audio/024.mp3"
+              }
+            ]
+          },
+          {
+            "type": "question_group",
+            "id": "ag-q20-q21",
+            "sharedAudio": "/tests/band-b-test-02/listening/audio/025.mp3",
+            "questionTracks": [
+              {
+                "questionId": "listening-q20",
+                "path": "/tests/band-b-test-02/listening/audio/026.mp3"
+              },
+              {
+                "questionId": "listening-q21",
+                "path": "/tests/band-b-test-02/listening/audio/027.mp3"
+              }
+            ]
+          },
+          {
+            "type": "question_group",
+            "id": "ag-q22-q23",
+            "sharedAudio": "/tests/band-b-test-02/listening/audio/028.mp3",
+            "questionTracks": [
+              {
+                "questionId": "listening-q22",
+                "path": "/tests/band-b-test-02/listening/audio/029.mp3"
+              },
+              {
+                "questionId": "listening-q23",
+                "path": "/tests/band-b-test-02/listening/audio/030.mp3"
+              }
+            ]
+          },
+          {
+            "type": "question_group",
+            "id": "ag-q24-q25",
+            "sharedAudio": "/tests/band-b-test-02/listening/audio/031.mp3",
+            "questionTracks": [
+              {
+                "questionId": "listening-q24",
+                "path": "/tests/band-b-test-02/listening/audio/032.mp3"
+              },
+              {
+                "questionId": "listening-q25",
+                "path": "/tests/band-b-test-02/listening/audio/033.mp3"
+              }
+            ]
+          },
+          {
+            "type": "question_group",
+            "id": "ag-q26-q27",
+            "sharedAudio": "/tests/band-b-test-02/listening/audio/034.mp3",
+            "questionTracks": [
+              {
+                "questionId": "listening-q26",
+                "path": "/tests/band-b-test-02/listening/audio/035.mp3"
+              },
+              {
+                "questionId": "listening-q27",
+                "path": "/tests/band-b-test-02/listening/audio/036.mp3"
+              }
+            ]
+          },
+          {
+            "type": "question_group",
+            "id": "ag-q28-q30",
+            "sharedAudio": "/tests/band-b-test-02/listening/audio/037.mp3",
+            "questionTracks": [
+              {
+                "questionId": "listening-q28",
+                "path": "/tests/band-b-test-02/listening/audio/038.mp3"
+              },
+              {
+                "questionId": "listening-q29",
+                "path": "/tests/band-b-test-02/listening/audio/039.mp3"
+              },
+              {
+                "questionId": "listening-q30",
+                "path": "/tests/band-b-test-02/listening/audio/040.mp3"
+              }
+            ]
+          },
+          {
+            "type": "track",
+            "role": "part_2_instructions",
+            "path": "/tests/band-b-test-02/listening/audio/041.mp3"
+          },
+          {
+            "type": "question_group",
+            "id": "ag-q31-q32",
+            "sharedAudio": "/tests/band-b-test-02/listening/audio/042.mp3",
+            "questionTracks": [
+              {
+                "questionId": "listening-q31",
+                "path": "/tests/band-b-test-02/listening/audio/043.mp3"
+              },
+              {
+                "questionId": "listening-q32",
+                "path": "/tests/band-b-test-02/listening/audio/044.mp3"
+              }
+            ]
+          },
+          {
+            "type": "question_group",
+            "id": "ag-q33-q34",
+            "sharedAudio": "/tests/band-b-test-02/listening/audio/045.mp3",
+            "questionTracks": [
+              {
+                "questionId": "listening-q33",
+                "path": "/tests/band-b-test-02/listening/audio/046.mp3"
+              },
+              {
+                "questionId": "listening-q34",
+                "path": "/tests/band-b-test-02/listening/audio/047.mp3"
+              }
+            ]
+          },
+          {
+            "type": "question_group",
+            "id": "ag-q35-q36",
+            "sharedAudio": "/tests/band-b-test-02/listening/audio/048.mp3",
+            "questionTracks": [
+              {
+                "questionId": "listening-q35",
+                "path": "/tests/band-b-test-02/listening/audio/049.mp3"
+              },
+              {
+                "questionId": "listening-q36",
+                "path": "/tests/band-b-test-02/listening/audio/050.mp3"
+              }
+            ]
+          },
+          {
+            "type": "question_group",
+            "id": "ag-q37-q38",
+            "sharedAudio": "/tests/band-b-test-02/listening/audio/051.mp3",
+            "questionTracks": [
+              {
+                "questionId": "listening-q37",
+                "path": "/tests/band-b-test-02/listening/audio/052.mp3"
+              },
+              {
+                "questionId": "listening-q38",
+                "path": "/tests/band-b-test-02/listening/audio/053.mp3"
+              }
+            ]
+          },
+          {
+            "type": "question_group",
+            "id": "ag-q39-q40",
+            "sharedAudio": "/tests/band-b-test-02/listening/audio/054.mp3",
+            "questionTracks": [
+              {
+                "questionId": "listening-q39",
+                "path": "/tests/band-b-test-02/listening/audio/055.mp3"
+              },
+              {
+                "questionId": "listening-q40",
+                "path": "/tests/band-b-test-02/listening/audio/056.mp3"
+              }
+            ]
+          },
+          {
+            "type": "question_group",
+            "id": "ag-q41-q42",
+            "sharedAudio": "/tests/band-b-test-02/listening/audio/057.mp3",
+            "questionTracks": [
+              {
+                "questionId": "listening-q41",
+                "path": "/tests/band-b-test-02/listening/audio/058.mp3"
+              },
+              {
+                "questionId": "listening-q42",
+                "path": "/tests/band-b-test-02/listening/audio/059.mp3"
+              }
+            ]
+          },
+          {
+            "type": "question_group",
+            "id": "ag-q43-q44",
+            "sharedAudio": "/tests/band-b-test-02/listening/audio/060.mp3",
+            "questionTracks": [
+              {
+                "questionId": "listening-q43",
+                "path": "/tests/band-b-test-02/listening/audio/061.mp3"
+              },
+              {
+                "questionId": "listening-q44",
+                "path": "/tests/band-b-test-02/listening/audio/062.mp3"
+              }
+            ]
+          },
+          {
+            "type": "question_group",
+            "id": "ag-q45-q47",
+            "sharedAudio": "/tests/band-b-test-02/listening/audio/063.mp3",
+            "questionTracks": [
+              {
+                "questionId": "listening-q45",
+                "path": "/tests/band-b-test-02/listening/audio/064.mp3"
+              },
+              {
+                "questionId": "listening-q46",
+                "path": "/tests/band-b-test-02/listening/audio/065.mp3"
+              },
+              {
+                "questionId": "listening-q47",
+                "path": "/tests/band-b-test-02/listening/audio/066.mp3"
+              }
+            ]
+          },
+          {
+            "type": "question_group",
+            "id": "ag-q48-q50",
+            "sharedAudio": "/tests/band-b-test-02/listening/audio/067.mp3",
+            "questionTracks": [
+              {
+                "questionId": "listening-q48",
+                "path": "/tests/band-b-test-02/listening/audio/068.mp3"
+              },
+              {
+                "questionId": "listening-q49",
+                "path": "/tests/band-b-test-02/listening/audio/069.mp3"
+              },
+              {
+                "questionId": "listening-q50",
+                "path": "/tests/band-b-test-02/listening/audio/070.mp3"
+              }
+            ]
+          },
+          {
+            "type": "track",
+            "role": "ending",
+            "path": "/tests/band-b-test-02/listening/audio/071.mp3"
+          }
+        ]
+      },
+      "transcriptDataPath": "data/test-supplements/band-b-test-02/listening-transcripts.json",
+      "scoring": {
+        "type": "lookup_table",
+        "maxScore": 80,
+        "scoreByCorrectCount": {
+          "1": 10,
+          "26": 50,
+          "2": 13,
+          "27": 51,
+          "3": 17,
+          "28": 52,
+          "4": 21,
+          "29": 53,
+          "5": 23,
+          "30": 54,
+          "6": 25,
+          "31": 55,
+          "7": 27,
+          "32": 56,
+          "8": 29,
+          "33": 57,
+          "9": 31,
+          "34": 58,
+          "10": 32,
+          "35": 59,
+          "11": 33,
+          "36": 61,
+          "12": 35,
+          "37": 62,
+          "13": 36,
+          "38": 63,
+          "14": 37,
+          "39": 65,
+          "15": 38,
+          "40": 66,
+          "16": 39,
+          "41": 68,
+          "17": 40,
+          "42": 69,
+          "18": 41,
+          "43": 71,
+          "19": 43,
+          "44": 73,
+          "20": 44,
+          "45": 75,
+          "21": 45,
+          "46": 76,
+          "22": 46,
+          "47": 77,
+          "23": 47,
+          "48": 78,
+          "24": 48,
+          "49": 79,
+          "25": 49,
+          "50": 80
+        }
+      },
+      "questions": [
+        {
+          "id": "listening-q01",
+          "number": 1,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "A",
+          "choiceText": {
+            "traditional": [
+              "他們要去山上看花",
+              "這位先生不想上山",
+              "小芳忘了照相機放在哪裡",
+              "小芳只想看花，不想照相"
+            ],
+            "simplified": [
+              "他們要去山上看花",
+              "這位先生不想上山",
+              "小芳忘了照相機放在哪裡",
+              "小芳只想看花，不想照相"
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-b-test-02/listening/audio/003.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/003.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q01"
+        },
+        {
+          "id": "listening-q02",
+          "number": 2,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "C",
+          "choiceText": {
+            "traditional": [
+              "她擔心會買不到牛肉",
+              "她覺得兩斤牛肉太多",
+              "她記得牛肉還沒吃完",
+              "她不確定家裡有沒有牛肉"
+            ],
+            "simplified": [
+              "她擔心會買不到牛肉",
+              "她覺得兩斤牛肉太多",
+              "她記得牛肉還沒吃完",
+              "她不確定家裡有沒有牛肉"
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-b-test-02/listening/audio/004.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/004.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q02"
+        },
+        {
+          "id": "listening-q03",
+          "number": 3,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "D",
+          "choiceText": {
+            "traditional": [
+              "讓小新決定要買什麼禮物",
+              "她不願意送小新生日禮物",
+              "送小新的禮物已經決定了",
+              "送小新什麼禮物都沒關係"
+            ],
+            "simplified": [
+              "讓小新決定要買什麼禮物",
+              "她不願意送小新生日禮物",
+              "送小新的禮物已經決定了",
+              "送小新什麼禮物都沒關係"
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-b-test-02/listening/audio/005.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/005.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q03"
+        },
+        {
+          "id": "listening-q04",
+          "number": 4,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "C",
+          "choiceText": {
+            "traditional": [
+              "使用網路看病非常方便",
+              "病人需要付很多錢看病",
+              "看病的結果可能不正確",
+              "病人不能很快知道結果"
+            ],
+            "simplified": [
+              "使用網路看病非常方便",
+              "病人需要付很多錢看病",
+              "看病的結果可能不正確",
+              "病人不能很快知道結果"
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-b-test-02/listening/audio/006.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/006.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q04"
+        },
+        {
+          "id": "listening-q05",
+          "number": 5,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "A",
+          "choiceText": {
+            "traditional": [
+              "她也幫不了這位先生的忙",
+              "她今天得整理資料給老闆",
+              "她覺得這位先生一定來不及",
+              "她要這位先生找小陳做決定"
+            ],
+            "simplified": [
+              "她也幫不了這位先生的忙",
+              "她今天得整理資料給老闆",
+              "她覺得這位先生一定來不及",
+              "她要這位先生找小陳做決定"
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-b-test-02/listening/audio/007.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/007.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q05"
+        },
+        {
+          "id": "listening-q06",
+          "number": 6,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "B",
+          "choiceText": {
+            "traditional": [
+              "餐點的價格",
+              "食物的味道",
+              "用餐的環境",
+              "服務的品質"
+            ],
+            "simplified": [
+              "餐點的價格",
+              "食物的味道",
+              "用餐的環境",
+              "服務的品質"
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-b-test-02/listening/audio/008.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/008.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q06"
+        },
+        {
+          "id": "listening-q07",
+          "number": 7,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "C",
+          "choiceText": {
+            "traditional": [
+              "書店寄錯地址了",
+              "李大年忘了提供名字",
+              "李大年快要收到書了",
+              "書店弄錯李大年買的書"
+            ],
+            "simplified": [
+              "書店寄錯地址了",
+              "李大年忘了提供名字",
+              "李大年快要收到書了",
+              "書店弄錯李大年買的書"
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-b-test-02/listening/audio/009.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/009.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q07"
+        },
+        {
+          "id": "listening-q08",
+          "number": 8,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "C",
+          "choiceText": {
+            "traditional": [
+              "她堅持每天都要逛街",
+              "她的朋友想去博物館",
+              "她跟朋友對旅行有不同的期待",
+              "旅行加深了她和朋友間的感情"
+            ],
+            "simplified": [
+              "她堅持每天都要逛街",
+              "她的朋友想去博物館",
+              "她跟朋友對旅行有不同的期待",
+              "旅行加深了她和朋友間的感情"
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-b-test-02/listening/audio/010.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/010.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q08"
+        },
+        {
+          "id": "listening-q09",
+          "number": 9,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "D",
+          "choiceText": {
+            "traditional": [
+              "沒有特別的想法",
+              "抱著肯定的態度",
+              "十分渴望有人陪伴",
+              "偏向維持目前狀態"
+            ],
+            "simplified": [
+              "沒有特別的想法",
+              "抱着肯定的態度",
+              "十分渴望有人陪伴",
+              "偏向維持目前狀態"
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-b-test-02/listening/audio/011.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/011.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q09"
+        },
+        {
+          "id": "listening-q10",
+          "number": 10,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "D",
+          "choiceText": {
+            "traditional": [
+              "她很想當弟弟的榜樣",
+              "她想幫弟弟複習功課",
+              "她跟弟弟一樣都很用功",
+              "她的生活方式比弟弟好"
+            ],
+            "simplified": [
+              "她很想當弟弟的榜樣",
+              "她想幫弟弟複習功課",
+              "她跟弟弟一樣都很用功",
+              "她的生活方式比弟弟好"
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-b-test-02/listening/audio/012.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/012.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q10"
+        },
+        {
+          "id": "listening-q11",
+          "number": 11,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "A",
+          "choiceText": {
+            "traditional": [
+              "她不會放棄提這個計畫案",
+              "她和這位先生的看法一樣",
+              "她覺得這個計畫案無法通過",
+              "她希望這位先生不要太樂觀"
+            ],
+            "simplified": [
+              "她不會放棄提這個计划案",
+              "她和這位先生的看法一樣",
+              "她覺得這個计划案無法通過",
+              "她希望這位先生不要太樂觀"
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-b-test-02/listening/audio/013.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/013.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q11"
+        },
+        {
+          "id": "listening-q12",
+          "number": 12,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "B",
+          "choiceText": {
+            "traditional": [
+              "明天一定要來醫院",
+              "擦藥眼睛變紅很常見",
+              "藥擦完了，再來醫院",
+              "病人不能自己擦這種藥"
+            ],
+            "simplified": [
+              "明天一定要來醫院",
+              "擦藥眼睛變紅很常見",
+              "藥擦完了，再來醫院",
+              "病人不能自己擦這種藥"
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-b-test-02/listening/audio/014.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/014.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q12"
+        },
+        {
+          "id": "listening-q13",
+          "number": 13,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "D",
+          "choiceText": {
+            "traditional": [
+              "這位先生想貸款買房子",
+              "這位小姐覺得這位先生很消極",
+              "這位先生的媽媽覺得買房不如租房",
+              "這位小姐不想負擔太大的經濟壓力"
+            ],
+            "simplified": [
+              "這位先生想貸款買房子",
+              "這位小姐覺得這位先生很消極",
+              "這位先生的媽媽覺得買房不如租房",
+              "這位小姐不想負擔太大的經濟壓力"
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-b-test-02/listening/audio/015.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/015.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q13"
+        },
+        {
+          "id": "listening-q14",
+          "number": 14,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "D",
+          "choiceText": {
+            "traditional": [
+              "相當無助",
+              "非常逃避",
+              "有點猶豫",
+              "無可奈何"
+            ],
+            "simplified": [
+              "相當無助",
+              "非常逃避",
+              "有點猶豫",
+              "無可奈何"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q14-q15",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/017.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/016.mp3",
+              "/tests/band-b-test-02/listening/audio/017.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q14"
+        },
+        {
+          "id": "listening-q15",
+          "number": 15,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "A",
+          "choiceText": {
+            "traditional": [
+              "使用工具讓掃地更輕鬆",
+              "計畫好固定的打掃時間",
+              "減少每週打掃環境的次數",
+              "購買能掃得更乾淨的工具"
+            ],
+            "simplified": [
+              "使用工具讓掃地更輕鬆",
+              "计划好固定的打掃時間",
+              "減少每週打掃環境的次數",
+              "購買能掃得更乾淨的工具"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q14-q15",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/018.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/016.mp3",
+              "/tests/band-b-test-02/listening/audio/018.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q15"
+        },
+        {
+          "id": "listening-q16",
+          "number": 16,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "D",
+          "choiceText": {
+            "traditional": [
+              "李義的女朋友反應過度了",
+              "男女朋友之間吵架沒什麼",
+              "就算動手打人也解決不了問題",
+              "也許李義沒想到情況有多嚴重"
+            ],
+            "simplified": [
+              "李義的女朋友反應過度了",
+              "男女朋友之間吵架沒什麼",
+              "就算動手打人也解決不了問題",
+              "也許李義沒想到情況有多嚴重"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q16-q17",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/020.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/019.mp3",
+              "/tests/band-b-test-02/listening/audio/020.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q16"
+        },
+        {
+          "id": "listening-q17",
+          "number": 17,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "B",
+          "choiceText": {
+            "traditional": [
+              "他很害怕女朋友想跟他分手",
+              "他很後悔不小心傷了女朋友",
+              "他沒辦法認同女朋友的說法",
+              "他覺得自己嘗試控制情緒了"
+            ],
+            "simplified": [
+              "他很害怕女朋友想跟他分手",
+              "他很後悔不小心傷了女朋友",
+              "他沒辦法認同女朋友的說法",
+              "他覺得自己嘗試控制情緒了"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q16-q17",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/021.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/019.mp3",
+              "/tests/band-b-test-02/listening/audio/021.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q17"
+        },
+        {
+          "id": "listening-q18",
+          "number": 18,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "C",
+          "choiceText": {
+            "traditional": [
+              "工作做得好比較重要",
+              "應該尋求其他的幫助",
+              "再忍受一次也不要緊",
+              "沒什麼好覺得驚訝的"
+            ],
+            "simplified": [
+              "工作做得好比較重要",
+              "應該尋求其他的幫助",
+              "再忍受一次也不要緊",
+              "沒什麼好覺得驚訝的"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q18-q19",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/023.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/022.mp3",
+              "/tests/band-b-test-02/listening/audio/023.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q18"
+        },
+        {
+          "id": "listening-q19",
+          "number": 19,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "D",
+          "choiceText": {
+            "traditional": [
+              "在公司才能有好的發展",
+              "有把握能讓主管都滿意",
+              "請教過有類似經驗的同事",
+              "讓主管知道事情的嚴重性"
+            ],
+            "simplified": [
+              "在公司才能有好的發展",
+              "有把握能讓主管都滿意",
+              "請教過有類似經驗的同事",
+              "讓主管知道事情的嚴重性"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q18-q19",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/024.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/022.mp3",
+              "/tests/band-b-test-02/listening/audio/024.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q19"
+        },
+        {
+          "id": "listening-q20",
+          "number": 20,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "C",
+          "choiceText": {
+            "traditional": [
+              "在裡面才能安靜地看電影",
+              "孩子一哭鬧，就會被帶進去",
+              "任何人都可以使用這個房間",
+              "可以自由選擇自己想看的影片"
+            ],
+            "simplified": [
+              "在裡面才能安靜地看電影",
+              "孩子一哭鬧，就會被帶進去",
+              "任何人都可以使用這個房間",
+              "可以自由選擇自己想看的影片"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q20-q21",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/026.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/025.mp3",
+              "/tests/band-b-test-02/listening/audio/026.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q20"
+        },
+        {
+          "id": "listening-q21",
+          "number": 21,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "B",
+          "choiceText": {
+            "traditional": [
+              "因為房間的設計源自於教堂",
+              "因為教堂也提供這樣的房間",
+              "因為教堂有照顧孩子的服務",
+              "因為教堂能接受小孩子哭鬧"
+            ],
+            "simplified": [
+              "因為房間的設計源自於教堂",
+              "因為教堂也提供這樣的房間",
+              "因為教堂有照顧孩子的服務",
+              "因為教堂能接受小孩子哭鬧"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q20-q21",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/027.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/025.mp3",
+              "/tests/band-b-test-02/listening/audio/027.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q21"
+        },
+        {
+          "id": "listening-q22",
+          "number": 22,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "C",
+          "choiceText": {
+            "traditional": [
+              "每天建議的咖啡量",
+              "和咖啡相關的廣告",
+              "有關咖啡的研究結果",
+              "咖啡作為藥物的原料"
+            ],
+            "simplified": [
+              "每天建議的咖啡量",
+              "和咖啡相關的廣告",
+              "有關咖啡的研究結果",
+              "咖啡作為藥物的原料"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q22-q23",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/029.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/028.mp3",
+              "/tests/band-b-test-02/listening/audio/029.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q22"
+        },
+        {
+          "id": "listening-q23",
+          "number": 23,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "D",
+          "choiceText": {
+            "traditional": [
+              "得喝很多才會有精神",
+              "可降低得心臟疾病的風險",
+              "不管喝多喝少都會造成身體傷害",
+              "他不相信這位小姐提到的那些好處"
+            ],
+            "simplified": [
+              "得喝很多才會有精神",
+              "可降低得心臟疾病的風險",
+              "不管喝多喝少都會造成身體傷害",
+              "他不相信這位小姐提到的那些好處"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q22-q23",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/030.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/028.mp3",
+              "/tests/band-b-test-02/listening/audio/030.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q23"
+        },
+        {
+          "id": "listening-q24",
+          "number": 24,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "C",
+          "choiceText": {
+            "traditional": [
+              "火車提早了發車時間",
+              "高速公路最近不塞車",
+              "她換了交通工具上班",
+              "老闆希望她不要遲到"
+            ],
+            "simplified": [
+              "火車提早了發車時間",
+              "高速公路最近不塞車",
+              "她換了交通工具上班",
+              "老闆希望她不要遲到"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q24-q25",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/032.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/031.mp3",
+              "/tests/band-b-test-02/listening/audio/032.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q24"
+        },
+        {
+          "id": "listening-q25",
+          "number": 25,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "A",
+          "choiceText": {
+            "traditional": [
+              "最近經營的狀況",
+              "公司有哪些福利",
+              "火車司機的平均收入",
+              "公司結構的組成方式"
+            ],
+            "simplified": [
+              "最近經營的狀況",
+              "公司有哪些福利",
+              "火車司機的平均收入",
+              "公司結構的組成方式"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q24-q25",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/033.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/031.mp3",
+              "/tests/band-b-test-02/listening/audio/033.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q25"
+        },
+        {
+          "id": "listening-q26",
+          "number": 26,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "A",
+          "choiceText": {
+            "traditional": [
+              "她以為慢跑很簡單",
+              "她再也不想跑步了",
+              "慢跑是她最喜歡的運動",
+              "慢跑讓她的身體變得更好"
+            ],
+            "simplified": [
+              "她以為慢跑很簡單",
+              "她再也不想跑步了",
+              "慢跑是她最喜歡的運動",
+              "慢跑讓她的身體變得更好"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q26-q27",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/035.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/034.mp3",
+              "/tests/band-b-test-02/listening/audio/035.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q26"
+        },
+        {
+          "id": "listening-q27",
+          "number": 27,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "B",
+          "choiceText": {
+            "traditional": [
+              "跑步的速度",
+              "跑步的距離",
+              "跑步的次數",
+              "跑步的地點 \n \n請聽這段有關「瑞典向挪威進口垃圾」的討論，然後回答三個問題。 \n \nⅠ. 為什麼瑞典需要進口垃圾？ \n \nⅡ. 為什麼這位先生覺得這個合作方案對挪威沒有好處？ \n \nⅢ. 這位小姐對瑞典的發電方式，有什麼看法？ \n \n現在請聽討論。"
+            ],
+            "simplified": [
+              "跑步的速度",
+              "跑步的距離",
+              "跑步的次數",
+              "跑步的地點 \n \n請聽這段有關「瑞典向挪威進口垃圾」的討論，然後回答三個問\n題。 \n \nⅠ. 為什麼瑞典需要進口垃圾？ \n \nⅡ. 為什麼這位先生覺得這個合作方案對挪威沒有好處？ \n \nⅢ. 這位小姐對瑞典的發電方式，有什麼看法？ \n \n現在請聽討論。"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q26-q27",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/036.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/034.mp3",
+              "/tests/band-b-test-02/listening/audio/036.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q27"
+        },
+        {
+          "id": "listening-q28",
+          "number": 28,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "A",
+          "choiceText": {
+            "traditional": [
+              "缺乏足夠的燃料",
+              "想增加國家的收入",
+              "協助其他國家處理垃圾",
+              "需要製作再生商品的原料"
+            ],
+            "simplified": [
+              "缺乏足夠的燃料",
+              "想增加國家的收入",
+              "協助其他國家處理垃圾",
+              "需要製作再生商品的原料"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q28-q30",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/038.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/037.mp3",
+              "/tests/band-b-test-02/listening/audio/038.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q28"
+        },
+        {
+          "id": "listening-q29",
+          "number": 29,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "B",
+          "choiceText": {
+            "traditional": [
+              "因為垃圾賣不了多少錢",
+              "因為得負責相關費用及運送",
+              "因為垃圾處理費太貴不合理",
+              "因為對方只進口特定的垃圾"
+            ],
+            "simplified": [
+              "因為垃圾賣不了多少錢",
+              "因為得負責相關費用及運送",
+              "因為垃圾處理費太貴不合理",
+              "因為對方只進口特定的垃圾"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q28-q30",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/039.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/037.mp3",
+              "/tests/band-b-test-02/listening/audio/039.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q29"
+        },
+        {
+          "id": "listening-q30",
+          "number": 30,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "A",
+          "choiceText": {
+            "traditional": [
+              "處理廢氣的技術相當完善",
+              "認為石油更適合用來發電",
+              "反而會製造出更多汙染物質",
+              "應該尋找更乾淨的發電方法"
+            ],
+            "simplified": [
+              "處理廢氣的技術相當完善",
+              "認為石油更適合用來發電",
+              "反而會製造出更多汙染物質",
+              "應該尋找更乾淨的發電方法"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q28-q30",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/040.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/037.mp3",
+              "/tests/band-b-test-02/listening/audio/040.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q30"
+        },
+        {
+          "id": "listening-q31",
+          "number": 31,
+          "sectionId": "listening-part-2",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "B",
+          "choiceText": {
+            "traditional": [
+              "找石頭",
+              "算數學",
+              "做運動",
+              "打電動"
+            ],
+            "simplified": [
+              "找石頭",
+              "算數學",
+              "做運動",
+              "打電動"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q31-q32",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/043.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/042.mp3",
+              "/tests/band-b-test-02/listening/audio/043.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q31"
+        },
+        {
+          "id": "listening-q32",
+          "number": 32,
+          "sectionId": "listening-part-2",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "A",
+          "choiceText": {
+            "traditional": [
+              "李大華是這個班的新學生",
+              "李大華身體不好，常常頭痛",
+              "李大華希望大家教他寫作業",
+              "李大華的爸爸為了他而搬家"
+            ],
+            "simplified": [
+              "李大華是這個班的新學生",
+              "李大華身體不好，常常頭痛",
+              "李大華希望大家教他寫作業",
+              "李大華的爸爸為了他而搬家"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q31-q32",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/044.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/042.mp3",
+              "/tests/band-b-test-02/listening/audio/044.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q32"
+        },
+        {
+          "id": "listening-q33",
+          "number": 33,
+          "sectionId": "listening-part-2",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "B",
+          "choiceText": {
+            "traditional": [
+              "電子票券",
+              "親子票券",
+              "紙本站票",
+              "團體票券"
+            ],
+            "simplified": [
+              "電子票券",
+              "親子票券",
+              "紙本站票",
+              "團體票券"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q33-q34",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/046.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/045.mp3",
+              "/tests/band-b-test-02/listening/audio/046.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q33"
+        },
+        {
+          "id": "listening-q34",
+          "number": 34,
+          "sectionId": "listening-part-2",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "C",
+          "choiceText": {
+            "traditional": [
+              "在座位上購買餐點",
+              "使用機器購買紀念品",
+              "享用火車上提供的水",
+              "免費使用車上的網路"
+            ],
+            "simplified": [
+              "在座位上購買餐點",
+              "使用機器購買紀念品",
+              "享用火車上提供的水",
+              "免費使用車上的網路"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q33-q34",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/047.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/045.mp3",
+              "/tests/band-b-test-02/listening/audio/047.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q34"
+        },
+        {
+          "id": "listening-q35",
+          "number": 35,
+          "sectionId": "listening-part-2",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "C",
+          "choiceText": {
+            "traditional": [
+              "旅行費用有一點高",
+              "旅行的過程需要轉機",
+              "說話者原本十分期待",
+              "說話者和家人一起參加"
+            ],
+            "simplified": [
+              "旅行費用有一點高",
+              "旅行的過程需要轉機",
+              "說話者原本十分期待",
+              "說話者和家人一起參加"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q35-q36",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/049.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/048.mp3",
+              "/tests/band-b-test-02/listening/audio/049.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q35"
+        },
+        {
+          "id": "listening-q36",
+          "number": 36,
+          "sectionId": "listening-part-2",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "B",
+          "choiceText": {
+            "traditional": [
+              "他的房間太小",
+              "必須一直排隊",
+              "游泳池的水很髒",
+              "搭船的時間太短"
+            ],
+            "simplified": [
+              "他的房間太小",
+              "必須一直排隊",
+              "游泳池的水很髒",
+              "搭船的時間太短"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q35-q36",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/050.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/048.mp3",
+              "/tests/band-b-test-02/listening/audio/050.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q36"
+        },
+        {
+          "id": "listening-q37",
+          "number": 37,
+          "sectionId": "listening-part-2",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "D",
+          "choiceText": {
+            "traditional": [
+              "到地下一樓玩遊戲",
+              "到五樓輸入手機號碼",
+              "報名參加商店舉辦的活動",
+              "拿今天的消費證明到櫃臺"
+            ],
+            "simplified": [
+              "到地下一樓玩遊戲",
+              "到五樓輸入手機號碼",
+              "報名參加商店舉辦的活動",
+              "拿今天的消費證明到櫃臺"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q37-q38",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/052.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/051.mp3",
+              "/tests/band-b-test-02/listening/audio/052.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q37"
+        },
+        {
+          "id": "listening-q38",
+          "number": 38,
+          "sectionId": "listening-part-2",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "C",
+          "choiceText": {
+            "traditional": [
+              "今天來店消費就送現金",
+              "今天的大獎已經送完了",
+              "來店的顧客都能參加遊戲",
+              "只有部分樓層有特別折扣"
+            ],
+            "simplified": [
+              "今天來店消費就送現金",
+              "今天的大獎已經送完了",
+              "來店的顧客都能參加遊戲",
+              "只有部分樓層有特別折扣"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q37-q38",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/053.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/051.mp3",
+              "/tests/band-b-test-02/listening/audio/053.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q38"
+        },
+        {
+          "id": "listening-q39",
+          "number": 39,
+          "sectionId": "listening-part-2",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "A",
+          "choiceText": {
+            "traditional": [
+              "讓等待變有趣",
+              "增加車站的收入",
+              "希望提高閱讀風氣",
+              "請讀者選出最有意思的故事"
+            ],
+            "simplified": [
+              "讓等待變有趣",
+              "增加車站的收入",
+              "希望提高閱讀風氣",
+              "請讀者選出最有意思的故事"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q39-q40",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/055.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/054.mp3",
+              "/tests/band-b-test-02/listening/audio/055.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q39"
+        },
+        {
+          "id": "listening-q40",
+          "number": 40,
+          "sectionId": "listening-part-2",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "B",
+          "choiceText": {
+            "traditional": [
+              "銷售的狀況",
+              "內容的長短",
+              "閱讀後的感想",
+              "受歡迎的程度"
+            ],
+            "simplified": [
+              "銷售的狀況",
+              "內容的長短",
+              "閱讀後的感想",
+              "受歡迎的程度"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q39-q40",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/056.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/054.mp3",
+              "/tests/band-b-test-02/listening/audio/056.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q40"
+        },
+        {
+          "id": "listening-q41",
+          "number": 41,
+          "sectionId": "listening-part-2",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "C",
+          "choiceText": {
+            "traditional": [
+              "放煙火影響環境的程度",
+              "支持放煙火民眾的人數",
+              "這個活動在經濟方面的效應",
+              "跨年煙火被停辦的主要原因"
+            ],
+            "simplified": [
+              "放煙火影響環境的程度",
+              "支持放煙火民眾的人數",
+              "這個活動在經濟方面的效應",
+              "跨年煙火被停辦的主要原因"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q41-q42",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/058.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/057.mp3",
+              "/tests/band-b-test-02/listening/audio/058.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q41"
+        },
+        {
+          "id": "listening-q42",
+          "number": 42,
+          "sectionId": "listening-part-2",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "A",
+          "choiceText": {
+            "traditional": [
+              "十分贊成",
+              "不想評論",
+              "無法理解",
+              "沒有想法"
+            ],
+            "simplified": [
+              "十分贊成",
+              "不想評論",
+              "無法理解",
+              "沒有想法"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q41-q42",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/059.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/057.mp3",
+              "/tests/band-b-test-02/listening/audio/059.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q42"
+        },
+        {
+          "id": "listening-q43",
+          "number": 43,
+          "sectionId": "listening-part-2",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "D",
+          "choiceText": {
+            "traditional": [
+              "電視台的人力與預算安排",
+              "觀眾如何培養正確的國際觀",
+              "媒體受到全球化的影響很大",
+              "非自製的國際新聞對觀眾的影響"
+            ],
+            "simplified": [
+              "電視台的人力與預算安排",
+              "觀眾如何培養正確的國際觀",
+              "媒體受到全球化的影響很大",
+              "非自製的國際新聞對觀眾的影響"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q43-q44",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/061.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/060.mp3",
+              "/tests/band-b-test-02/listening/audio/061.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q43"
+        },
+        {
+          "id": "listening-q44",
+          "number": 44,
+          "sectionId": "listening-part-2",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "C",
+          "choiceText": {
+            "traditional": [
+              "新聞媒體專業人才不足",
+              "觀眾比較喜歡收看網路新聞",
+              "難以負擔製作國際新聞的成本",
+              "觀眾偏好直接從國外接收資訊"
+            ],
+            "simplified": [
+              "新聞媒體專業人才不足",
+              "觀眾比較喜歡收看網路新聞",
+              "難以負擔製作國際新聞的成本",
+              "觀眾偏好直接從國外接收資訊"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q43-q44",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/062.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/060.mp3",
+              "/tests/band-b-test-02/listening/audio/062.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q44"
+        },
+        {
+          "id": "listening-q45",
+          "number": 45,
+          "sectionId": "listening-part-2",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "D",
+          "choiceText": {
+            "traditional": [
+              "賣自己設計的衣服",
+              "提供多元購物管道",
+              "幫助需要幫助的人",
+              "為了避免資源浪費"
+            ],
+            "simplified": [
+              "賣自己設計的衣服",
+              "提供多元購物管道",
+              "幫助需要幫助的人",
+              "為了避免資源浪費"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q45-q47",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/064.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/063.mp3",
+              "/tests/band-b-test-02/listening/audio/064.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q45"
+        },
+        {
+          "id": "listening-q46",
+          "number": 46,
+          "sectionId": "listening-part-2",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "B",
+          "choiceText": {
+            "traditional": [
+              "所有的衣服只租不賣",
+              "衣服想租多久就租多久",
+              "破損的衣服將免費贈送",
+              "任何人都可以租借衣服"
+            ],
+            "simplified": [
+              "所有的衣服只租不賣",
+              "衣服想租多久就租多久",
+              "破損的衣服將免費贈送",
+              "任何人都可以租借衣服"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q45-q47",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/065.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/063.mp3",
+              "/tests/band-b-test-02/listening/audio/065.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q46"
+        },
+        {
+          "id": "listening-q47",
+          "number": 47,
+          "sectionId": "listening-part-2",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "A",
+          "choiceText": {
+            "traditional": [
+              "擴大服務地區",
+              "增加衣服款式",
+              "經營方式多元化",
+              "將舊衣捐到國外"
+            ],
+            "simplified": [
+              "擴大服務地區",
+              "增加衣服款式",
+              "經營方式多元化",
+              "將舊衣捐到國外"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q45-q47",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/066.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/063.mp3",
+              "/tests/band-b-test-02/listening/audio/066.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q47"
+        },
+        {
+          "id": "listening-q48",
+          "number": 48,
+          "sectionId": "listening-part-2",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "B",
+          "choiceText": {
+            "traditional": [
+              "運動產品種類增加的因素",
+              "運動成為流行活動的原因",
+              "運動中心經營管理的方式",
+              "政府舉辦運動比賽的動機"
+            ],
+            "simplified": [
+              "運動產品種類增加的因素",
+              "運動成為流行活動的原因",
+              "運動中心經營管理的方式",
+              "政府舉辦運動比賽的動機"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q48-q50",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/068.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/067.mp3",
+              "/tests/band-b-test-02/listening/audio/068.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q48"
+        },
+        {
+          "id": "listening-q49",
+          "number": 49,
+          "sectionId": "listening-part-2",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "D",
+          "choiceText": {
+            "traditional": [
+              "舉辦大型路跑活動",
+              "發展戶外休閒事業",
+              "提供運動比賽經費",
+              "在各地蓋運動中心"
+            ],
+            "simplified": [
+              "舉辦大型路跑活動",
+              "發展戶外休閒事業",
+              "提供運動比賽經費",
+              "在各地蓋運動中心"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q48-q50",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/069.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/067.mp3",
+              "/tests/band-b-test-02/listening/audio/069.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q49"
+        },
+        {
+          "id": "listening-q50",
+          "number": 50,
+          "sectionId": "listening-part-2",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "A",
+          "choiceText": {
+            "traditional": [
+              "具商業利益",
+              "配合政府政策",
+              "提升公司的形象",
+              "要大家更重視運動"
+            ],
+            "simplified": [
+              "具商業利益",
+              "配合政府政策",
+              "提升公司的形象",
+              "要大家更重視運動"
+            ]
+          },
+          "audio": {
+            "mode": "shared_group",
+            "groupId": "ag-q48-q50",
+            "questionTrack": "/tests/band-b-test-02/listening/audio/070.mp3",
+            "reviewSequence": [
+              "/tests/band-b-test-02/listening/audio/067.mp3",
+              "/tests/band-b-test-02/listening/audio/070.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q50"
+        }
+      ]
+    },
+    "reading": {
+      "id": "reading",
+      "title": "Đọc",
+      "order": 2,
+      "durationSeconds": 3600,
+      "totalQuestions": 50,
+      "choiceLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "sections": [
+        {
+          "id": "reading-part-1",
+          "title": "Part 1",
+          "startQuestion": 1,
+          "endQuestion": 18
+        },
+        {
+          "id": "reading-part-2",
+          "title": "Part 2",
+          "startQuestion": 19,
+          "endQuestion": 50
+        }
+      ],
+      "scoring": {
+        "type": "lookup_table",
+        "maxScore": 80,
+        "scoreByCorrectCount": {
+          "1": 10,
+          "26": 50,
+          "2": 14,
+          "27": 52,
+          "3": 18,
+          "28": 53,
+          "4": 21,
+          "29": 54,
+          "5": 24,
+          "30": 55,
+          "6": 26,
+          "31": 56,
+          "7": 28,
+          "32": 57,
+          "8": 30,
+          "33": 58,
+          "9": 31,
+          "34": 59,
+          "10": 33,
+          "35": 61,
+          "11": 34,
+          "36": 62,
+          "12": 35,
+          "37": 63,
+          "13": 36,
+          "38": 65,
+          "14": 38,
+          "39": 66,
+          "15": 39,
+          "40": 68,
+          "16": 40,
+          "41": 69,
+          "17": 41,
+          "42": 71,
+          "18": 42,
+          "43": 73,
+          "19": 43,
+          "44": 74,
+          "20": 44,
+          "45": 75,
+          "21": 45,
+          "46": 76,
+          "22": 46,
+          "47": 77,
+          "23": 47,
+          "48": 78,
+          "24": 48,
+          "49": 79,
+          "25": 49,
+          "50": 80
+        }
+      },
+      "questions": [
+        {
+          "id": "reading-q01",
+          "number": 1,
+          "sectionId": "reading-part-1",
+          "type": "gap_filling",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "A",
+          "stimulusGroupId": "reading-g-q01-q06",
+          "choiceText": {
+            "traditional": [
+              "尤其",
+              "畢竟",
+              "不斷",
+              "針對"
+            ],
+            "simplified": [
+              "尤其",
+              "畢竟",
+              "不斷",
+              "針對"
+            ]
+          }
+        },
+        {
+          "id": "reading-q02",
+          "number": 2,
+          "sectionId": "reading-part-1",
+          "type": "gap_filling",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "D",
+          "stimulusGroupId": "reading-g-q01-q06",
+          "choiceText": {
+            "traditional": [
+              "比如",
+              "至於",
+              "自從",
+              "除了"
+            ],
+            "simplified": [
+              "比如",
+              "至於",
+              "自從",
+              "除了"
+            ]
+          }
+        },
+        {
+          "id": "reading-q03",
+          "number": 3,
+          "sectionId": "reading-part-1",
+          "type": "gap_filling",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "C",
+          "stimulusGroupId": "reading-g-q01-q06",
+          "choiceText": {
+            "traditional": [
+              "主動",
+              "幸福",
+              "發達",
+              "樂觀"
+            ],
+            "simplified": [
+              "主動",
+              "幸福",
+              "發達",
+              "樂觀"
+            ]
+          }
+        },
+        {
+          "id": "reading-q04",
+          "number": 4,
+          "sectionId": "reading-part-1",
+          "type": "gap_filling",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "B",
+          "stimulusGroupId": "reading-g-q01-q06",
+          "choiceText": {
+            "traditional": [
+              "當中",
+              "當天",
+              "當初",
+              "當時"
+            ],
+            "simplified": [
+              "當中",
+              "當天",
+              "當初",
+              "當時"
+            ]
+          }
+        },
+        {
+          "id": "reading-q05",
+          "number": 5,
+          "sectionId": "reading-part-1",
+          "type": "gap_filling",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "D",
+          "stimulusGroupId": "reading-g-q01-q06",
+          "choiceText": {
+            "traditional": [
+              "開放",
+              "採用",
+              "安排",
+              "提供"
+            ],
+            "simplified": [
+              "開放",
+              "採用",
+              "安排",
+              "提供"
+            ]
+          }
+        },
+        {
+          "id": "reading-q06",
+          "number": 6,
+          "sectionId": "reading-part-1",
+          "type": "gap_filling",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "D",
+          "stimulusGroupId": "reading-g-q01-q06",
+          "choiceText": {
+            "traditional": [
+              "功能",
+              "信用",
+              "品質",
+              "需求"
+            ],
+            "simplified": [
+              "功能",
+              "信用",
+              "品質",
+              "需求"
+            ]
+          }
+        },
+        {
+          "id": "reading-q07",
+          "number": 7,
+          "sectionId": "reading-part-1",
+          "type": "gap_filling",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "B",
+          "stimulusGroupId": "reading-g-q07-q12",
+          "choiceText": {
+            "traditional": [
+              "由於",
+              "就算",
+              "不過",
+              "反而"
+            ],
+            "simplified": [
+              "由於",
+              "就算",
+              "不過",
+              "反而"
+            ]
+          }
+        },
+        {
+          "id": "reading-q08",
+          "number": 8,
+          "sectionId": "reading-part-1",
+          "type": "gap_filling",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "B",
+          "stimulusGroupId": "reading-g-q07-q12",
+          "choiceText": {
+            "traditional": [
+              "引用",
+              "參考",
+              "評論",
+              "推出"
+            ],
+            "simplified": [
+              "引用",
+              "參考",
+              "評論",
+              "推出"
+            ]
+          }
+        },
+        {
+          "id": "reading-q09",
+          "number": 9,
+          "sectionId": "reading-part-1",
+          "type": "gap_filling",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "C",
+          "stimulusGroupId": "reading-g-q07-q12",
+          "choiceText": {
+            "traditional": [
+              "以及",
+              "加上",
+              "不僅",
+              "或者"
+            ],
+            "simplified": [
+              "以及",
+              "加上",
+              "不僅",
+              "或者"
+            ]
+          }
+        },
+        {
+          "id": "reading-q10",
+          "number": 10,
+          "sectionId": "reading-part-1",
+          "type": "gap_filling",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "D",
+          "stimulusGroupId": "reading-g-q07-q12",
+          "choiceText": {
+            "traditional": [
+              "記錄",
+              "發表",
+              "帶領",
+              "代替"
+            ],
+            "simplified": [
+              "記錄",
+              "發表",
+              "帶領",
+              "代替"
+            ]
+          }
+        },
+        {
+          "id": "reading-q11",
+          "number": 11,
+          "sectionId": "reading-part-1",
+          "type": "gap_filling",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "C",
+          "stimulusGroupId": "reading-g-q07-q12",
+          "choiceText": {
+            "traditional": [
+              "官員",
+              "隊員",
+              "會員",
+              "職員"
+            ],
+            "simplified": [
+              "官員",
+              "隊員",
+              "會員",
+              "職員"
+            ]
+          }
+        },
+        {
+          "id": "reading-q12",
+          "number": 12,
+          "sectionId": "reading-part-1",
+          "type": "gap_filling",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "A",
+          "stimulusGroupId": "reading-g-q07-q12",
+          "choiceText": {
+            "traditional": [
+              "限制",
+              "反對",
+              "犯規",
+              "傷害"
+            ],
+            "simplified": [
+              "限制",
+              "反對",
+              "犯規",
+              "傷害"
+            ]
+          }
+        },
+        {
+          "id": "reading-q13",
+          "number": 13,
+          "sectionId": "reading-part-1",
+          "type": "gap_filling",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "C",
+          "stimulusGroupId": "reading-g-q13-q18",
+          "choiceText": {
+            "traditional": [
+              "並且",
+              "還是",
+              "然而",
+              "因此"
+            ],
+            "simplified": [
+              "並且",
+              "還是",
+              "然而",
+              "因此"
+            ]
+          }
+        },
+        {
+          "id": "reading-q14",
+          "number": 14,
+          "sectionId": "reading-part-1",
+          "type": "gap_filling",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "B",
+          "stimulusGroupId": "reading-g-q13-q18",
+          "choiceText": {
+            "traditional": [
+              "福利",
+              "薪水",
+              "補助",
+              "保障"
+            ],
+            "simplified": [
+              "福利",
+              "薪水",
+              "補助",
+              "保障"
+            ]
+          }
+        },
+        {
+          "id": "reading-q15",
+          "number": 15,
+          "sectionId": "reading-part-1",
+          "type": "gap_filling",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "D",
+          "stimulusGroupId": "reading-g-q13-q18",
+          "choiceText": {
+            "traditional": [
+              "光臨",
+              "防守",
+              "保衛",
+              "迎接"
+            ],
+            "simplified": [
+              "光臨",
+              "防守",
+              "保衛",
+              "迎接"
+            ]
+          }
+        },
+        {
+          "id": "reading-q16",
+          "number": 16,
+          "sectionId": "reading-part-1",
+          "type": "gap_filling",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "D",
+          "stimulusGroupId": "reading-g-q13-q18",
+          "choiceText": {
+            "traditional": [
+              "一會兒",
+              "一口氣",
+              "一回事",
+              "一輩子"
+            ],
+            "simplified": [
+              "一會兒",
+              "一口氣",
+              "一回事",
+              "一輩子"
+            ]
+          }
+        },
+        {
+          "id": "reading-q17",
+          "number": 17,
+          "sectionId": "reading-part-1",
+          "type": "gap_filling",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "A",
+          "stimulusGroupId": "reading-g-q13-q18",
+          "choiceText": {
+            "traditional": [
+              "連",
+              "光",
+              "同",
+              "從"
+            ],
+            "simplified": [
+              "連",
+              "光",
+              "同",
+              "從"
+            ]
+          }
+        },
+        {
+          "id": "reading-q18",
+          "number": 18,
+          "sectionId": "reading-part-1",
+          "type": "gap_filling",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "C",
+          "stimulusGroupId": "reading-g-q13-q18",
+          "choiceText": {
+            "traditional": [
+              "受到",
+              "碰見",
+              "獲得",
+              "報答"
+            ],
+            "simplified": [
+              "受到",
+              "碰見",
+              "獲得",
+              "報答"
+            ]
+          }
+        },
+        {
+          "id": "reading-q19",
+          "number": 19,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "C",
+          "stimulusGroupId": "reading-g-01",
+          "choiceText": {
+            "traditional": [
+              "旅遊時應該多交新朋友",
+              "最好選擇交通方便的地方",
+              "享受風景比拍照來得重要",
+              "要把發生的事都記下來告訴大家"
+            ],
+            "simplified": [
+              "旅遊時應該多交新朋友",
+              "最好選擇交通方便的地方",
+              "享受風景比拍照來得重要",
+              "要把發生的事都記下來告訴大家"
+            ]
+          },
+          "questionText": {
+            "traditional": "關於旅行這件事，作者的想法是什麼？",
+            "simplified": "關於旅行這件事，作者的想法是什麼？"
+          }
+        },
+        {
+          "id": "reading-q20",
+          "number": 20,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "C",
+          "stimulusGroupId": "reading-g-02",
+          "choiceText": {
+            "traditional": [
+              "平日喜愛在咖啡廳用餐",
+              "為恢復體力經常喝咖啡",
+              "在咖啡廳有特定的座位喜好",
+              "每週固定和朋友在咖啡廳聚餐"
+            ],
+            "simplified": [
+              "平日喜愛在咖啡廳用餐",
+              "為恢復體力經常喝咖啡",
+              "在咖啡廳有特定的座位喜好",
+              "每週固定和朋友在咖啡廳聚餐"
+            ]
+          },
+          "questionText": {
+            "traditional": "作者在這段話提到了自己的哪件事？",
+            "simplified": "作者在這段話提到了自己的哪件事？"
+          }
+        },
+        {
+          "id": "reading-q21",
+          "number": 21,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "D",
+          "stimulusGroupId": "reading-g-03",
+          "choiceText": {
+            "traditional": [
+              "維持蔬果的新鮮度",
+              "方便客人自助選購",
+              "降低蔬果包裝的成本",
+              "減少蔬果包裝產生的垃圾"
+            ],
+            "simplified": [
+              "維持蔬果的新鮮度",
+              "方便客人自助選購",
+              "降低蔬果包裝的成本",
+              "減少蔬果包裝產生的垃圾"
+            ]
+          },
+          "questionText": {
+            "traditional": "這家超級市場取消蔬果包裝的目的是什麼？",
+            "simplified": "這家超級市場取消蔬果包裝的目的是什麼？"
+          },
+          "assets": {
+            "traditional": "/tests/band-b-test-02/reading/assets/traditional/groups/reading-g-03.png",
+            "simplified": "/tests/band-b-test-02/reading/assets/simplified/groups/reading-g-03.png"
+          }
+        },
+        {
+          "id": "reading-q22",
+          "number": 22,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "C",
+          "stimulusGroupId": "reading-g-03",
+          "choiceText": {
+            "traditional": [
+              "請店員協助挑選新鮮水果",
+              "選擇自己需要的盒裝水果",
+              "將選好的水果交給店員計算價錢",
+              "確認籃子已貼上價錢貼紙再結帳"
+            ],
+            "simplified": [
+              "請店員協助挑選新鮮水果",
+              "選擇自己需要的盒裝水果",
+              "將選好的水果交給店員計算價錢",
+              "確認籃子已貼上價錢貼紙再結帳"
+            ]
+          },
+          "questionText": {
+            "traditional": "在這家店裡買水果要怎麼做？",
+            "simplified": "在這家店裡買水果要怎麼做？"
+          },
+          "assets": {
+            "traditional": "/tests/band-b-test-02/reading/assets/traditional/groups/reading-g-03.png",
+            "simplified": "/tests/band-b-test-02/reading/assets/simplified/groups/reading-g-03.png"
+          }
+        },
+        {
+          "id": "reading-q23",
+          "number": 23,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "A",
+          "stimulusGroupId": "reading-g-04",
+          "choiceText": {
+            "traditional": [
+              "可減少坐計程車的費用",
+              "她希望認識其他新朋友",
+              "多一些人坐車比較不無聊",
+              "最少要四個人才能搭計程車"
+            ],
+            "simplified": [
+              "可減少坐計程車的費用",
+              "她希望認識其他新朋友",
+              "多一些人坐車比較不無聊",
+              "最少要四個人才能搭計程車"
+            ]
+          },
+          "questionText": {
+            "traditional": "小美為什麼要找人一起搭計程車？",
+            "simplified": "小美為什麼要找人一起搭計程車？"
+          },
+          "assets": {
+            "traditional": "/tests/band-b-test-02/reading/assets/traditional/groups/reading-g-04.png",
+            "simplified": "/tests/band-b-test-02/reading/assets/simplified/groups/reading-g-04.png"
+          }
+        },
+        {
+          "id": "reading-q24",
+          "number": 24,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "B",
+          "stimulusGroupId": "reading-g-04",
+          "choiceText": {
+            "traditional": [
+              "預計8 月15 日參觀的夫妻",
+              "計畫8 月16 日出發的母女",
+              "希望8 月17 日入園的兩位男大學生",
+              "決定8 月27 日動身的三名女高中生"
+            ],
+            "simplified": [
+              "預計8 月15 日參觀的夫妻",
+              "计划8 月16 日出發的母女",
+              "希望8 月17 日入園的兩位男大學生",
+              "決定8 月27 日動身的三名女高中生"
+            ]
+          },
+          "questionText": {
+            "traditional": "有四組想去蘋果園的人給小美回了信，哪一組較符合小美的 \n 條件？",
+            "simplified": "有四組想去蘋果園的人給小美回了信，哪一組較符合小美的 \n 條件？"
+          },
+          "assets": {
+            "traditional": "/tests/band-b-test-02/reading/assets/traditional/groups/reading-g-04.png",
+            "simplified": "/tests/band-b-test-02/reading/assets/simplified/groups/reading-g-04.png"
+          }
+        },
+        {
+          "id": "reading-q25",
+          "number": 25,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "A",
+          "stimulusGroupId": "reading-g-05",
+          "choiceText": {
+            "traditional": [
+              "和朋友玩桌上遊戲",
+              "盡量補充保健食品",
+              "避免使用電子產品",
+              "複習已知的舊知識"
+            ],
+            "simplified": [
+              "和朋友玩桌上遊戲",
+              "盡量補充保健食品",
+              "避免使用電子產品",
+              "複習已知的舊知識"
+            ]
+          },
+          "questionText": {
+            "traditional": "根據這則廣告，做什麼有助於大腦健康？",
+            "simplified": "根據這則廣告，做什麼有助於大腦健康？"
+          },
+          "assets": {
+            "traditional": "/tests/band-b-test-02/reading/assets/traditional/groups/reading-g-05.png",
+            "simplified": "/tests/band-b-test-02/reading/assets/simplified/groups/reading-g-05.png"
+          }
+        },
+        {
+          "id": "reading-q26",
+          "number": 26,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "B",
+          "stimulusGroupId": "reading-g-05",
+          "choiceText": {
+            "traditional": [
+              "申請步驟",
+              "報名資格",
+              "活動人數",
+              "截止日期"
+            ],
+            "simplified": [
+              "申請步驟",
+              "報名資格",
+              "活動人數",
+              "截止日期"
+            ]
+          },
+          "questionText": {
+            "traditional": "針對廣告中提到的課程，這則廣告公布了哪項資訊？",
+            "simplified": "針對廣告中提到的課程，這則廣告公布了哪項資訊？"
+          },
+          "assets": {
+            "traditional": "/tests/band-b-test-02/reading/assets/traditional/groups/reading-g-05.png",
+            "simplified": "/tests/band-b-test-02/reading/assets/simplified/groups/reading-g-05.png"
+          }
+        },
+        {
+          "id": "reading-q27",
+          "number": 27,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "A",
+          "stimulusGroupId": "reading-g-06",
+          "choiceText": {
+            "traditional": [
+              "選對方法學習不如選對時間",
+              "學習能力的高低與年齡沒關係",
+              "工作性質的差異對學習態度的影響",
+              "人的注意力只有到晚上才會較為集中"
+            ],
+            "simplified": [
+              "選對方法學習不如選對時間",
+              "學習能力的高低與年齡沒關係",
+              "工作性質的差異對學習態度的影響",
+              "人的注意力只有到晚上才會較為集中"
+            ]
+          },
+          "questionText": {
+            "traditional": "這篇文章主要在討論什麼？",
+            "simplified": "這篇文章主要在討論什麼？"
+          }
+        },
+        {
+          "id": "reading-q28",
+          "number": 28,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "D",
+          "stimulusGroupId": "reading-g-06",
+          "choiceText": {
+            "traditional": [
+              "要求教學者多變換教學方式",
+              "鼓勵學習者多參加課外活動",
+              "規劃課程表時，應分職業排課",
+              "避開部分時段，提高學習意願"
+            ],
+            "simplified": [
+              "要求教學者多變換教學方式",
+              "鼓勵學習者多參加課外活動",
+              "規劃課程表時，應分職業排課",
+              "避開部分時段，提高學習意願"
+            ]
+          },
+          "questionText": {
+            "traditional": "下面哪一項做法符合本文作者的建議？",
+            "simplified": "下面哪一項做法符合本文作者的建議？"
+          }
+        },
+        {
+          "id": "reading-q29",
+          "number": 29,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "C",
+          "stimulusGroupId": "reading-g-07",
+          "choiceText": {
+            "traditional": [
+              "包裝手法",
+              "原始外觀",
+              "取得途徑",
+              "加工方式"
+            ],
+            "simplified": [
+              "包裝手法",
+              "原始外觀",
+              "取得途徑",
+              "加工方式"
+            ]
+          },
+          "questionText": {
+            "traditional": "「血鑽石」名稱的由來和什麼有關係？",
+            "simplified": "「血鑽石」名稱的由來和什麼有關係？"
+          }
+        },
+        {
+          "id": "reading-q30",
+          "number": 30,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "A",
+          "stimulusGroupId": "reading-g-07",
+          "choiceText": {
+            "traditional": [
+              "應該拒絕購買血鑽石",
+              "戰爭的嚴重性超出想像",
+              "鑽石能製造的浪漫有限",
+              "需重視血鑽石的高經濟價值"
+            ],
+            "simplified": [
+              "應該拒絕購買血鑽石",
+              "戰爭的嚴重性超出想象",
+              "鑽石能製造的浪漫有限",
+              "需重視血鑽石的高經濟價值"
+            ]
+          },
+          "questionText": {
+            "traditional": "作者最後提醒讀者什麼事？",
+            "simplified": "作者最後提醒讀者什麼事？"
+          }
+        },
+        {
+          "id": "reading-q31",
+          "number": 31,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "D",
+          "stimulusGroupId": "reading-g-08",
+          "choiceText": {
+            "traditional": [
+              "沒有租屋使用的期限",
+              "由中央政府負責規劃",
+              "依家庭收入按比例付租金",
+              "戶數佔整體住宅量不到百分之十"
+            ],
+            "simplified": [
+              "沒有租屋使用的期限",
+              "由中央政府負責規劃",
+              "依家庭收入按比例付租金",
+              "戶數佔整體住宅量不到百分之十"
+            ]
+          },
+          "questionText": {
+            "traditional": "根據這張表，三個國家的社會住宅共同點是什麼？",
+            "simplified": "根據這張表，三個國家的社會住宅共同點是什麼？"
+          },
+          "assets": {
+            "traditional": "/tests/band-b-test-02/reading/assets/traditional/groups/reading-g-08.png",
+            "simplified": "/tests/band-b-test-02/reading/assets/simplified/groups/reading-g-08.png"
+          }
+        },
+        {
+          "id": "reading-q32",
+          "number": 32,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "B",
+          "stimulusGroupId": "reading-g-08",
+          "choiceText": {
+            "traditional": [
+              "此表的製作時間",
+              "提供資料的單位",
+              "申請人的職業限制",
+              "社會住宅的居住人數"
+            ],
+            "simplified": [
+              "此表的製作時間",
+              "提供資料的單位",
+              "申請人的職業限制",
+              "社會住宅的居住人數"
+            ]
+          },
+          "questionText": {
+            "traditional": "從這張表可以得到什麼訊息？",
+            "simplified": "從這張表可以得到什麼訊息？"
+          },
+          "assets": {
+            "traditional": "/tests/band-b-test-02/reading/assets/traditional/groups/reading-g-08.png",
+            "simplified": "/tests/band-b-test-02/reading/assets/simplified/groups/reading-g-08.png"
+          }
+        },
+        {
+          "id": "reading-q33",
+          "number": 33,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "D",
+          "stimulusGroupId": "reading-g-09",
+          "choiceText": {
+            "traditional": [
+              "盡量對年輕人多說好話",
+              "勿學買畫的顧客亂殺價",
+              "要試著學習講價的技巧",
+              "想好自己要過哪種生活"
+            ],
+            "simplified": [
+              "盡量對年輕人多說好話",
+              "勿學買畫的顧客亂殺價",
+              "要試着學習講價的技巧",
+              "想好自己要過哪種生活"
+            ]
+          },
+          "questionText": {
+            "traditional": "作者最後希望讀者怎麼做？",
+            "simplified": "作者最後希望讀者怎麼做？"
+          }
+        },
+        {
+          "id": "reading-q34",
+          "number": 34,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "A",
+          "stimulusGroupId": "reading-g-09",
+          "choiceText": {
+            "traditional": [
+              "先說故事，再說道理",
+              "先下定義，再說明想法",
+              "先說狀況，再陳述意見",
+              "先說道理，再用感情說服"
+            ],
+            "simplified": [
+              "先說故事，再說道理",
+              "先下定義，再說明想法",
+              "先說狀況，再陳述意見",
+              "先說道理，再用感情說服"
+            ]
+          },
+          "questionText": {
+            "traditional": "作者的寫作方式是什麼？",
+            "simplified": "作者的寫作方式是什麼？"
+          }
+        },
+        {
+          "id": "reading-q35",
+          "number": 35,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "A",
+          "stimulusGroupId": "reading-g-10",
+          "choiceText": {
+            "traditional": [
+              "推銷語言的影響力",
+              "健康飲料有何好處",
+              "如何設計商品包裝",
+              "消費者心態的變化"
+            ],
+            "simplified": [
+              "推銷語言的影響力",
+              "健康飲料有何好處",
+              "如何設計商品包裝",
+              "消費者心態的變化"
+            ]
+          },
+          "questionText": {
+            "traditional": "這篇文章主要探討哪件事？",
+            "simplified": "這篇文章主要探討哪件事？"
+          }
+        },
+        {
+          "id": "reading-q36",
+          "number": 36,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "D",
+          "stimulusGroupId": "reading-g-10",
+          "choiceText": {
+            "traditional": [
+              "利用低價吸引消費者",
+              "成分其實不包含熱狗",
+              "能夠有效改善身體健康",
+              "是一個行為實驗的工具"
+            ],
+            "simplified": [
+              "利用低價吸引消費者",
+              "成分其實不包含熱狗",
+              "能夠有效改善身體健康",
+              "是一個行為實驗的工具"
+            ]
+          },
+          "questionText": {
+            "traditional": "關於「熱狗水」，下面哪一個是對的？",
+            "simplified": "關於「熱狗水」，下面哪一個是對的？"
+          }
+        },
+        {
+          "id": "reading-q37",
+          "number": 37,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "A",
+          "stimulusGroupId": "reading-g-10",
+          "choiceText": {
+            "traditional": [
+              "恐怕一錯再錯",
+              "被冤枉為騙子",
+              "購物十分謹慎",
+              "不易相信別人"
+            ],
+            "simplified": [
+              "恐怕一錯再錯",
+              "被冤枉為騙子",
+              "購物十分謹慎",
+              "不易相信別人"
+            ]
+          },
+          "questionText": {
+            "traditional": "作者覺得買「熱狗水」的人怎麼樣？",
+            "simplified": "作者覺得買「熱狗水」的人怎麼樣？"
+          }
+        },
+        {
+          "id": "reading-q38",
+          "number": 38,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "C",
+          "stimulusGroupId": "reading-g-11",
+          "choiceText": {
+            "traditional": [
+              "當天租車得付手續費",
+              "租車費只有假日才打折",
+              "提前訂車要先付全部租金",
+              "訂車完成後可隨時去拿車"
+            ],
+            "simplified": [
+              "當天租車得付手續費",
+              "租車費只有假日才打折",
+              "提前訂車要先付全部租金",
+              "訂車完成後可隨時去拿車"
+            ]
+          },
+          "questionText": {
+            "traditional": "有關這家租車公司的服務，下面哪一個是正確的？",
+            "simplified": "有關這家租車公司的服務，下面哪一個是正確的？"
+          },
+          "assets": {
+            "traditional": "/tests/band-b-test-02/reading/assets/traditional/groups/reading-g-11.png",
+            "simplified": "/tests/band-b-test-02/reading/assets/simplified/groups/reading-g-11.png"
+          }
+        },
+        {
+          "id": "reading-q39",
+          "number": 39,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "B",
+          "stimulusGroupId": "reading-g-11",
+          "choiceText": {
+            "traditional": [
+              "訂車的時候服務員會先檢查身分證",
+              "當天臨時取消租車無法拿回租車費",
+              "最晚要在約定日期的晚上十點前還車",
+              "只要超過還車時間就得多付一天租金"
+            ],
+            "simplified": [
+              "訂車的時候服務員會先檢查身份證",
+              "當天臨時取消租車無法拿回租車費",
+              "最晚要在約定日期的晚上十點前還車",
+              "只要超過還車時間就得多付一天租金"
+            ]
+          },
+          "questionText": {
+            "traditional": "根據這份說明，想在這家公司租車的消費者，要注意什麼事？",
+            "simplified": "根據這份說明，想在這家公司租車的消費者，要注意什麼事？"
+          },
+          "assets": {
+            "traditional": "/tests/band-b-test-02/reading/assets/traditional/groups/reading-g-11.png",
+            "simplified": "/tests/band-b-test-02/reading/assets/simplified/groups/reading-g-11.png"
+          }
+        },
+        {
+          "id": "reading-q40",
+          "number": 40,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "A",
+          "stimulusGroupId": "reading-g-11",
+          "choiceText": {
+            "traditional": [
+              "從星期五開始連續租車三天",
+              "一個月前打電話到門市租車",
+              "每天開車不能超過四百公里",
+              "到門市用現金付完所有費用"
+            ],
+            "simplified": [
+              "從星期五開始連續租車三天",
+              "一個月前打電話到門市租車",
+              "每天開車不能超過四百公里",
+              "到門市用現金付完所有費用"
+            ]
+          },
+          "questionText": {
+            "traditional": "王先生計畫下個月帶家人出門玩幾天，如果他想得到這家租車公\n司的優惠，可以怎麼做？",
+            "simplified": "王先生计划下個月帶家人出門玩幾天，如果他想得到這家租車\n公司的優惠，可以怎麼做？"
+          },
+          "assets": {
+            "traditional": "/tests/band-b-test-02/reading/assets/traditional/groups/reading-g-11.png",
+            "simplified": "/tests/band-b-test-02/reading/assets/simplified/groups/reading-g-11.png"
+          }
+        },
+        {
+          "id": "reading-q41",
+          "number": 41,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "B",
+          "stimulusGroupId": "reading-g-12",
+          "choiceText": {
+            "traditional": [
+              "不敢違反社交規定",
+              "太在意別人的想法",
+              "不能分享最新的消息",
+              "擔心錯過朋友的邀請"
+            ],
+            "simplified": [
+              "不敢違反社交規定",
+              "太在意別人的想法",
+              "不能分享最新的消息",
+              "擔心錯過朋友的邀請"
+            ]
+          },
+          "questionText": {
+            "traditional": "作者認為有些人害怕一個人吃飯的原因是什麼？",
+            "simplified": "作者認為有些人害怕一個人吃飯的原因是什麼？"
+          }
+        },
+        {
+          "id": "reading-q42",
+          "number": 42,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "A",
+          "stimulusGroupId": "reading-g-12",
+          "choiceText": {
+            "traditional": [
+              "無疑是自己嚇自己",
+              "反而更不顧別人感受",
+              "負面評價自有他的道理",
+              "每個人都得面對生活的寂寞"
+            ],
+            "simplified": [
+              "無疑是自己嚇自己",
+              "反而更不顧別人感受",
+              "負面評價自有他的道理",
+              "每個人都得面對生活的寂寞"
+            ]
+          },
+          "questionText": {
+            "traditional": "關於「害怕一個人吃飯」，下面哪句話可以用來說明作者的觀點？",
+            "simplified": "關於「害怕一個人吃飯」，下面哪句話可以用來說明作者的觀點？"
+          }
+        },
+        {
+          "id": "reading-q43",
+          "number": 43,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "C",
+          "stimulusGroupId": "reading-g-12",
+          "choiceText": {
+            "traditional": [
+              "不必擔心事情被中途打斷",
+              "能消除人與人之間的防備",
+              "對所做的事情能更加投入",
+              "能建立起獨立自主的形象"
+            ],
+            "simplified": [
+              "不必擔心事情被中途打斷",
+              "能消除人與人之間的防備",
+              "對所做的事情能更加投入",
+              "能建立起獨立自主的形象"
+            ]
+          },
+          "questionText": {
+            "traditional": "根據本文，作者認為「一個人」的優點是什麼？",
+            "simplified": "根據本文，作者認為「一個人」的優點是什麼？"
+          }
+        },
+        {
+          "id": "reading-q44",
+          "number": 44,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "C",
+          "stimulusGroupId": "reading-g-13",
+          "choiceText": {
+            "traditional": [
+              "交換時常浪費不少時間",
+              "其材質容易弄髒不耐用",
+              "收到太多名片很難找資料",
+              "年輕人很少使用傳統名片"
+            ],
+            "simplified": [
+              "交換時常浪費不少時間",
+              "其材質容易弄髒不耐用",
+              "收到太多名片很難找資料",
+              "年輕人很少使用傳統名片"
+            ]
+          },
+          "questionText": {
+            "traditional": "作者覺得使用傳統名片的缺點是什麼？",
+            "simplified": "作者覺得使用傳統名片的缺點是什麼？"
+          }
+        },
+        {
+          "id": "reading-q45",
+          "number": 45,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "B",
+          "stimulusGroupId": "reading-g-13",
+          "choiceText": {
+            "traditional": [
+              "學習操作的步驟較複雜",
+              "部分地區的網路設備差",
+              "事先輸入資料很花時間",
+              "傳統名片較有個人特色"
+            ],
+            "simplified": [
+              "學習操作的步驟較複雜",
+              "部分地區的網路設備差",
+              "事先輸入資料很花時間",
+              "傳統名片較有個人特色"
+            ]
+          },
+          "questionText": {
+            "traditional": "文中提到電子名片不能完全取代傳統名片的原因為何？",
+            "simplified": "文中提到電子名片不能完全取代傳統名片的原因為何？"
+          }
+        },
+        {
+          "id": "reading-q46",
+          "number": 46,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "D",
+          "stimulusGroupId": "reading-g-13",
+          "choiceText": {
+            "traditional": [
+              "應主動設計統一的使用工具",
+              "需交由企業投資建設大量網路",
+              "全面調查使用現況，再決定是否需普及",
+              "設法結合多方資源，制定相關政策與措施"
+            ],
+            "simplified": [
+              "應主動設計統一的使用工具",
+              "需交由企業投資建設大量網路",
+              "全面調查使用現況，再決定是否需普及",
+              "設法結合多方資源，制定相關政策與措施"
+            ]
+          },
+          "questionText": {
+            "traditional": "針對發展電子名片一事，作者最後給政府什麼建議？",
+            "simplified": "針對發展電子名片一事，作者最後給政府什麼建議？"
+          }
+        },
+        {
+          "id": "reading-q47",
+          "number": 47,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "B",
+          "stimulusGroupId": "reading-g-14",
+          "choiceText": {
+            "traditional": [
+              "能隨時以英語信件與客戶往來",
+              "在客戶說話時馬上翻譯成中文",
+              "工作表現能讓總經理印象深刻",
+              "個性實在做事負責不欺騙上司"
+            ],
+            "simplified": [
+              "能隨時以英語信件與客戶往來",
+              "在客戶說話時馬上翻譯成中文",
+              "工作表現能讓總經理印象深刻",
+              "個性實在做事負責不欺騙上司"
+            ]
+          },
+          "questionText": {
+            "traditional": "下面哪一項是這家公司開出的徵求條件？",
+            "simplified": "下面哪一項是這家公司開出的徵求條件？"
+          }
+        },
+        {
+          "id": "reading-q48",
+          "number": 48,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "C",
+          "stimulusGroupId": "reading-g-14",
+          "choiceText": {
+            "traditional": [
+              "他希望文奇能輕鬆一點",
+              "他得確認文奇真正的身分",
+              "他想觀察文奇當時的反應",
+              "他要表揚文奇幫助他女兒"
+            ],
+            "simplified": [
+              "他希望文奇能輕鬆一點",
+              "他得確認文奇真正的身份",
+              "他想觀察文奇當時的反應",
+              "他要表揚文奇幫助他女兒"
+            ]
+          },
+          "questionText": {
+            "traditional": "總經理面試時為什麼說文奇救了他女兒？",
+            "simplified": "總經理面試時為什麼說文奇救了他女兒？"
+          }
+        },
+        {
+          "id": "reading-q49",
+          "number": 49,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "B",
+          "stimulusGroupId": "reading-g-14",
+          "choiceText": {
+            "traditional": [
+              "總經理認錯人了",
+              "他是一個誠實的人",
+              "他救了總經理的女兒",
+              "他通過了公司的筆試"
+            ],
+            "simplified": [
+              "總經理認錯人了",
+              "他是一個誠實的人",
+              "他救了總經理的女兒",
+              "他通過了公司的筆試"
+            ]
+          },
+          "questionText": {
+            "traditional": "文奇被總經理錄用最主要的原因是什麼？",
+            "simplified": "文奇被總經理錄用最主要的原因是什麼？"
+          }
+        },
+        {
+          "id": "reading-q50",
+          "number": 50,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "D",
+          "stimulusGroupId": "reading-g-14",
+          "choiceText": {
+            "traditional": [
+              "他是一個女兒的父親",
+              "游泳是他拿手的運動",
+              "只有他一人被該公司錄取",
+              "他能輕鬆用英語與人談話"
+            ],
+            "simplified": [
+              "他是一個女兒的父親",
+              "游泳是他拿手的運動",
+              "只有他一人被該公司錄取",
+              "他能輕鬆用英語與人談話"
+            ]
+          },
+          "questionText": {
+            "traditional": "我們可以從這篇文章中知道文奇哪件事？",
+            "simplified": "我們可以從這篇文章中知道文奇哪件事？"
+          }
+        }
+      ],
+      "displayContexts": {
+        "reading-g-q01-q06": {
+          "traditional": "我來臺灣兩年了，很喜歡這裡的生活，【1】是購物這方面。以地點來說，【2】百貨公司和便利商店以外，還能到夜市購買各種商品。要是不想出門，上網買東西也很方便。臺灣的網路科技很【3】，網路商店效率高，上午九點訂購，【4】晚上就能收到東西。各式各樣的購物管道，【5】了人們更多選擇，不論性別與年紀，都能在臺灣找到符合自己【6】的購物方式，是不是很吸引人呢？",
+          "simplified": "我來臺灣兩年了，很喜歡這裡的生活，【1】是購物這方面。以地點來說，【2】百貨公司和便利商店以外，還能到夜市購買各種商品。要是不想出門，上網買東西也很方便。臺灣的網路科技很【3】，網路商店效率高，上午九點訂購，【4】晚上就能收到東西。各式各樣的購物管道，【5】了人們更多選擇，不論性別與年紀，都能在臺灣找到符合自己【6】的購物方式，是不是很吸引人呢？"
+        },
+        "reading-g-q07-q12": {
+          "traditional": "隨著科技進步，【7】只有五分鐘，人們也能利用網路進行社交活動。有網路公司【8】現代人的社交現況，設計了新的交友系統。此系統【9】能幫助使用者挑選具有共同興趣的對象，還能找到附近想聊天的人；使用者也可以使用錄音、錄影和網路電話功能【10】文字訊息，體會面對面談話的真實感受。現在只要申請成為該公司的付費【11】，你就能隨時隨地與人交流，不受時間地點【12】，更有效率地認識新朋友。",
+          "simplified": "隨着科技進步，【7】只有五分鐘，人們也能利用網路進行社交活動。有網路公司【8】現代人的社交現況，設計了新的交友系統。此系統【9】能幫助使用者挑選具有共同興趣的對象，還能找到附近想聊天的人；使用者也可以使用錄音、錄影和網路電話功能【10】文字訊息，體會面對面談話的真實感受。現在只要申請成為該公司的付費【11】，你就能隨時隨地與人交流，不受時間地點【12】，更有效率地認識新朋友。"
+        },
+        "reading-g-q13-q18": {
+          "traditional": "爸爸去世後什麼也沒留下，【13】我和哥哥卻覺得十分富有。在我的印象裡，他把賺來的【14】，全部投入我和哥哥的教育中。他在我們面前從不說苦，當我們遇到困難，他總鼓勵我們要正面【15】挑戰，並教導我們建立正確的價值觀。爸爸留下這些看不見的財產，既數不清，也不必爭搶，夠我們用【16】。聽說有人為了爭奪長輩遺留的財產，最後【17】兄弟都做不成。我很慶幸我和哥哥能【18】如此珍貴的無形資產，讓我們活出心靈富裕的人生。",
+          "simplified": "爸爸去世後什麼也沒留下，【13】我和哥哥卻覺得十分富有。在我的印象裡，他把賺來的【14】，全部投入我和哥哥的教育中。他在我們面前從不說苦，當我們遇到困難，他總鼓勵我們要正面【15】挑戰，並教導我們建立正確的價值觀。爸爸留下這些看不見的財產，既數不清，也不必爭搶，夠我們用【16】。聽說有人為了爭奪長輩遺留的財產，最後【17】兄弟都做不成。我很慶幸我和哥哥能【18】如此珍貴的無形資產，讓我們活出心靈富裕的人生。"
+        },
+        "reading-g-01": {
+          "traditional": "方便的交通讓旅行更容易了，到哪兒都不是問題。旅行能讓身體\n好好放鬆，也許還能認識新朋友。可是，有些人一到旅行地點就是拿\n出手機照相，把拍的照片放網站上，告訴大家自己去過哪裡，都忘了\n好好看看這些風景。",
+          "simplified": "方便的交通讓旅行更容易了，到哪兒都不是問題。旅行能讓身體\n好好放鬆，也許還能認識新朋友。可是，有些人一到旅行地點就是拿\n出手機照相，把拍的照片放網站上，告訴大家自己去過哪裡，都忘了\n好好看看這些風景。"
+        },
+        "reading-g-02": {
+          "traditional": "每到星期五，我總會去咖啡廳喝上一杯咖啡。咖啡廳內坐著來自\n四面八方的人，像是等待外帶的上班族、安靜閱讀書報的學生，或是\n與三五好友一起聊天的老人家。而我，通常選擇靠近窗戶的角落坐下\n來，在喝咖啡的同時，也觀察窗外人們的一舉一動，這是我最享受的\n休閒時光。",
+          "simplified": "每到星期五，我總會去咖啡廳喝上一杯咖啡。咖啡廳內坐着來自\n四面八方的人，像是等待外帶的上班族、安靜閱讀書報的學生，或是\n與三五好友一起聊天的老人家。而我，通常選擇靠近窗戶的角落坐下\n來，在喝咖啡的同時，也觀察窗外人們的一舉一動，這是我最享受的\n休閒時光。"
+        },
+        "reading-g-03": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "reading-g-04": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "reading-g-05": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "reading-g-06": {
+          "traditional": "一份有關成人學習時段偏好的調查顯示，多數成年人認為，夜晚\n是最適合學習的時間，贊同比例占40%至60%；其次是上午時段，多\n受不靠勞力工作的人所喜愛，如在學青年和退休人士。另外，在一週\n之中，週末被認為最不適合學習，原因在於成年人大多希望利用週末\n從事家庭休閒活動。 \n \n成人教育課程的時間規劃正可由此得到啟發，比起過去一直被廣\n泛討論與強調的學習技巧，如果轉為綜合考察成年學習者的學習慣例，\n進行課程的安排與調整，肯定能達到更好的學習效果。",
+          "simplified": "一份有關成人學習時段偏好的調查顯示，多數成年人認為，夜晚\n是最適合學習的時間，贊同比例占40%至60%；其次是上午時段，多\n受不靠勞力工作的人所喜愛，如在學青年和退休人士。另外，在一週\n之中，週末被認為最不適合學習，原因在於成年人大多希望利用週末\n從事家庭休閒活動。 \n \n成人教育課程的時間規劃正可由此得到啟發，比起過去一直被廣\n泛討論與強調的學習技巧，如果轉為綜合考察成年學習者的學習慣例，\n進行課程的安排與調整，肯定能達到更好的學習效果。"
+        },
+        "reading-g-07": {
+          "traditional": "部分國家多年來因為宗教、種族和政治等因素，內部戰爭不斷。\n各方為能購買軍事武器，非法取得與販賣鑽石以賺取大量金錢，導致\n各方因為爭搶鑽石來源，又發動無數次的大小戰爭，造成數十萬人死\n亡，鮮血染紅了土地，這些閃閃發光的「鑽石」，又被稱為「血鑽石」。 \n \n正因為有人願意買鑽石，以此滿足自己，就有人會為了挖鑽石而\n付出生命。為了一個浪漫的理由，卻間接助長了戰爭。當我們知道「血\n鑽石」背後的歷史後，怎麼還能不論代價，把它戴在身上呢？",
+          "simplified": "部分國家多年來因為宗教、種族和政治等因素，內部戰爭不斷。\n各方為能購買軍事武器，非法取得與販賣鑽石以賺取大量金錢，導致\n各方因為爭搶鑽石來源，又發動無數次的大小戰爭，造成數十萬人死\n亡，鮮血染紅了土地，這些閃閃發光的「鑽石」，又被稱為「血鑽石」。 \n \n正因為有人願意買鑽石，以此滿足自己，就有人會為了挖鑽石而\n付出生命。為了一個浪漫的理由，卻間接助長了戰爭。當我們知道「血\n鑽石」背後的歷史後，怎麼還能不論代價，把它戴在身上呢？"
+        },
+        "reading-g-08": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "reading-g-09": {
+          "traditional": "有三個正在學畫的年輕人，打算把自己的作品以一千元賣出，他\n們的顧客都說了相同的話：「您的畫恐怕還沒有一千元的價值吧？」\n其中一人聽了以後，仔細看了看自己的畫，最後不但以兩千元賣掉畫，\n還更加努力成為著名的畫家。另一人聽了以後只是把畫撕了，從此不\n畫了，他努力學習攝影而成為有名的攝影大師。第三人以為自己的畫\n真的不夠好，就降價以五百元賣出。最後他為了生活，只能在路邊賣\n些沒有價值的便宜畫作。 \n \n批評有正面的鼓勵效果，可以讓人繼續努力往前走，或是指引你\n走向另一條成功的路；但它有時候是毒藥，會誤了別人一生。其實人\n的一生會遇到無數的批評，但自己的人生自己決定，在面對批評時反\n省與思考，就有機會使毒藥成為解藥。",
+          "simplified": "有三個正在學畫的年輕人，打算把自己的作品以一千元賣出，他\n們的顧客都說了相同的話：「您的畫恐怕還沒有一千元的價值吧？」\n其中一人聽了以後，仔細看了看自己的畫，最後不但以兩千元賣掉畫，\n還更加努力成為著名的畫家。另一人聽了以後只是把畫撕了，從此不\n畫了，他努力學習攝影而成為有名的攝影大師。第三人以為自己的畫\n真的不夠好，就降價以五百元賣出。最後他為了生活，只能在路邊賣\n些沒有價值的便宜畫作。 \n \n批評有正面的鼓勵效果，可以讓人繼續努力往前走，或是指引你\n走向另一條成功的路；但它有時候是毒藥，會誤了別人一生。其實人\n的一生會遇到無數的批評，但自己的人生自己決定，在面對批評時反\n省與思考，就有機會使毒藥成為解藥。"
+        },
+        "reading-g-10": {
+          "traditional": "你聽過「熱狗水」嗎？如果有人告訴你，它可以讓你減輕體重、\n增加活力，價格是一般飲料的二十倍，你買不買？在溫哥華上週的無\n車日活動上，就擺了一個賣熱狗水的攤子，雖然商品說明聽起來很吸\n引人，可是誰都看得出來，它就是一瓶水裡面泡著一條熱狗而已，最\n後卻仍在活動當天賣出了六十瓶。 \n \n那些人在掏出錢包之前，一定都沒有仔細閱讀瓶子包裝上面的小\n字：「熱狗水是希望鼓勵大家批判思考，並意識到自己的消費行為究\n竟是受何種因素左右。」原來這是一個行為實驗，目的是觀察人們是\n否會相信這樣誇張的商品。受騙的人買到教訓了嗎？那得看他們是否\n知道自己上當了，即使知道，恐怕也不保證他們下一次不會再度賠上\n冤枉錢。",
+          "simplified": "你聽過「熱狗水」嗎？如果有人告訴你，它可以讓你減輕體重、\n增加活力，價格是一般飲料的二十倍，你買不買？在溫哥華上週的無\n車日活動上，就擺了一個賣熱狗水的攤子，雖然商品說明聽起來很吸\n引人，可是誰都看得出來，它就是一瓶水裡面泡着一條熱狗而已，最\n後卻仍在活動當天賣出了六十瓶。 \n \n那些人在掏出錢包之前，一定都沒有仔細閱讀瓶子包裝上面的小\n字：「熱狗水是希望鼓勵大家批判思考，並意識到自己的消費行為究\n竟是受何種因素左右。」原來這是一個行為實驗，目的是觀察人們是\n否會相信這樣誇張的商品。受騙的人買到教訓了嗎？那得看他們是否\n知道自己上當了，即使知道，恐怕也不保證他們下一次不會再度賠上\n冤枉錢。"
+        },
+        "reading-g-11": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "reading-g-12": {
+          "traditional": "在某些社會文化中，由於「一個人吃飯」通常與被孤立、沒朋友、\n不懂社交等負面印象聯繫在一起，所以一個人走進餐廳就成了許多人\n害怕的事。但，獨自吃飯真是一件那麼糟糕的事嗎？ \n \n事實上，一個人並不意味著寂寞，與此相反，更可以將注意力放\n在享受餐盤上的美食。當然，與他人分享、交流時能帶給人們滿足與\n快樂，而當你已經在人際相處上付出了許多時間後，更應該為自己保\n留一些獨處的空間；當你因為獨自吃飯而害怕被貼上「人際障礙」的\n標籤時，也許根本沒有人注意到你，或是覺得你性格古怪。 \n \n忙碌的生活常常讓我們忽略與自己獨處的重要性，哪怕是一頓飯、\n一部電影的時間，都是面對自己的好機會。久而久之，你將發現，那\n些異樣眼光只是一種自我限制，而能一個人吃飯，竟然是那麼寶貴。",
+          "simplified": "在某些社會文化中，由於「一個人吃飯」通常與被孤立、沒朋友、\n不懂社交等負面印象聯繫在一起，所以一個人走進餐廳就成了許多人\n害怕的事。但，獨自吃飯真是一件那麼糟糕的事嗎？ \n \n事實上，一個人並不意味着寂寞，與此相反，更可以將注意力放\n在享受餐盤上的美食。當然，與他人分享、交流時能帶給人們滿足與\n快樂，而當你已經在人際相處上付出了許多時間後，更應該為自己保\n留一些獨處的空間；當你因為獨自吃飯而害怕被貼上「人際障礙」的\n標籤時，也許根本沒有人注意到你，或是覺得你性格古怪。 \n \n忙碌的生活常常讓我們忽略與自己獨處的重要性，哪怕是一頓飯、\n一部電影的時間，都是面對自己的好機會。久而久之，你將發現，那\n些異樣眼光只是一種自我限制，而能一個人吃飯，竟然是那麼寶貴。"
+        },
+        "reading-g-13": {
+          "traditional": "在商業活動中，與他人見面交流時，第一步常是交換名片。只是\n拿到這麼多名片，一方面容易遺失，一方面經過長時間，名片都可以\n堆成小山了，不只查找不便，也浪費很多空間。 \n \n好在電子時代來臨，現在很多人已經選擇使用電子名片。初次見\n面的時候，雙方可以打開彼此手機裡的電子名片程式，利用自動輸入\n功能交換彼此的資料。除了可以快速輸入與查找資料外，還能連結手\n機裡的電話、電子郵件與地圖。和傳統名片不同的是，它能隨時更新\n資料和照片，不需要換名片，減少了製作名片的材料和成本。只可惜，\n目前在一些網路不發達的區域，無法隨意使用電子名片，而且要讓不\n同的名片程式能夠相互交換資料是有困難的。如果要讓電子名片更普\n遍，仍然需要政府協助建設網路，以及民間企業的配合才行。",
+          "simplified": "在商業活動中，與他人見面交流時，第一步常是交換名片。只是\n拿到這麼多名片，一方面容易遺失，一方面經過長時間，名片都可以\n堆成小山了，不只查找不便，也浪費很多空間。 \n \n好在電子時代來臨，現在很多人已經選擇使用電子名片。初次見\n面的時候，雙方可以打開彼此手機裡的電子名片程式，利用自動輸入\n功能交換彼此的資料。除了可以快速輸入與查找資料外，還能連結手\n機裡的電話、電子郵件與地圖。和傳統名片不同的是，它能隨時更新\n資料和照片，不需要換名片，減少了製作名片的材料和成本。只可惜，\n目前在一些網路不發達的區域，無法隨意使用電子名片，而且要讓不\n同的名片程式能夠相互交換資料是有困難的。如果要讓電子名片更普\n遍，仍然需要政府協助建設網路，以及民間企業的配合才行。"
+        },
+        "reading-g-14": {
+          "traditional": "文奇一直在尋找能充分運用他語言專業的機會，剛好一家貿易公\n司要徵求外語翻譯，要求中、英語的口語流利，且要有口語翻譯的經\n驗。基本條件文奇全都符合。經過商業概念的筆試和口語能力測驗後，\n兩百人之中只有文奇和其他七人能參加和總經理的面試。大家都很清\n楚，能讓總經理留下好印象，是得到工作機會的關鍵。 \n \n當文奇剛走進總經理的辦公室，總經理就一臉驚喜地對文奇說：\n「啊！我可找到你了！」說著，就馬上站起來跟文奇握手。接著，他\n又對辦公室的秘書說：「這個年輕人就是上個月在游泳池救了我女兒\n的那個人，沒留下姓名就走了，沒想到，今天在這兒又見面了，真是\n太巧了。」 \n \n聽了總經理的話以後，臉上熱呼呼的文奇，看到了進公司的一線\n希望。但這時他心裡又有另一個聲音：一個人要誠實！他平靜下來，\n對總經理說：「不，先生，您認錯人了。」「認錯人？不會吧！你和那\n位先生一樣，都有一雙明亮的大眼睛。」「不，總經理，我不會游泳，\n更不可能去游泳池。」文奇平靜地說。 \n \n幾天以後，文奇到公司報到，八個人之中只有兩個人被錄用。文\n奇問了秘書，救總經理女兒的年輕人找到了沒？秘書笑著說：「總經\n理哪有女兒啊！」",
+          "simplified": "文奇一直在尋找能充分運用他語言專業的機會，剛好一家貿易公\n司要徵求外語翻譯，要求中、英語的口語流利，且要有口語翻譯的經\n驗。基本條件文奇全都符合。經過商業概念的筆試和口語能力測驗後，\n兩百人之中只有文奇和其他七人能參加和總經理的面試。大家都很清\n楚，能讓總經理留下好印象，是得到工作機會的關鍵。 \n \n當文奇剛走進總經理的辦公室，總經理就一臉驚喜地對文奇說：\n「啊！我可找到你了！」說着，就馬上站起來跟文奇握手。接着，他\n又對辦公室的秘書說：「這個年輕人就是上個月在游泳池救了我女兒\n的那個人，沒留下姓名就走了，沒想到，今天在這兒又見面了，真是\n太巧了。」 \n \n聽了總經理的話以後，臉上熱呼呼的文奇，看到了進公司的一線\n希望。但這時他心裡又有另一個聲音：一個人要誠實！他平靜下來，\n對總經理說：「不，先生，您認錯人了。」「認錯人？不會吧！你和那\n位先生一樣，都有一雙明亮的大眼睛。」「不，總經理，我不會游泳，\n更不可能去游泳池。」文奇平靜地說。 \n \n幾天以後，文奇到公司報到，八個人之中只有兩個人被錄用。文\n奇問了秘書，救總經理女兒的年輕人找到了沒？秘書笑着說：「總經\n理哪有女兒啊！」"
+        }
+      }
+    }
+  }
+}

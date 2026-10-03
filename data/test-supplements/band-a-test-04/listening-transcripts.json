@@ -1,0 +1,263 @@
+{
+  "schemaVersion": "1.0",
+  "examId": "band-a-test-04",
+  "componentId": "listening",
+  "source": "https://tocfl.edu.tw/tocfl/assets/files/mock/ls_mock4_test_BandA_listen.pdf",
+  "display": {
+    "defaultHidden": true,
+    "recommendedUse": "review_or_explanation",
+    "variantAware": true
+  },
+  "questions": [
+    {
+      "questionId": "listening-q01",
+      "number": 1,
+      "traditional": "提問 \n請問這裡是哪裡？ \n(A) \n教堂 \n(B) \n學校 \n(C) \n博物館"
+    },
+    {
+      "questionId": "listening-q02",
+      "number": 2,
+      "traditional": "提問 \n請問這是什麼動物？ \n(A) \n一隻鳥 \n(B) \n一隻雞 \n(C) \n一匹馬"
+    },
+    {
+      "questionId": "listening-q03",
+      "number": 3,
+      "traditional": "提問 \n請問這是什麼地方？ \n(A) \n工廠 \n(B) \n公園 \n(C) \n車站"
+    },
+    {
+      "questionId": "listening-q04",
+      "number": 4,
+      "traditional": "提問 \n請問這個人怎麼了？ \n(A) \n他的耳朵很痛 \n(B) \n他的肚子不舒服 \n(C) \n他的手指頭受傷了"
+    },
+    {
+      "questionId": "listening-q05",
+      "number": 5,
+      "traditional": "提問 \n請問他們在玩什麼？ \n(A) \n足球 \n(B) \n棒球 \n(C) \n網球"
+    },
+    {
+      "questionId": "listening-q06",
+      "number": 6,
+      "traditional": "提問 \n請問王先生的職業是什麼？ \n(A) \n教師 \n(B) \n經理 \n(C) \n記者"
+    },
+    {
+      "questionId": "listening-q07",
+      "number": 7,
+      "traditional": "提問 \n請問這裡的天氣怎麼樣？ \n(A) \n沒有太陽 \n(B) \n正在下雨 \n(C) \n有一點熱"
+    },
+    {
+      "questionId": "listening-q08",
+      "number": 8,
+      "traditional": "提問 \n桌子上有什麼？ \n(A) \n只有信封和燈 \n(B) \n有燈也有卡片 \n(C) \n有信封沒有卡片"
+    },
+    {
+      "questionId": "listening-q09",
+      "number": 9,
+      "traditional": "提問 \n圖片裡的人準備做什麼？ \n(A) \n他們準備坐車。 \n(B) \n他們準備騎車。 \n(C) \n他們準備買車票。"
+    },
+    {
+      "questionId": "listening-q10",
+      "number": 10,
+      "traditional": "提問 \n請問王小姐正在做什麼？ \n(A) \n她正在收傳真 \n(B) \n她正在打電腦 \n(C) \n她正在寫卡片 \n \n第二部分 問答理解"
+    },
+    {
+      "questionId": "listening-q11",
+      "number": 11,
+      "traditional": "男 \n請問還要點菜嗎？ \n女 \n不用了，我吃飽了，麻煩算算一共多少錢。"
+    },
+    {
+      "questionId": "listening-q12",
+      "number": 12,
+      "traditional": "男 \n小華，妳放假的時候都做什麼？ \n女 \n我常常去游泳。"
+    },
+    {
+      "questionId": "listening-q13",
+      "number": 13,
+      "traditional": "男 \n你怎麼有這本書？ \n女 \n我爸爸送我的。"
+    },
+    {
+      "questionId": "listening-q14",
+      "number": 14,
+      "traditional": "男 \n麗美，妳怎麼來了？ \n女 \n昨天買的衣服想換不同的顏色。"
+    },
+    {
+      "questionId": "listening-q15",
+      "number": 15,
+      "traditional": "男 \n你想喝什麼？茶還是咖啡？ \n女 \n我想喝啤酒。"
+    },
+    {
+      "questionId": "listening-q16",
+      "number": 16,
+      "traditional": "男 \n請問去動物園怎麼走？ \n女 \n你往前走，然後在第二個路口左轉，你就會看到動物園了。"
+    },
+    {
+      "questionId": "listening-q17",
+      "number": 17,
+      "traditional": "男 \n你記得你最後一次是在哪裡看見錢包的嗎？ \n女 \n警察先生，我記得應該是買東西的時候。"
+    },
+    {
+      "questionId": "listening-q18",
+      "number": 18,
+      "traditional": "男 \n醫生，我這次要去森林裡住一個月，請問有什麼要注意的事？ \n女 \n你要帶一些藥，嗯～一定要喝開水，這個要記得。"
+    },
+    {
+      "questionId": "listening-q19",
+      "number": 19,
+      "traditional": "男 \n美美，你看見我的字典了嗎？ \n女 \n你拿去臥室了。"
+    },
+    {
+      "questionId": "listening-q20",
+      "number": 20,
+      "traditional": "男 \n我會煮飯和掃地，請問我可以住在這裡嗎？ \n女 \n我不需要工人，你想住在這裡就付房租，一天三百元。"
+    },
+    {
+      "questionId": "listening-q21",
+      "number": 21,
+      "traditional": "男 \n我昨天打電話給你，你怎麼沒接電話？ \n女 \n我的手機壞了。"
+    },
+    {
+      "questionId": "listening-q22",
+      "number": 22,
+      "traditional": "男 \n你了解我要你做什麼事情了嗎？ \n女 \n我…我還是不懂。"
+    },
+    {
+      "questionId": "listening-q23",
+      "number": 23,
+      "traditional": "男 \n這家店為什麼這麼多人在排隊？ \n女 \n因為這裡的衣服很便宜，很多人來這裡買衣服。"
+    },
+    {
+      "questionId": "listening-q24",
+      "number": 24,
+      "traditional": "男 \n現在天氣怎麼樣？ \n女 \n很涼快、很舒服，我想出去走走。"
+    },
+    {
+      "questionId": "listening-q25",
+      "number": 25,
+      "traditional": "男 \n妳剛剛打電話給我，有什麼事嗎？ \n女 \n家裡的洗衣機和冰箱都壞了。 \n \n \n \n第三部分 對話理解"
+    },
+    {
+      "questionId": "listening-q26",
+      "number": 26,
+      "traditional": "男 \n怎麼最近都沒看到陳老師呢？ \n女 \n聽說陳老師生病了，現在在醫院裡。 \n男 \n我們應該去醫院看看他，我們帶水果和花去看他，好不好？ \n女 \n陳老師很喜歡看書，我想買幾本有趣的書給他。 \n男 \n請問這位小姐想帶什麼東西給陳老師？"
+    },
+    {
+      "questionId": "listening-q27",
+      "number": 27,
+      "traditional": "男 \n歡迎光臨!請問要點什麼? \n女 \n我要兩個漢堡。 \n男 \n還要別的嗎?我們的咖啡很不錯！ \n女 \n好的，請給我一杯熱咖啡。 \n男 \n請問這位小姐點了什麼?"
+    },
+    {
+      "questionId": "listening-q28",
+      "number": 28,
+      "traditional": "男 \n老闆，我可以穿穿看這件衣服嗎? \n女 \n可以，請到裡面試試。 \n男 \n這件衣服太小了，還有大一點兒的嗎? \n女 \n對不起，大的已經賣完了。 \n男 \n請問這位先生覺得這件衣服怎麼樣?"
+    },
+    {
+      "questionId": "listening-q29",
+      "number": 29,
+      "traditional": "男 \n王同學，明天上籃球課，你先去借幾顆籃球吧！ \n女 \n老師，同學們比較想去游泳，他們要我問問您。 \n男 \n可是這個星期林老師的學生好像要練習游泳。 \n女 \n老師，我剛剛問林老師了，他說我們可以在星期三和星期五上游泳課，這兩天他們\n不練習。 \n男 \n請問學生們什麼時候可以上游泳課？"
+    },
+    {
+      "questionId": "listening-q30",
+      "number": 30,
+      "traditional": "男 \n這是你家全部的人嗎？ \n女 \n是啊，這是爸爸、媽媽、兩個妹妹和我。 \n男 \n妳沒有哥哥或弟弟嗎？ \n女 \n沒有，我們家一共五個人。 \n男 \n請問哪一張是女生家人的照片？"
+    },
+    {
+      "questionId": "listening-q31",
+      "number": 31,
+      "traditional": "男 \n各位同學，作業有沒有什麼問題？ \n女 \n老師，作業裡有一個管理報告要寫，可是我們從沒做過這方面的報告。 \n男 \n你們幾個同學一起，先去圖書館找這方面的書，然後跟我一起討論。 \n女 \n好吧！我們試試。 \n男 \n請問老師要同學們做什麼？"
+    },
+    {
+      "questionId": "listening-q32",
+      "number": 32,
+      "traditional": "男 \n危險！快點離開大樓。 \n女 \n我住這裡，我要進去。 \n男 \n樓快倒了，很不安全！ \n女 \n我住三樓，東西都在裡面，我要進去。 \n男 \n請問他們現在在哪裡？"
+    },
+    {
+      "questionId": "listening-q33",
+      "number": 33,
+      "traditional": "男 \n月華，你把數學作業的答案寫在黑板上吧！ \n女 \n老師，我的作業被王小明拿走了。 \n男 \n喔？沒關係，我把問題寫在黑板上了，你上來回答吧！ \n女 \n唉！老師，我不會寫。 \n男 \n請問老師要月華做什麼？"
+    },
+    {
+      "questionId": "listening-q34",
+      "number": 34,
+      "traditional": "男 \n飛機要起飛了，你怎麼還在這裡？ \n女 \n我找不到我的機票。 \n男 \n機票這麼重要的東西，怎麼會不見呢？ \n女 \n唉啊！你快一點幫我找找吧！ \n男 \n請問這位小姐要這位先生找什麼？"
+    },
+    {
+      "questionId": "listening-q35",
+      "number": 35,
+      "traditional": "男 \n哇！這個味道好香啊！你在做什麼？ \n女 \n烤牛肉。 \n男 \n桌上這些菜都是你做的嗎？ \n女 \n對啊！今天的晚餐我還準備了湯、水果和酒。 \n男 \n請問他們晚餐吃什麼？"
+    },
+    {
+      "questionId": "listening-q36",
+      "number": 36,
+      "traditional": "男 \n這裡的環境好舒服啊！空氣也很好。 \n女 \n對面鄰居種了很多花，所以有時候會有花香。 \n男 \n你以前一直說想學騎腳踏車和開車，你學了嗎？ \n女 \n嗯，這裡什麼都好，就是交通不方便，所以我學了開車。 \n男 \n請問這位小姐來這裡以後，學會了什麼？"
+    },
+    {
+      "questionId": "listening-q37",
+      "number": 37,
+      "traditional": "男 \n文文，你是不是感冒了？ 要不要喝一點水？ \n女 \n我沒感冒啊！ \n男 \n那你怎麼一直咳嗽？ \n女 \n我剛剛吃東西吃太快了，等一會兒就好了。 \n男 \n請問文文怎麼了？"
+    },
+    {
+      "questionId": "listening-q38",
+      "number": 38,
+      "traditional": "男 \n你這一個學期的成績怎麼樣？ \n女 \n我的英文還可以，可是數學不好。 \n男 \n我也是數學不好。我們要不要在暑假的時候，找老師教我們？ \n女 \n可是我暑假要搭飛機去英國找我朋友。 \n男 \n請問這位小姐暑假的時候想做什麼？"
+    },
+    {
+      "questionId": "listening-q39",
+      "number": 39,
+      "traditional": "男 \n下過雨的天空真是乾淨，空氣的味道也很好，我很喜歡。 \n女 \n你也喜歡這樣的天氣啊！ \n男 \n嗯！夏天的時候，如果下午下過雨，晚上就很涼快。 \n女 \n對啊，這個時候，我喜歡和家人在房子外面看看星星、聊聊天。 \n男 \n請問這位小姐喜歡做什麼事？"
+    },
+    {
+      "questionId": "listening-q40",
+      "number": 40,
+      "traditional": "男 \n你覺得這間房子怎麼樣？ \n女 \n這間房子有樓梯和電梯，應該不便宜吧！ \n男 \n昨天看的房子，樓梯在房子外面，比這一間便宜2 千元。 \n女 \n好吧！就昨天那一間吧！ \n男 \n請問這位小姐想租哪一間房子？ \n \n \n第四部分 對話"
+    },
+    {
+      "questionId": "listening-q41",
+      "number": 41,
+      "traditional": "男：這裡很危險，大家快一點離開。 \n女：我們要往哪裡走？我沒注意到安全門的方向。 \n男：先往前走，安全門在樓梯旁邊，不要搭電梯。 \n女：好，我們大家往前走吧！ \n男：請問下面哪一個是對的？"
+    },
+    {
+      "questionId": "listening-q42",
+      "number": 42,
+      "traditional": "男：媽媽站在路口和鄰居聊天，都過了半小時了。 \n女：因為他們正在比較哪一間大學的學費便宜。 \n男：媽媽跟鄰居談這個做什麼？ \n女：我明年想讀管理學院，媽媽可能是想先了解吧！ \n男：請問他們的媽媽為什麼和鄰居聊天？"
+    },
+    {
+      "questionId": "listening-q43",
+      "number": 43,
+      "traditional": "男：「顧客永遠是對的」，這一句話我每天要聽經理講十遍。 \n女：所以，你也覺得「顧客永遠是對的」嗎？ \n男：怎麼可能？他還常說「沒有討厭的客人，只有最好的服務」。 \n女：好棒的經理，下次我就去你那兒吃飯！ \n男：請問這位先生的職業是什麼？"
+    },
+    {
+      "questionId": "listening-q44",
+      "number": 44,
+      "traditional": "男：為了畢業以後能找到好工作，我現在必須非常努力。 \n女：你每天從早上讀到晚上，這樣一直讀書就能找到好工作嗎？ \n男：妳一放假就出國玩，妳不了解一份好工作有多重要。 \n女：我今年六月畢業以後，就要去美國的博物館上班了。 \n男：請問下面哪一個是對的？"
+    },
+    {
+      "questionId": "listening-q45",
+      "number": 45,
+      "traditional": "男：謝謝你，今天的舞會，我玩得很愉快。 \n女：太好了，你注意到舞會上那位紅頭髮的女孩子了嗎？ \n男：喔，妳說明美啊！雖然我們以前沒見過面，可是我們聊得很開心。 \n女：太好了，希望你跟她要了電話號碼。 \n男：請問這位先生說了什麼？"
+    },
+    {
+      "questionId": "listening-q46",
+      "number": 46,
+      "traditional": "男：妳遲到了，晚了1小時20分鐘又38秒。 \n女：對不起，路上車子多嘛！ \n男：我們約會，妳哪一次準時了？還每次都說一樣的話。 \n女：你不覺得是你太早到了嗎？ \n男：請問下面哪一個是對的？"
+    },
+    {
+      "questionId": "listening-q47",
+      "number": 47,
+      "traditional": "男：經理也太不客氣了吧！就我們三個人，要做完全部的事。 \n女：你經驗最多，先教我們兩個，然後我們再開始做。 \n男：教你們可以，可是我們幾個人怎麼可能處理完全部的事啦！ \n女：可以、可以，快點把事情做完，我們就能回家休息了。 \n男：請問這位先生覺得經理給的工作怎麼樣？"
+    },
+    {
+      "questionId": "listening-q48",
+      "number": 48,
+      "traditional": "男：我最近都睡得不好，剛剛去看病。 \n女：醫生說了什麼？ \n男：他叫我要常常出去走走、多運動，就可以睡得比較好。 \n女：是啊！不過最近天氣冷，很容易感冒，你出門要多穿一件衣服。 \n男：這位先生看病的原因是什麼？"
+    },
+    {
+      "questionId": "listening-q49",
+      "number": 49,
+      "traditional": "男：妳停車、停車，怎麼可以一邊開車一邊喝酒？ \n女：警察先生，我沒有喝酒，我只是拿著酒，沒有喝。 \n男：下車，妳下車，把手放到頭上去。 \n女：我一隻手拿著酒、一隻手開車，沒有手可以放到頭上了。 \n男：請問警察要這位小姐做什麼？"
+    },
+    {
+      "questionId": "listening-q50",
+      "number": 50,
+      "traditional": "男：老王的年紀比他太太大20歲啊！ \n女：好像是這樣，可是他們很幸福，年紀不是問題吧！ \n男：只要能夠了解自己的太太或是先生，日子就會過得很幸福。 \n女：了解自己，相信別人，就是兩個人一起生活最重要的事。 \n男：請問他們在討論什麼事？"
+    }
+  ]
+}

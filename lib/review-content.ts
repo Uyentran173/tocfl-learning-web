@@ -1,7 +1,7 @@
 import type { MockTest, ScriptVariant } from "./tests";
 
-export type ReviewLine = { label?: string; chinese: string; vietnamese?: string; highlight?: string };
-export type ListeningReview = { lines: ReviewLine[]; question?: ReviewLine; options?: ReviewLine[]; explanation?: string };
+export type ReviewLine = { label?: string; chinese: string; vietnamese?: string; highlight?: string; imageUrl?: string };
+export type ListeningReview = { lines: ReviewLine[]; question?: ReviewLine; options?: ReviewLine[]; explanation?: string; note?: string };
 export type SourceEvidence = { chinese: string; x: number; y: number; width: number; height: number; sourceWidth: number; sourceHeight: number };
 export type ReadingReview = {
   kind: "question" | "answer";
@@ -10,6 +10,7 @@ export type ReadingReview = {
   passageVietnamese?: string;
   completedPassageChinese?: string;
   questionVietnamese?: string;
+  questionChinese?: string;
   optionVietnamese?: string[];
   optionChinese?: string[];
   explanation?: string;

@@ -10,6 +10,29 @@ from bs4 import BeautifulSoup
 
 OFFICIAL_PAGE = "https://tocfl.edu.tw/tocfl/index.php/exam/test/page/1?pressBtn=(MockText)"
 ALLOWED_HOSTS = {"tocfl.edu.tw", "www.tocfl.edu.tw", "eapi.sc-top.org.tw"}
+SERIES_DIGITS = {word: number for number, word in enumerate("一二三四五六七八九", 1)}
+
+
+def _series_number(word: str) -> int:
+    if word.isdigit():
+        return int(word)
+    if word in SERIES_DIGITS:
+        return SERIES_DIGITS[word]
+    if "十" in word:
+        tens, _, ones = word.partition("十")
+        if (not tens or tens in SERIES_DIGITS) and (not ones or ones in SERIES_DIGITS):
+            return SERIES_DIGITS.get(tens, 1) * 10 + SERIES_DIGITS.get(ones, 0)
+    raise ImportErrorWithContext(f"Unknown official series numeral: {word}")
+
+
+def _series_word(series: int) -> str:
+    if series < 1 or series > 99:
+        return str(series)
+    words = {number: word for word, number in SERIES_DIGITS.items()}
+    if series < 10:
+        return words[series]
+    tens, ones = divmod(series, 10)
+    return (words.get(tens, "") if tens > 1 else "") + "十" + words.get(ones, "")
 
 
 class ImportErrorWithContext(RuntimeError):
@@ -41,8 +64,7 @@ class Sources:
 
 def _series_card(soup: BeautifulSoup, series: int, skill: str):
     chinese = {"listening": "聽力測驗", "reading": "閱讀測驗"}[skill]
-    numerals = {1: "一", 2: "二", 3: "三", 4: "四", 5: "五", 6: "六", 7: "七", 8: "八", 9: "九"}
-    marker = f"{chinese}(第{numerals.get(series, str(series))}輯)"
+    marker = f"{chinese}(第{_series_word(series)}輯)"
     button = next((b for b in soup.select("button") if marker in b.get_text(" ", strip=True)), None)
     if not button:
         raise ImportErrorWithContext(f"Official page has no {skill} series {series}")
@@ -186,6 +208,31 @@ def discover(session: requests.Session, series: int, band: str, component: str) 
         row = _source_row(card, band)
         components[skill] = _classify_links(row, OFFICIAL_PAGE, skill, band, series, session)
     return Sources(series, band, components)
+
+
+def available_tests(session: requests.Session) -> list[tuple[str, int]]:
+    """Enumerate every Band/Series row, including incomplete source pairs."""
+    soup = BeautifulSoup(fetch(session, OFFICIAL_PAGE).text, "html.parser")
+    skills: dict[str, set[tuple[str, int]]] = {"listening": set(), "reading": set()}
+    for button in soup.select("button"):
+        title = button.get_text(" ", strip=True)
+        match = re.search(r"(聽力測驗|閱讀測驗)\s*\(第([一二三四五六七八九十]+|\d+)輯\)", title)
+        if not match:
+            continue
+        skill = "listening" if match[1] == "聽力測驗" else "reading"
+        series = _series_number(match[2])
+        card = button.find_parent(class_="card")
+        if not card or series is None:
+            raise ImportErrorWithContext(f"Cannot inspect official series heading {title!r}")
+        for band in ("Novice", "A", "B", "C"):
+            try:
+                _source_row(card, band)
+            except ImportErrorWithContext:
+                continue
+            skills[skill].add((band, series))
+    if not skills["listening"] and not skills["reading"]:
+        raise ImportErrorWithContext("Official page has no mock-test tables")
+    return sorted(skills["listening"] | skills["reading"], key=lambda item: (item[1], ("Novice", "A", "B", "C").index(item[0])))
 
 
 def discover_audio_tracks(session: requests.Session, url: str) -> list[dict[str, str]]:

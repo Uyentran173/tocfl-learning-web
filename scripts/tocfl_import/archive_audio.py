@@ -10,6 +10,7 @@ import shutil
 import stat
 import subprocess
 import tempfile
+import time
 import zipfile
 
 import requests
@@ -21,17 +22,53 @@ MAX_EXTRACTED_BYTES = 500 * 1024 * 1024
 MAX_MEMBERS = 250
 
 
+def _os_metadata(path: PurePosixPath) -> bool:
+    """Only discard known folder metadata, never an arbitrary non-audio file."""
+    name = path.name.casefold()
+    return name in {"desktop.ini", "thumbs.db", ".ds_store"} or name.startswith("._")
+
+
 def download_audio_archive(session: requests.Session, url: str) -> bytes:
-    """Stream only from the official host and cap the compressed download."""
-    with session.get(url, stream=True, timeout=60) as response:
-        response.raise_for_status()
-        official_url(url, response.url)
-        body = bytearray()
-        for chunk in response.iter_content(1024 * 1024):
-            body.extend(chunk)
-            if len(body) > MAX_ARCHIVE_BYTES:
-                raise ImportErrorWithContext("Audio archive exceeds the compressed-size safety limit")
-    return bytes(body)
+    """Resume interrupted official downloads without accepting changed bytes."""
+    body = bytearray()
+    total: int | None = None
+    for attempt in range(8):
+        offset = len(body)
+        headers = {"Accept-Encoding": "identity"}
+        if offset:
+            headers["Range"] = f"bytes={offset}-"
+        try:
+            with session.get(url, stream=True, timeout=60, headers=headers) as response:
+                response.raise_for_status()
+                official_url(url, response.url)
+                if offset:
+                    if response.status_code != 206:
+                        raise ImportErrorWithContext("Official archive server did not honor the resume range")
+                    match = re.fullmatch(r"bytes (\d+)-(\d+)/(\d+)", response.headers.get("Content-Range", ""))
+                    if not match or int(match[1]) != offset or int(match[2]) + 1 != int(match[3]):
+                        raise ImportErrorWithContext("Official archive returned an inconsistent resume range")
+                    if total is not None and total != int(match[3]):
+                        raise ImportErrorWithContext("Official archive changed size during download")
+                    total = int(match[3])
+                elif response.status_code != 200:
+                    raise ImportErrorWithContext(f"Official archive returned unexpected HTTP {response.status_code}")
+                else:
+                    length = response.headers.get("Content-Length")
+                    total = int(length) if length and length.isdigit() else None
+                if total is not None and total > MAX_ARCHIVE_BYTES:
+                    raise ImportErrorWithContext("Audio archive exceeds the compressed-size safety limit")
+                for chunk in response.iter_content(1024 * 1024):
+                    body.extend(chunk)
+                    if len(body) > MAX_ARCHIVE_BYTES or total is not None and len(body) > total:
+                        raise ImportErrorWithContext("Audio archive exceeds its declared or safety size")
+                if total is None or len(body) == total:
+                    return bytes(body)
+        except requests.RequestException:
+            if attempt == 7:
+                raise
+        if attempt < 7:
+            time.sleep(min(attempt + 1, 5))
+    raise ImportErrorWithContext(f"Official archive download ended at {len(body)}/{total or '?'} bytes")
 
 
 @dataclass
@@ -58,11 +95,14 @@ def _safe_name(name: str, *, directory: bool = False) -> PurePosixPath:
 
 def _read_zip(body: bytes) -> list[tuple[str, bytes]]:
     files = []
-    with zipfile.ZipFile(BytesIO(body)) as archive:
+    # The older official ZIPs omit the UTF-8 flag and encode Chinese names as
+    # CP950/Big5. ASCII names decode identically in both encodings.
+    with zipfile.ZipFile(BytesIO(body), metadata_encoding="cp950") as archive:
         infos = archive.infolist()
         if len(infos) > MAX_MEMBERS:
             raise ImportErrorWithContext(f"Audio archive has too many members: {len(infos)}")
         total = 0
+        actual_total = 0
         for info in infos:
             _safe_name(info.filename, directory=info.is_dir())
             mode = info.external_attr >> 16
@@ -76,8 +116,19 @@ def _read_zip(body: bytes) -> list[tuple[str, bytes]]:
             total += info.file_size
             if total > MAX_EXTRACTED_BYTES:
                 raise ImportErrorWithContext("Audio archive expands beyond the safety limit")
-            if info.filename.lower().endswith(".mp3"):
-                files.append((info.filename, archive.read(info)))
+            if _os_metadata(PurePosixPath(info.filename)):
+                continue
+            elif info.filename.lower().endswith(".mp3"):
+                audio = bytearray()
+                with archive.open(info) as source:
+                    for chunk in iter(lambda: source.read(1024 * 1024), b""):
+                        audio.extend(chunk)
+                        actual_total += len(chunk)
+                        if actual_total > MAX_EXTRACTED_BYTES:
+                            raise ImportErrorWithContext("Audio archive expands beyond the safety limit")
+                if len(audio) != info.file_size:
+                    raise ImportErrorWithContext(f"Archive member size changed while reading: {info.filename}")
+                files.append((info.filename, bytes(audio)))
             else:
                 raise ImportErrorWithContext(f"Unexpected non-audio archive member: {info.filename}")
     return files
@@ -119,6 +170,7 @@ def _read_rar(body: bytes) -> list[tuple[str, bytes]]:
                 raise ImportErrorWithContext("Audio archive expands beyond the safety limit")
         _run_bsdtar(["-xf", str(source), "-C", str(target), "--no-same-owner", "--no-same-permissions"])
         files = []
+        actual_total = 0
         for name, detail in zip(names, details):
             path = target.joinpath(*_safe_name(name, directory=detail[0] == "d").parts)
             if detail[0] == "d":
@@ -128,13 +180,70 @@ def _read_rar(body: bytes) -> list[tuple[str, bytes]]:
             if (not path.is_file() or path.is_symlink() or path.stat().st_nlink != 1
                     or not path.resolve().is_relative_to(target.resolve())):
                 raise ImportErrorWithContext(f"Invalid extracted audio file: {name}")
+            if _os_metadata(PurePosixPath(name)):
+                continue
             if path.suffix.lower() != ".mp3":
                 raise ImportErrorWithContext(f"Unexpected non-audio archive member: {name}")
+            actual_total += path.stat().st_size
+            if actual_total > MAX_EXTRACTED_BYTES:
+                raise ImportErrorWithContext("Audio archive expands beyond the safety limit")
             files.append((name, path.read_bytes()))
         return files
 
 
-def inspect_audio_archive(body: bytes, archive_url: str, expected_questions: int) -> ArchiveAudio:
+def _sequential_names(source_files: list[tuple[str, bytes]], expected_questions: int, transcript_pdf: bytes | None) -> dict[str, str]:
+    """Resolve sequential tracks only against an exact printed group plan."""
+    numbered = [(name, int(match[1]), int(match[2])) for name, _ in source_files
+                if (match := re.fullmatch(r"([1-9]\d*)-(\d{1,2})\.mp3", PurePosixPath(name).name, re.I))]
+    if not numbered or max(number for _, _, number in numbered) <= expected_questions:
+        return {}
+    if transcript_pdf is None:
+        raise ImportErrorWithContext("Sequential archive tracks require the official transcript to verify shared audio boundaries")
+    from .pdf import extract_transcript_layout
+    layout = extract_transcript_layout(transcript_pdf, expected_questions)
+    numerals = {"一": 1, "二": 2, "兩": 2, "三": 3, "四": 4, "五": 5, "六": 6, "七": 7, "八": 8, "九": 9, "十": 10}
+    starts: dict[int, int] = {}
+    for first, source in [(1, layout.preface), *[(n + 1, text) for n, text in layout.questions.items() if n < expected_questions]]:
+        compact = re.sub(r"\s+", "", source)
+        declarations = re.findall(r"回答(?:下面|以下|上述|以上)?(?:的)?([一二三四五六七八九十兩\d]+)個問題", compact)
+        if len(declarations) > 1:
+            raise ImportErrorWithContext(f"Transcript has ambiguous audio group declarations before Q{first}")
+        if declarations:
+            word = declarations[0]
+            count = int(word) if word.isdigit() else numerals.get(word)
+            if count is None:
+                raise ImportErrorWithContext(f"Unknown transcript group size before Q{first}: {word}")
+            if count > 1:
+                starts[first] = count
+    for first, count in starts.items():
+        if first + count - 1 > expected_questions or any(first < other <= first + count - 1 for other in starts):
+            raise ImportErrorWithContext(f"Transcript audio groups overlap near Q{first}")
+    if len(numbered) != expected_questions + len(starts):
+        raise ImportErrorWithContext(f"Sequential archive has {len(numbered)} numbered tracks; transcript requires {expected_questions} questions plus {len(starts)} shared passages")
+    if [number for _, _, number in numbered] != list(range(1, len(numbered) + 1)):
+        raise ImportErrorWithContext("Sequential archive track numbers are missing, repeated, or out of order")
+    mapped = {}
+    question = 1
+    shared_pending = False
+    part_questions: dict[int, list[int]] = {}
+    for name, part, _ in numbered:
+        if question in starts and not shared_pending:
+            mapped[name] = f"{part}-{question:02d}-0.mp3"
+            shared_pending = True
+            continue
+        mapped[name] = f"{part}-{question:02d}{'-1' if shared_pending else ''}.mp3"
+        part_questions.setdefault(part, []).append(question)
+        question += 1
+        shared_pending = False
+    if question != expected_questions + 1 or shared_pending:
+        raise ImportErrorWithContext("Sequential archive cannot be aligned with transcript questions")
+    for part, questions in part_questions.items():
+        if questions != list(range(questions[0], questions[-1] + 1)):
+            raise ImportErrorWithContext(f"Sequential archive part {part} has discontinuous question mapping")
+    return mapped
+
+
+def inspect_audio_archive(body: bytes, archive_url: str, expected_questions: int, *, transcript_pdf: bytes | None = None) -> ArchiveAudio:
     if not body or len(body) > MAX_ARCHIVE_BYTES:
         raise ImportErrorWithContext("Audio archive is empty or exceeds the safety limit")
     if body.startswith(b"PK\x03\x04"):
@@ -145,6 +254,7 @@ def inspect_audio_archive(body: bytes, archive_url: str, expected_questions: int
         raise ImportErrorWithContext("Audio archive is neither ZIP nor RAR, regardless of its extension")
     if not source_files:
         raise ImportErrorWithContext("Audio archive contains no MP3 tracks")
+    sequential_names = _sequential_names(source_files, expected_questions, transcript_pdf)
 
     tracks: list[dict[str, str]] = []
     files: dict[str, bytes] = {}
@@ -162,7 +272,7 @@ def inspect_audio_archive(body: bytes, archive_url: str, expected_questions: int
         if member.casefold() in names_seen:
             raise ImportErrorWithContext(f"Duplicate archive member: {member}")
         names_seen.add(member.casefold())
-        base = path.name
+        base = sequential_names.get(member, path.name)
         if len(audio) < 100 or not (audio.startswith(b"ID3") or audio[0] == 0xff):
             raise ImportErrorWithContext(f"Missing or invalid MP3 data: {member}")
         label = ""

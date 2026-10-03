@@ -13,6 +13,7 @@
     "test:logical": "node --test tests/structured-package.test.mjs",
     "test:import": "python3 -m unittest discover -s tests -p 'test_tocfl_import.py'",
     "tocfl:import": "python3 scripts/import_tocfl_official.py",
+    "tocfl:audit": "python3 scripts/audit_tocfl_official.py",
     "import:vocabulary": "node scripts/import_tocfl_vocabulary.mjs"
   },
   "dependencies": {

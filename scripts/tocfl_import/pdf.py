@@ -26,15 +26,15 @@ def extract_answers(data: bytes, skill: str | None = None, *, band: str | None =
         stop = text.find("TOCFL-Novice Reading", start + 1) if skill == "listening" else -1
         text = text[start:stop if stop >= 0 else None]
     pairs = re.findall(r"(?m)^\s*(\d{1,2})\s*\n\s*([A-F])\s*$", text)
-    # The official Band A Series 1–3 Listening keys print 44 at position 34,
-    # between 33 and 35, and print the real 44 again later. Keep its answer
-    # letter; correct only this fully verified numbering typo.
-    if band == "A" and series in {1, 2, 3} and skill == "listening" and len(pairs) == 50:
+    # Some official Band A keys misprint row 34 as 44 (Series 1–3) or
+    # 4 (Series 4). Correct only when every other row is exactly in order.
+    if band == "A" and skill == "listening" and len(pairs) == 50:
         numbers = [int(number) for number, _ in pairs]
-        if numbers[33] == 44 and all(number == index for index, number in enumerate(numbers, 1) if index != 34):
+        if numbers[33] in {4, 44} and all(number == index for index, number in enumerate(numbers, 1) if index != 34):
+            printed = numbers[33]
             pairs[33] = ("34", pairs[33][1])
             if warnings is not None:
-                warnings.append("Official Listening answer key prints Q44 between Q33 and Q35; its answer is mapped by verified row position to Q34")
+                warnings.append(f"Official Listening answer key prints Q{printed} between Q33 and Q35; its answer is mapped by verified row position to Q34")
     answers = {int(number): answer for number, answer in pairs}
     if len(answers) != len(pairs) or sorted(answers) != list(range(1, len(answers) + 1)):
         raise ImportErrorWithContext("Answer key contains missing or duplicate question numbers")
@@ -272,6 +272,41 @@ def extract_transcript_layout(data: bytes, expected_count: int) -> TranscriptExt
         matches = list(re.finditer(r"(?m)^\s*(\d{1,2})\s*$", text))
     if not matches:
         raise ImportErrorWithContext("Transcript has no numbered questions")
+    # Some official scripts print the question list, then the dialogue, then
+    # the same question list again. Keep the dialogue before the second list,
+    # but only after checking that both printed lists are identical.
+    while True:
+        numbers = [int(match.group(1)) for match in matches]
+        repeated = next((number for number in numbers if numbers.count(number) > 1), None)
+        if repeated is None:
+            break
+        starts = [index for index, number in enumerate(numbers) if number == repeated]
+        if len(starts) != 2:
+            raise ImportErrorWithContext(f"Duplicate transcript Q{repeated}")
+        first, second = starts
+        width = 1
+        while (first + width < second and second + width < len(numbers)
+               and numbers[first + width] == repeated + width
+               and numbers[second + width] == repeated + width):
+            width += 1
+        if any(numbers[first + offset] != numbers[second + offset] for offset in range(width)):
+            raise ImportErrorWithContext(f"Duplicate transcript Q{repeated}")
+        def segment(index: int) -> str:
+            return text[matches[index].end():matches[index + 1].start() if index + 1 < len(matches) else len(text)]
+        for offset in range(width):
+            before = segment(first + offset)
+            after = segment(second + offset)
+            prompt_before = re.search(r"^[\s\S]*?[？?]", before)
+            prompt_after = re.search(r"^[\s\S]*?[？?]", after)
+            if not prompt_before or not prompt_after or clean(prompt_before.group()) != clean(prompt_after.group()):
+                raise ImportErrorWithContext(f"Repeated transcript Q{repeated + offset} differs between question lists")
+        last_first = segment(first + width - 1)
+        prompt = re.search(r"^[\s\S]*?[？?]", last_first)
+        passage = last_first[prompt.end():].strip()
+        if not passage or second != first + width + 0:
+            raise ImportErrorWithContext(f"Repeated transcript Q{repeated} has no separable dialogue")
+        text = text[:matches[first].start()] + "\n" + passage + "\n" + text[matches[second].start():]
+        matches = list(QUESTION.finditer(text))
     result = {}
     for i, match in enumerate(matches):
         n = int(match.group(1))

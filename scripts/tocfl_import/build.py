@@ -186,6 +186,19 @@ def _transcript_entries(raw: dict[int, str], groups: list[dict]) -> list[dict]:
         raw[first - 1] = previous[:split].strip()
         for number in group["questions"]:
             shared_by_question[number] = shared
+    # A one-question passage can also be printed after the previous question
+    # (Band B Series 3 Q31–32). It belongs to the next self-contained track.
+    for number in sorted(raw):
+        if number <= 1 or number in shared_by_question:
+            continue
+        previous = raw[number - 1]
+        boundary = re.search(r"[？?][^\n]*\n(?:[ \t]*\n)+", previous)
+        if not boundary:
+            continue
+        tail = previous[boundary.end():].strip()
+        if re.search(r"回\s*答(?:下面|以下)?(?:的)?問\s*題", tail):
+            raw[number - 1] = previous[:boundary.end()].strip()
+            raw[number] = tail + "\n" + raw[number]
     entries = []
     for number, text in sorted(raw.items()):
         text = (shared_by_question.get(number, "") + "\n" + text).strip()
@@ -196,16 +209,35 @@ def _transcript_entries(raw: dict[int, str], groups: list[dict]) -> list[dict]:
 
 
 def _band_c_transcript_entries(layout: TranscriptExtract, groups: list[dict]) -> tuple[list[dict], list[dict]]:
-    """Match printed passage-before-questions blocks to numbered shared audio."""
+    """Match both passage-first and question-first scripts to shared audio."""
     question_text: dict[int, str] = {}
     following: dict[int, str] = {}
+    grouped_numbers = {number for group in groups for number in group["questions"]}
     for number, segment in layout.questions.items():
         lines = [line.strip() for line in segment.splitlines() if line.strip()]
-        end = next((index for index, line in enumerate(lines) if line.endswith(("？", "?"))), None)
+        endings = [index for index, line in enumerate(lines) if line.endswith(("？", "?"))]
+        # A self-contained track includes its dialogue before the final
+        # question; a shared track prints only the question here.
+        end = (endings[0] if number in grouped_numbers else endings[-1]) if endings else None
+        if number not in grouped_numbers and endings:
+            declaration = re.search(r"回\s*答[\s\S]{0,25}?[一二三四五六七八九十兩\d]+個\s*問\s*題", segment)
+            if declaration:
+                prefix = segment[:declaration.start()]
+                preceding = [index for index, line in enumerate(lines) if line.endswith(("？", "?")) and line in prefix]
+                if preceding:
+                    end = preceding[-1]
         if end is None:
             raise ImportErrorWithContext(f"Band C transcript Q{number} has no identifiable question ending")
         question_text[number] = "\n".join(lines[:end + 1])
-        following[number] = "\n".join(lines[end + 1:]).strip()
+        seen = -1
+        cut = 0
+        for raw_line in segment.splitlines(keepends=True):
+            cut += len(raw_line)
+            if raw_line.strip():
+                seen += 1
+            if seen == end:
+                break
+        following[number] = segment[cut:].strip()
 
     def passage(source: str) -> str:
         lines = [line.strip() for line in source.splitlines() if line.strip()]
@@ -230,8 +262,26 @@ def _band_c_transcript_entries(layout: TranscriptExtract, groups: list[dict]) ->
             raise ImportErrorWithContext(f"Band C transcript has no confidently separable shared passage before Q{first} ({group['id']})")
         declaration = declarations[0]
         body = compact[declaration.end():]
-        if re.search(r"(?:男|女)：|現在請聽", compact[:declaration.start()]) or len(re.findall(r"[\u4e00-\u9fff]", body)) < 30:
-            raise ImportErrorWithContext(f"Band C transcript Q{first}–Q{numbers[-1]} does not print a complete shared passage before the questions; the question-first layout needs a separate verified mapping")
+        if re.search(r"(?:男|女)：|現在請聽", compact[:declaration.start()]):
+            raise ImportErrorWithContext(f"Band C transcript before Q{first} contains an unassigned dialogue")
+        if len(re.findall(r"[\u4e00-\u9fff]", body)) < 30:
+            # In the question-first layout the passage follows the last
+            # printed question. Separate it from the next group preamble at
+            # the paragraph break preceding that group's declaration.
+            tail = following.get(numbers[-1], "")
+            next_declaration = re.search(r"回\s*答[\s\S]{0,25}?[一二三四五六七八九十兩\d]+個\s*問\s*題", tail)
+            if next_declaration:
+                breaks = list(re.finditer(r"\n\s*\n", tail[:next_declaration.start()]))
+                if not breaks:
+                    raise ImportErrorWithContext(f"Band C transcript after Q{numbers[-1]} has no passage boundary")
+                split = breaks[-1].end()
+                following[numbers[-1]] = tail[split:].strip()
+                tail = tail[:split].strip()
+            else:
+                following[numbers[-1]] = ""
+            if len(re.findall(r"[\u4e00-\u9fff]", tail)) < 30:
+                raise ImportErrorWithContext(f"Band C transcript Q{first}–Q{numbers[-1]} has no complete shared passage")
+            shared = (shared + "\n" + tail).strip()
         declared = declaration.group(1)
         count = int(declared) if declared.isdigit() else count_words.get(declared)
         if count != len(numbers):
@@ -245,6 +295,12 @@ def _band_c_transcript_entries(layout: TranscriptExtract, groups: list[dict]) ->
         raise ImportErrorWithContext("Band C transcript has an unassigned passage before Q1")
     for number, tail in following.items():
         if tail and number + 1 not in starts:
+            compact = re.sub(r"\s+", "", tail)
+            if (number + 1 in question_text and number + 1 not in grouped_numbers
+                    and re.search(r"回答(?:下面|以下)?(?:的)?問題", compact)
+                    and len(re.findall(r"[\u4e00-\u9fff]", compact)) >= 30):
+                question_text[number + 1] = passage(tail) + "\n" + question_text[number + 1]
+                continue
             raise ImportErrorWithContext(f"Band C transcript has unmapped passage after Q{number}")
 
     entries = []
@@ -332,14 +388,21 @@ def build_package(source_files: dict[str, dict[str, bytes]], tracks: list[dict[s
     if not image_paper and gap_numbers != list(range(1, len(gap_numbers) + 1)):
         raise ImportErrorWithContext("Reading gap-filling questions are not a consecutive first part")
     if band == "A":
-        boundaries = [1, 16, 31, 36, 41, 46, 51] if series == 3 else [1, 16, 31, 41, 46, 51]
+        pool_starts = sorted(number for number, question in r_data["traditional"].questions.items()
+                       if question["choices"] == list("ABCDEF") and
+                       (number == 1 or r_data["traditional"].questions[number - 1]["stimulusGroupId"] != question["stimulusGroupId"]))
+        if pool_starts not in ([41], [36, 41]):
+            raise ImportErrorWithContext(f"Band A Reading six-choice pool boundaries are ambiguous: {pool_starts}")
+        boundaries = [1, 16, 31, *pool_starts, 46, 51]
     elif band == "Novice":
         boundaries = [1, 16, 26]
     else:
         boundaries = [1, len(gap_numbers) + 1, r_count + 1]
     sections_r = [{"id": f"reading-part-{i + 1}", "title": f"Part {i + 1}", "startQuestion": start, "endQuestion": boundaries[i + 1] - 1} for i, start in enumerate(boundaries[:-1])]
     if band == "A":
-        for section in (sections_r[3:5] if series == 3 else sections_r[3:4]):
+        for section in sections_r:
+            if section["startQuestion"] not in pool_starts:
+                continue
             section["sharedChoicePool"] = list("ABCDEF")
             section["uniqueChoiceUsageWithinSection"] = True
     for script in ("traditional", "simplified"):

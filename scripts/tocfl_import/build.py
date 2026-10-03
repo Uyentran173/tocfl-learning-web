@@ -332,15 +332,16 @@ def build_package(source_files: dict[str, dict[str, bytes]], tracks: list[dict[s
     if not image_paper and gap_numbers != list(range(1, len(gap_numbers) + 1)):
         raise ImportErrorWithContext("Reading gap-filling questions are not a consecutive first part")
     if band == "A":
-        boundaries = [1, 16, 31, 41, 46, 51]
+        boundaries = [1, 16, 31, 36, 41, 46, 51] if series == 3 else [1, 16, 31, 41, 46, 51]
     elif band == "Novice":
         boundaries = [1, 16, 26]
     else:
         boundaries = [1, len(gap_numbers) + 1, r_count + 1]
     sections_r = [{"id": f"reading-part-{i + 1}", "title": f"Part {i + 1}", "startQuestion": start, "endQuestion": boundaries[i + 1] - 1} for i, start in enumerate(boundaries[:-1])]
     if band == "A":
-        sections_r[3]["sharedChoicePool"] = list("ABCDEF")
-        sections_r[3]["uniqueChoiceUsageWithinSection"] = True
+        for section in (sections_r[3:5] if series == 3 else sections_r[3:4]):
+            section["sharedChoicePool"] = list("ABCDEF")
+            section["uniqueChoiceUsageWithinSection"] = True
     for script in ("traditional", "simplified"):
         if {n: q["type"] for n, q in r_data[script].questions.items()} != {n: q["type"] for n, q in r_data["traditional"].questions.items()}:
             raise ImportErrorWithContext("Traditional/Simplified Reading types differ")

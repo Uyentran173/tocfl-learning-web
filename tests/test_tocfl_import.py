@@ -16,7 +16,7 @@ from tocfl_import.build import _band_c_transcript_entries, audio_plan, ensure_ne
 from tocfl_import.archive_audio import _read_rar, _safe_name, inspect_audio_archive  # noqa: E402
 from tocfl_import.discovery import ImportErrorWithContext, _classify_links, official_url  # noqa: E402
 from tocfl_import.validate import validate_package  # noqa: E402
-from tocfl_import.visual_pdf import extract_image_paper  # noqa: E402
+from tocfl_import.visual_pdf import _shared_gap_pool, extract_image_paper  # noqa: E402
 from tocfl_import.pdf import TranscriptExtract, _vector_document_image, extract_answers, extract_transcript_layout, normalize_printed_choice_labels  # noqa: E402
 from bs4 import BeautifulSoup  # noqa: E402
 import fitz  # noqa: E402
@@ -273,8 +273,9 @@ class OfficialAnswerKeyTests(unittest.TestCase):
         self.assertEqual(answers[34], "A")
         self.assertEqual(len(warnings), 1)
         self.assertEqual(extract_answers(source, "listening", band="A", series=1)[34], "A")
+        self.assertEqual(extract_answers(source, "listening", band="A", series=3)[34], "A")
         with self.assertRaisesRegex(ImportErrorWithContext, "missing or duplicate"):
-            extract_answers(source, "listening", band="A", series=3)
+            extract_answers(source, "listening", band="A", series=4)
 
 
 class SafetyTests(unittest.TestCase):
@@ -328,6 +329,47 @@ class SafetyTests(unittest.TestCase):
 
 
 class ImagePaperTests(unittest.TestCase):
+    def test_band_a_two_shared_gap_pools_on_one_page(self):
+        document = fitz.open()
+        page = document.new_page(width=500, height=4000)
+        for number in range(1, 36):
+            y = 40 + (number - 1) * 110
+            for index, line in enumerate((f"{number}. Question", "(A) a", "(B) b", "(C) c")):
+                page.insert_text((50, y + index * 20), line)
+        page = document.new_page(width=500, height=800)
+        y = 40
+        for first in (36, 41):
+            markers = " ".join(f"（{number}）" for number in range(first, first + 5))
+            page.insert_text((50, y), f"Passage {markers}", fontname="china-s")
+            y += 30
+            for letter in "ABCDEF":
+                page.insert_text((50, y), f"({letter}) {first}-{letter}")
+                y += 20
+            y += 30
+        page = document.new_page(width=500, height=800)
+        for index, number in enumerate(range(46, 51)):
+            y = 35 + index * 145
+            page.insert_text((50, y), "（一）", fontname="china-s")
+            page.insert_text((50, y + 20), "Passage")
+            page.insert_text((50, y + 40), f"{number}. Prompt")
+            for choice_index, letter in enumerate("ABCD"):
+                page.insert_text((50, y + 60 + choice_index * 18), f"({letter}) {letter.lower()}")
+        extracted = extract_image_paper(document.tobytes(), "reading", "A", 50)
+        self.assertEqual(len(extracted.questions), 50)
+        self.assertEqual(extracted.questions[36]["stimulusGroupId"], "reading-q36-q40")
+        self.assertEqual(extracted.questions[41]["stimulusGroupId"], "reading-q41-q45")
+        self.assertEqual(extracted.questions[40]["choiceText"][0], "36-A")
+        self.assertEqual(extracted.questions[45]["choiceText"][0], "41-A")
+        self.assertNotEqual(extracted.contexts["reading-q36-q40"], extracted.contexts["reading-q41-q45"])
+
+    def test_shared_gap_pool_rejects_missing_marker_or_option(self):
+        passage = " ".join(f"（{number}）" for number in range(36, 41))
+        choices = "\n".join(f"({letter}) value" for letter in "ABCDEF")
+        with self.assertRaisesRegex(ImportErrorWithContext, "passage gaps"):
+            _shared_gap_pool(passage.replace("（39）", "") + "\n" + choices, 36)
+        with self.assertRaisesRegex(ImportErrorWithContext, "six-choice pool"):
+            _shared_gap_pool(passage + "\n" + choices.replace("(F)", "(E)"), 36)
+
     def test_boxed_document_before_printed_question_is_preserved_without_question_crop(self):
         document = fitz.open()
         page = document.new_page(width=600, height=800)

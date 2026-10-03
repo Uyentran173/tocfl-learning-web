@@ -1,0 +1,468 @@
+{
+  "schemaVersion": "1.0",
+  "testId": "band-b-test-03",
+  "sourceIdentity": "official-tocfl:b:2",
+  "sourcePage": "https://tocfl.edu.tw/tocfl/index.php/exam/test/page/1?pressBtn=(MockText)",
+  "series": 2,
+  "band": "B",
+  "importedAt": "2026-10-03T05:10:47.937622+00:00",
+  "components": {
+    "listening": {
+      "traditional_pdf": "https://tocfl.edu.tw/tocfl/assets/files/mock/ls_mock2_test_BandB_t.pdf",
+      "simplified_pdf": "https://tocfl.edu.tw/tocfl/assets/files/mock/ls_mock2_test_BandB_s.pdf",
+      "audio_archive": "https://tocfl.edu.tw/tocfl/assets/files/mock/mock2_BandB_mp3.rar",
+      "answer_pdf": "https://tocfl.edu.tw/tocfl/assets/files/mock/ls_mock2_test_BandB_answer.pdf",
+      "transcript_pdf": "https://tocfl.edu.tw/tocfl/assets/files/mock/ls_mock2_test_BandB_listen.pdf",
+      "score_pdf": "https://tocfl.edu.tw/tocfl/assets/files/mock/Table2_Listening_B.pdf"
+    },
+    "reading": {
+      "traditional_pdf": "https://tocfl.edu.tw/tocfl/assets/files/mock/rd_mock2_test_BandB_t.pdf",
+      "simplified_pdf": "https://tocfl.edu.tw/tocfl/assets/files/mock/rd_mock2_test_BandB_s.pdf",
+      "answer_pdf": "https://tocfl.edu.tw/tocfl/assets/files/mock/rd_mock2_test_BandB_answer_t.pdf",
+      "score_pdf": "https://tocfl.edu.tw/tocfl/assets/files/mock/Table2_Reading_B.pdf"
+    }
+  },
+  "traditionalPdfUrls": {
+    "listening": "https://tocfl.edu.tw/tocfl/assets/files/mock/ls_mock2_test_BandB_t.pdf",
+    "reading": "https://tocfl.edu.tw/tocfl/assets/files/mock/rd_mock2_test_BandB_t.pdf"
+  },
+  "simplifiedPdfUrls": {
+    "listening": "https://tocfl.edu.tw/tocfl/assets/files/mock/ls_mock2_test_BandB_s.pdf",
+    "reading": "https://tocfl.edu.tw/tocfl/assets/files/mock/rd_mock2_test_BandB_s.pdf"
+  },
+  "answerKeyUrls": {
+    "listening": "https://tocfl.edu.tw/tocfl/assets/files/mock/ls_mock2_test_BandB_answer.pdf",
+    "reading": "https://tocfl.edu.tw/tocfl/assets/files/mock/rd_mock2_test_BandB_answer_t.pdf"
+  },
+  "transcriptUrl": "https://tocfl.edu.tw/tocfl/assets/files/mock/ls_mock2_test_BandB_listen.pdf",
+  "scoreTableUrls": {
+    "listening": "https://tocfl.edu.tw/tocfl/assets/files/mock/Table2_Listening_B.pdf",
+    "reading": "https://tocfl.edu.tw/tocfl/assets/files/mock/Table2_Reading_B.pdf"
+  },
+  "onlineAudioPage": null,
+  "audioSourceUrls": [
+    "https://tocfl.edu.tw/tocfl/assets/files/mock/mock2_BandB_mp3.rar"
+  ],
+  "sha256ByUrl": {
+    "https://tocfl.edu.tw/tocfl/assets/files/mock/mock2_BandB_mp3.rar": "51d05922265ec7a34c9ed767dc3a55ee920284f59b1e8dec025911bf7d8158d4",
+    "https://tocfl.edu.tw/tocfl/assets/files/mock/ls_mock2_test_BandB_t.pdf": "f9398a6c102f3e28b37f8d9ff1d23e75c490468d86331505ac85c7c5895cfa68",
+    "https://tocfl.edu.tw/tocfl/assets/files/mock/ls_mock2_test_BandB_s.pdf": "bf93cb9212a763a1f10b3251e86e4af621297306f98fa507f2bfd3537f680496",
+    "https://tocfl.edu.tw/tocfl/assets/files/mock/ls_mock2_test_BandB_answer.pdf": "f19a9577f447589f9934f2c07cf75b7c6999eed3ddaa446db9d4b2c79de419a6",
+    "https://tocfl.edu.tw/tocfl/assets/files/mock/ls_mock2_test_BandB_listen.pdf": "0c7b4dcad3fb9b78c38d2f3ceb69fb2e4f02d1170740727cf950ad6f584e6e66",
+    "https://tocfl.edu.tw/tocfl/assets/files/mock/Table2_Listening_B.pdf": "d44bc5fec1c5ad6deb1500013a64d77df22c6a92eddb2d1ca7b6db83dd89475b",
+    "https://tocfl.edu.tw/tocfl/assets/files/mock/rd_mock2_test_BandB_t.pdf": "75070aac4f1f2e3ad336bbc47df4454cfd9170d963676409e5f22a1b463b207a",
+    "https://tocfl.edu.tw/tocfl/assets/files/mock/rd_mock2_test_BandB_s.pdf": "ac0cd6f0489e1bb2f2bec5753800b56aae82a92b492611dd8a4dea2c30d5e749",
+    "https://tocfl.edu.tw/tocfl/assets/files/mock/rd_mock2_test_BandB_answer_t.pdf": "3b9bbf24586fa3015c0acba5e0817daad29cf0bccabb3bf39627621d0dcb69a2",
+    "https://tocfl.edu.tw/tocfl/assets/files/mock/Table2_Reading_B.pdf": "1dd9182f66f478af32a3ad5625cf6895d1869f2c9f417a3361fd3aa18f9a7535"
+  },
+  "sourceWarnings": [],
+  "audioArchive": {
+    "url": "https://tocfl.edu.tw/tocfl/assets/files/mock/mock2_BandB_mp3.rar",
+    "format": "zip",
+    "sha256": "51d05922265ec7a34c9ed767dc3a55ee920284f59b1e8dec025911bf7d8158d4",
+    "members": [
+      {
+        "sourcePath": "mock2_BandB_mp3/0-1.mp3",
+        "assetName": "preamble.mp3",
+        "bytes": 77011,
+        "sha256": "dbe2aa4a586d6872109d769afb9906eaba21f8461f2a7cf48fc6d51ccb785190"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/1-00000.mp3",
+        "assetName": "part-1-intro.mp3",
+        "bytes": 2408596,
+        "sha256": "69293bafe5e382ff635c0a444aa543f346e5f304d21797b72e86279f3afc4d19"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/1-01.mp3",
+        "assetName": "q01.mp3",
+        "bytes": 861312,
+        "sha256": "c3daa3c1c19dcd96f94399f3e5023d286889a5a885c8a580b068a9e8b407997a"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/1-02.mp3",
+        "assetName": "q02.mp3",
+        "bytes": 819934,
+        "sha256": "46c66e0604df82ec4fdce36057a7dae20279d07ca72ca2552010f1149dcf5693"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/1-03.mp3",
+        "assetName": "q03.mp3",
+        "bytes": 965383,
+        "sha256": "bbc52b6e1ece7bfe03bc5e2e3f4305b0966fd6949ec0d0b5b639a75ec1526182"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/1-04.mp3",
+        "assetName": "q04.mp3",
+        "bytes": 827457,
+        "sha256": "7c0e91d8991c1c8addacb0293996637f4eb8fa8db9fe5371abf3f4c068d3fe7e"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/1-05.mp3",
+        "assetName": "q05.mp3",
+        "bytes": 946575,
+        "sha256": "5bc718da5eb603951c5bf97cd2d830fc8f086a1fc75c5bffcdbf1ba7a567ad4d"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/1-06.mp3",
+        "assetName": "q06.mp3",
+        "bytes": 819934,
+        "sha256": "23c547707defe58c84f62c90d7dfe66de520cc51673b4d28ec7107fd305d612e"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/1-07.mp3",
+        "assetName": "q07.mp3",
+        "bytes": 956606,
+        "sha256": "97a78bf06a3d7d1b5a4b2d8229dc99afb1353f9dd6ee5b476240fb49c44048aa"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/1-08.mp3",
+        "assetName": "q08.mp3",
+        "bytes": 894539,
+        "sha256": "268b2d0772279a6bc8041f4e359270049a986554a840fbca03828bf09a272569"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/1-09.mp3",
+        "assetName": "q09.mp3",
+        "bytes": 892032,
+        "sha256": "31c9dbf94d53766c4a9a40e5ce9c6f44297591a3d77041ef202403fa8052c680"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/1-10.mp3",
+        "assetName": "q10.mp3",
+        "bytes": 1148450,
+        "sha256": "590adf4698e3a953a07a3ea3e9a707921022ce487e04d278aedf1b722e330f1b"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/1-11.mp3",
+        "assetName": "q11.mp3",
+        "bytes": 1115222,
+        "sha256": "32f145f410b6244fa77d634c50051bd02878be11d4e0c705ed4ba6bdbfb2fe49"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/1-12.mp3",
+        "assetName": "q12.mp3",
+        "bytes": 1149076,
+        "sha256": "6c0080c606af4983da7872620094ace0fbcd974ebde8e23d026323a9b559e867"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/1-13.mp3",
+        "assetName": "q13.mp3",
+        "bytes": 1229952,
+        "sha256": "7a6140d824ba2a0feb068f208c10b37f378da941bf8916e42f717f172fb491ec"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/1-14.mp3",
+        "assetName": "q14.mp3",
+        "bytes": 987953,
+        "sha256": "c171c1459c5f992f94818e19b59b772c062fbdd8d51481aec066dd1fb4f84323"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/1-15.mp3",
+        "assetName": "q15.mp3",
+        "bytes": 1081994,
+        "sha256": "fbf950bdfef66a087d12a7eb284e21e4028c9c6a32a7ea69e735f2de3a912e16"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/1-16.mp3",
+        "assetName": "q16.mp3",
+        "bytes": 1057543,
+        "sha256": "d6d04d82318b7edb54f9d694a6435926fbda4036b8c6bcb78d95e6d40551cefa"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/1-17.mp3",
+        "assetName": "q17.mp3",
+        "bytes": 1271956,
+        "sha256": "caed1449eb261728f990b698e3c285f96a1de6a65a23469029394b8651fa5c96"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/1-18.mp3",
+        "assetName": "q18.mp3",
+        "bytes": 1137792,
+        "sha256": "cff28105913ed8bdaab954360e24ccf16e27b898f58cc0edea679351b412804c"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/1-19.mp3",
+        "assetName": "q19.mp3",
+        "bytes": 1216159,
+        "sha256": "2b86c08a432b987c471156fd9f42e83a915564df08ce11a06762f29527a4842f"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/1-20.mp3",
+        "assetName": "q20.mp3",
+        "bytes": 1457530,
+        "sha256": "97eb651e85234fc9851e5ff6878508151b55e03d9fc0b11b8f2818f21138d376"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/1-21-0.mp3",
+        "assetName": "q21-shared.mp3",
+        "bytes": 799245,
+        "sha256": "791269eba7dad9be0744c60d3f88551f51e6c5c14b430b566ec46c097e9ea96a"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/1-21-1.mp3",
+        "assetName": "q21.mp3",
+        "bytes": 514614,
+        "sha256": "0d8bbba2a2ea655b037771181b12da52236acaea5a4f30b7bb4d024dc285d240"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/1-22.mp3",
+        "assetName": "q22.mp3",
+        "bytes": 657556,
+        "sha256": "9a21e6fb2a16392fbf161d5cf98a79dbcf79acf897760aa646aa4e368feda7b5"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/1-23-0.mp3",
+        "assetName": "q23-shared.mp3",
+        "bytes": 1211770,
+        "sha256": "885b32bef25fbccc4495c852a6feff276d50522a9e3da67e1f5cc8356d7f8286"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/1-23-1.mp3",
+        "assetName": "q23.mp3",
+        "bytes": 648779,
+        "sha256": "f7674f00f17ab5dbf5f986ba7af5d1ccde0ce6a3bd96582f94400120e7f729d8"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/1-24.mp3",
+        "assetName": "q24.mp3",
+        "bytes": 785452,
+        "sha256": "a13d4c8e217d90c7781fc9fc7181b7458f0d1482ce09c468928e941ac8d756a0"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/1-25-0.mp3",
+        "assetName": "q25-shared.mp3",
+        "bytes": 1804227,
+        "sha256": "26411ef79247ef3daaca074f79d18f88397d6c1524fac6b19418d8863bd31b58"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/1-25-1.mp3",
+        "assetName": "q25.mp3",
+        "bytes": 644391,
+        "sha256": "1943e0251074940426806e7eb6286265f1780d1b91b761a6ac8a2b98cae060ae"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/1-26.mp3",
+        "assetName": "q26.mp3",
+        "bytes": 592982,
+        "sha256": "37c57607b4e2c77ac2a1d4987aae97eefcc27a2d951e9a1a6b2782dec831e0a0"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/1-27.mp3",
+        "assetName": "q27.mp3",
+        "bytes": 709592,
+        "sha256": "d410990c4a24c2c0f45a146b5d7e3ed0558a7cabc9b4384628af4bb9fd867692"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/1-28-0.mp3",
+        "assetName": "q28-shared.mp3",
+        "bytes": 2449347,
+        "sha256": "0faa8fbb3b28b4e34228f687d9c7482fb199665f41dce8baae9788d0026497a2"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/1-28-1.mp3",
+        "assetName": "q28.mp3",
+        "bytes": 652541,
+        "sha256": "147d892323e7e9106033c504719f8ef26b5e4327d22a2c201949493f6e3fd367"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/1-29.mp3",
+        "assetName": "q29.mp3",
+        "bytes": 859431,
+        "sha256": "09ffda7066fe919f4ff513b67f3285aff815c2e557600b947c24e7ab67c260c3"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/1-30.mp3",
+        "assetName": "q30.mp3",
+        "bytes": 712727,
+        "sha256": "957a2a931dd56909a301e337a5b13f3aa307dcfff954747b54cd8e360e4c4338"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/2-00000.mp3",
+        "assetName": "part-2-intro.mp3",
+        "bytes": 2492606,
+        "sha256": "b4269fa553644ad023968c485361d0f8f63dccec396fe130499b1bbcd974e7c5"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/2-31-0.mp3",
+        "assetName": "q31-shared.mp3",
+        "bytes": 919617,
+        "sha256": "ef7a407908ce7ea8610b7feab76dd491447e9287417d87d9be582855dd1322b2"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/2-31-1.mp3",
+        "assetName": "q31.mp3",
+        "bytes": 562262,
+        "sha256": "bfe242eef77d884e82071cdaa08d1df3bfa244f873855d22ea18babc2fbb6d4d"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/2-32.mp3",
+        "assetName": "q32.mp3",
+        "bytes": 685769,
+        "sha256": "bf76ac419ed1165245e1bc700aaeebba39aed1c23a852481a9f5d2744a647b84"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/2-33-0.mp3",
+        "assetName": "q33-shared.mp3",
+        "bytes": 834353,
+        "sha256": "6a17d58767f991bab0a3f0fd1a4f01fb4b01c1cb87e9fb77f39c8f0aeb35adf5"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/2-33-1.mp3",
+        "assetName": "q33.mp3",
+        "bytes": 629971,
+        "sha256": "273dc05a8cc62ef7b93928ea2b7d22be951f5d6acc28161c536ff57334b2446e"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/2-34.mp3",
+        "assetName": "q34.mp3",
+        "bytes": 675738,
+        "sha256": "6db8f2b5a81fe3a706e48e475f528f6212cb9d10b2b140fd183bb5c82c17db8b"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/2-35-0.mp3",
+        "assetName": "q35-shared.mp3",
+        "bytes": 616178,
+        "sha256": "49d175e1041aa0751d4620be6c7b758d7272dadc1cf10d66b67ceab1cb7cefb5"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/2-35-1.mp3",
+        "assetName": "q35.mp3",
+        "bytes": 617432,
+        "sha256": "05eecf1fdc94b01e727f3bf3b2045f9b70f9e5543b4ce4fba5c1a97706ce6205"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/2-36.mp3",
+        "assetName": "q36.mp3",
+        "bytes": 578562,
+        "sha256": "e347563e28f6a93144f2b350f9a33cd447918acbe12271794332bd801b761cdb"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/2-37-0.mp3",
+        "assetName": "q37-shared.mp3",
+        "bytes": 947829,
+        "sha256": "403c533657f895a4cd9485ac325a00cc1005899959bec51e4fdd829c79950a71"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/2-37-1.mp3",
+        "assetName": "q37.mp3",
+        "bytes": 656930,
+        "sha256": "d79fed9c2995fa65262295f93fcc05b694c994cd323458c94991f00985fdee91"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/2-38.mp3",
+        "assetName": "q38.mp3",
+        "bytes": 549723,
+        "sha256": "ed7dc204ee3813b0969b09b8413f5bf6e02c407a6bcc617a0df417de935b7759"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/2-39-0.mp3",
+        "assetName": "q39-shared.mp3",
+        "bytes": 812410,
+        "sha256": "ac102c416f141dc55be75b377fa6126c2ab821a9976ada2784a15648f94c4758"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/2-39-1.mp3",
+        "assetName": "q39.mp3",
+        "bytes": 625583,
+        "sha256": "0bc1cb3c0ff2d3b0b95c5e540d71f595ea230a6023dd9a25dff368e2922ac192"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/2-40.mp3",
+        "assetName": "q40.mp3",
+        "bytes": 533423,
+        "sha256": "2de2dc9f1e3418cf28457949b88e92b643f1eb6b2d0cd5428e8952ce01806763"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/2-41-0.mp3",
+        "assetName": "q41-shared.mp3",
+        "bytes": 1423676,
+        "sha256": "a51bbc2d200081db67eeaa775f703e49b45c60dc04f31c75a0cacf2505f05951"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/2-41-1.mp3",
+        "assetName": "q41.mp3",
+        "bytes": 670095,
+        "sha256": "18d37fe9da51fd23e6e0d1d0ef2df47fefda18e0d93f70b20dfeebf38b086cab"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/2-42.mp3",
+        "assetName": "q42.mp3",
+        "bytes": 669468,
+        "sha256": "77cff2f48912009980b9675c89d8815c70fa5c208136fa58fbbd01f442ff3934"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/2-43-0.mp3",
+        "assetName": "q43-shared.mp3",
+        "bytes": 826830,
+        "sha256": "bee42db42cd34d2351c93984aabbd0955f987d91b1aa892eee63dffd8258bada"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/2-43-1.mp3",
+        "assetName": "q43.mp3",
+        "bytes": 641883,
+        "sha256": "20ae5821365e738aaeb755a48f3615a58332de5ad8a39e81cfeee820c9f7c643"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/2-44.mp3",
+        "assetName": "q44.mp3",
+        "bytes": 630598,
+        "sha256": "8623ff8d3a7996540b20ff08c4e063b95a98c1f86c118fcf6289149e9a4e3b32"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/2-45-0.mp3",
+        "assetName": "q45-shared.mp3",
+        "bytes": 2601067,
+        "sha256": "05470cc68758549429be4ad5dbaa175f59fb054da8dbd8381aa236c6764f939a"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/2-45-1.mp3",
+        "assetName": "q45.mp3",
+        "bytes": 713981,
+        "sha256": "d60bf6cf624ed12e6d9d71fe749740cc3b3f719c9a3a153dc4d344efb7f1b5fd"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/2-46.mp3",
+        "assetName": "q46.mp3",
+        "bytes": 735297,
+        "sha256": "55e8cac8afc8ebbbdce3c13cbc20032255eadeb5581d4a0b0b1d9e03342de3e8"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/2-47.mp3",
+        "assetName": "q47.mp3",
+        "bytes": 680753,
+        "sha256": "1771d6678c37b5fcbd62585ce724ac241bb739ea047506f628b0b0231514bd12"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/2-48-0.mp3",
+        "assetName": "q48-shared.mp3",
+        "bytes": 2350291,
+        "sha256": "09d3ec8720004c57d29c963f4ca66af3fd30936cfd5902b131a5a228c4a5b89f"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/2-48-1.mp3",
+        "assetName": "q48.mp3",
+        "bytes": 706458,
+        "sha256": "f6c54da691bffe43765aa6a150c67b976aa167a0a19337c387e36a20fe74e0cd"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/2-49.mp3",
+        "assetName": "q49.mp3",
+        "bytes": 683888,
+        "sha256": "9572ef193a256efb5dccb9c3b607a4e7f8c11da22f5ca87bf8b9ec100f66f3b5"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/2-50.mp3",
+        "assetName": "q50.mp3",
+        "bytes": 850654,
+        "sha256": "14d943d16d6c06dac0218b49162c44d32b7ddcbdc84eb1e17aacedc497b15da4"
+      },
+      {
+        "sourcePath": "mock2_BandB_mp3/3-00000.mp3",
+        "assetName": "ending.mp3",
+        "bytes": 87669,
+        "sha256": "2409cc7c7d8e12b258d3187734a6e0803dd1f1f3e34d0affca048bb36ce66bd5"
+      }
+    ]
+  }
+}

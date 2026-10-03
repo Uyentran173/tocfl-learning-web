@@ -1,5 +1,5 @@
 import type { MockTest, ScriptVariant } from "./tests";
-import type { ReadingReview, ReviewContent } from "./review-content";
+import type { ReviewContent } from "./review-content";
 import bandBPackage from "@/data/structured-tests/band-b-test-01.json";
 
 type ReadingDetail = {
@@ -173,7 +173,7 @@ const bandADetails: Record<number, ReadingDetail> = {
   31: { question: "Cô bé đeo kính đang đọc sách.", explanation: "Kính là vật đeo trên người nên dùng 戴, không dùng 穿 (mặc quần áo) hay 帶 (mang theo).", evidence: "眼鏡", evidenceContext: { traditional: "＿＿＿著眼鏡的小女孩在看書。", simplified: "＿＿＿着眼镜的小女孩在看书。" } },
   32: { question: "Cô ấy vừa đọc sách vừa dùng đũa ăn mì.", explanation: "Dùng dụng cụ để làm việc gì đó diễn đạt bằng 用; ở đây là dùng đũa ăn mì.", evidence: "筷子吃麵", evidenceContext: { traditional: "她一邊看書，一邊＿＿＿筷子吃麵。", simplified: "她一边看书，一边＿＿＿筷子吃面。" } },
   33: { question: "Bên cạnh cô bé có một chú chó.", explanation: "Chú chó ở ngay cạnh cô bé, nên điền 旁邊 (bên cạnh)." },
-  34: { question: "Chú chó ấy đang ngủ.", explanation: "在 đứng trước động từ để chỉ hành động đang diễn ra: 在睡覺." },
+  34: { question: "Chú chó ấy đang ngủ.", explanation: "在 đứng trước động từ để chỉ hành động đang diễn ra: 在睡覺.", evidence: "睡覺", evidenceContext: { traditional: "那隻狗＿＿＿睡覺。", simplified: "那只狗＿＿＿睡觉。" } },
   35: { question: "Cô bé và chú chó là bạn tốt.", explanation: "跟 nối hai đối tượng có quan hệ với nhau: cô bé và chú chó.", evidence: "小狗是好朋友", evidenceContext: { traditional: "小女孩＿＿＿小狗是好朋友。", simplified: "小女孩＿＿＿小狗是好朋友。" } },
   36: { question: "Ngày 5 tháng 9 là sinh nhật của cô bé.", explanation: "Bánh kem và quà cho thấy đây là 生日 (sinh nhật), không phải 星期日 (Chủ nhật)." },
   37: { question: "Mọi người đều giúp cô bé tổ chức mừng sinh nhật.", explanation: "幫 + người + hành động diễn đạt việc giúp ai làm việc gì.", evidence: "她慶祝", evidenceContext: { traditional: "大家都＿＿＿她慶祝。", simplified: "大家都＿＿＿她庆祝。" } },
@@ -195,6 +195,42 @@ const bandADetails: Record<number, ReadingDetail> = {
 const bandAPassageTemplate: Record<ScriptVariant, string> = {
   traditional: "昨天晚上我覺得很不舒服，【41】，所以很早就睡覺了。今天早上起來，【42】。我去看病，醫生說我感冒了，給了我一些藥，【43】要多休息，多喝水，才會快點好。這幾天的天氣一會兒熱，一會兒冷，【44】。我要【45】，不要再感冒了。",
   simplified: "昨天晚上我觉得很不舒服，【41】，所以很早就睡觉了。今天早上起来，【42】。我去看病，医生说我感冒了，给了我一些药，【43】要多休息，多喝水，才会快点好。这几天的天气一会儿热，一会儿冷，【44】。我要【45】，不要再感冒了。",
+};
+
+const bandAQuestionChinese: Record<ScriptVariant, Record<number, string>> = {
+  traditional: {
+    31: "＿＿＿著眼鏡的小女孩在看書。", 32: "她一邊看書，一邊＿＿＿筷子吃麵。", 33: "那個小女孩＿＿＿有一隻狗。",
+    34: "那隻狗＿＿＿睡覺。", 35: "小女孩＿＿＿小狗是好朋友。", 36: "九月五日是小女孩的＿＿＿。",
+    37: "大家都＿＿＿她慶祝。", 38: "她＿＿＿到很多禮物。", 39: "所以，她今天非常＿＿＿。",
+    40: "她希望明年能＿＿＿德國去玩。",
+    46: "這篇文章說了什麼內容？", 47: "在改善健康方面，下面哪一個是作者的建議？",
+    48: "這個故事告訴了我們什麼事？", 49: "這段話說了下面哪件事？",
+    50: "作者對在電影院裡吃東西的行為怎麼看？",
+  },
+  simplified: {
+    31: "＿＿＿着眼镜的小女孩在看书。", 32: "她一边看书，一边＿＿＿筷子吃面。", 33: "那个小女孩＿＿＿有一只狗。",
+    34: "那只狗＿＿＿睡觉。", 35: "小女孩＿＿＿小狗是好朋友。", 36: "九月五日是小女孩的＿＿＿。",
+    37: "大家都＿＿＿她庆祝。", 38: "她＿＿＿到很多礼物。", 39: "所以，她今天非常＿＿＿。",
+    40: "她希望明年能＿＿＿德国去玩。",
+    46: "这篇文章说了什么内容？", 47: "在改善健康方面，下面哪一个是作者的建议？",
+    48: "这个故事告诉了我们什么事？", 49: "这段话说了下面哪件事？",
+    50: "作者对在电影院里吃东西的行为怎么看？",
+  },
+};
+
+const bandACompletedShortPassages: Record<ScriptVariant, Record<number, string>> = {
+  traditional: {
+    35: "戴著眼鏡的小女孩在看書。她一邊看書，一邊用筷子吃麵。那個小女孩旁邊有一隻狗。那隻狗在睡覺。小女孩跟小狗是好朋友。",
+    40: "九月五日是小女孩的生日。大家都幫她慶祝。她收到很多禮物。所以，她今天非常高興。她希望明年能到德國去玩。",
+  },
+  simplified: {
+    35: "戴着眼镜的小女孩在看书。她一边看书，一边用筷子吃面。那个小女孩旁边有一只狗。那只狗在睡觉。小女孩跟小狗是好朋友。",
+    40: "九月五日是小女孩的生日。大家都帮她庆祝。她收到很多礼物。所以，她今天非常高兴。她希望明年能到德国去玩。",
+  },
+};
+const bandACompletedShortPassagesVi: Record<number, string> = {
+  35: "Cô bé đeo kính đang đọc sách. Cô vừa đọc vừa dùng đũa ăn mì. Bên cạnh cô có một chú chó đang ngủ. Cô bé và chú chó là bạn tốt.",
+  40: "Ngày 5 tháng 9 là sinh nhật cô bé. Mọi người đều giúp cô tổ chức mừng sinh nhật. Cô nhận được nhiều quà nên hôm nay rất vui. Cô mong năm sau có thể đến Đức chơi.",
 };
 
 function completedBandAPassage(test: MockTest): string | undefined {
@@ -298,7 +334,7 @@ export function enrichReadingReview(result: ReviewContent, test: MockTest): Revi
     const detail = details[question.number];
     const existing = result.reading[question.id];
     if (!existing && !detail && !options[question.number]) continue;
-    const passageVietnamese = detail?.passage ?? (test.id === "band-b-test-01" && question.number >= 16 ? bandBPassages[bandBPassageNumber(question.number)] : test.id === "band-a-test-01" && question.number >= 46 ? existing?.vietnamese.split(" Đáp án:")[0] : undefined);
+    const passageVietnamese = detail?.passage ?? (test.id === "band-b-test-01" && question.number >= 16 ? bandBPassages[bandBPassageNumber(question.number)] : test.id === "band-a-test-01" && question.number >= 46 ? existing?.vietnamese.split(" Đáp án:")[0] : test.id === "band-a-test-01" ? bandACompletedShortPassagesVi[question.number] : undefined);
     const script = test.script ?? "traditional";
     const evidenceText = detail?.evidenceContext?.[script];
     const traditionalContext = detail?.evidenceContext?.traditional;
@@ -308,7 +344,12 @@ export function enrichReadingReview(result: ReviewContent, test: MockTest): Revi
     result.reading[question.id] = {
       kind: existing?.kind ?? "question", vietnamese: existing?.vietnamese ?? "",
       ...(detail ? { passageVietnamese, questionVietnamese: detail.question, optionVietnamese: detail.options ?? options[question.number], explanation: detail.explanation, ...sourceEvidence, note: detail.note } : { passageVietnamese, optionVietnamese: options[question.number] }),
-      ...(test.id === "band-a-test-01" && question.number === 45 ? { completedPassageChinese: completedBandAPassage(test) } : {}),
+      ...(test.id === "band-a-test-01" ? {
+        questionChinese: bandAQuestionChinese[script][question.number],
+        completedPassageChinese: question.number === 45 ? completedBandAPassage(test) : bandACompletedShortPassages[script][question.number],
+        note: detail?.note ?? ([31,32,33,34,36,37,38,39].includes(question.number) ?
+          `Bản dịch đầy đủ của đoạn văn được hiển thị ở câu cuối của phần này.${[33,36,39].includes(question.number) ? " Dấu hiệu xác định đáp án nằm trong hình minh họa, không có cụm chữ Trung tương ứng." : ""}` : undefined),
+      } : {}),
     };
   }
   return result;

@@ -37,6 +37,104 @@ type BandCReviewFile = {
   reading: Record<string, BandCReviewEntry>;
 };
 
+type CompleteBandAEntry = {
+  number: number;
+  correctAnswer: string;
+  transcriptChinese?: { traditional: string; simplified: string };
+  transcriptVi?: string;
+  questionChinese?: { traditional: string; simplified: string };
+  questionVi: string;
+  optionChinese?: { traditional: string[]; simplified: string[] };
+  optionTranslations: string[];
+  passageChinese?: { traditional: string; simplified: string } | null;
+  passageVi?: string;
+  evidence?: { traditional: string; simplified: string } | null;
+  explanationVi: string;
+  note?: string;
+  sourceLimitation?: string;
+};
+type CompleteBandAReviewFile = {
+  testId: string;
+  listening: Record<string, CompleteBandAEntry>;
+  reading: Record<string, CompleteBandAEntry>;
+};
+
+function completeBandAReadingPassage(test: MockTest, question: MockTest["questions"][number], review: CompleteBandAReviewFile): string | undefined {
+  const number = question.number ?? 0;
+  const script = test.script === "simplified" ? "simplified" : "traditional";
+  if (number >= 41 && number <= 45 && question.passage) {
+    let passage = (review.reading[question.id]?.passageChinese?.[script] || question.passage).replace(/\s+/g, "");
+    for (let blank = 41; blank <= 45; blank++) {
+      const item = test.questions.find((candidate) => candidate.section === "reading" && candidate.number === blank);
+      const answer = item && (review.reading[item.id]?.optionChinese?.[script]?.[item.correctAnswer] || item.choices[item.correctAnswer]);
+      if (!answer) return undefined;
+      passage = passage.replace(`（${blank}）`, answer);
+    }
+    return passage;
+  }
+  if (number === 35 || number === 40) {
+    const first = number - 4;
+    const lines = [];
+    for (let blank = first; blank <= number; blank++) {
+      const item = test.questions.find((candidate) => candidate.section === "reading" && candidate.number === blank);
+      const answer = item && (review.reading[item.id]?.optionChinese?.[script]?.[item.correctAnswer] || item.choices[item.correctAnswer]);
+      const source = item && (review.reading[item.id]?.questionChinese?.[script] || item.question);
+      if (!source || !answer) return undefined;
+      lines.push(source.replace(/\s{2,}/g, answer));
+    }
+    return lines.join("");
+  }
+  return undefined;
+}
+
+function getCompleteBandAReviewContent(test: MockTest): ReviewContent {
+  const result: ReviewContent = { listening: {}, reading: {} };
+  const folder = join(process.cwd(), "data", "test-supplements", test.id);
+  const review = JSON.parse(readFileSync(join(folder, test.id === "band-a-test-01" ? "review-complete-vi.json" : "review-vi.json"), "utf8")) as CompleteBandAReviewFile;
+  if (review.testId !== test.id) return result;
+  const script = test.script === "simplified" ? "simplified" : "traditional";
+  for (const question of test.questions) {
+    const entry = review[question.section][question.id];
+    if (!entry || entry.number !== question.number || entry.correctAnswer !== question.choiceIds?.[question.correctAnswer] ||
+        !entry.explanationVi?.trim() || (!entry.questionVi && Boolean(question.question)) ||
+        (entry.optionTranslations.length !== question.choices.length && question.choices.some(Boolean))) continue;
+    if (question.section === "listening") {
+      const chinese = entry.transcriptChinese?.[script];
+      const evidence = entry.evidence?.[script];
+      if (!chinese || !entry.transcriptVi || (evidence ? !chinese.includes(evidence) : !entry.sourceLimitation)) continue;
+      result.listening[question.id] = {
+        lines: [{ chinese, vietnamese: entry.transcriptVi, highlight: evidence }],
+        question: entry.questionChinese?.[script] ? { chinese: entry.questionChinese[script], vietnamese: entry.questionVi } : undefined,
+        options: entry.optionTranslations.map((vietnamese, index) => ({
+          label: question.choiceIds?.[index], chinese: entry.optionChinese?.[script]?.[index] ?? "", vietnamese,
+          imageUrl: question.choiceImages?.[index] ?? undefined,
+        })),
+        explanation: entry.explanationVi,
+        note: entry.sourceLimitation,
+      };
+      continue;
+    }
+    const chinese = (entry.passageChinese?.[script] || question.passage || question.question || entry.questionChinese?.[script] || "").replace(/\s+/g, "");
+    const evidence = entry.evidence?.[script];
+    if (evidence && !chinese.includes(evidence)) continue;
+    result.reading[question.id] = {
+      kind: question.number && question.number <= 15 ? "question" : "answer",
+      vietnamese: entry.questionVi,
+      questionChinese: entry.questionChinese?.[script] || question.question || undefined,
+      questionVietnamese: entry.questionVi,
+      passageVietnamese: entry.passageVi,
+      completedPassageChinese: [35, 40, 45].includes(question.number ?? 0) ? completeBandAReadingPassage(test, question, review) : undefined,
+      optionChinese: entry.optionChinese?.[script] ?? question.choices,
+      optionVietnamese: entry.optionTranslations,
+      explanation: entry.explanationVi,
+      evidenceText: evidence ? chinese : undefined,
+      evidencePhrase: evidence ?? undefined,
+      note: entry.note || entry.sourceLimitation,
+    };
+  }
+  return result;
+}
+
 function bandCTranscriptBody(source: string): string {
   const lines = source.split("\n");
   let first = lines.findIndex((line) => /^[男女]：/.test(line));
@@ -210,9 +308,14 @@ function getBandAReviewContent(test: MockTest): ReviewContent {
 }
 
 export function getReviewContent(test: MockTest) {
+  if (test.id === "band-a-test-02") return getCompleteBandAReviewContent(test);
   if (test.id === "band-c-test-01") return getBandCReviewContent(test);
   if (test.id === "band-b-test-01") return enrichReadingReview(getBandBReviewContent(test), test);
-  if (test.id === "band-a-test-01") return enrichReadingReview(getBandAReviewContent(test), test);
+  if (test.id === "band-a-test-01") {
+    const base = enrichReadingReview(getBandAReviewContent(test), test);
+    const complete = getCompleteBandAReviewContent(test);
+    return { listening: { ...base.listening, ...complete.listening }, reading: { ...base.reading, ...complete.reading } };
+  }
   if (test.id !== "novice-reading-2018-11") {
     const result: ReviewContent = { listening: {}, reading: {} };
     try {

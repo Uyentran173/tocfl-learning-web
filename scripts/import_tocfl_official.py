@@ -79,14 +79,18 @@ def main() -> int:
                 print(f"  {key}: {url}")
         archive = None
         archive_url = sources.components.get("listening", {}).get("audio_archive")
+        transcript_body = None
         if "listening" not in sources.components:
             tracks = []
         elif sources.components["listening"].get("online_audio"):
             tracks = discover_audio_tracks(session, sources.components["listening"]["online_audio"])
         elif archive_url:
+            transcript_body = fetch(session, sources.components["listening"]["transcript_pdf"]).content
+            if not transcript_body.startswith(b"%PDF-"):
+                raise ImportErrorWithContext("Official transcript is not a PDF")
             archive_body = download_audio_archive(session, archive_url)
             archive_hash = hashlib.sha256(archive_body).hexdigest()
-            archive = inspect_audio_archive(archive_body, archive_url, 25 if args.band == "Novice" else 50)
+            archive = inspect_audio_archive(archive_body, archive_url, 25 if args.band == "Novice" else 50, transcript_pdf=transcript_body)
             tracks = archive.tracks
             print(f"Official audio archive: {archive.format.upper()} content, {len(tracks)} verified MP3 tracks")
         else:
@@ -112,7 +116,7 @@ def main() -> int:
                 files[skill] = {}
                 for key, url in links.items():
                     if key.endswith("_pdf"):
-                        body = fetch(session, url).content
+                        body = transcript_body if skill == "listening" and key == "transcript_pdf" and transcript_body is not None else fetch(session, url).content
                         if not body.startswith(b"%PDF-"):
                             raise ImportErrorWithContext(f"Official file is not a PDF: {url}")
                         files[skill][key] = body

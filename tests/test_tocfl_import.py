@@ -5,6 +5,7 @@ import tempfile
 import unittest
 import zipfile
 import stat
+from types import SimpleNamespace
 from io import BytesIO
 from pathlib import Path
 from unittest.mock import patch
@@ -12,9 +13,9 @@ from unittest.mock import patch
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from tocfl_import.build import _band_c_transcript_entries, audio_plan, ensure_new_source, existing_source_id, matching_legacy_test, next_test_id  # noqa: E402
-from tocfl_import.archive_audio import _read_rar, _safe_name, inspect_audio_archive  # noqa: E402
-from tocfl_import.discovery import ImportErrorWithContext, _classify_links, official_url  # noqa: E402
+from tocfl_import.build import _band_c_transcript_entries, _transcript_entries, audio_plan, ensure_new_source, existing_source_id, matching_legacy_test, next_test_id  # noqa: E402
+from tocfl_import.archive_audio import _read_rar, _safe_name, download_audio_archive, inspect_audio_archive  # noqa: E402
+from tocfl_import.discovery import ImportErrorWithContext, _classify_links, available_tests, official_url  # noqa: E402
 from tocfl_import.validate import validate_package  # noqa: E402
 from tocfl_import.visual_pdf import _shared_gap_pool, extract_image_paper  # noqa: E402
 from tocfl_import.pdf import TranscriptExtract, _vector_document_image, extract_answers, extract_transcript_layout, normalize_printed_choice_labels  # noqa: E402
@@ -75,6 +76,25 @@ class DiscoveryTests(unittest.TestCase):
                 return response
         found = _classify_links(row, "https://tocfl.edu.tw", "reading", "A", 5, Session())
         self.assertEqual(found["traditional_pdf"], "https://tocfl.edu.tw/one.pdf")
+
+    def test_available_tests_requires_both_skills_and_does_not_invent_series(self):
+        html = "".join(f"<div class='card'><button>{skill}(第{series}輯)</button><table><thead>Band A</thead><tbody><tr><td>中越版</td></tr></tbody></table></div>"
+                       for skill in ("聽力測驗", "閱讀測驗") for series in ("一", "三"))
+        html += "<div class='card'><button>聽力測驗(第十輯)</button><table><thead>Band B</thead><tbody><tr><td>源檔</td></tr></tbody></table></div>"
+        with patch("tocfl_import.discovery.fetch", return_value=SimpleNamespace(text=html)):
+            self.assertEqual(available_tests(None), [("A", 1), ("A", 3), ("B", 10)])
+
+    def test_audit_continues_after_one_unsupported_test(self):
+        import audit_tocfl_official
+        from contextlib import redirect_stdout
+        from io import StringIO
+        results = [{"band": "A", "series": 1, "archiveFormat": "ZIP", "audioLayout": "numbered", "transcriptFormat": "numbered", "status": "UNSUPPORTED", "reason": "bad archive"},
+                   {"band": "B", "series": 1, "archiveFormat": "RAR", "audioLayout": "numbered", "transcriptFormat": "numbered", "status": "PASS", "reason": ""}]
+        output = StringIO()
+        with patch.object(sys, "argv", ["audit"]), patch.object(audit_tocfl_official, "available_tests", return_value=[("A", 1), ("B", 1)]), patch.object(audit_tocfl_official, "audit_one", side_effect=results) as scan, redirect_stdout(output):
+            self.assertEqual(audit_tocfl_official.main(), 1)
+        self.assertEqual(scan.call_count, 2)
+        self.assertIn("1/2 PASS", output.getvalue())
 
 
 class AudioTests(unittest.TestCase):
@@ -204,6 +224,64 @@ class AudioTests(unittest.TestCase):
         with self.assertRaisesRegex(ImportErrorWithContext, "Unsafe archive member"):
             inspect_audio_archive(self.archive("../1-01.mp3"), "https://tocfl.edu.tw/legacy.zip", 1)
 
+    def test_only_known_os_metadata_is_ignored_after_safety_checks(self):
+        members = ("wrapper/", "wrapper/desktop.ini", "wrapper/THUMBS.DB", "wrapper/.DS_Store",
+                   "__MACOSX/", "__MACOSX/._track.mp3", "wrapper/._track.mp3",
+                   "wrapper/1-00000.mp3", "wrapper/1-01.mp3")
+        result = inspect_audio_archive(self.archive(*members), "https://tocfl.edu.tw/archive.rar", 1)
+        self.assertEqual(set(result.files), {"part-1-intro.mp3", "q01.mp3"})
+        with self.assertRaisesRegex(ImportErrorWithContext, "Unexpected non-audio"):
+            inspect_audio_archive(self.archive(*members, "wrapper/notes.txt"), "https://tocfl.edu.tw/archive.rar", 1)
+        with self.assertRaisesRegex(ImportErrorWithContext, "Unsafe archive member"):
+            inspect_audio_archive(self.archive(*members, "../desktop.ini"), "https://tocfl.edu.tw/archive.rar", 1)
+        output = BytesIO()
+        with zipfile.ZipFile(output, "w") as archive:
+            info = zipfile.ZipInfo("wrapper/desktop.ini")
+            info.create_system = 3
+            info.external_attr = (stat.S_IFLNK | 0o777) << 16
+            archive.writestr(info, b"target")
+        with self.assertRaisesRegex(ImportErrorWithContext, "symlink/encrypted"):
+            inspect_audio_archive(output.getvalue(), "https://tocfl.edu.tw/archive.rar", 1)
+
+    def test_cp950_filenames_and_sequential_shared_tracks(self):
+        data = self.archive("wrapper/__/1-00000.mp3", "wrapper/__/1-01.mp3", "wrapper/__/1-02.mp3",
+                            "wrapper/__/1-03.mp3", "wrapper/__/2-00000.mp3")
+        data = data.replace(b"__", "中".encode("cp950"))
+        with self.assertRaisesRegex(ImportErrorWithContext, "require the official transcript"):
+            inspect_audio_archive(data, "https://tocfl.edu.tw/audio.rar", 2)
+        layout = TranscriptExtract("請聽這段對話，然後回答兩個問題。", {1: "第一題？", 2: "第二題？"})
+        with patch("tocfl_import.pdf.extract_transcript_layout", return_value=layout):
+            result = inspect_audio_archive(data, "https://tocfl.edu.tw/audio.rar", 2, transcript_pdf=b"PDF")
+        self.assertEqual([track["label"] for track in result.tracks], ["第一部分說明", "題幹", "1", "2", ""])
+        self.assertIn("中", result.members[1]["sourcePath"])
+
+    def test_interrupted_archive_download_resumes_at_verified_offset(self):
+        from requests.exceptions import ChunkedEncodingError
+        payload = b"Rar!" + bytes(200)
+        class Response:
+            def __init__(self, status, headers, chunks):
+                self.url = "https://tocfl.edu.tw/archive.rar"
+                self.status_code = status
+                self.headers = headers
+                self.chunks = chunks
+            def __enter__(self): return self
+            def __exit__(self, *_): pass
+            def raise_for_status(self): pass
+            def iter_content(self, _):
+                for chunk in self.chunks:
+                    if isinstance(chunk, Exception): raise chunk
+                    yield chunk
+        class Session:
+            def __init__(self): self.calls = []
+            def get(self, url, **kwargs):
+                self.calls.append(kwargs["headers"])
+                return (Response(200, {"Content-Length": str(len(payload))}, [payload[:100], ChunkedEncodingError()])
+                        if len(self.calls) == 1 else Response(206, {"Content-Range": f"bytes 100-{len(payload)-1}/{len(payload)}"}, [payload[100:]]))
+        session = Session()
+        with patch("tocfl_import.archive_audio.time.sleep"):
+            self.assertEqual(download_audio_archive(session, "https://tocfl.edu.tw/archive.rar"), payload)
+        self.assertEqual(session.calls[1]["Range"], "bytes=100-")
+
     def test_shared_audio_only_once(self):
         def track(label, number):
             return {"label": label, "url": f"https://eapi.sc-top.org.tw/video/B5/{number:03d}.mp3"}
@@ -220,6 +298,12 @@ class AudioTests(unittest.TestCase):
 
 
 class BandCTranscriptTests(unittest.TestCase):
+    def test_single_question_passage_after_previous_question_is_reassigned(self):
+        entries = _transcript_entries({1: "前一題是什麼？\n\n請聽這一段話，然後回答下面的問題。\n這是完整的下一題段落。",
+                                       2: "下一題是什麼？"}, [])
+        self.assertNotIn("完整的下一題段落", entries[0]["traditional"])
+        self.assertIn("完整的下一題段落", entries[1]["traditional"])
+
     def test_pdf_extraction_keeps_passage_before_q1(self):
         document = fitz.open()
         page = document.new_page()
@@ -249,13 +333,14 @@ class BandCTranscriptTests(unittest.TestCase):
         with self.assertRaisesRegex(ImportErrorWithContext, "declares.*but shared audio"):
             _band_c_transcript_entries(layout, [{"id": "wrong", "questions": [1, 2, 3]}, {"id": "other", "questions": [4]}])
 
-    def test_question_first_passage_is_not_silently_assigned_to_next_group(self):
+    def test_question_first_passage_is_assigned_to_its_printed_group(self):
         layout = TranscriptExtract("請聽這段對話，然後回答下面的兩個問題。", {
             1: "這位先生說了什麼？",
             2: "這位小姐說了什麼？\n現在請聽對話。\n男：這段完整對話印在兩個問題後面，不能當成下一組的內容。",
         })
-        with self.assertRaisesRegex(ImportErrorWithContext, "question-first layout needs a separate verified mapping"):
-            _band_c_transcript_entries(layout, [{"id": "ag-q01-q02", "questions": [1, 2]}])
+        entries, shared = _band_c_transcript_entries(layout, [{"id": "ag-q01-q02", "questions": [1, 2]}])
+        self.assertIn("完整對話印在兩個問題後面", shared[0]["traditional"])
+        self.assertEqual(entries[1]["questionTraditional"], "這位小姐說了什麼？")
 
 
 class OfficialAnswerKeyTests(unittest.TestCase):
@@ -274,8 +359,14 @@ class OfficialAnswerKeyTests(unittest.TestCase):
         self.assertEqual(len(warnings), 1)
         self.assertEqual(extract_answers(source, "listening", band="A", series=1)[34], "A")
         self.assertEqual(extract_answers(source, "listening", band="A", series=3)[34], "A")
-        with self.assertRaisesRegex(ImportErrorWithContext, "missing or duplicate"):
-            extract_answers(source, "listening", band="A", series=4)
+        self.assertEqual(extract_answers(source, "listening", band="A", series=4)[34], "A")
+        wrong = fitz.open()
+        page = wrong.new_page(width=300, height=3000)
+        for number in range(1, 51):
+            printed = 4 if number == 34 else number
+            page.insert_text((50, number * 50), str(printed))
+            page.insert_text((50, number * 50 + 15), "A")
+        self.assertEqual(extract_answers(wrong.tobytes(), "listening", band="A", series=4)[34], "A")
 
 
 class SafetyTests(unittest.TestCase):

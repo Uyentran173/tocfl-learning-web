@@ -54,18 +54,45 @@ def validate_package(package: dict, supplement: dict, asset_root: Path, check_au
     listening = components["listening"]
     plan = listening["audio"]["examPlaybackPlan"]
     ordered = []
+    plan_paths = []
+    question_audio = {}
+    planned_groups = {}
     for step in plan:
         if step["type"] == "question":
             ordered.append(step["questionId"])
+            question_audio[step["questionId"]] = (None, step["path"])
         elif step["type"] == "question_group":
             if len(step["questionTracks"]) < 2:
                 raise ImportErrorWithContext(f"Shared-audio group {step['id']} has fewer than two questions")
             ordered.extend(track["questionId"] for track in step["questionTracks"])
+            planned_groups[step["id"]] = step
+            for track in step["questionTracks"]:
+                question_audio[track["questionId"]] = (step["id"], track["path"])
         for url in _plan_paths(step):
+            plan_paths.append(url)
             if check_audio_files and not _asset_exists(url, asset_root, exam["id"]):
                 raise ImportErrorWithContext(f"Missing official audio: {url}")
     if ordered != [q["id"] for q in listening["questions"]]:
         raise ImportErrorWithContext("Listening playback order does not match question order")
+    if len(plan_paths) != len(set(plan_paths)):
+        raise ImportErrorWithContext("Listening playback plan repeats an audio track")
+    groups = listening["audio"].get("groups", [])
+    if set(planned_groups) != {group["id"] for group in groups} or len(groups) != len(planned_groups):
+        raise ImportErrorWithContext("Listening shared-audio groups do not match playback plan")
+    for group in groups:
+        step = planned_groups[group["id"]]
+        if group["sharedAudio"] != step["sharedAudio"] or group["questions"] != [int(track["questionId"].split("-q")[-1]) for track in step["questionTracks"]]:
+            raise ImportErrorWithContext(f"Listening group {group['id']} has incorrect question/audio order")
+        if group["questionTracks"] != {str(int(track["questionId"].split("-q")[-1])): track["path"] for track in step["questionTracks"]}:
+            raise ImportErrorWithContext(f"Listening group {group['id']} has mismatched question tracks")
+    for question in listening["questions"]:
+        group_id, path = question_audio[question["id"]]
+        audio = question.get("audio", {})
+        if group_id:
+            if audio.get("mode") != "shared_group" or audio.get("groupId") != group_id or audio.get("questionTrack") != path or audio.get("reviewSequence") != [planned_groups[group_id]["sharedAudio"], path]:
+                raise ImportErrorWithContext(f"Listening {question['id']} has incorrect shared audio mapping")
+        elif audio.get("mode") != "self_contained" or audio.get("path") != path or audio.get("reviewSequence") != [path]:
+            raise ImportErrorWithContext(f"Listening {question['id']} has incorrect audio mapping")
     if {entry["questionId"] for entry in supplement["questions"]} != {q["id"] for q in listening["questions"]}:
         raise ImportErrorWithContext("Transcript mapping does not cover every Listening question")
     if len(supplement["questions"]) != len(listening["questions"]):

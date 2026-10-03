@@ -17,7 +17,7 @@ def clean(value: str) -> str:
     return re.sub(r"[ \t]+", " ", value).strip()
 
 
-def extract_answers(data: bytes, skill: str | None = None) -> dict[int, str]:
+def extract_answers(data: bytes, skill: str | None = None, *, band: str | None = None, series: int | None = None, warnings: list[str] | None = None) -> dict[int, str]:
     text = "\n".join(page.get_text() for page in fitz.open(stream=data, filetype="pdf"))
     if "TOCFL-Novice Listening" in text and "TOCFL-Novice Reading" in text:
         if skill not in {"listening", "reading"}:
@@ -26,6 +26,15 @@ def extract_answers(data: bytes, skill: str | None = None) -> dict[int, str]:
         stop = text.find("TOCFL-Novice Reading", start + 1) if skill == "listening" else -1
         text = text[start:stop if stop >= 0 else None]
     pairs = re.findall(r"(?m)^\s*(\d{1,2})\s*\n\s*([A-F])\s*$", text)
+    # The official Band A Series 1–2 Listening keys print 44 at position 34,
+    # between 33 and 35, and print the real 44 again later. Keep its answer
+    # letter; correct only this fully verified numbering typo.
+    if band == "A" and series in {1, 2} and skill == "listening" and len(pairs) == 50:
+        numbers = [int(number) for number, _ in pairs]
+        if numbers[33] == 44 and all(number == index for index, number in enumerate(numbers, 1) if index != 34):
+            pairs[33] = ("34", pairs[33][1])
+            if warnings is not None:
+                warnings.append("Official Listening answer key prints Q44 between Q33 and Q35; its answer is mapped by verified row position to Q34")
     answers = {int(number): answer for number, answer in pairs}
     if len(answers) != len(pairs) or sorted(answers) != list(range(1, len(answers) + 1)):
         raise ImportErrorWithContext("Answer key contains missing or duplicate question numbers")
@@ -151,7 +160,7 @@ def _semantic_image(page) -> bytes | None:
     return pix.tobytes("png")
 
 
-def _vector_document_image(page) -> bytes | None:
+def _vector_document_image(page, before_y: float | None = None) -> bytes | None:
     """Preserve a boxed document drawn as PDF vectors, including its text layout."""
     drawings = page.get_drawings()
     if not drawings:
@@ -162,6 +171,8 @@ def _vector_document_image(page) -> bytes | None:
     if bounds.width < 250 or bounds.height < 200 or bounds.get_area() < page.rect.get_area() * .15:
         return None
     clip = (bounds + (-3, -3, 3, 3)) & page.rect
+    if before_y is not None and clip.y1 >= before_y - 4:
+        return None
     return page.get_pixmap(matrix=fitz.Matrix(2, 2), clip=clip, alpha=False).tobytes("png")
 
 
@@ -195,8 +206,9 @@ def extract_reading(data: bytes, variant: str) -> ReadingExtract:
         tokens = sorted([(m.start(), m.end(), "heading", None) for m in HEADING.finditer(text)] + [(m.start(), m.end(), "question", int(m.group(1))) for m in QUESTION.finditer(text) if int(m.group(1)) >= first_comprehension])
         semantic = _semantic_image(page)
         vector_document = False
-        if not semantic and not any(token[2] == "question" for token in tokens):
-            semantic = _vector_document_image(page)
+        if not semantic:
+            first_question_y = min((y for _, y, value in _page_lines(page) if (match := QUESTION.match(value)) and int(match.group(1)) >= first_comprehension), default=None)
+            semantic = _vector_document_image(page, before_y=first_question_y)
             vector_document = semantic is not None
         if not tokens:
             if vector_document:

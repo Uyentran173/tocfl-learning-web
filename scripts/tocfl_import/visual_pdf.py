@@ -138,13 +138,14 @@ def extract_image_paper(data: bytes, skill: str, band: str, expected_count: int)
             if raw_match is not None:
                 match = raw_anchors[raw_match]
                 raw_segment = page_text[match.end():raw_anchors[raw_match + 1].start() if raw_match + 1 < len(raw_anchors) else len(page_text)].strip()
-                if [choice.group(1) for choice in CHOICE.finditer(raw_segment)] == (list("ABCD") if band == "A" and number >= (41 if skill == "listening" else 46) else list("ABC")):
+                if [choice.group(1) for choice in CHOICE.finditer(raw_segment)] in (list("ABC"), list("ABCD")):
                     segment = raw_segment
             relevant = sorted([(rect, xref) for rect, xref in page_images if start - 1 <= (rect.y0 + rect.y1) / 2 < end], key=lambda pair: (pair[0].y0, pair[0].x0))
             if shared:
                 relevant = []
-            labels = list("ABCD") if (band == "A" and skill == "listening" and number >= 41) or (band == "A" and skill == "reading" and number >= 46) else list("ABC")
-            if skill == "listening" and (band == "Novice" or number <= 10):
+            printed_labels = [choice.group(1) for choice in CHOICE.finditer(segment)]
+            labels = printed_labels if printed_labels in (list("ABC"), list("ABCD")) else (list("ABCD") if band == "A" and ((skill == "listening" and number >= 41) or (skill == "reading" and number >= 46)) else list("ABC"))
+            if skill == "listening" and (band == "Novice" or number <= 10 or (len(relevant) == 1 and not CHOICE.search(segment))):
                 prompt, choices = "", [""] * len(labels)
             else:
                 try:

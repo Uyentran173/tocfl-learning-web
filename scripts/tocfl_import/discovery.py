@@ -78,7 +78,10 @@ def _classify_links(row, page_url: str, skill: str, band: str | None = None, ser
         filename = urlparse(url).path.rsplit("/", 1)[-1].lower()
         key = None
         reasons = []
-        if "正體試題" in label:
+        if "答案" in label:
+            key = "answer_pdf"
+            reasons.append("link text/title: 答案")
+        elif "正體試題" in label:
             key = "traditional_pdf"
             reasons.append("link text: 正體試題")
         elif "簡體試題" in label:
@@ -90,9 +93,6 @@ def _classify_links(row, page_url: str, skill: str, band: str | None = None, ser
         elif "音檔下載" in label or "聽力音檔" in label:
             key = "audio_archive"
             reasons.append("link text: audio download")
-        elif "答案" in label:
-            key = "answer_pdf"
-            reasons.append("link text: 答案")
         elif "聽力試題文本" in label:
             key = "transcript_pdf"
             reasons.append("link text: 聽力試題文本")
@@ -168,10 +168,8 @@ def _classify_links(row, page_url: str, skill: str, band: str | None = None, ser
     required = {"traditional_pdf", "simplified_pdf", "answer_pdf", "score_pdf"}
     if skill == "listening":
         required |= {"transcript_pdf"}
-        if "online_audio" not in found:
-            if "audio_archive" in found:
-                raise ImportErrorWithContext(f"{skill} Band {band} Series {series} provides only an audio archive ({found['audio_archive']}); individual online tracks are unavailable and cannot be mapped automatically without splitting the long MP3")
-            required.add("online_audio")
+        if "online_audio" not in found and "audio_archive" not in found:
+            raise ImportErrorWithContext(f"{skill} Band {band} Series {series} has no official online audio or downloadable archive")
     missing = required - found.keys()
     if missing:
         raise ImportErrorWithContext(f"{skill} official row lacks: {', '.join(sorted(missing))}")

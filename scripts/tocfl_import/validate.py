@@ -97,6 +97,27 @@ def validate_package(package: dict, supplement: dict, asset_root: Path, check_au
         raise ImportErrorWithContext("Transcript mapping does not cover every Listening question")
     if len(supplement["questions"]) != len(listening["questions"]):
         raise ImportErrorWithContext("Duplicate transcript question IDs")
+    if "sharedGroups" in supplement:
+        transcript_groups = {group["id"]: group for group in supplement["sharedGroups"]}
+        if len(transcript_groups) != len(supplement["sharedGroups"]) or set(transcript_groups) != {group["id"] for group in groups}:
+            raise ImportErrorWithContext("Shared transcript groups do not match shared audio groups")
+        transcript_entries = {entry["questionId"]: entry for entry in supplement["questions"]}
+        for group in groups:
+            transcript_group = transcript_groups[group["id"]]
+            shared = transcript_group.get("traditional", "").strip()
+            if transcript_group.get("questions") != group["questions"] or not shared:
+                raise ImportErrorWithContext(f"Shared transcript {group['id']} has incorrect questions or empty passage")
+            for number in group["questions"]:
+                entry = transcript_entries[f"listening-q{number:02d}"]
+                question = entry.get("questionTraditional", "").strip()
+                if entry.get("sharedTranscriptGroupId") != group["id"] or not question or entry.get("traditional") != f"{shared}\n{question}":
+                    raise ImportErrorWithContext(f"Listening Q{number} transcript is not aligned with shared audio {group['id']}")
+        for question in listening["questions"]:
+            entry = transcript_entries[question["id"]]
+            if not entry.get("traditional", "").strip():
+                raise ImportErrorWithContext(f"Empty transcript for {question['id']}")
+            if question["audio"]["mode"] == "self_contained" and entry.get("sharedTranscriptGroupId"):
+                raise ImportErrorWithContext(f"Self-contained {question['id']} has an unexpected shared transcript")
 
 
 def _asset_exists(url: str, root: Path, test_id: str) -> bool:

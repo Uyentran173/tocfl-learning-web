@@ -5,7 +5,7 @@ import re
 from pathlib import Path
 
 from .discovery import ImportErrorWithContext
-from .pdf import extract_answers, extract_listening_choices, extract_reading, extract_scores, extract_transcripts
+from .pdf import TranscriptExtract, extract_answers, extract_listening_choices, extract_reading, extract_scores, extract_transcript_layout, extract_transcripts
 from .visual_pdf import extract_image_paper
 
 
@@ -195,6 +195,69 @@ def _transcript_entries(raw: dict[int, str], groups: list[dict]) -> list[dict]:
     return entries
 
 
+def _band_c_transcript_entries(layout: TranscriptExtract, groups: list[dict]) -> tuple[list[dict], list[dict]]:
+    """Match printed passage-before-questions blocks to numbered shared audio."""
+    question_text: dict[int, str] = {}
+    following: dict[int, str] = {}
+    for number, segment in layout.questions.items():
+        lines = [line.strip() for line in segment.splitlines() if line.strip()]
+        end = next((index for index, line in enumerate(lines) if line.endswith(("？", "?"))), None)
+        if end is None:
+            raise ImportErrorWithContext(f"Band C transcript Q{number} has no identifiable question ending")
+        question_text[number] = "\n".join(lines[:end + 1])
+        following[number] = "\n".join(lines[end + 1:]).strip()
+
+    def passage(source: str) -> str:
+        lines = [line.strip() for line in source.splitlines() if line.strip()]
+        while lines and ("模擬試題聽力測驗腳本" in lines[0] or lines[0] == "Script of Listening Test" or re.fullmatch(r"第[一二三四五六七八九十]+部分\s*.*", lines[0])):
+            lines.pop(0)
+        return "\n".join(lines).strip()
+
+    count_words = {"一": 1, "二": 2, "兩": 2, "三": 3, "四": 4, "五": 5, "六": 6, "七": 7, "八": 8, "九": 9, "十": 10}
+    shared_by_question: dict[int, tuple[str, str]] = {}
+    shared_groups = []
+    starts = set()
+    for group in groups:
+        numbers = group["questions"]
+        first = numbers[0]
+        if numbers != list(range(first, numbers[-1] + 1)) or any(number in shared_by_question for number in numbers):
+            raise ImportErrorWithContext(f"Band C shared audio group {group['id']} has overlapping or nonconsecutive questions")
+        source = layout.preface if first == 1 else following.get(first - 1, "")
+        shared = passage(source)
+        compact = re.sub(r"\s+", "", shared)
+        declarations = list(re.finditer(r"回答(?:下面|以下)?(?:的)?([一二三四五六七八九十兩\d]+)個問題", compact))
+        if len(declarations) != 1:
+            raise ImportErrorWithContext(f"Band C transcript has no confidently separable shared passage before Q{first} ({group['id']})")
+        declaration = declarations[0]
+        body = compact[declaration.end():]
+        if re.search(r"(?:男|女)：|現在請聽", compact[:declaration.start()]) or len(re.findall(r"[\u4e00-\u9fff]", body)) < 30:
+            raise ImportErrorWithContext(f"Band C transcript Q{first}–Q{numbers[-1]} does not print a complete shared passage before the questions; the question-first layout needs a separate verified mapping")
+        declared = declaration.group(1)
+        count = int(declared) if declared.isdigit() else count_words.get(declared)
+        if count != len(numbers):
+            raise ImportErrorWithContext(f"Band C transcript before Q{first} declares {declared} questions, but shared audio {group['id']} has {len(numbers)}")
+        starts.add(first)
+        shared_groups.append({"id": group["id"], "questions": numbers, "traditional": shared})
+        for number in numbers:
+            shared_by_question[number] = (group["id"], shared)
+
+    if layout.preface and 1 not in starts and passage(layout.preface):
+        raise ImportErrorWithContext("Band C transcript has an unassigned passage before Q1")
+    for number, tail in following.items():
+        if tail and number + 1 not in starts:
+            raise ImportErrorWithContext(f"Band C transcript has unmapped passage after Q{number}")
+
+    entries = []
+    for number in sorted(question_text):
+        group = shared_by_question.get(number)
+        text = question_text[number]
+        entry = {"questionId": f"listening-q{number:02d}", "number": number, "traditional": f"{group[1]}\n{text}" if group else text, "questionTraditional": text}
+        if group:
+            entry["sharedTranscriptGroupId"] = group[0]
+        entries.append(entry)
+    return entries, shared_groups
+
+
 def _attach_images(question: dict, extracts: dict, number: int, skill: str, test_id: str, asset_dir: Path) -> None:
     image_paths = {}
     choice_paths = {}
@@ -256,7 +319,13 @@ def build_package(source_files: dict[str, dict[str, bytes]], tracks: list[dict[s
     audio, question_audio, playback, downloads = audio_plan(tracks, test_id)
     if set(question_audio) != set(l_answers):
         raise ImportErrorWithContext("Official audio track numbers do not match Listening questions")
-    transcript = extract_transcripts(listening["transcript_pdf"], l_count)
+    if band == "C":
+        transcript_entries, shared_transcript_groups = _band_c_transcript_entries(
+            extract_transcript_layout(listening["transcript_pdf"], l_count), audio["groups"]
+        )
+    else:
+        transcript_entries = _transcript_entries(extract_transcripts(listening["transcript_pdf"], l_count), audio["groups"])
+        shared_transcript_groups = []
     transcript_path = Path("data/test-supplements") / test_id / "listening-transcripts.json"
     sections_l = _sections("listening", l_count, playback)
     gap_numbers = [n for n, q in r_data["traditional"].questions.items() if q["type"] == "gap_filling"]
@@ -312,7 +381,9 @@ def build_package(source_files: dict[str, dict[str, bytes]], tracks: list[dict[s
                 raise ImportErrorWithContext(f"Document image missing in one script for Q{n}")
             q["assets"] = image_paths
         r_questions.append(q)
-    supplement = {"schemaVersion": "1.0", "examId": test_id, "componentId": "listening", "source": source_urls["listening"]["transcript_pdf"], "display": {"defaultHidden": True, "recommendedUse": "review_or_explanation", "variantAware": True}, "questions": _transcript_entries(transcript, audio["groups"])}
+    supplement = {"schemaVersion": "1.0", "examId": test_id, "componentId": "listening", "source": source_urls["listening"]["transcript_pdf"], "display": {"defaultHidden": True, "recommendedUse": "review_or_explanation", "variantAware": True}, "questions": transcript_entries}
+    if band == "C":
+        supplement["sharedGroups"] = shared_transcript_groups
     score_l, score_r = extract_scores(listening["score_pdf"], l_count, "listening"), extract_scores(reading["score_pdf"], r_count, "reading")
     package = {"schemaVersion": "1.0", "exam": {"id": test_id, "title": title or f"TOCFL Band {band} — Đề {test_id.rsplit('-', 1)[-1]}", "level": f"Band {band}", "variants": ["traditional", "simplified"], "defaultVariant": "traditional", "componentOrder": ["listening", "reading"], "questionNumbering": "restart_per_component", "totalQuestions": l_count + r_count, "componentScoresSeparate": True, "publishReady": True, "source": {"officialUrl": source_urls["page_url"], "series": series, "files": source_urls}, "sourceWarnings": [{"script": script, "message": warning} for script in r_data for warning in getattr(r_data[script], "warnings", [])]}, "flow": {"order": ["listening", "reading"], "mustCompleteInOrder": True, "preserveSelectedVariantBetweenComponents": True}, "components": {"listening": {"id": "listening", "title": "Nghe", "order": 1, "durationSeconds": 3600, "totalQuestions": l_count, "choiceLabels": list("ABCD"), "sections": sections_l, "audio": audio, "transcriptDataPath": transcript_path.as_posix(), "scoring": {"type": "lookup_table", "maxScore": max(score_l.values()), "scoreByCorrectCount": score_l}, "questions": l_questions}, "reading": {"id": "reading", "title": "Đọc", "order": 2, "durationSeconds": 3600, "totalQuestions": r_count, "choiceLabels": list("ABCD"), "sections": sections_r, "scoring": {"type": "lookup_table", "maxScore": max(score_r.values()), "scoreByCorrectCount": score_r}, "questions": r_questions, "displayContexts": display_contexts}}}
     package["exam"]["sourceWarnings"].extend({"skill": "listening", "message": warning} for warning in answer_warnings)

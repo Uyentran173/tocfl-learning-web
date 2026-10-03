@@ -10,12 +10,12 @@ from unittest.mock import patch
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from tocfl_import.build import audio_plan, ensure_new_source, existing_source_id, matching_legacy_test, next_test_id  # noqa: E402
+from tocfl_import.build import _band_c_transcript_entries, audio_plan, ensure_new_source, existing_source_id, matching_legacy_test, next_test_id  # noqa: E402
 from tocfl_import.archive_audio import inspect_audio_archive  # noqa: E402
 from tocfl_import.discovery import ImportErrorWithContext, _classify_links, official_url  # noqa: E402
 from tocfl_import.validate import validate_package  # noqa: E402
 from tocfl_import.visual_pdf import extract_image_paper  # noqa: E402
-from tocfl_import.pdf import _vector_document_image, extract_answers, normalize_printed_choice_labels  # noqa: E402
+from tocfl_import.pdf import TranscriptExtract, _vector_document_image, extract_answers, extract_transcript_layout, normalize_printed_choice_labels  # noqa: E402
 from bs4 import BeautifulSoup  # noqa: E402
 import fitz  # noqa: E402
 
@@ -127,6 +127,45 @@ class AudioTests(unittest.TestCase):
         self.assertEqual(questions[2]["reviewSequence"], [audio["groups"][0]["sharedAudio"], questions[2]["questionTrack"]])
         self.assertEqual(questions[3]["reviewSequence"][0], audio["groups"][0]["sharedAudio"])
         self.assertEqual(len(downloads), 8)
+
+
+class BandCTranscriptTests(unittest.TestCase):
+    def test_pdf_extraction_keeps_passage_before_q1(self):
+        document = fitz.open()
+        page = document.new_page()
+        for index, line in enumerate(("Shared passage before Q1", "1. First question?", "2. Second question?")):
+            page.insert_text((50, 60 + index * 24), line)
+        layout = extract_transcript_layout(document.tobytes(), 2)
+        self.assertEqual(layout.preface, "Shared passage before Q1")
+        self.assertEqual(layout.questions[1], "First question?")
+
+    def test_shared_passages_match_numbered_audio_and_keep_questions_separate(self):
+        first = "請聽這段對話，然後回答下面兩個問題。\n男：今天我們要一起討論新的工作安排和明天的會議時間。\n女：我已經準備好了，可以在下午一起討論。"
+        second = "請聽這段對話，然後回答下面兩個問題。\n男：昨天我們一起去了圖書館，看了很多關於旅行的書。\n女：下個星期我們還要再去一次。"
+        layout = TranscriptExtract("流利精通級模擬試題聽力測驗腳本\nScript of Listening Test\n第一部分 對話\n" + first, {
+            1: "這位先生說了什麼？",
+            2: "這位小姐準備了什麼？\n" + second,
+            3: "他們昨天去了哪裡？",
+            4: "他們下個星期打算做什麼？",
+        })
+        groups = [{"id": "ag-q01-q02", "questions": [1, 2]}, {"id": "ag-q03-q04", "questions": [3, 4]}]
+        entries, shared = _band_c_transcript_entries(layout, groups)
+        self.assertEqual([group["questions"] for group in shared], [[1, 2], [3, 4]])
+        self.assertTrue(shared[0]["traditional"].startswith("請聽這段對話"))
+        self.assertEqual(entries[0]["questionTraditional"], "這位先生說了什麼？")
+        self.assertEqual(entries[1]["sharedTranscriptGroupId"], "ag-q01-q02")
+        self.assertEqual(entries[2]["sharedTranscriptGroupId"], "ag-q03-q04")
+        self.assertNotIn("昨天我們", entries[1]["traditional"])
+        with self.assertRaisesRegex(ImportErrorWithContext, "declares.*but shared audio"):
+            _band_c_transcript_entries(layout, [{"id": "wrong", "questions": [1, 2, 3]}, {"id": "other", "questions": [4]}])
+
+    def test_question_first_passage_is_not_silently_assigned_to_next_group(self):
+        layout = TranscriptExtract("請聽這段對話，然後回答下面的兩個問題。", {
+            1: "這位先生說了什麼？",
+            2: "這位小姐說了什麼？\n現在請聽對話。\n男：這段完整對話印在兩個問題後面，不能當成下一組的內容。",
+        })
+        with self.assertRaisesRegex(ImportErrorWithContext, "question-first layout needs a separate verified mapping"):
+            _band_c_transcript_entries(layout, [{"id": "ag-q01-q02", "questions": [1, 2]}])
 
 
 class OfficialAnswerKeyTests(unittest.TestCase):

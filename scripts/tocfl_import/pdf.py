@@ -259,11 +259,19 @@ def extract_reading(data: bytes, variant: str) -> ReadingExtract:
     return ReadingExtract(questions, contexts, images, warnings)
 
 
-def extract_transcripts(data: bytes, expected_count: int) -> dict[int, str]:
+@dataclass
+class TranscriptExtract:
+    preface: str
+    questions: dict[int, str]
+
+
+def extract_transcript_layout(data: bytes, expected_count: int) -> TranscriptExtract:
     text = "\n".join(p.get_text() for p in fitz.open(stream=data, filetype="pdf"))
     matches = list(QUESTION.finditer(text))
     if not matches:
         matches = list(re.finditer(r"(?m)^\s*(\d{1,2})\s*$", text))
+    if not matches:
+        raise ImportErrorWithContext("Transcript has no numbered questions")
     result = {}
     for i, match in enumerate(matches):
         n = int(match.group(1))
@@ -273,4 +281,8 @@ def extract_transcripts(data: bytes, expected_count: int) -> dict[int, str]:
             result[n] = clean(text[match.end():matches[i + 1].start() if i + 1 < len(matches) else len(text)])
     if set(result) != set(range(1, expected_count + 1)):
         raise ImportErrorWithContext(f"Transcript maps {len(result)}/{expected_count} questions")
-    return result
+    return TranscriptExtract(clean(text[:matches[0].start()]), result)
+
+
+def extract_transcripts(data: bytes, expected_count: int) -> dict[int, str]:
+    return extract_transcript_layout(data, expected_count).questions

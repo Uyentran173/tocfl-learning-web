@@ -21,6 +21,7 @@ export default function BandVocabularyStudy({ bands }: { bands: TocflVocabularyB
   const [view, setView] = useState<View>("list");
   const [page, setPage] = useState(1);
   const [activeIndex, setActiveIndex] = useState(0);
+  const [flippedWordId, setFlippedWordId] = useState<string | null>(null);
 
   useEffect(() => {
     let timeout: number | undefined;
@@ -56,9 +57,33 @@ export default function BandVocabularyStudy({ bands }: { bands: TocflVocabularyB
   const studyRecords = view === "review" ? visibleRecords.filter((record) => learnedSet.has(record.id)) : visibleRecords;
   const currentIndex = Math.min(activeIndex, Math.max(0, studyRecords.length - 1));
   const word = studyRecords[currentIndex];
+  const isFlipped = view === "study" && flippedWordId === word?.id;
   const pageCount = Math.max(1, Math.ceil(visibleRecords.length / pageSize));
   const currentPage = Math.min(page, pageCount);
   const pageStart = (currentPage - 1) * pageSize;
+
+  useEffect(() => {
+    if (view !== "study" || !word) return;
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
+      const target = event.target;
+      if (target instanceof Element && target.closest("input, textarea, select, [contenteditable='true']")) return;
+      if (event.key === "ArrowLeft" && currentIndex > 0) {
+        event.preventDefault();
+        setFlippedWordId(null);
+        setActiveIndex(currentIndex - 1);
+      } else if (event.key === "ArrowRight" && currentIndex < studyRecords.length - 1) {
+        event.preventDefault();
+        setFlippedWordId(null);
+        setActiveIndex(currentIndex + 1);
+      } else if ((event.key === " " || event.key === "Enter") && !(target instanceof Element && target.closest("button, a, summary, [role='button']"))) {
+        event.preventDefault();
+        setFlippedWordId((id) => id === word.id ? null : word.id);
+      }
+    };
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, [view, word, currentIndex, studyRecords.length]);
 
   function chooseBand(id: string) {
     if (id === bandId) return;
@@ -70,14 +95,21 @@ export default function BandVocabularyStudy({ bands }: { bands: TocflVocabularyB
     setView("list");
     setPage(1);
     setActiveIndex(0);
+    setFlippedWordId(null);
   }
   function chooseLevel(id: string) {
     setLevelId(id);
     setPage(1);
     setActiveIndex(0);
+    setFlippedWordId(null);
   }
   function chooseView(next: View, index = 0) {
     setView(next);
+    setActiveIndex(index);
+    setFlippedWordId(null);
+  }
+  function moveWord(index: number) {
+    setFlippedWordId(null);
     setActiveIndex(index);
   }
   function toggleLearned(id: string) {
@@ -134,7 +166,36 @@ export default function BandVocabularyStudy({ bands }: { bands: TocflVocabularyB
       <div className="flex items-center justify-between gap-3 border-t border-[var(--border)] px-5 py-4 sm:px-7"><button type="button" className="button-secondary" disabled={currentPage === 1} onClick={() => setPage(currentPage - 1)}>← Trang trước</button><span className="text-sm muted">{currentPage} / {pageCount}</span><button type="button" className="button-secondary" disabled={currentPage === pageCount} onClick={() => setPage(currentPage + 1)}>Trang sau →</button></div>
     </section> : !word ? <div className="paper px-6 py-12 text-center"><MascotSticker variant="puzzled" decorative className="band-empty-sticker mascot-float" /><h3 className="mt-3 text-lg font-bold">{view === "review" ? "Bạn chưa đánh dấu từ nào đã học ở mục này" : "Chưa có từ vựng ở cấp này"}</h3><p className="mt-2 text-sm muted">{view === "review" ? "Hãy học và đánh dấu vài từ trước khi ôn lại nhé." : "Chọn cấp độ khác để tiếp tục học."}</p><button type="button" className="button-secondary mt-5" onClick={() => chooseView("list")}>Xem danh sách từ</button></div> : <section className="paper p-5 sm:p-8" aria-label={view === "review" ? "Ôn từ đã học" : "Học từ vựng"}>
       <div className="flex flex-wrap items-center justify-between gap-3"><div><p className="page-eyebrow">{view === "review" ? "ÔN TẬP" : "HỌC TỪ"}</p><h3 className="mt-2 text-xl font-bold">Từ {currentIndex + 1} / {studyRecords.length.toLocaleString("vi-VN")}</h3></div><span className="rounded-full bg-[var(--brand-soft)] px-3 py-1.5 text-xs font-bold text-[var(--brand)]">{levelNames.get(word.levelId) ?? word.levelId}</span></div>
-      <div className="mt-5 rounded-2xl border border-[var(--brand-border)] bg-gradient-to-br from-white to-[var(--brand-soft)] p-5 sm:p-7">
+      {view === "study" ? <button
+        key={word.id}
+        type="button"
+        className="band-flashcard mt-5"
+        aria-expanded={isFlipped}
+        onClick={() => setFlippedWordId((id) => id === word.id ? null : word.id)}
+      >
+        <span className={`band-flashcard-inner${isFlipped ? " is-flipped" : ""}`}>
+          <span className="band-flashcard-face band-flashcard-front" aria-hidden={isFlipped}>
+            <span className="band-flashcard-level">{levelNames.get(word.levelId) ?? word.levelId}</span>
+            <strong className="band-flashcard-word" lang={script === "simplified" && word.simplified ? "zh-Hans" : "zh-Hant"}>{wordForm(word)}</strong>
+            {word.pinyin && <span className="band-flashcard-pinyin">{word.pinyin}</span>}
+            <span className="band-flashcard-hint">Nhấn vào thẻ để xem nghĩa ↻</span>
+          </span>
+          <span className="band-flashcard-face band-flashcard-back" aria-hidden={!isFlipped}>
+            <span className="band-flashcard-back-heading">
+              <strong lang={script === "simplified" && word.simplified ? "zh-Hans" : "zh-Hant"}>{wordForm(word)}</strong>
+              {word.pinyin && <span>{word.pinyin}</span>}
+            </span>
+            <span className="band-flashcard-details">
+              <span><small>Nghĩa tiếng Việt</small><strong>{word.meaningVi || "Chưa có nghĩa tiếng Việt"}</strong></span>
+              {word.partOfSpeech.raw && <span><small>Từ loại</small>{word.partOfSpeech.raw}</span>}
+              {word.context && <span><small>Ngữ cảnh</small><span lang="zh-Hant">{word.context}</span></span>}
+              {script === "simplified" && !word.simplified && <span className="band-flashcard-unavailable">Nguồn chỉ có chữ Phồn thể cho từ này.</span>}
+            </span>
+            {exampleForm(word) && <span className="band-flashcard-example"><small>Ví dụ</small><span lang={script === "simplified" ? "zh-Hans" : "zh-Hant"}>{exampleForm(word)}</span>{word.exampleVi && <span className="band-flashcard-translation">{word.exampleVi}</span>}{word.exampleSource?.kind === "tatoeba" && <small className="band-flashcard-source">Ví dụ: Tatoeba · {word.exampleSource.author}</small>}</span>}
+            <span className="band-flashcard-hint">Nhấn vào thẻ để xem lại từ ↻</span>
+          </span>
+        </span>
+      </button> : <div className="mt-5 rounded-2xl border border-[var(--brand-border)] bg-gradient-to-br from-white to-[var(--brand-soft)] p-5 sm:p-7">
         <p className="text-xs font-bold uppercase tracking-[.13em] text-[var(--brand)]">Từ vựng</p>
         <h4 className="mt-3 text-4xl font-semibold text-[var(--brand)] sm:text-5xl" lang={script === "simplified" && word.simplified ? "zh-Hans" : "zh-Hant"}>{wordForm(word)}</h4>
         {script === "simplified" && !word.simplified && <p className="mt-2 text-sm muted">Nguồn chỉ có chữ Phồn thể cho từ này.</p>}
@@ -145,8 +206,8 @@ export default function BandVocabularyStudy({ bands }: { bands: TocflVocabularyB
           {word.context && <div><p className="text-xs font-bold uppercase tracking-wide muted">Ngữ cảnh</p><p className="mt-1" lang="zh-Hant">{word.context}</p></div>}
         </div>
         {exampleForm(word) && word.exampleVi && <div className="mt-6 border-t border-[var(--brand-border)] pt-5"><p className="text-xs font-bold uppercase tracking-wide muted">Ví dụ</p><p className="mt-2 text-lg leading-8" lang={script === "simplified" ? "zh-Hans" : "zh-Hant"}>{exampleForm(word)}</p><p className="mt-4 text-xs font-bold uppercase tracking-wide muted">Dịch câu ví dụ</p><p className="mt-2 leading-7">{word.exampleVi}</p>{word.exampleSource?.kind === "tatoeba" && <a className="mt-3 inline-block text-xs muted underline underline-offset-2" href={`https://tatoeba.org/en/sentences/show/${word.exampleSource.id}`} target="_blank" rel="noopener noreferrer">Ví dụ từ Tatoeba · {word.exampleSource.author}</a>}</div>}
-      </div>
-      <div className="mt-5 flex flex-wrap items-center justify-between gap-3"><button type="button" className="button-secondary" disabled={currentIndex === 0} onClick={() => setActiveIndex(currentIndex - 1)}>← Từ trước</button><button type="button" className="button-secondary" aria-pressed={learnedSet.has(word.id)} onClick={() => toggleLearned(word.id)}>{learnedSet.has(word.id) ? "✓ Đã học" : "Đánh dấu đã học"}</button><button type="button" className="button-primary" disabled={currentIndex === studyRecords.length - 1} onClick={() => setActiveIndex(currentIndex + 1)}>Từ sau →</button></div>
+      </div>}
+      <div className="mt-5 flex flex-wrap items-center justify-between gap-3"><button type="button" className="button-secondary" disabled={currentIndex === 0} onClick={() => moveWord(currentIndex - 1)}>← Từ trước</button><button type="button" className="button-secondary" aria-pressed={learnedSet.has(word.id)} onClick={() => toggleLearned(word.id)}>{learnedSet.has(word.id) ? "✓ Đã học" : "Đánh dấu đã học"}</button><button type="button" className="button-primary" disabled={currentIndex === studyRecords.length - 1} onClick={() => moveWord(currentIndex + 1)}>Từ sau →</button></div>
     </section>}
   </div>;
 }

@@ -18,9 +18,25 @@ from tocfl_import.archive_audio import _read_rar, _safe_name, download_audio_arc
 from tocfl_import.discovery import ImportErrorWithContext, _classify_links, available_tests, official_url  # noqa: E402
 from tocfl_import.validate import validate_package  # noqa: E402
 from tocfl_import.visual_pdf import _shared_gap_pool, extract_image_paper  # noqa: E402
+from tocfl_import.embedded_image import embedded_png  # noqa: E402
 from tocfl_import.pdf import TranscriptExtract, _vector_document_image, extract_answers, extract_transcript_layout, normalize_printed_choice_labels  # noqa: E402
 from bs4 import BeautifulSoup  # noqa: E402
 import fitz  # noqa: E402
+
+
+class EmbeddedImageTests(unittest.TestCase):
+    def test_soft_mask_is_composited_on_white_like_the_pdf_page(self):
+        document = fitz.open()
+        page = document.new_page(width=100, height=100)
+        base = fitz.Pixmap(fitz.csRGB, 2, 2, bytes([0, 0, 0] * 4), 0)
+        mask = fitz.Pixmap(fitz.csGRAY, 2, 2, bytes([0, 255, 255, 0]), 0)
+        xref = page.insert_image(fitz.Rect(10, 10, 90, 90), stream=base.tobytes("png"), mask=mask.tobytes("png"))
+
+        exported = fitz.Pixmap(embedded_png(document, xref))
+        self.assertEqual(exported.pixel(0, 0), (255, 255, 255))
+        self.assertEqual(exported.pixel(1, 0), (0, 0, 0))
+        self.assertEqual(exported.pixel(0, 1), (0, 0, 0))
+        self.assertEqual(exported.pixel(1, 1), (255, 255, 255))
 
 
 class DiscoveryTests(unittest.TestCase):

@@ -7,6 +7,7 @@ from pathlib import Path
 import fitz
 
 from .discovery import ImportErrorWithContext
+from .embedded_image import embedded_png
 
 QUESTION = re.compile(r"(?m)^\s*(\d{1,2})\s*[.．、]\s*")
 OPTION = re.compile(r"(?m)^\s*[（(]([A-D])[）)]\s*")
@@ -154,10 +155,7 @@ def _semantic_image(page) -> bytes | None:
         raise ImportErrorWithContext("Multiple document images on one Reading page need explicit mapping")
     if not found:
         return None
-    pix = fitz.Pixmap(page.parent, found[0])
-    if pix.colorspace not in (fitz.csRGB, fitz.csGRAY) or pix.alpha:
-        pix = fitz.Pixmap(fitz.csRGB, pix)
-    return pix.tobytes("png")
+    return embedded_png(page.parent, found[0])
 
 
 def _vector_document_image(page, before_y: float | None = None) -> bytes | None:

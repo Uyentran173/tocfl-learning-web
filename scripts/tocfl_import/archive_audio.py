@@ -42,11 +42,16 @@ class ArchiveAudio:
     format: str
 
 
-def _safe_name(name: str) -> PurePosixPath:
+def _safe_name(name: str, *, directory: bool = False) -> PurePosixPath:
     if not name or "\\" in name or any(ord(character) < 32 for character in name):
         raise ImportErrorWithContext(f"Unsafe archive member name: {name!r}")
-    path = PurePosixPath(name)
-    if path.is_absolute() or any(part in {"", ".", ".."} for part in name.split("/")):
+    # A directory entry may end in one slash; it is not an empty path component.
+    # Keep all other empty/dot components invalid, including a slash on a file.
+    normalized = name[:-1] if directory and name.endswith("/") else name
+    path = PurePosixPath(normalized)
+    if (not normalized or (name.endswith("/") and not directory)
+            or path.is_absolute() or re.match(r"^[A-Za-z]:", normalized)
+            or any(part in {"", ".", ".."} for part in normalized.split("/"))):
         raise ImportErrorWithContext(f"Unsafe archive member path: {name!r}")
     return path
 
@@ -59,9 +64,12 @@ def _read_zip(body: bytes) -> list[tuple[str, bytes]]:
             raise ImportErrorWithContext(f"Audio archive has too many members: {len(infos)}")
         total = 0
         for info in infos:
-            _safe_name(info.filename)
+            _safe_name(info.filename, directory=info.is_dir())
             mode = info.external_attr >> 16
-            if stat.S_ISLNK(mode) or info.flag_bits & 1:
+            kind = stat.S_IFMT(mode)
+            if (kind not in {0, stat.S_IFREG, stat.S_IFDIR}
+                    or (kind != 0 and (kind == stat.S_IFDIR) != info.is_dir())
+                    or info.flag_bits & 1):
                 raise ImportErrorWithContext(f"Archive symlink/encrypted member is unsupported: {info.filename}")
             if info.is_dir():
                 continue
@@ -100,9 +108,9 @@ def _read_rar(body: bytes) -> list[tuple[str, bytes]]:
             raise ImportErrorWithContext("RAR member listing is inconsistent or too large")
         total = 0
         for name, detail in zip(names, details):
-            _safe_name(name)
             if not detail or detail[0] not in {"-", "d"}:
                 raise ImportErrorWithContext(f"RAR link/special member is unsupported: {name}")
+            _safe_name(name, directory=detail[0] == "d")
             fields = detail.split(maxsplit=5)
             if len(fields) < 6 or not fields[4].isdigit():
                 raise ImportErrorWithContext(f"Cannot verify RAR member size: {name}")
@@ -112,12 +120,13 @@ def _read_rar(body: bytes) -> list[tuple[str, bytes]]:
         _run_bsdtar(["-xf", str(source), "-C", str(target), "--no-same-owner", "--no-same-permissions"])
         files = []
         for name, detail in zip(names, details):
-            path = target.joinpath(*PurePosixPath(name).parts)
+            path = target.joinpath(*_safe_name(name, directory=detail[0] == "d").parts)
             if detail[0] == "d":
-                if not path.is_dir() or path.is_symlink():
+                if not path.is_dir() or path.is_symlink() or not path.resolve().is_relative_to(target.resolve()):
                     raise ImportErrorWithContext(f"Invalid extracted directory: {name}")
                 continue
-            if not path.is_file() or path.is_symlink() or not path.resolve().is_relative_to(target.resolve()):
+            if (not path.is_file() or path.is_symlink() or path.stat().st_nlink != 1
+                    or not path.resolve().is_relative_to(target.resolve())):
                 raise ImportErrorWithContext(f"Invalid extracted audio file: {name}")
             if path.suffix.lower() != ".mp3":
                 raise ImportErrorWithContext(f"Unexpected non-audio archive member: {name}")
@@ -177,10 +186,11 @@ def inspect_audio_archive(body: bytes, archive_url: str, expected_questions: int
             else:
                 raise ImportErrorWithContext(f"Intro/ending track has ambiguous position: {member}")
         else:
-            match = re.fullmatch(r"(\d+)-(\d{1,2})(?:-([01]))?\.mp3", base, re.I)
+            match = re.fullmatch(r"(?:(\d+)-(\d{1,2})(?:-([01]))?|q(\d{1,2}))\.mp3", base, re.I)
             if not match:
                 raise ImportErrorWithContext(f"Cannot map archive MP3 {member!r} to a question or intro; long recordings need official cue/timestamps")
-            part, question = int(match[1]), int(match[2])
+            part = int(match[1]) if match[1] else len(intros)
+            question = int(match[2] or match[4])
             suffix = match[3]
             if part != len(intros) or part < 1 or ending_seen or question < 1 or question > expected_questions:
                 raise ImportErrorWithContext(f"Question track is outside its numbered part: {member}")

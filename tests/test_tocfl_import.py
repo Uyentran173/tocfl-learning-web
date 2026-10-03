@@ -1,8 +1,10 @@
 import sys
 import json
+import os
 import tempfile
 import unittest
 import zipfile
+import stat
 from io import BytesIO
 from pathlib import Path
 from unittest.mock import patch
@@ -11,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
 from tocfl_import.build import _band_c_transcript_entries, audio_plan, ensure_new_source, existing_source_id, matching_legacy_test, next_test_id  # noqa: E402
-from tocfl_import.archive_audio import inspect_audio_archive  # noqa: E402
+from tocfl_import.archive_audio import _read_rar, _safe_name, inspect_audio_archive  # noqa: E402
 from tocfl_import.discovery import ImportErrorWithContext, _classify_links, official_url  # noqa: E402
 from tocfl_import.validate import validate_package  # noqa: E402
 from tocfl_import.visual_pdf import extract_image_paper  # noqa: E402
@@ -81,8 +83,96 @@ class AudioTests(unittest.TestCase):
         output = BytesIO()
         with zipfile.ZipFile(output, "w") as zip_file:
             for name in names:
-                zip_file.writestr(name, b"ID3" + bytes(200))
+                zip_file.writestr(name, b"" if name.endswith("/") else b"ID3" + bytes(200))
         return output.getvalue()
+
+    def test_legacy_archive_normalizes_flat_wrapper_and_nested_tracks(self):
+        names = ("0-1.mp3", "1-0000intro.mp3", "q01.mp3", "q02.mp3", "2-0000end.mp3")
+        flat = inspect_audio_archive(self.archive(*names), "https://tocfl.edu.tw/legacy.zip", 2)
+        wrapped = inspect_audio_archive(self.archive(
+            "mock3_BandA_mp3_vie/", "mock3_BandA_mp3_vie/subfolder/",
+            *(f"mock3_BandA_mp3_vie/{'subfolder/' if name == 'q02.mp3' else ''}{name}" for name in names),
+        ), "https://tocfl.edu.tw/legacy.zip", 2)
+        self.assertEqual(flat.files, wrapped.files)
+        self.assertEqual(flat.tracks, wrapped.tracks)
+        self.assertEqual(wrapped.members[3]["sourcePath"], "mock3_BandA_mp3_vie/subfolder/q02.mp3")
+
+    def test_legacy_archive_rejects_unsafe_paths_and_special_members(self):
+        for name in ("/absolute/q01.mp3", "../q01.mp3", "wrapper/../q01.mp3",
+                     "wrapper//q01.mp3", "C:/q01.mp3", "C:q01.mp3", "\\\\host\\share\\q01.mp3"):
+            with self.subTest(name=name), self.assertRaisesRegex(ImportErrorWithContext, "Unsafe archive member"):
+                inspect_audio_archive(self.archive(name), "https://tocfl.edu.tw/legacy.zip", 1)
+        with self.assertRaisesRegex(ImportErrorWithContext, "Unsafe archive member path"):
+            _safe_name("q01.mp3/", directory=False)
+        with self.assertRaisesRegex(ImportErrorWithContext, "Unsafe archive member path"):
+            _safe_name("wrapper//", directory=True)
+        for special in (stat.S_IFLNK, stat.S_IFIFO):
+            output = BytesIO()
+            with zipfile.ZipFile(output, "w") as archive:
+                info = zipfile.ZipInfo("wrapper/q01.mp3")
+                info.create_system = 3
+                info.external_attr = (special | 0o777) << 16
+                archive.writestr(info, b"ID3" + bytes(200))
+            with self.subTest(special=special), self.assertRaisesRegex(ImportErrorWithContext, "symlink/encrypted"):
+                inspect_audio_archive(output.getvalue(), "https://tocfl.edu.tw/legacy.zip", 1)
+
+    def test_rar_listing_accepts_safe_directories_before_extraction(self):
+        names = ["wrapper/", "wrapper/subfolder/", "wrapper/subfolder/q01.mp3"]
+        details = ["drwxr-xr-x 0 0 0 0 Jan 1 2020 folder"] * 2 + ["-rw-r--r-- 0 0 0 203 Jan 1 2020 track"]
+        def bsdtar(args):
+            if args[0] == "-tf":
+                return "\n".join(names) + "\n"
+            if args[0] == "-tvf":
+                return "\n".join(details) + "\n"
+            target = Path(args[args.index("-C") + 1])
+            (target / "wrapper/subfolder").mkdir(parents=True)
+            (target / names[-1]).write_bytes(b"ID3" + bytes(200))
+            return ""
+        with patch("tocfl_import.archive_audio._run_bsdtar", side_effect=bsdtar) as run:
+            self.assertEqual(_read_rar(b"Rar!"), [(names[-1], b"ID3" + bytes(200))])
+            self.assertEqual(run.call_count, 3)
+        for unsafe_name, mode in (("wrapper/../q01.mp3", "-"), ("C:/q01.mp3", "-"),
+                                  ("wrapper/link.mp3", "l"), ("wrapper/link.mp3", "h")):
+            with self.subTest(unsafe_name=unsafe_name, mode=mode):
+                def unsafe_bsdtar(args):
+                    if args[0] == "-tf":
+                        return unsafe_name + "\n"
+                    if args[0] == "-tvf":
+                        return mode + "rw-r--r-- 0 0 0 203 Jan 1 2020 track\n"
+                    self.fail("Unsafe RAR was extracted")
+                with patch("tocfl_import.archive_audio._run_bsdtar", side_effect=unsafe_bsdtar):
+                    with self.assertRaises(ImportErrorWithContext):
+                        _read_rar(b"Rar!")
+
+    def test_rar_rejects_link_or_escape_after_extraction(self):
+        name = "wrapper/q01.mp3"
+        def listing(args):
+            if args[0] == "-tf":
+                return name + "\n"
+            if args[0] == "-tvf":
+                return "-rw-r--r-- 0 0 0 203 Jan 1 2020 track\n"
+            target = Path(args[args.index("-C") + 1])
+            (target / "wrapper").symlink_to(outside, target_is_directory=True)
+            return ""
+        with tempfile.TemporaryDirectory() as temporary:
+            outside = Path(temporary)
+            (outside / "q01.mp3").write_bytes(b"ID3" + bytes(200))
+            with patch("tocfl_import.archive_audio._run_bsdtar", side_effect=listing):
+                with self.assertRaisesRegex(ImportErrorWithContext, "Invalid extracted audio file"):
+                    _read_rar(b"Rar!")
+        def hardlink(args):
+            if args[0] == "-tf":
+                return name + "\n"
+            if args[0] == "-tvf":
+                return "-rw-r--r-- 0 0 0 203 Jan 1 2020 track\n"
+            target = Path(args[args.index("-C") + 1])
+            (target / "wrapper").mkdir()
+            (target / name).write_bytes(b"ID3" + bytes(200))
+            os.link(target / name, target / "second-link.mp3")
+            return ""
+        with patch("tocfl_import.archive_audio._run_bsdtar", side_effect=hardlink):
+            with self.assertRaisesRegex(ImportErrorWithContext, "Invalid extracted audio file"):
+                _read_rar(b"Rar!")
 
     def test_legacy_archive_named_rar_maps_explicit_question_tracks(self):
         data = self.archive("test/0-1.mp3", "test/1-0000intro.mp3", "test/1-01.mp3", "test/1-02.mp3", "test/2-0000end.mp3")

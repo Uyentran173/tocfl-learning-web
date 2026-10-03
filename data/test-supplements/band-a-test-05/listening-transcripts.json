@@ -1,0 +1,263 @@
+{
+  "schemaVersion": "1.0",
+  "examId": "band-a-test-05",
+  "componentId": "listening",
+  "source": "https://tocfl.edu.tw/tocfl/assets/files/mock/ls_mock5_test_BandA_listen.pdf",
+  "display": {
+    "defaultHidden": true,
+    "recommendedUse": "review_or_explanation",
+    "variantAware": true
+  },
+  "questions": [
+    {
+      "questionId": "listening-q01",
+      "number": 1,
+      "traditional": "提問 \n圖片裡有幾個學生？ \n(A) \n三個 \n(B) \n四個 \n(C) \n七個"
+    },
+    {
+      "questionId": "listening-q02",
+      "number": 2,
+      "traditional": "提問 \n這個人在做什麼運動？ \n(A) \n他在打籃球 \n(B) \n他在打網球 \n(C) \n他在打棒球"
+    },
+    {
+      "questionId": "listening-q03",
+      "number": 3,
+      "traditional": "提問 \n請問小美喜歡做什麼？ \n(A) \n她喜歡打掃 \n(B) \n她喜歡做菜 \n(C) \n她喜歡洗衣服"
+    },
+    {
+      "questionId": "listening-q04",
+      "number": 4,
+      "traditional": "提問 \n弟弟今天怎麼沒去上課？ \n(A) \n他腳痛 \n(B) \n他頭痛 \n(C) \n他肚子痛"
+    },
+    {
+      "questionId": "listening-q05",
+      "number": 5,
+      "traditional": "提問 \n小明給美美什麼？ \n(A) \n水果 \n(B) \n蛋糕 \n(C) \n餃子"
+    },
+    {
+      "questionId": "listening-q06",
+      "number": 6,
+      "traditional": "提問 \n這位先生現在在做什麼？ \n(A) \n他在教室上網 \n(B) \n他在辦公室工作 \n(C) \n他在辦公室上網"
+    },
+    {
+      "questionId": "listening-q07",
+      "number": 7,
+      "traditional": "提問 \n小女孩在做什麼？ \n(A) \n她在寄信 \n(B) \n她在寫信 \n(C) \n她在打電話"
+    },
+    {
+      "questionId": "listening-q08",
+      "number": 8,
+      "traditional": "提問 \n圖片裡有什麼？ \n(A) \n一枝鉛筆和兩本字典 \n(B) \n一本字典和兩支毛筆 \n(C) \n一本雜誌和兩本課本"
+    },
+    {
+      "questionId": "listening-q09",
+      "number": 9,
+      "traditional": "提問 \n他們在做什麼？ \n(A) \n他們一邊看電視，一邊吃東西 \n(B) \n他們一邊吃東西，一邊和狗玩 \n(C) \n他們一邊和狗玩，一邊看電視"
+    },
+    {
+      "questionId": "listening-q10",
+      "number": 10,
+      "traditional": "提問 \n這裡有哪些動物？ \n(A) \n這裡都是馬 \n(B) \n這裡有馬也有牛 \n(C) \n這裡只有牛沒有馬 \n \n第二部分 問答理解"
+    },
+    {
+      "questionId": "listening-q11",
+      "number": 11,
+      "traditional": "男 \n剛剛那個年輕人在飯店裡吃了什麼食物？ \n女 \n他吃了一碗麵。"
+    },
+    {
+      "questionId": "listening-q12",
+      "number": 12,
+      "traditional": "女 \n你要不要去博物館？ \n男 \n好啊！"
+    },
+    {
+      "questionId": "listening-q13",
+      "number": 13,
+      "traditional": "男 \n這是您的巧克力蛋糕，請問還需要什麼嗎？ \n女 \n請再給我一個湯匙，我們要一起吃。"
+    },
+    {
+      "questionId": "listening-q14",
+      "number": 14,
+      "traditional": "女 \n我昨天打電話給你，你怎麼沒接電話？ \n男 \n我的手機壞了。"
+    },
+    {
+      "questionId": "listening-q15",
+      "number": 15,
+      "traditional": "男 \n哪一個是妳的妹妹？ \n女 \n那個短頭髮，戴眼鏡的是我妹妹。"
+    },
+    {
+      "questionId": "listening-q16",
+      "number": 16,
+      "traditional": "女 \n這家店為什麼這麼多人在排隊？ \n男 \n因為這裡的衣服很便宜，很多人來這裡買衣服。"
+    },
+    {
+      "questionId": "listening-q17",
+      "number": 17,
+      "traditional": "男 \n聽說這家店的牛排和漢堡很好吃，妳要試一試嗎？ \n女 \n我不能吃肉，請幫我點一份青菜。"
+    },
+    {
+      "questionId": "listening-q18",
+      "number": 18,
+      "traditional": "男 \n媽媽，我找了客廳和房間，怎麼都沒看見我新買的小說？ \n女 \n你昨天放在浴室裡了。"
+    },
+    {
+      "questionId": "listening-q19",
+      "number": 19,
+      "traditional": "女 \n我上次送你的畫你放在哪裡了？ \n男 \n我把它掛在冰箱後面的牆上了。"
+    },
+    {
+      "questionId": "listening-q20",
+      "number": 20,
+      "traditional": "男 \n聽說小美要表演，是鋼琴表演嗎？ \n女 \n她以前表演過鋼琴，但是這次是吉他表演。"
+    },
+    {
+      "questionId": "listening-q21",
+      "number": 21,
+      "traditional": "女 \n已經晚上九點了，辦公室裡怎麼還有人？ \n男 \n是蘇經理和小蔡，他們兩個還在開會。"
+    },
+    {
+      "questionId": "listening-q22",
+      "number": 22,
+      "traditional": "男 \n他們兩個人都很生氣，不知道他們在說什麼？ \n女 \n他們一討論小孩的事情，就會不太開心。"
+    },
+    {
+      "questionId": "listening-q23",
+      "number": 23,
+      "traditional": "女 \n為什麼他今天沒來上班？ \n男 \n因為他在家裡準備明天的報告。"
+    },
+    {
+      "questionId": "listening-q24",
+      "number": 24,
+      "traditional": "女 \n你們在山上新租的房子怎麼樣？ \n男 \n房子很不錯。樓下房間有一個大窗戶。"
+    },
+    {
+      "questionId": "listening-q25",
+      "number": 25,
+      "traditional": "男 \n美美，我的那件短袖襯衫呢？ \n女 \n我剛洗好，現在還沒乾喔！"
+    },
+    {
+      "questionId": "listening-q26",
+      "number": 26,
+      "traditional": "男 \n聽說小明家附近的風景很漂亮，是嗎？ \n女 \n是啊！但是那裡冬天的溫度很低，你去找他要穿暖一點。"
+    },
+    {
+      "questionId": "listening-q27",
+      "number": 27,
+      "traditional": "女 \n你覺得認識臺灣最好的方法是什麼？ \n男 \n看書、看電視介紹都不錯，但是最好的方法就是你自己去旅行。"
+    },
+    {
+      "questionId": "listening-q28",
+      "number": 28,
+      "traditional": "男 \n小美，你的新家怎麼樣？ \n女 \n別說了，我搬到公寓去，結果樓上的小孩經常往下丟垃圾，環境非常髒。 \n \n第三部分 對話理解"
+    },
+    {
+      "questionId": "listening-q29",
+      "number": 29,
+      "traditional": "男 \n我們等一下三點在書店門口前見面嗎？ \n女 \n我覺得有一點晚，我們可以早半個小時嗎？ \n男 \n好啊，那一樣在書店門口前見嗎？ \n女 \n對，書店門口見！ \n男 \n請問他們幾點見面？"
+    },
+    {
+      "questionId": "listening-q30",
+      "number": 30,
+      "traditional": "男 \n請問妳要找什麼書？ \n女 \n我正在找介紹日本風景的旅遊書。 \n男 \n妳看到上面號碼了嗎？如果妳要找日本的書，那在中間2 號。 \n女 \n謝謝。 \n男 \n請問介紹日本風景的書放在哪裡？"
+    },
+    {
+      "questionId": "listening-q31",
+      "number": 31,
+      "traditional": "男 \n來這家店的人真多。 \n女 \n是啊！這家冰淇淋店有很多種味道的冰淇淋。 \n男 \n我想吃巧克力和牛奶口味的，我們進去吃吧！ \n女 \n好，我請客。 \n男 \n請問他們等一下要做什麼？"
+    },
+    {
+      "questionId": "listening-q32",
+      "number": 32,
+      "traditional": "男 \n照片裡這些人是妳的家人嗎？你們在哪裡拍的？ \n女 \n是啊，這是我的爸爸媽媽。這張照片是在船上拍的。 \n男 \n這個戴帽子的人是誰？ \n女 \n這是我爺爺。他已經七十歲了。 \n男 \n請問他們說的是哪一張照片？"
+    },
+    {
+      "questionId": "listening-q33",
+      "number": 33,
+      "traditional": "男 \n要不要喝點兒啤酒？ \n女 \n不行，我等一下要開車。 \n男 \n那，喝點兒汽水吧？ \n女 \n我還是喝茶好了。 \n男 \n請問這位小姐決定喝什麼？"
+    },
+    {
+      "questionId": "listening-q34",
+      "number": 34,
+      "traditional": "男 \n妳的房間這麼亂，為什麼不整理？ \n女 \n我本來上星期日要整理房間，但是我的經理要我去公司。 \n男 \n那妳今天看了一個下午的書，為什麼不打掃？ \n女 \n好啦！我明天會整理。 \n男 \n請問這位小姐明天打算做什麼？"
+    },
+    {
+      "questionId": "listening-q35",
+      "number": 35,
+      "traditional": "男 \n這裡的天氣怎麼樣？ \n女 \n冬天太冷，夏天太熱。 \n男 \n那麼春天呢？ \n女 \n常常下雨。 \n男 \n請問這裡的春天常常怎麼樣？"
+    },
+    {
+      "questionId": "listening-q36",
+      "number": 36,
+      "traditional": "男 \n我想找王先生。 \n女 \n請問您和他約好了嗎？ \n男 \n沒有。是他要我來找他的。 \n女 \n您先留下您的電話，我會請王先生打電話給您。 \n男 \n請問這位小姐要這位先生做什麼？"
+    },
+    {
+      "questionId": "listening-q37",
+      "number": 37,
+      "traditional": "男 \n小春的生日快到了，我們一起送他禮物，怎麼樣？ \n女 \n好啊！他喜歡畫畫，我們可以送他畫畫用的筆。 \n男 \n嗯，還可以送他放筆的袋子。 \n女 \n好啊，今天下課以後我們一起去買禮物吧。 \n男 \n請問他們決定送什麼？"
+    },
+    {
+      "questionId": "listening-q38",
+      "number": 38,
+      "traditional": "男 \n妳看電視新聞了嗎？有一個很可怕的消息。 \n女 \n什麼可怕的消息？ \n男 \n妳快點開電視，我剛剛才看到的。 \n女 \n我上網看過新聞了，可是沒看到什麼可怕的消息。 \n男 \n請問這位先生從哪裡知道可怕的消息？"
+    },
+    {
+      "questionId": "listening-q39",
+      "number": 39,
+      "traditional": "男 \n妳想吃什麼? \n女 \n聽說這裡的北京烤鴨很好吃。 \n男 \n我們點一隻烤鴨，一碗酸辣湯，怎麼樣？ \n女 \n再點一個糖醋魚吧！ \n男 \n請問他們應該在什麼地方？"
+    },
+    {
+      "questionId": "listening-q40",
+      "number": 40,
+      "traditional": "男 \n已經很晚了，妳怎麼還在這裡？ \n女 \n經理說明天要和他一起討論，我今天一定要準備好。 \n男 \n我不放心妳一個人回家，還是等會兒我開車送妳回去。 \n女 \n謝謝你！但是我今天晚上打算睡在公司裡。 \n男 \n請問這位小姐今天晚上打算做什麼？ \n \n第四部分 對話"
+    },
+    {
+      "questionId": "listening-q41",
+      "number": 41,
+      "traditional": "男 \n我昨天運動了一整天。 \n女 \n你看你，累到說不了話了？ \n男 \n喔，不是因為運動，是因為我早上五點就起床了，所以想睡覺。 \n女 \n你這樣沒辦法上班，我幫你請假，你快回去睡吧！ \n男 \n請問這位小姐為什麼要幫這位先生請假？"
+    },
+    {
+      "questionId": "listening-q42",
+      "number": 42,
+      "traditional": "男 \n妳上個禮拜的旅行怎麼樣？ \n女 \n還不錯。交通方便、風景漂亮，我想去的地方都去了。 \n男 \n那真是個開心的旅行。 \n女 \n嗯，雖然每件事都不錯，但是我回國的時候，把錢包掉在旅館了。 \n男 \n關於這位小姐，下面哪一個是對的？"
+    },
+    {
+      "questionId": "listening-q43",
+      "number": 43,
+      "traditional": "男 \n妳怎麼了？好像不太開心的樣子。 \n女 \n我沒事，我每次考試的時候就會這樣。 \n男 \n可是昨天不是已經考完了嗎？ \n女 \n是啊，可是我很擔心沒考好。 \n男 \n這位小姐為什麼不開心？"
+    },
+    {
+      "questionId": "listening-q44",
+      "number": 44,
+      "traditional": "女 \n王先生嗎？您好，我是住在您家樓下的陳太太。 \n男 \n請問有什麼事嗎？ \n女 \n我總是聽到您走路的聲音，有時還聽到您與女朋友大聲地講話。我找您好\n幾次了，可是您都不在家。 \n男 \n啊！不好意思，不好意思，我會注意的。 \n女 \n陳太太為什麼找王先生？"
+    },
+    {
+      "questionId": "listening-q45",
+      "number": 45,
+      "traditional": "男 \n妳昨天怎麼那麼晚才睡？ \n女 \n我昨天十二點多睡的，我不覺得晚啊！ \n男 \n都半夜了，還不晚？這麼晚才睡覺對身體很不好。 \n女 \n還好吧？我一直都是這個時間睡覺，也沒生什麼病。 \n女 \n請問這位小姐的意思是什麼？"
+    },
+    {
+      "questionId": "listening-q46",
+      "number": 46,
+      "traditional": "男 \n夏天到了，我們明天去海邊吧！ \n女 \n好啊！你覺得我應該穿短裙好呢？還是短褲好呢？ \n男 \n我覺得妳應該穿短褲，因為我們要在沙灘上打球。 \n女 \n好啊，明天見。 \n女 \n請問這位先生說了什麼？"
+    },
+    {
+      "questionId": "listening-q47",
+      "number": 47,
+      "traditional": "男 \n為了妳的生日，我想請妳吃蛋糕。 \n女 \n你人來我就很開心了，蛋糕，我來準備就好了。 \n男 \n這是為了感謝妳請我參加明天的生日舞會，或是妳有更想要的禮物嗎？ \n女 \n你太客氣了。吃蛋糕和收禮物都不是最重要的事。 \n女 \n請問這位小姐的意思是什麼？"
+    },
+    {
+      "questionId": "listening-q48",
+      "number": 48,
+      "traditional": "男 \n我要去逛百貨公司，要一起嗎？ \n女 \n我最近花了太多錢了，還是不要吧。 \n男 \n最近百貨公司有活動，很多商品不但很便宜，還會給很多試用的東西。 \n女 \n喔，有不用花錢的啊！那我們快走吧！ \n女 \n為什麼這位小姐想去百貨公司？"
+    },
+    {
+      "questionId": "listening-q49",
+      "number": 49,
+      "traditional": "男 \n今天天氣好熱，我們在家吹冷氣多好，還是不要去買衣服了。 \n女 \n不行，你昨天答應我今天要出門買衣服。 \n男 \n可是妳沒發現衣服已經很多了嗎？ \n女 \n我覺得，你只是怕太晚回家，沒辦法看棒球比賽！ \n女 \n請問下面哪一個是對的？"
+    },
+    {
+      "questionId": "listening-q50",
+      "number": 50,
+      "traditional": "男 \n小姐，這是昨天跟你們買的牛奶，味道有點奇怪，我想換一瓶新的。 \n女 \n請問您帶了發票嗎？ \n男 \n喔，我沒帶來。 \n女 \n我們要看到發票，才能換東西，不好意思。 \n女 \n這位小姐的意思是什麼？"
+    }
+  ]
+}

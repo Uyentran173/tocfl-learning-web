@@ -60,6 +60,20 @@ def _novice_print_line(value: str) -> str:
     return lines[-1] if lines else value.strip()
 
 
+def _shared_gap_pool(text: str, first: int) -> tuple[str, list[str]]:
+    matches = list(CHOICE.finditer(text))
+    if [match.group(1) for match in matches] != list("ABCDEF"):
+        raise ImportErrorWithContext(f"Reading Q{first}–{first + 4} shared six-choice pool is ambiguous")
+    passage = text[:matches[0].start()].strip()
+    markers = [int(value) for value in re.findall(r"[（(]\s*(\d{1,2})\s*[）)]", passage)]
+    if markers != list(range(first, first + 5)):
+        raise ImportErrorWithContext(f"Reading Q{first}–{first + 4} passage gaps are ambiguous")
+    choices = [text[match.end():matches[i + 1].start() if i + 1 < len(matches) else len(text)].strip() for i, match in enumerate(matches)]
+    if any(not choice for choice in choices):
+        raise ImportErrorWithContext(f"Reading Q{first}–{first + 4} choice pool is incomplete")
+    return passage, choices
+
+
 def extract_image_paper(data: bytes, skill: str, band: str, expected_count: int) -> VisualExtract:
     """Map numbered questions to embedded images using their PDF page coordinates.
 
@@ -75,14 +89,20 @@ def extract_image_paper(data: bytes, skill: str, band: str, expected_count: int)
         page_text = page.get_text()
         if any(marker in page_text for marker in ("說明：", "說明:", "说明：", "说明:")):
             continue
+        if skill == "reading" and band == "A" and expected == 36 and all(f"（{n}）" in page_text for n in range(36, 46)):
+            second = list(re.finditer(r"(?m)^.*（41）.*$", page_text))
+            if len(second) != 1:
+                raise ImportErrorWithContext("Reading Q36–45 passage boundary is ambiguous")
+            for first, text in ((36, page_text[:second[0].start()]), (41, page_text[second[0].start():])):
+                passage, choices = _shared_gap_pool(text, first)
+                group = f"reading-q{first}-q{first + 4}"
+                contexts[group] = passage
+                for number in range(first, first + 5):
+                    questions[number] = {"number": number, "type": "gap_filling", "choices": list("ABCDEF"), "questionText": "", "choiceText": choices, "stimulusGroupId": group}
+            expected = 46
+            continue
         if skill == "reading" and band == "A" and expected == 41 and all(f"（{n}）" in page_text for n in range(41, 46)):
-            matches = list(CHOICE.finditer(page_text))
-            if [match.group(1) for match in matches] != list("ABCDEF"):
-                raise ImportErrorWithContext("Reading Q41–45 shared six-choice pool is ambiguous")
-            passage = page_text[:matches[0].start()].strip()
-            choices = [page_text[match.end():matches[i + 1].start() if i + 1 < len(matches) else len(page_text)].strip() for i, match in enumerate(matches)]
-            if not passage or any(not choice for choice in choices):
-                raise ImportErrorWithContext("Reading Q41–45 passage or choice pool is empty")
+            passage, choices = _shared_gap_pool(page_text, 41)
             group = "reading-q41-q45"
             contexts[group] = passage
             for number in range(41, 46):

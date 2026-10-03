@@ -26,10 +26,10 @@ def extract_answers(data: bytes, skill: str | None = None, *, band: str | None =
         stop = text.find("TOCFL-Novice Reading", start + 1) if skill == "listening" else -1
         text = text[start:stop if stop >= 0 else None]
     pairs = re.findall(r"(?m)^\s*(\d{1,2})\s*\n\s*([A-F])\s*$", text)
-    # The official Band A Series 1–2 Listening keys print 44 at position 34,
+    # The official Band A Series 1–3 Listening keys print 44 at position 34,
     # between 33 and 35, and print the real 44 again later. Keep its answer
     # letter; correct only this fully verified numbering typo.
-    if band == "A" and series in {1, 2} and skill == "listening" and len(pairs) == 50:
+    if band == "A" and series in {1, 2, 3} and skill == "listening" and len(pairs) == 50:
         numbers = [int(number) for number, _ in pairs]
         if numbers[33] == 44 and all(number == index for index, number in enumerate(numbers, 1) if index != 34):
             pairs[33] = ("34", pairs[33][1])

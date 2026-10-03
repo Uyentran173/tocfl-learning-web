@@ -20,7 +20,7 @@ export function CroppedSource({ question, crop, label, evidence }: { question: Q
     height: `${evidence.height / crop.height * 100}%`,
   } : undefined;
   return <div role="img" aria-label={label} className="relative mx-auto w-full overflow-hidden rounded-lg bg-white" style={style}>
-    <Image src={question.imageUrl!} alt="" width={crop.sourceWidth} height={crop.sourceHeight} unoptimized className="absolute left-0 top-0 block" style={imageStyle} />
+    <Image src={question.imageUrl!} alt="" width={crop.sourceWidth} height={crop.sourceHeight} unoptimized loading="eager" className="absolute left-0 top-0 block" style={imageStyle} />
     {evidenceStyle && <span aria-hidden="true" className="review-image-evidence" style={evidenceStyle} />}
   </div>;
 }

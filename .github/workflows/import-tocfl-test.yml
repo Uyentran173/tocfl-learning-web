@@ -1,0 +1,81 @@
+name: Import TOCFL Test
+
+on:
+  workflow_dispatch:
+    inputs:
+      series:
+        description: Official mock-test series number
+        required: true
+        type: string
+      band:
+        description: TOCFL Band
+        required: true
+        type: choice
+        options: [Novice, A, B, C]
+      component:
+        description: Complete test, or inspect one component only
+        required: true
+        type: choice
+        options: [all, listening, reading]
+      update:
+        description: Re-import an existing official Series into its current test ID
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.25.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: pnpm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: scripts/tocfl_import/requirements.txt
+      - run: pnpm install --frozen-lockfile
+      - run: python3 -m pip install -r scripts/tocfl_import/requirements.txt
+      - name: Import complete test
+        if: inputs.component == 'all'
+        env:
+          TOCFL_SERIES: ${{ inputs.series }}
+          TOCFL_BAND: ${{ inputs.band }}
+          TOCFL_UPDATE: ${{ inputs.update }}
+        run: |
+          if [ "$TOCFL_UPDATE" = 'true' ]; then
+            pnpm tocfl:import --series "$TOCFL_SERIES" --band "$TOCFL_BAND" --type all --update
+          else
+            pnpm tocfl:import --series "$TOCFL_SERIES" --band "$TOCFL_BAND" --type all
+          fi
+      - name: Inspect individual component
+        if: inputs.component != 'all'
+        env:
+          TOCFL_SERIES: ${{ inputs.series }}
+          TOCFL_BAND: ${{ inputs.band }}
+          TOCFL_COMPONENT: ${{ inputs.component }}
+        run: pnpm tocfl:import --series "$TOCFL_SERIES" --band "$TOCFL_BAND" --type "$TOCFL_COMPONENT" --dry-run
+      - name: Create review pull request
+        if: inputs.component == 'all'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: tocfl-import/run-${{ github.run_id }}
+          title: 'Import TOCFL series ${{ inputs.series }} Band ${{ inputs.band }}'
+          commit-message: 'Import TOCFL series ${{ inputs.series }} Band ${{ inputs.band }}'
+          body: |
+            Automated official TOCFL import. Review question text, Traditional/Simplified variants, semantic images, audio groups, answers and score conversion before merging.
+          add-paths: |
+            data/structured-tests/**
+            data/test-supplements/**
+            data/import-manifests/**
+            public/tests/**

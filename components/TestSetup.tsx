@@ -1,11 +1,13 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import { scriptQuery, sectionCount, selectTestScope, type MockTest, type ScriptVariant, type TestScope } from "@/lib/tests";
-import StartTestButton from "./StartTestButton";
-import { clearSession, type ExamMode } from "@/lib/session";
+import { scriptQuery, type ScriptVariant, type Section, type TestScope } from "@/lib/tests";
+import { clearSession, readSession, startSession, type ExamMode } from "@/lib/session";
+import { preloadStartAudio, type ExamStartData } from "@/lib/exam-start-preload";
+import { preloadQuestionImages } from "@/lib/exam-image-preload";
+import ExamStartPending from "./ExamStartPending";
 
 const scopes: { value: TestScope; title: string; description: string }[] = [
   { value: "listening", title: "Chỉ phần Nghe", description: "Làm và nhận kết quả riêng cho phần Nghe." },
@@ -13,16 +15,53 @@ const scopes: { value: TestScope; title: string; description: string }[] = [
   { value: "full", title: "Làm toàn bộ đề", description: "Làm phần Nghe, tiếp đến phần Đọc." },
 ];
 
-export default function TestSetup({ test, variants }: { test: MockTest; variants?: Record<ScriptVariant, MockTest> }) {
+type TestSummary = { id: string; title: string; level: string; sections: Section[]; questionCount: number; sectionCounts: Record<Section, number> };
+
+export default function TestSetup({ test, starts }: { test: TestSummary; starts: Record<ScriptVariant, Record<TestScope, ExamStartData>> }) {
   const router = useRouter();
   const [selectedMode, setSelectedMode] = useState<ExamMode | null>(null);
   const [selectedScope, setSelectedScope] = useState<TestScope | null>(null);
+  const [pendingSection, setPendingSection] = useState<Section | null>(null);
+  const startingRef = useRef(false);
   const availableScopes = scopes.filter((option) => option.value === "full" ? test.sections.length > 1 : test.sections.includes(option.value));
-  function enterSimulation(selectedTest: MockTest) {
-    clearSession(test.id);
-    window.sessionStorage.setItem(`tocfl-simulation-intro:${test.id}`, "1");
-    router.push(`/tocfl/${test.id}/exam${scriptQuery(selectedTest)}`);
+
+  useEffect(() => {
+    // The intro and first audio question are shared by both scripts.
+    preloadStartAudio(starts.traditional.full);
+  }, [starts]);
+
+  useEffect(() => {
+    if (!selectedScope) return;
+    for (const script of ["traditional", "simplified"] as const) {
+      const selected = starts[script][selectedScope];
+      router.prefetch(`/tocfl/${test.id}/exam${scriptQuery(selected)}`);
+      preloadStartAudio(selected);
+      if (selected.questions[0]) void preloadQuestionImages(selected.questions[0]);
+    }
+  }, [router, selectedScope, starts, test.id]);
+
+  function beginTest(selected: ExamStartData) {
+    if (startingRef.current || !selectedMode) return;
+    startingRef.current = true;
+    setPendingSection(selected.questions[0]?.section ?? "listening");
+    const mode = selectedMode;
+    const destination = `/tocfl/${test.id}/exam${scriptQuery(selected)}`;
+    // Paint the next-screen shell before reading storage or starting navigation.
+    window.requestAnimationFrame(() => window.setTimeout(() => {
+      if (mode === "simulation") {
+        clearSession(test.id);
+        window.sessionStorage.setItem(`tocfl-simulation-intro:${test.id}`, "1");
+      } else {
+        window.sessionStorage.removeItem(`tocfl-simulation-intro:${test.id}`);
+        const existing = readSession(test.id);
+        if (!existing || existing.status === "submitted" || existing.mode !== mode || (existing.scope ?? "full") !== (selected.scope ?? "full") || existing.script !== selected.script) startSession(selected, mode);
+        // ExamClient restores older practice sessions with the complete test data.
+      }
+      router.push(destination);
+    }, 0));
   }
+
+  if (pendingSection) return <ExamStartPending section={pendingSection} />;
 
   return <main className="mx-auto max-w-4xl px-5 py-8 sm:px-8 sm:py-14">
     <Link href="/tocfl" className="button-quiet text-sm">← Thư viện đề thi</Link>
@@ -35,12 +74,12 @@ export default function TestSetup({ test, variants }: { test: MockTest; variants
       <div className="px-6 py-8 sm:px-10 sm:py-10">
         <div className="grid gap-5 sm:grid-cols-3">
           <div><p className="text-sm muted">Cấp độ</p><p className="mt-1 text-xl font-semibold">{test.level}</p></div>
-          <div><p className="text-sm muted">Số câu hỏi</p><p className="mt-1 text-xl font-semibold">{test.questions.length}</p></div>
+          <div><p className="text-sm muted">Số câu hỏi</p><p className="mt-1 text-xl font-semibold">{test.questionCount}</p></div>
           <div><p className="text-sm muted">Thời gian luyện tập</p><p className="mt-1 text-xl font-semibold">60 phút / phần</p></div>
         </div>
         <div className="my-8 h-px bg-[var(--border)]" />
         <h2 className="text-lg font-semibold">Phần thi trong đề</h2>
-        <div className="mt-4 grid gap-3 sm:grid-cols-2">{test.sections.map((section) => <div key={section} className="rounded-xl border border-[var(--border)] p-4"><span className="font-semibold">{section === "listening" ? "Nghe" : "Đọc"}</span><span className="float-right text-sm muted">{sectionCount(test, section)} câu</span></div>)}</div>
+        <div className="mt-4 grid gap-3 sm:grid-cols-2">{test.sections.map((section) => <div key={section} className="rounded-xl border border-[var(--border)] p-4"><span className="font-semibold">{section === "listening" ? "Nghe" : "Đọc"}</span><span className="float-right text-sm muted">{test.sectionCounts[section]} câu</span></div>)}</div>
         <h2 className="mt-9 text-lg font-semibold">Lưu ý trước khi làm bài</h2>
         <ul className="mt-3 list-disc space-y-2 pl-5 leading-7 muted">
           <li>Câu trả lời và câu đang làm được tự động lưu trên thiết bị này.</li>
@@ -66,8 +105,8 @@ export default function TestSetup({ test, variants }: { test: MockTest; variants
             <h2 className="text-lg font-semibold">Chọn loại chữ</h2>
             <p className="mt-2 text-sm leading-6 muted">Phần thi đã chọn: {scopes.find((option) => option.value === selectedScope)?.title}.</p>
             <div className="mt-4 grid gap-3 sm:grid-cols-2">{(["traditional", "simplified"] as const).map((script) => {
-              const selectedTest = selectTestScope(variants?.[script] ?? test, selectedScope);
-              return <div key={script} className="mode-card"><p className="text-lg font-semibold">{script === "traditional" ? "Chữ Phồn thể" : "Chữ Giản thể"}</p><p className="mt-2 min-h-12 text-sm leading-6 muted">{script === "traditional" ? "Đọc đề theo chữ Phồn thể." : "Đọc đề theo chữ Giản thể."}</p>{selectedMode === "practice" ? <StartTestButton test={selectedTest} mode="practice" label="Bắt đầu →" className="button-secondary" /> : <button type="button" className="button-secondary" onClick={() => enterSimulation(selectedTest)}>Bắt đầu →</button>}</div>;
+              const selectedTest = starts[script][selectedScope];
+              return <div key={script} className="mode-card"><p className="text-lg font-semibold">{script === "traditional" ? "Chữ Phồn thể" : "Chữ Giản thể"}</p><p className="mt-2 min-h-12 text-sm leading-6 muted">{script === "traditional" ? "Đọc đề theo chữ Phồn thể." : "Đọc đề theo chữ Giản thể."}</p><button type="button" className="button-secondary" onClick={() => beginTest(selectedTest)}>Bắt đầu →</button></div>;
             })}</div>
             <button type="button" className="button-quiet mt-5 text-sm" onClick={() => setSelectedScope(null)}>← Chọn lại phần thi</button>
           </>}

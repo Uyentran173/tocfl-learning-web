@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { buildPlaybackSequences } from "../lib/playback-plan.ts";
-import { getBandBReadingVisual } from "../lib/band-b-reading-visual.ts";
+import { getBandBReadingVisual, isBandBDocumentQuestion } from "../lib/band-b-reading-visual.ts";
 import { materializeStructuredTest } from "../lib/structured-tests.ts";
 
 const root = join(import.meta.dirname, "..");
@@ -75,11 +75,17 @@ test("grouped Reading images keep one shared context and only the current questi
     for (const script of exam.variants) {
       const visual = getBandBReadingVisual({ section: "reading", number: question.number, script, imageUrl: question.assets[script] });
       if (question.number === 16 || question.number === 17) { assert.equal(visual, null); continue; }
-      assert.equal(visual.crops.length, 2, `${script} Q${question.number}`);
-      const [context, current] = visual.crops;
-      assert.equal(context.x, 0);
-      assert.equal(context.y, 0);
-      assert.ok(context.y + context.height <= current.y, `${script} Q${question.number}`);
+      const isDocument = isBandBDocumentQuestion({ section: "reading", number: question.number, imageUrl: question.assets[script] });
+      if (question.number === 24) assert.equal(isDocument, true, `${script} Q24 remains a document question`);
+      if (isDocument) {
+        assert.equal(visual.crops.length, 1, `${script} Q${question.number}`);
+      } else {
+        assert.equal(visual.crops.length, 2, `${script} Q${question.number}`);
+        const [context, current] = visual.crops;
+        assert.equal(context.x, 0);
+        assert.equal(context.y, 0);
+        assert.ok(context.y + context.height <= current.y, `${script} Q${question.number}`);
+      }
       for (const crop of visual.crops) {
         assert.ok(crop.width > 0 && crop.height > 0 && crop.x >= 0 && crop.y >= 0);
         assert.ok(crop.x + crop.width <= crop.sourceWidth && crop.y + crop.height <= crop.sourceHeight, `${script} Q${question.number}`);

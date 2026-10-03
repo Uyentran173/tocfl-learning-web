@@ -1,0 +1,4459 @@
+{
+  "schemaVersion": "1.0",
+  "exam": {
+    "id": "band-a-test-02",
+    "title": "TOCFL Band A — Đề 02",
+    "level": "Band A",
+    "variants": [
+      "traditional",
+      "simplified"
+    ],
+    "defaultVariant": "traditional",
+    "componentOrder": [
+      "listening",
+      "reading"
+    ],
+    "questionNumbering": "restart_per_component",
+    "totalQuestions": 100,
+    "componentScoresSeparate": true,
+    "publishReady": true,
+    "source": {
+      "officialUrl": "https://tocfl.edu.tw/tocfl/index.php/exam/test/page/1?pressBtn=(MockText)",
+      "series": 2,
+      "files": {
+        "listening": {
+          "traditional_pdf": "https://tocfl.edu.tw/tocfl/assets/files/mock/ls_mock2_test_BandA_vie_t.pdf",
+          "simplified_pdf": "https://tocfl.edu.tw/tocfl/assets/files/mock/ls_mock2_test_BandA_vie_s.pdf",
+          "audio_archive": "https://tocfl.edu.tw/tocfl/assets/files/mock/mock2_BandA_mp3_vie.rar",
+          "answer_pdf": "https://tocfl.edu.tw/tocfl/assets/files/mock/ls_mock2_test_BandA_answer.pdf",
+          "transcript_pdf": "https://tocfl.edu.tw/tocfl/assets/files/mock/ls_mock2_test_BandA_listen.pdf",
+          "score_pdf": "https://tocfl.edu.tw/tocfl/assets/files/mock/Table2_Listening_A.pdf"
+        },
+        "reading": {
+          "traditional_pdf": "https://tocfl.edu.tw/tocfl/assets/files/mock/rd_mock2_test_BandA_vie_t.pdf",
+          "simplified_pdf": "https://tocfl.edu.tw/tocfl/assets/files/mock/rd_mock2_test_BandA_vie_s.pdf",
+          "answer_pdf": "https://tocfl.edu.tw/tocfl/assets/files/mock/rd_mock2_test_BandA_answer.pdf",
+          "score_pdf": "https://tocfl.edu.tw/tocfl/assets/files/mock/Table2_Reading_A.pdf"
+        },
+        "page_url": "https://tocfl.edu.tw/tocfl/index.php/exam/test/page/1?pressBtn=(MockText)"
+      }
+    },
+    "sourceWarnings": [
+      {
+        "skill": "listening",
+        "message": "Official Listening answer key prints Q44 between Q33 and Q35; its answer is mapped by verified row position to Q34"
+      }
+    ]
+  },
+  "flow": {
+    "order": [
+      "listening",
+      "reading"
+    ],
+    "mustCompleteInOrder": true,
+    "preserveSelectedVariantBetweenComponents": true
+  },
+  "components": {
+    "listening": {
+      "id": "listening",
+      "title": "Nghe",
+      "order": 1,
+      "durationSeconds": 3600,
+      "totalQuestions": 50,
+      "choiceLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "sections": [
+        {
+          "id": "listening-part-1",
+          "title": "Part 1",
+          "startQuestion": 1,
+          "endQuestion": 25
+        },
+        {
+          "id": "listening-part-2",
+          "title": "Part 2",
+          "startQuestion": 26,
+          "endQuestion": 40
+        },
+        {
+          "id": "listening-part-3",
+          "title": "Part 3",
+          "startQuestion": 41,
+          "endQuestion": 45
+        },
+        {
+          "id": "listening-part-4",
+          "title": "Part 4",
+          "startQuestion": 46,
+          "endQuestion": 50
+        }
+      ],
+      "audio": {
+        "provided": true,
+        "groups": [],
+        "part1Preamble": "/tests/band-a-test-02/listening/audio/preamble.mp3",
+        "part1Intro": "/tests/band-a-test-02/listening/audio/part-1-intro.mp3",
+        "part2Intro": "/tests/band-a-test-02/listening/audio/part-2-intro.mp3",
+        "part3Intro": "/tests/band-a-test-02/listening/audio/part-3-intro.mp3",
+        "part4Intro": "/tests/band-a-test-02/listening/audio/part-4-intro.mp3",
+        "endingTrack": "/tests/band-a-test-02/listening/audio/ending.mp3",
+        "examPlaybackPlan": [
+          {
+            "type": "track",
+            "role": "part_1_preamble",
+            "path": "/tests/band-a-test-02/listening/audio/preamble.mp3"
+          },
+          {
+            "type": "track",
+            "role": "part_1_instructions",
+            "path": "/tests/band-a-test-02/listening/audio/part-1-intro.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q01",
+            "path": "/tests/band-a-test-02/listening/audio/q01.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q02",
+            "path": "/tests/band-a-test-02/listening/audio/q02.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q03",
+            "path": "/tests/band-a-test-02/listening/audio/q03.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q04",
+            "path": "/tests/band-a-test-02/listening/audio/q04.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q05",
+            "path": "/tests/band-a-test-02/listening/audio/q05.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q06",
+            "path": "/tests/band-a-test-02/listening/audio/q06.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q07",
+            "path": "/tests/band-a-test-02/listening/audio/q07.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q08",
+            "path": "/tests/band-a-test-02/listening/audio/q08.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q09",
+            "path": "/tests/band-a-test-02/listening/audio/q09.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q10",
+            "path": "/tests/band-a-test-02/listening/audio/q10.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q11",
+            "path": "/tests/band-a-test-02/listening/audio/q11.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q12",
+            "path": "/tests/band-a-test-02/listening/audio/q12.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q13",
+            "path": "/tests/band-a-test-02/listening/audio/q13.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q14",
+            "path": "/tests/band-a-test-02/listening/audio/q14.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q15",
+            "path": "/tests/band-a-test-02/listening/audio/q15.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q16",
+            "path": "/tests/band-a-test-02/listening/audio/q16.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q17",
+            "path": "/tests/band-a-test-02/listening/audio/q17.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q18",
+            "path": "/tests/band-a-test-02/listening/audio/q18.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q19",
+            "path": "/tests/band-a-test-02/listening/audio/q19.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q20",
+            "path": "/tests/band-a-test-02/listening/audio/q20.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q21",
+            "path": "/tests/band-a-test-02/listening/audio/q21.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q22",
+            "path": "/tests/band-a-test-02/listening/audio/q22.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q23",
+            "path": "/tests/band-a-test-02/listening/audio/q23.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q24",
+            "path": "/tests/band-a-test-02/listening/audio/q24.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q25",
+            "path": "/tests/band-a-test-02/listening/audio/q25.mp3"
+          },
+          {
+            "type": "track",
+            "role": "part_2_instructions",
+            "path": "/tests/band-a-test-02/listening/audio/part-2-intro.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q26",
+            "path": "/tests/band-a-test-02/listening/audio/q26.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q27",
+            "path": "/tests/band-a-test-02/listening/audio/q27.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q28",
+            "path": "/tests/band-a-test-02/listening/audio/q28.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q29",
+            "path": "/tests/band-a-test-02/listening/audio/q29.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q30",
+            "path": "/tests/band-a-test-02/listening/audio/q30.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q31",
+            "path": "/tests/band-a-test-02/listening/audio/q31.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q32",
+            "path": "/tests/band-a-test-02/listening/audio/q32.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q33",
+            "path": "/tests/band-a-test-02/listening/audio/q33.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q34",
+            "path": "/tests/band-a-test-02/listening/audio/q34.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q35",
+            "path": "/tests/band-a-test-02/listening/audio/q35.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q36",
+            "path": "/tests/band-a-test-02/listening/audio/q36.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q37",
+            "path": "/tests/band-a-test-02/listening/audio/q37.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q38",
+            "path": "/tests/band-a-test-02/listening/audio/q38.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q39",
+            "path": "/tests/band-a-test-02/listening/audio/q39.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q40",
+            "path": "/tests/band-a-test-02/listening/audio/q40.mp3"
+          },
+          {
+            "type": "track",
+            "role": "part_3_instructions",
+            "path": "/tests/band-a-test-02/listening/audio/part-3-intro.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q41",
+            "path": "/tests/band-a-test-02/listening/audio/q41.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q42",
+            "path": "/tests/band-a-test-02/listening/audio/q42.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q43",
+            "path": "/tests/band-a-test-02/listening/audio/q43.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q44",
+            "path": "/tests/band-a-test-02/listening/audio/q44.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q45",
+            "path": "/tests/band-a-test-02/listening/audio/q45.mp3"
+          },
+          {
+            "type": "track",
+            "role": "part_4_instructions",
+            "path": "/tests/band-a-test-02/listening/audio/part-4-intro.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q46",
+            "path": "/tests/band-a-test-02/listening/audio/q46.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q47",
+            "path": "/tests/band-a-test-02/listening/audio/q47.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q48",
+            "path": "/tests/band-a-test-02/listening/audio/q48.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q49",
+            "path": "/tests/band-a-test-02/listening/audio/q49.mp3"
+          },
+          {
+            "type": "question",
+            "questionId": "listening-q50",
+            "path": "/tests/band-a-test-02/listening/audio/q50.mp3"
+          },
+          {
+            "type": "track",
+            "role": "ending",
+            "path": "/tests/band-a-test-02/listening/audio/ending.mp3"
+          }
+        ]
+      },
+      "transcriptDataPath": "data/test-supplements/band-a-test-02/listening-transcripts.json",
+      "scoring": {
+        "type": "lookup_table",
+        "maxScore": 80,
+        "scoreByCorrectCount": {
+          "1": 10,
+          "26": 42,
+          "2": 10,
+          "27": 43,
+          "3": 10,
+          "28": 45,
+          "4": 11,
+          "29": 46,
+          "5": 14,
+          "30": 47,
+          "6": 16,
+          "31": 48,
+          "7": 18,
+          "32": 50,
+          "8": 20,
+          "33": 51,
+          "9": 21,
+          "34": 53,
+          "10": 23,
+          "35": 54,
+          "11": 24,
+          "36": 56,
+          "12": 26,
+          "37": 57,
+          "13": 27,
+          "38": 59,
+          "14": 28,
+          "39": 61,
+          "15": 29,
+          "40": 62,
+          "16": 31,
+          "41": 64,
+          "17": 32,
+          "42": 66,
+          "18": 33,
+          "43": 68,
+          "19": 34,
+          "44": 71,
+          "20": 35,
+          "45": 73,
+          "21": 36,
+          "46": 77,
+          "22": 37,
+          "47": 80,
+          "23": 39,
+          "48": 80,
+          "24": 40,
+          "49": 80,
+          "25": 41,
+          "50": 80
+        }
+      },
+      "questions": [
+        {
+          "id": "listening-q01",
+          "number": 1,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q01.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q01.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q01",
+          "assets": {
+            "traditional": "/tests/band-a-test-02/listening/assets/traditional/q01-image.png",
+            "simplified": "/tests/band-a-test-02/listening/assets/simplified/q01-image.png"
+          }
+        },
+        {
+          "id": "listening-q02",
+          "number": 2,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q02.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q02.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q02",
+          "assets": {
+            "traditional": "/tests/band-a-test-02/listening/assets/traditional/q02-image.png",
+            "simplified": "/tests/band-a-test-02/listening/assets/simplified/q02-image.png"
+          }
+        },
+        {
+          "id": "listening-q03",
+          "number": 3,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q03.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q03.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q03",
+          "assets": {
+            "traditional": "/tests/band-a-test-02/listening/assets/traditional/q03-image.png",
+            "simplified": "/tests/band-a-test-02/listening/assets/simplified/q03-image.png"
+          }
+        },
+        {
+          "id": "listening-q04",
+          "number": 4,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q04.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q04.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q04",
+          "assets": {
+            "traditional": "/tests/band-a-test-02/listening/assets/traditional/q04-image.png",
+            "simplified": "/tests/band-a-test-02/listening/assets/simplified/q04-image.png"
+          }
+        },
+        {
+          "id": "listening-q05",
+          "number": 5,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q05.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q05.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q05",
+          "assets": {
+            "traditional": "/tests/band-a-test-02/listening/assets/traditional/q05-image.png",
+            "simplified": "/tests/band-a-test-02/listening/assets/simplified/q05-image.png"
+          }
+        },
+        {
+          "id": "listening-q06",
+          "number": 6,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q06.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q06.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q06",
+          "assets": {
+            "traditional": "/tests/band-a-test-02/listening/assets/traditional/q06-image.png",
+            "simplified": "/tests/band-a-test-02/listening/assets/simplified/q06-image.png"
+          }
+        },
+        {
+          "id": "listening-q07",
+          "number": 7,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q07.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q07.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q07",
+          "assets": {
+            "traditional": "/tests/band-a-test-02/listening/assets/traditional/q07-image.png",
+            "simplified": "/tests/band-a-test-02/listening/assets/simplified/q07-image.png"
+          }
+        },
+        {
+          "id": "listening-q08",
+          "number": 8,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q08.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q08.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q08",
+          "assets": {
+            "traditional": "/tests/band-a-test-02/listening/assets/traditional/q08-image.png",
+            "simplified": "/tests/band-a-test-02/listening/assets/simplified/q08-image.png"
+          }
+        },
+        {
+          "id": "listening-q09",
+          "number": 9,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q09.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q09.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q09",
+          "assets": {
+            "traditional": "/tests/band-a-test-02/listening/assets/traditional/q09-image.png",
+            "simplified": "/tests/band-a-test-02/listening/assets/simplified/q09-image.png"
+          }
+        },
+        {
+          "id": "listening-q10",
+          "number": 10,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q10.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q10.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q10",
+          "assets": {
+            "traditional": "/tests/band-a-test-02/listening/assets/traditional/q10-image.png",
+            "simplified": "/tests/band-a-test-02/listening/assets/simplified/q10-image.png"
+          }
+        },
+        {
+          "id": "listening-q11",
+          "number": 11,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q11.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q11.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q11",
+          "assets": {
+            "traditional": "/tests/band-a-test-02/listening/assets/traditional/q11-image.png",
+            "simplified": "/tests/band-a-test-02/listening/assets/simplified/q11-image.png"
+          }
+        },
+        {
+          "id": "listening-q12",
+          "number": 12,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q12.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q12.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q12",
+          "assets": {
+            "traditional": "/tests/band-a-test-02/listening/assets/traditional/q12-image.png",
+            "simplified": "/tests/band-a-test-02/listening/assets/simplified/q12-image.png"
+          }
+        },
+        {
+          "id": "listening-q13",
+          "number": 13,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q13.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q13.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q13",
+          "assets": {
+            "traditional": "/tests/band-a-test-02/listening/assets/traditional/q13-image.png",
+            "simplified": "/tests/band-a-test-02/listening/assets/simplified/q13-image.png"
+          }
+        },
+        {
+          "id": "listening-q14",
+          "number": 14,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q14.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q14.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q14",
+          "assets": {
+            "traditional": "/tests/band-a-test-02/listening/assets/traditional/q14-image.png",
+            "simplified": "/tests/band-a-test-02/listening/assets/simplified/q14-image.png"
+          }
+        },
+        {
+          "id": "listening-q15",
+          "number": 15,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q15.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q15.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q15",
+          "assets": {
+            "traditional": "/tests/band-a-test-02/listening/assets/traditional/q15-image.png",
+            "simplified": "/tests/band-a-test-02/listening/assets/simplified/q15-image.png"
+          }
+        },
+        {
+          "id": "listening-q16",
+          "number": 16,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q16.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q16.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q16",
+          "assets": {
+            "traditional": "/tests/band-a-test-02/listening/assets/traditional/q16-image.png",
+            "simplified": "/tests/band-a-test-02/listening/assets/simplified/q16-image.png"
+          }
+        },
+        {
+          "id": "listening-q17",
+          "number": 17,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q17.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q17.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q17",
+          "assets": {
+            "traditional": "/tests/band-a-test-02/listening/assets/traditional/q17-image.png",
+            "simplified": "/tests/band-a-test-02/listening/assets/simplified/q17-image.png"
+          }
+        },
+        {
+          "id": "listening-q18",
+          "number": 18,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q18.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q18.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q18",
+          "assets": {
+            "traditional": "/tests/band-a-test-02/listening/assets/traditional/q18-image.png",
+            "simplified": "/tests/band-a-test-02/listening/assets/simplified/q18-image.png"
+          }
+        },
+        {
+          "id": "listening-q19",
+          "number": 19,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q19.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q19.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q19",
+          "assets": {
+            "traditional": "/tests/band-a-test-02/listening/assets/traditional/q19-image.png",
+            "simplified": "/tests/band-a-test-02/listening/assets/simplified/q19-image.png"
+          }
+        },
+        {
+          "id": "listening-q20",
+          "number": 20,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q20.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q20.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q20",
+          "assets": {
+            "traditional": "/tests/band-a-test-02/listening/assets/traditional/q20-image.png",
+            "simplified": "/tests/band-a-test-02/listening/assets/simplified/q20-image.png"
+          }
+        },
+        {
+          "id": "listening-q21",
+          "number": 21,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q21.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q21.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q21",
+          "assets": {
+            "traditional": "/tests/band-a-test-02/listening/assets/traditional/q21-image.png",
+            "simplified": "/tests/band-a-test-02/listening/assets/simplified/q21-image.png"
+          }
+        },
+        {
+          "id": "listening-q22",
+          "number": 22,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q22.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q22.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q22",
+          "assets": {
+            "traditional": "/tests/band-a-test-02/listening/assets/traditional/q22-image.png",
+            "simplified": "/tests/band-a-test-02/listening/assets/simplified/q22-image.png"
+          }
+        },
+        {
+          "id": "listening-q23",
+          "number": 23,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q23.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q23.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q23",
+          "assets": {
+            "traditional": "/tests/band-a-test-02/listening/assets/traditional/q23-image.png",
+            "simplified": "/tests/band-a-test-02/listening/assets/simplified/q23-image.png"
+          }
+        },
+        {
+          "id": "listening-q24",
+          "number": 24,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q24.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q24.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q24",
+          "assets": {
+            "traditional": "/tests/band-a-test-02/listening/assets/traditional/q24-image.png",
+            "simplified": "/tests/band-a-test-02/listening/assets/simplified/q24-image.png"
+          }
+        },
+        {
+          "id": "listening-q25",
+          "number": 25,
+          "sectionId": "listening-part-1",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q25.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q25.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q25",
+          "assets": {
+            "traditional": "/tests/band-a-test-02/listening/assets/traditional/q25-image.png",
+            "simplified": "/tests/band-a-test-02/listening/assets/simplified/q25-image.png"
+          }
+        },
+        {
+          "id": "listening-q26",
+          "number": 26,
+          "sectionId": "listening-part-2",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q26.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q26.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q26",
+          "choiceImages": {
+            "traditional": [
+              "/tests/band-a-test-02/listening/assets/traditional/q26-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q26-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q26-choice-C.png"
+            ],
+            "simplified": [
+              "/tests/band-a-test-02/listening/assets/simplified/q26-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q26-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q26-choice-C.png"
+            ]
+          }
+        },
+        {
+          "id": "listening-q27",
+          "number": 27,
+          "sectionId": "listening-part-2",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q27.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q27.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q27",
+          "choiceImages": {
+            "traditional": [
+              "/tests/band-a-test-02/listening/assets/traditional/q27-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q27-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q27-choice-C.png"
+            ],
+            "simplified": [
+              "/tests/band-a-test-02/listening/assets/simplified/q27-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q27-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q27-choice-C.png"
+            ]
+          }
+        },
+        {
+          "id": "listening-q28",
+          "number": 28,
+          "sectionId": "listening-part-2",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q28.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q28.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q28",
+          "choiceImages": {
+            "traditional": [
+              "/tests/band-a-test-02/listening/assets/traditional/q28-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q28-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q28-choice-C.png"
+            ],
+            "simplified": [
+              "/tests/band-a-test-02/listening/assets/simplified/q28-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q28-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q28-choice-C.png"
+            ]
+          }
+        },
+        {
+          "id": "listening-q29",
+          "number": 29,
+          "sectionId": "listening-part-2",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q29.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q29.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q29",
+          "choiceImages": {
+            "traditional": [
+              "/tests/band-a-test-02/listening/assets/traditional/q29-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q29-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q29-choice-C.png"
+            ],
+            "simplified": [
+              "/tests/band-a-test-02/listening/assets/simplified/q29-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q29-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q29-choice-C.png"
+            ]
+          }
+        },
+        {
+          "id": "listening-q30",
+          "number": 30,
+          "sectionId": "listening-part-2",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q30.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q30.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q30",
+          "choiceImages": {
+            "traditional": [
+              "/tests/band-a-test-02/listening/assets/traditional/q30-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q30-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q30-choice-C.png"
+            ],
+            "simplified": [
+              "/tests/band-a-test-02/listening/assets/simplified/q30-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q30-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q30-choice-C.png"
+            ]
+          }
+        },
+        {
+          "id": "listening-q31",
+          "number": 31,
+          "sectionId": "listening-part-2",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q31.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q31.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q31",
+          "choiceImages": {
+            "traditional": [
+              "/tests/band-a-test-02/listening/assets/traditional/q31-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q31-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q31-choice-C.png"
+            ],
+            "simplified": [
+              "/tests/band-a-test-02/listening/assets/simplified/q31-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q31-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q31-choice-C.png"
+            ]
+          }
+        },
+        {
+          "id": "listening-q32",
+          "number": 32,
+          "sectionId": "listening-part-2",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q32.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q32.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q32",
+          "choiceImages": {
+            "traditional": [
+              "/tests/band-a-test-02/listening/assets/traditional/q32-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q32-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q32-choice-C.png"
+            ],
+            "simplified": [
+              "/tests/band-a-test-02/listening/assets/simplified/q32-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q32-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q32-choice-C.png"
+            ]
+          }
+        },
+        {
+          "id": "listening-q33",
+          "number": 33,
+          "sectionId": "listening-part-2",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q33.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q33.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q33",
+          "choiceImages": {
+            "traditional": [
+              "/tests/band-a-test-02/listening/assets/traditional/q33-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q33-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q33-choice-C.png"
+            ],
+            "simplified": [
+              "/tests/band-a-test-02/listening/assets/simplified/q33-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q33-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q33-choice-C.png"
+            ]
+          }
+        },
+        {
+          "id": "listening-q34",
+          "number": 34,
+          "sectionId": "listening-part-2",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q34.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q34.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q34",
+          "choiceImages": {
+            "traditional": [
+              "/tests/band-a-test-02/listening/assets/traditional/q34-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q34-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q34-choice-C.png"
+            ],
+            "simplified": [
+              "/tests/band-a-test-02/listening/assets/simplified/q34-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q34-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q34-choice-C.png"
+            ]
+          }
+        },
+        {
+          "id": "listening-q35",
+          "number": 35,
+          "sectionId": "listening-part-2",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q35.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q35.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q35",
+          "choiceImages": {
+            "traditional": [
+              "/tests/band-a-test-02/listening/assets/traditional/q35-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q35-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q35-choice-C.png"
+            ],
+            "simplified": [
+              "/tests/band-a-test-02/listening/assets/simplified/q35-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q35-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q35-choice-C.png"
+            ]
+          }
+        },
+        {
+          "id": "listening-q36",
+          "number": 36,
+          "sectionId": "listening-part-2",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q36.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q36.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q36",
+          "choiceImages": {
+            "traditional": [
+              "/tests/band-a-test-02/listening/assets/traditional/q36-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q36-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q36-choice-C.png"
+            ],
+            "simplified": [
+              "/tests/band-a-test-02/listening/assets/simplified/q36-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q36-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q36-choice-C.png"
+            ]
+          }
+        },
+        {
+          "id": "listening-q37",
+          "number": 37,
+          "sectionId": "listening-part-2",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q37.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q37.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q37",
+          "choiceImages": {
+            "traditional": [
+              "/tests/band-a-test-02/listening/assets/traditional/q37-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q37-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q37-choice-C.png"
+            ],
+            "simplified": [
+              "/tests/band-a-test-02/listening/assets/simplified/q37-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q37-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q37-choice-C.png"
+            ]
+          }
+        },
+        {
+          "id": "listening-q38",
+          "number": 38,
+          "sectionId": "listening-part-2",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q38.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q38.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q38",
+          "choiceImages": {
+            "traditional": [
+              "/tests/band-a-test-02/listening/assets/traditional/q38-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q38-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q38-choice-C.png"
+            ],
+            "simplified": [
+              "/tests/band-a-test-02/listening/assets/simplified/q38-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q38-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q38-choice-C.png"
+            ]
+          }
+        },
+        {
+          "id": "listening-q39",
+          "number": 39,
+          "sectionId": "listening-part-2",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q39.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q39.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q39",
+          "choiceImages": {
+            "traditional": [
+              "/tests/band-a-test-02/listening/assets/traditional/q39-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q39-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q39-choice-C.png"
+            ],
+            "simplified": [
+              "/tests/band-a-test-02/listening/assets/simplified/q39-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q39-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q39-choice-C.png"
+            ]
+          }
+        },
+        {
+          "id": "listening-q40",
+          "number": 40,
+          "sectionId": "listening-part-2",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q40.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q40.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q40",
+          "choiceImages": {
+            "traditional": [
+              "/tests/band-a-test-02/listening/assets/traditional/q40-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q40-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q40-choice-C.png"
+            ],
+            "simplified": [
+              "/tests/band-a-test-02/listening/assets/simplified/q40-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q40-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q40-choice-C.png"
+            ]
+          }
+        },
+        {
+          "id": "listening-q41",
+          "number": 41,
+          "sectionId": "listening-part-3",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q41.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q41.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q41",
+          "choiceImages": {
+            "traditional": [
+              "/tests/band-a-test-02/listening/assets/traditional/q41-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q41-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q41-choice-C.png"
+            ],
+            "simplified": [
+              "/tests/band-a-test-02/listening/assets/simplified/q41-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q41-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q41-choice-C.png"
+            ]
+          }
+        },
+        {
+          "id": "listening-q42",
+          "number": 42,
+          "sectionId": "listening-part-3",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q42.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q42.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q42",
+          "choiceImages": {
+            "traditional": [
+              "/tests/band-a-test-02/listening/assets/traditional/q42-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q42-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q42-choice-C.png"
+            ],
+            "simplified": [
+              "/tests/band-a-test-02/listening/assets/simplified/q42-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q42-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q42-choice-C.png"
+            ]
+          }
+        },
+        {
+          "id": "listening-q43",
+          "number": 43,
+          "sectionId": "listening-part-3",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q43.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q43.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q43",
+          "choiceImages": {
+            "traditional": [
+              "/tests/band-a-test-02/listening/assets/traditional/q43-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q43-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q43-choice-C.png"
+            ],
+            "simplified": [
+              "/tests/band-a-test-02/listening/assets/simplified/q43-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q43-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q43-choice-C.png"
+            ]
+          }
+        },
+        {
+          "id": "listening-q44",
+          "number": 44,
+          "sectionId": "listening-part-3",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q44.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q44.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q44",
+          "choiceImages": {
+            "traditional": [
+              "/tests/band-a-test-02/listening/assets/traditional/q44-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q44-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q44-choice-C.png"
+            ],
+            "simplified": [
+              "/tests/band-a-test-02/listening/assets/simplified/q44-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q44-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q44-choice-C.png"
+            ]
+          }
+        },
+        {
+          "id": "listening-q45",
+          "number": 45,
+          "sectionId": "listening-part-3",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q45.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q45.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q45",
+          "choiceImages": {
+            "traditional": [
+              "/tests/band-a-test-02/listening/assets/traditional/q45-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q45-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/traditional/q45-choice-C.png"
+            ],
+            "simplified": [
+              "/tests/band-a-test-02/listening/assets/simplified/q45-choice-A.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q45-choice-B.png",
+              "/tests/band-a-test-02/listening/assets/simplified/q45-choice-C.png"
+            ]
+          }
+        },
+        {
+          "id": "listening-q46",
+          "number": 46,
+          "sectionId": "listening-part-4",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "C",
+          "choiceText": {
+            "traditional": [
+              "睡得不好",
+              "沒有吃藥",
+              "天氣變了",
+              "不常運動"
+            ],
+            "simplified": [
+              "睡得不好",
+              "沒有吃藥",
+              "天氣變了",
+              "不常運動"
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q46.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q46.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q46"
+        },
+        {
+          "id": "listening-q47",
+          "number": 47,
+          "sectionId": "listening-part-4",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "A",
+          "choiceText": {
+            "traditional": [
+              "她沒辦法讓鄰居安靜一些",
+              "她想搬到交通方便的地方",
+              "她打算請警察跟鄰居談談",
+              "她想找喜歡玩樂器的鄰居"
+            ],
+            "simplified": [
+              "她沒辦法讓鄰居安靜一些",
+              "她想搬到交通方便的地方",
+              "她打算請警察跟鄰居談談",
+              "她想找喜歡玩樂器的鄰居"
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q47.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q47.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q47"
+        },
+        {
+          "id": "listening-q48",
+          "number": 48,
+          "sectionId": "listening-part-4",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "C",
+          "choiceText": {
+            "traditional": [
+              "她也不想做學期報告",
+              "她可以和大明一起討論",
+              "大明不需要這麼快做決定",
+              "大明應該告訴她發生什麼事"
+            ],
+            "simplified": [
+              "她也不想做學期報告",
+              "她可以和大明一起討論",
+              "大明不需要這麼快做決定",
+              "大明應該告訴她發生什麼事"
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q48.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q48.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q48"
+        },
+        {
+          "id": "listening-q49",
+          "number": 49,
+          "sectionId": "listening-part-4",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "B",
+          "choiceText": {
+            "traditional": [
+              "她買新褲子了",
+              "她想買新褲子",
+              "舊褲子可以丟了",
+              "她把褲子洗好了"
+            ],
+            "simplified": [
+              "她買新褲子了",
+              "她想買新褲子",
+              "舊褲子可以丟了",
+              "她把褲子洗好了"
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q49.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q49.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q49"
+        },
+        {
+          "id": "listening-q50",
+          "number": 50,
+          "sectionId": "listening-part-4",
+          "type": "listening_multiple_choice",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "D",
+          "choiceText": {
+            "traditional": [
+              "她想請這位先生喝杯飲料",
+              "她知道這位先生常常遲到",
+              "她相信這位先生工作很忙",
+              "她覺得這位先生應該請客                                   \n \n \n聽力考試到這裡全部結束。 \nPhần thi nghe tớ      kết thúc."
+            ],
+            "simplified": [
+              "她想請這位先生喝杯飲料",
+              "她知道這位先生常常遲到",
+              "她相信這位先生工作很忙",
+              "她覺得這位先生應該請客                                   \n \n \n聽力考試到這裡全部結束。 \nPhần thi nghe tớ      kết thúc."
+            ]
+          },
+          "audio": {
+            "mode": "self_contained",
+            "path": "/tests/band-a-test-02/listening/audio/q50.mp3",
+            "reviewSequence": [
+              "/tests/band-a-test-02/listening/audio/q50.mp3"
+            ]
+          },
+          "transcriptGroupId": "tg-q50"
+        }
+      ]
+    },
+    "reading": {
+      "id": "reading",
+      "title": "Đọc",
+      "order": 2,
+      "durationSeconds": 3600,
+      "totalQuestions": 50,
+      "choiceLabels": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "sections": [
+        {
+          "id": "reading-part-1",
+          "title": "Part 1",
+          "startQuestion": 1,
+          "endQuestion": 15
+        },
+        {
+          "id": "reading-part-2",
+          "title": "Part 2",
+          "startQuestion": 16,
+          "endQuestion": 30
+        },
+        {
+          "id": "reading-part-3",
+          "title": "Part 3",
+          "startQuestion": 31,
+          "endQuestion": 40
+        },
+        {
+          "id": "reading-part-4",
+          "title": "Part 4",
+          "startQuestion": 41,
+          "endQuestion": 45,
+          "sharedChoicePool": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "uniqueChoiceUsageWithinSection": true
+        },
+        {
+          "id": "reading-part-5",
+          "title": "Part 5",
+          "startQuestion": 46,
+          "endQuestion": 50
+        }
+      ],
+      "scoring": {
+        "type": "lookup_table",
+        "maxScore": 80,
+        "scoreByCorrectCount": {
+          "1": 10,
+          "26": 41,
+          "2": 10,
+          "27": 43,
+          "3": 10,
+          "28": 44,
+          "4": 10,
+          "29": 45,
+          "5": 11,
+          "30": 46,
+          "6": 14,
+          "31": 47,
+          "7": 16,
+          "32": 48,
+          "8": 18,
+          "33": 49,
+          "9": 19,
+          "34": 50,
+          "10": 21,
+          "35": 52,
+          "11": 23,
+          "36": 53,
+          "12": 24,
+          "37": 54,
+          "13": 26,
+          "38": 55,
+          "14": 27,
+          "39": 57,
+          "15": 28,
+          "40": 58,
+          "16": 30,
+          "41": 59,
+          "17": 31,
+          "42": 61,
+          "18": 32,
+          "43": 63,
+          "19": 33,
+          "44": 65,
+          "20": 35,
+          "45": 67,
+          "21": 36,
+          "46": 70,
+          "22": 37,
+          "47": 73,
+          "23": 38,
+          "48": 78,
+          "24": 39,
+          "49": 80,
+          "25": 40,
+          "50": 80
+        }
+      },
+      "questions": [
+        {
+          "id": "reading-q01",
+          "number": 1,
+          "sectionId": "reading-part-1",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "stimulusGroupId": "reading-q01",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "questionText": {
+            "traditional": "那杯牛奶被喝了一半。",
+            "simplified": "那杯牛奶被喝了一半。"
+          },
+          "choiceImages": {
+            "traditional": [
+              "/tests/band-a-test-02/reading/assets/traditional/q01-choice-A.png",
+              "/tests/band-a-test-02/reading/assets/traditional/q01-choice-B.png",
+              "/tests/band-a-test-02/reading/assets/traditional/q01-choice-C.png"
+            ],
+            "simplified": [
+              "/tests/band-a-test-02/reading/assets/simplified/q01-choice-A.png",
+              "/tests/band-a-test-02/reading/assets/simplified/q01-choice-B.png",
+              "/tests/band-a-test-02/reading/assets/simplified/q01-choice-C.png"
+            ]
+          }
+        },
+        {
+          "id": "reading-q02",
+          "number": 2,
+          "sectionId": "reading-part-1",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "stimulusGroupId": "reading-q02",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "questionText": {
+            "traditional": "我家一共三口人。",
+            "simplified": "我家一共三口人。"
+          },
+          "choiceImages": {
+            "traditional": [
+              "/tests/band-a-test-02/reading/assets/traditional/q02-choice-A.png",
+              "/tests/band-a-test-02/reading/assets/traditional/q02-choice-B.png",
+              "/tests/band-a-test-02/reading/assets/traditional/q02-choice-C.png"
+            ],
+            "simplified": [
+              "/tests/band-a-test-02/reading/assets/simplified/q02-choice-A.png",
+              "/tests/band-a-test-02/reading/assets/simplified/q02-choice-B.png",
+              "/tests/band-a-test-02/reading/assets/simplified/q02-choice-C.png"
+            ]
+          }
+        },
+        {
+          "id": "reading-q03",
+          "number": 3,
+          "sectionId": "reading-part-1",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "stimulusGroupId": "reading-q03",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "questionText": {
+            "traditional": "樹下一個禮物也沒有。",
+            "simplified": "樹下一個禮物也沒有。"
+          },
+          "choiceImages": {
+            "traditional": [
+              "/tests/band-a-test-02/reading/assets/traditional/q03-choice-A.png",
+              "/tests/band-a-test-02/reading/assets/traditional/q03-choice-B.png",
+              "/tests/band-a-test-02/reading/assets/traditional/q03-choice-C.png"
+            ],
+            "simplified": [
+              "/tests/band-a-test-02/reading/assets/simplified/q03-choice-A.png",
+              "/tests/band-a-test-02/reading/assets/simplified/q03-choice-B.png",
+              "/tests/band-a-test-02/reading/assets/simplified/q03-choice-C.png"
+            ]
+          }
+        },
+        {
+          "id": "reading-q04",
+          "number": 4,
+          "sectionId": "reading-part-1",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "stimulusGroupId": "reading-q04",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "questionText": {
+            "traditional": "餐廳的樓上有洗手間。",
+            "simplified": "餐廳的樓上有洗手間。"
+          },
+          "choiceImages": {
+            "traditional": [
+              "/tests/band-a-test-02/reading/assets/traditional/q04-choice-A.png",
+              "/tests/band-a-test-02/reading/assets/traditional/q04-choice-B.png",
+              "/tests/band-a-test-02/reading/assets/traditional/q04-choice-C.png"
+            ],
+            "simplified": [
+              "/tests/band-a-test-02/reading/assets/simplified/q04-choice-A.png",
+              "/tests/band-a-test-02/reading/assets/simplified/q04-choice-B.png",
+              "/tests/band-a-test-02/reading/assets/simplified/q04-choice-C.png"
+            ]
+          }
+        },
+        {
+          "id": "reading-q05",
+          "number": 5,
+          "sectionId": "reading-part-1",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "stimulusGroupId": "reading-q05",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "questionText": {
+            "traditional": "沒戴眼鏡的那位先生就是林明華。",
+            "simplified": "沒戴眼鏡的那位先生就是林明華。"
+          },
+          "choiceImages": {
+            "traditional": [
+              "/tests/band-a-test-02/reading/assets/traditional/q05-choice-A.png",
+              "/tests/band-a-test-02/reading/assets/traditional/q05-choice-B.png",
+              "/tests/band-a-test-02/reading/assets/traditional/q05-choice-C.png"
+            ],
+            "simplified": [
+              "/tests/band-a-test-02/reading/assets/simplified/q05-choice-A.png",
+              "/tests/band-a-test-02/reading/assets/simplified/q05-choice-B.png",
+              "/tests/band-a-test-02/reading/assets/simplified/q05-choice-C.png"
+            ]
+          }
+        },
+        {
+          "id": "reading-q06",
+          "number": 6,
+          "sectionId": "reading-part-1",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "stimulusGroupId": "reading-q06",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "questionText": {
+            "traditional": "公車快兩點才來。",
+            "simplified": "公車快兩點才來。"
+          },
+          "choiceImages": {
+            "traditional": [
+              "/tests/band-a-test-02/reading/assets/traditional/q06-choice-A.png",
+              "/tests/band-a-test-02/reading/assets/traditional/q06-choice-B.png",
+              "/tests/band-a-test-02/reading/assets/traditional/q06-choice-C.png"
+            ],
+            "simplified": [
+              "/tests/band-a-test-02/reading/assets/simplified/q06-choice-A.png",
+              "/tests/band-a-test-02/reading/assets/simplified/q06-choice-B.png",
+              "/tests/band-a-test-02/reading/assets/simplified/q06-choice-C.png"
+            ]
+          }
+        },
+        {
+          "id": "reading-q07",
+          "number": 7,
+          "sectionId": "reading-part-1",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "stimulusGroupId": "reading-q07",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "questionText": {
+            "traditional": "學生看著黑板上的句子說話。",
+            "simplified": "學生看着黑板上的句子說話。"
+          },
+          "choiceImages": {
+            "traditional": [
+              "/tests/band-a-test-02/reading/assets/traditional/q07-choice-A.png",
+              "/tests/band-a-test-02/reading/assets/traditional/q07-choice-B.png",
+              "/tests/band-a-test-02/reading/assets/traditional/q07-choice-C.png"
+            ],
+            "simplified": [
+              "/tests/band-a-test-02/reading/assets/simplified/q07-choice-A.png",
+              "/tests/band-a-test-02/reading/assets/simplified/q07-choice-B.png",
+              "/tests/band-a-test-02/reading/assets/simplified/q07-choice-C.png"
+            ]
+          }
+        },
+        {
+          "id": "reading-q08",
+          "number": 8,
+          "sectionId": "reading-part-1",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "stimulusGroupId": "reading-q08",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "questionText": {
+            "traditional": "弟弟喜歡用電腦玩遊戲。",
+            "simplified": "弟弟喜歡用電腦玩遊戲。"
+          },
+          "choiceImages": {
+            "traditional": [
+              "/tests/band-a-test-02/reading/assets/traditional/q08-choice-A.png",
+              "/tests/band-a-test-02/reading/assets/traditional/q08-choice-B.png",
+              "/tests/band-a-test-02/reading/assets/traditional/q08-choice-C.png"
+            ],
+            "simplified": [
+              "/tests/band-a-test-02/reading/assets/simplified/q08-choice-A.png",
+              "/tests/band-a-test-02/reading/assets/simplified/q08-choice-B.png",
+              "/tests/band-a-test-02/reading/assets/simplified/q08-choice-C.png"
+            ]
+          }
+        },
+        {
+          "id": "reading-q09",
+          "number": 9,
+          "sectionId": "reading-part-1",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "stimulusGroupId": "reading-q09",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "questionText": {
+            "traditional": "樓梯上的門不知道被誰打開了。",
+            "simplified": "樓梯上的門不知道被誰打開了。"
+          },
+          "choiceImages": {
+            "traditional": [
+              "/tests/band-a-test-02/reading/assets/traditional/q09-choice-A.png",
+              "/tests/band-a-test-02/reading/assets/traditional/q09-choice-B.png",
+              "/tests/band-a-test-02/reading/assets/traditional/q09-choice-C.png"
+            ],
+            "simplified": [
+              "/tests/band-a-test-02/reading/assets/simplified/q09-choice-A.png",
+              "/tests/band-a-test-02/reading/assets/simplified/q09-choice-B.png",
+              "/tests/band-a-test-02/reading/assets/simplified/q09-choice-C.png"
+            ]
+          }
+        },
+        {
+          "id": "reading-q10",
+          "number": 10,
+          "sectionId": "reading-part-1",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "stimulusGroupId": "reading-q10",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "questionText": {
+            "traditional": "大明受傷了，他現在躺在醫院，不能站也不能坐。",
+            "simplified": "大明受傷了，他現在躺在醫院，不能站也不能坐。"
+          },
+          "choiceImages": {
+            "traditional": [
+              "/tests/band-a-test-02/reading/assets/traditional/q10-choice-A.png",
+              "/tests/band-a-test-02/reading/assets/traditional/q10-choice-B.png",
+              "/tests/band-a-test-02/reading/assets/traditional/q10-choice-C.png"
+            ],
+            "simplified": [
+              "/tests/band-a-test-02/reading/assets/simplified/q10-choice-A.png",
+              "/tests/band-a-test-02/reading/assets/simplified/q10-choice-B.png",
+              "/tests/band-a-test-02/reading/assets/simplified/q10-choice-C.png"
+            ]
+          }
+        },
+        {
+          "id": "reading-q11",
+          "number": 11,
+          "sectionId": "reading-part-1",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "stimulusGroupId": "reading-q11",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "questionText": {
+            "traditional": "哥哥在冰箱旁邊放了一部洗衣機。",
+            "simplified": "哥哥在冰箱旁邊放了一部洗衣機。"
+          },
+          "choiceImages": {
+            "traditional": [
+              "/tests/band-a-test-02/reading/assets/traditional/q11-choice-A.png",
+              "/tests/band-a-test-02/reading/assets/traditional/q11-choice-B.png",
+              "/tests/band-a-test-02/reading/assets/traditional/q11-choice-C.png"
+            ],
+            "simplified": [
+              "/tests/band-a-test-02/reading/assets/simplified/q11-choice-A.png",
+              "/tests/band-a-test-02/reading/assets/simplified/q11-choice-B.png",
+              "/tests/band-a-test-02/reading/assets/simplified/q11-choice-C.png"
+            ]
+          }
+        },
+        {
+          "id": "reading-q12",
+          "number": 12,
+          "sectionId": "reading-part-1",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "stimulusGroupId": "reading-q12",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "questionText": {
+            "traditional": "弟弟不會寫書法。",
+            "simplified": "弟弟不會寫書法。"
+          },
+          "choiceImages": {
+            "traditional": [
+              "/tests/band-a-test-02/reading/assets/traditional/q12-choice-A.png",
+              "/tests/band-a-test-02/reading/assets/traditional/q12-choice-B.png",
+              "/tests/band-a-test-02/reading/assets/traditional/q12-choice-C.png"
+            ],
+            "simplified": [
+              "/tests/band-a-test-02/reading/assets/simplified/q12-choice-A.png",
+              "/tests/band-a-test-02/reading/assets/simplified/q12-choice-B.png",
+              "/tests/band-a-test-02/reading/assets/simplified/q12-choice-C.png"
+            ]
+          }
+        },
+        {
+          "id": "reading-q13",
+          "number": 13,
+          "sectionId": "reading-part-1",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "stimulusGroupId": "reading-q13",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "questionText": {
+            "traditional": "因為他都把菜吃光了，所以已經吃不下了。",
+            "simplified": "因為他都把菜吃光了，所以已經吃不下了。"
+          },
+          "choiceImages": {
+            "traditional": [
+              "/tests/band-a-test-02/reading/assets/traditional/q13-choice-A.png",
+              "/tests/band-a-test-02/reading/assets/traditional/q13-choice-B.png",
+              "/tests/band-a-test-02/reading/assets/traditional/q13-choice-C.png"
+            ],
+            "simplified": [
+              "/tests/band-a-test-02/reading/assets/simplified/q13-choice-A.png",
+              "/tests/band-a-test-02/reading/assets/simplified/q13-choice-B.png",
+              "/tests/band-a-test-02/reading/assets/simplified/q13-choice-C.png"
+            ]
+          }
+        },
+        {
+          "id": "reading-q14",
+          "number": 14,
+          "sectionId": "reading-part-1",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "stimulusGroupId": "reading-q14",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "questionText": {
+            "traditional": "小文喜歡一邊寫作業，一邊吃東西。",
+            "simplified": "小文喜歡一邊寫作業，一邊吃東西。"
+          },
+          "choiceImages": {
+            "traditional": [
+              "/tests/band-a-test-02/reading/assets/traditional/q14-choice-A.png",
+              "/tests/band-a-test-02/reading/assets/traditional/q14-choice-B.png",
+              "/tests/band-a-test-02/reading/assets/traditional/q14-choice-C.png"
+            ],
+            "simplified": [
+              "/tests/band-a-test-02/reading/assets/simplified/q14-choice-A.png",
+              "/tests/band-a-test-02/reading/assets/simplified/q14-choice-B.png",
+              "/tests/band-a-test-02/reading/assets/simplified/q14-choice-C.png"
+            ]
+          }
+        },
+        {
+          "id": "reading-q15",
+          "number": 15,
+          "sectionId": "reading-part-1",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "stimulusGroupId": "reading-q15",
+          "choiceText": {
+            "traditional": [
+              "",
+              "",
+              ""
+            ],
+            "simplified": [
+              "",
+              "",
+              ""
+            ]
+          },
+          "questionText": {
+            "traditional": "小華只有右手受傷，其他地方都沒事。",
+            "simplified": "小華只有右手受傷，其他地方都沒事。"
+          },
+          "choiceImages": {
+            "traditional": [
+              "/tests/band-a-test-02/reading/assets/traditional/q15-choice-A.png",
+              "/tests/band-a-test-02/reading/assets/traditional/q15-choice-B.png",
+              "/tests/band-a-test-02/reading/assets/traditional/q15-choice-C.png"
+            ],
+            "simplified": [
+              "/tests/band-a-test-02/reading/assets/simplified/q15-choice-A.png",
+              "/tests/band-a-test-02/reading/assets/simplified/q15-choice-B.png",
+              "/tests/band-a-test-02/reading/assets/simplified/q15-choice-C.png"
+            ]
+          }
+        },
+        {
+          "id": "reading-q16",
+          "number": 16,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "stimulusGroupId": "q16-image",
+          "choiceText": {
+            "traditional": [
+              "這裡是機場。",
+              "火車到車站了。",
+              "很多人在等車。"
+            ],
+            "simplified": [
+              "這裡是機場。",
+              "火車到車站了。",
+              "很多人在等車。"
+            ]
+          },
+          "questionText": {
+            "traditional": "",
+            "simplified": ""
+          },
+          "assets": {
+            "traditional": "/tests/band-a-test-02/reading/assets/traditional/q16-image.png",
+            "simplified": "/tests/band-a-test-02/reading/assets/simplified/q16-image.png"
+          }
+        },
+        {
+          "id": "reading-q17",
+          "number": 17,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "stimulusGroupId": "q17-image",
+          "choiceText": {
+            "traditional": [
+              "他們換了新家具。",
+              "他們忘了打開窗戶。",
+              "他們兩個人搬不了沙發。"
+            ],
+            "simplified": [
+              "他們換了新家具。",
+              "他們忘了打開窗戶。",
+              "他們兩個人搬不了沙發。"
+            ]
+          },
+          "questionText": {
+            "traditional": "",
+            "simplified": ""
+          },
+          "assets": {
+            "traditional": "/tests/band-a-test-02/reading/assets/traditional/q17-image.png",
+            "simplified": "/tests/band-a-test-02/reading/assets/simplified/q17-image.png"
+          }
+        },
+        {
+          "id": "reading-q18",
+          "number": 18,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "stimulusGroupId": "q18-image",
+          "choiceText": {
+            "traditional": [
+              "老師準備上課。",
+              "學生們正在休息。",
+              "教室裡有人在說話。"
+            ],
+            "simplified": [
+              "老師準備上課。",
+              "學生們正在休息。",
+              "教室裡有人在說話。"
+            ]
+          },
+          "questionText": {
+            "traditional": "",
+            "simplified": ""
+          },
+          "assets": {
+            "traditional": "/tests/band-a-test-02/reading/assets/traditional/q18-image.png",
+            "simplified": "/tests/band-a-test-02/reading/assets/simplified/q18-image.png"
+          }
+        },
+        {
+          "id": "reading-q19",
+          "number": 19,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "stimulusGroupId": "q19-image",
+          "choiceText": {
+            "traditional": [
+              "郵局在銀行旁邊。",
+              "銀行的對面是郵局。",
+              "車站在郵局的前面。"
+            ],
+            "simplified": [
+              "郵局在銀行旁邊。",
+              "銀行的對面是郵局。",
+              "車站在郵局的前面。"
+            ]
+          },
+          "questionText": {
+            "traditional": "",
+            "simplified": ""
+          },
+          "assets": {
+            "traditional": "/tests/band-a-test-02/reading/assets/traditional/q19-image.png",
+            "simplified": "/tests/band-a-test-02/reading/assets/simplified/q19-image.png"
+          }
+        },
+        {
+          "id": "reading-q20",
+          "number": 20,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "stimulusGroupId": "q20-image",
+          "choiceText": {
+            "traditional": [
+              "他們點了麵和湯。",
+              "他們覺得很傷心。",
+              "女生坐在男生的右邊。"
+            ],
+            "simplified": [
+              "他們點了麵和湯。",
+              "他們覺得很傷心。",
+              "女生坐在男生的右邊。"
+            ]
+          },
+          "questionText": {
+            "traditional": "",
+            "simplified": ""
+          },
+          "assets": {
+            "traditional": "/tests/band-a-test-02/reading/assets/traditional/q20-image.png",
+            "simplified": "/tests/band-a-test-02/reading/assets/simplified/q20-image.png"
+          }
+        },
+        {
+          "id": "reading-q21",
+          "number": 21,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "stimulusGroupId": "q21-image",
+          "choiceText": {
+            "traditional": [
+              "他看不懂這本書。",
+              "他覺得這本書很有趣。",
+              "他看書的時候很緊張。"
+            ],
+            "simplified": [
+              "他看不懂這本書。",
+              "他覺得這本書很有趣。",
+              "他看書的時候很緊張。"
+            ]
+          },
+          "questionText": {
+            "traditional": "",
+            "simplified": ""
+          },
+          "assets": {
+            "traditional": "/tests/band-a-test-02/reading/assets/traditional/q21-image.png",
+            "simplified": "/tests/band-a-test-02/reading/assets/simplified/q21-image.png"
+          }
+        },
+        {
+          "id": "reading-q22",
+          "number": 22,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "stimulusGroupId": "q22-image",
+          "choiceText": {
+            "traditional": [
+              "這家飯館中午不休息。",
+              "這家飯館最貴的是雞肉飯。",
+              "這家飯館十一點以後休息。"
+            ],
+            "simplified": [
+              "這家飯館中午不休息。",
+              "這家飯館最貴的是雞肉飯。",
+              "這家飯館十一點以後休息。"
+            ]
+          },
+          "questionText": {
+            "traditional": "",
+            "simplified": ""
+          },
+          "assets": {
+            "traditional": "/tests/band-a-test-02/reading/assets/traditional/q22-image.png",
+            "simplified": "/tests/band-a-test-02/reading/assets/simplified/q22-image.png"
+          }
+        },
+        {
+          "id": "reading-q23",
+          "number": 23,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "stimulusGroupId": "q23-image",
+          "choiceText": {
+            "traditional": [
+              "這家店也賣果汁。",
+              "這位小姐買了香蕉牛奶。",
+              "香蕉牛奶便宜了十塊錢。"
+            ],
+            "simplified": [
+              "這家店也賣果汁。",
+              "這位小姐買了香蕉牛奶。",
+              "香蕉牛奶便宜了十塊錢。"
+            ]
+          },
+          "questionText": {
+            "traditional": "",
+            "simplified": ""
+          },
+          "assets": {
+            "traditional": "/tests/band-a-test-02/reading/assets/traditional/q23-image.png",
+            "simplified": "/tests/band-a-test-02/reading/assets/simplified/q23-image.png"
+          }
+        },
+        {
+          "id": "reading-q24",
+          "number": 24,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "stimulusGroupId": "q24-image",
+          "choiceText": {
+            "traditional": [
+              "妹妹是十點多離開家的。",
+              "妹妹到家的時候快十點了。",
+              "妹妹十點的時候就要回家了。"
+            ],
+            "simplified": [
+              "妹妹是十點多離開家的。",
+              "妹妹到家的時候快十點了。",
+              "妹妹十點的時候就要回家了。"
+            ]
+          },
+          "questionText": {
+            "traditional": "",
+            "simplified": ""
+          },
+          "assets": {
+            "traditional": "/tests/band-a-test-02/reading/assets/traditional/q24-image.png",
+            "simplified": "/tests/band-a-test-02/reading/assets/simplified/q24-image.png"
+          }
+        },
+        {
+          "id": "reading-q25",
+          "number": 25,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "stimulusGroupId": "q25-image",
+          "choiceText": {
+            "traditional": [
+              "初級中文課每一次上三個小時。",
+              "初級中文課在二○一教室上課。",
+              "這個班的學生五月三日不上課。"
+            ],
+            "simplified": [
+              "初級中文課每一次上三個小時。",
+              "初級中文課在二○一教室上課。",
+              "這個班的學生五月三日不上課。"
+            ]
+          },
+          "questionText": {
+            "traditional": "",
+            "simplified": ""
+          },
+          "assets": {
+            "traditional": "/tests/band-a-test-02/reading/assets/traditional/q25-image.png",
+            "simplified": "/tests/band-a-test-02/reading/assets/simplified/q25-image.png"
+          }
+        },
+        {
+          "id": "reading-q26",
+          "number": 26,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "stimulusGroupId": "q26-image",
+          "choiceText": {
+            "traditional": [
+              "病人正在讓醫生檢查。",
+              "醫生要病人試著站起來。",
+              "護士幫忙看病人哪裡受傷了。"
+            ],
+            "simplified": [
+              "病人正在讓醫生檢查。",
+              "醫生要病人試着站起來。",
+              "護士幫忙看病人哪裡受傷了。"
+            ]
+          },
+          "questionText": {
+            "traditional": "",
+            "simplified": ""
+          },
+          "assets": {
+            "traditional": "/tests/band-a-test-02/reading/assets/traditional/q26-image.png",
+            "simplified": "/tests/band-a-test-02/reading/assets/simplified/q26-image.png"
+          }
+        },
+        {
+          "id": "reading-q27",
+          "number": 27,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "stimulusGroupId": "q27-image",
+          "choiceText": {
+            "traditional": [
+              "小華一星期運動四天。",
+              "小華只有星期二下午能休息。",
+              "小華每星期上兩天的中文課。"
+            ],
+            "simplified": [
+              "小華一星期運動四天。",
+              "小華只有星期二下午能休息。",
+              "小華每星期上兩天的中文課。"
+            ]
+          },
+          "questionText": {
+            "traditional": "",
+            "simplified": ""
+          },
+          "assets": {
+            "traditional": "/tests/band-a-test-02/reading/assets/traditional/q27-image.png",
+            "simplified": "/tests/band-a-test-02/reading/assets/simplified/q27-image.png"
+          }
+        },
+        {
+          "id": "reading-q28",
+          "number": 28,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "stimulusGroupId": "q28-image",
+          "choiceText": {
+            "traditional": [
+              "這班公車從火車站出發。",
+              "下午五點還有車到博物館。",
+              "66 號公車每兩個鐘頭一班。"
+            ],
+            "simplified": [
+              "這班公車從火車站出發。",
+              "下午五點還有車到博物館。",
+              "66 號公車每兩個鐘頭一班。"
+            ]
+          },
+          "questionText": {
+            "traditional": "",
+            "simplified": ""
+          },
+          "assets": {
+            "traditional": "/tests/band-a-test-02/reading/assets/traditional/q28-image.png",
+            "simplified": "/tests/band-a-test-02/reading/assets/simplified/q28-image.png"
+          }
+        },
+        {
+          "id": "reading-q29",
+          "number": 29,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "stimulusGroupId": "q29-image",
+          "choiceText": {
+            "traditional": [
+              "這間公寓在學校附近。",
+              "公寓裡面只有一個房間。",
+              "想租這間公寓的人上網找陳先生。"
+            ],
+            "simplified": [
+              "這間公寓在學校附近。",
+              "公寓裡面只有一個房間。",
+              "想租這間公寓的人上網找陳先生。"
+            ]
+          },
+          "questionText": {
+            "traditional": "",
+            "simplified": ""
+          },
+          "assets": {
+            "traditional": "/tests/band-a-test-02/reading/assets/traditional/q29-image.png",
+            "simplified": "/tests/band-a-test-02/reading/assets/simplified/q29-image.png"
+          }
+        },
+        {
+          "id": "reading-q30",
+          "number": 30,
+          "sectionId": "reading-part-2",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "stimulusGroupId": "q30-image",
+          "choiceText": {
+            "traditional": [
+              "這個晚會的飲料有三種。",
+              "第二次喝飲料不能用新的杯子。",
+              "每人只能在晚會裡喝一杯飲料。"
+            ],
+            "simplified": [
+              "這個晚會的飲料有三種。",
+              "第二次喝飲料不能用新的杯子。",
+              "每人只能在晚會裡喝一杯飲料。"
+            ]
+          },
+          "questionText": {
+            "traditional": "",
+            "simplified": ""
+          },
+          "assets": {
+            "traditional": "/tests/band-a-test-02/reading/assets/traditional/q30-image.png",
+            "simplified": "/tests/band-a-test-02/reading/assets/simplified/q30-image.png"
+          }
+        },
+        {
+          "id": "reading-q31",
+          "number": 31,
+          "sectionId": "reading-part-3",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "stimulusGroupId": "shared-p14-q31-q35",
+          "choiceText": {
+            "traditional": [
+              "跟",
+              "和",
+              "對"
+            ],
+            "simplified": [
+              "跟",
+              "和",
+              "對"
+            ]
+          },
+          "questionText": {
+            "traditional": "王小姐          旅遊很有興趣。",
+            "simplified": "王小姐          旅遊很有興趣。"
+          },
+          "assets": {
+            "traditional": "/tests/band-a-test-02/reading/assets/traditional/shared-p14-q31-q35.png",
+            "simplified": "/tests/band-a-test-02/reading/assets/simplified/shared-p14-q31-q35.png"
+          }
+        },
+        {
+          "id": "reading-q32",
+          "number": 32,
+          "sectionId": "reading-part-3",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "stimulusGroupId": "shared-p14-q31-q35",
+          "choiceText": {
+            "traditional": [
+              "多少",
+              "可能",
+              "常常"
+            ],
+            "simplified": [
+              "多少",
+              "可能",
+              "常常"
+            ]
+          },
+          "questionText": {
+            "traditional": "她放假的時候          出國玩。",
+            "simplified": "她放假的時候          出國玩。"
+          },
+          "assets": {
+            "traditional": "/tests/band-a-test-02/reading/assets/traditional/shared-p14-q31-q35.png",
+            "simplified": "/tests/band-a-test-02/reading/assets/simplified/shared-p14-q31-q35.png"
+          }
+        },
+        {
+          "id": "reading-q33",
+          "number": 33,
+          "sectionId": "reading-part-3",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "stimulusGroupId": "shared-p14-q31-q35",
+          "choiceText": {
+            "traditional": [
+              "做",
+              "弄",
+              "走"
+            ],
+            "simplified": [
+              "做",
+              "弄",
+              "走"
+            ]
+          },
+          "questionText": {
+            "traditional": "她跟我說她第一次旅行時，在旅館          丟了行李。",
+            "simplified": "她跟我說她第一次旅行時，在旅館          丟了行李。"
+          },
+          "assets": {
+            "traditional": "/tests/band-a-test-02/reading/assets/traditional/shared-p14-q31-q35.png",
+            "simplified": "/tests/band-a-test-02/reading/assets/simplified/shared-p14-q31-q35.png"
+          }
+        },
+        {
+          "id": "reading-q34",
+          "number": 34,
+          "sectionId": "reading-part-3",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "stimulusGroupId": "shared-p14-q31-q35",
+          "choiceText": {
+            "traditional": [
+              "著",
+              "了",
+              "得"
+            ],
+            "simplified": [
+              "着",
+              "了",
+              "得"
+            ]
+          },
+          "questionText": {
+            "traditional": "她緊張          好幾天，三天以後才找到行李。",
+            "simplified": "她緊張          好幾天，三天以後才找到行李。"
+          },
+          "assets": {
+            "traditional": "/tests/band-a-test-02/reading/assets/traditional/shared-p14-q31-q35.png",
+            "simplified": "/tests/band-a-test-02/reading/assets/simplified/shared-p14-q31-q35.png"
+          }
+        },
+        {
+          "id": "reading-q35",
+          "number": 35,
+          "sectionId": "reading-part-3",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "stimulusGroupId": "shared-p14-q31-q35",
+          "choiceText": {
+            "traditional": [
+              "小心",
+              "知道",
+              "認識"
+            ],
+            "simplified": [
+              "小心",
+              "知道",
+              "認識"
+            ]
+          },
+          "questionText": {
+            "traditional": "從那一次開始，她旅行的時候就更          自己的東西了。",
+            "simplified": "從那一次開始，她旅行的時候就更          自己的東西了。"
+          },
+          "assets": {
+            "traditional": "/tests/band-a-test-02/reading/assets/traditional/shared-p14-q31-q35.png",
+            "simplified": "/tests/band-a-test-02/reading/assets/simplified/shared-p14-q31-q35.png"
+          }
+        },
+        {
+          "id": "reading-q36",
+          "number": 36,
+          "sectionId": "reading-part-3",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "stimulusGroupId": "shared-p15-q36-q40",
+          "choiceText": {
+            "traditional": [
+              "藥房",
+              "書店",
+              "超市"
+            ],
+            "simplified": [
+              "藥房",
+              "書店",
+              "超市"
+            ]
+          },
+          "questionText": {
+            "traditional": "我很喜歡到附近一家很大的          買菜。",
+            "simplified": "我很喜歡到附近一家很大的          買菜。"
+          },
+          "assets": {
+            "traditional": "/tests/band-a-test-02/reading/assets/traditional/shared-p15-q36-q40.png",
+            "simplified": "/tests/band-a-test-02/reading/assets/simplified/shared-p15-q36-q40.png"
+          }
+        },
+        {
+          "id": "reading-q37",
+          "number": 37,
+          "sectionId": "reading-part-3",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "A",
+          "stimulusGroupId": "shared-p15-q36-q40",
+          "choiceText": {
+            "traditional": [
+              "但是",
+              "或是",
+              "還是"
+            ],
+            "simplified": [
+              "但是",
+              "或是",
+              "還是"
+            ]
+          },
+          "questionText": {
+            "traditional": "那裡的東西不怎麼便宜，          比較新鮮，吃起來很放心。",
+            "simplified": "那裡的東西不怎麼便宜，          比較新鮮，吃起來很放心。"
+          },
+          "assets": {
+            "traditional": "/tests/band-a-test-02/reading/assets/traditional/shared-p15-q36-q40.png",
+            "simplified": "/tests/band-a-test-02/reading/assets/simplified/shared-p15-q36-q40.png"
+          }
+        },
+        {
+          "id": "reading-q38",
+          "number": 38,
+          "sectionId": "reading-part-3",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "stimulusGroupId": "shared-p15-q36-q40",
+          "choiceText": {
+            "traditional": [
+              "再",
+              "才",
+              "就"
+            ],
+            "simplified": [
+              "再",
+              "才",
+              "就"
+            ]
+          },
+          "questionText": {
+            "traditional": "聽說今天八點那裡有特別活動，所以我早上六點          起床了。",
+            "simplified": "聽說今天八點那裡有特別活動，所以我早上六點          起床了。"
+          },
+          "assets": {
+            "traditional": "/tests/band-a-test-02/reading/assets/traditional/shared-p15-q36-q40.png",
+            "simplified": "/tests/band-a-test-02/reading/assets/simplified/shared-p15-q36-q40.png"
+          }
+        },
+        {
+          "id": "reading-q39",
+          "number": 39,
+          "sectionId": "reading-part-3",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "B",
+          "stimulusGroupId": "shared-p15-q36-q40",
+          "choiceText": {
+            "traditional": [
+              "枝",
+              "包",
+              "口"
+            ],
+            "simplified": [
+              "枝",
+              "包",
+              "口"
+            ]
+          },
+          "questionText": {
+            "traditional": "到了那裡以後，我買了好多          我愛吃的餅乾和一些青菜。",
+            "simplified": "到了那裡以後，我買了好多          我愛吃的餅乾和一些青菜。"
+          },
+          "assets": {
+            "traditional": "/tests/band-a-test-02/reading/assets/traditional/shared-p15-q36-q40.png",
+            "simplified": "/tests/band-a-test-02/reading/assets/simplified/shared-p15-q36-q40.png"
+          }
+        },
+        {
+          "id": "reading-q40",
+          "number": 40,
+          "sectionId": "reading-part-3",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C"
+          ],
+          "correctAnswer": "C",
+          "stimulusGroupId": "shared-p15-q36-q40",
+          "choiceText": {
+            "traditional": [
+              "掛號",
+              "點菜",
+              "排隊"
+            ],
+            "simplified": [
+              "掛號",
+              "點菜",
+              "排隊"
+            ]
+          },
+          "questionText": {
+            "traditional": "不過          付錢的人太多了，等的時間比買東西的時間還久。",
+            "simplified": "不過          付錢的人太多了，等的時間比買東西的時間還久。"
+          },
+          "assets": {
+            "traditional": "/tests/band-a-test-02/reading/assets/traditional/shared-p15-q36-q40.png",
+            "simplified": "/tests/band-a-test-02/reading/assets/simplified/shared-p15-q36-q40.png"
+          }
+        },
+        {
+          "id": "reading-q41",
+          "number": 41,
+          "sectionId": "reading-part-4",
+          "type": "gap_filling",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "correctAnswer": "A",
+          "stimulusGroupId": "reading-q41-q45",
+          "choiceText": {
+            "traditional": [
+              "買了一間房子",
+              "就有一家大醫院",
+              "林一正沒花多少錢",
+              "林一正花了不少錢",
+              "那裡的生活很方便",
+              "可以常常帶孩子到公園玩"
+            ],
+            "simplified": [
+              "買了一間房子",
+              "就有一家大醫院",
+              "林一正沒花多少錢",
+              "林一正花了不少錢",
+              "那裡的生活很方便",
+              "可以常常帶孩子到公園玩"
+            ]
+          },
+          "questionText": {
+            "traditional": "",
+            "simplified": ""
+          }
+        },
+        {
+          "id": "reading-q42",
+          "number": 42,
+          "sectionId": "reading-part-4",
+          "type": "gap_filling",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "correctAnswer": "B",
+          "stimulusGroupId": "reading-q41-q45",
+          "choiceText": {
+            "traditional": [
+              "買了一間房子",
+              "就有一家大醫院",
+              "林一正沒花多少錢",
+              "林一正花了不少錢",
+              "那裡的生活很方便",
+              "可以常常帶孩子到公園玩"
+            ],
+            "simplified": [
+              "買了一間房子",
+              "就有一家大醫院",
+              "林一正沒花多少錢",
+              "林一正花了不少錢",
+              "那裡的生活很方便",
+              "可以常常帶孩子到公園玩"
+            ]
+          },
+          "questionText": {
+            "traditional": "",
+            "simplified": ""
+          }
+        },
+        {
+          "id": "reading-q43",
+          "number": 43,
+          "sectionId": "reading-part-4",
+          "type": "gap_filling",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "correctAnswer": "F",
+          "stimulusGroupId": "reading-q41-q45",
+          "choiceText": {
+            "traditional": [
+              "買了一間房子",
+              "就有一家大醫院",
+              "林一正沒花多少錢",
+              "林一正花了不少錢",
+              "那裡的生活很方便",
+              "可以常常帶孩子到公園玩"
+            ],
+            "simplified": [
+              "買了一間房子",
+              "就有一家大醫院",
+              "林一正沒花多少錢",
+              "林一正花了不少錢",
+              "那裡的生活很方便",
+              "可以常常帶孩子到公園玩"
+            ]
+          },
+          "questionText": {
+            "traditional": "",
+            "simplified": ""
+          }
+        },
+        {
+          "id": "reading-q44",
+          "number": 44,
+          "sectionId": "reading-part-4",
+          "type": "gap_filling",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "correctAnswer": "D",
+          "stimulusGroupId": "reading-q41-q45",
+          "choiceText": {
+            "traditional": [
+              "買了一間房子",
+              "就有一家大醫院",
+              "林一正沒花多少錢",
+              "林一正花了不少錢",
+              "那裡的生活很方便",
+              "可以常常帶孩子到公園玩"
+            ],
+            "simplified": [
+              "買了一間房子",
+              "就有一家大醫院",
+              "林一正沒花多少錢",
+              "林一正花了不少錢",
+              "那裡的生活很方便",
+              "可以常常帶孩子到公園玩"
+            ]
+          },
+          "questionText": {
+            "traditional": "",
+            "simplified": ""
+          }
+        },
+        {
+          "id": "reading-q45",
+          "number": 45,
+          "sectionId": "reading-part-4",
+          "type": "gap_filling",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "correctAnswer": "E",
+          "stimulusGroupId": "reading-q41-q45",
+          "choiceText": {
+            "traditional": [
+              "買了一間房子",
+              "就有一家大醫院",
+              "林一正沒花多少錢",
+              "林一正花了不少錢",
+              "那裡的生活很方便",
+              "可以常常帶孩子到公園玩"
+            ],
+            "simplified": [
+              "買了一間房子",
+              "就有一家大醫院",
+              "林一正沒花多少錢",
+              "林一正花了不少錢",
+              "那裡的生活很方便",
+              "可以常常帶孩子到公園玩"
+            ]
+          },
+          "questionText": {
+            "traditional": "",
+            "simplified": ""
+          }
+        },
+        {
+          "id": "reading-q46",
+          "number": 46,
+          "sectionId": "reading-part-5",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "B",
+          "stimulusGroupId": "reading-q46",
+          "choiceText": {
+            "traditional": [
+              "想太多事情對自己沒用",
+              "心情好壞可以自己決定",
+              "早睡早起的人一定快樂",
+              "生活進步的方法有很多"
+            ],
+            "simplified": [
+              "想太多事情對自己沒用",
+              "心情好壞可以自己決定",
+              "早睡早起的人一定快樂",
+              "生活進步的方法有很多"
+            ]
+          },
+          "questionText": {
+            "traditional": "明麗最後要說的意思是什麼？",
+            "simplified": "明麗最後要說的意思是什麼？"
+          }
+        },
+        {
+          "id": "reading-q47",
+          "number": 47,
+          "sectionId": "reading-part-5",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "D",
+          "stimulusGroupId": "reading-q47",
+          "choiceText": {
+            "traditional": [
+              "用家中舊書換新書的方法",
+              "上網看書才不會用太多紙",
+              "學會賣書可以賺更多的錢",
+              "把不要的書變成有用的書"
+            ],
+            "simplified": [
+              "用家中舊書換新書的方法",
+              "上網看書才不會用太多紙",
+              "學會賣書可以賺更多的錢",
+              "把不要的書變成有用的書"
+            ]
+          },
+          "questionText": {
+            "traditional": "這篇文章在談什麼？",
+            "simplified": "這篇文章在談什麼？"
+          }
+        },
+        {
+          "id": "reading-q48",
+          "number": 48,
+          "sectionId": "reading-part-5",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "B",
+          "stimulusGroupId": "reading-q48",
+          "choiceText": {
+            "traditional": [
+              "她只想拿第一名",
+              "這是一次很好的經驗",
+              "成績不好都是因為生病",
+              "為了比賽，健康已經不重要"
+            ],
+            "simplified": [
+              "她只想拿第一名",
+              "這是一次很好的經驗",
+              "成績不好都是因為生病",
+              "為了比賽，健康已經不重要"
+            ]
+          },
+          "questionText": {
+            "traditional": "從參加比賽到比賽結束，順文是怎麼想的？",
+            "simplified": "從參加比賽到比賽結束，順文是怎麼想的？"
+          }
+        },
+        {
+          "id": "reading-q49",
+          "number": 49,
+          "sectionId": "reading-part-5",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "C",
+          "stimulusGroupId": "reading-q49",
+          "choiceText": {
+            "traditional": [
+              "他們太喜歡找家人、朋友聊天兒",
+              "他們常常忘了回重要的電子郵件",
+              "他們可能經常工作到一半就得停下來",
+              "他們不太常注意自己上、下班的時間"
+            ],
+            "simplified": [
+              "他們太喜歡找家人、朋友聊天兒",
+              "他們常常忘了回重要的電子郵件",
+              "他們可能經常工作到一半就得停下來",
+              "他們不太常注意自己上、下班的時間"
+            ]
+          },
+          "questionText": {
+            "traditional": "作者覺得，為什麼有人會覺得上班時間不夠？",
+            "simplified": "作者覺得，為什麼有人會覺得上班時間不夠？"
+          }
+        },
+        {
+          "id": "reading-q50",
+          "number": 50,
+          "sectionId": "reading-part-5",
+          "type": "reading_comprehension",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correctAnswer": "A",
+          "stimulusGroupId": "reading-q50",
+          "choiceText": {
+            "traditional": [
+              "好好學習就可以了",
+              "必頇像他一樣努力才行",
+              "要知道什麼事情不應該做",
+              "得學會馬上聽懂老闆說的話"
+            ],
+            "simplified": [
+              "好好學習就可以了",
+              "必須像他一樣努力才行",
+              "要知道什麼事情不應該做",
+              "得學會馬上聽懂老闆說的話"
+            ]
+          },
+          "questionText": {
+            "traditional": "老闆聽了同學們最想問的問題以後，他怎麼回答？",
+            "simplified": "老闆聽了同學們最想問的問題以後，他怎麼回答？"
+          }
+        }
+      ],
+      "displayContexts": {
+        "reading-q01": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "reading-q02": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "reading-q03": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "reading-q04": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "reading-q05": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "reading-q06": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "reading-q07": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "reading-q08": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "reading-q09": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "reading-q10": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "reading-q11": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "reading-q12": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "reading-q13": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "reading-q14": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "reading-q15": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "q16-image": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "q17-image": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "q18-image": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "q19-image": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "q20-image": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "q21-image": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "q22-image": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "q23-image": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "q24-image": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "q25-image": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "q26-image": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "q27-image": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "q28-image": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "q29-image": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "q30-image": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "shared-p14-q31-q35": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "shared-p15-q36-q40": {
+          "traditional": "",
+          "simplified": ""
+        },
+        "reading-q41-q45": {
+          "traditional": "林一正的孩子快要出生了，他覺得現在的家太小了，所以他在自\n己的公司附近  （41）  。那裡有很多商店，而且離房子走路五分鐘\n的地方，  （42）  。房子對面還有一個小公園，以後他和太太 \n  （43）  ，雖然那裡的房子很貴，讓  （44）  ，但是林一正覺得\n沒關係，因為  （45）  ，林一正相信太太一定也很喜歡這間房子。",
+          "simplified": "林一正的孩子快要出生了，他覺得現在的家太小了，所以他在自\n己的公司附近  （41）  。那裡有很多商店，而且離房子走路五分鐘\n的地方，  （42）  。房子對面還有一個小公園，以後他和太太 \n  （43）  ，雖然那裡的房子很貴，讓  （44）  ，但是林一正覺得\n沒關係，因為  （45）  ，林一正相信太太一定也很喜歡這間房子。"
+        },
+        "reading-q46": {
+          "traditional": "明麗的朋友都覺得明麗總是開心地過生活，大家從來沒有看過她傷心或生\n氣。有一次，我問她是怎麼辦到的，她回答我：「每天一早醒來，我都有兩個選\n擇，可以選擇壞心情，討厭自己的生活；也可以選擇好心情，喜愛自己的生活。\n如果是你，不會選第二個嗎？」",
+          "simplified": "明麗的朋友都覺得明麗總是開心地過生活，大家從來沒有看過她傷心或生\n氣。有一次，我問她是怎麼辦到的，她回答我：「每天一早醒來，我都有兩個選\n擇，可以選擇壞心情，討厭自己的生活；也可以選擇好心情，喜愛自己的生活。\n如果是你，不會選第二個嗎？」"
+        },
+        "reading-q47": {
+          "traditional": "你怎麼處理那些已經不再看的書呢？直接丟掉？送給別人？還是賣給書\n店？現代網路的進步，使賣書變得更容易。於是有些人就利用網路開店賣舊書，\n把賺來的錢分給需要的人，有時也將舊書送到鄉下或山裡的學校，這樣的話，不\n但可以保護環境，還可以讓更多的人有機會讀書。",
+          "simplified": "你怎麼處理那些已經不再看的書呢？直接丟掉？送給別人？還是賣給書\n店？現代網路的進步，使賣書變得更容易。於是有些人就利用網路開店賣舊書，\n把賺來的錢分給需要的人，有時也將舊書送到鄉下或山裡的學校，這樣的話，不\n但可以保護環境，還可以讓更多的人有機會讀書。"
+        },
+        "reading-q48": {
+          "traditional": "順文歌唱得很好，上個月，她參加了一個唱歌比賽，為了能把歌唱好，她每\n天都練習五個小時，非常辛苦。沒想到，就在比賽開始的前一天，順文不小心感\n冒了，大家都非常擔心這會對她有不好的影響。結果，比賽的成績真的不太好。\n但順文卻一點也不難過，她告訴我們，能參加比賽就已經很幸福了，比賽讓她學\n到很多。",
+          "simplified": "順文歌唱得很好，上個月，她參加了一個唱歌比賽，為了能把歌唱好，她每\n天都練習五個小時，非常辛苦。沒想到，就在比賽開始的前一天，順文不小心感\n冒了，大家都非常擔心這會對她有不好的影響。結果，比賽的成績真的不太好。\n但順文卻一點也不難過，她告訴我們，能參加比賽就已經很幸福了，比賽讓她學\n到很多。"
+        },
+        "reading-q49": {
+          "traditional": "一天工作八小時，有的人覺得剛剛好，有的人覺得不夠用，會出現這樣的不\n同，我覺得是因為沒有好好安排時間的關係。下面兩點建議可以給大家參考：第\n一，試試看申請兩個手機號碼，一個只用在工作上，另一個用來聯繫家人或朋友，\n上班時間只接工作用的電話。第二，每天進辦公室或下班以前，可以留半小時到\n一小時，收、寄電子郵件，這樣的話，就不會因為經常得花時間寫郵件，影響了\n自己的工作。",
+          "simplified": "一天工作八小時，有的人覺得剛剛好，有的人覺得不夠用，會出現這樣的不\n同，我覺得是因為沒有好好安排時間的關係。下面兩點建議可以給大家參考：第\n一，試試看申請兩個手機號碼，一個只用在工作上，另一個用來聯繫家人或朋友，\n上班時間只接工作用的電話。第二，每天進辦公室或下班以前，可以留半小時到\n一小時，收、寄電子郵件，這樣的話，就不會因為經常得花時間寫郵件，影響了\n自己的工作。"
+        },
+        "reading-q50": {
+          "traditional": "上週，校長邀請了一位大公司的老闆到學校來，跟同學們談一談他的成功經\n驗，講完以後，還讓同學們問問題。因為那位老闆講得太好，同學們的問題一個\n接著一個，大家最想知道的就是：要怎麼做才能快一點兒成功？我本來以為，大\n老闆會教大家一些實際的方法，但他卻告訴我們：「做好現在應該做的，你們就\n已經成功了」。",
+          "simplified": "上週，校長邀請了一位大公司的老闆到學校來，跟同學們談一談他的成功經\n驗，講完以後，還讓同學們問問題。因為那位老闆講得太好，同學們的問題一個\n接着一個，大家最想知道的就是：要怎麼做才能快一點兒成功？我本來以為，大\n老闆會教大家一些實際的方法，但他卻告訴我們：「做好現在應該做的，你們就\n已經成功了」。"
+        }
+      }
+    }
+  }
+}

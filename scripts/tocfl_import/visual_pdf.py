@@ -7,6 +7,7 @@ from dataclasses import dataclass
 import fitz
 
 from .discovery import ImportErrorWithContext
+from .embedded_image import embedded_png
 
 NUMBER = re.compile(r"^\s*(\d{1,2})\s*[.．、]")
 CHOICE = re.compile(r"[（(]([A-F])[）)]\s*")
@@ -20,10 +21,7 @@ class VisualExtract:
 
 
 def _png(doc: fitz.Document, xref: int) -> bytes:
-    pix = fitz.Pixmap(doc, xref)
-    if pix.colorspace not in (fitz.csRGB, fitz.csGRAY) or pix.alpha:
-        pix = fitz.Pixmap(fitz.csRGB, pix)
-    return pix.tobytes("png")
+    return embedded_png(doc, xref)
 
 
 def _lines(page):

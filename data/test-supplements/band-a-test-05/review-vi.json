@@ -1,0 +1,3727 @@
+{
+  "testId": "band-a-test-05",
+  "listening": {
+    "listening-q01": {
+      "number": 1,
+      "correctAnswer": "A",
+      "transcriptChinese": {
+        "traditional": "提問 \n圖片裡有幾個學生？ \n(A) \n三個 \n(B) \n四個 \n(C) \n七個",
+        "simplified": "提问 \n图片里有几个学生？ \n(A) \n三个 \n(B) \n四个 \n(C) \n七个"
+      },
+      "transcriptVi": "Câu hỏi:\nCó bao nhiêu học sinh trong hình?\nA. ba B. bốn C. bảy",
+      "questionChinese": {
+        "traditional": "圖片裡有幾個學生？",
+        "simplified": "图片里有几个学生？"
+      },
+      "questionVi": "Có bao nhiêu học sinh trong hình?",
+      "optionChinese": {
+        "traditional": [
+          "三個",
+          "四個",
+          "七個"
+        ],
+        "simplified": [
+          "三个",
+          "四个",
+          "七个"
+        ]
+      },
+      "optionTranslations": [
+        "ba",
+        "bốn",
+        "bảy"
+      ],
+      "evidence": null,
+      "explanationVi": "Trong lời đọc, “三個” nghĩa là ba; hình A thể hiện đúng nội dung này.",
+      "sourceLimitation": "Chứng cứ duy nhất là toàn bộ lựa chọn được đọc; không tô trọn một phương án."
+    },
+    "listening-q02": {
+      "number": 2,
+      "correctAnswer": "B",
+      "transcriptChinese": {
+        "traditional": "提問 \n這個人在做什麼運動？ \n(A) \n他在打籃球 \n(B) \n他在打網球 \n(C) \n他在打棒球",
+        "simplified": "提问 \n这个人在做什么运动？ \n(A) \n他在打篮球 \n(B) \n他在打网球 \n(C) \n他在打棒球"
+      },
+      "transcriptVi": "Câu hỏi:\nNgười này đang chơi môn thể thao gì?\nA. anh ấy đang chơi bóng rổ B. anh ấy đang chơi quần vợt C. anh ấy đang chơi bóng chày",
+      "questionChinese": {
+        "traditional": "這個人在做什麼運動？",
+        "simplified": "这个人在做什么运动？"
+      },
+      "questionVi": "Người này đang chơi môn thể thao gì?",
+      "optionChinese": {
+        "traditional": [
+          "他在打籃球",
+          "他在打網球",
+          "他在打棒球"
+        ],
+        "simplified": [
+          "他在打篮球",
+          "他在打网球",
+          "他在打棒球"
+        ]
+      },
+      "optionTranslations": [
+        "anh ấy đang chơi bóng rổ",
+        "anh ấy đang chơi quần vợt",
+        "anh ấy đang chơi bóng chày"
+      ],
+      "evidence": {
+        "traditional": "打網球",
+        "simplified": "打网球"
+      },
+      "explanationVi": "Trong lời đọc, “他在打網球” nghĩa là anh ấy đang chơi quần vợt; hình B thể hiện đúng nội dung này.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q03": {
+      "number": 3,
+      "correctAnswer": "B",
+      "transcriptChinese": {
+        "traditional": "提問 \n請問小美喜歡做什麼？ \n(A) \n她喜歡打掃 \n(B) \n她喜歡做菜 \n(C) \n她喜歡洗衣服",
+        "simplified": "提问 \n请问小美喜欢做什么？ \n(A) \n她喜欢打扫 \n(B) \n她喜欢做菜 \n(C) \n她喜欢洗衣服"
+      },
+      "transcriptVi": "Câu hỏi:\nTiểu Mỹ thích làm gì?\nA. cô ấy thích dọn dẹp B. cô ấy thích nấu ăn C. cô ấy thích giặt quần áo",
+      "questionChinese": {
+        "traditional": "請問小美喜歡做什麼？",
+        "simplified": "请问小美喜欢做什么？"
+      },
+      "questionVi": "Tiểu Mỹ thích làm gì?",
+      "optionChinese": {
+        "traditional": [
+          "她喜歡打掃",
+          "她喜歡做菜",
+          "她喜歡洗衣服"
+        ],
+        "simplified": [
+          "她喜欢打扫",
+          "她喜欢做菜",
+          "她喜欢洗衣服"
+        ]
+      },
+      "optionTranslations": [
+        "cô ấy thích dọn dẹp",
+        "cô ấy thích nấu ăn",
+        "cô ấy thích giặt quần áo"
+      ],
+      "evidence": {
+        "traditional": "歡做菜",
+        "simplified": "欢做菜"
+      },
+      "explanationVi": "Trong lời đọc, “她喜歡做菜” nghĩa là cô ấy thích nấu ăn; hình B thể hiện đúng nội dung này.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q04": {
+      "number": 4,
+      "correctAnswer": "C",
+      "transcriptChinese": {
+        "traditional": "提問 \n弟弟今天怎麼沒去上課？ \n(A) \n他腳痛 \n(B) \n他頭痛 \n(C) \n他肚子痛",
+        "simplified": "提问 \n弟弟今天怎么没去上课？ \n(A) \n他脚痛 \n(B) \n他头痛 \n(C) \n他肚子痛"
+      },
+      "transcriptVi": "Câu hỏi:\nTại sao hôm nay anh trai tôi không đến lớp?\nA. Chân anh ấy đau B. Anh ấy bị đau đầu C. Anh ấy bị đau bụng",
+      "questionChinese": {
+        "traditional": "弟弟今天怎麼沒去上課？",
+        "simplified": "弟弟今天怎么没去上课？"
+      },
+      "questionVi": "Tại sao hôm nay anh trai tôi không đến lớp?",
+      "optionChinese": {
+        "traditional": [
+          "他腳痛",
+          "他頭痛",
+          "他肚子痛"
+        ],
+        "simplified": [
+          "他脚痛",
+          "他头痛",
+          "他肚子痛"
+        ]
+      },
+      "optionTranslations": [
+        "Chân anh ấy đau",
+        "Anh ấy bị đau đầu",
+        "Anh ấy bị đau bụng"
+      ],
+      "evidence": null,
+      "explanationVi": "Trong lời đọc, “他肚子痛” nghĩa là anh ấy bị đau bụng; hình C thể hiện đúng nội dung này.",
+      "sourceLimitation": "Chứng cứ duy nhất là toàn bộ lựa chọn được đọc; không tô trọn một phương án."
+    },
+    "listening-q05": {
+      "number": 5,
+      "correctAnswer": "A",
+      "transcriptChinese": {
+        "traditional": "提問 \n小明給美美什麼？ \n(A) \n水果 \n(B) \n蛋糕 \n(C) \n餃子",
+        "simplified": "提问 \n小明给美美什么？ \n(A) \n水果 \n(B) \n蛋糕 \n(C) \n饺子"
+      },
+      "transcriptVi": "Câu hỏi:\nTiểu Minh tặng Meimei cái gì?\nA. Trái cây. B. Bánh ngọt. C. Bánh chẻo.",
+      "questionChinese": {
+        "traditional": "小明給美美什麼？",
+        "simplified": "小明给美美什么？"
+      },
+      "questionVi": "Tiểu Minh tặng Meimei cái gì?",
+      "optionChinese": {
+        "traditional": [
+          "水果",
+          "蛋糕",
+          "餃子"
+        ],
+        "simplified": [
+          "水果",
+          "蛋糕",
+          "饺子"
+        ]
+      },
+      "optionTranslations": [
+        "Trái cây.",
+        "Bánh ngọt.",
+        "Bánh chẻo."
+      ],
+      "evidence": null,
+      "explanationVi": "Trong lời đọc, “水果” nghĩa là trái cây; hình A thể hiện đúng nội dung này.",
+      "sourceLimitation": "Chứng cứ duy nhất là toàn bộ lựa chọn được đọc; không tô trọn một phương án."
+    },
+    "listening-q06": {
+      "number": 6,
+      "correctAnswer": "B",
+      "transcriptChinese": {
+        "traditional": "提問 \n這位先生現在在做什麼？ \n(A) \n他在教室上網 \n(B) \n他在辦公室工作 \n(C) \n他在辦公室上網",
+        "simplified": "提问 \n这位先生现在在做什么？ \n(A) \n他在教室上网 \n(B) \n他在办公室工作 \n(C) \n他在办公室上网"
+      },
+      "transcriptVi": "Câu hỏi:\nNgười đàn ông này hiện đang làm gì?\nA. Anh ấy đang lướt Internet trong lớp học B. anh ấy làm việc ở văn phòng C. Anh ấy đang lướt Internet trong văn phòng",
+      "questionChinese": {
+        "traditional": "這位先生現在在做什麼？",
+        "simplified": "这位先生现在在做什么？"
+      },
+      "questionVi": "Người đàn ông này hiện đang làm gì?",
+      "optionChinese": {
+        "traditional": [
+          "他在教室上網",
+          "他在辦公室工作",
+          "他在辦公室上網"
+        ],
+        "simplified": [
+          "他在教室上网",
+          "他在办公室工作",
+          "他在办公室上网"
+        ]
+      },
+      "optionTranslations": [
+        "Anh ấy đang lướt Internet trong lớp học",
+        "anh ấy làm việc ở văn phòng",
+        "Anh ấy đang lướt Internet trong văn phòng"
+      ],
+      "evidence": {
+        "traditional": "室工作",
+        "simplified": "室工作"
+      },
+      "explanationVi": "Trong lời đọc, “他在辦公室工作” nghĩa là anh ấy làm việc ở văn phòng; hình B thể hiện đúng nội dung này.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q07": {
+      "number": 7,
+      "correctAnswer": "A",
+      "transcriptChinese": {
+        "traditional": "提問 \n小女孩在做什麼？ \n(A) \n她在寄信 \n(B) \n她在寫信 \n(C) \n她在打電話",
+        "simplified": "提问 \n小女孩在做什么？ \n(A) \n她在寄信 \n(B) \n她在写信 \n(C) \n她在打电话"
+      },
+      "transcriptVi": "Câu hỏi:\nCô bé đang làm gì vậy?\nA. Cô ấy đang gửi thư. B. Cô ấy đang viết thư. C. Cô ấy đang gọi điện thoại.",
+      "questionChinese": {
+        "traditional": "小女孩在做什麼？",
+        "simplified": "小女孩在做什么？"
+      },
+      "questionVi": "Cô bé đang làm gì vậy?",
+      "optionChinese": {
+        "traditional": [
+          "她在寄信",
+          "她在寫信",
+          "她在打電話"
+        ],
+        "simplified": [
+          "她在寄信",
+          "她在写信",
+          "她在打电话"
+        ]
+      },
+      "optionTranslations": [
+        "Cô ấy đang gửi thư.",
+        "Cô ấy đang viết thư.",
+        "Cô ấy đang gọi điện thoại."
+      ],
+      "evidence": null,
+      "explanationVi": "Trong lời đọc, “她在寄信” nghĩa là cô ấy đang gửi thư; hình A thể hiện đúng nội dung này.",
+      "sourceLimitation": "Chứng cứ duy nhất là toàn bộ lựa chọn được đọc; không tô trọn một phương án."
+    },
+    "listening-q08": {
+      "number": 8,
+      "correctAnswer": "B",
+      "transcriptChinese": {
+        "traditional": "提問 \n圖片裡有什麼？ \n(A) \n一枝鉛筆和兩本字典 \n(B) \n一本字典和兩支毛筆 \n(C) \n一本雜誌和兩本課本",
+        "simplified": "提问 \n图片里有什么？ \n(A) \n一枝铅笔和两本字典 \n(B) \n一本字典和两支毛笔 \n(C) \n一本杂志和两本课本"
+      },
+      "transcriptVi": "Câu hỏi:\nTrong hình có gì?\nA. Một cây bút chì và hai quyển từ điển. B. Một quyển từ điển và hai cây bút lông. C. Một tạp chí và hai quyển sách giáo khoa.",
+      "questionChinese": {
+        "traditional": "圖片裡有什麼？",
+        "simplified": "图片里有什么？"
+      },
+      "questionVi": "Trong hình có gì?",
+      "optionChinese": {
+        "traditional": [
+          "一枝鉛筆和兩本字典",
+          "一本字典和兩支毛筆",
+          "一本雜誌和兩本課本"
+        ],
+        "simplified": [
+          "一枝铅笔和两本字典",
+          "一本字典和两支毛笔",
+          "一本杂志和两本课本"
+        ]
+      },
+      "optionTranslations": [
+        "Một cây bút chì và hai quyển từ điển.",
+        "Một quyển từ điển và hai cây bút lông.",
+        "Một tạp chí và hai quyển sách giáo khoa."
+      ],
+      "evidence": {
+        "traditional": "支毛筆",
+        "simplified": "支毛笔"
+      },
+      "explanationVi": "Trong lời đọc, “一本字典和兩支毛筆” nghĩa là một quyển từ điển và hai cây bút lông; hình B thể hiện đúng nội dung này.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q09": {
+      "number": 9,
+      "correctAnswer": "A",
+      "transcriptChinese": {
+        "traditional": "提問 \n他們在做什麼？ \n(A) \n他們一邊看電視，一邊吃東西 \n(B) \n他們一邊吃東西，一邊和狗玩 \n(C) \n他們一邊和狗玩，一邊看電視",
+        "simplified": "提问 \n他们在做什么？ \n(A) \n他们一边看电视，一边吃东西 \n(B) \n他们一边吃东西，一边和狗玩 \n(C) \n他们一边和狗玩，一边看电视"
+      },
+      "transcriptVi": "Câu hỏi:\nHọ đang làm gì vậy?\nA. Họ đang xem TV và ăn uống B. Họ ăn và chơi với con chó C. Họ chơi với con chó và xem TV",
+      "questionChinese": {
+        "traditional": "他們在做什麼？",
+        "simplified": "他们在做什么？"
+      },
+      "questionVi": "họ đang làm gì vậy?",
+      "optionChinese": {
+        "traditional": [
+          "他們一邊看電視，一邊吃東西",
+          "他們一邊吃東西，一邊和狗玩",
+          "他們一邊和狗玩，一邊看電視"
+        ],
+        "simplified": [
+          "他们一边看电视，一边吃东西",
+          "他们一边吃东西，一边和狗玩",
+          "他们一边和狗玩，一边看电视"
+        ]
+      },
+      "optionTranslations": [
+        "Họ đang xem TV và ăn uống",
+        "Họ ăn và chơi với con chó",
+        "Họ chơi với con chó và xem TV"
+      ],
+      "evidence": {
+        "traditional": "吃東西",
+        "simplified": "吃东西"
+      },
+      "explanationVi": "Trong lời đọc, “他們一邊看電視，一邊吃東西” nghĩa là họ đang xem tv và ăn uống; hình A thể hiện đúng nội dung này.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q10": {
+      "number": 10,
+      "correctAnswer": "B",
+      "transcriptChinese": {
+        "traditional": "提問 \n這裡有哪些動物？ \n(A) \n這裡都是馬 \n(B) \n這裡有馬也有牛 \n(C) \n這裡只有牛沒有馬",
+        "simplified": "提问 \n这里有哪些动物？ \n(A) \n这里都是马 \n(B) \n这里有马也有牛 \n(C) \n这里只有牛没有马"
+      },
+      "transcriptVi": "Câu hỏi:\nỞ đây có những con vật nào?\nA. Ở đây toàn là ngựa. B. Ở đây có cả ngựa lẫn bò. C. Ở đây chỉ có bò, không có ngựa.",
+      "questionChinese": {
+        "traditional": "這裡有哪些動物？",
+        "simplified": "这里有哪些动物？"
+      },
+      "questionVi": "Ở đây có những con vật nào?",
+      "optionChinese": {
+        "traditional": [
+          "這裡都是馬",
+          "這裡有馬也有牛",
+          "這裡只有牛沒有馬"
+        ],
+        "simplified": [
+          "这里都是马",
+          "这里有马也有牛",
+          "这里只有牛没有马"
+        ]
+      },
+      "optionTranslations": [
+        "Ở đây toàn là ngựa.",
+        "Ở đây có cả ngựa lẫn bò.",
+        "Ở đây chỉ có bò, không có ngựa."
+      ],
+      "evidence": {
+        "traditional": "也有牛",
+        "simplified": "也有牛"
+      },
+      "explanationVi": "Trong lời đọc, “這裡有馬也有牛” nghĩa là ở đây có cả ngựa lẫn bò; hình B thể hiện đúng nội dung này.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q11": {
+      "number": 11,
+      "correctAnswer": "B",
+      "transcriptChinese": {
+        "traditional": "男 \n剛剛那個年輕人在飯店裡吃了什麼食物？ \n女 \n他吃了一碗麵。",
+        "simplified": "男 \n刚刚那个年轻人在饭店里吃了什么食物？ \n女 \n他吃了一碗面。"
+      },
+      "transcriptVi": "Nam: Chàng trai vừa ăn gì ở nhà hàng? \nNữ: Anh ăn một bát mì.",
+      "questionChinese": {
+        "traditional": "剛剛那個年輕人在飯店裡吃了什麼食物？",
+        "simplified": "刚刚那个年轻人在饭店里吃了什么食物？"
+      },
+      "questionVi": "Chàng trai vừa ăn gì ở nhà hàng?",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Một thanh niên hói đầu ăn mì.",
+        "Một thanh niên tóc ngắn ăn mì.",
+        "Một thanh niên ăn cơm."
+      ],
+      "evidence": {
+        "traditional": "吃了一碗麵",
+        "simplified": "吃了一碗面"
+      },
+      "explanationVi": "Chi tiết “吃了一碗麵” trong nguồn cho biết một thanh niên tóc ngắn ăn mì; vì vậy chọn B.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q12": {
+      "number": 12,
+      "correctAnswer": "A",
+      "transcriptChinese": {
+        "traditional": "女 \n你要不要去博物館？ \n男 \n好啊！",
+        "simplified": "女 \n你要不要去博物馆？ \n男 \n好啊！"
+      },
+      "transcriptVi": "Nữ: Bạn có muốn đi đến viện bảo tàng không? \nNam: Được rồi!",
+      "questionChinese": {
+        "traditional": "你要不要去博物館？",
+        "simplified": "你要不要去博物馆？"
+      },
+      "questionVi": "Bạn có muốn đi đến viện bảo tàng không?",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Hai người đứng trước tòa nhà bảo tàng.",
+        "Hai người đứng ở công viên trò chơi.",
+        "Hai người đứng ở sở thú."
+      ],
+      "evidence": {
+        "traditional": "去博物館",
+        "simplified": "去博物馆"
+      },
+      "explanationVi": "Chi tiết “去博物館” trong nguồn cho biết hai người đứng trước tòa nhà bảo tàng; vì vậy chọn A.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q13": {
+      "number": 13,
+      "correctAnswer": "C",
+      "transcriptChinese": {
+        "traditional": "男 \n這是您的巧克力蛋糕，請問還需要什麼嗎？ \n女 \n請再給我一個湯匙，我們要一起吃。",
+        "simplified": "男 \n这是您的巧克力蛋糕，请问还需要什么吗？ \n女 \n请再给我一个汤匙，我们要一起吃。"
+      },
+      "transcriptVi": "Nam: Đây là bánh sô cô la của bạn, bạn có cần gì nữa không? \nNữ: Xin vui lòng cho tôi một thìa khác và chúng ta sẽ ăn cùng nhau.",
+      "questionChinese": {
+        "traditional": "這是您的巧克力蛋糕，請問還需要什麼嗎？",
+        "simplified": "这是您的巧克力蛋糕，请问还需要什么吗？"
+      },
+      "questionVi": "Đây là bánh sô cô la của bạn, bạn có cần gì nữa không?",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Người phục vụ mang bánh sô cô la và nói tới cái nĩa.",
+        "Người phục vụ mang kem và nói tới cái thìa.",
+        "Người phục vụ mang bánh sô cô la và nói tới cái thìa."
+      ],
+      "evidence": {
+        "traditional": "巧克力蛋糕",
+        "simplified": "巧克力蛋糕"
+      },
+      "explanationVi": "Chi tiết “巧克力蛋糕” trong nguồn cho biết người phục vụ mang bánh sô cô la và nói tới cái thìa; vì vậy chọn C.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q14": {
+      "number": 14,
+      "correctAnswer": "B",
+      "transcriptChinese": {
+        "traditional": "女 \n我昨天打電話給你，你怎麼沒接電話？ \n男 \n我的手機壞了。",
+        "simplified": "女 \n我昨天打电话给你，你怎么没接电话？ \n男 \n我的手机坏了。"
+      },
+      "transcriptVi": "Nữ: Hôm qua tôi gọi cho bạn, sao bạn không nghe máy? \nNam: Điện thoại của tôi bị hỏng.",
+      "questionChinese": {
+        "traditional": "我昨天打電話給你，你怎麼沒接電話？",
+        "simplified": "我昨天打电话给你，你怎么没接电话？"
+      },
+      "questionVi": "Hôm qua tôi gọi cho bạn, sao bạn không nghe máy?",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Điện thoại bàn bị hỏng.",
+        "Điện thoại di động bị hỏng.",
+        "Máy tính bị hỏng."
+      ],
+      "evidence": {
+        "traditional": "我的手機壞了",
+        "simplified": "我的手机坏了"
+      },
+      "explanationVi": "Chi tiết “我的手機壞了” trong nguồn cho biết điện thoại di động bị hỏng; vì vậy chọn B.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q15": {
+      "number": 15,
+      "correctAnswer": "C",
+      "transcriptChinese": {
+        "traditional": "男 \n哪一個是妳的妹妹？ \n女 \n那個短頭髮，戴眼鏡的是我妹妹。",
+        "simplified": "男 \n哪一个是妳的妹妹？ \n女 \n那个短头发，戴眼镜的是我妹妹。"
+      },
+      "transcriptVi": "Nam: Ai là em gái cô?\nNữ: Cô bé tóc ngắn, đeo kính là em gái tôi.",
+      "questionChinese": {
+        "traditional": "哪一個是妳的妹妹？",
+        "simplified": "哪一个是妳的妹妹？"
+      },
+      "questionVi": "Ai là em gái cô ấy?",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Cô gái tóc ngắn không đeo kính.",
+        "Cậu bé tóc ngắn.",
+        "Cô gái tóc ngắn đeo kính."
+      ],
+      "evidence": {
+        "traditional": "短頭髮，戴眼鏡",
+        "simplified": "短头发，戴眼镜"
+      },
+      "explanationVi": "Chi tiết “短頭髮，戴眼鏡” trong nguồn cho biết cô gái tóc ngắn đeo kính; vì vậy chọn C.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q16": {
+      "number": 16,
+      "correctAnswer": "B",
+      "transcriptChinese": {
+        "traditional": "女 \n這家店為什麼這麼多人在排隊？ \n男 \n因為這裡的衣服很便宜，很多人來這裡買衣服。",
+        "simplified": "女 \n这家店为什么这么多人在排队？ \n男 \n因为这里的衣服很便宜，很多人来这里买衣服。"
+      },
+      "transcriptVi": "Nữ: Tại sao có nhiều người xếp hàng ở cửa hàng này? \nNam: Vì quần áo ở đây rất rẻ nên rất nhiều người đến đây mua quần áo.",
+      "questionChinese": {
+        "traditional": "這家店為什麼這麼多人在排隊？",
+        "simplified": "这家店为什么这么多人在排队？"
+      },
+      "questionVi": "Tại sao có nhiều người xếp hàng ở cửa hàng này?",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Nhiều người xếp hàng ở quầy thuốc.",
+        "Nhiều người xếp hàng ở cửa hàng quần áo.",
+        "Nhiều người xếp hàng ở cửa hàng trái cây."
+      ],
+      "evidence": {
+        "traditional": "這裡的衣服很便宜",
+        "simplified": "这里的衣服很便宜"
+      },
+      "explanationVi": "Chi tiết “這裡的衣服很便宜” trong nguồn cho biết nhiều người xếp hàng ở cửa hàng quần áo; vì vậy chọn B.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q17": {
+      "number": 17,
+      "correctAnswer": "C",
+      "transcriptChinese": {
+        "traditional": "男 \n聽說這家店的牛排和漢堡很好吃，妳要試一試嗎？ \n女 \n我不能吃肉，請幫我點一份青菜。",
+        "simplified": "男 \n听说这家店的牛排和汉堡很好吃，妳要试一试吗？ \n女 \n我不能吃肉，请帮我点一份青菜。"
+      },
+      "transcriptVi": "Nam: Tôi nghe nói bít tết và bánh mì kẹp thịt ở nhà hàng này rất ngon. Bạn có muốn thử chúng không? \nNữ: Tôi không thể ăn thịt. Vui lòng đặt mua một ít rau cho tôi.",
+      "questionChinese": {
+        "traditional": "聽說這家店的牛排和漢堡很好吃，妳要試一試嗎？",
+        "simplified": "听说这家店的牛排和汉堡很好吃，妳要试一试吗？"
+      },
+      "questionVi": "Tôi nghe nói bít tết và bánh mì kẹp thịt ở nhà hàng này rất ngon. Bạn có muốn thử chúng không?",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Một đĩa thịt bò với trứng và rau.",
+        "Một chiếc bánh hamburger.",
+        "Một đĩa rau xanh."
+      ],
+      "evidence": {
+        "traditional": "幫我點一份青菜",
+        "simplified": "帮我点一份青菜"
+      },
+      "explanationVi": "Chi tiết “幫我點一份青菜” trong nguồn cho biết một đĩa rau xanh; vì vậy chọn C.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q18": {
+      "number": 18,
+      "correctAnswer": "A",
+      "transcriptChinese": {
+        "traditional": "男 \n媽媽，我找了客廳和房間，怎麼都沒看見我新買的小說？ \n女 \n你昨天放在浴室裡了。",
+        "simplified": "男 \n妈妈，我找了客厅和房间，怎么都没看见我新买的小说？ \n女 \n你昨天放在浴室里了。"
+      },
+      "transcriptVi": "Nam: Mẹ ơi, con tìm trong phòng khách và phòng ngủ mà không thấy cuốn tiểu thuyết mới mua.\nNữ: Hôm qua con để nó trong phòng tắm.",
+      "questionChinese": {
+        "traditional": "媽媽，我找了客廳和房間，怎麼都沒看見我新買的小說？",
+        "simplified": "妈妈，我找了客厅和房间，怎么都没看见我新买的小说？"
+      },
+      "questionVi": "Mẹ ơi, con lục soát phòng khách và phòng khách nhưng không thấy cuốn tiểu thuyết con mua?",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Cuốn sách ở trong phòng tắm.",
+        "Cuốn sách ở phòng khách.",
+        "Cuốn sách ở phòng ngủ."
+      ],
+      "evidence": {
+        "traditional": "放在浴室裡",
+        "simplified": "放在浴室里"
+      },
+      "explanationVi": "Chi tiết “放在浴室裡” trong nguồn cho biết cuốn sách ở trong phòng tắm; vì vậy chọn A.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q19": {
+      "number": 19,
+      "correctAnswer": "A",
+      "transcriptChinese": {
+        "traditional": "女 \n我上次送你的畫你放在哪裡了？ \n男 \n我把它掛在冰箱後面的牆上了。",
+        "simplified": "女 \n我上次送你的画你放在哪里了？ \n男 \n我把它挂在冰箱后面的墙上了。"
+      },
+      "transcriptVi": "Nữ: Bức tranh tôi tặng lần trước bạn để ở đâu? \nNam: Tôi treo nó lên bức tường phía sau tủ lạnh.",
+      "questionChinese": {
+        "traditional": "我上次送你的畫你放在哪裡了？",
+        "simplified": "我上次送你的画你放在哪里了？"
+      },
+      "questionVi": "Bức tranh tôi tặng lần trước bạn để ở đâu?",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Bức tranh treo trên tường phía sau tủ lạnh.",
+        "Bức tranh đặt trên nóc tủ lạnh.",
+        "Bức tranh dán trên cánh tủ lạnh."
+      ],
+      "evidence": {
+        "traditional": "掛在冰箱後面的牆上",
+        "simplified": "挂在冰箱后面的墙上"
+      },
+      "explanationVi": "Chi tiết “掛在冰箱後面的牆上” trong nguồn cho biết bức tranh treo trên tường phía sau tủ lạnh; vì vậy chọn A.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q20": {
+      "number": 20,
+      "correctAnswer": "B",
+      "transcriptChinese": {
+        "traditional": "男 \n聽說小美要表演，是鋼琴表演嗎？ \n女 \n她以前表演過鋼琴，但是這次是吉他表演。",
+        "simplified": "男 \n听说小美要表演，是钢琴表演吗？ \n女 \n她以前表演过钢琴，但是这次是吉他表演。"
+      },
+      "transcriptVi": "Nam: Tôi nghe nói Tiểu Mỹ sắp biểu diễn. Đây có phải là một buổi biểu diễn piano? \nNữ: Trước đây cô ấy đã biểu diễn piano nhưng lần này là guitar.",
+      "questionChinese": {
+        "traditional": "聽說小美要表演，是鋼琴表演嗎？",
+        "simplified": "听说小美要表演，是钢琴表演吗？"
+      },
+      "questionVi": "Tôi nghe nói Tiểu Mỹ sắp biểu diễn. Đây có phải là một buổi biểu diễn piano?",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Cô gái biểu diễn đàn piano.",
+        "Cô gái biểu diễn đàn ghi ta.",
+        "Cô gái biểu diễn đàn hạc."
+      ],
+      "evidence": {
+        "traditional": "這次是吉他表演",
+        "simplified": "这次是吉他表演"
+      },
+      "explanationVi": "Chi tiết “這次是吉他表演” trong nguồn cho biết cô gái biểu diễn đàn ghi ta; vì vậy chọn B.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q21": {
+      "number": 21,
+      "correctAnswer": "B",
+      "transcriptChinese": {
+        "traditional": "女 \n已經晚上九點了，辦公室裡怎麼還有人？ \n男 \n是蘇經理和小蔡，他們兩個還在開會。",
+        "simplified": "女 \n已经晚上九点了，办公室里怎么还有人？ \n男 \n是苏经理和小蔡，他们两个还在开会。"
+      },
+      "transcriptVi": "Nữ: Bây giờ đã chín giờ tối rồi. Tại sao vẫn còn có người ở văn phòng? \nNam: Là quản lý Tô và Tiểu Thái, họ vẫn đang họp.",
+      "questionChinese": {
+        "traditional": "已經晚上九點了，辦公室裡怎麼還有人？",
+        "simplified": "已经晚上九点了，办公室里怎么还有人？"
+      },
+      "questionVi": "Bây giờ đã chín giờ tối rồi. Tại sao vẫn còn có người ở văn phòng?",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Hai người họp trong văn phòng vào ban ngày.",
+        "Hai người họp trong văn phòng lúc đêm.",
+        "Một người làm việc một mình trong văn phòng lúc đêm."
+      ],
+      "evidence": {
+        "traditional": "晚上九點",
+        "simplified": "晚上九点"
+      },
+      "explanationVi": "Chi tiết “晚上九點” trong nguồn cho biết hai người họp trong văn phòng lúc đêm; vì vậy chọn B.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q22": {
+      "number": 22,
+      "correctAnswer": "C",
+      "transcriptChinese": {
+        "traditional": "男 \n他們兩個人都很生氣，不知道他們在說什麼？ \n女 \n他們一討論小孩的事情，就會不太開心。",
+        "simplified": "男 \n他们两个人都很生气，不知道他们在说什么？ \n女 \n他们一讨论小孩的事情，就会不太开心。"
+      },
+      "transcriptVi": "Nam: Cả hai người đều rất tức giận và không biết họ đang nói về điều gì? \nNữ: Họ trở nên không vui khi thảo luận về vấn đề con cái.",
+      "questionChinese": {
+        "traditional": "他們兩個人都很生氣，不知道他們在說什麼？",
+        "simplified": "他们两个人都很生气，不知道他们在说什么？"
+      },
+      "questionVi": "Cả hai người đều rất tức giận và không biết họ đang nói về điều gì?",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Hai người đang đánh nhau.",
+        "Hai người thảo luận bình tĩnh ở bàn.",
+        "Hai người giận dữ cãi nhau."
+      ],
+      "evidence": {
+        "traditional": "討論小孩的事情",
+        "simplified": "讨论小孩的事情"
+      },
+      "explanationVi": "Chi tiết “討論小孩的事情” trong nguồn cho biết hai người giận dữ cãi nhau; vì vậy chọn C.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q23": {
+      "number": 23,
+      "correctAnswer": "B",
+      "transcriptChinese": {
+        "traditional": "女 \n為什麼他今天沒來上班？ \n男 \n因為他在家裡準備明天的報告。",
+        "simplified": "女 \n为什么他今天没来上班？ \n男 \n因为他在家里准备明天的报告。"
+      },
+      "transcriptVi": "Nữ: Tại sao hôm nay anh ấy không đến làm việc? \nNam: Bởi vì anh ấy đang ở nhà chuẩn bị báo cáo ngày mai.",
+      "questionChinese": {
+        "traditional": "為什麼他今天沒來上班？",
+        "simplified": "为什么他今天没来上班？"
+      },
+      "questionVi": "Tại sao hôm nay anh ấy không đến làm việc?",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Người đàn ông thuyết trình trước nhiều người.",
+        "Người đàn ông ở nhà chuẩn bị bài báo cáo.",
+        "Người đàn ông làm việc trong văn phòng với đồng nghiệp."
+      ],
+      "evidence": {
+        "traditional": "在家裡準備明天的報告",
+        "simplified": "在家里准备明天的报告"
+      },
+      "explanationVi": "Chi tiết “在家裡準備明天的報告” trong nguồn cho biết người đàn ông ở nhà chuẩn bị bài báo cáo; vì vậy chọn B.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q24": {
+      "number": 24,
+      "correctAnswer": "C",
+      "transcriptChinese": {
+        "traditional": "女 \n你們在山上新租的房子怎麼樣？ \n男 \n房子很不錯。樓下房間有一個大窗戶。",
+        "simplified": "女 \n你们在山上新租的房子怎么样？ \n男 \n房子很不错。楼下房间有一个大窗户。"
+      },
+      "transcriptVi": "Nữ: Ngôi nhà mới thuê của bạn ở vùng núi thế nào? \nNam: Ngôi nhà rất đẹp. Phòng ở tầng dưới có cửa sổ lớn.",
+      "questionChinese": {
+        "traditional": "你們在山上新租的房子怎麼樣？",
+        "simplified": "你们在山上新租的房子怎么样？"
+      },
+      "questionVi": "Ngôi nhà mới thuê của bạn ở vùng núi thế nào?",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Ngôi nhà bên suối, cửa sổ lớn ở tầng dưới.",
+        "Ngôi nhà bên suối, cửa sổ lớn ở tầng trên.",
+        "Ngôi nhà trên núi, cửa sổ lớn ở tầng dưới."
+      ],
+      "evidence": {
+        "traditional": "樓下房間有一個大窗戶",
+        "simplified": "楼下房间有一个大窗户"
+      },
+      "explanationVi": "Chi tiết “樓下房間有一個大窗戶” trong nguồn cho biết ngôi nhà trên núi, cửa sổ lớn ở tầng dưới; vì vậy chọn C.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q25": {
+      "number": 25,
+      "correctAnswer": "A",
+      "transcriptChinese": {
+        "traditional": "男 \n美美，我的那件短袖襯衫呢？ \n女 \n我剛洗好，現在還沒乾喔！",
+        "simplified": "男 \n美美，我的那件短袖衬衫呢？ \n女 \n我刚洗好，现在还没干喔！"
+      },
+      "transcriptVi": "Nam: Meimei, áo sơ mi ngắn tay của tôi đâu rồi? \nNữ: Mình vừa giặt xong và nó vẫn chưa khô!",
+      "questionChinese": {
+        "traditional": "美美，我的那件短袖襯衫呢？",
+        "simplified": "美美，我的那件短袖衬衫呢？"
+      },
+      "questionVi": "Meimei, áo sơ mi ngắn tay của tôi đâu rồi?",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Áo sơ mi ngắn tay vừa giặt xong còn ướt.",
+        "Người đang là áo sơ mi.",
+        "Người đang giặt áo sơ mi bằng tay."
+      ],
+      "evidence": {
+        "traditional": "剛洗好，現在還沒乾",
+        "simplified": "刚洗好，现在还没干"
+      },
+      "explanationVi": "Chi tiết “剛洗好，現在還沒乾” trong nguồn cho biết áo sơ mi ngắn tay vừa giặt xong còn ướt; vì vậy chọn A.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q26": {
+      "number": 26,
+      "correctAnswer": "C",
+      "transcriptChinese": {
+        "traditional": "男 \n聽說小明家附近的風景很漂亮，是嗎？ \n女 \n是啊！但是那裡冬天的溫度很低，你去找他要穿暖一點。",
+        "simplified": "男 \n听说小明家附近的风景很漂亮，是吗？ \n女 \n是啊！但是那里冬天的温度很低，你去找他要穿暖一点。"
+      },
+      "transcriptVi": "Nam: Nghe nói cảnh gần nhà Tiểu Minh rất đẹp, phải không?\nNữ: Đúng, nhưng mùa đông ở đó rất lạnh; đến thăm cậu ấy nhớ mặc ấm.",
+      "questionChinese": {
+        "traditional": "聽說小明家附近的風景很漂亮，是嗎？",
+        "simplified": "听说小明家附近的风景很漂亮，是吗？"
+      },
+      "questionVi": "Nghe nói phong cảnh gần nhà Tiểu Minh rất đẹp phải không?",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Một người mặc áo mỏng giữa nắng.",
+        "Một người tắm nắng dưới ô ở bãi biển.",
+        "Một người mặc áo ấm, quàng khăn vì trời lạnh."
+      ],
+      "evidence": {
+        "traditional": "冬天的溫度很低",
+        "simplified": "冬天的温度很低"
+      },
+      "explanationVi": "Chi tiết “冬天的溫度很低” trong nguồn cho biết một người mặc áo ấm, quàng khăn vì trời lạnh; vì vậy chọn C.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q27": {
+      "number": 27,
+      "correctAnswer": "A",
+      "transcriptChinese": {
+        "traditional": "女 \n你覺得認識臺灣最好的方法是什麼？ \n男 \n看書、看電視介紹都不錯，但是最好的方法就是你自己去旅行。",
+        "simplified": "女 \n你觉得认识台湾最好的方法是什么？ \n男 \n看书、看电视介绍都不错，但是最好的方法就是你自己去旅行。"
+      },
+      "transcriptVi": "Nữ: Bạn nghĩ cách tốt nhất để tìm hiểu Đài Loan là gì? \nNam: Đọc sách và xem TV giới thiệu cũng tốt nhưng cách tốt nhất là tự mình đi du lịch.",
+      "questionChinese": {
+        "traditional": "你覺得認識臺灣最好的方法是什麼？",
+        "simplified": "你觉得认识台湾最好的方法是什么？"
+      },
+      "questionVi": "Bạn nghĩ cách tốt nhất để tìm hiểu Đài Loan là gì?",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Người mang hành lý đi du lịch Đài Loan.",
+        "Quyển sách giới thiệu du lịch Đài Loan.",
+        "Màn hình máy tính giới thiệu du lịch Đài Loan."
+      ],
+      "evidence": {
+        "traditional": "你自己去旅行",
+        "simplified": "你自己去旅行"
+      },
+      "explanationVi": "Chi tiết “你自己去旅行” trong nguồn cho biết người mang hành lý đi du lịch đài loan; vì vậy chọn A.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q28": {
+      "number": 28,
+      "correctAnswer": "C",
+      "transcriptChinese": {
+        "traditional": "男 \n小美，你的新家怎麼樣？ \n女 \n別說了，我搬到公寓去，結果樓上的小孩經常往下丟垃圾，環境非常髒。",
+        "simplified": "男 \n小美，你的新家怎么样？ \n女 \n别说了，我搬到公寓去，结果楼上的小孩经常往下丢垃圾，环境非常脏。"
+      },
+      "transcriptVi": "Nam: Tiểu Mỹ, nhà mới của em thế nào? \nNữ: Đừng nói nữa, tôi đã chuyển đến một căn hộ chung cư nhưng bọn trẻ ở tầng trên thường xuyên vứt rác xuống, môi trường rất bẩn thỉu.",
+      "questionChinese": {
+        "traditional": "小美，你的新家怎麼樣？",
+        "simplified": "小美，你的新家怎么样？"
+      },
+      "questionVi": "Tiểu Mỹ, nhà mới của em thế nào?",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Em bé đứng dưới nhà cạnh căn hộ sạch.",
+        "Em bé để rác ở dưới nhà.",
+        "Em bé tầng trên ném rác xuống làm bẩn căn hộ tầng dưới."
+      ],
+      "evidence": {
+        "traditional": "樓上的小孩經常往下丟垃圾",
+        "simplified": "楼上的小孩经常往下丢垃圾"
+      },
+      "explanationVi": "Chi tiết “樓上的小孩經常往下丟垃圾” trong nguồn cho biết em bé tầng trên ném rác xuống làm bẩn căn hộ tầng dưới; vì vậy chọn C.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q29": {
+      "number": 29,
+      "correctAnswer": "A",
+      "transcriptChinese": {
+        "traditional": "男 \n我們等一下三點在書店門口前見面嗎？ \n女 \n我覺得有一點晚，我們可以早半個小時嗎？ \n男 \n好啊，那一樣在書店門口前見嗎？ \n女 \n對，書店門口見！ \n男 \n請問他們幾點見面？",
+        "simplified": "男 \n我们等一下三点在书店门口前见面吗？ \n女 \n我觉得有一点晚，我们可以早半个小时吗？ \n男 \n好啊，那一样在书店门口前见吗？ \n女 \n对，书店门口见！ \n男 \n请问他们几点见面？"
+      },
+      "transcriptVi": "Nam: Chúng ta gặp nhau trước hiệu sách lúc ba giờ nhé? \nNữ: Tôi nghĩ là hơi muộn một chút. Chúng ta có thể đến sớm hơn nửa tiếng được không? \nNam: Được rồi, chúng ta gặp nhau trước hiệu sách nhé? \nNữ: Vâng, hẹn gặp bạn ở hiệu sách! \nNam: Họ sẽ gặp nhau lúc mấy giờ?",
+      "questionChinese": {
+        "traditional": "請問他們幾點見面？",
+        "simplified": "请问他们几点见面？"
+      },
+      "questionVi": "Họ sẽ gặp nhau lúc mấy giờ?",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Đồng hồ chỉ hai giờ rưỡi.",
+        "Đồng hồ chỉ ba giờ.",
+        "Đồng hồ chỉ ba giờ rưỡi."
+      ],
+      "evidence": {
+        "traditional": "早半個小時",
+        "simplified": "早半个小时"
+      },
+      "explanationVi": "Chi tiết “早半個小時” trong nguồn cho biết đồng hồ chỉ hai giờ rưỡi; vì vậy chọn A.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q30": {
+      "number": 30,
+      "correctAnswer": "B",
+      "transcriptChinese": {
+        "traditional": "男 \n請問妳要找什麼書？ \n女 \n我正在找介紹日本風景的旅遊書。 \n男 \n妳看到上面號碼了嗎？如果妳要找日本的書，那在中間2 號。 \n女 \n謝謝。 \n男 \n請問介紹日本風景的書放在哪裡？",
+        "simplified": "男 \n请问妳要找什么书？ \n女 \n我正在找介绍日本风景的旅游书。 \n男 \n妳看到上面号码了吗？如果妳要找日本的书，那在中间2 号。 \n女 \n谢谢。 \n男 \n请问介绍日本风景的书放在哪里？"
+      },
+      "transcriptVi": "Nam: Bạn đang tìm cuốn sách gì? \nNữ: Tôi đang tìm một cuốn sách du lịch giới thiệu phong cảnh Nhật Bản. \nNam: Bạn có nhìn thấy con số trên không? Nếu bạn đang tìm sách tiếng Nhật thì nó nằm ở số 2 ở giữa. \nNữ: Cảm ơn bạn. \nNam: Sách giới thiệu phong cảnh Nhật Bản bán ở đâu?",
+      "questionChinese": {
+        "traditional": "請問介紹日本風景的書放在哪裡？",
+        "simplified": "请问介绍日本风景的书放在哪里？"
+      },
+      "questionVi": "Sách giới thiệu phong cảnh Nhật Bản bán ở đâu?",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Kệ sách số một.",
+        "Kệ sách số hai.",
+        "Kệ sách số ba."
+      ],
+      "evidence": {
+        "traditional": "中間2 號",
+        "simplified": "中间2 号"
+      },
+      "explanationVi": "Chi tiết “中間2 號” trong nguồn cho biết kệ sách số hai; vì vậy chọn B.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q31": {
+      "number": 31,
+      "correctAnswer": "C",
+      "transcriptChinese": {
+        "traditional": "男 \n來這家店的人真多。 \n女 \n是啊！這家冰淇淋店有很多種味道的冰淇淋。 \n男 \n我想吃巧克力和牛奶口味的，我們進去吃吧！ \n女 \n好，我請客。 \n男 \n請問他們等一下要做什麼？",
+        "simplified": "男 \n来这家店的人真多。 \n女 \n是啊！这家冰淇淋店有很多种味道的冰淇淋。 \n男 \n我想吃巧克力和牛奶口味的，我们进去吃吧！ \n女 \n好，我请客。 \n男 \n请问他们等一下要做什么？"
+      },
+      "transcriptVi": "Nam: Cửa hàng này đông khách thật.\nNữ: Ừ, cửa hàng kem có nhiều vị lắm.\nNam: Tôi muốn ăn vị sô cô la và sữa, ta vào ăn nhé!\nNữ: Được, tôi mời.\nNam: Lát nữa họ sẽ làm gì?",
+      "questionChinese": {
+        "traditional": "請問他們等一下要做什麼？",
+        "simplified": "请问他们等一下要做什么？"
+      },
+      "questionVi": "Lát nữa họ sẽ làm gì?",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Cô gái ăn bánh, chàng trai uống cà phê.",
+        "Cô gái ăn kem, chàng trai uống cà phê.",
+        "Cả hai người cùng ăn kem."
+      ],
+      "evidence": {
+        "traditional": "冰淇淋店",
+        "simplified": "冰淇淋店"
+      },
+      "explanationVi": "Chi tiết “冰淇淋店” trong nguồn cho biết cả hai người cùng ăn kem; vì vậy chọn C.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q32": {
+      "number": 32,
+      "correctAnswer": "C",
+      "transcriptChinese": {
+        "traditional": "男 \n照片裡這些人是妳的家人嗎？你們在哪裡拍的？ \n女 \n是啊，這是我的爸爸媽媽。這張照片是在船上拍的。 \n男 \n這個戴帽子的人是誰？ \n女 \n這是我爺爺。他已經七十歲了。 \n男 \n請問他們說的是哪一張照片？",
+        "simplified": "男 \n照片里这些人是妳的家人吗？你们在哪里拍的？ \n女 \n是啊，这是我的爸爸妈妈。这张照片是在船上拍的。 \n男 \n这个戴帽子的人是谁？ \n女 \n这是我爷爷。他已经七十岁了。 \n男 \n请问他们说的是哪一张照片？"
+      },
+      "transcriptVi": "Nam: Những người trong ảnh là gia đình cô à? Chụp ở đâu?\nNữ: Vâng, đây là bố mẹ tôi; ảnh chụp trên thuyền.\nNam: Người đội mũ là ai?\nNữ: Ông nội tôi, ông đã bảy mươi tuổi.\nNam: Họ đang nói đến bức ảnh nào?",
+      "questionChinese": {
+        "traditional": "請問他們說的是哪一張照片？",
+        "simplified": "请问他们说的是哪一张照片？"
+      },
+      "questionVi": "Họ đang nói đến bức ảnh nào?",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Một gia đình ở bãi biển.",
+        "Một gia đình ở trên núi.",
+        "Một gia đình trên thuyền."
+      ],
+      "evidence": {
+        "traditional": "在船上拍的",
+        "simplified": "在船上拍的"
+      },
+      "explanationVi": "Chi tiết “在船上拍的” trong nguồn cho biết một gia đình trên thuyền; vì vậy chọn C.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q33": {
+      "number": 33,
+      "correctAnswer": "C",
+      "transcriptChinese": {
+        "traditional": "男 \n要不要喝點兒啤酒？ \n女 \n不行，我等一下要開車。 \n男 \n那，喝點兒汽水吧？ \n女 \n我還是喝茶好了。 \n男 \n請問這位小姐決定喝什麼？",
+        "simplified": "男 \n要不要喝点儿啤酒？ \n女 \n不行，我等一下要开车。 \n男 \n那，喝点儿汽水吧？ \n女 \n我还是喝茶好了。 \n男 \n请问这位小姐决定喝什么？"
+      },
+      "transcriptVi": "Nam: Bạn có muốn uống chút bia không? \nNữ: Không, tôi phải lái xe sau. \nNam: Vậy một ít soda thì sao? \nNữ: Tốt nhất là tôi nên uống trà. \nNam: Cô gái trẻ này quyết định uống gì?",
+      "questionChinese": {
+        "traditional": "請問這位小姐決定喝什麼？",
+        "simplified": "请问这位小姐决定喝什么？"
+      },
+      "questionVi": "Cô gái trẻ này quyết định uống gì?",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Một cốc bia.",
+        "Một ly nước ngọt.",
+        "Một tách trà nóng."
+      ],
+      "evidence": {
+        "traditional": "我還是喝茶好了",
+        "simplified": "我还是喝茶好了"
+      },
+      "explanationVi": "Chi tiết “我還是喝茶好了” trong nguồn cho biết một tách trà nóng; vì vậy chọn C.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q34": {
+      "number": 34,
+      "correctAnswer": "A",
+      "transcriptChinese": {
+        "traditional": "男 \n妳的房間這麼亂，為什麼不整理？ \n女 \n我本來上星期日要整理房間，但是我的經理要我去公司。 \n男 \n那妳今天看了一個下午的書，為什麼不打掃？ \n女 \n好啦！我明天會整理。 \n男 \n請問這位小姐明天打算做什麼？",
+        "simplified": "男 \n妳的房间这么乱，为什么不整理？ \n女 \n我本来上星期日要整理房间，但是我的经理要我去公司。 \n男 \n那妳今天看了一个下午的书，为什么不打扫？ \n女 \n好啦！我明天会整理。 \n男 \n请问这位小姐明天打算做什么？"
+      },
+      "transcriptVi": "Nam: Phòng của bạn bừa bộn quá, tại sao bạn không dọn dẹp nó? \nNữ: Đáng lẽ tôi phải dọn phòng vào Chủ nhật tuần trước, nhưng người quản lý của tôi yêu cầu tôi đi làm. \nNam: Hôm nay bạn đã đọc sách cả buổi chiều, sao không dọn dẹp đi? \nNữ: Được rồi! Tôi sẽ sắp xếp nó vào ngày mai. \nNam: Cô nàng này dự định làm gì vào ngày mai?",
+      "questionChinese": {
+        "traditional": "請問這位小姐明天打算做什麼？",
+        "simplified": "请问这位小姐明天打算做什么？"
+      },
+      "questionVi": "Cô nàng này dự định làm gì vào ngày mai?",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Cô gái đang dọn văn phòng bừa bộn.",
+        "Cô gái nghỉ ngơi trong văn phòng bừa bộn.",
+        "Cô gái làm việc trong văn phòng gọn gàng."
+      ],
+      "evidence": {
+        "traditional": "我明天會整理",
+        "simplified": "我明天会整理"
+      },
+      "explanationVi": "Chi tiết “我明天會整理” trong nguồn cho biết cô gái đang dọn văn phòng bừa bộn; vì vậy chọn A.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q35": {
+      "number": 35,
+      "correctAnswer": "C",
+      "transcriptChinese": {
+        "traditional": "男 \n這裡的天氣怎麼樣？ \n女 \n冬天太冷，夏天太熱。 \n男 \n那麼春天呢？ \n女 \n常常下雨。 \n男 \n請問這裡的春天常常怎麼樣？",
+        "simplified": "男 \n这里的天气怎么样？ \n女 \n冬天太冷，夏天太热。 \n男 \n那么春天呢？ \n女 \n常常下雨。 \n男 \n请问这里的春天常常怎么样？"
+      },
+      "transcriptVi": "Nam: Thời tiết ở đây thế nào? \nNữ: Trời quá lạnh vào mùa đông và quá nóng vào mùa hè. \nNam: Còn mùa xuân thì sao? \nNữ: Trời mưa thường xuyên. \nNam: Mùa xuân ở đây thường thế nào?",
+      "questionChinese": {
+        "traditional": "請問這裡的春天常常怎麼樣？",
+        "simplified": "请问这里的春天常常怎么样？"
+      },
+      "questionVi": "Mùa xuân ở đây thường thế nào?",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Trời có tuyết.",
+        "Trời nắng.",
+        "Trời mưa to."
+      ],
+      "evidence": {
+        "traditional": "常常下雨",
+        "simplified": "常常下雨"
+      },
+      "explanationVi": "Chi tiết “常常下雨” trong nguồn cho biết trời mưa to; vì vậy chọn C.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q36": {
+      "number": 36,
+      "correctAnswer": "C",
+      "transcriptChinese": {
+        "traditional": "男 \n我想找王先生。 \n女 \n請問您和他約好了嗎？ \n男 \n沒有。是他要我來找他的。 \n女 \n您先留下您的電話，我會請王先生打電話給您。 \n男 \n請問這位小姐要這位先生做什麼？",
+        "simplified": "男 \n我想找王先生。 \n女 \n请问您和他约好了吗？ \n男 \n没有。是他要我来找他的。 \n女 \n您先留下您的电话，我会请王先生打电话给您。 \n男 \n请问这位小姐要这位先生做什么？"
+      },
+      "transcriptVi": "Nam: Tôi muốn tìm anh Vương. \nNữ: Bạn đã hẹn gặp anh ấy chưa? \nNam: Không. Anh ấy yêu cầu tôi đến gặp anh ấy. \nNữ: Vui lòng để lại số điện thoại của bạn trước và tôi sẽ nhờ anh Vương gọi cho bạn. \nNam: Tiểu thư muốn người đàn ông này làm gì?",
+      "questionChinese": {
+        "traditional": "請問這位小姐要這位先生做什麼？",
+        "simplified": "请问这位小姐要这位先生做什么？"
+      },
+      "questionVi": "Tiểu thư muốn người đàn ông này làm gì?",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Người phụ nữ gọi điện thoại cho người đàn ông.",
+        "Một bức chân dung người đàn ông.",
+        "Người đàn ông viết số điện thoại ra giấy."
+      ],
+      "evidence": {
+        "traditional": "先留下您的電話",
+        "simplified": "先留下您的电话"
+      },
+      "explanationVi": "Chi tiết “先留下您的電話” trong nguồn cho biết người đàn ông viết số điện thoại ra giấy; vì vậy chọn C.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q37": {
+      "number": 37,
+      "correctAnswer": "A",
+      "transcriptChinese": {
+        "traditional": "男 \n小春的生日快到了，我們一起送他禮物，怎麼樣？ \n女 \n好啊！他喜歡畫畫，我們可以送他畫畫用的筆。 \n男 \n嗯，還可以送他放筆的袋子。 \n女 \n好啊，今天下課以後我們一起去買禮物吧。 \n男 \n請問他們決定送什麼？",
+        "simplified": "男 \n小春的生日快到了，我们一起送他礼物，怎么样？ \n女 \n好啊！他喜欢画画，我们可以送他画画用的笔。 \n男 \n嗯，还可以送他放笔的袋子。 \n女 \n好啊，今天下课以后我们一起去买礼物吧。 \n男 \n请问他们决定送什么？"
+      },
+      "transcriptVi": "Nam: Sinh nhật Tiểu Xuân sắp đến rồi, chúng ta cùng nhau tặng quà cho anh ấy nhé? \nNữ: Được rồi! Anh ấy thích vẽ và chúng tôi có thể đưa cho anh ấy bút để vẽ. \nNam: Chà, bạn cũng có thể tặng anh ấy một chiếc túi đựng bút. \nNữ: Được rồi, hôm nay chúng ta cùng nhau đi mua quà sau giờ học nhé. \nNam: Họ đã quyết định tặng gì?",
+      "questionChinese": {
+        "traditional": "請問他們決定送什麼？",
+        "simplified": "请问他们决定送什么？"
+      },
+      "questionVi": "Họ đã quyết định tặng gì?",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Một bộ bút vẽ trong túi đựng bút.",
+        "Những cây bút vẽ không có túi.",
+        "Những lọ màu vẽ."
+      ],
+      "evidence": {
+        "traditional": "畫畫用的筆",
+        "simplified": "画画用的笔"
+      },
+      "explanationVi": "Chi tiết “畫畫用的筆” trong nguồn cho biết một bộ bút vẽ trong túi đựng bút; vì vậy chọn A.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q38": {
+      "number": 38,
+      "correctAnswer": "B",
+      "transcriptChinese": {
+        "traditional": "男 \n妳看電視新聞了嗎？有一個很可怕的消息。 \n女 \n什麼可怕的消息？ \n男 \n妳快點開電視，我剛剛才看到的。 \n女 \n我上網看過新聞了，可是沒看到什麼可怕的消息。 \n男 \n請問這位先生從哪裡知道可怕的消息？",
+        "simplified": "男 \n妳看电视新闻了吗？有一个很可怕的消息。 \n女 \n什么可怕的消息？ \n男 \n妳快点开电视，我刚刚才看到的。 \n女 \n我上网看过新闻了，可是没看到什么可怕的消息。 \n男 \n请问这位先生从哪里知道可怕的消息？"
+      },
+      "transcriptVi": "Nam: Bạn đã xem tin tức truyền hình chưa? Có một tin khủng khiếp. \nNữ: Tin khủng khiếp gì? \nNam: Hãy bật TV nhanh lên, tôi vừa xem xong. \nNữ: Tôi đọc tin tức trên mạng nhưng không thấy tin gì khủng khiếp cả. \nNam: Người đàn ông này lấy tin khủng khiếp ở đâu?",
+      "questionChinese": {
+        "traditional": "請問這位先生從哪裡知道可怕的消息？",
+        "simplified": "请问这位先生从哪里知道可怕的消息？"
+      },
+      "questionVi": "Người đàn ông này lấy tin khủng khiếp ở đâu?",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Một chiếc đài phát thanh.",
+        "Một chiếc ti vi.",
+        "Một chiếc máy tính."
+      ],
+      "evidence": {
+        "traditional": "快點開電視",
+        "simplified": "快点开电视"
+      },
+      "explanationVi": "Chi tiết “快點開電視” trong nguồn cho biết một chiếc ti vi; vì vậy chọn B.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q39": {
+      "number": 39,
+      "correctAnswer": "B",
+      "transcriptChinese": {
+        "traditional": "男 \n妳想吃什麼? \n女 \n聽說這裡的北京烤鴨很好吃。 \n男 \n我們點一隻烤鴨，一碗酸辣湯，怎麼樣？ \n女 \n再點一個糖醋魚吧！ \n男 \n請問他們應該在什麼地方？",
+        "simplified": "男 \n妳想吃什么? \n女 \n听说这里的北京烤鸭很好吃。 \n男 \n我们点一只烤鸭，一碗酸辣汤，怎么样？ \n女 \n再点一个糖醋鱼吧！ \n男 \n请问他们应该在什么地方？"
+      },
+      "transcriptVi": "Nam: Bạn muốn ăn gì?\nNữ: Nghe nói vịt quay Bắc Kinh ở đây ngon lắm. \nNam: Chúng ta gọi một con vịt quay và một bát canh chua nóng nhé? \nNữ: Đặt một món cá chua ngọt khác! \nNam: Họ nên ở đâu?",
+      "questionChinese": {
+        "traditional": "請問他們應該在什麼地方？",
+        "simplified": "请问他们应该在什么地方？"
+      },
+      "questionVi": "Họ nên ở đâu?",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Người phụ nữ đi dạo trong vườn.",
+        "Hai người dùng bữa tại nhà hàng.",
+        "Hai người xem phim tại rạp."
+      ],
+      "evidence": {
+        "traditional": "點一隻烤鴨",
+        "simplified": "点一只烤鸭"
+      },
+      "explanationVi": "Chi tiết “點一隻烤鴨” trong nguồn cho biết hai người dùng bữa tại nhà hàng; vì vậy chọn B.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q40": {
+      "number": 40,
+      "correctAnswer": "B",
+      "transcriptChinese": {
+        "traditional": "男 \n已經很晚了，妳怎麼還在這裡？ \n女 \n經理說明天要和他一起討論，我今天一定要準備好。 \n男 \n我不放心妳一個人回家，還是等會兒我開車送妳回去。 \n女 \n謝謝你！但是我今天晚上打算睡在公司裡。 \n男 \n請問這位小姐今天晚上打算做什麼？",
+        "simplified": "男 \n已经很晚了，妳怎么还在这里？ \n女 \n经理说明天要和他一起讨论，我今天一定要准备好。 \n男 \n我不放心妳一个人回家，还是等会儿我开车送妳回去。 \n女 \n谢谢你！但是我今天晚上打算睡在公司里。 \n男 \n请问这位小姐今天晚上打算做什么？"
+      },
+      "transcriptVi": "Nam: Muộn rồi, sao cô còn ở đây?\nNữ: Quản lý bảo mai sẽ cùng tôi thảo luận, hôm nay tôi phải chuẩn bị xong.\nNam: Tôi không yên tâm để cô về một mình, lát nữa tôi lái xe đưa cô về.\nNữ: Cảm ơn, nhưng tối nay tôi định ngủ lại công ty.\nNam: Tối nay cô ấy định làm gì?",
+      "questionChinese": {
+        "traditional": "請問這位小姐今天晚上打算做什麼？",
+        "simplified": "请问这位小姐今天晚上打算做什么？"
+      },
+      "questionVi": "Tối nay cô ấy định làm gì?",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Hai người họp, thảo luận tại công ty.",
+        "Người phụ nữ ngủ lại công ty.",
+        "Hai người đi ô tô về nhà."
+      ],
+      "evidence": {
+        "traditional": "打算睡在公司裡",
+        "simplified": "打算睡在公司里"
+      },
+      "explanationVi": "Chi tiết “打算睡在公司裡” trong nguồn cho biết người phụ nữ ngủ lại công ty; vì vậy chọn B.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "listening-q41": {
+      "number": 41,
+      "correctAnswer": "A",
+      "transcriptChinese": {
+        "traditional": "男 \n我昨天運動了一整天。 \n女 \n你看你，累到說不了話了？ \n男 \n喔，不是因為運動，是因為我早上五點就起床了，所以想睡覺。 \n女 \n你這樣沒辦法上班，我幫你請假，你快回去睡吧！ \n男 \n請問這位小姐為什麼要幫這位先生請假？",
+        "simplified": "男 \n我昨天运动了一整天。 \n女 \n你看你，累到说不了话了？ \n男 \n喔，不是因为运动，是因为我早上五点就起床了，所以想睡觉。 \n女 \n你这样没办法上班，我帮你请假，你快回去睡吧！ \n男 \n请问这位小姐为什么要帮这位先生请假？"
+      },
+      "transcriptVi": "Nam: Tôi đã tập thể dục cả ngày hôm qua. \nNữ: Nhìn bạn, bạn có quá mệt mỏi để nói chuyện không? \nNam: Ồ, không phải vì tập thể dục, mà là vì tôi đã dậy lúc năm giờ sáng và muốn đi ngủ. \nNữ: Bạn không thể đi làm như thế này được. Tôi sẽ xin nghỉ phép cho bạn. Hãy quay lại ngủ đi! \nNam: Tôi có thể hỏi tại sao người phụ nữ này lại xin nghỉ phép cho người đàn ông này không?",
+      "questionChinese": {
+        "traditional": "請問這位小姐為什麼要幫這位先生請假？",
+        "simplified": "请问这位小姐为什么要帮这位先生请假？"
+      },
+      "questionVi": "Tôi có thể hỏi tại sao người phụ nữ này lại xin nghỉ phép cho người đàn ông này không?",
+      "optionChinese": {
+        "traditional": [
+          "因為他想睡覺",
+          "因為他想運動",
+          "因為他不想上班",
+          "因為他起不了床"
+        ],
+        "simplified": [
+          "因为他想睡觉",
+          "因为他想运动",
+          "因为他不想上班",
+          "因为他起不了床"
+        ]
+      },
+      "optionTranslations": [
+        "Bởi vì anh ấy muốn ngủ",
+        "Vì anh ấy muốn tập thể dục",
+        "Vì anh ấy không muốn đi làm",
+        "Vì anh không thể đứng dậy"
+      ],
+      "evidence": {
+        "traditional": "因為我早上五點就起床了，所以想睡覺",
+        "simplified": "因为我早上五点就起床了，所以想睡觉"
+      },
+      "explanationVi": "Chi tiết “因為我早上五點就起床了，所以想睡覺” trong nguồn cho biết bởi vì anh ấy muốn ngủ; vì vậy chọn A."
+    },
+    "listening-q42": {
+      "number": 42,
+      "correctAnswer": "A",
+      "transcriptChinese": {
+        "traditional": "男 \n妳上個禮拜的旅行怎麼樣？ \n女 \n還不錯。交通方便、風景漂亮，我想去的地方都去了。 \n男 \n那真是個開心的旅行。 \n女 \n嗯，雖然每件事都不錯，但是我回國的時候，把錢包掉在旅館了。 \n男 \n關於這位小姐，下面哪一個是對的？",
+        "simplified": "男 \n妳上个礼拜的旅行怎么样？ \n女 \n还不错。交通方便、风景漂亮，我想去的地方都去了。 \n男 \n那真是个开心的旅行。 \n女 \n嗯，虽然每件事都不错，但是我回国的时候，把钱包掉在旅馆了。 \n男 \n关于这位小姐，下面哪一个是对的？"
+      },
+      "transcriptVi": "Nam: Chuyến đi tuần trước của bạn thế nào? \nNữ: Không tệ. Giao thông thuận tiện và phong cảnh rất đẹp. Tôi có thể đi bất cứ nơi nào tôi muốn. \nNam: Đó là một chuyến đi thực sự hạnh phúc. \nNữ: À, mặc dù mọi thứ đều ổn nhưng khi về đến nhà, tôi đánh rơi ví ở khách sạn. \nNam: Điều nào sau đây đúng về cô gái trẻ này?",
+      "questionChinese": {
+        "traditional": "關於這位小姐，下面哪一個是對的？",
+        "simplified": "关于这位小姐，下面哪一个是对的？"
+      },
+      "questionVi": "Điều nào sau đây đúng về cô gái trẻ này?",
+      "optionChinese": {
+        "traditional": [
+          "她旅行時不小心掉了東西",
+          "她旅行時有些想去的地方沒去",
+          "她覺得旅行時最麻煩的是交通",
+          "她覺得旅行最重要的是風景漂亮"
+        ],
+        "simplified": [
+          "她旅行时不小心掉了东西",
+          "她旅行时有些想去的地方没去",
+          "她觉得旅行时最麻烦的是交通",
+          "她觉得旅行最重要的是风景漂亮"
+        ]
+      },
+      "optionTranslations": [
+        "Cô ấy vô tình đánh rơi thứ gì đó khi đi du lịch",
+        "Cô ấy đã không đến một số nơi cô ấy muốn khi đi du lịch.",
+        "Cô cho rằng điều rắc rối nhất khi đi du lịch là phương tiện đi lại",
+        "Cô ấy nghĩ điều quan trọng nhất khi đi du lịch là cảnh đẹp"
+      ],
+      "evidence": {
+        "traditional": "把錢包掉在旅館了",
+        "simplified": "把钱包掉在旅馆了"
+      },
+      "explanationVi": "Chi tiết “把錢包掉在旅館了” trong nguồn cho biết cô ấy vô tình đánh rơi thứ gì đó khi đi du lịch; vì vậy chọn A."
+    },
+    "listening-q43": {
+      "number": 43,
+      "correctAnswer": "A",
+      "transcriptChinese": {
+        "traditional": "男 \n妳怎麼了？好像不太開心的樣子。 \n女 \n我沒事，我每次考試的時候就會這樣。 \n男 \n可是昨天不是已經考完了嗎？ \n女 \n是啊，可是我很擔心沒考好。 \n男 \n這位小姐為什麼不開心？",
+        "simplified": "男 \n妳怎么了？好像不太开心的样子。 \n女 \n我没事，我每次考试的时候就会这样。 \n男 \n可是昨天不是已经考完了吗？ \n女 \n是啊，可是我很担心没考好。 \n男 \n这位小姐为什么不开心？"
+      },
+      "transcriptVi": "Nam: Cô sao thế, có vẻ không vui?\nNữ: Không sao, lần nào thi tôi cũng vậy.\nNam: Nhưng hôm qua thi xong rồi mà?\nNữ: Đúng, nhưng tôi lo mình thi không tốt.\nNam: Vì sao cô ấy không vui?",
+      "questionChinese": {
+        "traditional": "這位小姐為什麼不開心？",
+        "simplified": "这位小姐为什么不开心？"
+      },
+      "questionVi": "Vì sao cô ấy không vui?",
+      "optionChinese": {
+        "traditional": [
+          "她怕考得不好",
+          "她的成績不好",
+          "她沒參加考試",
+          "她怕題目寫不完"
+        ],
+        "simplified": [
+          "她怕考得不好",
+          "她的成绩不好",
+          "她没参加考试",
+          "她怕题目写不完"
+        ]
+      },
+      "optionTranslations": [
+        "Cô ấy sợ làm bài thi không tốt",
+        "Điểm số của cô ấy không tốt",
+        "Cô ấy đã không làm bài kiểm tra",
+        "Cô ấy sợ không làm hết câu hỏi."
+      ],
+      "evidence": {
+        "traditional": "很擔心沒考好",
+        "simplified": "很担心没考好"
+      },
+      "explanationVi": "Chi tiết “很擔心沒考好” trong nguồn cho biết cô ấy sợ làm bài thi không tốt; vì vậy chọn A."
+    },
+    "listening-q44": {
+      "number": 44,
+      "correctAnswer": "D",
+      "transcriptChinese": {
+        "traditional": "女 \n王先生嗎？您好，我是住在您家樓下的陳太太。 \n男 \n請問有什麼事嗎？ \n女 \n我總是聽到您走路的聲音，有時還聽到您與女朋友大聲地講話。我找您好\n幾次了，可是您都不在家。 \n男 \n啊！不好意思，不好意思，我會注意的。 \n女 \n陳太太為什麼找王先生？",
+        "simplified": "女 \n王先生吗？您好，我是住在您家楼下的陈太太。 \n男 \n请问有什么事吗？ \n女 \n我总是听到您走路的声音，有时还听到您与女朋友大声地讲话。我找您好\n几次了，可是您都不在家。 \n男 \n啊！不好意思，不好意思，我会注意的。 \n女 \n陈太太为什么找王先生？"
+      },
+      "transcriptVi": "Nữ: Ông Vương phải không? Tôi là bà Trần ở tầng dưới nhà ông.\nNam: Có chuyện gì vậy?\nNữ: Tôi thường nghe tiếng ông đi lại, đôi khi còn nghe ông và bạn gái nói chuyện rất to. Tôi đã tìm ông mấy lần mà ông không ở nhà.\nNam: Xin lỗi, tôi sẽ chú ý.\nNữ: Vì sao bà Trần tìm ông Vương?",
+      "questionChinese": {
+        "traditional": "陳太太為什麼找王先生？",
+        "simplified": "陈太太为什么找王先生？"
+      },
+      "questionVi": "Vì sao bà Trần tìm ông Vương?",
+      "optionChinese": {
+        "traditional": [
+          "想請他搬家",
+          "想請他吃飯",
+          "介紹女朋友給他",
+          "請他注意聲音的大小"
+        ],
+        "simplified": [
+          "想请他搬家",
+          "想请他吃饭",
+          "介绍女朋友给他",
+          "请他注意声音的大小"
+        ]
+      },
+      "optionTranslations": [
+        "Muốn nhờ ông ấy chuyển nhà.",
+        "Tôi muốn mời anh ấy đi ăn tối",
+        "Giới thiệu bạn gái cho ông ấy.",
+        "Yêu cầu anh ấy chú ý đến âm lượng giọng nói của mình"
+      ],
+      "evidence": {
+        "traditional": "聽到您走路的聲音",
+        "simplified": "听到您走路的声音"
+      },
+      "explanationVi": "Chi tiết “聽到您走路的聲音” trong nguồn cho biết yêu cầu anh ấy chú ý đến âm lượng giọng nói của mình; vì vậy chọn D."
+    },
+    "listening-q45": {
+      "number": 45,
+      "correctAnswer": "D",
+      "transcriptChinese": {
+        "traditional": "男 \n妳昨天怎麼那麼晚才睡？ \n女 \n我昨天十二點多睡的，我不覺得晚啊！ \n男 \n都半夜了，還不晚？這麼晚才睡覺對身體很不好。 \n女 \n還好吧？我一直都是這個時間睡覺，也沒生什麼病。 \n女 \n請問這位小姐的意思是什麼？",
+        "simplified": "男 \n妳昨天怎么那么晚才睡？ \n女 \n我昨天十二点多睡的，我不觉得晚啊！ \n男 \n都半夜了，还不晚？这么晚才睡觉对身体很不好。 \n女 \n还好吧？我一直都是这个时间睡觉，也没生什么病。 \n女 \n请问这位小姐的意思是什么？"
+      },
+      "transcriptVi": "Nam: Sao hôm qua cô ngủ muộn thế?\nNữ: Tôi ngủ sau mười hai giờ, không thấy muộn.\nNam: Nửa đêm rồi mà còn không muộn? Ngủ muộn không tốt cho sức khỏe.\nNữ: Tôi thấy vẫn ổn; tôi luôn ngủ giờ này mà có bị bệnh gì đâu.\nNữ: Cô ấy muốn nói gì?",
+      "questionChinese": {
+        "traditional": "請問這位小姐的意思是什麼？",
+        "simplified": "请问这位小姐的意思是什么？"
+      },
+      "questionVi": "Cô ấy muốn nói gì?",
+      "optionChinese": {
+        "traditional": [
+          "她習慣在不同的時間睡覺",
+          "她每天都是這個時間起床",
+          "她認為睡覺對健康有影響",
+          "她不覺得自己很晚才睡覺"
+        ],
+        "simplified": [
+          "她习惯在不同的时间睡觉",
+          "她每天都是这个时间起床",
+          "她认为睡觉对健康有影响",
+          "她不觉得自己很晚才睡觉"
+        ]
+      },
+      "optionTranslations": [
+        "Cô ấy đã quen với việc ngủ vào những thời điểm khác nhau",
+        "Hàng ngày cô ấy đều thức dậy vào giờ này",
+        "Cô tin rằng giấc ngủ có ảnh hưởng đến sức khỏe",
+        "Cô ấy không nghĩ mình đã đi ngủ rất muộn"
+      ],
+      "evidence": {
+        "traditional": "我不覺得晚",
+        "simplified": "我不觉得晚"
+      },
+      "explanationVi": "Chi tiết “我不覺得晚” trong nguồn cho biết cô ấy không nghĩ mình đã đi ngủ rất muộn; vì vậy chọn D."
+    },
+    "listening-q46": {
+      "number": 46,
+      "correctAnswer": "D",
+      "transcriptChinese": {
+        "traditional": "男 \n夏天到了，我們明天去海邊吧！ \n女 \n好啊！你覺得我應該穿短裙好呢？還是短褲好呢？ \n男 \n我覺得妳應該穿短褲，因為我們要在沙灘上打球。 \n女 \n好啊，明天見。 \n女 \n請問這位先生說了什麼？",
+        "simplified": "男 \n夏天到了，我们明天去海边吧！ \n女 \n好啊！你觉得我应该穿短裙好呢？还是短裤好呢？ \n男 \n我觉得妳应该穿短裤，因为我们要在沙滩上打球。 \n女 \n好啊，明天见。 \n女 \n请问这位先生说了什么？"
+      },
+      "transcriptVi": "Nam: Mùa hè đến rồi, ngày mai đi biển nhé!\nNữ: Được. Tôi nên mặc váy ngắn hay quần soóc?\nNam: Mặc quần soóc đi, vì chúng ta sẽ chơi bóng trên bãi cát.\nNữ: Được, hẹn gặp ngày mai.\nNữ: Người đàn ông đã nói gì?",
+      "questionChinese": {
+        "traditional": "請問這位先生說了什麼？",
+        "simplified": "请问这位先生说了什么？"
+      },
+      "questionVi": "Người đàn ông đã nói gì?",
+      "optionChinese": {
+        "traditional": [
+          "他剛從海邊回來",
+          "他喜歡夏天去海邊玩",
+          "他給這位小姐買了褲子",
+          "他約了這位小姐明天去運動"
+        ],
+        "simplified": [
+          "他刚从海边回来",
+          "他喜欢夏天去海边玩",
+          "他给这位小姐买了裤子",
+          "他约了这位小姐明天去运动"
+        ]
+      },
+      "optionTranslations": [
+        "Anh vừa từ biển về",
+        "Anh ấy thích đi biển vào mùa hè",
+        "Anh ấy mua quần cho cô này",
+        "Anh hẹn cô gái này ngày mai tập thể dục"
+      ],
+      "evidence": {
+        "traditional": "明天去海邊吧",
+        "simplified": "明天去海边吧"
+      },
+      "explanationVi": "Chi tiết “明天去海邊吧” trong nguồn cho biết anh hẹn cô gái này ngày mai tập thể dục; vì vậy chọn D."
+    },
+    "listening-q47": {
+      "number": 47,
+      "correctAnswer": "C",
+      "transcriptChinese": {
+        "traditional": "男 \n為了妳的生日，我想請妳吃蛋糕。 \n女 \n你人來我就很開心了，蛋糕，我來準備就好了。 \n男 \n這是為了感謝妳請我參加明天的生日舞會，或是妳有更想要的禮物嗎？ \n女 \n你太客氣了。吃蛋糕和收禮物都不是最重要的事。 \n女 \n請問這位小姐的意思是什麼？",
+        "simplified": "男 \n为了妳的生日，我想请妳吃蛋糕。 \n女 \n你人来我就很开心了，蛋糕，我来准备就好了。 \n男 \n这是为了感谢妳请我参加明天的生日舞会，或是妳有更想要的礼物吗？ \n女 \n你太客气了。吃蛋糕和收礼物都不是最重要的事。 \n女 \n请问这位小姐的意思是什么？"
+      },
+      "transcriptVi": "Nam: Nhân dịp sinh nhật của bạn, tôi muốn đãi bạn một chiếc bánh. \nNữ: Tôi sẽ rất vui khi bạn đến. Tôi sẽ chuẩn bị bánh. \nNam: Đây là để cảm ơn bạn đã mời tôi đến dự bữa tiệc sinh nhật ngày mai hay bạn muốn thêm một món quà nào? \nNữ: Bạn thật tốt bụng. Ăn bánh và nhận quà không phải là điều quan trọng nhất. \nNữ: Người phụ nữ này có ý gì?",
+      "questionChinese": {
+        "traditional": "請問這位小姐的意思是什麼？",
+        "simplified": "请问这位小姐的意思是什么？"
+      },
+      "questionVi": "Người phụ nữ này có ý gì?",
+      "optionChinese": {
+        "traditional": [
+          "她不想請這位先生吃蛋糕",
+          "她想幫這位先生慶祝生日",
+          "她要朋友來參加舞會就好",
+          "她想要大家一起唱生日歌"
+        ],
+        "simplified": [
+          "她不想请这位先生吃蛋糕",
+          "她想帮这位先生庆祝生日",
+          "她要朋友来参加舞会就好",
+          "她想要大家一起唱生日歌"
+        ]
+      },
+      "optionTranslations": [
+        "Cô ấy không muốn đãi người đàn ông này một chiếc bánh",
+        "Cô ấy muốn giúp người đàn ông này tổ chức sinh nhật cho anh ấy",
+        "Cô ấy chỉ muốn bạn bè đến dự buổi khiêu vũ",
+        "Cô ấy muốn mọi người cùng hát chúc mừng sinh nhật"
+      ],
+      "evidence": {
+        "traditional": "你人來我就很開心了",
+        "simplified": "你人来我就很开心了"
+      },
+      "explanationVi": "Chi tiết “你人來我就很開心了” trong nguồn cho biết cô ấy chỉ muốn bạn bè đến dự buổi khiêu vũ; vì vậy chọn C."
+    },
+    "listening-q48": {
+      "number": 48,
+      "correctAnswer": "A",
+      "transcriptChinese": {
+        "traditional": "男 \n我要去逛百貨公司，要一起嗎？ \n女 \n我最近花了太多錢了，還是不要吧。 \n男 \n最近百貨公司有活動，很多商品不但很便宜，還會給很多試用的東西。 \n女 \n喔，有不用花錢的啊！那我們快走吧！ \n女 \n為什麼這位小姐想去百貨公司？",
+        "simplified": "男 \n我要去逛百货公司，要一起吗？ \n女 \n我最近花了太多钱了，还是不要吧。 \n男 \n最近百货公司有活动，很多商品不但很便宜，还会给很多试用的东西。 \n女 \n喔，有不用花钱的啊！那我们快走吧！ \n女 \n为什么这位小姐想去百货公司？"
+      },
+      "transcriptVi": "Nam: Tôi sẽ đi mua sắm ở một cửa hàng bách hóa. Bạn có muốn đi cùng tôi không? \nNữ: Gần đây tôi đã tiêu quá nhiều tiền nên có lẽ tôi không nên làm vậy. \nNam: Có những sự kiện gần đây trong các cửa hàng bách hóa. Không những có nhiều sản phẩm giá rất rẻ mà còn có rất nhiều sản phẩm dùng thử. \nNữ: Ồ, không cần phải tốn tiền! Vậy thì chúng ta hãy đi nhanh thôi! \nNữ: Tại sao cô gái trẻ này lại muốn đến cửa hàng bách hóa?",
+      "questionChinese": {
+        "traditional": "為什麼這位小姐想去百貨公司？",
+        "simplified": "为什么这位小姐想去百货公司？"
+      },
+      "questionVi": "Tại sao cô gái trẻ này lại muốn đến cửa hàng bách hóa?",
+      "optionChinese": {
+        "traditional": [
+          "她想拿商店送的東西",
+          "她最近很想花錢買東西",
+          "她想要這位先生送她禮物",
+          "她想和這位先生一起去逛街"
+        ],
+        "simplified": [
+          "她想拿商店送的东西",
+          "她最近很想花钱买东西",
+          "她想要这位先生送她礼物",
+          "她想和这位先生一起去逛街"
+        ]
+      },
+      "optionTranslations": [
+        "Cô ấy muốn lấy thứ gì đó từ cửa hàng",
+        "Gần đây cô ấy rất muốn bỏ tiền ra mua đồ",
+        "Cô ấy muốn người đàn ông này tặng cô ấy một món quà",
+        "Cô ấy muốn đi mua sắm với người đàn ông này"
+      ],
+      "evidence": {
+        "traditional": "很多試用的東西",
+        "simplified": "很多试用的东西"
+      },
+      "explanationVi": "Chi tiết “很多試用的東西” trong nguồn cho biết cô ấy muốn lấy thứ gì đó từ cửa hàng; vì vậy chọn A."
+    },
+    "listening-q49": {
+      "number": 49,
+      "correctAnswer": "A",
+      "transcriptChinese": {
+        "traditional": "男 \n今天天氣好熱，我們在家吹冷氣多好，還是不要去買衣服了。 \n女 \n不行，你昨天答應我今天要出門買衣服。 \n男 \n可是妳沒發現衣服已經很多了嗎？ \n女 \n我覺得，你只是怕太晚回家，沒辦法看棒球比賽！ \n女 \n請問下面哪一個是對的？",
+        "simplified": "男 \n今天天气好热，我们在家吹冷气多好，还是不要去买衣服了。 \n女 \n不行，你昨天答应我今天要出门买衣服。 \n男 \n可是妳没发现衣服已经很多了吗？ \n女 \n我觉得，你只是怕太晚回家，没办法看棒球比赛！ \n女 \n请问下面哪一个是对的？"
+      },
+      "transcriptVi": "Nam: Hôm nay nóng quá, ở nhà bật điều hòa thích hơn, đừng đi mua quần áo nữa.\nNữ: Không được, hôm qua anh đã hứa hôm nay đi mua quần áo.\nNam: Nhưng quần áo mình đã nhiều lắm rồi mà?\nNữ: Tôi nghĩ anh chỉ sợ về muộn, không kịp xem trận bóng chày!\nNữ: Điều nào sau đây đúng?",
+      "questionChinese": {
+        "traditional": "請問下面哪一個是對的？",
+        "simplified": "请问下面哪一个是对的？"
+      },
+      "questionVi": "Điều nào sau đây đúng?",
+      "optionChinese": {
+        "traditional": [
+          "這位先生今天想留在家裡",
+          "這位小姐怕自己太晚回家",
+          "他們兩人今天都想看棒球比賽",
+          "他們已經買完衣服回家休息了"
+        ],
+        "simplified": [
+          "这位先生今天想留在家里",
+          "这位小姐怕自己太晚回家",
+          "他们两人今天都想看棒球比赛",
+          "他们已经买完衣服回家休息了"
+        ]
+      },
+      "optionTranslations": [
+        "Người đàn ông này muốn ở nhà hôm nay",
+        "Người phụ nữ này sợ về nhà quá muộn",
+        "Cả hai đều muốn xem một trận bóng chày hôm nay",
+        "Họ đã mua quần áo và về nhà nghỉ ngơi"
+      ],
+      "evidence": {
+        "traditional": "在家吹冷氣多好",
+        "simplified": "在家吹冷气多好"
+      },
+      "explanationVi": "Chi tiết “在家吹冷氣多好” trong nguồn cho biết người đàn ông này muốn ở nhà hôm nay; vì vậy chọn A."
+    },
+    "listening-q50": {
+      "number": 50,
+      "correctAnswer": "D",
+      "transcriptChinese": {
+        "traditional": "男 \n小姐，這是昨天跟你們買的牛奶，味道有點奇怪，我想換一瓶新的。 \n女 \n請問您帶了發票嗎？ \n男 \n喔，我沒帶來。 \n女 \n我們要看到發票，才能換東西，不好意思。 \n女 \n這位小姐的意思是什麼？",
+        "simplified": "男 \n小姐，这是昨天跟你们买的牛奶，味道有点奇怪，我想换一瓶新的。 \n女 \n请问您带了发票吗？ \n男 \n喔，我没带来。 \n女 \n我们要看到发票，才能换东西，不好意思。 \n女 \n这位小姐的意思是什么？"
+      },
+      "transcriptVi": "Nam: Cô ơi, chai sữa mua ở đây hôm qua có vị lạ, tôi muốn đổi chai mới.\nNữ: Ông có mang hóa đơn không?\nNam: Không mang.\nNữ: Chúng tôi phải thấy hóa đơn mới đổi hàng được, xin lỗi.\nNữ: Cô ấy muốn nói gì?",
+      "questionChinese": {
+        "traditional": "這位小姐的意思是什麼？",
+        "simplified": "这位小姐的意思是什么？"
+      },
+      "questionVi": "Cô ấy muốn nói gì?",
+      "optionChinese": {
+        "traditional": [
+          "她要把錢還給客人",
+          "東西賣出去就不能換了",
+          "她沒有東西可以換給客人",
+          "沒有發票，就不能換東西"
+        ],
+        "simplified": [
+          "她要把钱还给客人",
+          "东西卖出去就不能换了",
+          "她没有东西可以换给客人",
+          "没有发票，就不能换东西"
+        ]
+      },
+      "optionTranslations": [
+        "Cô ấy muốn trả lại tiền cho khách hàng",
+        "Một khi một cái gì đó được bán, nó không thể được trao đổi.",
+        "Cô ấy không có gì để đổi lấy khách",
+        "Bạn không thể trao đổi đồ vật mà không có hóa đơn."
+      ],
+      "evidence": {
+        "traditional": "要看到發票，才能換東西",
+        "simplified": "要看到发票，才能换东西"
+      },
+      "explanationVi": "Chi tiết “要看到發票，才能換東西” trong nguồn cho biết bạn không thể trao đổi đồ vật mà không có hóa đơn; vì vậy chọn D."
+    }
+  },
+  "reading": {
+    "reading-q01": {
+      "number": 1,
+      "correctAnswer": "A",
+      "questionChinese": {
+        "traditional": "小王和朋友們一起在游泳池游泳。",
+        "simplified": "小王和朋友们一起在游泳池游泳。"
+      },
+      "questionVi": "Tiểu Vương đang bơi trong bể bơi cùng bạn bè.",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Nhiều người cùng bơi ở hồ bơi.",
+        "Nhiều người cùng chơi bóng rổ.",
+        "Một người bơi một mình ở hồ bơi."
+      ],
+      "passageChinese": {
+        "traditional": "小王和朋友們一起在游泳池游泳。",
+        "simplified": "小王和朋友们一起在游泳池游泳。"
+      },
+      "passageVi": "Tiểu Vương đang bơi trong bể bơi cùng bạn bè.",
+      "evidence": {
+        "traditional": "在游泳池游泳",
+        "simplified": "在游泳池游泳"
+      },
+      "explanationVi": "Chi tiết “在游泳池游泳” trong nguồn khớp với phương án A: Nhiều người cùng bơi ở hồ bơi.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "reading-q02": {
+      "number": 2,
+      "correctAnswer": "A",
+      "questionChinese": {
+        "traditional": "他喜歡在吃飯的時候看雜誌。",
+        "simplified": "他喜欢在吃饭的时候看杂志。"
+      },
+      "questionVi": "Anh ấy thích đọc tạp chí trong khi ăn.",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Hai người vừa ăn vừa xem tạp chí.",
+        "Hai người vừa ăn vừa trò chuyện.",
+        "Hai người vừa ăn vừa xem ti vi."
+      ],
+      "passageChinese": {
+        "traditional": "他喜歡在吃飯的時候看雜誌。",
+        "simplified": "他喜欢在吃饭的时候看杂志。"
+      },
+      "passageVi": "Anh ấy thích đọc tạp chí trong khi ăn.",
+      "evidence": {
+        "traditional": "飯的時候看雜誌",
+        "simplified": "饭的时候看杂志"
+      },
+      "explanationVi": "Chi tiết “飯的時候看雜誌” trong nguồn khớp với phương án A: Hai người vừa ăn vừa xem tạp chí.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "reading-q03": {
+      "number": 3,
+      "correctAnswer": "A",
+      "questionChinese": {
+        "traditional": "咖啡店裡一個客人也沒有。",
+        "simplified": "咖啡店里一个客人也没有。"
+      },
+      "questionVi": "Không có một khách hàng nào trong quán cà phê.",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Quán cà phê không có khách.",
+        "Quán cà phê có một khách nam.",
+        "Quán cà phê có một khách nữ."
+      ],
+      "passageChinese": {
+        "traditional": "咖啡店裡一個客人也沒有。",
+        "simplified": "咖啡店里一个客人也没有。"
+      },
+      "passageVi": "Không có một khách hàng nào trong quán cà phê.",
+      "evidence": {
+        "traditional": "一個客人也沒有",
+        "simplified": "一个客人也没有"
+      },
+      "explanationVi": "Chi tiết “一個客人也沒有” trong câu mô tả khớp với hình A: quán cà phê không có khách.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "reading-q04": {
+      "number": 4,
+      "correctAnswer": "C",
+      "questionChinese": {
+        "traditional": "小明自己騎機車去市場，幫媽媽買菜。",
+        "simplified": "小明自己骑机车去市场，帮妈妈买菜。"
+      },
+      "questionVi": "Tiểu Minh lái xe máy đi chợ giúp mẹ mua đồ.",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Một người đàn ông đạp xe đạp.",
+        "Hai người cùng đi xe máy.",
+        "Một người đàn ông tự đi xe máy."
+      ],
+      "passageChinese": {
+        "traditional": "小明自己騎機車去市場，幫媽媽買菜。",
+        "simplified": "小明自己骑机车去市场，帮妈妈买菜。"
+      },
+      "passageVi": "Tiểu Minh lái xe máy đi chợ giúp mẹ mua đồ.",
+      "evidence": {
+        "traditional": "場，幫媽媽買菜",
+        "simplified": "场，帮妈妈买菜"
+      },
+      "explanationVi": "Chi tiết “場，幫媽媽買菜” trong nguồn khớp với phương án C: Một người đàn ông tự đi xe máy.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "reading-q05": {
+      "number": 5,
+      "correctAnswer": "A",
+      "questionChinese": {
+        "traditional": "他平常吃完晚餐後喜歡到公園散步。",
+        "simplified": "他平常吃完晚餐后喜欢到公园散步。"
+      },
+      "questionVi": "Anh ấy thường thích đi dạo trong công viên sau bữa tối.",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Người đàn ông đi dạo trong công viên vào buổi tối.",
+        "Người đàn ông đi dạo vào ban ngày.",
+        "Người đàn ông chạy bộ vào buổi tối."
+      ],
+      "passageChinese": {
+        "traditional": "他平常吃完晚餐後喜歡到公園散步。",
+        "simplified": "他平常吃完晚餐后喜欢到公园散步。"
+      },
+      "passageVi": "Anh ấy thường thích đi dạo trong công viên sau bữa tối.",
+      "evidence": {
+        "traditional": "喜歡到公園散步",
+        "simplified": "喜欢到公园散步"
+      },
+      "explanationVi": "Chi tiết “喜歡到公園散步” trong nguồn khớp với phương án A: Người đàn ông đi dạo trong công viên vào buổi tối.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "reading-q06": {
+      "number": 6,
+      "correctAnswer": "A",
+      "questionChinese": {
+        "traditional": "醫生正在病房裡和病人說話。",
+        "simplified": "医生正在病房里和病人说话。"
+      },
+      "questionVi": "Bác sĩ đang nói chuyện với bệnh nhân trong phòng bệnh.",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Bác sĩ nói chuyện với bệnh nhân trong phòng bệnh.",
+        "Bác sĩ và người phụ nữ nói chuyện trong phòng bệnh.",
+        "Y tá đưa hồ sơ cho bác sĩ."
+      ],
+      "passageChinese": {
+        "traditional": "醫生正在病房裡和病人說話。",
+        "simplified": "医生正在病房里和病人说话。"
+      },
+      "passageVi": "Bác sĩ đang nói chuyện với bệnh nhân trong phòng bệnh.",
+      "evidence": {
+        "traditional": "病房裡和病人說話",
+        "simplified": "病房里和病人说话"
+      },
+      "explanationVi": "Chi tiết “病房裡和病人說話” trong nguồn khớp với phương án A: Bác sĩ nói chuyện với bệnh nhân trong phòng bệnh.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "reading-q07": {
+      "number": 7,
+      "correctAnswer": "C",
+      "questionChinese": {
+        "traditional": "下大雨了，所以很多人都在買雨衣。",
+        "simplified": "下大雨了，所以很多人都在买雨衣。"
+      },
+      "questionVi": "Trời mưa to nên nhiều người mua áo mưa.",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Mọi người đứng dưới mưa mà không có áo mưa.",
+        "Mọi người mua áo phông khi trời mưa.",
+        "Mọi người mua áo mưa khi trời mưa."
+      ],
+      "passageChinese": {
+        "traditional": "下大雨了，所以很多人都在買雨衣。",
+        "simplified": "下大雨了，所以很多人都在买雨衣。"
+      },
+      "passageVi": "Trời mưa to nên nhiều người mua áo mưa.",
+      "evidence": {
+        "traditional": "很多人都在買雨衣",
+        "simplified": "很多人都在买雨衣"
+      },
+      "explanationVi": "Chi tiết “很多人都在買雨衣” trong nguồn khớp với phương án C: Mọi người mua áo mưa khi trời mưa.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "reading-q08": {
+      "number": 8,
+      "correctAnswer": "B",
+      "questionChinese": {
+        "traditional": "今天天氣很冷，小月不只穿長褲，還穿了外套。",
+        "simplified": "今天天气很冷，小月不只穿长裤，还穿了外套。"
+      },
+      "questionVi": "Thời tiết hôm nay rất lạnh, Tiểu Nguyệt không chỉ mặc quần dài mà còn mặc áo khoác.",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Cô gái mặc áo khoác và váy.",
+        "Cô gái mặc áo khoác và quần dài.",
+        "Cô gái mặc áo mỏng và quần dài."
+      ],
+      "passageChinese": {
+        "traditional": "今天天氣很冷，小月不只穿長褲，還穿了外套。",
+        "simplified": "今天天气很冷，小月不只穿长裤，还穿了外套。"
+      },
+      "passageVi": "Thời tiết hôm nay rất lạnh, Tiểu Nguyệt không chỉ mặc quần dài mà còn mặc áo khoác.",
+      "evidence": {
+        "traditional": "穿長褲，還穿了外套",
+        "simplified": "穿长裤，还穿了外套"
+      },
+      "explanationVi": "Chi tiết “穿長褲，還穿了外套” trong nguồn khớp với phương án B: Cô gái mặc áo khoác và quần dài.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "reading-q09": {
+      "number": 9,
+      "correctAnswer": "C",
+      "questionChinese": {
+        "traditional": "小明比妹妹高，也比爸爸高。",
+        "simplified": "小明比妹妹高，也比爸爸高。"
+      },
+      "questionVi": "Tiểu Minh cao hơn em gái và cũng cao hơn bố.",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Tiểu Minh thấp hơn bố.",
+        "Tiểu Minh cao bằng bố.",
+        "Tiểu Minh cao hơn cả bố và em gái."
+      ],
+      "passageChinese": {
+        "traditional": "小明比妹妹高，也比爸爸高。",
+        "simplified": "小明比妹妹高，也比爸爸高。"
+      },
+      "passageVi": "Tiểu Minh cao hơn em gái và cũng cao hơn bố.",
+      "evidence": {
+        "traditional": "妹妹高，也比爸爸高",
+        "simplified": "妹妹高，也比爸爸高"
+      },
+      "explanationVi": "Chi tiết “妹妹高，也比爸爸高” trong nguồn khớp với phương án C: Tiểu Minh cao hơn cả bố và em gái.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "reading-q10": {
+      "number": 10,
+      "correctAnswer": "C",
+      "questionChinese": {
+        "traditional": "到第二個路口以前，會先經過一家銀行。",
+        "simplified": "到第二个路口以前，会先经过一家银行。"
+      },
+      "questionVi": "Trước khi đến ngã tư thứ hai, bạn sẽ đi qua một ngân hàng.",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Đi qua trạm xe rồi mới thấy ngân hàng.",
+        "Đi qua trạm xe rồi thấy bệnh viện.",
+        "Đi qua ngân hàng rồi mới tới trạm xe."
+      ],
+      "passageChinese": {
+        "traditional": "到第二個路口以前，會先經過一家銀行。",
+        "simplified": "到第二个路口以前，会先经过一家银行。"
+      },
+      "passageVi": "Trước khi đến ngã tư thứ hai, bạn sẽ đi qua một ngân hàng.",
+      "evidence": {
+        "traditional": "，會先經過一家銀行",
+        "simplified": "，会先经过一家银行"
+      },
+      "explanationVi": "Chi tiết “，會先經過一家銀行” trong nguồn khớp với phương án C: Đi qua ngân hàng rồi mới tới trạm xe.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "reading-q11": {
+      "number": 11,
+      "correctAnswer": "C",
+      "questionChinese": {
+        "traditional": "小美想要一雙鞋子，但是收到了一雙襪子。",
+        "simplified": "小美想要一双鞋子，但是收到了一双袜子。"
+      },
+      "questionVi": "Tiểu Mỹ muốn một đôi giày nhưng lại nhận được một đôi tất.",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Cô bé nhận được một đôi giày.",
+        "Cô bé nhận được một chiếc dép.",
+        "Cô bé nhận được một đôi tất."
+      ],
+      "passageChinese": {
+        "traditional": "小美想要一雙鞋子，但是收到了一雙襪子。",
+        "simplified": "小美想要一双鞋子，但是收到了一双袜子。"
+      },
+      "passageVi": "Tiểu Mỹ muốn một đôi giày nhưng lại nhận được một đôi tất.",
+      "evidence": {
+        "traditional": "收到了一雙襪子",
+        "simplified": "收到了一双袜子"
+      },
+      "explanationVi": "Chi tiết “收到了一雙襪子” trong nguồn khớp với phương án C: Cô bé nhận được một đôi tất.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "reading-q12": {
+      "number": 12,
+      "correctAnswer": "A",
+      "questionChinese": {
+        "traditional": "爸爸使用信用卡買了一台照相機。",
+        "simplified": "爸爸使用信用卡买了一台照相机。"
+      },
+      "questionVi": "Bố dùng thẻ tín dụng để mua một chiếc máy ảnh.",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Máy ảnh và thẻ tín dụng.",
+        "Máy ảnh và tiền mặt.",
+        "Ảnh chụp và thẻ tín dụng."
+      ],
+      "passageChinese": {
+        "traditional": "爸爸使用信用卡買了一台照相機。",
+        "simplified": "爸爸使用信用卡买了一台照相机。"
+      },
+      "passageVi": "Bố dùng thẻ tín dụng để mua một chiếc máy ảnh.",
+      "evidence": {
+        "traditional": "買了一台照相機",
+        "simplified": "买了一台照相机"
+      },
+      "explanationVi": "Chi tiết “買了一台照相機” trong nguồn khớp với phương án A: Máy ảnh và thẻ tín dụng.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "reading-q13": {
+      "number": 13,
+      "correctAnswer": "C",
+      "questionChinese": {
+        "traditional": "這些家具都壞了。",
+        "simplified": "这些家具都坏了。"
+      },
+      "questionVi": "Đồ đạc bị hỏng.",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Trái cây bị hỏng.",
+        "Bát đĩa bị hỏng.",
+        "Đồ nội thất bị hỏng."
+      ],
+      "passageChinese": {
+        "traditional": "這些家具都壞了。",
+        "simplified": "这些家具都坏了。"
+      },
+      "passageVi": "Đồ đạc bị hỏng.",
+      "evidence": {
+        "traditional": "些家具都壞了",
+        "simplified": "些家具都坏了"
+      },
+      "explanationVi": "Chi tiết “些家具都壞了” trong nguồn khớp với phương án C: Đồ nội thất bị hỏng.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "reading-q14": {
+      "number": 14,
+      "correctAnswer": "A",
+      "questionChinese": {
+        "traditional": "同學們都在教室裡做作業，所以很安靜。",
+        "simplified": "同学们都在教室里做作业，所以很安静。"
+      },
+      "questionVi": "Các học sinh đều đang làm bài tập trong lớp nên rất yên tĩnh.",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Học sinh làm bài yên lặng trong lớp.",
+        "Học sinh nói chuyện ồn ào trong lớp.",
+        "Phòng học không có học sinh."
+      ],
+      "passageChinese": {
+        "traditional": "同學們都在教室裡做作業，所以很安靜。",
+        "simplified": "同学们都在教室里做作业，所以很安静。"
+      },
+      "passageVi": "Các học sinh đều đang làm bài tập trong lớp nên rất yên tĩnh.",
+      "evidence": {
+        "traditional": "很安靜",
+        "simplified": "很安静"
+      },
+      "explanationVi": "Chi tiết “很安靜” trong nguồn khớp với phương án A: Học sinh làm bài yên lặng trong lớp.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "reading-q15": {
+      "number": 15,
+      "correctAnswer": "B",
+      "questionChinese": {
+        "traditional": "如果你常常看新聞節目，就能知道很多新消息。",
+        "simplified": "如果你常常看新闻节目，就能知道很多新消息。"
+      },
+      "questionVi": "Nếu bạn xem các chương trình tin tức thường xuyên, bạn có thể biết được rất nhiều tin tức mới.",
+      "optionChinese": {
+        "traditional": [
+          "",
+          "",
+          ""
+        ],
+        "simplified": [
+          "",
+          "",
+          ""
+        ]
+      },
+      "optionTranslations": [
+        "Một tờ báo in.",
+        "Chương trình tin tức trên ti vi.",
+        "Tin tức phát trên đài radio."
+      ],
+      "passageChinese": {
+        "traditional": "如果你常常看新聞節目，就能知道很多新消息。",
+        "simplified": "如果你常常看新闻节目，就能知道很多新消息。"
+      },
+      "passageVi": "Nếu bạn xem các chương trình tin tức thường xuyên, bạn có thể biết được rất nhiều tin tức mới.",
+      "evidence": {
+        "traditional": "知道很多新消息",
+        "simplified": "知道很多新消息"
+      },
+      "explanationVi": "Chi tiết “知道很多新消息” trong nguồn khớp với phương án B: Chương trình tin tức trên ti vi.",
+      "sourceLimitation": "Các lựa chọn là hình trong đề gốc; nguồn không có câu chữ Trung riêng cho từng hình."
+    },
+    "reading-q16": {
+      "number": 16,
+      "correctAnswer": "C",
+      "questionChinese": {
+        "traditional": "",
+        "simplified": ""
+      },
+      "questionVi": "",
+      "optionChinese": {
+        "traditional": [
+          "教室裡有四位學生。",
+          "教室裡面有三位老師。",
+          "林老師正在上中文課。"
+        ],
+        "simplified": [
+          "教室里有四位学生。",
+          "教室里面有三位老师。",
+          "林老师正在上中文课。"
+        ]
+      },
+      "optionTranslations": [
+        "Có bốn học sinh trong lớp học.",
+        "Trong lớp có ba giáo viên.",
+        "Cô Lin đang dạy tiếng Trung."
+      ],
+      "passageChinese": null,
+      "passageVi": "Hình minh họa trong đề: Cô Lin đang dạy tiếng Trung.",
+      "evidence": null,
+      "explanationVi": "Quan sát hình minh họa: Cô Lin đang dạy tiếng Trung; vì vậy chọn C.",
+      "sourceLimitation": "Ngữ cảnh chỉ là hình minh họa, không có câu chữ Trung để tô dấu hiệu."
+    },
+    "reading-q17": {
+      "number": 17,
+      "correctAnswer": "B",
+      "questionChinese": {
+        "traditional": "",
+        "simplified": ""
+      },
+      "questionVi": "",
+      "optionChinese": {
+        "traditional": [
+          "這裡一共有六個人。",
+          "他們又吃菜又喝飲料。",
+          "所有的人都正用著筷子。"
+        ],
+        "simplified": [
+          "这里一共有六个人。",
+          "他们又吃菜又喝饮料。",
+          "所有的人都正用着筷子。"
+        ]
+      },
+      "optionTranslations": [
+        "Có sáu người ở đây.",
+        "Họ ăn rau và uống đồ uống.",
+        "Mọi người đều dùng đũa."
+      ],
+      "passageChinese": null,
+      "passageVi": "Hình minh họa trong đề: Họ ăn rau và uống đồ uống.",
+      "evidence": null,
+      "explanationVi": "Quan sát hình minh họa: Họ ăn rau và uống đồ uống; vì vậy chọn B.",
+      "sourceLimitation": "Ngữ cảnh chỉ là hình minh họa, không có câu chữ Trung để tô dấu hiệu."
+    },
+    "reading-q18": {
+      "number": 18,
+      "correctAnswer": "B",
+      "questionChinese": {
+        "traditional": "",
+        "simplified": ""
+      },
+      "questionVi": "",
+      "optionChinese": {
+        "traditional": [
+          "女孩站在草地上。",
+          "地上有一個袋子。",
+          "男孩們正在踢足球。"
+        ],
+        "simplified": [
+          "女孩站在草地上。",
+          "地上有一个袋子。",
+          "男孩们正在踢足球。"
+        ]
+      },
+      "optionTranslations": [
+        "Cô gái đứng trên bãi cỏ.",
+        "Có một cái túi trên mặt đất.",
+        "Các chàng trai đang chơi bóng đá."
+      ],
+      "passageChinese": null,
+      "passageVi": "Hình minh họa trong đề: Có một cái túi trên mặt đất.",
+      "evidence": null,
+      "explanationVi": "Quan sát hình minh họa: Có một cái túi trên mặt đất; vì vậy chọn B.",
+      "sourceLimitation": "Ngữ cảnh chỉ là hình minh họa, không có câu chữ Trung để tô dấu hiệu."
+    },
+    "reading-q19": {
+      "number": 19,
+      "correctAnswer": "A",
+      "questionChinese": {
+        "traditional": "",
+        "simplified": ""
+      },
+      "questionVi": "",
+      "optionChinese": {
+        "traditional": [
+          "他把椅子搬出去。",
+          "他把椅子搬進房間來。",
+          "他把椅子放在窗戶下面。"
+        ],
+        "simplified": [
+          "他把椅子搬出去。",
+          "他把椅子搬进房间来。",
+          "他把椅子放在窗户下面。"
+        ]
+      },
+      "optionTranslations": [
+        "Anh ta di chuyển những chiếc ghế ra ngoài.",
+        "Anh mang ghế vào phòng.",
+        "Anh đặt chiếc ghế dưới cửa sổ."
+      ],
+      "passageChinese": null,
+      "passageVi": "Hình minh họa trong đề: Anh ta di chuyển những chiếc ghế ra ngoài.",
+      "evidence": null,
+      "explanationVi": "Quan sát hình minh họa: Anh ta di chuyển những chiếc ghế ra ngoài; vì vậy chọn A.",
+      "sourceLimitation": "Ngữ cảnh chỉ là hình minh họa, không có câu chữ Trung để tô dấu hiệu."
+    },
+    "reading-q20": {
+      "number": 20,
+      "correctAnswer": "B",
+      "questionChinese": {
+        "traditional": "",
+        "simplified": ""
+      },
+      "questionVi": "",
+      "optionChinese": {
+        "traditional": [
+          "孩子在玩水。",
+          "媽媽在弄衣服。",
+          "爸爸在打掃家裡。"
+        ],
+        "simplified": [
+          "孩子在玩水。",
+          "妈妈在弄衣服。",
+          "爸爸在打扫家里。"
+        ]
+      },
+      "optionTranslations": [
+        "Đứa trẻ đang chơi trong nước.",
+        "Mẹ đang thu xếp quần áo.",
+        "Bố đang dọn dẹp nhà cửa."
+      ],
+      "passageChinese": null,
+      "passageVi": "Hình minh họa trong đề: Mẹ đang thu xếp quần áo.",
+      "evidence": null,
+      "explanationVi": "Quan sát hình minh họa: Mẹ đang thu xếp quần áo; vì vậy chọn B.",
+      "sourceLimitation": "Ngữ cảnh chỉ là hình minh họa, không có câu chữ Trung để tô dấu hiệu."
+    },
+    "reading-q21": {
+      "number": 21,
+      "correctAnswer": "B",
+      "questionChinese": {
+        "traditional": "",
+        "simplified": ""
+      },
+      "questionVi": "",
+      "optionChinese": {
+        "traditional": [
+          "要先煮菜再放鹽。",
+          "做這道菜用不了多少時間。",
+          "這個方法教你怎麼烤青菜。"
+        ],
+        "simplified": [
+          "要先煮菜再放盐。",
+          "做这道菜用不了多少时间。",
+          "这个方法教你怎么烤青菜。"
+        ]
+      },
+      "optionTranslations": [
+        "Nấu rau trước rồi thêm muối.",
+        "Không mất nhiều thời gian để thực hiện món ăn này.",
+        "Phương pháp này dạy bạn cách nướng rau."
+      ],
+      "passageChinese": {
+        "traditional": "好吃的菜怎麼做？①洗菜洗2分鐘。②用一個鍋子煮熱水，然後在熱水裡放一點油和鹽。③把青菜放進熱水裡30秒以後拿起來，就可以吃了。",
+        "simplified": "好吃的菜怎么做？①洗菜洗2分钟。②用一个锅子煮热水，然后在热水里放一点油和盐。③把青菜放进热水里30秒以后拿起来，就可以吃了。"
+      },
+      "passageVi": "Cách làm món rau ngon: rửa rau hai phút; đun nước trong nồi rồi thêm một ít dầu và muối; cho rau vào nước nóng 30 giây, vớt ra là ăn được.",
+      "evidence": {
+        "traditional": "30秒",
+        "simplified": "30秒"
+      },
+      "explanationVi": "Các bước chỉ mất vài phút và 30 giây chần rau, nên B đúng."
+    },
+    "reading-q22": {
+      "number": 22,
+      "correctAnswer": "B",
+      "questionChinese": {
+        "traditional": "",
+        "simplified": ""
+      },
+      "questionVi": "",
+      "optionChinese": {
+        "traditional": [
+          "誰都可以進去這間圖書館。",
+          "圖書館中午休息一個小時。",
+          "只有一個月可以進去圖書館。"
+        ],
+        "simplified": [
+          "谁都可以进去这间图书馆。",
+          "图书馆中午休息一个小时。",
+          "只有一个月可以进去图书馆。"
+        ]
+      },
+      "optionTranslations": [
+        "Bất cứ ai cũng có thể vào thư viện này.",
+        "Thư viện nghỉ một giờ vào buổi trưa.",
+        "Chỉ có một tháng để vào thư viện."
+      ],
+      "passageChinese": {
+        "traditional": "圖書館使用時間：六月一號到八月三十一號，星期一到星期五，上午九點～十二點，下午一點～五點。只有元平大學的學生可以用圖書館。",
+        "simplified": "图书馆使用时间：六月一号到八月三十一号，星期一到星期五，上午九点～十二点，下午一点～五点。只有元平大学的学生可以用图书馆。"
+      },
+      "passageVi": "Giờ sử dụng thư viện từ 1/6 đến 31/8, thứ Hai đến thứ Sáu: 9–12 giờ và 13–17 giờ. Chỉ sinh viên Đại học Nguyên Bình được sử dụng thư viện.",
+      "evidence": {
+        "traditional": "上午九點～十二點，下午一點～五點",
+        "simplified": "上午九点～十二点，下午一点～五点"
+      },
+      "explanationVi": "Thư viện nghỉ từ 12 đến 13 giờ, một tiếng, đúng với B."
+    },
+    "reading-q23": {
+      "number": 23,
+      "correctAnswer": "C",
+      "questionChinese": {
+        "traditional": "",
+        "simplified": ""
+      },
+      "questionVi": "",
+      "optionChinese": {
+        "traditional": [
+          "白小姐要找一間好學校。",
+          "白小姐想和小美一塊兒住。",
+          "從白小姐家到市場很方便。"
+        ],
+        "simplified": [
+          "白小姐要找一间好学校。",
+          "白小姐想和小美一块儿住。",
+          "从白小姐家到市场很方便。"
+        ]
+      },
+      "optionTranslations": [
+        "Cô Bai muốn tìm một trường học tốt.",
+        "Cô Bai muốn sống với Tiểu Mỹ.",
+        "Từ nhà cô Bai đi chợ rất thuận tiện."
+      ],
+      "passageChinese": {
+        "traditional": "小美，妳好：不好意思，麻煩妳幫我問一件事，我想找女學生和我一起住。我家樓下是市場，附近有好幾間學校。白小姐",
+        "simplified": "小美，妳好：不好意思，麻烦妳帮我问一件事，我想找女学生和我一起住。我家楼下是市场，附近有好几间学校。白小姐"
+      },
+      "passageVi": "Chào Tiểu Mỹ: Xin lỗi đã làm phiền, nhờ bạn hỏi giúp một việc. Tôi muốn tìm một nữ sinh ở cùng. Dưới nhà tôi là chợ, gần đó có mấy trường học. Cô Bạch.",
+      "evidence": {
+        "traditional": "我家樓下是市場",
+        "simplified": "我家楼下是市场"
+      },
+      "explanationVi": "Dưới nhà cô Bạch là chợ nên đi chợ rất tiện, đúng với C."
+    },
+    "reading-q24": {
+      "number": 24,
+      "correctAnswer": "B",
+      "questionChinese": {
+        "traditional": "",
+        "simplified": ""
+      },
+      "questionVi": "",
+      "optionChinese": {
+        "traditional": [
+          "李大明留言給王華。",
+          "王華中午要去開會。",
+          "王華打電話給李大明。"
+        ],
+        "simplified": [
+          "李大明留言给王华。",
+          "王华中午要去开会。",
+          "王华打电话给李大明。"
+        ]
+      },
+      "optionTranslations": [
+        "Li Đại Minh để lại lời nhắn cho Wang Hua.",
+        "Trưa hôm đó Vương Hoa phải đi họp.",
+        "Vương Hoa gọi Lý Đại Minh."
+      ],
+      "passageChinese": {
+        "traditional": "李大明：今天早上，我在辦公室裡沒看到你，所以留言給你，看到以後，請打電話給我。我想知道：兩個小時後，我要去哪裡開會？王華，6月11日上午十點。",
+        "simplified": "李大明：今天早上，我在办公室里没看到你，所以留言给你，看到以后，请打电话给我。我想知道：两个小时后，我要去哪里开会？王华，6月11日上午十点。"
+      },
+      "passageVi": "Gửi Lý Đại Minh: Sáng nay tôi không thấy anh ở văn phòng nên để lại lời nhắn. Xem xong hãy gọi cho tôi. Tôi muốn biết hai giờ nữa tôi phải đi đâu họp. Vương Hoa, 10 giờ sáng ngày 11/6.",
+      "evidence": {
+        "traditional": "兩個小時後",
+        "simplified": "两个小时后"
+      },
+      "explanationVi": "Vương Hoa viết lúc 10 giờ; hai giờ sau là 12 giờ trưa, khi anh ấy phải đi họp. B đúng."
+    },
+    "reading-q25": {
+      "number": 25,
+      "correctAnswer": "A",
+      "questionChinese": {
+        "traditional": "",
+        "simplified": ""
+      },
+      "questionVi": "",
+      "optionChinese": {
+        "traditional": [
+          "拿書時要先給錢。",
+          "陳小姐買了一些書。",
+          "林先生把書寄出去了。"
+        ],
+        "simplified": [
+          "拿书时要先给钱。",
+          "陈小姐买了一些书。",
+          "林先生把书寄出去了。"
+        ]
+      },
+      "optionTranslations": [
+        "Khi lấy sách phải thanh toán.",
+        "Cô Chen đã mua một số cuốn sách.",
+        "Anh Lin đã gửi sách."
+      ],
+      "passageChinese": {
+        "traditional": "林先生，你好！你買的書已經到了，拿書時請記得給錢。有問題請打給陳小姐。",
+        "simplified": "林先生，你好！你买的书已经到了，拿书时请记得给钱。有问题请打给陈小姐。"
+      },
+      "passageVi": "Chào ông Lâm! Sách ông mua đã tới; khi lấy sách xin nhớ thanh toán. Có thắc mắc hãy gọi cô Trần.",
+      "evidence": {
+        "traditional": "拿書時請記得給錢",
+        "simplified": "拿书时请记得给钱"
+      },
+      "explanationVi": "Thông báo yêu cầu trả tiền lúc lấy sách, đúng với A."
+    },
+    "reading-q26": {
+      "number": 26,
+      "correctAnswer": "B",
+      "questionChinese": {
+        "traditional": "",
+        "simplified": ""
+      },
+      "questionVi": "",
+      "optionChinese": {
+        "traditional": [
+          "王明下午在辦公室。",
+          "王明的媽媽在醫院。",
+          "王明已經下班回家。"
+        ],
+        "simplified": [
+          "王明下午在办公室。",
+          "王明的妈妈在医院。",
+          "王明已经下班回家。"
+        ]
+      },
+      "optionTranslations": [
+        "Vương Minh buổi chiều ở văn phòng.",
+        "Mẹ của Vương Minh đang ở bệnh viện.",
+        "Vương Minh tan làm về nhà."
+      ],
+      "passageChinese": {
+        "traditional": "今天下午請假，送媽媽去醫院，不在辦公室。如果有事找我請留言，我下班前一定會回來。王明",
+        "simplified": "今天下午请假，送妈妈去医院，不在办公室。如果有事找我请留言，我下班前一定会回来。王明"
+      },
+      "passageVi": "Chiều nay tôi xin nghỉ để đưa mẹ đến bệnh viện, không ở văn phòng. Có việc hãy để lại lời nhắn; tôi chắc chắn sẽ quay lại trước giờ tan làm. Vương Minh.",
+      "evidence": {
+        "traditional": "送媽媽去醫院",
+        "simplified": "送妈妈去医院"
+      },
+      "explanationVi": "Vương Minh đưa mẹ tới bệnh viện, đúng với B."
+    },
+    "reading-q27": {
+      "number": 27,
+      "correctAnswer": "C",
+      "questionChinese": {
+        "traditional": "",
+        "simplified": ""
+      },
+      "questionVi": "",
+      "optionChinese": {
+        "traditional": [
+          "警察要大家看清楚紅綠燈。",
+          "警察要大家騎車戴著安全帽。",
+          "警察要大家不只晚上騎車開燈。"
+        ],
+        "simplified": [
+          "警察要大家看清楚红绿灯。",
+          "警察要大家骑车戴着安全帽。",
+          "警察要大家不只晚上骑车开灯。"
+        ]
+      },
+      "optionTranslations": [
+        "Cảnh sát muốn mọi người đọc rõ đèn giao thông.",
+        "Cảnh sát yêu cầu mọi người đội mũ bảo hiểm khi đi xe.",
+        "Cảnh sát muốn mọi người không chỉ đi xe với đèn bật vào ban đêm."
+      ],
+      "passageChinese": {
+        "traditional": "白天騎車就開燈，開燈以後，看得更清楚，騎車更安全。交通警察關心您！",
+        "simplified": "白天骑车就开灯，开灯以后，看得更清楚，骑车更安全。交通警察关心您！"
+      },
+      "passageVi": "Đi xe ban ngày cũng bật đèn. Bật đèn giúp nhìn rõ hơn và đi xe an toàn hơn. Cảnh sát giao thông quan tâm đến bạn!",
+      "evidence": {
+        "traditional": "白天騎車就開燈",
+        "simplified": "白天骑车就开灯"
+      },
+      "explanationVi": "Biển nhắc bật đèn cả ban ngày, nên không chỉ buổi tối; C đúng."
+    },
+    "reading-q28": {
+      "number": 28,
+      "correctAnswer": "B",
+      "questionChinese": {
+        "traditional": "",
+        "simplified": ""
+      },
+      "questionVi": "",
+      "optionChinese": {
+        "traditional": [
+          "每個人坐車都需要付錢。",
+          "十月十日坐車不用買車票。",
+          "國家生日那天沒有公車服務。"
+        ],
+        "simplified": [
+          "每个人坐车都需要付钱。",
+          "十月十日坐车不用买车票。",
+          "国家生日那天没有公车服务。"
+        ]
+      },
+      "optionTranslations": [
+        "Mọi người đều phải trả tiền để đi xe.",
+        "Ngày 10/10 đi xe buýt không cần mua vé.",
+        "Không có dịch vụ xe buýt vào ngày sinh nhật quốc gia."
+      ],
+      "passageChinese": {
+        "traditional": "公車車票價格：0–12歲半價；12–65歲20元；65歲以上不用錢。慶祝國家的生日，十月十日搭公車，所有人都不用錢。",
+        "simplified": "公车车票价格：0–12岁半价；12–65岁20元；65岁以上不用钱。庆祝国家的生日，十月十日搭公车，所有人都不用钱。"
+      },
+      "passageVi": "Giá vé xe buýt: 0–12 tuổi nửa giá; 12–65 tuổi 20 đồng; từ 65 tuổi miễn phí. Mừng quốc khánh, ngày 10/10 mọi người đi xe buýt đều miễn phí.",
+      "evidence": {
+        "traditional": "十月十日搭公車，所有人都不用錢",
+        "simplified": "十月十日搭公车，所有人都不用钱"
+      },
+      "explanationVi": "Ngày 10/10 tất cả mọi người đi xe buýt miễn phí, đúng với B."
+    },
+    "reading-q29": {
+      "number": 29,
+      "correctAnswer": "A",
+      "questionChinese": {
+        "traditional": "",
+        "simplified": ""
+      },
+      "questionVi": "",
+      "optionChinese": {
+        "traditional": [
+          "中午以後才有車子到舊城。",
+          "可以搭34 號火車到舊城去。",
+          "只有下午才有到新城的火車。"
+        ],
+        "simplified": [
+          "中午以后才有车子到旧城。",
+          "可以搭34 号火车到旧城去。",
+          "只有下午才有到新城的火车。"
+        ]
+      },
+      "optionTranslations": [
+        "Không có xe buýt đến thành phố cổ cho đến sau buổi trưa.",
+        "Bạn có thể đi tàu số 34 tới Phố cổ.",
+        "Có chuyến tàu đi Tân Thành chỉ vào buổi chiều."
+      ],
+      "passageChinese": {
+        "traditional": "火車班次：556，08:00，高雄市→新城；9210，13:10，高雄市→舊城；34，17:40，高雄市→上城。",
+        "simplified": "火车班次：556，08:00，高雄市→新城；9210，13:10，高雄市→旧城；34，17:40，高雄市→上城。"
+      },
+      "passageVi": "Lịch tàu: chuyến 556 lúc 8 giờ từ Cao Hùng tới Tân Thành; chuyến 9210 lúc 13 giờ 10 tới Cựu Thành; chuyến 34 lúc 17 giờ 40 tới Thượng Thành.",
+      "evidence": {
+        "traditional": "13:10，高雄市→舊城",
+        "simplified": "13:10，高雄市→旧城"
+      },
+      "explanationVi": "Chuyến tới Cựu Thành khởi hành 13:10, sau buổi trưa, đúng với A."
+    },
+    "reading-q30": {
+      "number": 30,
+      "correctAnswer": "B",
+      "questionChinese": {
+        "traditional": "",
+        "simplified": ""
+      },
+      "questionVi": "",
+      "optionChinese": {
+        "traditional": [
+          "這裡的服務員每天都要上班。",
+          "經驗多的人可以拿比較多的錢。",
+          "有興趣的人可以給陳先生打電話。"
+        ],
+        "simplified": [
+          "这里的服务员每天都要上班。",
+          "经验多的人可以拿比较多的钱。",
+          "有兴趣的人可以给陈先生打电话。"
+        ]
+      },
+      "optionTranslations": [
+        "Những người phục vụ ở đây đi làm hàng ngày.",
+        "Những người có nhiều kinh nghiệm hơn có thể nhận được nhiều tiền hơn.",
+        "Người quan tâm có thể gọi điện cho ông Trần."
+      ],
+      "passageChinese": {
+        "traditional": "學生餐廳需要服務員。工作時間：週一到週六，上午九點到下午兩點。每個月一萬八千元，有打工經驗的人多兩千元。如果你有興趣，請直接到餐廳找陳先生。",
+        "simplified": "学生餐厅需要服务员。工作时间：周一到周六，上午九点到下午两点。每个月一万八千元，有打工经验的人多两千元。如果你有兴趣，请直接到餐厅找陈先生。"
+      },
+      "passageVi": "Nhà ăn sinh viên tuyển nhân viên phục vụ, làm từ thứ Hai đến thứ Bảy, 9 giờ sáng đến 2 giờ chiều. Lương 18.000 đồng/tháng; người có kinh nghiệm làm thêm được hơn 2.000 đồng. Nếu quan tâm hãy đến nhà ăn gặp ông Trần.",
+      "evidence": {
+        "traditional": "有打工經驗的人多兩千元",
+        "simplified": "有打工经验的人多两千元"
+      },
+      "explanationVi": "Người có kinh nghiệm được trả thêm 2.000 đồng, đúng với B."
+    },
+    "reading-q31": {
+      "number": 31,
+      "correctAnswer": "B",
+      "questionChinese": {
+        "traditional": "冬天快到了，小王想買一______黑色大衣。",
+        "simplified": "冬天快到了，小王想买一______黑色大衣。"
+      },
+      "questionVi": "Mùa đông sắp đến, Tiểu Vương muốn mua một ____ áo khoác đen.",
+      "optionChinese": {
+        "traditional": [
+          "付",
+          "件",
+          "條"
+        ],
+        "simplified": [
+          "付",
+          "件",
+          "条"
+        ]
+      },
+      "optionTranslations": [
+        "trả tiền",
+        "chiếc (lượng từ cho áo)",
+        "chiếc (lượng từ cho vật dài)"
+      ],
+      "passageChinese": {
+        "traditional": "冬天快到了，小王想買一______黑色大衣。",
+        "simplified": "冬天快到了，小王想买一______黑色大衣。"
+      },
+      "passageVi": "",
+      "evidence": {
+        "traditional": "黑色大衣",
+        "simplified": "黑色大衣"
+      },
+      "explanationVi": "“一件大衣” dùng lượng từ 件 cho áo khoác; 付 và 條 không dùng cho áo.",
+      "note": "Bản dịch đầy đủ của đoạn văn được hiển thị ở câu cuối của phần này."
+    },
+    "reading-q32": {
+      "number": 32,
+      "correctAnswer": "B",
+      "questionChinese": {
+        "traditional": "小李今天有時間，所以下午和小王______去商店買衣服。",
+        "simplified": "小李今天有时间，所以下午和小王______去商店买衣服。"
+      },
+      "questionVi": "Hôm nay Tiểu Lý rảnh, nên chiều nay cậu ấy và Tiểu Vương ____ đến cửa hàng mua quần áo.",
+      "optionChinese": {
+        "traditional": [
+          "剛才",
+          "一起",
+          "經常"
+        ],
+        "simplified": [
+          "刚才",
+          "一起",
+          "经常"
+        ]
+      },
+      "optionTranslations": [
+        "vừa nãy",
+        "cùng nhau",
+        "thường xuyên"
+      ],
+      "passageChinese": {
+        "traditional": "小李今天有時間，所以下午和小王______去商店買衣服。",
+        "simplified": "小李今天有时间，所以下午和小王______去商店买衣服。"
+      },
+      "passageVi": "",
+      "evidence": {
+        "traditional": "和小王",
+        "simplified": "和小王"
+      },
+      "explanationVi": "“和小王一起去” nghĩa là cùng Tiểu Vương đi mua quần áo; 一起 chỉ hành động chung.",
+      "note": "Bản dịch đầy đủ của đoạn văn được hiển thị ở câu cuối của phần này."
+    },
+    "reading-q33": {
+      "number": 33,
+      "correctAnswer": "A",
+      "questionChinese": {
+        "traditional": "小王看到很多好看的大衣，他每一件______想買。",
+        "simplified": "小王看到很多好看的大衣，他每一件______想买。"
+      },
+      "questionVi": "Tiểu Vương thấy nhiều áo khoác đẹp, chiếc nào cậu ấy ____ muốn mua.",
+      "optionChinese": {
+        "traditional": [
+          "都",
+          "快",
+          "先"
+        ],
+        "simplified": [
+          "都",
+          "快",
+          "先"
+        ]
+      },
+      "optionTranslations": [
+        "đều",
+        "sắp; nhanh",
+        "trước"
+      ],
+      "passageChinese": {
+        "traditional": "小王看到很多好看的大衣，他每一件______想買。",
+        "simplified": "小王看到很多好看的大衣，他每一件______想买。"
+      },
+      "passageVi": "",
+      "evidence": {
+        "traditional": "每一件",
+        "simplified": "每一件"
+      },
+      "explanationVi": "“每一件都想買” nghĩa là chiếc nào cũng muốn mua; 都 đi với 每一件.",
+      "note": "Bản dịch đầy đủ của đoạn văn được hiển thị ở câu cuối của phần này."
+    },
+    "reading-q34": {
+      "number": 34,
+      "correctAnswer": "C",
+      "questionChinese": {
+        "traditional": "這些大衣太貴了，______便宜一點，小王就一定會買。",
+        "simplified": "这些大衣太贵了，______便宜一点，小王就一定会买。"
+      },
+      "questionVi": "Những chiếc áo khoác này đắt quá; ____ rẻ hơn một chút thì Tiểu Vương nhất định sẽ mua.",
+      "optionChinese": {
+        "traditional": [
+          "或是",
+          "不但",
+          "要是"
+        ],
+        "simplified": [
+          "或是",
+          "不但",
+          "要是"
+        ]
+      },
+      "optionTranslations": [
+        "hoặc",
+        "không những",
+        "nếu như"
+      ],
+      "passageChinese": {
+        "traditional": "這些大衣太貴了，______便宜一點，小王就一定會買。",
+        "simplified": "这些大衣太贵了，______便宜一点，小王就一定会买。"
+      },
+      "passageVi": "",
+      "evidence": {
+        "traditional": "便宜一點",
+        "simplified": "便宜一点"
+      },
+      "explanationVi": "“要是…就…” diễn tả điều kiện: nếu rẻ hơn thì Tiểu Vương sẽ mua.",
+      "note": "Bản dịch đầy đủ của đoạn văn được hiển thị ở câu cuối của phần này."
+    },
+    "reading-q35": {
+      "number": 35,
+      "correctAnswer": "B",
+      "questionChinese": {
+        "traditional": "他們______了一個下午還沒______到想要的衣服，下次再買吧。",
+        "simplified": "他们______了一个下午还没______到想要的衣服，下次再买吧。"
+      },
+      "questionVi": "Họ ____ cả buổi chiều mà vẫn chưa ____ được chiếc áo mong muốn; lần sau mua vậy.",
+      "optionChinese": {
+        "traditional": [
+          "撿…撿…",
+          "找…找…",
+          "收…收…"
+        ],
+        "simplified": [
+          "捡…捡…",
+          "找…找…",
+          "收…收…"
+        ]
+      },
+      "optionTranslations": [
+        "nhặt…nhặt…",
+        "tìm…tìm…",
+        "thu…thu…"
+      ],
+      "passageChinese": {
+        "traditional": "他們______了一個下午還沒______到想要的衣服，下次再買吧。",
+        "simplified": "他们______了一个下午还没______到想要的衣服，下次再买吧。"
+      },
+      "passageVi": "Mùa đông sắp đến, Tiểu Vương muốn mua một chiếc áo khoác đen. Hôm nay Tiểu Lý có thời gian nên chiều nay cùng Tiểu Vương đến cửa hàng quần áo. Thấy nhiều áo khoác đẹp, chiếc nào Tiểu Vương cũng muốn mua. Nhưng áo quá đắt; nếu rẻ hơn một chút, cậu ấy chắc chắn sẽ mua. Họ tìm cả buổi chiều vẫn chưa thấy chiếc áo mong muốn, đành để lần sau mua.",
+      "evidence": {
+        "traditional": "一個下午還沒",
+        "simplified": "一个下午还没"
+      },
+      "explanationVi": "“找…找…到” diễn tả tìm suốt một buổi vẫn chưa tìm được áo mong muốn; 撿 và 收 không hợp."
+    },
+    "reading-q36": {
+      "number": 36,
+      "correctAnswer": "A",
+      "questionChinese": {
+        "traditional": "星期日下午，書店裡的人______多。",
+        "simplified": "星期日下午，书店里的人______多。"
+      },
+      "questionVi": "Có rất nhiều người ở hiệu sách vào chiều chủ nhật.",
+      "optionChinese": {
+        "traditional": [
+          "非常",
+          "正在",
+          "一點"
+        ],
+        "simplified": [
+          "非常",
+          "正在",
+          "一点"
+        ]
+      },
+      "optionTranslations": [
+        "rất",
+        "đang",
+        "một chút"
+      ],
+      "passageChinese": {
+        "traditional": "星期日下午，書店裡的人______多。",
+        "simplified": "星期日下午，书店里的人______多。"
+      },
+      "passageVi": "",
+      "evidence": {
+        "traditional": "書店裡的人",
+        "simplified": "书店里的人"
+      },
+      "explanationVi": "“非常多” diễn tả rất đông người ở hiệu sách; 正在 và 一點 không bổ nghĩa cho 多 như vậy.",
+      "note": "Bản dịch đầy đủ của đoạn văn được hiển thị ở câu cuối của phần này."
+    },
+    "reading-q37": {
+      "number": 37,
+      "correctAnswer": "C",
+      "questionChinese": {
+        "traditional": "要開學了，很多書都在特價。字典現在______賣三百五十元。",
+        "simplified": "要开学了，很多书都在特价。字典现在______卖三百五十元。"
+      },
+      "questionVi": "Trường học sắp khai giảng và nhiều sách đang được giảm giá. Từ điển bây giờ ______ được bán với giá ba trăm năm mươi đồng.",
+      "optionChinese": {
+        "traditional": [
+          "每",
+          "最",
+          "只"
+        ],
+        "simplified": [
+          "每",
+          "最",
+          "只"
+        ]
+      },
+      "optionTranslations": [
+        "mỗi",
+        "nhất",
+        "chỉ"
+      ],
+      "passageChinese": {
+        "traditional": "要開學了，很多書都在特價。字典現在______賣三百五十元。",
+        "simplified": "要开学了，很多书都在特价。字典现在______卖三百五十元。"
+      },
+      "passageVi": "",
+      "evidence": {
+        "traditional": "字典現在",
+        "simplified": "字典现在"
+      },
+      "explanationVi": "“只賣三百五十元” nhấn mạnh từ điển chỉ có giá 350 đồng khi đang giảm giá.",
+      "note": "Bản dịch đầy đủ của đoạn văn được hiển thị ở câu cuối của phần này."
+    },
+    "reading-q38": {
+      "number": 38,
+      "correctAnswer": "B",
+      "questionChinese": {
+        "traditional": "買兩本書比較便宜，______五百元。",
+        "simplified": "买两本书比较便宜，______五百元。"
+      },
+      "questionVi": "Mua hai cuốn sách sẽ rẻ hơn, ______ năm trăm đồng.",
+      "optionChinese": {
+        "traditional": [
+          "總是",
+          "一共",
+          "只好"
+        ],
+        "simplified": [
+          "总是",
+          "一共",
+          "只好"
+        ]
+      },
+      "optionTranslations": [
+        "luôn luôn",
+        "tổng cộng",
+        "đành phải"
+      ],
+      "passageChinese": {
+        "traditional": "買兩本書比較便宜，______五百元。",
+        "simplified": "买两本书比较便宜，______五百元。"
+      },
+      "passageVi": "",
+      "evidence": {
+        "traditional": "買兩本書比較便宜",
+        "simplified": "买两本书比较便宜"
+      },
+      "explanationVi": "“一共五百元” là tổng giá hai quyển sách; 總是 và 只好 không chỉ tổng tiền.",
+      "note": "Bản dịch đầy đủ của đoạn văn được hiển thị ở câu cuối của phần này."
+    },
+    "reading-q39": {
+      "number": 39,
+      "correctAnswer": "B",
+      "questionChinese": {
+        "traditional": "因為這裡的書都不貴，______人很多。",
+        "simplified": "因为这里的书都不贵，______人很多。"
+      },
+      "questionVi": "Bởi vì sách ở đây không đắt và có rất nhiều người ______.",
+      "optionChinese": {
+        "traditional": [
+          "雖然",
+          "所以",
+          "可是"
+        ],
+        "simplified": [
+          "虽然",
+          "所以",
+          "可是"
+        ]
+      },
+      "optionTranslations": [
+        "tuy rằng",
+        "vì vậy",
+        "nhưng"
+      ],
+      "passageChinese": {
+        "traditional": "因為這裡的書都不貴，______人很多。",
+        "simplified": "因为这里的书都不贵，______人很多。"
+      },
+      "passageVi": "",
+      "evidence": {
+        "traditional": "因為這裡的書都不貴",
+        "simplified": "因为这里的书都不贵"
+      },
+      "explanationVi": "“因為…所以…” nối nguyên nhân sách không đắt với kết quả đông người.",
+      "note": "Bản dịch đầy đủ của đoạn văn được hiển thị ở câu cuối của phần này."
+    },
+    "reading-q40": {
+      "number": 40,
+      "correctAnswer": "C",
+      "questionChinese": {
+        "traditional": "這學期他要上法文課，他應該______法文字典。",
+        "simplified": "这学期他要上法文课，他应该______法文字典。"
+      },
+      "questionVi": "Anh ấy có một lớp học tiếng Pháp trong học kỳ này và anh ấy nên ______ một cuốn từ điển tiếng Pháp.",
+      "optionChinese": {
+        "traditional": [
+          "賣",
+          "付",
+          "買"
+        ],
+        "simplified": [
+          "卖",
+          "付",
+          "买"
+        ]
+      },
+      "optionTranslations": [
+        "bán",
+        "trả tiền",
+        "mua"
+      ],
+      "passageChinese": {
+        "traditional": "這學期他要上法文課，他應該______法文字典。",
+        "simplified": "这学期他要上法文课，他应该______法文字典。"
+      },
+      "passageVi": "Chiều Chủ nhật, hiệu sách rất đông người. Sắp khai giảng nên nhiều sách đang giảm giá; từ điển giờ chỉ bán 350 đồng. Mua hai quyển rẻ hơn, tổng cộng 500 đồng. Vì sách ở đây không đắt nên có nhiều người. Học kỳ này anh ấy học tiếng Pháp, nên cần mua từ điển tiếng Pháp.",
+      "evidence": {
+        "traditional": "法文字典",
+        "simplified": "法文字典"
+      },
+      "explanationVi": "Học tiếng Pháp thì cần mua từ điển tiếng Pháp; 買 là mua, còn 賣 là bán."
+    },
+    "reading-q41": {
+      "number": 41,
+      "correctAnswer": "C",
+      "questionChinese": {
+        "traditional": "（41）",
+        "simplified": "（41）"
+      },
+      "questionVi": "Điền chỗ trống (41) trong đoạn văn.",
+      "optionChinese": {
+        "traditional": [
+          "想他的爸爸",
+          "請大家幫忙",
+          "不認識的人",
+          "兩人都很高興",
+          "他不想去找王明",
+          "他一直在找王明"
+        ],
+        "simplified": [
+          "想他的爸爸",
+          "请大家帮忙",
+          "不认识的人",
+          "两人都很高兴",
+          "他不想去找王明",
+          "他一直在找王明"
+        ]
+      },
+      "optionTranslations": [
+        "Nhớ bố anh ấy",
+        "làm ơn giúp đỡ",
+        "người chưa biết",
+        "cả hai đều hạnh phúc",
+        "Anh ấy không muốn đến gặp Vương Minh",
+        "Anh ấy đang tìm kiếm Vương Minh"
+      ],
+      "passageChinese": {
+        "traditional": "王明五歲的時候在自己家前面，被（41）帶走了。他最近和朋友說他很（42），他很希望爸爸知道他大學畢業了。他的朋友聽了以後就上網（43），最後，王明真的找到他的爸爸了。他爸爸說這些年（44），沒想到是王明先找到他。他們（45），也很感謝大家的幫忙。",
+        "simplified": "王明五岁的时候在自己家前面，被（41）带走了。他最近和朋友说他很（42），他很希望爸爸知道他大学毕业了。他的朋友听了以后就上网（43），最后，王明真的找到他的爸爸了。他爸爸说这些年（44），没想到是王明先找到他。他们（45），也很感谢大家的帮忙。"
+      },
+      "passageVi": "",
+      "evidence": {
+        "traditional": "在自己家前面，被",
+        "simplified": "在自己家前面，被"
+      },
+      "explanationVi": "Sau “被” cần người gây ra hành động; “不認識的人” cho biết Vương Minh bị người lạ đưa đi.",
+      "note": "Bản dịch đầy đủ của đoạn văn được hiển thị ở câu cuối của phần này."
+    },
+    "reading-q42": {
+      "number": 42,
+      "correctAnswer": "A",
+      "questionChinese": {
+        "traditional": "（42）",
+        "simplified": "（42）"
+      },
+      "questionVi": "Điền chỗ trống (42) trong đoạn văn.",
+      "optionChinese": {
+        "traditional": [
+          "想他的爸爸",
+          "請大家幫忙",
+          "不認識的人",
+          "兩人都很高興",
+          "他不想去找王明",
+          "他一直在找王明"
+        ],
+        "simplified": [
+          "想他的爸爸",
+          "请大家帮忙",
+          "不认识的人",
+          "两人都很高兴",
+          "他不想去找王明",
+          "他一直在找王明"
+        ]
+      },
+      "optionTranslations": [
+        "Nhớ bố anh ấy",
+        "làm ơn giúp đỡ",
+        "người chưa biết",
+        "cả hai đều hạnh phúc",
+        "Anh ấy không muốn đến gặp Vương Minh",
+        "Anh ấy đang tìm kiếm Vương Minh"
+      ],
+      "passageChinese": {
+        "traditional": "王明五歲的時候在自己家前面，被（41）帶走了。他最近和朋友說他很（42），他很希望爸爸知道他大學畢業了。他的朋友聽了以後就上網（43），最後，王明真的找到他的爸爸了。他爸爸說這些年（44），沒想到是王明先找到他。他們（45），也很感謝大家的幫忙。",
+        "simplified": "王明五岁的时候在自己家前面，被（41）带走了。他最近和朋友说他很（42），他很希望爸爸知道他大学毕业了。他的朋友听了以后就上网（43），最后，王明真的找到他的爸爸了。他爸爸说这些年（44），没想到是王明先找到他。他们（45），也很感谢大家的帮忙。"
+      },
+      "passageVi": "",
+      "evidence": {
+        "traditional": "希望爸爸知道他大學畢業了",
+        "simplified": "希望爸爸知道他大学毕业了"
+      },
+      "explanationVi": "Muốn bố biết mình đã tốt nghiệp cho thấy anh ấy nhớ bố; điền “想他的爸爸”.",
+      "note": "Bản dịch đầy đủ của đoạn văn được hiển thị ở câu cuối của phần này."
+    },
+    "reading-q43": {
+      "number": 43,
+      "correctAnswer": "B",
+      "questionChinese": {
+        "traditional": "（43）",
+        "simplified": "（43）"
+      },
+      "questionVi": "Điền chỗ trống (43) trong đoạn văn.",
+      "optionChinese": {
+        "traditional": [
+          "想他的爸爸",
+          "請大家幫忙",
+          "不認識的人",
+          "兩人都很高興",
+          "他不想去找王明",
+          "他一直在找王明"
+        ],
+        "simplified": [
+          "想他的爸爸",
+          "请大家帮忙",
+          "不认识的人",
+          "两人都很高兴",
+          "他不想去找王明",
+          "他一直在找王明"
+        ]
+      },
+      "optionTranslations": [
+        "Nhớ bố anh ấy",
+        "làm ơn giúp đỡ",
+        "người chưa biết",
+        "cả hai đều hạnh phúc",
+        "Anh ấy không muốn đến gặp Vương Minh",
+        "Anh ấy đang tìm kiếm Vương Minh"
+      ],
+      "passageChinese": {
+        "traditional": "王明五歲的時候在自己家前面，被（41）帶走了。他最近和朋友說他很（42），他很希望爸爸知道他大學畢業了。他的朋友聽了以後就上網（43），最後，王明真的找到他的爸爸了。他爸爸說這些年（44），沒想到是王明先找到他。他們（45），也很感謝大家的幫忙。",
+        "simplified": "王明五岁的时候在自己家前面，被（41）带走了。他最近和朋友说他很（42），他很希望爸爸知道他大学毕业了。他的朋友听了以后就上网（43），最后，王明真的找到他的爸爸了。他爸爸说这些年（44），没想到是王明先找到他。他们（45），也很感谢大家的帮忙。"
+      },
+      "passageVi": "",
+      "evidence": {
+        "traditional": "上網",
+        "simplified": "上网"
+      },
+      "explanationVi": "Bạn bè lên mạng nhờ mọi người giúp tìm bố Vương Minh; “請大家幫忙” hợp với “上網”.",
+      "note": "Bản dịch đầy đủ của đoạn văn được hiển thị ở câu cuối của phần này."
+    },
+    "reading-q44": {
+      "number": 44,
+      "correctAnswer": "F",
+      "questionChinese": {
+        "traditional": "（44）",
+        "simplified": "（44）"
+      },
+      "questionVi": "Điền chỗ trống (44) trong đoạn văn.",
+      "optionChinese": {
+        "traditional": [
+          "想他的爸爸",
+          "請大家幫忙",
+          "不認識的人",
+          "兩人都很高興",
+          "他不想去找王明",
+          "他一直在找王明"
+        ],
+        "simplified": [
+          "想他的爸爸",
+          "请大家帮忙",
+          "不认识的人",
+          "两人都很高兴",
+          "他不想去找王明",
+          "他一直在找王明"
+        ]
+      },
+      "optionTranslations": [
+        "Nhớ bố anh ấy",
+        "làm ơn giúp đỡ",
+        "người chưa biết",
+        "cả hai đều hạnh phúc",
+        "Anh ấy không muốn đến gặp Vương Minh",
+        "Anh ấy đang tìm kiếm Vương Minh"
+      ],
+      "passageChinese": {
+        "traditional": "王明五歲的時候在自己家前面，被（41）帶走了。他最近和朋友說他很（42），他很希望爸爸知道他大學畢業了。他的朋友聽了以後就上網（43），最後，王明真的找到他的爸爸了。他爸爸說這些年（44），沒想到是王明先找到他。他們（45），也很感謝大家的幫忙。",
+        "simplified": "王明五岁的时候在自己家前面，被（41）带走了。他最近和朋友说他很（42），他很希望爸爸知道他大学毕业了。他的朋友听了以后就上网（43），最后，王明真的找到他的爸爸了。他爸爸说这些年（44），没想到是王明先找到他。他们（45），也很感谢大家的帮忙。"
+      },
+      "passageVi": "",
+      "evidence": {
+        "traditional": "沒想到是王明先找到他",
+        "simplified": "没想到是王明先找到他"
+      },
+      "explanationVi": "“沒想到是王明先找到他” cho thấy trước đó người bố vẫn luôn tìm Vương Minh.",
+      "note": "Bản dịch đầy đủ của đoạn văn được hiển thị ở câu cuối của phần này."
+    },
+    "reading-q45": {
+      "number": 45,
+      "correctAnswer": "D",
+      "questionChinese": {
+        "traditional": "（45）",
+        "simplified": "（45）"
+      },
+      "questionVi": "Điền chỗ trống (45) trong đoạn văn.",
+      "optionChinese": {
+        "traditional": [
+          "想他的爸爸",
+          "請大家幫忙",
+          "不認識的人",
+          "兩人都很高興",
+          "他不想去找王明",
+          "他一直在找王明"
+        ],
+        "simplified": [
+          "想他的爸爸",
+          "请大家帮忙",
+          "不认识的人",
+          "两人都很高兴",
+          "他不想去找王明",
+          "他一直在找王明"
+        ]
+      },
+      "optionTranslations": [
+        "Nhớ bố anh ấy",
+        "làm ơn giúp đỡ",
+        "người chưa biết",
+        "cả hai đều hạnh phúc",
+        "Anh ấy không muốn đến gặp Vương Minh",
+        "Anh ấy đang tìm kiếm Vương Minh"
+      ],
+      "passageChinese": {
+        "traditional": "王明五歲的時候在自己家前面，被（41）帶走了。他最近和朋友說他很（42），他很希望爸爸知道他大學畢業了。他的朋友聽了以後就上網（43），最後，王明真的找到他的爸爸了。他爸爸說這些年（44），沒想到是王明先找到他。他們（45），也很感謝大家的幫忙。",
+        "simplified": "王明五岁的时候在自己家前面，被（41）带走了。他最近和朋友说他很（42），他很希望爸爸知道他大学毕业了。他的朋友听了以后就上网（43），最后，王明真的找到他的爸爸了。他爸爸说这些年（44），没想到是王明先找到他。他们（45），也很感谢大家的帮忙。"
+      },
+      "passageVi": "Khi Vương Minh lên năm tuổi, cậu bị một người lạ đưa đi ngay trước nhà. Gần đây, cậu nói với bạn rằng mình rất nhớ bố và mong bố biết mình đã tốt nghiệp đại học. Bạn bè nghe vậy lên mạng nhờ mọi người giúp đỡ, cuối cùng Vương Minh thật sự tìm được bố. Bố cậu nói những năm qua ông vẫn luôn tìm con, không ngờ chính Vương Minh tìm ra ông trước. Hai bố con đều rất vui và cảm ơn mọi người đã giúp.",
+      "evidence": {
+        "traditional": "也很感謝大家的幫忙",
+        "simplified": "也很感谢大家的帮忙"
+      },
+      "explanationVi": "Tìm lại được nhau và cảm ơn mọi người nên cả hai rất vui; điền “兩人都很高興”."
+    },
+    "reading-q46": {
+      "number": 46,
+      "correctAnswer": "B",
+      "questionChinese": {
+        "traditional": "為什麼小明不去參加舞會？",
+        "simplified": "为什么小明不去参加舞会？"
+      },
+      "questionVi": "Tại sao Tiểu Minh không đi khiêu vũ?",
+      "optionChinese": {
+        "traditional": [
+          "因為他生病了",
+          "因為他想要休息",
+          "因為他得去工作",
+          "因為他喜歡在家看書"
+        ],
+        "simplified": [
+          "因为他生病了",
+          "因为他想要休息",
+          "因为他得去工作",
+          "因为他喜欢在家看书"
+        ]
+      },
+      "optionTranslations": [
+        "bởi vì anh ấy bị bệnh",
+        "Vì anh muốn nghỉ ngơi",
+        "Vì anh ấy phải đi làm",
+        "Vì anh ấy thích đọc sách ở nhà"
+      ],
+      "passageChinese": {
+        "traditional": "小明的好朋友問他晚上要不要一起去參加舞會，小明不想去。因為他的感冒才剛好，又加上快考試了，他得讀很多書，而且每天早上也需要去咖啡廳上班。如果晚上還要跟朋友一起出去玩，那就真的太累了。",
+        "simplified": "小明的好朋友问他晚上要不要一起去参加舞会，小明不想去。因为他的感冒才刚好，又加上快考试了，他得读很多书，而且每天早上也需要去咖啡厅上班。如果晚上还要跟朋友一起出去玩，那就真的太累了。"
+      },
+      "passageVi": "Bạn thân hỏi Tiểu Minh có muốn đi dự vũ hội tối nay không, nhưng cậu không muốn đi. Cậu vừa khỏi cảm, sắp thi nên phải đọc nhiều sách, lại phải làm ở quán cà phê mỗi sáng. Nếu tối còn đi chơi với bạn thì cậu sẽ quá mệt.",
+      "evidence": {
+        "traditional": "那就真的太累了",
+        "simplified": "那就真的太累了"
+      },
+      "explanationVi": "Chi tiết “那就真的太累了” trong nguồn cho biết vì anh muốn nghỉ ngơi; vì vậy chọn B."
+    },
+    "reading-q47": {
+      "number": 47,
+      "correctAnswer": "C",
+      "questionChinese": {
+        "traditional": "為什麼小王覺得考試可能考不好？",
+        "simplified": "为什么小王觉得考试可能考不好？"
+      },
+      "questionVi": "Tại sao Tiểu Vương lại nghĩ mình có thể làm bài thi không tốt?",
+      "optionChinese": {
+        "traditional": [
+          "他本來成績就不好",
+          "他的身體還沒恢復",
+          "他準備得還不夠好",
+          "他聽說考試非常難"
+        ],
+        "simplified": [
+          "他本来成绩就不好",
+          "他的身体还没恢复",
+          "他准备得还不够好",
+          "他听说考试非常难"
+        ]
+      },
+      "optionTranslations": [
+        "Vốn dĩ thành tích học của cậu ấy đã kém.",
+        "Sức khỏe cậu ấy chưa hồi phục.",
+        "Cậu ấy chuẩn bị chưa đủ tốt.",
+        "Cậu ấy nghe nói bài thi rất khó."
+      ],
+      "passageChinese": {
+        "traditional": "小王總是非常認真，功課也不錯，但是他因為生病，請了好幾天的假。雖然病一好就馬上讀書，他還是讀不懂中文課本裡的一些句子，而且還有很多語法不了解。明天就要考試了，他非常擔心，現在他也只能希望考試不會太難。",
+        "simplified": "小王总是非常认真，功课也不错，但是他因为生病，请了好几天的假。虽然病一好就马上读书，他还是读不懂中文课本里的一些句子，而且还有很多语法不了解。明天就要考试了，他非常担心，现在他也只能希望考试不会太难。"
+      },
+      "passageVi": "Tiểu Vương luôn học rất chăm, kết quả cũng tốt, nhưng vì bị bệnh nên phải nghỉ học mấy ngày. Vừa khỏi bệnh cậu đã học ngay, song vẫn không hiểu một số câu trong sách tiếng Trung và nhiều điểm ngữ pháp. Ngày mai thi nên cậu rất lo, chỉ mong đề thi không quá khó.",
+      "evidence": {
+        "traditional": "還是讀不懂中文課本裡的一些句子",
+        "simplified": "还是读不懂中文课本里的一些句子"
+      },
+      "explanationVi": "Chi tiết “還是讀不懂中文課本裡的一些句子” trong nguồn cho biết cậu ấy chuẩn bị chưa đủ tốt; vì vậy chọn C."
+    },
+    "reading-q48": {
+      "number": 48,
+      "correctAnswer": "D",
+      "questionChinese": {
+        "traditional": "這篇文章告訴我們什麼事？",
+        "simplified": "这篇文章告诉我们什么事？"
+      },
+      "questionVi": "Bài viết này cho chúng ta biết điều gì?",
+      "optionChinese": {
+        "traditional": [
+          "小美現在在臺灣",
+          "小華三月要去日本",
+          "小美很想吃好吃的點心",
+          "小華暑假的時候要去找小美"
+        ],
+        "simplified": [
+          "小美现在在台湾",
+          "小华三月要去日本",
+          "小美很想吃好吃的点心",
+          "小华暑假的时候要去找小美"
+        ]
+      },
+      "optionTranslations": [
+        "Tiểu Mỹ hiện đang ở Đài Loan",
+        "Tiểu Hoa sẽ đến Nhật Bản vào tháng 3",
+        "Tiểu Mỹ thực sự muốn ăn đồ ăn nhẹ ngon",
+        "Tiểu Hoa sẽ đi tìm Tiểu Mỹ trong kỳ nghỉ hè"
+      ],
+      "passageChinese": {
+        "traditional": "今天小華收到了小美的明信片，明信片裡介紹了日本的食物、天氣和她的學校生活，小美還邀請小華到她家玩、認識她在日本的朋友。小華想了想，雖然她很想去，但是三月臺灣的學校已經開學了，於是她寫了明信片給小美，告訴她雖然那個時間不能去，但是暑假的時候可以去參觀她的學校，到時候再買好吃點心過去。",
+        "simplified": "今天小华收到了小美的明信片，明信片里介绍了日本的食物、天气和她的学校生活，小美还邀请小华到她家玩、认识她在日本的朋友。小华想了想，虽然她很想去，但是三月台湾的学校已经开学了，于是她写了明信片给小美，告诉她虽然那个时间不能去，但是暑假的时候可以去参观她的学校，到时候再买好吃点心过去。"
+      },
+      "passageVi": "Hôm nay Tiểu Hoa nhận bưu thiếp của Tiểu Mỹ, trong đó kể về món ăn, thời tiết và việc học ở Nhật Bản. Tiểu Mỹ còn mời Tiểu Hoa tới nhà chơi, gặp bạn bè của cô ở Nhật. Tiểu Hoa rất muốn đi nhưng tháng Ba trường ở Đài Loan đã khai giảng. Cô viết bưu thiếp nói lúc ấy không đi được, nhưng kỳ nghỉ hè sẽ tới thăm trường của Tiểu Mỹ và mang theo bánh ngon.",
+      "evidence": {
+        "traditional": "暑假的時候可以去參觀她的學校",
+        "simplified": "暑假的时候可以去参观她的学校"
+      },
+      "explanationVi": "Chi tiết “暑假的時候可以去參觀她的學校” trong nguồn cho biết tiểu hoa sẽ đi tìm tiểu mỹ trong kỳ nghỉ hè; vì vậy chọn D."
+    },
+    "reading-q49": {
+      "number": 49,
+      "correctAnswer": "C",
+      "questionChinese": {
+        "traditional": "為什麼小月決定買那條白色的裙子？",
+        "simplified": "为什么小月决定买那条白色的裙子？"
+      },
+      "questionVi": "Tại sao Tiểu Nguyệt quyết định mua chiếc váy trắng đó?",
+      "optionChinese": {
+        "traditional": [
+          "因為小月只喜歡白色的裙子",
+          "因為那條裙子的價格太便宜了",
+          "因為以後就買不到那條裙子了",
+          "因為小月的媽媽要她買那條裙子"
+        ],
+        "simplified": [
+          "因为小月只喜欢白色的裙子",
+          "因为那条裙子的价格太便宜了",
+          "因为以后就买不到那条裙子了",
+          "因为小月的妈妈要她买那条裙子"
+        ]
+      },
+      "optionTranslations": [
+        "Bởi vì Tiểu Nguyệt chỉ thích váy trắng",
+        "Vì giá chiếc váy đó quá rẻ",
+        "Bởi vì tôi sẽ không thể mua được chiếc váy đó nữa",
+        "Bởi vì mẹ Tiểu Nguyệt bảo cô mua chiếc váy đó"
+      ],
+      "passageChinese": {
+        "traditional": "小月和媽媽去買衣服的時候，看到了一條漂亮的裙子，小月很喜歡那條裙子的樣子，但是太貴了，所以小月想跟媽媽討論以後再決定要不要買。當他們在討論的時候，一位客人看到了小月手上的裙子，就問老闆裙子多少錢，老闆回答了，還說裙子只剩最後這條白色的了，以後也不會再有了。小月聽到老闆說的話以後，馬上買了那條裙子。",
+        "simplified": "小月和妈妈去买衣服的时候，看到了一条漂亮的裙子，小月很喜欢那条裙子的样子，但是太贵了，所以小月想跟妈妈讨论以后再决定要不要买。当他们在讨论的时候，一位客人看到了小月手上的裙子，就问老板裙子多少钱，老板回答了，还说裙子只剩最后这条白色的了，以后也不会再有了。小月听到老板说的话以后，马上买了那条裙子。"
+      },
+      "passageVi": "Khi đi mua quần áo với mẹ, Tiểu Nguyệt thấy một chiếc váy đẹp và rất thích kiểu dáng, nhưng giá quá cao nên muốn bàn với mẹ rồi mới quyết định. Trong lúc đó, một khách khác hỏi chủ tiệm giá chiếc váy Tiểu Nguyệt đang cầm. Chủ tiệm nói đây là chiếc váy trắng cuối cùng và sau này sẽ không còn bán nữa. Nghe vậy, Tiểu Nguyệt mua ngay chiếc váy.",
+      "evidence": {
+        "traditional": "以後也不會再有了",
+        "simplified": "以后也不会再有了"
+      },
+      "explanationVi": "Chi tiết “以後也不會再有了” trong nguồn cho biết bởi vì tôi sẽ không thể mua được chiếc váy đó nữa; vì vậy chọn C."
+    },
+    "reading-q50": {
+      "number": 50,
+      "correctAnswer": "A",
+      "questionChinese": {
+        "traditional": "大同為什麼不常回家呢？",
+        "simplified": "大同为什么不常回家呢？"
+      },
+      "questionVi": "Tại sao Đại Đồng không về nhà thường xuyên hơn?",
+      "optionChinese": {
+        "traditional": [
+          "他的事情很多",
+          "他沒有錢回家",
+          "他跟家人的關係不好",
+          "他覺得南部東西很貴"
+        ],
+        "simplified": [
+          "他的事情很多",
+          "他没有钱回家",
+          "他跟家人的关系不好",
+          "他觉得南部东西很贵"
+        ]
+      },
+      "optionTranslations": [
+        "Cậu ấy có nhiều việc phải làm.",
+        "Anh ấy không có tiền để về nhà",
+        "Anh ấy có mối quan hệ không tốt với gia đình",
+        "Anh ấy nghĩ đồ đạc ở miền Nam đắt đỏ"
+      ],
+      "passageChinese": {
+        "traditional": "大同想要給家裡更好的生活，所以從南部北上工作，但是北部的東西太貴了，他週末的時候得在公司加班才能賺更多的錢。雖然賺了很多錢，可是一年才能回家一次，這讓跟家人感情很好的他覺得很傷心。",
+        "simplified": "大同想要给家里更好的生活，所以从南部北上工作，但是北部的东西太贵了，他周末的时候得在公司加班才能赚更多的钱。虽然赚了很多钱，可是一年才能回家一次，这让跟家人感情很好的他觉得很伤心。"
+      },
+      "passageVi": "Đại Đồng muốn gia đình có cuộc sống tốt hơn nên từ miền nam lên miền bắc làm việc. Đồ ở miền bắc quá đắt, anh phải tăng ca cuối tuần để kiếm thêm. Dù kiếm được nhiều tiền, mỗi năm anh chỉ về nhà một lần, điều khiến anh rất buồn vì anh rất gắn bó với gia đình.",
+      "evidence": {
+        "traditional": "週末的時候得在公司加班",
+        "simplified": "周末的时候得在公司加班"
+      },
+      "explanationVi": "Chi tiết “週末的時候得在公司加班” trong nguồn cho biết cậu ấy có nhiều việc phải làm; vì vậy chọn A."
+    }
+  }
+}

@@ -7,7 +7,7 @@ const root = process.cwd();
 const read = (path) => JSON.parse(readFileSync(join(root, path), "utf8"));
 const normalized = (value) => (value ?? "").replace(/\s+/g, "");
 
-for (const testNumber of ["01", "02"]) {
+for (const testNumber of ["01", "02", "03", "04", "05"]) {
   test(`Band A ${testNumber}: review data matches every source question and script`, () => {
     const id = `band-a-test-${testNumber}`;
     const exam = read(`data/structured-tests/${id}.json`);
@@ -56,14 +56,29 @@ for (const testNumber of ["01", "02"]) {
             }
           } else {
             const source = entry.passageChinese?.[script] || exam.components.reading.displayContexts?.[question.stimulusGroupId]?.[script] || question.questionText?.[script] || entry.questionChinese?.[script] || "";
-            if (evidence) assert.ok(normalized(source).includes(normalized(evidence)), `${label} ${script} evidence`);
+            if (evidence) {
+              assert.ok(normalized(source).includes(normalized(evidence)), `${label} ${script} evidence`);
+              assert.notEqual(evidence, entry.optionChinese?.[script]?.["ABCDEF".indexOf(entry.correctAnswer)], `${label} ${script} full correct option highlighted`);
+            }
             else assert.ok(entry.sourceLimitation?.trim(), `${label} missing evidence reason`);
             if (entry.questionChinese?.[script]) assert.ok(normalized(source).includes(normalized(entry.questionChinese[script])) || question.number >= 41, `${label} ${script} question`);
             if (question.choiceText?.[script]?.some(Boolean)) {
               assert.equal(entry.optionTranslations.length, question.choiceText[script].length, `${label} ${script} options`);
+              if (script === "traditional" && ["03", "04", "05"].includes(testNumber)) {
+                assert.deepEqual(entry.optionChinese.traditional, question.choiceText.traditional, `${label} source options`);
+              }
             }
           }
         }
+      }
+    }
+    if (["03", "04", "05"].includes(testNumber)) {
+      for (const finalQuestion of testNumber === "05" ? [45] : [40, 45]) {
+        assert.ok(review.reading[`reading-q${finalQuestion}`].passageVi.trim(), `${id} completed Vietnamese passage ${finalQuestion}`);
+      }
+      for (const first of testNumber === "05" ? [41] : [36, 41]) {
+        const evidence = Array.from({ length: 5 }, (_, offset) => review.reading[`reading-q${first + offset}`].evidence.traditional);
+        assert.equal(new Set(evidence).size, 5, `${id} grouped questions use their own evidence`);
       }
     }
   });

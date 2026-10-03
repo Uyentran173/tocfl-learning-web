@@ -62,9 +62,10 @@ type CompleteBandAReviewFile = {
 function completeBandAReadingPassage(test: MockTest, question: MockTest["questions"][number], review: CompleteBandAReviewFile): string | undefined {
   const number = question.number ?? 0;
   const script = test.script === "simplified" ? "simplified" : "traditional";
-  if (number >= 41 && number <= 45 && question.passage) {
+  const first = number <= 40 ? 36 : 41;
+  if (number >= 36 && number <= 45 && question.passage && review.reading[question.id]?.passageChinese?.[script]?.includes(`（${first}）`)) {
     let passage = (review.reading[question.id]?.passageChinese?.[script] || question.passage).replace(/\s+/g, "");
-    for (let blank = 41; blank <= 45; blank++) {
+    for (let blank = first; blank < first + 5; blank++) {
       const item = test.questions.find((candidate) => candidate.section === "reading" && candidate.number === blank);
       const answer = item && (review.reading[item.id]?.optionChinese?.[script]?.[item.correctAnswer] || item.choices[item.correctAnswer]);
       if (!answer) return undefined;
@@ -80,7 +81,14 @@ function completeBandAReadingPassage(test: MockTest, question: MockTest["questio
       const answer = item && (review.reading[item.id]?.optionChinese?.[script]?.[item.correctAnswer] || item.choices[item.correctAnswer]);
       const source = item && (review.reading[item.id]?.questionChinese?.[script] || item.question);
       if (!source || !answer) return undefined;
-      lines.push(source.replace(/\s{2,}/g, answer));
+      const blanks = /_{2,}|\s{2,}|\n/g;
+      const parts = answer.split("…").filter(Boolean);
+      if (parts.length > 1) {
+        let index = 0;
+        lines.push(source.replace(blanks, () => parts[index++] || ""));
+      } else {
+        lines.push(source.replace(blanks, answer));
+      }
     }
     return lines.join("");
   }
@@ -308,7 +316,7 @@ function getBandAReviewContent(test: MockTest): ReviewContent {
 }
 
 export function getReviewContent(test: MockTest) {
-  if (test.id === "band-a-test-02") return getCompleteBandAReviewContent(test);
+  if (["band-a-test-02", "band-a-test-03", "band-a-test-04", "band-a-test-05"].includes(test.id)) return getCompleteBandAReviewContent(test);
   if (test.id === "band-c-test-01") return getBandCReviewContent(test);
   if (test.id === "band-b-test-01") return enrichReadingReview(getBandBReviewContent(test), test);
   if (test.id === "band-a-test-01") {

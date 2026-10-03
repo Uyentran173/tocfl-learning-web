@@ -2,6 +2,8 @@ import sys
 import json
 import tempfile
 import unittest
+import zipfile
+from io import BytesIO
 from pathlib import Path
 from unittest.mock import patch
 
@@ -9,10 +11,11 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
 from tocfl_import.build import audio_plan, ensure_new_source, existing_source_id, matching_legacy_test, next_test_id  # noqa: E402
+from tocfl_import.archive_audio import inspect_audio_archive  # noqa: E402
 from tocfl_import.discovery import ImportErrorWithContext, _classify_links, official_url  # noqa: E402
 from tocfl_import.validate import validate_package  # noqa: E402
 from tocfl_import.visual_pdf import extract_image_paper  # noqa: E402
-from tocfl_import.pdf import normalize_printed_choice_labels  # noqa: E402
+from tocfl_import.pdf import _vector_document_image, extract_answers, normalize_printed_choice_labels  # noqa: E402
 from bs4 import BeautifulSoup  # noqa: E402
 import fitz  # noqa: E402
 
@@ -31,6 +34,17 @@ class DiscoveryTests(unittest.TestCase):
         found = _classify_links(row, "https://tocfl.edu.tw", "reading")
         self.assertEqual(found["traditional_pdf"], "https://tocfl.edu.tw/t.pdf")
         self.assertEqual(len(found), 4)
+
+    def test_answer_link_title_does_not_turn_it_into_traditional_paper(self):
+        row = BeautifulSoup("""<tr>
+          <td><a href='/paper_t.pdf'>正體試題</a></td>
+          <td><a href='/paper_s.pdf'>簡體試題</a></td>
+          <td><a href='/answer_t.pdf' title='正體試題答案'>進階高階級答案</a></td>
+          <td><a href='/score.pdf'>分數對照表</a></td>
+        </tr>""", "html.parser").tr
+        found = _classify_links(row, "https://tocfl.edu.tw", "reading")
+        self.assertEqual(found["answer_pdf"], "https://tocfl.edu.tw/answer_t.pdf")
+        self.assertEqual(found["traditional_pdf"], "https://tocfl.edu.tw/paper_t.pdf")
 
     def test_ambiguous_source_shows_candidate_urls(self):
         row = BeautifulSoup("""<tr><td><a href='/one.pdf'>正體試題</a><a href='/two.pdf'>正體試題</a></td></tr>""", "html.parser").tr
@@ -62,6 +76,44 @@ class DiscoveryTests(unittest.TestCase):
 
 
 class AudioTests(unittest.TestCase):
+    @staticmethod
+    def archive(*names):
+        output = BytesIO()
+        with zipfile.ZipFile(output, "w") as zip_file:
+            for name in names:
+                zip_file.writestr(name, b"ID3" + bytes(200))
+        return output.getvalue()
+
+    def test_legacy_archive_named_rar_maps_explicit_question_tracks(self):
+        data = self.archive("test/0-1.mp3", "test/1-0000intro.mp3", "test/1-01.mp3", "test/1-02.mp3", "test/2-0000end.mp3")
+        inspected = inspect_audio_archive(data, "https://tocfl.edu.tw/legacy.rar", 2)
+        self.assertEqual(inspected.format, "zip")
+        self.assertEqual([track["localName"] for track in inspected.tracks], ["preamble.mp3", "part-1-intro.mp3", "q01.mp3", "q02.mp3", "ending.mp3"])
+        audio, questions, steps, downloads = audio_plan(inspected.tracks, "band-a-test-02")
+        self.assertEqual(len(downloads), 5)
+        self.assertEqual(questions[1]["path"], "/tests/band-a-test-02/listening/audio/q01.mp3")
+        self.assertEqual(steps[-1]["role"], "ending")
+        self.assertEqual(audio["part1Intro"], "/tests/band-a-test-02/listening/audio/part-1-intro.mp3")
+
+    def test_legacy_group_file_plays_once_before_its_questions(self):
+        data = self.archive("1-00000.mp3", "1-01-0.mp3", "1-01-1.mp3", "1-02.mp3", "2-00000.mp3")
+        inspected = inspect_audio_archive(data, "https://tocfl.edu.tw/legacy.zip", 2)
+        audio, questions, steps, _ = audio_plan(inspected.tracks, "band-b-test-02")
+        self.assertEqual(len(audio["groups"]), 1)
+        self.assertEqual(steps[1]["type"], "question_group")
+        self.assertEqual([track["questionId"] for track in steps[1]["questionTracks"]], ["listening-q01", "listening-q02"])
+        self.assertEqual(questions[2]["reviewSequence"][0], steps[1]["sharedAudio"])
+
+    def test_legacy_archive_rejects_unmapped_long_audio_and_missing_tracks(self):
+        with self.assertRaisesRegex(ImportErrorWithContext, "Cannot map archive MP3"):
+            inspect_audio_archive(self.archive("whole-test.mp3"), "https://tocfl.edu.tw/legacy.rar", 2)
+        with self.assertRaisesRegex(ImportErrorWithContext, "1/2 mapped question tracks"):
+            inspect_audio_archive(self.archive("1-0000.mp3", "1-01.mp3"), "https://tocfl.edu.tw/legacy.rar", 2)
+
+    def test_legacy_archive_rejects_path_traversal(self):
+        with self.assertRaisesRegex(ImportErrorWithContext, "Unsafe archive member"):
+            inspect_audio_archive(self.archive("../1-01.mp3"), "https://tocfl.edu.tw/legacy.zip", 1)
+
     def test_shared_audio_only_once(self):
         def track(label, number):
             return {"label": label, "url": f"https://eapi.sc-top.org.tw/video/B5/{number:03d}.mp3"}
@@ -75,6 +127,25 @@ class AudioTests(unittest.TestCase):
         self.assertEqual(questions[2]["reviewSequence"], [audio["groups"][0]["sharedAudio"], questions[2]["questionTrack"]])
         self.assertEqual(questions[3]["reviewSequence"][0], audio["groups"][0]["sharedAudio"])
         self.assertEqual(len(downloads), 8)
+
+
+class OfficialAnswerKeyTests(unittest.TestCase):
+    def test_band_a_series_2_exact_printed_q34_typo_is_recorded(self):
+        document = fitz.open()
+        page = document.new_page(width=300, height=3000)
+        for number in range(1, 51):
+            printed = 44 if number == 34 else number
+            page.insert_text((50, number * 50), str(printed))
+            page.insert_text((50, number * 50 + 15), "A")
+        source = document.tobytes()
+        warnings = []
+        answers = extract_answers(source, "listening", band="A", series=2, warnings=warnings)
+        self.assertEqual(list(answers), list(range(1, 51)))
+        self.assertEqual(answers[34], "A")
+        self.assertEqual(len(warnings), 1)
+        self.assertEqual(extract_answers(source, "listening", band="A", series=1)[34], "A")
+        with self.assertRaisesRegex(ImportErrorWithContext, "missing or duplicate"):
+            extract_answers(source, "listening", band="A", series=3)
 
 
 class SafetyTests(unittest.TestCase):
@@ -128,6 +199,30 @@ class SafetyTests(unittest.TestCase):
 
 
 class ImagePaperTests(unittest.TestCase):
+    def test_boxed_document_before_printed_question_is_preserved_without_question_crop(self):
+        document = fitz.open()
+        page = document.new_page(width=600, height=800)
+        page.draw_rect(fitz.Rect(50, 70, 550, 330))
+        page.insert_text((90, 140), "Original notice text")
+        page.insert_text((90, 370), "1. Printed question")
+        self.assertIsNotNone(_vector_document_image(page, before_y=360))
+        self.assertIsNone(_vector_document_image(page, before_y=200))
+
+    def test_older_band_a_listening_keeps_picture_questions_after_q10(self):
+        document = fitz.open()
+        page = document.new_page(width=400, height=1700)
+        pixel = fitz.Pixmap(fitz.csRGB, fitz.IRect(0, 0, 50, 50), False)
+        pixel.clear_with(150)
+        picture = pixel.tobytes("png")
+        for number in range(1, 12):
+            y = number * 140
+            page.insert_text((50, y), f"{number}.")
+            page.insert_image(fitz.Rect(80, y + 10, 130, y + 60), stream=picture)
+        extracted = extract_image_paper(document.tobytes(), "listening", "A", 11)
+        self.assertEqual(len(extracted.questions), 11)
+        self.assertEqual(extracted.questions[11]["choiceText"], ["", "", ""])
+        self.assertIn(extracted.questions[11]["imageKey"], extracted.images)
+
     def test_question_image_choices_are_mapped_by_position(self):
         document = fitz.open()
         page = document.new_page(width=600, height=500)

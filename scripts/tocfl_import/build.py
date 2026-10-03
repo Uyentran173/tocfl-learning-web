@@ -9,9 +9,9 @@ from .pdf import extract_answers, extract_listening_choices, extract_reading, ex
 from .visual_pdf import extract_image_paper
 
 
-def matching_legacy_test(data_dir: Path, band: str, source_files: dict) -> str | None:
+def matching_legacy_test(data_dir: Path, band: str, source_files: dict, series: int | None = None) -> str | None:
     """Detect an earlier manually imported copy using both full keys and score tables."""
-    answers = {skill: extract_answers(source_files[skill]["answer_pdf"], skill) for skill in ("listening", "reading")}
+    answers = {skill: extract_answers(source_files[skill]["answer_pdf"], skill, band=band, series=series) for skill in ("listening", "reading")}
     scores = {skill: extract_scores(source_files[skill]["score_pdf"], len(answers[skill]), skill) for skill in ("listening", "reading")}
     matches = []
     for file in data_dir.glob("*.json"):
@@ -82,7 +82,7 @@ def ensure_new_source(data_dir: Path, band: str, series: int) -> None:
 def audio_plan(tracks: list[dict[str, str]], test_id: str) -> tuple[dict, dict[int, dict], list[dict], dict[str, str]]:
     """Map official labeled tracks to existing track/question/question_group steps."""
     def path(track: dict) -> str:
-        return f"/tests/{test_id}/listening/audio/{track['url'].rsplit('/', 1)[-1]}"
+        return f"/tests/{test_id}/listening/audio/{track.get('localName') or track['url'].rsplit('/', 1)[-1]}"
 
     audio = {"provided": True, "groups": []}
     question_audio: dict[int, dict] = {}
@@ -239,8 +239,9 @@ def build_package(source_files: dict[str, dict[str, bytes]], tracks: list[dict[s
         raise ImportErrorWithContext("Publication requires both Listening and Reading; use --type all")
     listening = source_files["listening"]
     reading = source_files["reading"]
-    l_answers = extract_answers(listening["answer_pdf"], "listening")
-    r_answers = extract_answers(reading["answer_pdf"], "reading")
+    answer_warnings: list[str] = []
+    l_answers = extract_answers(listening["answer_pdf"], "listening", band=band, series=series, warnings=answer_warnings)
+    r_answers = extract_answers(reading["answer_pdf"], "reading", band=band, series=series, warnings=answer_warnings)
     image_paper = band in {"Novice", "A"}
     l_visual = {script: extract_image_paper(listening[f"{script}_pdf"], "listening", band, len(l_answers)) for script in ("traditional", "simplified")} if image_paper else None
     l_choice = {script: {n: q["choiceText"] for n, q in l_visual[script].questions.items()} for script in l_visual} if l_visual else {script: extract_listening_choices(listening[f"{script}_pdf"]) for script in ("traditional", "simplified")}
@@ -314,4 +315,5 @@ def build_package(source_files: dict[str, dict[str, bytes]], tracks: list[dict[s
     supplement = {"schemaVersion": "1.0", "examId": test_id, "componentId": "listening", "source": source_urls["listening"]["transcript_pdf"], "display": {"defaultHidden": True, "recommendedUse": "review_or_explanation", "variantAware": True}, "questions": _transcript_entries(transcript, audio["groups"])}
     score_l, score_r = extract_scores(listening["score_pdf"], l_count, "listening"), extract_scores(reading["score_pdf"], r_count, "reading")
     package = {"schemaVersion": "1.0", "exam": {"id": test_id, "title": title or f"TOCFL Band {band} — Đề {test_id.rsplit('-', 1)[-1]}", "level": f"Band {band}", "variants": ["traditional", "simplified"], "defaultVariant": "traditional", "componentOrder": ["listening", "reading"], "questionNumbering": "restart_per_component", "totalQuestions": l_count + r_count, "componentScoresSeparate": True, "publishReady": True, "source": {"officialUrl": source_urls["page_url"], "series": series, "files": source_urls}, "sourceWarnings": [{"script": script, "message": warning} for script in r_data for warning in getattr(r_data[script], "warnings", [])]}, "flow": {"order": ["listening", "reading"], "mustCompleteInOrder": True, "preserveSelectedVariantBetweenComponents": True}, "components": {"listening": {"id": "listening", "title": "Nghe", "order": 1, "durationSeconds": 3600, "totalQuestions": l_count, "choiceLabels": list("ABCD"), "sections": sections_l, "audio": audio, "transcriptDataPath": transcript_path.as_posix(), "scoring": {"type": "lookup_table", "maxScore": max(score_l.values()), "scoreByCorrectCount": score_l}, "questions": l_questions}, "reading": {"id": "reading", "title": "Đọc", "order": 2, "durationSeconds": 3600, "totalQuestions": r_count, "choiceLabels": list("ABCD"), "sections": sections_r, "scoring": {"type": "lookup_table", "maxScore": max(score_r.values()), "scoreByCorrectCount": score_r}, "questions": r_questions, "displayContexts": display_contexts}}}
+    package["exam"]["sourceWarnings"].extend({"skill": "listening", "message": warning} for warning in answer_warnings)
     return package, supplement, downloads

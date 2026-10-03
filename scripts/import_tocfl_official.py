@@ -18,13 +18,14 @@ import requests
 sys.dont_write_bytecode = True
 
 from tocfl_import.build import build_package, existing_source_id, matching_legacy_test, next_test_id
+from tocfl_import.archive_audio import download_audio_archive, inspect_audio_archive
 from tocfl_import.discovery import ImportErrorWithContext, discover, discover_audio_tracks, fetch
 from tocfl_import.validate import validate_package
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def _report(args, package: dict, downloads: dict, assets: Path, build: str) -> None:
+def _report(args, package: dict, downloads: dict, assets: Path, build: str, archive_verified: bool = False) -> None:
     components = package["components"]
     audio = components["listening"]["audio"]
     print(f"\nTOCFL Series {args.series} Band {args.band} — {package['exam']['id']}")
@@ -36,11 +37,16 @@ def _report(args, package: dict, downloads: dict, assets: Path, build: str) -> N
     print(f"Answers: {answered}/{package['exam']['totalQuestions']}")
     print(f"Audio tracks: {len(downloads)} | Audio groups: {len(audio['groups'])}")
     print(f"Images: {len(list(assets.rglob('*.png')))}")
-    print("Missing assets: 0 | Unresolved mappings: 0" if build == "PASS" else "Missing image assets: 0 | Unresolved mappings: 0 | Audio files: not downloaded in dry run")
+    if build == "PASS":
+        print("Missing assets: 0 | Unresolved mappings: 0")
+    elif archive_verified:
+        print("Missing image assets: 0 | Unresolved mappings: 0 | Archive MP3s: verified in dry run")
+    else:
+        print("Missing image assets: 0 | Unresolved mappings: 0 | Online MP3 bytes: not downloaded in dry run")
     for warning in audio.get("sourceLabelWarnings", []):
         print(f"Official audio label warning: {warning}")
     for warning in package["exam"].get("sourceWarnings", []):
-        print(f"Official PDF warning ({warning['script']}): {warning['message']}")
+        print(f"Official PDF warning ({warning.get('script', warning.get('skill', 'source'))}): {warning['message']}")
     print(f"Build: {build}")
 
 
@@ -71,11 +77,24 @@ def main() -> int:
             print(f"{skill}:")
             for key, url in links.items():
                 print(f"  {key}: {url}")
-        tracks = discover_audio_tracks(session, sources.components["listening"]["online_audio"]) if "listening" in sources.components else []
+        archive = None
+        archive_url = sources.components.get("listening", {}).get("audio_archive")
+        if "listening" not in sources.components:
+            tracks = []
+        elif sources.components["listening"].get("online_audio"):
+            tracks = discover_audio_tracks(session, sources.components["listening"]["online_audio"])
+        elif archive_url:
+            archive_body = download_audio_archive(session, archive_url)
+            archive_hash = hashlib.sha256(archive_body).hexdigest()
+            archive = inspect_audio_archive(archive_body, archive_url, 25 if args.band == "Novice" else 50)
+            tracks = archive.tracks
+            print(f"Official audio archive: {archive.format.upper()} content, {len(tracks)} verified MP3 tracks")
+        else:
+            raise ImportErrorWithContext("Listening has no usable official audio source")
         if tracks:
             print(f"Official individual audio tracks ({len(tracks)}):")
             for track in tracks:
-                print(f"  {track['label'] or '(unlabeled)'}: {track['url']}")
+                print(f"  {track['label'] or '(unlabeled)'}: {track.get('localName') or track['url']}")
         if args.type != "all" and args.dry_run:
             print("Source discovery complete; repository unchanged. Full validation requires --type all.")
             return 0
@@ -87,6 +106,8 @@ def main() -> int:
             assets.mkdir()
             files = {}
             hashes = {}
+            if archive:
+                hashes[archive_url] = archive_hash
             for skill, links in sources.components.items():
                 files[skill] = {}
                 for key, url in links.items():
@@ -97,7 +118,7 @@ def main() -> int:
                         files[skill][key] = body
                         hashes[url] = hashlib.sha256(body).hexdigest()
             if not previous_id:
-                legacy_id = matching_legacy_test(data_dir, args.band, files)
+                legacy_id = matching_legacy_test(data_dir, args.band, files, args.series)
                 if legacy_id:
                     print(f"Official paper matches all answers and score entries of legacy test {legacy_id}.")
                     if not args.update and not args.dry_run:
@@ -115,8 +136,8 @@ def main() -> int:
             package, supplement, downloads = build_package(files, tracks, test_id, args.band, args.series, {**sources.components, "page_url": sources.page_url}, assets, title=existing_title)
             if args.dry_run:
                 validate_package(package, supplement, assets, check_audio_files=False)
-                _report(args, package, downloads, assets, build="NOT RUN (dry run)")
-                print("Dry run complete; repository unchanged. MP3 files were discovered but not downloaded.")
+                _report(args, package, downloads, assets, build="NOT RUN (dry run)", archive_verified=bool(archive))
+                print("Dry run complete; repository unchanged. Archive MP3s were inspected." if archive else "Dry run complete; repository unchanged. Online MP3 files were discovered but not downloaded.")
                 return 0
             def download_track(item: tuple[str, str]) -> str:
                 url, remote = item
@@ -130,12 +151,22 @@ def main() -> int:
                 target.write_bytes(body)
                 hashes[remote] = hashlib.sha256(body).hexdigest()
                 return url
-            with ThreadPoolExecutor(max_workers=6) as pool:
-                futures = [pool.submit(download_track, item) for item in downloads.items()]
-                for future in as_completed(futures):
-                    future.result()
+            if archive:
+                if set(downloads.values()) != {archive_url} or {url.rsplit("/", 1)[-1] for url in downloads} != set(archive.files):
+                    raise ImportErrorWithContext("Archive audio tracks do not match the generated playback plan")
+                for url in downloads:
+                    target = assets / url.split(f"/tests/{test_id}/", 1)[1]
+                    target.parent.mkdir(parents=True, exist_ok=True)
+                    target.write_bytes(archive.files[url.rsplit("/", 1)[-1]])
+            else:
+                with ThreadPoolExecutor(max_workers=6) as pool:
+                    futures = [pool.submit(download_track, item) for item in downloads.items()]
+                    for future in as_completed(futures):
+                        future.result()
             validate_package(package, supplement, assets)
-            manifest = {"schemaVersion": "1.0", "testId": test_id, "sourceIdentity": f"official-tocfl:{args.band.lower()}:{args.series}", "sourcePage": sources.page_url, "series": args.series, "band": args.band, "importedAt": datetime.now(timezone.utc).isoformat(), "components": sources.components, "traditionalPdfUrls": {skill: item["traditional_pdf"] for skill, item in sources.components.items()}, "simplifiedPdfUrls": {skill: item["simplified_pdf"] for skill, item in sources.components.items()}, "answerKeyUrls": {skill: item["answer_pdf"] for skill, item in sources.components.items()}, "transcriptUrl": sources.components["listening"]["transcript_pdf"], "scoreTableUrls": {skill: item["score_pdf"] for skill, item in sources.components.items()}, "onlineAudioPage": sources.components["listening"]["online_audio"], "audioSourceUrls": list(downloads.values()), "sha256ByUrl": hashes, "sourceWarnings": package["exam"].get("sourceWarnings", [])}
+            manifest = {"schemaVersion": "1.0", "testId": test_id, "sourceIdentity": f"official-tocfl:{args.band.lower()}:{args.series}", "sourcePage": sources.page_url, "series": args.series, "band": args.band, "importedAt": datetime.now(timezone.utc).isoformat(), "components": sources.components, "traditionalPdfUrls": {skill: item["traditional_pdf"] for skill, item in sources.components.items()}, "simplifiedPdfUrls": {skill: item["simplified_pdf"] for skill, item in sources.components.items()}, "answerKeyUrls": {skill: item["answer_pdf"] for skill, item in sources.components.items()}, "transcriptUrl": sources.components["listening"]["transcript_pdf"], "scoreTableUrls": {skill: item["score_pdf"] for skill, item in sources.components.items()}, "onlineAudioPage": sources.components["listening"].get("online_audio"), "audioSourceUrls": [archive_url] if archive else list(downloads.values()), "sha256ByUrl": hashes, "sourceWarnings": package["exam"].get("sourceWarnings", [])}
+            if archive:
+                manifest["audioArchive"] = {"url": archive_url, "format": archive.format, "sha256": archive_hash, "members": archive.members}
             (stage / "test.json").write_text(json.dumps(package, ensure_ascii=False, indent=2) + "\n")
             (stage / "transcripts.json").write_text(json.dumps(supplement, ensure_ascii=False, indent=2) + "\n")
             (stage / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")

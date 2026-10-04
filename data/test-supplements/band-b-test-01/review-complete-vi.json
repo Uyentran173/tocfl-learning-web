@@ -1,0 +1,1956 @@
+{
+  "testId": "band-b-test-01",
+  "listening": {
+    "listening-q01": {
+      "number": 1,
+      "correctAnswer": "C",
+      "transcriptChinese": {
+        "traditional": "男：我想坐早上九點的火車到高雄去，中午到得了嗎？\n女：應該是到不了，到高雄大概要五個小時。",
+        "simplified": "男：我想坐早上九点的火车到高雄去，中午到得了吗？\n女：应该是到不了，到高雄大概要五个小时。"
+      },
+      "transcriptVi": "Người đàn ông: Tôi muốn bắt chuyến tàu lúc chín giờ tới Cao Hùng. Tôi có thể đến đó vào buổi trưa được không?\nNữ: Điều đó là không thể được. Phải mất khoảng năm giờ để đến Cao Hùng.",
+      "questionChinese": {
+        "traditional": "早上九點的火車什麼時候到高雄？",
+        "simplified": "早上九点的火车什么时候到高雄？"
+      },
+      "questionVi": "Khi nào chuyến tàu chín giờ đến Cao Hùng?",
+      "optionChinese": {
+        "traditional": [
+          "上午",
+          "中午",
+          "下午",
+          "晚上"
+        ],
+        "simplified": [
+          "上午",
+          "中午",
+          "下午",
+          "晚上"
+        ]
+      },
+      "optionTranslations": [
+        "Buổi sáng",
+        "Buổi trưa",
+        "Buổi chiều",
+        "buổi tối"
+      ],
+      "evidence": {
+        "traditional": "到高雄大概要五個小時",
+        "simplified": "到高雄大概要五个小时"
+      },
+      "explanationVi": "Chi tiết “到高雄大概要五個小時” trong bài nghe cho thấy Buổi chiều; đây là ý của đáp án C."
+    },
+    "listening-q02": {
+      "number": 2,
+      "correctAnswer": "D",
+      "transcriptChinese": {
+        "traditional": "男：小李最近好像在找房子，怎麼了？他不住了嗎？\n女：嗯，小李的房東要把房子賣了，他下個月就得搬家。",
+        "simplified": "男：小李最近好像在找房子，怎么了？他不住了吗？\n女：嗯，小李的房东要把房子卖了，他下个月就得搬家。"
+      },
+      "transcriptVi": "Người đàn ông: Gần đây Xiao Li có vẻ đang tìm nhà. Có chuyện gì thế? Anh ấy không còn ở đó nữa à?\nNgười phụ nữ: À, chủ nhà của Xiao Li đang bán nhà và anh ấy phải chuyển đi vào tháng tới.",
+      "questionChinese": {
+        "traditional": "為什麼小李要搬家？",
+        "simplified": "为什么小李要搬家？"
+      },
+      "questionVi": "Tại sao Tiểu Lý lại muốn chuyển đi?",
+      "optionChinese": {
+        "traditional": [
+          "他買了新房子",
+          "他把房子賣了",
+          "他找到更好的房子",
+          "他的房東要賣房子"
+        ],
+        "simplified": [
+          "他买了新房子",
+          "他把房子卖了",
+          "他找到更好的房子",
+          "他的房东要卖房子"
+        ]
+      },
+      "optionTranslations": [
+        "Anh ấy đã mua một căn nhà mới",
+        "Anh đã bán nhà",
+        "Anh đã tìm được một ngôi nhà tốt hơn",
+        "Chủ nhà của anh muốn bán căn nhà"
+      ],
+      "evidence": {
+        "traditional": "房東要把房子賣了",
+        "simplified": "房东要把房子卖了"
+      },
+      "explanationVi": "Chi tiết “房東要把房子賣了” trong bài nghe cho thấy Chủ nhà của anh muốn bán căn nhà; đây là ý của đáp án D."
+    },
+    "listening-q03": {
+      "number": 3,
+      "correctAnswer": "B",
+      "transcriptChinese": {
+        "traditional": "男：妳去停車，為什麼去了這麼久？\n女：這附近都找不到能停車的地方，所以我找了比較遠的地方停車。",
+        "simplified": "男：妳去停车，为什么去了这么久？\n女：这附近都找不到能停车的地方，所以我找了比较远的地方停车。"
+      },
+      "transcriptVi": "Người đàn ông: Sao em đậu xe lâu thế?\nNgười phụ nữ: Gần đây không có chỗ đậu xe nên tôi tìm chỗ đậu xe ở xa hơn.",
+      "questionChinese": {
+        "traditional": "這位小姐的意思是什麼？",
+        "simplified": "这位小姐的意思是什么？"
+      },
+      "questionVi": "Cô này có ý gì?",
+      "optionChinese": {
+        "traditional": [
+          "她很快就找到停車的位子",
+          "她花了不少時間找地方停車",
+          "她把車子停在比較近的地方",
+          "她停車以後，找不到那位先生"
+        ],
+        "simplified": [
+          "她很快就找到停车的位子",
+          "她花了不少时间找地方停车",
+          "她把车子停在比较近的地方",
+          "她停车以后，找不到那位先生"
+        ]
+      },
+      "optionTranslations": [
+        "Cô nhanh chóng tìm được chỗ đậu xe",
+        "Cô ấy đã mất rất nhiều thời gian để tìm chỗ đậu xe",
+        "Cô đỗ xe tương đối gần",
+        "Sau khi đỗ xe, cô không tìm thấy quý ông"
+      ],
+      "evidence": {
+        "traditional": "找了比較遠的地方停車",
+        "simplified": "找了比较远的地方停车"
+      },
+      "explanationVi": "Chi tiết “找了比較遠的地方停車” trong bài nghe cho thấy Cô ấy đã mất rất nhiều thời gian để tìm chỗ đậu xe; đây là ý của đáp án B."
+    },
+    "listening-q04": {
+      "number": 4,
+      "correctAnswer": "A",
+      "transcriptChinese": {
+        "traditional": "男：妳怎麼在家？不和朋友到外面走走嗎？\n女：昨天玩得太累了，今天又是寒假的最後一天，當然要好好地在家休息啊！",
+        "simplified": "男：妳怎么在家？不和朋友到外面走走吗？\n女：昨天玩得太累了，今天又是寒假的最后一天，当然要好好地在家休息啊！"
+      },
+      "transcriptVi": "Người đàn ông: Sao cậu lại ở nhà? Tại sao bạn không đi dạo bên ngoài với bạn bè?\nNgười phụ nữ: Hôm qua tôi chơi mệt quá, hôm nay là ngày cuối cùng của kỳ nghỉ đông. Tất nhiên là tôi phải nghỉ ngơi thật tốt ở nhà!",
+      "questionChinese": {
+        "traditional": "這位小姐為什麼在家？",
+        "simplified": "这位小姐为什么在家？"
+      },
+      "questionVi": "Tại sao cô này lại ở nhà?",
+      "optionChinese": {
+        "traditional": [
+          "她覺得有點累",
+          "她身體不舒服",
+          "她剛剛才從外面回來",
+          "她還沒想好去哪兒玩"
+        ],
+        "simplified": [
+          "她觉得有点累",
+          "她身体不舒服",
+          "她刚刚才从外面回来",
+          "她还没想好去哪儿玩"
+        ]
+      },
+      "optionTranslations": [
+        "Cô ấy cảm thấy hơi mệt",
+        "Cô ấy cảm thấy không khỏe",
+        "Cô ấy vừa từ bên ngoài về",
+        "Cô ấy vẫn chưa quyết định đi chơi ở đâu"
+      ],
+      "evidence": {
+        "traditional": "昨天玩得太累了",
+        "simplified": "昨天玩得太累了"
+      },
+      "explanationVi": "Chi tiết “昨天玩得太累了” trong bài nghe cho thấy Cô ấy cảm thấy hơi mệt; đây là ý của đáp án A."
+    },
+    "listening-q05": {
+      "number": 5,
+      "correctAnswer": "C",
+      "transcriptChinese": {
+        "traditional": "男：妳這麼喜歡出國旅遊，那妳多久旅遊一次？\n女：差不多一年一次，每次去不同國家玩，去年去了韓國，今年打算去日本。",
+        "simplified": "男：妳这么喜欢出国旅游，那妳多久旅游一次？\n女：差不多一年一次，每次去不同国家玩，去年去了韩国，今年打算去日本。"
+      },
+      "transcriptVi": "Người đàn ông: Bạn thích đi du lịch nước ngoài lắm, bạn có thường xuyên đi du lịch không?\nNữ: Gần như mỗi năm một lần, lần nào tôi cũng đi đến một đất nước khác nhau. Năm ngoái tôi đã đến Hàn Quốc và dự định năm nay sẽ đến Nhật Bản.",
+      "questionChinese": {
+        "traditional": "這位小姐說了什麼？",
+        "simplified": "这位小姐说了什么？"
+      },
+      "questionVi": "Cô này đã nói gì thế?",
+      "optionChinese": {
+        "traditional": [
+          "她一年出國旅遊兩次",
+          "她今年不打算出國玩",
+          "她每次去不一樣的國家玩",
+          "她今年去韓國，明年想去日本"
+        ],
+        "simplified": [
+          "她一年出国旅游两次",
+          "她今年不打算出国玩",
+          "她每次去不一样的国家玩",
+          "她今年去韩国，明年想去日本"
+        ]
+      },
+      "optionTranslations": [
+        "Cô ấy đi du lịch nước ngoài hai lần một năm",
+        "Cô ấy không có ý định ra nước ngoài trong năm nay",
+        "Lần nào cô ấy cũng đến một đất nước khác",
+        "Năm nay cô ấy đi Hàn Quốc và năm sau muốn đi Nhật Bản"
+      ],
+      "evidence": {
+        "traditional": "每次去不同國家玩",
+        "simplified": "每次去不同国家玩"
+      },
+      "explanationVi": "Chi tiết “每次去不同國家玩” trong bài nghe cho thấy Lần nào cô ấy cũng đến một đất nước khác; đây là ý của đáp án C."
+    },
+    "listening-q06": {
+      "number": 6,
+      "correctAnswer": "B",
+      "transcriptChinese": {
+        "traditional": "男：老師要我們寫的作業，妳寫得怎麼樣？\n女：我想了好幾天，還是寫不出來。",
+        "simplified": "男：老师要我们写的作业，妳写得怎么样？\n女：我想了好几天，还是写不出来。"
+      },
+      "transcriptVi": "Nam: Bạn làm bài tập mà giáo viên yêu cầu chúng ta viết như thế nào?\nNgười phụ nữ: Tôi đã suy nghĩ mấy ngày rồi nhưng vẫn chưa viết được.",
+      "questionChinese": {
+        "traditional": "這位小姐的意思是什麼？",
+        "simplified": "这位小姐的意思是什么？"
+      },
+      "questionVi": "Cô này có ý gì?",
+      "optionChinese": {
+        "traditional": [
+          "她不想寫作業",
+          "她想不出來要寫什麼",
+          "她不知道有什麼作業",
+          "她記不得老師給的作業"
+        ],
+        "simplified": [
+          "她不想写作业",
+          "她想不出来要写什么",
+          "她不知道有什么作业",
+          "她记不得老师给的作业"
+        ]
+      },
+      "optionTranslations": [
+        "Cô ấy không muốn làm bài tập về nhà",
+        "Cô ấy không biết phải viết gì",
+        "Cô ấy không biết mình có bài tập về nhà gì",
+        "Cô ấy không thể nhớ được bài tập cô giáo giao"
+      ],
+      "evidence": {
+        "traditional": "還是寫不出來",
+        "simplified": "还是写不出来"
+      },
+      "explanationVi": "Chi tiết “還是寫不出來” trong bài nghe cho thấy Cô ấy không biết phải viết gì; đây là ý của đáp án B."
+    },
+    "listening-q07": {
+      "number": 7,
+      "correctAnswer": "A",
+      "transcriptChinese": {
+        "traditional": "男：一年以後，我們就買輛車子，到處去玩怎麼樣？\n女：別開玩笑了，哪來的錢呢？",
+        "simplified": "男：一年以后，我们就买辆车子，到处去玩怎么样？\n女：别开玩笑了，哪来的钱呢？"
+      },
+      "transcriptVi": "Người đàn ông: Trong một năm nữa, chúng ta mua một chiếc ô tô và đi vòng quanh thì sao?\nNgười phụ nữ: Đừng đùa nữa, tiền ở đâu ra vậy?",
+      "questionChinese": {
+        "traditional": "這位小姐的意思是什麼？",
+        "simplified": "这位小姐的意思是什么？"
+      },
+      "questionVi": "Cô này có ý gì?",
+      "optionChinese": {
+        "traditional": [
+          "他們沒錢買車子",
+          "她不喜歡出去玩",
+          "這位先生常常開玩笑",
+          "她不知道哪裡借得到錢"
+        ],
+        "simplified": [
+          "他们没钱买车子",
+          "她不喜欢出去玩",
+          "这位先生常常开玩笑",
+          "她不知道哪里借得到钱"
+        ]
+      },
+      "optionTranslations": [
+        "Họ không có tiền để mua ô tô",
+        "Cô ấy không thích ra ngoài chơi",
+        "Quý ông này hay nói đùa",
+        "Cô ấy không biết vay tiền ở đâu"
+      ],
+      "evidence": {
+        "traditional": "哪來的錢呢",
+        "simplified": "哪来的钱呢"
+      },
+      "explanationVi": "Chi tiết “哪來的錢呢” trong bài nghe cho thấy Họ không có tiền để mua ô tô; đây là ý của đáp án A."
+    },
+    "listening-q08": {
+      "number": 8,
+      "correctAnswer": "B",
+      "transcriptChinese": {
+        "traditional": "男：嗯！這些菜聞起來好香，味道更是沒話說。\n女：謝謝！我對做菜一直很有興趣，我也喜歡吃自己煮的東西。",
+        "simplified": "男：嗯！这些菜闻起来好香，味道更是没话说。\n女：谢谢！我对做菜一直很有兴趣，我也喜欢吃自己煮的东西。"
+      },
+      "transcriptVi": "Người đàn ông: Vâng! Những món ăn này có mùi thơm rất ngon và hương vị không thể diễn tả bằng lời.\nNgười phụ nữ: Cảm ơn bạn! Tôi luôn thích nấu ăn và tôi cũng thích ăn những gì mình nấu.",
+      "questionChinese": {
+        "traditional": "這位小姐說了什麼？",
+        "simplified": "这位小姐说了什么？"
+      },
+      "questionVi": "Cô này đã nói gì thế?",
+      "optionChinese": {
+        "traditional": [
+          "她做菜做得不好",
+          "她很喜歡自己做菜",
+          "她喜歡吃別人煮的菜",
+          "她只會吃東西，不會做菜"
+        ],
+        "simplified": [
+          "她做菜做得不好",
+          "她很喜欢自己做菜",
+          "她喜欢吃别人煮的菜",
+          "她只会吃东西，不会做菜"
+        ]
+      },
+      "optionTranslations": [
+        "Cô ấy nấu ăn không giỏi",
+        "Cô ấy thích tự nấu ăn",
+        "Cô ấy thích ăn đồ ăn do người khác nấu",
+        "Cô ấy chỉ biết ăn chứ không biết nấu"
+      ],
+      "evidence": {
+        "traditional": "我對做菜一直很有興趣",
+        "simplified": "我对做菜一直很有兴趣"
+      },
+      "explanationVi": "Chi tiết “我對做菜一直很有興趣” trong bài nghe cho thấy Cô ấy thích tự nấu ăn; đây là ý của đáp án B."
+    },
+    "listening-q09": {
+      "number": 9,
+      "correctAnswer": "B",
+      "transcriptChinese": {
+        "traditional": "男：明天就要考試了！妳一點也不緊張嗎？\n女：有什麼好緊張的！我早就準備好了。",
+        "simplified": "男：明天就要考试了！妳一点也不紧张吗？\n女：有什么好紧张的！我早就准备好了。"
+      },
+      "transcriptVi": "Người đàn ông: Ngày mai có bài kiểm tra! Bạn không lo lắng chút nào à?\nNgười phụ nữ: Sao anh lại lo lắng thế? Tôi đã sẵn sàng từ lâu rồi.",
+      "questionChinese": {
+        "traditional": "這位小姐的意思是什麼？",
+        "simplified": "这位小姐的意思是什么？"
+      },
+      "questionVi": "Cô này có ý gì?",
+      "optionChinese": {
+        "traditional": [
+          "她來不及把書讀完",
+          "她對通過考試有信心",
+          "她要這位先生別緊張",
+          "她一聽見考試就開始緊張"
+        ],
+        "simplified": [
+          "她来不及把书读完",
+          "她对通过考试有信心",
+          "她要这位先生别紧张",
+          "她一听见考试就开始紧张"
+        ]
+      },
+      "optionTranslations": [
+        "Cô ấy không có thời gian để đọc hết cuốn sách",
+        "Cô ấy tự tin vượt qua kỳ thi",
+        "Nàng yêu cầu quý ông này đừng lo lắng",
+        "Cô ấy trở nên lo lắng ngay khi nghe tin về kỳ thi"
+      ],
+      "evidence": {
+        "traditional": "我早就準備好了",
+        "simplified": "我早就准备好了"
+      },
+      "explanationVi": "Chi tiết “我早就準備好了” trong bài nghe cho thấy Cô ấy tự tin vượt qua kỳ thi; đây là ý của đáp án B."
+    },
+    "listening-q10": {
+      "number": 10,
+      "correctAnswer": "C",
+      "transcriptChinese": {
+        "traditional": "男：我早上出門的時候，天氣還好好的，現在怎麼下起大雨來了？\n女：昨天新聞說今天會下小雨，可是誰知道雨越下越大呢？",
+        "simplified": "男：我早上出门的时候，天气还好好的，现在怎么下起大雨来了？\n女：昨天新闻说今天会下小雨，可是谁知道雨越下越大呢？"
+      },
+      "transcriptVi": "Người đàn ông: Khi tôi ra ngoài vào buổi sáng, thời tiết rất đẹp. Tại sao bây giờ trời lại mưa to?\nNgười phụ nữ: Hôm qua tin tức nói hôm nay trời sẽ mưa nhẹ, nhưng ai biết trời sẽ mưa to hơn?",
+      "questionChinese": {
+        "traditional": "這位小姐的意思是什麼？",
+        "simplified": "这位小姐的意思是什么？"
+      },
+      "questionVi": "Cô này có ý gì?",
+      "optionChinese": {
+        "traditional": [
+          "她知道今天會下大雨",
+          "沒有人知道今天會下雨",
+          "她本來以為只是下小雨",
+          "這位先生沒告訴她會下雨"
+        ],
+        "simplified": [
+          "她知道今天会下大雨",
+          "没有人知道今天会下雨",
+          "她本来以为只是下小雨",
+          "这位先生没告诉她会下雨"
+        ]
+      },
+      "optionTranslations": [
+        "Cô biết hôm nay trời sẽ mưa to",
+        "Chẳng ai biết hôm nay trời sẽ mưa",
+        "Vốn dĩ cô tưởng đó chỉ là một cơn mưa nhẹ",
+        "Chàng trai không nói với cô ấy rằng trời sẽ mưa"
+      ],
+      "evidence": {
+        "traditional": "昨天新聞說今天會下小雨",
+        "simplified": "昨天新闻说今天会下小雨"
+      },
+      "explanationVi": "Chi tiết “昨天新聞說今天會下小雨” trong bài nghe cho thấy Vốn dĩ cô tưởng đó chỉ là một cơn mưa nhẹ; đây là ý của đáp án C."
+    },
+    "listening-q11": {
+      "number": 11,
+      "correctAnswer": "D",
+      "transcriptChinese": {
+        "traditional": "男：今天是我第一次上中文課，老師教了語法和二十五個漢字。\n女：才上一次課，就學了二十多個漢字，不錯嘛！\n男：學漢字很有趣，不過，語法好難懂。\n女：不要緊，有問題的話，就多問老師。",
+        "simplified": "男：今天是我第一次上中文课，老师教了语法和二十五个汉字。\n女：才上一次课，就学了二十多个汉字，不错嘛！\n男：学汉字很有趣，不过，语法好难懂。\n女：不要紧，有问题的话，就多问老师。"
+      },
+      "transcriptVi": "Nam: Hôm nay là buổi học tiếng Trung đầu tiên của tôi. Giáo viên dạy tôi ngữ pháp và 25 chữ Hán.\nNữ: Tôi mới học một lớp và học được hơn 20 chữ Hán. Không tệ!\nNam: Học chữ Hán rất thú vị nhưng ngữ pháp thì khó hiểu quá.\nNữ: Không thành vấn đề. Nếu bạn có thắc mắc, chỉ cần hỏi giáo viên.",
+      "questionChinese": {
+        "traditional": "這位先生說了什麼？",
+        "simplified": "这位先生说了什么？"
+      },
+      "questionVi": "Quý ông này đã nói gì?",
+      "optionChinese": {
+        "traditional": [
+          "老師還沒教語法",
+          "老師教了十個漢字",
+          "他覺得語法很簡單",
+          "他認為學漢字很有意思"
+        ],
+        "simplified": [
+          "老师还没教语法",
+          "老师教了十个汉字",
+          "他觉得语法很简单",
+          "他认为学汉字很有意思"
+        ]
+      },
+      "optionTranslations": [
+        "Thầy chưa dạy ngữ pháp",
+        "Thầy dạy mười chữ Hán",
+        "Anh ấy nghĩ ngữ pháp rất đơn giản",
+        "Anh ấy nghĩ việc học chữ Hán rất thú vị"
+      ],
+      "evidence": {
+        "traditional": "學漢字很有趣",
+        "simplified": "学汉字很有趣"
+      },
+      "explanationVi": "Chi tiết “學漢字很有趣” trong bài nghe cho thấy Anh ấy nghĩ việc học chữ Hán rất thú vị; đây là ý của đáp án D."
+    },
+    "listening-q12": {
+      "number": 12,
+      "correctAnswer": "A",
+      "transcriptChinese": {
+        "traditional": "男：妳上個星期借的小說什麼時候可以還給我？\n女：不好意思！可不可以過兩天再還？\n男：妳看完了嗎？\n女：我看得差不多了。",
+        "simplified": "男：妳上个星期借的小说什么时候可以还给我？\n女：不好意思！可不可以过两天再还？\n男：妳看完了吗？\n女：我看得差不多了。"
+      },
+      "transcriptVi": "Người đàn ông: Khi nào bạn có thể trả lại cuốn tiểu thuyết bạn mượn tuần trước?\nNgười phụ nữ: Xin lỗi! Tôi có thể trả lại sau hai ngày được không?\nNgười đàn ông: Bạn đã đọc xong chưa?\nNgười phụ nữ: Tôi gần như đã nhìn thấy nó rồi.",
+      "questionChinese": {
+        "traditional": "這位小姐的意思是什麼？",
+        "simplified": "这位小姐的意思是什么？"
+      },
+      "questionVi": "Cô này có ý gì?",
+      "optionChinese": {
+        "traditional": [
+          "她快看完了",
+          "她還沒開始看",
+          "她要再看一個星期",
+          "她已經全部看完了"
+        ],
+        "simplified": [
+          "她快看完了",
+          "她还没开始看",
+          "她要再看一个星期",
+          "她已经全部看完了"
+        ]
+      },
+      "optionTranslations": [
+        "Cô ấy sắp đọc xong rồi",
+        "Cô ấy vẫn chưa bắt đầu xem",
+        "Cô ấy muốn xem nó thêm một tuần nữa",
+        "Cô ấy đã đọc hết rồi"
+      ],
+      "evidence": {
+        "traditional": "我看得差不多了",
+        "simplified": "我看得差不多了"
+      },
+      "explanationVi": "Chi tiết “我看得差不多了” trong bài nghe cho thấy Cô ấy sắp đọc xong rồi; đây là ý của đáp án A."
+    },
+    "listening-q13": {
+      "number": 13,
+      "correctAnswer": "C",
+      "transcriptChinese": {
+        "traditional": "男：多吃一點兒吧！\n女：不，謝了！我吃得很飽。\n男：妳吃不下了嗎？這個蛋糕是我特別為妳買的。\n女：好吧！吃一點兒蛋糕也沒關係。",
+        "simplified": "男：多吃一点儿吧！\n女：不，谢了！我吃得很饱。\n男：妳吃不下了吗？这个蛋糕是我特别为妳买的。\n女：好吧！吃一点儿蛋糕也没关系。"
+      },
+      "transcriptVi": "Người đàn ông: Ăn nhiều hơn đi!\nNgười phụ nữ: Không, cảm ơn! Tôi đã rất no.\nNgười đàn ông: Cậu không ăn được nữa à? Tôi đã mua chiếc bánh này đặc biệt cho bạn.\nNgười phụ nữ: Được rồi! Ăn một ít bánh cũng được.",
+      "questionChinese": {
+        "traditional": "這位小姐的意思是什麼？",
+        "simplified": "这位小姐的意思是什么？"
+      },
+      "questionVi": "Cô này có ý gì?",
+      "optionChinese": {
+        "traditional": [
+          "她還有點兒餓",
+          "蛋糕有點兒難吃",
+          "她可以再吃一點兒東西",
+          "她沒辦法吃任何東西了"
+        ],
+        "simplified": [
+          "她还有点儿饿",
+          "蛋糕有点儿难吃",
+          "她可以再吃一点儿东西",
+          "她没办法吃任何东西了"
+        ]
+      },
+      "optionTranslations": [
+        "Cô ấy vẫn còn hơi đói",
+        "Bánh hơi khó ăn",
+        "Cô ấy có thể ăn nhiều hơn một chút",
+        "Cô ấy không ăn được gì"
+      ],
+      "evidence": {
+        "traditional": "吃一點兒蛋糕也沒關係",
+        "simplified": "吃一点儿蛋糕也没关系"
+      },
+      "explanationVi": "Chi tiết “吃一點兒蛋糕也沒關係” trong bài nghe cho thấy Cô ấy có thể ăn nhiều hơn một chút; đây là ý của đáp án C."
+    },
+    "listening-q14": {
+      "number": 14,
+      "correctAnswer": "D",
+      "transcriptChinese": {
+        "traditional": "男：生日快樂！這是送給妳的。\n女：謝謝。你不必買禮物給我的。你太客氣了！\n男：希望妳會喜歡，打開來看看吧。\n女：啊，我喜歡這支手錶。你怎麼知道我要的就是這個？",
+        "simplified": "男：生日快乐！这是送给妳的。\n女：谢谢。你不必买礼物给我的。你太客气了！\n男：希望妳会喜欢，打开来看看吧。\n女：啊，我喜欢这支手表。你怎么知道我要的就是这个？"
+      },
+      "transcriptVi": "Người đàn ông: Chúc mừng sinh nhật! Đây là dành cho bạn.\nNgười phụ nữ: Cảm ơn bạn. Bạn không cần phải mua quà cho tôi. Bạn tốt bụng quá!\nNgười đàn ông: Tôi hy vọng bạn thích nó, hãy mở nó ra và xem.\nNgười phụ nữ: À, tôi thích chiếc đồng hồ này. Làm sao bạn biết đây là điều tôi muốn?",
+      "questionChinese": {
+        "traditional": "這位小姐的意思是什麼？",
+        "simplified": "这位小姐的意思是什么？"
+      },
+      "questionVi": "Cô này có ý gì?",
+      "optionChinese": {
+        "traditional": [
+          "她不需要手錶",
+          "她想要別的禮物",
+          "這位先生買錯手錶",
+          "這位先生買對了禮物"
+        ],
+        "simplified": [
+          "她不需要手表",
+          "她想要别的礼物",
+          "这位先生买错手表",
+          "这位先生买对了礼物"
+        ]
+      },
+      "optionTranslations": [
+        "Cô ấy không cần đồng hồ",
+        "cô ấy muốn những món quà khác",
+        "Người đàn ông này đã mua nhầm chiếc đồng hồ",
+        "Quý ông này đã mua đúng món quà"
+      ],
+      "evidence": {
+        "traditional": "我喜歡這支手錶",
+        "simplified": "我喜欢这支手表"
+      },
+      "explanationVi": "Chi tiết “我喜歡這支手錶” trong bài nghe cho thấy Quý ông này đã mua đúng món quà; đây là ý của đáp án D."
+    },
+    "listening-q15": {
+      "number": 15,
+      "correctAnswer": "A",
+      "transcriptChinese": {
+        "traditional": "男：小明這次考試考得太差了。\n女：是不是考試太難了？\n男：不是吧！很多學生都考得不錯，有好幾個都考一百分呢！\n女：我看啊！應該是小明念書念不了幾頁，就想出去玩。",
+        "simplified": "男：小明这次考试考得太差了。\n女：是不是考试太难了？\n男：不是吧！很多学生都考得不错，有好几个都考一百分呢！\n女：我看啊！应该是小明念书念不了几页，就想出去玩。"
+      },
+      "transcriptVi": "Người đàn ông: Tiểu Minh làm bài thi này rất kém.\nNgười phụ nữ: Kỳ thi có khó quá không?\nNgười đàn ông: Không! Nhiều học sinh đã làm bài thi tốt và một số đạt điểm 100%!\nNgười phụ nữ: Để tôi xem nào! Chắc là Tiểu Minh đọc không được vài trang nên muốn ra ngoài chơi.",
+      "questionChinese": {
+        "traditional": "這兩個人說，小明成績差的原因是什麼？",
+        "simplified": "这两个人说，小明成绩差的原因是什么？"
+      },
+      "questionVi": "Hai người này cho biết, nguyên nhân khiến Xiao Ming có thành tích kém là gì?",
+      "optionChinese": {
+        "traditional": [
+          "他不用功",
+          "他不聰明",
+          "考試太難",
+          "他不小心寫錯"
+        ],
+        "simplified": [
+          "他不用功",
+          "他不聪明",
+          "考试太难",
+          "他不小心写错"
+        ]
+      },
+      "optionTranslations": [
+        "Anh ấy không làm việc chăm chỉ",
+        "anh ấy không thông minh",
+        "Đề thi khó quá",
+        "Anh vô tình viết nhầm"
+      ],
+      "evidence": {
+        "traditional": "念書念不了幾頁，就想出去玩",
+        "simplified": "念书念不了几页，就想出去玩"
+      },
+      "explanationVi": "Chi tiết “念書念不了幾頁，就想出去玩” trong bài nghe cho thấy Anh ấy không làm việc chăm chỉ; đây là ý của đáp án A."
+    },
+    "listening-q16": {
+      "number": 16,
+      "correctAnswer": "D",
+      "transcriptChinese": {
+        "traditional": "男：妳到新公司上班已經兩個星期了，一切還習慣嗎？\n女：嗯，我已經慢慢習慣那裡的環境了。\n男：聽說在你們公司上班很辛苦，是真的嗎？\n女：辛苦是辛苦，不過公司對我們很好，不但每天下午有點心可以吃，每年還有\n一次旅遊活動喔！",
+        "simplified": "男：妳到新公司上班已经两个星期了，一切还习惯吗？\n女：嗯，我已经慢慢习惯那里的环境了。\n男：听说在你们公司上班很辛苦，是真的吗？\n女：辛苦是辛苦，不过公司对我们很好，不但每天下午有点心可以吃，每年还有\n一次旅游活动喔！"
+      },
+      "transcriptVi": "Nam: Đã hai tuần kể từ khi bạn bắt đầu làm việc ở công ty mới. Bạn vẫn đang làm quen với mọi thứ phải không?\nNgười phụ nữ: À, tôi dần quen với môi trường ở đó rồi.\nNam: Tôi nghe nói làm việc ở công ty bạn vất vả lắm. Điều này có đúng không?\nNữ: Công việc vất vả nhưng công ty đối xử với chúng tôi rất tốt. Chúng ta không chỉ được ăn vặt vào mỗi buổi chiều mà còn có\nMột hoạt động du lịch!",
+      "questionChinese": {
+        "traditional": "這位小姐的公司怎麼樣？",
+        "simplified": "这位小姐的公司怎么样？"
+      },
+      "questionVi": "Công ty của quý cô này thế nào rồi?",
+      "optionChinese": {
+        "traditional": [
+          "對她不好",
+          "午餐不用錢",
+          "工作不是太多",
+          "每年辦旅遊活動"
+        ],
+        "simplified": [
+          "对她不好",
+          "午餐不用钱",
+          "工作不是太多",
+          "每年办旅游活动"
+        ]
+      },
+      "optionTranslations": [
+        "Không tốt cho cô ấy",
+        "Không có tiền ăn trưa",
+        "Không có quá nhiều công việc",
+        "Tổ chức các hoạt động du lịch hàng năm"
+      ],
+      "evidence": {
+        "traditional": "每年還有\n一次旅遊活動",
+        "simplified": "每年还有\n一次旅游活动"
+      },
+      "explanationVi": "Chi tiết “每年還有\n一次旅遊活動” trong bài nghe cho thấy Tổ chức các hoạt động du lịch hàng năm; đây là ý của đáp án D."
+    },
+    "listening-q17": {
+      "number": 17,
+      "correctAnswer": "B",
+      "transcriptChinese": {
+        "traditional": "男：我覺得我的頭有點兒疼，我很久沒這樣了。\n女：最近有流行性感冒，你常常搭公車上下班，很可能被傳染了。\n男：像我這種每天運動，又常吃蔬菜水果的人，身體是很健康的！\n女：再好的身體遇上病毒，還是得進醫院一趟，你先去檢查比較好。",
+        "simplified": "男：我觉得我的头有点儿疼，我很久没这样了。\n女：最近有流行性感冒，你常常搭公车上下班，很可能被传染了。\n男：像我这种每天运动，又常吃蔬菜水果的人，身体是很健康的！\n女：再好的身体遇上病毒，还是得进医院一趟，你先去检查比较好。"
+      },
+      "transcriptVi": "Người đàn ông: Tôi cảm thấy đầu tôi hơi đau một chút. Tôi đã không cảm thấy như vậy trong một thời gian dài.\nNgười phụ nữ: Gần đây tôi bị cúm. Bạn thường xuyên đi xe buýt đi làm và về nhà nên có thể đã bị nhiễm bệnh.\nNgười đàn ông: Những người như tôi tập thể dục hàng ngày và ăn trái cây và rau quả rất khỏe mạnh!\nNgười phụ nữ: Dù sức khỏe có tốt đến đâu, nếu gặp phải virus, bạn vẫn phải đến bệnh viện. Tốt hơn là bạn nên kiểm tra trước.",
+      "questionChinese": {
+        "traditional": "這位小姐覺得這位先生應該怎麼做？",
+        "simplified": "这位小姐觉得这位先生应该怎么做？"
+      },
+      "questionVi": "Quý cô nghĩ quý ông này nên làm gì?",
+      "optionChinese": {
+        "traditional": [
+          "不要搭公車",
+          "到醫院看病",
+          "多吃蔬菜水果",
+          "養成運動的習慣"
+        ],
+        "simplified": [
+          "不要搭公车",
+          "到医院看病",
+          "多吃蔬菜水果",
+          "养成运动的习惯"
+        ]
+      },
+      "optionTranslations": [
+        "Đừng đi xe buýt",
+        "Đến bệnh viện để gặp bác sĩ",
+        "Ăn nhiều trái cây và rau quả",
+        "Phát triển thói quen tập thể dục"
+      ],
+      "evidence": {
+        "traditional": "你先去檢查比較好",
+        "simplified": "你先去检查比较好"
+      },
+      "explanationVi": "Chi tiết “你先去檢查比較好” trong bài nghe cho thấy Đến bệnh viện để gặp bác sĩ; đây là ý của đáp án B."
+    },
+    "listening-q18": {
+      "number": 18,
+      "correctAnswer": "D",
+      "transcriptChinese": {
+        "traditional": "男：玉珍，妳將來有什麼打算嗎？\n女：我打算以後過著單身生活，想去哪裡旅行就去哪裡。\n男：萬一妳老了，體力不行了，沒辦法到處旅行，又沒有人照顧妳怎麼辦？\n女：到老的時候，我就不再工作，我有一筆退休的錢，拿這些錢去住老人照顧中\n心，這樣就不用擔心了啊！",
+        "simplified": "男：玉珍，妳将来有什么打算吗？\n女：我打算以后过着单身生活，想去哪里旅行就去哪里。\n男：万一妳老了，体力不行了，没办法到处旅行，又没有人照顾妳怎么办？\n女：到老的时候，我就不再工作，我有一笔退休的钱，拿这些钱去住老人照顾中\n心，这样就不用担心了啊！"
+      },
+      "transcriptVi": "Người đàn ông: Yuzhen, dự định tương lai của bạn là gì?\nNgười phụ nữ: Tôi dự định sau này sẽ sống độc thân và đi du lịch bất cứ nơi nào tôi muốn.\nNgười đàn ông: Lỡ như anh già đi, sức lực không còn, không thể đi khắp nơi và không có ai chăm sóc thì sao?\nNgười phụ nữ: Khi tôi già đi, tôi sẽ không làm việc nữa. Tôi có một khoản tiền hưu trí, tôi sẽ dùng số tiền này để sống ở trung tâm chăm sóc người già.\nTrái tim ơi, bằng cách này bạn không phải lo lắng!",
+      "questionChinese": {
+        "traditional": "這位小姐到了老年的時候有什麼計畫？",
+        "simplified": "这位小姐到了老年的时候有什么计划？"
+      },
+      "questionVi": "Cô gái trẻ này có dự định gì khi về già?",
+      "optionChinese": {
+        "traditional": [
+          "繼續工作",
+          "組織一個家庭",
+          "去世界各國旅行",
+          "住在專門照顧老人的地方"
+        ],
+        "simplified": [
+          "继续工作",
+          "组织一个家庭",
+          "去世界各国旅行",
+          "住在专门照顾老人的地方"
+        ]
+      },
+      "optionTranslations": [
+        "Tiếp tục làm việc",
+        "Tổ chức gia đình",
+        "Du lịch các nước trên thế giới",
+        "Sống ở nơi chuyên chăm sóc người già"
+      ],
+      "evidence": {
+        "traditional": "拿這些錢去住老人照顧中\n心",
+        "simplified": "拿这些钱去住老人照顾中\n心"
+      },
+      "explanationVi": "Chi tiết “拿這些錢去住老人照顧中\n心” trong bài nghe cho thấy Sống ở nơi chuyên chăm sóc người già; đây là ý của đáp án D."
+    },
+    "listening-q19": {
+      "number": 19,
+      "correctAnswer": "B",
+      "transcriptChinese": {
+        "traditional": "男：怎麼每一個人手上的盤子都堆滿食物啊！\n女：在這家餐廳，你要吃什麼就自己拿，拿多少就吃多少。\n男：夾那麼多菜，這樣吃一頓下來應該要花不少錢吧？\n女：是啊！因為這裡的食物材料都是從國外進口，所以價格蠻高的，不過東西又\n新鮮又多樣，飲料愛喝多少就喝多少，所有食物任你選，讓你吃到飽。",
+        "simplified": "男：怎么每一个人手上的盘子都堆满食物啊！\n女：在这家餐厅，你要吃什么就自己拿，拿多少就吃多少。\n男：夹那么多菜，这样吃一顿下来应该要花不少钱吧？\n女：是啊！因为这里的食物材料都是从国外进口，所以价格蛮高的，不过东西又\n新鲜又多样，饮料爱喝多少就喝多少，所有食物任你选，让你吃到饱。"
+      },
+      "transcriptVi": "Người đàn ông: Tại sao đĩa của mọi người lại đầy thức ăn vậy?\nNgười phụ nữ: Ở nhà hàng này, bạn có thể có được những gì bạn muốn và ăn bao nhiêu tùy thích.\nNgười đàn ông: Nhiều món như vậy thì một bữa ăn như thế này chắc phải tốn rất nhiều tiền phải không?\nNgười phụ nữ: Vâng! Vì nguyên liệu thực phẩm ở đây đều được nhập khẩu từ nước ngoài nên giá khá cao nhưng đồ ăn lại rất ngon.\nTươi ngon và đa dạng, bạn có thể uống bao nhiêu đồ uống tùy thích, đồ ăn nào cũng có sẵn cho bạn lựa chọn nên bạn có thể ăn bao nhiêu tùy thích.",
+      "questionChinese": {
+        "traditional": "這家餐廳有什麼特色？",
+        "simplified": "这家餐厅有什么特色？"
+      },
+      "questionVi": "Nhà hàng này có đặc điểm gì?",
+      "optionChinese": {
+        "traditional": [
+          "由服務生幫客人點餐",
+          "食物材料從國外買進來",
+          "每個人喝的飲料限制兩杯",
+          "吃一頓飯所花的費用很便宜"
+        ],
+        "simplified": [
+          "由服务生帮客人点餐",
+          "食物材料从国外买进来",
+          "每个人喝的饮料限制两杯",
+          "吃一顿饭所花的费用很便宜"
+        ]
+      },
+      "optionTranslations": [
+        "Người phục vụ giúp khách gọi đồ ăn",
+        "Nguyên liệu thực phẩm được mua từ nước ngoài",
+        "Giới hạn hai ly mỗi người",
+        "Chi phí ăn một bữa rất rẻ"
+      ],
+      "evidence": {
+        "traditional": "食物材料都是從國外進口",
+        "simplified": "食物材料都是从国外进口"
+      },
+      "explanationVi": "Chi tiết “食物材料都是從國外進口” trong bài nghe cho thấy Nguyên liệu thực phẩm được mua từ nước ngoài; đây là ý của đáp án B."
+    },
+    "listening-q20": {
+      "number": 20,
+      "correctAnswer": "A",
+      "transcriptChinese": {
+        "traditional": "男：我明明就把電視的聲音調到最大了，為什麼聽起來還是這麼小？\n女：我們家的電視已經都用了十年以上，早該換一部新的了。\n男：這部電視還能用，找人來修理就好了！我還真捨不得把它丟了！\n女：有什麼好捨不得的？光修理的費用就能買一部新的電視了呢！",
+        "simplified": "男：我明明就把电视的声音调到最大了，为什么听起来还是这么小？\n女：我们家的电视已经都用了十年以上，早该换一部新的了。\n男：这部电视还能用，找人来修理就好了！我还真舍不得把它丢了！\n女：有什么好舍不得的？光修理的费用就能买一部新的电视了呢！"
+      },
+      "transcriptVi": "Người đàn ông: Rõ ràng là tôi đã tăng âm lượng TV lên mức tối đa, sao âm thanh vẫn im lặng thế?\nNgười phụ nữ: Những chiếc TV trong nhà chúng tôi đã được sử dụng hơn mười năm và đã quá hạn để thay một chiếc mới.\nNgười đàn ông: Chiếc TV này vẫn có thể sử dụng được. Chỉ cần tìm ai đó để sửa chữa nó! Tôi thực sự không thể chịu đựng được việc vứt nó đi!\nNgười phụ nữ: Có điều gì mà bạn không thể chia tay được không? Chỉ riêng chi phí sửa chữa đã có thể mua được một chiếc TV mới!",
+      "questionChinese": {
+        "traditional": "這位小姐想要怎樣處理這部電視？",
+        "simplified": "这位小姐想要怎样处理这部电视？"
+      },
+      "questionVi": "Cô gái trẻ này muốn làm gì với chiếc TV này?",
+      "optionChinese": {
+        "traditional": [
+          "把它丟了",
+          "繼續使用",
+          "找人來修理",
+          "把它賣給別人"
+        ],
+        "simplified": [
+          "把它丢了",
+          "继续使用",
+          "找人来修理",
+          "把它卖给别人"
+        ]
+      },
+      "optionTranslations": [
+        "Mất rồi",
+        "Tiếp tục sử dụng",
+        "Tìm người sửa chữa",
+        "Bán cho người khác"
+      ],
+      "evidence": {
+        "traditional": "光修理的費用就能買一部新的電視",
+        "simplified": "光修理的费用就能买一部新的电视"
+      },
+      "explanationVi": "Chi tiết “光修理的費用就能買一部新的電視” trong bài nghe cho thấy Mất rồi; đây là ý của đáp án A."
+    },
+    "listening-q21": {
+      "number": 21,
+      "correctAnswer": "D",
+      "transcriptChinese": {
+        "traditional": "以下是兩個朋友之間的對話，請聽這段話，然後回答下面的兩個問題。\n男：妳最近好像很忙，忙些什麼呢？\n女：我最近開始在網站上賣衣服，有好多事情要做。\n男：妳已經有一份工作了，為什麼還要在網站上賣衣服呢？\n女：我有很多舊衣服，這些衣服已經不穿了，把它們賣掉，還可以賺錢，多好啊！\n男：這樣真不錯。我也有許多舊書，這些書都已經看完了，我看啊！我也來把它\n們放到網站上賣給有需要的人好了。\n女：我可以教你網站怎麼操作，你很快就能學會的。",
+        "simplified": "以下是两个朋友之间的对话，请听这段话，然后回答下面的两个问题。\n男：妳最近好像很忙，忙些什么呢？\n女：我最近开始在网站上卖衣服，有好多事情要做。\n男：妳已经有一份工作了，为什么还要在网站上卖衣服呢？\n女：我有很多旧衣服，这些衣服已经不穿了，把它们卖掉，还可以赚钱，多好啊！\n男：这样真不错。我也有许多旧书，这些书都已经看完了，我看啊！我也来把它\n们放到网站上卖给有需要的人好了。\n女：我可以教你网站怎么操作，你很快就能学会的。"
+      },
+      "transcriptVi": "Sau đây là cuộc trò chuyện giữa hai người bạn. Hãy nghe đoạn văn này và sau đó trả lời hai câu hỏi dưới đây.\nNgười đàn ông: Gần đây bạn có vẻ rất bận rộn. Bạn đang bận việc gì?\nNgười phụ nữ: Gần đây tôi mới bắt đầu bán quần áo trên trang web và tôi còn rất nhiều việc phải làm.\nNgười đàn ông: Bạn đã có việc làm rồi sao còn bán quần áo trên website?\nNgười phụ nữ: Tôi có rất nhiều quần áo cũ không còn mặc nữa. Tôi có thể kiếm tiền bằng cách bán chúng. Thật tuyệt vời!\nNgười đàn ông: Điều đó thực sự tốt. Tôi cũng có nhiều sách cũ và tôi đã đọc chúng rồi. Hãy để tôi đọc chúng! Tôi cũng sẽ lấy nó\nĐưa chúng lên trang web và bán cho những người có nhu cầu.\nNgười phụ nữ: Tôi có thể dạy bạn cách vận hành trang web và bạn có thể học nó một cách nhanh chóng.",
+      "questionChinese": {
+        "traditional": "為什麼這位小姐要賣衣服？",
+        "simplified": "为什么这位小姐要卖衣服？"
+      },
+      "questionVi": "Tại sao cô nương này lại muốn bán quần áo?",
+      "optionChinese": {
+        "traditional": [
+          "她找不到其他工作",
+          "她買了很多新衣服",
+          "朋友送給她很多衣服",
+          "她有很多不需要的衣服"
+        ],
+        "simplified": [
+          "她找不到其他工作",
+          "她买了很多新衣服",
+          "朋友送给她很多衣服",
+          "她有很多不需要的衣服"
+        ]
+      },
+      "optionTranslations": [
+        "Cô ấy không tìm được việc làm khác",
+        "Cô ấy mua rất nhiều quần áo mới",
+        "Bạn bè tặng cô ấy rất nhiều quần áo",
+        "Cô ấy có rất nhiều quần áo không cần thiết"
+      ],
+      "evidence": {
+        "traditional": "我有很多舊衣服，這些衣服已經不穿了",
+        "simplified": "我有很多旧衣服，这些衣服已经不穿了"
+      },
+      "explanationVi": "Chi tiết “我有很多舊衣服，這些衣服已經不穿了” trong bài nghe cho thấy Cô ấy có rất nhiều quần áo không cần thiết; đây là ý của đáp án D."
+    },
+    "listening-q22": {
+      "number": 22,
+      "correctAnswer": "B",
+      "transcriptChinese": {
+        "traditional": "以下是兩個朋友之間的對話，請聽這段話，然後回答下面的兩個問題。\n男：妳最近好像很忙，忙些什麼呢？\n女：我最近開始在網站上賣衣服，有好多事情要做。\n男：妳已經有一份工作了，為什麼還要在網站上賣衣服呢？\n女：我有很多舊衣服，這些衣服已經不穿了，把它們賣掉，還可以賺錢，多好啊！\n男：這樣真不錯。我也有許多舊書，這些書都已經看完了，我看啊！我也來把它\n們放到網站上賣給有需要的人好了。\n女：我可以教你網站怎麼操作，你很快就能學會的。",
+        "simplified": "以下是两个朋友之间的对话，请听这段话，然后回答下面的两个问题。\n男：妳最近好像很忙，忙些什么呢？\n女：我最近开始在网站上卖衣服，有好多事情要做。\n男：妳已经有一份工作了，为什么还要在网站上卖衣服呢？\n女：我有很多旧衣服，这些衣服已经不穿了，把它们卖掉，还可以赚钱，多好啊！\n男：这样真不错。我也有许多旧书，这些书都已经看完了，我看啊！我也来把它\n们放到网站上卖给有需要的人好了。\n女：我可以教你网站怎么操作，你很快就能学会的。"
+      },
+      "transcriptVi": "Sau đây là cuộc trò chuyện giữa hai người bạn. Hãy nghe đoạn văn này và sau đó trả lời hai câu hỏi dưới đây.\nNgười đàn ông: Gần đây bạn có vẻ rất bận rộn. Bạn đang bận việc gì?\nNgười phụ nữ: Gần đây tôi mới bắt đầu bán quần áo trên trang web và tôi còn rất nhiều việc phải làm.\nNgười đàn ông: Bạn đã có việc làm rồi sao còn bán quần áo trên website?\nNgười phụ nữ: Tôi có rất nhiều quần áo cũ không còn mặc nữa. Tôi có thể kiếm tiền bằng cách bán chúng. Thật tuyệt vời!\nNgười đàn ông: Điều đó thực sự tốt. Tôi cũng có nhiều sách cũ và tôi đã đọc chúng rồi. Hãy để tôi đọc chúng! Tôi cũng sẽ lấy nó\nĐưa chúng lên trang web và bán cho những người có nhu cầu.\nNgười phụ nữ: Tôi có thể dạy bạn cách vận hành trang web và bạn có thể học nó một cách nhanh chóng.",
+      "questionChinese": {
+        "traditional": "這位先生想要做什麼？",
+        "simplified": "这位先生想要做什么？"
+      },
+      "questionVi": "Quý ông này muốn làm gì?",
+      "optionChinese": {
+        "traditional": [
+          "買新書",
+          "賣舊書",
+          "賣衣服",
+          "買衣服"
+        ],
+        "simplified": [
+          "买新书",
+          "卖旧书",
+          "卖衣服",
+          "买衣服"
+        ]
+      },
+      "optionTranslations": [
+        "Mua sách mới",
+        "Bán sách cũ",
+        "Bán quần áo",
+        "Mua quần áo"
+      ],
+      "evidence": {
+        "traditional": "我也來把它\n們放到網站上賣給有需要的人好了",
+        "simplified": "我也来把它\n们放到网站上卖给有需要的人好了"
+      },
+      "explanationVi": "Chi tiết “我也來把它\n們放到網站上賣給有需要的人好了” trong bài nghe cho thấy Bán sách cũ; đây là ý của đáp án B."
+    },
+    "listening-q23": {
+      "number": 23,
+      "correctAnswer": "C",
+      "transcriptChinese": {
+        "traditional": "以下是一段兄妹的對話，請聽這段話，然後回答下面的兩個問題。\n男：爸爸的生日快到了，我們送什麼樣的禮物給爸爸呢?\n女：爸爸工作這麼忙，很久沒出國旅遊了，我們送爸爸飛機票跟旅遊的費用，讓\n他好好的出國休假，你覺得怎麼樣？\n男：可是我想爸爸抽不出時間去旅遊吧！我覺得送運動器材比較好，讓爸爸多多\n運動，身體才會健康。\n女：好主意！爸爸的確需要多一點兒運動。\n男：那我們就送爸爸一輛腳踏車吧！我們可以陪爸爸騎腳踏車，他一定很喜歡我\n們跟他一起去運動。\n女：聽起來不錯。不過，我們兩個都沒有腳踏車，所以我們一次要買三輛囉！況\n且我自己得先學怎麼騎腳踏車才行。",
+        "simplified": "以下是一段兄妹的对话，请听这段话，然后回答下面的两个问题。\n男：爸爸的生日快到了，我们送什么样的礼物给爸爸呢?\n女：爸爸工作这么忙，很久没出国旅游了，我们送爸爸飞机票跟旅游的费用，让\n他好好的出国休假，你觉得怎么样？\n男：可是我想爸爸抽不出时间去旅游吧！我觉得送运动器材比较好，让爸爸多多\n运动，身体才会健康。\n女：好主意！爸爸的确需要多一点儿运动。\n男：那我们就送爸爸一辆脚踏车吧！我们可以陪爸爸骑脚踏车，他一定很喜欢我\n们跟他一起去运动。\n女：听起来不错。不过，我们两个都没有脚踏车，所以我们一次要买三辆啰！况\n且我自己得先学怎么骑脚踏车才行。"
+      },
+      "transcriptVi": "Sau đây là cuộc trò chuyện giữa một người anh và một người chị. Hãy nghe đoạn văn này và sau đó trả lời hai câu hỏi dưới đây.\nNgười đàn ông: Sinh nhật của bố sắp đến rồi. Chúng ta nên tặng quà gì cho anh ấy?\nCon gái: Bố bận công việc và lâu rồi chưa đi du lịch nước ngoài. Chúng tôi đưa cho anh ấy vé máy bay và chi phí đi lại.\nBạn nghĩ gì về việc anh ấy có một kỳ nghỉ vui vẻ ở nước ngoài?\nNgười đàn ông: Nhưng tôi không nghĩ bố có thể rảnh rỗi để đi du lịch! Con nghĩ sẽ tốt hơn nếu tặng dụng cụ thể thao để bố có thêm\nTập thể dục giúp cơ thể khỏe mạnh.\nNgười phụ nữ: Thật là một ý tưởng tuyệt vời! Bố thực sự cần tập thể dục nhiều hơn một chút.\nNgười đàn ông: Vậy hãy tặng bố một chiếc xe đạp nhé! Chúng ta có thể đi xe đạp với bố, bố chắc hẳn thích tôi lắm\nHọ đi chơi thể thao với anh ấy.\nNgười phụ nữ: Nghe hay đấy. Tuy nhiên, cả hai chúng tôi đều không có xe đạp nên chúng tôi sẽ mua ba chiếc một lúc! tình huống\nVà tôi phải học cách đi xe đạp trước.",
+      "questionChinese": {
+        "traditional": "哥哥對爸爸的生日禮物有什麼看法？",
+        "simplified": "哥哥对爸爸的生日礼物有什么看法？"
+      },
+      "questionVi": "Anh trai nghĩ sao về món quà sinh nhật của bố?",
+      "optionChinese": {
+        "traditional": [
+          "送飛機票",
+          "陪爸爸出差",
+          "送運動器材",
+          "帶爸爸出國旅遊"
+        ],
+        "simplified": [
+          "送飞机票",
+          "陪爸爸出差",
+          "送运动器材",
+          "带爸爸出国旅游"
+        ]
+      },
+      "optionTranslations": [
+        "Gửi vé máy bay",
+        "Đi cùng bố đi công tác",
+        "Gửi dụng cụ thể thao",
+        "Đưa bố đi du lịch nước ngoài"
+      ],
+      "evidence": {
+        "traditional": "送運動器材比較好",
+        "simplified": "送运动器材比较好"
+      },
+      "explanationVi": "Chi tiết “送運動器材比較好” trong bài nghe cho thấy Gửi dụng cụ thể thao; đây là ý của đáp án C."
+    },
+    "listening-q24": {
+      "number": 24,
+      "correctAnswer": "D",
+      "transcriptChinese": {
+        "traditional": "以下是一段兄妹的對話，請聽這段話，然後回答下面的兩個問題。\n男：爸爸的生日快到了，我們送什麼樣的禮物給爸爸呢?\n女：爸爸工作這麼忙，很久沒出國旅遊了，我們送爸爸飛機票跟旅遊的費用，讓\n他好好的出國休假，你覺得怎麼樣？\n男：可是我想爸爸抽不出時間去旅遊吧！我覺得送運動器材比較好，讓爸爸多多\n運動，身體才會健康。\n女：好主意！爸爸的確需要多一點兒運動。\n男：那我們就送爸爸一輛腳踏車吧！我們可以陪爸爸騎腳踏車，他一定很喜歡我\n們跟他一起去運動。\n女：聽起來不錯。不過，我們兩個都沒有腳踏車，所以我們一次要買三輛囉！況\n且我自己得先學怎麼騎腳踏車才行。",
+        "simplified": "以下是一段兄妹的对话，请听这段话，然后回答下面的两个问题。\n男：爸爸的生日快到了，我们送什么样的礼物给爸爸呢?\n女：爸爸工作这么忙，很久没出国旅游了，我们送爸爸飞机票跟旅游的费用，让\n他好好的出国休假，你觉得怎么样？\n男：可是我想爸爸抽不出时间去旅游吧！我觉得送运动器材比较好，让爸爸多多\n运动，身体才会健康。\n女：好主意！爸爸的确需要多一点儿运动。\n男：那我们就送爸爸一辆脚踏车吧！我们可以陪爸爸骑脚踏车，他一定很喜欢我\n们跟他一起去运动。\n女：听起来不错。不过，我们两个都没有脚踏车，所以我们一次要买三辆啰！况\n且我自己得先学怎么骑脚踏车才行。"
+      },
+      "transcriptVi": "Sau đây là cuộc trò chuyện giữa một người anh và một người chị. Hãy nghe đoạn văn này và sau đó trả lời hai câu hỏi dưới đây.\nNgười đàn ông: Sinh nhật của bố sắp đến rồi. Chúng ta nên tặng quà gì cho anh ấy?\nCon gái: Bố bận công việc và lâu rồi chưa đi du lịch nước ngoài. Chúng tôi đưa cho anh ấy vé máy bay và chi phí đi lại.\nBạn nghĩ gì về việc anh ấy có một kỳ nghỉ vui vẻ ở nước ngoài?\nNgười đàn ông: Nhưng tôi không nghĩ bố có thể rảnh rỗi để đi du lịch! Con nghĩ sẽ tốt hơn nếu tặng dụng cụ thể thao để bố có thêm\nTập thể dục giúp cơ thể khỏe mạnh.\nNgười phụ nữ: Thật là một ý tưởng tuyệt vời! Bố thực sự cần tập thể dục nhiều hơn một chút.\nNgười đàn ông: Vậy hãy tặng bố một chiếc xe đạp nhé! Chúng ta có thể đi xe đạp với bố, bố chắc hẳn thích tôi lắm\nHọ đi chơi thể thao với anh ấy.\nNgười phụ nữ: Nghe hay đấy. Tuy nhiên, cả hai chúng tôi đều không có xe đạp nên chúng tôi sẽ mua ba chiếc một lúc! tình huống\nVà tôi phải học cách đi xe đạp trước.",
+      "questionChinese": {
+        "traditional": "關於腳踏車，妹妹最後有什麼想法？",
+        "simplified": "关于脚踏车，妹妹最后有什么想法？"
+      },
+      "questionVi": "Về xe đạp, suy nghĩ cuối cùng của bạn là gì?",
+      "optionChinese": {
+        "traditional": [
+          "她要跟朋友借腳踏車",
+          "她要教爸爸騎腳踏車",
+          "她不想陪爸爸騎腳踏車",
+          "她也要買一輛腳踏車給自己"
+        ],
+        "simplified": [
+          "她要跟朋友借脚踏车",
+          "她要教爸爸骑脚踏车",
+          "她不想陪爸爸骑脚踏车",
+          "她也要买一辆脚踏车给自己"
+        ]
+      },
+      "optionTranslations": [
+        "Cô ấy muốn mượn một chiếc xe đạp từ bạn mình",
+        "Cô bé muốn dạy bố đi xe đạp",
+        "Cô ấy không muốn đi xe đạp với bố",
+        "Cô ấy cũng muốn mua cho mình một chiếc xe đạp"
+      ],
+      "evidence": {
+        "traditional": "我們一次要買三輛囉",
+        "simplified": "我们一次要买三辆啰"
+      },
+      "explanationVi": "Chi tiết “我們一次要買三輛囉” trong bài nghe cho thấy Cô ấy cũng muốn mua cho mình một chiếc xe đạp; đây là ý của đáp án D."
+    },
+    "listening-q25": {
+      "number": 25,
+      "correctAnswer": "C",
+      "transcriptChinese": {
+        "traditional": "下面是一段和工作有關的對話。請你在聽完這段對話後，回答下面三個問題：\n現在請聽這段對話。\n男：陳小姐，很高興認識妳！歡迎妳來應徵我們的工作，妳申請的工作是業務人\n員，我想了解一下妳為什麼想到我們公司來呢？\n女：貴公司是世界有名的國際企業，而且公司規模也比我以前的公司大得多，我\n相信在你們公司工作，未來一定有發展。\n男：那麼，妳認為身為一個業務人員，最重要的能力是什麼？\n女：我覺得當業務人員最重要的能力，是開發新客戶以及新市場，現在各行各業\n競爭非常激烈，必須盡快找到值得經營的市場，尋找新客戶。\n男：這也是我們所想的。不過妳過去沒有開拓海外市場的經驗，而我們現在想要\n徵求的是，能夠開發國外客戶，熟悉國外市場的人。\n女：雖然我沒有這方面的經驗，但是我的英文能力不錯，能夠和國外客戶談生意，\n我想我能夠達成任務。\n男：其實妳的條件很不錯，我們決定了以後再通知妳。\n女：謝謝你們給我這次面試機會，希望有機會能到貴公司工作。",
+        "simplified": "下面是一段和工作有关的对话。请你在听完这段对话后，回答下面三个问题：\n现在请听这段对话。\n男：陈小姐，很高兴认识妳！欢迎妳来应征我们的工作，妳申请的工作是业务人\n员，我想了解一下妳为什么想到我们公司来呢？\n女：贵公司是世界有名的国际企业，而且公司规模也比我以前的公司大得多，我\n相信在你们公司工作，未来一定有发展。\n男：那么，妳认为身为一个业务人员，最重要的能力是什么？\n女：我觉得当业务人员最重要的能力，是开发新客户以及新市场，现在各行各业\n竞争非常激烈，必须尽快找到值得经营的市场，寻找新客户。\n男：这也是我们所想的。不过妳过去没有开拓海外市场的经验，而我们现在想要\n征求的是，能够开发国外客户，熟悉国外市场的人。\n女：虽然我没有这方面的经验，但是我的英文能力不错，能够和国外客户谈生意，\n我想我能够达成任务。\n男：其实妳的条件很不错，我们决定了以后再通知妳。\n女：谢谢你们给我这次面试机会，希望有机会能到贵公司工作。"
+      },
+      "transcriptVi": "Sau đây là cuộc trò chuyện liên quan đến công việc. Vui lòng trả lời ba câu hỏi sau đây sau khi nghe cuộc trò chuyện này:\nBây giờ hãy nghe cuộc trò chuyện này.\nNam: Cô Chen, rất vui được gặp cô! Bạn được chào đón để áp dụng cho công việc của chúng tôi. Công việc bạn đang ứng tuyển là nhân viên kinh doanh.\nThành viên, tôi muốn biết lý do tại sao bạn muốn đến công ty chúng tôi?\nNữ: Công ty của bạn là một doanh nghiệp quốc tế nổi tiếng thế giới và quy mô của nó lớn hơn nhiều so với công ty trước đây của tôi.\nTôi tin rằng làm việc tại công ty của bạn sẽ dẫn đến sự phát triển trong tương lai.\nNgười đàn ông: Vậy theo bạn, khả năng quan trọng nhất của một người kinh doanh là gì?\nNữ: Tôi nghĩ khả năng quan trọng nhất của một người kinh doanh là phát triển khách hàng mới, thị trường mới. Ngày nay, mọi tầng lớp xã hội\nSự cạnh tranh rất khốc liệt và bạn phải tìm một thị trường đáng để hoạt động và tìm khách hàng mới càng sớm càng tốt.\nNgười đàn ông: Đây cũng là điều chúng tôi nghĩ. Việc trước đây bạn không có kinh nghiệm phát triển thị trường nước ngoài không thành vấn đề, nhưng bây giờ chúng tôi muốn\nChúng tôi đang tìm kiếm những người có thể phát triển khách hàng nước ngoài và am hiểu thị trường nước ngoài.\nNữ: Tuy chưa có kinh nghiệm trong lĩnh vực này nhưng khả năng tiếng Anh của tôi khá tốt và có thể đàm phán kinh doanh với khách hàng nước ngoài.\nTôi nghĩ tôi có thể hoàn thành nhiệm vụ.\nNam: Thực ra, điều kiện của anh rất tốt. Chúng tôi sẽ thông báo cho bạn sau khi chúng tôi quyết định.\nNữ: Cảm ơn bạn đã cho tôi cơ hội phỏng vấn này. Tôi hy vọng tôi có cơ hội làm việc trong công ty của bạn.",
+      "questionChinese": {
+        "traditional": "這位小姐想到這家公司工作的原因是什麼？",
+        "simplified": "这位小姐想到这家公司工作的原因是什么？"
+      },
+      "questionVi": "Vì sao cô ấy muốn làm việc tại công ty này?",
+      "optionChinese": {
+        "traditional": [
+          "她不想再當業務人員",
+          "她被原本的公司開除了",
+          "她覺得在這家公司比較有前途",
+          "這家公司主動請這位小姐來工作"
+        ],
+        "simplified": [
+          "她不想再当业务人员",
+          "她被原本的公司开除了",
+          "她觉得在这家公司比较有前途",
+          "这家公司主动请这位小姐来工作"
+        ]
+      },
+      "optionTranslations": [
+        "Cô ấy không còn muốn làm người kinh doanh nữa",
+        "Cô ấy đã bị sa thải khỏi công ty ban đầu của mình",
+        "Cô ấy cảm thấy mình có tương lai tốt hơn ở công ty này",
+        "Công ty này đã chủ động mời cô này về làm việc"
+      ],
+      "evidence": {
+        "traditional": "未來一定有發展",
+        "simplified": "未来一定有发展"
+      },
+      "explanationVi": "Chi tiết “未來一定有發展” trong bài nghe cho thấy Cô ấy cảm thấy mình có tương lai tốt hơn ở công ty này; đây là ý của đáp án C."
+    },
+    "listening-q26": {
+      "number": 26,
+      "correctAnswer": "D",
+      "transcriptChinese": {
+        "traditional": "下面是一段和工作有關的對話。請你在聽完這段對話後，回答下面三個問題：\n現在請聽這段對話。\n男：陳小姐，很高興認識妳！歡迎妳來應徵我們的工作，妳申請的工作是業務人\n員，我想了解一下妳為什麼想到我們公司來呢？\n女：貴公司是世界有名的國際企業，而且公司規模也比我以前的公司大得多，我\n相信在你們公司工作，未來一定有發展。\n男：那麼，妳認為身為一個業務人員，最重要的能力是什麼？\n女：我覺得當業務人員最重要的能力，是開發新客戶以及新市場，現在各行各業\n競爭非常激烈，必須盡快找到值得經營的市場，尋找新客戶。\n男：這也是我們所想的。不過妳過去沒有開拓海外市場的經驗，而我們現在想要\n徵求的是，能夠開發國外客戶，熟悉國外市場的人。\n女：雖然我沒有這方面的經驗，但是我的英文能力不錯，能夠和國外客戶談生意，\n我想我能夠達成任務。\n男：其實妳的條件很不錯，我們決定了以後再通知妳。\n女：謝謝你們給我這次面試機會，希望有機會能到貴公司工作。",
+        "simplified": "下面是一段和工作有关的对话。请你在听完这段对话后，回答下面三个问题：\n现在请听这段对话。\n男：陈小姐，很高兴认识妳！欢迎妳来应征我们的工作，妳申请的工作是业务人\n员，我想了解一下妳为什么想到我们公司来呢？\n女：贵公司是世界有名的国际企业，而且公司规模也比我以前的公司大得多，我\n相信在你们公司工作，未来一定有发展。\n男：那么，妳认为身为一个业务人员，最重要的能力是什么？\n女：我觉得当业务人员最重要的能力，是开发新客户以及新市场，现在各行各业\n竞争非常激烈，必须尽快找到值得经营的市场，寻找新客户。\n男：这也是我们所想的。不过妳过去没有开拓海外市场的经验，而我们现在想要\n征求的是，能够开发国外客户，熟悉国外市场的人。\n女：虽然我没有这方面的经验，但是我的英文能力不错，能够和国外客户谈生意，\n我想我能够达成任务。\n男：其实妳的条件很不错，我们决定了以后再通知妳。\n女：谢谢你们给我这次面试机会，希望有机会能到贵公司工作。"
+      },
+      "transcriptVi": "Sau đây là cuộc trò chuyện liên quan đến công việc. Vui lòng trả lời ba câu hỏi sau đây sau khi nghe cuộc trò chuyện này:\nBây giờ hãy nghe cuộc trò chuyện này.\nNam: Cô Chen, rất vui được gặp cô! Bạn được chào đón để áp dụng cho công việc của chúng tôi. Công việc bạn đang ứng tuyển là nhân viên kinh doanh.\nThành viên, tôi muốn biết lý do tại sao bạn muốn đến công ty chúng tôi?\nNữ: Công ty của bạn là một doanh nghiệp quốc tế nổi tiếng thế giới và quy mô của nó lớn hơn nhiều so với công ty trước đây của tôi.\nTôi tin rằng làm việc tại công ty của bạn sẽ dẫn đến sự phát triển trong tương lai.\nNgười đàn ông: Vậy theo bạn, khả năng quan trọng nhất của một người kinh doanh là gì?\nNữ: Tôi nghĩ khả năng quan trọng nhất của một người kinh doanh là phát triển khách hàng mới, thị trường mới. Ngày nay, mọi tầng lớp xã hội\nSự cạnh tranh rất khốc liệt và bạn phải tìm một thị trường đáng để hoạt động và tìm khách hàng mới càng sớm càng tốt.\nNgười đàn ông: Đây cũng là điều chúng tôi nghĩ. Việc trước đây bạn không có kinh nghiệm phát triển thị trường nước ngoài không thành vấn đề, nhưng bây giờ chúng tôi muốn\nChúng tôi đang tìm kiếm những người có thể phát triển khách hàng nước ngoài và am hiểu thị trường nước ngoài.\nNữ: Tuy chưa có kinh nghiệm trong lĩnh vực này nhưng khả năng tiếng Anh của tôi khá tốt và có thể đàm phán kinh doanh với khách hàng nước ngoài.\nTôi nghĩ tôi có thể hoàn thành nhiệm vụ.\nNam: Thực ra, điều kiện của anh rất tốt. Chúng tôi sẽ thông báo cho bạn sau khi chúng tôi quyết định.\nNữ: Cảm ơn bạn đã cho tôi cơ hội phỏng vấn này. Tôi hy vọng tôi có cơ hội làm việc trong công ty của bạn.",
+      "questionChinese": {
+        "traditional": "這位小姐認為擔任業務人員最重要的能力是什麼？",
+        "simplified": "这位小姐认为担任业务人员最重要的能力是什么？"
+      },
+      "questionVi": "Theo cô ấy, năng lực quan trọng nhất của nhân viên kinh doanh là gì?",
+      "optionChinese": {
+        "traditional": [
+          "語言溝通",
+          "問題解決",
+          "領導員工",
+          "開發新客戶"
+        ],
+        "simplified": [
+          "语言沟通",
+          "问题解决",
+          "领导员工",
+          "开发新客户"
+        ]
+      },
+      "optionTranslations": [
+        "Giao tiếp bằng ngôn ngữ",
+        "Giải quyết vấn đề",
+        "Nhân viên lãnh đạo",
+        "Phát triển khách hàng mới"
+      ],
+      "evidence": {
+        "traditional": "開發新客戶以及新市場",
+        "simplified": "开发新客户以及新市场"
+      },
+      "explanationVi": "Chi tiết “開發新客戶以及新市場” trong bài nghe cho thấy Phát triển khách hàng mới; đây là ý của đáp án D."
+    },
+    "listening-q27": {
+      "number": 27,
+      "correctAnswer": "D",
+      "transcriptChinese": {
+        "traditional": "下面是一段和工作有關的對話。請你在聽完這段對話後，回答下面三個問題：\n現在請聽這段對話。\n男：陳小姐，很高興認識妳！歡迎妳來應徵我們的工作，妳申請的工作是業務人\n員，我想了解一下妳為什麼想到我們公司來呢？\n女：貴公司是世界有名的國際企業，而且公司規模也比我以前的公司大得多，我\n相信在你們公司工作，未來一定有發展。\n男：那麼，妳認為身為一個業務人員，最重要的能力是什麼？\n女：我覺得當業務人員最重要的能力，是開發新客戶以及新市場，現在各行各業\n競爭非常激烈，必須盡快找到值得經營的市場，尋找新客戶。\n男：這也是我們所想的。不過妳過去沒有開拓海外市場的經驗，而我們現在想要\n徵求的是，能夠開發國外客戶，熟悉國外市場的人。\n女：雖然我沒有這方面的經驗，但是我的英文能力不錯，能夠和國外客戶談生意，\n我想我能夠達成任務。\n男：其實妳的條件很不錯，我們決定了以後再通知妳。\n女：謝謝你們給我這次面試機會，希望有機會能到貴公司工作。",
+        "simplified": "下面是一段和工作有关的对话。请你在听完这段对话后，回答下面三个问题：\n现在请听这段对话。\n男：陈小姐，很高兴认识妳！欢迎妳来应征我们的工作，妳申请的工作是业务人\n员，我想了解一下妳为什么想到我们公司来呢？\n女：贵公司是世界有名的国际企业，而且公司规模也比我以前的公司大得多，我\n相信在你们公司工作，未来一定有发展。\n男：那么，妳认为身为一个业务人员，最重要的能力是什么？\n女：我觉得当业务人员最重要的能力，是开发新客户以及新市场，现在各行各业\n竞争非常激烈，必须尽快找到值得经营的市场，寻找新客户。\n男：这也是我们所想的。不过妳过去没有开拓海外市场的经验，而我们现在想要\n征求的是，能够开发国外客户，熟悉国外市场的人。\n女：虽然我没有这方面的经验，但是我的英文能力不错，能够和国外客户谈生意，\n我想我能够达成任务。\n男：其实妳的条件很不错，我们决定了以后再通知妳。\n女：谢谢你们给我这次面试机会，希望有机会能到贵公司工作。"
+      },
+      "transcriptVi": "Sau đây là cuộc trò chuyện liên quan đến công việc. Vui lòng trả lời ba câu hỏi sau đây sau khi nghe cuộc trò chuyện này:\nBây giờ hãy nghe cuộc trò chuyện này.\nNam: Cô Chen, rất vui được gặp cô! Bạn được chào đón để áp dụng cho công việc của chúng tôi. Công việc bạn đang ứng tuyển là nhân viên kinh doanh.\nThành viên, tôi muốn biết lý do tại sao bạn muốn đến công ty chúng tôi?\nNữ: Công ty của bạn là một doanh nghiệp quốc tế nổi tiếng thế giới và quy mô của nó lớn hơn nhiều so với công ty trước đây của tôi.\nTôi tin rằng làm việc tại công ty của bạn sẽ dẫn đến sự phát triển trong tương lai.\nNgười đàn ông: Vậy theo bạn, khả năng quan trọng nhất của một người kinh doanh là gì?\nNữ: Tôi nghĩ khả năng quan trọng nhất của một người kinh doanh là phát triển khách hàng mới, thị trường mới. Ngày nay, mọi tầng lớp xã hội\nSự cạnh tranh rất khốc liệt và bạn phải tìm một thị trường đáng để hoạt động và tìm khách hàng mới càng sớm càng tốt.\nNgười đàn ông: Đây cũng là điều chúng tôi nghĩ. Việc trước đây bạn không có kinh nghiệm phát triển thị trường nước ngoài không thành vấn đề, nhưng bây giờ chúng tôi muốn\nChúng tôi đang tìm kiếm những người có thể phát triển khách hàng nước ngoài và am hiểu thị trường nước ngoài.\nNữ: Tuy chưa có kinh nghiệm trong lĩnh vực này nhưng khả năng tiếng Anh của tôi khá tốt và có thể đàm phán kinh doanh với khách hàng nước ngoài.\nTôi nghĩ tôi có thể hoàn thành nhiệm vụ.\nNam: Thực ra, điều kiện của anh rất tốt. Chúng tôi sẽ thông báo cho bạn sau khi chúng tôi quyết định.\nNữ: Cảm ơn bạn đã cho tôi cơ hội phỏng vấn này. Tôi hy vọng tôi có cơ hội làm việc trong công ty của bạn.",
+      "questionChinese": {
+        "traditional": "這位主管說這位小姐缺少哪方面的經驗？",
+        "simplified": "这位主管说这位小姐缺少哪方面的经验？"
+      },
+      "questionVi": "Người giám sát nói cô gái trẻ này thiếu kinh nghiệm gì?",
+      "optionChinese": {
+        "traditional": [
+          "談生意",
+          "業務工作",
+          "服務客戶",
+          "經營國外市場"
+        ],
+        "simplified": [
+          "谈生意",
+          "业务工作",
+          "服务客户",
+          "经营国外市场"
+        ]
+      },
+      "optionTranslations": [
+        "Nói về kinh doanh",
+        "công việc kinh doanh",
+        "Phục vụ khách hàng",
+        "Vận hành thị trường nước ngoài"
+      ],
+      "evidence": {
+        "traditional": "沒有開拓海外市場的經驗",
+        "simplified": "没有开拓海外市场的经验"
+      },
+      "explanationVi": "Chi tiết “沒有開拓海外市場的經驗” trong bài nghe cho thấy Vận hành thị trường nước ngoài; đây là ý của đáp án D."
+    },
+    "listening-q28": {
+      "number": 28,
+      "correctAnswer": "C",
+      "transcriptChinese": {
+        "traditional": "下面是兩個朋友之間的對話。請你在聽完這段對話後，回答下面三個問題：\n現在請聽這段對話。\n男：這一陣子工作忙，都沒時間認識女孩子。\n女：說到這個，最近我參加了「快速約會」的活動，你也可以試試，說不定能從\n中找到合適的交往對象。\n男：「快速約會」？我沒聽過這個名詞。\n女：這是只有單身的人才能夠參加的活動。每次活動只要五百塊錢，不算貴。一\n次大概有四十到五十人，男女各一半，男生和女生兩個人面對面坐著以後，\n有七分鐘的時間可以互相談話，七分鐘一到，男生們就站起來換一位新的聊\n天對象，參加活動的人在很短的時間內就可以認識新朋友。\n男：每七分鐘就能認識一個人，真快！但是，妳參加以後，真的能找到心目中理\n想的交往對象嗎？\n女：我覺得的確可以認識比較多的人，不過，它的缺點是聊天只有短短幾分鐘，\n無法深入地了解一個人。\n男：不過和在網路上交朋友比起來，快速約會比較安全一點兒，至少是當面聊天，\n可以從講話的態度、表情，稍微了解對方是個什麼樣的人。而且我最需要的\n就是能夠認識多一點兒女孩子，這種活動很有效率，正好可以滿足我的需求。\n女：既然你這麼有興趣，下次有快速約會的活動，我再找你一塊兒參加。",
+        "simplified": "下面是两个朋友之间的对话。请你在听完这段对话后，回答下面三个问题：\n现在请听这段对话。\n男：这一阵子工作忙，都没时间认识女孩子。\n女：说到这个，最近我参加了「快速约会」的活动，你也可以试试，说不定能从\n中找到合适的交往对象。\n男：「快速约会」？我没听过这个名词。\n女：这是只有单身的人才能够参加的活动。每次活动只要五百块钱，不算贵。一\n次大概有四十到五十人，男女各一半，男生和女生两个人面对面坐着以后，\n有七分钟的时间可以互相谈话，七分钟一到，男生们就站起来换一位新的聊\n天对象，参加活动的人在很短的时间内就可以认识新朋友。\n男：每七分钟就能认识一个人，真快！但是，妳参加以后，真的能找到心目中理\n想的交往对象吗？\n女：我觉得的确可以认识比较多的人，不过，它的缺点是聊天只有短短几分钟，\n无法深入地了解一个人。\n男：不过和在网路上交朋友比起来，快速约会比较安全一点儿，至少是当面聊天，\n可以从讲话的态度、表情，稍微了解对方是个什么样的人。而且我最需要的\n就是能够认识多一点儿女孩子，这种活动很有效率，正好可以满足我的需求。\n女：既然你这么有兴趣，下次有快速约会的活动，我再找你一块儿参加。"
+      },
+      "transcriptVi": "Tiếp theo là cuộc trò chuyện giữa hai người bạn. Vui lòng trả lời ba câu hỏi sau đây sau khi nghe cuộc trò chuyện này:\nBây giờ hãy nghe cuộc trò chuyện này.\nNgười đàn ông: Dạo này tôi bận công việc, thậm chí không có thời gian gặp gỡ các cô gái.\nNgười phụ nữ: Nói mới nhớ, gần đây tôi có tham gia một hoạt động \"hẹn hò tốc độ\". Bạn cũng có thể thử nó. Có lẽ bạn có thể học hỏi từ nó.\nTìm đối tác phù hợp.\nNgười đàn ông: “Hẹn hò tốc độ”? Tôi chưa bao giờ nghe nói về thuật ngữ này.\nNgười phụ nữ: Đây là sự kiện chỉ những người độc thân mới có thể tham gia. Mỗi sự kiện chỉ tốn năm trăm nhân dân tệ, không đắt. một\nLúc đó có khoảng bốn mươi đến năm mươi người, nửa nam nửa nữ. Sau khi các chàng trai và cô gái ngồi đối mặt nhau,\nCó bảy phút để nói chuyện với nhau. Khi hết bảy phút, các chàng trai đứng dậy và tìm người mới để nói chuyện.\nĐó là một sự kiện diễn ra hàng ngày và những người tham gia sự kiện này có thể kết bạn mới trong một khoảng thời gian rất ngắn.\nNgười đàn ông: Cứ bảy phút bạn lại quen một người. Nó nhanh quá! Tuy nhiên, sau khi tham gia, bạn thực sự có thể tìm thấy sự thật trong tâm trí mình\nNgười mà bạn muốn hẹn hò?\nNữ: Tôi nghĩ bạn thực sự có thể làm quen với nhiều người hơn, nhưng nhược điểm là cuộc trò chuyện chỉ kéo dài vài phút.\nKhó có thể hiểu sâu sắc một người.\nNgười đàn ông: Nhưng so với việc kết bạn trực tuyến, hẹn hò tốc độ sẽ an toàn hơn, ít nhất là gặp trực tiếp.\nBạn có thể biết được người kia là người như thế nào từ thái độ và cách diễn đạt trong lời nói của họ. Và điều tôi cần nhất\nTôi chỉ muốn làm quen với nhiều cô gái hơn. Loại hoạt động này rất hiệu quả và đáp ứng được nhu cầu của tôi.\nNgười phụ nữ: Vì bạn rất quan tâm nên lần sau có sự kiện hẹn hò tốc độ, tôi sẽ mời bạn tham gia cùng chúng tôi.",
+      "questionChinese": {
+        "traditional": "快速約會是什麼樣的活動？",
+        "simplified": "快速约会是什么样的活动？"
+      },
+      "questionVi": "Hẹn hò tốc độ là loại hoạt động gì?",
+      "optionChinese": {
+        "traditional": [
+          "參加人數每次大約十個人",
+          "不是單身的人也能夠參加",
+          "讓人可以在幾分鐘以內認識新朋友",
+          "一個女生能同時和兩、三個男生談話"
+        ],
+        "simplified": [
+          "参加人数每次大约十个人",
+          "不是单身的人也能够参加",
+          "让人可以在几分钟以内认识新朋友",
+          "一个女生能同时和两、三个男生谈话"
+        ]
+      },
+      "optionTranslations": [
+        "Số lượng người tham gia mỗi lần khoảng mười người",
+        "Ngay cả những người không độc thân cũng có thể tham gia",
+        "Cho phép mọi người gặp gỡ những người mới chỉ trong vài phút",
+        "Một cô gái có thể nói chuyện cùng lúc với hai hoặc ba chàng trai"
+      ],
+      "evidence": {
+        "traditional": "有七分鐘的時間可以互相談話",
+        "simplified": "有七分钟的时间可以互相谈话"
+      },
+      "explanationVi": "Chi tiết “有七分鐘的時間可以互相談話” trong bài nghe cho thấy Cho phép mọi người gặp gỡ những người mới chỉ trong vài phút; đây là ý của đáp án C."
+    },
+    "listening-q29": {
+      "number": 29,
+      "correctAnswer": "C",
+      "transcriptChinese": {
+        "traditional": "下面是兩個朋友之間的對話。請你在聽完這段對話後，回答下面三個問題：\n現在請聽這段對話。\n男：這一陣子工作忙，都沒時間認識女孩子。\n女：說到這個，最近我參加了「快速約會」的活動，你也可以試試，說不定能從\n中找到合適的交往對象。\n男：「快速約會」？我沒聽過這個名詞。\n女：這是只有單身的人才能夠參加的活動。每次活動只要五百塊錢，不算貴。一\n次大概有四十到五十人，男女各一半，男生和女生兩個人面對面坐著以後，\n有七分鐘的時間可以互相談話，七分鐘一到，男生們就站起來換一位新的聊\n天對象，參加活動的人在很短的時間內就可以認識新朋友。\n男：每七分鐘就能認識一個人，真快！但是，妳參加以後，真的能找到心目中理\n想的交往對象嗎？\n女：我覺得的確可以認識比較多的人，不過，它的缺點是聊天只有短短幾分鐘，\n無法深入地了解一個人。\n男：不過和在網路上交朋友比起來，快速約會比較安全一點兒，至少是當面聊天，\n可以從講話的態度、表情，稍微了解對方是個什麼樣的人。而且我最需要的\n就是能夠認識多一點兒女孩子，這種活動很有效率，正好可以滿足我的需求。\n女：既然你這麼有興趣，下次有快速約會的活動，我再找你一塊兒參加。",
+        "simplified": "下面是两个朋友之间的对话。请你在听完这段对话后，回答下面三个问题：\n现在请听这段对话。\n男：这一阵子工作忙，都没时间认识女孩子。\n女：说到这个，最近我参加了「快速约会」的活动，你也可以试试，说不定能从\n中找到合适的交往对象。\n男：「快速约会」？我没听过这个名词。\n女：这是只有单身的人才能够参加的活动。每次活动只要五百块钱，不算贵。一\n次大概有四十到五十人，男女各一半，男生和女生两个人面对面坐着以后，\n有七分钟的时间可以互相谈话，七分钟一到，男生们就站起来换一位新的聊\n天对象，参加活动的人在很短的时间内就可以认识新朋友。\n男：每七分钟就能认识一个人，真快！但是，妳参加以后，真的能找到心目中理\n想的交往对象吗？\n女：我觉得的确可以认识比较多的人，不过，它的缺点是聊天只有短短几分钟，\n无法深入地了解一个人。\n男：不过和在网路上交朋友比起来，快速约会比较安全一点儿，至少是当面聊天，\n可以从讲话的态度、表情，稍微了解对方是个什么样的人。而且我最需要的\n就是能够认识多一点儿女孩子，这种活动很有效率，正好可以满足我的需求。\n女：既然你这么有兴趣，下次有快速约会的活动，我再找你一块儿参加。"
+      },
+      "transcriptVi": "Tiếp theo là cuộc trò chuyện giữa hai người bạn. Vui lòng trả lời ba câu hỏi sau đây sau khi nghe cuộc trò chuyện này:\nBây giờ hãy nghe cuộc trò chuyện này.\nNgười đàn ông: Dạo này tôi bận công việc, thậm chí không có thời gian gặp gỡ các cô gái.\nNgười phụ nữ: Nói mới nhớ, gần đây tôi có tham gia một hoạt động \"hẹn hò tốc độ\". Bạn cũng có thể thử nó. Có lẽ bạn có thể học hỏi từ nó.\nTìm đối tác phù hợp.\nNgười đàn ông: “Hẹn hò tốc độ”? Tôi chưa bao giờ nghe nói về thuật ngữ này.\nNgười phụ nữ: Đây là sự kiện chỉ những người độc thân mới có thể tham gia. Mỗi sự kiện chỉ tốn năm trăm nhân dân tệ, không đắt. một\nLúc đó có khoảng bốn mươi đến năm mươi người, nửa nam nửa nữ. Sau khi các chàng trai và cô gái ngồi đối mặt nhau,\nCó bảy phút để nói chuyện với nhau. Khi hết bảy phút, các chàng trai đứng dậy và tìm người mới để nói chuyện.\nĐó là một sự kiện diễn ra hàng ngày và những người tham gia sự kiện này có thể kết bạn mới trong một khoảng thời gian rất ngắn.\nNgười đàn ông: Cứ bảy phút bạn lại quen một người. Nó nhanh quá! Tuy nhiên, sau khi tham gia, bạn thực sự có thể tìm thấy sự thật trong tâm trí mình\nNgười mà bạn muốn hẹn hò?\nNữ: Tôi nghĩ bạn thực sự có thể làm quen với nhiều người hơn, nhưng nhược điểm là cuộc trò chuyện chỉ kéo dài vài phút.\nKhó có thể hiểu sâu sắc một người.\nNgười đàn ông: Nhưng so với việc kết bạn trực tuyến, hẹn hò tốc độ sẽ an toàn hơn, ít nhất là gặp trực tiếp.\nBạn có thể biết được người kia là người như thế nào từ thái độ và cách diễn đạt trong lời nói của họ. Và điều tôi cần nhất\nTôi chỉ muốn làm quen với nhiều cô gái hơn. Loại hoạt động này rất hiệu quả và đáp ứng được nhu cầu của tôi.\nNgười phụ nữ: Vì bạn rất quan tâm nên lần sau có sự kiện hẹn hò tốc độ, tôi sẽ mời bạn tham gia cùng chúng tôi.",
+      "questionChinese": {
+        "traditional": "這位小姐認為快速約會的缺點是什麼？",
+        "simplified": "这位小姐认为快速约会的缺点是什么？"
+      },
+      "questionVi": "Cô gái trẻ này nghĩ nhược điểm của việc hẹn hò tốc độ là gì?",
+      "optionChinese": {
+        "traditional": [
+          "參加的費用太高",
+          "能夠認識的人很少",
+          "很難真正了解一個人",
+          "認識新朋友要花很長的時間"
+        ],
+        "simplified": [
+          "参加的费用太高",
+          "能够认识的人很少",
+          "很难真正了解一个人",
+          "认识新朋友要花很长的时间"
+        ]
+      },
+      "optionTranslations": [
+        "Chi phí tham gia quá cao",
+        "Rất ít người có thể được biết đến",
+        "Thật khó để thực sự biết ai đó",
+        "Phải mất một thời gian dài để gặp những người mới"
+      ],
+      "evidence": {
+        "traditional": "無法深入地了解一個人",
+        "simplified": "无法深入地了解一个人"
+      },
+      "explanationVi": "Chi tiết “無法深入地了解一個人” trong bài nghe cho thấy Thật khó để thực sự biết ai đó; đây là ý của đáp án C."
+    },
+    "listening-q30": {
+      "number": 30,
+      "correctAnswer": "B",
+      "transcriptChinese": {
+        "traditional": "下面是兩個朋友之間的對話。請你在聽完這段對話後，回答下面三個問題：\n現在請聽這段對話。\n男：這一陣子工作忙，都沒時間認識女孩子。\n女：說到這個，最近我參加了「快速約會」的活動，你也可以試試，說不定能從\n中找到合適的交往對象。\n男：「快速約會」？我沒聽過這個名詞。\n女：這是只有單身的人才能夠參加的活動。每次活動只要五百塊錢，不算貴。一\n次大概有四十到五十人，男女各一半，男生和女生兩個人面對面坐著以後，\n有七分鐘的時間可以互相談話，七分鐘一到，男生們就站起來換一位新的聊\n天對象，參加活動的人在很短的時間內就可以認識新朋友。\n男：每七分鐘就能認識一個人，真快！但是，妳參加以後，真的能找到心目中理\n想的交往對象嗎？\n女：我覺得的確可以認識比較多的人，不過，它的缺點是聊天只有短短幾分鐘，\n無法深入地了解一個人。\n男：不過和在網路上交朋友比起來，快速約會比較安全一點兒，至少是當面聊天，\n可以從講話的態度、表情，稍微了解對方是個什麼樣的人。而且我最需要的\n就是能夠認識多一點兒女孩子，這種活動很有效率，正好可以滿足我的需求。\n女：既然你這麼有興趣，下次有快速約會的活動，我再找你一塊兒參加。",
+        "simplified": "下面是两个朋友之间的对话。请你在听完这段对话后，回答下面三个问题：\n现在请听这段对话。\n男：这一阵子工作忙，都没时间认识女孩子。\n女：说到这个，最近我参加了「快速约会」的活动，你也可以试试，说不定能从\n中找到合适的交往对象。\n男：「快速约会」？我没听过这个名词。\n女：这是只有单身的人才能够参加的活动。每次活动只要五百块钱，不算贵。一\n次大概有四十到五十人，男女各一半，男生和女生两个人面对面坐着以后，\n有七分钟的时间可以互相谈话，七分钟一到，男生们就站起来换一位新的聊\n天对象，参加活动的人在很短的时间内就可以认识新朋友。\n男：每七分钟就能认识一个人，真快！但是，妳参加以后，真的能找到心目中理\n想的交往对象吗？\n女：我觉得的确可以认识比较多的人，不过，它的缺点是聊天只有短短几分钟，\n无法深入地了解一个人。\n男：不过和在网路上交朋友比起来，快速约会比较安全一点儿，至少是当面聊天，\n可以从讲话的态度、表情，稍微了解对方是个什么样的人。而且我最需要的\n就是能够认识多一点儿女孩子，这种活动很有效率，正好可以满足我的需求。\n女：既然你这么有兴趣，下次有快速约会的活动，我再找你一块儿参加。"
+      },
+      "transcriptVi": "Tiếp theo là cuộc trò chuyện giữa hai người bạn. Vui lòng trả lời ba câu hỏi sau đây sau khi nghe cuộc trò chuyện này:\nBây giờ hãy nghe cuộc trò chuyện này.\nNgười đàn ông: Dạo này tôi bận công việc, thậm chí không có thời gian gặp gỡ các cô gái.\nNgười phụ nữ: Nói mới nhớ, gần đây tôi có tham gia một hoạt động \"hẹn hò tốc độ\". Bạn cũng có thể thử nó. Có lẽ bạn có thể học hỏi từ nó.\nTìm đối tác phù hợp.\nNgười đàn ông: “Hẹn hò tốc độ”? Tôi chưa bao giờ nghe nói về thuật ngữ này.\nNgười phụ nữ: Đây là sự kiện chỉ những người độc thân mới có thể tham gia. Mỗi sự kiện chỉ tốn năm trăm nhân dân tệ, không đắt. một\nLúc đó có khoảng bốn mươi đến năm mươi người, nửa nam nửa nữ. Sau khi các chàng trai và cô gái ngồi đối mặt nhau,\nCó bảy phút để nói chuyện với nhau. Khi hết bảy phút, các chàng trai đứng dậy và tìm người mới để nói chuyện.\nĐó là một sự kiện diễn ra hàng ngày và những người tham gia sự kiện này có thể kết bạn mới trong một khoảng thời gian rất ngắn.\nNgười đàn ông: Cứ bảy phút bạn lại quen một người. Nó nhanh quá! Tuy nhiên, sau khi tham gia, bạn thực sự có thể tìm thấy sự thật trong tâm trí mình\nNgười mà bạn muốn hẹn hò?\nNữ: Tôi nghĩ bạn thực sự có thể làm quen với nhiều người hơn, nhưng nhược điểm là cuộc trò chuyện chỉ kéo dài vài phút.\nKhó có thể hiểu sâu sắc một người.\nNgười đàn ông: Nhưng so với việc kết bạn trực tuyến, hẹn hò tốc độ sẽ an toàn hơn, ít nhất là gặp trực tiếp.\nBạn có thể biết được người kia là người như thế nào từ thái độ và cách diễn đạt trong lời nói của họ. Và điều tôi cần nhất\nTôi chỉ muốn làm quen với nhiều cô gái hơn. Loại hoạt động này rất hiệu quả và đáp ứng được nhu cầu của tôi.\nNgười phụ nữ: Vì bạn rất quan tâm nên lần sau có sự kiện hẹn hò tốc độ, tôi sẽ mời bạn tham gia cùng chúng tôi.",
+      "questionChinese": {
+        "traditional": "這位先生覺得快速約會怎麼樣？",
+        "simplified": "这位先生觉得快速约会怎么样？"
+      },
+      "questionVi": "Quý ông này nghĩ gì về việc hẹn hò tốc độ?",
+      "optionChinese": {
+        "traditional": [
+          "沒有效率",
+          "比網路交友安全",
+          "找不到喜歡的對象",
+          "無法認識多一點兒女生"
+        ],
+        "simplified": [
+          "没有效率",
+          "比网路交友安全",
+          "找不到喜欢的对象",
+          "无法认识多一点儿女生"
+        ]
+      },
+      "optionTranslations": [
+        "không hiệu quả",
+        "An toàn hơn hẹn hò trực tuyến",
+        "Không tìm được người mình thích",
+        "Không thể quen nhiều cô gái hơn"
+      ],
+      "evidence": {
+        "traditional": "和在網路上交朋友比起來，快速約會比較安全一點兒",
+        "simplified": "和在网路上交朋友比起来，快速约会比较安全一点儿"
+      },
+      "explanationVi": "Chi tiết “和在網路上交朋友比起來，快速約會比較安全一點兒” trong bài nghe cho thấy An toàn hơn hẹn hò trực tuyến; đây là ý của đáp án B."
+    },
+    "listening-q31": {
+      "number": 31,
+      "correctAnswer": "D",
+      "transcriptChinese": {
+        "traditional": "第二部分 段落\n請聽這一段車站裡的廣播，然後回答下面的問題。\n各位旅客，很抱歉！因為大雨的關係，十二點五十分往台北的一一零號火車\n會晚半個小時到，要坐一一零號車的旅客請在月台上耐心等候。謝謝！",
+        "simplified": "第二部分 段落\n请听这一段车站里的广播，然后回答下面的问题。\n各位旅客，很抱歉！因为大雨的关系，十二点五十分往台北的一一零号火车\n会晚半个小时到，要坐一一零号车的旅客请在月台上耐心等候。谢谢！"
+      },
+      "transcriptVi": "Đoạn 2\nHãy lắng nghe chương trình phát sóng của đài này và trả lời các câu hỏi sau đây.\nKính gửi hành khách, chúng tôi rất tiếc! Do trời mưa to, tàu số 110 đi Đài Bắc lúc 12h50\nNó sẽ đến muộn nửa tiếng. Hành khách muốn đi xe buýt số 110 được yêu cầu kiên nhẫn chờ đợi trên sân ga. Cảm ơn!",
+      "questionChinese": {
+        "traditional": "這段廣播說一一零號車怎麼樣？",
+        "simplified": "这段广播说一一零号车怎么样？"
+      },
+      "questionVi": "Chương trình phát sóng này nói thế nào về chiếc xe số 110?",
+      "optionChinese": {
+        "traditional": [
+          "不開了",
+          "要離開了",
+          "晚一個小時到",
+          "晚三十分鐘到"
+        ],
+        "simplified": [
+          "不开了",
+          "要离开了",
+          "晚一个小时到",
+          "晚三十分钟到"
+        ]
+      },
+      "optionTranslations": [
+        "Không thể mở",
+        "Sắp ra đi",
+        "Đến muộn một tiếng",
+        "Đến muộn ba mươi phút"
+      ],
+      "evidence": {
+        "traditional": "會晚半個小時到",
+        "simplified": "会晚半个小时到"
+      },
+      "explanationVi": "Chi tiết “會晚半個小時到” trong bài nghe cho thấy Đến muộn ba mươi phút; đây là ý của đáp án D."
+    },
+    "listening-q32": {
+      "number": 32,
+      "correctAnswer": "A",
+      "transcriptChinese": {
+        "traditional": "請聽這一段百貨公司的廣播，然後回答下面的問題。\n趕快來！趕快來！只有十分鐘，本公司一樓皮包五折賣出，真皮皮包一個一\n千塊，一個一千塊，買一送一，買一送一，只有十分鐘，現在不買就要等下次囉！",
+        "simplified": "请听这一段百货公司的广播，然后回答下面的问题。\n赶快来！赶快来！只有十分钟，本公司一楼皮包五折卖出，真皮皮包一个一\n千块，一个一千块，买一送一，买一送一，只有十分钟，现在不买就要等下次啰！"
+      },
+      "transcriptVi": "Hãy nghe chương trình phát sóng của cửa hàng bách hóa này và trả lời các câu hỏi bên dưới.\nHãy đến nhanh lên! Hãy đến nhanh lên! Chỉ trong mười phút, công ty chúng tôi đã bán túi da giảm giá 50% ngay tại tầng 1. Túi da thật được bán từng chiếc một.\nMột ngàn tệ, một ngàn tệ mỗi cái, mua một tặng một, mua một tặng một, chỉ mười phút, nếu không mua bây giờ thì phải đợi đến lần sau!",
+      "questionChinese": {
+        "traditional": "如果陳小姐想要兩個皮包，應該給多少錢？",
+        "simplified": "如果陈小姐想要两个皮包，应该给多少钱？"
+      },
+      "questionVi": "Nếu cô Trần muốn hai chiếc túi da thì cô phải trả bao nhiêu tiền?",
+      "optionChinese": {
+        "traditional": [
+          "1000元",
+          "1500元",
+          "2000元",
+          "2500元"
+        ],
+        "simplified": [
+          "1000元",
+          "1500元",
+          "2000元",
+          "2500元"
+        ]
+      },
+      "optionTranslations": [
+        "1000 nhân dân tệ",
+        "1500 nhân dân tệ",
+        "2000 nhân dân tệ",
+        "2500 nhân dân tệ"
+      ],
+      "evidence": {
+        "traditional": "真皮皮包一個一\n千塊，一個一千塊，買一送一",
+        "simplified": "真皮皮包一个一\n千块，一个一千块，买一送一"
+      },
+      "explanationVi": "Chi tiết “真皮皮包一個一\n千塊，一個一千塊，買一送一” trong bài nghe cho thấy 1000 nhân dân tệ; đây là ý của đáp án A."
+    },
+    "listening-q33": {
+      "number": 33,
+      "correctAnswer": "C",
+      "transcriptChinese": {
+        "traditional": "各位同學，今天晚上的新年晚會有很多節目，有法國同學唱法國歌兒，還有\n日本同學跳日本的舞，最特別的是有一位學生要學小鳥叫。最後，老師們會教大\n家唱中國新年的歌兒。",
+        "simplified": "各位同学，今天晚上的新年晚会有很多节目，有法国同学唱法国歌儿，还有\n日本同学跳日本的舞，最特别的是有一位学生要学小鸟叫。最后，老师们会教大\n家唱中国新年的歌儿。"
+      },
+      "transcriptVi": "Các bạn học sinh thân mến, trong bữa tiệc tất niên tối nay sẽ có rất nhiều chương trình, trong đó có học sinh Pháp hát những bài hát tiếng Pháp, và\nCác học sinh Nhật Bản nhảy các điệu múa Nhật Bản, và điều đặc biệt nhất là có một học sinh muốn học cách hót như chim. Cuối cùng giáo viên sẽ dạy học sinh\nGia đình hát những bài hát mừng năm mới của Trung Quốc.",
+      "questionChinese": {
+        "traditional": "這段話說今天的晚會怎麼樣？",
+        "simplified": "这段话说今天的晚会怎么样？"
+      },
+      "questionVi": "Đoạn văn này nói gì về bữa tiệc hôm nay?",
+      "optionChinese": {
+        "traditional": [
+          "有小鳥表演",
+          "有日本歌表演",
+          "有老師教唱歌",
+          "有德國舞表演"
+        ],
+        "simplified": [
+          "有小鸟表演",
+          "有日本歌表演",
+          "有老师教唱歌",
+          "有德国舞表演"
+        ]
+      },
+      "optionTranslations": [
+        "Có buổi biểu diễn chim",
+        "Có buổi biểu diễn ca khúc tiếng Nhật",
+        "Có cô giáo dạy hát",
+        "Có màn biểu diễn múa Đức"
+      ],
+      "evidence": {
+        "traditional": "老師們會教大\n家唱中國新年的歌兒",
+        "simplified": "老师们会教大\n家唱中国新年的歌儿"
+      },
+      "explanationVi": "Chi tiết “老師們會教大\n家唱中國新年的歌兒” trong bài nghe cho thấy Có cô giáo dạy hát; đây là ý của đáp án C."
+    },
+    "listening-q34": {
+      "number": 34,
+      "correctAnswer": "A",
+      "transcriptChinese": {
+        "traditional": "寒假的時候，王先生和家人到日本玩。因為王先生一家人都不會說日本話，\n可是日本人認得漢字，所以他們常常用寫字的方式跟日本人談話。在飯館兒點菜\n的時候，因為不知道日本菜的名字，他們只好看圖片點菜，還好都沒弄錯。",
+        "simplified": "寒假的时候，王先生和家人到日本玩。因为王先生一家人都不会说日本话，\n可是日本人认得汉字，所以他们常常用写字的方式跟日本人谈话。在饭馆儿点菜\n的时候，因为不知道日本菜的名字，他们只好看图片点菜，还好都没弄错。"
+      },
+      "transcriptVi": "Trong kỳ nghỉ đông, ông Vương và gia đình đã tới Nhật Bản. Bởi vì không ai trong gia đình ông Vương có thể nói được tiếng Nhật,\nNhưng người Nhật biết chữ Hán nên họ thường nói chuyện với người Nhật bằng cách viết. Đặt món ăn tại nhà hàng\nKhi gọi đồ ăn, do không biết tên món ăn Nhật nên họ phải nhìn hình để gọi món, và may mắn là họ không nhầm.",
+      "questionChinese": {
+        "traditional": "王先生一家人在日本怎麼點菜？",
+        "simplified": "王先生一家人在日本怎么点菜？"
+      },
+      "questionVi": "Anh Vương và gia đình gọi đồ ăn ở Nhật như thế nào?",
+      "optionChinese": {
+        "traditional": [
+          "看圖片",
+          "看漢字",
+          "寫漢字",
+          "請人幫忙"
+        ],
+        "simplified": [
+          "看图片",
+          "看汉字",
+          "写汉字",
+          "请人帮忙"
+        ]
+      },
+      "optionTranslations": [
+        "Nhìn vào hình ảnh",
+        "Nhìn chữ Hán",
+        "Viết chữ Hán",
+        "Yêu cầu giúp đỡ"
+      ],
+      "evidence": {
+        "traditional": "看圖片點菜",
+        "simplified": "看图片点菜"
+      },
+      "explanationVi": "Chi tiết “看圖片點菜” trong bài nghe cho thấy Nhìn vào hình ảnh; đây là ý của đáp án A."
+    },
+    "listening-q35": {
+      "number": 35,
+      "correctAnswer": "A",
+      "transcriptChinese": {
+        "traditional": "請聽這位老師說的話，然後回答下面的兩個問題。\n同學們，第七課的課文我們已經上完了，你們有三個回家作業，第一是背課\n文，第二是記住這一課全部的生字，第三是在一張練習紙上寫下五個句子。你們\n也要複習第七課，下次一上課，我們就先考第七課的內容。",
+        "simplified": "请听这位老师说的话，然后回答下面的两个问题。\n同学们，第七课的课文我们已经上完了，你们有三个回家作业，第一是背课\n文，第二是记住这一课全部的生字，第三是在一张练习纸上写下五个句子。你们\n也要复习第七课，下次一上课，我们就先考第七课的内容。"
+      },
+      "transcriptVi": "Hãy lắng nghe giáo viên này nói gì và trả lời hai câu hỏi dưới đây.\nCác bạn cùng lớp, chúng ta đã học xong bài thứ bảy. Bạn có ba bài tập về nhà. Đầu tiên là học thuộc lòng bài học.\nThứ hai là ghi nhớ tất cả các từ mới trong bài học này, thứ ba là viết năm câu vào một tờ giấy luyện tập. bạn\nChúng ta cũng cần ôn lại Bài 7. Lần tới khi đến lớp chúng ta sẽ kiểm tra nội dung Bài 7 trước.",
+      "questionChinese": {
+        "traditional": "學生的回家作業是什麼？",
+        "simplified": "学生的回家作业是什么？"
+      },
+      "questionVi": "Bài tập về nhà của học sinh là gì?",
+      "optionChinese": {
+        "traditional": [
+          "背課文",
+          "寫生字",
+          "錄聲音",
+          "查資料"
+        ],
+        "simplified": [
+          "背课文",
+          "写生字",
+          "录声音",
+          "查资料"
+        ]
+      },
+      "optionTranslations": [
+        "Ghi nhớ văn bản",
+        "Phác thảo nhân vật",
+        "Ghi âm",
+        "Kiểm tra thông tin"
+      ],
+      "evidence": {
+        "traditional": "第一是背課\n文",
+        "simplified": "第一是背课\n文"
+      },
+      "explanationVi": "Chi tiết “第一是背課\n文” trong bài nghe cho thấy Ghi nhớ văn bản; đây là ý của đáp án A."
+    },
+    "listening-q36": {
+      "number": 36,
+      "correctAnswer": "D",
+      "transcriptChinese": {
+        "traditional": "請聽這位老師說的話，然後回答下面的兩個問題。\n同學們，第七課的課文我們已經上完了，你們有三個回家作業，第一是背課\n文，第二是記住這一課全部的生字，第三是在一張練習紙上寫下五個句子。你們\n也要複習第七課，下次一上課，我們就先考第七課的內容。",
+        "simplified": "请听这位老师说的话，然后回答下面的两个问题。\n同学们，第七课的课文我们已经上完了，你们有三个回家作业，第一是背课\n文，第二是记住这一课全部的生字，第三是在一张练习纸上写下五个句子。你们\n也要复习第七课，下次一上课，我们就先考第七课的内容。"
+      },
+      "transcriptVi": "Hãy lắng nghe giáo viên này nói gì và trả lời hai câu hỏi dưới đây.\nCác bạn cùng lớp, chúng ta đã học xong bài thứ bảy. Bạn có ba bài tập về nhà. Đầu tiên là học thuộc lòng bài học.\nThứ hai là ghi nhớ tất cả các từ mới trong bài học này, thứ ba là viết năm câu vào một tờ giấy luyện tập. bạn\nChúng ta cũng cần ôn lại Bài 7. Lần tới khi đến lớp chúng ta sẽ kiểm tra nội dung Bài 7 trước.",
+      "questionChinese": {
+        "traditional": "下一次上課，老師要先做什麼？",
+        "simplified": "下一次上课，老师要先做什么？"
+      },
+      "questionVi": "Giáo viên nên làm gì đầu tiên trong buổi học tiếp theo?",
+      "optionChinese": {
+        "traditional": [
+          "教第八課",
+          "複習第六課",
+          "預習第七課",
+          "考學生第七課"
+        ],
+        "simplified": [
+          "教第八课",
+          "复习第六课",
+          "预习第七课",
+          "考学生第七课"
+        ]
+      },
+      "optionTranslations": [
+        "Dạy bài thứ tám",
+        "Ôn tập bài 6",
+        "Xem trước bài học thứ bảy",
+        "Kiểm tra học sinh lớp 7"
+      ],
+      "evidence": {
+        "traditional": "先考第七課的內容",
+        "simplified": "先考第七课的内容"
+      },
+      "explanationVi": "Chi tiết “先考第七課的內容” trong bài nghe cho thấy Kiểm tra học sinh lớp 7; đây là ý của đáp án D."
+    },
+    "listening-q37": {
+      "number": 37,
+      "correctAnswer": "D",
+      "transcriptChinese": {
+        "traditional": "請聽這一段天氣報告，然後回答下面的兩個問題。\n秋天到了，白天的時間越來越短，晚上的時間越來越長，天氣也變得涼一點\n兒，早晚的天氣變化很大，請大家注意。明天是不下雨的好天氣，白天是晴天，\n感覺還是很熱，但是，夜裡風很大，有點兒冷，所以明天出門的時候，別忘了多\n帶一件外套。",
+        "simplified": "请听这一段天气报告，然后回答下面的两个问题。\n秋天到了，白天的时间越来越短，晚上的时间越来越长，天气也变得凉一点\n儿，早晚的天气变化很大，请大家注意。明天是不下雨的好天气，白天是晴天，\n感觉还是很热，但是，夜里风很大，有点儿冷，所以明天出门的时候，别忘了多\n带一件外套。"
+      },
+      "transcriptVi": "Hãy nghe bản tin thời tiết này và trả lời hai câu hỏi dưới đây.\nMùa thu đã đến, ngày trở nên ngắn hơn, đêm trở nên dài hơn và thời tiết trở nên mát mẻ hơn.\nCon ơi thời tiết thay đổi nhiều vào buổi sáng và buổi tối mọi người chú ý nhé. Ngày mai sẽ là một ngày đẹp trời không mưa. Trời sẽ nắng vào ban ngày.\nTrời vẫn rất nóng nhưng ban đêm có nhiều gió và hơi lạnh nên bạn đừng quên chuẩn bị thêm đồ khi ra ngoài vào ngày mai nhé.\nMang theo một chiếc áo khoác.",
+      "questionChinese": {
+        "traditional": "這個季節的天氣怎麼樣？",
+        "simplified": "这个季节的天气怎么样？"
+      },
+      "questionVi": "Thời tiết mùa này thế nào?",
+      "optionChinese": {
+        "traditional": [
+          "天氣變暖和",
+          "白天時間變長",
+          "白天和晚上都變涼了",
+          "一天裡面的天氣變化很大"
+        ],
+        "simplified": [
+          "天气变暖和",
+          "白天时间变长",
+          "白天和晚上都变凉了",
+          "一天里面的天气变化很大"
+        ]
+      },
+      "optionTranslations": [
+        "Thời tiết ngày càng ấm hơn",
+        "Ban ngày trở nên dài hơn",
+        "Trời mát hơn vào ban ngày và ban đêm",
+        "Thời tiết thay đổi rất nhiều trong một ngày"
+      ],
+      "evidence": {
+        "traditional": "早晚的天氣變化很大",
+        "simplified": "早晚的天气变化很大"
+      },
+      "explanationVi": "Chi tiết “早晚的天氣變化很大” trong bài nghe cho thấy Thời tiết thay đổi rất nhiều trong một ngày; đây là ý của đáp án D."
+    },
+    "listening-q38": {
+      "number": 38,
+      "correctAnswer": "A",
+      "transcriptChinese": {
+        "traditional": "請聽這一段天氣報告，然後回答下面的兩個問題。\n秋天到了，白天的時間越來越短，晚上的時間越來越長，天氣也變得涼一點\n兒，早晚的天氣變化很大，請大家注意。明天是不下雨的好天氣，白天是晴天，\n感覺還是很熱，但是，夜裡風很大，有點兒冷，所以明天出門的時候，別忘了多\n帶一件外套。",
+        "simplified": "请听这一段天气报告，然后回答下面的两个问题。\n秋天到了，白天的时间越来越短，晚上的时间越来越长，天气也变得凉一点\n儿，早晚的天气变化很大，请大家注意。明天是不下雨的好天气，白天是晴天，\n感觉还是很热，但是，夜里风很大，有点儿冷，所以明天出门的时候，别忘了多\n带一件外套。"
+      },
+      "transcriptVi": "Hãy nghe bản tin thời tiết này và trả lời hai câu hỏi dưới đây.\nMùa thu đã đến, ngày trở nên ngắn hơn, đêm trở nên dài hơn và thời tiết trở nên mát mẻ hơn.\nCon ơi thời tiết thay đổi nhiều vào buổi sáng và buổi tối mọi người chú ý nhé. Ngày mai sẽ là một ngày đẹp trời không mưa. Trời sẽ nắng vào ban ngày.\nTrời vẫn rất nóng nhưng ban đêm có nhiều gió và hơi lạnh nên bạn đừng quên chuẩn bị thêm đồ khi ra ngoài vào ngày mai nhé.\nMang theo một chiếc áo khoác.",
+      "questionChinese": {
+        "traditional": "明天的天氣怎麼樣？",
+        "simplified": "明天的天气怎么样？"
+      },
+      "questionVi": "Ngày mai thời tiết thế nào?",
+      "optionChinese": {
+        "traditional": [
+          "晴天",
+          "雨天",
+          "陰天",
+          "沒有風"
+        ],
+        "simplified": [
+          "晴天",
+          "雨天",
+          "阴天",
+          "没有风"
+        ]
+      },
+      "optionTranslations": [
+        "Ngày nắng",
+        "Ngày mưa",
+        "Ngày nhiều mây",
+        "Không có gió"
+      ],
+      "evidence": {
+        "traditional": "白天是晴天",
+        "simplified": "白天是晴天"
+      },
+      "explanationVi": "Chi tiết “白天是晴天” trong bài nghe cho thấy Ngày nắng; đây là ý của đáp án A."
+    },
+    "listening-q39": {
+      "number": 39,
+      "correctAnswer": "B",
+      "transcriptChinese": {
+        "traditional": "請聽這一段話，然後回答下面的兩個問題。\n我昨天到動物園參觀，看到了很多動物，有生活在草原上的馬，還有住在森\n林裡的鳥，在水裡游的魚。在這些動物裡面，我最喜歡鳥了，牠們身上有好多種\n顏色，叫聲也很好聽，我覺得鳥兒真是可愛！那裡還有人在擠牛奶，我吃了那邊\n賣的牛奶冰，牛奶冰很好吃！我覺得動物園真好玩，下次我一定還要再來！",
+        "simplified": "请听这一段话，然后回答下面的两个问题。\n我昨天到动物园参观，看到了很多动物，有生活在草原上的马，还有住在森\n林里的鸟，在水里游的鱼。在这些动物里面，我最喜欢鸟了，牠们身上有好多种\n颜色，叫声也很好听，我觉得鸟儿真是可爱！那里还有人在挤牛奶，我吃了那边\n卖的牛奶冰，牛奶冰很好吃！我觉得动物园真好玩，下次我一定还要再来！"
+      },
+      "transcriptVi": "Mời các bạn nghe đoạn văn này và trả lời 2 câu hỏi bên dưới.\nTôi đã đến thăm sở thú ngày hôm qua và thấy nhiều loài động vật, bao gồm cả ngựa sống trên đồng cỏ và ngựa sống trong rừng.\nChim rừng, cá lội nước. Trong số những loài động vật này, tôi thích nhất là loài chim. Họ có nhiều loại\nMàu sắc và âm thanh cũng rất đẹp. Tôi nghĩ rằng những con chim thực sự dễ thương! Ở đó có người vắt sữa bò nên tôi đã ăn ở đó\nSữa đá họ bán rất ngon! Tôi nghĩ sở thú thực sự rất thú vị và tôi chắc chắn sẽ quay lại lần sau!",
+      "questionChinese": {
+        "traditional": "說話的人最喜歡什麼動物？",
+        "simplified": "说话的人最喜欢什么动物？"
+      },
+      "questionVi": "Người nói thích con vật nào nhất?",
+      "optionChinese": {
+        "traditional": [
+          "馬",
+          "鳥",
+          "魚",
+          "牛"
+        ],
+        "simplified": [
+          "马",
+          "鸟",
+          "鱼",
+          "牛"
+        ]
+      },
+      "optionTranslations": [
+        "Ngựa",
+        "Chim",
+        "Cá",
+        "Con bò"
+      ],
+      "evidence": {
+        "traditional": "我最喜歡鳥了",
+        "simplified": "我最喜欢鸟了"
+      },
+      "explanationVi": "Chi tiết “我最喜歡鳥了” trong bài nghe cho thấy Chim; đây là ý của đáp án B."
+    },
+    "listening-q40": {
+      "number": 40,
+      "correctAnswer": "B",
+      "transcriptChinese": {
+        "traditional": "請聽這一段話，然後回答下面的兩個問題。\n我昨天到動物園參觀，看到了很多動物，有生活在草原上的馬，還有住在森\n林裡的鳥，在水裡游的魚。在這些動物裡面，我最喜歡鳥了，牠們身上有好多種\n顏色，叫聲也很好聽，我覺得鳥兒真是可愛！那裡還有人在擠牛奶，我吃了那邊\n賣的牛奶冰，牛奶冰很好吃！我覺得動物園真好玩，下次我一定還要再來！",
+        "simplified": "请听这一段话，然后回答下面的两个问题。\n我昨天到动物园参观，看到了很多动物，有生活在草原上的马，还有住在森\n林里的鸟，在水里游的鱼。在这些动物里面，我最喜欢鸟了，牠们身上有好多种\n颜色，叫声也很好听，我觉得鸟儿真是可爱！那里还有人在挤牛奶，我吃了那边\n卖的牛奶冰，牛奶冰很好吃！我觉得动物园真好玩，下次我一定还要再来！"
+      },
+      "transcriptVi": "Mời các bạn nghe đoạn văn này và trả lời 2 câu hỏi bên dưới.\nTôi đã đến thăm sở thú ngày hôm qua và thấy nhiều loài động vật, bao gồm cả ngựa sống trên đồng cỏ và ngựa sống trong rừng.\nChim rừng, cá lội nước. Trong số những loài động vật này, tôi thích nhất là loài chim. Họ có nhiều loại\nMàu sắc và âm thanh cũng rất đẹp. Tôi nghĩ rằng những con chim thực sự dễ thương! Ở đó có người vắt sữa bò nên tôi đã ăn ở đó\nSữa đá họ bán rất ngon! Tôi nghĩ sở thú thực sự rất thú vị và tôi chắc chắn sẽ quay lại lần sau!",
+      "questionChinese": {
+        "traditional": "說話的人在動物園做了什麼？",
+        "simplified": "说话的人在动物园做了什么？"
+      },
+      "questionVi": "Người nói đã làm gì ở sở thú?",
+      "optionChinese": {
+        "traditional": [
+          "照相",
+          "吃冰",
+          "喝牛奶",
+          "看表演"
+        ],
+        "simplified": [
+          "照相",
+          "吃冰",
+          "喝牛奶",
+          "看表演"
+        ]
+      },
+      "optionTranslations": [
+        "Nhiếp ảnh",
+        "Ăn đá",
+        "Uống sữa",
+        "Xem chương trình"
+      ],
+      "evidence": {
+        "traditional": "我吃了那邊\n賣的牛奶冰",
+        "simplified": "我吃了那边\n卖的牛奶冰"
+      },
+      "explanationVi": "Chi tiết “我吃了那邊\n賣的牛奶冰” trong bài nghe cho thấy Ăn đá; đây là ý của đáp án B."
+    },
+    "listening-q41": {
+      "number": 41,
+      "correctAnswer": "A",
+      "transcriptChinese": {
+        "traditional": "請聽一段醫生對病人說的話，然後回答下面的兩個問題。\n陳先生你一百七十公分高，但是卻有一百公斤重，如果不改變目前的生活習\n慣，你的健康會越來越差。你最好從現在開始，每天運動一個小時，這一個小時\n不必都做一樣的運動，你可以先騎腳踏車騎半個小時，再慢跑半個小時。除了運\n動，還要少吃甜的東西，也不能吃太多肉，要多吃青菜，這麼做才能讓你變健康。",
+        "simplified": "请听一段医生对病人说的话，然后回答下面的两个问题。\n陈先生你一百七十公分高，但是却有一百公斤重，如果不改变目前的生活习\n惯，你的健康会越来越差。你最好从现在开始，每天运动一个小时，这一个小时\n不必都做一样的运动，你可以先骑脚踏车骑半个小时，再慢跑半个小时。除了运\n动，还要少吃甜的东西，也不能吃太多肉，要多吃青菜，这么做才能让你变健康。"
+      },
+      "transcriptVi": "Hãy lắng nghe những gì bác sĩ nói với bệnh nhân và sau đó trả lời hai câu hỏi sau.\nAnh Trần, anh cao 170 cm nhưng nặng 100 kg. Nếu bạn không thay đổi thói quen sinh hoạt hiện tại,\nNếu bạn quen với nó, sức khỏe của bạn sẽ ngày càng tồi tệ hơn. Tốt hơn hết là bạn nên tập thể dục một giờ mỗi ngày kể từ bây giờ, giờ này\nBạn không cần phải thực hiện cùng một bài tập mọi lúc. Đầu tiên bạn có thể đạp xe trong nửa giờ, sau đó chạy bộ trong nửa giờ. Ngoại trừ may mắn\nTập thể dục, ăn ít đồ ngọt, không ăn quá nhiều thịt và ăn nhiều rau. Chỉ bằng cách này, bạn mới có thể trở nên khỏe mạnh.",
+      "questionChinese": {
+        "traditional": "這位先生的身體現在怎麼樣？",
+        "simplified": "这位先生的身体现在怎么样？"
+      },
+      "questionVi": "Hiện tại sức khỏe quý ông này thế nào rồi?",
+      "optionChinese": {
+        "traditional": [
+          "太胖了",
+          "太瘦了",
+          "感冒了",
+          "很健康"
+        ],
+        "simplified": [
+          "太胖了",
+          "太瘦了",
+          "感冒了",
+          "很健康"
+        ]
+      },
+      "optionTranslations": [
+        "Quá béo",
+        "Quá gầy",
+        "Bị cảm lạnh",
+        "Rất khỏe mạnh"
+      ],
+      "evidence": {
+        "traditional": "一百七十公分高，但是卻有一百公斤重",
+        "simplified": "一百七十公分高，但是却有一百公斤重"
+      },
+      "explanationVi": "Chi tiết “一百七十公分高，但是卻有一百公斤重” trong bài nghe cho thấy Quá béo; đây là ý của đáp án A."
+    },
+    "listening-q42": {
+      "number": 42,
+      "correctAnswer": "C",
+      "transcriptChinese": {
+        "traditional": "請聽一段醫生對病人說的話，然後回答下面的兩個問題。\n陳先生你一百七十公分高，但是卻有一百公斤重，如果不改變目前的生活習\n慣，你的健康會越來越差。你最好從現在開始，每天運動一個小時，這一個小時\n不必都做一樣的運動，你可以先騎腳踏車騎半個小時，再慢跑半個小時。除了運\n動，還要少吃甜的東西，也不能吃太多肉，要多吃青菜，這麼做才能讓你變健康。",
+        "simplified": "请听一段医生对病人说的话，然后回答下面的两个问题。\n陈先生你一百七十公分高，但是却有一百公斤重，如果不改变目前的生活习\n惯，你的健康会越来越差。你最好从现在开始，每天运动一个小时，这一个小时\n不必都做一样的运动，你可以先骑脚踏车骑半个小时，再慢跑半个小时。除了运\n动，还要少吃甜的东西，也不能吃太多肉，要多吃青菜，这么做才能让你变健康。"
+      },
+      "transcriptVi": "Hãy lắng nghe những gì bác sĩ nói với bệnh nhân và sau đó trả lời hai câu hỏi sau.\nAnh Trần, anh cao 170 cm nhưng nặng 100 kg. Nếu bạn không thay đổi thói quen sinh hoạt hiện tại,\nNếu bạn quen với nó, sức khỏe của bạn sẽ ngày càng tồi tệ hơn. Tốt hơn hết là bạn nên tập thể dục một giờ mỗi ngày kể từ bây giờ, giờ này\nBạn không cần phải thực hiện cùng một bài tập mọi lúc. Đầu tiên bạn có thể đạp xe trong nửa giờ, sau đó chạy bộ trong nửa giờ. Ngoại trừ may mắn\nTập thể dục, ăn ít đồ ngọt, không ăn quá nhiều thịt và ăn nhiều rau. Chỉ bằng cách này, bạn mới có thể trở nên khỏe mạnh.",
+      "questionChinese": {
+        "traditional": "醫生要這位先生怎麼做？",
+        "simplified": "医生要这位先生怎么做？"
+      },
+      "questionVi": "Bác sĩ muốn quý ông này làm gì?",
+      "optionChinese": {
+        "traditional": [
+          "只能吃豬肉",
+          "少吃酸的東西",
+          "青菜多吃一點兒",
+          "每天運動半小時"
+        ],
+        "simplified": [
+          "只能吃猪肉",
+          "少吃酸的东西",
+          "青菜多吃一点儿",
+          "每天运动半小时"
+        ]
+      },
+      "optionTranslations": [
+        "Chỉ có thể ăn thịt lợn",
+        "Ăn bớt đồ chua",
+        "Ăn nhiều rau hơn",
+        "Tập thể dục nửa giờ mỗi ngày"
+      ],
+      "evidence": {
+        "traditional": "要多吃青菜",
+        "simplified": "要多吃青菜"
+      },
+      "explanationVi": "Chi tiết “要多吃青菜” trong bài nghe cho thấy Ăn nhiều rau hơn; đây là ý của đáp án C."
+    },
+    "listening-q43": {
+      "number": 43,
+      "correctAnswer": "C",
+      "transcriptChinese": {
+        "traditional": "請聽這一段話，然後回答下面的兩個問題。\n大偉想到一家公司上班，今天這家公司的人請他去談談。因為這家公司需要\n有人在公司的網站上用英文寫文章，向外國人介紹公司的產品，所以老闆就問大\n偉的文章寫得怎麼樣。大偉說他大學是念英國文學的，所以這項工作對他來說不\n難。老闆再繼續問了一些問題以後，覺得大偉對工作內容很了解，態度也不錯，\n所以決定先讓他工作三個月，看看他的表現怎麼樣。",
+        "simplified": "请听这一段话，然后回答下面的两个问题。\n大伟想到一家公司上班，今天这家公司的人请他去谈谈。因为这家公司需要\n有人在公司的网站上用英文写文章，向外国人介绍公司的产品，所以老板就问大\n伟的文章写得怎么样。大伟说他大学是念英国文学的，所以这项工作对他来说不\n难。老板再继续问了一些问题以后，觉得大伟对工作内容很了解，态度也不错，\n所以决定先让他工作三个月，看看他的表现怎么样。"
+      },
+      "transcriptVi": "Mời các bạn nghe đoạn văn này và trả lời 2 câu hỏi bên dưới.\nDawei muốn làm việc trong một công ty và những người trong công ty đã yêu cầu anh ấy nói chuyện với anh ấy hôm nay. Bởi vì công ty này cần\nCó người viết bài bằng tiếng Anh trên website của công ty để giới thiệu sản phẩm của công ty với người nước ngoài nên sếp hỏi\nBài viết của bạn được viết như thế nào? David cho biết anh học văn học Anh ở trường đại học nên công việc này không phù hợp với anh.\nKhó. Sau khi sếp hỏi thêm một số câu hỏi, anh cảm thấy Dawei rất hiểu nội dung công việc và có thái độ tốt.\nVì vậy tôi quyết định để anh ấy làm việc trong ba tháng để xem anh ấy thể hiện ra sao.",
+      "questionChinese": {
+        "traditional": "這家公司需要什麼樣的新人？",
+        "simplified": "这家公司需要什么样的新人？"
+      },
+      "questionVi": "Công ty này cần những người mới như thế nào?",
+      "optionChinese": {
+        "traditional": [
+          "會說英語的人",
+          "會讀英國文學的人",
+          "會寫英文文章的人",
+          "會做公司網站的人"
+        ],
+        "simplified": [
+          "会说英语的人",
+          "会读英国文学的人",
+          "会写英文文章的人",
+          "会做公司网站的人"
+        ]
+      },
+      "optionTranslations": [
+        "Những người có thể nói được tiếng Anh",
+        "Người biết đọc văn học Anh",
+        "Người biết viết bài tiếng Anh",
+        "Những người có thể làm trang web công ty"
+      ],
+      "evidence": {
+        "traditional": "在公司的網站上用英文寫文章",
+        "simplified": "在公司的网站上用英文写文章"
+      },
+      "explanationVi": "Chi tiết “在公司的網站上用英文寫文章” trong bài nghe cho thấy Người biết viết bài tiếng Anh; đây là ý của đáp án C."
+    },
+    "listening-q44": {
+      "number": 44,
+      "correctAnswer": "D",
+      "transcriptChinese": {
+        "traditional": "請聽這一段話，然後回答下面的兩個問題。\n大偉想到一家公司上班，今天這家公司的人請他去談談。因為這家公司需要\n有人在公司的網站上用英文寫文章，向外國人介紹公司的產品，所以老闆就問大\n偉的文章寫得怎麼樣。大偉說他大學是念英國文學的，所以這項工作對他來說不\n難。老闆再繼續問了一些問題以後，覺得大偉對工作內容很了解，態度也不錯，\n所以決定先讓他工作三個月，看看他的表現怎麼樣。",
+        "simplified": "请听这一段话，然后回答下面的两个问题。\n大伟想到一家公司上班，今天这家公司的人请他去谈谈。因为这家公司需要\n有人在公司的网站上用英文写文章，向外国人介绍公司的产品，所以老板就问大\n伟的文章写得怎么样。大伟说他大学是念英国文学的，所以这项工作对他来说不\n难。老板再继续问了一些问题以后，觉得大伟对工作内容很了解，态度也不错，\n所以决定先让他工作三个月，看看他的表现怎么样。"
+      },
+      "transcriptVi": "Mời các bạn nghe đoạn văn này và trả lời 2 câu hỏi bên dưới.\nDawei muốn làm việc trong một công ty và những người trong công ty đã yêu cầu anh ấy nói chuyện với anh ấy hôm nay. Bởi vì công ty này cần\nCó người viết bài bằng tiếng Anh trên website của công ty để giới thiệu sản phẩm của công ty với người nước ngoài nên sếp hỏi\nBài viết của bạn được viết như thế nào? David cho biết anh học văn học Anh ở trường đại học nên công việc này không phù hợp với anh.\nKhó. Sau khi sếp hỏi thêm một số câu hỏi, anh cảm thấy Dawei rất hiểu nội dung công việc và có thái độ tốt.\nVì vậy tôi quyết định để anh ấy làm việc trong ba tháng để xem anh ấy thể hiện ra sao.",
+      "questionChinese": {
+        "traditional": "大偉談工作的結果怎麼樣？",
+        "simplified": "大伟谈工作的结果怎么样？"
+      },
+      "questionVi": "Dawei nói về kết quả công việc của mình như thế nào?",
+      "optionChinese": {
+        "traditional": [
+          "老闆沒選他",
+          "老闆還沒決定",
+          "老闆不找人了",
+          "老闆先讓他試試"
+        ],
+        "simplified": [
+          "老板没选他",
+          "老板还没决定",
+          "老板不找人了",
+          "老板先让他试试"
+        ]
+      },
+      "optionTranslations": [
+        "Sếp không chọn anh ấy",
+        "Ông chủ vẫn chưa quyết định",
+        "Ông chủ không tìm ai nữa",
+        "Ông chủ cho anh ta thử trước"
+      ],
+      "evidence": {
+        "traditional": "先讓他工作三個月",
+        "simplified": "先让他工作三个月"
+      },
+      "explanationVi": "Chi tiết “先讓他工作三個月” trong bài nghe cho thấy Ông chủ cho anh ta thử trước; đây là ý của đáp án D."
+    },
+    "listening-q45": {
+      "number": 45,
+      "correctAnswer": "D",
+      "transcriptChinese": {
+        "traditional": "下面是關於睡眠的研究報告。請你聽完報告後，回答下面三個問題：\n現在請聽報告。\n多數人認為每晚應該睡足八個小時，並且必須在晚上十一點以前睡才算正\n確，但其實每個人對於睡眠的需要不同，有人越晚越有精神，有人一大早就起來\n活動，每個人的睡眠是有個別差異的。睡足自己身體所需要的量，才是合適的睡\n眠需要。\n要如何才能了解自己究竟需要睡多久呢？建議可以養成評估白天精神的習\n慣：一覺醒來很有精神為一百分；經過一夜睡眠，但身體的疲勞卻完全無法恢復\n為零分。若評估白天的精神可達自己設定的八十分以上，就代表晚上睡眠的需求\n已被滿足。\n總而言之，睡得多不一定睡得飽，睡得少也不代表睡不好。當找到適合自己\n的睡眠時數以後，就可以在白天擁有好精神，晚上擁有好睡眠。因此，與其說清\n楚到底需要幾個小時的睡眠才健康，倒不如花些時間，觀察自己在白天的時候精\n神、情緒等各方面是否良好及穩定。白天與晚上身體都覺得舒服，就是睡得夠。",
+        "simplified": "下面是关于睡眠的研究报告。请你听完报告后，回答下面三个问题：\n现在请听报告。\n多数人认为每晚应该睡足八个小时，并且必须在晚上十一点以前睡才算正\n确，但其实每个人对于睡眠的需要不同，有人越晚越有精神，有人一大早就起来\n活动，每个人的睡眠是有个别差异的。睡足自己身体所需要的量，才是合适的睡\n眠需要。\n要如何才能了解自己究竟需要睡多久呢？建议可以养成评估白天精神的习\n惯：一觉醒来很有精神为一百分；经过一夜睡眠，但身体的疲劳却完全无法恢复\n为零分。若评估白天的精神可达自己设定的八十分以上，就代表晚上睡眠的需求\n已被满足。\n总而言之，睡得多不一定睡得饱，睡得少也不代表睡不好。当找到适合自己\n的睡眠时数以后，就可以在白天拥有好精神，晚上拥有好睡眠。因此，与其说清\n楚到底需要几个小时的睡眠才健康，倒不如花些时间，观察自己在白天的时候精\n神、情绪等各方面是否良好及稳定。白天与晚上身体都觉得舒服，就是睡得够。"
+      },
+      "transcriptVi": "Dưới đây là báo cáo nghiên cứu về giấc ngủ. Sau khi nghe báo cáo, vui lòng trả lời ba câu hỏi sau:\nBây giờ xin mời nghe báo cáo.\nHầu hết mọi người đều tin rằng bạn nên ngủ 8 tiếng mỗi đêm và phải đi ngủ trước 11 giờ đêm.\nĐúng, nhưng trên thực tế mỗi người đều có nhu cầu ngủ khác nhau. Một số người có nhiều năng lượng hơn khi họ về muộn hơn, trong khi một số người lại dậy sớm vào buổi sáng.\nHoạt động và giấc ngủ khác nhau ở mỗi người. Ngủ đủ giấc là lượng giấc ngủ mà cơ thể bạn cần.\nNhu cầu ngủ.\nLàm thế nào để bạn biết bạn cần ngủ bao nhiêu? Bạn nên phát triển thói quen đánh giá trạng thái tinh thần của mình trong ngày.\nThói quen: sảng khoái 100% khi thức dậy; sau một đêm ngủ, cơ thể bạn hoàn toàn không thể hồi phục sau cơn mệt mỏi\nlà không có điểm. Nếu đánh giá năng lượng ban ngày có thể đạt tới hơn 80 điểm do chính bạn đặt ra, điều đó thể hiện nhu cầu ngủ vào ban đêm.\nđã được hài lòng.\nNói chung, ngủ nhiều không nhất thiết có nghĩa là ngủ ngon và ngủ ít không có nghĩa là ngủ ngon. Khi bạn tìm thấy thứ phù hợp với mình\nSau khi ngủ đủ giờ, bạn có thể có năng lượng dồi dào vào ban ngày và ngủ ngon vào ban đêm. Vì vậy, thay vì làm rõ\nChu cần ngủ bao nhiêu tiếng để khỏe mạnh? Tốt hơn là bạn nên dành chút thời gian quan sát giấc ngủ của mình trong ngày.\nLiệu mọi khía cạnh trong tâm trí và tâm trạng của bạn có tốt và ổn định hay không. Cơ thể tôi cảm thấy thoải mái cả ngày lẫn đêm, miễn là tôi ngủ đủ giấc.",
+      "questionChinese": {
+        "traditional": "說話的人認為什麼才是合適的睡眠？",
+        "simplified": "说话的人认为什么才是合适的睡眠？"
+      },
+      "questionVi": "Người nói nghĩ thế nào là giấc ngủ thích hợp?",
+      "optionChinese": {
+        "traditional": [
+          "每天睡覺八小時",
+          "早上早點兒起床",
+          "在晚上十一點以前睡覺",
+          "能滿足身體的睡眠需求"
+        ],
+        "simplified": [
+          "每天睡觉八小时",
+          "早上早点儿起床",
+          "在晚上十一点以前睡觉",
+          "能满足身体的睡眠需求"
+        ]
+      },
+      "optionTranslations": [
+        "ngủ tám tiếng một ngày",
+        "Thức dậy sớm vào buổi sáng",
+        "Đi ngủ trước 11h đêm",
+        "Đáp ứng nhu cầu ngủ của cơ thể"
+      ],
+      "evidence": {
+        "traditional": "睡足自己身體所需要的量",
+        "simplified": "睡足自己身体所需要的量"
+      },
+      "explanationVi": "Chi tiết “睡足自己身體所需要的量” trong bài nghe cho thấy Đáp ứng nhu cầu ngủ của cơ thể; đây là ý của đáp án D."
+    },
+    "listening-q46": {
+      "number": 46,
+      "correctAnswer": "A",
+      "transcriptChinese": {
+        "traditional": "下面是關於睡眠的研究報告。請你聽完報告後，回答下面三個問題：\n現在請聽報告。\n多數人認為每晚應該睡足八個小時，並且必須在晚上十一點以前睡才算正\n確，但其實每個人對於睡眠的需要不同，有人越晚越有精神，有人一大早就起來\n活動，每個人的睡眠是有個別差異的。睡足自己身體所需要的量，才是合適的睡\n眠需要。\n要如何才能了解自己究竟需要睡多久呢？建議可以養成評估白天精神的習\n慣：一覺醒來很有精神為一百分；經過一夜睡眠，但身體的疲勞卻完全無法恢復\n為零分。若評估白天的精神可達自己設定的八十分以上，就代表晚上睡眠的需求\n已被滿足。\n總而言之，睡得多不一定睡得飽，睡得少也不代表睡不好。當找到適合自己\n的睡眠時數以後，就可以在白天擁有好精神，晚上擁有好睡眠。因此，與其說清\n楚到底需要幾個小時的睡眠才健康，倒不如花些時間，觀察自己在白天的時候精\n神、情緒等各方面是否良好及穩定。白天與晚上身體都覺得舒服，就是睡得夠。",
+        "simplified": "下面是关于睡眠的研究报告。请你听完报告后，回答下面三个问题：\n现在请听报告。\n多数人认为每晚应该睡足八个小时，并且必须在晚上十一点以前睡才算正\n确，但其实每个人对于睡眠的需要不同，有人越晚越有精神，有人一大早就起来\n活动，每个人的睡眠是有个别差异的。睡足自己身体所需要的量，才是合适的睡\n眠需要。\n要如何才能了解自己究竟需要睡多久呢？建议可以养成评估白天精神的习\n惯：一觉醒来很有精神为一百分；经过一夜睡眠，但身体的疲劳却完全无法恢复\n为零分。若评估白天的精神可达自己设定的八十分以上，就代表晚上睡眠的需求\n已被满足。\n总而言之，睡得多不一定睡得饱，睡得少也不代表睡不好。当找到适合自己\n的睡眠时数以后，就可以在白天拥有好精神，晚上拥有好睡眠。因此，与其说清\n楚到底需要几个小时的睡眠才健康，倒不如花些时间，观察自己在白天的时候精\n神、情绪等各方面是否良好及稳定。白天与晚上身体都觉得舒服，就是睡得够。"
+      },
+      "transcriptVi": "Dưới đây là báo cáo nghiên cứu về giấc ngủ. Sau khi nghe báo cáo, vui lòng trả lời ba câu hỏi sau:\nBây giờ xin mời nghe báo cáo.\nHầu hết mọi người đều tin rằng bạn nên ngủ 8 tiếng mỗi đêm và phải đi ngủ trước 11 giờ đêm.\nĐúng, nhưng trên thực tế mỗi người đều có nhu cầu ngủ khác nhau. Một số người có nhiều năng lượng hơn khi họ về muộn hơn, trong khi một số người lại dậy sớm vào buổi sáng.\nHoạt động và giấc ngủ khác nhau ở mỗi người. Ngủ đủ giấc là lượng giấc ngủ mà cơ thể bạn cần.\nNhu cầu ngủ.\nLàm thế nào để bạn biết bạn cần ngủ bao nhiêu? Bạn nên phát triển thói quen đánh giá trạng thái tinh thần của mình trong ngày.\nThói quen: sảng khoái 100% khi thức dậy; sau một đêm ngủ, cơ thể bạn hoàn toàn không thể hồi phục sau cơn mệt mỏi\nlà không có điểm. Nếu đánh giá năng lượng ban ngày có thể đạt tới hơn 80 điểm do chính bạn đặt ra, điều đó thể hiện nhu cầu ngủ vào ban đêm.\nđã được hài lòng.\nNói chung, ngủ nhiều không nhất thiết có nghĩa là ngủ ngon và ngủ ít không có nghĩa là ngủ ngon. Khi bạn tìm thấy thứ phù hợp với mình\nSau khi ngủ đủ giờ, bạn có thể có năng lượng dồi dào vào ban ngày và ngủ ngon vào ban đêm. Vì vậy, thay vì làm rõ\nChu cần ngủ bao nhiêu tiếng để khỏe mạnh? Tốt hơn là bạn nên dành chút thời gian quan sát giấc ngủ của mình trong ngày.\nLiệu mọi khía cạnh trong tâm trí và tâm trạng của bạn có tốt và ổn định hay không. Cơ thể tôi cảm thấy thoải mái cả ngày lẫn đêm, miễn là tôi ngủ đủ giấc.",
+      "questionChinese": {
+        "traditional": "我們可以根據哪件事知道自己究竟需要睡多久才夠？",
+        "simplified": "我们可以根据哪件事知道自己究竟需要睡多久才够？"
+      },
+      "questionVi": "Làm sao chúng ta có thể biết mình cần ngủ bao nhiêu?",
+      "optionChinese": {
+        "traditional": [
+          "白天的精神狀況",
+          "白天活動的時間",
+          "晚上是否需要工作",
+          "晚上幾點上床睡覺"
+        ],
+        "simplified": [
+          "白天的精神状况",
+          "白天活动的时间",
+          "晚上是否需要工作",
+          "晚上几点上床睡觉"
+        ]
+      },
+      "optionTranslations": [
+        "trạng thái tinh thần trong ngày",
+        "Thời gian hoạt động ban ngày",
+        "Bạn có cần phải làm việc vào ban đêm?",
+        "Buổi tối mấy giờ bạn đi ngủ?"
+      ],
+      "evidence": {
+        "traditional": "評估白天的精神",
+        "simplified": "评估白天的精神"
+      },
+      "explanationVi": "Chi tiết “評估白天的精神” trong bài nghe cho thấy trạng thái tinh thần trong ngày; đây là ý của đáp án A."
+    },
+    "listening-q47": {
+      "number": 47,
+      "correctAnswer": "C",
+      "transcriptChinese": {
+        "traditional": "下面是關於睡眠的研究報告。請你聽完報告後，回答下面三個問題：\n現在請聽報告。\n多數人認為每晚應該睡足八個小時，並且必須在晚上十一點以前睡才算正\n確，但其實每個人對於睡眠的需要不同，有人越晚越有精神，有人一大早就起來\n活動，每個人的睡眠是有個別差異的。睡足自己身體所需要的量，才是合適的睡\n眠需要。\n要如何才能了解自己究竟需要睡多久呢？建議可以養成評估白天精神的習\n慣：一覺醒來很有精神為一百分；經過一夜睡眠，但身體的疲勞卻完全無法恢復\n為零分。若評估白天的精神可達自己設定的八十分以上，就代表晚上睡眠的需求\n已被滿足。\n總而言之，睡得多不一定睡得飽，睡得少也不代表睡不好。當找到適合自己\n的睡眠時數以後，就可以在白天擁有好精神，晚上擁有好睡眠。因此，與其說清\n楚到底需要幾個小時的睡眠才健康，倒不如花些時間，觀察自己在白天的時候精\n神、情緒等各方面是否良好及穩定。白天與晚上身體都覺得舒服，就是睡得夠。",
+        "simplified": "下面是关于睡眠的研究报告。请你听完报告后，回答下面三个问题：\n现在请听报告。\n多数人认为每晚应该睡足八个小时，并且必须在晚上十一点以前睡才算正\n确，但其实每个人对于睡眠的需要不同，有人越晚越有精神，有人一大早就起来\n活动，每个人的睡眠是有个别差异的。睡足自己身体所需要的量，才是合适的睡\n眠需要。\n要如何才能了解自己究竟需要睡多久呢？建议可以养成评估白天精神的习\n惯：一觉醒来很有精神为一百分；经过一夜睡眠，但身体的疲劳却完全无法恢复\n为零分。若评估白天的精神可达自己设定的八十分以上，就代表晚上睡眠的需求\n已被满足。\n总而言之，睡得多不一定睡得饱，睡得少也不代表睡不好。当找到适合自己\n的睡眠时数以后，就可以在白天拥有好精神，晚上拥有好睡眠。因此，与其说清\n楚到底需要几个小时的睡眠才健康，倒不如花些时间，观察自己在白天的时候精\n神、情绪等各方面是否良好及稳定。白天与晚上身体都觉得舒服，就是睡得够。"
+      },
+      "transcriptVi": "Dưới đây là báo cáo nghiên cứu về giấc ngủ. Sau khi nghe báo cáo, vui lòng trả lời ba câu hỏi sau:\nBây giờ xin mời nghe báo cáo.\nHầu hết mọi người đều tin rằng bạn nên ngủ 8 tiếng mỗi đêm và phải đi ngủ trước 11 giờ đêm.\nĐúng, nhưng trên thực tế mỗi người đều có nhu cầu ngủ khác nhau. Một số người có nhiều năng lượng hơn khi họ về muộn hơn, trong khi một số người lại dậy sớm vào buổi sáng.\nHoạt động và giấc ngủ khác nhau ở mỗi người. Ngủ đủ giấc là lượng giấc ngủ mà cơ thể bạn cần.\nNhu cầu ngủ.\nLàm thế nào để bạn biết bạn cần ngủ bao nhiêu? Bạn nên phát triển thói quen đánh giá trạng thái tinh thần của mình trong ngày.\nThói quen: sảng khoái 100% khi thức dậy; sau một đêm ngủ, cơ thể bạn hoàn toàn không thể hồi phục sau cơn mệt mỏi\nlà không có điểm. Nếu đánh giá năng lượng ban ngày có thể đạt tới hơn 80 điểm do chính bạn đặt ra, điều đó thể hiện nhu cầu ngủ vào ban đêm.\nđã được hài lòng.\nNói chung, ngủ nhiều không nhất thiết có nghĩa là ngủ ngon và ngủ ít không có nghĩa là ngủ ngon. Khi bạn tìm thấy thứ phù hợp với mình\nSau khi ngủ đủ giờ, bạn có thể có năng lượng dồi dào vào ban ngày và ngủ ngon vào ban đêm. Vì vậy, thay vì làm rõ\nChu cần ngủ bao nhiêu tiếng để khỏe mạnh? Tốt hơn là bạn nên dành chút thời gian quan sát giấc ngủ của mình trong ngày.\nLiệu mọi khía cạnh trong tâm trí và tâm trạng của bạn có tốt và ổn định hay không. Cơ thể tôi cảm thấy thoải mái cả ngày lẫn đêm, miễn là tôi ngủ đủ giấc.",
+      "questionChinese": {
+        "traditional": "這段報告的結論是什麼？",
+        "simplified": "这段报告的结论是什么？"
+      },
+      "questionVi": "Kết luận của báo cáo này là gì?",
+      "optionChinese": {
+        "traditional": [
+          "睡得多就是睡得飽",
+          "睡得少代表睡不好",
+          "多觀察自己的身體狀態",
+          "必須睡滿一定的時數才算健康"
+        ],
+        "simplified": [
+          "睡得多就是睡得饱",
+          "睡得少代表睡不好",
+          "多观察自己的身体状态",
+          "必须睡满一定的时数才算健康"
+        ]
+      },
+      "optionTranslations": [
+        "Càng ngủ nhiều thì càng ngủ nhiều.",
+        "Ngủ ít nghĩa là ngủ kém",
+        "Chú ý hơn đến tình trạng thể chất của bạn",
+        "Bạn phải ngủ một số giờ nhất định để được coi là khỏe mạnh"
+      ],
+      "evidence": {
+        "traditional": "觀察自己在白天的時候精\n神、情緒等各方面是否良好及穩定",
+        "simplified": "观察自己在白天的时候精\n神、情绪等各方面是否良好及稳定"
+      },
+      "explanationVi": "Chi tiết “觀察自己在白天的時候精\n神、情緒等各方面是否良好及穩定” trong bài nghe cho thấy Chú ý hơn đến tình trạng thể chất của bạn; đây là ý của đáp án C."
+    },
+    "listening-q48": {
+      "number": 48,
+      "correctAnswer": "A",
+      "transcriptChinese": {
+        "traditional": "下面是一則關於自行車的新聞報導。請你聽完這則報導後，回答下面三個問題：\n具？\n現在請聽報導。\n自行車是一種環保的交通工具，但是如何鼓勵民眾少開車、多騎自行車，卻\n是每個關心環境的都市計劃人員傷腦筋的課題。越來越多的研究顯示，增加自行\n車人口的最佳策略，就是找出究竟女性需要什麼？一位大學講師發表過幾篇關於\n騎自行車與性別差異的研究報告，她表示：「如果你想知道都市環境適不適合騎\n自行車，只需要計算自行車人口中的女性比例就行了，騎自行車的女性越多，就\n表示這個都市越適合騎自行車。」\n而女性被視為衡量都市環境是否適合騎自行車的標準，背後原因是來自於女\n性比男性傾向避免任何冒險的行為，也就是說，得有更安全的自行車環境，女性\n朋友才願意騎自行車上路。此外，女性通常得負責大部分照顧小孩子與購買生活\n用品的工作，這也表示規劃自行車道路的時候，必須經過城市內生活機能較高的\n區域，這也是說，設計自行車道路的路線，應該讓路線通往超級市場、學校或托\n兒所等實用的目的地，才能有效提升自行車使用率。",
+        "simplified": "下面是一则关于自行车的新闻报导。请你听完这则报导后，回答下面三个问题：\n具？\n现在请听报导。\n自行车是一种环保的交通工具，但是如何鼓励民众少开车、多骑自行车，却\n是每个关心环境的都市计划人员伤脑筋的课题。越来越多的研究显示，增加自行\n车人口的最佳策略，就是找出究竟女性需要什么？一位大学讲师发表过几篇关于\n骑自行车与性别差异的研究报告，她表示：「如果你想知道都市环境适不适合骑\n自行车，只需要计算自行车人口中的女性比例就行了，骑自行车的女性越多，就\n表示这个都市越适合骑自行车。」\n而女性被视为衡量都市环境是否适合骑自行车的标准，背后原因是来自于女\n性比男性倾向避免任何冒险的行为，也就是说，得有更安全的自行车环境，女性\n朋友才愿意骑自行车上路。此外，女性通常得负责大部分照顾小孩子与购买生活\n用品的工作，这也表示规划自行车道路的时候，必须经过城市内生活机能较高的\n区域，这也是说，设计自行车道路的路线，应该让路线通往超级市场、学校或托\n儿所等实用的目的地，才能有效提升自行车使用率。"
+      },
+      "transcriptVi": "Dưới đây là bản tin về xe đạp. Sau khi nghe báo cáo này, vui lòng trả lời ba câu hỏi sau:\nCông cụ?\nBây giờ xin mời nghe báo cáo.\nXe đạp là phương tiện giao thông thân thiện với môi trường nhưng làm thế nào để khuyến khích người dân bớt đi xe đạp và đi xe đạp nhiều hơn vẫn còn khó khăn.\nĐây là một chủ đề gây rắc rối cho mọi nhà quy hoạch đô thị quan tâm đến môi trường. Ngày càng có nhiều nghiên cứu cho thấy rằng việc tăng cường xe tự hành\nChiến lược tốt nhất cho nhân khẩu học về ô tô là tìm hiểu xem chính xác phụ nữ cần gì? Một giảng viên đại học đã xuất bản một số bài viết về\nBáo cáo nghiên cứu về việc đi xe đạp và sự khác biệt về giới tính, bà cho biết: “Nếu bạn muốn biết liệu môi trường đô thị có phù hợp để đi xe đạp hay không,\nĐối với xe đạp, bạn chỉ cần tính tỷ lệ phụ nữ trong số người đi xe đạp. Càng có nhiều phụ nữ đi xe đạp thì\nĐiều đó có nghĩa là thành phố này thích hợp hơn cho việc đi xe đạp. \"\nPhụ nữ được coi là tiêu chuẩn để đánh giá xem môi trường đô thị có phù hợp cho việc đi xe đạp hay không. Lý do đằng sau điều này là phụ nữ\nPhụ nữ có xu hướng tránh mọi hành vi nguy hiểm hơn nam giới, điều đó có nghĩa là để có môi trường đạp xe an toàn hơn, phụ nữ\nChỉ có bạn bè mới sẵn sàng đi xe đạp trên đường. Ngoài ra, phụ nữ thường chịu trách nhiệm về hầu hết việc chăm sóc trẻ em và mua sắm.\nĐiều này cũng có nghĩa là khi quy hoạch đường dành cho xe đạp phải đi qua những khu vực có chức năng sinh hoạt cao hơn trong thành phố.\nkhu vực, có nghĩa là tuyến đường dành cho xe đạp phải được thiết kế sao cho tuyến đường dẫn đến siêu thị, trường học hoặc nhà trẻ\nCác điểm đến thiết thực như vườn ươm có thể tăng cường sử dụng xe đạp một cách hiệu quả.",
+      "questionChinese": {
+        "traditional": "這則報導主要在說明什麼？",
+        "simplified": "这则报导主要在说明什么？"
+      },
+      "questionVi": "Báo cáo này chủ yếu minh họa điều gì?",
+      "optionChinese": {
+        "traditional": [
+          "性別和自行車的關係",
+          "自行車專用道路的必要性",
+          "自行車作為交通工具的比例",
+          "自行車被視為環保工具的原因"
+        ],
+        "simplified": [
+          "性别和自行车的关系",
+          "自行车专用道路的必要性",
+          "自行车作为交通工具的比例",
+          "自行车被视为环保工具的原因"
+        ]
+      },
+      "optionTranslations": [
+        "Mối liên hệ giữa giới tính và việc đi xe đạp",
+        "Sự cần thiết của đường dành riêng cho xe đạp",
+        "Sử dụng xe đạp làm phương tiện di chuyển",
+        "Lý do xe đạp được coi là công cụ thân thiện với môi trường"
+      ],
+      "evidence": {
+        "traditional": "騎自行車與性別差異的研究報告",
+        "simplified": "骑自行车与性别差异的研究报告"
+      },
+      "explanationVi": "Chi tiết “騎自行車與性別差異的研究報告” trong bài nghe cho thấy Mối liên hệ giữa giới tính và việc đi xe đạp; đây là ý của đáp án A."
+    },
+    "listening-q49": {
+      "number": 49,
+      "correctAnswer": "C",
+      "transcriptChinese": {
+        "traditional": "下面是一則關於自行車的新聞報導。請你聽完這則報導後，回答下面三個問題：\n具？\n現在請聽報導。\n自行車是一種環保的交通工具，但是如何鼓勵民眾少開車、多騎自行車，卻\n是每個關心環境的都市計劃人員傷腦筋的課題。越來越多的研究顯示，增加自行\n車人口的最佳策略，就是找出究竟女性需要什麼？一位大學講師發表過幾篇關於\n騎自行車與性別差異的研究報告，她表示：「如果你想知道都市環境適不適合騎\n自行車，只需要計算自行車人口中的女性比例就行了，騎自行車的女性越多，就\n表示這個都市越適合騎自行車。」\n而女性被視為衡量都市環境是否適合騎自行車的標準，背後原因是來自於女\n性比男性傾向避免任何冒險的行為，也就是說，得有更安全的自行車環境，女性\n朋友才願意騎自行車上路。此外，女性通常得負責大部分照顧小孩子與購買生活\n用品的工作，這也表示規劃自行車道路的時候，必須經過城市內生活機能較高的\n區域，這也是說，設計自行車道路的路線，應該讓路線通往超級市場、學校或托\n兒所等實用的目的地，才能有效提升自行車使用率。\n根據報導，我們可以從哪方面知道一座城市很適合把自行車當作主要交通工",
+        "simplified": "下面是一则关于自行车的新闻报导。请你听完这则报导后，回答下面三个问题：\n具？\n现在请听报导。\n自行车是一种环保的交通工具，但是如何鼓励民众少开车、多骑自行车，却\n是每个关心环境的都市计划人员伤脑筋的课题。越来越多的研究显示，增加自行\n车人口的最佳策略，就是找出究竟女性需要什么？一位大学讲师发表过几篇关于\n骑自行车与性别差异的研究报告，她表示：「如果你想知道都市环境适不适合骑\n自行车，只需要计算自行车人口中的女性比例就行了，骑自行车的女性越多，就\n表示这个都市越适合骑自行车。」\n而女性被视为衡量都市环境是否适合骑自行车的标准，背后原因是来自于女\n性比男性倾向避免任何冒险的行为，也就是说，得有更安全的自行车环境，女性\n朋友才愿意骑自行车上路。此外，女性通常得负责大部分照顾小孩子与购买生活\n用品的工作，这也表示规划自行车道路的时候，必须经过城市内生活机能较高的\n区域，这也是说，设计自行车道路的路线，应该让路线通往超级市场、学校或托\n儿所等实用的目的地，才能有效提升自行车使用率。\n根据报导，我们可以从哪方面知道一座城市很适合把自行车当作主要交通工"
+      },
+      "transcriptVi": "Dưới đây là bản tin về xe đạp. Sau khi nghe báo cáo này, vui lòng trả lời ba câu hỏi sau:\nCông cụ?\nBây giờ xin mời nghe báo cáo.\nXe đạp là phương tiện giao thông thân thiện với môi trường nhưng làm thế nào để khuyến khích người dân bớt đi xe đạp và đi xe đạp nhiều hơn vẫn còn khó khăn.\nĐây là một chủ đề gây rắc rối cho mọi nhà quy hoạch đô thị quan tâm đến môi trường. Ngày càng có nhiều nghiên cứu cho thấy rằng việc tăng cường xe tự hành\nChiến lược tốt nhất cho nhân khẩu học về ô tô là tìm hiểu xem chính xác phụ nữ cần gì? Một giảng viên đại học đã xuất bản một số bài viết về\nBáo cáo nghiên cứu về việc đi xe đạp và sự khác biệt về giới tính, bà cho biết: “Nếu bạn muốn biết liệu môi trường đô thị có phù hợp để đi xe đạp hay không,\nĐối với xe đạp, bạn chỉ cần tính tỷ lệ phụ nữ trong số người đi xe đạp. Càng có nhiều phụ nữ đi xe đạp thì\nĐiều đó có nghĩa là thành phố này thích hợp hơn cho việc đi xe đạp. \"\nPhụ nữ được coi là tiêu chuẩn để đánh giá xem môi trường đô thị có phù hợp cho việc đi xe đạp hay không. Lý do đằng sau điều này là phụ nữ\nPhụ nữ có xu hướng tránh mọi hành vi nguy hiểm hơn nam giới, điều đó có nghĩa là để có môi trường đạp xe an toàn hơn, phụ nữ\nChỉ có bạn bè mới sẵn sàng đi xe đạp trên đường. Ngoài ra, phụ nữ thường chịu trách nhiệm về hầu hết việc chăm sóc trẻ em và mua sắm.\nĐiều này cũng có nghĩa là khi quy hoạch đường dành cho xe đạp phải đi qua những khu vực có chức năng sinh hoạt cao hơn trong thành phố.\nkhu vực, có nghĩa là tuyến đường dành cho xe đạp phải được thiết kế sao cho tuyến đường dẫn đến siêu thị, trường học hoặc nhà trẻ\nCác điểm đến thiết thực như vườn ươm có thể tăng cường sử dụng xe đạp một cách hiệu quả.\nTheo các báo cáo, làm thế nào chúng ta có thể biết được một thành phố có phù hợp để sử dụng xe đạp làm phương tiện di chuyển chính không?",
+      "questionChinese": {
+        "traditional": "根據報導，我們可以從哪方面知道一座城市很適合把自行車當作主要交通工具？",
+        "simplified": "根据报道，我们可以从哪方面知道一座城市很适合把自行车当作主要交通工具？"
+      },
+      "questionVi": "Theo bài báo, căn cứ vào đâu để biết một thành phố thích hợp dùng xe đạp làm phương tiện đi lại chính?",
+      "optionChinese": {
+        "traditional": [
+          "私人汽車的數量",
+          "購買自行車的人數",
+          "騎自行車的女性人口",
+          "專為自行車設計的道路數量"
+        ],
+        "simplified": [
+          "私人汽车的数量",
+          "购买自行车的人数",
+          "骑自行车的女性人口",
+          "专为自行车设计的道路数量"
+        ]
+      },
+      "optionTranslations": [
+        "Số lượng ô tô cá nhân",
+        "Số người mua xe đạp",
+        "Dân số nữ đi xe đạp",
+        "Số đường dành cho xe đạp"
+      ],
+      "evidence": {
+        "traditional": "騎自行車的女性越多，就\n表示這個都市越適合騎自行車",
+        "simplified": "骑自行车的女性越多，就\n表示这个都市越适合骑自行车"
+      },
+      "explanationVi": "Chi tiết “騎自行車的女性越多，就\n表示這個都市越適合騎自行車” trong bài nghe cho thấy Dân số nữ đi xe đạp; đây là ý của đáp án C."
+    },
+    "listening-q50": {
+      "number": 50,
+      "correctAnswer": "D",
+      "transcriptChinese": {
+        "traditional": "下面是一則關於自行車的新聞報導。請你聽完這則報導後，回答下面三個問題：\n具？\n現在請聽報導。\n自行車是一種環保的交通工具，但是如何鼓勵民眾少開車、多騎自行車，卻\n是每個關心環境的都市計劃人員傷腦筋的課題。越來越多的研究顯示，增加自行\n車人口的最佳策略，就是找出究竟女性需要什麼？一位大學講師發表過幾篇關於\n騎自行車與性別差異的研究報告，她表示：「如果你想知道都市環境適不適合騎\n自行車，只需要計算自行車人口中的女性比例就行了，騎自行車的女性越多，就\n表示這個都市越適合騎自行車。」\n而女性被視為衡量都市環境是否適合騎自行車的標準，背後原因是來自於女\n性比男性傾向避免任何冒險的行為，也就是說，得有更安全的自行車環境，女性\n朋友才願意騎自行車上路。此外，女性通常得負責大部分照顧小孩子與購買生活\n用品的工作，這也表示規劃自行車道路的時候，必須經過城市內生活機能較高的\n區域，這也是說，設計自行車道路的路線，應該讓路線通往超級市場、學校或托\n兒所等實用的目的地，才能有效提升自行車使用率。",
+        "simplified": "下面是一则关于自行车的新闻报导。请你听完这则报导后，回答下面三个问题：\n具？\n现在请听报导。\n自行车是一种环保的交通工具，但是如何鼓励民众少开车、多骑自行车，却\n是每个关心环境的都市计划人员伤脑筋的课题。越来越多的研究显示，增加自行\n车人口的最佳策略，就是找出究竟女性需要什么？一位大学讲师发表过几篇关于\n骑自行车与性别差异的研究报告，她表示：「如果你想知道都市环境适不适合骑\n自行车，只需要计算自行车人口中的女性比例就行了，骑自行车的女性越多，就\n表示这个都市越适合骑自行车。」\n而女性被视为衡量都市环境是否适合骑自行车的标准，背后原因是来自于女\n性比男性倾向避免任何冒险的行为，也就是说，得有更安全的自行车环境，女性\n朋友才愿意骑自行车上路。此外，女性通常得负责大部分照顾小孩子与购买生活\n用品的工作，这也表示规划自行车道路的时候，必须经过城市内生活机能较高的\n区域，这也是说，设计自行车道路的路线，应该让路线通往超级市场、学校或托\n儿所等实用的目的地，才能有效提升自行车使用率。"
+      },
+      "transcriptVi": "Dưới đây là bản tin về xe đạp. Sau khi nghe báo cáo này, vui lòng trả lời ba câu hỏi sau:\nCông cụ?\nBây giờ xin mời nghe báo cáo.\nXe đạp là phương tiện giao thông thân thiện với môi trường nhưng làm thế nào để khuyến khích người dân bớt đi xe đạp và đi xe đạp nhiều hơn vẫn còn khó khăn.\nĐây là một chủ đề gây rắc rối cho mọi nhà quy hoạch đô thị quan tâm đến môi trường. Ngày càng có nhiều nghiên cứu cho thấy rằng việc tăng cường xe tự hành\nChiến lược tốt nhất cho nhân khẩu học về ô tô là tìm hiểu xem chính xác phụ nữ cần gì? Một giảng viên đại học đã xuất bản một số bài viết về\nBáo cáo nghiên cứu về việc đi xe đạp và sự khác biệt về giới tính, bà cho biết: “Nếu bạn muốn biết liệu môi trường đô thị có phù hợp để đi xe đạp hay không,\nĐối với xe đạp, bạn chỉ cần tính tỷ lệ phụ nữ trong số người đi xe đạp. Càng có nhiều phụ nữ đi xe đạp thì\nĐiều đó có nghĩa là thành phố này thích hợp hơn cho việc đi xe đạp. \"\nPhụ nữ được coi là tiêu chuẩn để đánh giá xem môi trường đô thị có phù hợp cho việc đi xe đạp hay không. Lý do đằng sau điều này là phụ nữ\nPhụ nữ có xu hướng tránh mọi hành vi nguy hiểm hơn nam giới, điều đó có nghĩa là để có môi trường đạp xe an toàn hơn, phụ nữ\nChỉ có bạn bè mới sẵn sàng đi xe đạp trên đường. Ngoài ra, phụ nữ thường chịu trách nhiệm về hầu hết việc chăm sóc trẻ em và mua sắm.\nĐiều này cũng có nghĩa là khi quy hoạch đường dành cho xe đạp phải đi qua những khu vực có chức năng sinh hoạt cao hơn trong thành phố.\nkhu vực, có nghĩa là tuyến đường dành cho xe đạp phải được thiết kế sao cho tuyến đường dẫn đến siêu thị, trường học hoặc nhà trẻ\nCác điểm đến thiết thực như vườn ươm có thể tăng cường sử dụng xe đạp một cách hiệu quả.",
+      "questionChinese": {
+        "traditional": "報導內容指出，怎麼做才能增加騎自行車的人數？",
+        "simplified": "报导内容指出，怎么做才能增加骑自行车的人数？"
+      },
+      "questionVi": "Báo cáo chỉ ra rằng có thể làm gì để tăng số lượng người đi xe đạp?",
+      "optionChinese": {
+        "traditional": [
+          "叫人少開車",
+          "鼓勵男人多騎自行車",
+          "設立更多的自行車專用道路",
+          "讓自行車道路通過實用的地方"
+        ],
+        "simplified": [
+          "叫人少开车",
+          "鼓励男人多骑自行车",
+          "设立更多的自行车专用道路",
+          "让自行车道路通过实用的地方"
+        ]
+      },
+      "optionTranslations": [
+        "Khuyên mọi người lái xe ít hơn",
+        "Khuyến khích đàn ông đi xe đạp nhiều hơn",
+        "Tạo thêm làn đường dành cho xe đạp",
+        "Làm cho đường dành cho xe đạp đi qua những nơi thiết thực"
+      ],
+      "evidence": {
+        "traditional": "讓路線通往超級市場、學校或托\n兒所等實用的目的地",
+        "simplified": "让路线通往超级市场、学校或托\n儿所等实用的目的地"
+      },
+      "explanationVi": "Chi tiết “讓路線通往超級市場、學校或托\n兒所等實用的目的地” trong bài nghe cho thấy Làm cho đường dành cho xe đạp đi qua những nơi thiết thực; đây là ý của đáp án D."
+    }
+  },
+  "reading": {}
+}

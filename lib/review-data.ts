@@ -48,6 +48,7 @@ type CompleteBandAEntry = {
   optionTranslations: string[];
   passageChinese?: { traditional: string; simplified: string } | null;
   passageVi?: string;
+  completedPassageChinese?: { traditional: string; simplified: string };
   evidence?: { traditional: string; simplified: string } | null;
   explanationVi: string;
   note?: string;
@@ -132,6 +133,56 @@ function getCompleteBandAReviewContent(test: MockTest): ReviewContent {
       questionVietnamese: entry.questionVi,
       passageVietnamese: entry.passageVi,
       completedPassageChinese: [35, 40, 45].includes(question.number ?? 0) ? completeBandAReadingPassage(test, question, review) : undefined,
+      optionChinese: entry.optionChinese?.[script] ?? question.choices,
+      optionVietnamese: entry.optionTranslations,
+      explanation: entry.explanationVi,
+      evidenceText: evidence ? chinese : undefined,
+      evidencePhrase: evidence ?? undefined,
+      note: entry.note || entry.sourceLimitation,
+    };
+  }
+  return result;
+}
+
+function getCompleteBandBReviewContent(test: MockTest): ReviewContent {
+  const result: ReviewContent = { listening: {}, reading: {} };
+  const folder = join(process.cwd(), "data", "test-supplements", test.id);
+  const review = JSON.parse(readFileSync(join(folder, "review-complete-vi.json"), "utf8")) as CompleteBandAReviewFile;
+  if (review.testId !== test.id) return result;
+  const script = test.script === "simplified" ? "simplified" : "traditional";
+  for (const question of test.questions) {
+    const entry = review[question.section]?.[question.id];
+    if (!entry || entry.number !== question.number ||
+        entry.correctAnswer !== question.choiceIds?.[question.correctAnswer] ||
+        entry.optionTranslations?.length !== question.choices.length ||
+        entry.optionTranslations.some((translation) => !translation.trim()) ||
+        !entry.questionVi?.trim() ||
+        (!entry.explanationVi?.trim() && !entry.sourceLimitation?.trim())) continue;
+    if (question.section === "listening") {
+      const chinese = entry.transcriptChinese?.[script];
+      const evidence = entry.evidence?.[script];
+      if (!chinese || !entry.transcriptVi?.trim() || (evidence && !chinese.includes(evidence))) continue;
+      result.listening[question.id] = {
+        lines: [{ chinese, vietnamese: entry.transcriptVi, highlight: evidence ?? undefined }],
+        question: entry.questionChinese?.[script] ? { chinese: entry.questionChinese[script], vietnamese: entry.questionVi } : undefined,
+        options: entry.optionTranslations.map((vietnamese, index) => ({
+          label: question.choiceIds?.[index], chinese: entry.optionChinese?.[script]?.[index] ?? question.choices[index], vietnamese,
+        })),
+        explanation: entry.explanationVi,
+        note: entry.sourceLimitation,
+      };
+      continue;
+    }
+    const chinese = entry.passageChinese?.[script] || question.passage || question.question || "";
+    const evidence = entry.evidence?.[script];
+    if (evidence && !chinese.includes(evidence)) continue;
+    result.reading[question.id] = {
+      kind: question.number && question.number <= 18 ? "answer" : "question",
+      vietnamese: entry.questionVi,
+      questionChinese: entry.questionChinese?.[script] || question.question || undefined,
+      questionVietnamese: entry.questionVi,
+      passageVietnamese: entry.passageVi,
+      completedPassageChinese: entry.completedPassageChinese?.[script],
       optionChinese: entry.optionChinese?.[script] ?? question.choices,
       optionVietnamese: entry.optionTranslations,
       explanation: entry.explanationVi,
@@ -318,7 +369,12 @@ function getBandAReviewContent(test: MockTest): ReviewContent {
 export function getReviewContent(test: MockTest) {
   if (["band-a-test-02", "band-a-test-03", "band-a-test-04", "band-a-test-05"].includes(test.id)) return getCompleteBandAReviewContent(test);
   if (test.id === "band-c-test-01") return getBandCReviewContent(test);
-  if (test.id === "band-b-test-01") return enrichReadingReview(getBandBReviewContent(test), test);
+  if (test.id === "band-b-test-01") {
+    const legacy = enrichReadingReview(getBandBReviewContent(test), test);
+    const complete = getCompleteBandBReviewContent(test);
+    return { listening: { ...legacy.listening, ...complete.listening }, reading: legacy.reading };
+  }
+  if (/^band-b-test-0[2-5]$/.test(test.id)) return getCompleteBandBReviewContent(test);
   if (test.id === "band-a-test-01") {
     const base = enrichReadingReview(getBandAReviewContent(test), test);
     const complete = getCompleteBandAReviewContent(test);

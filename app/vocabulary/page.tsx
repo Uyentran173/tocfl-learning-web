@@ -23,6 +23,7 @@ export default function VocabularyPage() {
         <Link href={path.href} className="button-primary mt-7 inline-flex w-fit items-center gap-2">{path.action} <span aria-hidden="true">→</span></Link>
       </article>)}
     </div>
+    <section className="paper mt-8 p-6 sm:p-8"><p className="page-eyebrow">BƯỚC TIẾP THEO</p><h2 className="mt-2 text-2xl font-bold">Bài khóa → Bài tập → Trò chơi → Ôn lại</h2><p className="mt-3 leading-7 muted">Dùng những từ bạn đã đánh dấu “Đã học” từ bất kỳ lối học nào, rồi xem từ nào cần luyện thêm.</p><Link href="/vocabulary/practice" className="button-primary mt-5 inline-block">Luyện với từ đã học →</Link></section>
     <div className="vocabulary-tip mt-8 rounded-2xl border border-[var(--brand-border)] bg-[var(--brand-soft)] px-6 py-5 text-sm leading-7 text-[var(--brand)]"><MascotSticker variant="study" decorative className="vocabulary-tip-sticker" /><p><strong>Mẹo học nhỏ:</strong> Mỗi ngày học vài từ, sau đó thử một đề để nhận ra chúng trong ngữ cảnh mới.</p></div>
   </main>;
 }

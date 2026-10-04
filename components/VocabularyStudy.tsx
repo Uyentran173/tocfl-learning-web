@@ -1,7 +1,10 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import type { VocabularySet } from "@/lib/vocabulary";
+import { addLearnedWord, learnedPoolChangedEvent, loadLearnedPool, mergeLegacyLearned, removeLearnedWord, saveLearnedPool, vocabularyIdFor } from "@/lib/learned-vocabulary";
+import { fromStudyWord } from "@/lib/learned-vocabulary-adapters";
 import MascotSticker from "./MascotSticker";
 
 const storageKey = "tocfl-vocabulary-learned-v1";
@@ -11,6 +14,8 @@ export default function VocabularyStudy({ sets, kind, groups, initialSetId, show
   const [wordIndex, setWordIndex] = useState(0);
   const [revealed, setRevealed] = useState(false);
   const [learned, setLearned] = useState<string[]>([]);
+  const [poolIds, setPoolIds] = useState<string[]>([]);
+  const [removedPoolIds, setRemovedPoolIds] = useState<string[]>([]);
 
   useEffect(() => {
     let timeout: number | undefined;
@@ -21,10 +26,26 @@ export default function VocabularyStudy({ sets, kind, groups, initialSetId, show
     return () => { if (timeout !== undefined) window.clearTimeout(timeout); };
   }, []);
 
+  useEffect(() => {
+    const sync = () => { const pool = loadLearnedPool(window.localStorage); setPoolIds(pool.words.map((item) => item.vocabularyId)); setRemovedPoolIds(pool.removedIds); };
+    sync();
+    window.addEventListener(learnedPoolChangedEvent, sync);
+    window.addEventListener("storage", sync);
+    return () => { window.removeEventListener(learnedPoolChangedEvent, sync); window.removeEventListener("storage", sync); };
+  }, []);
+
+  useEffect(() => {
+    if (!learned.length) return;
+    const legacy = sets.flatMap((item) => item.words.flatMap((entry, index) => learned.includes(`${item.id}:${entry.hanzi}`) ? [fromStudyWord(entry, item.id, index, kind)] : []));
+    if (legacy.length) saveLearnedPool(window.localStorage, mergeLegacyLearned(loadLearnedPool(window.localStorage), legacy));
+  }, [learned, sets, kind]);
+
   const set = sets.find((item) => item.id === selectedId) ?? sets[0];
   const word = set.words[wordIndex];
   const wordKey = word ? set.id + ":" + word.hanzi : "";
-  const learnedCount = set.words.filter((item) => learned.includes(set.id + ":" + item.hanzi)).length;
+  const wordPoolId = word ? vocabularyIdFor(word.traditional ?? word.hanzi, word.pinyin) : "";
+  const isLearned = !removedPoolIds.includes(wordPoolId) && (learned.includes(wordKey) || poolIds.includes(wordPoolId));
+  const learnedCount = set.words.filter((item) => { const id = vocabularyIdFor(item.traditional ?? item.hanzi, item.pinyin); return !removedPoolIds.includes(id) && (learned.includes(set.id + ":" + item.hanzi) || poolIds.includes(id)); }).length;
 
   function chooseSet(id: string) {
     setSelectedId(id);
@@ -37,9 +58,11 @@ export default function VocabularyStudy({ sets, kind, groups, initialSetId, show
   }
   function toggleLearned() {
     if (!word) return;
-    const next = learned.includes(wordKey) ? learned.filter((item) => item !== wordKey) : [...learned, wordKey];
+    const next = isLearned ? learned.filter((item) => item !== wordKey) : [...learned, wordKey];
     setLearned(next);
     window.localStorage.setItem(storageKey, JSON.stringify(next));
+    const pool = loadLearnedPool(window.localStorage);
+    saveLearnedPool(window.localStorage, isLearned ? removeLearnedWord(pool, wordPoolId) : addLearnedWord(pool, fromStudyWord(word, set.id, wordIndex, kind)));
   }
   const setButton = (item: VocabularySet, index: number) => <button key={item.id} type="button" onClick={() => chooseSet(item.id)} aria-pressed={item.id === set.id} className="study-set-button">
     <span className="study-set-index">{String(index + 1).padStart(2, "0")}</span>
@@ -72,9 +95,9 @@ export default function VocabularyStudy({ sets, kind, groups, initialSetId, show
       {revealed && word.exampleSource?.kind === "tatoeba" && <a className="mt-2 inline-block text-xs muted underline underline-offset-2" href={`https://tatoeba.org/en/sentences/show/${word.exampleSource.id}`} target="_blank" rel="noopener noreferrer">Xem câu gốc trên Tatoeba</a>}
       <div className="mt-5 flex flex-wrap items-center justify-between gap-3">
         <button type="button" className="button-secondary" disabled={wordIndex === 0} onClick={() => move(-1)}>← Từ trước</button>
-        <button type="button" className="button-secondary" aria-pressed={learned.includes(wordKey)} onClick={toggleLearned}>{learned.includes(wordKey) ? "✓ Đã thuộc" : "Đánh dấu đã thuộc"}</button>
+        <button type="button" className="button-secondary" aria-pressed={isLearned} onClick={toggleLearned}>{isLearned ? "✓ Đã thuộc" : "Đánh dấu đã thuộc"}</button>
         <button type="button" className="button-primary" disabled={wordIndex === set.words.length - 1} onClick={() => move(1)}>Từ sau →</button>
-      </div></> : <div className="mt-7 rounded-2xl border border-[var(--brand-border)] bg-[var(--brand-soft)] px-6 py-10 text-center"><MascotSticker variant="puzzled" decorative className="band-empty-sticker mascot-float" /><p className="text-lg font-semibold text-[var(--brand)]">Chưa có bài học ở cấp độ này</p><p className="mx-auto mt-2 max-w-md text-sm leading-6 muted">Bạn có thể chọn cấp độ khác để tiếp tục học.</p></div>}
+      </div><Link href="/vocabulary/practice" className="mt-5 inline-block text-sm font-semibold text-[var(--brand)] underline underline-offset-4">Bài khóa, bài tập và trò chơi từ các từ đã học →</Link></> : <div className="mt-7 rounded-2xl border border-[var(--brand-border)] bg-[var(--brand-soft)] px-6 py-10 text-center"><MascotSticker variant="puzzled" decorative className="band-empty-sticker mascot-float" /><p className="text-lg font-semibold text-[var(--brand)]">Chưa có bài học ở cấp độ này</p><p className="mx-auto mt-2 max-w-md text-sm leading-6 muted">Bạn có thể chọn cấp độ khác để tiếp tục học.</p></div>}
     </section>
   </div>;
 }

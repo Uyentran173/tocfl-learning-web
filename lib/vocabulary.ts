@@ -9,6 +9,14 @@ export type VocabularyWord = {
   levelLabel?: string | null;
   scriptLang?: "zh-Hant" | "zh-Hans";
   exampleSource?: { kind: "tatoeba"; id: string; author: string };
+  source?: "tocfl" | "textbook" | "website";
+  sourceRecordId?: string;
+  traditional?: string;
+  simplified?: string;
+  exampleTraditional?: string;
+  exampleSimplified?: string;
+  band?: string | null;
+  level?: string | null;
 };
 export type VocabularySet = {
   id: string;

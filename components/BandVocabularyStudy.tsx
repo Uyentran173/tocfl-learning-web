@@ -1,7 +1,10 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import Link from "next/link";
 import type { TocflVocabularyBand, TocflVocabularyRecord } from "@/lib/tocfl-vocabulary-types";
+import { addLearnedWord, learnedPoolChangedEvent, loadLearnedPool, mergeLegacyLearned, removeLearnedWord, saveLearnedPool, vocabularyIdFor } from "@/lib/learned-vocabulary";
+import { fromBandRecord } from "@/lib/learned-vocabulary-adapters";
 import MascotSticker from "./MascotSticker";
 
 const progressKey = "tocfl-band-vocabulary-progress-v1";
@@ -15,6 +18,8 @@ export default function BandVocabularyStudy({ bands }: { bands: TocflVocabularyB
   const [script, setScript] = useState<Script>("traditional");
   const [records, setRecords] = useState<TocflVocabularyRecord[]>([]);
   const [learnedIds, setLearnedIds] = useState<string[]>([]);
+  const [poolIds, setPoolIds] = useState<string[]>([]);
+  const [removedPoolIds, setRemovedPoolIds] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [retryKey, setRetryKey] = useState(0);
@@ -31,6 +36,17 @@ export default function BandVocabularyStudy({ bands }: { bands: TocflVocabularyB
     } catch { /* A missing or invalid local list starts empty. */ }
     return () => { if (timeout !== undefined) window.clearTimeout(timeout); };
   }, []);
+
+  useEffect(() => {
+    const sync = () => { const pool = loadLearnedPool(window.localStorage); setPoolIds(pool.words.map((item) => item.vocabularyId)); setRemovedPoolIds(pool.removedIds); };
+    sync(); window.addEventListener(learnedPoolChangedEvent, sync); window.addEventListener("storage", sync);
+    return () => { window.removeEventListener(learnedPoolChangedEvent, sync); window.removeEventListener("storage", sync); };
+  }, []);
+
+  useEffect(() => {
+    const legacy = records.filter((record) => learnedIds.includes(record.id)).map((record) => fromBandRecord(record, script));
+    if (legacy.length) saveLearnedPool(window.localStorage, mergeLegacyLearned(loadLearnedPool(window.localStorage), legacy));
+  }, [records, learnedIds, script]);
 
   useEffect(() => {
     const controller = new AbortController();
@@ -51,7 +67,7 @@ export default function BandVocabularyStudy({ bands }: { bands: TocflVocabularyB
   const band = bands.find((item) => item.id === bandId) ?? bands[0];
   const levelNames = new Map(band?.levels.map((level) => [level.id, level.label]) ?? []);
   const visibleRecords = useMemo(() => records.filter((record) => levelId === "all" || record.levelId === levelId), [records, levelId]);
-  const learnedSet = useMemo(() => new Set(learnedIds), [learnedIds]);
+  const learnedSet = useMemo(() => new Set(records.filter((record) => { const id = vocabularyIdFor(record.traditional, record.pinyin || ""); return !removedPoolIds.includes(id) && (learnedIds.includes(record.id) || poolIds.includes(id)); }).map((record) => record.id)), [records, learnedIds, poolIds, removedPoolIds]);
   const learnedCount = visibleRecords.filter((record) => learnedSet.has(record.id)).length;
   const reviewedCount = visibleRecords.filter((record) => record.meaningVi && record.exampleTraditional && record.exampleSimplified && record.exampleVi).length;
   const studyRecords = view === "review" ? visibleRecords.filter((record) => learnedSet.has(record.id)) : visibleRecords;
@@ -113,9 +129,14 @@ export default function BandVocabularyStudy({ bands }: { bands: TocflVocabularyB
     setActiveIndex(index);
   }
   function toggleLearned(id: string) {
-    const next = learnedSet.has(id) ? learnedIds.filter((item) => item !== id) : [...learnedIds, id];
+    const record = records.find((item) => item.id === id);
+    if (!record) return;
+    const wasLearned = learnedSet.has(id);
+    const next = wasLearned ? learnedIds.filter((item) => item !== id) : [...learnedIds, id];
     setLearnedIds(next);
     window.localStorage.setItem(progressKey, JSON.stringify(next));
+    const pool = loadLearnedPool(window.localStorage);
+    saveLearnedPool(window.localStorage, wasLearned ? removeLearnedWord(pool, vocabularyIdFor(record.traditional, record.pinyin || "")) : addLearnedWord(pool, fromBandRecord(record, script)));
   }
   function wordForm(record: TocflVocabularyRecord) {
     return script === "simplified" && record.simplified ? record.simplified : record.traditional;
@@ -154,6 +175,7 @@ export default function BandVocabularyStudy({ bands }: { bands: TocflVocabularyB
         <button type="button" className={view === "list" ? "button-primary" : "button-secondary"} onClick={() => chooseView("list")}>Danh sách từ</button>
         <button type="button" className={view === "study" ? "button-primary" : "button-secondary"} onClick={() => chooseView("study")}>Học từ</button>
         <button type="button" className={view === "review" ? "button-primary" : "button-secondary"} onClick={() => chooseView("review")}>Ôn từ đã học</button>
+        <Link href="/vocabulary/practice" className="button-secondary">Bài khóa · Bài tập · Game →</Link>
       </div>
     </div>
 

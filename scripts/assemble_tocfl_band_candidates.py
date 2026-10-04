@@ -11,6 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / 'data/vocabulary/tocfl-imported.json'
 OVERRIDES = ROOT / 'data/vocabulary/tocfl-candidate-overrides.json'
+TRADITIONAL_FORM_EXCEPTIONS = {'tocfl-20240923-level-4-2213': '隻'}  # Source lists the Simplified classifier 只 in its Traditional column.
 
 def forms(term):
     result = []
@@ -42,7 +43,8 @@ def main():
             entry.pop('exampleSource', None)
         if not entry.get('meaningEn') or not entry.get('exampleTraditional'):
             raise ValueError(f"Missing draft for {record['id']}: {record['traditional']}")
-        if not any(form in entry['exampleTraditional'] for form in forms(record['traditional'])):
+        accepted_forms = forms(record['traditional']) + ([TRADITIONAL_FORM_EXCEPTIONS[record['id']]] if record['id'] in TRADITIONAL_FORM_EXCEPTIONS else [])
+        if not any(form in entry['exampleTraditional'] for form in accepted_forms):
             raise ValueError(f"Example lacks target for {record['id']}: {entry['exampleTraditional']}")
         entries[record['id']] = entry
     args.output.write_text(json.dumps({'datasetId': dataset_id, 'entries': entries}, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')

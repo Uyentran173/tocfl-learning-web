@@ -13,7 +13,19 @@ SOURCE = ROOT / "data/vocabulary/tocfl-imported.json"
 ENRICHMENT = ROOT / "data/vocabulary/tocfl-enrichment.json"
 HANZI = re.compile(r"[\u3400-\u9fff]")
 CONVERT = OpenCC("tw2s")
-LEVEL_MAX = {"level_1": 30, "level_2": 36, "level_3": 46, "level_4": 54, "level_5": 65}
+LEVEL_MAX = {"level_1": 30, "level_2": 36, "level_3": 30, "level_4": 36, "level_5": 65}
+TRADITIONAL_FORM_EXCEPTIONS = {"tocfl-20240923-level-4-2213": "隻"}  # The TOCFL source lists 只 for this classifier in both scripts.
+SIMPLIFIED_FORM_EXCEPTIONS = {
+    "tocfl-20240923-level-3-0438": "姐妹",  # 姊妹 is commonly written 姐妹 in Simplified Chinese.
+    "tocfl-20240923-level-4-0454": "反复",  # Source incorrectly retains Traditional 覆.
+    "tocfl-20240923-level-4-0968": "俱乐部",  # Source omits 亻 in 俱.
+}
+
+
+def simplified_example(sentence, band):
+    if band == "band_b":
+        return CONVERT.convert(sentence).replace("擡", "抬").replace("姊妹", "姐妹").replace("砲", "炮")
+    return CONVERT.convert(sentence)
 
 
 def forms(term):
@@ -66,11 +78,20 @@ def main():
                 errors.append(f"{record['id']}: {key} must be exactly one complete sentence")
             if key == "exampleTraditional" and record["levelId"] in LEVEL_MAX and len(HANZI.findall(sentence)) > LEVEL_MAX[record["levelId"]]:
                 errors.append(f"{record['id']}: example exceeds the length limit for {record['levelId']}")
-        if not any(form in entry["exampleTraditional"] for form in forms(record["traditional"])):
+        accepted_forms = forms(record["traditional"]) + ([TRADITIONAL_FORM_EXCEPTIONS[record["id"]]] if record["id"] in TRADITIONAL_FORM_EXCEPTIONS else [])
+        if not any(form in entry["exampleTraditional"] for form in accepted_forms):
             errors.append(f"{record['id']}: Traditional example does not contain target word")
-        if record.get("simplified") and not any(form in entry["exampleSimplified"] for form in forms(record["simplified"])):
+        if record["band"] == "band_b" and record["partOfSpeech"]["raw"] == "M":
+            numeral = r"[一二兩三四五六七八九十百千幾多零這那每0-9]+"
+            is_grade = record["id"] == "tocfl-20240923-level-4-0795" and re.search(numeral + r"年級", entry["exampleTraditional"])
+            if not is_grade and not any(re.search(numeral + re.escape(form), entry["exampleTraditional"]) for form in accepted_forms):
+                errors.append(f"{record['id']}: Band B measure-word example must use a number or determiner")
+        simplified_forms = forms(record["simplified"]) if record.get("simplified") else []
+        if record["id"] in SIMPLIFIED_FORM_EXCEPTIONS:
+            simplified_forms.append(SIMPLIFIED_FORM_EXCEPTIONS[record["id"]])
+        if simplified_forms and not any(form in entry["exampleSimplified"] for form in simplified_forms):
             errors.append(f"{record['id']}: Simplified example does not contain target word")
-        if CONVERT.convert(entry["exampleTraditional"]) != entry["exampleSimplified"]:
+        if simplified_example(entry["exampleTraditional"], record["band"]) != entry["exampleSimplified"]:
             errors.append(f"{record['id']}: Simplified example does not match Traditional example")
         if HANZI.search(entry.get("meaningVi", "")) or HANZI.search(entry.get("exampleVi", "")):
             errors.append(f"{record['id']}: Vietnamese fields contain Chinese")

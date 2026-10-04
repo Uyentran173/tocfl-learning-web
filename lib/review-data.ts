@@ -144,7 +144,7 @@ function getCompleteBandAReviewContent(test: MockTest): ReviewContent {
   return result;
 }
 
-function getCompleteBandBReviewContent(test: MockTest): ReviewContent {
+function getCompleteBandBCReviewContent(test: MockTest): ReviewContent {
   const result: ReviewContent = { listening: {}, reading: {} };
   const folder = join(process.cwd(), "data", "test-supplements", test.id);
   const review = JSON.parse(readFileSync(join(folder, "review-complete-vi.json"), "utf8")) as CompleteBandAReviewFile;
@@ -169,7 +169,7 @@ function getCompleteBandBReviewContent(test: MockTest): ReviewContent {
           label: question.choiceIds?.[index], chinese: entry.optionChinese?.[script]?.[index] ?? question.choices[index], vietnamese,
         })),
         explanation: entry.explanationVi,
-        note: entry.sourceLimitation,
+        note: entry.note || entry.sourceLimitation,
       };
       continue;
     }
@@ -177,7 +177,7 @@ function getCompleteBandBReviewContent(test: MockTest): ReviewContent {
     const evidence = entry.evidence?.[script];
     if (evidence && !chinese.includes(evidence)) continue;
     result.reading[question.id] = {
-      kind: question.number && question.number <= 18 ? "answer" : "question",
+      kind: test.id.startsWith("band-c-test-") || (question.number && question.number <= 18) ? "answer" : "question",
       vietnamese: entry.questionVi,
       questionChinese: entry.questionChinese?.[script] || question.question || undefined,
       questionVietnamese: entry.questionVi,
@@ -264,6 +264,7 @@ function getBandCReviewContent(test: MockTest): ReviewContent {
         vietnamese: note.questionVietnamese,
         passageVietnamese: note.passageVietnamese,
         completedPassageChinese: completedBandCGap(test, question),
+        questionChinese: question.question || undefined,
         questionVietnamese: note.questionVietnamese,
         optionChinese: question.choices,
         optionVietnamese: note.optionVietnamese,
@@ -371,10 +372,10 @@ export function getReviewContent(test: MockTest) {
   if (test.id === "band-c-test-01") return getBandCReviewContent(test);
   if (test.id === "band-b-test-01") {
     const legacy = enrichReadingReview(getBandBReviewContent(test), test);
-    const complete = getCompleteBandBReviewContent(test);
+    const complete = getCompleteBandBCReviewContent(test);
     return { listening: { ...legacy.listening, ...complete.listening }, reading: legacy.reading };
   }
-  if (/^band-b-test-0[2-5]$/.test(test.id)) return getCompleteBandBReviewContent(test);
+  if (/^band-b-test-0[2-5]$/.test(test.id) || /^band-c-test-0[2-4]$/.test(test.id)) return getCompleteBandBCReviewContent(test);
   if (test.id === "band-a-test-01") {
     const base = enrichReadingReview(getBandAReviewContent(test), test);
     const complete = getCompleteBandAReviewContent(test);

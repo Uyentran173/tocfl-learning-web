@@ -101,7 +101,7 @@ export default function ReviewClient({ test, reviewContent }: { test: MockTest; 
   const scope = test.scope ?? "full";
   const script = test.script;
   const bandA = test.id.startsWith("band-a-test-");
-  const detailed = bandA || test.id.startsWith("band-b-test-");
+  const detailed = bandA || test.id.startsWith("band-b-test-") || test.id.startsWith("band-c-test-");
 
   useEffect(() => {
     const saved = readSession(test.id);

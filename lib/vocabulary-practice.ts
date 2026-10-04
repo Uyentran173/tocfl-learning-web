@@ -61,6 +61,14 @@ const topicalSignals: { name: string; words: string[] }[] = [
   { name: "Gia đình", words: ["家", "爸爸", "媽媽", "孩子", "兄弟", "姐妹"] },
   { name: "Sức khỏe", words: ["醫", "病", "藥", "健康", "身體", "痛"] },
 ];
+const readingSequence: Record<string, string[]> = {
+  "Ở quán ăn": ["早餐", "菜單", "我要", "好吃", "多少錢"],
+  "Một ngày thường": ["起床", "早餐", "上班", "下班", "回家", "休息"],
+  "Ở trường": ["大學", "學生", "老師", "圖書館", "作業", "考試"],
+  "Ở nơi làm việc": ["公司", "上班", "同事", "開會", "下班"],
+  "Mua sắm": ["商店", "價格", "便宜", "買"],
+  "Đi lại ở Đài Loan": ["車站", "怎麼走", "左邊", "右邊", "車票"],
+};
 const helperWords = [
   { traditional: "我", simplified: "我", vietnamese: "tôi" }, { traditional: "你", simplified: "你", vietnamese: "bạn" },
   { traditional: "他", simplified: "他", vietnamese: "anh ấy" }, { traditional: "她", simplified: "她", vietnamese: "cô ấy" },
@@ -72,6 +80,13 @@ const helperWords = [
   { traditional: "有", simplified: "有", vietnamese: "có" }, { traditional: "在", simplified: "在", vietnamese: "ở/đang" },
   { traditional: "很", simplified: "很", vietnamese: "rất" }, { traditional: "不", simplified: "不", vietnamese: "không" },
   { traditional: "是", simplified: "是", vietnamese: "là" }, { traditional: "的", simplified: "的", vietnamese: "trợ từ sở hữu" },
+  { traditional: "這", simplified: "这", vietnamese: "này" }, { traditional: "請", simplified: "请", vietnamese: "xin vui lòng" },
+  { traditional: "給", simplified: "给", vietnamese: "đưa/cho" }, { traditional: "碗", simplified: "碗", vietnamese: "bát" },
+  { traditional: "麵", simplified: "面", vietnamese: "mì" }, { traditional: "很好", simplified: "很好", vietnamese: "rất tốt/rất ngon" },
+  { traditional: "了", simplified: "了", vietnamese: "trợ từ chỉ sự hoàn thành" }, { traditional: "嗎", simplified: "吗", vietnamese: "trợ từ nghi vấn" },
+  { traditional: "吃", simplified: "吃", vietnamese: "ăn" }, { traditional: "再", simplified: "再", vietnamese: "rồi/lại" },
+  { traditional: "然後", simplified: "然后", vietnamese: "sau đó" }, { traditional: "一", simplified: "一", vietnamese: "một" },
+  { traditional: "個", simplified: "个", vietnamese: "lượng từ cái" }, { traditional: "和", simplified: "和", vietnamese: "và" },
 ];
 
 export function wordForm(word: LearnedVocabularyWord, script: VocabularyScript): string { return script === "simplified" ? word.simplified : word.traditional; }
@@ -85,7 +100,9 @@ function supportingIn(lines: LessonLine[], pool: LearnedVocabularyWord[], script
   const segmented = [...new Intl.Segmenter("zh", { granularity: "word" }).segment(lines.map((line) => line.chinese).join(" "))];
   const tokens = segmented.map((item) => item.segment).filter((item) => /\p{Script=Han}/u.test(item));
   for (const [text] of definitions) if (lines.some((line) => line.chinese.includes(text))) tokens.push(text);
-  return [...new Set(tokens)].filter((token) => !known.some((form) => form.includes(token)) && !known.includes(token))
+  const unique = [...new Set(tokens)];
+  return unique.filter((token) => !known.some((form) => form.includes(token))
+    && !unique.some((other) => other !== token && other.includes(token) && definitions.has(other)))
     .map((chinese) => ({ chinese, vietnamese: definitions.get(chinese) ?? null }));
 }
 
@@ -115,7 +132,12 @@ export function buildLesson(pool: LearnedVocabularyWord[], script: VocabularyScr
     return score(b) - score(a);
   })[0];
   const topical = levelFit.filter((word) => topic.words.some((token) => word.traditional.includes(token)));
-  const selected = (topical.length >= 2 ? topical : levelFit).slice(0, 10);
+  const orderInTopic = (word: LearnedVocabularyWord) => {
+    const sequence = readingSequence[topic.name] ?? topic.words;
+    const index = sequence.findIndex((token) => word.traditional.includes(token));
+    return index < 0 ? 999 : index;
+  };
+  const selected = [...(topical.length >= 2 ? topical : levelFit)].sort((a, b) => orderInTopic(a) - orderInTopic(b)).slice(0, 10);
   const lines = selected.map((word) => ({ vocabularyId: word.vocabularyId, chinese: exampleForm(word, script), vietnamese: word.exampleVi }));
   const supporting = supportingIn(lines, pool, script);
   return { id: `${script}:${offset}:${selected.map((word) => word.vocabularyId).join("|")}`, title: topical.length >= 2 ? topic.name : "Những tình huống gần bạn",
@@ -149,7 +171,7 @@ export function buildPracticeQuestions(lesson: PracticeLesson, script: Vocabular
     if (type === "blank") { prompt = `Điền từ vào câu: ${sentence.replace(chinese, "＿＿")}`; choices = forms; answer = chinese; explanation = `Câu gốc: ${sentence}`; }
     if (type === "context") { prompt = `Trong ngữ cảnh “${sentenceVi}”, chọn từ đúng.`; choices = forms; answer = chinese; explanation = `Trong bài: ${sentence}`; }
     if (type === "matching") { prompt = `Ghép “${chinese}” với nghĩa phù hợp.`; choices = meanings; answer = word.meaningVi; explanation = `${chinese} ↔ ${word.meaningVi}.`; }
-    if (type === "comprehension") { prompt = `Câu nào trong bài khóa tương ứng với: “${sentenceVi}”?`; choices = rotated([...new Set(lesson.lines.map((line) => line.chinese))], index); answer = sentence; explanation = `Bài khóa có câu: ${sentence}`; }
+    if (type === "comprehension") { prompt = `Chọn câu trong bài khóa tương ứng với lời dịch: “${sentenceVi}”`; choices = rotated([...new Set(lesson.lines.map((line) => line.chinese))], index); answer = sentence; explanation = `Bài khóa có câu: ${sentence}`; }
     if (type === "sentence" && other) { prompt = `Chọn câu đúng như bài khóa (${word.meaningVi}).`; choices = rotated([sentence, sentence.replace(chinese, wordForm(other, script))], index); answer = sentence; explanation = `Bài khóa dùng ${chinese} trong câu: ${sentence}`; }
     if (type === "ordering") {
       const pieces = sentence.split(chinese);

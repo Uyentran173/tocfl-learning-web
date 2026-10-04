@@ -69,6 +69,20 @@ test("a curated reading uses matching learned words and question context from th
   assert.ok(questions.every((question) => lesson.words.some((word) => word.vocabularyId === question.vocabularyId)));
 });
 
+test("source-example fallback follows a useful topic order and labels common supporting words", () => {
+  let pool = emptyLearnedPool();
+  const entries = [
+    { ...input("早餐", "zǎocān", "bữa sáng", "website"), exampleTraditional: "你吃早餐了嗎？", exampleSimplified: "你吃早餐了吗？", exampleVi: "Bạn đã ăn sáng chưa?" },
+    { ...input("菜單", "càidān", "thực đơn", "website"), exampleTraditional: "請給我菜單。", exampleSimplified: "请给我菜单。", exampleVi: "Cho tôi xin thực đơn." },
+    { ...input("好吃", "hǎochī", "ngon", "website"), exampleTraditional: "這碗麵很好吃。", exampleSimplified: "这碗面很好吃。", exampleVi: "Bát mì này rất ngon." },
+  ];
+  for (const entry of entries) pool = addLearnedWord(pool, entry);
+  const lesson = buildLesson(pool.words, "traditional");
+  assert.deepEqual(lesson.words.map((word) => word.traditional), ["早餐", "菜單", "好吃"]);
+  assert.equal(lesson.supporting.find((item) => item.chinese === "麵")?.vietnamese, "mì");
+  assert.ok(!lesson.supporting.some((item) => item.chinese === "很" && lesson.supporting.some((other) => other.chinese === "很好")));
+});
+
 test("real TOCFL A/B entries form lessons in both scripts without disconnected targets", () => {
   const imported = JSON.parse(readFileSync(new URL("../data/vocabulary/tocfl-imported.json", import.meta.url)));
   const enrichment = JSON.parse(readFileSync(new URL("../data/vocabulary/tocfl-enrichment.json", import.meta.url)));

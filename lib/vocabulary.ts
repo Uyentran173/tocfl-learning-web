@@ -4,6 +4,11 @@ export type VocabularyWord = {
   meaning: string;
   example: string;
   translation: string;
+  sourceLabel?: string;
+  wordClass?: string | null;
+  levelLabel?: string | null;
+  scriptLang?: "zh-Hant" | "zh-Hans";
+  exampleSource?: { kind: "tatoeba"; id: string; author: string };
 };
 export type VocabularySet = {
   id: string;

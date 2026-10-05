@@ -56,7 +56,7 @@ const curatedLessons: { title: string; kind: string; lines: CuratedLine[]; suppo
     { traditional: "B：好的，請稍等。", simplified: "B：好的，请稍等。", vietnamese: "B: Vâng, xin chờ một chút." },
   ], support: [{ traditional: "一碗", simplified: "一碗", vietnamese: "một bát" }, { traditional: "麵", simplified: "面", vietnamese: "mì" }] },
   { title: "Một ngày thường", kind: "Đoạn văn", lines: [
-    { traditional: "我每天七點起床，然後吃早餐。", simplified: "我每天七点起床，然后吃早餐。", vietnamese: "Ngày nào tôi cũng dậy lúc bảy giờ, sau đó ăn sáng." },
+    { traditional: "我每天七點起床，先洗澡，再吃早餐。", simplified: "我每天七点起床，先洗澡，再吃早餐。", vietnamese: "Ngày nào tôi cũng dậy lúc bảy giờ, tắm trước rồi ăn sáng." },
     { traditional: "吃完早餐，我去公司上班。", simplified: "吃完早餐，我去公司上班。", vietnamese: "Ăn sáng xong, tôi đến công ty làm việc." },
     { traditional: "下班以後，我回家休息。", simplified: "下班以后，我回家休息。", vietnamese: "Tan làm xong, tôi về nhà nghỉ ngơi." },
   ], support: [{ traditional: "然後", simplified: "然后", vietnamese: "sau đó" }, { traditional: "以後", simplified: "以后", vietnamese: "sau khi" }] },

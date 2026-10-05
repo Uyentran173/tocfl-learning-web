@@ -76,6 +76,15 @@ test("unrelated examples are not stitched into a fake lesson", () => {
   assert.equal(buildLesson(pool.words, "traditional"), null);
 });
 
+test("two related daily-life words open one coherent lesson", () => {
+  let pool = emptyLearnedPool();
+  for (const word of ["洗澡", "起床"].map((hanzi) => ({ ...input(hanzi, hanzi, hanzi), studySetId: "context:daily" }))) pool = addLearnedWord(pool, word);
+  const lesson = buildLesson(pool.words, "traditional", 0, "context:daily");
+  assert.equal(lesson.title, "Một ngày thường");
+  assert.deepEqual(new Set(lesson.words.map((word) => word.traditional)), new Set(["洗澡", "起床"]));
+  assert.ok(lesson.lines[0].chinese.includes("先洗澡，再吃早餐"));
+});
+
 test("lesson respects the selected learning path and keeps supporting words in its text", () => {
   let pool = emptyLearnedPool();
   for (const word of [

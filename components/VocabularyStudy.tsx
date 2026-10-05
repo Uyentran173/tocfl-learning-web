@@ -3,8 +3,9 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import type { VocabularySet } from "@/lib/vocabulary";
-import { addLearnedWord, learnedPoolChangedEvent, loadLearnedPool, mergeLegacyLearned, removeLearnedWord, saveLearnedPool, vocabularyIdFor } from "@/lib/learned-vocabulary";
+import { addLearnedWord, learnedPoolChangedEvent, loadLearnedPool, mergeLegacyLearned, removeLearnedWord, saveLearnedPool, vocabularyIdFor, type LearnedVocabularyWord } from "@/lib/learned-vocabulary";
 import { fromStudyWord } from "@/lib/learned-vocabulary-adapters";
+import { buildLesson } from "@/lib/vocabulary-practice";
 import MascotSticker from "./MascotSticker";
 
 const storageKey = "tocfl-vocabulary-learned-v1";
@@ -15,6 +16,7 @@ export default function VocabularyStudy({ sets, kind, groups, initialSetId, show
   const [revealed, setRevealed] = useState(false);
   const [learned, setLearned] = useState<string[]>([]);
   const [poolIds, setPoolIds] = useState<string[]>([]);
+  const [poolWords, setPoolWords] = useState<LearnedVocabularyWord[]>([]);
   const [removedPoolIds, setRemovedPoolIds] = useState<string[]>([]);
 
   useEffect(() => {
@@ -27,7 +29,7 @@ export default function VocabularyStudy({ sets, kind, groups, initialSetId, show
   }, []);
 
   useEffect(() => {
-    const sync = () => { const pool = loadLearnedPool(window.localStorage); setPoolIds(pool.words.map((item) => item.vocabularyId)); setRemovedPoolIds(pool.removedIds); };
+    const sync = () => { const pool = loadLearnedPool(window.localStorage); setPoolIds(pool.words.map((item) => item.vocabularyId)); setPoolWords(pool.words); setRemovedPoolIds(pool.removedIds); };
     sync();
     window.addEventListener(learnedPoolChangedEvent, sync);
     window.addEventListener("storage", sync);
@@ -46,6 +48,7 @@ export default function VocabularyStudy({ sets, kind, groups, initialSetId, show
   const wordPoolId = word ? vocabularyIdFor(word.traditional ?? word.hanzi, word.pinyin) : "";
   const isLearned = !removedPoolIds.includes(wordPoolId) && (learned.includes(wordKey) || poolIds.includes(wordPoolId));
   const learnedCount = set.words.filter((item) => { const id = vocabularyIdFor(item.traditional ?? item.hanzi, item.pinyin); return !removedPoolIds.includes(id) && (learned.includes(set.id + ":" + item.hanzi) || poolIds.includes(id)); }).length;
+  const canStartPractice = learnedCount >= 2 && !!buildLesson(poolWords, set.words[0]?.scriptLang === "zh-Hans" ? "simplified" : "traditional", 0, set.id);
 
   function chooseSet(id: string) {
     setSelectedId(id);
@@ -97,7 +100,7 @@ export default function VocabularyStudy({ sets, kind, groups, initialSetId, show
         <button type="button" className="button-secondary" disabled={wordIndex === 0} onClick={() => move(-1)}>← Từ trước</button>
         <button type="button" className="button-secondary" aria-pressed={isLearned} onClick={toggleLearned}>{isLearned ? "✓ Đã thuộc" : "Đánh dấu đã thuộc"}</button>
         <button type="button" className="button-primary" disabled={wordIndex === set.words.length - 1} onClick={() => move(1)}>Từ sau →</button>
-      </div>{learnedCount >= 2 && <div className="mt-6 rounded-xl border border-[var(--brand-border)] bg-[var(--brand-soft)] p-4"><p className="text-sm font-semibold text-[var(--brand)]">Học từ → Bài khóa → Bài tập → Trò chơi → Ôn lại</p><Link href={`/vocabulary/practice?focus=${encodeURIComponent(set.id)}`} className="mt-3 inline-block text-sm font-semibold text-[var(--brand)] underline underline-offset-4">Bài khóa từ các từ đã học →</Link></div>}</> : <div className="mt-7 rounded-2xl border border-[var(--brand-border)] bg-[var(--brand-soft)] px-6 py-10 text-center"><MascotSticker variant="puzzled" decorative className="band-empty-sticker mascot-float" /><p className="text-lg font-semibold text-[var(--brand)]">Chưa có bài học ở cấp độ này</p><p className="mx-auto mt-2 max-w-md text-sm leading-6 muted">Bạn có thể chọn cấp độ khác để tiếp tục học.</p></div>}
+      </div>{canStartPractice && <div className="mt-6 rounded-xl border border-[var(--brand-border)] bg-[var(--brand-soft)] p-4"><p className="text-sm font-semibold text-[var(--brand)]">Học từ → Bài khóa → Bài tập → Trò chơi → Ôn lại</p><Link href={`/vocabulary/practice?focus=${encodeURIComponent(set.id)}`} className="mt-3 inline-block text-sm font-semibold text-[var(--brand)] underline underline-offset-4">Bài khóa từ các từ đã học →</Link></div>}{learnedCount >= 2 && !canStartPractice && <p className="mt-5 text-sm muted">Học thêm vài từ cùng chủ đề để mở bài khóa phù hợp.</p>}</> : <div className="mt-7 rounded-2xl border border-[var(--brand-border)] bg-[var(--brand-soft)] px-6 py-10 text-center"><MascotSticker variant="puzzled" decorative className="band-empty-sticker mascot-float" /><p className="text-lg font-semibold text-[var(--brand)]">Chưa có bài học ở cấp độ này</p><p className="mx-auto mt-2 max-w-md text-sm leading-6 muted">Bạn có thể chọn cấp độ khác để tiếp tục học.</p></div>}
     </section>
   </div>;
 }

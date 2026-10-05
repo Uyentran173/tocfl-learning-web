@@ -3,8 +3,9 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import type { TocflVocabularyBand, TocflVocabularyRecord } from "@/lib/tocfl-vocabulary-types";
-import { addLearnedWord, learnedPoolChangedEvent, loadLearnedPool, mergeLegacyLearned, removeLearnedWord, saveLearnedPool, vocabularyIdFor } from "@/lib/learned-vocabulary";
+import { addLearnedWord, learnedPoolChangedEvent, loadLearnedPool, mergeLegacyLearned, removeLearnedWord, saveLearnedPool, vocabularyIdFor, type LearnedVocabularyWord } from "@/lib/learned-vocabulary";
 import { fromBandRecord } from "@/lib/learned-vocabulary-adapters";
+import { buildLesson } from "@/lib/vocabulary-practice";
 import MascotSticker from "./MascotSticker";
 
 const progressKey = "tocfl-band-vocabulary-progress-v1";
@@ -19,6 +20,7 @@ export default function BandVocabularyStudy({ bands }: { bands: TocflVocabularyB
   const [records, setRecords] = useState<TocflVocabularyRecord[]>([]);
   const [learnedIds, setLearnedIds] = useState<string[]>([]);
   const [poolIds, setPoolIds] = useState<string[]>([]);
+  const [poolWords, setPoolWords] = useState<LearnedVocabularyWord[]>([]);
   const [removedPoolIds, setRemovedPoolIds] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
@@ -38,7 +40,7 @@ export default function BandVocabularyStudy({ bands }: { bands: TocflVocabularyB
   }, []);
 
   useEffect(() => {
-    const sync = () => { const pool = loadLearnedPool(window.localStorage); setPoolIds(pool.words.map((item) => item.vocabularyId)); setRemovedPoolIds(pool.removedIds); };
+    const sync = () => { const pool = loadLearnedPool(window.localStorage); setPoolIds(pool.words.map((item) => item.vocabularyId)); setPoolWords(pool.words); setRemovedPoolIds(pool.removedIds); };
     sync(); window.addEventListener(learnedPoolChangedEvent, sync); window.addEventListener("storage", sync);
     return () => { window.removeEventListener(learnedPoolChangedEvent, sync); window.removeEventListener("storage", sync); };
   }, []);
@@ -69,6 +71,7 @@ export default function BandVocabularyStudy({ bands }: { bands: TocflVocabularyB
   const visibleRecords = useMemo(() => records.filter((record) => levelId === "all" || record.levelId === levelId), [records, levelId]);
   const learnedSet = useMemo(() => new Set(records.filter((record) => { const id = vocabularyIdFor(record.traditional, record.pinyin || ""); return !removedPoolIds.includes(id) && (learnedIds.includes(record.id) || poolIds.includes(id)); }).map((record) => record.id)), [records, learnedIds, poolIds, removedPoolIds]);
   const learnedCount = visibleRecords.filter((record) => learnedSet.has(record.id)).length;
+  const canStartPractice = learnedCount >= 2 && !!buildLesson(poolWords, script, 0, `band:${bandId}:${levelId}`);
   const reviewedCount = visibleRecords.filter((record) => record.meaningVi && record.exampleTraditional && record.exampleSimplified && record.exampleVi).length;
   const studyRecords = view === "review" ? visibleRecords.filter((record) => learnedSet.has(record.id)) : visibleRecords;
   const currentIndex = Math.min(activeIndex, Math.max(0, studyRecords.length - 1));
@@ -175,8 +178,9 @@ export default function BandVocabularyStudy({ bands }: { bands: TocflVocabularyB
         <button type="button" className={view === "list" ? "button-primary" : "button-secondary"} onClick={() => chooseView("list")}>Danh sách từ</button>
         <button type="button" className={view === "study" ? "button-primary" : "button-secondary"} onClick={() => chooseView("study")}>Học từ</button>
         <button type="button" className={view === "review" ? "button-primary" : "button-secondary"} onClick={() => chooseView("review")}>Ôn từ đã học</button>
-        {learnedCount >= 2 && <Link href={`/vocabulary/practice?focus=${encodeURIComponent(`band:${bandId}:${levelId}`)}`} className="button-secondary">Học từ → Bài khóa → Bài tập → Trò chơi → Ôn lại</Link>}
+        {canStartPractice && <Link href={`/vocabulary/practice?focus=${encodeURIComponent(`band:${bandId}:${levelId}`)}`} className="button-secondary">Học từ → Bài khóa → Bài tập → Trò chơi → Ôn lại</Link>}
       </div>
+      {learnedCount >= 2 && !canStartPractice && <p className="mt-3 text-sm muted">Học thêm vài từ cùng chủ đề để mở bài khóa phù hợp.</p>}
     </div>
 
     {loading ? <div className="paper p-10 text-center muted" role="status">Đang tải danh sách từ…</div> : error ? <div className="paper p-10 text-center"><p role="alert" className="text-red-700">{error}</p><button type="button" className="button-secondary mt-4" onClick={() => { setLoading(true); setError(""); setRetryKey((current) => current + 1); }}>Thử lại</button></div> : view === "list" ? <section className="paper overflow-hidden" aria-label="Danh sách từ vựng">

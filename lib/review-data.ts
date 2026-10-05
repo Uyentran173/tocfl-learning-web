@@ -367,7 +367,18 @@ function getBandAReviewContent(test: MockTest): ReviewContent {
   return result;
 }
 
-export function getReviewContent(test: MockTest) {
+const reviewCache = new Map<string, ReviewContent>();
+
+export function getReviewContent(test: MockTest): ReviewContent {
+  const cacheKey = `${test.id}:${test.script ?? "traditional"}`;
+  const cached = reviewCache.get(cacheKey);
+  if (cached) return cached;
+  const content = computeReviewContent(test);
+  reviewCache.set(cacheKey, content);
+  return content;
+}
+
+function computeReviewContent(test: MockTest): ReviewContent {
   if (["band-a-test-02", "band-a-test-03", "band-a-test-04", "band-a-test-05"].includes(test.id)) return getCompleteBandAReviewContent(test);
   if (test.id === "band-c-test-01") return getBandCReviewContent(test);
   if (test.id === "band-b-test-01") {

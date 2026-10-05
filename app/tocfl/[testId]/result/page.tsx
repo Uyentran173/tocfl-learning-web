@@ -1,5 +1,20 @@
 import { notFound } from "next/navigation";
-import { getTest } from "@/lib/test-catalog";
-import { parseTestScope } from "@/lib/tests";
-import ResultClient from "@/components/ResultClient";
-export default async function ResultPage({ params, searchParams }: { params: Promise<{ testId: string }>; searchParams: Promise<{ script?: string; scope?: string }> }) { const { testId } = await params; const { script, scope } = await searchParams; const test = getTest(testId, script === "simplified" ? "simplified" : "traditional", parseTestScope(scope)); if (!test) notFound(); return <ResultClient test={test}/>; }
+import { Suspense } from "react";
+import { getImportedTests, getTest } from "@/lib/test-catalog";
+import ResultPageClient from "@/components/ResultPageClient";
+
+export function generateStaticParams() {
+  return getImportedTests().map((test) => ({ testId: test.id }));
+}
+
+export default async function ResultPage({ params }: { params: Promise<{ testId: string }> }) {
+  const { testId } = await params;
+  const traditional = getTest(testId, "traditional");
+  if (!traditional) notFound();
+  const simplified = getTest(testId, "simplified") ?? traditional;
+  return (
+    <Suspense fallback={<div className="report-shell"><main className="mx-auto max-w-5xl px-5 py-12">Đang tải kết quả…</main></div>}>
+      <ResultPageClient traditional={traditional} simplified={simplified} />
+    </Suspense>
+  );
+}

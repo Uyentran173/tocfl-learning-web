@@ -1,8 +1,12 @@
 import { notFound } from "next/navigation";
-import { getTest } from "@/lib/test-catalog";
+import { getImportedTests, getTest } from "@/lib/test-catalog";
 import { selectTestScope, type MockTest, type ScriptVariant, type TestScope } from "@/lib/tests";
 import type { ExamStartData } from "@/lib/exam-start-preload";
 import TestSetup from "@/components/TestSetup";
+
+export function generateStaticParams() {
+  return getImportedTests().map((test) => ({ testId: test.id }));
+}
 
 export default async function InstructionsPage({ params }: { params: Promise<{ testId: string }> }) {
   const { testId } = await params;

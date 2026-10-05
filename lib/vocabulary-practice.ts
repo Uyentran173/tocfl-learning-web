@@ -178,13 +178,21 @@ const curatedLessons: { title: string; kind: string; lines: CuratedLine[]; suppo
     { traditional: "小美：當然可以，教室就在樓上。", simplified: "小美：当然可以，教室就在楼上。", vietnamese: "Tiểu Mỹ: Tất nhiên rồi, phòng học ở tầng trên." },
     { traditional: "小安：謝謝你！下課後再見。", simplified: "小安：谢谢你！下课后再见。", vietnamese: "Tiểu An: Cảm ơn bạn! Hẹn gặp sau giờ học." },
   ], support: [{ traditional: "教室", simplified: "教室", vietnamese: "phòng học" }, { traditional: "樓上", simplified: "楼上", vietnamese: "tầng trên" }] },
+  { title: "Đăng ký lớp tiếng Hoa", kind: "Hội thoại", lines: [
+    { traditional: "接待員：您好，請問您的姓名是？", simplified: "接待员：您好，请问您的姓名是？", vietnamese: "Nhân viên: Xin chào, cho tôi hỏi họ tên của bạn là gì?" },
+    { traditional: "學生：我叫小安。我們想報名中文課。", simplified: "学生：我叫小安。我们想报名中文课。", vietnamese: "Học viên: Tôi tên Tiểu An. Chúng tôi muốn đăng ký lớp tiếng Hoa." },
+    { traditional: "接待員：那兩個人是誰？他們也要上課嗎？", simplified: "接待员：那两个人是谁？他们也要上课吗？", vietnamese: "Nhân viên: Hai người kia là ai? Họ cũng muốn học phải không?" },
+    { traditional: "學生：對，他們是我的朋友，我們一起來的。", simplified: "学生：对，他们是我的朋友，我们一起来的。", vietnamese: "Học viên: Đúng vậy, họ là bạn tôi, chúng tôi đến cùng nhau." },
+    { traditional: "接待員：好的，請在這裡寫下姓名，等一下我帶你們去教室。", simplified: "接待员：好的，请在这里写下姓名，等一下我带你们去教室。", vietnamese: "Nhân viên: Vâng, vui lòng ghi họ tên ở đây. Lát nữa tôi sẽ dẫn các bạn đến phòng học." },
+    { traditional: "學生：謝謝您。", simplified: "学生：谢谢您。", vietnamese: "Học viên: Cảm ơn bạn." },
+  ], support: [{ traditional: "報名", simplified: "报名", vietnamese: "đăng ký" }, { traditional: "教室", simplified: "教室", vietnamese: "phòng học" }] },
 ];
 
 const sceneTopics = [
   "school", "food", "daily", "shopping", "transport", "school", "work", "transport",
-  "housing", "health", "school", "work", "travel", "work", "environment", "technology", "greetings",
+  "housing", "health", "school", "work", "travel", "work", "environment", "technology", "greetings", "school",
 ] as const;
-const sceneRanks = [1, 1, 1, 1, 1, 1, 2, 1, 2, 2, 2, 2, 2, 2, 3, 3, 1] as const;
+const sceneRanks = [1, 1, 1, 1, 1, 1, 2, 1, 2, 2, 2, 2, 2, 2, 3, 3, 1, 1] as const;
 const relatedTopics: Record<string, string[]> = {
   university: ["school"], greetings: ["greetings", "daily", "school"], "daily-life": ["daily"],
   travel: ["travel", "transport"], transport: ["transport", "travel"],
@@ -209,10 +217,18 @@ const sceneChecks = [
   { prompt: "Khu phố sẽ làm gì trước để cải thiện việc phân loại rác?", choices: ["Tổ chức buổi nói chuyện", "Đóng cửa công viên", "Dừng thu gom rác"], answer: "Tổ chức buổi nói chuyện", line: 2 },
   { prompt: "Người viết đã làm gì với email đáng ngờ?", choices: ["Không bấm liên kết và chuyển tiếp cho bộ phận IT", "Trả lời người gửi ngay", "Chia sẻ mật khẩu"], answer: "Không bấm liên kết và chuyển tiếp cho bộ phận IT", line: 2 },
   { prompt: "Tiểu Mỹ nói phòng học ở đâu?", choices: ["Ở tầng trên", "Ở bên cạnh ga", "Ở trong công viên"], answer: "Ở tầng trên", line: 3 },
+  { prompt: "Hai người đi cùng Tiểu An là ai?", choices: ["Bạn của Tiểu An", "Giảng viên", "Nhân viên"], answer: "Bạn của Tiểu An", line: 3 },
 ] as const;
-const genericForms = new Set(["我", "你", "他", "她", "我們", "我们", "你們", "你们", "他們", "他们", "她們", "她们", "是", "有", "在", "不", "的", "了", "會", "会", "要", "能", "可以"]);
+const genericForms = new Set(["我", "你", "妳", "您", "他", "她", "我們", "我们", "你們", "你们", "妳們", "他們", "他们", "她們", "她们", "是", "有", "在", "不", "的", "了", "會", "会", "要", "能", "可以"]);
 
 export function wordForm(word: LearnedVocabularyWord, script: VocabularyScript): string { return script === "simplified" ? word.simplified : word.traditional; }
+export function matchingWordForm(word: LearnedVocabularyWord, script: VocabularyScript, text: string): string | null {
+  return wordForm(word, script).split(/[\/／]/).map((form) => form.replace(/\([^)]*\)/g, "").trim()).filter(Boolean)
+    .sort((a, b) => b.length - a.length).find((form) => text.includes(form)) ?? null;
+}
+function primaryWordForm(word: LearnedVocabularyWord, script: VocabularyScript): string {
+  return wordForm(word, script).split(/[\/／]/)[0].replace(/\([^)]*\)/g, "").trim();
+}
 export function exampleForm(word: LearnedVocabularyWord, script: VocabularyScript): string { return script === "simplified" ? word.exampleSimplified : word.exampleTraditional; }
 export function bandRank(word: LearnedVocabularyWord): number { return ({ novice: 0, band_a: 1, band_b: 2, band_c: 3 } as Record<string, number>)[word.band ?? ""] ?? 0; }
 
@@ -238,9 +254,9 @@ export function buildLesson(pool: LearnedVocabularyWord[], script: VocabularyScr
   const matches = curatedLessons.flatMap((template, index) => {
     if (sceneRanks[index] > lessonRank) return [];
     const text = template.lines.map((line) => script === "simplified" ? line.simplified : line.traditional).join(" ");
-    const words = candidates.filter((word) => text.includes(wordForm(word, script))).slice(0, 12);
+    const words = candidates.filter((word) => matchingWordForm(word, script, text)).slice(0, 12);
     if (words.length < 2) return [];
-    const contentWords = words.filter((word) => !genericForms.has(wordForm(word, script)));
+    const contentWords = words.filter((word) => !genericForms.has(primaryWordForm(word, script)));
     if (contentWords.length < 2) return [];
     const topicBonus = topics.includes(sceneTopics[index]) ? 4 : 0;
     const levelBonus = sceneRanks[index] === lessonRank ? 1 : 0;
@@ -252,16 +268,16 @@ export function buildLesson(pool: LearnedVocabularyWord[], script: VocabularyScr
   const { template, words, index } = selected;
   const lines = template.lines.map((line) => {
     const chinese = script === "simplified" ? line.simplified : line.traditional;
-    return { vocabularyId: words.find((word) => chinese.includes(wordForm(word, script)))?.vocabularyId ?? "", chinese, vietnamese: line.vietnamese };
+    return { vocabularyId: words.find((word) => matchingWordForm(word, script, chinese))?.vocabularyId ?? "", chinese, vietnamese: line.vietnamese };
   });
   const supporting = template.support.flatMap((item) => {
     const chinese = script === "simplified" ? item.simplified : item.traditional;
-    return lines.some((line) => line.chinese.includes(chinese)) && !pool.some((word) => wordForm(word, script) === chinese)
+    return lines.some((line) => line.chinese.includes(chinese)) && !pool.some((word) => matchingWordForm(word, script, chinese) === chinese)
       ? [{ chinese, vietnamese: item.vietnamese }] : [];
   });
   const check = sceneChecks[index];
   const evidenceLine = lines[check.line];
-  const evidenceWord = words.find((word) => evidenceLine.chinese.includes(wordForm(word, script)));
+  const evidenceWord = words.find((word) => matchingWordForm(word, script, evidenceLine.chinese));
   return {
     id: `scene:${script}:${index}:${words.map((word) => word.vocabularyId).join("|")}`,
     title: template.title, kind: template.kind, lines, words, recentCount: candidates.length, supporting,
@@ -271,8 +287,8 @@ export function buildLesson(pool: LearnedVocabularyWord[], script: VocabularyScr
   };
 }
 
-function alternatives(words: LearnedVocabularyWord[], target: LearnedVocabularyWord, script: VocabularyScript, field: "meaning" | "chinese"): string[] {
-  const value = (word: LearnedVocabularyWord) => field === "meaning" ? word.meaningVi : wordForm(word, script);
+function alternatives(words: LearnedVocabularyWord[], target: LearnedVocabularyWord, script: VocabularyScript, field: "meaning" | "chinese", targetForm?: string): string[] {
+  const value = (word: LearnedVocabularyWord) => field === "meaning" ? word.meaningVi : word.vocabularyId === target.vocabularyId && targetForm ? targetForm : primaryWordForm(word, script);
   return [...new Set([target, ...words.filter((word) => word.vocabularyId !== target.vocabularyId)].map(value))].slice(0, 4);
 }
 function rotated<T>(values: T[], index: number): T[] { return values.length ? [...values.slice(index % values.length), ...values.slice(0, index % values.length)] : []; }
@@ -284,13 +300,13 @@ export function buildPracticeQuestions(lesson: PracticeLesson, script: Vocabular
   return types.flatMap((type, index) => {
     if (type === "comprehension" && lesson.comprehension?.vocabularyId) return [lesson.comprehension];
     const word = words[index % words.length];
-    const chinese = wordForm(word, script);
-    const lessonLine = lesson.lines.find((line) => line.chinese.includes(chinese));
+    const lessonLine = lesson.lines.find((line) => matchingWordForm(word, script, line.chinese));
+    const chinese = lessonLine ? matchingWordForm(word, script, lessonLine.chinese) ?? primaryWordForm(word, script) : primaryWordForm(word, script);
     const sentence = lessonLine?.chinese ?? exampleForm(word, script);
     const sentenceVi = lessonLine?.vietnamese ?? word.exampleVi;
     const other = words.find((item) => item.vocabularyId !== word.vocabularyId && wordForm(item, script) !== chinese);
     const meanings = rotated(alternatives(pool, word, script, "meaning"), index);
-    const forms = rotated(alternatives(pool, word, script, "chinese"), index);
+    const forms = rotated(alternatives(pool, word, script, "chinese", chinese), index);
     let prompt = ""; let choices: string[] = []; let answer = ""; let explanation = "";
     if (["blank", "context", "ordering", "sentence"].includes(type) && !sentence.includes(chinese)) return [];
     if (type === "meaning") { prompt = `${chinese} có nghĩa là gì?`; choices = meanings; answer = word.meaningVi; explanation = `${chinese}: ${word.meaningVi}.`; }
@@ -298,7 +314,7 @@ export function buildPracticeQuestions(lesson: PracticeLesson, script: Vocabular
     if (type === "context") { prompt = `Trong ngữ cảnh “${sentenceVi}”, chọn từ đúng.`; choices = forms; answer = chinese; explanation = `Trong bài: ${sentence}`; }
     if (type === "matching") { prompt = `Ghép “${chinese}” với nghĩa phù hợp.`; choices = meanings; answer = word.meaningVi; explanation = `${chinese} ↔ ${word.meaningVi}.`; }
     if (type === "comprehension") return [];
-    if (type === "sentence" && other) { prompt = `Chọn câu đúng như bài khóa (${word.meaningVi}).`; choices = rotated([sentence, sentence.replace(chinese, wordForm(other, script))], index); answer = sentence; explanation = `Bài khóa dùng ${chinese} trong câu: ${sentence}`; }
+    if (type === "sentence" && other) { prompt = `Chọn câu đúng như bài khóa (${word.meaningVi}).`; choices = rotated([sentence, sentence.replace(chinese, primaryWordForm(other, script))], index); answer = sentence; explanation = `Bài khóa dùng ${chinese} trong câu: ${sentence}`; }
     if (type === "ordering") {
       const pieces = sentence.split(chinese);
       if (pieces.length !== 2 || !pieces[0] || !pieces[1]) return [];

@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { emptyLearnedPool, learnedPoolChangedEvent, loadLearnedPool, mergeLegacyLearned, recordVocabularyAnswer, reviewPriority, saveLearnedPool, type LearnedVocabularyPool, type VocabularyScript } from "@/lib/learned-vocabulary";
-import { buildGameQuestions, buildLesson, buildPracticeQuestions, createPairRound, focusWords, pairArrangement, questionArrangement, randomizeQuestions, wordForm, type PracticeLesson, type PracticeQuestion } from "@/lib/vocabulary-practice";
+import { buildGameQuestions, buildLesson, buildPracticeQuestions, createPairRound, focusWords, matchingWordForm, pairArrangement, questionArrangement, randomizeQuestions, wordForm, type PracticeLesson, type PracticeQuestion } from "@/lib/vocabulary-practice";
 
 type Game = "pairs" | "quick" | "fill" | "order" | "memory";
 type Mode = "lesson" | "exercise" | "game" | "review" | "summary";
@@ -16,7 +16,7 @@ function safeOldList(key: string): string[] {
 }
 
 function HighlightedLine({ line, lesson, script }: { line: string; lesson: PracticeLesson; script: VocabularyScript }) {
-  const forms = lesson.words.map((word) => ({ word, text: wordForm(word, script) })).filter((item) => item.text).sort((a, b) => b.text.length - a.text.length);
+  const forms = lesson.words.map((word) => ({ word, text: matchingWordForm(word, script, line) })).filter((item): item is { word: typeof item.word; text: string } => !!item.text).sort((a, b) => b.text.length - a.text.length);
   const parts: { text: string; id?: string }[] = [];
   for (let index = 0; index < line.length;) {
     const match = forms.find((item) => line.startsWith(item.text, index));

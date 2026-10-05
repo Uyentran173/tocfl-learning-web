@@ -90,6 +90,20 @@ test("a greeting set opens a natural first-meeting dialogue", () => {
   assert.ok(lesson.lines.at(-1).chinese.includes("再見"));
 });
 
+test("official slash variants match the spoken form in a people lesson", () => {
+  let pool = emptyLearnedPool();
+  for (const hanzi of ["我", "我們", "你/妳", "他/她", "你們/妳們", "他們/她們", "您", "姓名", "人", "誰"]) {
+    pool = addLearnedWord(pool, { ...input(hanzi, hanzi, hanzi), simplified: hanzi.replaceAll("們", "们").replaceAll("誰", "谁") });
+  }
+  const lesson = buildLesson(pool.words, "traditional");
+  assert.equal(lesson.title, "Đăng ký lớp tiếng Hoa");
+  assert.ok(lesson.words.some((word) => word.traditional === "他們/她們"));
+  assert.ok(lesson.lines.some((line) => line.chinese.includes("他們")));
+  const questions = buildPracticeQuestions(lesson, "traditional", pool.words);
+  assert.ok(questions.every((question) => pool.words.some((word) => word.vocabularyId === question.vocabularyId)));
+  assert.ok(questions.every((question) => question.choices.includes(question.answer) || question.type === "ordering"));
+});
+
 test("two related daily-life words open one coherent lesson", () => {
   let pool = emptyLearnedPool();
   for (const word of ["洗澡", "起床"].map((hanzi) => ({ ...input(hanzi, hanzi, hanzi), studySetId: "context:daily" }))) pool = addLearnedWord(pool, word);

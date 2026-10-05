@@ -223,8 +223,16 @@ const genericForms = new Set(["我", "你", "妳", "您", "他", "她", "我們"
 
 export function wordForm(word: LearnedVocabularyWord, script: VocabularyScript): string { return script === "simplified" ? word.simplified : word.traditional; }
 export function matchingWordForm(word: LearnedVocabularyWord, script: VocabularyScript, text: string): string | null {
-  return wordForm(word, script).split(/[\/／]/).map((form) => form.replace(/\([^)]*\)/g, "").trim()).filter(Boolean)
-    .sort((a, b) => b.length - a.length).find((form) => text.includes(form)) ?? null;
+  const forms = wordForm(word, script).split(/[\/／]/).map((form) => form.replace(/\([^)]*\)/g, "").trim()).filter(Boolean)
+    .sort((a, b) => b.length - a.length);
+  for (const form of forms) {
+    let index = text.indexOf(form);
+    while (index >= 0) {
+      if (!(form.length === 1 && (text[index + 1] === "們" || text[index + 1] === "们"))) return form;
+      index = text.indexOf(form, index + form.length);
+    }
+  }
+  return null;
 }
 function primaryWordForm(word: LearnedVocabularyWord, script: VocabularyScript): string {
   return wordForm(word, script).split(/[\/／]/)[0].replace(/\([^)]*\)/g, "").trim();

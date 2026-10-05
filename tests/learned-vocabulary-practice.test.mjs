@@ -98,6 +98,8 @@ test("official slash variants match the spoken form in a people lesson", () => {
   const lesson = buildLesson(pool.words, "traditional");
   assert.equal(lesson.title, "Đăng ký lớp tiếng Hoa");
   assert.ok(lesson.words.some((word) => word.traditional === "他們/她們"));
+  assert.ok(!lesson.words.some((word) => word.traditional === "他/她" || word.traditional === "你/妳"));
+  assert.equal(lesson.words.length, 8);
   assert.ok(lesson.lines.some((line) => line.chinese.includes("他們")));
   const questions = buildPracticeQuestions(lesson, "traditional", pool.words);
   assert.ok(questions.every((question) => pool.words.some((word) => word.vocabularyId === question.vocabularyId)));

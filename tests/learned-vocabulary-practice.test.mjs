@@ -2,7 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { addLearnedWord, emptyLearnedPool, masteryFor, mergeLegacyLearned, parseLearnedPool, recordVocabularyAnswer, removeLearnedWord, reviewPriority, vocabularyIdFor } from "../lib/learned-vocabulary.ts";
-import { buildGameQuestions, buildLesson, buildPracticeQuestions, createPairRound, randomizeQuestions, shuffle } from "../lib/vocabulary-practice.ts";
+import { buildGameQuestions, buildLesson, buildPracticeQuestions, createPairRound, pairArrangement, questionArrangement, randomizeQuestions, shuffle } from "../lib/vocabulary-practice.ts";
 
 const input = (traditional, pinyin, meaningVi, source = "tocfl") => ({
   sourceRecordId: `${source}:${traditional}`, source, band: source === "tocfl" ? "band_a" : null,
@@ -143,6 +143,22 @@ test("multiple choice answer slots vary by round without changing vocabulary IDs
     assert.deepEqual([...round.choices].sort(), [...question.choices].sort());
   }
   assert.ok(slots.size > 1);
+});
+
+test("restarting a two-word game or choice round changes its visible arrangement", () => {
+  let pool = emptyLearnedPool();
+  for (const word of [input("洗澡", "xǐzǎo", "tắm"), input("起床", "qǐchuáng", "thức dậy")]) pool = addLearnedWord(pool, word);
+  const first = createPairRound(pool.words, "traditional", () => 0.5);
+  const second = createPairRound(pool.words, "traditional", () => 0.5, pairArrangement(first, false));
+  assert.notEqual(pairArrangement(first, false), pairArrangement(second, false));
+  assert.ok(second.chinese.every((word, index) => word.vocabularyId !== second.vietnamese[index].vocabularyId));
+  const firstMemory = createPairRound(pool.words, "traditional", () => 0.5);
+  const secondMemory = createPairRound(pool.words, "traditional", () => 0.5, pairArrangement(firstMemory, true), true);
+  assert.notEqual(pairArrangement(firstMemory, true), pairArrangement(secondMemory, true));
+  const question = { id: "q", type: "meaning", vocabularyId: pool.words[0].vocabularyId, prompt: "?", choices: ["tắm", "thức dậy"], answer: "tắm", explanation: "" };
+  const firstChoice = randomizeQuestions([question], () => 0.5);
+  const nextChoice = randomizeQuestions([question], () => 0.5, questionArrangement(firstChoice));
+  assert.notEqual(questionArrangement(firstChoice), questionArrangement(nextChoice));
 });
 
 test("real TOCFL A/B words form coherent scenes in both scripts", () => {

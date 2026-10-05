@@ -3,6 +3,7 @@ import type { LearnedVocabularyWord, VocabularyScript } from "./learned-vocabula
 export type LessonLine = { vocabularyId: string; chinese: string; vietnamese: string };
 export type PracticeLesson = { id: string; title: string; kind: string; lines: LessonLine[]; words: LearnedVocabularyWord[]; recentCount: number; supporting: { chinese: string; vietnamese: string | null }[]; comprehension?: PracticeQuestion | null };
 export type PracticeQuestion = { id: string; type: "meaning" | "blank" | "context" | "ordering" | "matching" | "comprehension" | "sentence"; vocabularyId: string; prompt: string; choices: string[]; answer: string; explanation: string };
+export type PairRound = { chinese: LearnedVocabularyWord[]; vietnamese: LearnedVocabularyWord[]; memory: { key: string; id: string; text: string; side: "zh" | "vi" }[] };
 
 export function shuffle<T>(items: readonly T[], random: () => number = Math.random): T[] {
   const result = [...items];
@@ -13,31 +14,58 @@ export function shuffle<T>(items: readonly T[], random: () => number = Math.rand
   return result;
 }
 
-export function randomizeQuestions(questions: readonly PracticeQuestion[], random: () => number = Math.random): PracticeQuestion[] {
-  return questions.map((question) => ({ ...question, choices: shuffle(question.choices, random) }));
+export function questionArrangement(questions: readonly PracticeQuestion[]): string {
+  return JSON.stringify(questions.map((question) => question.choices));
 }
 
-export function createPairRound(words: readonly LearnedVocabularyWord[], script: VocabularyScript, random: () => number = Math.random) {
-  const selected = words.slice(0, 5);
-  let chinese = shuffle(selected, random);
-  let vietnamese = shuffle(selected, random);
-  const sameOrder = (a: readonly LearnedVocabularyWord[], b: readonly LearnedVocabularyWord[]) => a.every((word, index) => word.vocabularyId === b[index].vocabularyId);
-  if (selected.length > 1 && sameOrder(chinese, selected)) chinese = [...chinese.slice(1), chinese[0]];
-  if (selected.length > 1 && sameOrder(vietnamese, selected)) vietnamese = [...vietnamese.slice(1), vietnamese[0]];
-  if (selected.length > 1 && chinese.some((word, index) => word.vocabularyId === vietnamese[index].vocabularyId)) {
-    for (let attempt = 0; attempt < 20; attempt++) {
-      const next = shuffle(vietnamese, random);
-      if (next.every((word, index) => word.vocabularyId !== chinese[index].vocabularyId) && !sameOrder(next, selected)) { vietnamese = next; break; }
-    }
-    if (chinese.some((word, index) => word.vocabularyId === vietnamese[index].vocabularyId)) {
-      vietnamese = [...chinese.slice(1), chinese[0]];
-    }
+export function randomizeQuestions(questions: readonly PracticeQuestion[], random: () => number = Math.random, previous?: string): PracticeQuestion[] {
+  let last: PracticeQuestion[] = [];
+  for (let attempt = 0; attempt < 20; attempt++) {
+    const round = questions.map((question) => ({ ...question, choices: shuffle(question.choices, random) }));
+    if (!previous || questionArrangement(round) !== previous) return round;
+    last = round;
   }
-  const memory = shuffle([
-    ...selected.map((word) => ({ key: `${word.vocabularyId}:zh`, id: word.vocabularyId, text: wordForm(word, script), side: "zh" as const })),
-    ...selected.map((word) => ({ key: `${word.vocabularyId}:vi`, id: word.vocabularyId, text: word.meaningVi, side: "vi" as const })),
-  ], random);
-  return { chinese, vietnamese, memory };
+  return last.map((question) => ({ ...question, choices: [...question.choices.slice(1), question.choices[0]] }));
+}
+
+export function pairArrangement(round: PairRound, memory: boolean): string {
+  return memory ? JSON.stringify(round.memory.map((card) => card.key))
+    : JSON.stringify([round.chinese.map((word) => word.vocabularyId), round.vietnamese.map((word) => word.vocabularyId)]);
+}
+
+export function createPairRound(words: readonly LearnedVocabularyWord[], script: VocabularyScript, random: () => number = Math.random, previous?: string, memoryMode = false): PairRound {
+  const selected = words.slice(0, 5);
+  const sameOrder = (a: readonly LearnedVocabularyWord[], b: readonly LearnedVocabularyWord[]) => a.every((word, index) => word.vocabularyId === b[index].vocabularyId);
+  const makeRound = () => {
+    let chinese = shuffle(selected, random);
+    let vietnamese = shuffle(selected, random);
+    if (selected.length > 2 && sameOrder(chinese, selected)) chinese = [...chinese.slice(1), chinese[0]];
+    if (selected.length > 2 && sameOrder(vietnamese, selected)) vietnamese = [...vietnamese.slice(1), vietnamese[0]];
+    if (selected.length > 1 && chinese.some((word, index) => word.vocabularyId === vietnamese[index].vocabularyId)) {
+      for (let attempt = 0; attempt < 20; attempt++) {
+        const next = shuffle(vietnamese, random);
+        if (next.every((word, index) => word.vocabularyId !== chinese[index].vocabularyId) && (selected.length === 2 || !sameOrder(next, selected))) { vietnamese = next; break; }
+      }
+      if (chinese.some((word, index) => word.vocabularyId === vietnamese[index].vocabularyId)) {
+        vietnamese = [...chinese.slice(1), chinese[0]];
+      }
+    }
+    const memory = shuffle([
+      ...selected.map((word) => ({ key: `${word.vocabularyId}:zh`, id: word.vocabularyId, text: wordForm(word, script), side: "zh" as const })),
+      ...selected.map((word) => ({ key: `${word.vocabularyId}:vi`, id: word.vocabularyId, text: word.meaningVi, side: "vi" as const })),
+    ], random);
+    return { chinese, vietnamese, memory };
+  };
+  let last: PairRound | null = null;
+  for (let attempt = 0; attempt < 20; attempt++) {
+    const round = makeRound();
+    if (!previous || pairArrangement(round, memoryMode) !== previous) return round;
+    last = round;
+  }
+  const round = last ?? makeRound();
+  if (memoryMode) round.memory = [...round.memory.slice(1), round.memory[0]];
+  else { round.chinese.reverse(); round.vietnamese.reverse(); }
+  return round;
 }
 
 type CuratedLine = { traditional: string; simplified: string; vietnamese: string };

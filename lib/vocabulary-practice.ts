@@ -171,15 +171,22 @@ const curatedLessons: { title: string; kind: string; lines: CuratedLine[]; suppo
     { traditional: "請問接下來需要更改密碼，或採取其他措施嗎？", simplified: "请问接下来需要更改密码，或采取其他措施吗？", vietnamese: "Xin hỏi tiếp theo tôi cần đổi mật khẩu hay thực hiện biện pháp nào khác không?" },
     { traditional: "謝謝協助，期待您的回覆。", simplified: "谢谢协助，期待您的回复。", vietnamese: "Cảm ơn sự hỗ trợ và mong nhận được phản hồi." },
   ], support: [{ traditional: "資料外洩", simplified: "资料外泄", vietnamese: "rò rỉ dữ liệu" }, { traditional: "轉寄", simplified: "转寄", vietnamese: "chuyển tiếp thư" }, { traditional: "連結", simplified: "链接", vietnamese: "đường dẫn" }] },
+  { title: "Gặp bạn mới ở lớp", kind: "Hội thoại", lines: [
+    { traditional: "小安：你好，我是新來的學生。你叫什麼名字？", simplified: "小安：你好，我是新来的学生。你叫什么名字？", vietnamese: "Tiểu An: Chào bạn, mình là học sinh mới. Bạn tên là gì?" },
+    { traditional: "小美：我叫小美，很高興認識你。", simplified: "小美：我叫小美，很高兴认识你。", vietnamese: "Tiểu Mỹ: Mình tên Tiểu Mỹ, rất vui được gặp bạn." },
+    { traditional: "小安：我還不知道教室在哪裡，可以跟你一起去嗎？", simplified: "小安：我还不知道教室在哪里，可以跟你一起去吗？", vietnamese: "Tiểu An: Mình chưa biết phòng học ở đâu, có thể đi cùng bạn không?" },
+    { traditional: "小美：當然可以，教室就在樓上。", simplified: "小美：当然可以，教室就在楼上。", vietnamese: "Tiểu Mỹ: Tất nhiên rồi, phòng học ở tầng trên." },
+    { traditional: "小安：謝謝你！下課後再見。", simplified: "小安：谢谢你！下课后再见。", vietnamese: "Tiểu An: Cảm ơn bạn! Hẹn gặp sau giờ học." },
+  ], support: [{ traditional: "教室", simplified: "教室", vietnamese: "phòng học" }, { traditional: "樓上", simplified: "楼上", vietnamese: "tầng trên" }] },
 ];
 
 const sceneTopics = [
   "school", "food", "daily", "shopping", "transport", "school", "work", "transport",
-  "housing", "health", "school", "work", "travel", "work", "environment", "technology",
+  "housing", "health", "school", "work", "travel", "work", "environment", "technology", "greetings",
 ] as const;
-const sceneRanks = [1, 1, 1, 1, 1, 1, 2, 1, 2, 2, 2, 2, 2, 2, 3, 3] as const;
+const sceneRanks = [1, 1, 1, 1, 1, 1, 2, 1, 2, 2, 2, 2, 2, 2, 3, 3, 1] as const;
 const relatedTopics: Record<string, string[]> = {
-  university: ["school"], greetings: ["daily", "school"], "daily-life": ["daily"],
+  university: ["school"], greetings: ["greetings", "daily", "school"], "daily-life": ["daily"],
   travel: ["travel", "transport"], transport: ["transport", "travel"],
   work: ["work"], school: ["school"], food: ["food"], shopping: ["shopping"],
   housing: ["housing"], health: ["health"], daily: ["daily"],
@@ -201,7 +208,9 @@ const sceneChecks = [
   { prompt: "Ứng viên từng làm công việc gì?", choices: ["Chăm sóc khách hàng", "Bác sĩ", "Giảng viên"], answer: "Chăm sóc khách hàng", line: 1 },
   { prompt: "Khu phố sẽ làm gì trước để cải thiện việc phân loại rác?", choices: ["Tổ chức buổi nói chuyện", "Đóng cửa công viên", "Dừng thu gom rác"], answer: "Tổ chức buổi nói chuyện", line: 2 },
   { prompt: "Người viết đã làm gì với email đáng ngờ?", choices: ["Không bấm liên kết và chuyển tiếp cho bộ phận IT", "Trả lời người gửi ngay", "Chia sẻ mật khẩu"], answer: "Không bấm liên kết và chuyển tiếp cho bộ phận IT", line: 2 },
+  { prompt: "Tiểu Mỹ nói phòng học ở đâu?", choices: ["Ở tầng trên", "Ở bên cạnh ga", "Ở trong công viên"], answer: "Ở tầng trên", line: 3 },
 ] as const;
+const genericForms = new Set(["我", "你", "他", "她", "我們", "我们", "你們", "你们", "他們", "他们", "她們", "她们", "是", "有", "在", "不", "的", "了", "會", "会", "要", "能", "可以"]);
 
 export function wordForm(word: LearnedVocabularyWord, script: VocabularyScript): string { return script === "simplified" ? word.simplified : word.traditional; }
 export function exampleForm(word: LearnedVocabularyWord, script: VocabularyScript): string { return script === "simplified" ? word.exampleSimplified : word.exampleTraditional; }
@@ -231,9 +240,11 @@ export function buildLesson(pool: LearnedVocabularyWord[], script: VocabularyScr
     const text = template.lines.map((line) => script === "simplified" ? line.simplified : line.traditional).join(" ");
     const words = candidates.filter((word) => text.includes(wordForm(word, script))).slice(0, 12);
     if (words.length < 2) return [];
+    const contentWords = words.filter((word) => !genericForms.has(wordForm(word, script)));
+    if (contentWords.length < 2) return [];
     const topicBonus = topics.includes(sceneTopics[index]) ? 4 : 0;
     const levelBonus = sceneRanks[index] === lessonRank ? 1 : 0;
-    const score = words.length * 3 + topicBonus + levelBonus;
+    const score = contentWords.length * 4 + words.length + topicBonus + levelBonus;
     return [{ template, index, words, score }];
   }).sort((a, b) => b.score - a.score || b.words.length - a.words.length);
   const selected = matches[offset % matches.length];

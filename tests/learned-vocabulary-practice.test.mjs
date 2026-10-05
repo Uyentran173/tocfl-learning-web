@@ -76,6 +76,20 @@ test("unrelated examples are not stitched into a fake lesson", () => {
   assert.equal(buildLesson(pool.words, "traditional"), null);
 });
 
+test("generic pronouns alone do not make a school lesson relevant", () => {
+  let pool = emptyLearnedPool();
+  for (const word of [input("我", "wǒ", "tôi"), input("我們", "wǒmen", "chúng tôi")]) pool = addLearnedWord(pool, word);
+  assert.equal(buildLesson(pool.words, "traditional"), null);
+});
+
+test("a greeting set opens a natural first-meeting dialogue", () => {
+  let pool = emptyLearnedPool();
+  for (const word of ["你好", "名字", "謝謝", "再見"].map((hanzi) => ({ ...input(hanzi, hanzi, hanzi, "website"), studySetId: "greetings", topicId: "greetings" }))) pool = addLearnedWord(pool, word);
+  const lesson = buildLesson(pool.words, "traditional", 0, "greetings");
+  assert.equal(lesson.title, "Gặp bạn mới ở lớp");
+  assert.ok(lesson.lines.at(-1).chinese.includes("再見"));
+});
+
 test("two related daily-life words open one coherent lesson", () => {
   let pool = emptyLearnedPool();
   for (const word of ["洗澡", "起床"].map((hanzi) => ({ ...input(hanzi, hanzi, hanzi), studySetId: "context:daily" }))) pool = addLearnedWord(pool, word);

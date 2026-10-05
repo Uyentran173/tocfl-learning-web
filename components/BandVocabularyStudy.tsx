@@ -175,7 +175,7 @@ export default function BandVocabularyStudy({ bands }: { bands: TocflVocabularyB
         <button type="button" className={view === "list" ? "button-primary" : "button-secondary"} onClick={() => chooseView("list")}>Danh sách từ</button>
         <button type="button" className={view === "study" ? "button-primary" : "button-secondary"} onClick={() => chooseView("study")}>Học từ</button>
         <button type="button" className={view === "review" ? "button-primary" : "button-secondary"} onClick={() => chooseView("review")}>Ôn từ đã học</button>
-        <Link href="/vocabulary/practice" className="button-secondary">Bài khóa · Bài tập · Game →</Link>
+        {learnedCount >= 2 && <Link href={`/vocabulary/practice?focus=${encodeURIComponent(`band:${bandId}:${levelId}`)}`} className="button-secondary">Học từ → Bài khóa → Bài tập → Trò chơi → Ôn lại</Link>}
       </div>
     </div>
 

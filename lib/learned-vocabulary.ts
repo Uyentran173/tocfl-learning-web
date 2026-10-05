@@ -16,12 +16,16 @@ export type LearnedVocabularyInput = {
   exampleTraditional: string;
   exampleSimplified: string;
   exampleVi: string;
+  studySetId?: string;
+  topicId?: string;
 };
 
 export type LearnedVocabularyWord = LearnedVocabularyInput & {
   vocabularyId: string;
   sourceRecordIds: string[];
   sources: VocabularySource[];
+  studySetIds: string[];
+  topicIds: string[];
   learnedAt: string;
   lastReviewedAt: string | null;
   correctCount: number;
@@ -76,6 +80,8 @@ export function parseLearnedPool(value: unknown): LearnedVocabularyPool {
       sourceRecordIds: [...new Set([typeof row.sourceRecordId === "string" ? row.sourceRecordId : vocabularyId,
         ...(Array.isArray(row.sourceRecordIds) ? row.sourceRecordIds.filter((item): item is string => typeof item === "string") : [])])],
       source: row.source, sources: [...new Set([row.source, ...(Array.isArray(row.sources) ? row.sources.filter(isSource) : [])])],
+      studySetIds: Array.isArray(row.studySetIds) ? [...new Set(row.studySetIds.filter((item): item is string => typeof item === "string"))] : typeof row.studySetId === "string" ? [row.studySetId] : [],
+      topicIds: Array.isArray(row.topicIds) ? [...new Set(row.topicIds.filter((item): item is string => typeof item === "string"))] : typeof row.topicId === "string" ? [row.topicId] : [],
       band: typeof row.band === "string" ? row.band : null, level: typeof row.level === "string" ? row.level : null,
       script: row.script, traditional: row.traditional,
       simplified: typeof row.simplified === "string" ? row.simplified : row.traditional,
@@ -115,10 +121,13 @@ export function addLearnedWord(pool: LearnedVocabularyPool, input: LearnedVocabu
     exampleSimplified: input.exampleSimplified || existing.exampleSimplified,
     exampleVi: input.exampleVi || existing.exampleVi,
     source: existing.source, sources: [...new Set([...existing.sources, input.source])],
+    studySetIds: [...new Set([...existing.studySetIds, ...(input.studySetId ? [input.studySetId] : [])])],
+    topicIds: [...new Set([...existing.topicIds, ...(input.topicId ? [input.topicId] : [])])],
     sourceRecordIds: [...new Set([...existing.sourceRecordIds, input.sourceRecordId])],
     learnedAt: existing.learnedAt,
   } : {
     ...input, vocabularyId, sourceRecordIds: [input.sourceRecordId], sources: [input.source],
+    studySetIds: input.studySetId ? [input.studySetId] : [], topicIds: input.topicId ? [input.topicId] : [],
     learnedAt, lastReviewedAt: null, correctCount: 0, wrongCount: 0, reviewPerformance: [], masteryStatus: "Mới học",
   };
   return { version: 2, words: [...pool.words.filter((item) => item.vocabularyId !== vocabularyId), word],

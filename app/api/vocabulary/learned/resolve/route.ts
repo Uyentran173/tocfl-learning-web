@@ -45,6 +45,7 @@ export async function POST(request: Request) {
         ?? candidates.find((word) => word.id.startsWith(`textbook:${setId}:`) && word.traditional === hanzi);
     }
     if (match) words.push({ sourceRecordId: match.id, source: match.source, band: match.band, level: match.level,
+      studySetId: setId, topicId: setId.startsWith("context:") ? setId.split(":")[1] : setId,
       script: setId.includes(":simplified:") ? "simplified" : "traditional", traditional: match.traditional,
       simplified: match.simplified, pinyin: match.pinyin, meaningVi: match.meaningVi, wordClass: match.wordClass,
       exampleTraditional: match.exampleTraditional, exampleSimplified: match.exampleSimplified, exampleVi: match.exampleVi });

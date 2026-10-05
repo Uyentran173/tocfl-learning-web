@@ -6,6 +6,7 @@ import { simplifyManualText } from "./context-vocabulary";
 export function fromBandRecord(record: TocflVocabularyRecord, script: VocabularyScript): LearnedVocabularyInput {
   return {
     sourceRecordId: record.id, source: "tocfl", band: record.band, level: record.levelId, script,
+    studySetId: `band:${record.band}:${record.levelId}`,
     traditional: record.traditional, simplified: record.simplified || record.traditional,
     pinyin: record.pinyin || "", meaningVi: record.meaningVi || "", wordClass: record.partOfSpeech.raw,
     exampleTraditional: record.exampleTraditional || "", exampleSimplified: record.exampleSimplified || "",
@@ -18,6 +19,7 @@ export function fromStudyWord(word: VocabularyWord, setId: string, index: number
   const traditional = word.traditional ?? word.hanzi;
   return {
     sourceRecordId: word.sourceRecordId ?? `${source}:${setId}:${index}`, source,
+    studySetId: setId, topicId: setId.startsWith("context:") ? setId.split(":")[1] : kind === "topic" ? setId : undefined,
     band: word.band ?? null, level: word.level ?? null,
     script: word.scriptLang === "zh-Hans" ? "simplified" : "traditional",
     traditional, simplified: word.simplified ?? simplifyManualText(traditional), pinyin: word.pinyin,

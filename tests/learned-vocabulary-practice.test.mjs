@@ -2,7 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { addLearnedWord, emptyLearnedPool, masteryFor, mergeLegacyLearned, parseLearnedPool, recordVocabularyAnswer, removeLearnedWord, reviewPriority, vocabularyIdFor } from "../lib/learned-vocabulary.ts";
-import { buildGameQuestions, buildLesson, buildPracticeQuestions } from "../lib/vocabulary-practice.ts";
+import { buildGameQuestions, buildLesson, buildPracticeQuestions, createPairRound, randomizeQuestions, shuffle } from "../lib/vocabulary-practice.ts";
 
 const input = (traditional, pinyin, meaningVi, source = "tocfl") => ({
   sourceRecordId: `${source}:${traditional}`, source, band: source === "tocfl" ? "band_a" : null,
@@ -13,11 +13,12 @@ const input = (traditional, pinyin, meaningVi, source = "tocfl") => ({
 });
 
 test("a word retains one identity across paths and scripts, without instant mastery", () => {
-  const first = addLearnedWord(emptyLearnedPool(), input("買", "mǎi", "mua", "textbook"), "2026-01-01T00:00:00.000Z");
-  const next = addLearnedWord(first, { ...input("買", "mǎi", "mua"), script: "simplified" });
+  const first = addLearnedWord(emptyLearnedPool(), { ...input("買", "mǎi", "mua", "textbook"), studySetId: "book:1" }, "2026-01-01T00:00:00.000Z");
+  const next = addLearnedWord(first, { ...input("買", "mǎi", "mua"), script: "simplified", studySetId: "band:novice:novice_1" });
   assert.equal(next.words.length, 1);
   assert.equal(next.words[0].vocabularyId, vocabularyIdFor("買", "mǎi"));
   assert.deepEqual(next.words[0].sources, ["textbook", "tocfl"]);
+  assert.deepEqual(parseLearnedPool(JSON.parse(JSON.stringify(next))).words[0].studySetIds, ["book:1", "band:novice:novice_1"]);
   assert.equal(next.words[0].learnedAt, "2026-01-01T00:00:00.000Z");
   assert.equal(next.words[0].masteryStatus, "Mới học");
 });
@@ -69,29 +70,84 @@ test("a curated reading uses matching learned words and question context from th
   assert.ok(questions.every((question) => lesson.words.some((word) => word.vocabularyId === question.vocabularyId)));
 });
 
-test("source-example fallback follows a useful topic order and labels common supporting words", () => {
+test("unrelated examples are not stitched into a fake lesson", () => {
   let pool = emptyLearnedPool();
-  const entries = [
-    { ...input("早餐", "zǎocān", "bữa sáng", "website"), exampleTraditional: "你吃早餐了嗎？", exampleSimplified: "你吃早餐了吗？", exampleVi: "Bạn đã ăn sáng chưa?" },
-    { ...input("菜單", "càidān", "thực đơn", "website"), exampleTraditional: "請給我菜單。", exampleSimplified: "请给我菜单。", exampleVi: "Cho tôi xin thực đơn." },
-    { ...input("好吃", "hǎochī", "ngon", "website"), exampleTraditional: "這碗麵很好吃。", exampleSimplified: "这碗面很好吃。", exampleVi: "Bát mì này rất ngon." },
-  ];
-  for (const entry of entries) pool = addLearnedWord(pool, entry);
-  const lesson = buildLesson(pool.words, "traditional");
-  assert.deepEqual(lesson.words.map((word) => word.traditional), ["早餐", "菜單", "好吃"]);
-  assert.equal(lesson.supporting.find((item) => item.chinese === "麵")?.vietnamese, "mì");
-  assert.ok(!lesson.supporting.some((item) => item.chinese === "很" && lesson.supporting.some((other) => other.chinese === "很好")));
+  for (const word of [input("早餐", "zǎocān", "bữa sáng"), input("結婚", "jiéhūn", "kết hôn"), input("電腦", "diànnǎo", "máy tính")]) pool = addLearnedWord(pool, word);
+  assert.equal(buildLesson(pool.words, "traditional"), null);
 });
 
-test("real TOCFL A/B entries form lessons in both scripts without disconnected targets", () => {
+test("lesson respects the selected learning path and keeps supporting words in its text", () => {
+  let pool = emptyLearnedPool();
+  for (const word of [
+    { ...input("房租", "fángzū", "tiền thuê", "website"), studySetId: "context:housing::study:intermediate:traditional:20:auto", topicId: "housing", band: "band_a" },
+    { ...input("房東", "fángdōng", "chủ nhà", "website"), studySetId: "context:housing::study:intermediate:traditional:20:auto", topicId: "housing", band: "band_a" },
+    { ...input("押金", "yājīn", "tiền cọc", "website"), studySetId: "context:housing::study:intermediate:traditional:20:auto", topicId: "housing", band: "band_b" },
+    { ...input("搬家", "bānjiā", "chuyển nhà", "website"), studySetId: "context:housing::study:intermediate:traditional:20:auto", topicId: "housing", band: "band_a" },
+    { ...input("老師", "lǎoshī", "giáo viên"), studySetId: "school" },
+  ]) pool = addLearnedWord(pool, word);
+  const focus = "context:housing::study:intermediate:traditional:20:auto";
+  const lesson = buildLesson(pool.words, "traditional", 0, focus);
+  assert.equal(lesson.title, "Xem phòng trọ ở Đài Bắc");
+  assert.equal(lesson.kind, "Hội thoại");
+  assert.ok(lesson.words.every((word) => word.studySetIds.includes(focus)));
+  assert.ok(lesson.words.every((word) => lesson.lines.some((line) => line.chinese.includes(word.traditional))));
+  assert.ok(lesson.supporting.every((item) => lesson.lines.some((line) => line.chinese.includes(item.chinese))));
+  assert.ok(lesson.comprehension && lesson.comprehension.choices.includes(lesson.comprehension.answer));
+  const simplified = buildLesson(pool.words, "simplified", 0, focus);
+  assert.ok(simplified.lines.some((line) => line.chinese.includes("房东")));
+  assert.ok(simplified.supporting.every((item) => simplified.lines.some((line) => line.chinese.includes(item.chinese))));
+});
+
+test("advanced vocabulary selects an advanced coherent situation", () => {
+  let pool = emptyLearnedPool();
+  for (const word of ["環境", "垃圾", "回收", "鄰居", "改善", "銀行"].map((hanzi) => ({ ...input(hanzi, hanzi, hanzi), band: "band_c", topicId: "environment", studySetId: "context:environment" }))) pool = addLearnedWord(pool, word);
+  const lesson = buildLesson(pool.words, "traditional", 0, "context:environment");
+  assert.equal(lesson.title, "Lên kế hoạch giảm rác ở khu phố");
+  assert.ok(lesson.lines[0].chinese.includes("公園"));
+  assert.ok(lesson.lines.at(-1).chinese.includes("改善"));
+  assert.ok(lesson.words.length < pool.words.length);
+});
+
+test("Fisher–Yates gives each matching column and memory deck a separate arrangement", () => {
+  const random = (seed) => () => { seed = (seed * 1664525 + 1013904223) >>> 0; return seed / 4294967296; };
+  let pool = emptyLearnedPool();
+  for (const word of [input("買", "mǎi", "mua"), input("商店", "shāngdiàn", "cửa hàng"), input("價格", "jiàgé", "giá"), input("便宜", "piányi", "rẻ")]) pool = addLearnedWord(pool, word);
+  const first = createPairRound(pool.words, "traditional", random(1));
+  const second = createPairRound(pool.words, "traditional", random(2));
+  const ids = (list) => list.map((item) => item.vocabularyId);
+  assert.notDeepEqual(ids(first.chinese), ids(pool.words));
+  assert.notDeepEqual(ids(first.vietnamese), ids(pool.words));
+  assert.notDeepEqual(ids(first.chinese), ids(first.vietnamese));
+  assert.notDeepEqual(first.memory.map((item) => item.key), second.memory.map((item) => item.key));
+  assert.deepEqual([...new Set(first.memory.map((item) => item.id))].sort(), ids(pool.words).sort());
+  assert.deepEqual(shuffle([1, 2, 3, 4], random(3)).sort(), [1, 2, 3, 4]);
+});
+
+test("multiple choice answer slots vary by round without changing vocabulary IDs", () => {
+  const question = { id: "q", type: "meaning", vocabularyId: "stable-id", prompt: "?", choices: ["correct", "a", "b", "c"], answer: "correct", explanation: "" };
+  const slots = new Set();
+  for (const value of [0.01, 0.24, 0.51, 0.76, 0.99]) {
+    const random = () => value;
+    const [round] = randomizeQuestions([question], random);
+    slots.add(round.choices.indexOf(round.answer));
+    assert.equal(round.vocabularyId, question.vocabularyId);
+    assert.deepEqual([...round.choices].sort(), [...question.choices].sort());
+  }
+  assert.ok(slots.size > 1);
+});
+
+test("real TOCFL A/B words form coherent scenes in both scripts", () => {
   const imported = JSON.parse(readFileSync(new URL("../data/vocabulary/tocfl-imported.json", import.meta.url)));
   const enrichment = JSON.parse(readFileSync(new URL("../data/vocabulary/tocfl-enrichment.json", import.meta.url)));
-  for (const band of ["band_a", "band_b"]) {
+  for (const [band, targets, expected] of [
+    ["band_a", ["作業", "圖書館", "老師", "學生"], "Một ngày đi học"],
+    ["band_b", ["押金", "房租", "房東", "搬家"], "Xem phòng trọ ở Đài Bắc"],
+  ]) {
     let pool = emptyLearnedPool();
-    const records = imported.records.filter((record) => record.band === band && enrichment.entries[record.id] && record.pinyin && record.simplified).slice(0, 40);
+    const records = imported.records.filter((record) => targets.includes(record.traditional) && enrichment.entries[record.id] && record.pinyin && record.simplified);
     for (const record of records) {
       const extra = enrichment.entries[record.id];
-      pool = addLearnedWord(pool, { sourceRecordId: record.id, source: "tocfl", band, level: record.levelId,
+      pool = addLearnedWord(pool, { sourceRecordId: record.id, source: "tocfl", band: record.band, level: record.levelId,
         script: "traditional", traditional: record.traditional, simplified: record.simplified, pinyin: record.pinyin,
         meaningVi: extra.meaningVi, wordClass: record.partOfSpeech.raw,
         exampleTraditional: extra.exampleTraditional, exampleSimplified: extra.exampleSimplified, exampleVi: extra.exampleVi });
@@ -99,10 +155,10 @@ test("real TOCFL A/B entries form lessons in both scripts without disconnected t
     for (const script of ["traditional", "simplified"]) {
       const lesson = buildLesson(pool.words, script);
       assert.ok(lesson, `${band}/${script} needs a lesson`);
+      assert.equal(lesson.title, expected);
       assert.ok(lesson.words.every((word) => pool.words.includes(word)));
-      const questions = buildPracticeQuestions(lesson, script, pool.words);
-      assert.ok(questions.every((question) => pool.words.some((word) => word.vocabularyId === question.vocabularyId)));
       assert.ok(lesson.lines.every((line) => line.chinese && line.vietnamese));
+      assert.ok(buildPracticeQuestions(lesson, script, pool.words).every((question) => pool.words.some((word) => word.vocabularyId === question.vocabularyId)));
     }
   }
 });

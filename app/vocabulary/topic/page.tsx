@@ -1,5 +1,8 @@
 import Link from "next/link";
 import ContextVocabularyBuilder from "@/components/ContextVocabularyBuilder";
+import { createPageMetadata } from "@/lib/seo";
+
+export const metadata = createPageMetadata("Học từ vựng theo ngữ cảnh", "Học tiếng Hoa qua chủ đề và tình huống phù hợp với bạn.", "/vocabulary/topic");
 
 export default function TopicVocabularyPage() {
   return <main className="mx-auto max-w-6xl px-5 py-10 sm:px-8 sm:py-14">

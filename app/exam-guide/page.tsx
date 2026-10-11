@@ -1,6 +1,9 @@
 import CenterChooser from "@/components/CenterChooser";
 import { TaiwanLandscape } from "@/components/Illustrations";
 import MascotSticker from "@/components/MascotSticker";
+import { createPageMetadata } from "@/lib/seo";
+
+export const metadata = createPageMetadata("Hướng dẫn kỳ thi TOCFL", "Tìm hiểu cách đăng ký thi TOCFL, chuẩn bị giấy tờ và chọn địa điểm thi phù hợp.", "/exam-guide");
 
 const registrationSteps = [
   { number: "01", title: "Chọn kỳ thi phù hợp", description: "Tra cứu lịch thi chính thức, chọn địa điểm và buổi thi. Kiểm tra hình thức thi, hạn đăng ký và đơn vị tổ chức trước khi đăng ký." },

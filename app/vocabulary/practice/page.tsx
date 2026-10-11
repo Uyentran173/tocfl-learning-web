@@ -1,6 +1,9 @@
 import Link from "next/link";
 import { Suspense } from "react";
 import VocabularyPracticeClient from "@/components/VocabularyPracticeClient";
+import { createPageMetadata } from "@/lib/seo";
+
+export const metadata = createPageMetadata("Ôn tập từ vựng", "Luyện tập từ đã học qua bài khóa, bài tập và trò chơi.", "/vocabulary/practice");
 
 export default function VocabularyPracticePage() {
   return (

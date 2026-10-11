@@ -2,6 +2,9 @@ import Link from "next/link";
 import BandVocabularyStudy from "@/components/BandVocabularyStudy";
 import MascotSticker from "@/components/MascotSticker";
 import { getTocflVocabularyBands } from "@/lib/tocfl-vocabulary-data";
+import { createPageMetadata } from "@/lib/seo";
+
+export const metadata = createPageMetadata("Từ vựng theo Band TOCFL", "Học và ôn từ vựng TOCFL theo từng Band, với thẻ từ và tiến độ học rõ ràng.", "/vocabulary/band");
 
 export default function BandVocabularyPage() {
   const bands = getTocflVocabularyBands();

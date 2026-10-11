@@ -1,6 +1,9 @@
 import Link from "next/link";
 import VocabularyStudy from "@/components/VocabularyStudy";
 import { textbooks } from "@/lib/vocabulary";
+import { createPageMetadata } from "@/lib/seo";
+
+export const metadata = createPageMetadata("Học từ vựng theo giáo trình", "Học từ vựng tiếng Hoa theo từng bài và theo dõi tiến độ học.", "/vocabulary/textbook");
 
 export default function TextbookVocabularyPage() {
   return <main className="mx-auto max-w-6xl px-5 py-10 sm:px-8 sm:py-14">

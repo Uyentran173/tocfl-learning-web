@@ -1,5 +1,8 @@
 import Link from "next/link";
 import MascotSticker from "@/components/MascotSticker";
+import { createPageMetadata } from "@/lib/seo";
+
+export const metadata = createPageMetadata("Học từ vựng tiếng Hoa", "Học từ vựng tiếng Hoa Đài Loan theo ngữ cảnh, giáo trình hoặc Band TOCFL.", "/vocabulary");
 
 const paths = [
   { href: "/vocabulary/topic", icon: "✦", eyebrow: "CHẾ ĐỘ 01", title: "Học theo ngữ cảnh & chủ đề tùy chọn", description: "Chọn chủ đề hoặc tình huống gần bạn: du lịch, đại học, công việc, đời sống, ăn uống hay mua sắm.", action: "Chọn ngữ cảnh" },

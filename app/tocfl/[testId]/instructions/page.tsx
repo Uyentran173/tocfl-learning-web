@@ -3,9 +3,17 @@ import { getImportedTests, getTest } from "@/lib/test-catalog";
 import { selectTestScope, type MockTest, type ScriptVariant, type TestScope } from "@/lib/tests";
 import type { ExamStartData } from "@/lib/exam-start-preload";
 import TestSetup from "@/components/TestSetup";
+import { createPageMetadata } from "@/lib/seo";
 
 export function generateStaticParams() {
   return getImportedTests().map((test) => ({ testId: test.id }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ testId: string }> }) {
+  const { testId } = await params;
+  const test = getTest(testId);
+  if (!test) notFound();
+  return createPageMetadata(test.title, `Chọn chế độ, phần thi và kiểu chữ để bắt đầu ${test.title}.`, `/tocfl/${testId}/instructions`);
 }
 
 export default async function InstructionsPage({ params }: { params: Promise<{ testId: string }> }) {

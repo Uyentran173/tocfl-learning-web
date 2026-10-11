@@ -1,4 +1,6 @@
-# Nền tảng học tiếng Hoa và luyện đề TOCFL
+# Tai Wén — Học tiếng Hoa Đài Loan và luyện đề TOCFL
+
+Tên thương hiệu hiển thị: **Tai Wén**. Các cách gõ không dấu được hỗ trợ trong metadata tìm kiếm: **Taiwen**, **Tai Wen**. TOCFL là tên kỳ thi, không phải tên của nền tảng.
 
 ## Luyện tiếp sau khi học từ
 

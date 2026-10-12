@@ -1,4 +1,4 @@
-const defaultSiteUrl = process.env.NODE_ENV === "development" ? "http://localhost:3000" : "https://taiwen.vn";
+const defaultSiteUrl = process.env.NODE_ENV === "development" ? "http://localhost:3000" : "https://tocfl-learning-web.vercel.app";
 
 function resolveSiteUrl() {
   const configured = process.env.NEXT_PUBLIC_SITE_URL?.trim();

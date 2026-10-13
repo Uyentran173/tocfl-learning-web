@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import type { VocabularySet } from "@/lib/vocabulary";
 import { addLearnedWord, learnedPoolChangedEvent, loadLearnedPool, mergeLegacyLearned, removeLearnedWord, saveLearnedPool, vocabularyIdFor, type LearnedVocabularyWord } from "@/lib/learned-vocabulary";
+import { progressStorage } from "@/lib/progress-storage";
 import { fromStudyWord } from "@/lib/learned-vocabulary-adapters";
 import { buildLesson } from "@/lib/vocabulary-practice";
 import MascotSticker from "./MascotSticker";
@@ -22,7 +23,7 @@ export default function VocabularyStudy({ sets, kind, groups, initialSetId, show
   useEffect(() => {
     let timeout: number | undefined;
     try {
-      const saved = JSON.parse(window.localStorage.getItem(storageKey) ?? "[]");
+      const saved = JSON.parse(progressStorage().getItem(storageKey) ?? "[]");
       if (Array.isArray(saved)) timeout = window.setTimeout(() => setLearned(saved.filter((item): item is string => typeof item === "string")), 0);
     } catch { /* Keep a fresh study list if saved data is unavailable. */ }
     return () => { if (timeout !== undefined) window.clearTimeout(timeout); };
@@ -63,7 +64,7 @@ export default function VocabularyStudy({ sets, kind, groups, initialSetId, show
     if (!word) return;
     const next = isLearned ? learned.filter((item) => item !== wordKey) : [...learned, wordKey];
     setLearned(next);
-    window.localStorage.setItem(storageKey, JSON.stringify(next));
+    progressStorage().setItem(storageKey, JSON.stringify(next));
     const pool = loadLearnedPool(window.localStorage);
     saveLearnedPool(window.localStorage, isLearned ? removeLearnedWord(pool, wordPoolId) : addLearnedWord(pool, fromStudyWord(word, set.id, wordIndex, kind)));
   }

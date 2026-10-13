@@ -1,3 +1,5 @@
+import { progressStorage } from "./progress-storage.ts";
+
 export type VocabularySource = "tocfl" | "textbook" | "website";
 export type VocabularyScript = "traditional" | "simplified";
 export type MasteryStatus = "Mới học" | "Đang ghi nhớ" | "Đã khá chắc" | "Cần ôn lại";
@@ -100,12 +102,13 @@ export function parseLearnedPool(value: unknown): LearnedVocabularyPool {
 }
 
 export function loadLearnedPool(storage: Pick<Storage, "getItem">): LearnedVocabularyPool {
-  try { return parseLearnedPool(JSON.parse(storage.getItem(learnedPoolStorageKey) ?? "null")); }
+  try { return parseLearnedPool(JSON.parse((typeof window !== "undefined" ? progressStorage() : storage).getItem(learnedPoolStorageKey) ?? "null")); }
   catch { return emptyLearnedPool(); }
 }
 
 export function saveLearnedPool(storage: Pick<Storage, "setItem">, pool: LearnedVocabularyPool): void {
-  storage.setItem(learnedPoolStorageKey, JSON.stringify(pool));
+  // The shared adapter keeps guest data intact and scopes account data by user.
+  (typeof window !== "undefined" ? progressStorage() : storage).setItem(learnedPoolStorageKey, JSON.stringify(pool));
   if (typeof window !== "undefined") window.dispatchEvent(new Event(learnedPoolChangedEvent));
 }
 

@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import type { TocflVocabularyBand, TocflVocabularyRecord } from "@/lib/tocfl-vocabulary-types";
 import { addLearnedWord, learnedPoolChangedEvent, loadLearnedPool, mergeLegacyLearned, removeLearnedWord, saveLearnedPool, vocabularyIdFor, type LearnedVocabularyWord } from "@/lib/learned-vocabulary";
+import { progressStorage } from "@/lib/progress-storage";
 import { fromBandRecord } from "@/lib/learned-vocabulary-adapters";
 import { buildLesson } from "@/lib/vocabulary-practice";
 import MascotSticker from "./MascotSticker";
@@ -33,7 +34,7 @@ export default function BandVocabularyStudy({ bands }: { bands: TocflVocabularyB
   useEffect(() => {
     let timeout: number | undefined;
     try {
-      const saved: unknown = JSON.parse(window.localStorage.getItem(progressKey) ?? "[]");
+      const saved: unknown = JSON.parse(progressStorage().getItem(progressKey) ?? "[]");
       if (Array.isArray(saved)) timeout = window.setTimeout(() => setLearnedIds(saved.filter((id): id is string => typeof id === "string")), 0);
     } catch { /* A missing or invalid local list starts empty. */ }
     return () => { if (timeout !== undefined) window.clearTimeout(timeout); };
@@ -137,7 +138,7 @@ export default function BandVocabularyStudy({ bands }: { bands: TocflVocabularyB
     const wasLearned = learnedSet.has(id);
     const next = wasLearned ? learnedIds.filter((item) => item !== id) : [...learnedIds, id];
     setLearnedIds(next);
-    window.localStorage.setItem(progressKey, JSON.stringify(next));
+    progressStorage().setItem(progressKey, JSON.stringify(next));
     const pool = loadLearnedPool(window.localStorage);
     saveLearnedPool(window.localStorage, wasLearned ? removeLearnedWord(pool, vocabularyIdFor(record.traditional, record.pinyin || "")) : addLearnedWord(pool, fromBandRecord(record, script)));
   }

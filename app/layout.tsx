@@ -3,6 +3,7 @@ import "./globals.css";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import CopyDeterrence from "@/components/CopyDeterrence";
+import AuthProvider from "@/components/AuthProvider";
 import { siteConfig } from "@/lib/site";
 
 const socialImage = new URL(siteConfig.logo, siteConfig.url).toString();
@@ -58,10 +59,12 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema).replace(/</g, "\\u003c") }}
         />
-        <CopyDeterrence />
-        <SiteHeader />
-        <div className="site-content">{children}</div>
-        <SiteFooter />
+        <AuthProvider>
+          <CopyDeterrence />
+          <SiteHeader />
+          <div className="site-content">{children}</div>
+          <SiteFooter />
+        </AuthProvider>
       </body>
     </html>
   );

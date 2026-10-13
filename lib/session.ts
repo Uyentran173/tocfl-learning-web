@@ -1,9 +1,11 @@
 import type { MockTest, ScriptVariant, Section, TestScope } from "./tests";
+import { progressStorage } from "./progress-storage.ts";
 export type ExamMode = "practice" | "simulation";
 export type ExamResult = { correct: number; incorrect: number; unanswered: number; earnedPoints: number; maxPoints: number; sections: Record<Section, { correct: number; incorrect: number; unanswered: number; total: number }> };
 export type ExamSession = {
   testId: string;
   startedAt: number;
+  submittedAt?: number;
   deadlineAt: number;
   remainingSeconds: number;
   currentIndex: number;
@@ -24,15 +26,15 @@ const key = (id: string) => `tocfl-exam-v3:${id}`;
 export function readSession(id: string): ExamSession | null {
   if (typeof window === "undefined") return null;
   try {
-    const raw = window.localStorage.getItem(key(id));
+    const raw = progressStorage().getItem(key(id));
     if (!raw) return null;
     const value = JSON.parse(raw) as ExamSession;
     if (value.testId !== id || !value.answers || !Number.isFinite(value.deadlineAt) || !Number.isFinite(value.currentIndex)) return null;
     return value;
   } catch { return null; }
 }
-export function saveSession(session: ExamSession) { window.localStorage.setItem(key(session.testId), JSON.stringify(session)); }
-export function clearSession(id: string) { window.localStorage.removeItem(key(id)); }
+export function saveSession(session: ExamSession) { progressStorage().setItem(key(session.testId), JSON.stringify(session)); }
+export function clearSession(id: string) { progressStorage().removeItem(key(id)); }
 export function startSession(test: Pick<MockTest, "id" | "questions" | "listeningIntroAudio" | "script" | "scope">, mode: ExamMode = "practice"): ExamSession {
   const startedAt = Date.now();
   const activeSection = test.questions[0]?.section ?? "listening";
@@ -103,7 +105,7 @@ export function calculateResult(test: MockTest, answers: Record<string, number>)
 export function submitSession(test: MockTest, session: ExamSession): ExamSession {
   if (session.status === "submitted") return session;
   const activeSection = test.questions[session.currentIndex]?.section;
-  const submitted: ExamSession = { ...session, remainingSeconds: session.deadlineAt ? secondsLeft(session) : session.remainingSeconds, sectionCompleted: { ...session.sectionCompleted, ...(activeSection ? { [activeSection]: true } : {}) }, status: "submitted", result: calculateResult(test, session.answers) };
+  const submitted: ExamSession = { ...session, submittedAt: Date.now(), remainingSeconds: session.deadlineAt ? secondsLeft(session) : session.remainingSeconds, sectionCompleted: { ...session.sectionCompleted, ...(activeSection ? { [activeSection]: true } : {}) }, status: "submitted", result: calculateResult(test, session.answers) };
   saveSession(submitted);
   return submitted;
 }

@@ -3,6 +3,7 @@
 import { createContext, useCallback, useContext, useEffect, useRef, useState, type ReactNode } from "react";
 import type { ScriptVariant } from "@/lib/tests";
 import { annotationKey, createTextAnchor, hasChinese, removeHighlightsInRange, resolveTextAnchor, sameTextRange, upsertAnnotation, type PracticeAnnotation, type TextAnchor } from "@/lib/practice-annotations";
+import { progressStorage } from "@/lib/progress-storage";
 
 type Position = { top: number; left: number };
 type Selection = { anchor: TextAnchor; position: Position };
@@ -62,7 +63,7 @@ export function PracticeAnnotationProvider({ testId, script, questionId, childre
   useEffect(() => {
     const timeout = window.setTimeout(() => {
       try {
-        const parsed: unknown = JSON.parse(window.localStorage.getItem(key) ?? "[]");
+        const parsed: unknown = JSON.parse(progressStorage().getItem(key) ?? "[]");
         const next = Array.isArray(parsed) ? parsed.filter(isAnnotation) : [];
         annotationsRef.current = next;
         setAnnotations(next);
@@ -74,7 +75,7 @@ export function PracticeAnnotationProvider({ testId, script, questionId, childre
   const persist = useCallback((next: PracticeAnnotation[]) => {
     annotationsRef.current = next;
     setAnnotations(next);
-    try { window.localStorage.setItem(key, JSON.stringify(next)); } catch { /* Keep editing in memory if storage is unavailable. */ }
+    try { progressStorage().setItem(key, JSON.stringify(next)); } catch { /* Keep editing in memory if storage is unavailable. */ }
   }, [key]);
 
   const clearSelection = () => {

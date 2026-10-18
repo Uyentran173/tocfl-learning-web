@@ -4,6 +4,7 @@ import { createContext, useCallback, useContext, useEffect, useRef, useState, ty
 import type { ScriptVariant } from "@/lib/tests";
 import { annotationKey, createTextAnchor, hasChinese, removeHighlightsInRange, resolveTextAnchor, sameTextRange, upsertAnnotation, type PracticeAnnotation, type TextAnchor } from "@/lib/practice-annotations";
 import { progressStorage } from "@/lib/progress-storage";
+import { useT } from "./PreferencesProvider";
 
 type Position = { top: number; left: number };
 type Selection = { anchor: TextAnchor; position: Position };
@@ -52,6 +53,7 @@ function offsetIn(root: HTMLElement, container: Node, offset: number) {
 }
 
 export function PracticeAnnotationProvider({ testId, script, questionId, children }: { testId: string; script: ScriptVariant; questionId: string; children: ReactNode }) {
+  const t = useT();
   const key = annotationKey(testId, script);
   const [annotations, setAnnotations] = useState<PracticeAnnotation[]>([]);
   const annotationsRef = useRef<PracticeAnnotation[]>([]);
@@ -121,29 +123,30 @@ export function PracticeAnnotationProvider({ testId, script, questionId, childre
   return <Context.Provider value={{ questionId, annotations, openNote }}>
     <div onMouseUp={(event) => { if (!(event.target as Element).closest("[data-annotation-control]")) captureSelection(); }} onKeyUp={(event) => { if (!(event.target as Element).closest("[data-annotation-control]")) captureSelection(); }} onTouchEnd={() => window.requestAnimationFrame(captureSelection)}>
       {children}
-      {selection && <div ref={toolbarRef} data-annotation-control="toolbar" role="toolbar" aria-label="Công cụ cho chữ đã chọn" className="practice-selection-toolbar" style={selection.position} onMouseDown={(event) => event.preventDefault()}>
-        <button type="button" onClick={() => { persist(upsertAnnotation(annotationsRef.current, selection.anchor, { highlighted: true })); clearSelection(); }}>Tô sáng</button>
+      {selection && <div ref={toolbarRef} data-annotation-control="toolbar" role="toolbar" aria-label={t("Công cụ cho chữ đã chọn")} className="practice-selection-toolbar" style={selection.position} onMouseDown={(event) => event.preventDefault()}>
+        <button type="button" onClick={() => { persist(upsertAnnotation(annotationsRef.current, selection.anchor, { highlighted: true })); clearSelection(); }}>{t("Tô sáng")}</button>
         <button type="button" onClick={() => {
           const existing = annotationsRef.current.find((item) => sameTextRange(item, selection.anchor));
           const rect = toolbarRef.current?.getBoundingClientRect();
           setEditor({ anchor: selection.anchor, position: rect ? notePosition(rect) : selection.position, draft: existing?.note ?? "" });
           clearSelection();
-        }}>Ghi chú</button>
-        <button type="button" disabled={!hasHighlight} title="Bỏ tô sáng" aria-label="Bỏ tô sáng" onClick={() => { persist(removeHighlightsInRange(annotationsRef.current, selection.anchor)); clearSelection(); }}>
+        }}>{t("Ghi chú")}</button>
+        <button type="button" disabled={!hasHighlight} title={t("Bỏ tô sáng")} aria-label={t("Bỏ tô sáng")} onClick={() => { persist(removeHighlightsInRange(annotationsRef.current, selection.anchor)); clearSelection(); }}>
           <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M4 7h16M10 3h4m-8 4 1 13h10l1-13M10 11v6m4-6v6"/></svg>
         </button>
       </div>}
       {editor && <div ref={editorRef} data-annotation-control="note" className="practice-note-editor" style={editor.position}>
-        <div className="practice-note-editor-header"><strong>Ghi chú</strong><button type="button" className="practice-note-delete" title="Xóa ghi chú" aria-label="Xóa ghi chú" onClick={() => { persist(upsertAnnotation(annotationsRef.current, editor.anchor, { note: null })); setEditor(null); }}>×</button></div>
+        <div className="practice-note-editor-header"><strong>{t("Ghi chú")}</strong><button type="button" className="practice-note-delete" title={t("Xóa ghi chú")} aria-label={t("Xóa ghi chú")} onClick={() => { persist(upsertAnnotation(annotationsRef.current, editor.anchor, { note: null })); setEditor(null); }}>×</button></div>
         <p lang={script === "simplified" ? "zh-Hans" : "zh-Hant"} className="practice-note-quote">{editor.anchor.quote}</p>
-        <textarea aria-label="Nội dung ghi chú" placeholder="Viết ghi chú của bạn…" value={editor.draft} maxLength={2000} onChange={(event) => setEditor({ ...editor, draft: event.target.value })} />
-        <div className="practice-note-editor-actions"><button type="button" onClick={() => setEditor(null)}>Đóng</button><button type="button" onClick={() => { persist(upsertAnnotation(annotationsRef.current, editor.anchor, { note: editor.draft.trim() || null })); setEditor(null); }}>Lưu ghi chú</button></div>
+        <textarea aria-label={t("Nội dung ghi chú")} placeholder={t("Viết ghi chú của bạn…")} value={editor.draft} maxLength={2000} onChange={(event) => setEditor({ ...editor, draft: event.target.value })} />
+        <div className="practice-note-editor-actions"><button type="button" onClick={() => setEditor(null)}>{t("Đóng")}</button><button type="button" onClick={() => { persist(upsertAnnotation(annotationsRef.current, editor.anchor, { note: editor.draft.trim() || null })); setEditor(null); }}>{t("Lưu ghi chú")}</button></div>
       </div>}
     </div>
   </Context.Provider>;
 }
 
 export function AnnotatableText({ field, text }: { field: string; text: string }) {
+  const t = useT();
   const context = useContext(Context);
   if (!context || !hasChinese(text)) return <>{text}</>;
   const resolved = context.annotations.flatMap((annotation) => {
@@ -159,7 +162,7 @@ export function AnnotatableText({ field, text }: { field: string; text: string }
       const notes = resolved.filter((item) => item.annotation.note && item.end === end);
       return <span key={`${start}-${end}`}>
         {highlighted ? <mark className="practice-text-highlight">{text.slice(start, end)}</mark> : <span>{text.slice(start, end)}</span>}
-        {notes.map(({ annotation }) => <button key={annotation.id} type="button" className="practice-note-marker" title="Mở ghi chú" aria-label={`Mở ghi chú cho “${annotation.quote}”`} onClick={(event) => { event.stopPropagation(); context.openNote(annotation, notePosition(event.currentTarget.getBoundingClientRect())); }}>
+        {notes.map(({ annotation }) => <button key={annotation.id} type="button" className="practice-note-marker" title={t("Mở ghi chú")} aria-label={`${t("Mở ghi chú cho")} “${annotation.quote}”`} onClick={(event) => { event.stopPropagation(); context.openNote(annotation, notePosition(event.currentTarget.getBoundingClientRect())); }}>
           <svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 4h14v12H9l-4 4V4Z"/><path d="M9 8h6m-6 4h4"/></svg>
         </button>)}
       </span>;

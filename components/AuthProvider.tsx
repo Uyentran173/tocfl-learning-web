@@ -1,5 +1,7 @@
 "use client";
 
+import { useT } from "./PreferencesProvider";
+
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { useRouter } from "next/navigation";
 import type { AuthChangeEvent, User } from "@supabase/supabase-js";
@@ -24,6 +26,7 @@ export function useAuth() {
 }
 
 export default function AuthProvider({ children }: { children: ReactNode }) {
+  const t = useT();
   const router = useRouter();
   const [user, setUser] = useState<User | null>(null);
   const [ready, setReady] = useState(!supabaseConfigured);
@@ -127,5 +130,5 @@ export default function AuthProvider({ children }: { children: ReactNode }) {
   }, [router, supabase]);
 
   const value: AuthState = { user, ready, configured: supabaseConfigured, syncError, guestMigrationAvailable, migrateGuest, signOut };
-  return <AuthContext.Provider value={value}>{ready ? <div key={user?.id ?? "guest"} className="contents">{children}</div> : <main className="mx-auto max-w-4xl px-6 py-20 text-center" role="status">Đang mở Tai Wén…</main>}</AuthContext.Provider>;
+  return <AuthContext.Provider value={value}>{ready ? <div key={user?.id ?? "guest"} className="contents">{children}</div> : <main className="mx-auto max-w-4xl px-6 py-20 text-center" role="status">{t("Đang mở Tai Wén…")}</main>}</AuthContext.Provider>;
 }

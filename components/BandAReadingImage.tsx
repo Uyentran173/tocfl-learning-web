@@ -1,8 +1,10 @@
+"use client";
 import Image from "next/image";
 import type { CSSProperties } from "react";
 import type { Question } from "@/lib/tests";
 import { getBandAReadingVisual, type ImageCrop } from "@/lib/band-a-reading-visual";
 import type { SourceEvidence } from "@/lib/review-content";
+import { useT } from "./PreferencesProvider";
 
 export function CroppedSource({ question, crop, label, evidence }: { question: Question; crop: ImageCrop; label: string; evidence?: SourceEvidence }) {
   const style: CSSProperties = { aspectRatio: `${crop.width} / ${crop.height}`, maxWidth: crop.maxWidth };
@@ -26,10 +28,11 @@ export function CroppedSource({ question, crop, label, evidence }: { question: Q
 }
 
 export default function BandAReadingImage({ question, simulation = false, evidence }: { question: Question; simulation?: boolean; evidence?: SourceEvidence }) {
+  const t = useT();
   const visual = getBandAReadingVisual(question);
   if (!visual) return null;
-  const label = question.number ? `Câu ${question.number}` : "Câu hỏi";
+  const label = question.number ? `${t("Câu hỏi")} ${question.number}` : t("Câu hỏi");
   return <div className={simulation ? "sim-image-area flex-col gap-4" : "space-y-4 rounded-xl border border-[var(--border)] bg-white p-4"}>
-    {visual.crops.map((crop, index) => <CroppedSource key={index} question={question} crop={crop} evidence={evidence} label={visual.sharedContextId && index === 0 ? `Hình chung cho các câu ${visual.sharedContextId}` : `Nội dung ${label}, chữ ${question.script === "simplified" ? "Giản thể" : "Phồn thể"}`} />)}
+    {visual.crops.map((crop, index) => <CroppedSource key={index} question={question} crop={crop} evidence={evidence} label={visual.sharedContextId && index === 0 ? `${t("Hình chung cho các câu")} ${visual.sharedContextId}` : `${t("Nội dung")} ${label}, ${t(question.script === "simplified" ? "Chữ Giản thể" : "Chữ Phồn thể")}`} />)}
   </div>;
 }

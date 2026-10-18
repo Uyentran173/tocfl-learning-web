@@ -10,8 +10,10 @@ import ListeningIntroStep from "./ListeningIntroStep";
 import { PracticeAnnotationProvider } from "./PracticeAnnotations";
 import SubmitModal from "./SubmitModal";
 import { useExamImagePreload } from "./useExamImagePreload";
+import { useT } from "./PreferencesProvider";
 
 export default function ExamClient({ test }: { test: MockTest }) {
+  const t = useT();
   const router = useRouter();
   const [session, setSession] = useState<ExamSession | null>(null);
   const sessionRef = useRef<ExamSession | null>(null);
@@ -210,7 +212,7 @@ export default function ExamClient({ test }: { test: MockTest }) {
     const current = sessionRef.current;
     if (!current || current.mode === "simulation") return false;
     return item.section !== test.questions[current.currentIndex]?.section && (current.practiceRemaining?.[item.section] ?? PRACTICE_SECTION_SECONDS) <= 0;
-  }, [test.questions]);
+  }, [test]);
 
   if (showIntro) return <SimulationExam phase="intro" test={test} onStart={() => {
     const saved = readSession(test.id);
@@ -225,7 +227,7 @@ export default function ExamClient({ test }: { test: MockTest }) {
     if (fresh.listeningIntroCompleted !== false && test.questions[fresh.currentIndex]?.section === "listening") startListeningAudio(fresh.currentIndex);
     setShowIntro(false);
   }} onBack={() => { window.sessionStorage.removeItem(`tocfl-simulation-intro:${test.id}`); router.push(`/tocfl/${test.id}/instructions`); }} />;
-  if (!session || session.status === "submitted") return <div className="mx-auto max-w-5xl px-5 py-12 muted">Đang tải bài thi…</div>;
+  if (!session || session.status === "submitted") return <div className="mx-auto max-w-5xl px-5 py-12 muted">{t("Đang tải bài thi…")}</div>;
   if (session.currentIndex === 0 && session.listeningIntroCompleted === false && test.questions[0]?.section === "listening" && test.listeningIntroAudio?.length) {
     const intro = <ListeningIntroStep audioPaths={test.listeningIntroAudio} onComplete={() => {
       const current = sessionRef.current;
@@ -236,7 +238,7 @@ export default function ExamClient({ test }: { test: MockTest }) {
       }
     }} />;
     if (session.mode === "simulation") return <SimulationExamShell section="listening">{intro}</SimulationExamShell>;
-    return <div className="min-h-screen px-5 py-10 sm:py-16"><p className="mx-auto mb-6 max-w-2xl text-sm font-semibold text-[var(--brand)]">{test.title} · Luyện tập phần Nghe</p>{intro}<p className="mx-auto mt-5 max-w-2xl text-right text-sm muted">Đồng hồ 60 phút sẽ bắt đầu khi bạn vào câu 1.</p></div>;
+    return <div className="min-h-screen px-5 py-10 sm:py-16"><p className="mx-auto mb-6 max-w-2xl text-sm font-semibold text-[var(--brand)]">{t(test.title)} · {t("Luyện tập phần Nghe")}</p>{intro}<p className="mx-auto mt-5 max-w-2xl text-right text-sm muted">{t("Đồng hồ 60 phút sẽ bắt đầu khi bạn vào câu 1.")}</p></div>;
   }
   const index = Math.max(0, Math.min(session.currentIndex, test.questions.length - 1));
   const question = test.questions[index];
@@ -273,11 +275,11 @@ export default function ExamClient({ test }: { test: MockTest }) {
     <header className="sticky top-0 z-20 border-b border-[var(--border)] bg-white">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-4 sm:px-8">
         <div>
-          <p className="text-xs font-bold uppercase tracking-[.16em] text-[var(--brand)]">Luyện đề TOCFL</p>
-          <p className="mt-1 text-base font-semibold sm:text-lg">{test.title}</p>
+          <p className="text-xs font-bold uppercase tracking-[.16em] text-[var(--brand)]">{t("Luyện đề TOCFL")}</p>
+          <p className="mt-1 text-base font-semibold sm:text-lg">{t(test.title)}</p>
         </div>
         <div className="rounded-xl border border-[var(--brand-border)] bg-[var(--brand-soft)] px-3 py-2 text-right sm:px-4">
-          <p className="text-[10px] font-bold uppercase tracking-[.13em] text-[var(--brand)]">{question.section === "listening" ? "Nghe" : "Đọc"} · Thời gian còn lại</p>
+          <p className="text-[10px] font-bold uppercase tracking-[.13em] text-[var(--brand)]">{t(question.section === "listening" ? "Nghe" : "Đọc")} · {t("Thời gian còn lại")}</p>
           <p aria-live="off" className={`font-mono text-lg font-bold tabular-nums sm:text-xl ${remaining <= 300 ? "text-[#9a4c43]" : "text-[var(--brand)]"}`}>{formatTime(remaining)}</p>
         </div>
       </div>
@@ -285,8 +287,8 @@ export default function ExamClient({ test }: { test: MockTest }) {
     <main className="mx-auto max-w-7xl px-5 py-6 sm:px-8 sm:py-9">
       {sectionNotice && <p role="status" className="mb-5 rounded-xl border border-[var(--brand-border)] bg-[var(--brand-soft)] px-4 py-3 text-sm font-medium text-[var(--brand)]">{sectionNotice}</p>}
       <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
-        <div><p className="text-sm font-bold text-[var(--brand)]">{question.section === "listening" ? "Nghe" : "Đọc"}</p><p className="mt-1 text-sm muted">Câu {question.number} / {test.questions.filter((item) => item.section === question.section).length}</p></div>
-        <button type="button" className="button-secondary text-sm" onClick={() => setConfirmOpen(true)}>Nộp bài</button>
+        <div><p className="text-sm font-bold text-[var(--brand)]">{t(question.section === "listening" ? "Nghe" : "Đọc")}</p><p className="mt-1 text-sm muted">{t("Câu")} {question.number} / {test.questions.filter((item) => item.section === question.section).length}</p></div>
+        <button type="button" className="button-secondary text-sm" onClick={() => setConfirmOpen(true)}>{t("Nộp bài")}</button>
       </div>
       <div className="grid items-start gap-6 lg:grid-cols-[minmax(0,1fr)_280px]">
         <div className="paper rounded-2xl p-5 sm:p-8 lg:p-10">
@@ -295,19 +297,19 @@ export default function ExamClient({ test }: { test: MockTest }) {
             <ChoiceList question={question} selected={session.answers[question.id]} onSelect={select}/>
           </PracticeAnnotationProvider> : <><QuestionContent question={question} autoplayAudio={index === 0 && session.listeningIntroCompleted === true && Boolean(test.listeningIntroAudio?.length)}/><ChoiceList question={question} selected={session.answers[question.id]} onSelect={select}/></>}
           <div className="mt-9 flex items-center justify-between gap-3 border-t border-[var(--border)] pt-6">
-            <button type="button" className="button-secondary" disabled={index === 0 || unavailable(test.questions[index - 1].section)} onClick={() => jump(index - 1)}>← Câu trước</button>
-            <button type="button" className="button-primary" disabled={index === test.questions.length - 1 || unavailable(test.questions[index + 1].section)} onClick={() => jump(index + 1)}>Câu sau →</button>
+            <button type="button" className="button-secondary" disabled={index === 0 || unavailable(test.questions[index - 1].section)} onClick={() => jump(index - 1)}>← {t("Câu trước")}</button>
+            <button type="button" className="button-primary" disabled={index === test.questions.length - 1 || unavailable(test.questions[index + 1].section)} onClick={() => jump(index + 1)}>{t("Câu sau")} →</button>
           </div>
         </div>
         <aside className="hidden lg:block">
           <div className="paper sticky top-28 rounded-2xl p-5">
             <QuestionNavigator questions={test.questions} currentIndex={index} answers={session.answers} onJump={jump} isUnavailable={isUnavailable}/>
-            <p className="mt-6 border-t border-[var(--border)] pt-5 text-sm muted">Câu trả lời được lưu ngay khi bạn chọn.</p>
+            <p className="mt-6 border-t border-[var(--border)] pt-5 text-sm muted">{t("Câu trả lời được lưu ngay khi bạn chọn.")}</p>
           </div>
         </aside>
       </div>
       <details className="paper mt-5 rounded-2xl p-5 lg:hidden">
-        <summary className="cursor-pointer font-bold text-[var(--brand)]">Điều hướng câu hỏi · Đã trả lời {answered}/{test.questions.length}</summary>
+        <summary className="cursor-pointer font-bold text-[var(--brand)]">{t("Điều hướng câu hỏi")} · {t("Đã trả lời")} {answered}/{test.questions.length}</summary>
         <div className="mt-5"><QuestionNavigator questions={test.questions} currentIndex={index} answers={session.answers} onJump={jump} isUnavailable={isUnavailable}/></div>
       </details>
     </main>

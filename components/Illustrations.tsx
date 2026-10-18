@@ -1,5 +1,8 @@
+"use client";
+import { useT } from "./PreferencesProvider";
 export function FormosanBear({ className = "", decorative = false }: { className?: string; decorative?: boolean }) {
-  return <svg className={className} viewBox="0 0 180 190" role={decorative ? undefined : "img"} aria-label={decorative ? undefined : "Linh vật gấu đen Formosan"} aria-hidden={decorative || undefined} xmlns="http://www.w3.org/2000/svg">
+  const t = useT();
+  return <svg className={className} viewBox="0 0 180 190" role={decorative ? undefined : "img"} aria-label={decorative ? undefined : t("Linh vật gấu đen Formosan")} aria-hidden={decorative || undefined} xmlns="http://www.w3.org/2000/svg">
     <ellipse cx="90" cy="178" rx="65" ry="8" fill="#011f82" opacity=".09"/>
     <circle cx="41" cy="47" r="23" fill="#17243b"/><circle cx="139" cy="47" r="23" fill="#17243b"/>
     <circle cx="41" cy="47" r="12" fill="#52627d"/><circle cx="139" cy="47" r="12" fill="#52627d"/>

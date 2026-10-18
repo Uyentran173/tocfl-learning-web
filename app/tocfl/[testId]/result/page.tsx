@@ -3,6 +3,7 @@ import { Suspense } from "react";
 import { getImportedTests, getTest } from "@/lib/test-catalog";
 import ResultPageClient from "@/components/ResultPageClient";
 import { createPageMetadata } from "@/lib/seo";
+import T from "@/components/T";
 
 export function generateStaticParams() {
   return getImportedTests().map((test) => ({ testId: test.id }));
@@ -21,7 +22,7 @@ export default async function ResultPage({ params }: { params: Promise<{ testId:
   if (!traditional) notFound();
   const simplified = getTest(testId, "simplified") ?? traditional;
   return (
-    <Suspense fallback={<div className="report-shell"><main className="mx-auto max-w-5xl px-5 py-12">Đang tải kết quả…</main></div>}>
+    <Suspense fallback={<div className="report-shell"><main className="mx-auto max-w-5xl px-5 py-12"><T>Đang tải kết quả…</T></main></div>}>
       <ResultPageClient traditional={traditional} simplified={simplified} />
     </Suspense>
   );

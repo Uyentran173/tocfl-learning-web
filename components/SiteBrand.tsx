@@ -1,6 +1,9 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 import { siteConfig } from "@/lib/site";
+import { useT } from "./PreferencesProvider";
 
 export function BrandMark({ compact = false }: { compact?: boolean }) {
   return <span className="site-brand-lockup">
@@ -10,7 +13,8 @@ export function BrandMark({ compact = false }: { compact?: boolean }) {
 }
 
 export default function SiteBrand() {
-  return <Link href="/" className="site-brand" aria-label={`${siteConfig.name} – Về trang chủ`}>
+  const t = useT();
+  return <Link href="/" className="site-brand" aria-label={`${siteConfig.name} – ${t("Về trang chủ")}`}>
     <BrandMark />
   </Link>;
 }

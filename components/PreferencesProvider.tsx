@@ -1,8 +1,8 @@
 "use client";
 
-import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
-import { usePathname, useRouter } from "next/navigation";
-import { localizedDocumentTitle, translate, type ThemePreference, type UiLocale } from "@/lib/i18n";
+import { createContext, useContext, useEffect, useMemo, useSyncExternalStore, type ReactNode } from "react";
+import { usePathname } from "next/navigation";
+import { isUiLocale, localizedDocumentTitle, translate, type ThemePreference, type UiLocale } from "@/lib/i18n";
 
 type Preferences = {
   locale: UiLocale;
@@ -13,6 +13,37 @@ type Preferences = {
 };
 
 const Context = createContext<Preferences | null>(null);
+const preferenceChangedEvent = "taiwen:preferences-changed";
+
+function subscribePreferences(onChange: () => void) {
+  window.addEventListener("storage", onChange);
+  window.addEventListener(preferenceChangedEvent, onChange);
+  return () => {
+    window.removeEventListener("storage", onChange);
+    window.removeEventListener(preferenceChangedEvent, onChange);
+  };
+}
+
+function storedPreference(key: string, cookieName: string): string | null {
+  try { return localStorage.getItem(key) ?? document.cookie.match(new RegExp(`(?:^|; )${cookieName}=([^;]+)`))?.[1] ?? null; }
+  catch { return document.cookie.match(new RegExp(`(?:^|; )${cookieName}=([^;]+)`))?.[1] ?? null; }
+}
+
+function getLocaleSnapshot(): UiLocale {
+  const stored = storedPreference("taiwen:ui-locale", "taiwen-ui-locale");
+  return isUiLocale(stored) ? stored : "vi";
+}
+
+function getThemeSnapshot(): ThemePreference {
+  const stored = storedPreference("taiwen:theme", "taiwen-theme");
+  return stored === "light" || stored === "dark" ? stored : "system";
+}
+
+function savePreference(key: string, cookieName: string, value: string) {
+  document.cookie = `${cookieName}=${encodeURIComponent(value)}; Path=/; Max-Age=31536000; SameSite=Lax`;
+  try { localStorage.setItem(key, value); } catch { /* Cookie persistence still works. */ }
+  window.dispatchEvent(new Event(preferenceChangedEvent));
+}
 
 export function usePreferences(): Preferences {
   const value = useContext(Context);
@@ -22,16 +53,13 @@ export function usePreferences(): Preferences {
 
 export function useT() { return usePreferences().t; }
 
-export default function PreferencesProvider({ children, initialLocale, initialTheme }: { children: ReactNode; initialLocale: UiLocale; initialTheme: ThemePreference }) {
-  const router = useRouter();
+export default function PreferencesProvider({ children }: { children: ReactNode }) {
   const pathname = usePathname();
-  const [locale, setLocaleState] = useState(initialLocale);
-  const [theme, setThemeState] = useState(initialTheme);
+  const locale = useSyncExternalStore<UiLocale>(subscribePreferences, getLocaleSnapshot, () => "vi");
+  const theme = useSyncExternalStore<ThemePreference>(subscribePreferences, getThemeSnapshot, () => "system");
 
   useEffect(() => {
     document.documentElement.lang = locale;
-    document.cookie = `taiwen-ui-locale=${encodeURIComponent(locale)}; Path=/; Max-Age=31536000; SameSite=Lax`;
-    localStorage.setItem("taiwen:ui-locale", locale);
   }, [locale]);
 
   useEffect(() => {
@@ -42,26 +70,21 @@ export default function PreferencesProvider({ children, initialLocale, initialTh
   useEffect(() => {
     const media = window.matchMedia("(prefers-color-scheme: dark)");
     const apply = () => {
-      document.documentElement.dataset.theme = theme === "system" ? (media.matches ? "dark" : "light") : theme;
+      const current = getThemeSnapshot();
+      document.documentElement.dataset.theme = current === "system" ? (media.matches ? "dark" : "light") : current;
       document.documentElement.style.colorScheme = document.documentElement.dataset.theme;
     };
     apply();
     media.addEventListener("change", apply);
-    document.cookie = `taiwen-theme=${theme}; Path=/; Max-Age=31536000; SameSite=Lax`;
-    localStorage.setItem("taiwen:theme", theme);
     return () => media.removeEventListener("change", apply);
   }, [theme]);
 
   const value = useMemo<Preferences>(() => ({
     locale, theme,
-    setLocale(next) {
-      document.cookie = `taiwen-ui-locale=${encodeURIComponent(next)}; Path=/; Max-Age=31536000; SameSite=Lax`;
-      setLocaleState(next);
-      router.refresh();
-    },
-    setTheme: setThemeState,
+    setLocale(next) { savePreference("taiwen:ui-locale", "taiwen-ui-locale", next); },
+    setTheme(next) { savePreference("taiwen:theme", "taiwen-theme", next); },
     t(message) { return translate(locale, message); },
-  }), [locale, theme, router]);
+  }), [locale, theme]);
 
   return <Context.Provider value={value}>{children}</Context.Provider>;
 }

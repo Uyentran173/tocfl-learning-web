@@ -56,3 +56,9 @@ test('interface locale does not determine exam script', () => {
   assert.ok(!source.includes('examScript'));
   assert.ok(!source.includes('setScript'));
 });
+
+test('root layout remains static so Vercel does not create a function for every page', () => {
+  const source = fs.readFileSync('app/layout.tsx', 'utf8');
+  assert.ok(!source.includes('next/headers'));
+  assert.ok(!source.includes('await cookies()'));
+});

@@ -5,8 +5,6 @@ import SiteFooter from "@/components/SiteFooter";
 import CopyDeterrence from "@/components/CopyDeterrence";
 import AuthProvider from "@/components/AuthProvider";
 import { siteConfig } from "@/lib/site";
-import { cookies } from "next/headers";
-import { isUiLocale, type ThemePreference } from "@/lib/i18n";
 import PreferencesProvider from "@/components/PreferencesProvider";
 
 const socialImage = new URL(siteConfig.logo, siteConfig.url).toString();
@@ -54,21 +52,16 @@ const websiteSchema = {
   inLanguage: "vi-VN",
 };
 
-export default async function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  const preferences = await cookies();
-  const storedLocale = preferences.get("taiwen-ui-locale")?.value;
-  const locale = isUiLocale(storedLocale) ? storedLocale : "vi";
-  const storedTheme = preferences.get("taiwen-theme")?.value;
-  const theme: ThemePreference = storedTheme === "light" || storedTheme === "dark" ? storedTheme : "system";
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang={locale} data-theme={theme === "dark" ? "dark" : "light"} suppressHydrationWarning>
+    <html lang="vi" data-theme="light" suppressHydrationWarning>
       <body>
-        <script dangerouslySetInnerHTML={{ __html: "try{var c=document.cookie.match(/(?:^|; )taiwen-theme=([^;]+)/),v=c?decodeURIComponent(c[1]):'system';document.documentElement.dataset.theme=v==='system'&&matchMedia('(prefers-color-scheme: dark)').matches?'dark':v==='dark'?'dark':'light'}catch(e){}" }} />
+        <script dangerouslySetInnerHTML={{ __html: "try{var c=document.cookie,l=c.match(/(?:^|; )taiwen-ui-locale=([^;]+)/),t=c.match(/(?:^|; )taiwen-theme=([^;]+)/),v=l?decodeURIComponent(l[1]):localStorage.getItem('taiwen:ui-locale'),p=t?decodeURIComponent(t[1]):localStorage.getItem('taiwen:theme');if(['vi','en','zh-CN','zh-TW'].includes(v))document.documentElement.lang=v;document.documentElement.dataset.theme=p==='dark'?'dark':p==='light'?'light':matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}catch(e){}" }} />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema).replace(/</g, "\\u003c") }}
         />
-        <PreferencesProvider initialLocale={locale} initialTheme={theme}>
+        <PreferencesProvider>
           <AuthProvider>
             <CopyDeterrence />
             <SiteHeader />

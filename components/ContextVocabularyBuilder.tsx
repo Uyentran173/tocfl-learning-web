@@ -1,12 +1,13 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
+import { useEffect, useState, type FormEvent } from "react";
 import {
   contextDifficulties, contextPurposes, contextSources, contextTopics,
   type ContextRequest, type ContextWord,
 } from "@/lib/context-vocabulary";
 import type { VocabularySet } from "@/lib/vocabulary";
 import VocabularyStudy from "./VocabularyStudy";
+import { loadPersonalizedSets, personalizedSetId, savePersonalizedSet, type SavedVocabularySet } from "@/lib/personalized-sets";
 import { useT } from "./PreferencesProvider";
 
 type Result = { words: ContextWord[]; available: number; topicLabel: string };
@@ -28,6 +29,11 @@ export default function ContextVocabularyBuilder() {
   const [generated, setGenerated] = useState<Generated | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+  const [savedSets, setSavedSets] = useState<SavedVocabularySet[]>([]);
+  useEffect(() => {
+    const timer = window.setTimeout(() => setSavedSets(loadPersonalizedSets()), 0);
+    return () => window.clearTimeout(timer);
+  }, []);
 
   function update<K extends keyof ContextRequest>(field: K, value: ContextRequest[K]) {
     setOptions((current) => ({ ...current, [field]: value }));
@@ -47,6 +53,7 @@ export default function ContextVocabularyBuilder() {
       const data: Result & { error?: string } = await response.json();
       if (!response.ok) throw new Error(data.error ?? t("Không tạo được bộ từ. Vui lòng thử lại."));
       setGenerated({ options: { ...options }, result: data, serial: Date.now() });
+      if (data.words.length) setSavedSets(savePersonalizedSet({ id: personalizedSetId(options), options: { ...options }, result: data, savedAt: new Date().toISOString() }));
     } catch (cause) {
       setError(cause instanceof Error ? cause.message : t("Không tạo được bộ từ. Vui lòng thử lại."));
     } finally { setLoading(false); }
@@ -55,7 +62,7 @@ export default function ContextVocabularyBuilder() {
   const config = generated?.options;
   const result = generated?.result;
   const set: VocabularySet | null = config && result?.words.length ? {
-    id: `context:${[config.topicId, encodeURIComponent(config.customTopic ?? ""), config.purpose, config.difficulty, config.script, config.count, config.source].join(":")}`,
+    id: personalizedSetId(config),
     title: result.topicLabel,
     subtitle: `${t(labelFor(contextPurposes, config.purpose))} · ${t(labelFor(contextDifficulties, config.difficulty))}`,
     words: result.words.map((word) => ({
@@ -81,6 +88,12 @@ export default function ContextVocabularyBuilder() {
   } : null;
 
   return <div className="space-y-7">
+    {savedSets.length > 0 && <section className="paper p-5 sm:p-6" aria-label={t("Bộ từ đã lưu")}>
+      <h2 className="font-bold">{t("Bộ từ đã lưu")}</h2>
+      <div className="mt-3 flex flex-wrap gap-2">{savedSets.map((item) => <button key={item.id} type="button" className="button-secondary text-sm" onClick={() => { setOptions(item.options); setGenerated({ options: item.options, result: item.result, serial: Date.now() }); setError(""); }}>
+        {item.result.topicLabel} · {item.result.words.length} {t("từ")}
+      </button>)}</div>
+    </section>}
     <form onSubmit={generate} className="paper p-5 sm:p-8">
       <div className="grid gap-6 md:grid-cols-2">
         <label className="block text-sm font-semibold">{t("Chủ đề")}

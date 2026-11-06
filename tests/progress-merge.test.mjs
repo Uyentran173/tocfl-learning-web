@@ -29,3 +29,11 @@ test("guest highlights and legacy learned IDs merge without overwriting account 
   assert.deepEqual(annotations, [{ id: "same", note: "Ghi chú tài khoản" }, { id: "other", highlighted: true }]);
   assert.deepEqual(JSON.parse(mergeGuestProgressValue("tocfl-band-vocabulary-progress-v1", '["a"]', '["a","b"]')), ["a", "b"]);
 });
+
+test("personalized sets merge by stable ID and keep the account version on repeat import", () => {
+  const account = [{ id: "context:travel", savedAt: "later" }];
+  const guest = [{ id: "context:travel", savedAt: "earlier" }, { id: "context:food", savedAt: "earlier" }];
+  const merged = JSON.parse(mergeGuestProgressValue("tocfl-personalized-sets:v1", JSON.stringify(account), JSON.stringify(guest)));
+  assert.deepEqual(merged, [{ id: "context:travel", savedAt: "later" }, { id: "context:food", savedAt: "earlier" }]);
+  assert.deepEqual(JSON.parse(mergeGuestProgressValue("tocfl-personalized-sets:v1", JSON.stringify(merged), JSON.stringify(guest))), merged);
+});

@@ -162,7 +162,8 @@ export default function ExamClient({ test }: { test: MockTest }) {
       } else if (seconds !== current.remainingSeconds) {
         const next = { ...current, remainingSeconds: seconds, ...(current.mode !== "simulation" && current.activeSection ? { practiceRemaining: { listening: current.practiceRemaining?.listening ?? PRACTICE_SECTION_SECONDS, reading: current.practiceRemaining?.reading ?? PRACTICE_SECTION_SECONDS, [current.activeSection]: seconds } } : {}) };
         sessionRef.current = next;
-        saveSession(next);
+        // The saved absolute deadline is authoritative on refresh or another device.
+        // A once-per-second local/cloud write would not improve resume accuracy.
       }
     }, 1000);
     return () => { if (initialDisplay !== undefined) window.clearTimeout(initialDisplay); window.clearInterval(interval); };

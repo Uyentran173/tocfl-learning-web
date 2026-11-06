@@ -1,10 +1,12 @@
 // Guest keys retain their original names. Signed-in data is isolated per user on this device.
 const accountPrefix = "taiwen-account:v1:";
 const pendingKey = (userId: string) => `taiwen-pending:v1:${userId}`;
+const revisionPrefix = "taiwen-revision:v1:";
 const trackedPrefixes = [
   "tocfl-learned-vocabulary-v2",
   "tocfl-band-vocabulary-progress-v1",
   "tocfl-vocabulary-learned-v1",
+  "tocfl-personalized-sets:v1",
   "tocfl-exam-v3:",
   "tocfl-practice-annotations:v1:",
   "taiwen-activity:v1:",
@@ -16,6 +18,13 @@ export const progressWriteEvent = "taiwen-progress-write";
 export function setProgressUser(userId: string | null) { currentUserId = userId; }
 export function getProgressUser() { return currentUserId; }
 export function accountProgressKey(userId: string, key: string) { return `${accountPrefix}${userId}:${key}`; }
+export function progressRevision(userId: string, key: string): number {
+  const value = Number(window.localStorage.getItem(`${revisionPrefix}${userId}:${key}`));
+  return Number.isSafeInteger(value) && value >= 0 ? value : 0;
+}
+export function setProgressRevision(userId: string, key: string, revision: number) {
+  window.localStorage.setItem(`${revisionPrefix}${userId}:${key}`, String(revision));
+}
 export function isTrackedProgressKey(key: string) { return trackedPrefixes.some((prefix) => key.startsWith(prefix)); }
 export function pendingProgressKeys(userId: string): string[] {
   try {

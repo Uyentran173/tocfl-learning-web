@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { localeNames, uiLocales, type ThemePreference, type UiLocale } from "@/lib/i18n";
 import { usePreferences } from "./PreferencesProvider";
+import { useAuth } from "./AuthProvider";
 
 type PreferenceOption<Value extends string> = { value: Value; label: string };
 
@@ -98,12 +99,13 @@ function PreferenceMenu<Value extends string>({
 
 export default function PreferenceControls({ compact = false }: { compact?: boolean }) {
   const { locale, setLocale, theme, setTheme, t } = usePreferences();
+  const { savePreference } = useAuth();
   return <div className={compact ? "site-preferences site-preferences-mobile" : "site-preferences"}>
-    <PreferenceMenu label={t("Ngôn ngữ")} icon="文" value={locale} options={uiLocales.map((item) => ({ value: item, label: localeNames[item] }))} onChange={(value: UiLocale) => setLocale(value)} />
+    <PreferenceMenu label={t("Ngôn ngữ")} icon="文" value={locale} options={uiLocales.map((item) => ({ value: item, label: localeNames[item] }))} onChange={(value: UiLocale) => { setLocale(value); void savePreference("ui_locale", value).catch(() => {}); }} />
     <PreferenceMenu label={t("Giao diện")} icon="◐" value={theme} options={([
       { value: "light", label: t("Sáng") },
       { value: "dark", label: t("Tối") },
       { value: "system", label: t("Theo hệ thống") },
-    ] satisfies PreferenceOption<ThemePreference>[])} onChange={(value: ThemePreference) => setTheme(value)} />
+    ] satisfies PreferenceOption<ThemePreference>[])} onChange={(value: ThemePreference) => { setTheme(value); void savePreference("theme", value).catch(() => {}); }} />
   </div>;
 }

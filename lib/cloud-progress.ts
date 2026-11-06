@@ -1,9 +1,10 @@
 import { createSupabaseBrowserClient } from "./supabase/client";
-import { accountProgressEntries, accountProgressKey, clearProgressPending, guestProgressEntries, markProgressPending, pendingProgressKeys, progressStorage } from "./progress-storage";
+import { accountProgressEntries, accountProgressKey, clearProgressPending, guestProgressEntries, markProgressPending, pendingProgressKeys, progressRevision, setProgressRevision } from "./progress-storage";
 import { parseLearnedPool } from "./learned-vocabulary";
 import { mergeGuestProgressValue } from "./progress-merge";
 import type { PracticeAnnotation } from "./practice-annotations";
 import type { ExamSession } from "./session";
+import { parsePersonalizedSets, personalizedSetsKey } from "./personalized-sets";
 
 export type ProgressEntry = { key: string; value: string };
 export type TestAttemptRow = {
@@ -22,6 +23,9 @@ export type TestAttemptRow = {
 };
 
 const mergedKey = (userId: string) => `taiwen-guest-merged:v1:${userId}`;
+export class ProgressConflictError extends Error {
+  constructor(readonly storageKey: string) { super("Progress was changed on another device."); }
+}
 const safeParse = (value: string): unknown => { try { return JSON.parse(value); } catch { return null; } };
 function progressCategory(key: string) {
   if (key === "tocfl-learned-vocabulary-v2") return "vocabulary";
@@ -31,11 +35,34 @@ function progressCategory(key: string) {
   return "vocabulary_progress";
 }
 
+function bandForTestId(testId: string): string | null {
+  if (testId.startsWith("novice-test-")) return "novice";
+  const match = /^band-([abc])-test-/.exec(testId);
+  return match ? match[1].toUpperCase() : null;
+}
+
 async function materializeEntry(userId: string, key: string, value: string) {
   const supabase = createSupabaseBrowserClient();
   if (!supabase) throw new Error("Supabase chưa được cấu hình.");
   const parsed = safeParse(value);
-  if (key === "tocfl-learned-vocabulary-v2") {
+  if (key === personalizedSetsKey) {
+    const sets = parsePersonalizedSets(parsed);
+    const { data: existing, error: listError } = await supabase.from("personalized_vocabulary_sets").select("set_id").eq("user_id", userId);
+    if (listError) throw listError;
+    const retained = new Set(sets.map((item) => item.id));
+    const stale = (existing ?? []).map((item: { set_id: string }) => item.set_id).filter((id: string) => !retained.has(id));
+    if (stale.length) {
+      const { error: deleteError } = await supabase.from("personalized_vocabulary_sets").delete().eq("user_id", userId).in("set_id", stale);
+      if (deleteError) throw deleteError;
+    }
+    if (sets.length) {
+      const { error } = await supabase.from("personalized_vocabulary_sets").upsert(sets.map((item) => ({
+        user_id: userId, set_id: item.id, config: item.options, words: item.result.words,
+        created_at: item.savedAt, updated_at: new Date().toISOString(),
+      })), { onConflict: "user_id,set_id" });
+      if (error) throw error;
+    }
+  } else if (key === "tocfl-learned-vocabulary-v2") {
     const pool = parseLearnedPool(parsed);
     const rows = [
       ...pool.words.map((word) => ({ user_id: userId, vocabulary_id: word.vocabularyId, source_record_id: word.sourceRecordId, band: word.band, level: word.level, mastery_status: word.masteryStatus, learned_at: word.learnedAt, last_reviewed_at: word.lastReviewedAt, correct_count: word.correctCount, wrong_count: word.wrongCount, removed: false, word_data: word })),
@@ -47,15 +74,22 @@ async function materializeEntry(userId: string, key: string, value: string) {
     }
   } else if (key.startsWith("tocfl-exam-v3:")) {
     const session = parsed as ExamSession | null;
-    if (session?.status === "submitted" && session.result && Number.isFinite(session.startedAt)) {
+    if (session && session.testId === key.slice("tocfl-exam-v3:".length) && Number.isFinite(session.startedAt)) {
+      const result = session.status === "submitted" ? session.result : null;
       const row = {
-        user_id: userId, test_id: session.testId, started_at: new Date(session.startedAt).toISOString(),
+        user_id: userId, test_id: session.testId, band: bandForTestId(session.testId), started_at: new Date(session.startedAt).toISOString(),
         mode: session.mode ?? "practice", script: session.script ?? "traditional", scope: session.scope ?? "full",
-        correct: session.result.correct, total: session.result.correct + session.result.incorrect + session.result.unanswered,
-        earned_points: session.result.earnedPoints, max_points: session.result.maxPoints,
-        listening_correct: session.result.sections.listening.total ? session.result.sections.listening.correct : null,
-        reading_correct: session.result.sections.reading.total ? session.result.sections.reading.correct : null,
-        result_data: session.result, answers: session.answers, completed_at: new Date(session.submittedAt ?? session.startedAt).toISOString(),
+        correct: result?.correct ?? 0, total: result ? result.correct + result.incorrect + result.unanswered : 0,
+        earned_points: result?.earnedPoints ?? 0, max_points: result?.maxPoints ?? 0,
+        listening_correct: result?.sections.listening.total ? result.sections.listening.correct : null,
+        reading_correct: result?.sections.reading.total ? result.sections.reading.correct : null,
+        result_data: result, answers: session.answers,
+        completed_at: result ? new Date(session.submittedAt ?? session.startedAt).toISOString() : null,
+        status: session.status, current_index: Math.max(0, session.currentIndex),
+        active_section: session.activeSection ?? null,
+        deadline_at: session.deadlineAt > 0 ? new Date(session.deadlineAt).toISOString() : null,
+        remaining_seconds: Math.max(0, session.remainingSeconds),
+        section_completed: session.sectionCompleted, updated_at: new Date().toISOString(),
       };
       const { error } = await supabase.from("test_attempts").upsert(row, { onConflict: "user_id,test_id,started_at" });
       if (error) throw error;
@@ -92,10 +126,25 @@ export async function syncProgressEntry(userId: string, key: string, value: stri
   const supabase = createSupabaseBrowserClient();
   if (!supabase) return;
   markProgressPending(userId, key);
+  const { data: nextRevision, error: documentError } = await supabase.rpc("write_progress_document", {
+    p_storage_key: key, p_category: progressCategory(key), p_payload: value,
+    p_expected_revision: progressRevision(userId, key),
+  });
+  if (documentError) {
+    if (documentError.code === "P0001" && documentError.message.includes("progress_conflict")) throw new ProgressConflictError(key);
+    throw documentError;
+  }
+  if (typeof nextRevision !== "number" || !Number.isSafeInteger(nextRevision)) throw new Error("Invalid progress revision.");
+  setProgressRevision(userId, key, nextRevision);
   if (value === null) {
-    const { error } = await supabase.from("progress_documents").delete().eq("user_id", userId).eq("storage_key", key);
-    if (error) throw error;
-    if (key.startsWith("tocfl-practice-annotations:v1:")) {
+    if (key === personalizedSetsKey) {
+      const { error } = await supabase.from("personalized_vocabulary_sets").delete().eq("user_id", userId);
+      if (error) throw error;
+    } else if (key.startsWith("tocfl-exam-v3:")) {
+      const { error } = await supabase.from("test_attempts").delete().eq("user_id", userId)
+        .eq("test_id", key.slice("tocfl-exam-v3:".length)).eq("status", "in-progress");
+      if (error) throw error;
+    } else if (key.startsWith("tocfl-practice-annotations:v1:")) {
       const [, , testId, script] = key.split(":");
       const { error: annotationError } = await supabase.from("practice_annotations").delete().eq("user_id", userId).eq("test_id", testId).eq("script", script);
       if (annotationError) throw annotationError;
@@ -108,10 +157,6 @@ export async function syncProgressEntry(userId: string, key: string, value: stri
     }
   } else {
     // The document is the durable source used to hydrate the existing learning UI.
-    const { error } = await supabase.from("progress_documents").upsert({
-      user_id: userId, storage_key: key, category: progressCategory(key), payload: value,
-    }, { onConflict: "user_id,storage_key" });
-    if (error) throw error;
     await materializeEntry(userId, key, value);
   }
   if (window.localStorage.getItem(accountProgressKey(userId, key)) === value) clearProgressPending(userId, key);
@@ -123,22 +168,41 @@ export async function loadAccountProgress(userId: string) {
   const unsynced = new Set(pendingProgressKeys(userId));
   const cloudKeys = new Set<string>();
   for (let start = 0; ; start += 500) {
-    const { data, error } = await supabase.from("progress_documents").select("storage_key,payload").eq("user_id", userId).range(start, start + 499);
+    const { data, error } = await supabase.from("progress_documents").select("storage_key,payload,revision,deleted").eq("user_id", userId).order("storage_key").range(start, start + 499);
     if (error) throw error;
     for (const row of data ?? []) {
       cloudKeys.add(row.storage_key);
       if (unsynced.has(row.storage_key)) continue;
-      window.localStorage.setItem(accountProgressKey(userId, row.storage_key), row.payload);
+      setProgressRevision(userId, row.storage_key, row.revision);
+      if (row.deleted) window.localStorage.removeItem(accountProgressKey(userId, row.storage_key));
+      else window.localStorage.setItem(accountProgressKey(userId, row.storage_key), row.payload);
     }
     if ((data?.length ?? 0) < 500) break;
   }
   for (const { key } of accountProgressEntries(userId)) {
-    if (!cloudKeys.has(key) && !unsynced.has(key)) window.localStorage.removeItem(accountProgressKey(userId, key));
+    // Preserve older per-account device data that predates cloud syncing.
+    if (!cloudKeys.has(key) && !unsynced.has(key)) markProgressPending(userId, key);
   }
-  for (const key of unsynced) {
+  for (const key of pendingProgressKeys(userId)) {
     const value = window.localStorage.getItem(accountProgressKey(userId, key));
     await syncProgressEntry(userId, key, value);
   }
+}
+
+export async function resolveProgressConflict(userId: string, key: string, choice: "cloud" | "device") {
+  const supabase = createSupabaseBrowserClient();
+  if (!supabase) throw new Error("Supabase chưa được cấu hình.");
+  const { data, error } = await supabase.from("progress_documents")
+    .select("payload,revision,deleted").eq("user_id", userId).eq("storage_key", key).maybeSingle();
+  if (error) throw error;
+  setProgressRevision(userId, key, data?.revision ?? 0);
+  if (choice === "cloud") {
+    if (data && !data.deleted) window.localStorage.setItem(accountProgressKey(userId, key), data.payload);
+    else window.localStorage.removeItem(accountProgressKey(userId, key));
+    clearProgressPending(userId, key);
+    return;
+  }
+  await syncProgressEntry(userId, key, window.localStorage.getItem(accountProgressKey(userId, key)));
 }
 
 export function guestProgressSignature(): string {
@@ -163,23 +227,24 @@ export function guestProgressNeedsMigration(userId: string) {
 
 export async function migrateGuestProgress(userId: string) {
   const entries = guestProgressEntries();
-  const storage = progressStorage();
   for (const { key, value } of entries) {
     if (key.startsWith("taiwen-activity:v1:")) {
       // Keep guest activity as its own stable contribution so repeating a merge
       // cannot double-count rounds already recorded by the account.
       const guestActivityKey = key.replace("taiwen-activity:v1:", "taiwen-activity:v1:guest-copy:");
-      storage.setItem(guestActivityKey, value);
+      window.localStorage.setItem(accountProgressKey(userId, guestActivityKey), value);
+      markProgressPending(userId, guestActivityKey);
       await syncProgressEntry(userId, guestActivityKey, value);
       continue;
     }
-    const accountValue = storage.getItem(key);
+    const accountValue = window.localStorage.getItem(accountProgressKey(userId, key));
     if (key.startsWith("tocfl-exam-v3:") && accountValue) {
       await materializeEntry(userId, key, value); // Keep a historical guest result without replacing the active account session.
       continue;
     }
     const merged = mergeGuestProgressValue(key, accountValue, value);
-    storage.setItem(key, merged);
+    window.localStorage.setItem(accountProgressKey(userId, key), merged);
+    markProgressPending(userId, key);
     await syncProgressEntry(userId, key, merged);
   }
   // The guest copy remains untouched. Mark this exact snapshot to avoid prompting on each visit.
@@ -191,7 +256,7 @@ export function savedAccountProgress(userId: string) { return accountProgressEnt
 export async function loadTestHistory(userId: string): Promise<TestAttemptRow[]> {
   const supabase = createSupabaseBrowserClient();
   if (!supabase) return [];
-  const { data, error } = await supabase.from("test_attempts").select("test_id,started_at,mode,script,scope,correct,total,earned_points,max_points,listening_correct,reading_correct,completed_at").eq("user_id", userId).order("completed_at", { ascending: false }).limit(100);
+  const { data, error } = await supabase.from("test_attempts").select("test_id,started_at,mode,script,scope,correct,total,earned_points,max_points,listening_correct,reading_correct,completed_at").eq("user_id", userId).eq("status", "submitted").order("completed_at", { ascending: false }).limit(100);
   if (error) throw error;
   return data ?? [];
 }

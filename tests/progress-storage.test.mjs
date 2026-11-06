@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { accountProgressKey, guestProgressEntries, pendingProgressKeys, progressStorage, setProgressUser } from "../lib/progress-storage.ts";
+import { accountProgressKey, guestProgressEntries, pendingProgressKeys, progressRevision, progressStorage, setProgressRevision, setProgressUser } from "../lib/progress-storage.ts";
 
 function memoryStorage() {
   const values = new Map();
@@ -35,4 +35,20 @@ test("guest learning remains untouched when accounts save their own progress", (
     setProgressUser(null);
     globalThis.window = previousWindow;
   }
+});
+
+test("revisions and pending writes stay isolated by authenticated user and key", () => {
+  const previousWindow = globalThis.window;
+  globalThis.window = { localStorage: memoryStorage(), dispatchEvent() {} };
+  try {
+    setProgressUser("account-a");
+    progressStorage().setItem("tocfl-exam-v3:band-a-test-01", '{"answers":{"q1":0}}');
+    setProgressRevision("account-a", "tocfl-exam-v3:band-a-test-01", 4);
+    assert.equal(progressRevision("account-a", "tocfl-exam-v3:band-a-test-01"), 4);
+    assert.equal(progressRevision("account-b", "tocfl-exam-v3:band-a-test-01"), 0);
+    assert.deepEqual(pendingProgressKeys("account-a"), ["tocfl-exam-v3:band-a-test-01"]);
+    assert.deepEqual(pendingProgressKeys("account-b"), []);
+    setProgressUser("account-b");
+    assert.equal(progressStorage().getItem("tocfl-exam-v3:band-a-test-01"), null);
+  } finally { setProgressUser(null); globalThis.window = previousWindow; }
 });

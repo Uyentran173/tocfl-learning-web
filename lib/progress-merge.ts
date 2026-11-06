@@ -56,6 +56,6 @@ function mergeArray(accountValue: string | null, guestValue: string): string {
 
 export function mergeGuestProgressValue(key: string, accountValue: string | null, guestValue: string): string {
   if (key === "tocfl-learned-vocabulary-v2") return mergePool(accountValue, guestValue);
-  if (key.startsWith("tocfl-practice-annotations:") || key.includes("vocabulary-progress") || key.includes("vocabulary-learned")) return mergeArray(accountValue, guestValue);
+  if (key.startsWith("tocfl-practice-annotations:") || key === "tocfl-personalized-sets:v1" || key.includes("vocabulary-progress") || key.includes("vocabulary-learned")) return mergeArray(accountValue, guestValue);
   return accountValue ?? guestValue;
 }

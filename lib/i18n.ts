@@ -87,6 +87,8 @@ export function translate(locale: UiLocale, message: string): string {
 }
 
 const pageTitleSources: Record<string, string> = {
+  "/academy": "Nghe theo từng bài học",
+  "/academy/cc1/lesson/01": "Bài 01 · Tai Wén Academy",
   "/vocabulary": "Học từ vựng",
   "/vocabulary/topic": "Học theo ngữ cảnh & chủ đề tùy chọn",
   "/vocabulary/textbook": "Học theo giáo trình",

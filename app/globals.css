@@ -43,6 +43,16 @@ button:disabled { cursor: not-allowed; }
 button:not(:disabled):active { transform: translateY(1px); filter: brightness(.94); transition-duration: 0ms; }
 :focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
 .paper { background: var(--surface); border: 1px solid var(--border); border-radius: 22px; box-shadow: 0 8px 28px var(--shadow-color); }
+.academy-track { display: flex; align-items: center; gap: 12px; width: 100%; padding: 12px; border: 1px solid var(--border); border-radius: 14px; background: var(--surface-raised); color: var(--text); transition: background-color 180ms ease, border-color 180ms ease; }
+.academy-track:hover, .academy-track[aria-current="true"] { background: var(--brand-soft); border-color: var(--brand-border); }
+.academy-track strong { display: block; font-size: 14px; }
+.academy-track small { display: block; margin-top: 3px; color: var(--muted); font-size: 12px; }
+.academy-track-number { display: grid; place-items: center; width: 36px; height: 36px; flex: 0 0 36px; border-radius: 11px; background: var(--brand-soft); color: var(--brand); font-size: 12px; font-weight: 800; }
+.academy-player, .academy-unavailable { padding: 18px; border: 1px solid var(--brand-border); border-radius: 18px; background: var(--brand-soft); }
+.academy-player audio { display: block; width: 100%; }
+.academy-speed, .academy-response { border: 1px solid var(--border); border-radius: 11px; background: var(--surface-raised); color: var(--text); font: inherit; }
+.academy-speed { padding: 8px 10px; }
+.academy-response { display: block; width: 100%; padding: 12px; line-height: 1.5; resize: vertical; }
 .muted { color: var(--muted); }
 .button-primary { background: var(--brand); color: white; border: 1px solid var(--brand); border-radius: 11px; padding: .78rem 1.2rem; font-weight: 700; transition: background-color 180ms ease, border-color 180ms ease, box-shadow 180ms ease; }
 .button-primary:hover { background: var(--brand-hover); border-color: var(--brand-hover); }

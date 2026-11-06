@@ -31,7 +31,7 @@ function progressCategory(key: string) {
   if (key === "tocfl-learned-vocabulary-v2") return "vocabulary";
   if (key.startsWith("tocfl-exam-v3:")) return "test";
   if (key.startsWith("tocfl-practice-annotations:v1:")) return "annotation";
-  if (key.startsWith("taiwen-activity:v1:")) return "activity";
+  if (key.startsWith("taiwen-activity:v1:") || key.startsWith("taiwen-academy:v1:")) return "activity";
   return "vocabulary_progress";
 }
 
@@ -109,7 +109,7 @@ async function materializeEntry(userId: string, key: string, value: string) {
         if (error) throw error;
       }
     }
-  } else if (key.startsWith("taiwen-activity:v1:")) {
+  } else if (key.startsWith("taiwen-activity:v1:") || key.startsWith("taiwen-academy:v1:")) {
     const { error } = await supabase.from("activity_progress").upsert({
       user_id: userId, activity_key: key, activity_data: parsed,
     }, { onConflict: "user_id,activity_key" });
@@ -148,7 +148,7 @@ export async function syncProgressEntry(userId: string, key: string, value: stri
       const [, , testId, script] = key.split(":");
       const { error: annotationError } = await supabase.from("practice_annotations").delete().eq("user_id", userId).eq("test_id", testId).eq("script", script);
       if (annotationError) throw annotationError;
-    } else if (key.startsWith("taiwen-activity:v1:")) {
+    } else if (key.startsWith("taiwen-activity:v1:") || key.startsWith("taiwen-academy:v1:")) {
       const { error: activityError } = await supabase.from("activity_progress").delete().eq("user_id", userId).eq("activity_key", key);
       if (activityError) throw activityError;
     } else if (key.startsWith("tocfl-band-vocabulary-progress-v1") || key.startsWith("tocfl-vocabulary-learned-v1")) {

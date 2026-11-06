@@ -1,0 +1,67 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { readFileSync, existsSync } from 'node:fs';
+import { createHash } from 'node:crypto';
+import path from 'node:path';
+import { mergeGuestProgressValue } from '../lib/progress-merge.ts';
+
+const root = path.resolve(import.meta.dirname, '..');
+const manifest = JSON.parse(readFileSync(path.join(root, 'data/academy/cc1-audio-manifest.json'), 'utf8'));
+const report = JSON.parse(readFileSync(path.join(root, 'data/academy/cc1-mapping-report.json'), 'utf8'));
+
+test('CC1 metadata preserves distinct textbook and workbook tracks across all lessons', () => {
+  assert.equal(manifest.tracks.length, 222);
+  assert.equal(manifest.tracks.filter((track) => track.source === 'textbook').length, 141);
+  assert.equal(manifest.tracks.filter((track) => track.source === 'workbook').length, 81);
+  assert.equal(new Set(manifest.tracks.map((track) => track.id)).size, 222);
+  for (const source of ['textbook', 'workbook']) {
+    assert.deepEqual(new Set(manifest.tracks.filter((track) => track.source === source && track.lesson !== null).map((track) => track.lesson)), new Set(Array.from({ length: 15 }, (_, i) => i + 1)));
+    const unassigned = manifest.tracks.find((track) => track.id === `cc1-${source}-unassigned-00`);
+    assert.equal(unassigned.lesson, null);
+    assert.equal(unassigned.mappingStatus, 'pending');
+  }
+});
+
+test('Only visually verified Lesson 01 PDF activity references can play', () => {
+  const verified = manifest.tracks.filter((track) => track.mappingStatus === 'verified');
+  assert.equal(verified.length, 9);
+  assert.equal(verified.filter((track) => track.source === 'textbook').length, 4);
+  assert.equal(verified.filter((track) => track.source === 'workbook').length, 5);
+  for (const track of verified) {
+    assert.equal(track.lesson, 1);
+    assert.match(track.activity.referenceCode, /^01-[1-5]$/);
+    assert.ok(track.activity.pdfPage > 0);
+    assert.ok(track.activity.bookPage > 0);
+  }
+  assert.equal(verified.find((track) => track.id === 'cc1-textbook-l01-t01').activity.bookPage, 2);
+  assert.equal(verified.find((track) => track.id === 'cc1-workbook-l01-t05').activity.itemCount, 5);
+  assert.deepEqual(manifest.tracks.filter((track) => track.source === 'textbook' && track.lesson === 1 && track.mappingStatus === 'pending').map((track) => track.originalName), ['01-05.mp3', '01-06.mp3', '01-07.mp3', '01-08.mp3', '01-09.mp3', '01-10.mp3']);
+  assert.equal(report.pendingIds.length, 213);
+  assert.equal(report.audioMetadataValidated, 222);
+});
+
+test('No copyrighted MP3 is placed in public assets; staged files match manifest when available locally', () => {
+  assert.equal(existsSync(path.join(root, 'public/academy')), false);
+  const staged = path.join(root, '.private/academy/cc1');
+  if (!existsSync(staged)) return;
+  for (const track of manifest.tracks) {
+    const file = path.join(staged, track.privatePath);
+    assert.equal(existsSync(file), true, track.id);
+    const data = readFileSync(file);
+    assert.equal(data.byteLength, track.bytes, track.id);
+    assert.equal(createHash('sha256').update(data).digest('hex'), track.sha256, track.id);
+  }
+});
+
+test('Guest lesson progress merges by stable track ID without discarding conflicting notes', () => {
+  const key = 'taiwen-academy:v1:cc1:l01';
+  const account = JSON.stringify({ version: 1, selectedTrackId: 'cc1-textbook-l01-t01', listenedIds: ['cc1-textbook-l01-t01'], completedIds: [], responses: { 'cc1-workbook-l01-t02:1': 'B' } });
+  const guest = JSON.stringify({ version: 1, selectedTrackId: 'cc1-workbook-l01-t02', listenedIds: ['cc1-workbook-l01-t02'], completedIds: ['cc1-workbook-l01-t02'], responses: { 'cc1-workbook-l01-t02:1': 'A', 'cc1-workbook-l01-t02:2': 'C' } });
+  const merged = JSON.parse(mergeGuestProgressValue(key, account, guest));
+  assert.deepEqual(new Set(merged.listenedIds), new Set(['cc1-textbook-l01-t01', 'cc1-workbook-l01-t02']));
+  assert.deepEqual(merged.completedIds, ['cc1-workbook-l01-t02']);
+  assert.equal(merged.responses['cc1-workbook-l01-t02:1'], 'B');
+  assert.equal(merged.responses['cc1-workbook-l01-t02:2'], 'C');
+  assert.equal(merged.guestResponses['cc1-workbook-l01-t02:1'], 'A');
+  assert.deepEqual(JSON.parse(mergeGuestProgressValue(key, JSON.stringify(merged), guest)), merged);
+});

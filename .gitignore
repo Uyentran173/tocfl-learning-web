@@ -58,6 +58,7 @@ next-env.d.ts
 # generated local artifacts
 /outputs/
 /work/
+/.private/
 __pycache__/
 *.py[cod]
 .pnpm-store/

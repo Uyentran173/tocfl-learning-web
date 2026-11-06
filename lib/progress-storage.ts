@@ -10,6 +10,7 @@ const trackedPrefixes = [
   "tocfl-exam-v3:",
   "tocfl-practice-annotations:v1:",
   "taiwen-activity:v1:",
+  "taiwen-academy:v1:",
 ];
 
 let currentUserId: string | null = null;

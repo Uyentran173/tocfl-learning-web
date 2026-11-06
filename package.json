@@ -14,7 +14,8 @@
     "test:import": "python3 -m unittest discover -s tests -p 'test_tocfl_import.py'",
     "tocfl:import": "python3 scripts/import_tocfl_official.py",
     "tocfl:audit": "python3 scripts/audit_tocfl_official.py",
-    "import:vocabulary": "node scripts/import_tocfl_vocabulary.mjs"
+    "import:vocabulary": "node scripts/import_tocfl_vocabulary.mjs",
+    "academy:import-audio": "python3 scripts/import_cc1_audio.py"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",

@@ -54,7 +54,29 @@ function mergeArray(accountValue: string | null, guestValue: string): string {
   return JSON.stringify([...byId.values()]);
 }
 
+function mergeAcademyProgress(accountValue: string | null, guestValue: string): string {
+  const account = safeParse(accountValue ?? "") as Record<string, unknown> | null;
+  const guest = safeParse(guestValue) as Record<string, unknown> | null;
+  if (!account || typeof account !== "object") return guestValue;
+  if (!guest || typeof guest !== "object") return accountValue ?? guestValue;
+  const strings = (value: unknown) => Array.isArray(value) ? value.filter((item): item is string => typeof item === "string") : [];
+  const entries = (value: unknown): Record<string, string> => value && typeof value === "object" && !Array.isArray(value)
+    ? Object.fromEntries(Object.entries(value).filter((entry): entry is [string, string] => typeof entry[1] === "string")) : {};
+  const accountResponses = entries(account.responses);
+  const guestResponses = entries(guest.responses);
+  const conflicting = Object.fromEntries(Object.entries(guestResponses).filter(([key, value]) => accountResponses[key] !== undefined && accountResponses[key] !== value));
+  return JSON.stringify({
+    version: 1,
+    selectedTrackId: account.selectedTrackId ?? guest.selectedTrackId ?? "",
+    listenedIds: [...new Set([...strings(account.listenedIds), ...strings(guest.listenedIds)])],
+    completedIds: [...new Set([...strings(account.completedIds), ...strings(guest.completedIds)])],
+    responses: { ...guestResponses, ...accountResponses },
+    guestResponses: { ...entries(guest.guestResponses), ...entries(account.guestResponses), ...conflicting },
+  });
+}
+
 export function mergeGuestProgressValue(key: string, accountValue: string | null, guestValue: string): string {
+  if (key.startsWith("taiwen-academy:v1:")) return mergeAcademyProgress(accountValue, guestValue);
   if (key === "tocfl-learned-vocabulary-v2") return mergePool(accountValue, guestValue);
   if (key.startsWith("tocfl-practice-annotations:") || key === "tocfl-personalized-sets:v1" || key.includes("vocabulary-progress") || key.includes("vocabulary-learned")) return mergeArray(accountValue, guestValue);
   return accountValue ?? guestValue;

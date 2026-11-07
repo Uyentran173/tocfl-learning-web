@@ -1,4 +1,5 @@
 export type VocabularyWord = {
+  id?: string;
   hanzi: string;
   pinyin: string;
   meaning: string;
@@ -97,10 +98,10 @@ export const textbookSets: VocabularySet[] = [
   {
     id: "lesson-1", title: "Bài 1 · Làm quen", subtitle: "Đại từ và giới thiệu bản thân",
     words: [
-      { hanzi: "我", pinyin: "wǒ", meaning: "Tôi", example: "我是學生。", translation: "Tôi là học sinh." },
-      { hanzi: "你", pinyin: "nǐ", meaning: "Bạn", example: "你是老師嗎？", translation: "Bạn là giáo viên à?" },
-      { hanzi: "叫", pinyin: "jiào", meaning: "Gọi là, tên là", example: "我叫小安。", translation: "Tôi tên là Tiểu An." },
-      { hanzi: "學生", pinyin: "xuéshēng", meaning: "Học sinh", example: "他也是學生。", translation: "Anh ấy cũng là học sinh." },
+      { id: "textbook-intro-l01-wo", hanzi: "我", pinyin: "wǒ", meaning: "Tôi", example: "我是學生。", translation: "Tôi là học sinh." },
+      { id: "textbook-intro-l01-ni", hanzi: "你", pinyin: "nǐ", meaning: "Bạn", example: "你是老師嗎？", translation: "Bạn là giáo viên à?" },
+      { id: "textbook-intro-l01-jiao", hanzi: "叫", pinyin: "jiào", meaning: "Gọi là, tên là", example: "我叫小安。", translation: "Tôi tên là Tiểu An." },
+      { id: "textbook-intro-l01-xuesheng", hanzi: "學生", pinyin: "xuéshēng", meaning: "Học sinh", example: "他也是學生。", translation: "Anh ấy cũng là học sinh." },
     ],
   },
   {

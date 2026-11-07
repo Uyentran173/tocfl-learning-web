@@ -10,6 +10,7 @@ import PreferenceControls from "./PreferenceControls";
 const links = [
   { href: "/", label: "Trang chủ" },
   { href: "/vocabulary", label: "Học từ vựng" },
+  { href: "/academy", label: "Academy" },
   { href: "/tocfl", label: "Luyện đề" },
   { href: "/exam-guide", label: "Hướng dẫn kỳ thi" },
 ];

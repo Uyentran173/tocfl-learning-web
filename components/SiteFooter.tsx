@@ -18,6 +18,7 @@ export default function SiteFooter() {
         <h2>{t("Khám phá")}</h2>
         <Link href="/">{t("Trang chủ")}</Link>
         <Link href="/vocabulary">{t("Học từ vựng")}</Link>
+        <Link href="/academy">Tai Wén Academy</Link>
         <Link href="/tocfl">{t("Luyện đề")}</Link>
       </div>
       <div>

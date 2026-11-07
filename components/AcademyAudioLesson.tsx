@@ -26,7 +26,7 @@ function readProgress(firstTrackId: string): LessonProgress {
   } catch { return empty; }
 }
 
-export default function AcademyAudioLesson({ tracks, availableTrackIds }: { tracks: AcademyTrack[]; availableTrackIds: string[] }) {
+export default function AcademyAudioLesson({ tracks, availableTrackIds, embedded = false }: { tracks: AcademyTrack[]; availableTrackIds: string[]; embedded?: boolean }) {
   const t = useT();
   const textbook = tracks.filter((track) => track.source === "textbook");
   const workbook = tracks.filter((track) => track.source === "workbook");
@@ -88,7 +88,7 @@ export default function AcademyAudioLesson({ tracks, availableTrackIds }: { trac
       <span className="text-sm text-[var(--brand)]" aria-label={progress.completedIds.includes(track.id) ? t("Đã hoàn thành") : progress.listenedIds.includes(track.id) ? t("Đã nghe") : undefined}>{progress.completedIds.includes(track.id) ? "✓" : progress.listenedIds.includes(track.id) ? "◌" : "▶"}</span>
     </button>)}</div>
   </section>;
-  return <div className="mt-9 grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(300px,1.2fr)]">
+  return <div className={embedded ? "academy-audio-embedded mt-5 grid gap-5" : "mt-9 grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(300px,1.2fr)]"}>
     <div className="space-y-5">{trackList(textbook, "Âm thanh giáo trình")}{trackList(workbook, "Âm thanh bài tập")}</div>
     <section className="paper h-fit p-5 sm:p-7">
       <p className="page-eyebrow">{t(active.source === "textbook" ? "Giáo trình" : "Bài tập")} · {active.activity?.referenceCode}</p>

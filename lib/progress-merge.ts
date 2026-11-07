@@ -76,6 +76,24 @@ function mergeAcademyProgress(accountValue: string | null, guestValue: string): 
 }
 
 export function mergeGuestProgressValue(key: string, accountValue: string | null, guestValue: string): string {
+  if (key.startsWith("taiwen-activity:v1:academy:")) {
+    const account = safeParse(accountValue ?? "") as Record<string, unknown> | null;
+    const guest = safeParse(guestValue) as Record<string, unknown> | null;
+    if (!account || typeof account !== "object") return guestValue;
+    if (!guest || typeof guest !== "object") return accountValue ?? guestValue;
+    const entries = (value: unknown): Record<string, string> => value && typeof value === "object" && !Array.isArray(value)
+      ? Object.fromEntries(Object.entries(value).filter((entry): entry is [string, string] => typeof entry[1] === "string")) : {};
+    const accountAnswers = entries(account.answers);
+    const guestAnswers = entries(guest.answers);
+    const conflicts = Object.fromEntries(Object.entries(guestAnswers).filter(([id, answer]) => accountAnswers[id] !== undefined && accountAnswers[id] !== answer));
+    return JSON.stringify({
+      version: 1,
+      currentActivityId: account.currentActivityId ?? guest.currentActivityId,
+      completedActivityIds: [...new Set([...(Array.isArray(account.completedActivityIds) ? account.completedActivityIds : []), ...(Array.isArray(guest.completedActivityIds) ? guest.completedActivityIds : [])])],
+      answers: { ...guestAnswers, ...accountAnswers },
+      guestAnswers: { ...entries(guest.guestAnswers), ...entries(account.guestAnswers), ...conflicts },
+    });
+  }
   if (key.startsWith("taiwen-academy:v1:")) return mergeAcademyProgress(accountValue, guestValue);
   if (key === "tocfl-learned-vocabulary-v2") return mergePool(accountValue, guestValue);
   if (key.startsWith("tocfl-practice-annotations:") || key === "tocfl-personalized-sets:v1" || key.includes("vocabulary-progress") || key.includes("vocabulary-learned")) return mergeArray(accountValue, guestValue);

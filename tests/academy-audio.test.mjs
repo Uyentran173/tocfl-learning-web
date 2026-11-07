@@ -65,3 +65,16 @@ test('Guest lesson progress merges by stable track ID without discarding conflic
   assert.equal(merged.guestResponses['cc1-workbook-l01-t02:1'], 'A');
   assert.deepEqual(JSON.parse(mergeGuestProgressValue(key, JSON.stringify(merged), guest)), merged);
 });
+
+test('Academy activity progress resumes by stable activity ID and preserves guest answer conflicts', () => {
+  const key = 'taiwen-activity:v1:academy:cc1-v1-l01';
+  const account = JSON.stringify({ version: 1, currentActivityId: 'cc1-v1-l01-grammar', completedActivityIds: ['cc1-v1-l01-lecture'], answers: { 'cc1-v1-l01-practice-01': 'b' }, guestAnswers: {} });
+  const guest = JSON.stringify({ version: 1, currentActivityId: 'cc1-v1-l01-vocabulary', completedActivityIds: ['cc1-v1-l01-vocabulary'], answers: { 'cc1-v1-l01-practice-01': 'a', 'cc1-v1-l01-assessment-01': 'b' }, guestAnswers: {} });
+  const merged = JSON.parse(mergeGuestProgressValue(key, account, guest));
+  assert.equal(merged.currentActivityId, 'cc1-v1-l01-grammar');
+  assert.deepEqual(new Set(merged.completedActivityIds), new Set(['cc1-v1-l01-lecture', 'cc1-v1-l01-vocabulary']));
+  assert.equal(merged.answers['cc1-v1-l01-practice-01'], 'b');
+  assert.equal(merged.answers['cc1-v1-l01-assessment-01'], 'b');
+  assert.equal(merged.guestAnswers['cc1-v1-l01-practice-01'], 'a');
+  assert.deepEqual(JSON.parse(mergeGuestProgressValue(key, JSON.stringify(merged), guest)), merged);
+});

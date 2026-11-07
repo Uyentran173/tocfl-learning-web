@@ -1,5 +1,6 @@
 import { extraMessages } from "./i18n-extra";
 import { vocabularyMessages } from "./i18n-vocabulary";
+import { academyMessages } from "./i18n-academy";
 
 export const uiLocales = ["vi", "en", "zh-CN", "zh-TW"] as const;
 export type UiLocale = (typeof uiLocales)[number];
@@ -79,7 +80,7 @@ export const messages: Record<Exclude<UiLocale, "vi">, Record<string, string>> =
 
 export function translate(locale: UiLocale, message: string): string {
   if (locale === "vi") return message;
-  const listed = messages[locale][message] ?? extraMessages[locale][message] ?? vocabularyMessages[locale][message];
+  const listed = messages[locale][message] ?? extraMessages[locale][message] ?? vocabularyMessages[locale][message] ?? academyMessages[locale][message];
   if (listed) return listed;
   const testTitle = /^TOCFL Band (Novice|[ABC]) — Đề (\d+)$/.exec(message);
   if (testTitle) return locale === "en" ? `TOCFL Band ${testTitle[1]} — Test ${testTitle[2]}` : `TOCFL Band ${testTitle[1]} — 第 ${testTitle[2]} 套`;
@@ -87,7 +88,8 @@ export function translate(locale: UiLocale, message: string): string {
 }
 
 const pageTitleSources: Record<string, string> = {
-  "/academy": "Nghe theo từng bài học",
+  "/academy": "Tai Wén Academy · Kệ sách",
+  "/academy/contemporary-chinese/cc1-v1": "Hành trình học",
   "/academy/cc1/lesson/01": "Bài 01 · Tai Wén Academy",
   "/vocabulary": "Học từ vựng",
   "/vocabulary/topic": "Học theo ngữ cảnh & chủ đề tùy chọn",

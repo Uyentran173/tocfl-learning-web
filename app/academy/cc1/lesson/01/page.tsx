@@ -8,7 +8,7 @@ import { academyEditor, publishedAcademyLesson01 } from "@/lib/academy-content";
 import { academySeries } from "@/lib/academy-catalog";
 import { createPageMetadata } from "@/lib/seo";
 
-export const metadata = createPageMetadata("Bài 01 · Tai Wén Academy", "Bài học mẫu về giới thiệu bản thân tại Tai Wén Academy.", "/academy/cc1/lesson/01", { noIndex: true });
+export const metadata = createPageMetadata("歡迎你來臺灣！ · Tai Wén Academy", "Bài 01: Chào mừng bạn đến Đài Loan! Chào hỏi, giới thiệu bản thân và luyện những mẫu câu tiếng Hoa đầu tiên.", "/academy/cc1/lesson/01", { noIndex: true });
 export const dynamic = "force-dynamic";
 
 export default async function AcademyLesson01Page() {
@@ -19,7 +19,6 @@ export default async function AcademyLesson01Page() {
     : [];
   return <main className="mx-auto max-w-7xl px-5 py-8 sm:px-8 sm:py-12">
     <nav className="academy-crumbs" aria-label="Đường dẫn học tập"><Link href="/academy">Tai Wén Academy</Link><span>›</span><Link href="/academy/contemporary-chinese/cc1-v1">{academySeries.title} · <T>Tập 1</T></Link><span>›</span><span><T>Bài 01</T></span></nav>
-    <div className="mt-8"><p className="page-eyebrow">TAI WÉN ACADEMY · <T>BÀI</T> 01</p><h1 className="page-title">{content.title}</h1><p className="page-lead">{content.description}</p>{content.objectives.length > 0 && <div className="academy-objectives mt-5"><strong><T>Sau bài này, bạn có thể:</T></strong><ul>{content.objectives.map((objective) => <li key={objective}>{objective}</li>)}</ul>{content.estimatedMinutes && <span className="text-sm muted">{content.estimatedMinutes} <T>phút dự kiến</T></span>}</div>}</div>
     <AcademyLessonWorkspace content={content} tracks={tracks} availableTrackIds={availableTrackIds} canEdit={Boolean(editor)} />
   </main>;
 }

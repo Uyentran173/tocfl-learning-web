@@ -86,12 +86,20 @@ export function mergeGuestProgressValue(key: string, accountValue: string | null
     const accountAnswers = entries(account.answers);
     const guestAnswers = entries(guest.answers);
     const conflicts = Object.fromEntries(Object.entries(guestAnswers).filter(([id, answer]) => accountAnswers[id] !== undefined && accountAnswers[id] !== answer));
+    const accountWriting = entries(account.writingResponses);
+    const guestWriting = entries(guest.writingResponses);
+    const writingConflicts = Object.fromEntries(Object.entries(guestWriting).filter(([id, answer]) => accountWriting[id] !== undefined && accountWriting[id] !== answer));
+    const assessmentConflicted = Object.keys(conflicts).some((id) => id.includes("-assessment-"));
     return JSON.stringify({
       version: 1,
       currentActivityId: account.currentActivityId ?? guest.currentActivityId,
       completedActivityIds: [...new Set([...(Array.isArray(account.completedActivityIds) ? account.completedActivityIds : []), ...(Array.isArray(guest.completedActivityIds) ? guest.completedActivityIds : [])])],
       answers: { ...guestAnswers, ...accountAnswers },
       guestAnswers: { ...entries(guest.guestAnswers), ...entries(account.guestAnswers), ...conflicts },
+      writingResponses: { ...guestWriting, ...accountWriting },
+      guestWritingResponses: { ...entries(guest.guestWritingResponses), ...entries(account.guestWritingResponses), ...writingConflicts },
+      assessmentSubmitted: account.assessmentSubmitted === true || (guest.assessmentSubmitted === true && !assessmentConflicted),
+      script: account.script === "simplified" || account.script === "traditional" ? account.script : guest.script === "simplified" ? "simplified" : "traditional",
     });
   }
   if (key.startsWith("taiwen-academy:v1:")) return mergeAcademyProgress(accountValue, guestValue);

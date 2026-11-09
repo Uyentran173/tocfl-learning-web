@@ -1,7 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import { academyLessonProgressKey, emptyAcademyLessonProgress, parseAcademyLessonProgress } from "@/lib/academy-progress";
+import { progressStorage } from "@/lib/progress-storage";
 import { siteConfig } from "@/lib/site";
 import { TaiwanLandscape } from "@/components/Illustrations";
 import MascotSticker from "@/components/MascotSticker";
@@ -15,6 +17,16 @@ const features = [
 
 export default function Home() {
   const t = useT();
+  const [academyResume, setAcademyResume] = useState<string | null>(null);
+  useEffect(() => {
+    const timer = window.setTimeout(() => {
+      const saved = parseAcademyLessonProgress(progressStorage().getItem(academyLessonProgressKey));
+      if (saved.completedActivityIds.length || Object.keys(saved.answers).length || saved.currentActivityId !== emptyAcademyLessonProgress.currentActivityId) {
+        setAcademyResume(`/academy/cc1/lesson/01?activity=${encodeURIComponent(saved.currentActivityId)}`);
+      }
+    }, 0);
+    return () => window.clearTimeout(timer);
+  }, []);
   useEffect(() => {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     const sections = document.querySelectorAll<HTMLElement>(".home-section, .home-bottom-cta");
@@ -35,30 +47,20 @@ export default function Home() {
   return <main className="home-page">
     <section className="home-hero" aria-labelledby="home-title">
       <div className="home-hero-copy">
-        <p className="home-kicker"><span aria-hidden="true">✦</span> {t("Học tiếng Hoa theo cách của bạn")}</p>
-        <h1 id="home-title">{t("Mỗi ngày một chút,")}<br/><span>{t("tiếng Hoa gần hơn.")}</span></h1>
-        <p className="home-hero-lead">{siteConfig.name} {t("giúp bạn học từ vựng, luyện nghe và đọc, rồi chuẩn bị cho kỳ thi trong một không gian rõ ràng, dễ theo dõi.")}</p>
+        <p className="home-kicker"><span aria-hidden="true">✦</span> TAI WÉN ACADEMY</p>
+        <h1 id="home-title">{t("Học tiếng Hoa Đài Loan,")}<br/><span>{t("từng bài thật vững.")}</span></h1>
+        <p className="home-hero-lead">{t("Bắt đầu từ hội thoại gần gũi, hiểu từ vựng và ngữ pháp, rồi luyện tập theo nhịp của bạn trong Tai Wén Academy.")}</p>
         <div className="home-actions">
-          <Link href="/vocabulary" className="button-primary">{t("Bắt đầu học")} <span aria-hidden="true">→</span></Link>
-          <Link href="/tocfl" className="button-secondary">{t("Luyện đề")} <span aria-hidden="true">↗</span></Link>
+          <Link href="/academy" className="button-primary">{t("Khám phá Tai Wén Academy")} <span aria-hidden="true">→</span></Link>
+          <Link href={academyResume ?? "/tocfl"} className="button-secondary">{t(academyResume ? "Tiếp tục học" : "Luyện đề TOCFL")} <span aria-hidden="true">↗</span></Link>
         </div>
-        <p className="home-hero-note">{t("Học từng bước nhỏ · Luyện tập theo nhịp riêng")}</p>
+        <p className="home-hero-note">{t("Bài 01: Chào mừng bạn đến Đài Loan!")}</p>
       </div>
-      <div className="home-hero-art" aria-label={t("Minh họa thẻ học tiếng Hoa")}>
+      <div className="home-hero-art home-academy-art" aria-label={t("Xem trước hành trình Tai Wén Academy")}>
         <TaiwanLandscape className="home-landscape" />
-        <span className="home-sparkle home-sparkle-one" aria-hidden="true">✦</span>
-        <span className="home-sparkle home-sparkle-two" aria-hidden="true">✧</span>
-        <div className="home-word-card">
-          <div className="home-word-card-top"><span>{t("THẺ TỪ HÔM NAY")}</span><span aria-hidden="true">✿</span></div>
-          <span className="home-word" lang="zh-Hant">加油</span>
-          <span className="home-word-pronunciation">jiā yóu</span>
-          <span className="home-word-meaning">{t("Cố lên nhé!")}</span>
-          <span className="home-word-rule" aria-hidden="true" />
-          <span className="home-word-example" lang="zh-Hant">一起慢慢進步。</span>
-          <span className="home-word-translation">{t("Cùng nhau tiến bộ từng chút một.")}</span>
-        </div>
-        <MascotSticker variant="tower" decorative className="home-hero-sticker mascot-float" />
-        <span className="home-small-note">{t("Một từ mới cũng là một bước tiến ✨")}</span>
+        <div className="home-academy-book"><span className="home-academy-book-kicker">TAI WÉN ACADEMY · VOL. 01</span><span className="home-academy-book-glyph" lang="zh-Hant">文</span><strong>{t("Giáo trình tiếng Hoa đương đại")}</strong><span lang="zh-Hant">歡迎你來臺灣！</span><small>{t("Chào mừng bạn đến Đài Loan!")}</small><div className="home-academy-route" aria-hidden="true"><i/><i/><i/><i/><i/></div><span className="home-academy-book-footer">01 / 15 {t("bài học")}</span></div>
+        <MascotSticker variant="study" decorative className="home-academy-mascot mascot-float" />
+        <span className="home-small-note">{t("Một bài học, nhiều bước tiến ✨")}</span>
       </div>
     </section>
 

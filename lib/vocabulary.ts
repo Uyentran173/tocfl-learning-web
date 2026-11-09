@@ -1,3 +1,5 @@
+import { cc1Lesson01Words } from "./cc1-lesson01-vocabulary.ts";
+
 export type VocabularyWord = {
   id?: string;
   hanzi: string;
@@ -96,13 +98,8 @@ export const topicSets: VocabularySet[] = [
 
 export const textbookSets: VocabularySet[] = [
   {
-    id: "lesson-1", title: "Bài 1 · Làm quen", subtitle: "Đại từ và giới thiệu bản thân",
-    words: [
-      { id: "textbook-intro-l01-wo", hanzi: "我", pinyin: "wǒ", meaning: "Tôi", example: "我是學生。", translation: "Tôi là học sinh." },
-      { id: "textbook-intro-l01-ni", hanzi: "你", pinyin: "nǐ", meaning: "Bạn", example: "你是老師嗎？", translation: "Bạn là giáo viên à?" },
-      { id: "textbook-intro-l01-jiao", hanzi: "叫", pinyin: "jiào", meaning: "Gọi là, tên là", example: "我叫小安。", translation: "Tôi tên là Tiểu An." },
-      { id: "textbook-intro-l01-xuesheng", hanzi: "學生", pinyin: "xuéshēng", meaning: "Học sinh", example: "他也是學生。", translation: "Anh ấy cũng là học sinh." },
-    ],
+    id: "lesson-1", title: "Bài 01 · 歡迎你來臺灣！", subtitle: "Chào mừng bạn đến Đài Loan!",
+    words: cc1Lesson01Words,
   },
   {
     id: "lesson-2", title: "Bài 2 · Gia đình", subtitle: "Người thân và câu đơn giản",
@@ -126,8 +123,11 @@ export const textbookSets: VocabularySet[] = [
 
 // Keep course > chapter > lesson nesting so later textbook imports need no UI changes.
 export const textbooks: VocabularyTextbook[] = [
-  { id: "nhap-mon", title: "Giáo trình nhập môn", chapters: [
-    { id: "nen-tang", title: "Nền tảng", lessons: textbookSets.slice(0, 2) },
+  { id: "contemporary-chinese", title: "A Course in Contemporary Chinese", chapters: [
+    { id: "cc1-v1", title: "Tập 1", lessons: textbookSets.slice(0, 1) },
+  ] },
+  { id: "nhap-mon", title: "Bộ từ vựng nhập môn", chapters: [
+    { id: "nen-tang", title: "Nền tảng", lessons: textbookSets.slice(1, 2) },
     { id: "ung-dung", title: "Ứng dụng", lessons: textbookSets.slice(2) },
   ] },
 ];

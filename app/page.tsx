@@ -5,14 +5,14 @@ import { useEffect, useState } from "react";
 import { academyLessonProgressKey, emptyAcademyLessonProgress, parseAcademyLessonProgress } from "@/lib/academy-progress";
 import { progressStorage } from "@/lib/progress-storage";
 import { siteConfig } from "@/lib/site";
-import { TaiwanLandscape } from "@/components/Illustrations";
 import MascotSticker from "@/components/MascotSticker";
+import HomeLearningWorld from "@/components/HomeLearningWorld";
 import { useT } from "@/components/PreferencesProvider";
 
 const features = [
-  { icon: "字", title: "Học từ vựng", description: "Ghi nhớ từ mới bằng thẻ học ngắn, ví dụ gần gũi và tiến độ rõ ràng.", href: "/vocabulary" },
-  { icon: "✎", title: "Luyện đề", description: "Làm đề, xem lại đáp án và theo dõi kết quả theo nhịp học của bạn.", href: "/tocfl" },
-  { icon: "⌁", title: "Hướng dẫn kỳ thi", description: "Tìm hiểu cách đăng ký, chuẩn bị giấy tờ và chọn điểm thi phù hợp.", href: "/exam-guide" },
+  { icon: "字", title: "Học từ vựng", description: "Ghi nhớ từ mới bằng thẻ học ngắn, ví dụ gần gũi và tiến độ rõ ràng.", href: "/vocabulary", theme: "words" },
+  { icon: "題", title: "Luyện đề TOCFL", description: "Làm đề, xem lại đáp án và theo dõi kết quả theo nhịp học của bạn.", href: "/tocfl", theme: "exam" },
+  { icon: "台", title: "Hướng dẫn kỳ thi", description: "Tìm hiểu cách đăng ký, chuẩn bị giấy tờ và chọn điểm thi phù hợp.", href: "/exam-guide", theme: "guide" },
 ];
 
 export default function Home() {
@@ -45,31 +45,24 @@ export default function Home() {
     };
   }, []);
   return <main className="home-page">
-    <section className="home-hero" aria-labelledby="home-title">
+    <section className="home-hero home-hero-world" aria-labelledby="home-title">
       <div className="home-hero-copy">
         <p className="home-kicker"><span aria-hidden="true">✦</span> TAI WÉN ACADEMY</p>
-        <h1 id="home-title">{t("Học tiếng Hoa Đài Loan,")}<br/><span>{t("từng bài thật vững.")}</span></h1>
-        <p className="home-hero-lead">{t("Bắt đầu từ hội thoại gần gũi, hiểu từ vựng và ngữ pháp, rồi luyện tập theo nhịp của bạn trong Tai Wén Academy.")}</p>
-        <div className="home-actions">
-          <Link href="/academy" className="button-primary">{t("Khám phá Tai Wén Academy")} <span aria-hidden="true">→</span></Link>
-          <Link href={academyResume ?? "/tocfl"} className="button-secondary">{t(academyResume ? "Tiếp tục học" : "Luyện đề TOCFL")} <span aria-hidden="true">↗</span></Link>
-        </div>
-        <p className="home-hero-note">{t("Bài 01: Chào mừng bạn đến Đài Loan!")}</p>
+        <h1 id="home-title">{t("Học tiếng Hoa,")} <span>{t("mở ra thế giới mới.")}</span></h1>
+        <p className="home-hero-lead">{t("Học theo lộ trình, luyện tập thông minh và tự tin chinh phục TOCFL cùng Tai Wén.")}</p>
+        <Link href="/academy" className="button-primary home-hero-cta">{t("Khám phá Tai Wén Academy")} <span aria-hidden="true">↗</span></Link>
+        {academyResume && <Link href={academyResume} className="home-hero-resume">{t("Tiếp tục học")} <span aria-hidden="true">→</span></Link>}
       </div>
-      <div className="home-hero-art home-academy-art" aria-label={t("Xem trước hành trình Tai Wén Academy")}>
-        <TaiwanLandscape className="home-landscape" />
-        <div className="home-academy-book"><span className="home-academy-book-kicker">TAI WÉN ACADEMY · VOL. 01</span><span className="home-academy-book-glyph" lang="zh-Hant">文</span><strong>{t("Giáo trình tiếng Hoa đương đại")}</strong><span lang="zh-Hant">歡迎你來臺灣！</span><small>{t("Chào mừng bạn đến Đài Loan!")}</small><div className="home-academy-route" aria-hidden="true"><i/><i/><i/><i/><i/></div><span className="home-academy-book-footer">01 / 15 {t("bài học")}</span></div>
-        <MascotSticker variant="study" decorative className="home-academy-mascot mascot-float" />
-        <span className="home-small-note">{t("Một bài học, nhiều bước tiến ✨")}</span>
-      </div>
+      <HomeLearningWorld />
     </section>
 
-    <section className="home-section" aria-labelledby="home-features-title">
-      <div className="home-section-heading"><p className="page-eyebrow">{t("ĐỒNG HÀNH CÙNG BẠN")}</p><h2 id="home-features-title">{t("Học từng bước, ôn tập vững vàng.")}</h2><p>{t("Từ vài từ mới mỗi ngày đến những buổi luyện đề tập trung.")}</p></div>
+    <section className="home-section home-discover" aria-labelledby="home-features-title">
+      <div className="home-section-heading"><p className="page-eyebrow">{t("CÒN NHIỀU ĐIỀU ĐỂ KHÁM PHÁ")}</p><h2 id="home-features-title">{t("Học theo cách của bạn, tiến xa hơn mỗi ngày.")}</h2><p>{t("Bên cạnh Academy, bạn có thể học từ vựng, luyện đề hoặc chuẩn bị cho kỳ thi TOCFL.")}</p></div>
       <div className="home-feature-grid">
-        {features.map((feature) => <Link href={feature.href} key={feature.title} className="home-feature paper">
-          <span className="feature-icon" aria-hidden="true">{feature.icon}</span>
-          <h3>{t(feature.title)}</h3><p>{t(feature.description)}</p><span className="home-card-link">{t("Khám phá")} <span aria-hidden="true">→</span></span>
+        {features.map((feature, index) => <Link href={feature.href} key={feature.title} className={`home-feature home-feature-${feature.theme}`}>
+          <span className="home-feature-top"><span className="home-feature-number">0{index + 1} / 03</span><span className="home-feature-arrow" aria-hidden="true">↗</span></span>
+          <span className="home-feature-illustration" aria-hidden="true"><span>{feature.icon}</span><i/><i/></span>
+          <span className="home-feature-content"><h3>{t(feature.title)}</h3><p>{t(feature.description)}</p></span>
         </Link>)}
       </div>
     </section>

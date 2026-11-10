@@ -1,12 +1,14 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { academyLessonProgressKey, emptyAcademyLessonProgress, parseAcademyLessonProgress } from "@/lib/academy-progress";
 import { progressStorage } from "@/lib/progress-storage";
 import { siteConfig } from "@/lib/site";
 import MascotSticker from "@/components/MascotSticker";
 import HomeLearningWorld from "@/components/HomeLearningWorld";
+import profilePhotoStyles from "./profile-photo.module.css";
 import { useT } from "@/components/PreferencesProvider";
 
 const features = [
@@ -88,7 +90,7 @@ export default function Home() {
 
     <section className="home-section home-story" aria-labelledby="home-about-title">
       <div className="home-about-copy"><p className="page-eyebrow">{t("VỀ NỀN TẢNG")}</p><h2 id="home-about-title">{t("Một nơi để học, luyện tập và chuẩn bị cho kỳ thi.")}</h2><p>{t("Nền tảng tập hợp bài học từ vựng, đề luyện tập và hướng dẫn dự thi để bạn dễ theo dõi tiến độ. Bạn có thể bắt đầu với vài từ mới hôm nay, rồi luyện đề khi đã sẵn sàng.")}</p><Link href="/exam-guide" className="button-quiet">{t("Tìm hiểu về kỳ thi")} →</Link></div>
-      <div className="home-developer paper"><div className="home-avatar" aria-label={t("Ảnh đại diện mẫu")}>{t("Ảnh")}</div><div><p className="page-eyebrow">{t("VỀ NGƯỜI PHÁT TRIỂN")}</p><h3>{t("Chào bạn, mình là Uyên Trần")}</h3><p>{t("Mình là")} <strong>Uyên Trần</strong>, {t("hiện đang tự học tiếng Trung phồn thể tại Việt Nam và hướng tới việc du học Đài Loan. Trong quá trình học, mình nhận ra tài liệu dành cho người Việt, đặc biệt là tài liệu luyện TOCFL, thường nằm rải rác ở nhiều nơi.")}</p><p>{t("Vì vậy, mình xây dựng")} <strong>{siteConfig.name}</strong> {t("như một nơi để học, luyện tập và chuẩn bị cho TOCFL theo cách gọn gàng và dễ dùng hơn. Mình vẫn đang trên hành trình học tiếng Trung, và website này cũng sẽ tiếp tục được hoàn thiện cùng hành trình đó.")}</p></div></div>
+      <div className="home-developer paper"><div className={profilePhotoStyles.portrait}><Image src="/images/uyen-tran-profile.png" alt="Uyên Trần" width={1254} height={1254} sizes="(max-width: 600px) 300px, 340px" quality={90} className={profilePhotoStyles.photo} /></div><div><p className="page-eyebrow">{t("VỀ NGƯỜI PHÁT TRIỂN")}</p><h3>{t("Chào bạn, mình là Uyên Trần")}</h3><p>{t("Mình là")} <strong>Uyên Trần</strong>, {t("hiện đang tự học tiếng Trung phồn thể tại Việt Nam và hướng tới việc du học Đài Loan. Trong quá trình học, mình nhận ra tài liệu dành cho người Việt, đặc biệt là tài liệu luyện TOCFL, thường nằm rải rác ở nhiều nơi.")}</p><p>{t("Vì vậy, mình xây dựng")} <strong>{siteConfig.name}</strong> {t("như một nơi để học, luyện tập và chuẩn bị cho TOCFL theo cách gọn gàng và dễ dùng hơn. Mình vẫn đang trên hành trình học tiếng Trung, và website này cũng sẽ tiếp tục được hoàn thiện cùng hành trình đó.")}</p></div></div>
     </section>
 
     <section className="home-bottom-cta" aria-labelledby="home-cta-title"><span aria-hidden="true">✦</span><h2 id="home-cta-title">{t("Bắt đầu với một bước nhỏ hôm nay.")}</h2><p>{t("Chọn một bài học từ vựng hoặc thử làm đề đầu tiên của bạn.")}</p><div className="home-actions"><Link href="/vocabulary" className="button-primary">{t("Bắt đầu học")} →</Link><Link href="/tocfl" className="button-secondary">{t("Đến thư viện đề")} →</Link></div></section>

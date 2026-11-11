@@ -29,7 +29,7 @@ export default function ListeningIntroStep({ audioPaths, onComplete }: { audioPa
     }
   }
 
-  return <section className="mx-auto max-w-2xl rounded-2xl border border-[var(--brand-border)] bg-white px-6 py-9 text-center shadow-sm sm:px-10 sm:py-12" aria-label={t("Hướng dẫn phần Nghe")}>
+  return <section className="mx-auto max-w-2xl rounded-2xl border border-[var(--brand-border)] bg-[var(--surface)] px-6 py-9 text-center shadow-sm sm:px-10 sm:py-12" aria-label={t("Hướng dẫn phần Nghe")}>
     <div className="mx-auto mb-6 flex h-20 w-20 items-center justify-center rounded-full bg-[var(--brand-soft)] text-4xl text-[var(--brand)]" aria-hidden="true">♫</div>
     <p className="text-xs font-bold uppercase tracking-[.16em] text-[var(--brand)]">{t("Phần Nghe")}</p>
     <h1 className="mt-3 text-2xl font-semibold sm:text-3xl">{t("Hướng dẫn trước khi làm bài")}</h1>

@@ -64,7 +64,13 @@ export default function PreferencesProvider({ children }: { children: ReactNode 
 
   useEffect(() => {
     const title = localizedDocumentTitle(locale, pathname);
-    if (title) document.title = title;
+    if (!title) return;
+    const applyTitle = () => { if (document.title !== title) document.title = title; };
+    applyTitle();
+    // Next.js may stream route metadata after the client has mounted.
+    const observer = new MutationObserver(applyTitle);
+    observer.observe(document.head, { childList: true, subtree: true, characterData: true });
+    return () => observer.disconnect();
   }, [locale, pathname]);
 
   useEffect(() => {

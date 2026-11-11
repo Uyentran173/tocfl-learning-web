@@ -8,8 +8,8 @@ export const metadata = createPageMetadata("Ôn tập từ vựng", "Luyện t�
 
 export default function VocabularyPracticePage() {
   return (
-    <main className="mx-auto max-w-6xl px-5 py-10 sm:px-8 sm:py-14">
-      <Link href="/vocabulary" className="button-quiet text-sm">← Học từ vựng</Link>
+    <main className="vocabulary-practice-page mx-auto max-w-6xl px-5 py-10 sm:px-8 sm:py-14">
+      <Link href="/vocabulary" className="button-quiet text-sm">← <T>Học từ vựng</T></Link>
       <div className="mb-8 mt-7 max-w-3xl">
         <p className="page-eyebrow"><T>SAU KHI HỌC TỪ</T></p>
         <h1 className="page-title"><T>Dùng từ đã học trong bài khóa, bài tập và trò chơi.</T></h1>

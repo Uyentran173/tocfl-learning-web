@@ -1,0 +1,40 @@
+import type { UiLocale } from "./i18n";
+
+export const authMessages: Record<Exclude<UiLocale, "vi">, Record<string, string>> = {
+  en: {
+    "Đăng nhập hoặc tạo tài khoản": "Sign in or create an account",
+    "Tiếp tục với Google để lưu tiến độ học. Nếu bạn chưa có tài khoản, Tai Wén sẽ tạo tự động.": "Continue with Google to save your progress. If you're new, Tai Wén will create an account for you.",
+    "Đăng nhập tạm thời chưa khả dụng. Bạn vẫn có thể học với tư cách khách.": "Sign-in is temporarily unavailable. You can still learn as a guest.",
+    "Đang chuyển tới Facebook…": "Redirecting to Facebook…",
+    "Bạn có thể học ngay và đăng nhập sau. Tiến độ khách chỉ được gộp khi bạn đồng ý.": "Start learning now and sign in later. Guest progress is merged only with your consent.",
+    "Lợi ích của tài khoản Tai Wén": "Benefits of a Tai Wén account",
+    "Học tiếp từ nơi bạn dừng lại.": "Pick up where you left off.",
+    "Lưu từ vựng, bài học và kết quả luyện đề để tiếp tục trên các thiết bị của bạn.": "Save vocabulary, lessons, and test results, then continue across your devices.",
+    "Đăng nhập chưa hoàn tất. Vui lòng thử lại.": "Sign-in wasn't completed. Please try again.",
+    "Không thể mở trang đăng nhập. Vui lòng thử lại sau.": "Couldn't open the sign-in page. Please try again later.",
+  },
+  "zh-CN": {
+    "Đăng nhập hoặc tạo tài khoản": "登录或创建账号",
+    "Tiếp tục với Google để lưu tiến độ học. Nếu bạn chưa có tài khoản, Tai Wén sẽ tạo tự động.": "使用 Google 继续即可保存学习进度。首次使用时，Tai Wén 会自动创建账号。",
+    "Đăng nhập tạm thời chưa khả dụng. Bạn vẫn có thể học với tư cách khách.": "登录暂时不可用。你仍可作为访客学习。",
+    "Đang chuyển tới Facebook…": "正在跳转至 Facebook…",
+    "Bạn có thể học ngay và đăng nhập sau. Tiến độ khách chỉ được gộp khi bạn đồng ý.": "现在就能开始学习，之后再登录。访客进度只有在你同意后才会合并。",
+    "Lợi ích của tài khoản Tai Wén": "Tai Wén 账号的好处",
+    "Học tiếp từ nơi bạn dừng lại.": "从上次停下的地方继续。",
+    "Lưu từ vựng, bài học và kết quả luyện đề để tiếp tục trên các thiết bị của bạn.": "保存词汇、课程和模拟试成绩，并在不同设备上接着学习。",
+    "Đăng nhập chưa hoàn tất. Vui lòng thử lại.": "登录未完成，请重试。",
+    "Không thể mở trang đăng nhập. Vui lòng thử lại sau.": "无法打开登录页面，请稍后重试。",
+  },
+  "zh-TW": {
+    "Đăng nhập hoặc tạo tài khoản": "登入或建立帳號",
+    "Tiếp tục với Google để lưu tiến độ học. Nếu bạn chưa có tài khoản, Tai Wén sẽ tạo tự động.": "使用 Google 繼續即可儲存學習進度。首次使用時，Tai Wén 會自動建立帳號。",
+    "Đăng nhập tạm thời chưa khả dụng. Bạn vẫn có thể học với tư cách khách.": "登入暫時無法使用。你仍可用訪客身分學習。",
+    "Đang chuyển tới Facebook…": "正在前往 Facebook…",
+    "Bạn có thể học ngay và đăng nhập sau. Tiến độ khách chỉ được gộp khi bạn đồng ý.": "現在就能開始學習，之後再登入。訪客進度只有在你同意後才會合併。",
+    "Lợi ích của tài khoản Tai Wén": "Tai Wén 帳號的好處",
+    "Học tiếp từ nơi bạn dừng lại.": "從上次停下的地方繼續。",
+    "Lưu từ vựng, bài học và kết quả luyện đề để tiếp tục trên các thiết bị của bạn.": "儲存詞彙、課程和模擬試成績，並在不同裝置上接著學習。",
+    "Đăng nhập chưa hoàn tất. Vui lòng thử lại.": "登入未完成，請重試。",
+    "Không thể mở trang đăng nhập. Vui lòng thử lại sau.": "無法開啟登入頁面，請稍後再試。",
+  },
+};

@@ -50,7 +50,7 @@ export default function AccountDashboard({ tests }: { tests: TestTitle[] }) {
     return () => window.clearTimeout(timer);
   }, [user]);
 
-  if (!user) return <main className="mx-auto max-w-4xl px-5 py-16">
+  if (!user) return <main className="account-guest-page mx-auto max-w-4xl px-5 py-16">
     <section className="paper p-7 sm:p-10"><p className="page-eyebrow">{t("HỒ SƠ KHÁCH")}</p><h1 className="page-title">{t("Học theo cách của bạn")}</h1><p className="mt-4 leading-7 muted">{t("Bạn vẫn có thể học và luyện đề mà không cần tài khoản. Tiến độ khách được giữ trên thiết bị này.")}</p>
       <Link href="/login" className="button-primary mt-7 inline-block">{t("Đăng nhập để đồng bộ tiến độ")}</Link>
       {!configured && <p className="mt-4 text-sm muted">{t("Tính năng đăng nhập đang chờ kết nối Supabase.")}</p>}
@@ -64,7 +64,7 @@ export default function AccountDashboard({ tests }: { tests: TestTitle[] }) {
   const name = typeof rawName === "string" ? rawName : t("Người học Tai Wén");
   const titleFor = (id: string) => tests.find((test) => test.id === id)?.title ?? id;
 
-  return <main className="mx-auto max-w-6xl px-5 py-12 sm:py-16">
+  return <main className="account-dashboard-page mx-auto max-w-6xl px-5 py-12 sm:py-16">
     <p className="page-eyebrow">{t("TÀI KHOẢN TAI WÉN")}</p>
     <h1 className="page-title">{t("Hồ sơ học tập")}</h1>
     <p className="page-lead">{t("Theo dõi hành trình học tiếng Hoa và luyện thi TOCFL của bạn.")}</p>
@@ -72,7 +72,7 @@ export default function AccountDashboard({ tests }: { tests: TestTitle[] }) {
       {[["#profile", "Hồ sơ của tôi"], ["#progress", "Tiến độ học tập"], ["#words", "Từ vựng đã học"], ["#active-tests", "Đề đang làm"], ["#history", "Lịch sử luyện đề"]].map(([href, label]) => <a key={href} href={href} className="button-secondary text-sm">{t(label)}</a>)}
     </nav>
     {syncing && <p className="mt-4 text-xs muted" role="status">{t("Đang đồng bộ tiến độ…")}</p>}
-    {(syncError || message) && <p className="mt-6 rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900" role="status">{t(syncError || message || "")}</p>}
+    {(syncError || message) && <p className="ui-alert mt-6" data-variant="warning" role="status">{t(syncError || message || "")}</p>}
     {conflicts.length > 0 && <section className="paper mt-6 p-5 sm:p-6" aria-label={t("Tiến độ cần chọn phiên bản")}>
       <h2 className="font-bold">{t("Tiến độ cần chọn phiên bản")}</h2>
       <p className="mt-2 text-sm muted">{t("Tiến độ đã thay đổi ở một thiết bị khác. Bản trên thiết bị này vẫn được giữ nguyên cho tới khi bạn chọn.")}</p>
@@ -93,7 +93,7 @@ export default function AccountDashboard({ tests }: { tests: TestTitle[] }) {
     <section id="profile" className="paper mt-8 p-6 sm:p-8">
       <div className="flex flex-wrap items-start justify-between gap-5"><div><h2 className="text-xl font-bold">{t("Hồ sơ của tôi")}</h2><p className="mt-3 font-semibold text-[var(--brand)]">{name}</p><p className="mt-1 text-sm muted">{user.email ?? t("Đã kết nối tài khoản")}</p></div><button type="button" className="button-secondary" onClick={() => void signOut().catch(() => setMessage("Chưa đăng xuất được. Vui lòng thử lại."))}>{t("Đăng xuất")}</button></div>
       <form className="mt-5 flex flex-wrap items-end gap-3" onSubmit={(event) => { event.preventDefault(); setSavingName(true); void updateDisplayName(nameDraft ?? name).then(() => setMessage(null)).catch(() => setMessage("Chưa lưu được tên hiển thị. Vui lòng thử lại.")).finally(() => setSavingName(false)); }}>
-        <label className="grid min-w-48 flex-1 gap-1 text-sm font-semibold">{t("Tên hiển thị")}<input className="rounded-xl border border-[var(--border)] bg-[var(--surface)] px-3 py-2 text-[var(--text)]" maxLength={100} value={nameDraft ?? name} onChange={(event) => setNameDraft(event.target.value)} /></label>
+        <label className="grid min-w-48 flex-1 gap-1 text-sm font-semibold">{t("Tên hiển thị")}<input className="ui-input" maxLength={100} value={nameDraft ?? name} onChange={(event) => setNameDraft(event.target.value)} /></label>
         <button className="button-secondary" type="submit" disabled={savingName || !(nameDraft ?? name).trim()}>{t(savingName ? "Đang lưu…" : "Lưu tên")}</button>
       </form>
     </section>

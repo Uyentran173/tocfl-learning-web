@@ -7,7 +7,7 @@ import T from "@/components/T";
 export const metadata = createPageMetadata("Học từ vựng theo giáo trình", "Học từ vựng tiếng Hoa theo từng bài và theo dõi tiến độ học.", "/vocabulary/textbook");
 
 export default function TextbookVocabularyPage() {
-  return <main className="mx-auto max-w-6xl px-5 py-10 sm:px-8 sm:py-14">
+  return <main className="vocabulary-textbook-page mx-auto max-w-6xl px-5 py-10 sm:px-8 sm:py-14">
     <Link href="/vocabulary" className="button-quiet text-sm">← <T>Ba cách học từ vựng</T></Link>
     <div className="mb-9 mt-7 max-w-3xl">
       <p className="page-eyebrow"><T>HỌC TỪNG BƯỚC</T></p>

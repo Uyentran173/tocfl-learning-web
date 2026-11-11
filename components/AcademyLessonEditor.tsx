@@ -38,7 +38,7 @@ export default function AcademyLessonEditor() {
     } catch (error) { setMessage(error instanceof Error ? error.message : "Chưa lưu được bài học."); }
     finally { setSaving(false); }
   }
-  return <main className="mx-auto max-w-4xl px-5 py-10 sm:px-8">
+  return <main className="academy-editor-page mx-auto max-w-4xl px-5 py-10 sm:px-8">
     <nav className="academy-crumbs" aria-label={t("Đường dẫn bài học")}><Link href="/academy">Tai Wén Academy</Link><span>›</span><Link href="/academy/cc1/lesson/01">{t("Bài 01")}</Link><span>›</span><span>{t("Biên tập")}</span></nav>
     <p className="page-eyebrow mt-8">TAI WÉN ACADEMY · {t("CHỈ CHỦ SỞ HỮU")}</p>
     <h1 className="page-title">{t("Biên tập bài học")}</h1>

@@ -8,13 +8,14 @@ import { progressStorage } from "@/lib/progress-storage";
 import { siteConfig } from "@/lib/site";
 import MascotSticker from "@/components/MascotSticker";
 import HomeLearningWorld from "@/components/HomeLearningWorld";
+import HomeFeatureArt from "@/components/HomeFeatureArt";
 import profilePhotoStyles from "./profile-photo.module.css";
 import { useT } from "@/components/PreferencesProvider";
 
 const features = [
-  { icon: "字", title: "Học từ vựng", description: "Ghi nhớ từ mới bằng thẻ học ngắn, ví dụ gần gũi và tiến độ rõ ràng.", href: "/vocabulary", theme: "words" },
-  { icon: "題", title: "Luyện đề TOCFL", description: "Làm đề, xem lại đáp án và theo dõi kết quả theo nhịp học của bạn.", href: "/tocfl", theme: "exam" },
-  { icon: "台", title: "Hướng dẫn kỳ thi", description: "Tìm hiểu cách đăng ký, chuẩn bị giấy tờ và chọn điểm thi phù hợp.", href: "/exam-guide", theme: "guide" },
+  { title: "Học từ vựng", description: "Ghi nhớ từ mới bằng thẻ học ngắn, ví dụ gần gũi và tiến độ rõ ràng.", href: "/vocabulary", theme: "words" },
+  { title: "Luyện đề TOCFL", description: "Làm đề, xem lại đáp án và theo dõi kết quả theo nhịp học của bạn.", href: "/tocfl", theme: "exam" },
+  { title: "Hướng dẫn kỳ thi", description: "Tìm hiểu cách đăng ký, chuẩn bị giấy tờ và chọn điểm thi phù hợp.", href: "/exam-guide", theme: "guide" },
 ];
 
 export default function Home() {
@@ -63,7 +64,7 @@ export default function Home() {
       <div className="home-feature-grid">
         {features.map((feature, index) => <Link href={feature.href} key={feature.title} className={`home-feature home-feature-${feature.theme}`}>
           <span className="home-feature-top"><span className="home-feature-number">0{index + 1} / 03</span><span className="home-feature-arrow" aria-hidden="true">↗</span></span>
-          <span className="home-feature-illustration" aria-hidden="true"><span>{feature.icon}</span><i/><i/></span>
+          <span className="home-feature-illustration" aria-hidden="true"><HomeFeatureArt kind={feature.theme as "words" | "exam" | "guide"} /><i/><i/></span>
           <span className="home-feature-content"><h3>{t(feature.title)}</h3><p>{t(feature.description)}</p></span>
         </Link>)}
       </div>
@@ -93,6 +94,6 @@ export default function Home() {
       <div className="home-developer paper"><div className={profilePhotoStyles.portrait}><Image src="/images/uyen-tran-profile.png" alt="Uyên Trần" width={1254} height={1254} sizes="(max-width: 600px) 300px, 340px" quality={90} className={profilePhotoStyles.photo} /></div><div><p className="page-eyebrow">{t("VỀ NGƯỜI PHÁT TRIỂN")}</p><h3>{t("Chào bạn, mình là Uyên Trần")}</h3><p>{t("Mình là")} <strong>Uyên Trần</strong>, {t("hiện đang tự học tiếng Trung phồn thể tại Việt Nam và hướng tới việc du học Đài Loan. Trong quá trình học, mình nhận ra tài liệu dành cho người Việt, đặc biệt là tài liệu luyện TOCFL, thường nằm rải rác ở nhiều nơi.")}</p><p>{t("Vì vậy, mình xây dựng")} <strong>{siteConfig.name}</strong> {t("như một nơi để học, luyện tập và chuẩn bị cho TOCFL theo cách gọn gàng và dễ dùng hơn. Mình vẫn đang trên hành trình học tiếng Trung, và website này cũng sẽ tiếp tục được hoàn thiện cùng hành trình đó.")}</p></div></div>
     </section>
 
-    <section className="home-bottom-cta" aria-labelledby="home-cta-title"><span aria-hidden="true">✦</span><h2 id="home-cta-title">{t("Bắt đầu với một bước nhỏ hôm nay.")}</h2><p>{t("Chọn một bài học từ vựng hoặc thử làm đề đầu tiên của bạn.")}</p><div className="home-actions"><Link href="/vocabulary" className="button-primary">{t("Bắt đầu học")} →</Link><Link href="/tocfl" className="button-secondary">{t("Đến thư viện đề")} →</Link></div></section>
+    <section className="home-bottom-cta" aria-labelledby="home-cta-title"><span className="home-cta-spark" aria-hidden="true">✦</span><MascotSticker variant="graduate" decorative className="home-cta-mascot" /><h2 id="home-cta-title">{t("Bắt đầu với một bước nhỏ hôm nay.")}</h2><p>{t("Chọn một bài học từ vựng hoặc thử làm đề đầu tiên của bạn.")}</p><div className="home-actions"><Link href="/vocabulary" className="button-primary">{t("Bắt đầu học")} →</Link><Link href="/tocfl" className="button-secondary">{t("Đến thư viện đề")} →</Link></div></section>
   </main>;
 }

@@ -2,6 +2,7 @@ import { extraMessages } from "./i18n-extra";
 import { vocabularyMessages } from "./i18n-vocabulary";
 import { academyMessages } from "./i18n-academy";
 import { academyNewMessages } from "./i18n-academy-new.ts";
+import { authMessages } from "./i18n-auth";
 
 export const uiLocales = ["vi", "en", "zh-CN", "zh-TW"] as const;
 export type UiLocale = (typeof uiLocales)[number];
@@ -81,7 +82,7 @@ export const messages: Record<Exclude<UiLocale, "vi">, Record<string, string>> =
 
 export function translate(locale: UiLocale, message: string): string {
   if (locale === "vi") return message;
-  const listed = messages[locale][message] ?? extraMessages[locale][message] ?? vocabularyMessages[locale][message] ?? academyMessages[locale][message] ?? academyNewMessages[locale][message];
+  const listed = messages[locale][message] ?? extraMessages[locale][message] ?? vocabularyMessages[locale][message] ?? academyMessages[locale][message] ?? academyNewMessages[locale][message] ?? authMessages[locale][message];
   if (listed) return listed;
   const testTitle = /^TOCFL Band (Novice|[ABC]) — Đề (\d+)$/.exec(message);
   if (testTitle) return locale === "en" ? `TOCFL Band ${testTitle[1]} — Test ${testTitle[2]}` : `TOCFL Band ${testTitle[1]} — 第 ${testTitle[2]} 套`;
@@ -99,7 +100,7 @@ const pageTitleSources: Record<string, string> = {
   "/vocabulary/practice": "Ôn tập từ vựng",
   "/tocfl": "Luyện đề TOCFL",
   "/exam-guide": "Hướng dẫn kỳ thi",
-  "/login": "Đăng nhập",
+  "/login": "Đăng nhập hoặc tạo tài khoản",
   "/account": "Hồ sơ học tập",
 };
 
@@ -107,10 +108,11 @@ export function localizedDocumentTitle(locale: UiLocale, pathname: string): stri
   if (pathname === "/") return `Tai Wén | ${translate(locale, "Học tiếng Hoa Đài Loan & luyện thi TOCFL")}`;
   const staticTitle = pageTitleSources[pathname];
   if (staticTitle) return `${translate(locale, staticTitle)} | Tai Wén`;
-  const match = /^\/tocfl\/(novice|band-[abc])-test-(\d+)\/(instructions|exam|result|review)$/.exec(pathname);
+  const match = /^\/tocfl\/(novice-reading-2018-11|novice-test-\d+|band-[abc]-test-\d+)\/(instructions|exam|result|review)$/.exec(pathname);
   if (!match) return null;
-  const band = match[1] === "novice" ? "Novice" : match[1].slice(-1).toUpperCase();
-  const testTitle = translate(locale, `TOCFL Band ${band} — Đề ${match[2]}`);
-  const section = ({ instructions: "Trước khi bắt đầu", exam: "Bài thi", result: "Kết quả bài thi thử", review: "Xem lại đáp án" } as Record<string, string>)[match[3]] ?? "Bài thi";
+  const band = match[1].startsWith("novice") ? "Novice" : match[1].charAt(5).toUpperCase();
+  const number = match[1] === "novice-reading-2018-11" ? "01" : match[1].match(/test-(\d+)$/)?.[1] ?? "01";
+  const testTitle = translate(locale, `TOCFL Band ${band} — Đề ${number}`);
+  const section = ({ instructions: "Trước khi bắt đầu", exam: "Bài thi", result: "Kết quả bài thi thử", review: "Xem lại đáp án" } as Record<string, string>)[match[2]] ?? "Bài thi";
   return `${translate(locale, section)} ${testTitle} | Tai Wén`;
 }

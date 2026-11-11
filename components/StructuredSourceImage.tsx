@@ -8,7 +8,7 @@ export default function StructuredSourceImage({ question, simulation = false }: 
   const t = useT();
   const visual = question.sourceVisual;
   if (!visual?.context && !visual?.prompt) return null;
-  return <div className={simulation ? "sim-image-area flex-col gap-4" : "space-y-4 rounded-xl border border-[var(--border)] bg-white p-4"}>
+  return <div className={simulation ? "sim-image-area flex-col gap-4" : "space-y-4 rounded-xl border border-[var(--border)] source-image-paper p-4"}>
     {visual.context && <CroppedSource question={question} crop={visual.context} label={`${t("Nội dung đọc chung của câu")} ${question.number}`} />}
     {visual.prompt && <CroppedSource question={question} crop={visual.prompt} label={`${t("Câu hỏi")} ${question.number}`} />}
   </div>;

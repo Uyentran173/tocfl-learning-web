@@ -21,7 +21,7 @@ export function CroppedSource({ question, crop, label, evidence }: { question: Q
     width: `${evidence.width / crop.width * 100}%`,
     height: `${evidence.height / crop.height * 100}%`,
   } : undefined;
-  return <div role="img" aria-label={label} className="relative mx-auto w-full overflow-hidden rounded-lg bg-white" style={style}>
+  return <div role="img" aria-label={label} className="relative mx-auto w-full overflow-hidden rounded-lg source-image-paper" style={style}>
     <Image src={question.imageUrl!} alt="" width={crop.sourceWidth} height={crop.sourceHeight} unoptimized loading="eager" className="absolute left-0 top-0 block" style={imageStyle} />
     {evidenceStyle && <span aria-hidden="true" className="review-image-evidence" style={evidenceStyle} />}
   </div>;
@@ -32,7 +32,7 @@ export default function BandAReadingImage({ question, simulation = false, eviden
   const visual = getBandAReadingVisual(question);
   if (!visual) return null;
   const label = question.number ? `${t("Câu hỏi")} ${question.number}` : t("Câu hỏi");
-  return <div className={simulation ? "sim-image-area flex-col gap-4" : "space-y-4 rounded-xl border border-[var(--border)] bg-white p-4"}>
+  return <div className={simulation ? "sim-image-area flex-col gap-4" : "space-y-4 rounded-xl border border-[var(--border)] source-image-paper p-4"}>
     {visual.crops.map((crop, index) => <CroppedSource key={index} question={question} crop={crop} evidence={evidence} label={visual.sharedContextId && index === 0 ? `${t("Hình chung cho các câu")} ${visual.sharedContextId}` : `${t("Nội dung")} ${label}, ${t(question.script === "simplified" ? "Chữ Giản thể" : "Chữ Phồn thể")}`} />)}
   </div>;
 }

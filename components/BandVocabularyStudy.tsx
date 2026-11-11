@@ -156,27 +156,27 @@ export default function BandVocabularyStudy({ bands }: { bands: TocflVocabularyB
 
   return <div className="space-y-6">
     <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4" role="group" aria-label={t("Chọn Band TOCFL")}>
-      {bands.map((item) => <button key={item.id} type="button" onClick={() => chooseBand(item.id)} aria-pressed={bandId === item.id} className={`rounded-2xl border p-5 text-left shadow-sm transition-colors duration-200 ${bandId === item.id ? "border-[var(--brand)] bg-[var(--brand-soft)]" : "border-[var(--border)] bg-white hover:border-[var(--brand-border)] hover:bg-[var(--brand-soft)]"}`}>
+      {bands.map((item) => <button key={item.id} type="button" onClick={() => chooseBand(item.id)} aria-pressed={bandId === item.id} data-band={item.id} className={`band-selector-card rounded-2xl border p-5 text-left shadow-sm transition-colors duration-200 ${bandId === item.id ? "border-[var(--brand)] bg-[var(--brand-soft)]" : "border-[var(--border)] bg-[var(--surface)] hover:border-[var(--brand-border)] hover:bg-[var(--brand-soft)]"}`}>
         <span className="block text-xs font-bold uppercase tracking-[.13em] text-[var(--brand)]">TOCFL</span>
         <strong className="mt-2 block text-lg">{item.label}</strong>
         <span className="mt-1 block text-sm muted">{number(item.entryCount)} {t("từ")}</span>
       </button>)}
     </div>
 
-    <div className="paper p-5 sm:p-7">
+    <div className="paper band-study-summary p-5 sm:p-7">
       <div className="flex flex-wrap items-end justify-between gap-5">
         <div><p className="page-eyebrow">{band.label}</p><h2 className="mt-2 text-2xl font-bold">{number(band.entryCount)} {t("mục từ")}</h2><p className="mt-2 text-sm muted">{number(learnedCount)} / {number(levelId === "all" ? band.entryCount : band.levels.find((level) => level.id === levelId)?.entryCount ?? 0)} {t("từ đã học trong mục đang xem")}</p></div>
         <div className="flex flex-wrap gap-2" role="group" aria-label={t("Chọn chữ viết")}>
-          <button type="button" className={`rounded-xl border px-4 py-2 text-sm font-semibold ${script === "traditional" ? "border-[var(--brand)] bg-[var(--brand-soft)] text-[var(--brand)]" : "border-[var(--border)] bg-white"}`} aria-pressed={script === "traditional"} onClick={() => setScript("traditional")}>{t("Chữ Phồn thể")}</button>
-          <button type="button" className={`rounded-xl border px-4 py-2 text-sm font-semibold ${script === "simplified" ? "border-[var(--brand)] bg-[var(--brand-soft)] text-[var(--brand)]" : "border-[var(--border)] bg-white"}`} aria-pressed={script === "simplified"} onClick={() => setScript("simplified")}>{t("Chữ Giản thể")}</button>
+          <button type="button" className={`rounded-xl border px-4 py-2 text-sm font-semibold ${script === "traditional" ? "border-[var(--brand)] bg-[var(--brand-soft)] text-[var(--brand)]" : "border-[var(--border)] bg-[var(--surface)]"}`} aria-pressed={script === "traditional"} onClick={() => setScript("traditional")}>{t("Chữ Phồn thể")}</button>
+          <button type="button" className={`rounded-xl border px-4 py-2 text-sm font-semibold ${script === "simplified" ? "border-[var(--brand)] bg-[var(--brand-soft)] text-[var(--brand)]" : "border-[var(--border)] bg-[var(--surface)]"}`} aria-pressed={script === "simplified"} onClick={() => setScript("simplified")}>{t("Chữ Giản thể")}</button>
         </div>
       </div>
       <div className="study-progress mt-5" role="progressbar" aria-label={t("Tiến độ học từ")} aria-valuemin={0} aria-valuemax={visibleRecords.length || band.entryCount} aria-valuenow={learnedCount}><span style={{ width: `${visibleRecords.length ? learnedCount / visibleRecords.length * 100 : 0}%` }} /></div>
       {band.coverageNote && <p className="mt-4 text-sm muted">{band.coverageNote}</p>}
       {!loading && !error && reviewedCount < visibleRecords.length && <p className="mt-4 rounded-xl bg-[var(--brand-soft)] px-4 py-3 text-sm text-[var(--brand)]" role="status">{reviewedCount === 0 ? t("Nghĩa và câu ví dụ của Band này đang được biên tập. Bạn vẫn có thể xem từ vựng và lưu tiến độ học.") : `${number(reviewedCount)} ${t("từ đã có nghĩa và ví dụ được rà soát. Các từ còn lại đang được biên tập.")}`}</p>}
       <div className="mt-6 flex flex-wrap gap-2" role="group" aria-label={t("Chọn cấp độ")}>
-        <button type="button" onClick={() => chooseLevel("all")} aria-pressed={levelId === "all"} className={`rounded-full border px-4 py-2 text-sm font-semibold ${levelId === "all" ? "border-[var(--brand)] bg-[var(--brand-soft)] text-[var(--brand)]" : "border-[var(--border)] bg-white"}`}>{t("Tất cả cấp")} · {number(band.entryCount)}</button>
-        {band.levels.map((level) => <button key={level.id} type="button" onClick={() => chooseLevel(level.id)} aria-pressed={levelId === level.id} className={`rounded-full border px-4 py-2 text-sm font-semibold ${levelId === level.id ? "border-[var(--brand)] bg-[var(--brand-soft)] text-[var(--brand)]" : "border-[var(--border)] bg-white"}`}>{level.label} · {level.entryCount.toLocaleString("vi-VN")}</button>)}
+        <button type="button" onClick={() => chooseLevel("all")} aria-pressed={levelId === "all"} className={`rounded-full border px-4 py-2 text-sm font-semibold ${levelId === "all" ? "border-[var(--brand)] bg-[var(--brand-soft)] text-[var(--brand)]" : "border-[var(--border)] bg-[var(--surface)]"}`}>{t("Tất cả cấp")} · {number(band.entryCount)}</button>
+        {band.levels.map((level) => <button key={level.id} type="button" onClick={() => chooseLevel(level.id)} aria-pressed={levelId === level.id} className={`rounded-full border px-4 py-2 text-sm font-semibold ${levelId === level.id ? "border-[var(--brand)] bg-[var(--brand-soft)] text-[var(--brand)]" : "border-[var(--border)] bg-[var(--surface)]"}`}>{level.label} · {level.entryCount.toLocaleString("vi-VN")}</button>)}
       </div>
       <div className="mt-6 flex flex-wrap gap-2 border-t border-[var(--border)] pt-5">
         <button type="button" className={view === "list" ? "button-primary" : "button-secondary"} onClick={() => chooseView("list")}>{t("Danh sách từ")}</button>
@@ -187,9 +187,9 @@ export default function BandVocabularyStudy({ bands }: { bands: TocflVocabularyB
       {learnedCount >= 2 && !canStartPractice && <p className="mt-3 text-sm muted">{t("Học thêm vài từ cùng chủ đề để mở bài khóa phù hợp.")}</p>}
     </div>
 
-    {loading ? <div className="paper p-10 text-center muted" role="status">{t("Đang tải danh sách từ…")}</div> : error ? <div className="paper p-10 text-center"><p role="alert" className="text-red-700">{t(error)}</p><button type="button" className="button-secondary mt-4" onClick={() => { setLoading(true); setError(""); setRetryKey((current) => current + 1); }}>{t("Thử lại")}</button></div> : view === "list" ? <section className="paper overflow-hidden" aria-label={t("Danh sách từ vựng")}>
+    {loading ? <div className="paper p-10 text-center muted" role="status">{t("Đang tải danh sách từ…")}</div> : error ? <div className="paper p-10 text-center"><p role="alert" className="text-[var(--error)]">{t(error)}</p><button type="button" className="button-secondary mt-4" onClick={() => { setLoading(true); setError(""); setRetryKey((current) => current + 1); }}>{t("Thử lại")}</button></div> : view === "list" ? <section className="paper band-word-list overflow-hidden" aria-label={t("Danh sách từ vựng")}>
       <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[var(--border)] px-5 py-4 sm:px-7"><h3 className="text-lg font-bold">{t("Danh sách từ")}</h3><span className="text-sm muted">{number(visibleRecords.length)} {t("từ")} · {t("Trang")} {currentPage}/{pageCount}</span></div>
-      <div className="divide-y divide-[var(--border)]">{visibleRecords.slice(pageStart, pageStart + pageSize).map((record, index) => <button key={record.id} type="button" onClick={() => chooseView("study", pageStart + index)} className="grid w-full gap-3 px-5 py-4 text-left transition-colors hover:bg-[var(--brand-soft)] sm:grid-cols-[minmax(0,220px)_minmax(0,1fr)] sm:px-7">
+      <div className="divide-y divide-[var(--border)]">{visibleRecords.slice(pageStart, pageStart + pageSize).map((record, index) => <button key={record.id} type="button" onClick={() => chooseView("study", pageStart + index)} className="band-word-row grid w-full gap-3 px-5 py-4 text-left transition-colors hover:bg-[var(--brand-soft)] sm:grid-cols-[minmax(0,220px)_minmax(0,1fr)] sm:px-7">
         <span className="flex min-w-0 items-start gap-3"><span className="w-8 shrink-0 pt-1 text-xs muted">{record.globalSequence}</span><span><strong className="block text-xl text-[var(--brand)]" lang={script === "simplified" && record.simplified ? "zh-Hans" : "zh-Hant"}>{wordForm(record)}</strong><span className="mt-0.5 block text-sm muted">{record.pinyin || t("Chưa có phiên âm")}</span><span className="mt-2 flex flex-wrap gap-1.5 text-xs"><span className="rounded-full bg-[var(--brand-soft)] px-2 py-0.5 font-semibold text-[var(--brand)]">{levelNames.get(record.levelId) ?? record.levelId}</span>{record.partOfSpeech.raw && <span className="rounded-full border border-[var(--border)] px-2 py-0.5 muted">{record.partOfSpeech.raw}</span>}{learnedSet.has(record.id) && <span className="font-semibold text-[var(--brand)]">✓ {t("Đã học")}</span>}</span></span></span>
         <span className="min-w-0 text-sm leading-6">{record.meaningVi && <strong className="block font-semibold" lang="vi">{record.meaningVi}</strong>}{exampleForm(record) && <span className="mt-1 block" lang={script === "simplified" ? "zh-Hans" : "zh-Hant"}>{exampleForm(record)}</span>}{record.exampleVi && <span className="block muted" lang="vi">{record.exampleVi}</span>}{record.exampleSource?.kind === "tatoeba" && <span className="mt-1 block text-xs muted">{t("Ví dụ:")} Tatoeba · {record.exampleSource.author}</span>}</span>
       </button>)}</div>
@@ -225,7 +225,7 @@ export default function BandVocabularyStudy({ bands }: { bands: TocflVocabularyB
             <span className="band-flashcard-hint">{t("Nhấn vào thẻ để xem lại từ")} ↻</span>
           </span>
         </span>
-      </button> : <div className="mt-5 rounded-2xl border border-[var(--brand-border)] bg-gradient-to-br from-white to-[var(--brand-soft)] p-5 sm:p-7">
+      </button> : <div className="band-review-word mt-5 rounded-2xl border p-5 sm:p-7">
         <p className="text-xs font-bold uppercase tracking-[.13em] text-[var(--brand)]">{t("Từ vựng")}</p>
         <h4 className="mt-3 text-4xl font-semibold text-[var(--brand)] sm:text-5xl" lang={script === "simplified" && word.simplified ? "zh-Hans" : "zh-Hant"}>{wordForm(word)}</h4>
         {script === "simplified" && !word.simplified && <p className="mt-2 text-sm muted">{t("Nguồn chỉ có chữ Phồn thể cho từ này.")}</p>}

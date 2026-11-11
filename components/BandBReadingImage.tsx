@@ -9,7 +9,7 @@ export default function BandBReadingImage({ question, simulation = false, eviden
   const t = useT();
   const visual = getBandBReadingVisual(question);
   if (!visual) return null;
-  return <div className={simulation ? "sim-image-area flex-col gap-4" : "space-y-4 rounded-xl border border-[var(--border)] bg-white p-4"}>
+  return <div className={simulation ? "sim-image-area flex-col gap-4" : "space-y-4 rounded-xl border border-[var(--border)] source-image-paper p-4"}>
     {visual.crops.map((item, index) => <CroppedSource key={index} question={question} crop={item} evidence={evidence} label={isBandBDocumentQuestion(question) ? `${t("Tài liệu chung cho câu")} ${visual.sharedContextId}` : index === 0 ? `${t("Nội dung chung cho câu")} ${visual.sharedContextId}` : `${t("Nội dung câu")} ${question.number}, ${t(question.script === "simplified" ? "Chữ Giản thể" : "Chữ Phồn thể")}`} />)}
   </div>;
 }

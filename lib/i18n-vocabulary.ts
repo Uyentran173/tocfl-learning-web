@@ -1,5 +1,9 @@
 export const vocabularyMessages: Record<"en" | "zh-CN" | "zh-TW", Record<string, string>> = {
   en: {
+    "CHẾ ĐỘ 01": "PATH 01", "CHẾ ĐỘ 02": "PATH 02", "CHẾ ĐỘ 03 · TOCFL": "PATH 03 · TOCFL",
+    "Chọn chủ đề hoặc tình huống gần bạn: du lịch, đại học, công việc, đời sống, ăn uống hay mua sắm.": "Choose a familiar topic or situation: travel, university, work, daily life, food, or shopping.",
+    "Học theo giáo trình, chương và từng bài. Đánh dấu từ đã thuộc để tiếp tục từ đúng chỗ.": "Follow a textbook chapter by chapter and lesson by lesson. Mark learned words and resume where you left off.",
+    "Chọn cấp độ từ Band Novice đến Band C, học bộ từ có sẵn và theo dõi tiến độ riêng cho từng cấp.": "Choose a level from Band Novice to Band C, study its vocabulary, and track progress for each band.",
     "Chủ đề của bạn": "Your topic", "Mục đích học": "Learning goal", "ÔN TỪ ĐÃ HỌC": "REVIEW LEARNED WORDS",
 
     "Các từ trong bộ": "Words in this set", "BÀI KHÓA": "PASSAGE", "Hội thoại": "Dialogue", "Tin nhắn": "Message", "Thông báo": "Notice",
@@ -40,6 +44,10 @@ export const vocabularyMessages: Record<"en" | "zh-CN" | "zh-TW", Record<string,
     "Chọn bài học": "Choose a lesson", "Học theo ngữ cảnh": "Learn by context", "Nguồn:": "Source:", "đã thuộc": "learned", "Tiến độ từ vựng": "Vocabulary progress", "Thẻ": "Card", "Ẩn nghĩa của từ": "Hide word meaning", "Hiện nghĩa của từ": "Show word meaning", "Từ loại:": "Part of speech:", "Chạm để xem phiên âm, nghĩa và ví dụ ✨": "Tap to see pronunciation, meaning, and example ✨", "Xem câu gốc trên Tatoeba": "View original sentence on Tatoeba", "✓ Đã thuộc": "✓ Learned", "Đánh dấu đã thuộc": "Mark as learned", "Bài khóa từ các từ đã học →": "Passage using learned words →", "Chưa có bài học ở cấp độ này": "No lessons at this level yet", "Bạn có thể chọn cấp độ khác để tiếp tục học.": "Choose another level to keep learning.",
   },
   "zh-CN": {
+    "CHẾ ĐỘ 01": "路径 01", "CHẾ ĐỘ 02": "路径 02", "CHẾ ĐỘ 03 · TOCFL": "路径 03 · TOCFL",
+    "Chọn chủ đề hoặc tình huống gần bạn: du lịch, đại học, công việc, đời sống, ăn uống hay mua sắm.": "选择贴近生活的主题或情境：旅行、大学、工作、日常生活、美食或购物。",
+    "Học theo giáo trình, chương và từng bài. Đánh dấu từ đã thuộc để tiếp tục từ đúng chỗ.": "按教材、章节和课程学习。标记已掌握的词，下次从上次进度继续。",
+    "Chọn cấp độ từ Band Novice đến Band C, học bộ từ có sẵn và theo dõi tiến độ riêng cho từng cấp.": "选择 Band Novice 至 Band C 的等级，学习对应词汇并分别追踪进度。",
     "Chủ đề của bạn": "你的主题", "Mục đích học": "学习目标", "ÔN TỪ ĐÃ HỌC": "复习已学词汇",
 
     "Các từ trong bộ": "本词汇集的词", "BÀI KHÓA": "短文", "Hội thoại": "对话", "Tin nhắn": "消息", "Thông báo": "通知",
@@ -80,6 +88,10 @@ export const vocabularyMessages: Record<"en" | "zh-CN" | "zh-TW", Record<string,
     "Chọn bài học": "选择课程", "Học theo ngữ cảnh": "按情境学习", "Nguồn:": "来源：", "đã thuộc": "个已掌握", "Tiến độ từ vựng": "词汇学习进度", "Thẻ": "词卡", "Ẩn nghĩa của từ": "隐藏词义", "Hiện nghĩa của từ": "显示词义", "Từ loại:": "词性：", "Chạm để xem phiên âm, nghĩa và ví dụ ✨": "点击查看拼音、词义和例句 ✨", "Xem câu gốc trên Tatoeba": "在 Tatoeba 查看原句", "✓ Đã thuộc": "✓ 已掌握", "Đánh dấu đã thuộc": "标记已掌握", "Bài khóa từ các từ đã học →": "用已学词阅读短文 →", "Chưa có bài học ở cấp độ này": "此级别暂无课程", "Bạn có thể chọn cấp độ khác để tiếp tục học.": "选择其他级别继续学习。",
   },
   "zh-TW": {
+    "CHẾ ĐỘ 01": "路徑 01", "CHẾ ĐỘ 02": "路徑 02", "CHẾ ĐỘ 03 · TOCFL": "路徑 03 · TOCFL",
+    "Chọn chủ đề hoặc tình huống gần bạn: du lịch, đại học, công việc, đời sống, ăn uống hay mua sắm.": "選擇貼近生活的主題或情境：旅行、大學、工作、日常生活、飲食或購物。",
+    "Học theo giáo trình, chương và từng bài. Đánh dấu từ đã thuộc để tiếp tục từ đúng chỗ.": "按教材、章節和課程學習。標記已掌握的詞，下次從上次進度繼續。",
+    "Chọn cấp độ từ Band Novice đến Band C, học bộ từ có sẵn và theo dõi tiến độ riêng cho từng cấp.": "選擇 Band Novice 至 Band C 的級別，學習對應詞彙並分別追蹤進度。",
     "Chủ đề của bạn": "你的主題", "Mục đích học": "學習目標", "ÔN TỪ ĐÃ HỌC": "複習已學詞彙",
 
     "Các từ trong bộ": "本詞彙集的詞", "BÀI KHÓA": "短文", "Hội thoại": "對話", "Tin nhắn": "訊息", "Thông báo": "通知",

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import LoginOptions from "@/components/LoginOptions";
 
-export const metadata: Metadata = { title: "Đăng nhập", robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: "Đăng nhập hoặc tạo tài khoản", robots: { index: false, follow: false } };
 
 async function availableProviders() {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
@@ -27,5 +27,5 @@ async function availableProviders() {
 
 export default async function LoginPage({ searchParams }: { searchParams: Promise<{ error?: string }> }) {
   const [params, providers] = await Promise.all([searchParams, availableProviders()]);
-  return <main className="px-5 py-16 sm:py-24"><LoginOptions oauthError={params.error === "oauth"} providers={providers} /></main>;
+  return <main className="login-page"><LoginOptions oauthError={params.error === "oauth"} providers={providers} /></main>;
 }

@@ -97,26 +97,26 @@ export default function ContextVocabularyBuilder() {
     <form onSubmit={generate} className="paper p-5 sm:p-8">
       <div className="grid gap-6 md:grid-cols-2">
         <label className="block text-sm font-semibold">{t("Chủ đề")}
-          <select className="mt-2 w-full rounded-xl border border-[var(--border)] bg-white px-4 py-3 font-normal" value={options.topicId} onChange={(event) => update("topicId", event.target.value)}>
+          <select className="ui-input mt-2 w-full" value={options.topicId} onChange={(event) => update("topicId", event.target.value)}>
             {contextTopics.map((topic) => <option key={topic.id} value={topic.id}>{t(topic.label)}</option>)}
             <option value="custom">{t("Nhập chủ đề riêng")}</option>
           </select>
         </label>
         {options.topicId === "custom" && <label className="block text-sm font-semibold">{t("Chủ đề của bạn")}
-          <input className="mt-2 w-full rounded-xl border border-[var(--border)] bg-white px-4 py-3 font-normal" type="text" minLength={2} maxLength={60} required value={options.customTopic ?? ""} onChange={(event) => update("customTopic", event.target.value)} placeholder={t("Ví dụ: âm nhạc, thú cưng…")} />
+          <input className="ui-input mt-2 w-full" type="text" minLength={2} maxLength={60} required value={options.customTopic ?? ""} onChange={(event) => update("customTopic", event.target.value)} placeholder={t("Ví dụ: âm nhạc, thú cưng…")} />
         </label>}
         <label className="block text-sm font-semibold">{t("Mục đích học")}
-          <select className="mt-2 w-full rounded-xl border border-[var(--border)] bg-white px-4 py-3 font-normal" value={options.purpose} onChange={(event) => update("purpose", event.target.value)}>
+          <select className="ui-input mt-2 w-full" value={options.purpose} onChange={(event) => update("purpose", event.target.value)}>
             {contextPurposes.map((purpose) => <option key={purpose.id} value={purpose.id}>{t(purpose.label)}</option>)}
           </select>
         </label>
         <label className="block text-sm font-semibold">{t("Trình độ")}
-          <select className="mt-2 w-full rounded-xl border border-[var(--border)] bg-white px-4 py-3 font-normal" value={options.difficulty} onChange={(event) => update("difficulty", event.target.value)}>
+          <select className="ui-input mt-2 w-full" value={options.difficulty} onChange={(event) => update("difficulty", event.target.value)}>
             {contextDifficulties.map((difficulty) => <option key={difficulty.id} value={difficulty.id}>{t(difficulty.label)}</option>)}
           </select>
         </label>
         <label className="block text-sm font-semibold">{t("Nguồn từ")}
-          <select className="mt-2 w-full rounded-xl border border-[var(--border)] bg-white px-4 py-3 font-normal" value={options.source} onChange={(event) => update("source", event.target.value as ContextRequest["source"])}>
+          <select className="ui-input mt-2 w-full" value={options.source} onChange={(event) => update("source", event.target.value as ContextRequest["source"])}>
             {contextSources.map((source) => <option key={source.id} value={source.id}>{t(source.label)}</option>)}
           </select>
         </label>

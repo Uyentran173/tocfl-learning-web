@@ -65,7 +65,7 @@ export default function TestSetup({ test, starts }: { test: TestSummary; starts:
 
   if (pendingSection) return <ExamStartPending section={pendingSection} />;
 
-  return <main className="mx-auto max-w-4xl px-5 py-8 sm:px-8 sm:py-14">
+  return <main className="tocfl-setup-page mx-auto max-w-4xl px-5 py-8 sm:px-8 sm:py-14">
     <Link href="/tocfl" className="button-quiet text-sm">← {t("Thư viện đề thi")}</Link>
     <div className="paper mt-7 overflow-hidden rounded-2xl">
       <div className="border-b border-[var(--border)] bg-[var(--brand-soft)] px-6 py-8 sm:px-10">

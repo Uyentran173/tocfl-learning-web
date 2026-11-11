@@ -13,7 +13,7 @@ const registrationSteps = [
 ];
 
 export default function ExamGuidePage() {
-  return <main className="mx-auto max-w-6xl px-5 py-12 sm:px-8 sm:py-16">
+  return <main className="exam-guide-page mx-auto max-w-6xl px-5 py-12 sm:px-8 sm:py-16">
     <div className="max-w-3xl">
       <p className="page-eyebrow"><T>HƯỚNG DẪN KỲ THI VÀ ĐĂNG KÝ</T></p>
       <h1 className="page-title"><T>Chuẩn bị kỹ lưỡng để dự thi tự tin hơn.</T></h1>

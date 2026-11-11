@@ -10,10 +10,16 @@
 .home-page .home-section .page-eyebrow { letter-spacing: .12em; }
 
 .home-discover { --section-backdrop: linear-gradient(180deg, var(--palette-cream), var(--page)); }
-.home-discover .home-feature { min-height: 310px; border-radius: 30px; box-shadow: 0 13px 32px color-mix(in srgb, var(--feature-art) 18%, transparent); }
+.home-discover .home-feature { min-height: 310px; margin-top: 0; border-radius: 30px; box-shadow: 0 4px 12px color-mix(in srgb, var(--feature-art) 12%, transparent); transition: transform 200ms var(--motion-ease), border-color 200ms var(--motion-ease), box-shadow 200ms var(--motion-ease); }
 .home-discover .home-feature::after { content: ""; position: absolute; right: -30px; bottom: -68px; width: 205px; height: 205px; border: 2px solid currentColor; border-radius: 42% 58% 55% 45%; opacity: .1; transform: rotate(20deg); }
-.home-discover .home-feature:nth-child(2) { margin-top: 26px; }
-.home-discover .home-feature:nth-child(3) { margin-top: 52px; }
+.home-discover .home-feature:nth-child(2), .home-discover .home-feature:nth-child(3) { margin-top: 0; }
+.home-discover .home-feature:focus-visible { z-index: 2; transform: translateY(-8px) scale(1.03); border-color: var(--feature-edge); box-shadow: 0 22px 42px var(--shadow-color); outline: 3px solid var(--focus); outline-offset: 4px; }
+@media (hover: hover) {
+  .home-discover .home-feature:hover { z-index: 2; transform: translateY(-8px) scale(1.03); border-color: var(--feature-edge); box-shadow: 0 22px 42px var(--shadow-color); }
+}
+@media (hover: none) {
+  .home-discover .home-feature:hover:not(:focus-visible) { transform: none; border-color: var(--feature-border); box-shadow: 0 4px 12px color-mix(in srgb, var(--feature-art) 12%, transparent); }
+}
 .home-feature-illustration { width: 142px; height: 112px; margin-top: 5px; background: color-mix(in srgb, var(--feature-art) 72%, white); border: 1px solid color-mix(in srgb, var(--feature-ink) 18%, transparent); box-shadow: inset 0 4px 0 rgba(255,255,255,.35), 0 10px 18px rgba(42,52,83,.11); }
 .home-feature-illustration > svg { position: relative; z-index: 1; width: 135px; height: 99px; transform: rotate(8deg); }
 .home-feature-words { --feature-bg: #eaf5ec; --feature-border: #b7deca; --feature-edge: #70ae8d; --feature-ink: #245541; --feature-art: #b7e1ca; }
@@ -288,5 +294,6 @@ body:has(.sim-outer) .sim-canvas { height: calc(100dvh - 32px); }
   .exam-guide-page #registration article { min-height: 0; }
 }
 @media (prefers-reduced-motion: reduce) {
-  .home-feature-arrow, .home-path-card, .vocabulary-path-card, .login-provider, .login-guest-link { transition: none; }
+  .home-feature-arrow, .home-path-card, .vocabulary-path-card, .login-provider, .login-guest-link, .home-discover .home-feature { transition: none; }
+  .home-discover .home-feature:hover, .home-discover .home-feature:focus-visible { transform: none; }
 }

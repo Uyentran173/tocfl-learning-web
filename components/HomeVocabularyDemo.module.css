@@ -25,7 +25,7 @@
 .flashcard { width: min(100%, 430px); min-height: 330px; border: 0; padding: 0; background: transparent; font: inherit; cursor: pointer; perspective: 1100px; }
 .cardInner { position: relative; display: block; width: 100%; min-height: 330px; transform-style: preserve-3d; transition: transform 520ms cubic-bezier(.2,.72,.2,1); }
 .flipped .cardInner { transform: rotateY(180deg); }
-.cardFace { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; padding: 28px; border: 1px solid var(--brand-border); border-radius: 30px; box-shadow: 0 18px 38px var(--shadow-color), inset 0 4px 0 color-mix(in srgb, var(--surface) 60%, transparent); backface-visibility: hidden; -webkit-backface-visibility: hidden; text-align: center; }
+.cardFace { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; padding: 28px; border: 1px solid var(--brand-border); border-radius: 30px; box-shadow: 0 18px 38px var(--shadow-color), inset 0 4px 0 color-mix(in srgb, var(--surface) 60%, transparent); backface-visibility: hidden; -webkit-backface-visibility: hidden; text-align: center; transition: box-shadow 160ms ease; }
 .cardFront { background: linear-gradient(145deg, var(--academy-surface), var(--vocab-surface) 72%); color: var(--text); }
 .cardBack { transform: rotateY(180deg); background: var(--surface); color: var(--text); }
 .cardFace small, .smallLabel { color: var(--brand); font-size: 12px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
@@ -38,7 +38,7 @@
 .backExample { margin-top: 9px; font-family: var(--font-chinese); font-size: 18px; }
 .backTranslation { color: var(--muted); font-size: 13px; }
 .cardHint { margin-top: 0; }
-.flashcard:hover .cardInner { filter: drop-shadow(0 8px 12px var(--shadow-color)); }
+.flashcard:hover .cardFace { box-shadow: 0 26px 48px var(--shadow-color), inset 0 4px 0 color-mix(in srgb, var(--surface) 60%, transparent); }
 .exampleScene, .quizScene { gap: 18px; }
 .chineseSentence { margin: 24px 0 10px; font-family: var(--font-chinese); font-size: clamp(26px, 3vw, 35px); line-height: 1.6; }
 .chineseSentence mark { padding: 2px 5px; border-radius: 8px; background: var(--evidence); color: var(--evidence-ink); font-weight: 700; }

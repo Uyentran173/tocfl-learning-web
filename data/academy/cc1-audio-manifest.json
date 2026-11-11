@@ -315,8 +315,14 @@
       "privatePath": "textbook/02-01.mp3",
       "bytes": 791512,
       "sha256": "9ecd39c1f90b03597d7e0659a8894a56763ec2c3bb7675a4f5ebcc88abfc731d",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 51,
+        "bookPage": 24,
+        "labelVi": "Đối thoại 1",
+        "referenceCode": "02-1",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l02-t02",
@@ -329,8 +335,14 @@
       "privatePath": "textbook/02-02.mp3",
       "bytes": 1743623,
       "sha256": "12ec39a30b556c9b02a8f81f5c5f2c87dd5ef20a1f95123a7f12efc6b7dd0983",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 52,
+        "bookPage": 25,
+        "labelVi": "Từ vựng 1",
+        "referenceCode": "02-2",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l02-t03",
@@ -343,8 +355,14 @@
       "privatePath": "textbook/02-03.mp3",
       "bytes": 696636,
       "sha256": "d74d0608d821086d49cc081eedf0f6f3df88cc391a5125f9ffbca0e90c467489",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 53,
+        "bookPage": 26,
+        "labelVi": "Đối thoại 2",
+        "referenceCode": "02-3",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l02-t04",
@@ -357,8 +375,14 @@
       "privatePath": "textbook/02-04.mp3",
       "bytes": 1202366,
       "sha256": "fc80d3829aca11261f0092b29520adcbb66048523b0c36fca9f4215be9aa05fc",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 55,
+        "bookPage": 28,
+        "labelVi": "Từ vựng 2",
+        "referenceCode": "02-4",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l02-t05",
@@ -441,8 +465,14 @@
       "privatePath": "workbook/02-1.mp3",
       "bytes": 1313961,
       "sha256": "b627a4745fbf4857e76c27c23c7c87b45980d594b0675aac968908a4b75ed430",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 11,
+        "bookPage": 9,
+        "labelVi": "Phân biệt thanh điệu",
+        "referenceCode": "02-1",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l02-t02",
@@ -455,8 +485,14 @@
       "privatePath": "workbook/02-2.mp3",
       "bytes": 596743,
       "sha256": "361909e35ca5aed7c5c0f729bdffa794488d3d4a14cb6891ef29200bd5c55517",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 11,
+        "bookPage": 9,
+        "labelVi": "Nghe về gia đình",
+        "referenceCode": "02-2",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l02-t03",
@@ -469,8 +505,14 @@
       "privatePath": "workbook/02-3.mp3",
       "bytes": 1440185,
       "sha256": "9eec154628872b467dffd93c9cd6d0005467b56a3ae8df154f1d53bce6b1a8ec",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 12,
+        "bookPage": 10,
+        "labelVi": "Nghe và chọn thông tin",
+        "referenceCode": "02-3",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l02-t04",
@@ -483,8 +525,14 @@
       "privatePath": "workbook/02-4.mp3",
       "bytes": 1638298,
       "sha256": "e0613050ff2007b2b1016435d08cf9f6811cfe1bc0551b319a9c4aa95614a39e",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 12,
+        "bookPage": 10,
+        "labelVi": "Nghe hội thoại và xác định đúng sai",
+        "referenceCode": "02-4",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l02-t05",
@@ -497,8 +545,14 @@
       "privatePath": "workbook/02-5.mp3",
       "bytes": 1008433,
       "sha256": "7faa3183c68f0cb110307cceee4e6fee0d0b79b3872b88fa806b5053d62f9970",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 15,
+        "bookPage": 13,
+        "labelVi": "Nghe và viết chữ Hán",
+        "referenceCode": "02-5",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l03-t01",
@@ -511,8 +565,14 @@
       "privatePath": "textbook/03-01.mp3",
       "bytes": 838324,
       "sha256": "ddaa405fecf237d022513840399aad939e6139b25fcf12846fa66bc42bea2bab",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 71,
+        "bookPage": 44,
+        "labelVi": "Đối thoại 1",
+        "referenceCode": "03-1",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l03-t02",
@@ -525,8 +585,14 @@
       "privatePath": "textbook/03-02.mp3",
       "bytes": 1786255,
       "sha256": "775a41cd2960c6db84cf61e2e9ca647c59e00db430a5e3112be69aab8273fb88",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 73,
+        "bookPage": 46,
+        "labelVi": "Từ vựng 1",
+        "referenceCode": "03-2",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l03-t03",
@@ -539,8 +605,14 @@
       "privatePath": "textbook/03-03.mp3",
       "bytes": 564143,
       "sha256": "7609688c57043f7beb05157581eb236991733e2e38dde34cf5a1b8a87ec840ea",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 74,
+        "bookPage": 47,
+        "labelVi": "Đối thoại 2",
+        "referenceCode": "03-3",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l03-t04",
@@ -553,8 +625,14 @@
       "privatePath": "textbook/03-04.mp3",
       "bytes": 1423049,
       "sha256": "1fe496ad72cf1fba9b344bd6b94d6024620f6e896b86ba098f4cb8e371577052",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 75,
+        "bookPage": 48,
+        "labelVi": "Từ vựng 2",
+        "referenceCode": "03-4",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l03-t05",
@@ -637,8 +715,14 @@
       "privatePath": "workbook/03-1.mp3",
       "bytes": 1328172,
       "sha256": "415f34613e61da8c63b3b005953553c3bf4272f0e14cc3b49e6c8789a54d1f80",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 19,
+        "bookPage": 17,
+        "labelVi": "Phân biệt thanh điệu",
+        "referenceCode": "03-1",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l03-t02",
@@ -651,8 +735,14 @@
       "privatePath": "workbook/03-2.mp3",
       "bytes": 698725,
       "sha256": "ed18e510e0c67c0c77a43d833adfb2885cb8b06a6785a2c4bcbcf27a59174278",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 19,
+        "bookPage": 17,
+        "labelVi": "Nghe và nhận biết hoạt động",
+        "referenceCode": "03-2",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l03-t03",
@@ -665,8 +755,14 @@
       "privatePath": "workbook/03-3.mp3",
       "bytes": 556201,
       "sha256": "88aff2a4e882079be7fdc28cd612f57f29186d60405794a35607d6fe62884e14",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 20,
+        "bookPage": 18,
+        "labelVi": "Nghe và sắp xếp hình",
+        "referenceCode": "03-3",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l03-t04",
@@ -679,8 +775,14 @@
       "privatePath": "workbook/03-4.mp3",
       "bytes": 1736936,
       "sha256": "90a03ec89d339bd6284b585610d069a8a74eb1b4021f197fec2d7c3ad863f44d",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 20,
+        "bookPage": 18,
+        "labelVi": "Nghe câu hỏi và chọn câu trả lời",
+        "referenceCode": "03-4",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l03-t05",
@@ -693,8 +795,14 @@
       "privatePath": "workbook/03-5.mp3",
       "bytes": 1052319,
       "sha256": "13b6fa345b82cdd3119d31715950cc6203d65af0aea1aeb472586c8ae11b39b0",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 23,
+        "bookPage": 21,
+        "labelVi": "Nghe và viết chữ Hán",
+        "referenceCode": "03-5",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l04-t01",
@@ -707,8 +815,14 @@
       "privatePath": "textbook/04-01.mp3",
       "bytes": 769778,
       "sha256": "8e7a5e287095692a90e27eae4d111abcf4bc953f963f442d11f306879264543c",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 93,
+        "bookPage": 66,
+        "labelVi": "Đối thoại 1",
+        "referenceCode": "04-1",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l04-t02",
@@ -721,8 +835,14 @@
       "privatePath": "textbook/04-02.mp3",
       "bytes": 1471114,
       "sha256": "20f2c319d42c258dd66818cfedbc151c8a012294cc0da82309a838989a6faf72",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 94,
+        "bookPage": 67,
+        "labelVi": "Từ vựng 1",
+        "referenceCode": "04-2",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l04-t03",
@@ -735,8 +855,14 @@
       "privatePath": "textbook/04-03.mp3",
       "bytes": 587966,
       "sha256": "6baed385021bd2adb49d4fdc8cc3a8340d9981ad704391e21e6d541256b71a14",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 95,
+        "bookPage": 68,
+        "labelVi": "Đối thoại 2",
+        "referenceCode": "04-3",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l04-t04",
@@ -749,8 +875,14 @@
       "privatePath": "textbook/04-04.mp3",
       "bytes": 1295571,
       "sha256": "fe267744d8741751fc654a1a78fa5d213820aca18e910d8f02776131e36c4b82",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 96,
+        "bookPage": 69,
+        "labelVi": "Từ vựng 2",
+        "referenceCode": "04-4",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l04-t05",
@@ -847,8 +979,14 @@
       "privatePath": "workbook/04-1.mp3",
       "bytes": 1313125,
       "sha256": "e715eab669e942a06a29cfceeffbc1dfc031d4aec4d3015c6d2a9e6e370c03d3",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 27,
+        "bookPage": 25,
+        "labelVi": "Phân biệt thanh điệu",
+        "referenceCode": "04-1",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l04-t02",
@@ -861,8 +999,14 @@
       "privatePath": "workbook/04-2.mp3",
       "bytes": 1871519,
       "sha256": "c07a71336f3eff356cad8144541510e9f151daf7a5c30a02422a89ce8aaeb7aa",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 27,
+        "bookPage": 25,
+        "labelVi": "Nghe gợi ý và trả lời",
+        "referenceCode": "04-2",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l04-t03",
@@ -875,8 +1019,14 @@
       "privatePath": "workbook/04-3.mp3",
       "bytes": 418275,
       "sha256": "ecc2e8e9f0938b294871c40fff4a5c03dc9c97c6316cd8dc53b79ff8c68a0942",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 28,
+        "bookPage": 26,
+        "labelVi": "Nghe và điền số lượng",
+        "referenceCode": "04-3",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l04-t04",
@@ -889,8 +1039,14 @@
       "privatePath": "workbook/04-4.mp3",
       "bytes": 1106236,
       "sha256": "0755546dc001134608abc1eb2633ce5c08224ac95d6fed41699a773767e536c9",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 28,
+        "bookPage": 26,
+        "labelVi": "Nghe hội thoại và xác định đúng sai",
+        "referenceCode": "04-4",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l04-t05",
@@ -903,8 +1059,14 @@
       "privatePath": "workbook/04-5.mp3",
       "bytes": 1102056,
       "sha256": "e6920a42eed01fba34d4d476f350d066ed1fe4e8302c400560fe586c492df3e5",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 30,
+        "bookPage": 28,
+        "labelVi": "Nghe và viết chữ Hán",
+        "referenceCode": "04-5",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l05-t01",
@@ -917,8 +1079,14 @@
       "privatePath": "textbook/05-01.mp3",
       "bytes": 829547,
       "sha256": "616898b545c539074d299a830472e8566427aa76bc2bb09cee3b950cc52b9970",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 113,
+        "bookPage": 86,
+        "labelVi": "Đối thoại 1",
+        "referenceCode": "05-1",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l05-t02",
@@ -931,8 +1099,14 @@
       "privatePath": "textbook/05-02.mp3",
       "bytes": 1614474,
       "sha256": "351dd9e7f6f95c6963962e3cb9fc88fca628ac5d8cd3b70c93dbaeeba0a82cf5",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 114,
+        "bookPage": 87,
+        "labelVi": "Từ vựng 1",
+        "referenceCode": "05-2",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l05-t03",
@@ -945,8 +1119,14 @@
       "privatePath": "textbook/05-03.mp3",
       "bytes": 628090,
       "sha256": "6277d0dabb1d639db263c59c1214611165be17b08ad8888685b49f5f96f784ca",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 116,
+        "bookPage": 89,
+        "labelVi": "Đối thoại 2",
+        "referenceCode": "05-3",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l05-t04",
@@ -959,8 +1139,14 @@
       "privatePath": "textbook/05-04.mp3",
       "bytes": 1325246,
       "sha256": "f74dcb876cc8c0728dbdb35c4e0f4733fa76b45eaef2300fed87d305384cba1e",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 117,
+        "bookPage": 90,
+        "labelVi": "Từ vựng 2",
+        "referenceCode": "05-4",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l05-t05",
@@ -1029,8 +1215,14 @@
       "privatePath": "workbook/05-1.mp3",
       "bytes": 1308946,
       "sha256": "19ec15ebf8da28fcf97e4fceadc9013d0838105379cb5fb295749f99a939f87c",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 33,
+        "bookPage": 31,
+        "labelVi": "Phân biệt thanh điệu",
+        "referenceCode": "05-1",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l05-t02",
@@ -1043,8 +1235,14 @@
       "privatePath": "workbook/05-2.mp3",
       "bytes": 1956365,
       "sha256": "8b4f88bc0e049dbb7bbd9f29d7d6a90ba5690d1d89b2ef17bf0f7ef7a4adf5c7",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 33,
+        "bookPage": 31,
+        "labelVi": "Nghe gợi ý và trả lời",
+        "referenceCode": "05-2",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l05-t03",
@@ -1057,8 +1255,14 @@
       "privatePath": "workbook/05-3.mp3",
       "bytes": 827457,
       "sha256": "64b4f8fa5ba5603f188226302eb4131f2663800e12574de973c1c6981ffcd3d3",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 34,
+        "bookPage": 32,
+        "labelVi": "Nghe và sắp xếp thông tin",
+        "referenceCode": "05-3",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l05-t04",
@@ -1071,8 +1275,14 @@
       "privatePath": "workbook/05-4.mp3",
       "bytes": 1435587,
       "sha256": "55ffac4b7a28c79c2c6f403b4b300d7d0cf7cb38f36086b679890649f1e9dfff",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 34,
+        "bookPage": 32,
+        "labelVi": "Nghe đoạn văn và xác định đúng sai",
+        "referenceCode": "05-4",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l05-t05",
@@ -1085,8 +1295,14 @@
       "privatePath": "workbook/05-5.mp3",
       "bytes": 1129223,
       "sha256": "67b72ef22ed3eb677d23c274f75d749aa8661cc01d4954ea0204df75c5dee74b",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 38,
+        "bookPage": 36,
+        "labelVi": "Nghe và viết chữ Hán",
+        "referenceCode": "05-5",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l06-t01",
@@ -1099,8 +1315,14 @@
       "privatePath": "textbook/06-01.mp3",
       "bytes": 989207,
       "sha256": "5ec22779c527dc4e6020b452e2a1fac7d07884356fd78cbadb9be72fbe174c71",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 131,
+        "bookPage": 104,
+        "labelVi": "Đối thoại 1",
+        "referenceCode": "06-1",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l06-t02",
@@ -1113,8 +1335,14 @@
       "privatePath": "textbook/06-02.mp3",
       "bytes": 1800884,
       "sha256": "b1e77b6a0e30bfbefc3e6fdaabc8ea23bcd6c5aa2e407a214bf31fbec7b3acea",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 132,
+        "bookPage": 105,
+        "labelVi": "Từ vựng 1",
+        "referenceCode": "06-2",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l06-t03",
@@ -1127,8 +1355,14 @@
       "privatePath": "textbook/06-03.mp3",
       "bytes": 749716,
       "sha256": "c009a7f40e98626ea162a657ea6473ef66a684538ce1e2218f4ad1a1cf0e9581",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 134,
+        "bookPage": 107,
+        "labelVi": "Đối thoại 2",
+        "referenceCode": "06-3",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l06-t04",
@@ -1141,8 +1375,14 @@
       "privatePath": "textbook/06-04.mp3",
       "bytes": 1441857,
       "sha256": "fa069823322b9203bac54cf39a30b1c5103d4ced5ce116efb3733d1f39b585df",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 135,
+        "bookPage": 108,
+        "labelVi": "Từ vựng 2",
+        "referenceCode": "06-4",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l06-t05",
@@ -1225,8 +1465,14 @@
       "privatePath": "workbook/06-1.mp3",
       "bytes": 1325246,
       "sha256": "d1c41b4233d85645f2f04c1dc3e4e51a45ac87242649c724e8c41762a2f6ee7b",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 41,
+        "bookPage": 39,
+        "labelVi": "Phân biệt thanh điệu",
+        "referenceCode": "06-1",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l06-t02",
@@ -1239,8 +1485,14 @@
       "privatePath": "workbook/06-2.mp3",
       "bytes": 1655434,
       "sha256": "c0bcca4b95f49adcc61af61a893ad374388ed988f72eb669c7817c0631ab474b",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 41,
+        "bookPage": 39,
+        "labelVi": "Chọn cách phát âm đúng",
+        "referenceCode": "06-2",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l06-t03",
@@ -1253,8 +1505,14 @@
       "privatePath": "workbook/06-3.mp3",
       "bytes": 677409,
       "sha256": "f6cb8189ceb4af78816b57754106e38b9deecc300f2a9bf3bb33e6e3c4774818",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 42,
+        "bookPage": 40,
+        "labelVi": "Nghe và chọn hình",
+        "referenceCode": "06-3",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l06-t04",
@@ -1267,8 +1525,14 @@
       "privatePath": "workbook/06-4.mp3",
       "bytes": 807813,
       "sha256": "251c5c3839614d07ed895ea920f73b0636d22d17178a925b13270a30d05d3e94",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 42,
+        "bookPage": 40,
+        "labelVi": "Nghe và sắp xếp hình",
+        "referenceCode": "06-4",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l06-t05",
@@ -1281,8 +1545,14 @@
       "privatePath": "workbook/06-5.mp3",
       "bytes": 1049811,
       "sha256": "00b645c0600c75b3eb02cdccf370f710e2599e4045164abcc3b0b23c8db67a16",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 43,
+        "bookPage": 41,
+        "labelVi": "Nghe hội thoại và xác định đúng sai",
+        "referenceCode": "06-5",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l06-t06",
@@ -1295,8 +1565,14 @@
       "privatePath": "workbook/06-6.mp3",
       "bytes": 1028913,
       "sha256": "c37c9fe1c3fad12544bef59dc1a398ab7c4b6b0067743735abe3cd35f8d776b7",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 46,
+        "bookPage": 44,
+        "labelVi": "Nghe và viết chữ Hán",
+        "referenceCode": "06-6",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l07-t01",
@@ -1309,8 +1585,14 @@
       "privatePath": "textbook/07-01.mp3",
       "bytes": 1080740,
       "sha256": "9de69fa35f9f9674d503cc7a4acc616de7a50e11d41199b3bbd968b38d36d1d5",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 159,
+        "bookPage": 132,
+        "labelVi": "Đối thoại 1",
+        "referenceCode": "07-1",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l07-t02",
@@ -1323,8 +1605,14 @@
       "privatePath": "textbook/07-02.mp3",
       "bytes": 1352832,
       "sha256": "849ec9f61569a9093825c38d958eb297f696a758d01822fd7db29cf84540967f",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 161,
+        "bookPage": 134,
+        "labelVi": "Từ vựng 1",
+        "referenceCode": "07-2",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l07-t03",
@@ -1337,8 +1625,14 @@
       "privatePath": "textbook/07-03.mp3",
       "bytes": 785243,
       "sha256": "7de1925105b66d2dd122afc1c6d6f36e1d690fce5495e546531bdcab2384c9a3",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 162,
+        "bookPage": 135,
+        "labelVi": "Đối thoại 2",
+        "referenceCode": "07-3",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l07-t04",
@@ -1351,8 +1645,14 @@
       "privatePath": "textbook/07-04.mp3",
       "bytes": 1716874,
       "sha256": "d22f789f6ddfc5ef765091fb8975a5951a2f7fc4b6423b42cb11dd44c002cf1c",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 164,
+        "bookPage": 137,
+        "labelVi": "Từ vựng 2",
+        "referenceCode": "07-4",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l07-t05",
@@ -1435,8 +1735,14 @@
       "privatePath": "workbook/07-1.mp3",
       "bytes": 1334441,
       "sha256": "3b8e479ad806bf4a63ad9a4f483c3a54f204fc34322ee89ab19829dbe7ef694b",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 49,
+        "bookPage": 47,
+        "labelVi": "Phân biệt thanh điệu",
+        "referenceCode": "07-1",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l07-t02",
@@ -1449,8 +1755,14 @@
       "privatePath": "workbook/07-2.mp3",
       "bytes": 1637462,
       "sha256": "1cbb2150016076bbfe64c69e69ec6a607b1bca81f0fc4362089a6fd7d4d4371d",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 49,
+        "bookPage": 47,
+        "labelVi": "Chọn cách phát âm đúng",
+        "referenceCode": "07-2",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l07-t03",
@@ -1463,8 +1775,14 @@
       "privatePath": "workbook/07-3.mp3",
       "bytes": 827039,
       "sha256": "5156b63f935f9e975b92510654b0756884ede26c0811d369e6976f1f9e567300",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 50,
+        "bookPage": 48,
+        "labelVi": "Nghe và ghi thời gian",
+        "referenceCode": "07-3",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l07-t04",
@@ -1477,8 +1795,14 @@
       "privatePath": "workbook/07-4.mp3",
       "bytes": 591310,
       "sha256": "9a9285e989b469c260fc65b4ad1b778df217f736e0c63e038582912f2e6043cd",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 50,
+        "bookPage": 48,
+        "labelVi": "Nghe và ghép hoạt động",
+        "referenceCode": "07-4",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l07-t05",
@@ -1491,8 +1815,14 @@
       "privatePath": "workbook/07-5.mp3",
       "bytes": 1710187,
       "sha256": "64e3f7b64392bea6ad262c34f5d5068a4268042be9316c1c469190e661e28f42",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 50,
+        "bookPage": 48,
+        "labelVi": "Nghe hội thoại và xác định đúng sai",
+        "referenceCode": "07-5",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l07-t06",
@@ -1505,8 +1835,14 @@
       "privatePath": "workbook/07-6.mp3",
       "bytes": 1083248,
       "sha256": "692d7448038f14389033efa111dff8b3a5d11e4866061dc74d5809b0102c5fd5",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 54,
+        "bookPage": 52,
+        "labelVi": "Nghe và viết chữ Hán",
+        "referenceCode": "07-6",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l08-t01",
@@ -1519,8 +1855,14 @@
       "privatePath": "textbook/08-01.mp3",
       "bytes": 949083,
       "sha256": "0fe8da3c7c220e13ba12a320ea7114117414a2c3d8adc9ac277ac5614726886a",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 187,
+        "bookPage": 160,
+        "labelVi": "Đối thoại 1",
+        "referenceCode": "08-1",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l08-t02",
@@ -1533,8 +1875,14 @@
       "privatePath": "textbook/08-02.mp3",
       "bytes": 1581037,
       "sha256": "e217f43b87d7d1a07c81c498986ce897ce40ce2673dc0b45a363122dfae7a1c0",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 189,
+        "bookPage": 162,
+        "labelVi": "Từ vựng 1",
+        "referenceCode": "08-2",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l08-t03",
@@ -1547,8 +1895,14 @@
       "privatePath": "textbook/08-03.mp3",
       "bytes": 811574,
       "sha256": "19c67ea31bf10daf9a7084f0a4790276abba0235bc544e50a97e92e6167a434d",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 190,
+        "bookPage": 163,
+        "labelVi": "Đối thoại 2",
+        "referenceCode": "08-3",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l08-t04",
@@ -1561,8 +1915,14 @@
       "privatePath": "textbook/08-04.mp3",
       "bytes": 1232041,
       "sha256": "f432382047d7eb60bedaac9b5643e59840bf9b0053d51e3b70e87bc7157b0362",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 191,
+        "bookPage": 164,
+        "labelVi": "Từ vựng 2",
+        "referenceCode": "08-4",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l08-t05",
@@ -1645,8 +2005,14 @@
       "privatePath": "workbook/08-1.mp3",
       "bytes": 1325246,
       "sha256": "4270ed7161b91bc464b3735b7624b9f87b98eaa1b0a28f977ad41081d218bd38",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 57,
+        "bookPage": 55,
+        "labelVi": "Phân biệt thanh điệu",
+        "referenceCode": "08-1",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l08-t02",
@@ -1659,8 +2025,14 @@
       "privatePath": "workbook/08-2.mp3",
       "bytes": 1640387,
       "sha256": "7396e0c9a965d9a2d11d6412d948e63b7359f21b2b195043cffcd25e0d38bad4",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 57,
+        "bookPage": 55,
+        "labelVi": "Chọn cách phát âm đúng",
+        "referenceCode": "08-2",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l08-t03",
@@ -1673,8 +2045,14 @@
       "privatePath": "workbook/08-3.mp3",
       "bytes": 698725,
       "sha256": "1e517dffeefbed10952dd451eca110d4be1a5c5f9fde8d9096eb483ca0453979",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 58,
+        "bookPage": 56,
+        "labelVi": "Nghe và nhận biết phương tiện",
+        "referenceCode": "08-3",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l08-t04",
@@ -1687,8 +2065,14 @@
       "privatePath": "workbook/08-4.mp3",
       "bytes": 1146360,
       "sha256": "10832d8ff1c3bb297188e073b0bc3410f1d05a114d8967a02097d65fb31305cf",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 58,
+        "bookPage": 56,
+        "labelVi": "Nghe và trả lời về hành trình",
+        "referenceCode": "08-4",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l08-t05",
@@ -1701,8 +2085,14 @@
       "privatePath": "workbook/08-5.mp3",
       "bytes": 2030761,
       "sha256": "de0ae6a788d61c2554da7abd3e903c0347a9276470e33dccc1cac0c32a709df3",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 59,
+        "bookPage": 57,
+        "labelVi": "Nghe hội thoại và xác định đúng sai",
+        "referenceCode": "08-5",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l08-t06",
@@ -1715,8 +2105,14 @@
       "privatePath": "workbook/08-6.mp3",
       "bytes": 1071963,
       "sha256": "c8b3c6ee19ecf12fcf05641499ca41e2a946f1c50125e7958e045f24ff3ce6aa",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 62,
+        "bookPage": 60,
+        "labelVi": "Nghe và viết chữ Hán",
+        "referenceCode": "08-6",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l09-t01",
@@ -1729,8 +2125,14 @@
       "privatePath": "textbook/09-01.mp3",
       "bytes": 1040616,
       "sha256": "c883d7be712d7b135cee51622bbffeff1c3037bf255255ccaf2c900a72c5e2c9",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 209,
+        "bookPage": 182,
+        "labelVi": "Đối thoại 1",
+        "referenceCode": "09-1",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l09-t02",
@@ -1743,8 +2145,14 @@
       "privatePath": "textbook/09-02.mp3",
       "bytes": 1144688,
       "sha256": "3a7ee2f698f5b84936a43004cff40e7818612a0449c859cb5fe09c2eee6ef49f",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 211,
+        "bookPage": 184,
+        "labelVi": "Từ vựng 1",
+        "referenceCode": "09-2",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l09-t03",
@@ -1757,8 +2165,14 @@
       "privatePath": "textbook/09-03.mp3",
       "bytes": 828711,
       "sha256": "1df20d5d2eaf71d199720be66fff5cdfa633423ec5b3b54060d843b8e3a1f7a6",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 212,
+        "bookPage": 185,
+        "labelVi": "Đối thoại 2",
+        "referenceCode": "09-3",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l09-t04",
@@ -1771,8 +2185,14 @@
       "privatePath": "textbook/09-04.mp3",
       "bytes": 1237057,
       "sha256": "3233ae80654ee7637c55feeff04dcb8065b6990fd474279335339c96fe232ea0",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 214,
+        "bookPage": 187,
+        "labelVi": "Từ vựng 2",
+        "referenceCode": "09-4",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l09-t05",
@@ -1855,8 +2275,14 @@
       "privatePath": "workbook/09-1.mp3",
       "bytes": 1319813,
       "sha256": "967c2e5d4304a18067586879bda6180403659e5602dd4619fae1a839d6cd9a24",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 67,
+        "bookPage": 65,
+        "labelVi": "Phân biệt thanh điệu",
+        "referenceCode": "09-1",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l09-t02",
@@ -1869,8 +2295,14 @@
       "privatePath": "workbook/09-2.mp3",
       "bytes": 1698902,
       "sha256": "016aa24272e6e3ddc6edb85f2a81e109402a0ec49676e3b96498ed18b30bc2d4",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 67,
+        "bookPage": 65,
+        "labelVi": "Chọn cách phát âm đúng",
+        "referenceCode": "09-2",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l09-t03",
@@ -1883,8 +2315,14 @@
       "privatePath": "workbook/09-3.mp3",
       "bytes": 716280,
       "sha256": "eceb97c1452dd8271ca451550444d3c2e9bdfd425161eec765bd51e218c05e02",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 68,
+        "bookPage": 66,
+        "labelVi": "Nghe và chọn kế hoạch",
+        "referenceCode": "09-3",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l09-t04",
@@ -1897,8 +2335,14 @@
       "privatePath": "workbook/09-4.mp3",
       "bytes": 1850621,
       "sha256": "9cdb24a8595a124b425a4d62ae602728e56e2eaf6b6343978d117c708e99c173",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 68,
+        "bookPage": 66,
+        "labelVi": "Nghe hội thoại và chọn đáp án",
+        "referenceCode": "09-4",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l09-t05",
@@ -1911,8 +2355,14 @@
       "privatePath": "workbook/09-5.mp3",
       "bytes": 2020730,
       "sha256": "551fe17779bd9374fd29bb192604e98dfbd5ebe0a5a647b1ebe43036f6206fef",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 69,
+        "bookPage": 67,
+        "labelVi": "Nghe hội thoại và xác định đúng sai",
+        "referenceCode": "09-5",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l09-t06",
@@ -1925,8 +2375,14 @@
       "privatePath": "workbook/09-6.mp3",
       "bytes": 1163078,
       "sha256": "87e02bbf2b041850e11b601524a8ef1aff4d417cf5aa9920a3057f8dfe74b1cc",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 72,
+        "bookPage": 70,
+        "labelVi": "Nghe và viết chữ Hán",
+        "referenceCode": "09-6",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l10-t01",
@@ -1939,8 +2395,14 @@
       "privatePath": "textbook/10-01.mp3",
       "bytes": 1028495,
       "sha256": "9d1971e5edcc25a49cbe286853f285f6eded8da41abed01748f2f2146018f2f0",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 229,
+        "bookPage": 202,
+        "labelVi": "Đối thoại 1",
+        "referenceCode": "10-1",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l10-t02",
@@ -1953,8 +2415,14 @@
       "privatePath": "textbook/10-02.mp3",
       "bytes": 1201112,
       "sha256": "e5c74ee638df1248025b4d2ac7f3cb65c2f808fcdc5a91cff33ab8f4521aa473",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 231,
+        "bookPage": 204,
+        "labelVi": "Từ vựng 1",
+        "referenceCode": "10-2",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l10-t03",
@@ -1967,8 +2435,14 @@
       "privatePath": "textbook/10-03.mp3",
       "bytes": 926931,
       "sha256": "b82a35b8b1823b0f46c94f12195d708be3e11dac34abb200e9c42115f44541cc",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 232,
+        "bookPage": 205,
+        "labelVi": "Đối thoại 2",
+        "referenceCode": "10-3",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l10-t04",
@@ -1981,8 +2455,14 @@
       "privatePath": "textbook/10-04.mp3",
       "bytes": 1489922,
       "sha256": "c994c666826d1c1894118bb2a875401f56c5892438b88c09b9c0d83801f55914",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 234,
+        "bookPage": 207,
+        "labelVi": "Từ vựng 2",
+        "referenceCode": "10-4",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l10-t05",
@@ -2065,8 +2545,14 @@
       "privatePath": "workbook/10-1.mp3",
       "bytes": 1328172,
       "sha256": "43ca129fdc08400bc917509476ca3c079092683d7c338ca0642328653f46314a",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 75,
+        "bookPage": 73,
+        "labelVi": "Phân biệt thanh điệu",
+        "referenceCode": "10-1",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l10-t02",
@@ -2079,8 +2565,14 @@
       "privatePath": "workbook/10-2.mp3",
       "bytes": 1662957,
       "sha256": "c4b308d4f5a74373e1261ddf201e17e6139e74356a700aa99d45015de395d318",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 75,
+        "bookPage": 73,
+        "labelVi": "Chọn cách phát âm đúng",
+        "referenceCode": "10-2",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l10-t03",
@@ -2093,8 +2585,14 @@
       "privatePath": "workbook/10-3.mp3",
       "bytes": 1522941,
       "sha256": "e4daee6ffb5489f944ed56eb3c598d647863f8e6eae1bea6c70bb0e71deec56f",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 76,
+        "bookPage": 74,
+        "labelVi": "Nghe và xác định đúng sai",
+        "referenceCode": "10-3",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l10-t04",
@@ -2107,8 +2605,14 @@
       "privatePath": "workbook/10-4.mp3",
       "bytes": 1299751,
       "sha256": "e6cc64ea80da4bbd850a644fe247957854152374ffe42086a5ffbaa57aecf05f",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 76,
+        "bookPage": 74,
+        "labelVi": "Nghe câu hỏi và chọn đáp án",
+        "referenceCode": "10-4",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l10-t05",
@@ -2121,8 +2625,14 @@
       "privatePath": "workbook/10-5.mp3",
       "bytes": 1171019,
       "sha256": "23eda53d33090f4c453747db41fff5d1d8c0734a09cb51dede3901aa6e77c507",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 76,
+        "bookPage": 74,
+        "labelVi": "Nghe hội thoại và xác định đúng sai",
+        "referenceCode": "10-5",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l10-t06",
@@ -2135,8 +2645,14 @@
       "privatePath": "workbook/10-6.mp3",
       "bytes": 1183558,
       "sha256": "145291249c03c6a89fe316b613fe4f6085f8ab6eaa4662dba691af065bea0ad8",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 81,
+        "bookPage": 79,
+        "labelVi": "Nghe và viết chữ Hán",
+        "referenceCode": "10-6",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l11-t01",
@@ -2149,8 +2665,14 @@
       "privatePath": "textbook/11-01.mp3",
       "bytes": 1110415,
       "sha256": "17e2b5b5d7563d07712afd5e61f967eb06dfc7d3a1dc14b153a4c88e4ebdfa15",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 251,
+        "bookPage": 224,
+        "labelVi": "Đối thoại 1",
+        "referenceCode": "11-1",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l11-t02",
@@ -2163,8 +2685,14 @@
       "privatePath": "textbook/11-02.mp3",
       "bytes": 1743205,
       "sha256": "4e230219fb65c1a7f4ebde19f9462aabca1c91fb35fbefb61b915700555a3810",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 253,
+        "bookPage": 226,
+        "labelVi": "Từ vựng 1",
+        "referenceCode": "11-2",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l11-t03",
@@ -2177,8 +2705,14 @@
       "privatePath": "textbook/11-03.mp3",
       "bytes": 954098,
       "sha256": "c85a484a3d53f521cb570e4a9683664bcce59652434a1b7eb11cbed232facf85",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 254,
+        "bookPage": 227,
+        "labelVi": "Đối thoại 2",
+        "referenceCode": "11-3",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l11-t04",
@@ -2191,8 +2725,14 @@
       "privatePath": "textbook/11-04.mp3",
       "bytes": 1323574,
       "sha256": "873962ea7ea0a16b68e3adaf1a08bec193c566d2d5fc149666cb4d3c6d1e3984",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 256,
+        "bookPage": 229,
+        "labelVi": "Từ vựng 2",
+        "referenceCode": "11-4",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l11-t05",
@@ -2275,8 +2815,14 @@
       "privatePath": "workbook/11-1.mp3",
       "bytes": 1316887,
       "sha256": "48e980d26ae609c2ff518485890b7d28c3f7bcdb9ac53fbea1a517709501f9fe",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 85,
+        "bookPage": 83,
+        "labelVi": "Phân biệt thanh điệu",
+        "referenceCode": "11-1",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l11-t02",
@@ -2289,8 +2835,14 @@
       "privatePath": "workbook/11-2.mp3",
       "bytes": 1698902,
       "sha256": "40b9c4cc10acfa8bc8ed0fe8e0f2eee99c796c8558833d0acc800cc8d69465c2",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 85,
+        "bookPage": 83,
+        "labelVi": "Chọn cách phát âm đúng",
+        "referenceCode": "11-2",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l11-t03",
@@ -2303,8 +2855,14 @@
       "privatePath": "workbook/11-3.mp3",
       "bytes": 1981442,
       "sha256": "e17b073d91225139d836c95776ba505dcf8ed586c7d6f0e0e7109b4a643594e4",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 86,
+        "bookPage": 84,
+        "labelVi": "Nghe câu hỏi và chọn câu trả lời",
+        "referenceCode": "11-3",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l11-t04",
@@ -2317,8 +2875,14 @@
       "privatePath": "workbook/11-4.mp3",
       "bytes": 1754072,
       "sha256": "e67cc36d143e18d23fcbabe7789c9fd30f2c978fbf0da5e3757a4ec2f6f0bbab",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 86,
+        "bookPage": 84,
+        "labelVi": "Nghe hội thoại và chọn đáp án",
+        "referenceCode": "11-4",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l11-t05",
@@ -2331,8 +2895,14 @@
       "privatePath": "workbook/11-5.mp3",
       "bytes": 1052737,
       "sha256": "3c4d7da48b458aefe4909306b5728543f42514f53e74b476e02b33f70b77478b",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 86,
+        "bookPage": 84,
+        "labelVi": "Nghe hội thoại và xác định đúng sai",
+        "referenceCode": "11-5",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l12-t01",
@@ -2345,8 +2915,14 @@
       "privatePath": "textbook/12-01.mp3",
       "bytes": 1118356,
       "sha256": "b029340eee764684df1910f8f65fb58718553a9abe8b83905c2208bf272048ea",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 273,
+        "bookPage": 246,
+        "labelVi": "Đối thoại 1",
+        "referenceCode": "12-1",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l12-t02",
@@ -2359,8 +2935,14 @@
       "privatePath": "textbook/12-02.mp3",
       "bytes": 1736936,
       "sha256": "d8831711b83b7bbf72dc5f34ffb92d5e7151566d291b6ee696791da6defb046d",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 275,
+        "bookPage": 248,
+        "labelVi": "Từ vựng 1",
+        "referenceCode": "12-2",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l12-t03",
@@ -2373,8 +2955,14 @@
       "privatePath": "textbook/12-03.mp3",
       "bytes": 938216,
       "sha256": "377fb4cb0ba99584194168e3d93a9cead6e016ec94a1a3640da198ee6d8255da",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 276,
+        "bookPage": 249,
+        "labelVi": "Đối thoại 2",
+        "referenceCode": "12-3",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l12-t04",
@@ -2387,8 +2975,14 @@
       "privatePath": "textbook/12-04.mp3",
       "bytes": 1188992,
       "sha256": "cf7a320dd0ac36e6afca0259fb3edd07b1797f7a8f8666cd6b2b92bf0bbe7235",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 278,
+        "bookPage": 251,
+        "labelVi": "Từ vựng 2",
+        "referenceCode": "12-4",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l12-t05",
@@ -2457,8 +3051,14 @@
       "privatePath": "workbook/12-1.mp3",
       "bytes": 1336531,
       "sha256": "32a9787a86be98d8ade8fa06cf12784c193ce1278cad8d0f670993e0423fa926",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 95,
+        "bookPage": 93,
+        "labelVi": "Phân biệt thanh điệu",
+        "referenceCode": "12-1",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l12-t02",
@@ -2471,8 +3071,14 @@
       "privatePath": "workbook/12-2.mp3",
       "bytes": 1702663,
       "sha256": "bc5170c75346f145b2990de02e054125e0dd87c3641189e55425bafb789ac7f4",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 95,
+        "bookPage": 93,
+        "labelVi": "Chọn cách phát âm đúng",
+        "referenceCode": "12-2",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l12-t03",
@@ -2485,8 +3091,14 @@
       "privatePath": "workbook/12-3.mp3",
       "bytes": 708338,
       "sha256": "8e77a843556e397ef09466f1c067727782e191bedaabb0d04c2f8a1639d97b18",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 96,
+        "bookPage": 94,
+        "labelVi": "Nghe và sắp xếp kế hoạch",
+        "referenceCode": "12-3",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l12-t04",
@@ -2499,8 +3111,14 @@
       "privatePath": "workbook/12-4.mp3",
       "bytes": 1108325,
       "sha256": "6bd12b7e34605b4becb58a99d0ca147d8997ad5c566d8cf986fdec43e21bf344",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 96,
+        "bookPage": 94,
+        "labelVi": "Nghe hội thoại và xác định đúng sai",
+        "referenceCode": "12-4",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l12-t05",
@@ -2513,8 +3131,14 @@
       "privatePath": "workbook/12-5.mp3",
       "bytes": 2944420,
       "sha256": "3d1674e5b78aa8b3aa2166739d573d0805954c48b9c861f15b98db589c262cad",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 97,
+        "bookPage": 95,
+        "labelVi": "Nghe hội thoại và chọn đáp án",
+        "referenceCode": "12-5",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l13-t01",
@@ -2527,8 +3151,14 @@
       "privatePath": "textbook/13-01.mp3",
       "bytes": 1222846,
       "sha256": "1187bdd2d3e0388cc20aebe4926035f08c0a0bf1c0669d161fff94aab4a845f1",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 297,
+        "bookPage": 270,
+        "labelVi": "Đối thoại 1",
+        "referenceCode": "13-1",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l13-t02",
@@ -2541,8 +3171,14 @@
       "privatePath": "textbook/13-02.mp3",
       "bytes": 1837664,
       "sha256": "860683869896ba6f1364af8da73547da98b3b139bbc564ec2020212ffd430844",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 299,
+        "bookPage": 272,
+        "labelVi": "Từ vựng 1",
+        "referenceCode": "13-2",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l13-t03",
@@ -2555,8 +3191,14 @@
       "privatePath": "textbook/13-03.mp3",
       "bytes": 1148449,
       "sha256": "e03cb9fbcd9d31d8f18145e2b8a2ca97ff511196daef848b4efb8535c030a091",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 301,
+        "bookPage": 274,
+        "labelVi": "Đối thoại 2",
+        "referenceCode": "13-3",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l13-t04",
@@ -2569,8 +3211,14 @@
       "privatePath": "textbook/13-04.mp3",
       "bytes": 1370804,
       "sha256": "b0fc7f93edda3b86084c3c9518788cabb5b4fca86af971a1770526c64d7144dd",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 303,
+        "bookPage": 276,
+        "labelVi": "Từ vựng 2",
+        "referenceCode": "13-4",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l13-t05",
@@ -2695,8 +3343,14 @@
       "privatePath": "workbook/13-1.mp3",
       "bytes": 1329008,
       "sha256": "ee08e5a1de2441aac8ca75b63b8e67e2ac6559fd79e4e7f85072d7c7e94169ca",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 103,
+        "bookPage": 101,
+        "labelVi": "Phân biệt thanh điệu",
+        "referenceCode": "13-1",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l13-t02",
@@ -2709,8 +3363,14 @@
       "privatePath": "workbook/13-2.mp3",
       "bytes": 1733174,
       "sha256": "5806af2758da0f9cc02dc0665a15bef3d4af05e509f2901d10dcbfb0879fa841",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 103,
+        "bookPage": 101,
+        "labelVi": "Chọn cách phát âm đúng",
+        "referenceCode": "13-2",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l13-t03",
@@ -2723,8 +3383,14 @@
       "privatePath": "workbook/13-3.mp3",
       "bytes": 1746967,
       "sha256": "3485c60219878de3c13e368c6c420daf105cc7a94b2177de6d7987760ca56582",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 104,
+        "bookPage": 102,
+        "labelVi": "Nghe điện thoại và xác định đúng sai",
+        "referenceCode": "13-3",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l13-t04",
@@ -2737,8 +3403,14 @@
       "privatePath": "workbook/13-4.mp3",
       "bytes": 693292,
       "sha256": "850186c82a332d1b008432b619e6bd876eae06b206f8631d16af90ffc51dd17a",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 104,
+        "bookPage": 102,
+        "labelVi": "Nghe và sắp xếp hình",
+        "referenceCode": "13-4",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l13-t05",
@@ -2751,8 +3423,14 @@
       "privatePath": "workbook/13-5.mp3",
       "bytes": 2620502,
       "sha256": "7d6e7aab2bd8cdb0ae4cffe8c06ec8048f577ce706fa11a930ed7aa66953140c",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 105,
+        "bookPage": 103,
+        "labelVi": "Nghe hội thoại và chọn đáp án",
+        "referenceCode": "13-5",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l14-t01",
@@ -2765,8 +3443,14 @@
       "privatePath": "textbook/14-01.mp3",
       "bytes": 1494938,
       "sha256": "0b4d63e860eea33c58d1bfc32087713c58e1c0bd6118785d5f9e93fa0403def1",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 327,
+        "bookPage": 300,
+        "labelVi": "Đối thoại 1",
+        "referenceCode": "14-1",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l14-t02",
@@ -2779,8 +3463,14 @@
       "privatePath": "textbook/14-02.mp3",
       "bytes": 1473622,
       "sha256": "12b4b89acded5f6528a99a24af09bc82b44e3d010833bd77503a26e012e7a0d5",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 329,
+        "bookPage": 302,
+        "labelVi": "Từ vựng 1",
+        "referenceCode": "14-2",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l14-t03",
@@ -2793,8 +3483,14 @@
       "privatePath": "textbook/14-03.mp3",
       "bytes": 941142,
       "sha256": "365a291e8b2c2ebe77de6999285990f2e58f0d32183dfd5200c9388276e821d0",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 330,
+        "bookPage": 303,
+        "labelVi": "Đối thoại 2",
+        "referenceCode": "14-3",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l14-t04",
@@ -2807,8 +3503,14 @@
       "privatePath": "textbook/14-04.mp3",
       "bytes": 1373729,
       "sha256": "12b9e58980d61826f378b95733701bdf9c37ae134d55137bda1d2644a741f8be",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 332,
+        "bookPage": 305,
+        "labelVi": "Từ vựng 2",
+        "referenceCode": "14-4",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l14-t05",
@@ -2891,8 +3593,14 @@
       "privatePath": "workbook/14-1.mp3",
       "bytes": 1312289,
       "sha256": "678f34183d81770a3e58d6cd9e0c69ab105d8969bc2328c1b9518630255b96bd",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 113,
+        "bookPage": 111,
+        "labelVi": "Phân biệt thanh điệu",
+        "referenceCode": "14-1",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l14-t02",
@@ -2905,8 +3613,14 @@
       "privatePath": "workbook/14-2.mp3",
       "bytes": 1732756,
       "sha256": "912643e3527020cf95131e5990f179d66070c06260231ae6e91ef187731077b2",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 113,
+        "bookPage": 111,
+        "labelVi": "Chọn cách phát âm đúng",
+        "referenceCode": "14-2",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l14-t03",
@@ -2919,8 +3633,14 @@
       "privatePath": "workbook/14-3.mp3",
       "bytes": 1807989,
       "sha256": "c8b5d20bb2235d52d5a40f726f24af4a003681d61778e9156c2b2195428241cb",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 114,
+        "bookPage": 112,
+        "labelVi": "Nghe câu và chọn đáp án",
+        "referenceCode": "14-3",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l14-t04",
@@ -2933,8 +3653,14 @@
       "privatePath": "workbook/14-4.mp3",
       "bytes": 992551,
       "sha256": "6162e3231817e7d8e1e695b61abb68ca24661ba3c8bc97614ddbf78020f0ed30",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 114,
+        "bookPage": 112,
+        "labelVi": "Nghe và điền thông tin theo mùa",
+        "referenceCode": "14-4",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l14-t05",
@@ -2947,8 +3673,14 @@
       "privatePath": "workbook/14-5.mp3",
       "bytes": 1352414,
       "sha256": "e7f496f4171008bdaae1e27ca36ee7c9be80bdf574c19065401cdb524a2cd178",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 114,
+        "bookPage": 112,
+        "labelVi": "Nghe đoạn văn và xác định đúng sai",
+        "referenceCode": "14-5",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l15-t01",
@@ -2961,8 +3693,14 @@
       "privatePath": "textbook/15-01.mp3",
       "bytes": 1156391,
       "sha256": "64d418495441323a9f0e3a8f33ccb939d245805c0dac2551acc9854d9b815d33",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 351,
+        "bookPage": 324,
+        "labelVi": "Đối thoại 1",
+        "referenceCode": "15-1",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l15-t02",
@@ -2975,8 +3713,14 @@
       "privatePath": "textbook/15-02.mp3",
       "bytes": 1634536,
       "sha256": "e95af5327b2ca29691f68e413cb46ed08ed76f7f7c0ab29aa04a9b9edd104266",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 353,
+        "bookPage": 326,
+        "labelVi": "Từ vựng 1",
+        "referenceCode": "15-2",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l15-t03",
@@ -2989,8 +3733,14 @@
       "privatePath": "textbook/15-03.mp3",
       "bytes": 1349070,
       "sha256": "48722f2882befe982a73b70b46a0b195a1cf3ffa82bc6720d5277a158d6bfb07",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 354,
+        "bookPage": 327,
+        "labelVi": "Đối thoại 2",
+        "referenceCode": "15-3",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l15-t04",
@@ -3003,8 +3753,14 @@
       "privatePath": "textbook/15-04.mp3",
       "bytes": 1778314,
       "sha256": "4f273db55549f4b73fd5f9a0364fbb108ad72661d8a7c7e869ff000c2e1cffe3",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 357,
+        "bookPage": 330,
+        "labelVi": "Từ vựng 2",
+        "referenceCode": "15-4",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-textbook-l15-t05",
@@ -3115,8 +3871,14 @@
       "privatePath": "workbook/15-1.mp3",
       "bytes": 1317305,
       "sha256": "cab9eee86fad702c1daab8fc174b287636469ba02981ed1d6c19df7f82f610de",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 121,
+        "bookPage": 119,
+        "labelVi": "Phân biệt thanh điệu",
+        "referenceCode": "15-1",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l15-t02",
@@ -3129,8 +3891,14 @@
       "privatePath": "workbook/15-2.mp3",
       "bytes": 1741534,
       "sha256": "a33a1f8459001ccfee8895daa8c9e4db04f159d9922993d49854bcf255944c87",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 121,
+        "bookPage": 119,
+        "labelVi": "Chọn cách phát âm đúng",
+        "referenceCode": "15-2",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l15-t03",
@@ -3143,8 +3911,14 @@
       "privatePath": "workbook/15-3.mp3",
       "bytes": 1359937,
       "sha256": "c187f7d50b31fb9d2857e8cc865ae2d29e1b711db3960a117e98f9a43ee17d98",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 122,
+        "bookPage": 120,
+        "labelVi": "Nghe đoạn văn và xác định đúng sai",
+        "referenceCode": "15-3",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l15-t04",
@@ -3157,8 +3931,14 @@
       "privatePath": "workbook/15-4.mp3",
       "bytes": 2312884,
       "sha256": "f11c744df40413f02dc1016613d6b3f325beeb7581f8c1630074c42f1956268e",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 122,
+        "bookPage": 120,
+        "labelVi": "Nghe câu chuyện và trả lời",
+        "referenceCode": "15-4",
+        "itemCount": null
+      }
     },
     {
       "id": "cc1-workbook-l15-t05",
@@ -3171,8 +3951,14 @@
       "privatePath": "workbook/15-5.mp3",
       "bytes": 717534,
       "sha256": "d831c71781b81da5ac19cd28c44b6ebdc5dee209d45bec290fc673acc644a03e",
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 122,
+        "bookPage": 120,
+        "labelVi": "Nghe và sắp xếp nhân vật",
+        "referenceCode": "15-5",
+        "itemCount": null
+      }
     }
   ]
 }

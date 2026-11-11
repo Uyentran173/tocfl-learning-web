@@ -40,6 +40,56 @@ LESSON_01_REFERENCES = {
     },
 }
 
+# The four core textbook recordings in each later lesson have printed reference
+# codes beside Dialogue I, Vocabulary I, Dialogue II and Vocabulary II. These
+# page positions were checked against the exact textbook PDF hash above. Other
+# textbook tracks are deliberately left pending until their activities are
+# identified; the filename alone is never sufficient evidence.
+TEXTBOOK_CORE_PAGES = {
+    2: (51, 52, 53, 55), 3: (71, 73, 74, 75),
+    4: (93, 94, 95, 96), 5: (113, 114, 116, 117),
+    6: (131, 132, 134, 135), 7: (159, 161, 162, 164),
+    8: (187, 189, 190, 191), 9: (209, 211, 212, 214),
+    10: (229, 231, 232, 234), 11: (251, 253, 254, 256),
+    12: (273, 275, 276, 278), 13: (297, 299, 301, 303),
+    14: (327, 329, 330, 332), 15: (351, 353, 354, 357),
+}
+CORE_LABELS = ("Đối thoại 1", "Từ vựng 1", "Đối thoại 2", "Từ vựng 2")
+
+# Workbook reference codes and activity headings were checked against the
+# workbook PDF, including five codes whose glyphs are damaged in its text layer
+# (06-2, 07-1, 08-6, 09-5 and 10-2). No answer key is inferred from a track.
+WORKBOOK_REFERENCES = {
+    2: ((11, "Phân biệt thanh điệu"), (11, "Nghe về gia đình"), (12, "Nghe và chọn thông tin"), (12, "Nghe hội thoại và xác định đúng sai"), (15, "Nghe và viết chữ Hán")),
+    3: ((19, "Phân biệt thanh điệu"), (19, "Nghe và nhận biết hoạt động"), (20, "Nghe và sắp xếp hình"), (20, "Nghe câu hỏi và chọn câu trả lời"), (23, "Nghe và viết chữ Hán")),
+    4: ((27, "Phân biệt thanh điệu"), (27, "Nghe gợi ý và trả lời"), (28, "Nghe và điền số lượng"), (28, "Nghe hội thoại và xác định đúng sai"), (30, "Nghe và viết chữ Hán")),
+    5: ((33, "Phân biệt thanh điệu"), (33, "Nghe gợi ý và trả lời"), (34, "Nghe và sắp xếp thông tin"), (34, "Nghe đoạn văn và xác định đúng sai"), (38, "Nghe và viết chữ Hán")),
+    6: ((41, "Phân biệt thanh điệu"), (41, "Chọn cách phát âm đúng"), (42, "Nghe và chọn hình"), (42, "Nghe và sắp xếp hình"), (43, "Nghe hội thoại và xác định đúng sai"), (46, "Nghe và viết chữ Hán")),
+    7: ((49, "Phân biệt thanh điệu"), (49, "Chọn cách phát âm đúng"), (50, "Nghe và ghi thời gian"), (50, "Nghe và ghép hoạt động"), (50, "Nghe hội thoại và xác định đúng sai"), (54, "Nghe và viết chữ Hán")),
+    8: ((57, "Phân biệt thanh điệu"), (57, "Chọn cách phát âm đúng"), (58, "Nghe và nhận biết phương tiện"), (58, "Nghe và trả lời về hành trình"), (59, "Nghe hội thoại và xác định đúng sai"), (62, "Nghe và viết chữ Hán")),
+    9: ((67, "Phân biệt thanh điệu"), (67, "Chọn cách phát âm đúng"), (68, "Nghe và chọn kế hoạch"), (68, "Nghe hội thoại và chọn đáp án"), (69, "Nghe hội thoại và xác định đúng sai"), (72, "Nghe và viết chữ Hán")),
+    10: ((75, "Phân biệt thanh điệu"), (75, "Chọn cách phát âm đúng"), (76, "Nghe và xác định đúng sai"), (76, "Nghe câu hỏi và chọn đáp án"), (76, "Nghe hội thoại và xác định đúng sai"), (81, "Nghe và viết chữ Hán")),
+    11: ((85, "Phân biệt thanh điệu"), (85, "Chọn cách phát âm đúng"), (86, "Nghe câu hỏi và chọn câu trả lời"), (86, "Nghe hội thoại và chọn đáp án"), (86, "Nghe hội thoại và xác định đúng sai")),
+    12: ((95, "Phân biệt thanh điệu"), (95, "Chọn cách phát âm đúng"), (96, "Nghe và sắp xếp kế hoạch"), (96, "Nghe hội thoại và xác định đúng sai"), (97, "Nghe hội thoại và chọn đáp án")),
+    13: ((103, "Phân biệt thanh điệu"), (103, "Chọn cách phát âm đúng"), (104, "Nghe điện thoại và xác định đúng sai"), (104, "Nghe và sắp xếp hình"), (105, "Nghe hội thoại và chọn đáp án")),
+    14: ((113, "Phân biệt thanh điệu"), (113, "Chọn cách phát âm đúng"), (114, "Nghe câu và chọn đáp án"), (114, "Nghe và điền thông tin theo mùa"), (114, "Nghe đoạn văn và xác định đúng sai")),
+    15: ((121, "Phân biệt thanh điệu"), (121, "Chọn cách phát âm đúng"), (122, "Nghe đoạn văn và xác định đúng sai"), (122, "Nghe câu chuyện và trả lời"), (122, "Nghe và sắp xếp nhân vật")),
+}
+
+
+def verified_reference(source: str, lesson: int | None, number: int | None):
+    if lesson is None or number is None:
+        return None
+    if lesson == 1:
+        return LESSON_01_REFERENCES[source].get(number)
+    if source == "textbook" and lesson in TEXTBOOK_CORE_PAGES and 1 <= number <= 4:
+        page = TEXTBOOK_CORE_PAGES[lesson][number - 1]
+        return (page, CORE_LABELS[number - 1], f"{lesson:02d}-{number}", page - 27, None)
+    if source == "workbook" and lesson in WORKBOOK_REFERENCES and 1 <= number <= len(WORKBOOK_REFERENCES[lesson]):
+        page, label = WORKBOOK_REFERENCES[lesson][number - 1]
+        return (page, label, f"{lesson:02d}-{number}", page - 2, None)
+    return None
+
 
 def sha256(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
@@ -88,7 +138,7 @@ def inspect_archive(source: str, path: Path) -> list[tuple[dict, bytes]]:
             payload = archive.read(entry)
             if len(payload) < 128 or not (payload.startswith(b"ID3") or payload[0] == 0xff):
                 raise ValueError(f"Empty or invalid MP3: {source}/{original}")
-            reference = LESSON_01_REFERENCES[source].get(number) if lesson == 1 else None
+            reference = verified_reference(source, lesson, number)
             track = {
                 "id": track_id,
                 "courseId": "cc1",
@@ -130,7 +180,8 @@ def import_audio(args: argparse.Namespace) -> dict:
         "courseId": "cc1", "volume": 1,
         "expected": EXPECTED_COUNTS,
         "found": {source: len(entries) for source, entries in archives.items()},
-        "verifiedLesson01": {source: sum(track["mappingStatus"] == "verified" for track, _ in entries) for source, entries in archives.items()},
+        "verifiedLesson01": {source: sum(track["lesson"] == 1 and track["mappingStatus"] == "verified" for track, _ in entries) for source, entries in archives.items()},
+        "verifiedBySource": {source: sum(track["mappingStatus"] == "verified" for track, _ in entries) for source, entries in archives.items()},
         "pendingIds": [track["id"] for track in all_tracks if track["mappingStatus"] == "pending"],
         "lessonCounts": [{"lesson": lesson, **{source: counts[source][lesson] for source in EXPECTED_COUNTS}} for lesson in range(1, 16)],
         "warnings": ["Tracks without a verified PDF activity stay in private staging and are not shown as lesson activities.", "Both 00.mp3 files are kept separate until their purpose is verified."],

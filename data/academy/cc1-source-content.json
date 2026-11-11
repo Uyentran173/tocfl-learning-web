@@ -1,0 +1,6313 @@
+{
+  "schemaVersion": 1,
+  "source": "A Course in Contemporary Chinese, Volume 1 textbook PDF",
+  "sourcePdfSha256": "db6224d6fc53ce57c210e2bf66a0c07d922873573cf8bb3f08e3bfe0d6449abb",
+  "publication": "source-only",
+  "lessons": [
+    {
+      "id": "cc1-v1-l02",
+      "number": 2,
+      "traditionalTitle": "我的家人",
+      "sourcePdfStartPage": 50,
+      "dialogues": [
+        {
+          "id": "cc1-v1-l02-dialogue-1",
+          "turns": [
+            {
+              "speaker": "怡君",
+              "traditional": "這是我家。請進！"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "很漂亮的房子！"
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "請坐！要不要喝茶？"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "好，謝謝你。你家有很多照片。"
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "我家人都很喜歡照相。"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "這張照片很好看。這是誰？你姐姐嗎？"
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "不是，是我妹妹。這是我爸爸、媽媽。"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "你家人都很好看。"
+            }
+          ]
+        },
+        {
+          "id": "cc1-v1-l02-dialogue-2",
+          "turns": [
+            {
+              "speaker": "明華",
+              "traditional": "田中，歡迎！歡迎！請進。"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "謝謝。"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "田中，這是我媽媽。"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "伯母，您好。"
+            },
+            {
+              "speaker": "明華的媽媽",
+              "traditional": "你好，你好。來！來！來！請坐。你叫什麼名字？"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "我叫誠一。你們家有很多書。"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "都是我哥哥的書。他是老師，他很喜歡看書。"
+            },
+            {
+              "speaker": "明華的媽媽",
+              "traditional": "誠一，你家有幾個人？你有沒有兄弟姐妹？"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "我家有五個人，我有兩個妹妹。"
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "cc1-v1-l02-v1-01",
+          "list": "vocabularyI",
+          "number": 1,
+          "traditional": "張怡君",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l02-v1-02",
+          "list": "vocabularyI",
+          "number": 2,
+          "traditional": "馬安同",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l02-v1-03",
+          "list": "vocabularyI",
+          "number": 3,
+          "traditional": "的",
+          "pinyinSource": "de",
+          "englishSourceGloss": null,
+          "pdfPage": 52
+        },
+        {
+          "id": "cc1-v1-l02-v1-04",
+          "list": "vocabularyI",
+          "number": 4,
+          "traditional": "家人",
+          "pinyinSource": "jiaren",
+          "englishSourceGloss": "family （members）",
+          "pdfPage": 52
+        },
+        {
+          "id": "cc1-v1-l02-v1-05",
+          "list": "vocabularyI",
+          "number": 5,
+          "traditional": "家",
+          "pinyinSource": "ja",
+          "englishSourceGloss": "home, house",
+          "pdfPage": 52
+        },
+        {
+          "id": "cc1-v1-l02-v1-06",
+          "list": "vocabularyI",
+          "number": 6,
+          "traditional": "漂亮",
+          "pinyinSource": "piaoliang",
+          "englishSourceGloss": null,
+          "pdfPage": 52
+        },
+        {
+          "id": "cc1-v1-l02-v1-07",
+          "list": "vocabularyI",
+          "number": 7,
+          "traditional": "房子",
+          "pinyinSource": "fangzi",
+          "englishSourceGloss": "house",
+          "pdfPage": 53
+        },
+        {
+          "id": "cc1-v1-l02-v1-08",
+          "list": "vocabularyI",
+          "number": 8,
+          "traditional": "坐",
+          "pinyinSource": "ZuO",
+          "englishSourceGloss": "to sit",
+          "pdfPage": 53
+        },
+        {
+          "id": "cc1-v1-l02-v1-09",
+          "list": "vocabularyI",
+          "number": 9,
+          "traditional": "好",
+          "pinyinSource": "hao",
+          "englishSourceGloss": "OK",
+          "pdfPage": 53
+        },
+        {
+          "id": "cc1-v1-l02-v1-10",
+          "list": "vocabularyI",
+          "number": 10,
+          "traditional": "有",
+          "pinyinSource": "you",
+          "englishSourceGloss": "to have",
+          "pdfPage": 53
+        },
+        {
+          "id": "cc1-v1-l02-v1-11",
+          "list": "vocabularyI",
+          "number": 11,
+          "traditional": "多",
+          "pinyinSource": "duo",
+          "englishSourceGloss": "many",
+          "pdfPage": 53
+        },
+        {
+          "id": "cc1-v1-l02-v1-12",
+          "list": "vocabularyI",
+          "number": 12,
+          "traditional": "照片",
+          "pinyinSource": "zhaopian",
+          "englishSourceGloss": "photo",
+          "pdfPage": 53
+        },
+        {
+          "id": "cc1-v1-l02-v1-13",
+          "list": "vocabularyI",
+          "number": 13,
+          "traditional": "都",
+          "pinyinSource": "dou",
+          "englishSourceGloss": "all,both",
+          "pdfPage": 53
+        },
+        {
+          "id": "cc1-v1-l02-v1-14",
+          "list": "vocabularyI",
+          "number": 14,
+          "traditional": "照相",
+          "pinyinSource": "zhaoxiang",
+          "englishSourceGloss": "to take a photo",
+          "pdfPage": 53
+        },
+        {
+          "id": "cc1-v1-l02-v1-15",
+          "list": "vocabularyI",
+          "number": 15,
+          "traditional": "張",
+          "pinyinSource": "zhang",
+          "englishSourceGloss": "measure word for flat objects",
+          "pdfPage": 53
+        },
+        {
+          "id": "cc1-v1-l02-v1-16",
+          "list": "vocabularyI",
+          "number": 16,
+          "traditional": "好看",
+          "pinyinSource": "haokan",
+          "englishSourceGloss": "good-looking",
+          "pdfPage": 53
+        },
+        {
+          "id": "cc1-v1-l02-v1-17",
+          "list": "vocabularyI",
+          "number": 17,
+          "traditional": "誰",
+          "pinyinSource": "shei",
+          "englishSourceGloss": "who",
+          "pdfPage": 53
+        },
+        {
+          "id": "cc1-v1-l02-v1-18",
+          "list": "vocabularyI",
+          "number": 18,
+          "traditional": "姐姐",
+          "pinyinSource": "jiejie",
+          "englishSourceGloss": "older sister",
+          "pdfPage": 53
+        },
+        {
+          "id": "cc1-v1-l02-v1-19",
+          "list": "vocabularyI",
+          "number": 19,
+          "traditional": "妹妹",
+          "pinyinSource": "meimei",
+          "englishSourceGloss": "younger sister",
+          "pdfPage": 53
+        },
+        {
+          "id": "cc1-v1-l02-v1-20",
+          "list": "vocabularyI",
+          "number": 20,
+          "traditional": "爸爸",
+          "pinyinSource": "baba",
+          "englishSourceGloss": "dad",
+          "pdfPage": 53
+        },
+        {
+          "id": "cc1-v1-l02-v1-21",
+          "list": "vocabularyI",
+          "number": 21,
+          "traditional": "媽媽",
+          "pinyinSource": "mama",
+          "englishSourceGloss": "mom",
+          "pdfPage": 53
+        },
+        {
+          "id": "cc1-v1-l02-v1-22",
+          "list": "vocabularyI",
+          "number": 22,
+          "traditional": "請進",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l02-v2-01",
+          "list": "vocabularyII",
+          "number": 1,
+          "traditional": "田中誠一",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l02-v2-02",
+          "list": "vocabularyII",
+          "number": 2,
+          "traditional": "伯母",
+          "pinyinSource": "bomi",
+          "englishSourceGloss": "a friend's mother regardless",
+          "pdfPage": 55
+        },
+        {
+          "id": "cc1-v1-l02-v2-03",
+          "list": "vocabularyII",
+          "number": 3,
+          "traditional": "您",
+          "pinyinSource": "nin",
+          "englishSourceGloss": "you （honorifc）",
+          "pdfPage": 55
+        },
+        {
+          "id": "cc1-v1-l02-v2-04",
+          "list": "vocabularyII",
+          "number": 4,
+          "traditional": "名字",
+          "pinyinSource": "mingzi",
+          "englishSourceGloss": "name",
+          "pdfPage": 55
+        },
+        {
+          "id": "cc1-v1-l02-v2-05",
+          "list": "vocabularyII",
+          "number": 5,
+          "traditional": "書",
+          "pinyinSource": "sha",
+          "englishSourceGloss": "book",
+          "pdfPage": 55
+        },
+        {
+          "id": "cc1-v1-l02-v2-06",
+          "list": "vocabularyII",
+          "number": 6,
+          "traditional": "哥哥",
+          "pinyinSource": "gige",
+          "englishSourceGloss": "older brother",
+          "pdfPage": 55
+        },
+        {
+          "id": "cc1-v1-l02-v2-07",
+          "list": "vocabularyII",
+          "number": 7,
+          "traditional": "老師",
+          "pinyinSource": "laoshi",
+          "englishSourceGloss": "teacher",
+          "pdfPage": 55
+        },
+        {
+          "id": "cc1-v1-l02-v2-08",
+          "list": "vocabularyII",
+          "number": 8,
+          "traditional": "看書",
+          "pinyinSource": "kanshi",
+          "englishSourceGloss": "to read",
+          "pdfPage": 55
+        },
+        {
+          "id": "cc1-v1-l02-v2-09",
+          "list": "vocabularyII",
+          "number": 9,
+          "traditional": "幾",
+          "pinyinSource": null,
+          "englishSourceGloss": "how many",
+          "pdfPage": 55
+        },
+        {
+          "id": "cc1-v1-l02-v2-10",
+          "list": "vocabularyII",
+          "number": 10,
+          "traditional": "個",
+          "pinyinSource": "gqe",
+          "englishSourceGloss": "general measure word",
+          "pdfPage": 55
+        },
+        {
+          "id": "cc1-v1-l02-v2-11",
+          "list": "vocabularyII",
+          "number": 11,
+          "traditional": "沒",
+          "pinyinSource": "mei",
+          "englishSourceGloss": "not",
+          "pdfPage": 55
+        },
+        {
+          "id": "cc1-v1-l02-v2-12",
+          "list": "vocabularyII",
+          "number": 12,
+          "traditional": "兄弟",
+          "pinyinSource": "xiongdi",
+          "englishSourceGloss": "brothers",
+          "pdfPage": 55
+        },
+        {
+          "id": "cc1-v1-l02-v2-13",
+          "list": "vocabularyII",
+          "number": 13,
+          "traditional": "姐妹",
+          "pinyinSource": "jiemei",
+          "englishSourceGloss": "sisters",
+          "pdfPage": 55
+        },
+        {
+          "id": "cc1-v1-l02-v2-14",
+          "list": "vocabularyII",
+          "number": 14,
+          "traditional": "五",
+          "pinyinSource": "wi",
+          "englishSourceGloss": "five",
+          "pdfPage": 55
+        },
+        {
+          "id": "cc1-v1-l02-v2-15",
+          "list": "vocabularyII",
+          "number": 15,
+          "traditional": "兩",
+          "pinyinSource": "liang",
+          "englishSourceGloss": "twO",
+          "pdfPage": 55
+        }
+      ],
+      "verifiedAudioTrackIds": [
+        "cc1-textbook-l02-t01",
+        "cc1-textbook-l02-t02",
+        "cc1-textbook-l02-t03",
+        "cc1-textbook-l02-t04",
+        "cc1-workbook-l02-t01",
+        "cc1-workbook-l02-t02",
+        "cc1-workbook-l02-t03",
+        "cc1-workbook-l02-t04",
+        "cc1-workbook-l02-t05"
+      ],
+      "titleVi": "Gia đình tôi"
+    },
+    {
+      "id": "cc1-v1-l03",
+      "number": 3,
+      "traditionalTitle": "週末做什麼？",
+      "sourcePdfStartPage": 70,
+      "dialogues": [
+        {
+          "id": "cc1-v1-l03-dialogue-1",
+          "turns": [
+            {
+              "speaker": "安同",
+              "traditional": "田中，你喜歡聽音樂嗎？"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "我不喜歡聽音樂。我喜歡運動。"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "你喜歡打網球嗎？"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "我不喜歡打網球。"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "你喜歡做什麼？"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "打棒球和游泳，你呢？"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "我常打籃球，也常踢足球。"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "我覺得踢足球很好玩。"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "明天是週末，我們早上去踢足球，怎麼樣？"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "好啊！"
+            }
+          ]
+        },
+        {
+          "id": "cc1-v1-l03-dialogue-2",
+          "turns": [
+            {
+              "speaker": "如玉",
+              "traditional": "今天晚上我們去看電影，好不好？"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "好啊！"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "妳想看美國電影還是臺灣電影？"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "美國電影、臺灣電影，我都想看。"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我們看臺灣電影吧！"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "好啊！看電影可以學中文。"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "晚上要不要一起吃晚飯？"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "好，我們去吃越南菜。"
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "cc1-v1-l03-v1-01",
+          "list": "vocabularyI",
+          "number": 1,
+          "traditional": "週末",
+          "pinyinSource": "zhoumo",
+          "englishSourceGloss": "weekend",
+          "pdfPage": 73
+        },
+        {
+          "id": "cc1-v1-l03-v1-02",
+          "list": "vocabularyI",
+          "number": 2,
+          "traditional": "聽",
+          "pinyinSource": "ting",
+          "englishSourceGloss": "to listen",
+          "pdfPage": 73
+        },
+        {
+          "id": "cc1-v1-l03-v1-03",
+          "list": "vocabularyI",
+          "number": 3,
+          "traditional": "音樂",
+          "pinyinSource": "yinyue",
+          "englishSourceGloss": "mUSIC",
+          "pdfPage": 73
+        },
+        {
+          "id": "cc1-v1-l03-v1-04",
+          "list": "vocabularyI",
+          "number": 4,
+          "traditional": "運動",
+          "pinyinSource": "yindong",
+          "englishSourceGloss": "to exercise",
+          "pdfPage": 73
+        },
+        {
+          "id": "cc1-v1-l03-v1-05",
+          "list": "vocabularyI",
+          "number": 5,
+          "traditional": "打",
+          "pinyinSource": "da",
+          "englishSourceGloss": "to play （ball games）",
+          "pdfPage": 73
+        },
+        {
+          "id": "cc1-v1-l03-v1-06",
+          "list": "vocabularyI",
+          "number": 6,
+          "traditional": "網球",
+          "pinyinSource": "wangqiu",
+          "englishSourceGloss": "tennis",
+          "pdfPage": 73
+        },
+        {
+          "id": "cc1-v1-l03-v1-07",
+          "list": "vocabularyI",
+          "number": 7,
+          "traditional": "棒球",
+          "pinyinSource": "bangqid",
+          "englishSourceGloss": "baseball",
+          "pdfPage": 73
+        },
+        {
+          "id": "cc1-v1-l03-v1-08",
+          "list": "vocabularyI",
+          "number": 8,
+          "traditional": "和",
+          "pinyinSource": "han",
+          "englishSourceGloss": "and, as well as",
+          "pdfPage": 73
+        },
+        {
+          "id": "cc1-v1-l03-v1-09",
+          "list": "vocabularyI",
+          "number": 9,
+          "traditional": "游泳",
+          "pinyinSource": "ybuyong",
+          "englishSourceGloss": "to swim",
+          "pdfPage": 73
+        },
+        {
+          "id": "cc1-v1-l03-v1-10",
+          "list": "vocabularyI",
+          "number": 10,
+          "traditional": "常",
+          "pinyinSource": "chang",
+          "englishSourceGloss": "often",
+          "pdfPage": 73
+        },
+        {
+          "id": "cc1-v1-l03-v1-11",
+          "list": "vocabularyI",
+          "number": 11,
+          "traditional": "籃球",
+          "pinyinSource": "lanqiu",
+          "englishSourceGloss": "basketball",
+          "pdfPage": 73
+        },
+        {
+          "id": "cc1-v1-l03-v1-12",
+          "list": "vocabularyI",
+          "number": 12,
+          "traditional": "也",
+          "pinyinSource": "y",
+          "englishSourceGloss": "also",
+          "pdfPage": 73
+        },
+        {
+          "id": "cc1-v1-l03-v1-13",
+          "list": "vocabularyI",
+          "number": 13,
+          "traditional": "踢",
+          "pinyinSource": "ti",
+          "englishSourceGloss": "to kick",
+          "pdfPage": 73
+        },
+        {
+          "id": "cc1-v1-l03-v1-14",
+          "list": "vocabularyI",
+          "number": 14,
+          "traditional": "足球",
+          "pinyinSource": "zigia",
+          "englishSourceGloss": "SOCCer",
+          "pdfPage": 73
+        },
+        {
+          "id": "cc1-v1-l03-v1-15",
+          "list": "vocabularyI",
+          "number": 15,
+          "traditional": "覺得",
+          "pinyinSource": "juede",
+          "englishSourceGloss": "to feel, to think",
+          "pdfPage": 73
+        },
+        {
+          "id": "cc1-v1-l03-v1-16",
+          "list": "vocabularyI",
+          "number": 16,
+          "traditional": "好玩",
+          "pinyinSource": "haowan",
+          "englishSourceGloss": "interesting,fun",
+          "pdfPage": 73
+        },
+        {
+          "id": "cc1-v1-l03-v1-17",
+          "list": "vocabularyI",
+          "number": 17,
+          "traditional": "明天",
+          "pinyinSource": "mingtian",
+          "englishSourceGloss": "tomorrow",
+          "pdfPage": 73
+        },
+        {
+          "id": "cc1-v1-l03-v1-18",
+          "list": "vocabularyI",
+          "number": 18,
+          "traditional": "早上",
+          "pinyinSource": "zaoshang",
+          "englishSourceGloss": "morning",
+          "pdfPage": 73
+        },
+        {
+          "id": "cc1-v1-l03-v1-19",
+          "list": "vocabularyI",
+          "number": 19,
+          "traditional": "去",
+          "pinyinSource": "qi",
+          "englishSourceGloss": "to go",
+          "pdfPage": 73
+        },
+        {
+          "id": "cc1-v1-l03-v1-20",
+          "list": "vocabularyI",
+          "number": 20,
+          "traditional": "怎麼樣",
+          "pinyinSource": "zenmeyang",
+          "englishSourceGloss": "How does that sound？",
+          "pdfPage": 73
+        },
+        {
+          "id": "cc1-v1-l03-v1-21",
+          "list": "vocabularyI",
+          "number": 21,
+          "traditional": "啊",
+          "pinyinSource": "a",
+          "englishSourceGloss": "sentence-final particle",
+          "pdfPage": 73
+        },
+        {
+          "id": "cc1-v1-l03-v1-22",
+          "list": "vocabularyI",
+          "number": 22,
+          "traditional": "做什麼",
+          "pinyinSource": "zuo shenme",
+          "englishSourceGloss": "do what",
+          "pdfPage": 73
+        },
+        {
+          "id": "cc1-v1-l03-v1-23",
+          "list": "vocabularyI",
+          "number": 23,
+          "traditional": "好啊",
+          "pinyinSource": "hao a",
+          "englishSourceGloss": "OK",
+          "pdfPage": 73
+        },
+        {
+          "id": "cc1-v1-l03-v2-01",
+          "list": "vocabularyII",
+          "number": 1,
+          "traditional": "白如玉",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l03-v2-02",
+          "list": "vocabularyII",
+          "number": 2,
+          "traditional": "今天",
+          "pinyinSource": "jintian",
+          "englishSourceGloss": "today",
+          "pdfPage": 75
+        },
+        {
+          "id": "cc1-v1-l03-v2-03",
+          "list": "vocabularyII",
+          "number": 3,
+          "traditional": "晚上",
+          "pinyinSource": "wanshang",
+          "englishSourceGloss": "evening, night",
+          "pdfPage": 75
+        },
+        {
+          "id": "cc1-v1-l03-v2-04",
+          "list": "vocabularyII",
+          "number": 4,
+          "traditional": "看",
+          "pinyinSource": "kan",
+          "englishSourceGloss": "to see, to watch",
+          "pdfPage": 75
+        },
+        {
+          "id": "cc1-v1-l03-v2-05",
+          "list": "vocabularyII",
+          "number": 5,
+          "traditional": "電影",
+          "pinyinSource": "dianying",
+          "englishSourceGloss": "movie",
+          "pdfPage": 75
+        },
+        {
+          "id": "cc1-v1-l03-v2-06",
+          "list": "vocabularyII",
+          "number": 6,
+          "traditional": "妳",
+          "pinyinSource": "ni",
+          "englishSourceGloss": "you （female）",
+          "pdfPage": 75
+        },
+        {
+          "id": "cc1-v1-l03-v2-07",
+          "list": "vocabularyII",
+          "number": 7,
+          "traditional": "想",
+          "pinyinSource": "xiang",
+          "englishSourceGloss": "to want, to think",
+          "pdfPage": 75
+        },
+        {
+          "id": "cc1-v1-l03-v2-08",
+          "list": "vocabularyII",
+          "number": 8,
+          "traditional": "還是",
+          "pinyinSource": "haishi",
+          "englishSourceGloss": "or （used in a question）",
+          "pdfPage": 75
+        },
+        {
+          "id": "cc1-v1-l03-v2-09",
+          "list": "vocabularyII",
+          "number": 9,
+          "traditional": "吧",
+          "pinyinSource": "ba",
+          "englishSourceGloss": "sentence-final particle for",
+          "pdfPage": 75
+        },
+        {
+          "id": "cc1-v1-l03-v2-10",
+          "list": "vocabularyII",
+          "number": 10,
+          "traditional": "可以",
+          "pinyinSource": "keyi",
+          "englishSourceGloss": "could （possibility）",
+          "pdfPage": 75
+        },
+        {
+          "id": "cc1-v1-l03-v2-11",
+          "list": "vocabularyII",
+          "number": 11,
+          "traditional": "學",
+          "pinyinSource": "xue",
+          "englishSourceGloss": "to learn, to study",
+          "pdfPage": 75
+        },
+        {
+          "id": "cc1-v1-l03-v2-12",
+          "list": "vocabularyII",
+          "number": 12,
+          "traditional": "中文",
+          "pinyinSource": "Zhongwen",
+          "englishSourceGloss": "Chinese language",
+          "pdfPage": 75
+        },
+        {
+          "id": "cc1-v1-l03-v2-13",
+          "list": "vocabularyII",
+          "number": 13,
+          "traditional": "一起",
+          "pinyinSource": "yiqi",
+          "englishSourceGloss": "together",
+          "pdfPage": 75
+        },
+        {
+          "id": "cc1-v1-l03-v2-14",
+          "list": "vocabularyII",
+          "number": 14,
+          "traditional": "吃",
+          "pinyinSource": "chi",
+          "englishSourceGloss": "to eat",
+          "pdfPage": 76
+        },
+        {
+          "id": "cc1-v1-l03-v2-15",
+          "list": "vocabularyII",
+          "number": 15,
+          "traditional": "晚飯",
+          "pinyinSource": "wanfan",
+          "englishSourceGloss": "dinner",
+          "pdfPage": 76
+        },
+        {
+          "id": "cc1-v1-l03-v2-16",
+          "list": "vocabularyII",
+          "number": 16,
+          "traditional": "菜",
+          "pinyinSource": "cai",
+          "englishSourceGloss": "cuisine",
+          "pdfPage": 76
+        },
+        {
+          "id": "cc1-v1-l03-v2-17",
+          "list": "vocabularyII",
+          "number": 17,
+          "traditional": "越南",
+          "pinyinSource": "Yuenan",
+          "englishSourceGloss": "Vietnam",
+          "pdfPage": 76
+        },
+        {
+          "id": "cc1-v1-l03-v2-18",
+          "list": "vocabularyII",
+          "number": 18,
+          "traditional": "好不好",
+          "pinyinSource": "hao bu hao",
+          "englishSourceGloss": "How about..？",
+          "pdfPage": 76
+        }
+      ],
+      "verifiedAudioTrackIds": [
+        "cc1-textbook-l03-t01",
+        "cc1-textbook-l03-t02",
+        "cc1-textbook-l03-t03",
+        "cc1-textbook-l03-t04",
+        "cc1-workbook-l03-t01",
+        "cc1-workbook-l03-t02",
+        "cc1-workbook-l03-t03",
+        "cc1-workbook-l03-t04",
+        "cc1-workbook-l03-t05"
+      ],
+      "titleVi": "Cuối tuần làm gì?"
+    },
+    {
+      "id": "cc1-v1-l04",
+      "number": 4,
+      "traditionalTitle": "請問一共多少錢？",
+      "sourcePdfStartPage": 92,
+      "dialogues": [
+        {
+          "id": "cc1-v1-l04-dialogue-1",
+          "turns": [
+            {
+              "speaker": "老闆",
+              "traditional": "請問你要買什麼？"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "一杯熱咖啡。兩個包子。"
+            },
+            {
+              "speaker": "老闆",
+              "traditional": "你要大杯、中杯還是小杯？"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "大杯。包子請幫我微波。"
+            },
+            {
+              "speaker": "老闆",
+              "traditional": "好的。請問外帶還是內用？"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "外帶，一共多少錢？"
+            },
+            {
+              "speaker": "老闆",
+              "traditional": "咖啡八十，包子四十，一共一百二十塊。"
+            }
+          ]
+        },
+        {
+          "id": "cc1-v1-l04-dialogue-2",
+          "turns": [
+            {
+              "speaker": "月美",
+              "traditional": "我想買一支新手機。"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "妳的手機很好。為什麼要買新的？"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "我這支手機太舊了，不好看。"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "妳想買哪種手機？"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "能照相也能上網。"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "那種手機很好，我哥哥有一支。"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "貴不貴？一支賣多少錢？"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "那種手機不便宜。一支要一萬五千多。"
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "cc1-v1-l04-v1-01",
+          "list": "vocabularyI",
+          "number": 1,
+          "traditional": "一共",
+          "pinyinSource": "yigong",
+          "englishSourceGloss": "altogether",
+          "pdfPage": 94
+        },
+        {
+          "id": "cc1-v1-l04-v1-02",
+          "list": "vocabularyI",
+          "number": 2,
+          "traditional": "多少",
+          "pinyinSource": "duoshao",
+          "englishSourceGloss": "how much, how many",
+          "pdfPage": 94
+        },
+        {
+          "id": "cc1-v1-l04-v1-03",
+          "list": "vocabularyI",
+          "number": 3,
+          "traditional": "錢",
+          "pinyinSource": "qian",
+          "englishSourceGloss": "money",
+          "pdfPage": 94
+        },
+        {
+          "id": "cc1-v1-l04-v1-04",
+          "list": "vocabularyI",
+          "number": 4,
+          "traditional": "老闆",
+          "pinyinSource": "laoban",
+          "englishSourceGloss": "store-owner, boss",
+          "pdfPage": 94
+        },
+        {
+          "id": "cc1-v1-l04-v1-05",
+          "list": "vocabularyI",
+          "number": 5,
+          "traditional": "買",
+          "pinyinSource": "mai",
+          "englishSourceGloss": "to buy",
+          "pdfPage": 94
+        },
+        {
+          "id": "cc1-v1-l04-v1-06",
+          "list": "vocabularyI",
+          "number": 6,
+          "traditional": "杯",
+          "pinyinSource": "bei",
+          "englishSourceGloss": "cup",
+          "pdfPage": 94
+        },
+        {
+          "id": "cc1-v1-l04-v1-07",
+          "list": "vocabularyI",
+          "number": 7,
+          "traditional": "熱",
+          "pinyinSource": "re",
+          "englishSourceGloss": "hot",
+          "pdfPage": 94
+        },
+        {
+          "id": "cc1-v1-l04-v1-08",
+          "list": "vocabularyI",
+          "number": 8,
+          "traditional": "包子",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l04-v1-09",
+          "list": "vocabularyI",
+          "number": 9,
+          "traditional": "要",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l04-v1-10",
+          "list": "vocabularyI",
+          "number": 10,
+          "traditional": "大",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l04-v1-11",
+          "list": "vocabularyI",
+          "number": 11,
+          "traditional": "中",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l04-v1-12",
+          "list": "vocabularyI",
+          "number": 12,
+          "traditional": "小",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l04-v1-13",
+          "list": "vocabularyI",
+          "number": 13,
+          "traditional": "幫",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l04-v1-14",
+          "list": "vocabularyI",
+          "number": 14,
+          "traditional": "微波",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l04-v1-15",
+          "list": "vocabularyI",
+          "number": 15,
+          "traditional": "百",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l04-v1-16",
+          "list": "vocabularyI",
+          "number": 16,
+          "traditional": "塊",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l04-v1-17",
+          "list": "vocabularyI",
+          "number": 17,
+          "traditional": "好的",
+          "pinyinSource": "haode",
+          "englishSourceGloss": null,
+          "pdfPage": 95
+        },
+        {
+          "id": "cc1-v1-l04-v1-18",
+          "list": "vocabularyI",
+          "number": 18,
+          "traditional": "外帶",
+          "pinyinSource": "waidai",
+          "englishSourceGloss": null,
+          "pdfPage": 95
+        },
+        {
+          "id": "cc1-v1-l04-v1-19",
+          "list": "vocabularyI",
+          "number": 19,
+          "traditional": "內用",
+          "pinyinSource": "neiyong",
+          "englishSourceGloss": null,
+          "pdfPage": 95
+        },
+        {
+          "id": "cc1-v1-l04-v2-01",
+          "list": "vocabularyII",
+          "number": 1,
+          "traditional": "支",
+          "pinyinSource": "zhi",
+          "englishSourceGloss": "measure word for cell",
+          "pdfPage": 96
+        },
+        {
+          "id": "cc1-v1-l04-v2-02",
+          "list": "vocabularyII",
+          "number": 2,
+          "traditional": "新",
+          "pinyinSource": "Xin",
+          "englishSourceGloss": "new",
+          "pdfPage": 96
+        },
+        {
+          "id": "cc1-v1-l04-v2-03",
+          "list": "vocabularyII",
+          "number": 3,
+          "traditional": "手機",
+          "pinyinSource": "shouji",
+          "englishSourceGloss": "cell phone",
+          "pdfPage": 96
+        },
+        {
+          "id": "cc1-v1-l04-v2-04",
+          "list": "vocabularyII",
+          "number": 4,
+          "traditional": "太",
+          "pinyinSource": "tai",
+          "englishSourceGloss": "too",
+          "pdfPage": 96
+        },
+        {
+          "id": "cc1-v1-l04-v2-05",
+          "list": "vocabularyII",
+          "number": 5,
+          "traditional": "舊",
+          "pinyinSource": null,
+          "englishSourceGloss": "old",
+          "pdfPage": 96
+        },
+        {
+          "id": "cc1-v1-l04-v2-06",
+          "list": "vocabularyII",
+          "number": 6,
+          "traditional": "了",
+          "pinyinSource": "le",
+          "englishSourceGloss": "indicating the speaker's",
+          "pdfPage": 96
+        },
+        {
+          "id": "cc1-v1-l04-v2-07",
+          "list": "vocabularyII",
+          "number": 7,
+          "traditional": "種",
+          "pinyinSource": "zhong",
+          "englishSourceGloss": "kind,type",
+          "pdfPage": 97
+        },
+        {
+          "id": "cc1-v1-l04-v2-08",
+          "list": "vocabularyII",
+          "number": 8,
+          "traditional": "能",
+          "pinyinSource": "neng",
+          "englishSourceGloss": "can, to be able to",
+          "pdfPage": 97
+        },
+        {
+          "id": "cc1-v1-l04-v2-09",
+          "list": "vocabularyII",
+          "number": 9,
+          "traditional": "上網",
+          "pinyinSource": "shangwang",
+          "englishSourceGloss": "to access the internet, to",
+          "pdfPage": 97
+        },
+        {
+          "id": "cc1-v1-l04-v2-10",
+          "list": "vocabularyII",
+          "number": 10,
+          "traditional": "那",
+          "pinyinSource": "na/ nei",
+          "englishSourceGloss": "that",
+          "pdfPage": 97
+        },
+        {
+          "id": "cc1-v1-l04-v2-11",
+          "list": "vocabularyII",
+          "number": 11,
+          "traditional": "貴",
+          "pinyinSource": "ggui",
+          "englishSourceGloss": "expensive",
+          "pdfPage": 97
+        },
+        {
+          "id": "cc1-v1-l04-v2-12",
+          "list": "vocabularyII",
+          "number": 12,
+          "traditional": "賣",
+          "pinyinSource": "mai",
+          "englishSourceGloss": "to sell",
+          "pdfPage": 97
+        },
+        {
+          "id": "cc1-v1-l04-v2-13",
+          "list": "vocabularyII",
+          "number": 13,
+          "traditional": "便宜",
+          "pinyinSource": "pianyi",
+          "englishSourceGloss": "cheap, inexpensive",
+          "pdfPage": 97
+        },
+        {
+          "id": "cc1-v1-l04-v2-14",
+          "list": "vocabularyII",
+          "number": 14,
+          "traditional": "要",
+          "pinyinSource": "yao",
+          "englishSourceGloss": "to take, to require",
+          "pdfPage": 97
+        },
+        {
+          "id": "cc1-v1-l04-v2-15",
+          "list": "vocabularyII",
+          "number": 15,
+          "traditional": "萬",
+          "pinyinSource": "wan",
+          "englishSourceGloss": "ten thousand",
+          "pdfPage": 97
+        },
+        {
+          "id": "cc1-v1-l04-v2-16",
+          "list": "vocabularyII",
+          "number": 16,
+          "traditional": "千",
+          "pinyinSource": "qian",
+          "englishSourceGloss": "thousand",
+          "pdfPage": 97
+        },
+        {
+          "id": "cc1-v1-l04-v2-17",
+          "list": "vocabularyII",
+          "number": 17,
+          "traditional": "為什麼",
+          "pinyinSource": "weishenme",
+          "englishSourceGloss": "why",
+          "pdfPage": 97
+        }
+      ],
+      "verifiedAudioTrackIds": [
+        "cc1-textbook-l04-t01",
+        "cc1-textbook-l04-t02",
+        "cc1-textbook-l04-t03",
+        "cc1-textbook-l04-t04",
+        "cc1-workbook-l04-t01",
+        "cc1-workbook-l04-t02",
+        "cc1-workbook-l04-t03",
+        "cc1-workbook-l04-t04",
+        "cc1-workbook-l04-t05"
+      ],
+      "titleVi": "Xin hỏi, tổng cộng bao nhiêu tiền?"
+    },
+    {
+      "id": "cc1-v1-l05",
+      "number": 5,
+      "traditionalTitle": "牛肉麵真好吃",
+      "sourcePdfStartPage": 112,
+      "dialogues": [
+        {
+          "id": "cc1-v1-l05-dialogue-1",
+          "turns": [
+            {
+              "speaker": "月美",
+              "traditional": "很多人都說臺灣有不少有名的小吃。"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "是啊！牛肉麵、小籠包、臭豆腐⋯都很好吃。"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "你最喜歡吃什麼？"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "牛肉麵。牛肉好吃，湯也好喝。"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "這麼好吃，我很想吃。"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "我知道一家有名的牛肉麵店，我們一起去吃，怎麼樣？"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "太好了！"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "我們明天去。一定要點大碗的。"
+            }
+          ]
+        },
+        {
+          "id": "cc1-v1-l05-dialogue-2",
+          "turns": [
+            {
+              "speaker": "月美",
+              "traditional": "昨天晚上那家餐廳的菜很好吃，可是有一點辣。"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "我也怕辣，所以我喜歡自己做飯。"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "你做飯做得怎麼樣？"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "我做得不好。妳會做飯嗎？"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "會。我的甜點也做得不錯。"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "我最喜歡吃甜點。妳可以教我嗎？"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "好的，這個週末，你到我家來。"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "好啊！謝謝妳。"
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "cc1-v1-l05-v1-01",
+          "list": "vocabularyI",
+          "number": 1,
+          "traditional": "牛肉",
+          "pinyinSource": "nibrou",
+          "englishSourceGloss": "beef",
+          "pdfPage": 114
+        },
+        {
+          "id": "cc1-v1-l05-v1-02",
+          "list": "vocabularyI",
+          "number": 2,
+          "traditional": "麵",
+          "pinyinSource": "mian",
+          "englishSourceGloss": "noodles",
+          "pdfPage": 114
+        },
+        {
+          "id": "cc1-v1-l05-v1-03",
+          "list": "vocabularyI",
+          "number": 3,
+          "traditional": "真",
+          "pinyinSource": "zhen",
+          "englishSourceGloss": "really",
+          "pdfPage": 114
+        },
+        {
+          "id": "cc1-v1-l05-v1-04",
+          "list": "vocabularyI",
+          "number": 4,
+          "traditional": "好吃",
+          "pinyinSource": "haochi",
+          "englishSourceGloss": "delicious",
+          "pdfPage": 114
+        },
+        {
+          "id": "cc1-v1-l05-v1-05",
+          "list": "vocabularyI",
+          "number": 5,
+          "traditional": "說",
+          "pinyinSource": "shuo",
+          "englishSourceGloss": "say",
+          "pdfPage": 115
+        },
+        {
+          "id": "cc1-v1-l05-v1-06",
+          "list": "vocabularyI",
+          "number": 6,
+          "traditional": "少",
+          "pinyinSource": "shao",
+          "englishSourceGloss": "few in number",
+          "pdfPage": 115
+        },
+        {
+          "id": "cc1-v1-l05-v1-07",
+          "list": "vocabularyI",
+          "number": 7,
+          "traditional": "有名",
+          "pinyinSource": "youming",
+          "englishSourceGloss": "well known, famous",
+          "pdfPage": 115
+        },
+        {
+          "id": "cc1-v1-l05-v1-08",
+          "list": "vocabularyI",
+          "number": 8,
+          "traditional": "小吃",
+          "pinyinSource": "xiaochi",
+          "englishSourceGloss": "light repast, snack",
+          "pdfPage": 115
+        },
+        {
+          "id": "cc1-v1-l05-v1-09",
+          "list": "vocabularyI",
+          "number": 9,
+          "traditional": "最",
+          "pinyinSource": "zui",
+          "englishSourceGloss": "most",
+          "pdfPage": 115
+        },
+        {
+          "id": "cc1-v1-l05-v1-10",
+          "list": "vocabularyI",
+          "number": 10,
+          "traditional": "湯",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l05-v1-11",
+          "list": "vocabularyI",
+          "number": 11,
+          "traditional": "這麼",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l05-v1-12",
+          "list": "vocabularyI",
+          "number": 12,
+          "traditional": "知道",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l05-v1-13",
+          "list": "vocabularyI",
+          "number": 13,
+          "traditional": "家",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l05-v1-14",
+          "list": "vocabularyI",
+          "number": 14,
+          "traditional": "店",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l05-v1-15",
+          "list": "vocabularyI",
+          "number": 15,
+          "traditional": "一定",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l05-v1-16",
+          "list": "vocabularyI",
+          "number": 16,
+          "traditional": "點",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l05-v1-17",
+          "list": "vocabularyI",
+          "number": 17,
+          "traditional": "碗",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l05-v1-18",
+          "list": "vocabularyI",
+          "number": 18,
+          "traditional": "是啊",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l05-v1-19",
+          "list": "vocabularyI",
+          "number": 19,
+          "traditional": "小籠包",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l05-v1-20",
+          "list": "vocabularyI",
+          "number": 20,
+          "traditional": "臭豆腐",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": 115
+        },
+        {
+          "id": "cc1-v1-l05-v1-21",
+          "list": "vocabularyI",
+          "number": 21,
+          "traditional": "太好了",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": 115
+        },
+        {
+          "id": "cc1-v1-l05-v2-01",
+          "list": "vocabularyII",
+          "number": 1,
+          "traditional": "昨天",
+          "pinyinSource": "zuotian",
+          "englishSourceGloss": "yesterday",
+          "pdfPage": 117
+        },
+        {
+          "id": "cc1-v1-l05-v2-02",
+          "list": "vocabularyII",
+          "number": 2,
+          "traditional": "餐廳",
+          "pinyinSource": "canting",
+          "englishSourceGloss": "restaurant",
+          "pdfPage": 117
+        },
+        {
+          "id": "cc1-v1-l05-v2-03",
+          "list": "vocabularyII",
+          "number": 3,
+          "traditional": "可是",
+          "pinyinSource": "keshi",
+          "englishSourceGloss": "but, however",
+          "pdfPage": 117
+        },
+        {
+          "id": "cc1-v1-l05-v2-04",
+          "list": "vocabularyII",
+          "number": 4,
+          "traditional": "辣",
+          "pinyinSource": "la",
+          "englishSourceGloss": "hot （spicy）",
+          "pdfPage": 117
+        },
+        {
+          "id": "cc1-v1-l05-v2-05",
+          "list": "vocabularyII",
+          "number": 5,
+          "traditional": "怕",
+          "pinyinSource": "pa",
+          "englishSourceGloss": "（here） to not like, to tear",
+          "pdfPage": 117
+        },
+        {
+          "id": "cc1-v1-l05-v2-06",
+          "list": "vocabularyII",
+          "number": 6,
+          "traditional": "所以",
+          "pinyinSource": "suoyi",
+          "englishSourceGloss": "therefore, so",
+          "pdfPage": 117
+        },
+        {
+          "id": "cc1-v1-l05-v2-07",
+          "list": "vocabularyII",
+          "number": 7,
+          "traditional": "自己",
+          "pinyinSource": "zjji",
+          "englishSourceGloss": "self",
+          "pdfPage": 117
+        },
+        {
+          "id": "cc1-v1-l05-v2-08",
+          "list": "vocabularyII",
+          "number": 8,
+          "traditional": "做飯",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l05-v2-09",
+          "list": "vocabularyII",
+          "number": 9,
+          "traditional": "得",
+          "pinyinSource": "de",
+          "englishSourceGloss": "complement marker",
+          "pdfPage": 117
+        },
+        {
+          "id": "cc1-v1-l05-v2-10",
+          "list": "vocabularyII",
+          "number": 10,
+          "traditional": "會",
+          "pinyinSource": "hui",
+          "englishSourceGloss": "to be able to, can",
+          "pdfPage": 117
+        },
+        {
+          "id": "cc1-v1-l05-v2-11",
+          "list": "vocabularyII",
+          "number": 11,
+          "traditional": "甜點",
+          "pinyinSource": "tiandian",
+          "englishSourceGloss": "dessert",
+          "pdfPage": 117
+        },
+        {
+          "id": "cc1-v1-l05-v2-12",
+          "list": "vocabularyII",
+          "number": 12,
+          "traditional": "不錯",
+          "pinyinSource": "bicuo",
+          "englishSourceGloss": "not bad",
+          "pdfPage": 117
+        },
+        {
+          "id": "cc1-v1-l05-v2-13",
+          "list": "vocabularyII",
+          "number": 13,
+          "traditional": "可以",
+          "pinyinSource": "keyi",
+          "englishSourceGloss": "could （possibility）",
+          "pdfPage": 117
+        },
+        {
+          "id": "cc1-v1-l05-v2-14",
+          "list": "vocabularyII",
+          "number": 14,
+          "traditional": "教",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l05-v2-15",
+          "list": "vocabularyII",
+          "number": 15,
+          "traditional": "到",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        }
+      ],
+      "verifiedAudioTrackIds": [
+        "cc1-textbook-l05-t01",
+        "cc1-textbook-l05-t02",
+        "cc1-textbook-l05-t03",
+        "cc1-textbook-l05-t04",
+        "cc1-workbook-l05-t01",
+        "cc1-workbook-l05-t02",
+        "cc1-workbook-l05-t03",
+        "cc1-workbook-l05-t04",
+        "cc1-workbook-l05-t05"
+      ],
+      "titleVi": "Mì bò ngon thật!"
+    },
+    {
+      "id": "cc1-v1-l06",
+      "number": 6,
+      "traditionalTitle": "他們學校在山上",
+      "sourcePdfStartPage": 130,
+      "dialogues": [
+        {
+          "id": "cc1-v1-l06-dialogue-1",
+          "turns": [
+            {
+              "speaker": "安同",
+              "traditional": "聽說怡君的學校很漂亮。"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "他們學校在哪裡？遠不遠？"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "有一點遠。他們學校在花蓮的山上。"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "山上？那裡的風景一定很美。"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "是的，他們學校前面有海，後面有山，那裡真的是一個很漂亮的地方。"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我想去看看。我們這個週末一起去吧！"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "好啊！我現在要去學校附近的咖啡店買咖啡。妳呢？"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我去樓下找朋友，我們要一起去上課。"
+            }
+          ]
+        },
+        {
+          "id": "cc1-v1-l06-dialogue-2",
+          "turns": [
+            {
+              "speaker": "怡君",
+              "traditional": "歡迎你們來。"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "你們學校真遠！"
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "是啊，不是很近，有一點不方便。"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "這裡的學生在哪裡買東西？"
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "在學校外面。學校裡面沒有商店。"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "吃飯呢？學校裡面有沒有餐廳？"
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "有，餐廳在學生宿舍的一樓。"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "前面這棟大樓很漂亮。"
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "這是圖書館，旁邊的那棟大樓是教室，圖書館後面有游泳池。"
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "cc1-v1-l06-v1-01",
+          "list": "vocabularyI",
+          "number": 1,
+          "traditional": "他們",
+          "pinyinSource": "tamen",
+          "englishSourceGloss": "they （used for people only）",
+          "pdfPage": 132
+        },
+        {
+          "id": "cc1-v1-l06-v1-02",
+          "list": "vocabularyI",
+          "number": 2,
+          "traditional": "學校",
+          "pinyinSource": "xuexiao",
+          "englishSourceGloss": "school",
+          "pdfPage": 132
+        },
+        {
+          "id": "cc1-v1-l06-v1-03",
+          "list": "vocabularyI",
+          "number": 3,
+          "traditional": "在",
+          "pinyinSource": "zai",
+          "englishSourceGloss": "to be located at",
+          "pdfPage": 132
+        },
+        {
+          "id": "cc1-v1-l06-v1-04",
+          "list": "vocabularyI",
+          "number": 4,
+          "traditional": "山上",
+          "pinyinSource": "shanshang",
+          "englishSourceGloss": "on a mountain, in the",
+          "pdfPage": 133
+        },
+        {
+          "id": "cc1-v1-l06-v1-05",
+          "list": "vocabularyI",
+          "number": 5,
+          "traditional": "哪裡",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l06-v1-06",
+          "list": "vocabularyI",
+          "number": 6,
+          "traditional": "遠",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l06-v1-07",
+          "list": "vocabularyI",
+          "number": 7,
+          "traditional": "那裡",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l06-v1-08",
+          "list": "vocabularyI",
+          "number": 8,
+          "traditional": "風景",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l06-v1-09",
+          "list": "vocabularyI",
+          "number": 9,
+          "traditional": "美",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l06-v1-10",
+          "list": "vocabularyI",
+          "number": 10,
+          "traditional": "前面",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l06-v1-11",
+          "list": "vocabularyI",
+          "number": 11,
+          "traditional": "海",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l06-v1-12",
+          "list": "vocabularyI",
+          "number": 12,
+          "traditional": "後面",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l06-v1-13",
+          "list": "vocabularyI",
+          "number": 13,
+          "traditional": "山",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l06-v1-14",
+          "list": "vocabularyI",
+          "number": 14,
+          "traditional": "真的",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l06-v1-15",
+          "list": "vocabularyI",
+          "number": 15,
+          "traditional": "地方",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l06-v1-16",
+          "list": "vocabularyI",
+          "number": 16,
+          "traditional": "現在",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l06-v1-17",
+          "list": "vocabularyI",
+          "number": 17,
+          "traditional": "附近",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l06-v1-18",
+          "list": "vocabularyI",
+          "number": 18,
+          "traditional": "樓下",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l06-v1-19",
+          "list": "vocabularyI",
+          "number": 19,
+          "traditional": "找",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l06-v1-20",
+          "list": "vocabularyI",
+          "number": 20,
+          "traditional": "朋友",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l06-v1-21",
+          "list": "vocabularyI",
+          "number": 21,
+          "traditional": "上課",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l06-v1-22",
+          "list": "vocabularyI",
+          "number": 22,
+          "traditional": "花蓮",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l06-v1-23",
+          "list": "vocabularyI",
+          "number": 23,
+          "traditional": "聽說",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l06-v2-01",
+          "list": "vocabularyII",
+          "number": 1,
+          "traditional": "近",
+          "pinyinSource": "jin",
+          "englishSourceGloss": "near",
+          "pdfPage": 135
+        },
+        {
+          "id": "cc1-v1-l06-v2-02",
+          "list": "vocabularyII",
+          "number": 2,
+          "traditional": "方便",
+          "pinyinSource": "fangbian",
+          "englishSourceGloss": "convenient",
+          "pdfPage": 135
+        },
+        {
+          "id": "cc1-v1-l06-v2-03",
+          "list": "vocabularyII",
+          "number": 3,
+          "traditional": "這裡",
+          "pinyinSource": "zheli",
+          "englishSourceGloss": "here, this place",
+          "pdfPage": 135
+        },
+        {
+          "id": "cc1-v1-l06-v2-04",
+          "list": "vocabularyII",
+          "number": 4,
+          "traditional": "學生",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l06-v2-05",
+          "list": "vocabularyII",
+          "number": 5,
+          "traditional": "在",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l06-v2-06",
+          "list": "vocabularyII",
+          "number": 6,
+          "traditional": "東西",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l06-v2-07",
+          "list": "vocabularyII",
+          "number": 7,
+          "traditional": "外面",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l06-v2-08",
+          "list": "vocabularyII",
+          "number": 8,
+          "traditional": "裡面",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l06-v2-09",
+          "list": "vocabularyII",
+          "number": 9,
+          "traditional": "商店",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l06-v2-10",
+          "list": "vocabularyII",
+          "number": 10,
+          "traditional": "吃飯",
+          "pinyinSource": "chifan",
+          "englishSourceGloss": "to have a meal",
+          "pdfPage": 136
+        },
+        {
+          "id": "cc1-v1-l06-v2-11",
+          "list": "vocabularyII",
+          "number": 11,
+          "traditional": "宿舍",
+          "pinyinSource": "sishe",
+          "englishSourceGloss": "dormitory",
+          "pdfPage": 136
+        },
+        {
+          "id": "cc1-v1-l06-v2-12",
+          "list": "vocabularyII",
+          "number": 12,
+          "traditional": "樓",
+          "pinyinSource": "l6u",
+          "englishSourceGloss": "a storey, a floor",
+          "pdfPage": 136
+        },
+        {
+          "id": "cc1-v1-l06-v2-13",
+          "list": "vocabularyII",
+          "number": 13,
+          "traditional": "棟",
+          "pinyinSource": "dong",
+          "englishSourceGloss": "measure word for",
+          "pdfPage": 136
+        },
+        {
+          "id": "cc1-v1-l06-v2-14",
+          "list": "vocabularyII",
+          "number": 14,
+          "traditional": "大樓",
+          "pinyinSource": "dalbu",
+          "englishSourceGloss": "a multi-storey building",
+          "pdfPage": 136
+        },
+        {
+          "id": "cc1-v1-l06-v2-15",
+          "list": "vocabularyII",
+          "number": 15,
+          "traditional": "圖書館",
+          "pinyinSource": "tishiguan",
+          "englishSourceGloss": "library",
+          "pdfPage": 136
+        },
+        {
+          "id": "cc1-v1-l06-v2-16",
+          "list": "vocabularyII",
+          "number": 16,
+          "traditional": "旁邊",
+          "pinyinSource": "pangbian",
+          "englishSourceGloss": "（by the） side, next to",
+          "pdfPage": 136
+        },
+        {
+          "id": "cc1-v1-l06-v2-17",
+          "list": "vocabularyII",
+          "number": 17,
+          "traditional": "教室",
+          "pinyinSource": "jiaoshi",
+          "englishSourceGloss": "classroom",
+          "pdfPage": 136
+        },
+        {
+          "id": "cc1-v1-l06-v2-18",
+          "list": "vocabularyII",
+          "number": 18,
+          "traditional": "游泳池",
+          "pinyinSource": "youyongchi",
+          "englishSourceGloss": "swimming pool",
+          "pdfPage": 136
+        }
+      ],
+      "verifiedAudioTrackIds": [
+        "cc1-textbook-l06-t01",
+        "cc1-textbook-l06-t02",
+        "cc1-textbook-l06-t03",
+        "cc1-textbook-l06-t04",
+        "cc1-workbook-l06-t01",
+        "cc1-workbook-l06-t02",
+        "cc1-workbook-l06-t03",
+        "cc1-workbook-l06-t04",
+        "cc1-workbook-l06-t05",
+        "cc1-workbook-l06-t06"
+      ],
+      "titleVi": "Trường của họ ở trên núi"
+    },
+    {
+      "id": "cc1-v1-l07",
+      "number": 7,
+      "traditionalTitle": "早上九點去KTV",
+      "sourcePdfStartPage": 158,
+      "dialogues": [
+        {
+          "id": "cc1-v1-l07-dialogue-1",
+          "turns": [
+            {
+              "speaker": "安同",
+              "traditional": "月美，妳要去哪裡？"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "去KTV 唱歌。我和朋友九點二十分在大安KTV 見面。"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "早上九點去 KTV ？為什麼？"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "從早上七點到中午十二點，最便宜。要不要一起去？"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "我想去，可是我得去銀行。下次吧！"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "好啊，下次你一定要來，我想聽你唱歌。"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "沒問題。對了，什麼時候有空一起吃飯？"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "後天我有空，你呢？"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "我也有空，後天晚上七點怎麼樣？"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "好啊！再見。"
+            }
+          ]
+        },
+        {
+          "id": "cc1-v1-l07-dialogue-2",
+          "turns": [
+            {
+              "speaker": "安同",
+              "traditional": "如玉，妳在吃飯啊？"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "是，吃午餐，等一下要上課。你呢？"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "我剛下課。對了，下午四點半學校有籃球比賽。妳想去看嗎？"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "想啊。比賽幾點結束？"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "六點半。妳晚上有事嗎？"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我最近很忙，每天晚上都上書法課。"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "學得怎麼樣？"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "剛開始學，字寫得不好，可是我覺得很有意思。"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "我有空可以去看看嗎？"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我得問問老師。"
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "cc1-v1-l07-v1-01",
+          "list": "vocabularyI",
+          "number": 1,
+          "traditional": "點",
+          "pinyinSource": "dian",
+          "englishSourceGloss": "o'clock",
+          "pdfPage": 161
+        },
+        {
+          "id": "cc1-v1-l07-v1-02",
+          "list": "vocabularyI",
+          "number": 2,
+          "traditional": "KTV",
+          "pinyinSource": null,
+          "englishSourceGloss": "Karaoke",
+          "pdfPage": 161
+        },
+        {
+          "id": "cc1-v1-l07-v1-03",
+          "list": "vocabularyI",
+          "number": 3,
+          "traditional": "唱歌",
+          "pinyinSource": "changge",
+          "englishSourceGloss": "to sing",
+          "pdfPage": 161
+        },
+        {
+          "id": "cc1-v1-l07-v1-04",
+          "list": "vocabularyI",
+          "number": 4,
+          "traditional": "分",
+          "pinyinSource": "fen",
+          "englishSourceGloss": "minute",
+          "pdfPage": 161
+        },
+        {
+          "id": "cc1-v1-l07-v1-05",
+          "list": "vocabularyI",
+          "number": 5,
+          "traditional": "見面",
+          "pinyinSource": "jianmian",
+          "englishSourceGloss": "meet",
+          "pdfPage": 161
+        },
+        {
+          "id": "cc1-v1-l07-v1-06",
+          "list": "vocabularyI",
+          "number": 6,
+          "traditional": "從",
+          "pinyinSource": "cong",
+          "englishSourceGloss": "from",
+          "pdfPage": 161
+        },
+        {
+          "id": "cc1-v1-l07-v1-07",
+          "list": "vocabularyI",
+          "number": 7,
+          "traditional": "中午",
+          "pinyinSource": "zhongwi",
+          "englishSourceGloss": "noon",
+          "pdfPage": 161
+        },
+        {
+          "id": "cc1-v1-l07-v1-08",
+          "list": "vocabularyI",
+          "number": 8,
+          "traditional": "得",
+          "pinyinSource": "dai",
+          "englishSourceGloss": "to have to, must",
+          "pdfPage": 161
+        },
+        {
+          "id": "cc1-v1-l07-v1-09",
+          "list": "vocabularyI",
+          "number": 9,
+          "traditional": "銀行",
+          "pinyinSource": "yinhang",
+          "englishSourceGloss": "bank",
+          "pdfPage": 161
+        },
+        {
+          "id": "cc1-v1-l07-v1-10",
+          "list": "vocabularyI",
+          "number": 10,
+          "traditional": "時候",
+          "pinyinSource": "shihou",
+          "englishSourceGloss": "when",
+          "pdfPage": 161
+        },
+        {
+          "id": "cc1-v1-l07-v1-11",
+          "list": "vocabularyI",
+          "number": 11,
+          "traditional": "後天",
+          "pinyinSource": "houtian",
+          "englishSourceGloss": "the day after tomorrow",
+          "pdfPage": 161
+        },
+        {
+          "id": "cc1-v1-l07-v1-12",
+          "list": "vocabularyI",
+          "number": 12,
+          "traditional": "大安",
+          "pinyinSource": "Da'an",
+          "englishSourceGloss": "after a district in Taipei, where",
+          "pdfPage": 161
+        },
+        {
+          "id": "cc1-v1-l07-v1-13",
+          "list": "vocabularyI",
+          "number": 13,
+          "traditional": "下次",
+          "pinyinSource": "xia ci",
+          "englishSourceGloss": "next time",
+          "pdfPage": 161
+        },
+        {
+          "id": "cc1-v1-l07-v1-14",
+          "list": "vocabularyI",
+          "number": 14,
+          "traditional": "沒問題",
+          "pinyinSource": "mei wenti",
+          "englishSourceGloss": "No problem.",
+          "pdfPage": 161
+        },
+        {
+          "id": "cc1-v1-l07-v1-15",
+          "list": "vocabularyI",
+          "number": 15,
+          "traditional": "對了",
+          "pinyinSource": "duile",
+          "englishSourceGloss": "by the way",
+          "pdfPage": 161
+        },
+        {
+          "id": "cc1-v1-l07-v1-16",
+          "list": "vocabularyI",
+          "number": 16,
+          "traditional": "有空",
+          "pinyinSource": "youkong",
+          "englishSourceGloss": "to have free time",
+          "pdfPage": 161
+        },
+        {
+          "id": "cc1-v1-l07-v1-17",
+          "list": "vocabularyI",
+          "number": 17,
+          "traditional": "再見",
+          "pinyinSource": "zaijian",
+          "englishSourceGloss": "Goodbye.",
+          "pdfPage": 161
+        },
+        {
+          "id": "cc1-v1-l07-v2-01",
+          "list": "vocabularyII",
+          "number": 1,
+          "traditional": "在",
+          "pinyinSource": "zai",
+          "englishSourceGloss": "in the process of doing",
+          "pdfPage": 164
+        },
+        {
+          "id": "cc1-v1-l07-v2-02",
+          "list": "vocabularyII",
+          "number": 2,
+          "traditional": "午餐",
+          "pinyinSource": "wican",
+          "englishSourceGloss": "lunch",
+          "pdfPage": 164
+        },
+        {
+          "id": "cc1-v1-l07-v2-03",
+          "list": "vocabularyII",
+          "number": 3,
+          "traditional": "剛",
+          "pinyinSource": "gaang",
+          "englishSourceGloss": "just now",
+          "pdfPage": 164
+        },
+        {
+          "id": "cc1-v1-l07-v2-04",
+          "list": "vocabularyII",
+          "number": 4,
+          "traditional": "下課",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l07-v2-05",
+          "list": "vocabularyII",
+          "number": 5,
+          "traditional": "下午",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l07-v2-06",
+          "list": "vocabularyII",
+          "number": 6,
+          "traditional": "半",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l07-v2-07",
+          "list": "vocabularyII",
+          "number": 7,
+          "traditional": "比賽",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l07-v2-08",
+          "list": "vocabularyII",
+          "number": 8,
+          "traditional": "結束",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l07-v2-09",
+          "list": "vocabularyII",
+          "number": 9,
+          "traditional": "最近",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l07-v2-10",
+          "list": "vocabularyII",
+          "number": 10,
+          "traditional": "忙",
+          "pinyinSource": "mang",
+          "englishSourceGloss": "busy",
+          "pdfPage": 164
+        },
+        {
+          "id": "cc1-v1-l07-v2-11",
+          "list": "vocabularyII",
+          "number": 11,
+          "traditional": "每",
+          "pinyinSource": "mei",
+          "englishSourceGloss": "every, each",
+          "pdfPage": 164
+        },
+        {
+          "id": "cc1-v1-l07-v2-12",
+          "list": "vocabularyII",
+          "number": 12,
+          "traditional": "天",
+          "pinyinSource": "tian",
+          "englishSourceGloss": "Measure word for day",
+          "pdfPage": 164
+        },
+        {
+          "id": "cc1-v1-l07-v2-13",
+          "list": "vocabularyII",
+          "number": 13,
+          "traditional": "書法",
+          "pinyinSource": "shifa",
+          "englishSourceGloss": "calligraphy",
+          "pdfPage": 164
+        },
+        {
+          "id": "cc1-v1-l07-v2-14",
+          "list": "vocabularyII",
+          "number": 14,
+          "traditional": "課",
+          "pinyinSource": "ke",
+          "englishSourceGloss": "class",
+          "pdfPage": 164
+        },
+        {
+          "id": "cc1-v1-l07-v2-15",
+          "list": "vocabularyII",
+          "number": 15,
+          "traditional": "開始",
+          "pinyinSource": "kaishi",
+          "englishSourceGloss": "to begin, to start",
+          "pdfPage": 164
+        },
+        {
+          "id": "cc1-v1-l07-v2-16",
+          "list": "vocabularyII",
+          "number": 16,
+          "traditional": "字",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l07-v2-17",
+          "list": "vocabularyII",
+          "number": 17,
+          "traditional": "寫",
+          "pinyinSource": "xie",
+          "englishSourceGloss": "to write",
+          "pdfPage": 164
+        },
+        {
+          "id": "cc1-v1-l07-v2-18",
+          "list": "vocabularyII",
+          "number": 18,
+          "traditional": "可以",
+          "pinyinSource": "keyi",
+          "englishSourceGloss": "may （permission）",
+          "pdfPage": 164
+        },
+        {
+          "id": "cc1-v1-l07-v2-19",
+          "list": "vocabularyII",
+          "number": 19,
+          "traditional": "問",
+          "pinyinSource": "wen",
+          "englishSourceGloss": "to ask",
+          "pdfPage": 164
+        },
+        {
+          "id": "cc1-v1-l07-v2-20",
+          "list": "vocabularyII",
+          "number": 20,
+          "traditional": "等一下",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l07-v2-21",
+          "list": "vocabularyII",
+          "number": 21,
+          "traditional": "有事",
+          "pinyinSource": "you shi",
+          "englishSourceGloss": "to be busy, to be engaged",
+          "pdfPage": 164
+        },
+        {
+          "id": "cc1-v1-l07-v2-22",
+          "list": "vocabularyII",
+          "number": 22,
+          "traditional": "有意思",
+          "pinyinSource": "you yisi",
+          "englishSourceGloss": "to be interesting, to be fun",
+          "pdfPage": 164
+        }
+      ],
+      "verifiedAudioTrackIds": [
+        "cc1-textbook-l07-t01",
+        "cc1-textbook-l07-t02",
+        "cc1-textbook-l07-t03",
+        "cc1-textbook-l07-t04",
+        "cc1-workbook-l07-t01",
+        "cc1-workbook-l07-t02",
+        "cc1-workbook-l07-t03",
+        "cc1-workbook-l07-t04",
+        "cc1-workbook-l07-t05",
+        "cc1-workbook-l07-t06"
+      ],
+      "titleVi": "Chín giờ sáng đi hát KTV"
+    },
+    {
+      "id": "cc1-v1-l08",
+      "number": 8,
+      "traditionalTitle": "坐火車去臺南",
+      "sourcePdfStartPage": 186,
+      "dialogues": [
+        {
+          "id": "cc1-v1-l08-dialogue-1",
+          "turns": [
+            {
+              "speaker": "如玉",
+              "traditional": "這個週末，我想跟朋友去臺南玩。"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "怎麼去？"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我想坐火車去。"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "火車太慢了，要四個多鐘頭，坐高鐵比較快。"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "可是聽說高鐵車票非常貴。"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "高鐵車票有一點貴，但是坐高鐵又快又舒服。"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我不知道在哪裡買票。"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "在高鐵站、網路上或是便利商店都可以。"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "這麼方便！那我坐高鐵去，謝謝你。"
+            }
+          ]
+        },
+        {
+          "id": "cc1-v1-l08-dialogue-2",
+          "turns": [
+            {
+              "speaker": "如玉",
+              "traditional": "安同，明天我們沒課，你想去哪裡？"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "我要跟同學去參觀故宮博物院。"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "聽說那裡有很多中國古代的東西。"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "是啊。妳要跟我們去看看嗎？"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "好。怎麼去？"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "我同學騎機車載我。妳可以坐公共汽車去。"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我想坐捷運去。比較快。"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "不行，到故宮沒有捷運。妳要不要坐計程車去？"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "太貴了！我坐公車。騎機車比坐公車快嗎？"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "差不多。"
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "cc1-v1-l08-v1-01",
+          "list": "vocabularyI",
+          "number": 1,
+          "traditional": "坐",
+          "pinyinSource": "ZuO",
+          "englishSourceGloss": "to take by, to travel by",
+          "pdfPage": 189
+        },
+        {
+          "id": "cc1-v1-l08-v1-02",
+          "list": "vocabularyI",
+          "number": 2,
+          "traditional": "火車",
+          "pinyinSource": "huoche",
+          "englishSourceGloss": "train",
+          "pdfPage": 189
+        },
+        {
+          "id": "cc1-v1-l08-v1-03",
+          "list": "vocabularyI",
+          "number": 3,
+          "traditional": "跟",
+          "pinyinSource": "gaen",
+          "englishSourceGloss": "with",
+          "pdfPage": 189
+        },
+        {
+          "id": "cc1-v1-l08-v1-04",
+          "list": "vocabularyI",
+          "number": 4,
+          "traditional": "玩",
+          "pinyinSource": "wan",
+          "englishSourceGloss": "to have fun",
+          "pdfPage": 189
+        },
+        {
+          "id": "cc1-v1-l08-v1-05",
+          "list": "vocabularyI",
+          "number": 5,
+          "traditional": "怎麼",
+          "pinyinSource": "zenme",
+          "englishSourceGloss": "how",
+          "pdfPage": 189
+        },
+        {
+          "id": "cc1-v1-l08-v1-06",
+          "list": "vocabularyI",
+          "number": 6,
+          "traditional": "慢",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l08-v1-07",
+          "list": "vocabularyI",
+          "number": 7,
+          "traditional": "鐘頭",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l08-v1-08",
+          "list": "vocabularyI",
+          "number": 8,
+          "traditional": "比較",
+          "pinyinSource": "bijiao",
+          "englishSourceGloss": "（comparatively） more",
+          "pdfPage": 189
+        },
+        {
+          "id": "cc1-v1-l08-v1-09",
+          "list": "vocabularyI",
+          "number": 9,
+          "traditional": "快",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l08-v1-10",
+          "list": "vocabularyI",
+          "number": 10,
+          "traditional": "車票",
+          "pinyinSource": "chepiao",
+          "englishSourceGloss": "（train, bus） ticket",
+          "pdfPage": 189
+        },
+        {
+          "id": "cc1-v1-l08-v1-11",
+          "list": "vocabularyI",
+          "number": 11,
+          "traditional": "非常",
+          "pinyinSource": "feichang",
+          "englishSourceGloss": "very",
+          "pdfPage": 189
+        },
+        {
+          "id": "cc1-v1-l08-v1-12",
+          "list": "vocabularyI",
+          "number": 12,
+          "traditional": "但是",
+          "pinyinSource": "danshi",
+          "englishSourceGloss": "but, however",
+          "pdfPage": 189
+        },
+        {
+          "id": "cc1-v1-l08-v1-13",
+          "list": "vocabularyI",
+          "number": 13,
+          "traditional": "又",
+          "pinyinSource": "you",
+          "englishSourceGloss": "both..and..",
+          "pdfPage": 189
+        },
+        {
+          "id": "cc1-v1-l08-v1-14",
+          "list": "vocabularyI",
+          "number": 14,
+          "traditional": "舒服",
+          "pinyinSource": "shifu",
+          "englishSourceGloss": "comfortable",
+          "pdfPage": 189
+        },
+        {
+          "id": "cc1-v1-l08-v1-15",
+          "list": "vocabularyI",
+          "number": 15,
+          "traditional": "站",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l08-v1-16",
+          "list": "vocabularyI",
+          "number": 16,
+          "traditional": "或是",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l08-v1-17",
+          "list": "vocabularyI",
+          "number": 17,
+          "traditional": "臺南",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l08-v1-18",
+          "list": "vocabularyI",
+          "number": 18,
+          "traditional": "高鐵",
+          "pinyinSource": "saotis",
+          "englishSourceGloss": "High Speed Rail",
+          "pdfPage": 189
+        },
+        {
+          "id": "cc1-v1-l08-v1-19",
+          "list": "vocabularyI",
+          "number": 19,
+          "traditional": "網路上",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l08-v1-20",
+          "list": "vocabularyI",
+          "number": 20,
+          "traditional": "便利商店",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l08-v2-01",
+          "list": "vocabularyII",
+          "number": 1,
+          "traditional": "同學",
+          "pinyinSource": "tongxue",
+          "englishSourceGloss": "classmate",
+          "pdfPage": 191
+        },
+        {
+          "id": "cc1-v1-l08-v2-02",
+          "list": "vocabularyII",
+          "number": 2,
+          "traditional": "參觀",
+          "pinyinSource": "canguan",
+          "englishSourceGloss": "to visit （an institution）",
+          "pdfPage": 191
+        },
+        {
+          "id": "cc1-v1-l08-v2-03",
+          "list": "vocabularyII",
+          "number": 3,
+          "traditional": "古代",
+          "pinyinSource": "gidai",
+          "englishSourceGloss": "ancient times",
+          "pdfPage": 191
+        },
+        {
+          "id": "cc1-v1-l08-v2-04",
+          "list": "vocabularyII",
+          "number": 4,
+          "traditional": "騎",
+          "pinyinSource": "qi",
+          "englishSourceGloss": "to ride",
+          "pdfPage": 192
+        },
+        {
+          "id": "cc1-v1-l08-v2-05",
+          "list": "vocabularyII",
+          "number": 5,
+          "traditional": "機車",
+          "pinyinSource": "jiche",
+          "englishSourceGloss": "motorcycle, scooter",
+          "pdfPage": 192
+        },
+        {
+          "id": "cc1-v1-l08-v2-06",
+          "list": "vocabularyII",
+          "number": 6,
+          "traditional": "載",
+          "pinyinSource": "zai",
+          "englishSourceGloss": "（on / in a vehicle, e.g.",
+          "pdfPage": 192
+        },
+        {
+          "id": "cc1-v1-l08-v2-07",
+          "list": "vocabularyII",
+          "number": 7,
+          "traditional": "捷運",
+          "pinyinSource": "jieyin",
+          "englishSourceGloss": "Mass Rapid Transit （MRT）",
+          "pdfPage": 192
+        },
+        {
+          "id": "cc1-v1-l08-v2-08",
+          "list": "vocabularyII",
+          "number": 8,
+          "traditional": "比",
+          "pinyinSource": "bi",
+          "englishSourceGloss": "（more..） than",
+          "pdfPage": 192
+        },
+        {
+          "id": "cc1-v1-l08-v2-09",
+          "list": "vocabularyII",
+          "number": 9,
+          "traditional": "故宮博物院（故宮）",
+          "pinyinSource": "Gigong",
+          "englishSourceGloss": "National Palace Museum",
+          "pdfPage": 192
+        },
+        {
+          "id": "cc1-v1-l08-v2-10",
+          "list": "vocabularyII",
+          "number": 10,
+          "traditional": "中國",
+          "pinyinSource": "Zhonggu6",
+          "englishSourceGloss": "China",
+          "pdfPage": 192
+        },
+        {
+          "id": "cc1-v1-l08-v2-11",
+          "list": "vocabularyII",
+          "number": 11,
+          "traditional": "公共汽車（公車）",
+          "pinyinSource": "gonggong",
+          "englishSourceGloss": "bus",
+          "pdfPage": 192
+        },
+        {
+          "id": "cc1-v1-l08-v2-12",
+          "list": "vocabularyII",
+          "number": 12,
+          "traditional": "不行",
+          "pinyinSource": "bi xing",
+          "englishSourceGloss": "will not do",
+          "pdfPage": 192
+        },
+        {
+          "id": "cc1-v1-l08-v2-13",
+          "list": "vocabularyII",
+          "number": 13,
+          "traditional": "計程車",
+          "pinyinSource": "jichengche",
+          "englishSourceGloss": "taxi",
+          "pdfPage": 192
+        },
+        {
+          "id": "cc1-v1-l08-v2-14",
+          "list": "vocabularyII",
+          "number": 14,
+          "traditional": "差不多",
+          "pinyinSource": "chabiduo",
+          "englishSourceGloss": "about the same",
+          "pdfPage": 192
+        }
+      ],
+      "verifiedAudioTrackIds": [
+        "cc1-textbook-l08-t01",
+        "cc1-textbook-l08-t02",
+        "cc1-textbook-l08-t03",
+        "cc1-textbook-l08-t04",
+        "cc1-workbook-l08-t01",
+        "cc1-workbook-l08-t02",
+        "cc1-workbook-l08-t03",
+        "cc1-workbook-l08-t04",
+        "cc1-workbook-l08-t05",
+        "cc1-workbook-l08-t06"
+      ],
+      "titleVi": "Đi tàu hỏa đến Đài Nam"
+    },
+    {
+      "id": "cc1-v1-l09",
+      "number": 9,
+      "traditionalTitle": "放假去哪裡玩？",
+      "sourcePdfStartPage": 208,
+      "dialogues": [
+        {
+          "id": "cc1-v1-l09-dialogue-1",
+          "turns": [
+            {
+              "speaker": "安同",
+              "traditional": "田中，下個星期我們放五天的假，你要回國嗎？"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "不，我打算在家看電視、影片學中文，你呢？"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "我想跟朋友去玩。"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "不錯啊。去什麼地方？"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "臺東。聽說那裡的風景非常漂亮。"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "我也聽說。放假的時候，你常去旅行嗎？"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "不一定。有時候在家寫功課，有時候出去玩。"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "你們什麼時候去臺東？"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "這個星期六下午去。"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "去玩多久？"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "大概玩四、五天。"
+            }
+          ]
+        },
+        {
+          "id": "cc1-v1-l09-dialogue-2",
+          "turns": [
+            {
+              "speaker": "田中",
+              "traditional": "我女朋友九月三十號要來臺灣看我。"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "你想帶她去哪裡玩？"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "還不知道。你有什麼建議？"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "臺灣的夜市很有名。你們應該去逛逛。"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "謝謝，還有什麼好玩的地方？"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "臺灣的茶也很特別。臺北有很多茶館。"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "到哪裡喝茶比較好？"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "你們可以去貓空。那裡的風景很美。"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "謝謝你。我決定帶她去貓空。你也一起去，好不好？"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "要是那時候我有空，就跟你們一起去。"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "太好了！謝謝！"
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "cc1-v1-l09-v1-01",
+          "list": "vocabularyI",
+          "number": 1,
+          "traditional": "星期＋數字",
+          "pinyinSource": "xingqi",
+          "englishSourceGloss": "week",
+          "pdfPage": 211
+        },
+        {
+          "id": "cc1-v1-l09-v1-02",
+          "list": "vocabularyI",
+          "number": 2,
+          "traditional": "回國",
+          "pinyinSource": "huiguo",
+          "englishSourceGloss": "to return to one's country",
+          "pdfPage": 211
+        },
+        {
+          "id": "cc1-v1-l09-v1-03",
+          "list": "vocabularyI",
+          "number": 3,
+          "traditional": "打算",
+          "pinyinSource": "dasuan",
+          "englishSourceGloss": "to plan to",
+          "pdfPage": 211
+        },
+        {
+          "id": "cc1-v1-l09-v1-04",
+          "list": "vocabularyI",
+          "number": 4,
+          "traditional": "電視",
+          "pinyinSource": "dianshi",
+          "englishSourceGloss": "TV",
+          "pdfPage": 211
+        },
+        {
+          "id": "cc1-v1-l09-v1-05",
+          "list": "vocabularyI",
+          "number": 5,
+          "traditional": "影片",
+          "pinyinSource": "yingpian",
+          "englishSourceGloss": "film",
+          "pdfPage": 211
+        },
+        {
+          "id": "cc1-v1-l09-v1-06",
+          "list": "vocabularyI",
+          "number": 6,
+          "traditional": "旅行",
+          "pinyinSource": "lixing",
+          "englishSourceGloss": "to travel",
+          "pdfPage": 211
+        },
+        {
+          "id": "cc1-v1-l09-v1-07",
+          "list": "vocabularyI",
+          "number": 7,
+          "traditional": "功課",
+          "pinyinSource": "gongke",
+          "englishSourceGloss": "homework",
+          "pdfPage": 211
+        },
+        {
+          "id": "cc1-v1-l09-v1-08",
+          "list": "vocabularyI",
+          "number": 8,
+          "traditional": "出去",
+          "pinyinSource": "chiqi",
+          "englishSourceGloss": "to go out",
+          "pdfPage": 211
+        },
+        {
+          "id": "cc1-v1-l09-v1-09",
+          "list": "vocabularyI",
+          "number": 9,
+          "traditional": "大概",
+          "pinyinSource": "dagai",
+          "englishSourceGloss": "approximately, about，",
+          "pdfPage": 211
+        },
+        {
+          "id": "cc1-v1-l09-v1-10",
+          "list": "vocabularyI",
+          "number": 10,
+          "traditional": "放假",
+          "pinyinSource": "fangjia",
+          "englishSourceGloss": "to have a holiday",
+          "pdfPage": 211
+        },
+        {
+          "id": "cc1-v1-l09-v1-11",
+          "list": "vocabularyI",
+          "number": 11,
+          "traditional": "下個星期",
+          "pinyinSource": "xia ge",
+          "englishSourceGloss": null,
+          "pdfPage": 211
+        },
+        {
+          "id": "cc1-v1-l09-v1-12",
+          "list": "vocabularyI",
+          "number": 12,
+          "traditional": "有時候",
+          "pinyinSource": "you shihou",
+          "englishSourceGloss": "sometimes",
+          "pdfPage": 211
+        },
+        {
+          "id": "cc1-v1-l09-v1-13",
+          "list": "vocabularyI",
+          "number": 13,
+          "traditional": "多久",
+          "pinyinSource": "duo jiu",
+          "englishSourceGloss": "how long",
+          "pdfPage": 211
+        },
+        {
+          "id": "cc1-v1-l09-v1-14",
+          "list": "vocabularyI",
+          "number": 14,
+          "traditional": "臺東",
+          "pinyinSource": "Taidong",
+          "englishSourceGloss": "cities on the southeastern",
+          "pdfPage": 211
+        },
+        {
+          "id": "cc1-v1-l09-v2-01",
+          "list": "vocabularyII",
+          "number": 1,
+          "traditional": "女＋名詞",
+          "pinyinSource": "ni",
+          "englishSourceGloss": "girl-， female-",
+          "pdfPage": 214
+        },
+        {
+          "id": "cc1-v1-l09-v2-02",
+          "list": "vocabularyII",
+          "number": 2,
+          "traditional": "數字＋月",
+          "pinyinSource": "Yue",
+          "englishSourceGloss": "month of a year",
+          "pdfPage": 214
+        },
+        {
+          "id": "cc1-v1-l09-v2-03",
+          "list": "vocabularyII",
+          "number": 3,
+          "traditional": "數字＋號",
+          "pinyinSource": "hao",
+          "englishSourceGloss": "date, day of a month",
+          "pdfPage": 214
+        },
+        {
+          "id": "cc1-v1-l09-v2-04",
+          "list": "vocabularyII",
+          "number": 4,
+          "traditional": "帶",
+          "pinyinSource": "dai",
+          "englishSourceGloss": "to take",
+          "pdfPage": 214
+        },
+        {
+          "id": "cc1-v1-l09-v2-05",
+          "list": "vocabularyII",
+          "number": 5,
+          "traditional": "她",
+          "pinyinSource": "ta",
+          "englishSourceGloss": "she,her",
+          "pdfPage": 214
+        },
+        {
+          "id": "cc1-v1-l09-v2-06",
+          "list": "vocabularyII",
+          "number": 6,
+          "traditional": "還",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l09-v2-07",
+          "list": "vocabularyII",
+          "number": 7,
+          "traditional": "建議",
+          "pinyinSource": "jianyi",
+          "englishSourceGloss": "suggestion",
+          "pdfPage": 214
+        },
+        {
+          "id": "cc1-v1-l09-v2-08",
+          "list": "vocabularyII",
+          "number": 8,
+          "traditional": "夜市",
+          "pinyinSource": "yeshi",
+          "englishSourceGloss": "night market",
+          "pdfPage": 214
+        },
+        {
+          "id": "cc1-v1-l09-v2-09",
+          "list": "vocabularyII",
+          "number": 9,
+          "traditional": "應該",
+          "pinyinSource": "yinggai",
+          "englishSourceGloss": "should",
+          "pdfPage": 214
+        },
+        {
+          "id": "cc1-v1-l09-v2-10",
+          "list": "vocabularyII",
+          "number": 10,
+          "traditional": "逛",
+          "pinyinSource": "guang",
+          "englishSourceGloss": "to wander around, to look",
+          "pdfPage": 214
+        },
+        {
+          "id": "cc1-v1-l09-v2-11",
+          "list": "vocabularyII",
+          "number": 11,
+          "traditional": "特別",
+          "pinyinSource": "tebie",
+          "englishSourceGloss": "special",
+          "pdfPage": 214
+        },
+        {
+          "id": "cc1-v1-l09-v2-12",
+          "list": "vocabularyII",
+          "number": 12,
+          "traditional": "茶館",
+          "pinyinSource": "chaguan",
+          "englishSourceGloss": "tea house",
+          "pdfPage": 214
+        },
+        {
+          "id": "cc1-v1-l09-v2-13",
+          "list": "vocabularyII",
+          "number": 13,
+          "traditional": "決定",
+          "pinyinSource": "jueding",
+          "englishSourceGloss": "to decide",
+          "pdfPage": 214
+        },
+        {
+          "id": "cc1-v1-l09-v2-14",
+          "list": "vocabularyII",
+          "number": 14,
+          "traditional": "要是",
+          "pinyinSource": "yaoshi",
+          "englishSourceGloss": "if",
+          "pdfPage": 214
+        },
+        {
+          "id": "cc1-v1-l09-v2-15",
+          "list": "vocabularyII",
+          "number": 15,
+          "traditional": "就",
+          "pinyinSource": null,
+          "englishSourceGloss": "then",
+          "pdfPage": 214
+        },
+        {
+          "id": "cc1-v1-l09-v2-16",
+          "list": "vocabularyII",
+          "number": 16,
+          "traditional": "貓空",
+          "pinyinSource": "Maokong",
+          "englishSourceGloss": "in Taipei to visit for fine",
+          "pdfPage": 214
+        }
+      ],
+      "verifiedAudioTrackIds": [
+        "cc1-textbook-l09-t01",
+        "cc1-textbook-l09-t02",
+        "cc1-textbook-l09-t03",
+        "cc1-textbook-l09-t04",
+        "cc1-workbook-l09-t01",
+        "cc1-workbook-l09-t02",
+        "cc1-workbook-l09-t03",
+        "cc1-workbook-l09-t04",
+        "cc1-workbook-l09-t05",
+        "cc1-workbook-l09-t06"
+      ],
+      "titleVi": "Nghỉ lễ đi chơi ở đâu?"
+    },
+    {
+      "id": "cc1-v1-l10",
+      "number": 10,
+      "traditionalTitle": "臺灣的水果很好吃",
+      "sourcePdfStartPage": 228,
+      "dialogues": [
+        {
+          "id": "cc1-v1-l10-dialogue-1",
+          "turns": [
+            {
+              "speaker": "如玉",
+              "traditional": "這個黃色的水果叫什麼？"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "芒果。給妳一塊，吃吃看。"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "好，謝謝。香香的、甜甜的，很好吃。"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "昨天明華給我們的那種水果，紅色的，叫什麼？"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "妳說的是西瓜吧？"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "對！對！對！臺灣有很多好吃的水果。"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我以前不喜歡吃水果，現在很喜歡了。"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "越南的水果也很好吃。"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "要是有機會，我想吃吃看。"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "妳來越南，我一定請妳吃。"
+            }
+          ]
+        },
+        {
+          "id": "cc1-v1-l10-dialogue-2",
+          "turns": [
+            {
+              "speaker": "明華",
+              "traditional": "你跟你女朋友上個月去花蓮玩，好玩嗎？"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "很好玩。你看，這些是我拍的照片。"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "你們笑得很開心！哪一個是你女朋友？"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "穿紅衣服的這個。穿黃衣服的是旅館老闆的太太。"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "她們兩個都很漂亮。這兩個男的是誰？"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "矮的是旅館的老闆，高的是他弟弟。"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "那家旅館怎麼樣？"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "很乾淨。從窗戶往外看，是藍色的大海。"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "真不錯！那家旅館貴嗎？"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "因為現在去玩的人比較少，所以旅館不太貴。"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "下次我也想去住。"
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "cc1-v1-l10-v1-01",
+          "list": "vocabularyI",
+          "number": 1,
+          "traditional": "水果",
+          "pinyinSource": "shuiguo",
+          "englishSourceGloss": null,
+          "pdfPage": 231
+        },
+        {
+          "id": "cc1-v1-l10-v1-02",
+          "list": "vocabularyI",
+          "number": 2,
+          "traditional": "黃色",
+          "pinyinSource": "huangse",
+          "englishSourceGloss": null,
+          "pdfPage": 231
+        },
+        {
+          "id": "cc1-v1-l10-v1-03",
+          "list": "vocabularyI",
+          "number": 3,
+          "traditional": "芒果",
+          "pinyinSource": "mangguo",
+          "englishSourceGloss": null,
+          "pdfPage": 231
+        },
+        {
+          "id": "cc1-v1-l10-v1-04",
+          "list": "vocabularyI",
+          "number": 4,
+          "traditional": "給",
+          "pinyinSource": "gei",
+          "englishSourceGloss": null,
+          "pdfPage": 231
+        },
+        {
+          "id": "cc1-v1-l10-v1-05",
+          "list": "vocabularyI",
+          "number": 5,
+          "traditional": "塊",
+          "pinyinSource": "kuai",
+          "englishSourceGloss": null,
+          "pdfPage": 231
+        },
+        {
+          "id": "cc1-v1-l10-v1-06",
+          "list": "vocabularyI",
+          "number": 6,
+          "traditional": "香",
+          "pinyinSource": "xiang",
+          "englishSourceGloss": null,
+          "pdfPage": 231
+        },
+        {
+          "id": "cc1-v1-l10-v1-07",
+          "list": "vocabularyI",
+          "number": 7,
+          "traditional": "甜",
+          "pinyinSource": "tian",
+          "englishSourceGloss": null,
+          "pdfPage": 231
+        },
+        {
+          "id": "cc1-v1-l10-v1-08",
+          "list": "vocabularyI",
+          "number": 8,
+          "traditional": "紅色",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l10-v1-09",
+          "list": "vocabularyI",
+          "number": 9,
+          "traditional": "西瓜",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l10-v1-10",
+          "list": "vocabularyI",
+          "number": 10,
+          "traditional": "吧",
+          "pinyinSource": "ba",
+          "englishSourceGloss": null,
+          "pdfPage": 231
+        },
+        {
+          "id": "cc1-v1-l10-v1-11",
+          "list": "vocabularyI",
+          "number": 11,
+          "traditional": "對",
+          "pinyinSource": "dui",
+          "englishSourceGloss": null,
+          "pdfPage": 231
+        },
+        {
+          "id": "cc1-v1-l10-v1-12",
+          "list": "vocabularyI",
+          "number": 12,
+          "traditional": "以前",
+          "pinyinSource": "yiqian",
+          "englishSourceGloss": null,
+          "pdfPage": 231
+        },
+        {
+          "id": "cc1-v1-l10-v1-13",
+          "list": "vocabularyI",
+          "number": 13,
+          "traditional": "機會",
+          "pinyinSource": "jhui",
+          "englishSourceGloss": null,
+          "pdfPage": 231
+        },
+        {
+          "id": "cc1-v1-l10-v1-14",
+          "list": "vocabularyI",
+          "number": 14,
+          "traditional": "請",
+          "pinyinSource": "qing",
+          "englishSourceGloss": null,
+          "pdfPage": 231
+        },
+        {
+          "id": "cc1-v1-l10-v1-15",
+          "list": "vocabularyI",
+          "number": 15,
+          "traditional": "吃吃看",
+          "pinyinSource": "chichikan",
+          "englishSourceGloss": null,
+          "pdfPage": 231
+        },
+        {
+          "id": "cc1-v1-l10-v2-01",
+          "list": "vocabularyII",
+          "number": 1,
+          "traditional": "拍",
+          "pinyinSource": "pai",
+          "englishSourceGloss": "to take （pictures）",
+          "pdfPage": 234
+        },
+        {
+          "id": "cc1-v1-l10-v2-02",
+          "list": "vocabularyII",
+          "number": 2,
+          "traditional": "笑",
+          "pinyinSource": "Xiao",
+          "englishSourceGloss": "to laugh, to smile",
+          "pdfPage": 234
+        },
+        {
+          "id": "cc1-v1-l10-v2-03",
+          "list": "vocabularyII",
+          "number": 3,
+          "traditional": "開心",
+          "pinyinSource": "kaixin",
+          "englishSourceGloss": "happy",
+          "pdfPage": 234
+        },
+        {
+          "id": "cc1-v1-l10-v2-04",
+          "list": "vocabularyII",
+          "number": 4,
+          "traditional": "穿",
+          "pinyinSource": "chuan",
+          "englishSourceGloss": "to wear, to put on",
+          "pdfPage": 234
+        },
+        {
+          "id": "cc1-v1-l10-v2-05",
+          "list": "vocabularyII",
+          "number": 5,
+          "traditional": "衣服",
+          "pinyinSource": "yifu",
+          "englishSourceGloss": "clothes",
+          "pdfPage": 234
+        },
+        {
+          "id": "cc1-v1-l10-v2-06",
+          "list": "vocabularyII",
+          "number": 6,
+          "traditional": "旅館",
+          "pinyinSource": "liguan",
+          "englishSourceGloss": "hotel",
+          "pdfPage": 234
+        },
+        {
+          "id": "cc1-v1-l10-v2-07",
+          "list": "vocabularyII",
+          "number": 7,
+          "traditional": "太太",
+          "pinyinSource": "taitai",
+          "englishSourceGloss": "wife",
+          "pdfPage": 234
+        },
+        {
+          "id": "cc1-v1-l10-v2-08",
+          "list": "vocabularyII",
+          "number": 8,
+          "traditional": "男＋名詞",
+          "pinyinSource": "nan",
+          "englishSourceGloss": "boy-，male-",
+          "pdfPage": 234
+        },
+        {
+          "id": "cc1-v1-l10-v2-09",
+          "list": "vocabularyII",
+          "number": 9,
+          "traditional": "矮",
+          "pinyinSource": null,
+          "englishSourceGloss": "short （height）",
+          "pdfPage": 234
+        },
+        {
+          "id": "cc1-v1-l10-v2-10",
+          "list": "vocabularyII",
+          "number": 10,
+          "traditional": "高",
+          "pinyinSource": "gaao",
+          "englishSourceGloss": "tall",
+          "pdfPage": 234
+        },
+        {
+          "id": "cc1-v1-l10-v2-11",
+          "list": "vocabularyII",
+          "number": 11,
+          "traditional": "弟弟",
+          "pinyinSource": "didi",
+          "englishSourceGloss": "younger brother",
+          "pdfPage": 234
+        },
+        {
+          "id": "cc1-v1-l10-v2-12",
+          "list": "vocabularyII",
+          "number": 12,
+          "traditional": "乾淨",
+          "pinyinSource": "gaanjing",
+          "englishSourceGloss": "clean",
+          "pdfPage": 234
+        },
+        {
+          "id": "cc1-v1-l10-v2-13",
+          "list": "vocabularyII",
+          "number": 13,
+          "traditional": "窗戶",
+          "pinyinSource": "chuanghi",
+          "englishSourceGloss": "window",
+          "pdfPage": 234
+        },
+        {
+          "id": "cc1-v1-l10-v2-14",
+          "list": "vocabularyII",
+          "number": 14,
+          "traditional": "往",
+          "pinyinSource": "wang",
+          "englishSourceGloss": "toward, to",
+          "pdfPage": 234
+        },
+        {
+          "id": "cc1-v1-l10-v2-15",
+          "list": "vocabularyII",
+          "number": 15,
+          "traditional": "藍色",
+          "pinyinSource": "lanse",
+          "englishSourceGloss": "blue",
+          "pdfPage": 234
+        },
+        {
+          "id": "cc1-v1-l10-v2-16",
+          "list": "vocabularyII",
+          "number": 16,
+          "traditional": "因為",
+          "pinyinSource": "yinwei",
+          "englishSourceGloss": "because",
+          "pdfPage": 234
+        },
+        {
+          "id": "cc1-v1-l10-v2-17",
+          "list": "vocabularyII",
+          "number": 17,
+          "traditional": "住",
+          "pinyinSource": "zhi",
+          "englishSourceGloss": "to Stay",
+          "pdfPage": 234
+        },
+        {
+          "id": "cc1-v1-l10-v2-18",
+          "list": "vocabularyII",
+          "number": 18,
+          "traditional": "上個月",
+          "pinyinSource": "shang ge yue",
+          "englishSourceGloss": "last month",
+          "pdfPage": 234
+        },
+        {
+          "id": "cc1-v1-l10-v2-19",
+          "list": "vocabularyII",
+          "number": 19,
+          "traditional": "這些",
+          "pinyinSource": "zhexie",
+          "englishSourceGloss": "these",
+          "pdfPage": 234
+        }
+      ],
+      "verifiedAudioTrackIds": [
+        "cc1-textbook-l10-t01",
+        "cc1-textbook-l10-t02",
+        "cc1-textbook-l10-t03",
+        "cc1-textbook-l10-t04",
+        "cc1-workbook-l10-t01",
+        "cc1-workbook-l10-t02",
+        "cc1-workbook-l10-t03",
+        "cc1-workbook-l10-t04",
+        "cc1-workbook-l10-t05",
+        "cc1-workbook-l10-t06"
+      ],
+      "titleVi": "Trái cây Đài Loan rất ngon"
+    },
+    {
+      "id": "cc1-v1-l11",
+      "number": 11,
+      "traditionalTitle": "我要租房子",
+      "sourcePdfStartPage": 250,
+      "dialogues": [
+        {
+          "id": "cc1-v1-l11-dialogue-1",
+          "turns": [
+            {
+              "speaker": "如玉",
+              "traditional": "林先生，你好，我是白如玉，來看房子。"
+            },
+            {
+              "speaker": "房東",
+              "traditional": "白小姐，妳好，請進。"
+            },
+            {
+              "speaker": "房東",
+              "traditional": "這裡是客廳，廚房在左邊，右邊有浴室。"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "房子很不錯。"
+            },
+            {
+              "speaker": "房東",
+              "traditional": "這裡很方便，附近有超市和捷運站，走路五分鐘就到了。"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "現在有人住嗎？"
+            },
+            {
+              "speaker": "房東",
+              "traditional": "有。還有兩間空房間，一間是套房，一間不是。"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我想看套房。房間裡面可以上網嗎？"
+            },
+            {
+              "speaker": "房東",
+              "traditional": "可以。妳覺得這間房間怎麼樣？妳想租嗎？"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我回去想想，再打電話給你。"
+            }
+          ]
+        },
+        {
+          "id": "cc1-v1-l11-dialogue-2",
+          "turns": [
+            {
+              "speaker": "如玉",
+              "traditional": "喂，房東先生，你好，我是白如玉，你收到我的房租了嗎？"
+            },
+            {
+              "speaker": "房東",
+              "traditional": "我已經收到了，謝謝。妳習慣了嗎？"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "習慣了。可是，有一個問題，熱水器的水好像不熱。"
+            },
+            {
+              "speaker": "房東",
+              "traditional": "今天我會去看看。妳什麼時候有空？晚上可以嗎？"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "不好意思，今天晚上我有事。"
+            },
+            {
+              "speaker": "房東",
+              "traditional": "沒關係，明天下午呢？"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "好，我在家等你。"
+            },
+            {
+              "speaker": "房東",
+              "traditional": "那我明天下午兩點到。還有問題嗎？"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我想買電視。請問可以幫我裝有線電視嗎？"
+            },
+            {
+              "speaker": "房東",
+              "traditional": "可以，不過妳得自己付錢。"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "好的，謝謝你。"
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "cc1-v1-l11-v1-01",
+          "list": "vocabularyI",
+          "number": 1,
+          "traditional": "租",
+          "pinyinSource": "zu",
+          "englishSourceGloss": "tO rent",
+          "pdfPage": 253
+        },
+        {
+          "id": "cc1-v1-l11-v1-02",
+          "list": "vocabularyI",
+          "number": 2,
+          "traditional": "房東",
+          "pinyinSource": "fangdong",
+          "englishSourceGloss": "landlord",
+          "pdfPage": 253
+        },
+        {
+          "id": "cc1-v1-l11-v1-03",
+          "list": "vocabularyI",
+          "number": 3,
+          "traditional": "客廳",
+          "pinyinSource": "keting",
+          "englishSourceGloss": "livingroom",
+          "pdfPage": 253
+        },
+        {
+          "id": "cc1-v1-l11-v1-04",
+          "list": "vocabularyI",
+          "number": 4,
+          "traditional": "廚房",
+          "pinyinSource": "chifang",
+          "englishSourceGloss": "kitchen",
+          "pdfPage": 253
+        },
+        {
+          "id": "cc1-v1-l11-v1-05",
+          "list": "vocabularyI",
+          "number": 5,
+          "traditional": "左邊",
+          "pinyinSource": "zuobian",
+          "englishSourceGloss": "left （side）",
+          "pdfPage": 253
+        },
+        {
+          "id": "cc1-v1-l11-v1-06",
+          "list": "vocabularyI",
+          "number": 6,
+          "traditional": "右邊",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l11-v1-07",
+          "list": "vocabularyI",
+          "number": 7,
+          "traditional": "浴室",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l11-v1-08",
+          "list": "vocabularyI",
+          "number": 8,
+          "traditional": "超市",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l11-v1-09",
+          "list": "vocabularyI",
+          "number": 9,
+          "traditional": "走路",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l11-v1-10",
+          "list": "vocabularyI",
+          "number": 10,
+          "traditional": "分鐘",
+          "pinyinSource": "fenzhong",
+          "englishSourceGloss": "measure word for minutes",
+          "pdfPage": 253
+        },
+        {
+          "id": "cc1-v1-l11-v1-11",
+          "list": "vocabularyI",
+          "number": 11,
+          "traditional": "就",
+          "pinyinSource": "j",
+          "englishSourceGloss": "only, merely",
+          "pdfPage": 253
+        },
+        {
+          "id": "cc1-v1-l11-v1-12",
+          "list": "vocabularyI",
+          "number": 12,
+          "traditional": "到",
+          "pinyinSource": "dao",
+          "englishSourceGloss": "arrive",
+          "pdfPage": 253
+        },
+        {
+          "id": "cc1-v1-l11-v1-13",
+          "list": "vocabularyI",
+          "number": 13,
+          "traditional": "間",
+          "pinyinSource": "jian",
+          "englishSourceGloss": "measure word for houses，",
+          "pdfPage": 253
+        },
+        {
+          "id": "cc1-v1-l11-v1-14",
+          "list": "vocabularyI",
+          "number": 14,
+          "traditional": "空",
+          "pinyinSource": "kong",
+          "englishSourceGloss": "vacant, empty",
+          "pdfPage": 253
+        },
+        {
+          "id": "cc1-v1-l11-v1-15",
+          "list": "vocabularyI",
+          "number": 15,
+          "traditional": "房間",
+          "pinyinSource": "fangjian",
+          "englishSourceGloss": "room",
+          "pdfPage": 253
+        },
+        {
+          "id": "cc1-v1-l11-v1-16",
+          "list": "vocabularyI",
+          "number": 16,
+          "traditional": "套房",
+          "pinyinSource": "taofang",
+          "englishSourceGloss": "suite",
+          "pdfPage": 253
+        },
+        {
+          "id": "cc1-v1-l11-v1-17",
+          "list": "vocabularyI",
+          "number": 17,
+          "traditional": "回去",
+          "pinyinSource": "huiqu",
+          "englishSourceGloss": "to go back, to return",
+          "pdfPage": 253
+        },
+        {
+          "id": "cc1-v1-l11-v1-18",
+          "list": "vocabularyI",
+          "number": 18,
+          "traditional": "想",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l11-v1-19",
+          "list": "vocabularyI",
+          "number": 19,
+          "traditional": "再",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l11-v1-20",
+          "list": "vocabularyI",
+          "number": 20,
+          "traditional": "電話",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l11-v1-21",
+          "list": "vocabularyI",
+          "number": 21,
+          "traditional": "給",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l11-v1-22",
+          "list": "vocabularyI",
+          "number": 22,
+          "traditional": "林",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l11-v1-23",
+          "list": "vocabularyI",
+          "number": 23,
+          "traditional": "打電話",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l11-v2-01",
+          "list": "vocabularyII",
+          "number": 1,
+          "traditional": "喂",
+          "pinyinSource": "wei",
+          "englishSourceGloss": "addressing people，",
+          "pdfPage": 256
+        },
+        {
+          "id": "cc1-v1-l11-v2-02",
+          "list": "vocabularyII",
+          "number": 2,
+          "traditional": "房租",
+          "pinyinSource": "fangzi",
+          "englishSourceGloss": "rent （for a room or a",
+          "pdfPage": 256
+        },
+        {
+          "id": "cc1-v1-l11-v2-03",
+          "list": "vocabularyII",
+          "number": 3,
+          "traditional": "已經",
+          "pinyinSource": "yijing",
+          "englishSourceGloss": "already",
+          "pdfPage": 256
+        },
+        {
+          "id": "cc1-v1-l11-v2-04",
+          "list": "vocabularyII",
+          "number": 4,
+          "traditional": "習慣",
+          "pinyinSource": "xiguan",
+          "englishSourceGloss": "to get settled down，",
+          "pdfPage": 256
+        },
+        {
+          "id": "cc1-v1-l11-v2-05",
+          "list": "vocabularyII",
+          "number": 5,
+          "traditional": "問題",
+          "pinyinSource": "wenti",
+          "englishSourceGloss": "problem, question",
+          "pdfPage": 256
+        },
+        {
+          "id": "cc1-v1-l11-v2-06",
+          "list": "vocabularyII",
+          "number": 6,
+          "traditional": "熱水器",
+          "pinyinSource": "reshuiqi",
+          "englishSourceGloss": "water heater",
+          "pdfPage": 256
+        },
+        {
+          "id": "cc1-v1-l11-v2-07",
+          "list": "vocabularyII",
+          "number": 7,
+          "traditional": "好像",
+          "pinyinSource": "haoxiang",
+          "englishSourceGloss": "appear to be （often",
+          "pdfPage": 256
+        },
+        {
+          "id": "cc1-v1-l11-v2-08",
+          "list": "vocabularyII",
+          "number": 8,
+          "traditional": "會",
+          "pinyinSource": "hui",
+          "englishSourceGloss": "will",
+          "pdfPage": 256
+        },
+        {
+          "id": "cc1-v1-l11-v2-09",
+          "list": "vocabularyII",
+          "number": 9,
+          "traditional": "等",
+          "pinyinSource": "deng",
+          "englishSourceGloss": "to wait for",
+          "pdfPage": 256
+        },
+        {
+          "id": "cc1-v1-l11-v2-10",
+          "list": "vocabularyII",
+          "number": 10,
+          "traditional": "那",
+          "pinyinSource": "na",
+          "englishSourceGloss": "then, in that case",
+          "pdfPage": 256
+        },
+        {
+          "id": "cc1-v1-l11-v2-11",
+          "list": "vocabularyII",
+          "number": 11,
+          "traditional": "裝",
+          "pinyinSource": "zhuang",
+          "englishSourceGloss": "to install",
+          "pdfPage": 256
+        },
+        {
+          "id": "cc1-v1-l11-v2-12",
+          "list": "vocabularyII",
+          "number": 12,
+          "traditional": "不過",
+          "pinyinSource": "biguo",
+          "englishSourceGloss": "however, but",
+          "pdfPage": 256
+        },
+        {
+          "id": "cc1-v1-l11-v2-13",
+          "list": "vocabularyII",
+          "number": 13,
+          "traditional": "付",
+          "pinyinSource": "f",
+          "englishSourceGloss": "to pay",
+          "pdfPage": 256
+        },
+        {
+          "id": "cc1-v1-l11-v2-14",
+          "list": "vocabularyII",
+          "number": 14,
+          "traditional": "收到",
+          "pinyinSource": "shoudao",
+          "englishSourceGloss": "to receive",
+          "pdfPage": 256
+        },
+        {
+          "id": "cc1-v1-l11-v2-15",
+          "list": "vocabularyII",
+          "number": 15,
+          "traditional": "不好意思",
+          "pinyinSource": "bihao yisi",
+          "englishSourceGloss": "SOrry",
+          "pdfPage": 256
+        },
+        {
+          "id": "cc1-v1-l11-v2-16",
+          "list": "vocabularyII",
+          "number": 16,
+          "traditional": "沒關係",
+          "pinyinSource": "mei guanxi",
+          "englishSourceGloss": "Not a problem.",
+          "pdfPage": 256
+        },
+        {
+          "id": "cc1-v1-l11-v2-17",
+          "list": "vocabularyII",
+          "number": 17,
+          "traditional": "有線電視",
+          "pinyinSource": "youxian dianshi",
+          "englishSourceGloss": "cable TV",
+          "pdfPage": 256
+        }
+      ],
+      "verifiedAudioTrackIds": [
+        "cc1-textbook-l11-t01",
+        "cc1-textbook-l11-t02",
+        "cc1-textbook-l11-t03",
+        "cc1-textbook-l11-t04",
+        "cc1-workbook-l11-t01",
+        "cc1-workbook-l11-t02",
+        "cc1-workbook-l11-t03",
+        "cc1-workbook-l11-t04",
+        "cc1-workbook-l11-t05"
+      ],
+      "titleVi": "Tôi muốn thuê nhà"
+    },
+    {
+      "id": "cc1-v1-l12",
+      "number": 12,
+      "traditionalTitle": "你在臺灣學多久的中文？",
+      "sourcePdfStartPage": 272,
+      "dialogues": [
+        {
+          "id": "cc1-v1-l12-dialogue-1",
+          "turns": [
+            {
+              "speaker": "田中",
+              "traditional": "安同，你計畫在臺灣學多久的中文？"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "五年。"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "為什麼要這麼久的時間？"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "我先在語言中心念一年，再念四年大學，所以需要五年。"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "這得花不少錢！"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "對，不過我有獎學金。要是成績不好，就沒獎學金了。你呢？"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "我的學費是公司替我付的。"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "你打算學多久呢？"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "大概兩年，是公司決定的。"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "希望我以後也可以到這麼好的公司上班。"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "我又要上班，又要念書，真的很累。"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "我們一起加油吧！"
+            }
+          ]
+        },
+        {
+          "id": "cc1-v1-l12-dialogue-2",
+          "turns": [
+            {
+              "speaker": "月美",
+              "traditional": "田中，你是什麼時候來臺灣工作的？"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "去年，我已經在臺灣工作一年了。"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "為什麼你們公司要替你付學費？"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "因為我們公司跟臺灣人做生意。老闆希望我們都會說中文。"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "我覺得你們公司真好。"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "對了，妳回國以後，打算做什麼？"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "我回國以後，也想找個有機會說中文的工作。"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "不錯，這樣的工作在你們國家好找嗎？"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "不知道好不好找，我試試看。"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "要是難找呢？"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "那麼我再來臺灣學中文。"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "太好了！那我們就可以再見面了。"
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "cc1-v1-l12-v1-01",
+          "list": "vocabularyI",
+          "number": 1,
+          "traditional": "計畫",
+          "pinyinSource": "jihua",
+          "englishSourceGloss": "to plan to",
+          "pdfPage": 275
+        },
+        {
+          "id": "cc1-v1-l12-v1-02",
+          "list": "vocabularyI",
+          "number": 2,
+          "traditional": "年",
+          "pinyinSource": "nian",
+          "englishSourceGloss": "measure word for year",
+          "pdfPage": 275
+        },
+        {
+          "id": "cc1-v1-l12-v1-03",
+          "list": "vocabularyI",
+          "number": 3,
+          "traditional": "久",
+          "pinyinSource": "j",
+          "englishSourceGloss": "long （time）",
+          "pdfPage": 275
+        },
+        {
+          "id": "cc1-v1-l12-v1-04",
+          "list": "vocabularyI",
+          "number": 4,
+          "traditional": "時間",
+          "pinyinSource": "shijian",
+          "englishSourceGloss": "time",
+          "pdfPage": 275
+        },
+        {
+          "id": "cc1-v1-l12-v1-05",
+          "list": "vocabularyI",
+          "number": 5,
+          "traditional": "先",
+          "pinyinSource": "xian",
+          "englishSourceGloss": "first",
+          "pdfPage": 275
+        },
+        {
+          "id": "cc1-v1-l12-v1-06",
+          "list": "vocabularyI",
+          "number": 6,
+          "traditional": "念",
+          "pinyinSource": "nian",
+          "englishSourceGloss": "to study",
+          "pdfPage": 275
+        },
+        {
+          "id": "cc1-v1-l12-v1-07",
+          "list": "vocabularyI",
+          "number": 7,
+          "traditional": "大學",
+          "pinyinSource": "daxue",
+          "englishSourceGloss": "university",
+          "pdfPage": 275
+        },
+        {
+          "id": "cc1-v1-l12-v1-08",
+          "list": "vocabularyI",
+          "number": 8,
+          "traditional": "需要",
+          "pinyinSource": "xiyao",
+          "englishSourceGloss": "to need",
+          "pdfPage": 275
+        },
+        {
+          "id": "cc1-v1-l12-v1-09",
+          "list": "vocabularyI",
+          "number": 9,
+          "traditional": "花",
+          "pinyinSource": "hua",
+          "englishSourceGloss": "to spend （time or money）",
+          "pdfPage": 275
+        },
+        {
+          "id": "cc1-v1-l12-v1-10",
+          "list": "vocabularyI",
+          "number": 10,
+          "traditional": "獎學金",
+          "pinyinSource": "jiangxuejin",
+          "englishSourceGloss": "scholarship",
+          "pdfPage": 275
+        },
+        {
+          "id": "cc1-v1-l12-v1-11",
+          "list": "vocabularyI",
+          "number": 11,
+          "traditional": "成績",
+          "pinyinSource": "chengji",
+          "englishSourceGloss": "grades",
+          "pdfPage": 275
+        },
+        {
+          "id": "cc1-v1-l12-v1-12",
+          "list": "vocabularyI",
+          "number": 12,
+          "traditional": "學費",
+          "pinyinSource": "xuefei",
+          "englishSourceGloss": "tuition",
+          "pdfPage": 275
+        },
+        {
+          "id": "cc1-v1-l12-v1-13",
+          "list": "vocabularyI",
+          "number": 13,
+          "traditional": "公司",
+          "pinyinSource": "gongsi",
+          "englishSourceGloss": "company",
+          "pdfPage": 275
+        },
+        {
+          "id": "cc1-v1-l12-v1-14",
+          "list": "vocabularyI",
+          "number": 14,
+          "traditional": "替",
+          "pinyinSource": "ti",
+          "englishSourceGloss": "for, on behalf of",
+          "pdfPage": 275
+        },
+        {
+          "id": "cc1-v1-l12-v1-15",
+          "list": "vocabularyI",
+          "number": 15,
+          "traditional": "希望",
+          "pinyinSource": "xiwang",
+          "englishSourceGloss": "to hope",
+          "pdfPage": 275
+        },
+        {
+          "id": "cc1-v1-l12-v1-16",
+          "list": "vocabularyI",
+          "number": 16,
+          "traditional": "以後",
+          "pinyinSource": "yihou",
+          "englishSourceGloss": "in the future",
+          "pdfPage": 276
+        },
+        {
+          "id": "cc1-v1-l12-v1-17",
+          "list": "vocabularyI",
+          "number": 17,
+          "traditional": "到",
+          "pinyinSource": "dao",
+          "englishSourceGloss": "to gqo/come to",
+          "pdfPage": 276
+        },
+        {
+          "id": "cc1-v1-l12-v1-18",
+          "list": "vocabularyI",
+          "number": 18,
+          "traditional": "上班",
+          "pinyinSource": "shangban",
+          "englishSourceGloss": "to go to work",
+          "pdfPage": 276
+        },
+        {
+          "id": "cc1-v1-l12-v1-19",
+          "list": "vocabularyI",
+          "number": 19,
+          "traditional": "念書",
+          "pinyinSource": "nianshiu",
+          "englishSourceGloss": "to study",
+          "pdfPage": 276
+        },
+        {
+          "id": "cc1-v1-l12-v1-20",
+          "list": "vocabularyI",
+          "number": 20,
+          "traditional": "累",
+          "pinyinSource": "lei",
+          "englishSourceGloss": "tired",
+          "pdfPage": 276
+        },
+        {
+          "id": "cc1-v1-l12-v1-21",
+          "list": "vocabularyI",
+          "number": 21,
+          "traditional": "語言中心",
+          "pinyinSource": "yiyan zhongxin",
+          "englishSourceGloss": "language center",
+          "pdfPage": 276
+        },
+        {
+          "id": "cc1-v1-l12-v1-22",
+          "list": "vocabularyI",
+          "number": 22,
+          "traditional": "加油",
+          "pinyinSource": "jiayou",
+          "englishSourceGloss": "keep up the good work",
+          "pdfPage": 276
+        },
+        {
+          "id": "cc1-v1-l12-v2-01",
+          "list": "vocabularyII",
+          "number": 1,
+          "traditional": "工作",
+          "pinyinSource": "gongzuo",
+          "englishSourceGloss": "to work",
+          "pdfPage": 278
+        },
+        {
+          "id": "cc1-v1-l12-v2-02",
+          "list": "vocabularyII",
+          "number": 2,
+          "traditional": "去年",
+          "pinyinSource": "qinian",
+          "englishSourceGloss": "last year",
+          "pdfPage": 278
+        },
+        {
+          "id": "cc1-v1-l12-v2-03",
+          "list": "vocabularyII",
+          "number": 3,
+          "traditional": "做",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l12-v2-04",
+          "list": "vocabularyII",
+          "number": 4,
+          "traditional": "生意",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l12-v2-05",
+          "list": "vocabularyII",
+          "number": 5,
+          "traditional": "以後",
+          "pinyinSource": "yihou",
+          "englishSourceGloss": "afterwards",
+          "pdfPage": 278
+        },
+        {
+          "id": "cc1-v1-l12-v2-06",
+          "list": "vocabularyII",
+          "number": 6,
+          "traditional": "好",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l12-v2-07",
+          "list": "vocabularyII",
+          "number": 7,
+          "traditional": "找",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l12-v2-08",
+          "list": "vocabularyII",
+          "number": 8,
+          "traditional": "工作",
+          "pinyinSource": "gongzuo",
+          "englishSourceGloss": "job,work",
+          "pdfPage": 278
+        },
+        {
+          "id": "cc1-v1-l12-v2-09",
+          "list": "vocabularyII",
+          "number": 9,
+          "traditional": "這樣",
+          "pinyinSource": "zheyang",
+          "englishSourceGloss": "this kind （of）",
+          "pdfPage": 278
+        },
+        {
+          "id": "cc1-v1-l12-v2-10",
+          "list": "vocabularyII",
+          "number": 10,
+          "traditional": "國家",
+          "pinyinSource": "guojia",
+          "englishSourceGloss": "country",
+          "pdfPage": 278
+        },
+        {
+          "id": "cc1-v1-l12-v2-11",
+          "list": "vocabularyII",
+          "number": 11,
+          "traditional": "試",
+          "pinyinSource": "shi",
+          "englishSourceGloss": "to try",
+          "pdfPage": 278
+        },
+        {
+          "id": "cc1-v1-l12-v2-12",
+          "list": "vocabularyII",
+          "number": 12,
+          "traditional": "難",
+          "pinyinSource": "nan",
+          "englishSourceGloss": "hard to, difficult to",
+          "pdfPage": 279
+        },
+        {
+          "id": "cc1-v1-l12-v2-13",
+          "list": "vocabularyII",
+          "number": 13,
+          "traditional": "那麼",
+          "pinyinSource": "name",
+          "englishSourceGloss": "then",
+          "pdfPage": 279
+        },
+        {
+          "id": "cc1-v1-l12-v2-14",
+          "list": "vocabularyII",
+          "number": 14,
+          "traditional": "再",
+          "pinyinSource": "zai",
+          "englishSourceGloss": "again",
+          "pdfPage": 279
+        },
+        {
+          "id": "cc1-v1-l12-v2-15",
+          "list": "vocabularyII",
+          "number": 15,
+          "traditional": "試試看",
+          "pinyinSource": "shishikan",
+          "englishSourceGloss": "to give it a try，",
+          "pdfPage": 279
+        }
+      ],
+      "verifiedAudioTrackIds": [
+        "cc1-textbook-l12-t01",
+        "cc1-textbook-l12-t02",
+        "cc1-textbook-l12-t03",
+        "cc1-textbook-l12-t04",
+        "cc1-workbook-l12-t01",
+        "cc1-workbook-l12-t02",
+        "cc1-workbook-l12-t03",
+        "cc1-workbook-l12-t04",
+        "cc1-workbook-l12-t05"
+      ],
+      "titleVi": "Bạn học tiếng Hoa ở Đài Loan bao lâu?"
+    },
+    {
+      "id": "cc1-v1-l13",
+      "number": 13,
+      "traditionalTitle": "生日快樂",
+      "sourcePdfStartPage": 296,
+      "dialogues": [
+        {
+          "id": "cc1-v1-l13-dialogue-1",
+          "turns": [
+            {
+              "speaker": "怡君",
+              "traditional": "喂，安同嗎？"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "是，我就是。怡君，好久不見，聽說妳去花蓮？"
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "我沒去花蓮，我剛從臺東回來。"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "找我有什麼事？"
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "明天是你的生日，對不對？"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "啊，我怎麼忘了！最近太忙了，謝謝妳還記得。"
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "當然記得！語言交換的時候，你那麼熱心教我西班牙文。"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "不必客氣，妳也一樣。"
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "明天我想請你吃晚飯，給你過生日。"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "妳太客氣了！我們在哪裡見面呢？"
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "明天我一下課，就去你們學校找你。"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "大概幾點？"
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "五點左右。"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "好，我會在學校門口等妳。"
+            }
+          ]
+        },
+        {
+          "id": "cc1-v1-l13-dialogue-2",
+          "turns": [
+            {
+              "speaker": "安同",
+              "traditional": "怡君，謝謝妳請我到這麼有名的餐廳吃飯。"
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "哪裡，哪裡！這是我給你的禮物。"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "謝謝！真開心，今年有臺灣朋友給我過生日。"
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "你想吃什麼？有沒有不吃的東西？"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "我什麼都吃。"
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "我已經訂了豬腳麵線和蛋。等一下你多吃一點。"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "臺灣人過生日是不是都吃這些東西？"
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "對啊！這是傳統，不過，現在大部分年輕人過生日不吃這些東西了。"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "那麼，你們過生日吃什麼呢？"
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "跟你們一樣，吃蛋糕。今天我也訂了一個生日蛋糕。"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "妳對我真好。"
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "安同，祝你生日快樂、萬事如意、心想事成。"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "謝謝！謝謝！"
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "cc1-v1-l13-v1-01",
+          "list": "vocabularyI",
+          "number": 1,
+          "traditional": "生日",
+          "pinyinSource": "shengri",
+          "englishSourceGloss": "birthday",
+          "pdfPage": 299
+        },
+        {
+          "id": "cc1-v1-l13-v1-02",
+          "list": "vocabularyI",
+          "number": 2,
+          "traditional": "快樂",
+          "pinyinSource": "kuaile",
+          "englishSourceGloss": "happy",
+          "pdfPage": 299
+        },
+        {
+          "id": "cc1-v1-l13-v1-03",
+          "list": "vocabularyI",
+          "number": 3,
+          "traditional": "回來",
+          "pinyinSource": "huilai",
+          "englishSourceGloss": "to come back",
+          "pdfPage": 299
+        },
+        {
+          "id": "cc1-v1-l13-v1-04",
+          "list": "vocabularyI",
+          "number": 4,
+          "traditional": "啊",
+          "pinyinSource": "a",
+          "englishSourceGloss": "a particle indicating a",
+          "pdfPage": 299
+        },
+        {
+          "id": "cc1-v1-l13-v1-05",
+          "list": "vocabularyI",
+          "number": 5,
+          "traditional": "怎麼",
+          "pinyinSource": "zenme",
+          "englishSourceGloss": "How come？",
+          "pdfPage": 299
+        },
+        {
+          "id": "cc1-v1-l13-v1-06",
+          "list": "vocabularyI",
+          "number": 6,
+          "traditional": "忘（了）",
+          "pinyinSource": "wangle",
+          "englishSourceGloss": "to forget",
+          "pdfPage": 299
+        },
+        {
+          "id": "cc1-v1-l13-v1-07",
+          "list": "vocabularyI",
+          "number": 7,
+          "traditional": "記得",
+          "pinyinSource": "jide",
+          "englishSourceGloss": "to remember",
+          "pdfPage": 299
+        },
+        {
+          "id": "cc1-v1-l13-v1-08",
+          "list": "vocabularyI",
+          "number": 8,
+          "traditional": "當然",
+          "pinyinSource": "dangran",
+          "englishSourceGloss": "certainly, of course",
+          "pdfPage": 299
+        },
+        {
+          "id": "cc1-v1-l13-v1-09",
+          "list": "vocabularyI",
+          "number": 9,
+          "traditional": "語言",
+          "pinyinSource": "yiyan",
+          "englishSourceGloss": "language",
+          "pdfPage": 299
+        },
+        {
+          "id": "cc1-v1-l13-v1-10",
+          "list": "vocabularyI",
+          "number": 10,
+          "traditional": "交換",
+          "pinyinSource": "jiaohuan",
+          "englishSourceGloss": "to exchange",
+          "pdfPage": 300
+        },
+        {
+          "id": "cc1-v1-l13-v1-11",
+          "list": "vocabularyI",
+          "number": 11,
+          "traditional": "那麼",
+          "pinyinSource": "name",
+          "englishSourceGloss": "SO（very）",
+          "pdfPage": 300
+        },
+        {
+          "id": "cc1-v1-l13-v1-12",
+          "list": "vocabularyI",
+          "number": 12,
+          "traditional": "熱心",
+          "pinyinSource": "rexin",
+          "englishSourceGloss": "with enthusiasm",
+          "pdfPage": 300
+        },
+        {
+          "id": "cc1-v1-l13-v1-13",
+          "list": "vocabularyI",
+          "number": 13,
+          "traditional": "西班牙文",
+          "pinyinSource": "Xibanya wen",
+          "englishSourceGloss": "the Spanish language",
+          "pdfPage": 300
+        },
+        {
+          "id": "cc1-v1-l13-v1-14",
+          "list": "vocabularyI",
+          "number": 14,
+          "traditional": "一樣",
+          "pinyinSource": "yiyang",
+          "englishSourceGloss": "the same, alike",
+          "pdfPage": 300
+        },
+        {
+          "id": "cc1-v1-l13-v1-15",
+          "list": "vocabularyI",
+          "number": 15,
+          "traditional": "過",
+          "pinyinSource": "gqu0",
+          "englishSourceGloss": "to celebrate",
+          "pdfPage": 300
+        },
+        {
+          "id": "cc1-v1-l13-v1-16",
+          "list": "vocabularyI",
+          "number": 16,
+          "traditional": "左右",
+          "pinyinSource": "zudyou",
+          "englishSourceGloss": "approximately",
+          "pdfPage": 300
+        },
+        {
+          "id": "cc1-v1-l13-v1-17",
+          "list": "vocabularyI",
+          "number": 17,
+          "traditional": "門口",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l13-v1-18",
+          "list": "vocabularyI",
+          "number": 18,
+          "traditional": "西班牙",
+          "pinyinSource": "Xibanya",
+          "englishSourceGloss": "Spain",
+          "pdfPage": 300
+        },
+        {
+          "id": "cc1-v1-l13-v1-19",
+          "list": "vocabularyI",
+          "number": 19,
+          "traditional": "生日快樂",
+          "pinyinSource": "shengri",
+          "englishSourceGloss": "Happy Birthday.",
+          "pdfPage": 300
+        },
+        {
+          "id": "cc1-v1-l13-v1-20",
+          "list": "vocabularyI",
+          "number": 20,
+          "traditional": "我就是",
+          "pinyinSource": "wojid shi",
+          "englishSourceGloss": "（said of self on the phone）",
+          "pdfPage": 300
+        },
+        {
+          "id": "cc1-v1-l13-v1-21",
+          "list": "vocabularyI",
+          "number": 21,
+          "traditional": "好久不見",
+          "pinyinSource": "haojid bujian",
+          "englishSourceGloss": "long time no see",
+          "pdfPage": 300
+        },
+        {
+          "id": "cc1-v1-l13-v1-22",
+          "list": "vocabularyI",
+          "number": 22,
+          "traditional": "不必客氣",
+          "pinyinSource": "bibikeqi",
+          "englishSourceGloss": "formalities, i.e.， It's my",
+          "pdfPage": 300
+        },
+        {
+          "id": "cc1-v1-l13-v1-23",
+          "list": "vocabularyI",
+          "number": 23,
+          "traditional": "太客氣",
+          "pinyinSource": "tai kegi",
+          "englishSourceGloss": "That's very kind of you.",
+          "pdfPage": 300
+        },
+        {
+          "id": "cc1-v1-l13-v2-01",
+          "list": "vocabularyII",
+          "number": 1,
+          "traditional": "禮物",
+          "pinyinSource": "liwi",
+          "englishSourceGloss": "gift, present",
+          "pdfPage": 303
+        },
+        {
+          "id": "cc1-v1-l13-v2-02",
+          "list": "vocabularyII",
+          "number": 2,
+          "traditional": "今年",
+          "pinyinSource": "jinnian",
+          "englishSourceGloss": "this year",
+          "pdfPage": 303
+        },
+        {
+          "id": "cc1-v1-l13-v2-03",
+          "list": "vocabularyII",
+          "number": 3,
+          "traditional": "訂",
+          "pinyinSource": "ding",
+          "englishSourceGloss": "to order （something in",
+          "pdfPage": 303
+        },
+        {
+          "id": "cc1-v1-l13-v2-04",
+          "list": "vocabularyII",
+          "number": 4,
+          "traditional": "了",
+          "pinyinSource": "le",
+          "englishSourceGloss": "verbal particle indicating a",
+          "pdfPage": 303
+        },
+        {
+          "id": "cc1-v1-l13-v2-05",
+          "list": "vocabularyII",
+          "number": 5,
+          "traditional": "豬腳",
+          "pinyinSource": "zhujiao",
+          "englishSourceGloss": "pork knuckles",
+          "pdfPage": 303
+        },
+        {
+          "id": "cc1-v1-l13-v2-06",
+          "list": "vocabularyII",
+          "number": 6,
+          "traditional": "麵線",
+          "pinyinSource": "mianxian",
+          "englishSourceGloss": "extra fine noodles",
+          "pdfPage": 303
+        },
+        {
+          "id": "cc1-v1-l13-v2-07",
+          "list": "vocabularyII",
+          "number": 7,
+          "traditional": "蛋",
+          "pinyinSource": "dan",
+          "englishSourceGloss": "egg",
+          "pdfPage": 303
+        },
+        {
+          "id": "cc1-v1-l13-v2-08",
+          "list": "vocabularyII",
+          "number": 8,
+          "traditional": "一點",
+          "pinyinSource": "yidian",
+          "englishSourceGloss": "a little, some",
+          "pdfPage": 304
+        },
+        {
+          "id": "cc1-v1-l13-v2-09",
+          "list": "vocabularyII",
+          "number": 9,
+          "traditional": "傳統",
+          "pinyinSource": "chuantong",
+          "englishSourceGloss": "tradition, customs",
+          "pdfPage": 304
+        },
+        {
+          "id": "cc1-v1-l13-v2-10",
+          "list": "vocabularyII",
+          "number": 10,
+          "traditional": "年輕",
+          "pinyinSource": "nianqing",
+          "englishSourceGloss": "young",
+          "pdfPage": 304
+        },
+        {
+          "id": "cc1-v1-l13-v2-11",
+          "list": "vocabularyII",
+          "number": 11,
+          "traditional": "蛋糕",
+          "pinyinSource": "dangao",
+          "englishSourceGloss": "cake",
+          "pdfPage": 304
+        },
+        {
+          "id": "cc1-v1-l13-v2-12",
+          "list": "vocabularyII",
+          "number": 12,
+          "traditional": "對",
+          "pinyinSource": "dui",
+          "englishSourceGloss": "tO",
+          "pdfPage": 304
+        },
+        {
+          "id": "cc1-v1-l13-v2-13",
+          "list": "vocabularyII",
+          "number": 13,
+          "traditional": "祝",
+          "pinyinSource": "zhi",
+          "englishSourceGloss": "to wish （somebody",
+          "pdfPage": 304
+        },
+        {
+          "id": "cc1-v1-l13-v2-14",
+          "list": "vocabularyII",
+          "number": 14,
+          "traditional": "哪裡，哪裡",
+          "pinyinSource": "Nali, nali",
+          "englishSourceGloss": "Don't mention it.",
+          "pdfPage": 304
+        },
+        {
+          "id": "cc1-v1-l13-v2-15",
+          "list": "vocabularyII",
+          "number": 15,
+          "traditional": "大部分",
+          "pinyinSource": "da bifen",
+          "englishSourceGloss": "most （of）， mostly",
+          "pdfPage": 304
+        },
+        {
+          "id": "cc1-v1-l13-v2-16",
+          "list": "vocabularyII",
+          "number": 16,
+          "traditional": "萬事如意",
+          "pinyinSource": "wanshi riyi",
+          "englishSourceGloss": "May everything go your",
+          "pdfPage": 304
+        },
+        {
+          "id": "cc1-v1-l13-v2-17",
+          "list": "vocabularyII",
+          "number": 17,
+          "traditional": "心想事成",
+          "pinyinSource": "xinxiang",
+          "englishSourceGloss": "May all your wishes come",
+          "pdfPage": 304
+        }
+      ],
+      "verifiedAudioTrackIds": [
+        "cc1-textbook-l13-t01",
+        "cc1-textbook-l13-t02",
+        "cc1-textbook-l13-t03",
+        "cc1-textbook-l13-t04",
+        "cc1-workbook-l13-t01",
+        "cc1-workbook-l13-t02",
+        "cc1-workbook-l13-t03",
+        "cc1-workbook-l13-t04",
+        "cc1-workbook-l13-t05"
+      ],
+      "titleVi": "Chúc mừng sinh nhật"
+    },
+    {
+      "id": "cc1-v1-l14",
+      "number": 14,
+      "traditionalTitle": "天氣這麼冷！",
+      "sourcePdfStartPage": 326,
+      "dialogues": [
+        {
+          "id": "cc1-v1-l14-dialogue-1",
+          "turns": [
+            {
+              "speaker": "如玉",
+              "traditional": "外面風那麼大，我覺得今天比昨天冷。臺灣會不會下雪？"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "很高的山會下雪。玉山常下雪。美國呢？開始下雪了吧？"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "還沒有。每年差不多十二月開始。下雪的時候，我常去山上滑雪。"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "我怕冷。我比較喜歡春天。"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "春天不錯，天氣很舒服。"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "我去年五月在紐約玩了兩個星期。那個時候，天氣很好，風景也很漂亮，我玩得非常開心。"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我在臺灣住了半年多了。有一點想家。"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "新年快到了。想回去看父母嗎？"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我打算十二月底回去。想跟我去美國玩嗎？"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "冬天太冷了。不過，我想明年秋天去看紅葉。對了，妳什麼時候回來？"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "因為我們只放十天的假，所以一月五號回來。"
+            }
+          ]
+        },
+        {
+          "id": "cc1-v1-l14-dialogue-2",
+          "turns": [
+            {
+              "speaker": "明華",
+              "traditional": "如玉，雨下得這麼大，妳怎麼沒帶傘呢？"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我昨天帶了，可是今天忘了帶。"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "颱風快要來了。"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我已經聽說了。"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "這裡每年夏天都有颱風。颱風來的時候，風和雨都很大，做什麼都很不方便。"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "是啊！哪裡都濕濕的。真討厭。"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "電視新聞說，這次的颱風會比上次的更大，請大家多小心。"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "希望這次的沒有上次的那麼可怕。"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "如玉，妳看！雨停了。"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "太好了！謝謝你的傘，再見。"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "不客氣。小心慢走。"
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "cc1-v1-l14-v1-01",
+          "list": "vocabularyI",
+          "number": 1,
+          "traditional": "天氣",
+          "pinyinSource": "tiangi",
+          "englishSourceGloss": "weather",
+          "pdfPage": 329
+        },
+        {
+          "id": "cc1-v1-l14-v1-02",
+          "list": "vocabularyI",
+          "number": 2,
+          "traditional": "冷",
+          "pinyinSource": "lEng",
+          "englishSourceGloss": "cold",
+          "pdfPage": 329
+        },
+        {
+          "id": "cc1-v1-l14-v1-03",
+          "list": "vocabularyI",
+          "number": 3,
+          "traditional": "風",
+          "pinyinSource": "feng",
+          "englishSourceGloss": "wind",
+          "pdfPage": 329
+        },
+        {
+          "id": "cc1-v1-l14-v1-04",
+          "list": "vocabularyI",
+          "number": 4,
+          "traditional": "滑雪",
+          "pinyinSource": "huaxue",
+          "englishSourceGloss": "to ski",
+          "pdfPage": 329
+        },
+        {
+          "id": "cc1-v1-l14-v1-05",
+          "list": "vocabularyI",
+          "number": 5,
+          "traditional": "春天",
+          "pinyinSource": "chintian",
+          "englishSourceGloss": "spring （season）",
+          "pdfPage": 329
+        },
+        {
+          "id": "cc1-v1-l14-v1-06",
+          "list": "vocabularyI",
+          "number": 6,
+          "traditional": "想",
+          "pinyinSource": "xiang",
+          "englishSourceGloss": "to miss （someone）",
+          "pdfPage": 329
+        },
+        {
+          "id": "cc1-v1-l14-v1-07",
+          "list": "vocabularyI",
+          "number": 7,
+          "traditional": "新年",
+          "pinyinSource": "xinnian",
+          "englishSourceGloss": "New Year",
+          "pdfPage": 329
+        },
+        {
+          "id": "cc1-v1-l14-v1-08",
+          "list": "vocabularyI",
+          "number": 8,
+          "traditional": "快",
+          "pinyinSource": "kuai",
+          "englishSourceGloss": "SOOn",
+          "pdfPage": 329
+        },
+        {
+          "id": "cc1-v1-l14-v1-09",
+          "list": "vocabularyI",
+          "number": 9,
+          "traditional": "父母",
+          "pinyinSource": "fimi",
+          "englishSourceGloss": "parents",
+          "pdfPage": 329
+        },
+        {
+          "id": "cc1-v1-l14-v1-10",
+          "list": "vocabularyI",
+          "number": 10,
+          "traditional": "冬天",
+          "pinyinSource": "dongtian",
+          "englishSourceGloss": "winter （season）",
+          "pdfPage": 330
+        },
+        {
+          "id": "cc1-v1-l14-v1-11",
+          "list": "vocabularyI",
+          "number": 11,
+          "traditional": "明年",
+          "pinyinSource": "mingnian",
+          "englishSourceGloss": "next year",
+          "pdfPage": 330
+        },
+        {
+          "id": "cc1-v1-l14-v1-12",
+          "list": "vocabularyI",
+          "number": 12,
+          "traditional": "秋天",
+          "pinyinSource": "qiutian",
+          "englishSourceGloss": "autumn （season）",
+          "pdfPage": 330
+        },
+        {
+          "id": "cc1-v1-l14-v1-13",
+          "list": "vocabularyI",
+          "number": 13,
+          "traditional": "紅葉",
+          "pinyinSource": "hongye",
+          "englishSourceGloss": "red maple leaves",
+          "pdfPage": 330
+        },
+        {
+          "id": "cc1-v1-l14-v1-14",
+          "list": "vocabularyI",
+          "number": 14,
+          "traditional": "只",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l14-v1-15",
+          "list": "vocabularyI",
+          "number": 15,
+          "traditional": "玉山",
+          "pinyinSource": "Yishan",
+          "englishSourceGloss": "tallest mountain in central",
+          "pdfPage": 330
+        },
+        {
+          "id": "cc1-v1-l14-v1-16",
+          "list": "vocabularyI",
+          "number": 16,
+          "traditional": "紐約",
+          "pinyinSource": "Nidyue",
+          "englishSourceGloss": "New York",
+          "pdfPage": 330
+        },
+        {
+          "id": "cc1-v1-l14-v1-17",
+          "list": "vocabularyI",
+          "number": 17,
+          "traditional": "下雪",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l14-v1-18",
+          "list": "vocabularyI",
+          "number": 18,
+          "traditional": "十二月底",
+          "pinyinSource": "shi'eryue di",
+          "englishSourceGloss": "the end of December",
+          "pdfPage": 330
+        },
+        {
+          "id": "cc1-v1-l14-v2-01",
+          "list": "vocabularyII",
+          "number": 1,
+          "traditional": "雨",
+          "pinyinSource": "yi",
+          "englishSourceGloss": "rain",
+          "pdfPage": 332
+        },
+        {
+          "id": "cc1-v1-l14-v2-02",
+          "list": "vocabularyII",
+          "number": 2,
+          "traditional": "傘",
+          "pinyinSource": "san",
+          "englishSourceGloss": "umbrella",
+          "pdfPage": 332
+        },
+        {
+          "id": "cc1-v1-l14-v2-03",
+          "list": "vocabularyII",
+          "number": 3,
+          "traditional": "颱風",
+          "pinyinSource": "taifeng",
+          "englishSourceGloss": "typhoon",
+          "pdfPage": 332
+        },
+        {
+          "id": "cc1-v1-l14-v2-04",
+          "list": "vocabularyII",
+          "number": 4,
+          "traditional": "要",
+          "pinyinSource": "yao",
+          "englishSourceGloss": "will, going to",
+          "pdfPage": 332
+        },
+        {
+          "id": "cc1-v1-l14-v2-05",
+          "list": "vocabularyII",
+          "number": 5,
+          "traditional": "夏天",
+          "pinyinSource": "xiatian",
+          "englishSourceGloss": "summer （season）",
+          "pdfPage": 332
+        },
+        {
+          "id": "cc1-v1-l14-v2-06",
+          "list": "vocabularyII",
+          "number": 6,
+          "traditional": "濕",
+          "pinyinSource": "shi",
+          "englishSourceGloss": "wet",
+          "pdfPage": 332
+        },
+        {
+          "id": "cc1-v1-l14-v2-07",
+          "list": "vocabularyII",
+          "number": 7,
+          "traditional": "討厭",
+          "pinyinSource": "taoyan",
+          "englishSourceGloss": "annoying",
+          "pdfPage": 332
+        },
+        {
+          "id": "cc1-v1-l14-v2-08",
+          "list": "vocabularyII",
+          "number": 8,
+          "traditional": "新聞",
+          "pinyinSource": "xinwen",
+          "englishSourceGloss": "news",
+          "pdfPage": 332
+        },
+        {
+          "id": "cc1-v1-l14-v2-09",
+          "list": "vocabularyII",
+          "number": 9,
+          "traditional": "更",
+          "pinyinSource": "geng",
+          "englishSourceGloss": "even （more, less, etc.）",
+          "pdfPage": 332
+        },
+        {
+          "id": "cc1-v1-l14-v2-10",
+          "list": "vocabularyII",
+          "number": 10,
+          "traditional": "大家",
+          "pinyinSource": "dajia",
+          "englishSourceGloss": "everyone",
+          "pdfPage": 332
+        },
+        {
+          "id": "cc1-v1-l14-v2-11",
+          "list": "vocabularyII",
+          "number": 11,
+          "traditional": "小心",
+          "pinyinSource": "xiaoxin",
+          "englishSourceGloss": "to be careful, to take care",
+          "pdfPage": 332
+        },
+        {
+          "id": "cc1-v1-l14-v2-12",
+          "list": "vocabularyII",
+          "number": 12,
+          "traditional": "可怕",
+          "pinyinSource": "kEpa",
+          "englishSourceGloss": "scary",
+          "pdfPage": 333
+        },
+        {
+          "id": "cc1-v1-l14-v2-13",
+          "list": "vocabularyII",
+          "number": 13,
+          "traditional": "停",
+          "pinyinSource": "ting",
+          "englishSourceGloss": "to stOp",
+          "pdfPage": 333
+        },
+        {
+          "id": "cc1-v1-l14-v2-14",
+          "list": "vocabularyII",
+          "number": 14,
+          "traditional": "下雨",
+          "pinyinSource": "xiayi",
+          "englishSourceGloss": "to rain",
+          "pdfPage": 333
+        },
+        {
+          "id": "cc1-v1-l14-v2-15",
+          "list": "vocabularyII",
+          "number": 15,
+          "traditional": "這次",
+          "pinyinSource": "zhe ci",
+          "englishSourceGloss": "this time",
+          "pdfPage": 333
+        },
+        {
+          "id": "cc1-v1-l14-v2-16",
+          "list": "vocabularyII",
+          "number": 16,
+          "traditional": "上次",
+          "pinyinSource": "shangci",
+          "englishSourceGloss": "last time",
+          "pdfPage": 333
+        },
+        {
+          "id": "cc1-v1-l14-v2-17",
+          "list": "vocabularyII",
+          "number": 17,
+          "traditional": "慢走",
+          "pinyinSource": "man zou",
+          "englishSourceGloss": "Bye. Take care.",
+          "pdfPage": 333
+        }
+      ],
+      "verifiedAudioTrackIds": [
+        "cc1-textbook-l14-t01",
+        "cc1-textbook-l14-t02",
+        "cc1-textbook-l14-t03",
+        "cc1-textbook-l14-t04",
+        "cc1-workbook-l14-t01",
+        "cc1-workbook-l14-t02",
+        "cc1-workbook-l14-t03",
+        "cc1-workbook-l14-t04",
+        "cc1-workbook-l14-t05"
+      ],
+      "titleVi": "Trời lạnh thế!"
+    },
+    {
+      "id": "cc1-v1-l15",
+      "number": 15,
+      "traditionalTitle": "我很不舒服",
+      "sourcePdfStartPage": 350,
+      "dialogues": [
+        {
+          "id": "cc1-v1-l15-dialogue-1",
+          "turns": [
+            {
+              "speaker": "醫生",
+              "traditional": "白小姐，妳哪裡不舒服？"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我一直流鼻水，頭很痛，胃口很差。什麼東西都不想吃。"
+            },
+            {
+              "speaker": "醫生",
+              "traditional": "大概多久了？"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "已經四、五天了。"
+            },
+            {
+              "speaker": "醫生",
+              "traditional": "我看看妳的喉嚨。喉嚨有一點發炎。"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "請問我生的是什麼病？"
+            },
+            {
+              "speaker": "醫生",
+              "traditional": "妳有一點發燒，是感冒，不過沒有什麼關係。"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "請問我得吃藥嗎？"
+            },
+            {
+              "speaker": "醫生",
+              "traditional": "要，妳到藥局去拿藥。"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "好的。請問我的病什麼時候會好？"
+            },
+            {
+              "speaker": "醫生",
+              "traditional": "回去把藥吃了，多喝水，多休息，早一點睡覺，很快就會好。"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "好的，謝謝您。"
+            }
+          ]
+        },
+        {
+          "id": "cc1-v1-l15-dialogue-2",
+          "turns": [
+            {
+              "speaker": "如玉",
+              "traditional": "你怎麼了？臉色這麼難看。"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "昨天晚上肚子很不舒服，吃了東西就吐，還吐了好幾次。"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "你這麼不舒服，我陪你去看病，好不好？"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "不用了。我在臺灣沒有健康保險。"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "那麼，我陪你去學校的健康中心。那裡的醫生很好，對學生也很客氣。"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "謝謝妳。我想去藥局買藥就好了。"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "你真的不去看病嗎？"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "我想回家休息。請妳跟老師說，我生病了，不能上課。"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "好。你自己要多小心。油的、冰的東西最好都別吃。"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "謝謝妳的關心。"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我來看你了。現在覺得怎麼樣？好一點了嗎？"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "謝謝妳，好多了。我吃了一包藥以後，睡得比昨天好。"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "不錯。你睡了幾個小時的覺以後，現在臉色比早上好得多了。"
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        {
+          "id": "cc1-v1-l15-v1-01",
+          "list": "vocabularyI",
+          "number": 1,
+          "traditional": "醫生",
+          "pinyinSource": "yisheng",
+          "englishSourceGloss": "doctor",
+          "pdfPage": 353
+        },
+        {
+          "id": "cc1-v1-l15-v1-02",
+          "list": "vocabularyI",
+          "number": 2,
+          "traditional": "一直",
+          "pinyinSource": "yizhi",
+          "englishSourceGloss": "continuously, all the way",
+          "pdfPage": 353
+        },
+        {
+          "id": "cc1-v1-l15-v1-03",
+          "list": "vocabularyI",
+          "number": 3,
+          "traditional": "流",
+          "pinyinSource": "lid",
+          "englishSourceGloss": "to flow",
+          "pdfPage": 353
+        },
+        {
+          "id": "cc1-v1-l15-v1-04",
+          "list": "vocabularyI",
+          "number": 4,
+          "traditional": "鼻水",
+          "pinyinSource": "bishui",
+          "englishSourceGloss": "snot, nasal mucus, a",
+          "pdfPage": 353
+        },
+        {
+          "id": "cc1-v1-l15-v1-05",
+          "list": "vocabularyI",
+          "number": 5,
+          "traditional": "頭",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l15-v1-06",
+          "list": "vocabularyI",
+          "number": 6,
+          "traditional": "痛",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l15-v1-07",
+          "list": "vocabularyI",
+          "number": 7,
+          "traditional": "胃口",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l15-v1-08",
+          "list": "vocabularyI",
+          "number": 8,
+          "traditional": "差",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l15-v1-09",
+          "list": "vocabularyI",
+          "number": 9,
+          "traditional": "喉嚨",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l15-v1-10",
+          "list": "vocabularyI",
+          "number": 10,
+          "traditional": "發炎",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l15-v1-11",
+          "list": "vocabularyI",
+          "number": 11,
+          "traditional": "生病",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l15-v1-12",
+          "list": "vocabularyI",
+          "number": 12,
+          "traditional": "發燒",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l15-v1-13",
+          "list": "vocabularyI",
+          "number": 13,
+          "traditional": "感冒",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l15-v1-14",
+          "list": "vocabularyI",
+          "number": 14,
+          "traditional": "藥",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l15-v1-15",
+          "list": "vocabularyI",
+          "number": 15,
+          "traditional": "藥局",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l15-v1-16",
+          "list": "vocabularyI",
+          "number": 16,
+          "traditional": "拿",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l15-v1-17",
+          "list": "vocabularyI",
+          "number": 17,
+          "traditional": "把",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l15-v1-18",
+          "list": "vocabularyI",
+          "number": 18,
+          "traditional": "水",
+          "pinyinSource": "shui",
+          "englishSourceGloss": "water",
+          "pdfPage": 354
+        },
+        {
+          "id": "cc1-v1-l15-v1-19",
+          "list": "vocabularyI",
+          "number": 19,
+          "traditional": "休息",
+          "pinyinSource": "xiuxi",
+          "englishSourceGloss": "to take a rest",
+          "pdfPage": 354
+        },
+        {
+          "id": "cc1-v1-l15-v1-20",
+          "list": "vocabularyI",
+          "number": 20,
+          "traditional": "睡覺",
+          "pinyinSource": "shujiao",
+          "englishSourceGloss": "to sleep",
+          "pdfPage": 354
+        },
+        {
+          "id": "cc1-v1-l15-v1-21",
+          "list": "vocabularyI",
+          "number": 21,
+          "traditional": "早一點",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l15-v2-01",
+          "list": "vocabularyII",
+          "number": 1,
+          "traditional": "臉色",
+          "pinyinSource": "lianse",
+          "englishSourceGloss": "a person's “color” （said of",
+          "pdfPage": 357
+        },
+        {
+          "id": "cc1-v1-l15-v2-02",
+          "list": "vocabularyII",
+          "number": 2,
+          "traditional": "難看",
+          "pinyinSource": "nankan",
+          "englishSourceGloss": "not to look good",
+          "pdfPage": 357
+        },
+        {
+          "id": "cc1-v1-l15-v2-03",
+          "list": "vocabularyII",
+          "number": 3,
+          "traditional": "肚子",
+          "pinyinSource": "dizi",
+          "englishSourceGloss": "stomach, abdomen",
+          "pdfPage": 357
+        },
+        {
+          "id": "cc1-v1-l15-v2-04",
+          "list": "vocabularyII",
+          "number": 4,
+          "traditional": "吐",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l15-v2-05",
+          "list": "vocabularyII",
+          "number": 5,
+          "traditional": "幾",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l15-v2-06",
+          "list": "vocabularyII",
+          "number": 6,
+          "traditional": "次",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l15-v2-07",
+          "list": "vocabularyII",
+          "number": 7,
+          "traditional": "陪",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l15-v2-08",
+          "list": "vocabularyII",
+          "number": 8,
+          "traditional": "看病",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l15-v2-09",
+          "list": "vocabularyII",
+          "number": 9,
+          "traditional": "健康",
+          "pinyinSource": null,
+          "englishSourceGloss": null,
+          "pdfPage": null
+        },
+        {
+          "id": "cc1-v1-l15-v2-10",
+          "list": "vocabularyII",
+          "number": 10,
+          "traditional": "保險",
+          "pinyinSource": "baoxian",
+          "englishSourceGloss": "insurance",
+          "pdfPage": 357
+        },
+        {
+          "id": "cc1-v1-l15-v2-11",
+          "list": "vocabularyII",
+          "number": 11,
+          "traditional": "跟",
+          "pinyinSource": "gin",
+          "englishSourceGloss": "to",
+          "pdfPage": 357
+        },
+        {
+          "id": "cc1-v1-l15-v2-12",
+          "list": "vocabularyII",
+          "number": 12,
+          "traditional": "油",
+          "pinyinSource": "you",
+          "englishSourceGloss": "oily, greasy",
+          "pdfPage": 357
+        },
+        {
+          "id": "cc1-v1-l15-v2-13",
+          "list": "vocabularyII",
+          "number": 13,
+          "traditional": "冰",
+          "pinyinSource": "bing",
+          "englishSourceGloss": "icy",
+          "pdfPage": 357
+        },
+        {
+          "id": "cc1-v1-l15-v2-14",
+          "list": "vocabularyII",
+          "number": 14,
+          "traditional": "別",
+          "pinyinSource": "bie",
+          "englishSourceGloss": "don't （used in imperatives）",
+          "pdfPage": 357
+        },
+        {
+          "id": "cc1-v1-l15-v2-15",
+          "list": "vocabularyII",
+          "number": 15,
+          "traditional": "關心",
+          "pinyinSource": "guanxin",
+          "englishSourceGloss": "to be concerned about",
+          "pdfPage": 357
+        },
+        {
+          "id": "cc1-v1-l15-v2-16",
+          "list": "vocabularyII",
+          "number": 16,
+          "traditional": "包",
+          "pinyinSource": "bao",
+          "englishSourceGloss": "measure word for bags，",
+          "pdfPage": 357
+        },
+        {
+          "id": "cc1-v1-l15-v2-17",
+          "list": "vocabularyII",
+          "number": 17,
+          "traditional": "睡",
+          "pinyinSource": "shui",
+          "englishSourceGloss": "to sleep",
+          "pdfPage": 357
+        },
+        {
+          "id": "cc1-v1-l15-v2-18",
+          "list": "vocabularyII",
+          "number": 18,
+          "traditional": "小時",
+          "pinyinSource": "xiaoshi",
+          "englishSourceGloss": "hour",
+          "pdfPage": 357
+        },
+        {
+          "id": "cc1-v1-l15-v2-19",
+          "list": "vocabularyII",
+          "number": 19,
+          "traditional": "怎麼了",
+          "pinyinSource": "zenme le",
+          "englishSourceGloss": "What's wrong？",
+          "pdfPage": 357
+        },
+        {
+          "id": "cc1-v1-l15-v2-20",
+          "list": "vocabularyII",
+          "number": 20,
+          "traditional": "不用了",
+          "pinyinSource": "buyongle",
+          "englishSourceGloss": "It's not necessary.",
+          "pdfPage": 357
+        },
+        {
+          "id": "cc1-v1-l15-v2-21",
+          "list": "vocabularyII",
+          "number": 21,
+          "traditional": "健康中心",
+          "pinyinSource": "jiankang",
+          "englishSourceGloss": "health center",
+          "pdfPage": 357
+        },
+        {
+          "id": "cc1-v1-l15-v2-22",
+          "list": "vocabularyII",
+          "number": 22,
+          "traditional": "回家",
+          "pinyinSource": "hui jia",
+          "englishSourceGloss": "o home",
+          "pdfPage": 358
+        },
+        {
+          "id": "cc1-v1-l15-v2-23",
+          "list": "vocabularyII",
+          "number": 23,
+          "traditional": "最好",
+          "pinyinSource": "zuihao",
+          "englishSourceGloss": "It would be best../ （You）",
+          "pdfPage": 358
+        }
+      ],
+      "verifiedAudioTrackIds": [
+        "cc1-textbook-l15-t01",
+        "cc1-textbook-l15-t02",
+        "cc1-textbook-l15-t03",
+        "cc1-textbook-l15-t04",
+        "cc1-workbook-l15-t01",
+        "cc1-workbook-l15-t02",
+        "cc1-workbook-l15-t03",
+        "cc1-workbook-l15-t04",
+        "cc1-workbook-l15-t05"
+      ],
+      "titleVi": "Tôi thấy không khỏe"
+    }
+  ]
+}

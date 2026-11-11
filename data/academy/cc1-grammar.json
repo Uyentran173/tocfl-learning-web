@@ -1,0 +1,3001 @@
+{
+  "schemaVersion": 1,
+  "source": "cc1-grammar-outline.json",
+  "publication": "reviewed",
+  "lessons": [
+    {
+      "lessonId": "cc1-v1-l02",
+      "points": [
+        {
+          "title": "的 chỉ sở hữu",
+          "structure": "Người sở hữu + 的 + vật/người thuộc về họ",
+          "explanation": "Đặt 的 giữa người sở hữu và danh từ: 我的書 là sách của tôi. Với quan hệ thân thuộc rất gần, người nói thường bỏ 的, như 我媽媽. Khi muốn nhấn mạnh ai là người sở hữu, giữ 的.",
+          "commonMistake": "Không đặt 的 sau danh từ được sở hữu: 我的書, không phải 我書的。",
+          "examples": [
+            {
+              "chinese": "這是我哥哥的書。",
+              "simplified": "这是我哥哥的书。",
+              "pinyin": "zhè shì wǒ gē gē de shū 。",
+              "meaningVi": "Đây là sách của anh trai tôi."
+            },
+            {
+              "chinese": "我媽媽喜歡看書。",
+              "simplified": "我妈妈喜欢看书。",
+              "pinyin": "wǒ mā mā xǐ huān kàn shū 。",
+              "meaningVi": "Mẹ tôi thích đọc sách."
+            }
+          ],
+          "check": {
+            "prompt": "Cách nào diễn đạt “sách của anh trai tôi”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "我的書哥哥"
+              },
+              {
+                "id": "b",
+                "text": "我哥哥的書"
+              },
+              {
+                "id": "c",
+                "text": "我哥哥書的"
+              }
+            ],
+            "correctOptionId": "b",
+            "feedback": "Người sở hữu đứng trước 的, rồi mới đến vật sở hữu.",
+            "skill": "的 chỉ sở hữu",
+            "id": "cc1-v1-l02-grammar-01-check"
+          },
+          "id": "cc1-v1-l02-grammar-01",
+          "sourcePdfPage": 56
+        },
+        {
+          "title": "的 nối từ bổ nghĩa với danh từ",
+          "structure": "Tính chất/miêu tả + 的 + danh từ",
+          "explanation": "Dùng 的 để nối phần miêu tả với danh từ: 漂亮的房子 là ngôi nhà đẹp. Với một số từ ngắn, quen thuộc, 的 có thể được lược trong cách nói tự nhiên, nhưng ở bài này hãy dùng nó để nhận rõ quan hệ bổ nghĩa.",
+          "commonMistake": "Đừng đặt tính chất sau danh từ rồi mới thêm 的 khi muốn nói một cụm danh từ.",
+          "examples": [
+            {
+              "chinese": "這是一張很好看的照片。",
+              "simplified": "这是一张很好看的照片。",
+              "pinyin": "zhè shì yī zhāng hěn hǎo kàn de zhào piān 。",
+              "meaningVi": "Đây là một bức ảnh rất đẹp."
+            },
+            {
+              "chinese": "他們有好喝的茶。",
+              "simplified": "他们有好喝的茶。",
+              "pinyin": "tā men yǒu hǎo hē de chá 。",
+              "meaningVi": "Họ có trà ngon để uống."
+            }
+          ],
+          "check": {
+            "prompt": "Cụm nào nghĩa là “một bức ảnh đẹp”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "一張好看的照片"
+              },
+              {
+                "id": "b",
+                "text": "一張照片的好看"
+              },
+              {
+                "id": "c",
+                "text": "好看一張的照片"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "很好看 bổ nghĩa cho 照片 nên đứng trước 的.",
+            "skill": "的 nối từ bổ nghĩa với danh từ",
+            "id": "cc1-v1-l02-grammar-02-check"
+          },
+          "id": "cc1-v1-l02-grammar-02",
+          "sourcePdfPage": 57
+        },
+        {
+          "title": "有 diễn tả sở hữu",
+          "structure": "Chủ ngữ + 有 + danh từ/số lượng",
+          "explanation": "有 cho biết ai đó có gì. Phủ định là 沒有; để hỏi có hay không, có thể dùng 有沒有 hoặc thêm 嗎 cuối câu. Khi đếm người trong gia đình, ghép số + lượng từ 個 + 人.",
+          "commonMistake": "Phủ định 有 bằng 沒有, không dùng 不有。",
+          "examples": [
+            {
+              "chinese": "我家有五個人。",
+              "simplified": "我家有五个人。",
+              "pinyin": "wǒ jiā yǒu wǔ gè rén 。",
+              "meaningVi": "Nhà tôi có năm người."
+            },
+            {
+              "chinese": "你有沒有兄弟姐妹？",
+              "simplified": "你有没有兄弟姐妹？",
+              "pinyin": "nǐ yǒu méi yǒu xiōng dì jiě mèi ？",
+              "meaningVi": "Bạn có anh chị em không?"
+            }
+          ],
+          "check": {
+            "prompt": "Phủ định “Tôi không có anh chị em” như thế nào?",
+            "options": [
+              {
+                "id": "a",
+                "text": "我不有兄弟姐妹。"
+              },
+              {
+                "id": "b",
+                "text": "我沒有兄弟姐妹。"
+              },
+              {
+                "id": "c",
+                "text": "我沒兄弟姐妹有。"
+              }
+            ],
+            "correctOptionId": "b",
+            "feedback": "有 đổi thành 沒有 khi phủ định.",
+            "skill": "有 diễn tả sở hữu",
+            "id": "cc1-v1-l02-grammar-03-check"
+          },
+          "id": "cc1-v1-l02-grammar-03",
+          "sourcePdfPage": 58
+        },
+        {
+          "title": "都 diễn tả tất cả",
+          "structure": "Chủ ngữ + 都 + động từ/tính từ",
+          "explanation": "都 đứng sau nhóm người hoặc vật mà nó bao quát và trước động từ/tính từ: 我們都… nghĩa là “chúng tôi đều…”. Nếu nói 不都, ý là “không phải tất cả”; còn 都不 nghĩa là “tất cả đều không”, hai câu khác nhau.",
+          "commonMistake": "Đừng đặt 都 trước chủ ngữ: 我們都喜歡, không phải 都我們喜歡。",
+          "examples": [
+            {
+              "chinese": "我們都喜歡看書。",
+              "simplified": "我们都喜欢看书。",
+              "pinyin": "wǒ men dōu xǐ huān kàn shū 。",
+              "meaningVi": "Chúng tôi đều thích đọc sách."
+            },
+            {
+              "chinese": "我家人都很喜歡照相。",
+              "simplified": "我家人都很喜欢照相。",
+              "pinyin": "wǒ jiā rén dōu hěn xǐ huān zhào xiàng 。",
+              "meaningVi": "Cả nhà tôi đều rất thích chụp ảnh."
+            }
+          ],
+          "check": {
+            "prompt": "Chọn câu “Cả nhà tôi đều thích chụp ảnh”.",
+            "options": [
+              {
+                "id": "a",
+                "text": "我家人都喜歡照相。"
+              },
+              {
+                "id": "b",
+                "text": "都我家人喜歡照相。"
+              },
+              {
+                "id": "c",
+                "text": "我家人喜歡都照相。"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "都 đứng sau chủ ngữ và trước động từ 喜歡.",
+            "skill": "都 diễn tả tất cả",
+            "id": "cc1-v1-l02-grammar-04-check"
+          },
+          "id": "cc1-v1-l02-grammar-04",
+          "sourcePdfPage": 59
+        },
+        {
+          "title": "Lượng từ 個 và 張",
+          "structure": "Số + lượng từ + danh từ",
+          "explanation": "Khi nói số lượng, tiếng Hoa thường có lượng từ giữa số và danh từ. 個 dùng cho người và nhiều sự vật thông thường; 張 dùng cho vật phẳng như ảnh hoặc tờ giấy. Trước lượng từ, số “hai” thường là 兩, không phải 二.",
+          "commonMistake": "Không nói 兩照片 hoặc 二張照片; nói 兩張照片。",
+          "examples": [
+            {
+              "chinese": "我有兩個妹妹。",
+              "simplified": "我有两个妹妹。",
+              "pinyin": "wǒ yǒu liǎng gè mèi mèi 。",
+              "meaningVi": "Tôi có hai em gái."
+            },
+            {
+              "chinese": "這兩張照片很好看。",
+              "simplified": "这两张照片很好看。",
+              "pinyin": "zhè liǎng zhāng zhào piān hěn hǎo kàn 。",
+              "meaningVi": "Hai bức ảnh này rất đẹp."
+            }
+          ],
+          "check": {
+            "prompt": "Cách nói “hai bức ảnh” là gì?",
+            "options": [
+              {
+                "id": "a",
+                "text": "二個照片"
+              },
+              {
+                "id": "b",
+                "text": "兩張照片"
+              },
+              {
+                "id": "c",
+                "text": "兩照片"
+              }
+            ],
+            "correctOptionId": "b",
+            "feedback": "Ảnh dùng lượng từ 張; hai đứng trước lượng từ là 兩.",
+            "skill": "Lượng từ 個 và 張",
+            "id": "cc1-v1-l02-grammar-05-check"
+          },
+          "id": "cc1-v1-l02-grammar-05",
+          "sourcePdfPage": 62
+        }
+      ]
+    },
+    {
+      "lessonId": "cc1-v1-l03",
+      "points": [
+        {
+          "title": "Đặt thời gian trong câu",
+          "structure": "Chủ ngữ + thời gian + động từ + ...",
+          "explanation": "Từ chỉ thời gian như 明天, 今天晚上 thường đứng trước động từ; có thể đứng trước cả chủ ngữ nếu người nói muốn nêu bối cảnh trước. Tránh dịch từng chữ theo trật tự tiếng Việt khi kể lịch hẹn.",
+          "commonMistake": "Không đặt thời gian sau tân ngữ trong mẫu câu cơ bản.",
+          "examples": [
+            {
+              "chinese": "我們明天去踢足球。",
+              "simplified": "我们明天去踢足球。",
+              "pinyin": "wǒ men míng tiān qù tī zú qiú 。",
+              "meaningVi": "Ngày mai chúng ta đi đá bóng."
+            },
+            {
+              "chinese": "今天晚上我們去看電影。",
+              "simplified": "今天晚上我们去看电影。",
+              "pinyin": "jīn tiān wǎn shàng wǒ men qù kàn diàn yǐng 。",
+              "meaningVi": "Tối nay chúng ta đi xem phim."
+            }
+          ],
+          "check": {
+            "prompt": "Câu nào nói “Tối nay chúng ta đi xem phim”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "我們去看電影今天晚上。"
+              },
+              {
+                "id": "b",
+                "text": "今天晚上我們去看電影。"
+              },
+              {
+                "id": "c",
+                "text": "我們看今天晚上去電影。"
+              }
+            ],
+            "correctOptionId": "b",
+            "feedback": "Thời gian đứng trước hành động 去看電影.",
+            "skill": "Đặt thời gian trong câu",
+            "id": "cc1-v1-l03-grammar-01-check"
+          },
+          "id": "cc1-v1-l03-grammar-01",
+          "sourcePdfPage": 76
+        },
+        {
+          "title": "去 để nói đi làm việc gì",
+          "structure": "去 + địa điểm (nếu có) + động từ",
+          "explanation": "Sau 去, bạn có thể nói tiếp việc mình đi làm: 去踢足球, 去看電影. Nếu có địa điểm, nêu địa điểm ngay sau 去 rồi đến hoạt động. Đây là mục đích của chuyến đi, không phải hai hành động không liên quan.",
+          "commonMistake": "Không bỏ động từ chính khi cần nói rõ mục đích đi đâu.",
+          "examples": [
+            {
+              "chinese": "我們去踢足球吧。",
+              "simplified": "我们去踢足球吧。",
+              "pinyin": "wǒ men qù tī zú qiú ba 。",
+              "meaningVi": "Chúng ta đi đá bóng nhé."
+            },
+            {
+              "chinese": "他們去餐廳吃晚飯。",
+              "simplified": "他们去餐厅吃晚饭。",
+              "pinyin": "tā men qù cān tīng chī wǎn fàn 。",
+              "meaningVi": "Họ đến nhà hàng ăn tối."
+            }
+          ],
+          "check": {
+            "prompt": "Cách nào nói “đi xem phim”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "去看電影"
+              },
+              {
+                "id": "b",
+                "text": "看去電影"
+              },
+              {
+                "id": "c",
+                "text": "去電影看"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "去 đứng trước hoạt động 看電影.",
+            "skill": "去 để nói đi làm việc gì",
+            "id": "cc1-v1-l03-grammar-02-check"
+          },
+          "id": "cc1-v1-l03-grammar-02",
+          "sourcePdfPage": 77
+        },
+        {
+          "title": "Câu chủ đề",
+          "structure": "Chủ đề，+ nhận xét về chủ đề",
+          "explanation": "Người nói có thể nêu một chủ đề trước dấu phẩy, rồi đưa ra nhận xét. Ví dụ, 美國電影、臺灣電影，我都想看: hai loại phim là chủ đề, “tôi đều muốn xem” là nhận xét. Cách này hữu ích khi so sánh hoặc trả lời một lựa chọn.",
+          "commonMistake": "Đừng nhầm chủ đề đứng đầu câu với chủ ngữ trực tiếp của động từ ở vế sau.",
+          "examples": [
+            {
+              "chinese": "美國電影、臺灣電影，我都想看。",
+              "simplified": "美国电影、台湾电影，我都想看。",
+              "pinyin": "měi guó diàn yǐng 、 tái wān diàn yǐng ， wǒ dōu xiǎng kàn 。",
+              "meaningVi": "Phim Mỹ hay phim Đài Loan, tôi đều muốn xem."
+            },
+            {
+              "chinese": "咖啡和茶，我都喜歡。",
+              "simplified": "咖啡和茶，我都喜欢。",
+              "pinyin": "kā fēi hé chá ， wǒ dōu xǐ huān 。",
+              "meaningVi": "Cà phê và trà, tôi đều thích."
+            }
+          ],
+          "check": {
+            "prompt": "Trong “咖啡和茶，我都喜歡”, phần nào là chủ đề?",
+            "options": [
+              {
+                "id": "a",
+                "text": "我"
+              },
+              {
+                "id": "b",
+                "text": "咖啡和茶"
+              },
+              {
+                "id": "c",
+                "text": "都喜歡"
+              }
+            ],
+            "correctOptionId": "b",
+            "feedback": "Cà phê và trà được nêu trước để người nói nhận xét về chúng.",
+            "skill": "Câu chủ đề",
+            "id": "cc1-v1-l03-grammar-03-check"
+          },
+          "id": "cc1-v1-l03-grammar-03",
+          "sourcePdfPage": 79
+        },
+        {
+          "title": "Vị trí của 也, 都 và 常",
+          "structure": "Chủ ngữ + 也/都/常 + động từ",
+          "explanation": "Các phó từ này thường đứng sau chủ ngữ và trước động từ: 也 là “cũng”, 都 là “đều”, 常 là “thường”. Khi có nhiều phó từ, trật tự có thể đổi nghĩa; hãy đọc cả câu để xác định “ai cũng” hay “cũng thường”.",
+          "commonMistake": "Không đặt 也/都/常 sau động từ trong các mẫu câu cơ bản của bài.",
+          "examples": [
+            {
+              "chinese": "我常打籃球，也常踢足球。",
+              "simplified": "我常打篮球，也常踢足球。",
+              "pinyin": "wǒ cháng dǎ lán qiú ， yě cháng tī zú qiú 。",
+              "meaningVi": "Tôi thường chơi bóng rổ, cũng thường đá bóng."
+            },
+            {
+              "chinese": "我們都喜歡運動。",
+              "simplified": "我们都喜欢运动。",
+              "pinyin": "wǒ men dōu xǐ huān yùn dòng 。",
+              "meaningVi": "Chúng tôi đều thích thể thao."
+            }
+          ],
+          "check": {
+            "prompt": "Chọn câu “Tôi cũng thường chơi bóng rổ”.",
+            "options": [
+              {
+                "id": "a",
+                "text": "我打也常籃球。"
+              },
+              {
+                "id": "b",
+                "text": "我也常打籃球。"
+              },
+              {
+                "id": "c",
+                "text": "我常打也籃球。"
+              }
+            ],
+            "correctOptionId": "b",
+            "feedback": "也 và 常 đứng trước động từ 打.",
+            "skill": "Vị trí của 也, 都 và 常",
+            "id": "cc1-v1-l03-grammar-04-check"
+          },
+          "id": "cc1-v1-l03-grammar-04",
+          "sourcePdfPage": 80
+        },
+        {
+          "title": "吧 để gợi ý",
+          "structure": "Lời đề nghị + 吧",
+          "explanation": "Đặt 吧 ở cuối câu để đề nghị hoặc rủ rê nhẹ nhàng, như 我們看臺灣電影吧. Sắc thái mềm hơn câu mệnh lệnh trần trụi. Người nghe có thể đáp 好啊 hoặc nêu ý khác.",
+          "commonMistake": "Không thêm 吧 ở giữa cụm động từ.",
+          "examples": [
+            {
+              "chinese": "我們看臺灣電影吧！",
+              "simplified": "我们看台湾电影吧！",
+              "pinyin": "wǒ men kàn tái wān diàn yǐng ba ！",
+              "meaningVi": "Chúng ta xem phim Đài Loan nhé!"
+            },
+            {
+              "chinese": "明天去踢足球吧。",
+              "simplified": "明天去踢足球吧。",
+              "pinyin": "míng tiān qù tī zú qiú ba 。",
+              "meaningVi": "Ngày mai đi đá bóng nhé."
+            }
+          ],
+          "check": {
+            "prompt": "Câu nào là lời rủ “Xem phim Đài Loan nhé”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "我們吧看臺灣電影。"
+              },
+              {
+                "id": "b",
+                "text": "我們看臺灣電影吧。"
+              },
+              {
+                "id": "c",
+                "text": "吧我們看臺灣電影。"
+              }
+            ],
+            "correctOptionId": "b",
+            "feedback": "吧 đứng cuối lời đề nghị.",
+            "skill": "吧 để gợi ý",
+            "id": "cc1-v1-l03-grammar-05-check"
+          },
+          "id": "cc1-v1-l03-grammar-05",
+          "sourcePdfPage": 82
+        }
+      ]
+    },
+    {
+      "lessonId": "cc1-v1-l04",
+      "points": [
+        {
+          "title": "Lượng từ 塊, 杯, 支, 種",
+          "structure": "Số/từ chỉ định + lượng từ + danh từ",
+          "explanation": "Lượng từ đi giữa số hoặc từ chỉ định và danh từ. 杯 dùng cho ly đồ uống, 支 cho vật dài mảnh như điện thoại trong bài, 種 cho loại, còn 塊 có thể chỉ đơn vị tiền. Chọn lượng từ theo thứ đang đếm, không chọn theo tiếng Việt.",
+          "commonMistake": "Không bỏ lượng từ trong 一杯咖啡 hay 一支手機.",
+          "examples": [
+            {
+              "chinese": "我要一杯熱咖啡。",
+              "simplified": "我要一杯热咖啡。",
+              "pinyin": "wǒ yào yī bēi rè kā fēi 。",
+              "meaningVi": "Tôi muốn một ly cà phê nóng."
+            },
+            {
+              "chinese": "一支手機賣多少錢？",
+              "simplified": "一支手机卖多少钱？",
+              "pinyin": "yī zhī shǒu jī mài duō shǎo qián ？",
+              "meaningVi": "Một chiếc điện thoại bán bao nhiêu tiền?"
+            }
+          ],
+          "check": {
+            "prompt": "Cách nào nói “một ly cà phê”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "一杯咖啡"
+              },
+              {
+                "id": "b",
+                "text": "一支咖啡"
+              },
+              {
+                "id": "c",
+                "text": "一種咖啡杯"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "Đồ uống đựng trong ly dùng lượng từ 杯.",
+            "skill": "Lượng từ 塊, 杯, 支, 種",
+            "id": "cc1-v1-l04-grammar-01-check"
+          },
+          "id": "cc1-v1-l04-grammar-01",
+          "sourcePdfPage": 97
+        },
+        {
+          "title": "幫: làm giúp ai",
+          "structure": "幫 + người nhận giúp đỡ + động từ",
+          "explanation": "幫 đặt trước người được giúp và việc làm: 幫我微波包子 là hâm bánh bao giúp tôi. Khi phủ định, 不 đứng trước 幫. Người nói dùng mẫu này khi nhờ người khác làm việc cụ thể.",
+          "commonMistake": "Không nói 幫我不微波 khi muốn nói “không giúp tôi hâm”.",
+          "examples": [
+            {
+              "chinese": "請幫我微波包子。",
+              "simplified": "请帮我微波包子。",
+              "pinyin": "qǐng bāng wǒ wēi bō bāo zi 。",
+              "meaningVi": "Phiền bạn hâm bánh bao giúp tôi."
+            },
+            {
+              "chinese": "姐姐幫弟弟買咖啡。",
+              "simplified": "姐姐帮弟弟买咖啡。",
+              "pinyin": "jiě jiě bāng dì di mǎi kā fēi 。",
+              "meaningVi": "Chị gái mua cà phê giúp em trai."
+            }
+          ],
+          "check": {
+            "prompt": "Câu nào nghĩa là “Giúp tôi hâm bánh bao”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "幫微波我包子。"
+              },
+              {
+                "id": "b",
+                "text": "幫我微波包子。"
+              },
+              {
+                "id": "c",
+                "text": "我微波幫包子。"
+              }
+            ],
+            "correctOptionId": "b",
+            "feedback": "Người được giúp đứng sau 幫, trước động từ.",
+            "skill": "幫: làm giúp ai",
+            "id": "cc1-v1-l04-grammar-02-check"
+          },
+          "id": "cc1-v1-l04-grammar-02",
+          "sourcePdfPage": 98
+        },
+        {
+          "title": "的 thay danh từ đã rõ",
+          "structure": "Từ miêu tả + 的",
+          "explanation": "Khi danh từ đã được nhắc tới và người nghe biết bạn đang nói về gì, có thể bỏ danh từ và giữ 的: 我要新的 = tôi muốn cái mới. Cách này tránh lặp lại 手機, 杯… trong câu trả lời. Vẫn cần ngữ cảnh để hiểu “cái” là gì.",
+          "commonMistake": "Không lược danh từ nếu người nghe chưa biết bạn nói về vật nào.",
+          "examples": [
+            {
+              "chinese": "我要新的，不要舊的。",
+              "simplified": "我要新的，不要旧的。",
+              "pinyin": "wǒ yào xīn de ， bú yào jiù de 。",
+              "meaningVi": "Tôi muốn cái mới, không muốn cái cũ."
+            },
+            {
+              "chinese": "你要熱的嗎？",
+              "simplified": "你要热的吗？",
+              "pinyin": "nǐ yào rè de ma ？",
+              "meaningVi": "Bạn muốn loại nóng không?"
+            }
+          ],
+          "check": {
+            "prompt": "Sau khi nói về điện thoại, “Tôi muốn cái mới” là gì?",
+            "options": [
+              {
+                "id": "a",
+                "text": "我要新。"
+              },
+              {
+                "id": "b",
+                "text": "我要新的。"
+              },
+              {
+                "id": "c",
+                "text": "我要新的手機的。"
+              }
+            ],
+            "correctOptionId": "b",
+            "feedback": "新的 thay cho 新手機 khi danh từ đã rõ.",
+            "skill": "的 thay danh từ đã rõ",
+            "id": "cc1-v1-l04-grammar-03-check"
+          },
+          "id": "cc1-v1-l04-grammar-03",
+          "sourcePdfPage": 100
+        },
+        {
+          "title": "太…了: quá mức",
+          "structure": "太 + tính từ + 了",
+          "explanation": "Mẫu 太…了 diễn tả cảm nhận của người nói rằng một mức độ vượt quá mong muốn: 太舊了, 太貴了. Nếu bỏ 了, câu vẫn có thể diễn đạt “quá” nhưng sắc thái cảm thán giảm. Đọc ngữ cảnh để biết người nói khen hay phàn nàn.",
+          "commonMistake": "Đừng đặt 了 trước tính từ: 太了貴 không đúng.",
+          "examples": [
+            {
+              "chinese": "這支手機太舊了。",
+              "simplified": "这支手机太旧了。",
+              "pinyin": "zhè zhī shǒu jī tài jiù le 。",
+              "meaningVi": "Chiếc điện thoại này cũ quá."
+            },
+            {
+              "chinese": "那家餐廳太貴了。",
+              "simplified": "那家餐厅太贵了。",
+              "pinyin": "nà jiā cān tīng tài guì le 。",
+              "meaningVi": "Nhà hàng đó đắt quá."
+            }
+          ],
+          "check": {
+            "prompt": "Chọn câu “Chiếc điện thoại này cũ quá”.",
+            "options": [
+              {
+                "id": "a",
+                "text": "這支手機太舊了。"
+              },
+              {
+                "id": "b",
+                "text": "這支手機太了舊。"
+              },
+              {
+                "id": "c",
+                "text": "這支手機舊了太。"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "太 đứng trước tính từ, 了 thường ở cuối cụm.",
+            "skill": "太…了: quá mức",
+            "id": "cc1-v1-l04-grammar-04-check"
+          },
+          "id": "cc1-v1-l04-grammar-04",
+          "sourcePdfPage": 101
+        },
+        {
+          "title": "能: khả năng",
+          "structure": "Chủ ngữ + 能 + động từ",
+          "explanation": "能 nói đến khả năng hoặc điều kiện cho phép làm một việc: 手機能上網 là điện thoại có thể lên mạng. Phủ định đặt 不 trước 能. So với 會 là kỹ năng đã học, 能 thường nhấn vào năng lực hay điều kiện trong tình huống.",
+          "commonMistake": "Không đặt 不 sau 能: 不能上網, không phải 能不上網 nếu muốn nói “không thể lên mạng”.",
+          "examples": [
+            {
+              "chinese": "這支手機能照相。",
+              "simplified": "这支手机能照相。",
+              "pinyin": "zhè zhī shǒu jī néng zhào xiàng 。",
+              "meaningVi": "Chiếc điện thoại này có thể chụp ảnh."
+            },
+            {
+              "chinese": "我的手機不能上網。",
+              "simplified": "我的手机不能上网。",
+              "pinyin": "wǒ de shǒu jī bù néng shàng wǎng 。",
+              "meaningVi": "Điện thoại của tôi không thể lên mạng."
+            }
+          ],
+          "check": {
+            "prompt": "Câu nào nói “Điện thoại không thể lên mạng”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "手機能不上網。"
+              },
+              {
+                "id": "b",
+                "text": "手機不能上網。"
+              },
+              {
+                "id": "c",
+                "text": "手機上網不能。"
+              }
+            ],
+            "correctOptionId": "b",
+            "feedback": "不 đứng trước 能 khi phủ định khả năng.",
+            "skill": "能: khả năng",
+            "id": "cc1-v1-l04-grammar-05-check"
+          },
+          "id": "cc1-v1-l04-grammar-05",
+          "sourcePdfPage": 102
+        },
+        {
+          "title": "多 sau số lượng: hơn",
+          "structure": "Số + 多 (+ lượng từ/danh từ)",
+          "explanation": "多 đứng sau một con số để nói “hơn” một mức tròn: 一萬五千多 là hơn 15.000. Đây là số ước lượng, không cho biết chính xác hơn bao nhiêu. Vị trí của 多 phụ thuộc đơn vị đếm nên hãy giữ đúng cụm số trong ví dụ.",
+          "commonMistake": "Không dùng 多 trước cả cụm số nếu muốn nói “hơn 15.000”.",
+          "examples": [
+            {
+              "chinese": "一支要一萬五千多。",
+              "simplified": "一支要一万五千多。",
+              "pinyin": "yī zhī yào yī wàn wǔ qiān duō 。",
+              "meaningVi": "Một chiếc giá hơn 15.000 Đài tệ."
+            },
+            {
+              "chinese": "這裡有二十多個人。",
+              "simplified": "这里有二十多个人。",
+              "pinyin": "zhè lǐ yǒu èr shí duō gè rén 。",
+              "meaningVi": "Ở đây có hơn hai mươi người."
+            }
+          ],
+          "check": {
+            "prompt": "一萬五千多 nghĩa là gì?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Hơn 15.000"
+              },
+              {
+                "id": "b",
+                "text": "Đúng 15.000"
+              },
+              {
+                "id": "c",
+                "text": "Ít hơn 15.000"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "多 sau số lượng biểu thị vượt quá mốc đó.",
+            "skill": "多 sau số lượng: hơn",
+            "id": "cc1-v1-l04-grammar-06-check"
+          },
+          "id": "cc1-v1-l04-grammar-06",
+          "sourcePdfPage": 104
+        }
+      ]
+    },
+    {
+      "lessonId": "cc1-v1-l05",
+      "points": [
+        {
+          "title": "有一點: hơi",
+          "structure": "有一點 + tính từ",
+          "explanation": "有一點 diễn tả mức độ nhẹ và thường dùng khi nhận xét điều gì đó chưa được như ý, chẳng hạn món ăn hơi cay. Khác với 一點 trước danh từ chỉ lượng nhỏ, 有一點 ở đây đi trước tính từ.",
+          "commonMistake": "Không dùng 有一點 để khen rất mạnh; sắc thái thường hơi dè dặt hoặc không hài lòng.",
+          "examples": [
+            {
+              "chinese": "這碗牛肉麵有一點辣。",
+              "simplified": "这碗牛肉面有一点辣。",
+              "pinyin": "zhè wǎn niú ròu miàn yǒu yī diǎn là 。",
+              "meaningVi": "Tô mì bò này hơi cay."
+            },
+            {
+              "chinese": "這裡有一點遠。",
+              "simplified": "这里有一点远。",
+              "pinyin": "zhè lǐ yǒu yī diǎn yuǎn 。",
+              "meaningVi": "Chỗ này hơi xa."
+            }
+          ],
+          "check": {
+            "prompt": "Câu nào nói “Món này hơi cay”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "這個菜有一點辣。"
+              },
+              {
+                "id": "b",
+                "text": "這個菜一點有辣。"
+              },
+              {
+                "id": "c",
+                "text": "這個菜辣有一點。"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "有一點 đứng trước tính từ 辣.",
+            "skill": "有一點: hơi",
+            "id": "cc1-v1-l05-grammar-01-check"
+          },
+          "id": "cc1-v1-l05-grammar-01",
+          "sourcePdfPage": 118
+        },
+        {
+          "title": "得 nối bổ ngữ mức độ",
+          "structure": "Động từ + 得 + mức độ/kết quả",
+          "explanation": "得 đứng sau động từ để nói hành động được thực hiện như thế nào: 做得很好 là làm rất tốt. Nếu có tân ngữ, thường nhắc lại động từ trước 得: 做飯做得好. Ở đây 得 đọc nhẹ là de, khác 得 děi nghĩa “phải”.",
+          "commonMistake": "Không đặt 不 trước toàn bộ động từ khi chỉ muốn phủ định mức độ: 做得不好.",
+          "examples": [
+            {
+              "chinese": "她做飯做得不錯。",
+              "simplified": "她做饭做得不错。",
+              "pinyin": "tā zuò fàn zuò dé bù cuò 。",
+              "meaningVi": "Cô ấy nấu ăn khá giỏi."
+            },
+            {
+              "chinese": "我中文說得不好。",
+              "simplified": "我中文说得不好。",
+              "pinyin": "wǒ zhōng wén shuō dé bù hǎo 。",
+              "meaningVi": "Tôi nói tiếng Hoa chưa tốt."
+            }
+          ],
+          "check": {
+            "prompt": "Câu nào nghĩa là “Tôi nấu ăn không giỏi”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "我做飯做得不好。"
+              },
+              {
+                "id": "b",
+                "text": "我做得飯不好。"
+              },
+              {
+                "id": "c",
+                "text": "我得做飯不好。"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "得 nối động từ với bổ ngữ mức độ 不好.",
+            "skill": "得 nối bổ ngữ mức độ",
+            "id": "cc1-v1-l05-grammar-02-check"
+          },
+          "id": "cc1-v1-l05-grammar-02",
+          "sourcePdfPage": 119
+        },
+        {
+          "title": "會: kỹ năng học được",
+          "structure": "Chủ ngữ + 會 + động từ",
+          "explanation": "會 cho biết một người biết làm điều gì nhờ học hoặc luyện tập: 會做飯, 會游泳. Phủ định là 不會. Khi bài nói về khả năng có sẵn do hoàn cảnh, hãy phân biệt với 能; 會 trong bài này chú trọng kỹ năng.",
+          "commonMistake": "Không dùng 會 sau động từ trong mẫu này: 會做飯, không phải 做會飯.",
+          "examples": [
+            {
+              "chinese": "妳會做飯嗎？",
+              "simplified": "妳会做饭吗？",
+              "pinyin": "nǐ huì zuò fàn ma ？",
+              "meaningVi": "Bạn biết nấu ăn không?"
+            },
+            {
+              "chinese": "我不會游泳。",
+              "simplified": "我不会游泳。",
+              "pinyin": "wǒ bù huì yóu yǒng 。",
+              "meaningVi": "Tôi không biết bơi."
+            }
+          ],
+          "check": {
+            "prompt": "Câu nào nói “Tôi biết nấu ăn”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "我做會飯。"
+              },
+              {
+                "id": "b",
+                "text": "我會做飯。"
+              },
+              {
+                "id": "c",
+                "text": "我飯會做。"
+              }
+            ],
+            "correctOptionId": "b",
+            "feedback": "會 đứng trước động từ 做飯.",
+            "skill": "會: kỹ năng học được",
+            "id": "cc1-v1-l05-grammar-03-check"
+          },
+          "id": "cc1-v1-l05-grammar-03",
+          "sourcePdfPage": 121
+        },
+        {
+          "title": "到: điểm đến",
+          "structure": "到 + địa điểm + 來/去",
+          "explanation": "到 nêu nơi người hoặc vật hướng đến. Trong lời mời 到我家來, 來 cho biết chuyển động hướng về phía người nói. Nếu đi xa khỏi vị trí người nói, có thể dùng 去. Đừng chỉ dịch 到 bằng “đến” mà bỏ qua hướng 來/去 khi cần.",
+          "commonMistake": "Không đảo địa điểm ra sau 來 trong mẫu 到我家來.",
+          "examples": [
+            {
+              "chinese": "這個週末，你到我家來。",
+              "simplified": "这个周末，你到我家来。",
+              "pinyin": "zhè gè zhōu mò ， nǐ dào wǒ jiā lái 。",
+              "meaningVi": "Cuối tuần này bạn đến nhà mình nhé."
+            },
+            {
+              "chinese": "我們到餐廳去吃飯。",
+              "simplified": "我们到餐厅去吃饭。",
+              "pinyin": "wǒ men dào cān tīng qù chī fàn 。",
+              "meaningVi": "Chúng ta đến nhà hàng ăn cơm."
+            }
+          ],
+          "check": {
+            "prompt": "Chọn câu “Cuối tuần này bạn đến nhà mình”.",
+            "options": [
+              {
+                "id": "a",
+                "text": "這個週末，你到我家來。"
+              },
+              {
+                "id": "b",
+                "text": "這個週末，你來到我家去。"
+              },
+              {
+                "id": "c",
+                "text": "這個週末，你我家到來。"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "到 + địa điểm + 來 diễn đạt đến chỗ người nói.",
+            "skill": "到: điểm đến",
+            "id": "cc1-v1-l05-grammar-04-check"
+          },
+          "id": "cc1-v1-l05-grammar-04",
+          "sourcePdfPage": 122
+        }
+      ]
+    },
+    {
+      "lessonId": "cc1-v1-l06",
+      "points": [
+        {
+          "title": "在 chỉ vị trí",
+          "structure": "Người/vật + 在 + địa điểm",
+          "explanation": "在 theo sau người hoặc vật để nói nó đang ở đâu: 學校在山上. Có thể thêm từ chỉ phương hướng như 前面, 後面, 裡面 sau địa điểm. Mẫu này trả lời câu hỏi 在哪裡, khác với 在 + động từ diễn tả hành động đang diễn ra ở Bài 07.",
+          "commonMistake": "Không đảo địa điểm lên sau động từ khác nếu chỉ muốn nói vị trí.",
+          "examples": [
+            {
+              "chinese": "他們學校在山上。",
+              "simplified": "他们学校在山上。",
+              "pinyin": "tā men xué xiào zài shān shàng 。",
+              "meaningVi": "Trường của họ ở trên núi."
+            },
+            {
+              "chinese": "餐廳在學生宿舍的一樓。",
+              "simplified": "餐厅在学生宿舍的一楼。",
+              "pinyin": "cān tīng zài xué shēng sù shè de yī lóu 。",
+              "meaningVi": "Nhà ăn ở tầng một ký túc xá sinh viên."
+            }
+          ],
+          "check": {
+            "prompt": "Câu nào nói “Thư viện ở phía sau trường”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "圖書館在學校後面。"
+              },
+              {
+                "id": "b",
+                "text": "圖書館學校在後面。"
+              },
+              {
+                "id": "c",
+                "text": "在圖書館學校後面。"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "在 nối chủ thể với địa điểm.",
+            "skill": "在 chỉ vị trí",
+            "id": "cc1-v1-l06-grammar-01-check"
+          },
+          "id": "cc1-v1-l06-grammar-01",
+          "sourcePdfPage": 136
+        },
+        {
+          "title": "有 diễn tả sự tồn tại",
+          "structure": "Địa điểm + 有 + người/vật",
+          "explanation": "Khi mở đầu bằng địa điểm, 有 cho biết ở đó có gì: 學校裡面有餐廳. Mẫu này tập trung vào sự hiện diện của người/vật tại nơi ấy; khác 我有一本書, nơi 有 nói về sở hữu. Phủ định là 沒有.",
+          "commonMistake": "Không dùng 不有 để phủ định sự tồn tại.",
+          "examples": [
+            {
+              "chinese": "學校裡面有餐廳。",
+              "simplified": "学校里面有餐厅。",
+              "pinyin": "xué xiào lǐ miàn yǒu cān tīng 。",
+              "meaningVi": "Trong trường có nhà ăn."
+            },
+            {
+              "chinese": "圖書館後面有游泳池。",
+              "simplified": "图书馆后面有游泳池。",
+              "pinyin": "tú shū guǎn hòu miàn yǒu yóu yǒng chí 。",
+              "meaningVi": "Phía sau thư viện có hồ bơi."
+            }
+          ],
+          "check": {
+            "prompt": "Câu nào nói “Trong trường không có cửa hàng”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "學校裡面不有商店。"
+              },
+              {
+                "id": "b",
+                "text": "學校裡面沒有商店。"
+              },
+              {
+                "id": "c",
+                "text": "學校裡面有沒商店。"
+              }
+            ],
+            "correctOptionId": "b",
+            "feedback": "Phủ định 有 bằng 沒有.",
+            "skill": "有 diễn tả sự tồn tại",
+            "id": "cc1-v1-l06-grammar-02-check"
+          },
+          "id": "cc1-v1-l06-grammar-02",
+          "sourcePdfPage": 141
+        },
+        {
+          "title": "Lặp động từ để làm nhẹ lời nói",
+          "structure": "Động từ + (一) + động từ",
+          "explanation": "Lặp động từ như 看看 hoặc 想一想 gợi một hành động ngắn, thử làm hoặc lời đề nghị nhẹ nhàng hơn. Trong hội thoại, 我想去看看 nghĩa là “mình muốn đến xem thử”. Một số động từ hai âm tiết có thể lặp theo cách khác; hãy nhớ mẫu đang học qua ví dụ cụ thể.",
+          "commonMistake": "Đừng lặp tùy ý một động từ li hợp dài theo mẫu một chữ.",
+          "examples": [
+            {
+              "chinese": "我想去看看。",
+              "simplified": "我想去看看。",
+              "pinyin": "wǒ xiǎng qù kàn kàn 。",
+              "meaningVi": "Mình muốn đến xem thử."
+            },
+            {
+              "chinese": "你回去想一想。",
+              "simplified": "你回去想一想。",
+              "pinyin": "nǐ huí qù xiǎng yī xiǎng 。",
+              "meaningVi": "Bạn về suy nghĩ thử nhé."
+            }
+          ],
+          "check": {
+            "prompt": "看看 trong 我想去看看 có sắc thái gì?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Xem thử một chút"
+              },
+              {
+                "id": "b",
+                "text": "Xem suốt cả ngày"
+              },
+              {
+                "id": "c",
+                "text": "Không muốn xem"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "Động từ lặp diễn tả hành động ngắn và nhẹ.",
+            "skill": "Lặp động từ để làm nhẹ lời nói",
+            "id": "cc1-v1-l06-grammar-03-check"
+          },
+          "id": "cc1-v1-l06-grammar-03",
+          "sourcePdfPage": 143
+        },
+        {
+          "title": "不是 bác bỏ một nhận định",
+          "structure": "不是 + điều vừa được nói/giả định",
+          "explanation": "不是 có thể bác bỏ một thông tin người khác vừa nêu hoặc một giả định đang có: 不是很近 tức “không gần như tưởng”. Sau đó người nói thường đưa thông tin sửa lại. Mẫu này khác 不 đứng trực tiếp trước động từ để phủ định hành động thông thường.",
+          "commonMistake": "Đừng hiểu 不是很近 là “rất xa” trong mọi trường hợp; nó chỉ bác bỏ nhận định “gần”.",
+          "examples": [
+            {
+              "chinese": "這裡不是很近，有一點不方便。",
+              "simplified": "这里不是很近，有一点不方便。",
+              "pinyin": "zhè lǐ bú shì hěn jìn ， yǒu yī diǎn bù fāng biàn 。",
+              "meaningVi": "Chỗ này không gần lắm, hơi bất tiện."
+            },
+            {
+              "chinese": "他不是點大碗的，他點小碗的。",
+              "simplified": "他不是点大碗的，他点小碗的。",
+              "pinyin": "tā bú shì diǎn dà wǎn de ， tā diǎn xiǎo wǎn de 。",
+              "meaningVi": "Anh ấy không gọi tô lớn, mà gọi tô nhỏ."
+            }
+          ],
+          "check": {
+            "prompt": "Trong “他不是點大碗的，他點小碗的”, người nói làm gì?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Bác bỏ và sửa lại thông tin"
+              },
+              {
+                "id": "b",
+                "text": "Hỏi giá món ăn"
+              },
+              {
+                "id": "c",
+                "text": "Miêu tả vị trí"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "不是 phủ định thông tin được cho là đúng, rồi vế sau sửa lại.",
+            "skill": "不是 bác bỏ một nhận định",
+            "id": "cc1-v1-l06-grammar-04-check"
+          },
+          "id": "cc1-v1-l06-grammar-04",
+          "sourcePdfPage": 144
+        }
+      ]
+    },
+    {
+      "lessonId": "cc1-v1-l07",
+      "points": [
+        {
+          "title": "Thứ tự thời gian và địa điểm",
+          "structure": "Chủ ngữ + thời gian + địa điểm + việc làm",
+          "explanation": "Khi nói một việc diễn ra lúc nào và ở đâu, đặt thời gian trước địa điểm, rồi đến hoạt động: 我九點在KTV見面. Chủ ngữ có thể đứng trước hoặc sau thời gian. Hãy tách “9 giờ 20” và “KTV Đại An” thành hai phần để không lẫn chỗ và lúc.",
+          "commonMistake": "Tránh đặt thời gian ở cuối câu khi dùng mẫu trật tự cơ bản.",
+          "examples": [
+            {
+              "chinese": "我和朋友九點二十分在大安KTV見面。",
+              "simplified": "我和朋友九点二十分在大安KTV见面。",
+              "pinyin": "wǒ hé péng yǒu jiǔ diǎn èr shí fēn zài dà ān KTV jiàn miàn 。",
+              "meaningVi": "Mình hẹn bạn lúc 9 giờ 20 ở KTV Đại An."
+            },
+            {
+              "chinese": "她下午在學校上課。",
+              "simplified": "她下午在学校上课。",
+              "pinyin": "tā xià wǔ zài xué xiào shàng kè 。",
+              "meaningVi": "Chiều cô ấy học ở trường."
+            }
+          ],
+          "check": {
+            "prompt": "Câu nào có thứ tự thời gian → nơi chốn → hoạt động?",
+            "options": [
+              {
+                "id": "a",
+                "text": "我下午在學校上課。"
+              },
+              {
+                "id": "b",
+                "text": "我在學校上課下午。"
+              },
+              {
+                "id": "c",
+                "text": "我上課下午在學校。"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "下午 đứng trước 在學校, rồi đến 上課.",
+            "skill": "Thứ tự thời gian và địa điểm",
+            "id": "cc1-v1-l07-grammar-01-check"
+          },
+          "id": "cc1-v1-l07-grammar-01",
+          "sourcePdfPage": 165
+        },
+        {
+          "title": "從…到…: từ điểm A đến B",
+          "structure": "從 + thời gian/nơi A + 到 + thời gian/nơi B",
+          "explanation": "Cùng một mẫu có thể chỉ khoảng từ địa điểm này đến địa điểm khác hoặc từ thời điểm này đến thời điểm khác. Trong lời thoại, 從早上七點到中午十二點 nêu trọn khoảng giờ. Hai đầu khoảng phải cùng loại: thời gian với thời gian, nơi chốn với nơi chốn.",
+          "commonMistake": "Đừng dùng 從 mà bỏ mất 到 khi muốn nêu rõ cả hai đầu khoảng.",
+          "examples": [
+            {
+              "chinese": "從早上七點到中午十二點最便宜。",
+              "simplified": "从早上七点到中午十二点最便宜。",
+              "pinyin": "cóng zǎo shàng qī diǎn dào zhōng wǔ shí èr diǎn zuì pián yi 。",
+              "meaningVi": "Từ 7 giờ sáng đến 12 giờ trưa là rẻ nhất."
+            },
+            {
+              "chinese": "從我家到學校有一點遠。",
+              "simplified": "从我家到学校有一点远。",
+              "pinyin": "cóng wǒ jiā dào xué xiào yǒu yī diǎn yuǎn 。",
+              "meaningVi": "Từ nhà mình đến trường hơi xa."
+            }
+          ],
+          "check": {
+            "prompt": "“Từ nhà đến trường” là gì?",
+            "options": [
+              {
+                "id": "a",
+                "text": "從我家到學校"
+              },
+              {
+                "id": "b",
+                "text": "到我家從學校"
+              },
+              {
+                "id": "c",
+                "text": "從我家學校到"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "從 mở đầu khoảng, 到 đánh dấu điểm cuối.",
+            "skill": "從…到…: từ điểm A đến B",
+            "id": "cc1-v1-l07-grammar-02-check"
+          },
+          "id": "cc1-v1-l07-grammar-02",
+          "sourcePdfPage": 167
+        },
+        {
+          "title": "在 chỉ hành động đang diễn ra",
+          "structure": "Chủ ngữ + 在 + động từ",
+          "explanation": "Khi 在 đứng ngay trước động từ, nó báo hành động đang diễn ra: 妳在吃飯 là bạn đang ăn. Đây là cách dùng khác với 在 + địa điểm ở Bài 06. Nếu muốn nói cả nơi chốn, thêm địa điểm ở vị trí riêng.",
+          "commonMistake": "Không nhầm 我在學校 (tôi ở trường) với 我在上課 (tôi đang học).",
+          "examples": [
+            {
+              "chinese": "妳在吃飯啊？",
+              "simplified": "妳在吃饭啊？",
+              "pinyin": "nǐ zài chī fàn a ？",
+              "meaningVi": "Bạn đang ăn à?"
+            },
+            {
+              "chinese": "老師在上課。",
+              "simplified": "老师在上课。",
+              "pinyin": "lǎo shī zài shàng kè 。",
+              "meaningVi": "Thầy cô đang giảng bài."
+            }
+          ],
+          "check": {
+            "prompt": "Câu nào nghĩa là “Cô ấy đang ăn trưa”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "她在吃午餐。"
+              },
+              {
+                "id": "b",
+                "text": "她吃在午餐。"
+              },
+              {
+                "id": "c",
+                "text": "她在午餐。"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "在 đứng trước động từ 吃 để chỉ việc đang diễn ra.",
+            "skill": "在 chỉ hành động đang diễn ra",
+            "id": "cc1-v1-l07-grammar-03-check"
+          },
+          "id": "cc1-v1-l07-grammar-03",
+          "sourcePdfPage": 168
+        },
+        {
+          "title": "每…都…: mỗi lần đều",
+          "structure": "每 + khoảng thời gian/người/vật + 都 + hành động",
+          "explanation": "每 giới thiệu từng đơn vị trong một tập hợp; 都 nhấn rằng hành động áp dụng cho tất cả các đơn vị ấy. 每天晚上都上書法課 nghĩa là tối nào cũng học thư pháp. Trong văn nói đôi khi 都 được lược, nhưng nên giữ trong bài học để nhìn rõ ý “đều”.",
+          "commonMistake": "Không đặt 都 trước 每天 khi muốn nói “mỗi ngày đều”.",
+          "examples": [
+            {
+              "chinese": "我每天晚上都上書法課。",
+              "simplified": "我每天晚上都上书法课。",
+              "pinyin": "wǒ měi tiān wǎn shàng dōu shàng shū fǎ kè 。",
+              "meaningVi": "Tối nào mình cũng học thư pháp."
+            },
+            {
+              "chinese": "她每個週末都去游泳。",
+              "simplified": "她每个周末都去游泳。",
+              "pinyin": "tā měi gè zhōu mò dōu qù yóu yǒng 。",
+              "meaningVi": "Cuối tuần nào cô ấy cũng đi bơi."
+            }
+          ],
+          "check": {
+            "prompt": "Câu nào nghĩa là “Tối nào tôi cũng học”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "我都每天晚上上課。"
+              },
+              {
+                "id": "b",
+                "text": "我每天晚上都上課。"
+              },
+              {
+                "id": "c",
+                "text": "每天都我晚上上課。"
+              }
+            ],
+            "correctOptionId": "b",
+            "feedback": "每 đặt trước khoảng thời gian, 都 đứng trước hành động.",
+            "skill": "每…都…: mỗi lần đều",
+            "id": "cc1-v1-l07-grammar-04-check"
+          },
+          "id": "cc1-v1-l07-grammar-04",
+          "sourcePdfPage": 169
+        },
+        {
+          "title": "可以: được phép",
+          "structure": "Chủ ngữ + 可以 + động từ",
+          "explanation": "可以 hỏi hoặc nói về sự cho phép trong một tình huống: 我可以去看看嗎？ là “Mình đến xem được không?”. Nó cũng có thể nói một lựa chọn khả thi. Ở bài này hãy đọc ngữ cảnh để phân biệt được phép với 會 (kỹ năng) và 能 (khả năng).",
+          "commonMistake": "Không dùng 會 để xin phép: 我會去看看嗎? thường không đúng ý “được phép”.",
+          "examples": [
+            {
+              "chinese": "我有空可以去看看嗎？",
+              "simplified": "我有空可以去看看吗？",
+              "pinyin": "wǒ yǒu kòng kě yǐ qù kàn kàn ma ？",
+              "meaningVi": "Khi rảnh mình đến xem được không?"
+            },
+            {
+              "chinese": "你可以坐公車去。",
+              "simplified": "你可以坐公车去。",
+              "pinyin": "nǐ kě yǐ zuò gōng chē qù 。",
+              "meaningVi": "Bạn có thể đi xe buýt."
+            }
+          ],
+          "check": {
+            "prompt": "Muốn hỏi “Mình vào được không?”, chọn câu nào?",
+            "options": [
+              {
+                "id": "a",
+                "text": "我會進去嗎？"
+              },
+              {
+                "id": "b",
+                "text": "我可以進去嗎？"
+              },
+              {
+                "id": "c",
+                "text": "我進去可以會嗎？"
+              }
+            ],
+            "correctOptionId": "b",
+            "feedback": "可以 đặt trước động từ để hỏi sự cho phép.",
+            "skill": "可以: được phép",
+            "id": "cc1-v1-l07-grammar-05-check"
+          },
+          "id": "cc1-v1-l07-grammar-05",
+          "sourcePdfPage": 171
+        }
+      ]
+    },
+    {
+      "lessonId": "cc1-v1-l08",
+      "points": [
+        {
+          "title": "跟 để nói đi cùng ai",
+          "structure": "跟 + người đi cùng + động từ",
+          "explanation": "跟 đứng trước người cùng tham gia một hành động: 跟朋友去臺南 chơi cùng bạn. Có thể thêm địa điểm và hoạt động sau đó. Cần phân biệt 跟 trong mẫu này với 跟 dùng ở cấu trúc so sánh ở bài sau.",
+          "commonMistake": "Đừng đặt người đi cùng sau hoạt động nếu muốn dùng mẫu 跟.",
+          "examples": [
+            {
+              "chinese": "我想跟朋友去臺南玩。",
+              "simplified": "我想跟朋友去台南玩。",
+              "pinyin": "wǒ xiǎng gēn péng yǒu qù tái nán wán 。",
+              "meaningVi": "Mình muốn đi Đài Nam chơi cùng bạn."
+            },
+            {
+              "chinese": "她跟同學去參觀故宮。",
+              "simplified": "她跟同学去参观故宫。",
+              "pinyin": "tā gēn tóng xué qù cān guān gù gōng 。",
+              "meaningVi": "Cô ấy đi tham quan Cố Cung cùng bạn học."
+            }
+          ],
+          "check": {
+            "prompt": "Câu nào nghĩa là “Tôi đi cùng bạn học”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "我跟同學一起去。"
+              },
+              {
+                "id": "b",
+                "text": "我去跟一起同學。"
+              },
+              {
+                "id": "c",
+                "text": "我同學跟去一起。"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "跟 đứng trước người đi cùng.",
+            "skill": "跟 để nói đi cùng ai",
+            "id": "cc1-v1-l08-grammar-01-check"
+          },
+          "id": "cc1-v1-l08-grammar-01",
+          "sourcePdfPage": 192
+        },
+        {
+          "title": "怎麼 hỏi cách làm",
+          "structure": "怎麼 + động từ",
+          "explanation": "怎麼 hỏi làm một việc bằng cách nào: 怎麼去 hỏi cách đi, 怎麼買票 hỏi cách mua vé. Khác 怎麼樣 hỏi cảm nhận hoặc tình trạng của một sự vật. Sau 怎麼 thường có động từ nêu hành động cần giải thích.",
+          "commonMistake": "Đừng dùng 怎麼樣去 khi chỉ hỏi cách đi đơn giản; dùng 怎麼去.",
+          "examples": [
+            {
+              "chinese": "你們怎麼去臺南？",
+              "simplified": "你们怎么去台南？",
+              "pinyin": "nǐ men zěn me qù tái nán ？",
+              "meaningVi": "Các bạn đi Đài Nam bằng cách nào?"
+            },
+            {
+              "chinese": "這張車票怎麼買？",
+              "simplified": "这张车票怎么买？",
+              "pinyin": "zhè zhāng chē piào zěn me mǎi ？",
+              "meaningVi": "Mua tấm vé này như thế nào?"
+            }
+          ],
+          "check": {
+            "prompt": "Muốn hỏi “Đi bằng cách nào?”, chọn câu nào?",
+            "options": [
+              {
+                "id": "a",
+                "text": "怎麼去？"
+              },
+              {
+                "id": "b",
+                "text": "怎麼樣去？"
+              },
+              {
+                "id": "c",
+                "text": "去怎麼樣？"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "怎麼 đi trước động từ 去 để hỏi phương thức.",
+            "skill": "怎麼 hỏi cách làm",
+            "id": "cc1-v1-l08-grammar-02-check"
+          },
+          "id": "cc1-v1-l08-grammar-02",
+          "sourcePdfPage": 194
+        },
+        {
+          "title": "比較: so sánh ngầm",
+          "structure": "比較 + tính từ/động từ trạng thái",
+          "explanation": "比較 nghĩa là tương đối hoặc “hơn” khi đối tượng so sánh đã rõ trong ngữ cảnh. Nói 坐高鐵比較快 sau khi vừa bàn về tàu hỏa thì người nghe hiểu tàu cao tốc nhanh hơn tàu hỏa. Nếu muốn nêu cả hai đối tượng rõ ràng, dùng 比.",
+          "commonMistake": "Đừng đặt 比較 sau tính từ: 比較快, không phải 快比較.",
+          "examples": [
+            {
+              "chinese": "坐高鐵比較快。",
+              "simplified": "坐高铁比较快。",
+              "pinyin": "zuò gāo tiě bǐ jiào kuài 。",
+              "meaningVi": "Đi tàu cao tốc nhanh hơn."
+            },
+            {
+              "chinese": "我比較喜歡坐火車。",
+              "simplified": "我比较喜欢坐火车。",
+              "pinyin": "wǒ bǐ jiào xǐ huān zuò huǒ chē 。",
+              "meaningVi": "Mình thích đi tàu hỏa hơn."
+            }
+          ],
+          "check": {
+            "prompt": "Sau khi so sánh hai cách đi, “đi tàu cao tốc nhanh hơn” là gì?",
+            "options": [
+              {
+                "id": "a",
+                "text": "坐高鐵快比較。"
+              },
+              {
+                "id": "b",
+                "text": "坐高鐵比較快。"
+              },
+              {
+                "id": "c",
+                "text": "比較坐高鐵快。"
+              }
+            ],
+            "correctOptionId": "b",
+            "feedback": "比較 đứng ngay trước tính từ 快.",
+            "skill": "比較: so sánh ngầm",
+            "id": "cc1-v1-l08-grammar-03-check"
+          },
+          "id": "cc1-v1-l08-grammar-03",
+          "sourcePdfPage": 195
+        },
+        {
+          "title": "又…又…: vừa…vừa…",
+          "structure": "又 + tính chất A + 又 + tính chất B",
+          "explanation": "Mẫu này nối hai tính chất cùng đúng về một người/vật, như 又快又舒服. Cả hai tính chất thường cùng hướng đánh giá, nhưng ngữ cảnh có thể khác. Nếu muốn nói một ưu điểm kèm một nhược điểm, hãy tách bằng 但是.",
+          "commonMistake": "Không bỏ 又 thứ hai trong mẫu đang học.",
+          "examples": [
+            {
+              "chinese": "坐高鐵又快又舒服。",
+              "simplified": "坐高铁又快又舒服。",
+              "pinyin": "zuò gāo tiě yòu kuài yòu shū fú 。",
+              "meaningVi": "Đi tàu cao tốc vừa nhanh vừa thoải mái."
+            },
+            {
+              "chinese": "這家餐廳的菜又便宜又好吃。",
+              "simplified": "这家餐厅的菜又便宜又好吃。",
+              "pinyin": "zhè jiā cān tīng de cài yòu pián yi yòu hǎo chī 。",
+              "meaningVi": "Món ở nhà hàng này vừa rẻ vừa ngon."
+            }
+          ],
+          "check": {
+            "prompt": "Câu nào nghĩa là “vừa rẻ vừa ngon”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "便宜又好吃又"
+              },
+              {
+                "id": "b",
+                "text": "又便宜又好吃"
+              },
+              {
+                "id": "c",
+                "text": "又便宜好吃又"
+              }
+            ],
+            "correctOptionId": "b",
+            "feedback": "Hai vế tính chất đều có 又 ở trước.",
+            "skill": "又…又…: vừa…vừa…",
+            "id": "cc1-v1-l08-grammar-04-check"
+          },
+          "id": "cc1-v1-l08-grammar-04",
+          "sourcePdfPage": 196
+        },
+        {
+          "title": "比: so sánh trực tiếp",
+          "structure": "A + 比 + B + tính từ",
+          "explanation": "比 đặt giữa hai đối tượng để so sánh rõ ràng: 坐捷運比坐火車快. A là bên được đem ra so, B là mốc so sánh. Khác 比較, mẫu 比 thường nêu cả hai đối tượng trong câu; khi phủ định, dùng 沒有 trong các mẫu học sau.",
+          "commonMistake": "Không đặt 比 sau tính từ hoặc đảo A/B nếu muốn giữ nguyên nghĩa.",
+          "examples": [
+            {
+              "chinese": "坐捷運比坐火車快。",
+              "simplified": "坐捷运比坐火车快。",
+              "pinyin": "zuò jié yùn bǐ zuò huǒ chē kuài 。",
+              "meaningVi": "Đi MRT nhanh hơn đi tàu hỏa."
+            },
+            {
+              "chinese": "我們學校比他們學校遠。",
+              "simplified": "我们学校比他们学校远。",
+              "pinyin": "wǒ men xué xiào bǐ tā men xué xiào yuǎn 。",
+              "meaningVi": "Trường chúng tôi xa hơn trường của họ."
+            }
+          ],
+          "check": {
+            "prompt": "Câu nào nghĩa là “Đi MRT nhanh hơn đi tàu hỏa”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "坐捷運比坐火車快。"
+              },
+              {
+                "id": "b",
+                "text": "坐火車比坐捷運快。"
+              },
+              {
+                "id": "c",
+                "text": "坐捷運快比坐火車。"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "A 比 B 快: A nhanh hơn B.",
+            "skill": "比: so sánh trực tiếp",
+            "id": "cc1-v1-l08-grammar-05-check"
+          },
+          "id": "cc1-v1-l08-grammar-05",
+          "sourcePdfPage": 197
+        }
+      ]
+    },
+    {
+      "lessonId": "cc1-v1-l09",
+      "points": [
+        {
+          "title": "Thời điểm khác thời lượng",
+          "structure": "Thời điểm: 什麼時候 / 時 lượng: 多久",
+          "explanation": "Thời điểm trả lời “khi nào” như thứ Bảy chiều; thời lượng trả lời “bao lâu” như bốn ngày. Đừng dùng một câu trả lời chỉ độ dài cho câu hỏi về ngày giờ. Khi lên kế hoạch du lịch, hai loại câu hỏi này thường xuất hiện liên tiếp.",
+          "commonMistake": "Không nhầm 去玩多久 với 什麼時候去玩.",
+          "examples": [
+            {
+              "chinese": "你們什麼時候去臺東？",
+              "simplified": "你们什么时候去台东？",
+              "pinyin": "nǐ men shén me shí hòu qù tái dōng ？",
+              "meaningVi": "Khi nào các bạn đi Đài Đông?"
+            },
+            {
+              "chinese": "你們去玩多久？",
+              "simplified": "你们去玩多久？",
+              "pinyin": "nǐ men qù wán duō jiǔ ？",
+              "meaningVi": "Các bạn đi chơi bao lâu?"
+            }
+          ],
+          "check": {
+            "prompt": "“Bạn đi chơi bao lâu?” dùng từ hỏi nào?",
+            "options": [
+              {
+                "id": "a",
+                "text": "什麼時候"
+              },
+              {
+                "id": "b",
+                "text": "多久"
+              },
+              {
+                "id": "c",
+                "text": "哪裡"
+              }
+            ],
+            "correctOptionId": "b",
+            "feedback": "多久 hỏi khoảng thời gian kéo dài.",
+            "skill": "Thời điểm khác thời lượng",
+            "id": "cc1-v1-l09-grammar-01-check"
+          },
+          "id": "cc1-v1-l09-grammar-01",
+          "sourcePdfPage": 215
+        },
+        {
+          "title": "Thời lượng sau hành động",
+          "structure": "Động từ + thời lượng",
+          "explanation": "Sau động từ có thể đặt một khoảng thời gian để nói việc kéo dài bao lâu: 玩四、五天. Với một số động từ li hợp như 唱歌 hoặc 上課, khoảng thời gian thường chen vào giữa hai phần: 唱三個鐘頭的歌. Bài này chú trọng thời lượng, không phải thời điểm bắt đầu.",
+          "commonMistake": "Không đặt thời lượng trước động từ theo mẫu chỉ thời điểm khi muốn nói hành động kéo dài bao lâu.",
+          "examples": [
+            {
+              "chinese": "我去花蓮玩一個星期。",
+              "simplified": "我去花莲玩一个星期。",
+              "pinyin": "wǒ qù huā lián wán yī gè xīng qī 。",
+              "meaningVi": "Mình đến Hoa Liên chơi một tuần."
+            },
+            {
+              "chinese": "我們唱三個鐘頭的歌。",
+              "simplified": "我们唱三个钟头的歌。",
+              "pinyin": "wǒ men chàng sān gè zhōng tóu de gē 。",
+              "meaningVi": "Chúng mình hát trong ba tiếng."
+            }
+          ],
+          "check": {
+            "prompt": "Câu nào nói “Tôi đi Đài Nam chơi bốn ngày”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "我去臺南玩四天。"
+              },
+              {
+                "id": "b",
+                "text": "我四天去臺南玩。"
+              },
+              {
+                "id": "c",
+                "text": "我去四天臺南玩。"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "四天 theo sau 玩 để chỉ thời lượng.",
+            "skill": "Thời lượng sau hành động",
+            "id": "cc1-v1-l09-grammar-02-check"
+          },
+          "id": "cc1-v1-l09-grammar-02",
+          "sourcePdfPage": 216
+        },
+        {
+          "title": "…的時候: khi…",
+          "structure": "Sự việc/thời điểm + 的時候，+ sự việc khác",
+          "explanation": "的時候 tạo mốc “khi…”, rồi câu chính kể việc xảy ra trong mốc đó. Có thể là khi nghỉ lễ, khi rảnh hoặc lúc đang làm một việc. Đừng dịch 的 riêng lẻ; hãy hiểu cả cụm là một trạng ngữ thời gian.",
+          "commonMistake": "Không tách 的時候 ra khỏi vế nêu mốc thời gian.",
+          "examples": [
+            {
+              "chinese": "放假的時候，我喜歡去逛夜市。",
+              "simplified": "放假的时候，我喜欢去逛夜市。",
+              "pinyin": "fàng jià de shí hòu ， wǒ xǐ huān qù guàng yè shì 。",
+              "meaningVi": "Khi nghỉ lễ, mình thích đi dạo chợ đêm."
+            },
+            {
+              "chinese": "你有空的時候，請到我家來。",
+              "simplified": "你有空的时候，请到我家来。",
+              "pinyin": "nǐ yǒu kòng de shí hòu ， qǐng dào wǒ jiā lái 。",
+              "meaningVi": "Khi bạn rảnh, mời đến nhà mình."
+            }
+          ],
+          "check": {
+            "prompt": "“Khi nghỉ lễ, tôi ở nhà” là câu nào?",
+            "options": [
+              {
+                "id": "a",
+                "text": "放假的時候，我在家。"
+              },
+              {
+                "id": "b",
+                "text": "放假我時候的在家。"
+              },
+              {
+                "id": "c",
+                "text": "我在家的時候放假。"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "放假的時候 nêu mốc thời gian cho vế sau.",
+            "skill": "…的時候: khi…",
+            "id": "cc1-v1-l09-grammar-03-check"
+          },
+          "id": "cc1-v1-l09-grammar-03",
+          "sourcePdfPage": 218
+        },
+        {
+          "title": "有時候…有時候…: có lúc…có lúc…",
+          "structure": "有時候 + A，有時候 + B",
+          "explanation": "Hai lần 有時候 diễn tả hai khả năng thay phiên xảy ra trong cùng một hoàn cảnh. Nó không khẳng định cả A và B luôn xảy ra. Trong bài, người nói có khi ở nhà làm bài, có khi ra ngoài chơi trong kỳ nghỉ.",
+          "commonMistake": "Đừng hiểu mẫu này là A và B diễn ra cùng một lúc.",
+          "examples": [
+            {
+              "chinese": "有時候在家寫功課，有時候出去玩。",
+              "simplified": "有时候在家写功课，有时候出去玩。",
+              "pinyin": "yǒu shí hòu zài jiā xiě gōng kè ， yǒu shí hòu chū qù wán 。",
+              "meaningVi": "Có lúc ở nhà làm bài tập, có lúc ra ngoài chơi."
+            },
+            {
+              "chinese": "我有時候喝茶，有時候喝咖啡。",
+              "simplified": "我有时候喝茶，有时候喝咖啡。",
+              "pinyin": "wǒ yǒu shí hòu hē chá ， yǒu shí hòu hē kā fēi 。",
+              "meaningVi": "Có lúc mình uống trà, có lúc uống cà phê."
+            }
+          ],
+          "check": {
+            "prompt": "Mẫu nào nghĩa là “có lúc A, có lúc B”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "有時候A，有時候B"
+              },
+              {
+                "id": "b",
+                "text": "都A，都B"
+              },
+              {
+                "id": "c",
+                "text": "一A就B"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "Hai vế 有時候 nêu các khả năng luân phiên.",
+            "skill": "有時候…有時候…: có lúc…có lúc…",
+            "id": "cc1-v1-l09-grammar-04-check"
+          },
+          "id": "cc1-v1-l09-grammar-04",
+          "sourcePdfPage": 218
+        },
+        {
+          "title": "要是…就…: nếu…thì…",
+          "structure": "要是 + điều kiện，就 + kết quả",
+          "explanation": "要是 nêu một điều kiện chưa chắc xảy ra; 就 dẫn tới kết quả nếu điều kiện ấy thành sự thật. Ví dụ 要是我有空，就跟你們去: nếu mình rảnh thì mình sẽ đi cùng. Có thể lược 就 trong lời nói thường ngày, nhưng giữ nó giúp nhận rõ quan hệ điều kiện.",
+          "commonMistake": "Đừng đọc 要是 như một việc đã chắc chắn xảy ra.",
+          "examples": [
+            {
+              "chinese": "要是我有空，就跟你們一起去。",
+              "simplified": "要是我有空，就跟你们一起去。",
+              "pinyin": "yào shì wǒ yǒu kòng ， jiù gēn nǐ men yì qǐ qù 。",
+              "meaningVi": "Nếu mình rảnh thì sẽ đi cùng các bạn."
+            },
+            {
+              "chinese": "要是下雨，我們就不去。",
+              "simplified": "要是下雨，我们就不去。",
+              "pinyin": "yào shì xià yǔ ， wǒ men jiù bù qù 。",
+              "meaningVi": "Nếu trời mưa, chúng ta sẽ không đi."
+            }
+          ],
+          "check": {
+            "prompt": "Câu nào nghĩa là “Nếu rảnh thì tôi sẽ đi”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "要是我有空，我就去。"
+              },
+              {
+                "id": "b",
+                "text": "我就要是有空去。"
+              },
+              {
+                "id": "c",
+                "text": "要是我就有空去。"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "要是 mở điều kiện; 就 dẫn kết quả.",
+            "skill": "要是…就…: nếu…thì…",
+            "id": "cc1-v1-l09-grammar-05-check"
+          },
+          "id": "cc1-v1-l09-grammar-05",
+          "sourcePdfPage": 219
+        }
+      ]
+    },
+    {
+      "lessonId": "cc1-v1-l10",
+      "points": [
+        {
+          "title": "Lặp động từ với 看: thử làm xem",
+          "structure": "Động từ + động từ + 看",
+          "explanation": "Lặp một động từ ngắn rồi thêm 看 để rủ ai thử làm một việc và xem kết quả: 吃吃看 là ăn thử xem. Cách nói này tự nhiên khi giới thiệu món mới hoặc trải nghiệm mới. Với động từ dài, cách lặp có thể khác; hãy nhớ những tổ hợp đã gặp trong bài.",
+          "commonMistake": "Đừng hiểu 看 ở đây là “nhìn” theo nghĩa đen.",
+          "examples": [
+            {
+              "chinese": "這個芒果很甜，你吃吃看。",
+              "simplified": "这个芒果很甜，你吃吃看。",
+              "pinyin": "zhè gè máng guǒ hěn tián ， nǐ chī chī kàn 。",
+              "meaningVi": "Quả xoài này ngọt lắm, bạn ăn thử xem."
+            },
+            {
+              "chinese": "你試試看這個方法。",
+              "simplified": "你试试看这个方法。",
+              "pinyin": "nǐ shì shì kàn zhè gè fāng fǎ 。",
+              "meaningVi": "Bạn thử cách này xem."
+            }
+          ],
+          "check": {
+            "prompt": "吃吃看 nghĩa là gì?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Ăn thử xem"
+              },
+              {
+                "id": "b",
+                "text": "Nhìn người khác ăn"
+              },
+              {
+                "id": "c",
+                "text": "Ăn suốt ngày"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "V V 看 diễn tả thử một hành động.",
+            "skill": "Lặp động từ với 看: thử làm xem",
+            "id": "cc1-v1-l10-grammar-01-check"
+          },
+          "id": "cc1-v1-l10-grammar-01",
+          "sourcePdfPage": 235
+        },
+        {
+          "title": "Lặp tính từ để diễn tả cảm nhận",
+          "structure": "Tính từ + tính từ + 的",
+          "explanation": "Lặp tính từ như 香香的, 甜甜的 tạo cảm giác nhẹ, sinh động khi miêu tả màu, mùi hoặc vị. Đây không phải “rất” theo nghĩa máy móc; ngữ cảnh quyết định sắc thái. Trong bài, người nói nếm xoài rồi nhận xét vừa thơm vừa ngọt.",
+          "commonMistake": "Đừng thay mọi tính từ bằng mẫu lặp; chỉ dùng khi hợp cách nói tự nhiên.",
+          "examples": [
+            {
+              "chinese": "這個芒果香香的、甜甜的。",
+              "simplified": "这个芒果香香的、甜甜的。",
+              "pinyin": "zhè gè máng guǒ xiāng xiāng de 、 tián tián de 。",
+              "meaningVi": "Quả xoài này thơm thơm, ngọt ngọt."
+            },
+            {
+              "chinese": "這件衣服紅紅的。",
+              "simplified": "这件衣服红红的。",
+              "pinyin": "zhè jiàn yī fú hóng hóng de 。",
+              "meaningVi": "Chiếc áo này đỏ đỏ."
+            }
+          ],
+          "check": {
+            "prompt": "Cụm nào miêu tả vị “ngọt ngọt”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "甜甜的"
+              },
+              {
+                "id": "b",
+                "text": "甜的甜"
+              },
+              {
+                "id": "c",
+                "text": "的甜甜"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "Tính từ được lặp rồi thêm 的.",
+            "skill": "Lặp tính từ để diễn tả cảm nhận",
+            "id": "cc1-v1-l10-grammar-02-check"
+          },
+          "id": "cc1-v1-l10-grammar-02",
+          "sourcePdfPage": 236
+        },
+        {
+          "title": "Mệnh đề bổ nghĩa danh từ",
+          "structure": "Mệnh đề miêu tả + 的 + danh từ",
+          "explanation": "Một hành động hoặc cả mệnh đề có thể đứng trước 的 để xác định danh từ: 我拍的照片 là những bức ảnh tôi chụp. Người hoặc vật chính xuất hiện sau 的; phần trước cho biết nó có đặc điểm gì. Nếu danh từ đã rõ, có thể lược nó như 穿紅衣服的.",
+          "commonMistake": "Đừng đặt mệnh đề miêu tả sau danh từ theo trật tự tiếng Việt.",
+          "examples": [
+            {
+              "chinese": "這些是我拍的照片。",
+              "simplified": "这些是我拍的照片。",
+              "pinyin": "zhè xiē shì wǒ pāi de zhào piān 。",
+              "meaningVi": "Đây là những bức ảnh tôi chụp."
+            },
+            {
+              "chinese": "穿紅衣服的這個是我女朋友。",
+              "simplified": "穿红衣服的这个是我女朋友。",
+              "pinyin": "chuān hóng yī fú de zhè gè shì wǒ nǚ péng yǒu 。",
+              "meaningVi": "Người mặc áo đỏ này là bạn gái tôi."
+            }
+          ],
+          "check": {
+            "prompt": "“Những bức ảnh tôi chụp” là gì?",
+            "options": [
+              {
+                "id": "a",
+                "text": "我拍的照片"
+              },
+              {
+                "id": "b",
+                "text": "照片的我拍"
+              },
+              {
+                "id": "c",
+                "text": "我照片拍的"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "Mệnh đề 我拍 đứng trước 的照片.",
+            "skill": "Mệnh đề bổ nghĩa danh từ",
+            "id": "cc1-v1-l10-grammar-03-check"
+          },
+          "id": "cc1-v1-l10-grammar-03",
+          "sourcePdfPage": 237
+        },
+        {
+          "title": "了 cuối câu: trạng thái đã đổi",
+          "structure": "Câu miêu tả + 了",
+          "explanation": "了 ở cuối câu báo tình trạng bây giờ khác trước: 我現在很喜歡了 nghĩa là giờ đã thích. Nó không chỉ là dấu hiệu quá khứ; trong bài người nói đối chiếu “trước đây không thích” với “bây giờ thích”. Hãy nhìn hai mốc thời gian để hiểu sự thay đổi.",
+          "commonMistake": "Đừng dịch mọi 了 thành “đã” nếu không có sự kiện quá khứ cụ thể.",
+          "examples": [
+            {
+              "chinese": "我以前不喜歡吃水果，現在很喜歡了。",
+              "simplified": "我以前不喜欢吃水果，现在很喜欢了。",
+              "pinyin": "wǒ yǐ qián bù xǐ huān chī shuǐ guǒ ， xiàn zài hěn xǐ huān le 。",
+              "meaningVi": "Trước đây mình không thích trái cây, giờ thì thích rồi."
+            },
+            {
+              "chinese": "天氣冷了。",
+              "simplified": "天气冷了。",
+              "pinyin": "tiān qì lěng le 。",
+              "meaningVi": "Trời trở lạnh rồi."
+            }
+          ],
+          "check": {
+            "prompt": "Trong “天氣冷了”, 了 cho biết gì?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Thời tiết đã thay đổi"
+              },
+              {
+                "id": "b",
+                "text": "Trời sẽ luôn lạnh"
+              },
+              {
+                "id": "c",
+                "text": "Không có thay đổi"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "了 cuối câu nêu trạng thái mới.",
+            "skill": "了 cuối câu: trạng thái đã đổi",
+            "id": "cc1-v1-l10-grammar-04-check"
+          },
+          "id": "cc1-v1-l10-grammar-04",
+          "sourcePdfPage": 239
+        },
+        {
+          "title": "因為…所以…: vì…nên…",
+          "structure": "因為 + nguyên nhân，所以 + kết quả",
+          "explanation": "因為 mở lý do, 所以 dẫn kết quả. Có thể dùng cả hai để diễn đạt mạch rõ ràng, như 因為現在人少，所以旅館不太貴. Trong hội thoại, người nói giải thích giá phòng chứ không chỉ liệt kê hai sự việc.",
+          "commonMistake": "Không đảo nguyên nhân và kết quả nếu vẫn giữ 因為…所以.",
+          "examples": [
+            {
+              "chinese": "因為現在去玩的人少，所以旅館不太貴。",
+              "simplified": "因为现在去玩的人少，所以旅馆不太贵。",
+              "pinyin": "yīn wèi xiàn zài qù wán de rén shǎo ， suǒ yǐ lǚ guǎn bù tài guì 。",
+              "meaningVi": "Vì giờ ít người đi chơi nên khách sạn không đắt lắm."
+            },
+            {
+              "chinese": "因為下雨，所以我們不去。",
+              "simplified": "因为下雨，所以我们不去。",
+              "pinyin": "yīn wèi xià yǔ ， suǒ yǐ wǒ men bù qù 。",
+              "meaningVi": "Vì trời mưa nên chúng ta không đi."
+            }
+          ],
+          "check": {
+            "prompt": "Câu nào nghĩa là “Vì trời mưa nên tôi ở nhà”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "因為下雨，所以我在家。"
+              },
+              {
+                "id": "b",
+                "text": "所以下雨，因為我在家。"
+              },
+              {
+                "id": "c",
+                "text": "因為我在家，所以下雨。"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "因為 dẫn lý do; 所以 dẫn kết quả.",
+            "skill": "因為…所以…: vì…nên…",
+            "id": "cc1-v1-l10-grammar-05-check"
+          },
+          "id": "cc1-v1-l10-grammar-05",
+          "sourcePdfPage": 240
+        }
+      ]
+    },
+    {
+      "lessonId": "cc1-v1-l11",
+      "points": [
+        {
+          "title": "來 để nói đến làm việc gì",
+          "structure": "來 + động từ/cụm động từ",
+          "explanation": "來 theo sau chủ ngữ, trước việc người ấy đến làm: 我來看房子 là tôi đến xem nhà. Người nghe hiểu hướng chuyển động về phía nơi đang nói. Nếu người đó đi khỏi vị trí hiện tại để làm việc, dùng 去 phù hợp hơn.",
+          "commonMistake": "Đừng hiểu 來看房子 chỉ là “xem nhà”; nó còn nêu việc đến đây.",
+          "examples": [
+            {
+              "chinese": "我是白如玉，來看房子。",
+              "simplified": "我是白如玉，来看房子。",
+              "pinyin": "wǒ shì bái rú yù ， lái kàn fáng zi 。",
+              "meaningVi": "Tôi là Bạch Như Ngọc, đến xem nhà."
+            },
+            {
+              "chinese": "房東明天來修熱水器。",
+              "simplified": "房东明天来修热水器。",
+              "pinyin": "fáng dōng míng tiān lái xiū rè shuǐ qì 。",
+              "meaningVi": "Ngày mai chủ nhà đến sửa máy nước nóng."
+            }
+          ],
+          "check": {
+            "prompt": "“Tôi đến xem nhà” là gì?",
+            "options": [
+              {
+                "id": "a",
+                "text": "我來看房子。"
+              },
+              {
+                "id": "b",
+                "text": "我看來房子。"
+              },
+              {
+                "id": "c",
+                "text": "我房子來看。"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "來 đứng trước việc đến làm.",
+            "skill": "來 để nói đến làm việc gì",
+            "id": "cc1-v1-l11-grammar-01-check"
+          },
+          "id": "cc1-v1-l11-grammar-01",
+          "sourcePdfPage": 257
+        },
+        {
+          "title": "就: sớm/nhanh hơn dự kiến",
+          "structure": "Thời gian/ngắn + 就 + sự việc",
+          "explanation": "就 có thể nhấn rằng việc xảy ra nhanh hoặc sớm hơn người nghe nghĩ: 走路五分鐘就到了 — đi bộ năm phút là đến. Nó khác 就 trong câu điều kiện 要是…就… ở Bài 09. Hãy dựa vào ngữ cảnh để hiểu sắc thái “đã/đủ nhanh”.",
+          "commonMistake": "Đừng dịch mọi 就 thành “thì”; ở đây nó nhấn thời gian ngắn.",
+          "examples": [
+            {
+              "chinese": "走路五分鐘就到了。",
+              "simplified": "走路五分钟就到了。",
+              "pinyin": "zǒu lù wǔ fēn zhōng jiù dào le 。",
+              "meaningVi": "Đi bộ năm phút là đến."
+            },
+            {
+              "chinese": "她今天三點就下課了。",
+              "simplified": "她今天三点就下课了。",
+              "pinyin": "tā jīn tiān sān diǎn jiù xià kè le 。",
+              "meaningVi": "Hôm nay ba giờ cô ấy đã tan học."
+            }
+          ],
+          "check": {
+            "prompt": "“Đi bộ năm phút là đến” dùng từ nào để nhấn nhanh?",
+            "options": [
+              {
+                "id": "a",
+                "text": "就"
+              },
+              {
+                "id": "b",
+                "text": "都"
+              },
+              {
+                "id": "c",
+                "text": "還是"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "就 nhấn kết quả đến sớm sau một khoảng ngắn.",
+            "skill": "就: sớm/nhanh hơn dự kiến",
+            "id": "cc1-v1-l11-grammar-02-check"
+          },
+          "id": "cc1-v1-l11-grammar-02",
+          "sourcePdfPage": 258
+        },
+        {
+          "title": "有 + người/vật + ở đâu",
+          "structure": "有 + người/vật + 在 + nơi chốn",
+          "explanation": "Mở đầu bằng 有 để giới thiệu sự hiện diện của một người/vật rồi nói họ ở đâu: 有人在裡面看書. Cách này đặt trọng tâm vào “có ai/có gì”, khác mẫu nơi chốn + 有 + vật ở Bài 06, nơi đặt trọng tâm vào địa điểm.",
+          "commonMistake": "Đừng đảo 有 và người/vật khi muốn giới thiệu sự tồn tại.",
+          "examples": [
+            {
+              "chinese": "有人在裡面看書。",
+              "simplified": "有人在里面看书。",
+              "pinyin": "yǒu rén zài lǐ miàn kàn shū 。",
+              "meaningVi": "Có người đang đọc sách ở bên trong."
+            },
+            {
+              "chinese": "有一支手機在地上。",
+              "simplified": "有一支手机在地上。",
+              "pinyin": "yǒu yī zhī shǒu jī zài dì shàng 。",
+              "meaningVi": "Có một chiếc điện thoại ở dưới đất."
+            }
+          ],
+          "check": {
+            "prompt": "Câu nào nói “Có người ở trong phòng”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "有人在房間裡。"
+              },
+              {
+                "id": "b",
+                "text": "人在有房間裡。"
+              },
+              {
+                "id": "c",
+                "text": "房間裡在有人。"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "有 đứng trước người/vật được giới thiệu.",
+            "skill": "有 + người/vật + ở đâu",
+            "id": "cc1-v1-l11-grammar-03-check"
+          },
+          "id": "cc1-v1-l11-grammar-03",
+          "sourcePdfPage": 259
+        },
+        {
+          "title": "會: sẽ hoặc biết làm",
+          "structure": "會 + động từ",
+          "explanation": "會 có thể chỉ kỹ năng đã học như 會做飯, nhưng trong ngữ cảnh tương lai nó cũng có nghĩa “sẽ”: 今天我會去看看. Thời gian trong câu giúp bạn phân biệt hai cách dùng. Khi nói dự định chắc chắn, có thể cần một từ khác; ở đây 會 nêu điều người nói dự kiến sẽ làm.",
+          "commonMistake": "Đừng dịch 會 thành “biết” trong câu nói việc ngày mai.",
+          "examples": [
+            {
+              "chinese": "今天我會去看看。",
+              "simplified": "今天我会去看看。",
+              "pinyin": "jīn tiān wǒ huì qù kàn kàn 。",
+              "meaningVi": "Hôm nay tôi sẽ đến xem."
+            },
+            {
+              "chinese": "她會說中文。",
+              "simplified": "她会说中文。",
+              "pinyin": "tā huì shuō zhōng wén 。",
+              "meaningVi": "Cô ấy biết nói tiếng Hoa."
+            }
+          ],
+          "check": {
+            "prompt": "Trong “明天我會去”, 會 có nghĩa gì?",
+            "options": [
+              {
+                "id": "a",
+                "text": "sẽ"
+              },
+              {
+                "id": "b",
+                "text": "biết kỹ năng đi"
+              },
+              {
+                "id": "c",
+                "text": "đã từng"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "明天 cho thấy đây là việc dự kiến ở tương lai.",
+            "skill": "會: sẽ hoặc biết làm",
+            "id": "cc1-v1-l11-grammar-04-check"
+          },
+          "id": "cc1-v1-l11-grammar-04",
+          "sourcePdfPage": 261
+        },
+        {
+          "title": "Lược danh từ khi đã rõ",
+          "structure": "Từ chỉ số lượng/tính chất + lượng từ hoặc 的",
+          "explanation": "Khi người nghe đã biết đang nói về 房間, có thể đáp 一間是套房，一間不是 mà không lặp 房間. Lược bỏ giúp hội thoại gọn hơn; giữ lượng từ để người nghe vẫn biết đang đếm. Nếu chưa rõ đối tượng, cần nói đầy đủ danh từ.",
+          "commonMistake": "Đừng lược danh từ khi câu trở nên mơ hồ.",
+          "examples": [
+            {
+              "chinese": "還有兩間空房間，一間是套房。",
+              "simplified": "还有两间空房间，一间是套房。",
+              "pinyin": "hái yǒu liǎng jiān kòng fáng jiān ， yī jiān shì tào fáng 。",
+              "meaningVi": "Còn hai phòng trống, một phòng là phòng khép kín."
+            },
+            {
+              "chinese": "我要大的，不要小的。",
+              "simplified": "我要大的，不要小的。",
+              "pinyin": "wǒ yào dà de ， bú yào xiǎo de 。",
+              "meaningVi": "Tôi muốn loại lớn, không muốn loại nhỏ."
+            }
+          ],
+          "check": {
+            "prompt": "Sau khi nói về phòng, “một phòng là phòng khép kín” có thể nói thế nào?",
+            "options": [
+              {
+                "id": "a",
+                "text": "一間是套房。"
+              },
+              {
+                "id": "b",
+                "text": "一是間套房。"
+              },
+              {
+                "id": "c",
+                "text": "間一是套房。"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "Danh từ 房間 đã rõ nên có thể lược, giữ lượng từ 間.",
+            "skill": "Lược danh từ khi đã rõ",
+            "id": "cc1-v1-l11-grammar-05-check"
+          },
+          "id": "cc1-v1-l11-grammar-05",
+          "sourcePdfPage": 261
+        }
+      ]
+    },
+    {
+      "lessonId": "cc1-v1-l12",
+      "points": [
+        {
+          "title": "先…再…: trước…rồi…",
+          "structure": "先 + việc A，再 + việc B",
+          "explanation": "先 và 再 sắp hai hành động theo thứ tự: học ở trung tâm ngôn ngữ trước, sau đó mới học đại học. Đây là thứ tự thời gian, không phải hai lựa chọn. Nếu một vế có địa điểm hoặc thời lượng, giữ chúng bên cạnh hành động tương ứng.",
+          "commonMistake": "Không đảo 先 và 再 khi kể thứ tự thật.",
+          "examples": [
+            {
+              "chinese": "我先念一年中文，再念四年大學。",
+              "simplified": "我先念一年中文，再念四年大学。",
+              "pinyin": "wǒ xiān niàn yī nián zhōng wén ， zài niàn sì nián dà xué 。",
+              "meaningVi": "Mình học tiếng Hoa một năm trước, rồi học đại học bốn năm."
+            },
+            {
+              "chinese": "我先吃飯，再做功課。",
+              "simplified": "我先吃饭，再做功课。",
+              "pinyin": "wǒ xiān chī fàn ， zài zuò gōng kè 。",
+              "meaningVi": "Mình ăn cơm trước, rồi làm bài tập."
+            }
+          ],
+          "check": {
+            "prompt": "“Tôi ăn cơm trước rồi học” là gì?",
+            "options": [
+              {
+                "id": "a",
+                "text": "我先吃飯，再念書。"
+              },
+              {
+                "id": "b",
+                "text": "我再吃飯，先念書。"
+              },
+              {
+                "id": "c",
+                "text": "我吃先飯，念再書。"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "先 đánh dấu việc đầu, 再 đánh dấu việc sau.",
+            "skill": "先…再…: trước…rồi…",
+            "id": "cc1-v1-l12-grammar-01-check"
+          },
+          "id": "cc1-v1-l12-grammar-01",
+          "sourcePdfPage": 279
+        },
+        {
+          "title": "是…的: nhấn mạnh chi tiết",
+          "structure": "Chủ ngữ + 是 + chi tiết cần nhấn + hành động + 的",
+          "explanation": "Mẫu 是…的 dùng khi sự việc đã xảy ra và người nói muốn nhấn thời gian, nơi chốn, cách thức hoặc người thực hiện. Ví dụ 學費是公司替我付的 nhấn rằng công ty trả học phí. Đừng dùng mẫu này chỉ để thông báo một sự việc tương lai chưa xảy ra.",
+          "commonMistake": "Không đặt tân ngữ làm phần được nhấn sau 是 trong mẫu cơ bản.",
+          "examples": [
+            {
+              "chinese": "學費是公司替我付的。",
+              "simplified": "学费是公司替我付的。",
+              "pinyin": "xué fèi shì gōng sī tì wǒ fù de 。",
+              "meaningVi": "Học phí là do công ty trả cho mình."
+            },
+            {
+              "chinese": "我是坐捷運來學校的。",
+              "simplified": "我是坐捷运来学校的。",
+              "pinyin": "wǒ shì zuò jié yùn lái xué xiào de 。",
+              "meaningVi": "Mình đến trường bằng MRT."
+            }
+          ],
+          "check": {
+            "prompt": "Câu nào nhấn “Mình đến trường bằng MRT”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "我是坐捷運來學校的。"
+              },
+              {
+                "id": "b",
+                "text": "我坐是捷運來學校的。"
+              },
+              {
+                "id": "c",
+                "text": "我是來學校坐捷運的。"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "是 đứng trước cách thức 坐捷運; 的 kết câu.",
+            "skill": "是…的: nhấn mạnh chi tiết",
+            "id": "cc1-v1-l12-grammar-02-check"
+          },
+          "id": "cc1-v1-l12-grammar-02",
+          "sourcePdfPage": 280
+        },
+        {
+          "title": "以後: sau đó/sau khi",
+          "structure": "Thời gian hoặc hành động + 以後，+ việc kế tiếp",
+          "explanation": "以後 có thể theo một mốc thời gian để chỉ “về sau” hoặc theo một hành động để chỉ “sau khi”. 回國以後 là sau khi về nước; 我以後 muốn nói về tương lai. Đọc phần ngay trước 以後 để biết cách hiểu.",
+          "commonMistake": "Đừng nhầm 以後 với 以前: một từ là sau, một từ là trước.",
+          "examples": [
+            {
+              "chinese": "回國以後，我想找工作。",
+              "simplified": "回国以后，我想找工作。",
+              "pinyin": "huí guó yǐ hòu ， wǒ xiǎng zhǎo gōng zuò 。",
+              "meaningVi": "Sau khi về nước, mình muốn tìm việc."
+            },
+            {
+              "chinese": "我以後想在臺灣工作。",
+              "simplified": "我以后想在台湾工作。",
+              "pinyin": "wǒ yǐ hòu xiǎng zài tái wān gōng zuò 。",
+              "meaningVi": "Sau này mình muốn làm việc ở Đài Loan."
+            }
+          ],
+          "check": {
+            "prompt": "“Sau khi tan học, tôi về nhà” là câu nào?",
+            "options": [
+              {
+                "id": "a",
+                "text": "下課以後，我回家。"
+              },
+              {
+                "id": "b",
+                "text": "下課以前，我回家。"
+              },
+              {
+                "id": "c",
+                "text": "以後下課，我回家。"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "以後 đứng sau mốc 下課 để chỉ sau khi tan học.",
+            "skill": "以後: sau đó/sau khi",
+            "id": "cc1-v1-l12-grammar-03-check"
+          },
+          "id": "cc1-v1-l12-grammar-03",
+          "sourcePdfPage": 282
+        },
+        {
+          "title": "好/難 + động từ: dễ/khó làm",
+          "structure": "好 hoặc 難 + động từ",
+          "explanation": "Khi đứng trước một số động từ, 好 mang nghĩa “dễ”, 難 mang nghĩa “khó”: 好找 là dễ tìm, 難找 là khó tìm. Ý này khác 好 là “tốt” và 難 là “khó” đứng riêng. Dùng với hành động mà người nói đánh giá mức độ thực hiện.",
+          "commonMistake": "Đừng dịch 好找 thành “tìm tốt”; đó là “dễ tìm”.",
+          "examples": [
+            {
+              "chinese": "這樣的工作好找嗎？",
+              "simplified": "这样的工作好找吗？",
+              "pinyin": "zhè yàng de gōng zuò hǎo zhǎo ma ？",
+              "meaningVi": "Công việc như vậy có dễ tìm không?"
+            },
+            {
+              "chinese": "這種房子很難租。",
+              "simplified": "这种房子很难租。",
+              "pinyin": "zhè zhǒng fáng zi hěn nán zū 。",
+              "meaningVi": "Loại nhà này rất khó thuê."
+            }
+          ],
+          "check": {
+            "prompt": "難找 có nghĩa là gì?",
+            "options": [
+              {
+                "id": "a",
+                "text": "khó tìm"
+              },
+              {
+                "id": "b",
+                "text": "tìm không tốt"
+              },
+              {
+                "id": "c",
+                "text": "đã tìm xong"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "難 trước động từ cho biết việc ấy khó thực hiện.",
+            "skill": "好/難 + động từ: dễ/khó làm",
+            "id": "cc1-v1-l12-grammar-04-check"
+          },
+          "id": "cc1-v1-l12-grammar-04",
+          "sourcePdfPage": 284
+        }
+      ]
+    },
+    {
+      "lessonId": "cc1-v1-l13",
+      "points": [
+        {
+          "title": "一…就…: vừa…liền…",
+          "structure": "一 + hành động A，就 + hành động B",
+          "explanation": "一…就… nói việc B xảy ra ngay sau A, thường nhấn sự nhanh chóng: 一下課，就去找你. So với 先…再… chỉ thứ tự thông thường, mẫu này thêm sắc thái “vừa…là…”. Ở đây 一 không phải con số “một”.",
+          "commonMistake": "Đừng thêm khoảng thời gian dài giữa hai việc nếu vẫn muốn diễn đạt “ngay lập tức”.",
+          "examples": [
+            {
+              "chinese": "我一下課，就去找你。",
+              "simplified": "我一下课，就去找你。",
+              "pinyin": "wǒ yī xià kè ， jiù qù zhǎo nǐ 。",
+              "meaningVi": "Mình vừa tan học là đến tìm bạn."
+            },
+            {
+              "chinese": "他一到家，就打電話。",
+              "simplified": "他一到家，就打电话。",
+              "pinyin": "tā yī dào jiā ， jiù dǎ diàn huà 。",
+              "meaningVi": "Anh ấy vừa về đến nhà là gọi điện."
+            }
+          ],
+          "check": {
+            "prompt": "Câu nào nghĩa là “Vừa tan học là tôi về nhà”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "我一下課，就回家。"
+              },
+              {
+                "id": "b",
+                "text": "我先下課，再回家。"
+              },
+              {
+                "id": "c",
+                "text": "我一下課，昨天回家。"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "一…就… nhấn việc sau xảy ra ngay khi việc trước xong.",
+            "skill": "一…就…: vừa…liền…",
+            "id": "cc1-v1-l13-grammar-01-check"
+          },
+          "id": "cc1-v1-l13-grammar-01",
+          "sourcePdfPage": 304
+        },
+        {
+          "title": "了 sau động từ: hành động đã xong",
+          "structure": "Động từ + 了 + tân ngữ",
+          "explanation": "了 gắn sau động từ để báo hành động đã hoàn thành trong bối cảnh đang nói: 我訂了蛋糕. Nó không tự mang nghĩa “quá khứ” như thì trong tiếng Anh; thời điểm có thể được nêu riêng. Phủ định hành động đã xảy ra dùng 沒(有) và thường không giữ 了.",
+          "commonMistake": "Không đặt 了 sau tân ngữ khi muốn đánh dấu động từ đã hoàn tất trong mẫu này.",
+          "examples": [
+            {
+              "chinese": "我已經訂了生日蛋糕。",
+              "simplified": "我已经订了生日蛋糕。",
+              "pinyin": "wǒ yǐ jīng dìng le shēng rì dàn gāo 。",
+              "meaningVi": "Mình đã đặt bánh sinh nhật rồi."
+            },
+            {
+              "chinese": "他買了禮物。",
+              "simplified": "他买了礼物。",
+              "pinyin": "tā mǎi le lǐ wù 。",
+              "meaningVi": "Anh ấy đã mua quà."
+            }
+          ],
+          "check": {
+            "prompt": "“Tôi đã đặt bánh” là câu nào?",
+            "options": [
+              {
+                "id": "a",
+                "text": "我訂了蛋糕。"
+              },
+              {
+                "id": "b",
+                "text": "我訂蛋糕了了。"
+              },
+              {
+                "id": "c",
+                "text": "我了訂蛋糕。"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "了 theo sau động từ 訂.",
+            "skill": "了 sau động từ: hành động đã xong",
+            "id": "cc1-v1-l13-grammar-02-check"
+          },
+          "id": "cc1-v1-l13-grammar-02",
+          "sourcePdfPage": 305
+        },
+        {
+          "title": "不 và 沒: hai kiểu phủ định",
+          "structure": "不 + thói quen/ý định; 沒(有) + việc chưa xảy ra",
+          "explanation": "不 thường phủ định thói quen, trạng thái hoặc ý định: 我不吃辣. 沒(有) thường nói một việc chưa/không xảy ra: 我沒去花蓮. Với 有, phủ định là 沒有. Chọn từ phủ định theo ý nghĩa, không chỉ dựa vào mốc thời gian.",
+          "commonMistake": "Không nói 不有 hoặc dùng 不去 nếu muốn nhấn “đã không đi” trong một việc cụ thể đã qua.",
+          "examples": [
+            {
+              "chinese": "我沒去花蓮。",
+              "simplified": "我没去花莲。",
+              "pinyin": "wǒ méi qù huā lián 。",
+              "meaningVi": "Mình đã không đi Hoa Liên."
+            },
+            {
+              "chinese": "我不吃辣的東西。",
+              "simplified": "我不吃辣的东西。",
+              "pinyin": "wǒ bù chī là de dōng xī 。",
+              "meaningVi": "Mình không ăn đồ cay."
+            }
+          ],
+          "check": {
+            "prompt": "Muốn nói “Hôm qua tôi không đi”, chọn câu nào?",
+            "options": [
+              {
+                "id": "a",
+                "text": "昨天我沒去。"
+              },
+              {
+                "id": "b",
+                "text": "昨天我不有去。"
+              },
+              {
+                "id": "c",
+                "text": "昨天我沒去了。"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "Một việc cụ thể không xảy ra dùng 沒.",
+            "skill": "不 và 沒: hai kiểu phủ định",
+            "id": "cc1-v1-l13-grammar-03-check"
+          },
+          "id": "cc1-v1-l13-grammar-03",
+          "sourcePdfPage": 308
+        },
+        {
+          "title": "Từ nghi vấn để bao quát",
+          "structure": "Từ nghi vấn + 都/也 + động từ",
+          "explanation": "什麼, 誰, 哪裡 có thể không hỏi mà bao quát “bất cứ… nào” khi đi với 都 hoặc 也: 我什麼都吃. Với phủ định, 什麼都不吃 nghĩa là không ăn gì cả. Nhìn dấu câu và vị trí 都 để phân biệt câu hỏi với lời khẳng định.",
+          "commonMistake": "Đừng dịch 什麼 thành “cái gì?” trong câu trần thuật có 都.",
+          "examples": [
+            {
+              "chinese": "我什麼都吃。",
+              "simplified": "我什么都吃。",
+              "pinyin": "wǒ shén me dōu chī 。",
+              "meaningVi": "Mình ăn gì cũng được."
+            },
+            {
+              "chinese": "他哪裡都想去。",
+              "simplified": "他哪里都想去。",
+              "pinyin": "tā nǎ lǐ dōu xiǎng qù 。",
+              "meaningVi": "Anh ấy muốn đi đâu cũng được."
+            }
+          ],
+          "check": {
+            "prompt": "我什麼都吃 nghĩa là gì?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Tôi ăn gì cũng được"
+              },
+              {
+                "id": "b",
+                "text": "Tôi hỏi ăn gì"
+              },
+              {
+                "id": "c",
+                "text": "Tôi không ăn gì"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "什麼…都 bao quát mọi lựa chọn.",
+            "skill": "Từ nghi vấn để bao quát",
+            "id": "cc1-v1-l13-grammar-04-check"
+          },
+          "id": "cc1-v1-l13-grammar-04",
+          "sourcePdfPage": 310
+        },
+        {
+          "title": "多/少 + động từ: hơn/kém dự kiến",
+          "structure": "多 hoặc 少 + động từ + 一點/đơn vị",
+          "explanation": "多 hoặc 少 đặt trước động từ để yêu cầu làm nhiều hơn hoặc ít hơn dự kiến: 多吃一點 là ăn thêm một chút, 少喝一點 là uống ít lại. Trong bài, lời mời 多吃一點 mang sắc thái thân thiện. Đừng nhầm 多 ở đây với 多 đứng sau con số trong Bài 04.",
+          "commonMistake": "Không đặt 多 sau toàn bộ hành động khi muốn yêu cầu “ăn thêm”.",
+          "examples": [
+            {
+              "chinese": "等一下你多吃一點。",
+              "simplified": "等一下你多吃一点。",
+              "pinyin": "děng yí xià nǐ duō chī yī diǎn 。",
+              "meaningVi": "Lát nữa bạn ăn nhiều vào nhé."
+            },
+            {
+              "chinese": "你少喝一點咖啡。",
+              "simplified": "你少喝一点咖啡。",
+              "pinyin": "nǐ shǎo hē yī diǎn kā fēi 。",
+              "meaningVi": "Bạn uống ít cà phê lại một chút."
+            }
+          ],
+          "check": {
+            "prompt": "“Ăn thêm một chút” nói thế nào?",
+            "options": [
+              {
+                "id": "a",
+                "text": "多吃一點"
+              },
+              {
+                "id": "b",
+                "text": "吃多一點的"
+              },
+              {
+                "id": "c",
+                "text": "一點多吃的"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "多 đứng trước động từ 吃.",
+            "skill": "多/少 + động từ: hơn/kém dự kiến",
+            "id": "cc1-v1-l13-grammar-05-check"
+          },
+          "id": "cc1-v1-l13-grammar-05",
+          "sourcePdfPage": 312
+        }
+      ]
+    },
+    {
+      "lessonId": "cc1-v1-l14",
+      "points": [
+        {
+          "title": "Thời lượng sau động từ có 了",
+          "structure": "Động từ + 了 + thời lượng",
+          "explanation": "Khi kể một việc đã hoàn thành và kéo dài bao lâu, đặt thời lượng sau động từ + 了: 玩了兩個星期. Nếu động từ có tân ngữ, vị trí thời lượng có thể thay đổi theo loại động từ. Bài này tập trung vào khoảng thời gian của việc đã xong.",
+          "commonMistake": "Đừng nhầm 兩個星期 là thời điểm bắt đầu.",
+          "examples": [
+            {
+              "chinese": "我在紐約玩了兩個星期。",
+              "simplified": "我在纽约玩了两个星期。",
+              "pinyin": "wǒ zài niǔ yuē wán le liǎng gè xīng qī 。",
+              "meaningVi": "Mình đã chơi ở New York hai tuần."
+            },
+            {
+              "chinese": "他睡了八個小時。",
+              "simplified": "他睡了八个小时。",
+              "pinyin": "tā shuì le bā gè xiǎo shí 。",
+              "meaningVi": "Anh ấy đã ngủ tám tiếng."
+            }
+          ],
+          "check": {
+            "prompt": "“Tôi đã ngủ tám tiếng” là câu nào?",
+            "options": [
+              {
+                "id": "a",
+                "text": "我睡了八個小時。"
+              },
+              {
+                "id": "b",
+                "text": "我睡八個小時了了。"
+              },
+              {
+                "id": "c",
+                "text": "我八個小時睡了。"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "Thời lượng theo sau động từ + 了.",
+            "skill": "Thời lượng sau động từ có 了",
+            "id": "cc1-v1-l14-grammar-01-check"
+          },
+          "id": "cc1-v1-l14-grammar-01",
+          "sourcePdfPage": 333
+        },
+        {
+          "title": "Hai chữ 了: kéo dài đến bây giờ",
+          "structure": "Động từ + 了 + thời lượng + 了",
+          "explanation": "Một 了 sau động từ và một 了 cuối câu thường cho biết việc bắt đầu trước đây và vẫn còn liên quan/tiếp diễn đến hiện tại: 我在臺灣住了半年多了. Nếu việc đã kết thúc hẳn, cách diễn đạt có thể khác. Đọc ngữ cảnh để biết người nói vẫn đang ở Đài Loan hay không.",
+          "commonMistake": "Đừng mặc định hai chữ 了 chỉ là “đã…đã”; chúng cùng tạo sắc thái thời gian riêng.",
+          "examples": [
+            {
+              "chinese": "我在臺灣住了半年多了。",
+              "simplified": "我在台湾住了半年多了。",
+              "pinyin": "wǒ zài tái wān zhù le bàn nián duō le 。",
+              "meaningVi": "Mình sống ở Đài Loan hơn nửa năm rồi."
+            },
+            {
+              "chinese": "他學了兩年中文了。",
+              "simplified": "他学了两年中文了。",
+              "pinyin": "tā xué le liǎng nián zhōng wén le 。",
+              "meaningVi": "Anh ấy học tiếng Hoa được hai năm rồi."
+            }
+          ],
+          "check": {
+            "prompt": "“Tôi ở đây được nửa năm rồi” là câu nào?",
+            "options": [
+              {
+                "id": "a",
+                "text": "我在這裡住了半年了。"
+              },
+              {
+                "id": "b",
+                "text": "我在這裡住半年了了。"
+              },
+              {
+                "id": "c",
+                "text": "我在這裡了住半年。"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "Hai 了 ôm lấy khoảng thời gian và nối tới hiện tại.",
+            "skill": "Hai chữ 了: kéo dài đến bây giờ",
+            "id": "cc1-v1-l14-grammar-02-check"
+          },
+          "id": "cc1-v1-l14-grammar-02",
+          "sourcePdfPage": 334
+        },
+        {
+          "title": "快要…了: sắp…",
+          "structure": "快要/快/要 + sự việc + 了",
+          "explanation": "Mẫu này báo một thay đổi sắp xảy ra: 颱風快要來了. 快 và 要 có thể đứng riêng trong một số trường hợp, nhưng 快要 cho sắc thái sắp đến rõ. 了 ở cuối câu liên quan đến thay đổi trạng thái sắp xảy ra, không phải sự việc đã hoàn tất.",
+          "commonMistake": "Đừng dịch 快要來了 thành “đã đến rồi”.",
+          "examples": [
+            {
+              "chinese": "颱風快要來了。",
+              "simplified": "台风快要来了。",
+              "pinyin": "tái fēng kuài yào lái le 。",
+              "meaningVi": "Bão sắp đến rồi."
+            },
+            {
+              "chinese": "新年快到了。",
+              "simplified": "新年快到了。",
+              "pinyin": "xīn nián kuài dào le 。",
+              "meaningVi": "Sắp đến năm mới rồi."
+            }
+          ],
+          "check": {
+            "prompt": "“Bão sắp đến” là câu nào?",
+            "options": [
+              {
+                "id": "a",
+                "text": "颱風快要來了。"
+              },
+              {
+                "id": "b",
+                "text": "颱風已經來了。"
+              },
+              {
+                "id": "c",
+                "text": "颱風來過了。"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "快要…了 chỉ việc sắp xảy ra.",
+            "skill": "快要…了: sắp…",
+            "id": "cc1-v1-l14-grammar-03-check"
+          },
+          "id": "cc1-v1-l14-grammar-03",
+          "sourcePdfPage": 335
+        },
+        {
+          "title": "更: còn…hơn nữa",
+          "structure": "A + 比 + B + 更 + tính từ",
+          "explanation": "更 tăng mức độ so sánh: cơn bão lần này còn lớn hơn lần trước. Nó thường đi cùng 比 khi hai mốc được nêu rõ. Nếu chỉ muốn nói “hơn” trung tính, có thể dùng 比 mà không cần 更.",
+          "commonMistake": "Không đặt 更 sau tính từ trong mẫu này.",
+          "examples": [
+            {
+              "chinese": "這次的颱風比上次的更大。",
+              "simplified": "这次的台风比上次的更大。",
+              "pinyin": "zhè cì de tái fēng bǐ shàng cì de gèng dà 。",
+              "meaningVi": "Cơn bão lần này còn mạnh hơn lần trước."
+            },
+            {
+              "chinese": "今天比昨天更冷。",
+              "simplified": "今天比昨天更冷。",
+              "pinyin": "jīn tiān bǐ zuó tiān gèng lěng 。",
+              "meaningVi": "Hôm nay còn lạnh hơn hôm qua."
+            }
+          ],
+          "check": {
+            "prompt": "“Hôm nay còn lạnh hơn hôm qua” là câu nào?",
+            "options": [
+              {
+                "id": "a",
+                "text": "今天比昨天更冷。"
+              },
+              {
+                "id": "b",
+                "text": "今天更比昨天冷。"
+              },
+              {
+                "id": "c",
+                "text": "今天比昨天冷更。"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "更 đứng ngay trước tính từ được so sánh.",
+            "skill": "更: còn…hơn nữa",
+            "id": "cc1-v1-l14-grammar-04-check"
+          },
+          "id": "cc1-v1-l14-grammar-04",
+          "sourcePdfPage": 336
+        },
+        {
+          "title": "沒有…那麼…: không bằng",
+          "structure": "A + 沒有 + B + 那麼 + tính từ",
+          "explanation": "Mẫu này nói A không đạt tới mức độ của B: 這次沒有上次那麼可怕 = lần này không đáng sợ bằng lần trước. Ở đây 沒有 không mang nghĩa sở hữu; nó là cách so sánh kém hơn. Dùng 那麼 để nêu mức độ của B.",
+          "commonMistake": "Không dùng 不比…那麼 như một bản dịch máy móc của “không bằng”.",
+          "examples": [
+            {
+              "chinese": "這次的颱風沒有上次的那麼可怕。",
+              "simplified": "这次的台风没有上次的那么可怕。",
+              "pinyin": "zhè cì de tái fēng méi yǒu shàng cì de nà me kě pà 。",
+              "meaningVi": "Cơn bão lần này không đáng sợ bằng lần trước."
+            },
+            {
+              "chinese": "今天沒有昨天那麼冷。",
+              "simplified": "今天没有昨天那么冷。",
+              "pinyin": "jīn tiān méi yǒu zuó tiān nà me lěng 。",
+              "meaningVi": "Hôm nay không lạnh bằng hôm qua."
+            }
+          ],
+          "check": {
+            "prompt": "“Hôm nay không lạnh bằng hôm qua” là câu nào?",
+            "options": [
+              {
+                "id": "a",
+                "text": "今天沒有昨天那麼冷。"
+              },
+              {
+                "id": "b",
+                "text": "今天沒有冷昨天那麼。"
+              },
+              {
+                "id": "c",
+                "text": "今天不比昨天那麼冷。"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "沒有…那麼… diễn tả mức độ A thấp hơn B.",
+            "skill": "沒有…那麼…: không bằng",
+            "id": "cc1-v1-l14-grammar-05-check"
+          },
+          "id": "cc1-v1-l14-grammar-05",
+          "sourcePdfPage": 337
+        }
+      ]
+    },
+    {
+      "lessonId": "cc1-v1-l15",
+      "points": [
+        {
+          "title": "Từ nghi vấn mang nghĩa không xác định",
+          "structure": "Từ nghi vấn + 都/也 + phủ định",
+          "explanation": "什麼, 哪裡, 誰 đôi khi không dùng để hỏi mà chỉ phạm vi không xác định: 什麼東西都不想吃 nghĩa là không muốn ăn gì cả. Cách này nối tiếp mẫu bao quát ở Bài 13, nhưng ở đây gắn với phủ định và tâm trạng người bệnh.",
+          "commonMistake": "Đừng đọc 什麼 trong câu này thành một câu hỏi riêng.",
+          "examples": [
+            {
+              "chinese": "我什麼東西都不想吃。",
+              "simplified": "我什么东西都不想吃。",
+              "pinyin": "wǒ shén me dōng xī dōu bù xiǎng chī 。",
+              "meaningVi": "Mình chẳng muốn ăn gì cả."
+            },
+            {
+              "chinese": "他哪裡都不想去。",
+              "simplified": "他哪里都不想去。",
+              "pinyin": "tā nǎ lǐ dōu bù xiǎng qù 。",
+              "meaningVi": "Anh ấy chẳng muốn đi đâu."
+            }
+          ],
+          "check": {
+            "prompt": "我什麼東西都不想吃 nghĩa là gì?",
+            "options": [
+              {
+                "id": "a",
+                "text": "Tôi chẳng muốn ăn gì"
+              },
+              {
+                "id": "b",
+                "text": "Tôi muốn ăn mọi thứ"
+              },
+              {
+                "id": "c",
+                "text": "Tôi hỏi nên ăn gì"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "什麼…都不… bao quát mọi thứ trong phủ định.",
+            "skill": "Từ nghi vấn mang nghĩa không xác định",
+            "id": "cc1-v1-l15-grammar-01-check"
+          },
+          "id": "cc1-v1-l15-grammar-01",
+          "sourcePdfPage": 358
+        },
+        {
+          "title": "把: xử lý một đối tượng",
+          "structure": "Chủ ngữ + 把 + đối tượng xác định + động từ + kết quả",
+          "explanation": "把 đưa đối tượng đã biết ra trước động từ để nhấn cách xử lý nó: 把藥吃了 là uống thuốc ấy. Đối tượng thường xác định rõ; động từ cần có kết quả hoặc thành phần theo sau, như 了. Mẫu này không dùng tùy tiện với mọi động từ không có đối tượng.",
+          "commonMistake": "Không nói 把藥吃 khi câu thiếu kết quả trong mẫu cơ bản đang học.",
+          "examples": [
+            {
+              "chinese": "回去把藥吃了。",
+              "simplified": "回去把药吃了。",
+              "pinyin": "huí qù bǎ yào chī le 。",
+              "meaningVi": "Về nhà uống thuốc đi."
+            },
+            {
+              "chinese": "他把牛肉麵吃了。",
+              "simplified": "他把牛肉面吃了。",
+              "pinyin": "tā bǎ niú ròu miàn chī le 。",
+              "meaningVi": "Anh ấy đã ăn hết tô mì bò."
+            }
+          ],
+          "check": {
+            "prompt": "Câu nào nghĩa là “Anh ấy đã uống thuốc”?",
+            "options": [
+              {
+                "id": "a",
+                "text": "他把藥吃了。"
+              },
+              {
+                "id": "b",
+                "text": "他把吃藥了。"
+              },
+              {
+                "id": "c",
+                "text": "他吃把藥了。"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "把 đứng trước đối tượng 藥, sau đó là hành động và kết quả.",
+            "skill": "把: xử lý một đối tượng",
+            "id": "cc1-v1-l15-grammar-02-check"
+          },
+          "id": "cc1-v1-l15-grammar-02",
+          "sourcePdfPage": 359
+        },
+        {
+          "title": "V 了…就…: làm xong liền…",
+          "structure": "Việc A + 了，就 + việc B",
+          "explanation": "Mẫu này nói việc B xảy ra ngay sau khi A hoàn tất: 吃了東西就吐. Nó giống 一…就… ở Bài 13 về quan hệ trước–sau, nhưng nhấn rõ A đã hoàn thành và linh hoạt hơn với cụm hành động dài.",
+          "commonMistake": "Đừng đặt 就 trước 了 nếu muốn giữ mẫu đang học.",
+          "examples": [
+            {
+              "chinese": "他吃了東西就吐。",
+              "simplified": "他吃了东西就吐。",
+              "pinyin": "tā chī le dōng xī jiù tǔ 。",
+              "meaningVi": "Anh ấy vừa ăn xong là nôn."
+            },
+            {
+              "chinese": "我下了課就回家。",
+              "simplified": "我下了课就回家。",
+              "pinyin": "wǒ xià le kè jiù huí jiā 。",
+              "meaningVi": "Mình tan học xong là về nhà."
+            }
+          ],
+          "check": {
+            "prompt": "“Ăn xong là nghỉ” là câu nào?",
+            "options": [
+              {
+                "id": "a",
+                "text": "吃了飯就休息。"
+              },
+              {
+                "id": "b",
+                "text": "吃就了飯休息。"
+              },
+              {
+                "id": "c",
+                "text": "就吃了飯休息。"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "了 kết thúc việc đầu; 就 nối việc tiếp theo.",
+            "skill": "V 了…就…: làm xong liền…",
+            "id": "cc1-v1-l15-grammar-03-check"
+          },
+          "id": "cc1-v1-l15-grammar-03",
+          "sourcePdfPage": 360
+        },
+        {
+          "title": "一點: một chút",
+          "structure": "一點 + danh từ; tính từ + 一點",
+          "explanation": "一點 có thể nói lượng nhỏ: 喝一點水, hoặc mức độ chênh nhẹ: 早一點睡. Khác 有一點 + tính từ ở Bài 05, vốn thường mang nhận xét hơi không như ý. Hãy nhìn vị trí của 一點 trong câu để hiểu là lượng hay mức độ.",
+          "commonMistake": "Không dùng 一點 như một lượng từ độc lập trước danh từ đếm được mà không xét ngữ cảnh.",
+          "examples": [
+            {
+              "chinese": "你多喝一點水。",
+              "simplified": "你多喝一点水。",
+              "pinyin": "nǐ duō hē yī diǎn shuǐ 。",
+              "meaningVi": "Bạn uống thêm chút nước."
+            },
+            {
+              "chinese": "今天早一點睡覺。",
+              "simplified": "今天早一点睡觉。",
+              "pinyin": "jīn tiān zǎo yī diǎn shuì jué 。",
+              "meaningVi": "Hôm nay ngủ sớm hơn một chút."
+            }
+          ],
+          "check": {
+            "prompt": "“Uống một chút nước” là gì?",
+            "options": [
+              {
+                "id": "a",
+                "text": "喝一點水"
+              },
+              {
+                "id": "b",
+                "text": "喝水一點的"
+              },
+              {
+                "id": "c",
+                "text": "一點喝水的"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "一點 đứng trước danh từ 水 để chỉ lượng ít.",
+            "skill": "一點: một chút",
+            "id": "cc1-v1-l15-grammar-04-check"
+          },
+          "id": "cc1-v1-l15-grammar-04",
+          "sourcePdfPage": 362
+        },
+        {
+          "title": "得 so sánh mức độ hành động",
+          "structure": "Động từ + 得 + 比 + mốc so sánh + tính từ",
+          "explanation": "得 nối hành động với mức độ thực hiện; thêm 比 để so hai lần hoặc hai người làm cùng việc: 睡得比昨天好. Đây là so sánh cách ngủ, không phải so sánh bản thân hai ngày. Nếu có tân ngữ, động từ có thể cần lặp lại trước 得.",
+          "commonMistake": "Không bỏ 得 khi mức độ gắn với động từ trong mẫu này.",
+          "examples": [
+            {
+              "chinese": "我睡得比昨天好。",
+              "simplified": "我睡得比昨天好。",
+              "pinyin": "wǒ shuì dé bǐ zuó tiān hǎo 。",
+              "meaningVi": "Mình ngủ ngon hơn hôm qua."
+            },
+            {
+              "chinese": "他中文說得比我好。",
+              "simplified": "他中文说得比我好。",
+              "pinyin": "tā zhōng wén shuō dé bǐ wǒ hǎo 。",
+              "meaningVi": "Anh ấy nói tiếng Hoa giỏi hơn mình."
+            }
+          ],
+          "check": {
+            "prompt": "“Tôi ngủ ngon hơn hôm qua” là câu nào?",
+            "options": [
+              {
+                "id": "a",
+                "text": "我睡得比昨天好。"
+              },
+              {
+                "id": "b",
+                "text": "我睡比昨天得好。"
+              },
+              {
+                "id": "c",
+                "text": "我睡比昨天好得。"
+              }
+            ],
+            "correctOptionId": "a",
+            "feedback": "得 đứng sau động từ 睡, rồi mới đến cụm so sánh.",
+            "skill": "得 so sánh mức độ hành động",
+            "id": "cc1-v1-l15-grammar-05-check"
+          },
+          "id": "cc1-v1-l15-grammar-05",
+          "sourcePdfPage": 363
+        }
+      ]
+    }
+  ]
+}

@@ -51,7 +51,7 @@ test("TOCFL purpose in automatic mode uses only official records", () => {
 test("explicit source selectors never relabel textbook or website words as official", () => {
   const textbook = selectContextVocabulary(words, { ...options, topicId: "shopping", source: "textbook" });
   const website = selectContextVocabulary(words, { ...options, topicId: "shopping", source: "website" });
-  assert.deepEqual(textbook.words.map((word) => word.traditional).sort(), ["便宜", "買"]);
+  assert.ok(["便宜", "買"].every((term) => textbook.words.some((word) => word.traditional === term)));
   assert.ok(textbook.words.every((word) => word.source === "textbook" && word.band === null));
   assert.ok(website.words.every((word) => word.source === "website" && word.band === null));
   assert.ok(website.words.length < options.count);

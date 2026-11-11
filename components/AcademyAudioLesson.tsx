@@ -7,10 +7,13 @@ import { progressStorage } from "@/lib/progress-storage";
 import { useT } from "./PreferencesProvider";
 
 type LessonProgress = { version: 1; selectedTrackId: string; listenedIds: string[]; completedIds: string[]; responses: Record<string, string>; guestResponses: Record<string, string> };
-const progressKey = "taiwen-academy:v1:cc1:l01";
+function TrackList({ items, heading, activeId, progress, onSelect, t }: { items: AcademyTrack[]; heading: string; activeId: string; progress: LessonProgress; onSelect: (id: string) => void; t: (value: string) => string }) {
+  return <section className="paper p-4 sm:p-5"><h2 className="text-lg font-bold">{t(heading)}</h2><div className="mt-4 grid gap-2">{items.map((track) => <button type="button" key={track.id} className="academy-track" aria-current={activeId === track.id ? "true" : undefined} onClick={() => onSelect(track.id)}><span className="academy-track-number">{String(track.number).padStart(2, "0")}</span><span className="min-w-0 flex-1 text-left"><strong>{t(track.activity?.labelVi ?? "Bản ghi âm")}</strong><small>{track.activity?.referenceCode}</small></span><span className="text-sm text-[var(--brand)]" aria-label={progress.completedIds.includes(track.id) ? t("Đã hoàn thành") : progress.listenedIds.includes(track.id) ? t("Đã nghe") : undefined}>{progress.completedIds.includes(track.id) ? "✓" : progress.listenedIds.includes(track.id) ? "◌" : "▶"}</span></button>)}</div></section>;
+}
+const progressKeyForLesson = (lesson: number) => `taiwen-academy:v1:cc1:l${String(lesson).padStart(2, "0")}`;
 const speeds = [0.75, 1, 1.25, 1.5];
 
-function readProgress(firstTrackId: string): LessonProgress {
+function readProgress(firstTrackId: string, progressKey: string): LessonProgress {
   const empty: LessonProgress = { version: 1, selectedTrackId: firstTrackId, listenedIds: [], completedIds: [], responses: {}, guestResponses: {} };
   try {
     const parsed = JSON.parse(progressStorage().getItem(progressKey) ?? "null") as Partial<LessonProgress> | null;
@@ -26,8 +29,9 @@ function readProgress(firstTrackId: string): LessonProgress {
   } catch { return empty; }
 }
 
-export default function AcademyAudioLesson({ tracks, availableTrackIds, embedded = false }: { tracks: AcademyTrack[]; availableTrackIds: string[]; embedded?: boolean }) {
+export default function AcademyAudioLesson({ tracks, availableTrackIds, embedded = false, lessonNumber = 1, script = "traditional" }: { tracks: AcademyTrack[]; availableTrackIds: string[]; embedded?: boolean; lessonNumber?: number; script?: "traditional" | "simplified" }) {
   const t = useT();
+  const progressKey = progressKeyForLesson(lessonNumber);
   const textbook = tracks.filter((track) => track.source === "textbook");
   const workbook = tracks.filter((track) => track.source === "workbook");
   const [progress, setProgress] = useState<LessonProgress>({ version: 1, selectedTrackId: tracks[0]?.id ?? "", listenedIds: [], completedIds: [], responses: {}, guestResponses: {} });
@@ -39,19 +43,19 @@ export default function AcademyAudioLesson({ tracks, availableTrackIds, embedded
   const audioRef = useRef<HTMLAudioElement>(null);
 
   useEffect(() => {
-    const saved = readProgress(tracks[0]?.id ?? "");
+    const saved = readProgress(tracks[0]?.id ?? "", progressKey);
     const selectedTrackId = tracks.some((track) => track.id === saved.selectedTrackId) ? saved.selectedTrackId : tracks[0]?.id ?? "";
     const timeout = window.setTimeout(() => { setProgress({ ...saved, selectedTrackId }); setHydrated(true); }, 0);
     return () => window.clearTimeout(timeout);
-  }, [tracks]);
+  }, [tracks, progressKey]);
 
   useEffect(() => {
     if (hydrated && hasChanges) progressStorage().setItem(progressKey, JSON.stringify(progress));
-  }, [progress, hydrated, hasChanges]);
+  }, [progress, hydrated, hasChanges, progressKey]);
 
   const active = tracks.find((track) => track.id === progress.selectedTrackId) ?? tracks[0];
   const available = active && availableTrackIds.includes(active.id);
-  const reviewed = (reviewedContent as Record<string, { transcriptTraditional?: string; translationVi?: string }>)[active?.id ?? ""];
+  const reviewed = (reviewedContent as Record<string, { transcriptTraditional?: string; transcriptSimplified?: string; translationVi?: string }>)[active?.id ?? ""];
   function selectTrack(id: string) {
     audioRef.current?.pause();
     setAudioError(false);
@@ -80,29 +84,21 @@ export default function AcademyAudioLesson({ tracks, availableTrackIds, embedded
   }
   if (!active) return null;
   const guestCopy = Object.entries(progress.guestResponses).filter(([key]) => key === active.id || key.startsWith(`${active.id}:`));
-  const trackList = (items: AcademyTrack[], heading: string) => <section className="paper p-4 sm:p-5">
-    <h2 className="text-lg font-bold">{t(heading)}</h2>
-    <div className="mt-4 grid gap-2">{items.map((track) => <button type="button" key={track.id} className="academy-track" aria-current={active.id === track.id ? "true" : undefined} onClick={() => selectTrack(track.id)}>
-      <span className="academy-track-number">{String(track.number).padStart(2, "0")}</span>
-      <span className="min-w-0 flex-1 text-left"><strong>{t(track.activity?.labelVi ?? "Bản ghi âm")}</strong><small>{track.activity?.referenceCode}</small></span>
-      <span className="text-sm text-[var(--brand)]" aria-label={progress.completedIds.includes(track.id) ? t("Đã hoàn thành") : progress.listenedIds.includes(track.id) ? t("Đã nghe") : undefined}>{progress.completedIds.includes(track.id) ? "✓" : progress.listenedIds.includes(track.id) ? "◌" : "▶"}</span>
-    </button>)}</div>
-  </section>;
   return <div className={embedded ? "academy-audio-embedded mt-5 grid gap-5" : "mt-9 grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(300px,1.2fr)]"}>
-    <div className="space-y-5">{trackList(textbook, "Âm thanh giáo trình")}{trackList(workbook, "Âm thanh bài tập")}</div>
+    <div className="space-y-5">{textbook.length > 0 && <TrackList items={textbook} heading="Âm thanh giáo trình" activeId={active.id} progress={progress} onSelect={selectTrack} t={t} />}{workbook.length > 0 && <TrackList items={workbook} heading="Âm thanh bài tập" activeId={active.id} progress={progress} onSelect={selectTrack} t={t} />}</div>
     <section className="paper h-fit p-5 sm:p-7">
       <p className="page-eyebrow">{t(active.source === "textbook" ? "Giáo trình" : "Bài tập")} · {active.activity?.referenceCode}</p>
       <h2 className="mt-3 text-2xl font-bold" aria-live="polite">{t(active.activity?.labelVi ?? "Bản ghi âm")}</h2>
-      <p className="mt-2 text-sm muted">{t("Trang sách")} {active.activity?.bookPage} · {t("BÀI")} 01</p>
+      <p className="mt-2 text-sm muted">{t("Trang sách")} {active.activity?.bookPage} · {t("BÀI")} {String(lessonNumber).padStart(2, "0")}</p>
       {available ? <div className="academy-player mt-6">
-        <audio key={active.id} ref={audioRef} controls preload="none" src={`/api/academy/audio/${encodeURIComponent(active.id)}`} onEnded={markListened} onError={() => setAudioError(true)} onLoadedMetadata={() => { if (audioRef.current) audioRef.current.playbackRate = speed; }} aria-label={`${t("Âm thanh")} ${active.activity?.referenceCode}`} />
+        <audio key={active.id} ref={audioRef} controls preload="none" src={`/academy/cc1/audio/${encodeURIComponent(active.id)}.mp3`} onEnded={markListened} onError={() => setAudioError(true)} onLoadedMetadata={() => { if (audioRef.current) audioRef.current.playbackRate = speed; }} aria-label={`${t("Âm thanh")} ${active.activity?.referenceCode}`} />
         <div className="mt-4 flex flex-wrap items-center gap-3">
           <button type="button" className="button-secondary text-sm" onClick={replay}>{t("Nghe lại từ đầu")}</button>
           <label className="flex items-center gap-2 text-sm font-semibold"><span>{t("Tốc độ")}</span><select className="academy-speed" value={speed} onChange={(event) => changeSpeed(Number(event.target.value))} aria-label={t("Tốc độ phát")}>{speeds.map((value) => <option key={value} value={value}>{value}×</option>)}</select></label>
         </div>
         {audioError && <p role="alert" className="mt-3 text-sm muted">{t("Chưa tải được âm thanh. Hãy thử chọn lại bản ghi âm.")}</p>}
-      </div> : <div className="academy-unavailable mt-6" role="status"><strong>{t("Âm thanh chỉ có trong khu vực thử nghiệm riêng")}</strong><p className="mt-2 text-sm leading-6 muted">{t("Hiện chưa có quyền phát hành bản ghi âm công khai. Bạn vẫn có thể xem cấu trúc bài học và tiến độ đã lưu.")}</p></div>}
-      {reviewed?.transcriptTraditional && <div className="mt-5"><button type="button" className="button-secondary text-sm" aria-expanded={showTranscript} onClick={() => setShowTranscript((value) => !value)}>{showTranscript ? t("Ẩn transcript") : t("Xem transcript")}</button>{showTranscript && <div className="mt-3 rounded-2xl border border-[var(--border)] bg-[var(--surface-raised)] p-4"><p lang="zh-Hant" className="whitespace-pre-wrap leading-7">{reviewed.transcriptTraditional}</p>{reviewed.translationVi && <p className="mt-3 whitespace-pre-wrap text-sm leading-6 muted">{reviewed.translationVi}</p>}</div>}</div>}
+      </div> : <div className="academy-unavailable mt-6" role="status"><strong>{t("Bản ghi âm đang được kiểm tra")}</strong><p className="mt-2 text-sm leading-6 muted">{t("Bản ghi âm này chưa được đối chiếu với hoạt động trong sách.")}</p></div>}
+      {reviewed?.transcriptTraditional && <div className="mt-5"><p className="mb-3 text-sm muted">{t("Nghe không xem chữ trước; sau đó mở transcript để đọc theo hoặc luyện nói đuổi. Bạn có thể chép lại câu nghe được vào ô ghi chép.")}</p><button type="button" className="button-secondary text-sm" aria-expanded={showTranscript} onClick={() => setShowTranscript((value) => !value)}>{showTranscript ? t("Ẩn transcript") : t("Xem transcript")}</button>{showTranscript && <div className="mt-3 rounded-2xl border border-[var(--border)] bg-[var(--surface-raised)] p-4"><p lang={script === "traditional" ? "zh-Hant" : "zh-Hans"} className="whitespace-pre-wrap leading-7">{script === "simplified" ? reviewed.transcriptSimplified ?? reviewed.transcriptTraditional : reviewed.transcriptTraditional}</p>{reviewed.translationVi && <p className="mt-3 whitespace-pre-wrap text-sm leading-6 muted">{reviewed.translationVi}</p>}</div>}</div>}
       <div className="mt-6 border-t border-[var(--border)] pt-5">
         <h3 className="font-bold">{t(active.source === "workbook" ? "Bài tập nghe" : "Luyện nghe và ghi lại")}</h3>
         <p className="mt-2 text-sm leading-6 muted">{t(active.source === "workbook" ? "Nghe bản ghi âm và xem câu hỏi trong sách bài tập. Ghi câu trả lời vào từng ô; hiện chưa có đáp án xác minh để chấm tự động." : "Nghe bản ghi âm rồi ghi lại điều bạn muốn nhớ. Mục này không tự chấm điểm.")}</p>

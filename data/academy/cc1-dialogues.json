@@ -1,0 +1,2209 @@
+{
+  "schemaVersion": 1,
+  "source": "cc1-source-content.json",
+  "reviewedLanguages": [
+    "zh-Hant",
+    "zh-Hans",
+    "vi"
+  ],
+  "lessons": [
+    {
+      "lessonId": "cc1-v1-l02",
+      "dialogues": [
+        {
+          "id": "cc1-v1-l02-dialogue-1",
+          "turns": [
+            {
+              "speaker": "怡君",
+              "traditional": "這是我家。請進！",
+              "simplified": "这是我家。请进！",
+              "pinyin": "zhè shì wǒ jiā 。 qǐng jìn ！",
+              "meaningVi": "Đây là nhà mình. Mời vào!"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "很漂亮的房子！",
+              "simplified": "很漂亮的房子！",
+              "pinyin": "hěn piào liàng de fáng zi ！",
+              "meaningVi": "Nhà đẹp quá!"
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "請坐！要不要喝茶？",
+              "simplified": "请坐！要不要喝茶？",
+              "pinyin": "qǐng zuò ！ yào bù yào hē chá ？",
+              "meaningVi": "Mời ngồi! Bạn có muốn uống trà không?"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "好，謝謝你。你家有很多照片。",
+              "simplified": "好，谢谢你。你家有很多照片。",
+              "pinyin": "hǎo ， xiè xiè nǐ 。 nǐ jiā yǒu hěn duō zhào piān 。",
+              "meaningVi": "Có, cảm ơn bạn. Nhà bạn có nhiều ảnh quá."
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "我家人都很喜歡照相。",
+              "simplified": "我家人都很喜欢照相。",
+              "pinyin": "wǒ jiā rén dōu hěn xǐ huān zhào xiàng 。",
+              "meaningVi": "Cả nhà mình đều rất thích chụp ảnh."
+            },
+            {
+              "speaker": "安同",
+              "traditional": "這張照片很好看。這是誰？你姐姐嗎？",
+              "simplified": "这张照片很好看。这是谁？你姐姐吗？",
+              "pinyin": "zhè zhāng zhào piān hěn hǎo kàn 。 zhè shì shuí ？ nǐ jiě jiě ma ？",
+              "meaningVi": "Bức ảnh này đẹp quá. Đây là ai? Chị gái bạn à?"
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "不是，是我妹妹。這是我爸爸、媽媽。",
+              "simplified": "不是，是我妹妹。这是我爸爸、妈妈。",
+              "pinyin": "bú shì ， shì wǒ mèi mèi 。 zhè shì wǒ bà bà 、 mā mā 。",
+              "meaningVi": "Không, đó là em gái mình. Đây là bố mẹ mình."
+            },
+            {
+              "speaker": "安同",
+              "traditional": "你家人都很好看。",
+              "simplified": "你家人都很好看。",
+              "pinyin": "nǐ jiā rén dōu hěn hǎo kàn 。",
+              "meaningVi": "Người nhà bạn ai cũng đẹp."
+            }
+          ]
+        },
+        {
+          "id": "cc1-v1-l02-dialogue-2",
+          "turns": [
+            {
+              "speaker": "明華",
+              "traditional": "田中，歡迎！歡迎！請進。",
+              "simplified": "田中，欢迎！欢迎！请进。",
+              "pinyin": "tián zhōng ， huān yíng ！ huān yíng ！ qǐng jìn 。",
+              "meaningVi": "Tanaka, chào mừng bạn! Mời vào."
+            },
+            {
+              "speaker": "田中",
+              "traditional": "謝謝。",
+              "simplified": "谢谢。",
+              "pinyin": "xiè xiè 。",
+              "meaningVi": "Cảm ơn."
+            },
+            {
+              "speaker": "明華",
+              "traditional": "田中，這是我媽媽。",
+              "simplified": "田中，这是我妈妈。",
+              "pinyin": "tián zhōng ， zhè shì wǒ mā mā 。",
+              "meaningVi": "Tanaka, đây là mẹ mình."
+            },
+            {
+              "speaker": "田中",
+              "traditional": "伯母，您好。",
+              "simplified": "伯母，您好。",
+              "pinyin": "bó mǔ ， nín hǎo 。",
+              "meaningVi": "Cháu chào bác ạ."
+            },
+            {
+              "speaker": "明華的媽媽",
+              "traditional": "你好，你好。來！來！來！請坐。你叫什麼名字？",
+              "simplified": "你好，你好。来！来！来！请坐。你叫什么名字？",
+              "pinyin": "nǐ hǎo ， nǐ hǎo 。 lái ！ lái ！ lái ！ qǐng zuò 。 nǐ jiào shén me míng zì ？",
+              "meaningVi": "Chào cháu. Nào, vào đi! Mời ngồi. Cháu tên là gì?"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "我叫誠一。你們家有很多書。",
+              "simplified": "我叫诚一。你们家有很多书。",
+              "pinyin": "wǒ jiào chéng yī 。 nǐ men jiā yǒu hěn duō shū 。",
+              "meaningVi": "Cháu tên là Seiichi. Nhà cô có nhiều sách quá."
+            },
+            {
+              "speaker": "明華",
+              "traditional": "都是我哥哥的書。他是老師，他很喜歡看書。",
+              "simplified": "都是我哥哥的书。他是老师，他很喜欢看书。",
+              "pinyin": "dōu shì wǒ gē gē de shū 。 tā shì lǎo shī ， tā hěn xǐ huān kàn shū 。",
+              "meaningVi": "Đều là sách của anh trai mình. Anh ấy là giáo viên, rất thích đọc sách."
+            },
+            {
+              "speaker": "明華的媽媽",
+              "traditional": "誠一，你家有幾個人？你有沒有兄弟姐妹？",
+              "simplified": "诚一，你家有几个人？你有没有兄弟姐妹？",
+              "pinyin": "chéng yī ， nǐ jiā yǒu jǐ gè rén ？ nǐ yǒu méi yǒu xiōng dì jiě mèi ？",
+              "meaningVi": "Seiichi, nhà cháu có mấy người? Cháu có anh chị em không?"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "我家有五個人，我有兩個妹妹。",
+              "simplified": "我家有五个人，我有两个妹妹。",
+              "pinyin": "wǒ jiā yǒu wǔ gè rén ， wǒ yǒu liǎng gè mèi mèi 。",
+              "meaningVi": "Nhà cháu có năm người. Cháu có hai em gái."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "cc1-v1-l03",
+      "dialogues": [
+        {
+          "id": "cc1-v1-l03-dialogue-1",
+          "turns": [
+            {
+              "speaker": "安同",
+              "traditional": "田中，你喜歡聽音樂嗎？",
+              "simplified": "田中，你喜欢听音乐吗？",
+              "pinyin": "tián zhōng ， nǐ xǐ huān tīng yīn lè ma ？",
+              "meaningVi": "Tanaka, bạn có thích nghe nhạc không?"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "我不喜歡聽音樂。我喜歡運動。",
+              "simplified": "我不喜欢听音乐。我喜欢运动。",
+              "pinyin": "wǒ bù xǐ huān tīng yīn lè 。 wǒ xǐ huān yùn dòng 。",
+              "meaningVi": "Mình không thích nghe nhạc. Mình thích thể thao."
+            },
+            {
+              "speaker": "安同",
+              "traditional": "你喜歡打網球嗎？",
+              "simplified": "你喜欢打网球吗？",
+              "pinyin": "nǐ xǐ huān dǎ wǎng qiú ma ？",
+              "meaningVi": "Bạn thích chơi quần vợt không?"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "我不喜歡打網球。",
+              "simplified": "我不喜欢打网球。",
+              "pinyin": "wǒ bù xǐ huān dǎ wǎng qiú 。",
+              "meaningVi": "Mình không thích chơi quần vợt."
+            },
+            {
+              "speaker": "安同",
+              "traditional": "你喜歡做什麼？",
+              "simplified": "你喜欢做什么？",
+              "pinyin": "nǐ xǐ huān zuò shén me ？",
+              "meaningVi": "Bạn thích làm gì?"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "打棒球和游泳，你呢？",
+              "simplified": "打棒球和游泳，你呢？",
+              "pinyin": "dǎ bàng qiú hé yóu yǒng ， nǐ ne ？",
+              "meaningVi": "Chơi bóng chày và bơi lội. Còn bạn?"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "我常打籃球，也常踢足球。",
+              "simplified": "我常打篮球，也常踢足球。",
+              "pinyin": "wǒ cháng dǎ lán qiú ， yě cháng tī zú qiú 。",
+              "meaningVi": "Mình thường chơi bóng rổ, cũng thường đá bóng."
+            },
+            {
+              "speaker": "田中",
+              "traditional": "我覺得踢足球很好玩。",
+              "simplified": "我觉得踢足球很好玩。",
+              "pinyin": "wǒ jué dé tī zú qiú hěn hǎo wán 。",
+              "meaningVi": "Mình thấy đá bóng rất vui."
+            },
+            {
+              "speaker": "安同",
+              "traditional": "明天是週末，我們早上去踢足球，怎麼樣？",
+              "simplified": "明天是周末，我们早上去踢足球，怎么样？",
+              "pinyin": "míng tiān shì zhōu mò ， wǒ men zǎo shàng qù tī zú qiú ， zěn me yàng ？",
+              "meaningVi": "Mai là cuối tuần. Sáng mai chúng ta đi đá bóng nhé?"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "好啊！",
+              "simplified": "好啊！",
+              "pinyin": "hǎo a ！",
+              "meaningVi": "Được đấy!"
+            }
+          ]
+        },
+        {
+          "id": "cc1-v1-l03-dialogue-2",
+          "turns": [
+            {
+              "speaker": "如玉",
+              "traditional": "今天晚上我們去看電影，好不好？",
+              "simplified": "今天晚上我们去看电影，好不好？",
+              "pinyin": "jīn tiān wǎn shàng wǒ men qù kàn diàn yǐng ， hǎo bù hǎo ？",
+              "meaningVi": "Tối nay chúng ta đi xem phim nhé, được không?"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "好啊！",
+              "simplified": "好啊！",
+              "pinyin": "hǎo a ！",
+              "meaningVi": "Được đấy!"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "妳想看美國電影還是臺灣電影？",
+              "simplified": "妳想看美国电影还是台湾电影？",
+              "pinyin": "nǐ xiǎng kàn měi guó diàn yǐng hái shì tái wān diàn yǐng ？",
+              "meaningVi": "Bạn muốn xem phim Mỹ hay phim Đài Loan?"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "美國電影、臺灣電影，我都想看。",
+              "simplified": "美国电影、台湾电影，我都想看。",
+              "pinyin": "měi guó diàn yǐng 、 tái wān diàn yǐng ， wǒ dōu xiǎng kàn 。",
+              "meaningVi": "Phim Mỹ hay phim Đài Loan, mình đều muốn xem."
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我們看臺灣電影吧！",
+              "simplified": "我们看台湾电影吧！",
+              "pinyin": "wǒ men kàn tái wān diàn yǐng ba ！",
+              "meaningVi": "Chúng ta xem phim Đài Loan nhé!"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "好啊！看電影可以學中文。",
+              "simplified": "好啊！看电影可以学中文。",
+              "pinyin": "hǎo a ！ kàn diàn yǐng kě yǐ xué zhōng wén 。",
+              "meaningVi": "Được đấy! Xem phim có thể giúp học tiếng Hoa."
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "晚上要不要一起吃晚飯？",
+              "simplified": "晚上要不要一起吃晚饭？",
+              "pinyin": "wǎn shàng yào bù yào yì qǐ chī wǎn fàn ？",
+              "meaningVi": "Tối nay có muốn ăn cơm cùng nhau không?"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "好，我們去吃越南菜。",
+              "simplified": "好，我们去吃越南菜。",
+              "pinyin": "hǎo ， wǒ men qù chī yuè nán cài 。",
+              "meaningVi": "Được, chúng ta đi ăn món Việt nhé."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "cc1-v1-l04",
+      "dialogues": [
+        {
+          "id": "cc1-v1-l04-dialogue-1",
+          "turns": [
+            {
+              "speaker": "老闆",
+              "traditional": "請問你要買什麼？",
+              "simplified": "请问你要买什么？",
+              "pinyin": "qǐng wèn nǐ yào mǎi shén me ？",
+              "meaningVi": "Xin hỏi bạn muốn mua gì?"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "一杯熱咖啡。兩個包子。",
+              "simplified": "一杯热咖啡。两个包子。",
+              "pinyin": "yī bēi rè kā fēi 。 liǎng gè bāo zi 。",
+              "meaningVi": "Một ly cà phê nóng và hai cái bánh bao."
+            },
+            {
+              "speaker": "老闆",
+              "traditional": "你要大杯、中杯還是小杯？",
+              "simplified": "你要大杯、中杯还是小杯？",
+              "pinyin": "nǐ yào dà bēi 、 zhōng bēi hái shì xiǎo bēi ？",
+              "meaningVi": "Bạn muốn ly lớn, ly vừa hay ly nhỏ?"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "大杯。包子請幫我微波。",
+              "simplified": "大杯。包子请帮我微波。",
+              "pinyin": "dà bēi 。 bāo zi qǐng bāng wǒ wēi bō 。",
+              "meaningVi": "Ly lớn. Phiền bạn hâm nóng bánh bao giúp tôi."
+            },
+            {
+              "speaker": "老闆",
+              "traditional": "好的。請問外帶還是內用？",
+              "simplified": "好的。请问外带还是内用？",
+              "pinyin": "hǎo de 。 qǐng wèn wài dài hái shì nèi yòng ？",
+              "meaningVi": "Vâng. Bạn muốn mang đi hay dùng tại chỗ?"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "外帶，一共多少錢？",
+              "simplified": "外带，一共多少钱？",
+              "pinyin": "wài dài ， yī gòng duō shǎo qián ？",
+              "meaningVi": "Mang đi. Tổng cộng bao nhiêu tiền?"
+            },
+            {
+              "speaker": "老闆",
+              "traditional": "咖啡八十，包子四十，一共一百二十塊。",
+              "simplified": "咖啡八十，包子四十，一共一百二十块。",
+              "pinyin": "kā fēi bā shí ， bāo zi sì shí ， yī gòng yì bǎi èr shí kuài 。",
+              "meaningVi": "Cà phê 80, bánh bao 40, tổng cộng 120 Đài tệ."
+            }
+          ]
+        },
+        {
+          "id": "cc1-v1-l04-dialogue-2",
+          "turns": [
+            {
+              "speaker": "月美",
+              "traditional": "我想買一支新手機。",
+              "simplified": "我想买一支新手机。",
+              "pinyin": "wǒ xiǎng mǎi yī zhī xīn shǒu jī 。",
+              "meaningVi": "Mình muốn mua một chiếc điện thoại mới."
+            },
+            {
+              "speaker": "明華",
+              "traditional": "妳的手機很好。為什麼要買新的？",
+              "simplified": "妳的手机很好。为什么要买新的？",
+              "pinyin": "nǐ de shǒu jī hěn hǎo 。 wèi shén me yào mǎi xīn de ？",
+              "meaningVi": "Điện thoại của bạn vẫn tốt mà. Sao lại mua cái mới?"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "我這支手機太舊了，不好看。",
+              "simplified": "我这支手机太旧了，不好看。",
+              "pinyin": "wǒ zhè zhī shǒu jī tài jiù le ， bù hǎo kàn 。",
+              "meaningVi": "Chiếc điện thoại này cũ quá, trông không đẹp."
+            },
+            {
+              "speaker": "明華",
+              "traditional": "妳想買哪種手機？",
+              "simplified": "妳想买哪种手机？",
+              "pinyin": "nǐ xiǎng mǎi nǎ zhǒng shǒu jī ？",
+              "meaningVi": "Bạn muốn mua loại điện thoại nào?"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "能照相也能上網。",
+              "simplified": "能照相也能上网。",
+              "pinyin": "néng zhào xiàng yě néng shàng wǎng 。",
+              "meaningVi": "Loại có thể chụp ảnh và lên mạng."
+            },
+            {
+              "speaker": "明華",
+              "traditional": "那種手機很好，我哥哥有一支。",
+              "simplified": "那种手机很好，我哥哥有一支。",
+              "pinyin": "nà zhǒng shǒu jī hěn hǎo ， wǒ gē gē yǒu yī zhī 。",
+              "meaningVi": "Loại đó tốt đấy. Anh trai mình có một chiếc."
+            },
+            {
+              "speaker": "月美",
+              "traditional": "貴不貴？一支賣多少錢？",
+              "simplified": "贵不贵？一支卖多少钱？",
+              "pinyin": "guì bù guì ？ yī zhī mài duō shǎo qián ？",
+              "meaningVi": "Có đắt không? Một chiếc bán bao nhiêu tiền?"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "那種手機不便宜。一支要一萬五千多。",
+              "simplified": "那种手机不便宜。一支要一万五千多。",
+              "pinyin": "nà zhǒng shǒu jī bù biàn yí 。 yī zhī yào yī wàn wǔ qiān duō 。",
+              "meaningVi": "Loại đó không rẻ. Một chiếc hơn 15.000 Đài tệ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "cc1-v1-l05",
+      "dialogues": [
+        {
+          "id": "cc1-v1-l05-dialogue-1",
+          "turns": [
+            {
+              "speaker": "月美",
+              "traditional": "很多人都說臺灣有不少有名的小吃。",
+              "simplified": "很多人都说台湾有不少有名的小吃。",
+              "pinyin": "hěn duō rén dōu shuō tái wān yǒu bù shǎo yǒu míng de xiǎo chī 。",
+              "meaningVi": "Nhiều người nói Đài Loan có khá nhiều món ăn vặt nổi tiếng."
+            },
+            {
+              "speaker": "明華",
+              "traditional": "是啊！牛肉麵、小籠包、臭豆腐⋯都很好吃。",
+              "simplified": "是啊！牛肉面、小笼包、臭豆腐⋯都很好吃。",
+              "pinyin": "shì a ！ niú ròu miàn 、 xiǎo lóng bāo 、 chòu dòu fǔ ⋯ dōu hěn hǎo chī 。",
+              "meaningVi": "Đúng vậy! Mì bò, tiểu long bao, đậu phụ thối… món nào cũng ngon."
+            },
+            {
+              "speaker": "月美",
+              "traditional": "你最喜歡吃什麼？",
+              "simplified": "你最喜欢吃什么？",
+              "pinyin": "nǐ zuì xǐ huān chī shén me ？",
+              "meaningVi": "Bạn thích ăn gì nhất?"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "牛肉麵。牛肉好吃，湯也好喝。",
+              "simplified": "牛肉面。牛肉好吃，汤也好喝。",
+              "pinyin": "niú ròu miàn 。 niú ròu hǎo chī ， tāng yě hǎo hē 。",
+              "meaningVi": "Mì bò. Thịt bò ngon, nước dùng cũng ngon."
+            },
+            {
+              "speaker": "月美",
+              "traditional": "這麼好吃，我很想吃。",
+              "simplified": "这么好吃，我很想吃。",
+              "pinyin": "zhè me hǎo chī ， wǒ hěn xiǎng chī 。",
+              "meaningVi": "Ngon đến vậy à? Mình rất muốn ăn thử."
+            },
+            {
+              "speaker": "明華",
+              "traditional": "我知道一家有名的牛肉麵店，我們一起去吃，怎麼樣？",
+              "simplified": "我知道一家有名的牛肉面店，我们一起去吃，怎么样？",
+              "pinyin": "wǒ zhī dào yī jiā yǒu míng de niú ròu miàn diàn ， wǒ men yì qǐ qù chī ， zěn me yàng ？",
+              "meaningVi": "Mình biết một quán mì bò nổi tiếng. Chúng ta cùng đến ăn nhé?"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "太好了！",
+              "simplified": "太好了！",
+              "pinyin": "tài hǎo le ！",
+              "meaningVi": "Hay quá!"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "我們明天去。一定要點大碗的。",
+              "simplified": "我们明天去。一定要点大碗的。",
+              "pinyin": "wǒ men míng tiān qù 。 yí dìng yào diǎn dà wǎn de 。",
+              "meaningVi": "Mai chúng ta đi. Nhất định phải gọi tô lớn nhé."
+            }
+          ]
+        },
+        {
+          "id": "cc1-v1-l05-dialogue-2",
+          "turns": [
+            {
+              "speaker": "月美",
+              "traditional": "昨天晚上那家餐廳的菜很好吃，可是有一點辣。",
+              "simplified": "昨天晚上那家餐厅的菜很好吃，可是有一点辣。",
+              "pinyin": "zuó tiān wǎn shàng nà jiā cān tīng de cài hěn hǎo chī ， kě shì yǒu yī diǎn là 。",
+              "meaningVi": "Món ăn ở nhà hàng tối qua rất ngon, nhưng hơi cay."
+            },
+            {
+              "speaker": "安同",
+              "traditional": "我也怕辣，所以我喜歡自己做飯。",
+              "simplified": "我也怕辣，所以我喜欢自己做饭。",
+              "pinyin": "wǒ yě pà là ， suǒ yǐ wǒ xǐ huān zì jǐ zuò fàn 。",
+              "meaningVi": "Mình cũng sợ cay nên thích tự nấu ăn."
+            },
+            {
+              "speaker": "月美",
+              "traditional": "你做飯做得怎麼樣？",
+              "simplified": "你做饭做得怎么样？",
+              "pinyin": "nǐ zuò fàn zuò dé zěn me yàng ？",
+              "meaningVi": "Bạn nấu ăn thế nào?"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "我做得不好。妳會做飯嗎？",
+              "simplified": "我做得不好。妳会做饭吗？",
+              "pinyin": "wǒ zuò dé bù hǎo 。 nǐ huì zuò fàn ma ？",
+              "meaningVi": "Mình nấu không giỏi. Bạn biết nấu ăn không?"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "會。我的甜點也做得不錯。",
+              "simplified": "会。我的甜点也做得不错。",
+              "pinyin": "huì 。 wǒ de tián diǎn yě zuò dé bù cuò 。",
+              "meaningVi": "Có. Món tráng miệng mình làm cũng khá ngon."
+            },
+            {
+              "speaker": "安同",
+              "traditional": "我最喜歡吃甜點。妳可以教我嗎？",
+              "simplified": "我最喜欢吃甜点。妳可以教我吗？",
+              "pinyin": "wǒ zuì xǐ huān chī tián diǎn 。 nǐ kě yǐ jiào wǒ ma ？",
+              "meaningVi": "Mình thích ăn món tráng miệng nhất. Bạn dạy mình được không?"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "好的，這個週末，你到我家來。",
+              "simplified": "好的，这个周末，你到我家来。",
+              "pinyin": "hǎo de ， zhè gè zhōu mò ， nǐ dào wǒ jiā lái 。",
+              "meaningVi": "Được. Cuối tuần này bạn đến nhà mình nhé."
+            },
+            {
+              "speaker": "安同",
+              "traditional": "好啊！謝謝妳。",
+              "simplified": "好啊！谢谢妳。",
+              "pinyin": "hǎo a ！ xiè xiè nǐ 。",
+              "meaningVi": "Được đấy! Cảm ơn bạn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "cc1-v1-l06",
+      "dialogues": [
+        {
+          "id": "cc1-v1-l06-dialogue-1",
+          "turns": [
+            {
+              "speaker": "安同",
+              "traditional": "聽說怡君的學校很漂亮。",
+              "simplified": "听说怡君的学校很漂亮。",
+              "pinyin": "tīng shuō yí jūn de xué xiào hěn piào liàng 。",
+              "meaningVi": "Nghe nói trường của Di Quân rất đẹp."
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "他們學校在哪裡？遠不遠？",
+              "simplified": "他们学校在哪里？远不远？",
+              "pinyin": "tā men xué xiào zài nǎ lǐ ？ yuǎn bù yuǎn ？",
+              "meaningVi": "Trường của họ ở đâu? Có xa không?"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "有一點遠。他們學校在花蓮的山上。",
+              "simplified": "有一点远。他们学校在花莲的山上。",
+              "pinyin": "yǒu yī diǎn yuǎn 。 tā men xué xiào zài huā lián de shān shàng 。",
+              "meaningVi": "Hơi xa. Trường của họ ở trên núi tại Hoa Liên."
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "山上？那裡的風景一定很美。",
+              "simplified": "山上？那里的风景一定很美。",
+              "pinyin": "shān shàng ？ nà lǐ de fēng jǐng yí dìng hěn měi 。",
+              "meaningVi": "Trên núi à? Phong cảnh ở đó chắc đẹp lắm."
+            },
+            {
+              "speaker": "安同",
+              "traditional": "是的，他們學校前面有海，後面有山，那裡真的是一個很漂亮的地方。",
+              "simplified": "是的，他们学校前面有海，后面有山，那里真的是一个很漂亮的地方。",
+              "pinyin": "shì de ， tā men xué xiào qián miàn yǒu hǎi ， hòu miàn yǒu shān ， nà lǐ zhēn de shì yī gè hěn piào liàng de dì fāng 。",
+              "meaningVi": "Đúng vậy. Trước trường có biển, phía sau có núi. Đó thật sự là một nơi rất đẹp."
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我想去看看。我們這個週末一起去吧！",
+              "simplified": "我想去看看。我们这个周末一起去吧！",
+              "pinyin": "wǒ xiǎng qù kàn kàn 。 wǒ men zhè gè zhōu mò yì qǐ qù ba ！",
+              "meaningVi": "Mình muốn đến xem. Cuối tuần này chúng ta cùng đi nhé!"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "好啊！我現在要去學校附近的咖啡店買咖啡。妳呢？",
+              "simplified": "好啊！我现在要去学校附近的咖啡店买咖啡。妳呢？",
+              "pinyin": "hǎo a ！ wǒ xiàn zài yào qù xué xiào fù jìn de kā fēi diàn mǎi kā fēi 。 nǐ ne ？",
+              "meaningVi": "Được đấy! Giờ mình đến quán cà phê gần trường mua cà phê. Còn bạn?"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我去樓下找朋友，我們要一起去上課。",
+              "simplified": "我去楼下找朋友，我们要一起去上课。",
+              "pinyin": "wǒ qù lóu xià zhǎo péng yǒu ， wǒ men yào yì qǐ qù shàng kè 。",
+              "meaningVi": "Mình xuống lầu gặp bạn. Bọn mình sẽ cùng đi học."
+            }
+          ]
+        },
+        {
+          "id": "cc1-v1-l06-dialogue-2",
+          "turns": [
+            {
+              "speaker": "怡君",
+              "traditional": "歡迎你們來。",
+              "simplified": "欢迎你们来。",
+              "pinyin": "huān yíng nǐ men lái 。",
+              "meaningVi": "Chào mừng các bạn đến đây."
+            },
+            {
+              "speaker": "安同",
+              "traditional": "你們學校真遠！",
+              "simplified": "你们学校真远！",
+              "pinyin": "nǐ men xué xiào zhēn yuǎn ！",
+              "meaningVi": "Trường bạn xa quá!"
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "是啊，不是很近，有一點不方便。",
+              "simplified": "是啊，不是很近，有一点不方便。",
+              "pinyin": "shì a ， bú shì hěn jìn ， yǒu yī diǎn bù fāng biàn 。",
+              "meaningVi": "Ừ, không gần lắm, hơi bất tiện."
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "這裡的學生在哪裡買東西？",
+              "simplified": "这里的学生在哪里买东西？",
+              "pinyin": "zhè lǐ de xué shēng zài nǎ lǐ mǎi dōng xī ？",
+              "meaningVi": "Sinh viên ở đây mua đồ ở đâu?"
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "在學校外面。學校裡面沒有商店。",
+              "simplified": "在学校外面。学校里面没有商店。",
+              "pinyin": "zài xué xiào wài miàn 。 xué xiào lǐ miàn méi yǒu shāng diàn 。",
+              "meaningVi": "Bên ngoài trường. Trong trường không có cửa hàng."
+            },
+            {
+              "speaker": "安同",
+              "traditional": "吃飯呢？學校裡面有沒有餐廳？",
+              "simplified": "吃饭呢？学校里面有没有餐厅？",
+              "pinyin": "chī fàn ne ？ xué xiào lǐ miàn yǒu méi yǒu cān tīng ？",
+              "meaningVi": "Còn ăn uống thì sao? Trong trường có nhà ăn không?"
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "有，餐廳在學生宿舍的一樓。",
+              "simplified": "有，餐厅在学生宿舍的一楼。",
+              "pinyin": "yǒu ， cān tīng zài xué shēng sù shè de yī lóu 。",
+              "meaningVi": "Có, nhà ăn ở tầng một của ký túc xá sinh viên."
+            },
+            {
+              "speaker": "安同",
+              "traditional": "前面這棟大樓很漂亮。",
+              "simplified": "前面这栋大楼很漂亮。",
+              "pinyin": "qián miàn zhè dòng dà lóu hěn piào liàng 。",
+              "meaningVi": "Tòa nhà phía trước đẹp quá."
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "這是圖書館，旁邊的那棟大樓是教室，圖書館後面有游泳池。",
+              "simplified": "这是图书馆，旁边的那栋大楼是教室，图书馆后面有游泳池。",
+              "pinyin": "zhè shì tú shū guǎn ， páng biān de nà dòng dà lóu shì jiào shì ， tú shū guǎn hòu miàn yǒu yóu yǒng chí 。",
+              "meaningVi": "Đây là thư viện. Tòa nhà bên cạnh là lớp học; phía sau thư viện có hồ bơi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "cc1-v1-l07",
+      "dialogues": [
+        {
+          "id": "cc1-v1-l07-dialogue-1",
+          "turns": [
+            {
+              "speaker": "安同",
+              "traditional": "月美，妳要去哪裡？",
+              "simplified": "月美，妳要去哪里？",
+              "pinyin": "yuè měi ， nǐ yào qù nǎ lǐ ？",
+              "meaningVi": "Nguyệt Mỹ, bạn đi đâu vậy?"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "去KTV 唱歌。我和朋友九點二十分在大安KTV 見面。",
+              "simplified": "去KTV 唱歌。我和朋友九点二十分在大安KTV 见面。",
+              "pinyin": "qù KTV  chàng gē 。 wǒ hé péng yǒu jiǔ diǎn èr shí fēn zài dà ān KTV  jiàn miàn 。",
+              "meaningVi": "Mình đi hát karaoke. Mình hẹn bạn lúc 9 giờ 20 ở KTV Đại An."
+            },
+            {
+              "speaker": "安同",
+              "traditional": "早上九點去 KTV ？為什麼？",
+              "simplified": "早上九点去 KTV ？为什么？",
+              "pinyin": "zǎo shàng jiǔ diǎn qù  KTV ？ wèi shén me ？",
+              "meaningVi": "Đi KTV lúc 9 giờ sáng à? Sao vậy?"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "從早上七點到中午十二點，最便宜。要不要一起去？",
+              "simplified": "从早上七点到中午十二点，最便宜。要不要一起去？",
+              "pinyin": "cóng zǎo shàng qī diǎn dào zhōng wǔ shí èr diǎn ， zuì pián yi 。 yào bù yào yì qǐ qù ？",
+              "meaningVi": "Từ 7 giờ sáng đến 12 giờ trưa là rẻ nhất. Bạn có muốn đi cùng không?"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "我想去，可是我得去銀行。下次吧！",
+              "simplified": "我想去，可是我得去银行。下次吧！",
+              "pinyin": "wǒ xiǎng qù ， kě shì wǒ dé qù yín xíng 。 xià cì ba ！",
+              "meaningVi": "Mình muốn đi, nhưng phải đến ngân hàng. Để lần sau nhé!"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "好啊，下次你一定要來，我想聽你唱歌。",
+              "simplified": "好啊，下次你一定要来，我想听你唱歌。",
+              "pinyin": "hǎo a ， xià cì nǐ yí dìng yào lái ， wǒ xiǎng tīng nǐ chàng gē 。",
+              "meaningVi": "Được, lần sau nhất định bạn phải đến. Mình muốn nghe bạn hát."
+            },
+            {
+              "speaker": "安同",
+              "traditional": "沒問題。對了，什麼時候有空一起吃飯？",
+              "simplified": "没问题。对了，什么时候有空一起吃饭？",
+              "pinyin": "méi wèn tí 。 duì le ， shén me shí hòu yǒu kòng yì qǐ chī fàn ？",
+              "meaningVi": "Không thành vấn đề. À, khi nào bạn rảnh để cùng ăn cơm?"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "後天我有空，你呢？",
+              "simplified": "后天我有空，你呢？",
+              "pinyin": "hòu tiān wǒ yǒu kòng ， nǐ ne ？",
+              "meaningVi": "Ngày kia mình rảnh. Còn bạn?"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "我也有空，後天晚上七點怎麼樣？",
+              "simplified": "我也有空，后天晚上七点怎么样？",
+              "pinyin": "wǒ yě yǒu kòng ， hòu tiān wǎn shàng qī diǎn zěn me yàng ？",
+              "meaningVi": "Mình cũng rảnh. Bảy giờ tối ngày kia được không?"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "好啊！再見。",
+              "simplified": "好啊！再见。",
+              "pinyin": "hǎo a ！ zài jiàn 。",
+              "meaningVi": "Được đấy! Tạm biệt."
+            }
+          ]
+        },
+        {
+          "id": "cc1-v1-l07-dialogue-2",
+          "turns": [
+            {
+              "speaker": "安同",
+              "traditional": "如玉，妳在吃飯啊？",
+              "simplified": "如玉，妳在吃饭啊？",
+              "pinyin": "rú yù ， nǐ zài chī fàn a ？",
+              "meaningVi": "Như Ngọc, bạn đang ăn à?"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "是，吃午餐，等一下要上課。你呢？",
+              "simplified": "是，吃午餐，等一下要上课。你呢？",
+              "pinyin": "shì ， chī wǔ cān ， děng yí xià yào shàng kè 。 nǐ ne ？",
+              "meaningVi": "Ừ, mình đang ăn trưa. Lát nữa phải đi học. Còn bạn?"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "我剛下課。對了，下午四點半學校有籃球比賽。妳想去看嗎？",
+              "simplified": "我刚下课。对了，下午四点半学校有篮球比赛。妳想去看吗？",
+              "pinyin": "wǒ gāng xià kè 。 duì le ， xià wǔ sì diǎn bàn xué xiào yǒu lán qiú bǐ sài 。 nǐ xiǎng qù kàn ma ？",
+              "meaningVi": "Mình vừa tan học. À, 4 giờ rưỡi chiều nay trường có trận bóng rổ. Bạn muốn đi xem không?"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "想啊。比賽幾點結束？",
+              "simplified": "想啊。比赛几点结束？",
+              "pinyin": "xiǎng a 。 bǐ sài jǐ diǎn jié shù ？",
+              "meaningVi": "Có chứ. Mấy giờ trận đấu kết thúc?"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "六點半。妳晚上有事嗎？",
+              "simplified": "六点半。妳晚上有事吗？",
+              "pinyin": "liù diǎn bàn 。 nǐ wǎn shàng yǒu shì ma ？",
+              "meaningVi": "Sáu giờ rưỡi. Tối nay bạn có việc gì không?"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我最近很忙，每天晚上都上書法課。",
+              "simplified": "我最近很忙，每天晚上都上书法课。",
+              "pinyin": "wǒ zuì jìn hěn máng ， měi tiān wǎn shàng dōu shàng shū fǎ kè 。",
+              "meaningVi": "Dạo này mình bận lắm, tối nào cũng đi học thư pháp."
+            },
+            {
+              "speaker": "安同",
+              "traditional": "學得怎麼樣？",
+              "simplified": "学得怎么样？",
+              "pinyin": "xué dé zěn me yàng ？",
+              "meaningVi": "Học thế nào rồi?"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "剛開始學，字寫得不好，可是我覺得很有意思。",
+              "simplified": "刚开始学，字写得不好，可是我觉得很有意思。",
+              "pinyin": "gāng kāi shǐ xué ， zì xiě dé bù hǎo ， kě shì wǒ jué dé hěn yǒu yì si 。",
+              "meaningVi": "Mình mới bắt đầu, chữ viết chưa đẹp, nhưng thấy rất thú vị."
+            },
+            {
+              "speaker": "安同",
+              "traditional": "我有空可以去看看嗎？",
+              "simplified": "我有空可以去看看吗？",
+              "pinyin": "wǒ yǒu kòng kě yǐ qù kàn kàn ma ？",
+              "meaningVi": "Khi nào rảnh mình đến xem được không?"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我得問問老師。",
+              "simplified": "我得问问老师。",
+              "pinyin": "wǒ dé wèn wèn lǎo shī 。",
+              "meaningVi": "Mình phải hỏi thầy cô đã."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "cc1-v1-l08",
+      "dialogues": [
+        {
+          "id": "cc1-v1-l08-dialogue-1",
+          "turns": [
+            {
+              "speaker": "如玉",
+              "traditional": "這個週末，我想跟朋友去臺南玩。",
+              "simplified": "这个周末，我想跟朋友去台南玩。",
+              "pinyin": "zhè gè zhōu mò ， wǒ xiǎng gēn péng yǒu qù tái nán wán 。",
+              "meaningVi": "Cuối tuần này mình muốn đi Đài Nam chơi cùng bạn."
+            },
+            {
+              "speaker": "明華",
+              "traditional": "怎麼去？",
+              "simplified": "怎么去？",
+              "pinyin": "zěn me qù ？",
+              "meaningVi": "Đi bằng cách nào?"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我想坐火車去。",
+              "simplified": "我想坐火车去。",
+              "pinyin": "wǒ xiǎng zuò huǒ chē qù 。",
+              "meaningVi": "Mình muốn đi tàu hỏa."
+            },
+            {
+              "speaker": "明華",
+              "traditional": "火車太慢了，要四個多鐘頭，坐高鐵比較快。",
+              "simplified": "火车太慢了，要四个多钟头，坐高铁比较快。",
+              "pinyin": "huǒ chē tài màn le ， yào sì gè duō zhōng tóu ， zuò gāo tiě bǐ jiào kuài 。",
+              "meaningVi": "Tàu hỏa chậm quá, mất hơn bốn tiếng. Đi tàu cao tốc nhanh hơn."
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "可是聽說高鐵車票非常貴。",
+              "simplified": "可是听说高铁车票非常贵。",
+              "pinyin": "kě shì tīng shuō gāo tiě chē piào fēi cháng guì 。",
+              "meaningVi": "Nhưng nghe nói vé tàu cao tốc rất đắt."
+            },
+            {
+              "speaker": "明華",
+              "traditional": "高鐵車票有一點貴，但是坐高鐵又快又舒服。",
+              "simplified": "高铁车票有一点贵，但是坐高铁又快又舒服。",
+              "pinyin": "gāo tiě chē piào yǒu yī diǎn guì ， dàn shì zuò gāo tiě yòu kuài yòu shū fú 。",
+              "meaningVi": "Vé tàu cao tốc hơi đắt, nhưng đi vừa nhanh vừa thoải mái."
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我不知道在哪裡買票。",
+              "simplified": "我不知道在哪里买票。",
+              "pinyin": "wǒ bù zhī dào zài nǎ lǐ mǎi piào 。",
+              "meaningVi": "Mình không biết mua vé ở đâu."
+            },
+            {
+              "speaker": "明華",
+              "traditional": "在高鐵站、網路上或是便利商店都可以。",
+              "simplified": "在高铁站、网路上或是便利商店都可以。",
+              "pinyin": "zài gāo tiě zhàn 、 wǎng lù shàng huò shì biàn lì shāng diàn dōu kě yǐ 。",
+              "meaningVi": "Có thể mua ở ga tàu cao tốc, trên mạng hoặc ở cửa hàng tiện lợi."
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "這麼方便！那我坐高鐵去，謝謝你。",
+              "simplified": "这么方便！那我坐高铁去，谢谢你。",
+              "pinyin": "zhè me fāng biàn ！ nà wǒ zuò gāo tiě qù ， xiè xiè nǐ 。",
+              "meaningVi": "Tiện thật! Vậy mình đi tàu cao tốc. Cảm ơn bạn."
+            }
+          ]
+        },
+        {
+          "id": "cc1-v1-l08-dialogue-2",
+          "turns": [
+            {
+              "speaker": "如玉",
+              "traditional": "安同，明天我們沒課，你想去哪裡？",
+              "simplified": "安同，明天我们没课，你想去哪里？",
+              "pinyin": "ān tóng ， míng tiān wǒ men méi kè ， nǐ xiǎng qù nǎ lǐ ？",
+              "meaningVi": "An Đồng, mai chúng ta không có lớp. Bạn muốn đi đâu?"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "我要跟同學去參觀故宮博物院。",
+              "simplified": "我要跟同学去参观故宫博物院。",
+              "pinyin": "wǒ yào gēn tóng xué qù cān guān gù gōng bó wù yuàn 。",
+              "meaningVi": "Mình sẽ đi tham quan Bảo tàng Cố Cung với bạn học."
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "聽說那裡有很多中國古代的東西。",
+              "simplified": "听说那里有很多中国古代的东西。",
+              "pinyin": "tīng shuō nà lǐ yǒu hěn duō zhōng guó gǔ dài de dōng xī 。",
+              "meaningVi": "Nghe nói ở đó có nhiều hiện vật cổ của Trung Quốc."
+            },
+            {
+              "speaker": "安同",
+              "traditional": "是啊。妳要跟我們去看看嗎？",
+              "simplified": "是啊。妳要跟我们去看看吗？",
+              "pinyin": "shì a 。 nǐ yào gēn wǒ men qù kàn kàn ma ？",
+              "meaningVi": "Đúng vậy. Bạn có muốn đi cùng bọn mình không?"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "好。怎麼去？",
+              "simplified": "好。怎么去？",
+              "pinyin": "hǎo 。 zěn me qù ？",
+              "meaningVi": "Có. Đi bằng cách nào?"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "我同學騎機車載我。妳可以坐公共汽車去。",
+              "simplified": "我同学骑机车载我。妳可以坐公共汽车去。",
+              "pinyin": "wǒ tóng xué qí jī chē zài wǒ 。 nǐ kě yǐ zuò gōng gòng qì chē qù 。",
+              "meaningVi": "Bạn học chở mình bằng xe máy. Bạn có thể đi xe buýt."
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我想坐捷運去。比較快。",
+              "simplified": "我想坐捷运去。比较快。",
+              "pinyin": "wǒ xiǎng zuò jié yùn qù 。 bǐ jiào kuài 。",
+              "meaningVi": "Mình muốn đi tàu điện MRT, nhanh hơn."
+            },
+            {
+              "speaker": "安同",
+              "traditional": "不行，到故宮沒有捷運。妳要不要坐計程車去？",
+              "simplified": "不行，到故宫没有捷运。妳要不要坐计程车去？",
+              "pinyin": "bù xíng ， dào gù gōng méi yǒu jié yùn 。 nǐ yào bù yào zuò jì chéng chē qù ？",
+              "meaningVi": "Không được, tàu điện MRT không đến Cố Cung. Bạn đi taxi nhé?"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "太貴了！我坐公車。騎機車比坐公車快嗎？",
+              "simplified": "太贵了！我坐公车。骑机车比坐公车快吗？",
+              "pinyin": "tài guì le ！ wǒ zuò gōng chē 。 qí jī chē bǐ zuò gōng chē kuài ma ？",
+              "meaningVi": "Đắt quá! Mình đi xe buýt. Đi xe máy có nhanh hơn đi xe buýt không?"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "差不多。",
+              "simplified": "差不多。",
+              "pinyin": "chà bu duō 。",
+              "meaningVi": "Cũng gần như nhau."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "cc1-v1-l09",
+      "dialogues": [
+        {
+          "id": "cc1-v1-l09-dialogue-1",
+          "turns": [
+            {
+              "speaker": "安同",
+              "traditional": "田中，下個星期我們放五天的假，你要回國嗎？",
+              "simplified": "田中，下个星期我们放五天的假，你要回国吗？",
+              "pinyin": "tián zhōng ， xià gè xīng qī wǒ men fàng wǔ tiān de jiǎ ， nǐ yào huí guó ma ？",
+              "meaningVi": "Tanaka, tuần sau chúng ta được nghỉ năm ngày. Bạn có về nước không?"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "不，我打算在家看電視、影片學中文，你呢？",
+              "simplified": "不，我打算在家看电视、影片学中文，你呢？",
+              "pinyin": "bù ， wǒ dǎ suàn zài jiā kàn diàn shì 、 yǐng piàn xué zhōng wén ， nǐ ne ？",
+              "meaningVi": "Không, mình định ở nhà xem TV và video để học tiếng Hoa. Còn bạn?"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "我想跟朋友去玩。",
+              "simplified": "我想跟朋友去玩。",
+              "pinyin": "wǒ xiǎng gēn péng yǒu qù wán 。",
+              "meaningVi": "Mình muốn đi chơi với bạn."
+            },
+            {
+              "speaker": "田中",
+              "traditional": "不錯啊。去什麼地方？",
+              "simplified": "不错啊。去什么地方？",
+              "pinyin": "bù cuò a 。 qù shén me dì fāng ？",
+              "meaningVi": "Hay đấy. Đi đâu?"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "臺東。聽說那裡的風景非常漂亮。",
+              "simplified": "台东。听说那里的风景非常漂亮。",
+              "pinyin": "tái dōng 。 tīng shuō nà lǐ de fēng jǐng fēi cháng piào liàng 。",
+              "meaningVi": "Đài Đông. Nghe nói phong cảnh ở đó rất đẹp."
+            },
+            {
+              "speaker": "田中",
+              "traditional": "我也聽說。放假的時候，你常去旅行嗎？",
+              "simplified": "我也听说。放假的时候，你常去旅行吗？",
+              "pinyin": "wǒ yě tīng shuō 。 fàng jià de shí hòu ， nǐ cháng qù lǚ xíng ma ？",
+              "meaningVi": "Mình cũng nghe vậy. Dịp nghỉ bạn có thường đi du lịch không?"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "不一定。有時候在家寫功課，有時候出去玩。",
+              "simplified": "不一定。有时候在家写功课，有时候出去玩。",
+              "pinyin": "bù yí dìng 。 yǒu shí hòu zài jiā xiě gōng kè ， yǒu shí hòu chū qù wán 。",
+              "meaningVi": "Không nhất định. Có lúc ở nhà làm bài tập, có lúc ra ngoài chơi."
+            },
+            {
+              "speaker": "田中",
+              "traditional": "你們什麼時候去臺東？",
+              "simplified": "你们什么时候去台东？",
+              "pinyin": "nǐ men shén me shí hòu qù tái dōng ？",
+              "meaningVi": "Khi nào các bạn đi Đài Đông?"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "這個星期六下午去。",
+              "simplified": "这个星期六下午去。",
+              "pinyin": "zhè gè xīng qī liù xià wǔ qù 。",
+              "meaningVi": "Chiều thứ Bảy tuần này."
+            },
+            {
+              "speaker": "田中",
+              "traditional": "去玩多久？",
+              "simplified": "去玩多久？",
+              "pinyin": "qù wán duō jiǔ ？",
+              "meaningVi": "Đi chơi bao lâu?"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "大概玩四、五天。",
+              "simplified": "大概玩四、五天。",
+              "pinyin": "dà gài wán sì 、 wǔ tiān 。",
+              "meaningVi": "Khoảng bốn, năm ngày."
+            }
+          ]
+        },
+        {
+          "id": "cc1-v1-l09-dialogue-2",
+          "turns": [
+            {
+              "speaker": "田中",
+              "traditional": "我女朋友九月三十號要來臺灣看我。",
+              "simplified": "我女朋友九月三十号要来台湾看我。",
+              "pinyin": "wǒ nǚ péng yǒu jiǔ yuè sān shí hào yào lái tái wān kàn wǒ 。",
+              "meaningVi": "Bạn gái mình sẽ đến Đài Loan thăm mình vào ngày 30 tháng 9."
+            },
+            {
+              "speaker": "明華",
+              "traditional": "你想帶她去哪裡玩？",
+              "simplified": "你想带她去哪里玩？",
+              "pinyin": "nǐ xiǎng dài tā qù nǎ lǐ wán ？",
+              "meaningVi": "Bạn muốn đưa cô ấy đi chơi ở đâu?"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "還不知道。你有什麼建議？",
+              "simplified": "还不知道。你有什么建议？",
+              "pinyin": "hái bù zhī dào 。 nǐ yǒu shén me jiàn yì ？",
+              "meaningVi": "Mình vẫn chưa biết. Bạn có gợi ý gì không?"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "臺灣的夜市很有名。你們應該去逛逛。",
+              "simplified": "台湾的夜市很有名。你们应该去逛逛。",
+              "pinyin": "tái wān de yè shì hěn yǒu míng 。 nǐ men yīng gāi qù guàng guàng 。",
+              "meaningVi": "Chợ đêm Đài Loan rất nổi tiếng. Hai bạn nên đi dạo thử."
+            },
+            {
+              "speaker": "田中",
+              "traditional": "謝謝，還有什麼好玩的地方？",
+              "simplified": "谢谢，还有什么好玩的地方？",
+              "pinyin": "xiè xiè ， hái yǒu shén me hǎo wán de dì fāng ？",
+              "meaningVi": "Cảm ơn. Còn nơi nào vui nữa không?"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "臺灣的茶也很特別。臺北有很多茶館。",
+              "simplified": "台湾的茶也很特别。台北有很多茶馆。",
+              "pinyin": "tái wān de chá yě hěn tè bié 。 tái běi yǒu hěn duō chá guǎn 。",
+              "meaningVi": "Trà Đài Loan cũng rất đặc biệt. Đài Bắc có nhiều quán trà."
+            },
+            {
+              "speaker": "田中",
+              "traditional": "到哪裡喝茶比較好？",
+              "simplified": "到哪里喝茶比较好？",
+              "pinyin": "dào nǎ lǐ hē chá bǐ jiào hǎo ？",
+              "meaningVi": "Đi đâu uống trà thì hay hơn?"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "你們可以去貓空。那裡的風景很美。",
+              "simplified": "你们可以去猫空。那里的风景很美。",
+              "pinyin": "nǐ men kě yǐ qù māo kōng 。 nà lǐ de fēng jǐng hěn měi 。",
+              "meaningVi": "Hai bạn có thể đến Miêu Không. Phong cảnh ở đó rất đẹp."
+            },
+            {
+              "speaker": "田中",
+              "traditional": "謝謝你。我決定帶她去貓空。你也一起去，好不好？",
+              "simplified": "谢谢你。我决定带她去猫空。你也一起去，好不好？",
+              "pinyin": "xiè xiè nǐ 。 wǒ jué dìng dài tā qù māo kōng 。 nǐ yě yì qǐ qù ， hǎo bù hǎo ？",
+              "meaningVi": "Cảm ơn. Mình quyết định đưa cô ấy đến Miêu Không. Bạn đi cùng nhé?"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "要是那時候我有空，就跟你們一起去。",
+              "simplified": "要是那时候我有空，就跟你们一起去。",
+              "pinyin": "yào shì nà shí hòu wǒ yǒu kòng ， jiù gēn nǐ men yì qǐ qù 。",
+              "meaningVi": "Nếu lúc đó mình rảnh thì sẽ đi cùng hai bạn."
+            },
+            {
+              "speaker": "田中",
+              "traditional": "太好了！謝謝！",
+              "simplified": "太好了！谢谢！",
+              "pinyin": "tài hǎo le ！ xiè xiè ！",
+              "meaningVi": "Hay quá! Cảm ơn!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "cc1-v1-l10",
+      "dialogues": [
+        {
+          "id": "cc1-v1-l10-dialogue-1",
+          "turns": [
+            {
+              "speaker": "如玉",
+              "traditional": "這個黃色的水果叫什麼？",
+              "simplified": "这个黄色的水果叫什么？",
+              "pinyin": "zhè gè huáng sè de shuǐ guǒ jiào shén me ？",
+              "meaningVi": "Loại trái cây màu vàng này tên là gì?"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "芒果。給妳一塊，吃吃看。",
+              "simplified": "芒果。给妳一块，吃吃看。",
+              "pinyin": "máng guǒ 。 gěi nǐ yī kuài ， chī chī kàn 。",
+              "meaningVi": "Xoài. Mình cho bạn một miếng, ăn thử xem."
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "好，謝謝。香香的、甜甜的，很好吃。",
+              "simplified": "好，谢谢。香香的、甜甜的，很好吃。",
+              "pinyin": "hǎo ， xiè xiè 。 xiāng xiāng de 、 tián tián de ， hěn hǎo chī 。",
+              "meaningVi": "Ừ, cảm ơn. Thơm thơm, ngọt ngọt, ngon quá."
+            },
+            {
+              "speaker": "月美",
+              "traditional": "昨天明華給我們的那種水果，紅色的，叫什麼？",
+              "simplified": "昨天明华给我们的那种水果，红色的，叫什么？",
+              "pinyin": "zuó tiān míng huá gěi wǒ men de nà zhǒng shuǐ guǒ ， hóng sè de ， jiào shén me ？",
+              "meaningVi": "Loại trái cây màu đỏ mà hôm qua Minh Hoa cho chúng ta tên là gì?"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "妳說的是西瓜吧？",
+              "simplified": "妳说的是西瓜吧？",
+              "pinyin": "nǐ shuō de shì xī guā ba ？",
+              "meaningVi": "Bạn nói dưa hấu phải không?"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "對！對！對！臺灣有很多好吃的水果。",
+              "simplified": "对！对！对！台湾有很多好吃的水果。",
+              "pinyin": "duì ！ duì ！ duì ！ tái wān yǒu hěn duō hǎo chī de shuǐ guǒ 。",
+              "meaningVi": "Đúng rồi! Đài Loan có nhiều loại trái cây ngon."
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我以前不喜歡吃水果，現在很喜歡了。",
+              "simplified": "我以前不喜欢吃水果，现在很喜欢了。",
+              "pinyin": "wǒ yǐ qián bù xǐ huān chī shuǐ guǒ ， xiàn zài hěn xǐ huān le 。",
+              "meaningVi": "Trước đây mình không thích ăn trái cây, giờ thì thích lắm rồi."
+            },
+            {
+              "speaker": "月美",
+              "traditional": "越南的水果也很好吃。",
+              "simplified": "越南的水果也很好吃。",
+              "pinyin": "yuè nán de shuǐ guǒ yě hěn hǎo chī 。",
+              "meaningVi": "Trái cây Việt Nam cũng rất ngon."
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "要是有機會，我想吃吃看。",
+              "simplified": "要是有机会，我想吃吃看。",
+              "pinyin": "yào shì yǒu jī huì ， wǒ xiǎng chī chī kàn 。",
+              "meaningVi": "Nếu có dịp, mình muốn ăn thử."
+            },
+            {
+              "speaker": "月美",
+              "traditional": "妳來越南，我一定請妳吃。",
+              "simplified": "妳来越南，我一定请妳吃。",
+              "pinyin": "nǐ lái yuè nán ， wǒ yí dìng qǐng nǐ chī 。",
+              "meaningVi": "Bạn đến Việt Nam, nhất định mình sẽ mời bạn ăn."
+            }
+          ]
+        },
+        {
+          "id": "cc1-v1-l10-dialogue-2",
+          "turns": [
+            {
+              "speaker": "明華",
+              "traditional": "你跟你女朋友上個月去花蓮玩，好玩嗎？",
+              "simplified": "你跟你女朋友上个月去花莲玩，好玩吗？",
+              "pinyin": "nǐ gēn nǐ nǚ péng yǒu shàng gè yuè qù huā lián wán ， hǎo wán ma ？",
+              "meaningVi": "Tháng trước bạn đi Hoa Liên chơi với bạn gái, có vui không?"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "很好玩。你看，這些是我拍的照片。",
+              "simplified": "很好玩。你看，这些是我拍的照片。",
+              "pinyin": "hěn hǎo wán 。 nǐ kàn ， zhè xiē shì wǒ pāi de zhào piān 。",
+              "meaningVi": "Vui lắm. Bạn xem, đây là những bức ảnh mình chụp."
+            },
+            {
+              "speaker": "明華",
+              "traditional": "你們笑得很開心！哪一個是你女朋友？",
+              "simplified": "你们笑得很开心！哪一个是你女朋友？",
+              "pinyin": "nǐ men xiào dé hěn kāi xīn ！ nǎ yī gè shì nǐ nǚ péng yǒu ？",
+              "meaningVi": "Hai bạn cười vui quá! Ai là bạn gái của bạn?"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "穿紅衣服的這個。穿黃衣服的是旅館老闆的太太。",
+              "simplified": "穿红衣服的这个。穿黄衣服的是旅馆老板的太太。",
+              "pinyin": "chuān hóng yī fú de zhè gè 。 chuān huáng yī fú de shì lǚ guǎn lǎo bǎn de tài tài 。",
+              "meaningVi": "Người mặc áo đỏ ấy. Người mặc áo vàng là vợ chủ khách sạn."
+            },
+            {
+              "speaker": "明華",
+              "traditional": "她們兩個都很漂亮。這兩個男的是誰？",
+              "simplified": "她们两个都很漂亮。这两个男的是谁？",
+              "pinyin": "tā men liǎng gè dōu hěn piào liàng 。 zhè liǎng gè nán de shì shuí ？",
+              "meaningVi": "Cả hai đều xinh. Hai người đàn ông này là ai?"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "矮的是旅館的老闆，高的是他弟弟。",
+              "simplified": "矮的是旅馆的老板，高的是他弟弟。",
+              "pinyin": "ǎi de shì lǚ guǎn de lǎo bǎn ， gāo de shì tā dì di 。",
+              "meaningVi": "Người thấp là chủ khách sạn, người cao là em trai ông ấy."
+            },
+            {
+              "speaker": "明華",
+              "traditional": "那家旅館怎麼樣？",
+              "simplified": "那家旅馆怎么样？",
+              "pinyin": "nà jiā lǚ guǎn zěn me yàng ？",
+              "meaningVi": "Khách sạn đó thế nào?"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "很乾淨。從窗戶往外看，是藍色的大海。",
+              "simplified": "很干净。从窗户往外看，是蓝色的大海。",
+              "pinyin": "hěn qián jìng 。 cóng chuāng hù wǎng wài kàn ， shì lán sè de dà hǎi 。",
+              "meaningVi": "Rất sạch. Từ cửa sổ nhìn ra là biển xanh."
+            },
+            {
+              "speaker": "明華",
+              "traditional": "真不錯！那家旅館貴嗎？",
+              "simplified": "真不错！那家旅馆贵吗？",
+              "pinyin": "zhēn bù cuò ！ nà jiā lǚ guǎn guì ma ？",
+              "meaningVi": "Tuyệt quá! Khách sạn ấy có đắt không?"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "因為現在去玩的人比較少，所以旅館不太貴。",
+              "simplified": "因为现在去玩的人比较少，所以旅馆不太贵。",
+              "pinyin": "yīn wèi xiàn zài qù wán de rén bǐ jiào shǎo ， suǒ yǐ lǚ guǎn bù tài guì 。",
+              "meaningVi": "Vì bây giờ ít người đến chơi hơn nên khách sạn không đắt lắm."
+            },
+            {
+              "speaker": "明華",
+              "traditional": "下次我也想去住。",
+              "simplified": "下次我也想去住。",
+              "pinyin": "xià cì wǒ yě xiǎng qù zhù 。",
+              "meaningVi": "Lần sau mình cũng muốn đến ở."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "cc1-v1-l11",
+      "dialogues": [
+        {
+          "id": "cc1-v1-l11-dialogue-1",
+          "turns": [
+            {
+              "speaker": "如玉",
+              "traditional": "林先生，你好，我是白如玉，來看房子。",
+              "simplified": "林先生，你好，我是白如玉，来看房子。",
+              "pinyin": "lín xiān shēng ， nǐ hǎo ， wǒ shì bái rú yù ， lái kàn fáng zi 。",
+              "meaningVi": "Chào ông Lâm, tôi là Bạch Như Ngọc, đến xem phòng."
+            },
+            {
+              "speaker": "房東",
+              "traditional": "白小姐，妳好，請進。",
+              "simplified": "白小姐，妳好，请进。",
+              "pinyin": "bái xiǎo jiě ， nǐ hǎo ， qǐng jìn 。",
+              "meaningVi": "Chào cô Bạch, mời vào."
+            },
+            {
+              "speaker": "房東",
+              "traditional": "這裡是客廳，廚房在左邊，右邊有浴室。",
+              "simplified": "这里是客厅，厨房在左边，右边有浴室。",
+              "pinyin": "zhè lǐ shì kè tīng ， chú fáng zài zuǒ biān ， yòu biān yǒu yù shì 。",
+              "meaningVi": "Đây là phòng khách, bếp ở bên trái, bên phải có phòng tắm."
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "房子很不錯。",
+              "simplified": "房子很不错。",
+              "pinyin": "fáng zi hěn bù cuò 。",
+              "meaningVi": "Căn nhà khá đẹp."
+            },
+            {
+              "speaker": "房東",
+              "traditional": "這裡很方便，附近有超市和捷運站，走路五分鐘就到了。",
+              "simplified": "这里很方便，附近有超市和捷运站，走路五分钟就到了。",
+              "pinyin": "zhè lǐ hěn fāng biàn ， fù jìn yǒu chāo shì hé jié yùn zhàn ， zǒu lù wǔ fēn zhōng jiù dào le 。",
+              "meaningVi": "Chỗ này rất tiện, gần siêu thị và ga MRT, đi bộ năm phút là đến."
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "現在有人住嗎？",
+              "simplified": "现在有人住吗？",
+              "pinyin": "xiàn zài yǒu rén zhù ma ？",
+              "meaningVi": "Hiện có ai ở đây chưa?"
+            },
+            {
+              "speaker": "房東",
+              "traditional": "有。還有兩間空房間，一間是套房，一間不是。",
+              "simplified": "有。还有两间空房间，一间是套房，一间不是。",
+              "pinyin": "yǒu 。 hái yǒu liǎng jiān kòng fáng jiān ， yī jiān shì tào fáng ， yī jiān bú shì 。",
+              "meaningVi": "Có. Vẫn còn hai phòng trống, một phòng khép kín và một phòng thường."
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我想看套房。房間裡面可以上網嗎？",
+              "simplified": "我想看套房。房间里面可以上网吗？",
+              "pinyin": "wǒ xiǎng kàn tào fáng 。 fáng jiān lǐ miàn kě yǐ shàng wǎng ma ？",
+              "meaningVi": "Tôi muốn xem phòng khép kín. Trong phòng có thể vào mạng không?"
+            },
+            {
+              "speaker": "房東",
+              "traditional": "可以。妳覺得這間房間怎麼樣？妳想租嗎？",
+              "simplified": "可以。妳觉得这间房间怎么样？妳想租吗？",
+              "pinyin": "kě yǐ 。 nǐ jué dé zhè jiān fáng jiān zěn me yàng ？ nǐ xiǎng zū ma ？",
+              "meaningVi": "Có. Cô thấy phòng này thế nào? Có muốn thuê không?"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我回去想想，再打電話給你。",
+              "simplified": "我回去想想，再打电话给你。",
+              "pinyin": "wǒ huí qù xiǎng xiǎng ， zài dǎ diàn huà gěi nǐ 。",
+              "meaningVi": "Để tôi về suy nghĩ rồi gọi điện cho ông."
+            }
+          ]
+        },
+        {
+          "id": "cc1-v1-l11-dialogue-2",
+          "turns": [
+            {
+              "speaker": "如玉",
+              "traditional": "喂，房東先生，你好，我是白如玉，你收到我的房租了嗎？",
+              "simplified": "喂，房东先生，你好，我是白如玉，你收到我的房租了吗？",
+              "pinyin": "wèi ， fáng dōng xiān shēng ， nǐ hǎo ， wǒ shì bái rú yù ， nǐ shōu dào wǒ de fáng zū le ma ？",
+              "meaningVi": "A lô, chào ông chủ nhà, tôi là Bạch Như Ngọc. Ông đã nhận được tiền thuê nhà của tôi chưa?"
+            },
+            {
+              "speaker": "房東",
+              "traditional": "我已經收到了，謝謝。妳習慣了嗎？",
+              "simplified": "我已经收到了，谢谢。妳习惯了吗？",
+              "pinyin": "wǒ yǐ jīng shōu dào le ， xiè xiè 。 nǐ xí guàn le ma ？",
+              "meaningVi": "Tôi nhận được rồi, cảm ơn cô. Cô đã quen chỗ ở mới chưa?"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "習慣了。可是，有一個問題，熱水器的水好像不熱。",
+              "simplified": "习惯了。可是，有一个问题，热水器的水好像不热。",
+              "pinyin": "xí guàn le 。 kě shì ， yǒu yī gè wèn tí ， rè shuǐ qì de shuǐ hǎo xiàng bù rè 。",
+              "meaningVi": "Tôi quen rồi. Nhưng có một vấn đề: nước từ máy nước nóng hình như không nóng."
+            },
+            {
+              "speaker": "房東",
+              "traditional": "今天我會去看看。妳什麼時候有空？晚上可以嗎？",
+              "simplified": "今天我会去看看。妳什么时候有空？晚上可以吗？",
+              "pinyin": "jīn tiān wǒ huì qù kàn kàn 。 nǐ shén me shí hòu yǒu kòng ？ wǎn shàng kě yǐ ma ？",
+              "meaningVi": "Hôm nay tôi đến xem. Khi nào cô rảnh? Buổi tối được không?"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "不好意思，今天晚上我有事。",
+              "simplified": "不好意思，今天晚上我有事。",
+              "pinyin": "bù hǎo yì sī ， jīn tiān wǎn shàng wǒ yǒu shì 。",
+              "meaningVi": "Xin lỗi, tối nay tôi có việc."
+            },
+            {
+              "speaker": "房東",
+              "traditional": "沒關係，明天下午呢？",
+              "simplified": "没关系，明天下午呢？",
+              "pinyin": "méi guān xì ， míng tiān xià wǔ ne ？",
+              "meaningVi": "Không sao. Chiều mai thì sao?"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "好，我在家等你。",
+              "simplified": "好，我在家等你。",
+              "pinyin": "hǎo ， wǒ zài jiā děng nǐ 。",
+              "meaningVi": "Được, tôi ở nhà đợi ông."
+            },
+            {
+              "speaker": "房東",
+              "traditional": "那我明天下午兩點到。還有問題嗎？",
+              "simplified": "那我明天下午两点到。还有问题吗？",
+              "pinyin": "nà wǒ míng tiān xià wǔ liǎng diǎn dào 。 hái yǒu wèn tí ma ？",
+              "meaningVi": "Vậy hai giờ chiều mai tôi đến. Còn vấn đề gì nữa không?"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我想買電視。請問可以幫我裝有線電視嗎？",
+              "simplified": "我想买电视。请问可以帮我装有线电视吗？",
+              "pinyin": "wǒ xiǎng mǎi diàn shì 。 qǐng wèn kě yǐ bāng wǒ zhuāng yǒu xiàn diàn shì ma ？",
+              "meaningVi": "Tôi muốn mua TV. Ông có thể giúp tôi lắp truyền hình cáp không?"
+            },
+            {
+              "speaker": "房東",
+              "traditional": "可以，不過妳得自己付錢。",
+              "simplified": "可以，不过妳得自己付钱。",
+              "pinyin": "kě yǐ ， bù guò nǐ dé zì jǐ fù qián 。",
+              "meaningVi": "Được, nhưng cô phải tự trả tiền."
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "好的，謝謝你。",
+              "simplified": "好的，谢谢你。",
+              "pinyin": "hǎo de ， xiè xiè nǐ 。",
+              "meaningVi": "Vâng, cảm ơn ông."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "cc1-v1-l12",
+      "dialogues": [
+        {
+          "id": "cc1-v1-l12-dialogue-1",
+          "turns": [
+            {
+              "speaker": "田中",
+              "traditional": "安同，你計畫在臺灣學多久的中文？",
+              "simplified": "安同，你计划在台湾学多久的中文？",
+              "pinyin": "ān tóng ， nǐ jì huà zài tái wān xué duō jiǔ de zhōng wén ？",
+              "meaningVi": "An Đồng, bạn định học tiếng Hoa ở Đài Loan bao lâu?"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "五年。",
+              "simplified": "五年。",
+              "pinyin": "wǔ nián 。",
+              "meaningVi": "Năm năm."
+            },
+            {
+              "speaker": "田中",
+              "traditional": "為什麼要這麼久的時間？",
+              "simplified": "为什么要这么久的时间？",
+              "pinyin": "wèi shén me yào zhè me jiǔ de shí jiān ？",
+              "meaningVi": "Sao lại lâu thế?"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "我先在語言中心念一年，再念四年大學，所以需要五年。",
+              "simplified": "我先在语言中心念一年，再念四年大学，所以需要五年。",
+              "pinyin": "wǒ xiān zài yǔ yán zhōng xīn niàn yī nián ， zài niàn sì nián dà xué ， suǒ yǐ xū yào wǔ nián 。",
+              "meaningVi": "Mình học một năm ở trung tâm ngôn ngữ trước, rồi học đại học bốn năm, nên cần năm năm."
+            },
+            {
+              "speaker": "田中",
+              "traditional": "這得花不少錢！",
+              "simplified": "这得花不少钱！",
+              "pinyin": "zhè dé huā bù shǎo qián ！",
+              "meaningVi": "Thế tốn không ít tiền đâu!"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "對，不過我有獎學金。要是成績不好，就沒獎學金了。你呢？",
+              "simplified": "对，不过我有奖学金。要是成绩不好，就没奖学金了。你呢？",
+              "pinyin": "duì ， bù guò wǒ yǒu jiǎng xué jīn 。 yào shì chéng jī bù hǎo ， jiù méi jiǎng xué jīn le 。 nǐ ne ？",
+              "meaningVi": "Đúng, nhưng mình có học bổng. Nếu kết quả học không tốt thì sẽ mất học bổng. Còn bạn?"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "我的學費是公司替我付的。",
+              "simplified": "我的学费是公司替我付的。",
+              "pinyin": "wǒ de xué fèi shì gōng sī tì wǒ fù de 。",
+              "meaningVi": "Học phí của mình do công ty trả."
+            },
+            {
+              "speaker": "安同",
+              "traditional": "你打算學多久呢？",
+              "simplified": "你打算学多久呢？",
+              "pinyin": "nǐ dǎ suàn xué duō jiǔ ne ？",
+              "meaningVi": "Bạn định học bao lâu?"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "大概兩年，是公司決定的。",
+              "simplified": "大概两年，是公司决定的。",
+              "pinyin": "dà gài liǎng nián ， shì gōng sī jué dìng de 。",
+              "meaningVi": "Khoảng hai năm, công ty quyết định như vậy."
+            },
+            {
+              "speaker": "安同",
+              "traditional": "希望我以後也可以到這麼好的公司上班。",
+              "simplified": "希望我以后也可以到这么好的公司上班。",
+              "pinyin": "xī wàng wǒ yǐ hòu yě kě yǐ dào zhè me hǎo de gōng sī shàng bān 。",
+              "meaningVi": "Mong sau này mình cũng được làm ở một công ty tốt như thế."
+            },
+            {
+              "speaker": "田中",
+              "traditional": "我又要上班，又要念書，真的很累。",
+              "simplified": "我又要上班，又要念书，真的很累。",
+              "pinyin": "wǒ yòu yào shàng bān ， yòu yào niàn shū ， zhēn de hěn lèi 。",
+              "meaningVi": "Mình vừa phải đi làm vừa phải đi học, mệt lắm."
+            },
+            {
+              "speaker": "安同",
+              "traditional": "我們一起加油吧！",
+              "simplified": "我们一起加油吧！",
+              "pinyin": "wǒ men yì qǐ jiā yóu ba ！",
+              "meaningVi": "Chúng ta cùng cố gắng nhé!"
+            }
+          ]
+        },
+        {
+          "id": "cc1-v1-l12-dialogue-2",
+          "turns": [
+            {
+              "speaker": "月美",
+              "traditional": "田中，你是什麼時候來臺灣工作的？",
+              "simplified": "田中，你是什么时候来台湾工作的？",
+              "pinyin": "tián zhōng ， nǐ shì shén me shí hòu lái tái wān gōng zuò de ？",
+              "meaningVi": "Tanaka, bạn đến Đài Loan làm việc từ khi nào?"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "去年，我已經在臺灣工作一年了。",
+              "simplified": "去年，我已经在台湾工作一年了。",
+              "pinyin": "qù nián ， wǒ yǐ jīng zài tái wān gōng zuò yī nián le 。",
+              "meaningVi": "Từ năm ngoái. Mình làm việc ở Đài Loan được một năm rồi."
+            },
+            {
+              "speaker": "月美",
+              "traditional": "為什麼你們公司要替你付學費？",
+              "simplified": "为什么你们公司要替你付学费？",
+              "pinyin": "wèi shén me nǐ men gōng sī yào tì nǐ fù xué fèi ？",
+              "meaningVi": "Sao công ty lại trả học phí cho bạn?"
+            },
+            {
+              "speaker": "田中",
+              "traditional": "因為我們公司跟臺灣人做生意。老闆希望我們都會說中文。",
+              "simplified": "因为我们公司跟台湾人做生意。老板希望我们都会说中文。",
+              "pinyin": "yīn wèi wǒ men gōng sī gēn tái wān rén zuò shēng yì 。 lǎo bǎn xī wàng wǒ men dōu huì shuō zhōng wén 。",
+              "meaningVi": "Vì công ty mình làm ăn với người Đài Loan. Sếp muốn tất cả chúng mình đều biết nói tiếng Hoa."
+            },
+            {
+              "speaker": "月美",
+              "traditional": "我覺得你們公司真好。",
+              "simplified": "我觉得你们公司真好。",
+              "pinyin": "wǒ jué dé nǐ men gōng sī zhēn hǎo 。",
+              "meaningVi": "Mình thấy công ty bạn tốt thật."
+            },
+            {
+              "speaker": "田中",
+              "traditional": "對了，妳回國以後，打算做什麼？",
+              "simplified": "对了，妳回国以后，打算做什么？",
+              "pinyin": "duì le ， nǐ huí guó yǐ hòu ， dǎ suàn zuò shén me ？",
+              "meaningVi": "À, sau khi về nước, bạn định làm gì?"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "我回國以後，也想找個有機會說中文的工作。",
+              "simplified": "我回国以后，也想找个有机会说中文的工作。",
+              "pinyin": "wǒ huí guó yǐ hòu ， yě xiǎng zhǎo gè yǒu jī huì shuō zhōng wén de gōng zuò 。",
+              "meaningVi": "Sau khi về nước, mình cũng muốn tìm công việc có cơ hội dùng tiếng Hoa."
+            },
+            {
+              "speaker": "田中",
+              "traditional": "不錯，這樣的工作在你們國家好找嗎？",
+              "simplified": "不错，这样的工作在你们国家好找吗？",
+              "pinyin": "bù cuò ， zhè yàng de gōng zuò zài nǐ men guó jiā hǎo zhǎo ma ？",
+              "meaningVi": "Hay đấy. Ở nước bạn, công việc như vậy có dễ tìm không?"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "不知道好不好找，我試試看。",
+              "simplified": "不知道好不好找，我试试看。",
+              "pinyin": "bù zhī dào hǎo bù hǎo zhǎo ， wǒ shì shì kàn 。",
+              "meaningVi": "Mình chưa biết có dễ tìm không, để thử xem."
+            },
+            {
+              "speaker": "田中",
+              "traditional": "要是難找呢？",
+              "simplified": "要是难找呢？",
+              "pinyin": "yào shì nán zhǎo ne ？",
+              "meaningVi": "Nếu khó tìm thì sao?"
+            },
+            {
+              "speaker": "月美",
+              "traditional": "那麼我再來臺灣學中文。",
+              "simplified": "那么我再来台湾学中文。",
+              "pinyin": "nà me wǒ zài lái tái wān xué zhōng wén 。",
+              "meaningVi": "Vậy mình sẽ quay lại Đài Loan học tiếng Hoa."
+            },
+            {
+              "speaker": "田中",
+              "traditional": "太好了！那我們就可以再見面了。",
+              "simplified": "太好了！那我们就可以再见面了。",
+              "pinyin": "tài hǎo le ！ nà wǒ men jiù kě yǐ zài jiàn miàn le 。",
+              "meaningVi": "Hay quá! Thế là chúng ta có thể gặp lại nhau."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "cc1-v1-l13",
+      "dialogues": [
+        {
+          "id": "cc1-v1-l13-dialogue-1",
+          "turns": [
+            {
+              "speaker": "怡君",
+              "traditional": "喂，安同嗎？",
+              "simplified": "喂，安同吗？",
+              "pinyin": "wèi ， ān tóng ma ？",
+              "meaningVi": "A lô, An Đồng phải không?"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "是，我就是。怡君，好久不見，聽說妳去花蓮？",
+              "simplified": "是，我就是。怡君，好久不见，听说妳去花莲？",
+              "pinyin": "shì ， wǒ jiù shì 。 yí jūn ， hǎo jiǔ bù jiàn ， tīng shuō nǐ qù huā lián ？",
+              "meaningVi": "Vâng, mình đây. Di Quân, lâu rồi không gặp. Nghe nói bạn đi Hoa Liên?"
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "我沒去花蓮，我剛從臺東回來。",
+              "simplified": "我没去花莲，我刚从台东回来。",
+              "pinyin": "wǒ méi qù huā lián ， wǒ gāng cóng tái dōng huí lái 。",
+              "meaningVi": "Mình không đi Hoa Liên, mình vừa từ Đài Đông về."
+            },
+            {
+              "speaker": "安同",
+              "traditional": "找我有什麼事？",
+              "simplified": "找我有什么事？",
+              "pinyin": "zhǎo wǒ yǒu shén me shì ？",
+              "meaningVi": "Bạn tìm mình có việc gì?"
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "明天是你的生日，對不對？",
+              "simplified": "明天是你的生日，对不对？",
+              "pinyin": "míng tiān shì nǐ de shēng rì ， duì bù duì ？",
+              "meaningVi": "Mai là sinh nhật bạn, đúng không?"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "啊，我怎麼忘了！最近太忙了，謝謝妳還記得。",
+              "simplified": "啊，我怎么忘了！最近太忙了，谢谢妳还记得。",
+              "pinyin": "a ， wǒ zěn me wàng le ！ zuì jìn tài máng le ， xiè xiè nǐ hái jì dé 。",
+              "meaningVi": "Ồ, sao mình lại quên mất! Dạo này bận quá. Cảm ơn bạn vẫn nhớ."
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "當然記得！語言交換的時候，你那麼熱心教我西班牙文。",
+              "simplified": "当然记得！语言交换的时候，你那么热心教我西班牙文。",
+              "pinyin": "dāng rán jì dé ！ yǔ yán jiāo huàn de shí hòu ， nǐ nà me rè xīn jiào wǒ xī bān yá wén 。",
+              "meaningVi": "Dĩ nhiên mình nhớ! Lúc trao đổi ngôn ngữ, bạn nhiệt tình dạy mình tiếng Tây Ban Nha lắm."
+            },
+            {
+              "speaker": "安同",
+              "traditional": "不必客氣，妳也一樣。",
+              "simplified": "不必客气，妳也一样。",
+              "pinyin": "bù bì kè qì ， nǐ yě yī yàng 。",
+              "meaningVi": "Có gì đâu, bạn cũng vậy mà."
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "明天我想請你吃晚飯，給你過生日。",
+              "simplified": "明天我想请你吃晚饭，给你过生日。",
+              "pinyin": "míng tiān wǒ xiǎng qǐng nǐ chī wǎn fàn ， gěi nǐ guò shēng rì 。",
+              "meaningVi": "Mai mình muốn mời bạn ăn tối để mừng sinh nhật."
+            },
+            {
+              "speaker": "安同",
+              "traditional": "妳太客氣了！我們在哪裡見面呢？",
+              "simplified": "妳太客气了！我们在哪里见面呢？",
+              "pinyin": "nǐ tài kè qì le ！ wǒ men zài nǎ lǐ jiàn miàn ne ？",
+              "meaningVi": "Bạn khách sáo quá! Chúng ta gặp nhau ở đâu?"
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "明天我一下課，就去你們學校找你。",
+              "simplified": "明天我一下课，就去你们学校找你。",
+              "pinyin": "míng tiān wǒ yī xià kè ， jiù qù nǐ men xué xiào zhǎo nǐ 。",
+              "meaningVi": "Mai vừa tan học là mình đến trường bạn tìm bạn."
+            },
+            {
+              "speaker": "安同",
+              "traditional": "大概幾點？",
+              "simplified": "大概几点？",
+              "pinyin": "dà gài jǐ diǎn ？",
+              "meaningVi": "Khoảng mấy giờ?"
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "五點左右。",
+              "simplified": "五点左右。",
+              "pinyin": "wǔ diǎn zuǒ yòu 。",
+              "meaningVi": "Khoảng năm giờ."
+            },
+            {
+              "speaker": "安同",
+              "traditional": "好，我會在學校門口等妳。",
+              "simplified": "好，我会在学校门口等妳。",
+              "pinyin": "hǎo ， wǒ huì zài xué xiào mén kǒu děng nǐ 。",
+              "meaningVi": "Được, mình sẽ đợi bạn ở cổng trường."
+            }
+          ]
+        },
+        {
+          "id": "cc1-v1-l13-dialogue-2",
+          "turns": [
+            {
+              "speaker": "安同",
+              "traditional": "怡君，謝謝妳請我到這麼有名的餐廳吃飯。",
+              "simplified": "怡君，谢谢妳请我到这么有名的餐厅吃饭。",
+              "pinyin": "yí jūn ， xiè xiè nǐ qǐng wǒ dào zhè me yǒu míng de cān tīng chī fàn 。",
+              "meaningVi": "Di Quân, cảm ơn bạn đã mời mình ăn ở một nhà hàng nổi tiếng như vậy."
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "哪裡，哪裡！這是我給你的禮物。",
+              "simplified": "哪里，哪里！这是我给你的礼物。",
+              "pinyin": "nǎ lǐ ， nǎ lǐ ！ zhè shì wǒ gěi nǐ de lǐ wù 。",
+              "meaningVi": "Có gì đâu! Đây là quà mình tặng bạn."
+            },
+            {
+              "speaker": "安同",
+              "traditional": "謝謝！真開心，今年有臺灣朋友給我過生日。",
+              "simplified": "谢谢！真开心，今年有台湾朋友给我过生日。",
+              "pinyin": "xiè xiè ！ zhēn kāi xīn ， jīn nián yǒu tái wān péng yǒu gěi wǒ guò shēng rì 。",
+              "meaningVi": "Cảm ơn! Vui thật, năm nay có bạn Đài Loan mừng sinh nhật cho mình."
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "你想吃什麼？有沒有不吃的東西？",
+              "simplified": "你想吃什么？有没有不吃的东西？",
+              "pinyin": "nǐ xiǎng chī shén me ？ yǒu méi yǒu bù chī de dōng xī ？",
+              "meaningVi": "Bạn muốn ăn gì? Có món gì bạn không ăn không?"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "我什麼都吃。",
+              "simplified": "我什么都吃。",
+              "pinyin": "wǒ shén me dōu chī 。",
+              "meaningVi": "Mình ăn gì cũng được."
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "我已經訂了豬腳麵線和蛋。等一下你多吃一點。",
+              "simplified": "我已经订了猪脚面线和蛋。等一下你多吃一点。",
+              "pinyin": "wǒ yǐ jīng dìng le zhū jiǎo miàn xiàn hé dàn 。 děng yí xià nǐ duō chī yī diǎn 。",
+              "meaningVi": "Mình đã đặt mì sợi với chân giò và trứng. Lát nữa bạn ăn nhiều vào nhé."
+            },
+            {
+              "speaker": "安同",
+              "traditional": "臺灣人過生日是不是都吃這些東西？",
+              "simplified": "台湾人过生日是不是都吃这些东西？",
+              "pinyin": "tái wān rén guò shēng rì shì bú shì dōu chī zhè xiē dōng xī ？",
+              "meaningVi": "Người Đài Loan mừng sinh nhật đều ăn những món này à?"
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "對啊！這是傳統，不過，現在大部分年輕人過生日不吃這些東西了。",
+              "simplified": "对啊！这是传统，不过，现在大部分年轻人过生日不吃这些东西了。",
+              "pinyin": "duì a ！ zhè shì chuán tǒng ， bù guò ， xiàn zài dà bù fèn nián qīng rén guò shēng rì bù chī zhè xiē dōng xī le 。",
+              "meaningVi": "Đúng vậy! Đó là truyền thống, nhưng giờ phần lớn người trẻ không ăn những món này vào sinh nhật nữa."
+            },
+            {
+              "speaker": "安同",
+              "traditional": "那麼，你們過生日吃什麼呢？",
+              "simplified": "那么，你们过生日吃什么呢？",
+              "pinyin": "nà me ， nǐ men guò shēng rì chī shén me ne ？",
+              "meaningVi": "Vậy sinh nhật các bạn ăn gì?"
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "跟你們一樣，吃蛋糕。今天我也訂了一個生日蛋糕。",
+              "simplified": "跟你们一样，吃蛋糕。今天我也订了一个生日蛋糕。",
+              "pinyin": "gēn nǐ men yī yàng ， chī dàn gāo 。 jīn tiān wǒ yě dìng le yī gè shēng rì dàn gāo 。",
+              "meaningVi": "Cũng như các bạn, ăn bánh kem. Hôm nay mình cũng đặt một chiếc bánh sinh nhật."
+            },
+            {
+              "speaker": "安同",
+              "traditional": "妳對我真好。",
+              "simplified": "妳对我真好。",
+              "pinyin": "nǐ duì wǒ zhēn hǎo 。",
+              "meaningVi": "Bạn tốt với mình quá."
+            },
+            {
+              "speaker": "怡君",
+              "traditional": "安同，祝你生日快樂、萬事如意、心想事成。",
+              "simplified": "安同，祝你生日快乐、万事如意、心想事成。",
+              "pinyin": "ān tóng ， zhù nǐ shēng rì kuài lè 、 wàn shì rú yì 、 xīn xiǎng shì chéng 。",
+              "meaningVi": "An Đồng, chúc bạn sinh nhật vui vẻ, vạn sự như ý, mọi điều mong muốn đều thành hiện thực."
+            },
+            {
+              "speaker": "安同",
+              "traditional": "謝謝！謝謝！",
+              "simplified": "谢谢！谢谢！",
+              "pinyin": "xiè xiè ！ xiè xiè ！",
+              "meaningVi": "Cảm ơn! Cảm ơn!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "cc1-v1-l14",
+      "dialogues": [
+        {
+          "id": "cc1-v1-l14-dialogue-1",
+          "turns": [
+            {
+              "speaker": "如玉",
+              "traditional": "外面風那麼大，我覺得今天比昨天冷。臺灣會不會下雪？",
+              "simplified": "外面风那么大，我觉得今天比昨天冷。台湾会不会下雪？",
+              "pinyin": "wài miàn fēng nà me dà ， wǒ jué dé jīn tiān bǐ zuó tiān lěng 。 tái wān huì bù huì xià xuě ？",
+              "meaningVi": "Ngoài trời gió to quá, mình thấy hôm nay lạnh hơn hôm qua. Ở Đài Loan có tuyết không?"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "很高的山會下雪。玉山常下雪。美國呢？開始下雪了吧？",
+              "simplified": "很高的山会下雪。玉山常下雪。美国呢？开始下雪了吧？",
+              "pinyin": "hěn gāo de shān huì xià xuě 。 yù shān cháng xià xuě 。 měi guó ne ？ kāi shǐ xià xuě le ba ？",
+              "meaningVi": "Trên núi cao có tuyết. Núi Ngọc thường có tuyết. Còn ở Mỹ? Chắc đã bắt đầu có tuyết rồi nhỉ?"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "還沒有。每年差不多十二月開始。下雪的時候，我常去山上滑雪。",
+              "simplified": "还没有。每年差不多十二月开始。下雪的时候，我常去山上滑雪。",
+              "pinyin": "hái méi yǒu 。 měi nián chà bu duō shí èr yuè kāi shǐ 。 xià xuě de shí hòu ， wǒ cháng qù shān shàng huá xuě 。",
+              "meaningVi": "Chưa. Hằng năm khoảng tháng Mười Hai mới bắt đầu. Khi có tuyết, mình thường lên núi trượt tuyết."
+            },
+            {
+              "speaker": "明華",
+              "traditional": "我怕冷。我比較喜歡春天。",
+              "simplified": "我怕冷。我比较喜欢春天。",
+              "pinyin": "wǒ pà lěng 。 wǒ bǐ jiào xǐ huān chūn tiān 。",
+              "meaningVi": "Mình sợ lạnh. Mình thích mùa xuân hơn."
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "春天不錯，天氣很舒服。",
+              "simplified": "春天不错，天气很舒服。",
+              "pinyin": "chūn tiān bù cuò ， tiān qì hěn shū fú 。",
+              "meaningVi": "Mùa xuân cũng hay, thời tiết rất dễ chịu."
+            },
+            {
+              "speaker": "明華",
+              "traditional": "我去年五月在紐約玩了兩個星期。那個時候，天氣很好，風景也很漂亮，我玩得非常開心。",
+              "simplified": "我去年五月在纽约玩了两个星期。那个时候，天气很好，风景也很漂亮，我玩得非常开心。",
+              "pinyin": "wǒ qù nián wǔ yuè zài niǔ yuē wán le liǎng gè xīng qī 。 nà gè shí hòu ， tiān qì hěn hǎo ， fēng jǐng yě hěn piào liàng ， wǒ wán dé fēi cháng kāi xīn 。",
+              "meaningVi": "Tháng Năm năm ngoái mình đến New York chơi hai tuần. Lúc đó thời tiết đẹp, phong cảnh cũng đẹp, mình chơi rất vui."
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我在臺灣住了半年多了。有一點想家。",
+              "simplified": "我在台湾住了半年多了。有一点想家。",
+              "pinyin": "wǒ zài tái wān zhù le bàn nián duō le 。 yǒu yī diǎn xiǎng jiā 。",
+              "meaningVi": "Mình sống ở Đài Loan hơn nửa năm rồi. Hơi nhớ nhà."
+            },
+            {
+              "speaker": "明華",
+              "traditional": "新年快到了。想回去看父母嗎？",
+              "simplified": "新年快到了。想回去看父母吗？",
+              "pinyin": "xīn nián kuài dào le 。 xiǎng huí qù kàn fù mǔ ma ？",
+              "meaningVi": "Sắp đến năm mới rồi. Bạn có muốn về thăm bố mẹ không?"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我打算十二月底回去。想跟我去美國玩嗎？",
+              "simplified": "我打算十二月底回去。想跟我去美国玩吗？",
+              "pinyin": "wǒ dǎ suàn shí èr yuè dǐ huí qù 。 xiǎng gēn wǒ qù měi guó wán ma ？",
+              "meaningVi": "Mình định về vào cuối tháng Mười Hai. Bạn có muốn đi Mỹ chơi cùng mình không?"
+            },
+            {
+              "speaker": "明華",
+              "traditional": "冬天太冷了。不過，我想明年秋天去看紅葉。對了，妳什麼時候回來？",
+              "simplified": "冬天太冷了。不过，我想明年秋天去看红叶。对了，妳什么时候回来？",
+              "pinyin": "dōng tiān tài lěng le 。 bù guò ， wǒ xiǎng míng nián qiū tiān qù kàn hóng yè 。 duì le ， nǐ shén me shí hòu huí lái ？",
+              "meaningVi": "Mùa đông lạnh quá. Nhưng mình muốn đến ngắm lá đỏ vào mùa thu năm sau. À, khi nào bạn quay lại?"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "因為我們只放十天的假，所以一月五號回來。",
+              "simplified": "因为我们只放十天的假，所以一月五号回来。",
+              "pinyin": "yīn wèi wǒ men zhǐ fàng shí tiān de jiǎ ， suǒ yǐ yí yuè wǔ hào huí lái 。",
+              "meaningVi": "Vì chúng mình chỉ được nghỉ mười ngày nên ngày 5 tháng Một mình quay lại."
+            }
+          ]
+        },
+        {
+          "id": "cc1-v1-l14-dialogue-2",
+          "turns": [
+            {
+              "speaker": "明華",
+              "traditional": "如玉，雨下得這麼大，妳怎麼沒帶傘呢？",
+              "simplified": "如玉，雨下得这么大，妳怎么没带伞呢？",
+              "pinyin": "rú yù ， yǔ xià dé zhè me dà ， nǐ zěn me méi dài sǎn ne ？",
+              "meaningVi": "Như Ngọc, mưa to thế này, sao bạn không mang ô?"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我昨天帶了，可是今天忘了帶。",
+              "simplified": "我昨天带了，可是今天忘了带。",
+              "pinyin": "wǒ zuó tiān dài le ， kě shì jīn tiān wàng le dài 。",
+              "meaningVi": "Hôm qua mình có mang, nhưng hôm nay quên mất."
+            },
+            {
+              "speaker": "明華",
+              "traditional": "颱風快要來了。",
+              "simplified": "台风快要来了。",
+              "pinyin": "tái fēng kuài yào lái le 。",
+              "meaningVi": "Bão sắp đến rồi."
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我已經聽說了。",
+              "simplified": "我已经听说了。",
+              "pinyin": "wǒ yǐ jīng tīng shuō le 。",
+              "meaningVi": "Mình nghe nói rồi."
+            },
+            {
+              "speaker": "明華",
+              "traditional": "這裡每年夏天都有颱風。颱風來的時候，風和雨都很大，做什麼都很不方便。",
+              "simplified": "这里每年夏天都有台风。台风来的时候，风和雨都很大，做什么都很不方便。",
+              "pinyin": "zhè lǐ měi nián xià tiān dōu yǒu tái fēng 。 tái fēng lái de shí hòu ， fēng hé yǔ dōu hěn dà ， zuò shén me dōu hěn bù fāng biàn 。",
+              "meaningVi": "Ở đây mùa hè năm nào cũng có bão. Khi bão đến, gió mưa đều rất lớn, làm gì cũng bất tiện."
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "是啊！哪裡都濕濕的。真討厭。",
+              "simplified": "是啊！哪里都湿湿的。真讨厌。",
+              "pinyin": "shì a ！ nǎ lǐ dōu shī shī de 。 zhēn tǎo yàn 。",
+              "meaningVi": "Đúng vậy! Chỗ nào cũng ẩm ướt, thật khó chịu."
+            },
+            {
+              "speaker": "明華",
+              "traditional": "電視新聞說，這次的颱風會比上次的更大，請大家多小心。",
+              "simplified": "电视新闻说，这次的台风会比上次的更大，请大家多小心。",
+              "pinyin": "diàn shì xīn wén shuō ， zhè cì de tái fēng huì bǐ shàng cì de gèng dà ， qǐng dà jiā duō xiǎo xīn 。",
+              "meaningVi": "Tin tức nói cơn bão lần này sẽ mạnh hơn lần trước, mọi người hãy cẩn thận."
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "希望這次的沒有上次的那麼可怕。",
+              "simplified": "希望这次的没有上次的那么可怕。",
+              "pinyin": "xī wàng zhè cì de méi yǒu shàng cì de nà me kě pà 。",
+              "meaningVi": "Mong lần này không đáng sợ như lần trước."
+            },
+            {
+              "speaker": "明華",
+              "traditional": "如玉，妳看！雨停了。",
+              "simplified": "如玉，妳看！雨停了。",
+              "pinyin": "rú yù ， nǐ kàn ！ yǔ tíng le 。",
+              "meaningVi": "Như Ngọc, nhìn kìa! Mưa tạnh rồi."
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "太好了！謝謝你的傘，再見。",
+              "simplified": "太好了！谢谢你的伞，再见。",
+              "pinyin": "tài hǎo le ！ xiè xiè nǐ de sǎn ， zài jiàn 。",
+              "meaningVi": "Hay quá! Cảm ơn bạn cho mượn ô. Tạm biệt."
+            },
+            {
+              "speaker": "明華",
+              "traditional": "不客氣。小心慢走。",
+              "simplified": "不客气。小心慢走。",
+              "pinyin": "bù kè qì 。 xiǎo xīn màn zǒu 。",
+              "meaningVi": "Không có gì. Đi cẩn thận nhé."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lessonId": "cc1-v1-l15",
+      "dialogues": [
+        {
+          "id": "cc1-v1-l15-dialogue-1",
+          "turns": [
+            {
+              "speaker": "醫生",
+              "traditional": "白小姐，妳哪裡不舒服？",
+              "simplified": "白小姐，妳哪里不舒服？",
+              "pinyin": "bái xiǎo jiě ， nǐ nǎ lǐ bù shū fú ？",
+              "meaningVi": "Cô Bạch, cô thấy khó chịu ở đâu?"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我一直流鼻水，頭很痛，胃口很差。什麼東西都不想吃。",
+              "simplified": "我一直流鼻水，头很痛，胃口很差。什么东西都不想吃。",
+              "pinyin": "wǒ yì zhí liú bí shuǐ ， tóu hěn tòng ， wèi kǒu hěn chà 。 shén me dōng xī dōu bù xiǎng chī 。",
+              "meaningVi": "Tôi chảy nước mũi liên tục, đau đầu, ăn không ngon. Tôi chẳng muốn ăn gì."
+            },
+            {
+              "speaker": "醫生",
+              "traditional": "大概多久了？",
+              "simplified": "大概多久了？",
+              "pinyin": "dà gài duō jiǔ le ？",
+              "meaningVi": "Bị bao lâu rồi?"
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "已經四、五天了。",
+              "simplified": "已经四、五天了。",
+              "pinyin": "yǐ jīng sì 、 wǔ tiān le 。",
+              "meaningVi": "Được bốn, năm ngày rồi."
+            },
+            {
+              "speaker": "醫生",
+              "traditional": "我看看妳的喉嚨。喉嚨有一點發炎。",
+              "simplified": "我看看妳的喉咙。喉咙有一点发炎。",
+              "pinyin": "wǒ kàn kàn nǐ de hóu lóng 。 hóu lóng yǒu yī diǎn fā yán 。",
+              "meaningVi": "Để tôi xem họng cô. Họng hơi viêm."
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "請問我生的是什麼病？",
+              "simplified": "请问我生的是什么病？",
+              "pinyin": "qǐng wèn wǒ shēng de shì shén me bìng ？",
+              "meaningVi": "Xin hỏi tôi bị bệnh gì?"
+            },
+            {
+              "speaker": "醫生",
+              "traditional": "妳有一點發燒，是感冒，不過沒有什麼關係。",
+              "simplified": "妳有一点发烧，是感冒，不过没有什么关系。",
+              "pinyin": "nǐ yǒu yī diǎn fā shāo ， shì gǎn mào ， bù guò méi yǒu shén me guān xì 。",
+              "meaningVi": "Cô hơi sốt, bị cảm thôi, không đáng lo lắm."
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "請問我得吃藥嗎？",
+              "simplified": "请问我得吃药吗？",
+              "pinyin": "qǐng wèn wǒ dé chī yào ma ？",
+              "meaningVi": "Tôi có cần uống thuốc không?"
+            },
+            {
+              "speaker": "醫生",
+              "traditional": "要，妳到藥局去拿藥。",
+              "simplified": "要，妳到药局去拿药。",
+              "pinyin": "yào ， nǐ dào yào jú qù ná yào 。",
+              "meaningVi": "Có. Cô đến nhà thuốc lấy thuốc."
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "好的。請問我的病什麼時候會好？",
+              "simplified": "好的。请问我的病什么时候会好？",
+              "pinyin": "hǎo de 。 qǐng wèn wǒ de bìng shén me shí hòu huì hǎo ？",
+              "meaningVi": "Vâng. Khi nào tôi sẽ khỏi?"
+            },
+            {
+              "speaker": "醫生",
+              "traditional": "回去把藥吃了，多喝水，多休息，早一點睡覺，很快就會好。",
+              "simplified": "回去把药吃了，多喝水，多休息，早一点睡觉，很快就会好。",
+              "pinyin": "huí qù bǎ yào chī le ， duō hē shuǐ ， duō xiū xī ， zǎo yī diǎn shuì jué ， hěn kuài jiù huì hǎo 。",
+              "meaningVi": "Về nhà uống thuốc, uống nhiều nước, nghỉ ngơi nhiều và ngủ sớm hơn, cô sẽ sớm khỏi."
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "好的，謝謝您。",
+              "simplified": "好的，谢谢您。",
+              "pinyin": "hǎo de ， xiè xiè nín 。",
+              "meaningVi": "Vâng, cảm ơn bác sĩ."
+            }
+          ]
+        },
+        {
+          "id": "cc1-v1-l15-dialogue-2",
+          "turns": [
+            {
+              "speaker": "如玉",
+              "traditional": "你怎麼了？臉色這麼難看。",
+              "simplified": "你怎么了？脸色这么难看。",
+              "pinyin": "nǐ zěn me le ？ liǎn sè zhè me nán kàn 。",
+              "meaningVi": "Bạn sao vậy? Sắc mặt trông tệ quá."
+            },
+            {
+              "speaker": "安同",
+              "traditional": "昨天晚上肚子很不舒服，吃了東西就吐，還吐了好幾次。",
+              "simplified": "昨天晚上肚子很不舒服，吃了东西就吐，还吐了好几次。",
+              "pinyin": "zuó tiān wǎn shàng dǔ zi hěn bù shū fú ， chī le dōng xī jiù tǔ ， hái tǔ le hǎo jǐ cì 。",
+              "meaningVi": "Tối qua bụng mình rất khó chịu, vừa ăn xong là nôn, còn nôn mấy lần."
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "你這麼不舒服，我陪你去看病，好不好？",
+              "simplified": "你这么不舒服，我陪你去看病，好不好？",
+              "pinyin": "nǐ zhè me bù shū fú ， wǒ péi nǐ qù kàn bìng ， hǎo bù hǎo ？",
+              "meaningVi": "Bạn khó chịu thế này, để mình đi khám cùng bạn nhé?"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "不用了。我在臺灣沒有健康保險。",
+              "simplified": "不用了。我在台湾没有健康保险。",
+              "pinyin": "bù yòng le 。 wǒ zài tái wān méi yǒu jiàn kāng bǎo xiǎn 。",
+              "meaningVi": "Thôi khỏi. Mình không có bảo hiểm y tế ở Đài Loan."
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "那麼，我陪你去學校的健康中心。那裡的醫生很好，對學生也很客氣。",
+              "simplified": "那么，我陪你去学校的健康中心。那里的医生很好，对学生也很客气。",
+              "pinyin": "nà me ， wǒ péi nǐ qù xué xiào de jiàn kāng zhōng xīn 。 nà lǐ de yī shēng hěn hǎo ， duì xué shēng yě hěn kè qì 。",
+              "meaningVi": "Vậy mình đi cùng bạn đến trung tâm y tế của trường. Bác sĩ ở đó rất tốt, cũng rất lịch sự với sinh viên."
+            },
+            {
+              "speaker": "安同",
+              "traditional": "謝謝妳。我想去藥局買藥就好了。",
+              "simplified": "谢谢妳。我想去药局买药就好了。",
+              "pinyin": "xiè xiè nǐ 。 wǒ xiǎng qù yào jú mǎi yào jiù hǎo le 。",
+              "meaningVi": "Cảm ơn. Mình nghĩ đến nhà thuốc mua thuốc là được rồi."
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "你真的不去看病嗎？",
+              "simplified": "你真的不去看病吗？",
+              "pinyin": "nǐ zhēn de bù qù kàn bìng ma ？",
+              "meaningVi": "Bạn thật sự không đi khám à?"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "我想回家休息。請妳跟老師說，我生病了，不能上課。",
+              "simplified": "我想回家休息。请妳跟老师说，我生病了，不能上课。",
+              "pinyin": "wǒ xiǎng huí jiā xiū xī 。 qǐng nǐ gēn lǎo shī shuō ， wǒ shēng bìng le ， bù néng shàng kè 。",
+              "meaningVi": "Mình muốn về nhà nghỉ. Nhờ bạn nói với thầy cô là mình bị ốm, không thể đến lớp."
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "好。你自己要多小心。油的、冰的東西最好都別吃。",
+              "simplified": "好。你自己要多小心。油的、冰的东西最好都别吃。",
+              "pinyin": "hǎo 。 nǐ zì jǐ yào duō xiǎo xīn 。 yóu de 、 bīng de dōng xī zuì hǎo dōu bié chī 。",
+              "meaningVi": "Được. Bạn nhớ giữ gìn sức khỏe. Tốt nhất đừng ăn đồ nhiều dầu mỡ hoặc đồ lạnh."
+            },
+            {
+              "speaker": "安同",
+              "traditional": "謝謝妳的關心。",
+              "simplified": "谢谢妳的关心。",
+              "pinyin": "xiè xiè nǐ de guān xīn 。",
+              "meaningVi": "Cảm ơn bạn đã quan tâm."
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "我來看你了。現在覺得怎麼樣？好一點了嗎？",
+              "simplified": "我来看你了。现在觉得怎么样？好一点了吗？",
+              "pinyin": "wǒ lái kàn nǐ le 。 xiàn zài jué dé zěn me yàng ？ hǎo yī diǎn le ma ？",
+              "meaningVi": "Mình đến thăm bạn đây. Giờ thấy thế nào? Đỡ hơn chưa?"
+            },
+            {
+              "speaker": "安同",
+              "traditional": "謝謝妳，好多了。我吃了一包藥以後，睡得比昨天好。",
+              "simplified": "谢谢妳，好多了。我吃了一包药以后，睡得比昨天好。",
+              "pinyin": "xiè xiè nǐ ， hǎo duō le 。 wǒ chī le yī bāo yào yǐ hòu ， shuì dé bǐ zuó tiān hǎo 。",
+              "meaningVi": "Cảm ơn, đỡ nhiều rồi. Sau khi uống một gói thuốc, mình ngủ ngon hơn hôm qua."
+            },
+            {
+              "speaker": "如玉",
+              "traditional": "不錯。你睡了幾個小時的覺以後，現在臉色比早上好得多了。",
+              "simplified": "不错。你睡了几个小时的觉以后，现在脸色比早上好得多了。",
+              "pinyin": "bù cuò 。 nǐ shuì le jǐ gè xiǎo shí de jué yǐ hòu ， xiàn zài liǎn sè bǐ zǎo shàng hǎo dé duō le 。",
+              "meaningVi": "Tốt rồi. Ngủ được mấy tiếng nên sắc mặt bạn giờ khá hơn sáng nay nhiều."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

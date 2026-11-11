@@ -1,4 +1,5 @@
 import { cc1Lesson01Words } from "./cc1-lesson01-vocabulary.ts";
+import { cc1CourseVocabularySets } from "./cc1-course-vocabulary.ts";
 
 export type VocabularyWord = {
   id?: string;
@@ -119,15 +120,16 @@ export const textbookSets: VocabularySet[] = [
       { hanzi: "便宜", pinyin: "piányi", meaning: "Rẻ", example: "這個很便宜。", translation: "Cái này rất rẻ." },
     ],
   },
+  ...cc1CourseVocabularySets,
 ];
 
 // Keep course > chapter > lesson nesting so later textbook imports need no UI changes.
 export const textbooks: VocabularyTextbook[] = [
   { id: "contemporary-chinese", title: "A Course in Contemporary Chinese", chapters: [
-    { id: "cc1-v1", title: "Tập 1", lessons: textbookSets.slice(0, 1) },
+    { id: "cc1-v1", title: "Tập 1", lessons: [textbookSets[0], ...cc1CourseVocabularySets] },
   ] },
   { id: "nhap-mon", title: "Bộ từ vựng nhập môn", chapters: [
     { id: "nen-tang", title: "Nền tảng", lessons: textbookSets.slice(1, 2) },
-    { id: "ung-dung", title: "Ứng dụng", lessons: textbookSets.slice(2) },
+    { id: "ung-dung", title: "Ứng dụng", lessons: textbookSets.slice(2, 3) },
   ] },
 ];

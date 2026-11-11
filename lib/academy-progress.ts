@@ -1,6 +1,9 @@
-import { academyActivityId, academyActivityKinds, academyLesson01, type AcademyActivityKind } from "./academy-catalog.ts";
+import { academyActivityId, academyActivityKindsForLesson, academyLesson01, type AcademyActivityKind } from "./academy-catalog.ts";
 
 export const academyLessonProgressKey = `taiwen-activity:v1:academy:${academyLesson01.id}`;
+export function academyProgressKeyForLesson(lessonId: string) {
+  return `taiwen-activity:v1:academy:${lessonId}`;
+}
 export type AcademyLessonProgress = {
   version: 1;
   currentActivityId: string;
@@ -23,18 +26,22 @@ export const emptyAcademyLessonProgress: AcademyLessonProgress = {
   assessmentSubmitted: false,
   script: "traditional",
 };
-export function academyActivityKindFromId(id: string): AcademyActivityKind | null {
-  const kind = academyActivityKinds.find((item) => academyActivityId(academyLesson01.id, item) === id);
+export function emptyAcademyProgressForLesson(lessonId: string): AcademyLessonProgress {
+  return { ...emptyAcademyLessonProgress, currentActivityId: academyActivityId(lessonId, "lecture") };
+}
+export function academyActivityKindFromId(id: string, lessonId = academyLesson01.id): AcademyActivityKind | null {
+  const kind = academyActivityKindsForLesson(lessonId).find((item) => academyActivityId(lessonId, item) === id);
   return kind ?? null;
 }
-export function parseAcademyLessonProgress(raw: string | null): AcademyLessonProgress {
+export function parseAcademyLessonProgress(raw: string | null, lessonId = academyLesson01.id): AcademyLessonProgress {
+  const empty = emptyAcademyProgressForLesson(lessonId);
   try {
     const value = JSON.parse(raw ?? "null") as Partial<AcademyLessonProgress> | null;
-    if (!value || value.version !== 1) return emptyAcademyLessonProgress;
+    if (!value || value.version !== 1) return empty;
     return {
       version: 1,
-      currentActivityId: typeof value.currentActivityId === "string" && academyActivityKindFromId(value.currentActivityId) ? value.currentActivityId : emptyAcademyLessonProgress.currentActivityId,
-      completedActivityIds: Array.isArray(value.completedActivityIds) ? [...new Set(value.completedActivityIds.filter((id): id is string => typeof id === "string" && Boolean(academyActivityKindFromId(id))))] : [],
+      currentActivityId: typeof value.currentActivityId === "string" && academyActivityKindFromId(value.currentActivityId, lessonId) ? value.currentActivityId : empty.currentActivityId,
+      completedActivityIds: Array.isArray(value.completedActivityIds) ? [...new Set(value.completedActivityIds.filter((id): id is string => typeof id === "string" && Boolean(academyActivityKindFromId(id, lessonId))))] : [],
       answers: value.answers && typeof value.answers === "object" && !Array.isArray(value.answers)
         ? Object.fromEntries(Object.entries(value.answers).filter((entry): entry is [string, string] => typeof entry[1] === "string")) : {},
       guestAnswers: value.guestAnswers && typeof value.guestAnswers === "object" && !Array.isArray(value.guestAnswers)
@@ -46,5 +53,5 @@ export function parseAcademyLessonProgress(raw: string | null): AcademyLessonPro
       assessmentSubmitted: value.assessmentSubmitted === true,
       script: value.script === "simplified" ? "simplified" : "traditional",
     };
-  } catch { return emptyAcademyLessonProgress; }
+  } catch { return empty; }
 }

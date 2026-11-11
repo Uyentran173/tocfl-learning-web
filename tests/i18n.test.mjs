@@ -7,7 +7,7 @@ import ts from 'typescript';
 const locales = ['en', 'zh-CN', 'zh-TW'];
 const parse = (file) => ts.createSourceFile(file, fs.readFileSync(file, 'utf8'), ts.ScriptTarget.Latest, true, file.endsWith('.tsx') ? ts.ScriptKind.TSX : ts.ScriptKind.TS);
 const catalogs = locales.map(() => new Map());
-for (const file of ['lib/i18n.ts', 'lib/i18n-extra.ts', 'lib/i18n-vocabulary.ts', 'lib/i18n-academy.ts', 'lib/i18n-academy-new.ts', 'lib/i18n-auth.ts']) {
+for (const file of ['lib/i18n.ts', 'lib/i18n-extra.ts', 'lib/i18n-vocabulary.ts', 'lib/i18n-academy.ts', 'lib/i18n-academy-new.ts', 'lib/i18n-auth.ts', 'lib/i18n-home-demo.ts']) {
   const source = parse(file);
   const visit = (node) => {
     if (ts.isPropertyAssignment(node) && (ts.isStringLiteral(node.name) || ts.isIdentifier(node.name)) && locales.includes(node.name.text) && ts.isObjectLiteralExpression(node.initializer)) {

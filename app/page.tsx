@@ -9,6 +9,7 @@ import { siteConfig } from "@/lib/site";
 import MascotSticker from "@/components/MascotSticker";
 import HomeLearningWorld from "@/components/HomeLearningWorld";
 import HomeFeatureArt from "@/components/HomeFeatureArt";
+import HomeVocabularyDemo from "@/components/HomeVocabularyDemo";
 import profilePhotoStyles from "./profile-photo.module.css";
 import { useT } from "@/components/PreferencesProvider";
 
@@ -70,10 +71,7 @@ export default function Home() {
       </div>
     </section>
 
-    <section className="home-section home-product-scene" aria-labelledby="home-product-title">
-      <div className="home-scene-copy"><p className="page-eyebrow">{t("HỌC THỬ MỘT CHÚT")}</p><h2 id="home-product-title">{t("Một từ mới. Một bước tiến thật.")}</h2><p>{t("Lật thẻ để xem nghĩa, đọc ví dụ và lưu từ cần ôn. Mỗi buổi học ngắn đều đưa bạn gần hơn tới mục tiêu của mình.")}</p><Link href="/vocabulary/band" className="button-quiet">{t("Xem thẻ từ vựng")} →</Link></div>
-      <div className="home-preview" aria-label={t("Xem trước thẻ học từ vựng")}><div className="home-preview-top"><span>{t("HỌC TỪ VỰNG · BAND A")}</span><span className="home-preview-dots" aria-hidden="true"><i/><i/><i/></span></div><div className="home-preview-main"><div className="home-preview-word"><small>{t("TỪ HÔM NAY")}</small><strong lang="zh-Hant">旅行</strong><span>lǚ xíng</span></div><div className="home-preview-answer"><small>{t("Chọn nghĩa phù hợp")}</small><span>{t("Du lịch")}</span><span>{t("Làm việc")}</span><span>{t("Mua sắm")}</span></div></div><div className="home-preview-progress"><span/></div></div>
-    </section>
+    <HomeVocabularyDemo />
 
     <section className="home-section home-paths" aria-labelledby="home-paths-title">
       <div className="home-section-heading"><p className="page-eyebrow">{t("LỘ TRÌNH CỦA BẠN")}</p><h2 id="home-paths-title">{t("Chọn cách học phù hợp với bạn.")}</h2><p>{t("Học theo ngữ cảnh, giáo trình hoặc cấp độ TOCFL.")}</p></div>

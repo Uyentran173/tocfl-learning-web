@@ -3,6 +3,7 @@ import { vocabularyMessages } from "./i18n-vocabulary";
 import { academyMessages } from "./i18n-academy";
 import { academyNewMessages } from "./i18n-academy-new.ts";
 import { authMessages } from "./i18n-auth";
+import { homeDemoMessages } from "./i18n-home-demo";
 
 export const uiLocales = ["vi", "en", "zh-CN", "zh-TW"] as const;
 export type UiLocale = (typeof uiLocales)[number];
@@ -82,7 +83,7 @@ export const messages: Record<Exclude<UiLocale, "vi">, Record<string, string>> =
 
 export function translate(locale: UiLocale, message: string): string {
   if (locale === "vi") return message;
-  const listed = messages[locale][message] ?? extraMessages[locale][message] ?? vocabularyMessages[locale][message] ?? academyMessages[locale][message] ?? academyNewMessages[locale][message] ?? authMessages[locale][message];
+  const listed = messages[locale][message] ?? extraMessages[locale][message] ?? vocabularyMessages[locale][message] ?? academyMessages[locale][message] ?? academyNewMessages[locale][message] ?? authMessages[locale][message] ?? homeDemoMessages[locale][message];
   if (listed) return listed;
   const testTitle = /^TOCFL Band (Novice|[ABC]) — Đề (\d+)$/.exec(message);
   if (testTitle) return locale === "en" ? `TOCFL Band ${testTitle[1]} — Test ${testTitle[2]}` : `TOCFL Band ${testTitle[1]} — 第 ${testTitle[2]} 套`;

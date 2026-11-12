@@ -34,6 +34,6 @@ export default function MascotLoader({ variant, message = "Đang mở Tai Wén�
     <picture className={`mascot-loader-art ${visible && selected ? "is-visible" : ""}`}>
       {selected && <><source media="(prefers-reduced-motion: reduce)" srcSet={`/mascot-loaders/${selected}-still.webp`} /><Image src={`/mascot-loaders/${selected}.gif`} alt="" width={418} height={627} unoptimized /></>}
     </picture>
-    <span className="mascot-loader-message">{t(message)}</span>
+    <span className={compact ? "mascot-loader-message" : "sr-only"}>{t(message)}</span>
   </div>;
 }

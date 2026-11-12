@@ -48,15 +48,15 @@ button:not(:disabled):active { transform: translateY(1px); filter: brightness(.9
 .ui-alert[data-variant="error"] { border-color: color-mix(in srgb, var(--error) 35%, var(--error-soft)); background: var(--error-soft); color: var(--error); }
 .ui-empty { padding: 32px 24px; border: 1px dashed var(--brand-border); border-radius: var(--radius-card); background: var(--surface); text-align: center; }
 .ui-skeleton { border-radius: var(--radius-control); background: var(--brand-soft); }
-.ui-loading-panel { max-width: 680px; }
-.mascot-loader { display: flex; flex-direction: column; align-items: center; gap: 10px; min-width: 0; margin-top: 14px; text-align: center; }
-.mascot-loader-art { display: block; width: 118px; aspect-ratio: 418 / 627; overflow: hidden; border-radius: 20px; opacity: 0; transition: opacity 160ms ease; }
+.mascot-loading-screen { display: grid; place-items: center; min-height: calc(100svh - 76px); padding: 24px; }
+.mascot-loader { display: flex; align-items: center; justify-content: center; min-width: 0; }
+.mascot-loader-art { display: block; width: clamp(210px, 24vw, 280px); aspect-ratio: 418 / 627; overflow: hidden; opacity: 0; transition: opacity 160ms ease; }
 .mascot-loader-art.is-visible { opacity: 1; }
 .mascot-loader-art img { display: block; width: 100%; height: 100%; object-fit: contain; }
-.mascot-loader-message { color: var(--muted); font-size: 14px; font-weight: 600; line-height: 1.5; }
-.mascot-loader-compact { flex-direction: row; justify-content: center; gap: 12px; margin-top: 0; text-align: left; }
-.mascot-loader-compact .mascot-loader-art { width: 52px; flex: 0 0 52px; border-radius: 10px; }
-.mascot-loader-compact .mascot-loader-message { font-size: 13px; }
+.mascot-loader-message { color: var(--muted); font-size: 13px; font-weight: 600; line-height: 1.5; }
+.mascot-loader-compact { gap: 12px; }
+.mascot-loader-compact .mascot-loader-art { width: 52px; flex: 0 0 52px; }
+@media (max-width: 720px) { .mascot-loading-screen { min-height: calc(100svh - 68px); } }
 @media (prefers-reduced-motion: reduce) { .mascot-loader-art { transition: none; } }
 @media (prefers-reduced-motion: no-preference) { .ui-skeleton { animation: ui-skeleton-pulse 1.5s ease-in-out infinite alternate; } }
 @keyframes ui-skeleton-pulse { to { opacity: .55; } }

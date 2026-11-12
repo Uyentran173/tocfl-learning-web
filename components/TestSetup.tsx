@@ -63,7 +63,7 @@ export default function TestSetup({ test, starts }: { test: TestSummary; starts:
     }, 0));
   }
 
-  if (pendingSection) return <ExamStartPending section={pendingSection} />;
+  if (pendingSection) return <ExamStartPending />;
 
   return <main className="tocfl-setup-page mx-auto max-w-4xl px-5 py-8 sm:px-8 sm:py-14">
     <Link href="/tocfl" className="button-quiet text-sm">← {t("Thư viện đề thi")}</Link>

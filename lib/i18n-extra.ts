@@ -43,7 +43,7 @@ export const extraMessages: Record<"en" | "zh-CN" | "zh-TW", Record<string, stri
     "Đúng rồi! Xem lại nội dung câu để ghi nhớ nhé.": "Correct! Review this question to help it stick.", "Câu này chưa đúng. Bạn có thể xem lại nội dung và đáp án bên dưới.": "Not quite. Review the question and answer below.", "Bạn chưa trả lời câu này. Hãy xem đáp án để ôn lại nhé.": "You left this unanswered. Review the correct answer below.",
     "Dịch bài đọc": "Reading translation", "Từ khóa / Dấu hiệu trong bài": "Evidence in the passage", "Transcript": "Transcript",
     "Hình chung cho các câu": "Shared image for questions", "Nội dung": "Content for", "Tài liệu chung cho câu": "Shared document for question", "Nội dung chung cho câu": "Shared content for question", "Nội dung câu": "Content for question", "Nội dung đọc chung của câu": "Shared reading content for question", "Gấu đen Formosan": "Formosan black bear", "Linh vật gấu đen Formosan": "Formosan black bear mascot", "Bắt đầu làm bài": "Start test",
-    "Đang mở Tai Wén…": "Opening Tai Wén…", "Đang chuẩn bị đề thi…": "Preparing test…", "Đang tải xem lại…": "Loading review…", "Chưa đồng bộ được một thay đổi. Dữ liệu vẫn còn trên thiết bị này và sẽ thử lại khi bạn mở lại trang.": "A change could not be synced. Your data remains on this device and will be retried when you reopen the page.",
+    "Đang mở Tai Wén…": "Opening Tai Wén…", "Đang mở trang…": "Opening page…", "Đang mở bài học…": "Opening lesson…", "Đang tải từ vựng…": "Loading vocabulary…", "Đang mở hồ sơ…": "Opening profile…", "Đang mở trang đăng nhập…": "Opening sign-in…", "Đang chuẩn bị đề thi…": "Preparing test…", "Đang tải xem lại…": "Loading review…", "Chưa đồng bộ được một thay đổi. Dữ liệu vẫn còn trên thiết bị này và sẽ thử lại khi bạn mở lại trang.": "A change could not be synced. Your data remains on this device and will be retried when you reopen the page.",
 
     "số câu trả lời đúng": "correct answers",
     "Gấu cũng cần nghỉ một chút": "Even the bear needs a little rest",
@@ -172,7 +172,7 @@ export const extraMessages: Record<"en" | "zh-CN" | "zh-TW", Record<string, stri
     "Đúng rồi! Xem lại nội dung câu để ghi nhớ nhé.": "答对了！再看看题目，加深记忆。", "Câu này chưa đúng. Bạn có thể xem lại nội dung và đáp án bên dưới.": "这题还没答对。看看下方的题目和答案。", "Bạn chưa trả lời câu này. Hãy xem đáp án để ôn lại nhé.": "这题尚未作答。看看下方的正确答案。",
     "Dịch bài đọc": "阅读翻译", "Từ khóa / Dấu hiệu trong bài": "文中依据", "Transcript": "听力逐字稿",
     "Hình chung cho các câu": "题组共用图片", "Nội dung": "内容", "Tài liệu chung cho câu": "共用文件，题目", "Nội dung chung cho câu": "共用内容，题目", "Nội dung câu": "题目内容", "Nội dung đọc chung của câu": "共用阅读内容，题目", "Gấu đen Formosan": "台湾黑熊", "Linh vật gấu đen Formosan": "台湾黑熊吉祥物", "Bắt đầu làm bài": "开始答题",
-    "Đang mở Tai Wén…": "正在打开 Tai Wén……", "Đang chuẩn bị đề thi…": "正在准备试卷……", "Đang tải xem lại…": "正在加载回顾……", "Chưa đồng bộ được một thay đổi. Dữ liệu vẫn còn trên thiết bị này và sẽ thử lại khi bạn mở lại trang.": "一项更改未能同步。数据仍保存在此设备上，下次打开页面时会重试。",
+    "Đang mở Tai Wén…": "正在打开 Tai Wén……", "Đang mở trang…": "正在打开页面……", "Đang mở bài học…": "正在打开课程……", "Đang tải từ vựng…": "正在加载词汇……", "Đang mở hồ sơ…": "正在打开个人资料……", "Đang mở trang đăng nhập…": "正在打开登录页面……", "Đang chuẩn bị đề thi…": "正在准备试卷……", "Đang tải xem lại…": "正在加载回顾……", "Chưa đồng bộ được một thay đổi. Dữ liệu vẫn còn trên thiết bị này và sẽ thử lại khi bạn mở lại trang.": "一项更改未能同步。数据仍保存在此设备上，下次打开页面时会重试。",
 
     "số câu trả lời đúng": "题答对",
     "Gấu cũng cần nghỉ một chút": "小熊也需要休息一下",
@@ -301,7 +301,7 @@ export const extraMessages: Record<"en" | "zh-CN" | "zh-TW", Record<string, stri
     "Đúng rồi! Xem lại nội dung câu để ghi nhớ nhé.": "答對了！再看看題目，加深記憶。", "Câu này chưa đúng. Bạn có thể xem lại nội dung và đáp án bên dưới.": "這題還沒答對。看看下方的題目和答案。", "Bạn chưa trả lời câu này. Hãy xem đáp án để ôn lại nhé.": "這題尚未作答。看看下方的正確答案。",
     "Dịch bài đọc": "閱讀翻譯", "Từ khóa / Dấu hiệu trong bài": "文中依據", "Transcript": "聽力逐字稿",
     "Hình chung cho các câu": "題組共用圖片", "Nội dung": "內容", "Tài liệu chung cho câu": "共用文件，題目", "Nội dung chung cho câu": "共用內容，題目", "Nội dung câu": "題目內容", "Nội dung đọc chung của câu": "共用閱讀內容，題目", "Gấu đen Formosan": "臺灣黑熊", "Linh vật gấu đen Formosan": "臺灣黑熊吉祥物", "Bắt đầu làm bài": "開始作答",
-    "Đang mở Tai Wén…": "正在開啟 Tai Wén……", "Đang chuẩn bị đề thi…": "正在準備試卷……", "Đang tải xem lại…": "正在載入回顧……", "Chưa đồng bộ được một thay đổi. Dữ liệu vẫn còn trên thiết bị này và sẽ thử lại khi bạn mở lại trang.": "一項變更未能同步。資料仍儲存在此裝置上，下次開啟頁面時會重試。",
+    "Đang mở Tai Wén…": "正在開啟 Tai Wén……", "Đang mở trang…": "正在開啟頁面……", "Đang mở bài học…": "正在開啟課程……", "Đang tải từ vựng…": "正在載入詞彙……", "Đang mở hồ sơ…": "正在開啟個人資料……", "Đang mở trang đăng nhập…": "正在開啟登入頁面……", "Đang chuẩn bị đề thi…": "正在準備試卷……", "Đang tải xem lại…": "正在載入回顧……", "Chưa đồng bộ được một thay đổi. Dữ liệu vẫn còn trên thiết bị này và sẽ thử lại khi bạn mở lại trang.": "一項變更未能同步。資料仍儲存在此裝置上，下次開啟頁面時會重試。",
 
     "số câu trả lời đúng": "題答對",
     "Gấu cũng cần nghỉ một chút": "小熊也需要休息一下",

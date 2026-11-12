@@ -9,6 +9,7 @@ import type { VocabularySet } from "@/lib/vocabulary";
 import VocabularyStudy from "./VocabularyStudy";
 import { loadPersonalizedSets, personalizedSetId, savePersonalizedSet, type SavedVocabularySet } from "@/lib/personalized-sets";
 import { useT } from "./PreferencesProvider";
+import MascotLoader from "./MascotLoader";
 
 type Result = { words: ContextWord[]; available: number; topicLabel: string };
 type Generated = { options: ContextRequest; result: Result; serial: number };
@@ -130,6 +131,7 @@ export default function ContextVocabularyBuilder() {
         </div></fieldset>
       </div>
       <button type="submit" className="button-primary mt-6" disabled={loading}>{loading ? t("Đang tạo bộ từ…") : t("Tạo bộ từ")}</button>
+      {loading && <div className="mt-4"><MascotLoader variant="reading" message="Đang tạo bộ từ…" compact /></div>}
       {error && <p className="mt-4 text-sm text-red-700" role="alert">{error}</p>}
     </form>
 

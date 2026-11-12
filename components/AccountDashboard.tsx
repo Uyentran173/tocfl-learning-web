@@ -10,6 +10,7 @@ import { scriptQuery } from "@/lib/tests";
 import type { ExamSession } from "@/lib/session";
 import type { ActivityProgress } from "@/lib/activity-progress";
 import { usePreferences } from "./PreferencesProvider";
+import MascotLoader from "./MascotLoader";
 
 type TestTitle = { id: string; title: string };
 
@@ -70,7 +71,7 @@ export default function AccountDashboard({ tests }: { tests: TestTitle[] }) {
     <nav className="mt-7 flex flex-wrap gap-2" aria-label={t("Mục trong hồ sơ")}>
       {[["#profile", "Hồ sơ của tôi"], ["#progress", "Tiến độ học tập"], ["#words", "Từ vựng đã học"], ["#active-tests", "Đề đang làm"], ["#history", "Lịch sử luyện đề"]].map(([href, label]) => <a key={href} href={href} className="button-secondary text-sm">{t(label)}</a>)}
     </nav>
-    {syncing && <p className="mt-4 text-xs muted" role="status">{t("Đang đồng bộ tiến độ…")}</p>}
+    {syncing && <div className="mt-4"><MascotLoader variant="laptop" message="Đang đồng bộ tiến độ…" compact /></div>}
     {(syncError || message) && <p className="ui-alert mt-6" data-variant="warning" role="status">{t(syncError || message || "")}</p>}
     {conflicts.length > 0 && <section className="paper mt-6 p-5 sm:p-6" aria-label={t("Tiến độ cần chọn phiên bản")}>
       <h2 className="font-bold">{t("Tiến độ cần chọn phiên bản")}</h2>

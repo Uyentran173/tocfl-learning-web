@@ -297,3 +297,8 @@ body:has(.sim-outer) .sim-canvas { height: calc(100dvh - 32px); }
   .home-feature-arrow, .home-path-card, .vocabulary-path-card, .login-provider, .login-guest-link, .home-discover .home-feature { transition: none; }
   .home-discover .home-feature:hover, .home-discover .home-feature:focus-visible { transform: none; }
 }
+
+/* Match the Vietnamese display type to the regular Be Vietnam Pro used in the quick-review section. */
+html[lang="vi"] .site-content :is(h1, h2, h3) { font-family: var(--font-ui); }
+html[lang="vi"] .site-content :is(h1, h2) { font-weight: 400; }
+html[lang="vi"] .site-content h3 { font-weight: 500; }

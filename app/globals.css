@@ -554,7 +554,7 @@ html[data-theme="dark"] .home-path-card p { color: var(--muted); }
 .academy-dialogue { display: flex; gap: 15px; padding: 17px; border: 1px solid var(--border); border-radius: 17px; background: var(--surface-raised); }
 .academy-dialogue-speaker { display: grid; place-items: center; width: 30px; height: 30px; flex: 0 0 30px; border-radius: 10px; background: var(--brand-soft); color: var(--brand); font-size: 12px; font-weight: 800; }
 .academy-word,.academy-grammar { padding: 18px; border: 1px solid var(--border); border-radius: 18px; background: var(--surface-raised); }
-.academy-word [lang],.academy-grammar [lang],.academy-dialogue [lang] { font-family: var(--font-chinese); }
+.academy-word :is([lang="zh-Hant"], [lang="zh-Hans"]),.academy-grammar :is([lang="zh-Hant"], [lang="zh-Hans"]),.academy-dialogue :is([lang="zh-Hant"], [lang="zh-Hans"]) { font-family: var(--font-chinese); }
 .academy-quiz { box-shadow: none; }
 .academy-answer { display: flex; align-items: center; gap: 12px; width: 100%; padding: 12px 14px; border: 1px solid var(--border); border-radius: 13px; background: var(--surface-raised); color: var(--text); text-align: left; transition: background-color 160ms ease,border-color 160ms ease; }
 .academy-answer:hover,.academy-answer[aria-pressed="true"] { border-color: var(--brand-border); background: var(--brand-soft); }
@@ -626,7 +626,7 @@ html[data-theme="dark"] .home-path-card p { color: var(--muted); }
 .academy-word-front strong { flex: 1; font-family: var(--font-chinese); font-size: 23px; }
 .academy-vocab-number { color: var(--muted); font-size: 11px; font-weight: 700; }
 .academy-word-back { padding: 0 15px 15px; color: var(--text); font-size: 14px; line-height: 1.6; }
-.academy-word-back [lang] { font-family: var(--font-chinese); font-size: 16px; }
+.academy-word-back :is([lang="zh-Hant"], [lang="zh-Hans"]) { font-family: var(--font-chinese); font-size: 16px; }
 .academy-grammar { display: grid; gap: 12px; }
 .academy-grammar > p { margin: 0; }
 .academy-grammar-pattern { width: fit-content; padding: 8px 12px; border-radius: 10px; background: var(--brand-soft); color: var(--brand) !important; font-weight: 700; }

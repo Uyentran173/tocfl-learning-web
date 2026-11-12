@@ -281,7 +281,7 @@ export default function ExamClient({ test }: { test: MockTest }) {
         </div>
         <div className="rounded-xl border border-[var(--brand-border)] bg-[var(--brand-soft)] px-3 py-2 text-right sm:px-4">
           <p className="text-[10px] font-bold uppercase tracking-[.13em] text-[var(--brand)]">{t(question.section === "listening" ? "Nghe" : "Đọc")} · {t("Thời gian còn lại")}</p>
-          <p aria-live="off" className={`font-mono text-lg font-bold tabular-nums sm:text-xl ${remaining <= 300 ? "text-[var(--error)]" : "text-[var(--brand)]"}`}>{formatTime(remaining)}</p>
+          <p aria-live="off" className={`text-lg font-bold tabular-nums sm:text-xl ${remaining <= 300 ? "text-[var(--error)]" : "text-[var(--brand)]"}`}>{formatTime(remaining)}</p>
         </div>
       </div>
     </header>

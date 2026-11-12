@@ -47,7 +47,7 @@ export default function AcademyLessonEditor({ initialContent }: { initialContent
     <h1 className="page-title">{t("Biên tập bài học")}</h1>
     <p className="page-lead">{t("Chỉ chủ sở hữu có thể thay đổi nội dung bài học. Giữ nguyên mã bài và mã câu để bảo toàn tiến độ của học viên.")}</p>
     <div className="paper mt-7 space-y-5 p-5 sm:p-7">
-      <label className="block font-semibold">{t("Nội dung bài học")}<textarea className="academy-response mt-2 font-mono text-sm" rows={28} spellCheck={false} value={json} onChange={(event) => setJson(event.target.value)} /></label>
+      <label className="block font-semibold">{t("Nội dung bài học")}<textarea className="academy-response mt-2 text-sm" rows={28} spellCheck={false} value={json} onChange={(event) => setJson(event.target.value)} /></label>
       <p className="text-sm muted">{t("Giữ nguyên mã bài, mã câu và mã từ vựng khi biên tập để không làm mất tiến độ đã lưu.")}</p>
       <p className="text-sm muted">{t("Trạng thái hiện tại")}: {t(status === "published" ? "Đã xuất bản" : "Bản nháp")}</p>
       {message && <p role="status" className="rounded-xl bg-[var(--brand-soft)] p-3 text-sm">{t(message)}</p>}

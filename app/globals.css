@@ -5,8 +5,10 @@
 @font-face { font-family: "Be Vietnam Pro"; src: url("/fonts/be-vietnam-pro-600.ttf") format("truetype"); font-style: normal; font-weight: 600; font-display: swap; }
 @font-face { font-family: "Be Vietnam Pro"; src: url("/fonts/be-vietnam-pro-700.ttf") format("truetype"); font-style: normal; font-weight: 700; font-display: swap; }
 @font-face { font-family: "Be Vietnam Pro"; src: url("/fonts/be-vietnam-pro-800.ttf") format("truetype"); font-style: normal; font-weight: 800 900; font-display: swap; }
-body { margin: 0; background: var(--page); color: var(--text); font-family: var(--font-ui); line-height: 1.55; user-select: none; -webkit-user-select: none; }
+html { font-family: var(--font-ui); }
+body { margin: 0; background: var(--page); color: var(--text); font-family: inherit; line-height: 1.55; user-select: none; -webkit-user-select: none; }
 *, *::before, *::after { box-sizing: border-box; }
+button, input, select, textarea, summary { font-family: inherit; }
 [lang="zh-Hant"], [lang="zh-Hans"] { overflow-wrap: anywhere; }
 input, textarea, [contenteditable="true"], [role="textbox"] { user-select: text; -webkit-user-select: text; }
 button { cursor: pointer; touch-action: manipulation; }
@@ -283,12 +285,12 @@ button:not(:disabled):active { transform: translateY(1px); filter: brightness(.9
 .sim-volume { display: flex; align-items: center; gap: 11px; }
 .sim-volume input { width: 146px; height: 18px; accent-color: var(--brand); cursor: pointer; }
 .sim-toolbar-section { font-size: 13px; letter-spacing: .04em; color: var(--muted); text-transform: uppercase; }
-.sim-timer { display: flex; align-items: center; gap: 8px; color: var(--brand); font-family: Georgia, serif; font-size: 18px; letter-spacing: .06em; white-space: nowrap; }
+.sim-timer { display: flex; align-items: center; gap: 8px; color: var(--brand); font-family: var(--font-ui); font-size: 18px; letter-spacing: .06em; white-space: nowrap; }
 .sim-timer-low { color: var(--error); }
 .sim-scroll-region { flex: 1; min-height: 0; overflow-y: auto; overscroll-behavior: contain; }
 .sim-footer { flex: 0 0 66px; border-top: 1px solid var(--border); background: var(--surface); padding: 10px 35px; }
 .sim-question { max-width: 1100px; margin: 0 auto; padding: 22px 54px 72px; }
-.sim-question-number { font-family: Georgia, "Times New Roman", serif; font-size: 29px; line-height: 1.2; color: var(--text); }
+.sim-question-number { font-family: var(--font-ui); font-size: 29px; line-height: 1.2; color: var(--text); }
 .sim-audio-area { min-height: 154px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
 .sim-audio-area { color: var(--brand); }
 .sim-audio-recovery { max-width: 780px; margin: 0 auto 20px; padding: 12px 16px; border: 1px solid var(--brand-border); border-radius: 12px; background: var(--brand-soft); font-size: 14px; line-height: 1.6; }
@@ -313,7 +315,7 @@ button:not(:disabled):active { transform: translateY(1px); filter: brightness(.9
 .sim-option:active { background: var(--brand-soft-hover); }
 .sim-option:focus-within { outline: 2px solid var(--focus); outline-offset: 1px; }
 .sim-option input { width: 17px; height: 17px; margin: 8px 0 0; accent-color: var(--brand); flex: 0 0 auto; }
-.sim-option-letter { min-width: 42px; font-family: Georgia, serif; white-space: nowrap; }
+.sim-option-letter { min-width: 42px; font-family: var(--font-ui); white-space: nowrap; }
 .sim-reading .sim-image-area { margin: 10px auto 28px; }
 .sim-reading-passage { max-width: 870px; margin: 19px auto; padding: 20px 26px; border: 1px solid var(--border); border-radius: 12px; font-size: 21px; line-height: 1.9; }
 .sim-reading-prompt { max-width: 870px; margin: 23px auto 16px; padding: 15px 22px; border: 1px solid var(--border); border-radius: 12px; font-size: 23px; font-weight: 500; line-height: 1.7; }

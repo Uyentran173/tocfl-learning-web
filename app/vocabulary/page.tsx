@@ -16,7 +16,7 @@ export default function VocabularyPage() {
     <div className="flex items-end justify-between gap-4"><div className="max-w-3xl">
       <p className="page-eyebrow"><T>HỌC TỪ VỰNG</T></p>
       <h1 className="page-title"><T>Học vài từ mới mỗi ngày, tự tin hơn khi sử dụng tiếng Hoa.</T></h1>
-      <p className="page-lead"><T>Chọn một trong ba cách học phù hợp với mục tiêu của bạn. Tiến độ từ vựng được lưu trên thiết bị này.</T></p>
+      <p className="page-lead"><T>Chọn cách học phù hợp với bạn.</T></p>
     </div><MascotSticker variant="boba" decorative className="vocabulary-header-sticker mascot-float" /></div>
     <div className="mt-10 grid gap-5 lg:grid-cols-3">
       {paths.map((path) => <Link key={path.href} href={path.href} className="paper vocabulary-path-card flex flex-col p-7 sm:p-8">
@@ -27,6 +27,5 @@ export default function VocabularyPage() {
         <span className="vocabulary-path-action mt-7 inline-flex items-center gap-2"><T>{path.action}</T> <span aria-hidden="true">→</span></span>
       </Link>)}
     </div>
-    <div className="vocabulary-tip mt-8 rounded-2xl border border-[var(--brand-border)] bg-[var(--brand-soft)] px-6 py-5 text-sm leading-7 text-[var(--brand)]"><MascotSticker variant="study" decorative className="vocabulary-tip-sticker" /><p><strong><T>Mẹo học nhỏ:</T></strong> <T>Mỗi ngày học vài từ, sau đó thử một đề để nhận ra chúng trong ngữ cảnh mới.</T></p></div>
   </main>;
 }

@@ -43,7 +43,7 @@ export default function LoginOptions({ oauthError, providers }: { oauthError: bo
     <section className="login-card" aria-labelledby="login-title">
       <p className="page-eyebrow">{t("TÀI KHOẢN TAI WÉN")}</p>
       <h1 id="login-title">{t("Đăng nhập hoặc tạo tài khoản")}</h1>
-      <p className="login-intro">{t("Tiếp tục với Google để lưu tiến độ học. Nếu bạn chưa có tài khoản, Tai Wén sẽ tạo tự động.")}</p>
+      <p className="login-intro">{t("Đăng nhập để lưu tiến độ học và tiếp tục trên các thiết bị.")}</p>
 
       <div className="login-actions" aria-busy={!!busy}>
         <button type="button" className="login-provider" disabled={!configured || !providers.google || !!busy} onClick={() => void start("google")}>
@@ -64,7 +64,6 @@ export default function LoginOptions({ oauthError, providers }: { oauthError: bo
 
       <div className="login-divider"><span>{t("hoặc")}</span></div>
       <Link href="/" className="login-guest-link">{t("Tiếp tục với tư cách khách")} <span aria-hidden="true">→</span></Link>
-      <p className="login-footnote">{t("Bạn có thể học ngay và đăng nhập sau. Tiến độ khách chỉ được gộp khi bạn đồng ý.")}</p>
     </section>
 
     <aside className="login-story" aria-label={t("Lợi ích của tài khoản Tai Wén")}>

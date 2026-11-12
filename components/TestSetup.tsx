@@ -84,28 +84,25 @@ export default function TestSetup({ test, starts }: { test: TestSummary; starts:
         <div className="mt-4 grid gap-3 sm:grid-cols-2">{test.sections.map((section) => <div key={section} className="rounded-xl border border-[var(--border)] p-4"><span className="font-semibold">{t(section === "listening" ? "Nghe" : "Đọc")}</span><span className="float-right text-sm muted">{test.sectionCounts[section]} {t("câu")}</span></div>)}</div>
         <h2 className="mt-9 text-lg font-semibold">{t("Lưu ý trước khi làm bài")}</h2>
         <ul className="mt-3 list-disc space-y-2 pl-5 leading-7 muted">
-          <li>{t("Câu trả lời và câu đang làm được tự động lưu trên thiết bị này.")}</li>
-          <li>{t("Ở chế độ Luyện tập, bạn có thể chuyển tự do giữa các câu. Mỗi phần được chọn có 60 phút riêng.")}</li>
-          <li>{t("Ở chế độ Mô phỏng, phần Nghe theo nhịp âm thanh và không có đồng hồ đếm ngược; phần Đọc có 60 phút kể từ khi bắt đầu phần này.")}</li>
-          <li>{t("Bạn sẽ được hỏi xác nhận trước khi nộp bài. Câu bỏ trống được tính là chưa trả lời.")}</li>
-          <li>{t("Tránh tải lại hoặc đóng trang khi đang làm bài, đặc biệt trong phần Nghe, để không làm gián đoạn âm thanh.")}</li>
+          <li>{t("Bài làm được lưu tự động.")}</li>
+          <li>{t("Luyện tập: chuyển câu tự do, 60 phút cho mỗi phần.")}</li>
+          <li>{t("Mô phỏng: Nghe theo âm thanh, Đọc có 60 phút.")}</li>
+          <li>{t("Bạn sẽ xác nhận trước khi nộp. Câu bỏ trống không được tính điểm.")}</li>
+          <li>{t("Tránh tải lại hoặc đóng trang khi làm phần Nghe.")}</li>
         </ul>
         <div className="mt-9 border-t border-[var(--border)] pt-7">
           {!selectedMode ? <>
             <h2 className="text-lg font-semibold">{t("Chọn chế độ làm bài")}</h2>
-            <p className="mt-2 text-sm leading-6 muted">{t("Cả hai chế độ dùng cùng bộ câu hỏi và cách chấm điểm.")}</p>
             <div className="mt-4 grid gap-3 sm:grid-cols-2">
               <div className="mode-card"><p className="text-lg font-semibold">{t("Chế độ Luyện tập")}</p><p className="mt-2 min-h-12 text-sm leading-6 muted">{t("Chủ động chọn câu hỏi và theo dõi thời gian của từng phần.")}</p><button type="button" className="button-secondary" onClick={() => setSelectedMode("practice")}>{t("Chọn Luyện tập")} →</button></div>
               <div className="mode-card"><p className="text-lg font-semibold">{t("Chế độ Mô phỏng")}</p><p className="mt-2 min-h-12 text-sm leading-6 muted">{t("Làm bài trong giao diện tập trung, gần với nhịp thi thực tế.")}</p><button type="button" className="button-secondary" onClick={() => setSelectedMode("simulation")}>{t("Chọn Mô phỏng")} →</button></div>
             </div>
           </> : !selectedScope ? <>
             <h2 className="text-lg font-semibold">{t("Chọn phần thi")}</h2>
-            <p className="mt-2 text-sm leading-6 muted">{t("Bạn có thể luyện riêng từng kỹ năng hoặc làm toàn bộ đề.")}</p>
             <div className="mt-4 grid gap-3 sm:grid-cols-3">{availableScopes.map((option) => <div key={option.value} className="mode-card flex flex-col"><p className="text-lg font-semibold">{t(option.title)}</p><p className="mt-2 flex-1 text-sm leading-6 muted">{t(option.description)}</p><button type="button" className="button-secondary mt-4" onClick={() => setSelectedScope(option.value)}>{t("Chọn phần này")} →</button></div>)}</div>
             <button type="button" className="button-quiet mt-5 text-sm" onClick={() => setSelectedMode(null)}>← {t("Chọn lại chế độ")}</button>
           </> : <>
             <h2 className="text-lg font-semibold">{t("Chọn loại chữ")}</h2>
-            <p className="mt-2 text-sm leading-6 muted">{t("Phần thi đã chọn:")} {t(scopes.find((option) => option.value === selectedScope)?.title ?? "")}.</p>
             <div className="mt-4 grid gap-3 sm:grid-cols-2">{(["traditional", "simplified"] as const).map((script) => {
               const selectedTest = starts[script][selectedScope];
               return <div key={script} className="mode-card"><p className="text-lg font-semibold">{t(script === "traditional" ? "Chữ Phồn thể" : "Chữ Giản thể")}</p><p className="mt-2 min-h-12 text-sm leading-6 muted">{t(script === "traditional" ? "Đọc đề theo chữ Phồn thể." : "Đọc đề theo chữ Giản thể.")}</p><button type="button" className="button-secondary" onClick={() => beginTest(selectedTest)}>{t("Bắt đầu")} →</button></div>;

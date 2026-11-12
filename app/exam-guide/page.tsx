@@ -17,7 +17,6 @@ export default function ExamGuidePage() {
     <div className="max-w-3xl">
       <p className="page-eyebrow"><T>HƯỚNG DẪN KỲ THI VÀ ĐĂNG KÝ</T></p>
       <h1 className="page-title"><T>Chuẩn bị kỹ lưỡng để dự thi tự tin hơn.</T></h1>
-      <p className="page-lead"><T>Các bước chính để tra cứu lịch thi, đăng ký và chuẩn bị trước ngày thi.</T></p>
     </div>
 
     <section className="mt-12" id="registration" aria-labelledby="registration-title">
@@ -56,6 +55,6 @@ export default function ExamGuidePage() {
       <div className="mb-6 max-w-2xl"><p className="page-eyebrow"><T>CHỌN ĐỊA ĐIỂM DỰ THI</T></p><h2 id="centers-title" className="mt-2 text-2xl font-bold"><T>Tìm điểm thi thuận tiện</T></h2><p className="mt-2 leading-7 muted"><T>Chọn khu vực, sau đó đối chiếu địa điểm, ngày thi và hạn đăng ký trên danh sách chính thức.</T></p></div>
       <CenterChooser />
     </section>
-    <p className="mt-8 text-xs leading-6 muted"><T>Đây là hướng dẫn tham khảo độc lập. Lịch thi và quy định của buổi thi cụ thể được công bố trên website TOCFL hoặc bởi đơn vị tổ chức.</T></p>
+    <p className="mt-8 text-xs leading-6 muted"><T>Lịch thi và quy định chính thức do TOCFL hoặc đơn vị tổ chức công bố.</T></p>
   </main>;
 }

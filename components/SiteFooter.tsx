@@ -12,7 +12,6 @@ export default function SiteFooter() {
       <div className="site-footer-about">
         <p className="site-footer-title"><BrandMark /></p>
         <p>{t("Học từ vựng, luyện đề và chuẩn bị cho kỳ thi tiếng Hoa theo nhịp độ của bạn.")}</p>
-        <p className="site-footer-note">{t("Luyện tập đều đặn và theo dõi tiến bộ của bạn qua từng bài học.")}</p>
       </div>
       <div>
         <h2>{t("Khám phá")}</h2>

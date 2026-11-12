@@ -18,7 +18,7 @@ function HighlightedChinese({ line, reading = false }: { line: ReviewLine; readi
   return <>{line.chinese.slice(0, position)}<mark className={reading ? "rounded bg-[var(--evidence)] px-0.5 font-semibold text-[var(--evidence-ink)]" : "review-evidence"}>{line.highlight}</mark>{line.chinese.slice(position + line.highlight.length)}</>;
 }
 
-function ReviewTranscriptPanel({ transcript, script, question, selected, bandA }: { transcript?: ListeningReview; script?: "traditional" | "simplified"; question: Question; selected?: number; bandA: boolean }) {
+function ReviewTranscriptPanel({ transcript, script, bandA }: { transcript?: ListeningReview; script?: "traditional" | "simplified"; bandA: boolean }) {
   const t = useT();
   if (transcript?.options && transcript.lines[0]?.vietnamese) {
     const line = transcript.lines[0];
@@ -29,13 +29,10 @@ function ReviewTranscriptPanel({ transcript, script, question, selected, bandA }
       <div><h3 className="text-sm font-bold text-[var(--brand)]">{t("Các lựa chọn")}</h3><div className="mt-2 space-y-2">{transcript.options.map((option, index) => <div key={index} className="rounded-lg border border-[var(--border)] bg-[var(--surface)] px-3 py-2"><p lang={script === "simplified" ? "zh-Hans" : "zh-Hant"} className="text-base text-[var(--text)]">{option.label}. {option.chinese}</p>{bandA && option.imageUrl && <Image src={option.imageUrl} alt={`${t("Hình lựa chọn")} ${option.label}`} width={510} height={440} unoptimized className="mt-2 h-auto max-h-44 w-auto max-w-full" />}<p lang="vi" className="mt-1 text-sm text-[var(--muted)]">→ {option.vietnamese}</p></div>)}</div></div>
       {line.highlight && <div><h3 className="text-sm font-bold text-[var(--brand)]">{t("Từ khóa / Dấu hiệu")}</h3><p lang={script === "simplified" ? "zh-Hans" : "zh-Hant"} className="mt-2 text-base leading-7"><mark className="rounded bg-[var(--evidence)] px-1 text-[var(--evidence-ink)]">{line.highlight}</mark></p></div>}
       {transcript.explanation && <div><h3 className="text-sm font-bold text-[var(--brand)]">{t("Giải thích")}</h3><p lang="vi" className="mt-2 text-sm leading-7 text-[var(--text)]">{transcript.explanation}</p></div>}
-      {bandA && selected !== undefined && selected !== question.correctAnswer && transcript.options[selected]?.vietnamese && <p lang="vi" className="text-sm text-[var(--muted)]">Bạn chọn {letters[selected]} ({transcript.options[selected].vietnamese}); lời thoại{line.highlight ? " và dấu hiệu trên" : " và hình minh họa"} phù hợp với đáp án {letters[question.correctAnswer]}.</p>}
-      {!bandA && selected !== undefined && selected !== question.correctAnswer && transcript.options[selected]?.vietnamese && <p lang="vi" className="text-sm text-[var(--muted)]">Bạn chọn {letters[selected]} ({transcript.options[selected].vietnamese}); hãy đối chiếu với chi tiết trong transcript để thấy vì sao đáp án đúng là {letters[question.correctAnswer]}.</p>}
       {transcript.note && <p className="text-sm text-[var(--muted)]">{transcript.note}</p>}
     </section>;
   }
   const hasTranslation = transcript?.lines.some((line) => Boolean(line.vietnamese));
-  const hasEvidence = transcript?.lines.some((line) => Boolean(line.highlight));
   return <section className="transcript-panel review-transcript" aria-label={t(hasTranslation ? "Lời thoại và bản dịch câu Nghe" : "Lời thoại câu Nghe")}>
     <h2 className="transcript-label">{t(hasTranslation ? "Nội dung bài nghe và dịch nghĩa" : "Nội dung bài nghe")}</h2>
     {!transcript ? <p className="mt-3 text-sm muted">{t("Chưa có bản ghi lời thoại cho câu này.")}</p> : <div className="mt-3 space-y-3">
@@ -43,7 +40,6 @@ function ReviewTranscriptPanel({ transcript, script, question, selected, bandA }
         <span className="review-transcript-label" aria-hidden={!line.label}>{line.label ?? ""}</span>
         <div><p lang={script === "simplified" ? "zh-Hans" : "zh-Hant"} className="transcript-chinese whitespace-pre-line"><HighlightedChinese line={line}/></p>{line.vietnamese && <p className="transcript-vietnamese">{line.vietnamese}</p>}</div>
       </div>)}
-      {hasEvidence && <p className="review-evidence-note">{t("Phần được tô màu là chi tiết liên quan đến đáp án đúng.")}</p>}
       {!hasTranslation && <p className="text-sm muted">{t("Chưa có bản dịch tiếng Việt cho câu này.")}</p>}
     </div>}
   </section>;
@@ -88,7 +84,7 @@ function ReadingReviewPanel({ question, review, selected, bandA, detailed }: { q
         </div>;
       })}</div>
     </div>}
-    {review?.explanation && <div><h3 className="text-sm font-bold text-[var(--brand)]">{t("Giải thích")}</h3><p lang="vi" className="mt-2 text-sm leading-7 text-[var(--text)]">{review.explanation}</p>{bandA && selected !== undefined && selected !== question.correctAnswer && options?.[selected] && <p lang="vi" className="mt-2 text-sm leading-7 text-[var(--muted)]">Bạn chọn {letters[selected]} ({options[selected]}); {evidencePhrase ? "dấu hiệu trong bài" : "ngữ cảnh và hình minh họa"} phù hợp với đáp án {letters[question.correctAnswer]}.</p>}{detailed && !bandA && selected !== undefined && selected !== question.correctAnswer && options?.[selected] && <p lang="vi" className="mt-2 text-sm leading-7 text-[var(--muted)]">Bạn chọn {letters[selected]} ({options[selected]}); hãy đối chiếu dấu hiệu và ngữ cảnh trong bài với đáp án {letters[question.correctAnswer]}.</p>}</div>}
+    {review?.explanation && <div><h3 className="text-sm font-bold text-[var(--brand)]">{t("Giải thích")}</h3><p lang="vi" className="mt-2 text-sm leading-7 text-[var(--text)]">{review.explanation}</p></div>}
     {evidenceText && evidencePhrase && evidenceText.includes(evidencePhrase) && <div><h3 className="text-sm font-bold text-[var(--brand)]">{t(detailed && !bandA ? "Từ khóa / Dấu hiệu trong bài" : "Dấu hiệu trong bài")}</h3><p lang={question.script === "simplified" ? "zh-Hans" : "zh-Hant"} className="mt-2 whitespace-pre-line text-base leading-8 text-[var(--text)]"><HighlightedChinese line={{ chinese: evidenceText, highlight: evidencePhrase }} reading /></p></div>}
   </section>;
 }
@@ -130,11 +126,7 @@ export default function ReviewClient({ test, reviewContent }: { test: MockTest; 
   const readingReview = reviewContent.reading[question.id];
   const selected = session.answers[question.id];
   const state = selected === undefined ? "Chưa trả lời" : selected === question.correctAnswer ? "Đúng" : "Sai";
-  const mascot = state === "Đúng"
-    ? { variant: "boba" as const, text: "Đúng rồi! Xem lại nội dung câu để ghi nhớ nhé." }
-    : state === "Sai"
-      ? { variant: "puzzled" as const, text: "Câu này chưa đúng. Bạn có thể xem lại nội dung và đáp án bên dưới." }
-      : { variant: "puzzled" as const, text: "Bạn chưa trả lời câu này. Hãy xem đáp án để ôn lại nhé." };
+  const mascot = state === "Đúng" ? "boba" : "puzzled";
   const statusStyle = state === "Đúng" ? "border-[var(--brand)] bg-[var(--brand-soft)] text-[var(--brand)]" : state === "Sai" ? "border-[var(--error)] bg-[var(--error-soft)] text-[var(--error)]" : "border-[var(--border)] bg-[var(--surface)] text-[var(--muted)]";
   const jump = (next: number) => {
     if (next === index || next < 0 || next >= test.questions.length) return;
@@ -153,15 +145,14 @@ export default function ReviewClient({ test, reviewContent }: { test: MockTest; 
             <h1 className="mt-5 text-3xl font-bold tracking-tight text-[var(--brand)] sm:text-4xl">{t("Xem lại đáp án")}</h1>
             <p className="mt-2 text-sm text-[var(--muted)] sm:text-base">{t(test.title)} · {t(question.section === "listening" ? "Nghe" : "Đọc")}, {t("câu")} {question.number} / {test.questions.filter((item) => item.section === question.section).length}</p>
           </div>
-          <span className={["rounded-full border px-4 py-2 text-sm font-bold", statusStyle].join(" ")}>{t(state)}</span>
+          <div className="flex items-center gap-2"><MascotSticker key={question.id} variant={mascot} decorative className="review-mascot" /><span className={["rounded-full border px-4 py-2 text-sm font-bold", statusStyle].join(" ")}>{t(state)}</span></div>
         </div>
 
-        <div className="review-mascot-note mb-7" role="note"><MascotSticker key={question.id} variant={mascot.variant} decorative className="review-mascot mascot-pop" /><p className="text-sm leading-6 text-[var(--brand)]">{t(mascot.text)}</p></div>
 
         <div className="grid items-start gap-8 lg:grid-cols-[minmax(0,1fr)_282px]">
           <article className="min-w-0">
             <p className="report-eyebrow mb-6">{t(question.section === "listening" ? "Nghe" : "Đọc")} · {t("Câu")} {question.number}</p>
-            <QuestionContent question={question} review afterAudio={<ReviewTranscriptPanel transcript={listeningReview} script={test.script} question={question} selected={selected} bandA={bandA} />} />
+            <QuestionContent question={question} review afterAudio={<ReviewTranscriptPanel transcript={listeningReview} script={test.script} bandA={bandA} />} />
             {question.section === "listening" || !(readingReview?.optionChinese ?? question.choices).some((choice) => Boolean(choice.trim())) ? <ChoiceList question={question} selected={selected} review /> : null}
 
             <div className="review-answer-summary mt-8 grid gap-5 rounded-xl border border-[var(--border)] bg-[var(--brand-soft)] p-5 sm:grid-cols-2 sm:p-6">

@@ -12,7 +12,7 @@ export default function BandVocabularyPage() {
   return <main className="vocabulary-band-page mx-auto max-w-6xl px-5 py-10 sm:px-8 sm:py-14">
     <Link href="/vocabulary" className="button-quiet text-sm">← <T>Ba cách học từ vựng</T></Link>
     <div className="mb-9 mt-7 flex flex-wrap items-end justify-between gap-5">
-      <div className="max-w-3xl"><p className="page-eyebrow"><T>LỘ TRÌNH TOCFL</T></p><h1 className="page-title"><T>Học từ vựng theo từng Band.</T></h1><p className="page-lead"><T>Chọn Band và cấp độ, xem danh sách từ, rồi học hoặc ôn lại theo nhịp của bạn. Tiến độ được lưu trên thiết bị này.</T></p></div>
+      <div className="max-w-3xl"><p className="page-eyebrow"><T>LỘ TRÌNH TOCFL</T></p><h1 className="page-title"><T>Học từ vựng theo từng Band.</T></h1><p className="page-lead"><T>Chọn Band để học từ mới hoặc ôn lại từ đã học.</T></p></div>
       <MascotSticker variant="graduate" className="vocabulary-header-sticker mascot-float" decorative />
     </div>
     <BandVocabularyStudy bands={bands} />

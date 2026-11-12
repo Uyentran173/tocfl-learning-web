@@ -49,7 +49,6 @@ export default function ResultClient({ test }: { test: MockTest }) {
           <div>
             <p className="report-eyebrow">{t("Điểm của bạn")}</p>
             <p className="mt-3 text-5xl font-bold tabular-nums text-[var(--brand)] sm:text-6xl">{result.correct}<span className="ml-3 text-2xl font-medium text-[var(--muted)]">/ {test.questions.length}</span></p>
-            <p className="mt-3 text-sm leading-6 text-[var(--muted)]">{t("Kết quả dựa trên số câu trả lời đúng trong đề luyện tập này.")}</p>
             {test.scoreProfile?.scores[String(result.earnedPoints ?? result.correct)] !== undefined && <p className="mt-2 text-sm font-semibold text-[var(--brand)]">{t("Điểm quy đổi")}: {test.scoreProfile.scores[String(result.earnedPoints ?? result.correct)]} / 80</p>}
             <p className="mt-3 max-w-xl text-xs leading-5 text-[var(--muted)]">{t("Điểm số này được tính theo thang điểm của đề thi thử và chỉ mang tính tham khảo. Đây không phải là kết quả chính thức của kỳ thi TOCFL.")}</p>
           </div>

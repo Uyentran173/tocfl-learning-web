@@ -24,6 +24,23 @@ const situations = {
   15: "Mô tả triệu chứng, đi khám và hỏi cách chăm sóc sức khỏe.",
 };
 
+const lessonObjectives = {
+  2: ["Giới thiệu người thân và hỏi về gia đình.", "Dùng 的 và 有 để nói về quan hệ và đồ vật mình có."],
+  3: ["Nói về kế hoạch cuối tuần, sở thích và lời hẹn.", "Đặt thời gian đúng vị trí và dùng 去 khi nói về hoạt động."],
+  4: ["Gọi món, hỏi giá và mua sắm.", "Dùng lượng từ phù hợp và nhờ người khác giúp bằng 幫."],
+  5: ["Nói về món ăn, khẩu vị và bữa ăn ở nhà hàng.", "Dùng 有一點 và 得 để nhận xét mức độ."],
+  6: ["Hỏi đường và mô tả vị trí.", "Dùng 在 và 有 khi nói một nơi có gì."],
+  7: ["Hẹn giờ và sắp xếp hoạt động trong ngày.", "Dùng 從…到… để nói về khoảng thời gian."],
+  8: ["Lên kế hoạch đi Đài Nam và hỏi cách di chuyển.", "Dùng 跟 và 怎麼 để nói đi cùng ai và đi bằng cách nào."],
+  9: ["Nói về kỳ nghỉ và những nơi muốn đến.", "Phân biệt thời điểm với thời lượng khi kể chuyến đi."],
+  10: ["Chọn trái cây và kể lại trải nghiệm với bạn bè.", "Lặp động từ, tính từ để diễn tả hành động và cảm nhận tự nhiên hơn."],
+  11: ["Xem nhà thuê và hỏi về tiền thuê.", "Dùng 來 và 就 khi nói về mục đích và thời điểm."],
+  12: ["Nói về việc học tiếng Hoa và kế hoạch ở Đài Loan.", "Dùng 先…再… và 是…的 để kể trình tự và nhấn mạnh chi tiết."],
+  13: ["Gọi điện, hẹn gặp và chúc mừng sinh nhật.", "Dùng 一…就… và 了 để kể việc đã xảy ra."],
+  14: ["Nói về thời tiết và chuẩn bị khi trời mưa.", "Dùng 快要…了 và 了 để nói về việc sắp xảy ra hoặc còn tiếp diễn."],
+  15: ["Mô tả triệu chứng và hỏi cách chăm sóc sức khỏe.", "Dùng 把 và 了…就… trong lời hướng dẫn."],
+};
+
 function shuffle(values, seed) {
   const result = [...values];
   let state = [...seed].reduce((n, ch) => (n * 33 + ch.charCodeAt(0)) >>> 0, 5381);
@@ -80,26 +97,22 @@ const lessons = source.lessons.map((lesson, index) => {
     title: lesson.traditionalTitle,
     titleVi: lesson.titleVi,
     description: situations[lesson.number],
-    objectives: [
-      `Hiểu hai hội thoại về chủ đề ${lesson.titleVi.toLowerCase()}.`,
-      `Nhận biết và sử dụng ${matchingVocabulary.records.length} mục từ trong ngữ cảnh bài học.`,
-      `Vận dụng ${grammarPoints.length} điểm ngữ pháp của bài để nói và đọc câu đơn giản.`,
-    ],
+    objectives: lessonObjectives[lesson.number],
     estimatedMinutes: null,
     lecture: {
-      introduction: `Trong bài này, bạn sẽ nghe và đọc hai hội thoại về ${lesson.titleVi.toLowerCase()}. Hãy đọc chữ Hoa trước, sau đó mở phiên âm và bản dịch khi cần.`,
+      introduction: "Thử đọc hội thoại trước khi mở phiên âm và bản dịch.",
       sections: grammarPoints.slice(0, 2).map((point) => ({ id: `${point.id}-intro`, title: point.title, body: point.explanation, ...point.examples[0] })),
       dialogues: matchingDialogues.dialogues.map((dialogue, dialogueIndex) => ({ id: dialogue.id, title: `Hội thoại ${dialogueIndex + 1}`, context: situations[lesson.number], turns: dialogue.turns.map((turn) => ({ speaker: turn.speaker, chinese: turn.traditional, simplified: turn.simplified, pinyin: turn.pinyin, meaningVi: turn.meaningVi })) })),
       checks: grammarPoints.slice(0, 2).map((point) => ({ ...point.check, id: `${point.id}-lecture` })),
       pronunciation: [],
       culture: [],
     },
-    vocabulary: { introduction: `Từ trong hai hội thoại và danh sách từ của Bài ${String(lesson.number).padStart(2, "0")}, giữ nguyên thứ tự theo giáo trình. Chạm để tự kiểm tra trước khi xem nghĩa và ví dụ.`, wordIds: matchingVocabulary.records.map((word) => word.id) },
+    vocabulary: { introduction: "Chạm vào từng từ để xem nghĩa và ví dụ.", wordIds: matchingVocabulary.records.map((word) => word.id) },
     grammar: grammarPoints.map(({ id, title, explanation, structure, examples, commonMistake, check }) => ({ id, title, explanation, structure, examples, commonMistake, check })),
     listening,
     practice,
     assessment,
-    writingTask: { id: `${lesson.id}-writing`, title: "Viết theo tình huống", prompt: `Viết 2–3 câu tiếng Hoa về tình huống trong bài: ${situations[lesson.number]} Bài viết được lưu để bạn tự ôn; hệ thống chưa chấm tự động.` },
+    writingTask: { id: `${lesson.id}-writing`, title: "Viết theo tình huống", prompt: `Viết 2–3 câu tiếng Hoa cho tình huống này: ${situations[lesson.number]}` },
   };
   if (content.practice.length !== 12 || content.assessment.length !== 12 || content.listening.length !== 4) throw new Error(`Incomplete exercise set for ${lesson.id}`);
   return content;

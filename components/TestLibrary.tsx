@@ -36,7 +36,6 @@ export default function TestLibrary({ records }: { records: TestSummary[] }) {
         <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-[var(--brand-border)] bg-[var(--brand-soft)] px-4 py-2 text-xs font-bold text-[var(--brand)]"><span aria-hidden="true">✦</span> {t("Học vững từng ngày")}</div>
         <p className="mb-3 text-xs font-bold uppercase tracking-[.18em] text-[var(--brand)]">{t("Luyện đề TOCFL")}</p>
         <h1 className="max-w-3xl text-3xl font-semibold leading-tight tracking-tight sm:text-4xl">{t("Luyện đề TOCFL theo nhịp học của bạn.")}</h1>
-        <p className="mt-4 max-w-2xl leading-7 muted">{t("Chọn đề và cách làm bài phù hợp. Câu trả lời của bạn được tự động lưu trong lúc luyện tập.")}</p>
       </div>
       <MascotSticker variant="graduate" decorative className="vocabulary-header-sticker mascot-float" />
     </div>
@@ -46,7 +45,7 @@ export default function TestLibrary({ records }: { records: TestSummary[] }) {
       <div className="test-band-heading mb-5 flex items-center gap-3"><h3 className="text-xl font-semibold">{group.label === "Novice" ? "Band Novice" : group.label}</h3><span className="text-sm muted">{group.records.length} {t("đề")}</span></div>
       <div className="grid gap-5 md:grid-cols-2">{group.records.map((record) => {
         const content = <>
-        <div className="mb-6 flex items-start justify-between gap-4"><div><p className="mb-3 text-xs font-bold uppercase tracking-[.16em] text-[var(--brand)]">{t("Bài thi")} {record.sections.map((section) => t(section === "reading" ? "Đọc" : "Nghe")).join(" & ")}</p><h4 className="text-2xl font-semibold">{t(record.title)}</h4><p className="mt-2 text-sm muted">{t("Có bản Chữ Phồn thể và Chữ Giản thể.")}</p></div><span className="shrink-0 rounded-lg border border-[var(--brand-border)] bg-[var(--brand-soft)] px-3 py-1 text-xs font-bold text-[var(--brand)]">{record.level}</span></div>
+        <div className="mb-6 flex items-start justify-between gap-4"><div><p className="mb-3 text-xs font-bold uppercase tracking-[.16em] text-[var(--brand)]">{t("Bài thi")} {record.sections.map((section) => t(section === "reading" ? "Đọc" : "Nghe")).join(" & ")}</p><h4 className="text-2xl font-semibold">{t(record.title)}</h4></div><span className="shrink-0 rounded-lg border border-[var(--brand-border)] bg-[var(--brand-soft)] px-3 py-1 text-xs font-bold text-[var(--brand)]">{record.level}</span></div>
         <div className="grid grid-cols-2 gap-x-4 gap-y-5 border-y border-[var(--border)] py-5 text-sm">
           <div><p className="muted">{t("Phần thi")}</p><p className="mt-1 font-semibold">{record.sections.map((section) => t(section === "reading" ? "Đọc" : "Nghe")).join(" · ")}</p></div>
           <div><p className="muted">{t("Số câu hỏi")}</p><p className="mt-1 font-semibold">{record.questionCount} {t("câu")}</p></div>

@@ -51,7 +51,7 @@ export default function AccountDashboard({ tests }: { tests: TestTitle[] }) {
   }, [user]);
 
   if (!user) return <main className="account-guest-page mx-auto max-w-4xl px-5 py-16">
-    <section className="paper p-7 sm:p-10"><p className="page-eyebrow">{t("HỒ SƠ KHÁCH")}</p><h1 className="page-title">{t("Học theo cách của bạn")}</h1><p className="mt-4 leading-7 muted">{t("Bạn vẫn có thể học và luyện đề mà không cần tài khoản. Tiến độ khách được giữ trên thiết bị này.")}</p>
+    <section className="paper p-7 sm:p-10"><p className="page-eyebrow">{t("HỒ SƠ KHÁCH")}</p><h1 className="page-title">{t("Học theo cách của bạn")}</h1><p className="mt-4 leading-7 muted">{t("Bạn có thể học ngay. Tiến độ khách được lưu trên thiết bị này.")}</p>
       <Link href="/login" className="button-primary mt-7 inline-block">{t("Đăng nhập để đồng bộ tiến độ")}</Link>
       {!configured && <p className="mt-4 text-sm muted">{t("Tính năng đăng nhập đang chờ kết nối Supabase.")}</p>}
     </section>
@@ -67,7 +67,6 @@ export default function AccountDashboard({ tests }: { tests: TestTitle[] }) {
   return <main className="account-dashboard-page mx-auto max-w-6xl px-5 py-12 sm:py-16">
     <p className="page-eyebrow">{t("TÀI KHOẢN TAI WÉN")}</p>
     <h1 className="page-title">{t("Hồ sơ học tập")}</h1>
-    <p className="page-lead">{t("Theo dõi hành trình học tiếng Hoa và luyện thi TOCFL của bạn.")}</p>
     <nav className="mt-7 flex flex-wrap gap-2" aria-label={t("Mục trong hồ sơ")}>
       {[["#profile", "Hồ sơ của tôi"], ["#progress", "Tiến độ học tập"], ["#words", "Từ vựng đã học"], ["#active-tests", "Đề đang làm"], ["#history", "Lịch sử luyện đề"]].map(([href, label]) => <a key={href} href={href} className="button-secondary text-sm">{t(label)}</a>)}
     </nav>
@@ -86,9 +85,8 @@ export default function AccountDashboard({ tests }: { tests: TestTitle[] }) {
     </section>}
     {guestMigrationAvailable && <section className="mt-7 rounded-2xl border border-[var(--brand-border)] bg-[var(--brand-soft)] p-5 sm:p-6">
       <h2 className="text-lg font-bold text-[var(--brand)]">{t("Chuyển tiến độ khách vào tài khoản?")}</h2>
-      <p className="mt-2 text-sm leading-6">{t("Tai Wén tìm thấy tiến độ học trên thiết bị này. Bạn có thể gộp vào tài khoản; dữ liệu khách gốc vẫn được giữ lại.")}</p>
+      <p className="mt-2 text-sm leading-6">{t("Bạn có tiến độ khách trên thiết bị này. Gộp vào tài khoản? Dữ liệu gốc vẫn được giữ lại.")}</p>
       <button type="button" disabled={busy} className="button-primary mt-4" onClick={() => { setBusy(true); void migrateGuest().catch(() => { setMessage("Chuyển tiến độ chưa hoàn tất. Dữ liệu khách vẫn an toàn trên thiết bị này."); setBusy(false); }); }}>{t(busy ? "Đang chuyển tiến độ…" : "Gộp tiến độ khách")}</button>
-      <p className="mt-3 text-xs muted">{t("Bạn có thể bỏ qua và quay lại gộp sau.")}</p>
     </section>}
     <section id="profile" className="paper mt-8 p-6 sm:p-8">
       <div className="flex flex-wrap items-start justify-between gap-5"><div><h2 className="text-xl font-bold">{t("Hồ sơ của tôi")}</h2><p className="mt-3 font-semibold text-[var(--brand)]">{name}</p><p className="mt-1 text-sm muted">{user.email ?? t("Đã kết nối tài khoản")}</p></div><button type="button" className="button-secondary" onClick={() => void signOut().catch(() => setMessage("Chưa đăng xuất được. Vui lòng thử lại."))}>{t("Đăng xuất")}</button></div>

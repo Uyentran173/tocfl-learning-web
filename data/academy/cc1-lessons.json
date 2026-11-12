@@ -9,13 +9,12 @@
       "titleVi": "Gia đình tôi",
       "description": "Ghé thăm nhà bạn, giới thiệu người thân và hỏi về gia đình.",
       "objectives": [
-        "Hiểu hai hội thoại về chủ đề gia đình tôi.",
-        "Nhận biết và sử dụng 37 mục từ trong ngữ cảnh bài học.",
-        "Vận dụng 5 điểm ngữ pháp của bài để nói và đọc câu đơn giản."
+        "Giới thiệu người thân và hỏi về gia đình.",
+        "Dùng 的 và 有 để nói về quan hệ và đồ vật mình có."
       ],
       "estimatedMinutes": null,
       "lecture": {
-        "introduction": "Trong bài này, bạn sẽ nghe và đọc hai hội thoại về gia đình tôi. Hãy đọc chữ Hoa trước, sau đó mở phiên âm và bản dịch khi cần.",
+        "introduction": "Thử đọc hội thoại trước khi mở phiên âm và bản dịch.",
         "sections": [
           {
             "id": "cc1-v1-l02-grammar-01-intro",
@@ -219,7 +218,7 @@
         "culture": []
       },
       "vocabulary": {
-        "introduction": "Từ trong hai hội thoại và danh sách từ của Bài 02, giữ nguyên thứ tự theo giáo trình. Chạm để tự kiểm tra trước khi xem nghĩa và ví dụ.",
+        "introduction": "Chạm vào từng từ để xem nghĩa và ví dụ.",
         "wordIds": [
           "cc1-v1-l02-v1-01",
           "cc1-v1-l02-v1-02",
@@ -1189,7 +1188,7 @@
       "writingTask": {
         "id": "cc1-v1-l02-writing",
         "title": "Viết theo tình huống",
-        "prompt": "Viết 2–3 câu tiếng Hoa về tình huống trong bài: Ghé thăm nhà bạn, giới thiệu người thân và hỏi về gia đình. Bài viết được lưu để bạn tự ôn; hệ thống chưa chấm tự động."
+        "prompt": "Viết 2–3 câu tiếng Hoa cho tình huống này: Ghé thăm nhà bạn, giới thiệu người thân và hỏi về gia đình."
       }
     },
     {
@@ -1199,13 +1198,12 @@
       "titleVi": "Cuối tuần làm gì?",
       "description": "Rủ bạn đi chơi cuối tuần, nói về sở thích và hẹn xem phim.",
       "objectives": [
-        "Hiểu hai hội thoại về chủ đề cuối tuần làm gì?.",
-        "Nhận biết và sử dụng 41 mục từ trong ngữ cảnh bài học.",
-        "Vận dụng 5 điểm ngữ pháp của bài để nói và đọc câu đơn giản."
+        "Nói về kế hoạch cuối tuần, sở thích và lời hẹn.",
+        "Đặt thời gian đúng vị trí và dùng 去 khi nói về hoạt động."
       ],
       "estimatedMinutes": null,
       "lecture": {
-        "introduction": "Trong bài này, bạn sẽ nghe và đọc hai hội thoại về cuối tuần làm gì?. Hãy đọc chữ Hoa trước, sau đó mở phiên âm và bản dịch khi cần.",
+        "introduction": "Thử đọc hội thoại trước khi mở phiên âm và bản dịch.",
         "sections": [
           {
             "id": "cc1-v1-l03-grammar-01-intro",
@@ -1416,7 +1414,7 @@
         "culture": []
       },
       "vocabulary": {
-        "introduction": "Từ trong hai hội thoại và danh sách từ của Bài 03, giữ nguyên thứ tự theo giáo trình. Chạm để tự kiểm tra trước khi xem nghĩa và ví dụ.",
+        "introduction": "Chạm vào từng từ để xem nghĩa và ví dụ.",
         "wordIds": [
           "cc1-v1-l03-v1-01",
           "cc1-v1-l03-v1-02",
@@ -2390,7 +2388,7 @@
       "writingTask": {
         "id": "cc1-v1-l03-writing",
         "title": "Viết theo tình huống",
-        "prompt": "Viết 2–3 câu tiếng Hoa về tình huống trong bài: Rủ bạn đi chơi cuối tuần, nói về sở thích và hẹn xem phim. Bài viết được lưu để bạn tự ôn; hệ thống chưa chấm tự động."
+        "prompt": "Viết 2–3 câu tiếng Hoa cho tình huống này: Rủ bạn đi chơi cuối tuần, nói về sở thích và hẹn xem phim."
       }
     },
     {
@@ -2400,13 +2398,12 @@
       "titleVi": "Xin hỏi, tổng cộng bao nhiêu tiền?",
       "description": "Gọi món, hỏi giá và lựa chọn món hàng khi mua sắm.",
       "objectives": [
-        "Hiểu hai hội thoại về chủ đề xin hỏi, tổng cộng bao nhiêu tiền?.",
-        "Nhận biết và sử dụng 36 mục từ trong ngữ cảnh bài học.",
-        "Vận dụng 6 điểm ngữ pháp của bài để nói và đọc câu đơn giản."
+        "Gọi món, hỏi giá và mua sắm.",
+        "Dùng lượng từ phù hợp và nhờ người khác giúp bằng 幫."
       ],
       "estimatedMinutes": null,
       "lecture": {
-        "introduction": "Trong bài này, bạn sẽ nghe và đọc hai hội thoại về xin hỏi, tổng cộng bao nhiêu tiền?. Hãy đọc chữ Hoa trước, sau đó mở phiên âm và bản dịch khi cần.",
+        "introduction": "Thử đọc hội thoại trước khi mở phiên âm và bản dịch.",
         "sections": [
           {
             "id": "cc1-v1-l04-grammar-01-intro",
@@ -2596,7 +2593,7 @@
         "culture": []
       },
       "vocabulary": {
-        "introduction": "Từ trong hai hội thoại và danh sách từ của Bài 04, giữ nguyên thứ tự theo giáo trình. Chạm để tự kiểm tra trước khi xem nghĩa và ví dụ.",
+        "introduction": "Chạm vào từng từ để xem nghĩa và ví dụ.",
         "wordIds": [
           "cc1-v1-l04-v1-01",
           "cc1-v1-l04-v1-02",
@@ -3607,7 +3604,7 @@
       "writingTask": {
         "id": "cc1-v1-l04-writing",
         "title": "Viết theo tình huống",
-        "prompt": "Viết 2–3 câu tiếng Hoa về tình huống trong bài: Gọi món, hỏi giá và lựa chọn món hàng khi mua sắm. Bài viết được lưu để bạn tự ôn; hệ thống chưa chấm tự động."
+        "prompt": "Viết 2–3 câu tiếng Hoa cho tình huống này: Gọi món, hỏi giá và lựa chọn món hàng khi mua sắm."
       }
     },
     {
@@ -3617,13 +3614,12 @@
       "titleVi": "Mì bò ngon thật!",
       "description": "Nói về món ăn Đài Loan, khẩu vị và bữa ăn ở nhà hàng.",
       "objectives": [
-        "Hiểu hai hội thoại về chủ đề mì bò ngon thật!.",
-        "Nhận biết và sử dụng 36 mục từ trong ngữ cảnh bài học.",
-        "Vận dụng 4 điểm ngữ pháp của bài để nói và đọc câu đơn giản."
+        "Nói về món ăn, khẩu vị và bữa ăn ở nhà hàng.",
+        "Dùng 有一點 và 得 để nhận xét mức độ."
       ],
       "estimatedMinutes": null,
       "lecture": {
-        "introduction": "Trong bài này, bạn sẽ nghe và đọc hai hội thoại về mì bò ngon thật!. Hãy đọc chữ Hoa trước, sau đó mở phiên âm và bản dịch khi cần.",
+        "introduction": "Thử đọc hội thoại trước khi mở phiên âm và bản dịch.",
         "sections": [
           {
             "id": "cc1-v1-l05-grammar-01-intro",
@@ -3820,7 +3816,7 @@
         "culture": []
       },
       "vocabulary": {
-        "introduction": "Từ trong hai hội thoại và danh sách từ của Bài 05, giữ nguyên thứ tự theo giáo trình. Chạm để tự kiểm tra trước khi xem nghĩa và ví dụ.",
+        "introduction": "Chạm vào từng từ để xem nghĩa và ví dụ.",
         "wordIds": [
           "cc1-v1-l05-v1-01",
           "cc1-v1-l05-v1-02",
@@ -4747,7 +4743,7 @@
       "writingTask": {
         "id": "cc1-v1-l05-writing",
         "title": "Viết theo tình huống",
-        "prompt": "Viết 2–3 câu tiếng Hoa về tình huống trong bài: Nói về món ăn Đài Loan, khẩu vị và bữa ăn ở nhà hàng. Bài viết được lưu để bạn tự ôn; hệ thống chưa chấm tự động."
+        "prompt": "Viết 2–3 câu tiếng Hoa cho tình huống này: Nói về món ăn Đài Loan, khẩu vị và bữa ăn ở nhà hàng."
       }
     },
     {
@@ -4757,13 +4753,12 @@
       "titleVi": "Trường của họ ở trên núi",
       "description": "Hỏi đường đến trường, mô tả vị trí và khoảng cách.",
       "objectives": [
-        "Hiểu hai hội thoại về chủ đề trường của họ ở trên núi.",
-        "Nhận biết và sử dụng 41 mục từ trong ngữ cảnh bài học.",
-        "Vận dụng 4 điểm ngữ pháp của bài để nói và đọc câu đơn giản."
+        "Hỏi đường và mô tả vị trí.",
+        "Dùng 在 và 有 khi nói một nơi có gì."
       ],
       "estimatedMinutes": null,
       "lecture": {
-        "introduction": "Trong bài này, bạn sẽ nghe và đọc hai hội thoại về trường của họ ở trên núi. Hãy đọc chữ Hoa trước, sau đó mở phiên âm và bản dịch khi cần.",
+        "introduction": "Thử đọc hội thoại trước khi mở phiên âm và bản dịch.",
         "sections": [
           {
             "id": "cc1-v1-l06-grammar-01-intro",
@@ -4967,7 +4962,7 @@
         "culture": []
       },
       "vocabulary": {
-        "introduction": "Từ trong hai hội thoại và danh sách từ của Bài 06, giữ nguyên thứ tự theo giáo trình. Chạm để tự kiểm tra trước khi xem nghĩa và ví dụ.",
+        "introduction": "Chạm vào từng từ để xem nghĩa và ví dụ.",
         "wordIds": [
           "cc1-v1-l06-v1-01",
           "cc1-v1-l06-v1-02",
@@ -5899,7 +5894,7 @@
       "writingTask": {
         "id": "cc1-v1-l06-writing",
         "title": "Viết theo tình huống",
-        "prompt": "Viết 2–3 câu tiếng Hoa về tình huống trong bài: Hỏi đường đến trường, mô tả vị trí và khoảng cách. Bài viết được lưu để bạn tự ôn; hệ thống chưa chấm tự động."
+        "prompt": "Viết 2–3 câu tiếng Hoa cho tình huống này: Hỏi đường đến trường, mô tả vị trí và khoảng cách."
       }
     },
     {
@@ -5909,13 +5904,12 @@
       "titleVi": "Chín giờ sáng đi hát KTV",
       "description": "Hẹn giờ gặp bạn, sắp xếp việc học và hoạt động trong ngày.",
       "objectives": [
-        "Hiểu hai hội thoại về chủ đề chín giờ sáng đi hát ktv.",
-        "Nhận biết và sử dụng 39 mục từ trong ngữ cảnh bài học.",
-        "Vận dụng 5 điểm ngữ pháp của bài để nói và đọc câu đơn giản."
+        "Hẹn giờ và sắp xếp hoạt động trong ngày.",
+        "Dùng 從…到… để nói về khoảng thời gian."
       ],
       "estimatedMinutes": null,
       "lecture": {
-        "introduction": "Trong bài này, bạn sẽ nghe và đọc hai hội thoại về chín giờ sáng đi hát ktv. Hãy đọc chữ Hoa trước, sau đó mở phiên âm và bản dịch khi cần.",
+        "introduction": "Thử đọc hội thoại trước khi mở phiên âm và bản dịch.",
         "sections": [
           {
             "id": "cc1-v1-l07-grammar-01-intro",
@@ -6140,7 +6134,7 @@
         "culture": []
       },
       "vocabulary": {
-        "introduction": "Từ trong hai hội thoại và danh sách từ của Bài 07, giữ nguyên thứ tự theo giáo trình. Chạm để tự kiểm tra trước khi xem nghĩa và ví dụ.",
+        "introduction": "Chạm vào từng từ để xem nghĩa và ví dụ.",
         "wordIds": [
           "cc1-v1-l07-v1-01",
           "cc1-v1-l07-v1-02",
@@ -7112,7 +7106,7 @@
       "writingTask": {
         "id": "cc1-v1-l07-writing",
         "title": "Viết theo tình huống",
-        "prompt": "Viết 2–3 câu tiếng Hoa về tình huống trong bài: Hẹn giờ gặp bạn, sắp xếp việc học và hoạt động trong ngày. Bài viết được lưu để bạn tự ôn; hệ thống chưa chấm tự động."
+        "prompt": "Viết 2–3 câu tiếng Hoa cho tình huống này: Hẹn giờ gặp bạn, sắp xếp việc học và hoạt động trong ngày."
       }
     },
     {
@@ -7122,13 +7116,12 @@
       "titleVi": "Đi tàu hỏa đến Đài Nam",
       "description": "Lên kế hoạch đi Đài Nam và hỏi cách di chuyển bằng phương tiện công cộng.",
       "objectives": [
-        "Hiểu hai hội thoại về chủ đề đi tàu hỏa đến đài nam.",
-        "Nhận biết và sử dụng 34 mục từ trong ngữ cảnh bài học.",
-        "Vận dụng 5 điểm ngữ pháp của bài để nói và đọc câu đơn giản."
+        "Lên kế hoạch đi Đài Nam và hỏi cách di chuyển.",
+        "Dùng 跟 và 怎麼 để nói đi cùng ai và đi bằng cách nào."
       ],
       "estimatedMinutes": null,
       "lecture": {
-        "introduction": "Trong bài này, bạn sẽ nghe và đọc hai hội thoại về đi tàu hỏa đến đài nam. Hãy đọc chữ Hoa trước, sau đó mở phiên âm và bản dịch khi cần.",
+        "introduction": "Thử đọc hội thoại trước khi mở phiên âm và bản dịch.",
         "sections": [
           {
             "id": "cc1-v1-l08-grammar-01-intro",
@@ -7346,7 +7339,7 @@
         "culture": []
       },
       "vocabulary": {
-        "introduction": "Từ trong hai hội thoại và danh sách từ của Bài 08, giữ nguyên thứ tự theo giáo trình. Chạm để tự kiểm tra trước khi xem nghĩa và ví dụ.",
+        "introduction": "Chạm vào từng từ để xem nghĩa và ví dụ.",
         "wordIds": [
           "cc1-v1-l08-v1-01",
           "cc1-v1-l08-v1-02",
@@ -8313,7 +8306,7 @@
       "writingTask": {
         "id": "cc1-v1-l08-writing",
         "title": "Viết theo tình huống",
-        "prompt": "Viết 2–3 câu tiếng Hoa về tình huống trong bài: Lên kế hoạch đi Đài Nam và hỏi cách di chuyển bằng phương tiện công cộng. Bài viết được lưu để bạn tự ôn; hệ thống chưa chấm tự động."
+        "prompt": "Viết 2–3 câu tiếng Hoa cho tình huống này: Lên kế hoạch đi Đài Nam và hỏi cách di chuyển bằng phương tiện công cộng."
       }
     },
     {
@@ -8323,13 +8316,12 @@
       "titleVi": "Nghỉ lễ đi chơi ở đâu?",
       "description": "Lên kế hoạch cho kỳ nghỉ và giới thiệu địa điểm đi chơi.",
       "objectives": [
-        "Hiểu hai hội thoại về chủ đề nghỉ lễ đi chơi ở đâu?.",
-        "Nhận biết và sử dụng 30 mục từ trong ngữ cảnh bài học.",
-        "Vận dụng 5 điểm ngữ pháp của bài để nói và đọc câu đơn giản."
+        "Nói về kỳ nghỉ và những nơi muốn đến.",
+        "Phân biệt thời điểm với thời lượng khi kể chuyến đi."
       ],
       "estimatedMinutes": null,
       "lecture": {
-        "introduction": "Trong bài này, bạn sẽ nghe và đọc hai hội thoại về nghỉ lễ đi chơi ở đâu?. Hãy đọc chữ Hoa trước, sau đó mở phiên âm và bản dịch khi cần.",
+        "introduction": "Thử đọc hội thoại trước khi mở phiên âm và bản dịch.",
         "sections": [
           {
             "id": "cc1-v1-l09-grammar-01-intro",
@@ -8568,7 +8560,7 @@
         "culture": []
       },
       "vocabulary": {
-        "introduction": "Từ trong hai hội thoại và danh sách từ của Bài 09, giữ nguyên thứ tự theo giáo trình. Chạm để tự kiểm tra trước khi xem nghĩa và ví dụ.",
+        "introduction": "Chạm vào từng từ để xem nghĩa và ví dụ.",
         "wordIds": [
           "cc1-v1-l09-v1-01",
           "cc1-v1-l09-v1-02",
@@ -9531,7 +9523,7 @@
       "writingTask": {
         "id": "cc1-v1-l09-writing",
         "title": "Viết theo tình huống",
-        "prompt": "Viết 2–3 câu tiếng Hoa về tình huống trong bài: Lên kế hoạch cho kỳ nghỉ và giới thiệu địa điểm đi chơi. Bài viết được lưu để bạn tự ôn; hệ thống chưa chấm tự động."
+        "prompt": "Viết 2–3 câu tiếng Hoa cho tình huống này: Lên kế hoạch cho kỳ nghỉ và giới thiệu địa điểm đi chơi."
       }
     },
     {
@@ -9541,13 +9533,12 @@
       "titleVi": "Trái cây Đài Loan rất ngon",
       "description": "Chọn trái cây, kể chuyến đi và chia sẻ ảnh với bạn bè.",
       "objectives": [
-        "Hiểu hai hội thoại về chủ đề trái cây đài loan rất ngon.",
-        "Nhận biết và sử dụng 34 mục từ trong ngữ cảnh bài học.",
-        "Vận dụng 5 điểm ngữ pháp của bài để nói và đọc câu đơn giản."
+        "Chọn trái cây và kể lại trải nghiệm với bạn bè.",
+        "Lặp động từ, tính từ để diễn tả hành động và cảm nhận tự nhiên hơn."
       ],
       "estimatedMinutes": null,
       "lecture": {
-        "introduction": "Trong bài này, bạn sẽ nghe và đọc hai hội thoại về trái cây đài loan rất ngon. Hãy đọc chữ Hoa trước, sau đó mở phiên âm và bản dịch khi cần.",
+        "introduction": "Thử đọc hội thoại trước khi mở phiên âm và bản dịch.",
         "sections": [
           {
             "id": "cc1-v1-l10-grammar-01-intro",
@@ -9779,7 +9770,7 @@
         "culture": []
       },
       "vocabulary": {
-        "introduction": "Từ trong hai hội thoại và danh sách từ của Bài 10, giữ nguyên thứ tự theo giáo trình. Chạm để tự kiểm tra trước khi xem nghĩa và ví dụ.",
+        "introduction": "Chạm vào từng từ để xem nghĩa và ví dụ.",
         "wordIds": [
           "cc1-v1-l10-v1-01",
           "cc1-v1-l10-v1-02",
@@ -10746,7 +10737,7 @@
       "writingTask": {
         "id": "cc1-v1-l10-writing",
         "title": "Viết theo tình huống",
-        "prompt": "Viết 2–3 câu tiếng Hoa về tình huống trong bài: Chọn trái cây, kể chuyến đi và chia sẻ ảnh với bạn bè. Bài viết được lưu để bạn tự ôn; hệ thống chưa chấm tự động."
+        "prompt": "Viết 2–3 câu tiếng Hoa cho tình huống này: Chọn trái cây, kể chuyến đi và chia sẻ ảnh với bạn bè."
       }
     },
     {
@@ -10756,13 +10747,12 @@
       "titleVi": "Tôi muốn thuê nhà",
       "description": "Xem nhà thuê, trao đổi với chủ nhà và hỏi về tiền thuê.",
       "objectives": [
-        "Hiểu hai hội thoại về chủ đề tôi muốn thuê nhà.",
-        "Nhận biết và sử dụng 40 mục từ trong ngữ cảnh bài học.",
-        "Vận dụng 5 điểm ngữ pháp của bài để nói và đọc câu đơn giản."
+        "Xem nhà thuê và hỏi về tiền thuê.",
+        "Dùng 來 và 就 khi nói về mục đích và thời điểm."
       ],
       "estimatedMinutes": null,
       "lecture": {
-        "introduction": "Trong bài này, bạn sẽ nghe và đọc hai hội thoại về tôi muốn thuê nhà. Hãy đọc chữ Hoa trước, sau đó mở phiên âm và bản dịch khi cần.",
+        "introduction": "Thử đọc hội thoại trước khi mở phiên âm và bản dịch.",
         "sections": [
           {
             "id": "cc1-v1-l11-grammar-01-intro",
@@ -10994,7 +10984,7 @@
         "culture": []
       },
       "vocabulary": {
-        "introduction": "Từ trong hai hội thoại và danh sách từ của Bài 11, giữ nguyên thứ tự theo giáo trình. Chạm để tự kiểm tra trước khi xem nghĩa và ví dụ.",
+        "introduction": "Chạm vào từng từ để xem nghĩa và ví dụ.",
         "wordIds": [
           "cc1-v1-l11-v1-01",
           "cc1-v1-l11-v1-02",
@@ -11967,7 +11957,7 @@
       "writingTask": {
         "id": "cc1-v1-l11-writing",
         "title": "Viết theo tình huống",
-        "prompt": "Viết 2–3 câu tiếng Hoa về tình huống trong bài: Xem nhà thuê, trao đổi với chủ nhà và hỏi về tiền thuê. Bài viết được lưu để bạn tự ôn; hệ thống chưa chấm tự động."
+        "prompt": "Viết 2–3 câu tiếng Hoa cho tình huống này: Xem nhà thuê, trao đổi với chủ nhà và hỏi về tiền thuê."
       }
     },
     {
@@ -11977,13 +11967,12 @@
       "titleVi": "Bạn học tiếng Hoa ở Đài Loan bao lâu?",
       "description": "Nói về thời gian học tiếng Hoa, công việc và kế hoạch ở Đài Loan.",
       "objectives": [
-        "Hiểu hai hội thoại về chủ đề bạn học tiếng hoa ở đài loan bao lâu?.",
-        "Nhận biết và sử dụng 37 mục từ trong ngữ cảnh bài học.",
-        "Vận dụng 4 điểm ngữ pháp của bài để nói và đọc câu đơn giản."
+        "Nói về việc học tiếng Hoa và kế hoạch ở Đài Loan.",
+        "Dùng 先…再… và 是…的 để kể trình tự và nhấn mạnh chi tiết."
       ],
       "estimatedMinutes": null,
       "lecture": {
-        "introduction": "Trong bài này, bạn sẽ nghe và đọc hai hội thoại về bạn học tiếng hoa ở đài loan bao lâu?. Hãy đọc chữ Hoa trước, sau đó mở phiên âm và bản dịch khi cần.",
+        "introduction": "Thử đọc hội thoại trước khi mở phiên âm và bản dịch.",
         "sections": [
           {
             "id": "cc1-v1-l12-grammar-01-intro",
@@ -12236,7 +12225,7 @@
         "culture": []
       },
       "vocabulary": {
-        "introduction": "Từ trong hai hội thoại và danh sách từ của Bài 12, giữ nguyên thứ tự theo giáo trình. Chạm để tự kiểm tra trước khi xem nghĩa và ví dụ.",
+        "introduction": "Chạm vào từng từ để xem nghĩa và ví dụ.",
         "wordIds": [
           "cc1-v1-l12-v1-01",
           "cc1-v1-l12-v1-02",
@@ -13164,7 +13153,7 @@
       "writingTask": {
         "id": "cc1-v1-l12-writing",
         "title": "Viết theo tình huống",
-        "prompt": "Viết 2–3 câu tiếng Hoa về tình huống trong bài: Nói về thời gian học tiếng Hoa, công việc và kế hoạch ở Đài Loan. Bài viết được lưu để bạn tự ôn; hệ thống chưa chấm tự động."
+        "prompt": "Viết 2–3 câu tiếng Hoa cho tình huống này: Nói về thời gian học tiếng Hoa, công việc và kế hoạch ở Đài Loan."
       }
     },
     {
@@ -13174,13 +13163,12 @@
       "titleVi": "Chúc mừng sinh nhật",
       "description": "Gọi điện hẹn gặp, chúc mừng sinh nhật và tặng quà.",
       "objectives": [
-        "Hiểu hai hội thoại về chủ đề chúc mừng sinh nhật.",
-        "Nhận biết và sử dụng 40 mục từ trong ngữ cảnh bài học.",
-        "Vận dụng 5 điểm ngữ pháp của bài để nói và đọc câu đơn giản."
+        "Gọi điện, hẹn gặp và chúc mừng sinh nhật.",
+        "Dùng 一…就… và 了 để kể việc đã xảy ra."
       ],
       "estimatedMinutes": null,
       "lecture": {
-        "introduction": "Trong bài này, bạn sẽ nghe và đọc hai hội thoại về chúc mừng sinh nhật. Hãy đọc chữ Hoa trước, sau đó mở phiên âm và bản dịch khi cần.",
+        "introduction": "Thử đọc hội thoại trước khi mở phiên âm và bản dịch.",
         "sections": [
           {
             "id": "cc1-v1-l13-grammar-01-intro",
@@ -13454,7 +13442,7 @@
         "culture": []
       },
       "vocabulary": {
-        "introduction": "Từ trong hai hội thoại và danh sách từ của Bài 13, giữ nguyên thứ tự theo giáo trình. Chạm để tự kiểm tra trước khi xem nghĩa và ví dụ.",
+        "introduction": "Chạm vào từng từ để xem nghĩa và ví dụ.",
         "wordIds": [
           "cc1-v1-l13-v1-01",
           "cc1-v1-l13-v1-02",
@@ -14427,7 +14415,7 @@
       "writingTask": {
         "id": "cc1-v1-l13-writing",
         "title": "Viết theo tình huống",
-        "prompt": "Viết 2–3 câu tiếng Hoa về tình huống trong bài: Gọi điện hẹn gặp, chúc mừng sinh nhật và tặng quà. Bài viết được lưu để bạn tự ôn; hệ thống chưa chấm tự động."
+        "prompt": "Viết 2–3 câu tiếng Hoa cho tình huống này: Gọi điện hẹn gặp, chúc mừng sinh nhật và tặng quà."
       }
     },
     {
@@ -14437,13 +14425,12 @@
       "titleVi": "Trời lạnh thế!",
       "description": "Nói về thời tiết, so sánh nhiệt độ và chuẩn bị khi trời mưa.",
       "objectives": [
-        "Hiểu hai hội thoại về chủ đề trời lạnh thế!.",
-        "Nhận biết và sử dụng 35 mục từ trong ngữ cảnh bài học.",
-        "Vận dụng 5 điểm ngữ pháp của bài để nói và đọc câu đơn giản."
+        "Nói về thời tiết và chuẩn bị khi trời mưa.",
+        "Dùng 快要…了 và 了 để nói về việc sắp xảy ra hoặc còn tiếp diễn."
       ],
       "estimatedMinutes": null,
       "lecture": {
-        "introduction": "Trong bài này, bạn sẽ nghe và đọc hai hội thoại về trời lạnh thế!. Hãy đọc chữ Hoa trước, sau đó mở phiên âm và bản dịch khi cần.",
+        "introduction": "Thử đọc hội thoại trước khi mở phiên âm và bản dịch.",
         "sections": [
           {
             "id": "cc1-v1-l14-grammar-01-intro",
@@ -14682,7 +14669,7 @@
         "culture": []
       },
       "vocabulary": {
-        "introduction": "Từ trong hai hội thoại và danh sách từ của Bài 14, giữ nguyên thứ tự theo giáo trình. Chạm để tự kiểm tra trước khi xem nghĩa và ví dụ.",
+        "introduction": "Chạm vào từng từ để xem nghĩa và ví dụ.",
         "wordIds": [
           "cc1-v1-l14-v1-01",
           "cc1-v1-l14-v1-02",
@@ -15650,7 +15637,7 @@
       "writingTask": {
         "id": "cc1-v1-l14-writing",
         "title": "Viết theo tình huống",
-        "prompt": "Viết 2–3 câu tiếng Hoa về tình huống trong bài: Nói về thời tiết, so sánh nhiệt độ và chuẩn bị khi trời mưa. Bài viết được lưu để bạn tự ôn; hệ thống chưa chấm tự động."
+        "prompt": "Viết 2–3 câu tiếng Hoa cho tình huống này: Nói về thời tiết, so sánh nhiệt độ và chuẩn bị khi trời mưa."
       }
     },
     {
@@ -15660,13 +15647,12 @@
       "titleVi": "Tôi thấy không khỏe",
       "description": "Mô tả triệu chứng, đi khám và hỏi cách chăm sóc sức khỏe.",
       "objectives": [
-        "Hiểu hai hội thoại về chủ đề tôi thấy không khỏe.",
-        "Nhận biết và sử dụng 44 mục từ trong ngữ cảnh bài học.",
-        "Vận dụng 5 điểm ngữ pháp của bài để nói và đọc câu đơn giản."
+        "Mô tả triệu chứng và hỏi cách chăm sóc sức khỏe.",
+        "Dùng 把 và 了…就… trong lời hướng dẫn."
       ],
       "estimatedMinutes": null,
       "lecture": {
-        "introduction": "Trong bài này, bạn sẽ nghe và đọc hai hội thoại về tôi thấy không khỏe. Hãy đọc chữ Hoa trước, sau đó mở phiên âm và bản dịch khi cần.",
+        "introduction": "Thử đọc hội thoại trước khi mở phiên âm và bản dịch.",
         "sections": [
           {
             "id": "cc1-v1-l15-grammar-01-intro",
@@ -15926,7 +15912,7 @@
         "culture": []
       },
       "vocabulary": {
-        "introduction": "Từ trong hai hội thoại và danh sách từ của Bài 15, giữ nguyên thứ tự theo giáo trình. Chạm để tự kiểm tra trước khi xem nghĩa và ví dụ.",
+        "introduction": "Chạm vào từng từ để xem nghĩa và ví dụ.",
         "wordIds": [
           "cc1-v1-l15-v1-01",
           "cc1-v1-l15-v1-02",
@@ -16903,7 +16889,7 @@
       "writingTask": {
         "id": "cc1-v1-l15-writing",
         "title": "Viết theo tình huống",
-        "prompt": "Viết 2–3 câu tiếng Hoa về tình huống trong bài: Mô tả triệu chứng, đi khám và hỏi cách chăm sóc sức khỏe. Bài viết được lưu để bạn tự ôn; hệ thống chưa chấm tự động."
+        "prompt": "Viết 2–3 câu tiếng Hoa cho tình huống này: Mô tả triệu chứng, đi khám và hỏi cách chăm sóc sức khỏe."
       }
     }
   ]

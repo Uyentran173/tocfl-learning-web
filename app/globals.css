@@ -78,7 +78,6 @@ button:not(:disabled):active { transform: translateY(1px); filter: brightness(.9
 .site-footer-title .site-brand-logo { width: 38px; height: 38px; flex-basis: 38px; border-radius: 10px; }
 .site-footer-title .site-brand-logo img { width: 35px; height: 35px; }
 .site-footer-about p:not(.site-footer-title) { font-size: 13px; line-height: 1.7; }
-.site-footer-note { margin-top: 10px; }
 .site-footer h2 { margin: 2px 0 17px; color: var(--text); font-size: 13px; font-weight: 800; }
 .site-footer a { display: block; width: fit-content; margin-top: 10px; color: var(--muted); font-size: 13px; line-height: 1.5; text-decoration: none; }
 .site-footer a:hover { color: var(--brand); text-decoration: underline; text-underline-offset: 3px; }
@@ -231,7 +230,6 @@ button:not(:disabled):active { transform: translateY(1px); filter: brightness(.9
 .review-transcript-line .transcript-vietnamese { margin-top: 2px; color: var(--muted); }
 .review-evidence { border-radius: 4px; background: #dfe8ff; color: var(--brand); box-shadow: 0 0 0 2px #dfe8ff; font-weight: 800; }
 .review-image-evidence { position: absolute; z-index: 1; pointer-events: none; border: 2px solid #d49a27; border-radius: 5px; background: rgba(255, 211, 100, .2); box-shadow: 0 0 0 2px rgba(255, 255, 255, .68); }
-.review-evidence-note { margin-top: 6px; color: var(--muted); font-size: 12px; line-height: 1.5; }
 
 /* Reading annotations are available only inside the practice question content. */
 .practice-selectable-text { user-select: text; -webkit-user-select: text; }
@@ -380,14 +378,12 @@ button:not(:disabled):active { transform: translateY(1px); filter: brightness(.9
 .home-hero-sticker { position: absolute; z-index: 2; width: min(70%, 360px); right: -1%; bottom: -3%; filter: drop-shadow(0 20px 24px rgba(1,31,130,.13)); }
 .home-hero-art:has(.home-hero-sticker) .home-word-card { z-index: 3; transform: translateX(-155px) rotate(-5deg) scale(.72); }
 .home-hero-art:has(.home-hero-sticker) .home-landscape { opacity: .35; }
-.vocabulary-tip-sticker { width: 86px; flex: 0 0 86px; }
 .vocabulary-header-sticker { width: 145px; max-width: 30vw; flex: 0 0 auto; filter: drop-shadow(0 10px 14px rgba(1,31,130,.12)); }
 .result-mascot-panel { display: flex; align-items: center; gap: 20px; border: 1px solid var(--brand-border); border-radius: 20px; background: linear-gradient(125deg,#f8faff,#eef2ff); padding: 18px 22px; }
 .result-mascot-art { width: 152px; flex: 0 0 152px; }
-.review-mascot { width: 78px; flex: 0 0 78px; }
-.review-mascot-note { display: flex; align-items: center; gap: 11px; min-height: 90px; border: 1px solid var(--brand-border); border-radius: 16px; background: #f8faff; padding: 10px 16px; }
+.review-mascot { width: 48px; flex: 0 0 48px; }
 .band-empty-sticker { width: 130px; margin: 0 auto 10px; }
-@media (max-width: 600px) { .home-hero-sticker { width: 62%; right: -2%; bottom: -1%; } .home-hero-art:has(.home-hero-sticker) .home-word-card { transform: translateX(-76px) rotate(-5deg) scale(.68); } .result-mascot-panel { align-items: flex-start; padding: 16px; } .result-mascot-art { width: 95px; flex-basis: 95px; } .review-mascot { width: 62px; flex-basis: 62px; } }
+@media (max-width: 600px) { .home-hero-sticker { width: 62%; right: -2%; bottom: -1%; } .home-hero-art:has(.home-hero-sticker) .home-word-card { transform: translateX(-76px) rotate(-5deg) scale(.68); } .result-mascot-panel { align-items: flex-start; padding: 16px; } .result-mascot-art { width: 95px; flex-basis: 95px; } .review-mascot { width: 42px; flex-basis: 42px; } }
 @media (prefers-reduced-motion: reduce) { .mascot-float, .mascot-pop { animation: none; } .mascot-hover { transition: none; } }
 .home-path-art-sticker { position: absolute; top: 18px; right: 18px; width: 90px; height: 82px; transition: transform 180ms ease; }
 .home-path-card:hover .home-path-art-sticker { transform: translateY(-4px) rotate(3deg); }
@@ -436,7 +432,7 @@ body, .site-header, .site-footer, .paper, .report-surface, .sim-canvas {
 .band-flashcard-face, .study-flashcard { background: linear-gradient(145deg,var(--surface) 20%,var(--brand-soft)); }
 .band-flashcard-level { background: var(--surface-raised); }
 .study-progress { background: var(--border); }
-.review-transcript, .review-mascot-note, .result-mascot-panel { background: var(--brand-soft); }
+.review-transcript, .result-mascot-panel { background: var(--brand-soft); }
 .sim-toolbar, .sim-toolbar-section, .sim-intro-subtitle, .sim-overline, .sim-status-message, .sim-transition-time { color: var(--muted); }
 .sim-question-number { color: var(--text); }
 .sim-toolbar, .sim-footer { border-color: var(--border); }

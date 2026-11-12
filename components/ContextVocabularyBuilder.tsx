@@ -129,7 +129,6 @@ export default function ContextVocabularyBuilder() {
           {([10, 20, 30] as const).map((count) => <label key={count} className="inline-flex cursor-pointer items-center gap-2 rounded-xl border border-[var(--border)] px-3 py-2 text-sm"><input type="radio" name="count" checked={options.count === count} onChange={() => update("count", count)} />{count} {t("từ")}</label>)}
         </div></fieldset>
       </div>
-      <p className="mt-5 text-sm leading-6 muted">{t("Bộ từ lấy từ dữ liệu đang có. Với chủ đề riêng, hệ thống chỉ chọn từ khớp rõ với chủ đề; không tự tạo từ mới hoặc gắn nhãn TOCFL cho nguồn khác.")}</p>
       <button type="submit" className="button-primary mt-6" disabled={loading}>{loading ? t("Đang tạo bộ từ…") : t("Tạo bộ từ")}</button>
       {error && <p className="mt-4 text-sm text-red-700" role="alert">{error}</p>}
     </form>
@@ -146,7 +145,7 @@ export default function ContextVocabularyBuilder() {
         <div><dt className="muted">{t("Số lượng từ")}</dt><dd className="font-semibold">{result.words.length}/{config.count} {t("từ")}</dd></div>
       </dl>
       {result.words.length < config.count && <p className="mt-5 rounded-xl bg-[var(--brand-soft)] px-4 py-3 text-sm leading-6 text-[var(--brand)]" role="status">{t("Nguồn và điều kiện bạn chọn chỉ có")} {result.available} {t("từ phù hợp, đủ nghĩa và ví dụ. Hãy đổi chủ đề, trình độ hoặc nguồn nếu muốn thêm từ.")}</p>}
-      {config.difficulty === "advanced" && <p className="mt-3 text-sm muted">{t("Các từ nâng cao hiện có nội dung học đầy đủ thuộc TOCFL cấp 4; Band C đang chờ biên tập nghĩa và ví dụ.")}</p>}
+      {config.difficulty === "advanced" && <p className="mt-3 text-sm muted">{t("Band C chưa có đủ nghĩa và ví dụ để học theo chủ đề.")}</p>}
       {config.purpose === "tocfl" && config.source !== "auto" && config.source !== "tocfl" && <p className="mt-3 text-sm muted">{t("Bạn đã chọn nguồn ngoài TOCFL chính thức; các từ này không được ghi là từ TOCFL.")}</p>}
       {result.words.length > 0 ? <ul className="mt-5 flex flex-wrap gap-2" aria-label={t("Các từ trong bộ")}>
         {result.words.map((word) => <li key={word.id} className="rounded-full border border-[var(--border)] px-3 py-1.5 text-sm"><span lang={config.script === "simplified" ? "zh-Hans" : "zh-Hant"}>{config.script === "simplified" ? word.simplified : word.traditional}</span><span className="ml-2 text-xs muted">{t(sourceLabels[word.source])}</span></li>)}

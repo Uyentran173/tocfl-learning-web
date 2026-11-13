@@ -14,7 +14,8 @@ import cc2Lesson10Data from "../data/academy/cc2-lesson10.json" with { type: "js
 import cc2Lesson11Data from "../data/academy/cc2-lesson11.json" with { type: "json" };
 import cc2Lesson12Data from "../data/academy/cc2-lesson12.json" with { type: "json" };
 import cc2Lesson13Data from "../data/academy/cc2-lesson13.json" with { type: "json" };
-import { cc2Lesson01Words, cc2Lesson02Words, cc2Lesson03Words, cc2Lesson04Words, cc2Lesson05Words, cc2Lesson06Words, cc2Lesson07Words, cc2Lesson08Words, cc2Lesson09Words, cc2Lesson10Words, cc2Lesson11Words, cc2Lesson12Words, cc2Lesson13Words } from "./cc2-course-vocabulary.ts";
+import cc2Lesson14Data from "../data/academy/cc2-lesson14.json" with { type: "json" };
+import { cc2Lesson01Words, cc2Lesson02Words, cc2Lesson03Words, cc2Lesson04Words, cc2Lesson05Words, cc2Lesson06Words, cc2Lesson07Words, cc2Lesson08Words, cc2Lesson09Words, cc2Lesson10Words, cc2Lesson11Words, cc2Lesson12Words, cc2Lesson13Words, cc2Lesson14Words } from "./cc2-course-vocabulary.ts";
 export { academyLesson01 };
 
 export const academyActivityKinds = ["lecture", "vocabulary", "grammar", "practice", "assessment"] as const;
@@ -138,6 +139,10 @@ export const academyVolume2Lesson13 = {
   ...cc2Lesson13Data,
   vocabulary: { ...cc2Lesson13Data.vocabulary, wordIds: cc2Lesson13Words.map((word) => word.id!) },
 } as unknown as AcademyLessonContent;
+export const academyVolume2Lesson14 = {
+  ...cc2Lesson14Data,
+  vocabulary: { ...cc2Lesson14Data.vocabulary, wordIds: cc2Lesson14Words.map((word) => word.id!) },
+} as unknown as AcademyLessonContent;
 export const academyVolume2LessonSummaries = [
   { chinese: "請問，到師大怎麼走？", vi: "Hỏi đường đến Sư Đại" },
   { chinese: "還是坐捷運吧！", vi: "Đi MRT thì hơn!" },
@@ -207,6 +212,7 @@ export function academyStaticLessonById(id: string): AcademyLessonContent | null
   if (id === academyVolume2Lesson11.id) return academyVolume2Lesson11;
   if (id === academyVolume2Lesson12.id) return academyVolume2Lesson12;
   if (id === academyVolume2Lesson13.id) return academyVolume2Lesson13;
+  if (id === academyVolume2Lesson14.id) return academyVolume2Lesson14;
   const number = academyLessonNumber(id);
   return number && id.startsWith("cc1-v1-") ? academyStaticLesson(number) : null;
 }

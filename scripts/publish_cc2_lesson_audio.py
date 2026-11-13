@@ -193,6 +193,22 @@ VERIFIED = {
         ("workbook", 3): (104, "Nghe hội thoại, xác định đúng sai", 5),
         ("workbook", 4): (104, "Nghe câu chuyện, chọn đáp án", None),
     },
+    14: {
+        ("textbook", 1): (385, "Đối thoại", None),
+        ("textbook", 2): (389, "Từ vựng hội thoại", None),
+        ("textbook", 3): (390, "Bài đọc", None),
+        ("textbook", 4): (392, "Từ vựng bài đọc", None),
+        ("textbook", 5): (393, "Ngữ pháp: 就要…了", None),
+        ("textbook", 6): (395, "Ngữ pháp: 說到 / 談到", None),
+        ("textbook", 7): (396, "Ngữ pháp: 對 A 有 B", None),
+        ("textbook", 8): (397, "Ngữ pháp: 連…都…", None),
+        ("textbook", 9): (399, "Ngữ pháp: 不但…而且…", None),
+        ("textbook", 10): (401, "Ngữ pháp: 把 không chủ ý", None),
+        ("workbook", 1): (111, "Nghe và chép chính tả", 5),
+        ("workbook", 2): (111, "Nghe hội thoại ngắn, chọn đáp án", 5),
+        ("workbook", 3): (112, "Nghe câu chuyện, xác định đúng sai", 8),
+        ("workbook", 4): (113, "Nghe câu và điền bảng", None),
+    },
 }
 
 

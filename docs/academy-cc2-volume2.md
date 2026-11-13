@@ -1,6 +1,6 @@
 # Contemporary Chinese · Volume 2
 
-Volume 2 has 15 lesson identities (`cc2-v2-l01` through `cc2-v2-l15`). Lessons 01–13 are published. Lessons 14–15 remain unavailable until their text, teaching content, and audio mappings have been reviewed. Each completed lesson is released separately.
+Volume 2 has 15 lesson identities (`cc2-v2-l01` through `cc2-v2-l15`). Lessons 01–14 are published. Lesson 15 remains unavailable until its text, teaching content, and audio mappings have been reviewed. Each completed lesson is released separately.
 
 ## Source and staging
 
@@ -18,7 +18,7 @@ python3 scripts/import_cc2_audio.py \
   --workbook-zip '/Users/macbookpro/Downloads/當代中文課程 第二冊 作業本-20261112T123209Z-1-001.zip'
 ```
 
-Use `python3 scripts/publish_cc2_lesson01_audio.py`, `python3 scripts/publish_cc2_lesson02_audio.py`, and `python3 scripts/publish_cc2_lesson_audio.py --lesson N` for N = 3–13 after staging and checking the printed codes against the PDFs. They copy 13, 14, 14, 13, 13, 13, 13, 16, 14, 13, 15, 14, and 17 tracks, respectively, into `public/academy/cc2/audio/`. No later lesson audio is public. Re-running the staging import resets mapping statuses, so re-run all thirteen publication steps afterward.
+Use `python3 scripts/publish_cc2_lesson01_audio.py`, `python3 scripts/publish_cc2_lesson02_audio.py`, and `python3 scripts/publish_cc2_lesson_audio.py --lesson N` for N = 3–14 after staging and checking the printed codes against the PDFs. They copy 13, 14, 14, 13, 13, 13, 13, 16, 14, 13, 15, 14, 17, and 14 tracks, respectively, into `public/academy/cc2/audio/`. No later lesson audio is public. Re-running the staging import resets mapping statuses, so re-run all fourteen publication steps afterward.
 
 ## Lesson 01
 
@@ -99,6 +99,12 @@ The 14 recordings follow textbook codes `12-01`–`12-10` on pages 325, 329–33
 `scripts/build_cc2_vocabulary.py --lesson 13` builds 44 textbook vocabulary records. The lesson's 過 is kept distinct from the earlier experience marker because here it marks completion of a particular action. `scripts/build_cc2_lesson13.py` builds the 20-turn lost-phone dialogue, three-paragraph internet reading, nine grammar points, four listening checks, eight practice questions, and ten assessment questions. Traditional lines were checked against textbook PDF pages 349–350 and 354; Vietnamese teaching content is written for Tai Wén.
 
 The 17 recordings follow textbook codes `13-01`–`13-13` on pages 349, 353–370 and workbook codes `13-1`–`13-4` on pages 103–104. Workbook recordings stay separate without invented transcripts or answer keys. Progress keys use `cc2-v2-l13`.
+
+## Lesson 14
+
+`scripts/build_cc2_vocabulary.py --lesson 14` builds 47 textbook vocabulary records. `scripts/build_cc2_lesson14.py` builds the 22-turn career-planning dialogue, three-paragraph reading about the three learners' plans, six grammar points, four listening checks, eight practice questions, and ten assessment questions. Traditional text was checked against textbook PDF pages 385–386 and 390; Vietnamese translations and exercises are Tai Wén content.
+
+The 14 recordings follow textbook codes `14-01`–`14-10` on pages 385, 389–401 and workbook codes `14-1`–`14-4` on pages 111–113. Workbook recordings stay separate without invented transcripts or answer keys. Progress keys use `cc2-v2-l14`.
 
 ## Remaining work
 

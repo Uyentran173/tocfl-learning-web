@@ -1,0 +1,1076 @@
+{
+  "contentVersion": 2,
+  "id": "cc2-v2-l14",
+  "title": "我要開始找工作了",
+  "titleVi": "Tôi sắp bắt đầu tìm việc",
+  "description": "Nói về tốt nghiệp, chọn nghề và kế hoạch sau khi rời Đài Loan.",
+  "objectives": [
+    "Kể kế hoạch học tiếp hoặc tìm việc sau khi tốt nghiệp.",
+    "Nói điều gì sắp diễn ra bằng 就要…了.",
+    "Dùng 連…都… và 不但…而且… để nhấn ý."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Mỹ Linh, Như Ngọc và Ái Lệ nói về việc học, công việc và lúc phải tạm biệt nhau.",
+    "sections": [
+      {
+        "id": "cc2-v2-l14-section-01",
+        "title": "Kế hoạch sau khóa học",
+        "body": "Nghe ba người bạn nói về công việc và việc học tiếp.",
+        "chinese": "在我回國以前，要開始找工作。",
+        "simplified": "在我回国以前，要开始找工作。",
+        "pinyin": "zài wǒ huí guó yǐ qián ， yào kāi shǐ zhǎo gōng zuò 。",
+        "meaningVi": "Trước khi về nước, tôi sẽ bắt đầu tìm việc."
+      },
+      {
+        "id": "cc2-v2-l14-section-02",
+        "title": "Giới thiệu năng lực",
+        "body": "Bài đọc kể vì sao mỗi người học tiếng Hoa và dự định dùng ngôn ngữ đó thế nào.",
+        "chinese": "懂中文對找工作會有幫助。",
+        "simplified": "懂中文对找工作会有帮助。",
+        "pinyin": "dǒng zhōng wén duì zhǎo gōng zuò huì yǒu bāng zhù 。",
+        "meaningVi": "Biết tiếng Hoa sẽ có ích khi tìm việc."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc2-v2-l14-dialogue",
+        "title": "Sau khi rời Đài Loan",
+        "context": "Ba người bạn chia sẻ dự định học và làm việc trong tương lai.",
+        "audioTrackId": "cc2-textbook-l14-t01",
+        "turns": [
+          {
+            "speaker": "美玲",
+            "chinese": "如玉，好久不見，跟我們一起坐吧。",
+            "simplified": "如玉，好久不见，跟我们一起坐吧。",
+            "pinyin": "rú yù ， hǎo jiǔ bù jiàn ， gēn wǒ men yì qǐ zuò ba 。",
+            "meaningVi": "Như Ngọc, lâu rồi không gặp. Ngồi cùng chúng tôi đi."
+          },
+          {
+            "speaker": "如玉",
+            "chinese": "好啊！妳們在聊什麼，聊得這麼高興？",
+            "simplified": "好啊！妳们在聊什么，聊得这么高兴？",
+            "pinyin": "hǎo a ！ nǐ men zài liáo shén me ， liáo dé zhè me gāo xìng ？",
+            "meaningVi": "Được chứ! Hai bạn đang nói chuyện gì mà vui thế?"
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "這個學期結束，我就要離開台灣了，正在跟愛麗說我將來的計畫。",
+            "simplified": "这个学期结束，我就要离开台湾了，正在跟爱丽说我将来的计划。",
+            "pinyin": "zhè gè xué qī jié shù ， wǒ jiù yào lí kāi tái wān le ， zhèng zài gēn ài lì shuō wǒ jiāng lái de jì huà 。",
+            "meaningVi": "Hết học kỳ này tôi sắp rời Đài Loan, đang kể Ái Lệ nghe kế hoạch tương lai."
+          },
+          {
+            "speaker": "如玉",
+            "chinese": "時間過得好快啊！妳已經來了快一年半了。",
+            "simplified": "时间过得好快啊！妳已经来了快一年半了。",
+            "pinyin": "shí jiān guò dé hǎo kuài a ！ nǐ yǐ jīng lái le kuài yī nián bàn le 。",
+            "meaningVi": "Thời gian trôi nhanh thật! Bạn đến đây gần một năm rưỡi rồi."
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "對啊！在我回國以前，要開始找工作。",
+            "simplified": "对啊！在我回国以前，要开始找工作。",
+            "pinyin": "duì a ！ zài wǒ huí guó yǐ qián ， yào kāi shǐ zhǎo gōng zuò 。",
+            "meaningVi": "Đúng vậy! Trước khi về nước, tôi sẽ bắt đầu tìm việc."
+          },
+          {
+            "speaker": "愛麗",
+            "chinese": "妳剛剛說到對一個工作有興趣，是什麼工作呢？",
+            "simplified": "妳刚刚说到对一个工作有兴趣，是什么工作呢？",
+            "pinyin": "nǐ gāng gāng shuō dào duì yī gè gōng zuò yǒu xìng qù ， shì shén me gōng zuò ne ？",
+            "meaningVi": "Bạn vừa nói có hứng thú với một công việc. Đó là việc gì?"
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "我以前念的高中正在徵求一位教中文的教師，我想試試看。",
+            "simplified": "我以前念的高中正在征求一位教中文的教师，我想试试看。",
+            "pinyin": "wǒ yǐ qián niàn de gāo zhōng zhèng zài zhēng qiú yī wèi jiāo zhōng wén de jiào shī ， wǒ xiǎng shì shì kàn 。",
+            "meaningVi": "Trường cấp ba trước đây tôi học đang tuyển giáo viên tiếng Hoa, tôi muốn thử ứng tuyển."
+          },
+          {
+            "speaker": "愛麗",
+            "chinese": "妳的中文學得不錯，我認為妳回去教中文應該沒問題。",
+            "simplified": "妳的中文学得不错，我认为妳回去教中文应该没问题。",
+            "pinyin": "nǐ de zhōng wén xué dé bù cuò ， wǒ rèn wèi nǐ huí qù jiāo zhōng wén yīng gāi méi wèn tí 。",
+            "meaningVi": "Tiếng Hoa của bạn khá tốt; tôi nghĩ về dạy tiếng Hoa sẽ không có vấn đề gì."
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "真的嗎？我也希望這樣。",
+            "simplified": "真的吗？我也希望这样。",
+            "pinyin": "zhēn de ma ？ wǒ yě xī wàng zhè yàng 。",
+            "meaningVi": "Thật sao? Tôi cũng mong vậy."
+          },
+          {
+            "speaker": "愛麗",
+            "chinese": "如玉，妳也快要離開了，有什麼打算呢？",
+            "simplified": "如玉，妳也快要离开了，有什么打算呢？",
+            "pinyin": "rú yù ， nǐ yě kuài yào lí kāi le ， yǒu shén me dǎ suàn ne ？",
+            "meaningVi": "Như Ngọc, bạn cũng sắp rời đi. Bạn có dự định gì?"
+          },
+          {
+            "speaker": "如玉",
+            "chinese": "我得先回美國把大學念完，等我畢業了，再到香港或是上海找工作。",
+            "simplified": "我得先回美国把大学念完，等我毕业了，再到香港或是上海找工作。",
+            "pinyin": "wǒ dé xiān huí měi guó bǎ dà xué niàn wán ， děng wǒ bì yè le ， zài dào xiāng gǎng huò shì shàng hǎi zhǎo gōng zuò 。",
+            "meaningVi": "Tôi phải về Mỹ học xong đại học trước, tốt nghiệp rồi mới đến Hồng Kông hoặc Thượng Hải tìm việc."
+          },
+          {
+            "speaker": "愛麗",
+            "chinese": "妳怎麼會想到上海找工作呢？",
+            "simplified": "妳怎么会想到上海找工作呢？",
+            "pinyin": "nǐ zěn me huì xiǎng dào shàng hǎi zhǎo gōng zuò ne ？",
+            "meaningVi": "Sao bạn lại nghĩ đến việc tìm việc ở Thượng Hải?"
+          },
+          {
+            "speaker": "如玉",
+            "chinese": "我聽幾位朋友說，這幾年上海發展得很快，連外國人都很容易找到工作。如果能找到美國分公司的工作，應該不錯。",
+            "simplified": "我听几位朋友说，这几年上海发展得很快，连外国人都很容易找到工作。如果能找到美国分公司的工作，应该不错。",
+            "pinyin": "wǒ tīng jǐ wèi péng yǒu shuō ， zhè jǐ nián shàng hǎi fā zhǎn dé hěn kuài ， lián wài guó rén dōu hěn róng yì zhǎo dào gōng zuò 。 rú guǒ néng zhǎo dào měi guó fēn gōng sī de gōng zuò ， yīng gāi bù cuò 。",
+            "meaningVi": "Bạn bè nói mấy năm nay Thượng Hải phát triển rất nhanh, ngay cả người nước ngoài cũng dễ tìm việc. Nếu vào được chi nhánh công ty Mỹ thì tốt."
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "這個想法不錯，不但可以繼續使用中文，而且可以了解那裡跟台灣有什麼不同。",
+            "simplified": "这个想法不错，不但可以继续使用中文，而且可以了解那里跟台湾有什么不同。",
+            "pinyin": "zhè gè xiǎng fǎ bù cuò ， bù dàn kě yǐ jì xù shǐ yòng zhōng wén ， ér qiě kě yǐ liǎo jiě nà lǐ gēn tái wān yǒu shén me bù tóng 。",
+            "meaningVi": "Ý hay đấy. Không những tiếp tục dùng tiếng Hoa mà còn hiểu nơi đó khác Đài Loan ra sao."
+          },
+          {
+            "speaker": "如玉",
+            "chinese": "真希望我的計畫都能實現。",
+            "simplified": "真希望我的计划都能实现。",
+            "pinyin": "zhēn xī wàng wǒ de jì huà dōu néng shí xiàn 。",
+            "meaningVi": "Mong các kế hoạch của tôi đều thành hiện thực."
+          },
+          {
+            "speaker": "愛麗",
+            "chinese": "我才認識妳們幾個月，妳們就要回國了，真捨不得妳們。",
+            "simplified": "我才认识妳们几个月，妳们就要回国了，真舍不得妳们。",
+            "pinyin": "wǒ cái rèn shí nǐ men jǐ gè yuè ， nǐ men jiù yào huí guó le ， zhēn shě bù dé nǐ men 。",
+            "meaningVi": "Tôi mới quen các bạn vài tháng mà các bạn sắp về nước rồi, thật không nỡ xa."
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "妳可以到法國來找我，我一定會好好招待妳。",
+            "simplified": "妳可以到法国来找我，我一定会好好招待妳。",
+            "pinyin": "nǐ kě yǐ dào fǎ guó lái zhǎo wǒ ， wǒ yí dìng huì hǎo hǎo zhāo dài nǐ 。",
+            "meaningVi": "Bạn có thể đến Pháp thăm tôi; tôi nhất định sẽ tiếp đón chu đáo."
+          },
+          {
+            "speaker": "愛麗",
+            "chinese": "太好了！有機會我一定去找妳。",
+            "simplified": "太好了！有机会我一定去找妳。",
+            "pinyin": "tài hǎo le ！ yǒu jī huì wǒ yí dìng qù zhǎo nǐ 。",
+            "meaningVi": "Tuyệt quá! Có dịp tôi nhất định sẽ đến thăm."
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "愛麗，妳還要在台灣住多久？",
+            "simplified": "爱丽，妳还要在台湾住多久？",
+            "pinyin": "ài lì ， nǐ hái yào zài tái wān zhù duō jiǔ ？",
+            "meaningVi": "Ái Lệ, bạn còn ở Đài Loan bao lâu nữa?"
+          },
+          {
+            "speaker": "愛麗",
+            "chinese": "我覺得還得再學半年中文，然後在這裡念研究所。",
+            "simplified": "我觉得还得再学半年中文，然后在这里念研究所。",
+            "pinyin": "wǒ jué dé hái dé zài xué bàn nián zhōng wén ， rán hòu zài zhè lǐ niàn yán jiū suǒ 。",
+            "meaningVi": "Tôi nghĩ còn phải học tiếng Hoa thêm nửa năm, rồi học cao học ở đây."
+          },
+          {
+            "speaker": "如玉",
+            "chinese": "我們回國以前，大家再聚一聚吧！",
+            "simplified": "我们回国以前，大家再聚一聚吧！",
+            "pinyin": "wǒ men huí guó yǐ qián ， dà jiā zài jù yī jù ba ！",
+            "meaningVi": "Trước khi chúng tôi về nước, mọi người gặp nhau thêm một lần nhé!"
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "這個建議不錯，我們就這麼決定吧！",
+            "simplified": "这个建议不错，我们就这么决定吧！",
+            "pinyin": "zhè gè jiàn yì bù cuò ， wǒ men jiù zhè me jué dìng ba ！",
+            "meaningVi": "Đề nghị hay đấy, quyết định vậy nhé!"
+          }
+        ]
+      },
+      {
+        "id": "cc2-v2-l14-reading",
+        "title": "Ba kế hoạch tương lai",
+        "context": "Bài đọc giới thiệu việc học và định hướng nghề nghiệp của Như Ngọc, Mỹ Linh và Ái Lệ.",
+        "audioTrackId": "cc2-textbook-l14-t03",
+        "turns": [
+          {
+            "speaker": "Bài đọc",
+            "chinese": "白如玉從高中就開始學中文，當時她覺得中文的聲調和漢字都好難，練習了很久，發音才越來越準，字也寫得越來越好。上了大學以後，如玉念了企業管理系。她認為中國經濟發展得很快，懂中文對找工作會有幫助。她打算畢業以後找一個跟中文有關的工作，才不會把中文忘了。",
+            "simplified": "白如玉从高中就开始学中文，当时她觉得中文的声调和汉字都好难，练习了很久，发音才越来越准，字也写得越来越好。上了大学以后，如玉念了企业管理系。她认为中国经济发展得很快，懂中文对找工作会有帮助。她打算毕业以后找一个跟中文有关的工作，才不会把中文忘了。",
+            "pinyin": "bái rú yù cóng gāo zhōng jiù kāi shǐ xué zhōng wén ， dāng shí tā jué dé zhōng wén de shēng diào hé hàn zì dōu hǎo nán ， liàn xí le hěn jiǔ ， fā yīn cái yuè lái yuè zhǔn ， zì yě xiě dé yuè lái yuè hǎo 。 shàng le dà xué yǐ hòu ， rú yù niàn le qǐ yè guǎn lǐ xì 。 tā rèn wèi zhōng guó jīng jì fā zhǎn dé hěn kuài ， dǒng zhōng wén duì zhǎo gōng zuò huì yǒu bāng zhù 。 tā dǎ suàn bì yè yǐ hòu zhǎo yī gè gēn zhōng wén yǒu guān de gōng zuò ， cái bù huì bǎ zhōng wén wàng le 。",
+            "meaningVi": "Như Ngọc bắt đầu học tiếng Hoa từ cấp ba. Ban đầu cô thấy thanh điệu và chữ Hán khó; luyện lâu, phát âm và viết mới dần khá lên. Lên đại học cô học quản trị doanh nghiệp. Cô cho rằng biết tiếng Hoa giúp tìm việc và muốn làm công việc liên quan để không quên tiếng."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "高美玲本來是學語言學的，她對語法特別有興趣，常研究中文跟法文不同的地方。美玲打算學好中文以後，回國教書，把自己學中文的方法和經驗教給學生，這樣學生應該能學得更順利。她在台灣也發現了很多有意思的文化，所以除了教語言，她也希望順便把台灣的文化介紹給學生。",
+            "simplified": "高美玲本来是学语言学的，她对语法特别有兴趣，常研究中文跟法文不同的地方。美玲打算学好中文以后，回国教书，把自己学中文的方法和经验教给学生，这样学生应该能学得更顺利。她在台湾也发现了很多有意思的文化，所以除了教语言，她也希望顺便把台湾的文化介绍给学生。",
+            "pinyin": "gāo měi líng běn lái shì xué yǔ yán xué de ， tā duì yǔ fǎ tè bié yǒu xìng qù ， cháng yán jiū zhōng wén gēn fǎ wén bù tóng de dì fāng 。 měi líng dǎ suàn xué hǎo zhōng wén yǐ hòu ， huí guó jiào shū ， bǎ zì jǐ xué zhōng wén de fāng fǎ hé jīng yàn jiào gěi xué shēng ， zhè yàng xué shēng yīng gāi néng xué dé gèng shùn lì 。 tā zài tái wān yě fā xiàn le hěn duō yǒu yì si de wén huà ， suǒ yǐ chú le jiào yǔ yán ， tā yě xī wàng shùn biàn bǎ tái wān de wén huà jiè shào gěi xué shēng 。",
+            "meaningVi": "Mỹ Linh vốn học ngôn ngữ học, đặc biệt thích ngữ pháp và thường nghiên cứu sự khác nhau giữa tiếng Hoa và tiếng Pháp. Học xong, cô định về nước dạy học, chia sẻ phương pháp và kinh nghiệm để học trò học thuận lợi hơn. Cô cũng muốn giới thiệu văn hóa Đài Loan cho học trò."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "林愛麗是加拿大華僑，雖然在家跟父母說中文，可是不太會寫漢字。她到台灣來的目的就是把中文學好。林愛麗大學念的是國際關係，她還沒決定將來要當翻譯，還是外交人員。為了充實自己的專業能力，她決定留在台灣念研究所。",
+            "simplified": "林爱丽是加拿大华侨，虽然在家跟父母说中文，可是不太会写汉字。她到台湾来的目的就是把中文学好。林爱丽大学念的是国际关系，她还没决定将来要当翻译，还是外交人员。为了充实自己的专业能力，她决定留在台湾念研究所。",
+            "pinyin": "lín ài lì shì jiā ná dà huá qiáo ， suī rán zài jiā gēn fù mǔ shuō zhōng wén ， kě shì bù tài huì xiě hàn zì 。 tā dào tái wān lái de mù dì jiù shì bǎ zhōng wén xué hǎo 。 lín ài lì dà xué niàn de shì guó jì guān xì ， tā hái méi jué dìng jiāng lái yào dāng fān yì ， hái shì wài jiāo rén yuán 。 wèi le chōng shí zì jǐ de zhuān yè néng lì ， tā jué dìng liú zài tái wān niàn yán jiū suǒ 。",
+            "meaningVi": "Ái Lệ là người Hoa ở Canada. Dù nói tiếng Hoa với bố mẹ, cô viết chữ Hán chưa tốt nên đến Đài Loan để học cho giỏi. Cô học quan hệ quốc tế, chưa quyết định làm phiên dịch hay nhân viên ngoại giao. Để nâng cao chuyên môn, cô chọn ở lại học cao học."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc2-v2-l14-check-01",
+        "prompt": "Mỹ Linh muốn thử công việc gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Dạy tiếng Hoa ở trường cấp ba"
+          },
+          {
+            "id": "b",
+            "text": "Làm phiên dịch ở Canada"
+          },
+          {
+            "id": "c",
+            "text": "Làm hướng dẫn viên"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Trường cũ của cô đang 徵求一位教中文的教師.",
+        "skill": "Hội thoại"
+      },
+      {
+        "id": "cc2-v2-l14-check-02",
+        "prompt": "Vì sao Ái Lệ ở lại Đài Loan học cao học?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Nâng cao năng lực chuyên môn"
+          },
+          {
+            "id": "b",
+            "text": "Vì không muốn học chữ Hán"
+          },
+          {
+            "id": "c",
+            "text": "Vì đã có việc"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Bài đọc nói 為了充實自己的專業能力.",
+        "skill": "Bài đọc"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem phiên âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc2-v2-l14-v001",
+      "cc2-v2-l14-v002",
+      "cc2-v2-l14-v003",
+      "cc2-v2-l14-v004",
+      "cc2-v2-l14-v005",
+      "cc2-v2-l14-v006",
+      "cc2-v2-l14-v007",
+      "cc2-v2-l14-v008",
+      "cc2-v2-l14-v009",
+      "cc2-v2-l14-v010",
+      "cc2-v2-l14-v011",
+      "cc2-v2-l14-v012",
+      "cc2-v2-l14-v013",
+      "cc2-v2-l14-v014",
+      "cc2-v2-l14-v015",
+      "cc2-v2-l14-v016",
+      "cc2-v2-l14-v017",
+      "cc2-v2-l14-v018",
+      "cc2-v2-l14-v019",
+      "cc2-v2-l14-v020",
+      "cc2-v2-l14-v021",
+      "cc2-v2-l14-v022",
+      "cc2-v2-l14-v023",
+      "cc2-v2-l14-v024",
+      "cc2-v2-l14-v025",
+      "cc2-v2-l14-v026",
+      "cc2-v2-l14-v027",
+      "cc2-v2-l14-v028",
+      "cc2-v2-l14-v029",
+      "cc2-v2-l14-v030",
+      "cc2-v2-l14-v031",
+      "cc2-v2-l14-v032",
+      "cc2-v2-l14-v033",
+      "cc2-v2-l14-v034",
+      "cc2-v2-l14-v035",
+      "cc2-v2-l14-v036",
+      "cc2-v2-l14-v037",
+      "cc2-v2-l14-v038",
+      "cc2-v2-l14-v039",
+      "cc2-v2-l14-v040",
+      "cc2-v2-l14-v041",
+      "cc2-v2-l14-v042",
+      "cc2-v2-l14-v043",
+      "cc2-v2-l14-v044",
+      "cc2-v2-l14-v045",
+      "cc2-v2-l14-v046",
+      "cc2-v2-l14-v047"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc2-textbook-l14-t02",
+        "label": "Từ vựng hội thoại"
+      },
+      {
+        "id": "cc2-textbook-l14-t04",
+        "label": "Từ vựng bài đọc"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc2-v2-l14-grammar-01",
+      "title": "就要…了 — sắp… rồi",
+      "audioTrackId": "cc2-textbook-l14-t05",
+      "explanation": "就要 và 了 báo một sự việc sắp diễn ra. Trong hội thoại, học kỳ kết thúc là Mỹ Linh sắp rời Đài Loan. Có thể dùng 快要 trong câu đơn, nhưng khi nối hai vế theo thứ tự, 就要 tự nhiên hơn.",
+      "structure": "就要 + động từ / sự kiện + 了",
+      "examples": [
+        {
+          "chinese": "這個學期結束，我就要離開台灣了。",
+          "simplified": "这个学期结束，我就要离开台湾了。",
+          "pinyin": "zhè gè xué qī jié shù ， wǒ jiù yào lí kāi tái wān le 。",
+          "meaningVi": "Hết học kỳ này tôi sắp rời Đài Loan."
+        },
+        {
+          "chinese": "下個月就要放暑假了。",
+          "simplified": "下个月就要放暑假了。",
+          "pinyin": "xià gè yuè jiù yào fàng shǔ jià le 。",
+          "meaningVi": "Tháng sau sắp nghỉ hè rồi."
+        }
+      ],
+      "commonMistake": "Đừng dùng mẫu này cho một việc đã xảy ra xong; nó hướng đến tương lai gần.",
+      "check": {
+        "id": "cc2-v2-l14-grammar-check-01",
+        "prompt": "Điền: 下個月＿＿放假＿＿。",
+        "options": [
+          {
+            "id": "a",
+            "text": "不但…而且"
+          },
+          {
+            "id": "b",
+            "text": "就要…了"
+          },
+          {
+            "id": "c",
+            "text": "連…都"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "就要 và 了 báo một sự việc sắp diễn ra.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l14-grammar-02",
+      "title": "說到 / 談到 — nói đến",
+      "audioTrackId": "cc2-textbook-l14-t06",
+      "explanation": "Đặt 說到 hoặc 談到 trước một chủ đề để chuyển lời sang chuyện đó. Trong bài, Ái Lệ nghe Mỹ Linh nói đến việc làm rồi hỏi thêm. Mẫu này không tự nêu ý kiến; nội dung chính nằm ở vế sau.",
+      "structure": "說到 / 談到 + chủ đề，+ điều muốn nói",
+      "examples": [
+        {
+          "chinese": "說到找工作，她有很多想法。",
+          "simplified": "说到找工作，她有很多想法。",
+          "pinyin": "shuō dào zhǎo gōng zuò ， tā yǒu hěn duō xiǎng fǎ 。",
+          "meaningVi": "Nói đến tìm việc, cô ấy có nhiều ý tưởng."
+        },
+        {
+          "chinese": "談到旅行，我想起墾丁。",
+          "simplified": "谈到旅行，我想起垦丁。",
+          "pinyin": "tán dào lǚ xíng ， wǒ xiǎng qǐ kěn dīng 。",
+          "meaningVi": "Nói đến du lịch, tôi nhớ Khẩn Đinh."
+        }
+      ],
+      "commonMistake": "Đừng dùng 說到 như ‘nói xong’; 到 ở đây mở ra chủ đề.",
+      "check": {
+        "id": "cc2-v2-l14-grammar-check-02",
+        "prompt": "Điền: ＿＿找工作，她有很多想法。",
+        "options": [
+          {
+            "id": "a",
+            "text": "連"
+          },
+          {
+            "id": "b",
+            "text": "就要"
+          },
+          {
+            "id": "c",
+            "text": "說到"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Đặt 說到 hoặc 談到 trước một chủ đề để chuyển lời sang chuyện đó.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l14-grammar-03",
+      "title": "對 A 有 B — có B đối với A",
+      "audioTrackId": "cc2-textbook-l14-t07",
+      "explanation": "Mẫu này nói một cảm nhận hoặc mối liên hệ hướng tới A: 對中文有興趣 là quan tâm tiếng Hoa; 對找工作有幫助 là có ích cho tìm việc. Đặt 对 trước đối tượng, 有 trước điều được nói về nó.",
+      "structure": "(Chủ ngữ) + 對 + A + 有 + B",
+      "examples": [
+        {
+          "chinese": "她對語法特別有興趣。",
+          "simplified": "她对语法特别有兴趣。",
+          "pinyin": "tā duì yǔ fǎ tè bié yǒu xìng qù 。",
+          "meaningVi": "Cô ấy đặc biệt hứng thú với ngữ pháp."
+        },
+        {
+          "chinese": "懂中文對找工作會有幫助。",
+          "simplified": "懂中文对找工作会有帮助。",
+          "pinyin": "dǒng zhōng wén duì zhǎo gōng zuò huì yǒu bāng zhù 。",
+          "meaningVi": "Biết tiếng Hoa có ích khi tìm việc."
+        }
+      ],
+      "commonMistake": "Đừng đảo đối tượng A với danh từ B nếu muốn giữ đúng nghĩa.",
+      "check": {
+        "id": "cc2-v2-l14-grammar-check-03",
+        "prompt": "Điền: 她＿＿中文語法＿＿興趣。",
+        "options": [
+          {
+            "id": "a",
+            "text": "就要…了"
+          },
+          {
+            "id": "b",
+            "text": "對…有"
+          },
+          {
+            "id": "c",
+            "text": "連…都"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Mẫu này nói một cảm nhận hoặc mối liên hệ hướng tới A: 對中文有興趣 là quan tâm tiếng Hoa; 對找工作有幫助 là có ích cho tìm việc.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l14-grammar-04",
+      "title": "連…都… — đến cả… cũng…",
+      "audioTrackId": "cc2-textbook-l14-t08",
+      "explanation": "連 đưa một trường hợp bất ngờ lên làm điểm nhấn, 都 cho biết điều ấy cũng đúng. Như Ngọc nghe rằng đến cả người nước ngoài cũng dễ tìm việc ở Thượng Hải.",
+      "structure": "連 + trường hợp nổi bật + 都 + nhận xét",
+      "examples": [
+        {
+          "chinese": "連外國人都很容易找到工作。",
+          "simplified": "连外国人都很容易找到工作。",
+          "pinyin": "lián wài guó rén dōu hěn róng yì zhǎo dào gōng zuò 。",
+          "meaningVi": "Ngay cả người nước ngoài cũng dễ tìm việc."
+        },
+        {
+          "chinese": "連我弟弟都會做這道菜。",
+          "simplified": "连我弟弟都会做这道菜。",
+          "pinyin": "lián wǒ dì di dōu huì zuò zhè dào cài 。",
+          "meaningVi": "Đến cả em trai tôi cũng biết làm món này."
+        }
+      ],
+      "commonMistake": "Nếu không có sắc thái bất ngờ hoặc cực đoan, không cần dùng 連…都….",
+      "check": {
+        "id": "cc2-v2-l14-grammar-check-04",
+        "prompt": "Điền: ＿＿外國人＿＿找得到工作。",
+        "options": [
+          {
+            "id": "a",
+            "text": "就要…了"
+          },
+          {
+            "id": "b",
+            "text": "連…都"
+          },
+          {
+            "id": "c",
+            "text": "對…有"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "連 đưa một trường hợp bất ngờ lên làm điểm nhấn, 都 cho biết điều ấy cũng đúng.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l14-grammar-05",
+      "title": "不但…而且… — không những… mà còn…",
+      "audioTrackId": "cc2-textbook-l14-t09",
+      "explanation": "不但 nêu lợi ích thứ nhất; 而且 bổ sung ý thứ hai, thường cùng hướng hoặc mạnh hơn. Như Ngọc có thể vừa dùng tiếng Hoa vừa hiểu khác biệt văn hóa nếu làm việc ở Thượng Hải.",
+      "structure": "不但 + ý 1，而且 + ý 2",
+      "examples": [
+        {
+          "chinese": "不但可以使用中文，而且可以了解那裡的文化。",
+          "simplified": "不但可以使用中文，而且可以了解那里的文化。",
+          "pinyin": "bù dàn kě yǐ shǐ yòng zhōng wén ， ér qiě kě yǐ liǎo jiě nà lǐ de wén huà 。",
+          "meaningVi": "Không những dùng được tiếng Hoa mà còn hiểu văn hóa nơi đó."
+        },
+        {
+          "chinese": "她不但會說中文，而且會教中文。",
+          "simplified": "她不但会说中文，而且会教中文。",
+          "pinyin": "tā bù dàn huì shuō zhōng wén ， ér qiě huì jiāo zhōng wén 。",
+          "meaningVi": "Cô ấy không những nói được mà còn dạy được tiếng Hoa."
+        }
+      ],
+      "commonMistake": "Hai vế cần liên quan và cùng hướng; đừng nối hai ý đối lập bằng 而且.",
+      "check": {
+        "id": "cc2-v2-l14-grammar-check-05",
+        "prompt": "Điền: ＿＿可以使用中文，＿＿能交朋友。",
+        "options": [
+          {
+            "id": "a",
+            "text": "連…都"
+          },
+          {
+            "id": "b",
+            "text": "對…有"
+          },
+          {
+            "id": "c",
+            "text": "不但…而且"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "不但 nêu lợi ích thứ nhất; 而且 bổ sung ý thứ hai, thường cùng hướng hoặc mạnh hơn.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l14-grammar-06",
+      "title": "把 trong việc không chủ ý",
+      "audioTrackId": "cc2-textbook-l14-t10",
+      "explanation": "把 thường nói cách xử lý vật, nhưng cũng có thể nói một kết quả không cố ý như 把中文忘了. Điều quan trọng là vật bị tác động và kết quả hiện rõ; không phải lúc nào chủ thể cũng cố tình làm thế.",
+      "structure": "把 + vật + động từ + kết quả",
+      "examples": [
+        {
+          "chinese": "她怕把中文忘了。",
+          "simplified": "她怕把中文忘了。",
+          "pinyin": "tā pà bǎ zhōng wén wàng le 。",
+          "meaningVi": "Cô ấy sợ quên mất tiếng Hoa."
+        },
+        {
+          "chinese": "我不小心把手機掉了。",
+          "simplified": "我不小心把手机掉了。",
+          "pinyin": "wǒ bù xiǎo xīn bǎ shǒu jī diào le 。",
+          "meaningVi": "Tôi vô ý làm rơi điện thoại."
+        }
+      ],
+      "commonMistake": "Đừng mặc định cứ có 把 là người nói cố ý gây ra kết quả.",
+      "check": {
+        "id": "cc2-v2-l14-grammar-check-06",
+        "prompt": "Điền: 我怕＿＿中文忘了。",
+        "options": [
+          {
+            "id": "a",
+            "text": "把"
+          },
+          {
+            "id": "b",
+            "text": "連"
+          },
+          {
+            "id": "c",
+            "text": "都"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "把 thường nói cách xử lý vật, nhưng cũng có thể nói một kết quả không cố ý như 把中文忘了.",
+        "skill": "Ngữ pháp"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc2-v2-l14-listening-01",
+      "prompt": "Nghe hội thoại. Mỹ Linh sắp làm gì khi học kỳ kết thúc?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đi Nhật Bản"
+        },
+        {
+          "id": "b",
+          "text": "Rời Đài Loan"
+        },
+        {
+          "id": "c",
+          "text": "Chuyển đến Đài Trung"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Cô nói 我就要離開台灣了.",
+      "skill": "Nghe kế hoạch",
+      "audioTrackId": "cc2-textbook-l14-t01"
+    },
+    {
+      "id": "cc2-v2-l14-listening-02",
+      "prompt": "Nghe hội thoại. Như Ngọc muốn tìm việc ở đâu sau khi tốt nghiệp?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hồng Kông hoặc Thượng Hải"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ ở Đài Bắc"
+        },
+        {
+          "id": "c",
+          "text": "Canada"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Cô nói 再到香港或是上海找工作.",
+      "skill": "Nghe địa điểm",
+      "audioTrackId": "cc2-textbook-l14-t01"
+    },
+    {
+      "id": "cc2-v2-l14-listening-03",
+      "prompt": "Nghe bài đọc. Như Ngọc học ngành gì ở đại học?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Quản trị doanh nghiệp"
+        },
+        {
+          "id": "b",
+          "text": "Y khoa"
+        },
+        {
+          "id": "c",
+          "text": "Quan hệ quốc tế"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc ghi 企業管理系.",
+      "skill": "Nghe chi tiết",
+      "audioTrackId": "cc2-textbook-l14-t03"
+    },
+    {
+      "id": "cc2-v2-l14-listening-04",
+      "prompt": "Nghe bài đọc. Mỹ Linh muốn làm gì khi về nước?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ kinh doanh"
+        },
+        {
+          "id": "b",
+          "text": "Làm bác sĩ"
+        },
+        {
+          "id": "c",
+          "text": "Dạy tiếng Hoa và giới thiệu văn hóa Đài Loan"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc nói 回國教書 và 把台灣的文化介紹給學生.",
+      "skill": "Nghe ý chính",
+      "audioTrackId": "cc2-textbook-l14-t03"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc2-v2-l14-practice-01",
+      "prompt": "‘徵求’ trong thông báo việc làm nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "chiêu đãi"
+        },
+        {
+          "id": "b",
+          "text": "tuyển; tìm người"
+        },
+        {
+          "id": "c",
+          "text": "tốt nghiệp"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "徵求教師 là tìm giáo viên.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc2-v2-l14-practice-02",
+      "prompt": "Điền: 下個月＿＿畢業＿＿。",
+      "options": [
+        {
+          "id": "a",
+          "text": "連…都"
+        },
+        {
+          "id": "b",
+          "text": "對…有"
+        },
+        {
+          "id": "c",
+          "text": "就要…了"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "就要…了 báo việc sắp xảy ra.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l14-practice-03",
+      "prompt": "Mỹ Linh muốn ứng tuyển ở đâu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bệnh viện"
+        },
+        {
+          "id": "b",
+          "text": "Trường cấp ba cũ"
+        },
+        {
+          "id": "c",
+          "text": "Một trường ở Thượng Hải"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Cô nói 我以前念的高中正在徵求…教師.",
+      "skill": "Hội thoại"
+    },
+    {
+      "id": "cc2-v2-l14-practice-04",
+      "prompt": "Điền: ＿＿找工作，我有很多想法。",
+      "options": [
+        {
+          "id": "a",
+          "text": "說到"
+        },
+        {
+          "id": "b",
+          "text": "連"
+        },
+        {
+          "id": "c",
+          "text": "就要"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "說到 mở ra chủ đề mới.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l14-practice-05",
+      "prompt": "Điền: 她＿＿語法＿＿興趣。",
+      "options": [
+        {
+          "id": "a",
+          "text": "不但…而且"
+        },
+        {
+          "id": "b",
+          "text": "對…有"
+        },
+        {
+          "id": "c",
+          "text": "連…都"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "對 A 有 B nói cảm nhận về A.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l14-practice-06",
+      "prompt": "Điền: ＿＿外國人＿＿容易找到工作。",
+      "options": [
+        {
+          "id": "a",
+          "text": "連…都"
+        },
+        {
+          "id": "b",
+          "text": "就要…了"
+        },
+        {
+          "id": "c",
+          "text": "對…有"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "連…都… nhấn trường hợp bất ngờ.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l14-practice-07",
+      "prompt": "Điền: 她＿＿會說中文，＿＿會教中文。",
+      "options": [
+        {
+          "id": "a",
+          "text": "不但…而且"
+        },
+        {
+          "id": "b",
+          "text": "連…都"
+        },
+        {
+          "id": "c",
+          "text": "對…有"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Hai vế bổ sung cùng hướng.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l14-practice-08",
+      "prompt": "Bài đọc: Ái Lệ đã quyết định nghề tương lai chưa?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rồi, làm giáo viên"
+        },
+        {
+          "id": "b",
+          "text": "Chưa"
+        },
+        {
+          "id": "c",
+          "text": "Rồi, làm phiên dịch"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nói 她還沒決定.",
+      "skill": "Bài đọc"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc2-v2-l14-assessment-01",
+      "prompt": "‘研究所’ là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "trung tâm thể thao"
+        },
+        {
+          "id": "b",
+          "text": "trường cao học"
+        },
+        {
+          "id": "c",
+          "text": "trường cấp ba"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "研究所 là chương trình/trường sau đại học.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc2-v2-l14-assessment-02",
+      "prompt": "Điền: 我＿＿離開台灣＿＿。",
+      "options": [
+        {
+          "id": "a",
+          "text": "對…有"
+        },
+        {
+          "id": "b",
+          "text": "就要…了"
+        },
+        {
+          "id": "c",
+          "text": "連…都"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "就要…了 báo tương lai gần.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l14-assessment-03",
+      "prompt": "Mỹ Linh muốn dạy môn gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tiếng Hoa"
+        },
+        {
+          "id": "b",
+          "text": "Tiếng Pháp"
+        },
+        {
+          "id": "c",
+          "text": "Toán"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Trường đang tuyển 教中文的教師.",
+      "skill": "Hội thoại"
+    },
+    {
+      "id": "cc2-v2-l14-assessment-04",
+      "prompt": "Điền: ＿＿這個工作，我很有興趣。",
+      "options": [
+        {
+          "id": "a",
+          "text": "說到"
+        },
+        {
+          "id": "b",
+          "text": "連"
+        },
+        {
+          "id": "c",
+          "text": "都"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "說到 giới thiệu chủ đề.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l14-assessment-05",
+      "prompt": "Điền: 她＿＿中文＿＿興趣。",
+      "options": [
+        {
+          "id": "a",
+          "text": "對…有"
+        },
+        {
+          "id": "b",
+          "text": "連…都"
+        },
+        {
+          "id": "c",
+          "text": "不但…而且"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "對 A 有 B là có B với A.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l14-assessment-06",
+      "prompt": "Điền: ＿＿外國人＿＿能找到工作。",
+      "options": [
+        {
+          "id": "a",
+          "text": "就要…了"
+        },
+        {
+          "id": "b",
+          "text": "對…有"
+        },
+        {
+          "id": "c",
+          "text": "連…都"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "連…都… nhấn cả trường hợp khó tin.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l14-assessment-07",
+      "prompt": "Điền: 她＿＿教語言，＿＿介紹文化。",
+      "options": [
+        {
+          "id": "a",
+          "text": "連…都"
+        },
+        {
+          "id": "b",
+          "text": "就要…了"
+        },
+        {
+          "id": "c",
+          "text": "不但…而且"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Hai vế cộng thêm thông tin.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l14-assessment-08",
+      "prompt": "Như Ngọc học ngành gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ngôn ngữ học"
+        },
+        {
+          "id": "b",
+          "text": "Y khoa"
+        },
+        {
+          "id": "c",
+          "text": "Quản trị doanh nghiệp"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc ghi 她念了企業管理系.",
+      "skill": "Bài đọc"
+    },
+    {
+      "id": "cc2-v2-l14-assessment-09",
+      "prompt": "Mỹ Linh muốn giúp học trò bằng cách nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ngừng dạy ngôn ngữ"
+        },
+        {
+          "id": "b",
+          "text": "Chia sẻ phương pháp và kinh nghiệm học tiếng Hoa"
+        },
+        {
+          "id": "c",
+          "text": "Chỉ yêu cầu học thuộc lòng"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nói 把自己學中文的方法和經驗教給學生.",
+      "skill": "Bài đọc"
+    },
+    {
+      "id": "cc2-v2-l14-assessment-10",
+      "prompt": "Ái Lệ học ngành gì ở đại học?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Y khoa"
+        },
+        {
+          "id": "b",
+          "text": "Quan hệ quốc tế"
+        },
+        {
+          "id": "c",
+          "text": "Quản trị doanh nghiệp"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc ghi 國際關係.",
+      "skill": "Bài đọc"
+    }
+  ],
+  "writingTask": {
+    "id": "cc2-v2-l14-writing",
+    "title": "Kế hoạch sau khi học xong",
+    "prompt": "Viết 2–3 câu về công việc hoặc việc học bạn muốn làm. Thử dùng 就要…了 hoặc 不但…而且….",
+    "sampleTraditional": "我就要畢業了。我想找跟中文有關的工作，不但可以使用中文，而且可以認識更多朋友。",
+    "sampleSimplified": "我就要毕业了。我想找跟中文有关的工作，不但可以使用中文，而且可以认识更多朋友。"
+  }
+}

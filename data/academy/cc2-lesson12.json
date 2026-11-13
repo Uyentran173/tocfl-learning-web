@@ -1,0 +1,1090 @@
+{
+  "contentVersion": 2,
+  "id": "cc2-v2-l12",
+  "title": "怎麼吃才健康？",
+  "titleVi": "Ăn thế nào mới khỏe?",
+  "description": "Nói về món chay, thói quen ăn uống và cách chế biến lành mạnh.",
+  "objectives": [
+    "Phân biệt 素食 (đồ chay) với 速食 (đồ ăn nhanh).",
+    "Nêu lời khuyên về ăn uống và sức khỏe.",
+    "Dùng 只要…就… và 越…越… để diễn đạt điều kiện, mức độ."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Nguyệt Mỹ rủ Martin đi ăn chay cùng Như Ngọc. Cả ba trò chuyện về việc ăn sao cho khỏe.",
+    "sections": [
+      {
+        "id": "cc2-v2-l12-section-01",
+        "title": "Chọn món ăn",
+        "body": "Nghe cách Martin nhầm giữa hai từ đồng âm 素食 và 速食.",
+        "chinese": "不是麥當勞那種速食店，是不吃肉的素食餐廳。",
+        "simplified": "不是麦当劳那种速食店，是不吃肉的素食餐厅。",
+        "pinyin": "bú shì mài dāng láo nà zhǒng sù shí diàn ， shì bù chī ròu de sù shí cān tīng 。",
+        "meaningVi": "Không phải cửa hàng đồ ăn nhanh như McDonald's, mà là nhà hàng chay không dùng thịt."
+      },
+      {
+        "id": "cc2-v2-l12-section-02",
+        "title": "Nói về sức khỏe",
+        "body": "So sánh món chiên, nướng với món luộc, hấp.",
+        "chinese": "菜的作法越簡單越好。",
+        "simplified": "菜的作法越简单越好。",
+        "pinyin": "cài de zuò fǎ yuè jiǎn dān yuè hǎo 。",
+        "meaningVi": "Cách chế biến món ăn càng đơn giản càng tốt."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc2-v2-l12-dialogue",
+        "title": "Bữa trưa ở nhà hàng chay",
+        "context": "Nguyệt Mỹ, Martin và Như Ngọc ăn trưa và trò chuyện về đồ chay.",
+        "audioTrackId": "cc2-textbook-l12-t01",
+        "turns": [
+          {
+            "speaker": "月美",
+            "chinese": "我正在等白如玉，我們要去吃飯，你想跟我們一起去嗎？",
+            "simplified": "我正在等白如玉，我们要去吃饭，你想跟我们一起去吗？",
+            "pinyin": "wǒ zhèng zài děng bái rú yù ， wǒ men yào qù chī fàn ， nǐ xiǎng gēn wǒ men yì qǐ qù ma ？",
+            "meaningVi": "Tôi đang đợi Bạch Như Ngọc. Chúng tôi đi ăn, bạn đi cùng không?"
+          },
+          {
+            "speaker": "馬丁",
+            "chinese": "好啊！妳們要去吃什麼？",
+            "simplified": "好啊！妳们要去吃什么？",
+            "pinyin": "hǎo a ！ nǐ men yào qù chī shén me ？",
+            "meaningVi": "Được chứ! Hai bạn định ăn gì?"
+          },
+          {
+            "speaker": "月美",
+            "chinese": "我們打算去學校對面一家新開的素食餐廳。",
+            "simplified": "我们打算去学校对面一家新开的素食餐厅。",
+            "pinyin": "wǒ men dǎ suàn qù xué xiào duì miàn yī jiā xīn kāi de sù shí cān tīng 。",
+            "meaningVi": "Chúng tôi định đến một nhà hàng chay mới mở đối diện trường."
+          },
+          {
+            "speaker": "馬丁",
+            "chinese": "速食？學校對面有「麥當勞」？我怎麼沒注意到？",
+            "simplified": "速食？学校对面有「麦当劳」？我怎么没注意到？",
+            "pinyin": "sù shí ？ xué xiào duì miàn yǒu 「 mài dāng láo 」 ？ wǒ zěn me méi zhù yì dào ？",
+            "meaningVi": "Đồ ăn nhanh à? Đối diện trường có McDonald's sao? Sao tôi không để ý?"
+          },
+          {
+            "speaker": "月美",
+            "chinese": "你想錯了，不是麥當勞那種速食店，是不吃肉的素食餐廳。",
+            "simplified": "你想错了，不是麦当劳那种速食店，是不吃肉的素食餐厅。",
+            "pinyin": "nǐ xiǎng cuò le ， bú shì mài dāng láo nà zhǒng sù shí diàn ， shì bù chī ròu de sù shí cān tīng 。",
+            "meaningVi": "Bạn hiểu sai rồi. Không phải cửa hàng đồ ăn nhanh như McDonald's, mà là nhà hàng chay."
+          },
+          {
+            "speaker": "馬丁",
+            "chinese": "新開的餐廳我都想去嚐一嚐，好，我跟妳們一起去。",
+            "simplified": "新开的餐厅我都想去尝一尝，好，我跟妳们一起去。",
+            "pinyin": "xīn kāi de cān tīng wǒ dōu xiǎng qù cháng yī cháng ， hǎo ， wǒ gēn nǐ men yì qǐ qù 。",
+            "meaningVi": "Nhà hàng mới mở tôi đều muốn thử. Được, tôi đi cùng."
+          },
+          {
+            "speaker": "如玉",
+            "chinese": "欸！馬丁，好久不見！月美，對不起，讓妳等了這麼久。",
+            "simplified": "欸！马丁，好久不见！月美，对不起，让妳等了这么久。",
+            "pinyin": "āi ！ mǎ dīng ， hǎo jiǔ bù jiàn ！ yuè měi ， duì bù qǐ ， ràng nǐ děng le zhè me jiǔ 。",
+            "meaningVi": "Ồ Martin, lâu rồi không gặp! Nguyệt Mỹ, xin lỗi đã để bạn đợi lâu."
+          },
+          {
+            "speaker": "月美",
+            "chinese": "沒關係，我也剛下課。馬丁也跟我們去吃飯。",
+            "simplified": "没关系，我也刚下课。马丁也跟我们去吃饭。",
+            "pinyin": "méi guān xì ， wǒ yě gāng xià kè 。 mǎ dīng yě gēn wǒ men qù chī fàn 。",
+            "meaningVi": "Không sao, tôi cũng vừa tan học. Martin sẽ đi ăn cùng chúng ta."
+          },
+          {
+            "speaker": "如玉",
+            "chinese": "馬丁，你拿了這麼多菜，我沒想到你也喜歡吃素。",
+            "simplified": "马丁，你拿了这么多菜，我没想到你也喜欢吃素。",
+            "pinyin": "mǎ dīng ， nǐ ná le zhè me duō cài ， wǒ méi xiǎng dào nǐ yě xǐ huān chī sù 。",
+            "meaningVi": "Martin, bạn lấy nhiều món thế. Tôi không ngờ bạn cũng thích ăn chay."
+          },
+          {
+            "speaker": "馬丁",
+            "chinese": "我是到了台灣以後才覺得吃素不錯，我以前吃漢堡的機會比較多。",
+            "simplified": "我是到了台湾以后才觉得吃素不错，我以前吃汉堡的机会比较多。",
+            "pinyin": "wǒ shì dào le tái wān yǐ hòu cái jué dé chī sù bù cuò ， wǒ yǐ qián chī hàn bǎo de jī huì bǐ jiào duō 。",
+            "meaningVi": "Đến Đài Loan tôi mới thấy ăn chay khá hay; trước đây tôi hay ăn hamburger hơn."
+          },
+          {
+            "speaker": "如玉",
+            "chinese": "漢堡吃多了對健康不好，而且容易讓你變胖。",
+            "simplified": "汉堡吃多了对健康不好，而且容易让你变胖。",
+            "pinyin": "hàn bǎo chī duō le duì jiàn kāng bù hǎo ， ér qiě róng yì ràng nǐ biàn pàng 。",
+            "meaningVi": "Ăn nhiều hamburger không tốt cho sức khỏe, lại dễ khiến bạn tăng cân."
+          },
+          {
+            "speaker": "月美",
+            "chinese": "我在越南就常常吃素。還有，這家餐廳的素菜看起來不油膩，好像每一樣都值得試試。",
+            "simplified": "我在越南就常常吃素。还有，这家餐厅的素菜看起来不油腻，好像每一样都值得试试。",
+            "pinyin": "wǒ zài yuè nán jiù cháng cháng chī sù 。 hái yǒu ， zhè jiā cān tīng de sù cài kàn qǐ lái bù yóu nì ， hǎo xiàng měi yī yàng dōu zhí de shì shì 。",
+            "meaningVi": "Ở Việt Nam tôi đã hay ăn chay. Món chay ở đây trông không nhiều dầu mỡ; món nào cũng đáng thử."
+          },
+          {
+            "speaker": "馬丁",
+            "chinese": "我很好奇台灣女孩是不是都喜歡吃青菜？她們看起來個個都很瘦。",
+            "simplified": "我很好奇台湾女孩是不是都喜欢吃青菜？她们看起来个个都很瘦。",
+            "pinyin": "wǒ hěn hào qí tái wān nǚ hái shì bú shì dōu xǐ huān chī qīng cài ？ tā men kàn qǐ lái gè gè dōu hěn shòu 。",
+            "meaningVi": "Tôi tò mò không biết các cô gái Đài Loan có đều thích ăn rau không; trông ai cũng thon."
+          },
+          {
+            "speaker": "月美",
+            "chinese": "這也不一定，我室友吃素，但是有一點胖。如玉，我記得妳男朋友不吃肉，對不對？",
+            "simplified": "这也不一定，我室友吃素，但是有一点胖。如玉，我记得妳男朋友不吃肉，对不对？",
+            "pinyin": "zhè yě bù yí dìng ， wǒ shì yǒu chī sù ， dàn shì yǒu yī diǎn pàng 。 rú yù ， wǒ jì dé nǐ nán péng yǒu bù chī ròu ， duì bù duì ？",
+            "meaningVi": "Không hẳn đâu. Bạn cùng phòng tôi ăn chay nhưng hơi mập. Như Ngọc, tôi nhớ bạn trai bạn không ăn thịt, đúng không?"
+          },
+          {
+            "speaker": "如玉",
+            "chinese": "對，牛肉、豬肉，他不常吃，他只吃魚。",
+            "simplified": "对，牛肉、猪肉，他不常吃，他只吃鱼。",
+            "pinyin": "duì ， niú ròu 、 zhū ròu ， tā bù cháng chī ， tā zhǐ chī yú 。",
+            "meaningVi": "Đúng, anh ấy ít ăn thịt bò, thịt heo; chỉ ăn cá."
+          },
+          {
+            "speaker": "月美",
+            "chinese": "我聽說西方一些吃素的人跟我們不太一樣，我們是完全不吃肉的。",
+            "simplified": "我听说西方一些吃素的人跟我们不太一样，我们是完全不吃肉的。",
+            "pinyin": "wǒ tīng shuō xī fāng yī xiē chī sù de rén gēn wǒ men bù tài yī yàng ， wǒ men shì wán quán bù chī ròu de 。",
+            "meaningVi": "Tôi nghe nói một số người ăn chay ở phương Tây khác chúng ta; chúng ta hoàn toàn không ăn thịt."
+          },
+          {
+            "speaker": "馬丁",
+            "chinese": "我覺得吃素應該是為了健康。",
+            "simplified": "我觉得吃素应该是为了健康。",
+            "pinyin": "wǒ jué dé chī sù yīng gāi shì wèi le jiàn kāng 。",
+            "meaningVi": "Tôi nghĩ ăn chay hẳn là vì sức khỏe."
+          },
+          {
+            "speaker": "如玉",
+            "chinese": "菜的味道不要太鹹，不要常吃炸的、烤的東西，就比較健康。",
+            "simplified": "菜的味道不要太咸，不要常吃炸的、烤的东西，就比较健康。",
+            "pinyin": "cài de wèi dào bú yào tài xián ， bú yào cháng chī zhà de 、 kǎo de dōng xī ， jiù bǐ jiào jiàn kāng 。",
+            "meaningVi": "Món ăn đừng quá mặn; đừng thường xuyên ăn đồ chiên, nướng thì sẽ khỏe hơn."
+          },
+          {
+            "speaker": "月美",
+            "chinese": "下次有機會，請你們吃我做的越南素食。",
+            "simplified": "下次有机会，请你们吃我做的越南素食。",
+            "pinyin": "xià cì yǒu jī huì ， qǐng nǐ men chī wǒ zuò de yuè nán sù shí 。",
+            "meaningVi": "Lần sau có dịp tôi mời hai bạn ăn món chay Việt Nam tôi nấu."
+          },
+          {
+            "speaker": "如玉",
+            "chinese": "我也可以做一些青菜沙拉請大家吃。",
+            "simplified": "我也可以做一些青菜沙拉请大家吃。",
+            "pinyin": "wǒ yě kě yǐ zuò yī xiē qīng cài shā lā qǐng dà jiā chī 。",
+            "meaningVi": "Tôi cũng có thể làm salad rau mời mọi người."
+          },
+          {
+            "speaker": "馬丁",
+            "chinese": "真的？太好了，我希望多吃素，瘦一點，讓自己更健康。",
+            "simplified": "真的？太好了，我希望多吃素，瘦一点，让自己更健康。",
+            "pinyin": "zhēn de ？ tài hǎo le ， wǒ xī wàng duō chī sù ， shòu yī diǎn ， ràng zì jǐ gèng jiàn kāng 。",
+            "meaningVi": "Thật sao? Tuyệt quá. Tôi muốn ăn chay nhiều hơn, gầy đi một chút và khỏe hơn."
+          },
+          {
+            "speaker": "如玉",
+            "chinese": "快一點吃吧！我跟月美等一下還要準備下午的考試。",
+            "simplified": "快一点吃吧！我跟月美等一下还要准备下午的考试。",
+            "pinyin": "kuài yī diǎn chī ba ！ wǒ gēn yuè měi děng yí xià hái yào zhǔn bèi xià wǔ de kǎo shì 。",
+            "meaningVi": "Ăn nhanh lên nhé! Lát nữa tôi và Nguyệt Mỹ còn phải chuẩn bị cho bài thi chiều nay."
+          }
+        ]
+      },
+      {
+        "id": "cc2-v2-l12-reading",
+        "title": "Vì sao họ chọn ăn chay?",
+        "context": "Bài đọc nói về thói quen ăn uống và cách chế biến món ăn.",
+        "audioTrackId": "cc2-textbook-l12-t03",
+        "turns": [
+          {
+            "speaker": "Bài đọc",
+            "chinese": "白如玉、馬丁和陳月美一起到一家素食餐廳吃午餐，他們聊起吃素的經驗。",
+            "simplified": "白如玉、马丁和陈月美一起到一家素食餐厅吃午餐，他们聊起吃素的经验。",
+            "pinyin": "bái rú yù 、 mǎ dīng hé chén yuè měi yì qǐ dào yī jiā sù shí cān tīng chī wǔ cān ， tā men liáo qǐ chī sù de jīng yàn 。",
+            "meaningVi": "Bạch Như Ngọc, Martin và Trần Nguyệt Mỹ cùng ăn trưa tại nhà hàng chay. Họ nói về trải nghiệm ăn chay."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "他們注意到只要在學校附近就找得到素食餐廳，他們也覺得很多台灣人都不討厭吃素，但是不一定餐餐都吃素；還有，很多台灣人吃素是因為宗教的關係。白如玉說她吃素跟宗教沒有關係，只是覺得吃太多肉容易變胖。她建議馬丁應該少吃一點漢堡、薯條什麼的，多吃青菜，可以讓身體更健康。",
+            "simplified": "他们注意到只要在学校附近就找得到素食餐厅，他们也觉得很多台湾人都不讨厌吃素，但是不一定餐餐都吃素；还有，很多台湾人吃素是因为宗教的关系。白如玉说她吃素跟宗教没有关系，只是觉得吃太多肉容易变胖。她建议马丁应该少吃一点汉堡、薯条什么的，多吃青菜，可以让身体更健康。",
+            "pinyin": "tā men zhù yì dào zhǐ yào zài xué xiào fù jìn jiù zhǎo de dào sù shí cān tīng ， tā men yě jué dé hěn duō tái wān rén dōu bù tǎo yàn chī sù ， dàn shì bù yí dìng cān cān dōu chī sù ； hái yǒu ， hěn duō tái wān rén chī sù shì yīn wèi zōng jiào de guān xì 。 bái rú yù shuō tā chī sù gēn zōng jiào méi yǒu guān xì ， zhǐ shì jué dé chī tài duō ròu róng yì biàn pàng 。 tā jiàn yì mǎ dīng yīng gāi shǎo chī yī diǎn hàn bǎo 、 shǔ tiáo shén me de ， duō chī qīng cài ， kě yǐ ràng shēn tǐ gèng jiàn kāng 。",
+            "meaningVi": "Họ nhận thấy gần trường dễ tìm nhà hàng chay. Nhiều người Đài Loan không ghét đồ chay nhưng không phải bữa nào cũng ăn. Có người ăn chay vì tôn giáo. Như Ngọc thì không; cô nghĩ ăn nhiều thịt dễ tăng cân và khuyên Martin ăn ít hamburger, khoai tây chiên, ăn nhiều rau hơn."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "陳月美也同意，最好不要常吃炸的、烤的食物，菜的作法越簡單越好，煮的或是蒸的東西，都不太油膩。",
+            "simplified": "陈月美也同意，最好不要常吃炸的、烤的食物，菜的作法越简单越好，煮的或是蒸的东西，都不太油腻。",
+            "pinyin": "chén yuè měi yě tóng yì ， zuì hǎo bù yào cháng chī zhà de 、 kǎo de shí wù ， cài de zuò fǎ yuè jiǎn dān yuè hǎo ， zhǔ de huò shì zhēng de dōng xī ， dōu bù tài yóu nì 。",
+            "meaningVi": "Nguyệt Mỹ cũng đồng ý: đừng thường xuyên ăn đồ chiên, nướng; cách nấu càng đơn giản càng tốt. Đồ luộc hoặc hấp ít dầu mỡ hơn."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "陳月美還說，在她家附近有一家賣有機食品的店，天天都有很多人去買他們的食品，好像人人都很注意身體健康。他們覺得，這大概是因為地球的環境汙染越來越嚴重，不少人吃了有問題的食物就生病了，所以才慢慢開始注意食品的衛生和營養問題。",
+            "simplified": "陈月美还说，在她家附近有一家卖有机食品的店，天天都有很多人去买他们的食品，好像人人都很注意身体健康。他们觉得，这大概是因为地球的环境污染越来越严重，不少人吃了有问题的食物就生病了，所以才慢慢开始注意食品的卫生和营养问题。",
+            "pinyin": "chén yuè měi hái shuō ， zài tā jiā fù jìn yǒu yī jiā mài yǒu jī shí pǐn de diàn ， tiān tiān dōu yǒu hěn duō rén qù mǎi tā men de shí pǐn ， hǎo xiàng rén rén dōu hěn zhù yì shēn tǐ jiàn kāng 。 tā men jué dé ， zhè dà gài shì yīn wèi dì qiú de huán jìng wū rǎn yuè lái yuè yán zhòng ， bù shǎo rén chī le yǒu wèn tí de shí wù jiù shēng bìng le ， suǒ yǐ cái màn màn kāi shǐ zhù yì shí pǐn de wèi shēng hé yíng yǎng wèn tí 。",
+            "meaningVi": "Nguyệt Mỹ nói gần nhà cô có cửa hàng thực phẩm hữu cơ đông khách mỗi ngày. Có vẻ ai cũng quan tâm sức khỏe. Họ cho rằng ô nhiễm môi trường ngày càng nghiêm trọng; nhiều người bị bệnh vì thực phẩm có vấn đề nên mới dần chú ý vệ sinh và dinh dưỡng."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "馬丁聽了以後說，他可以趁在台灣的機會，多吃吃素食，讓自己瘦下來。",
+            "simplified": "马丁听了以后说，他可以趁在台湾的机会，多吃吃素食，让自己瘦下来。",
+            "pinyin": "mǎ dīng tīng le yǐ hòu shuō ， tā kě yǐ chèn zài tái wān de jī huì ， duō chī chī sù shí ， ràng zì jǐ shòu xià lái 。",
+            "meaningVi": "Nghe xong, Martin nói sẽ tranh thủ thời gian ở Đài Loan ăn thêm món chay để gầy đi."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc2-v2-l12-check-01",
+        "prompt": "Martin nhầm nhà hàng chay với loại quán nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Tiệm sushi"
+          },
+          {
+            "id": "b",
+            "text": "Cửa hàng đồ ăn nhanh"
+          },
+          {
+            "id": "c",
+            "text": "Quán cà phê"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Anh nghe 素食 thành 速食 và hỏi có 麥當勞 không.",
+        "skill": "Hội thoại"
+      },
+      {
+        "id": "cc2-v2-l12-check-02",
+        "prompt": "Bài đọc khuyên nên chọn cách chế biến nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Chiên ngập dầu"
+          },
+          {
+            "id": "b",
+            "text": "Nướng thường xuyên"
+          },
+          {
+            "id": "c",
+            "text": "Luộc hoặc hấp"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Bài đọc nói 煮的或是蒸的東西，都不太油膩.",
+        "skill": "Bài đọc"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem phiên âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc2-v2-l12-v001",
+      "cc2-v2-l12-v002",
+      "cc2-v2-l12-v003",
+      "cc2-v2-l12-v004",
+      "cc2-v2-l12-v005",
+      "cc2-v2-l12-v006",
+      "cc2-v2-l12-v007",
+      "cc2-v2-l12-v008",
+      "cc2-v2-l12-v009",
+      "cc2-v2-l12-v010",
+      "cc2-v2-l12-v011",
+      "cc2-v2-l12-v012",
+      "cc2-v2-l12-v013",
+      "cc2-v2-l12-v014",
+      "cc2-v2-l12-v015",
+      "cc2-v2-l12-v016",
+      "cc2-v2-l12-v017",
+      "cc2-v2-l12-v018",
+      "cc2-v2-l12-v019",
+      "cc2-v2-l12-v020",
+      "cc2-v2-l12-v021",
+      "cc2-v2-l12-v022",
+      "cc2-v2-l12-v023",
+      "cc2-v2-l12-v024",
+      "cc2-v2-l12-v025",
+      "cc2-v2-l12-v026",
+      "cc2-v2-l12-v027",
+      "cc2-v2-l12-v028",
+      "cc2-v2-l12-v029",
+      "cc2-v2-l12-v030",
+      "cc2-v2-l12-v031",
+      "cc2-v2-l12-v032",
+      "cc2-v2-l12-v033",
+      "cc2-v2-l12-v034",
+      "cc2-v2-l12-v035",
+      "cc2-v2-l12-v036",
+      "cc2-v2-l12-v037",
+      "cc2-v2-l12-v038",
+      "cc2-v2-l12-v039",
+      "cc2-v2-l12-v040",
+      "cc2-v2-l12-v041",
+      "cc2-v2-l12-v042",
+      "cc2-v2-l12-v043",
+      "cc2-v2-l12-v044",
+      "cc2-v2-l12-v045",
+      "cc2-v2-l12-v046",
+      "cc2-v2-l12-v047"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc2-textbook-l12-t02",
+        "label": "Từ vựng hội thoại"
+      },
+      {
+        "id": "cc2-textbook-l12-t04",
+        "label": "Từ vựng bài đọc"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc2-v2-l12-grammar-01",
+      "title": "讓 — để hoặc khiến",
+      "audioTrackId": "cc2-textbook-l12-t05",
+      "explanation": "讓 có thể cho phép ai làm việc gì, hoặc nói một sự việc khiến ai có cảm giác, kết quả nào đó. Trong bài, ăn nhiều hamburger dễ khiến người ta béo lên. Xem nghĩa qua vế sau, đừng chỉ dịch một kiểu.",
+      "structure": "讓 + người + động từ / kết quả",
+      "examples": [
+        {
+          "chinese": "讓妳等了這麼久。",
+          "simplified": "让妳等了这么久。",
+          "pinyin": "ràng nǐ děng le zhè me jiǔ 。",
+          "meaningVi": "Đã để bạn đợi lâu thế."
+        },
+        {
+          "chinese": "吃太多漢堡容易讓你變胖。",
+          "simplified": "吃太多汉堡容易让你变胖。",
+          "pinyin": "chī tài duō hàn bǎo róng yì ràng nǐ biàn pàng 。",
+          "meaningVi": "Ăn nhiều hamburger dễ khiến bạn tăng cân."
+        }
+      ],
+      "commonMistake": "Phân biệt ‘cho phép’ và ‘gây ra kết quả’ bằng ngữ cảnh.",
+      "check": {
+        "id": "cc2-v2-l12-grammar-check-01",
+        "prompt": "Điền: 漢堡吃多了容易＿＿你變胖。",
+        "options": [
+          {
+            "id": "a",
+            "text": "越"
+          },
+          {
+            "id": "b",
+            "text": "只要"
+          },
+          {
+            "id": "c",
+            "text": "讓"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "讓 có thể cho phép ai làm việc gì, hoặc nói một sự việc khiến ai có cảm giác, kết quả nào đó.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l12-grammar-02",
+      "title": "快一點 — nhanh lên",
+      "audioTrackId": "cc2-textbook-l12-t06",
+      "explanation": "Đặt 快一點 trước động từ để giục ai bắt đầu hoặc hoàn thành sớm. Đặt sau động từ lại nhấn tốc độ thực hiện. 快一點吃 là ăn ngay/nhanh lên; 吃快一點 là ăn với tốc độ nhanh hơn.",
+      "structure": "快一點 + V (giục) / V + 快一點 (tốc độ)",
+      "examples": [
+        {
+          "chinese": "快一點吃吧！",
+          "simplified": "快一点吃吧！",
+          "pinyin": "kuài yī diǎn chī ba ！",
+          "meaningVi": "Ăn nhanh lên nhé!"
+        },
+        {
+          "chinese": "你可以走快一點嗎？",
+          "simplified": "你可以走快一点吗？",
+          "pinyin": "nǐ kě yǐ zǒu kuài yī diǎn ma ？",
+          "meaningVi": "Bạn có thể đi nhanh hơn không?"
+        }
+      ],
+      "commonMistake": "Đừng đảo vị trí nếu muốn giữ đúng ý giục hay tốc độ.",
+      "check": {
+        "id": "cc2-v2-l12-grammar-check-02",
+        "prompt": "Điền: 電影要開始了，＿＿進去吧。",
+        "options": [
+          {
+            "id": "a",
+            "text": "快一點"
+          },
+          {
+            "id": "b",
+            "text": "越來越"
+          },
+          {
+            "id": "c",
+            "text": "完全"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Đặt 快一點 trước động từ để giục ai bắt đầu hoặc hoàn thành sớm.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l12-grammar-03",
+      "title": "V + 起 — bắt đầu nhắc đến",
+      "audioTrackId": "cc2-textbook-l12-t07",
+      "explanation": "Sau động từ như 聊, 談, 說, 想, 起 cho biết một chủ đề được gợi lên hoặc được nhớ tới. 聊起吃素的經驗 nghĩa là bắt đầu trò chuyện về trải nghiệm ăn chay.",
+      "structure": "聊 / 談 / 說 / 想 + 起 + chủ đề",
+      "examples": [
+        {
+          "chinese": "他們聊起吃素的經驗。",
+          "simplified": "他们聊起吃素的经验。",
+          "pinyin": "tā men liáo qǐ chī sù de jīng yàn 。",
+          "meaningVi": "Họ bắt đầu trò chuyện về trải nghiệm ăn chay."
+        },
+        {
+          "chinese": "我想起越南的家人。",
+          "simplified": "我想起越南的家人。",
+          "pinyin": "wǒ xiǎng qǐ yuè nán de jiā rén 。",
+          "meaningVi": "Tôi nhớ tới người nhà ở Việt Nam."
+        }
+      ],
+      "commonMistake": "Đừng hiểu 起 trong 聊起 là đứng dậy.",
+      "check": {
+        "id": "cc2-v2-l12-grammar-check-03",
+        "prompt": "Điền: 我們聊＿＿台灣的素食。",
+        "options": [
+          {
+            "id": "a",
+            "text": "越"
+          },
+          {
+            "id": "b",
+            "text": "讓"
+          },
+          {
+            "id": "c",
+            "text": "起"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Sau động từ như 聊, 談, 說, 想, 起 cho biết một chủ đề được gợi lên hoặc được nhớ tới.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l12-grammar-04",
+      "title": "只要…就… — chỉ cần… thì…",
+      "audioTrackId": "cc2-textbook-l12-t08",
+      "explanation": "只要 đưa ra điều kiện đủ; 就 mở đầu kết quả khi điều kiện ấy được đáp ứng. Trong bài, chỉ cần ở gần trường là tìm được nhà hàng chay. Có thể đặt chủ ngữ trước hoặc sau 只要.",
+      "structure": "只要 + điều kiện，就 + kết quả",
+      "examples": [
+        {
+          "chinese": "只要在學校附近，就找得到素食餐廳。",
+          "simplified": "只要在学校附近，就找得到素食餐厅。",
+          "pinyin": "zhǐ yào zài xué xiào fù jìn ， jiù zhǎo de dào sù shí cān tīng 。",
+          "meaningVi": "Chỉ cần ở gần trường là tìm được nhà hàng chay."
+        },
+        {
+          "chinese": "只要多喝水、多休息，感冒就會好。",
+          "simplified": "只要多喝水、多休息，感冒就会好。",
+          "pinyin": "zhǐ yào duō hē shuǐ 、 duō xiū xī ， gǎn mào jiù huì hǎo 。",
+          "meaningVi": "Chỉ cần uống nhiều nước, nghỉ ngơi, cảm sẽ khỏi."
+        }
+      ],
+      "commonMistake": "Không bỏ 就 nếu cần làm rõ vế kết quả.",
+      "check": {
+        "id": "cc2-v2-l12-grammar-check-04",
+        "prompt": "Điền: 只要多吃青菜，身體＿＿會更健康。",
+        "options": [
+          {
+            "id": "a",
+            "text": "就"
+          },
+          {
+            "id": "b",
+            "text": "讓"
+          },
+          {
+            "id": "c",
+            "text": "越"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "只要 đưa ra điều kiện đủ; 就 mở đầu kết quả khi điều kiện ấy được đáp ứng.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l12-grammar-05",
+      "title": "越…越… — càng… càng…",
+      "audioTrackId": "cc2-textbook-l12-t09",
+      "explanation": "Hai vế 越 cho biết mức độ thay đổi cùng nhau: cách chế biến càng đơn giản càng tốt. Có thể dùng với hai tính chất khác nhau như 越吃越胖. Đây là quan hệ tăng dần, không phải so sánh hai người.",
+      "structure": "越 + tính chất / hành động，越 + kết quả",
+      "examples": [
+        {
+          "chinese": "菜的作法越簡單越好。",
+          "simplified": "菜的作法越简单越好。",
+          "pinyin": "cài de zuò fǎ yuè jiǎn dān yuè hǎo 。",
+          "meaningVi": "Cách chế biến càng đơn giản càng tốt."
+        },
+        {
+          "chinese": "吃得越油膩，越容易變胖。",
+          "simplified": "吃得越油腻，越容易变胖。",
+          "pinyin": "chī dé yuè yóu nì ， yuè róng yì biàn pàng 。",
+          "meaningVi": "Ăn càng nhiều dầu mỡ càng dễ béo."
+        }
+      ],
+      "commonMistake": "Cần có hai vế 越 khi diễn tả quan hệ ‘càng… càng…’.",
+      "check": {
+        "id": "cc2-v2-l12-grammar-check-05",
+        "prompt": "Điền: 作法＿＿簡單＿＿好。",
+        "options": [
+          {
+            "id": "a",
+            "text": "讓…讓"
+          },
+          {
+            "id": "b",
+            "text": "越…越"
+          },
+          {
+            "id": "c",
+            "text": "只要…就"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Hai vế 越 cho biết mức độ thay đổi cùng nhau: cách chế biến càng đơn giản càng tốt.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l12-grammar-06",
+      "title": "Chủ đề đưa lên đầu để đối chiếu",
+      "audioTrackId": "cc2-textbook-l12-t10",
+      "explanation": "Đưa vật hoặc việc đang so sánh lên đầu câu, rồi nói mỗi bên ra sao: thịt bò thì ít ăn, cá thì ăn. Cách này giúp người nghe thấy rõ sự tương phản giữa các lựa chọn.",
+      "structure": "Chủ đề A，nhận xét A；chủ đề B，nhận xét B",
+      "examples": [
+        {
+          "chinese": "牛肉、豬肉，他不常吃；魚，他會吃。",
+          "simplified": "牛肉、猪肉，他不常吃；鱼，他会吃。",
+          "pinyin": "niú ròu 、 zhū ròu ， tā bù cháng chī ； yú ， tā huì chī 。",
+          "meaningVi": "Thịt bò, thịt heo anh ấy ít ăn; còn cá thì anh ấy ăn."
+        },
+        {
+          "chinese": "水餃我喜歡，臭豆腐我不喜歡。",
+          "simplified": "水饺我喜欢，臭豆腐我不喜欢。",
+          "pinyin": "shuǐ jiǎo wǒ xǐ huān ， chòu dòu fǔ wǒ bù xǐ huān 。",
+          "meaningVi": "Sủi cảo tôi thích, đậu phụ thối thì không."
+        }
+      ],
+      "commonMistake": "Đừng bỏ dấu ngắt khi đưa nhiều chủ đề lên đầu; câu dễ khó hiểu.",
+      "check": {
+        "id": "cc2-v2-l12-grammar-check-06",
+        "prompt": "Điền: 牛肉他不吃；魚，他＿＿吃。",
+        "options": [
+          {
+            "id": "a",
+            "text": "會"
+          },
+          {
+            "id": "b",
+            "text": "被"
+          },
+          {
+            "id": "c",
+            "text": "越"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Đưa vật hoặc việc đang so sánh lên đầu câu, rồi nói mỗi bên ra sao: thịt bò thì ít ăn, cá thì ăn.",
+        "skill": "Ngữ pháp"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc2-v2-l12-listening-01",
+      "prompt": "Nghe hội thoại. Nguyệt Mỹ định đến đâu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cửa hàng đồ ăn nhanh"
+        },
+        {
+          "id": "b",
+          "text": "Chợ đêm"
+        },
+        {
+          "id": "c",
+          "text": "Nhà hàng chay mới mở"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Cô nói 新開的素食餐廳.",
+      "skill": "Nghe địa điểm",
+      "audioTrackId": "cc2-textbook-l12-t01"
+    },
+    {
+      "id": "cc2-v2-l12-listening-02",
+      "prompt": "Nghe hội thoại. Martin muốn thay đổi điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ ăn hamburger"
+        },
+        {
+          "id": "b",
+          "text": "Ăn chay nhiều hơn để khỏe hơn"
+        },
+        {
+          "id": "c",
+          "text": "Bỏ hoàn toàn rau xanh"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Anh nói 希望多吃素，瘦一點，讓自己更健康.",
+      "skill": "Nghe ý chính",
+      "audioTrackId": "cc2-textbook-l12-t01"
+    },
+    {
+      "id": "cc2-v2-l12-listening-03",
+      "prompt": "Nghe bài đọc. Như Ngọc ăn chay vì sao?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cô nghĩ ăn nhiều thịt dễ béo"
+        },
+        {
+          "id": "b",
+          "text": "Vì tôn giáo"
+        },
+        {
+          "id": "c",
+          "text": "Vì không tìm được thịt"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc nói 跟宗教沒有關係，只是覺得吃太多肉容易變胖.",
+      "skill": "Nghe lý do",
+      "audioTrackId": "cc2-textbook-l12-t03"
+    },
+    {
+      "id": "cc2-v2-l12-listening-04",
+      "prompt": "Nghe bài đọc. Món nào được cho là ít dầu mỡ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Món nướng"
+        },
+        {
+          "id": "b",
+          "text": "Món luộc hoặc hấp"
+        },
+        {
+          "id": "c",
+          "text": "Món chiên"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nói 煮的或是蒸的東西，都不太油膩.",
+      "skill": "Nghe chi tiết",
+      "audioTrackId": "cc2-textbook-l12-t03"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc2-v2-l12-practice-01",
+      "prompt": "‘素食’ là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "món nướng"
+        },
+        {
+          "id": "b",
+          "text": "đồ chay"
+        },
+        {
+          "id": "c",
+          "text": "đồ ăn nhanh"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "素食 không có thịt; 速食 là đồ ăn nhanh.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc2-v2-l12-practice-02",
+      "prompt": "Điền: 吃太多漢堡會＿＿你變胖。",
+      "options": [
+        {
+          "id": "a",
+          "text": "只要"
+        },
+        {
+          "id": "b",
+          "text": "讓"
+        },
+        {
+          "id": "c",
+          "text": "越"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "讓 ở đây nghĩa là khiến.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l12-practice-03",
+      "prompt": "Nguyệt Mỹ nói món chay ở nhà hàng thế nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Không có rau"
+        },
+        {
+          "id": "b",
+          "text": "Trông không nhiều dầu mỡ"
+        },
+        {
+          "id": "c",
+          "text": "Rất mặn"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Cô nói 看起來不油膩.",
+      "skill": "Hội thoại"
+    },
+    {
+      "id": "cc2-v2-l12-practice-04",
+      "prompt": "Điền: 電影要開始了，＿＿進去吧。",
+      "options": [
+        {
+          "id": "a",
+          "text": "越來越"
+        },
+        {
+          "id": "b",
+          "text": "快一點"
+        },
+        {
+          "id": "c",
+          "text": "完全"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "快一點 trước động từ dùng để giục.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l12-practice-05",
+      "prompt": "Điền: 他們聊＿＿吃素的經驗。",
+      "options": [
+        {
+          "id": "a",
+          "text": "讓"
+        },
+        {
+          "id": "b",
+          "text": "起"
+        },
+        {
+          "id": "c",
+          "text": "越"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "聊起 là bắt đầu nhắc đến một chủ đề.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l12-practice-06",
+      "prompt": "Điền: 只要多吃青菜，身體＿＿會更健康。",
+      "options": [
+        {
+          "id": "a",
+          "text": "起"
+        },
+        {
+          "id": "b",
+          "text": "就"
+        },
+        {
+          "id": "c",
+          "text": "被"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "只要…就… nối điều kiện và kết quả.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l12-practice-07",
+      "prompt": "Điền: 菜的作法＿＿簡單＿＿好。",
+      "options": [
+        {
+          "id": "a",
+          "text": "被…被"
+        },
+        {
+          "id": "b",
+          "text": "越…越"
+        },
+        {
+          "id": "c",
+          "text": "讓…讓"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "越…越… diễn tả mức độ tăng cùng nhau.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l12-practice-08",
+      "prompt": "Theo bài đọc, người mua thực phẩm hữu cơ chú ý điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ món nướng"
+        },
+        {
+          "id": "b",
+          "text": "Sức khỏe, vệ sinh và dinh dưỡng"
+        },
+        {
+          "id": "c",
+          "text": "Chỉ giá rẻ"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nhắc 身體健康, 衛生 và 營養.",
+      "skill": "Bài đọc"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc2-v2-l12-assessment-01",
+      "prompt": "‘速食’ là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "đồ ăn nhanh"
+        },
+        {
+          "id": "b",
+          "text": "đồ chay"
+        },
+        {
+          "id": "c",
+          "text": "thức ăn hữu cơ"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "速食 là thức ăn được chuẩn bị nhanh.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc2-v2-l12-assessment-02",
+      "prompt": "Điền: 這件事＿＿我很高興。",
+      "options": [
+        {
+          "id": "a",
+          "text": "越"
+        },
+        {
+          "id": "b",
+          "text": "起"
+        },
+        {
+          "id": "c",
+          "text": "讓"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "讓 ở đây là khiến.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l12-assessment-03",
+      "prompt": "Như Ngọc nói bạn trai mình thường ăn loại thịt nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anh ấy chỉ ăn cá"
+        },
+        {
+          "id": "b",
+          "text": "Thịt bò"
+        },
+        {
+          "id": "c",
+          "text": "Thịt heo"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Cô nói 他只吃魚.",
+      "skill": "Hội thoại"
+    },
+    {
+      "id": "cc2-v2-l12-assessment-04",
+      "prompt": "Điền: 快上課了，＿＿走吧。",
+      "options": [
+        {
+          "id": "a",
+          "text": "完全"
+        },
+        {
+          "id": "b",
+          "text": "越來越"
+        },
+        {
+          "id": "c",
+          "text": "快一點"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "快一點 giục làm sớm.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l12-assessment-05",
+      "prompt": "Điền: 我們談＿＿健康的問題。",
+      "options": [
+        {
+          "id": "a",
+          "text": "起"
+        },
+        {
+          "id": "b",
+          "text": "越"
+        },
+        {
+          "id": "c",
+          "text": "讓"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "談起 là bắt đầu đề cập một chủ đề.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l12-assessment-06",
+      "prompt": "Điền: 只要你多休息，感冒＿＿會好。",
+      "options": [
+        {
+          "id": "a",
+          "text": "讓"
+        },
+        {
+          "id": "b",
+          "text": "就"
+        },
+        {
+          "id": "c",
+          "text": "越"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "只要…就… nêu điều kiện đủ.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l12-assessment-07",
+      "prompt": "Điền: 你吃得＿＿油膩，＿＿容易變胖。",
+      "options": [
+        {
+          "id": "a",
+          "text": "越…越"
+        },
+        {
+          "id": "b",
+          "text": "只要…就"
+        },
+        {
+          "id": "c",
+          "text": "讓…讓"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Hai 越 diễn tả mức độ cùng tăng.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l12-assessment-08",
+      "prompt": "Bài đọc nói vì sao Như Ngọc ăn chay?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vì muốn tránh tăng cân"
+        },
+        {
+          "id": "b",
+          "text": "Vì tôn giáo"
+        },
+        {
+          "id": "c",
+          "text": "Vì không thích trường học"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc nói 她吃素跟宗教沒有關係，只是覺得吃太多肉容易變胖.",
+      "skill": "Bài đọc"
+    },
+    {
+      "id": "cc2-v2-l12-assessment-09",
+      "prompt": "Món nào được mô tả không quá nhiều dầu mỡ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Món luộc hoặc hấp"
+        },
+        {
+          "id": "b",
+          "text": "Đồ chiên"
+        },
+        {
+          "id": "c",
+          "text": "Đồ nướng"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc nói 煮的或是蒸的東西，都不太油膩.",
+      "skill": "Bài đọc"
+    },
+    {
+      "id": "cc2-v2-l12-assessment-10",
+      "prompt": "Martin muốn tận dụng thời gian ở Đài Loan để làm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ ăn đồ ăn nhanh"
+        },
+        {
+          "id": "b",
+          "text": "Bỏ rau xanh"
+        },
+        {
+          "id": "c",
+          "text": "Ăn thêm món chay"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Cuối bài nói 多吃吃素食，讓自己瘦下來.",
+      "skill": "Bài đọc"
+    }
+  ],
+  "writingTask": {
+    "id": "cc2-v2-l12-writing",
+    "title": "Thói quen ăn uống của bạn",
+    "prompt": "Viết 2–3 câu nêu một cách ăn uống lành mạnh. Thử dùng 只要…就… hoặc 越…越….",
+    "sampleTraditional": "只要多吃青菜，身體就會更健康。菜的作法越簡單越好。",
+    "sampleSimplified": "只要多吃青菜，身体就会更健康。菜的作法越简单越好。"
+  }
+}

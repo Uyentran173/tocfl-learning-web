@@ -12,6 +12,7 @@ import lesson11Source from "../data/academy/cc2-lesson11-vocabulary.json" with {
 import lesson12Source from "../data/academy/cc2-lesson12-vocabulary.json" with { type: "json" };
 import lesson13Source from "../data/academy/cc2-lesson13-vocabulary.json" with { type: "json" };
 import lesson14Source from "../data/academy/cc2-lesson14-vocabulary.json" with { type: "json" };
+import lesson15Source from "../data/academy/cc2-lesson15-vocabulary.json" with { type: "json" };
 import { cc1Lesson01Words } from "./cc1-lesson01-vocabulary.ts";
 import { cc1CourseVocabularySets } from "./cc1-course-vocabulary.ts";
 import type { VocabularySet, VocabularyWord } from "./vocabulary.ts";
@@ -55,6 +56,7 @@ export const cc2Lesson11Words = lessonWords(lesson11Source.records, 11, [...exis
 export const cc2Lesson12Words = lessonWords(lesson12Source.records, 12, [...existing, ...cc2Lesson01Words, ...cc2Lesson02Words, ...cc2Lesson03Words, ...cc2Lesson04Words, ...cc2Lesson05Words, ...cc2Lesson06Words, ...cc2Lesson07Words, ...cc2Lesson08Words, ...cc2Lesson09Words, ...cc2Lesson10Words, ...cc2Lesson11Words]);
 export const cc2Lesson13Words = lessonWords(lesson13Source.records, 13, [...existing, ...cc2Lesson01Words, ...cc2Lesson02Words, ...cc2Lesson03Words, ...cc2Lesson04Words, ...cc2Lesson05Words, ...cc2Lesson06Words, ...cc2Lesson07Words, ...cc2Lesson08Words, ...cc2Lesson09Words, ...cc2Lesson10Words, ...cc2Lesson11Words, ...cc2Lesson12Words]);
 export const cc2Lesson14Words = lessonWords(lesson14Source.records, 14, [...existing, ...cc2Lesson01Words, ...cc2Lesson02Words, ...cc2Lesson03Words, ...cc2Lesson04Words, ...cc2Lesson05Words, ...cc2Lesson06Words, ...cc2Lesson07Words, ...cc2Lesson08Words, ...cc2Lesson09Words, ...cc2Lesson10Words, ...cc2Lesson11Words, ...cc2Lesson12Words, ...cc2Lesson13Words]);
+export const cc2Lesson15Words = lessonWords(lesson15Source.records, 15, [...existing, ...cc2Lesson01Words, ...cc2Lesson02Words, ...cc2Lesson03Words, ...cc2Lesson04Words, ...cc2Lesson05Words, ...cc2Lesson06Words, ...cc2Lesson07Words, ...cc2Lesson08Words, ...cc2Lesson09Words, ...cc2Lesson10Words, ...cc2Lesson11Words, ...cc2Lesson12Words, ...cc2Lesson13Words, ...cc2Lesson14Words]);
 
 export const cc2VocabularySets: VocabularySet[] = [{
   id: "cc2-v2-l01",
@@ -126,4 +128,9 @@ export const cc2VocabularySets: VocabularySet[] = [{
   title: "Bài 14 · 我要開始找工作了",
   subtitle: "Tôi sắp bắt đầu tìm việc",
   words: cc2Lesson14Words,
+}, {
+  id: "cc2-v2-l15",
+  title: "Bài 15 · 過春節",
+  subtitle: "Đón Tết Nguyên đán",
+  words: cc2Lesson15Words,
 }];

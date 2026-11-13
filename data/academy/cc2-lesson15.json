@@ -1,0 +1,1021 @@
+{
+  "contentVersion": 2,
+  "id": "cc2-v2-l15",
+  "title": "過春節",
+  "titleVi": "Đón Tết Nguyên đán",
+  "description": "Tìm hiểu bữa cơm tất niên, lì xì và các lời chúc đầu năm.",
+  "objectives": [
+    "Nói về bữa cơm tất niên và phong tục Tết.",
+    "Dùng V + 到 để nói hành động kéo dài đến một mốc thời gian.",
+    "Hiểu các lời chúc bốn chữ và cách diễn đạt mức độ tăng dần."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Martin và Ái Lệ đến nhà bác Trần ăn cơm tất niên, nghe kể về phong tục đoàn tụ và lì xì.",
+    "sections": [
+      {
+        "id": "cc2-v2-l15-section-01",
+        "title": "Đón giao thừa cùng gia đình",
+        "body": "Nghe người nhà bác Trần giải thích 圍爐 và 壓歲錢.",
+        "chinese": "除夕夜全家一起吃年夜飯。",
+        "simplified": "除夕夜全家一起吃年夜饭。",
+        "pinyin": "chú xī yè quán jiā yì qǐ chī nián yè fàn 。",
+        "meaningVi": "Đêm giao thừa cả nhà cùng ăn cơm tất niên."
+      },
+      {
+        "id": "cc2-v2-l15-section-02",
+        "title": "Đọc phong tục ngày Tết",
+        "body": "Tìm ý nghĩa của cá, bánh gạo, quýt và những lời chúc.",
+        "chinese": "吃魚的意思是年年有餘。",
+        "simplified": "吃鱼的意思是年年有余。",
+        "pinyin": "chī yú de yì si shì nián nián yǒu yú 。",
+        "meaningVi": "Ăn cá gửi gắm lời chúc năm nào cũng dư dả."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc2-v2-l15-dialogue",
+        "title": "Bữa cơm tất niên ở nhà bác Trần",
+        "context": "Martin và Ái Lệ ăn Tết cùng vợ chồng bác Trần.",
+        "audioTrackId": "cc2-textbook-l15-t01",
+        "turns": [
+          {
+            "speaker": "馬丁",
+            "chinese": "陳伯伯、陳伯母，謝謝你們請我來吃年夜飯，她是林愛麗。",
+            "simplified": "陈伯伯、陈伯母，谢谢你们请我来吃年夜饭，她是林爱丽。",
+            "pinyin": "chén bó bo 、 chén bó mǔ ， xiè xiè nǐ men qǐng wǒ lái chī nián yè fàn ， tā shì lín ài lì 。",
+            "meaningVi": "Bác trai, bác gái Trần, cảm ơn hai bác mời cháu ăn cơm tất niên. Đây là Lâm Ái Lệ."
+          },
+          {
+            "speaker": "愛麗",
+            "chinese": "陳伯伯、陳伯母好！不好意思，打擾你們了。",
+            "simplified": "陈伯伯、陈伯母好！不好意思，打扰你们了。",
+            "pinyin": "chén bó bo 、 chén bó mǔ hǎo ！ bù hǎo yì sī ， dǎ rǎo nǐ men le 。",
+            "meaningVi": "Cháu chào hai bác! Xin lỗi đã làm phiền."
+          },
+          {
+            "speaker": "陳先生",
+            "chinese": "過年就是要熱熱鬧鬧的，人越多越有過年的氣氛。",
+            "simplified": "过年就是要热热闹闹的，人越多越有过年的气氛。",
+            "pinyin": "guò nián jiù shì yào rè rè nào nào de ， rén yuè duō yuè yǒu guò nián de qì fēn 。",
+            "meaningVi": "Tết phải đông vui. Càng đông người càng có không khí Tết."
+          },
+          {
+            "speaker": "陳太太",
+            "chinese": "我們女兒在國外念書，不能回來跟我們一起吃年夜飯，還好你們來陪我們圍爐。",
+            "simplified": "我们女儿在国外念书，不能回来跟我们一起吃年夜饭，还好你们来陪我们围炉。",
+            "pinyin": "wǒ men nǚ ér zài guó wài niàn shū ， bù néng huí lái gēn wǒ men yì qǐ chī nián yè fàn ， hái hǎo nǐ men lái péi wǒ men wéi lú 。",
+            "meaningVi": "Con gái hai bác học ở nước ngoài, không thể về ăn tất niên. May có hai cháu đến quây quần cùng."
+          },
+          {
+            "speaker": "馬丁",
+            "chinese": "「圍爐」是什麼意思？",
+            "simplified": "「围炉」是什么意思？",
+            "pinyin": "「 wéi lú 」 shì shén me yì si ？",
+            "meaningVi": "‘Quây quần ăn Tết’ nghĩa là gì ạ?"
+          },
+          {
+            "speaker": "陳先生",
+            "chinese": "「圍爐」就是除夕夜全家一起吃年夜飯。",
+            "simplified": "「围炉」就是除夕夜全家一起吃年夜饭。",
+            "pinyin": "「 wéi lú 」 jiù shì chú xī yè quán jiā yì qǐ chī nián yè fàn 。",
+            "meaningVi": "Đó là cả nhà cùng ăn cơm tất niên vào đêm giao thừa."
+          },
+          {
+            "speaker": "愛麗",
+            "chinese": "我在加拿大的時候，每年過年都跟父母、親戚一起吃年夜飯。吃了飯，一家人就開開心心地聊天，一直聊到半夜。",
+            "simplified": "我在加拿大的时候，每年过年都跟父母、亲戚一起吃年夜饭。吃了饭，一家人就开开心心地聊天，一直聊到半夜。",
+            "pinyin": "wǒ zài jiā ná dà de shí hòu ， měi nián guò nián dōu gēn fù mǔ 、 qīn qī yì qǐ chī nián yè fàn 。 chī le fàn ， yī jiā rén jiù kāi kāi xīn xīn dì liáo tiān ， yì zhí liáo dào bàn yè 。",
+            "meaningVi": "Khi ở Canada, Tết nào cháu cũng ăn tất niên cùng bố mẹ và họ hàng. Ăn xong cả nhà vui vẻ nói chuyện đến nửa đêm."
+          },
+          {
+            "speaker": "馬丁",
+            "chinese": "有那麼多事能聊啊！",
+            "simplified": "有那么多事能聊啊！",
+            "pinyin": "yǒu nà me duō shì néng liáo a ！",
+            "meaningVi": "Có nhiều chuyện để nói đến vậy à!"
+          },
+          {
+            "speaker": "陳太太",
+            "chinese": "很多人在離家很遠的地方工作、念書，不能常跟家人見面。過年大家都回來了，當然有說不完的話。",
+            "simplified": "很多人在离家很远的地方工作、念书，不能常跟家人见面。过年大家都回来了，当然有说不完的话。",
+            "pinyin": "hěn duō rén zài lí jiā hěn yuǎn de dì fāng gōng zuò 、 niàn shū ， bù néng cháng gēn jiā rén jiàn miàn 。 guò nián dà jiā dōu huí lái le ， dāng rán yǒu shuō bù wán de huà 。",
+            "meaningVi": "Nhiều người làm việc, học hành xa nhà, ít được gặp gia đình. Tết về đông đủ, đương nhiên chuyện trò không hết."
+          },
+          {
+            "speaker": "愛麗",
+            "chinese": "對，現在我在台灣念書，每次我給爸爸、媽媽打電話，都要說好久。",
+            "simplified": "对，现在我在台湾念书，每次我给爸爸、妈妈打电话，都要说好久。",
+            "pinyin": "duì ， xiàn zài wǒ zài tái wān niàn shū ， měi cì wǒ gěi bà bà 、 mā mā dǎ diàn huà ， dōu yào shuō hǎo jiǔ 。",
+            "meaningVi": "Đúng ạ. Giờ cháu học ở Đài Loan, lần nào gọi bố mẹ cũng nói rất lâu."
+          },
+          {
+            "speaker": "馬丁",
+            "chinese": "那小孩子呢？一定會累得睡著了吧！",
+            "simplified": "那小孩子呢？一定会累得睡着了吧！",
+            "pinyin": "nà xiǎo hái zi ne ？ yí dìng huì lèi dé shuì zhù le ba ！",
+            "meaningVi": "Còn trẻ con thì sao? Chắc mệt đến ngủ thiếp đi nhỉ!"
+          },
+          {
+            "speaker": "陳太太",
+            "chinese": "有那麼多好吃的東西，還等著拿壓歲錢，怎麼睡得著？",
+            "simplified": "有那么多好吃的东西，还等着拿压岁钱，怎么睡得着？",
+            "pinyin": "yǒu nà me duō hǎo chī de dōng xī ， hái děng zhù ná yā suì qián ， zěn me shuì dé zhù ？",
+            "meaningVi": "Có bao món ngon, lại còn chờ nhận lì xì, sao mà ngủ được?"
+          },
+          {
+            "speaker": "愛麗",
+            "chinese": "我覺得過年最開心的就是拿紅包了。",
+            "simplified": "我觉得过年最开心的就是拿红包了。",
+            "pinyin": "wǒ jué dé guò nián zuì kāi xīn de jiù shì ná hóng bāo le 。",
+            "meaningVi": "Cháu thấy vui nhất dịp Tết là được nhận bao lì xì."
+          },
+          {
+            "speaker": "馬丁",
+            "chinese": "我知道，拿紅包以前，得先說「恭喜發財」。",
+            "simplified": "我知道，拿红包以前，得先说「恭喜发财」。",
+            "pinyin": "wǒ zhī dào ， ná hóng bāo yǐ qián ， dé xiān shuō 「 gōng xǐ fā cái 」 。",
+            "meaningVi": "Cháu biết: trước khi nhận lì xì phải chúc ‘Cung hỷ phát tài’."
+          },
+          {
+            "speaker": "陳先生",
+            "chinese": "真不錯，這你也學會了。",
+            "simplified": "真不错，这你也学会了。",
+            "pinyin": "zhēn bù cuò ， zhè nǐ yě xué huì le 。",
+            "meaningVi": "Giỏi đấy, điều này cháu cũng học được rồi."
+          },
+          {
+            "speaker": "陳太太",
+            "chinese": "想起以前，我們孩子得一個一個跟爸爸、媽媽說吉祥話，才拿得到壓歲錢。",
+            "simplified": "想起以前，我们孩子得一个一个跟爸爸、妈妈说吉祥话，才拿得到压岁钱。",
+            "pinyin": "xiǎng qǐ yǐ qián ， wǒ men hái zi dé yī gè yī gè gēn bà bà 、 mā mā shuō jí xiáng huà ， cái ná dé dào yā suì qián 。",
+            "meaningVi": "Nhớ hồi trước, các con phải lần lượt chúc bố mẹ lời tốt lành mới nhận được lì xì."
+          },
+          {
+            "speaker": "陳先生",
+            "chinese": "吃了年夜飯，我們也給你們壓歲錢。",
+            "simplified": "吃了年夜饭，我们也给你们压岁钱。",
+            "pinyin": "chī le nián yè fàn ， wǒ men yě gěi nǐ men yā suì qián 。",
+            "meaningVi": "Ăn tất niên xong, hai bác cũng lì xì cho hai cháu."
+          },
+          {
+            "speaker": "馬丁",
+            "chinese": "我們不是小孩了，也可以拿紅包嗎？",
+            "simplified": "我们不是小孩了，也可以拿红包吗？",
+            "pinyin": "wǒ men bú shì xiǎo hái le ， yě kě yǐ ná hóng bāo ma ？",
+            "meaningVi": "Chúng cháu không phải trẻ con nữa, cũng được nhận lì xì sao?"
+          },
+          {
+            "speaker": "陳先生",
+            "chinese": "當然可以！你們的年紀跟我女兒差不多大，就像我們的孩子一樣。",
+            "simplified": "当然可以！你们的年纪跟我女儿差不多大，就像我们的孩子一样。",
+            "pinyin": "dāng rán kě yǐ ！ nǐ men de nián jì gēn wǒ nǚ ér chà bu duō dà ， jiù xiàng wǒ men de hái zi yī yàng 。",
+            "meaningVi": "Tất nhiên được! Hai cháu trạc tuổi con gái bác, cũng như con của bác thôi."
+          },
+          {
+            "speaker": "陳太太",
+            "chinese": "好了，菜都準備好了，我們一邊吃，一邊聊吧！",
+            "simplified": "好了，菜都准备好了，我们一边吃，一边聊吧！",
+            "pinyin": "hǎo le ， cài dōu zhǔn bèi hǎo le ， wǒ men yī biān chī ， yī biān liáo ba ！",
+            "meaningVi": "Được rồi, thức ăn đã sẵn. Vừa ăn vừa trò chuyện nhé!"
+          }
+        ]
+      },
+      {
+        "id": "cc2-v2-l15-reading",
+        "title": "Phong tục Tết",
+        "context": "Bài đọc giới thiệu việc chuẩn bị, bữa cơm tất niên và những ngày đầu năm.",
+        "audioTrackId": "cc2-textbook-l15-t03",
+        "turns": [
+          {
+            "speaker": "Bài đọc",
+            "chinese": "春節就是中國新年，是華人一年裡最大的一個節日。過年前一個月大家就忙起來了，得把家裡打掃乾淨，也要準備過年的食物，還要給孩子買新衣服。另外，每家門口都要貼上春聯，才有過年的氣氛。",
+            "simplified": "春节就是中国新年，是华人一年里最大的一个节日。过年前一个月大家就忙起来了，得把家里打扫干净，也要准备过年的食物，还要给孩子买新衣服。另外，每家门口都要贴上春联，才有过年的气氛。",
+            "pinyin": "chūn jié jiù shì zhōng guó xīn nián ， shì huá rén yī nián lǐ zuì dà de yī gè jié rì 。 guò nián qián yī gè yuè dà jiā jiù máng qǐ lái le ， dé bǎ jiā lǐ dǎ sǎo qián jìng ， yě yào zhǔn bèi guò nián de shí wù ， hái yào gěi hái zi mǎi xīn yī fú 。 lìng wài ， měi jiā mén kǒu dōu yào tiē shàng chūn lián ， cái yǒu guò nián de qì fēn 。",
+            "meaningVi": "Tết Nguyên đán là ngày lễ lớn nhất trong năm của người Hoa. Trước Tết một tháng mọi người bắt đầu bận rộn: dọn nhà, chuẩn bị món ăn, mua áo mới cho trẻ. Mỗi nhà còn dán câu đối trước cửa để có không khí Tết."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "春節前一天是除夕，大部分的人都比平常早回家，因為大家要吃年夜飯。過年的食物都有特別的意思，吃魚的意思是年年有餘（魚）；吃年糕是步步高（糕）升，希望大家工作、功課一年比一年好；吃橘子是希望新的一年大吉大利。",
+            "simplified": "春节前一天是除夕，大部分的人都比平常早回家，因为大家要吃年夜饭。过年的食物都有特别的意思，吃鱼的意思是年年有余（鱼）；吃年糕是步步高（糕）升，希望大家工作、功课一年比一年好；吃橘子是希望新的一年大吉大利。",
+            "pinyin": "chūn jié qián yī tiān shì chú xī ， dà bù fèn de rén dōu bǐ píng cháng zǎo huí jiā ， yīn wèi dà jiā yào chī nián yè fàn 。 guò nián de shí wù dōu yǒu tè bié de yì si ， chī yú de yì si shì nián nián yǒu yú （ yú ） ； chī nián gāo shì bù bù gāo （ gāo ） shēng ， xī wàng dà jiā gōng zuò 、 gōng kè yī nián bǐ yī nián hǎo ； chī jú zi shì xī wàng xīn de yī nián dà jí dà lì 。",
+            "meaningVi": "Ngày trước Tết là giao thừa, phần lớn mọi người về nhà sớm ăn tất niên. Món Tết có ý nghĩa riêng: cá gợi lời chúc năm nào cũng dư dả; bánh gạo gợi sự thăng tiến, học tập và công việc ngày càng tốt; quýt tượng trưng may mắn."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "吃了年夜飯，一家人就一起聊聊天、看看電視，等新的一年開始，這叫守歲。傳統的說法是：除夕夜孩子越晚睡，父母就活得越久。父母也會給孩子壓歲錢，希望他們新的一年都能平平安安的。過了十二點，很多人就到外面放鞭炮，慶祝新年。",
+            "simplified": "吃了年夜饭，一家人就一起聊聊天、看看电视，等新的一年开始，这叫守岁。传统的说法是：除夕夜孩子越晚睡，父母就活得越久。父母也会给孩子压岁钱，希望他们新的一年都能平平安安的。过了十二点，很多人就到外面放鞭炮，庆祝新年。",
+            "pinyin": "chī le nián yè fàn ， yī jiā rén jiù yì qǐ liáo liáo tiān 、 kàn kàn diàn shì ， děng xīn de yī nián kāi shǐ ， zhè jiào shǒu suì 。 chuán tǒng de shuō fǎ shì ： chú xī yè hái zi yuè wǎn shuì ， fù mǔ jiù huó dé yuè jiǔ 。 fù mǔ yě huì gěi hái zi yā suì qián ， xī wàng tā men xīn de yī nián dōu néng píng píng ān ān de 。 guò le shí èr diǎn ， hěn duō rén jiù dào wài miàn fàng biān pào ， qìng zhù xīn nián 。",
+            "meaningVi": "Sau bữa cơm, cả nhà trò chuyện, xem TV và thức đón năm mới, gọi là thủ tuế. Theo quan niệm xưa, con thức càng khuya thì cha mẹ càng sống lâu. Cha mẹ lì xì mong con bình an. Sau nửa đêm, nhiều người ra ngoài đốt pháo mừng năm mới."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "新年的第一天，也叫大年初一。大家會出門給親戚、朋友拜年，祝他們新年快樂。到了大年初五，大部分的人都得上班，街上又熱鬧起來了。",
+            "simplified": "新年的第一天，也叫大年初一。大家会出门给亲戚、朋友拜年，祝他们新年快乐。到了大年初五，大部分的人都得上班，街上又热闹起来了。",
+            "pinyin": "xīn nián de dì yī tiān ， yě jiào dà nián chū yī 。 dà jiā huì chū mén gěi qīn qī 、 péng yǒu bài nián ， zhù tā men xīn nián kuài lè 。 dào le dà nián chū wǔ ， dà bù fèn de rén dōu dé shàng bān ， jiē shàng yòu rè nào qǐ lái le 。",
+            "meaningVi": "Ngày đầu năm là mùng Một, mọi người ra ngoài chúc Tết người thân, bạn bè. Đến mùng Năm phần lớn quay lại làm việc, phố xá lại nhộn nhịp."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc2-v2-l15-check-01",
+        "prompt": "‘圍爐’ là gì theo bác Trần?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Đi chúc Tết"
+          },
+          {
+            "id": "b",
+            "text": "Cả nhà cùng ăn cơm tất niên đêm giao thừa"
+          },
+          {
+            "id": "c",
+            "text": "Đi đốt pháo"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Bác nói 除夕夜全家一起吃年夜飯.",
+        "skill": "Hội thoại"
+      },
+      {
+        "id": "cc2-v2-l15-check-02",
+        "prompt": "Bài đọc nói mùng Một mọi người thường làm gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Đi chúc Tết người thân và bạn bè"
+          },
+          {
+            "id": "b",
+            "text": "Bắt đầu đi làm"
+          },
+          {
+            "id": "c",
+            "text": "Dọn nhà"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Bài đọc nói 出門給親戚、朋友拜年.",
+        "skill": "Bài đọc"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem phiên âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc2-v2-l15-v001",
+      "cc2-v2-l15-v002",
+      "cc2-v2-l15-v003",
+      "cc2-v2-l15-v004",
+      "cc2-v2-l15-v005",
+      "cc2-v2-l15-v006",
+      "cc2-v2-l15-v007",
+      "cc2-v2-l15-v008",
+      "cc2-v2-l15-v009",
+      "cc2-v2-l15-v010",
+      "cc2-v2-l15-v011",
+      "cc2-v2-l15-v012",
+      "cc2-v2-l15-v013",
+      "cc2-v2-l15-v014",
+      "cc2-v2-l15-v015",
+      "cc2-v2-l15-v016",
+      "cc2-v2-l15-v017",
+      "cc2-v2-l15-v018",
+      "cc2-v2-l15-v019",
+      "cc2-v2-l15-v020",
+      "cc2-v2-l15-v021",
+      "cc2-v2-l15-v022",
+      "cc2-v2-l15-v023",
+      "cc2-v2-l15-v024",
+      "cc2-v2-l15-v025",
+      "cc2-v2-l15-v026",
+      "cc2-v2-l15-v027",
+      "cc2-v2-l15-v028",
+      "cc2-v2-l15-v029",
+      "cc2-v2-l15-v030",
+      "cc2-v2-l15-v031",
+      "cc2-v2-l15-v032",
+      "cc2-v2-l15-v033",
+      "cc2-v2-l15-v034",
+      "cc2-v2-l15-v035",
+      "cc2-v2-l15-v036",
+      "cc2-v2-l15-v037",
+      "cc2-v2-l15-v038",
+      "cc2-v2-l15-v039",
+      "cc2-v2-l15-v040",
+      "cc2-v2-l15-v041",
+      "cc2-v2-l15-v042"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc2-textbook-l15-t02",
+        "label": "Từ vựng hội thoại"
+      },
+      {
+        "id": "cc2-textbook-l15-t04",
+        "label": "Từ vựng bài đọc"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc2-v2-l15-grammar-01",
+      "title": "V + 到 + thời gian — làm đến khi",
+      "audioTrackId": "cc2-textbook-l15-t05",
+      "explanation": "Đặt 到 sau động từ và trước mốc thời gian để nói hành động kéo dài tới mốc ấy. Trong hội thoại, Ái Lệ trò chuyện tới nửa đêm. Nghĩa ở đây là ‘đến lúc’, không phải ‘đi đến nơi’.",
+      "structure": "Động từ + 到 + mốc thời gian",
+      "examples": [
+        {
+          "chinese": "一家人一直聊到半夜。",
+          "simplified": "一家人一直聊到半夜。",
+          "pinyin": "yī jiā rén yì zhí liáo dào bàn yè 。",
+          "meaningVi": "Cả nhà nói chuyện mãi đến nửa đêm."
+        },
+        {
+          "chinese": "我們吃年夜飯吃到快十二點。",
+          "simplified": "我们吃年夜饭吃到快十二点。",
+          "pinyin": "wǒ men chī nián yè fàn chī dào kuài shí èr diǎn 。",
+          "meaningVi": "Chúng tôi ăn tất niên đến gần mười hai giờ."
+        }
+      ],
+      "commonMistake": "Sau 到 trong mẫu này cần mốc thời gian kết thúc.",
+      "check": {
+        "id": "cc2-v2-l15-grammar-check-01",
+        "prompt": "Điền: 我們一直聊＿＿半夜。",
+        "options": [
+          {
+            "id": "a",
+            "text": "再"
+          },
+          {
+            "id": "b",
+            "text": "到"
+          },
+          {
+            "id": "c",
+            "text": "比"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Đặt 到 sau động từ và trước mốc thời gian để nói hành động kéo dài tới mốc ấy.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l15-grammar-02",
+      "title": "一 + lượng từ + 一 + lượng từ — từng cái một",
+      "audioTrackId": "cc2-textbook-l15-t06",
+      "explanation": "Lặp lượng từ để chỉ cách làm lần lượt từng người, từng vật. Có thể thêm 地 trước động từ. Trong bài, con cái lần lượt chúc bố mẹ rồi mới nhận lì xì.",
+      "structure": "一 + lượng từ + 一 + lượng từ + (地) + động từ",
+      "examples": [
+        {
+          "chinese": "孩子一個一個跟父母說吉祥話。",
+          "simplified": "孩子一个一个跟父母说吉祥话。",
+          "pinyin": "hái zi yī gè yī gè gēn fù mǔ shuō jí xiáng huà 。",
+          "meaningVi": "Trẻ lần lượt chúc bố mẹ."
+        },
+        {
+          "chinese": "我把照片一張一張地看完。",
+          "simplified": "我把照片一张一张地看完。",
+          "pinyin": "wǒ bǎ zhào piān yī zhāng yī zhāng dì kàn wán 。",
+          "meaningVi": "Tôi xem hết từng tấm ảnh một."
+        }
+      ],
+      "commonMistake": "Đừng dùng mẫu này khi muốn nói mọi người làm cùng lúc.",
+      "check": {
+        "id": "cc2-v2-l15-grammar-check-02",
+        "prompt": "Điền: 孩子一＿＿一＿＿地說吉祥話。",
+        "options": [
+          {
+            "id": "a",
+            "text": "年…年"
+          },
+          {
+            "id": "b",
+            "text": "到…到"
+          },
+          {
+            "id": "c",
+            "text": "個…個"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Lặp lượng từ để chỉ cách làm lần lượt từng người, từng vật.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l15-grammar-03",
+      "title": "一 + lượng từ + 比 + 一 + lượng từ — ngày càng hơn",
+      "audioTrackId": "cc2-textbook-l15-t07",
+      "explanation": "So sánh từng đơn vị nối tiếp để nhấn mức độ tăng: 一年比一年好 là năm sau tốt hơn năm trước. Lượng từ phải hợp với danh từ đang so sánh.",
+      "structure": "一 + lượng từ + 比 + 一 + lượng từ + tính chất",
+      "examples": [
+        {
+          "chinese": "希望大家的工作一年比一年好。",
+          "simplified": "希望大家的工作一年比一年好。",
+          "pinyin": "xī wàng dà jiā de gōng zuò yī nián bǐ yī nián hǎo 。",
+          "meaningVi": "Mong công việc của mọi người năm sau tốt hơn năm trước."
+        },
+        {
+          "chinese": "這些學生一個比一個認真。",
+          "simplified": "这些学生一个比一个认真。",
+          "pinyin": "zhè xiē xué shēng yī gè bǐ yī gè rèn zhēn 。",
+          "meaningVi": "Những học sinh này người sau chăm hơn người trước."
+        }
+      ],
+      "commonMistake": "Đừng nhầm với 一個一個 chỉ thứ tự từng cái, không so sánh mức độ.",
+      "check": {
+        "id": "cc2-v2-l15-grammar-check-03",
+        "prompt": "Điền: 工作一年＿＿一年好。",
+        "options": [
+          {
+            "id": "a",
+            "text": "比"
+          },
+          {
+            "id": "b",
+            "text": "到"
+          },
+          {
+            "id": "c",
+            "text": "再"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "So sánh từng đơn vị nối tiếp để nhấn mức độ tăng: 一年比一年好 là năm sau tốt hơn năm trước.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l15-grammar-04",
+      "title": "V / trạng thái + 起來 — bắt đầu",
+      "audioTrackId": "cc2-textbook-l15-t08",
+      "explanation": "起來 sau động từ hoặc tính chất nêu việc bắt đầu diễn ra: 忙起來 là trở nên bận rộn, 熱鬧起來 là bắt đầu nhộn nhịp. Sắc thái này khác 起來 chỉ đứng dậy.",
+      "structure": "Động từ / tính chất + 起來 + 了",
+      "examples": [
+        {
+          "chinese": "過年前大家忙起來了。",
+          "simplified": "过年前大家忙起来了。",
+          "pinyin": "guò nián qián dà jiā máng qǐ lái le 。",
+          "meaningVi": "Trước Tết mọi người bắt đầu bận rộn."
+        },
+        {
+          "chinese": "大年初五街上又熱鬧起來了。",
+          "simplified": "大年初五街上又热闹起来了。",
+          "pinyin": "dà nián chū wǔ jiē shàng yòu rè nào qǐ lái le 。",
+          "meaningVi": "Mùng Năm phố xá lại bắt đầu nhộn nhịp."
+        }
+      ],
+      "commonMistake": "Không dịch mọi 起來 thành ‘đứng lên’; xem động từ đứng trước.",
+      "check": {
+        "id": "cc2-v2-l15-grammar-check-04",
+        "prompt": "Điền: 過年前大家忙＿＿了。",
+        "options": [
+          {
+            "id": "a",
+            "text": "得到"
+          },
+          {
+            "id": "b",
+            "text": "下去"
+          },
+          {
+            "id": "c",
+            "text": "起來"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "起來 sau động từ hoặc tính chất nêu việc bắt đầu diễn ra: 忙起來 là trở nên bận rộn, 熱鬧起來 là bắt đầu nhộn nhịp.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l15-grammar-05",
+      "title": "Lời chúc bốn chữ",
+      "audioTrackId": "cc2-textbook-l15-t09",
+      "explanation": "Những cụm bốn chữ ngắn gọn thường gói một lời chúc hoặc ý nghĩa văn hóa: 恭喜發財 chúc phát tài, 年年有餘 chúc dư dả, 步步高升 chúc thăng tiến. Nhớ cả cụm và dịp dùng thay vì dịch rời từng chữ.",
+      "structure": "Cụm bốn chữ dùng như lời chúc / biểu tượng",
+      "examples": [
+        {
+          "chinese": "過年要說恭喜發財。",
+          "simplified": "过年要说恭喜发财。",
+          "pinyin": "guò nián yào shuō gōng xǐ fā cái 。",
+          "meaningVi": "Tết người ta chúc ‘Cung hỷ phát tài’."
+        },
+        {
+          "chinese": "吃魚象徵年年有餘。",
+          "simplified": "吃鱼象征年年有余。",
+          "pinyin": "chī yú xiàng zhēng nián nián yǒu yú 。",
+          "meaningVi": "Ăn cá tượng trưng cho lời chúc dư dả mỗi năm."
+        }
+      ],
+      "commonMistake": "年年有餘 dùng lối chơi chữ 餘 (dư) và 魚 (cá); đừng dịch thành tên món ăn.",
+      "check": {
+        "id": "cc2-v2-l15-grammar-check-05",
+        "prompt": "Điền: 吃魚象徵年年有＿＿。",
+        "options": [
+          {
+            "id": "a",
+            "text": "餘"
+          },
+          {
+            "id": "b",
+            "text": "到"
+          },
+          {
+            "id": "c",
+            "text": "比"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Những cụm bốn chữ ngắn gọn thường gói một lời chúc hoặc ý nghĩa văn hóa: 恭喜發財 chúc phát tài, 年年有餘 chúc dư dả, 步步高升 chúc thăng tiến.",
+        "skill": "Ngữ pháp"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc2-v2-l15-listening-01",
+      "prompt": "Nghe hội thoại. Martin và Ái Lệ đến nhà ai ăn tất niên?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Giáo viên ở trường"
+        },
+        {
+          "id": "b",
+          "text": "Vợ chồng bác Trần"
+        },
+        {
+          "id": "c",
+          "text": "Gia đình Martin"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Đầu hội thoại Martin chào 陳伯伯、陳伯母.",
+      "skill": "Nghe nhân vật",
+      "audioTrackId": "cc2-textbook-l15-t01"
+    },
+    {
+      "id": "cc2-v2-l15-listening-02",
+      "prompt": "Nghe hội thoại. Vì sao trẻ nhỏ khó ngủ sớm?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vì phải đi học"
+        },
+        {
+          "id": "b",
+          "text": "Vì mất điện thoại"
+        },
+        {
+          "id": "c",
+          "text": "Vì còn chờ lì xì và có nhiều món ngon"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bác gái nói 等著拿壓歲錢，怎麼睡得著.",
+      "skill": "Nghe lý do",
+      "audioTrackId": "cc2-textbook-l15-t01"
+    },
+    {
+      "id": "cc2-v2-l15-listening-03",
+      "prompt": "Nghe bài đọc. Cá trong bữa Tết tượng trưng cho điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đi du lịch"
+        },
+        {
+          "id": "b",
+          "text": "Năm nào cũng dư dả"
+        },
+        {
+          "id": "c",
+          "text": "Sống ở biển"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nói 吃魚的意思是年年有餘.",
+      "skill": "Nghe ý nghĩa",
+      "audioTrackId": "cc2-textbook-l15-t03"
+    },
+    {
+      "id": "cc2-v2-l15-listening-04",
+      "prompt": "Nghe bài đọc. Mùng Năm phần lớn mọi người làm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đi mua bánh gạo"
+        },
+        {
+          "id": "b",
+          "text": "Thức đón giao thừa"
+        },
+        {
+          "id": "c",
+          "text": "Quay lại đi làm"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc nói 大部分的人都得上班.",
+      "skill": "Nghe mốc thời gian",
+      "audioTrackId": "cc2-textbook-l15-t03"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc2-v2-l15-practice-01",
+      "prompt": "‘壓歲錢’ là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "tiền học phí"
+        },
+        {
+          "id": "b",
+          "text": "vé tàu"
+        },
+        {
+          "id": "c",
+          "text": "tiền lì xì"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "壓歲錢 là tiền mừng tuổi dịp Tết.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc2-v2-l15-practice-02",
+      "prompt": "Điền: 一家人聊＿＿半夜。",
+      "options": [
+        {
+          "id": "a",
+          "text": "比"
+        },
+        {
+          "id": "b",
+          "text": "再"
+        },
+        {
+          "id": "c",
+          "text": "到"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "聊到半夜 là trò chuyện tới nửa đêm.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l15-practice-03",
+      "prompt": "Trước khi nhận lì xì Martin nói gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "再見"
+        },
+        {
+          "id": "b",
+          "text": "生日快樂"
+        },
+        {
+          "id": "c",
+          "text": "恭喜發財"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Anh nói 得先說「恭喜發財」.",
+      "skill": "Hội thoại"
+    },
+    {
+      "id": "cc2-v2-l15-practice-04",
+      "prompt": "Điền: 大家一＿＿一＿＿地說吉祥話。",
+      "options": [
+        {
+          "id": "a",
+          "text": "年…年"
+        },
+        {
+          "id": "b",
+          "text": "到…到"
+        },
+        {
+          "id": "c",
+          "text": "個…個"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "一個一個 nói từng người một.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l15-practice-05",
+      "prompt": "Điền: 希望工作一年＿＿一年好。",
+      "options": [
+        {
+          "id": "a",
+          "text": "到"
+        },
+        {
+          "id": "b",
+          "text": "再"
+        },
+        {
+          "id": "c",
+          "text": "比"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "一年比一年好 là năm sau tốt hơn năm trước.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l15-practice-06",
+      "prompt": "Điền: 街上又熱鬧＿＿了。",
+      "options": [
+        {
+          "id": "a",
+          "text": "下去"
+        },
+        {
+          "id": "b",
+          "text": "起來"
+        },
+        {
+          "id": "c",
+          "text": "得到"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "熱鬧起來 là bắt đầu nhộn nhịp.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l15-practice-07",
+      "prompt": "Bài đọc: người ta dán gì ở cửa trước Tết?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vé tàu"
+        },
+        {
+          "id": "b",
+          "text": "Câu đối Tết"
+        },
+        {
+          "id": "c",
+          "text": "Lịch học"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nói 貼上春聯.",
+      "skill": "Bài đọc"
+    },
+    {
+      "id": "cc2-v2-l15-practice-08",
+      "prompt": "‘年年有餘’ gắn với món nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Salad"
+        },
+        {
+          "id": "b",
+          "text": "Hamburger"
+        },
+        {
+          "id": "c",
+          "text": "Cá"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "魚 và 餘 đồng âm trong lời chúc.",
+      "skill": "Văn hóa"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc2-v2-l15-assessment-01",
+      "prompt": "‘守歲’ là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "dọn nhà"
+        },
+        {
+          "id": "b",
+          "text": "đi học"
+        },
+        {
+          "id": "c",
+          "text": "thức đón giao thừa"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "守歲 là chờ năm mới đến cùng gia đình.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc2-v2-l15-assessment-02",
+      "prompt": "Điền: 我們聊天聊＿＿十二點。",
+      "options": [
+        {
+          "id": "a",
+          "text": "比"
+        },
+        {
+          "id": "b",
+          "text": "再"
+        },
+        {
+          "id": "c",
+          "text": "到"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "到 theo sau động từ nêu mốc kết thúc.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l15-assessment-03",
+      "prompt": "Bác Trần nói ‘圍爐’ là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dán câu đối"
+        },
+        {
+          "id": "b",
+          "text": "Cả nhà ăn cơm tất niên"
+        },
+        {
+          "id": "c",
+          "text": "Đi chúc Tết"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bác giải thích 除夕夜全家一起吃年夜飯.",
+      "skill": "Hội thoại"
+    },
+    {
+      "id": "cc2-v2-l15-assessment-04",
+      "prompt": "Điền: 孩子一＿＿一＿＿地說吉祥話。",
+      "options": [
+        {
+          "id": "a",
+          "text": "個…個"
+        },
+        {
+          "id": "b",
+          "text": "年…年"
+        },
+        {
+          "id": "c",
+          "text": "比…比"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "一個一個 là lần lượt từng người.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l15-assessment-05",
+      "prompt": "Điền: 這些菜一＿＿比一＿＿好吃。",
+      "options": [
+        {
+          "id": "a",
+          "text": "道…道"
+        },
+        {
+          "id": "b",
+          "text": "到…到"
+        },
+        {
+          "id": "c",
+          "text": "又…又"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Một món so với món tiếp theo dùng lượng từ 道.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l15-assessment-06",
+      "prompt": "Điền: 春節快到了，大家忙＿＿了。",
+      "options": [
+        {
+          "id": "a",
+          "text": "起來"
+        },
+        {
+          "id": "b",
+          "text": "得到"
+        },
+        {
+          "id": "c",
+          "text": "下去"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "忙起來 là bắt đầu bận rộn.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l15-assessment-07",
+      "prompt": "Điền: 吃魚象徵年年有＿＿。",
+      "options": [
+        {
+          "id": "a",
+          "text": "到"
+        },
+        {
+          "id": "b",
+          "text": "比"
+        },
+        {
+          "id": "c",
+          "text": "餘"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "餘 nghĩa là dư dả, đồng âm với 魚.",
+      "skill": "Văn hóa"
+    },
+    {
+      "id": "cc2-v2-l15-assessment-08",
+      "prompt": "Tết trước một tháng người ta chuẩn bị gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dọn nhà, chuẩn bị thức ăn và áo mới"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ đặt vé máy bay"
+        },
+        {
+          "id": "c",
+          "text": "Chỉ đi làm"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc nêu 打掃, 準備食物, 買新衣服.",
+      "skill": "Bài đọc"
+    },
+    {
+      "id": "cc2-v2-l15-assessment-09",
+      "prompt": "Mùng Một mọi người làm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Quay lại đi làm"
+        },
+        {
+          "id": "b",
+          "text": "Đi thi"
+        },
+        {
+          "id": "c",
+          "text": "Đi chúc Tết"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc nói 大年初一…拜年.",
+      "skill": "Bài đọc"
+    },
+    {
+      "id": "cc2-v2-l15-assessment-10",
+      "prompt": "Đến mùng Năm điều gì xảy ra?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Phần lớn mọi người đi làm trở lại"
+        },
+        {
+          "id": "b",
+          "text": "Bắt đầu giao thừa"
+        },
+        {
+          "id": "c",
+          "text": "Mọi người dọn nhà"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc nói 大年初五，大部分的人都得上班.",
+      "skill": "Bài đọc"
+    }
+  ],
+  "writingTask": {
+    "id": "cc2-v2-l15-writing",
+    "title": "Tết của bạn",
+    "prompt": "Viết 2–3 câu kể một phong tục Tết ở gia đình bạn. Thử dùng V + 到 hoặc một lời chúc bốn chữ.",
+    "sampleTraditional": "除夕夜我們全家吃年夜飯，聊天聊到半夜。新年見到親戚，我會說恭喜發財。",
+    "sampleSimplified": "除夕夜我们全家吃年夜饭，聊天聊到半夜。新年见到亲戚，我会说恭喜发财。"
+  }
+}

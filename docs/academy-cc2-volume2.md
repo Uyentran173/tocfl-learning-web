@@ -1,6 +1,6 @@
 # Contemporary Chinese · Volume 2
 
-Volume 2 has 15 lesson identities (`cc2-v2-l01` through `cc2-v2-l15`). Lessons 01–14 are published. Lesson 15 remains unavailable until its text, teaching content, and audio mappings have been reviewed. Each completed lesson is released separately.
+Volume 2 has 15 published lessons (`cc2-v2-l01` through `cc2-v2-l15`). Each lesson has reviewed dialogue and reading content, vocabulary, grammar, listening checks, practice, assessment, and mapped audio.
 
 ## Source and staging
 
@@ -18,7 +18,7 @@ python3 scripts/import_cc2_audio.py \
   --workbook-zip '/Users/macbookpro/Downloads/當代中文課程 第二冊 作業本-20261112T123209Z-1-001.zip'
 ```
 
-Use `python3 scripts/publish_cc2_lesson01_audio.py`, `python3 scripts/publish_cc2_lesson02_audio.py`, and `python3 scripts/publish_cc2_lesson_audio.py --lesson N` for N = 3–14 after staging and checking the printed codes against the PDFs. They copy 13, 14, 14, 13, 13, 13, 13, 16, 14, 13, 15, 14, 17, and 14 tracks, respectively, into `public/academy/cc2/audio/`. No later lesson audio is public. Re-running the staging import resets mapping statuses, so re-run all fourteen publication steps afterward.
+Use `python3 scripts/publish_cc2_lesson01_audio.py`, `python3 scripts/publish_cc2_lesson02_audio.py`, and `python3 scripts/publish_cc2_lesson_audio.py --lesson N` for N = 3–15 after staging and checking the printed codes against the PDFs. They copy 13, 14, 14, 13, 13, 13, 13, 16, 14, 13, 15, 14, 17, 14, and 13 tracks, respectively, into `public/academy/cc2/audio/`. Re-running the staging import resets mapping statuses, so re-run all fifteen publication steps afterward.
 
 ## Lesson 01
 
@@ -106,6 +106,12 @@ The 17 recordings follow textbook codes `13-01`–`13-13` on pages 349, 353–37
 
 The 14 recordings follow textbook codes `14-01`–`14-10` on pages 385, 389–401 and workbook codes `14-1`–`14-4` on pages 111–113. Workbook recordings stay separate without invented transcripts or answer keys. Progress keys use `cc2-v2-l14`.
 
-## Remaining work
+## Lesson 15
 
-88 tracks remain private for later lessons; this count includes two unassigned `00.mp3` files. The mapping report lists pending lesson tracks whose printed codes were not detected in extracted PDF text. Their visible pages must be reviewed before they are published. Lessons 10–15 need their own verified text, vocabulary, explanations and assessments before routes are opened.
+`scripts/build_cc2_vocabulary.py --lesson 15` builds 42 textbook vocabulary records. `scripts/build_cc2_lesson15.py` builds the 20-turn Lunar New Year dialogue, four-paragraph reading, five grammar points, four listening checks, eight practice questions, and ten assessment questions. Traditional text was checked against textbook PDF pages 411–412 and 416; Vietnamese translations and teaching activities are Tai Wén content.
+
+The 13 recordings follow textbook codes `15-01`–`15-09` on pages 411, 415–425 and workbook codes `15-1`–`15-4` on pages 121–122. Workbook recordings stay separate without invented transcripts or answer keys. Progress keys use `cc2-v2-l15`.
+
+## Unassigned source audio
+
+Two `00.mp3` files remain in private staging because their purpose is not verified. They are not attached to lessons or published.

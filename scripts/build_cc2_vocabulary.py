@@ -21,6 +21,9 @@ def main() -> None:
     source = ROOT / f"data/academy/cc2-lesson{lesson:02d}-vocabulary.tsv"
     target = ROOT / f"data/academy/cc2-lesson{lesson:02d}-vocabulary.json"
     convert = OpenCC("tw2s")
+    def simplified(value: str) -> str:
+        # OpenCC keeps 穿著 in a few longer noun phrases although the simplified verb is 穿着.
+        return convert.convert(value).replace("穿著", "穿着")
     with source.open(newline="") as stream:
         rows = list(csv.DictReader(stream, delimiter="\t"))
     if len(rows) != EXPECTED_COUNTS[lesson] or len({row["traditional"] for row in rows}) != len(rows):
@@ -32,12 +35,12 @@ def main() -> None:
         result.append({
             "id": f"cc2-v2-l{lesson:02d}-v{number:03d}",
             "traditional": row["traditional"],
-            "simplified": convert.convert(row["traditional"]),
+            "simplified": simplified(row["traditional"]),
             "pinyin": row["pinyin"],
             "wordClass": row["wordClass"],
             "meaningVi": row["meaningVi"],
             "exampleTraditional": row["exampleTraditional"],
-            "exampleSimplified": convert.convert(row["exampleTraditional"]),
+            "exampleSimplified": simplified(row["exampleTraditional"]),
             "exampleVi": row["exampleVi"],
         })
     target.write_text(json.dumps({"lessonId": f"cc2-v2-l{lesson:02d}", "records": result}, ensure_ascii=False, indent=2) + "\n")

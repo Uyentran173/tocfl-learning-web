@@ -14,8 +14,12 @@ CONVERT = OpenCC("tw2s")
 PREFIX = "cc2-v2-l05"
 
 
+def simplified(value: str) -> str:
+    return CONVERT.convert(value).replace("穿著", "穿着")
+
+
 def sentence(chinese: str, meaning: str) -> dict:
-    return {"chinese": chinese, "simplified": CONVERT.convert(chinese),
+    return {"chinese": chinese, "simplified": simplified(chinese),
             "pinyin": " ".join(lazy_pinyin(chinese, style=Style.TONE, errors=lambda value: list(value))),
             "meaningVi": meaning}
 
@@ -145,8 +149,8 @@ def main() -> None:
     path = ROOT / "data/academy/cc2-reviewed-content.json"
     reviewed = json.loads(path.read_text())
     reviewed.update({
-        "cc2-textbook-l05-t01": {"transcriptTraditional": "\n".join(f"{who}：{text}" for who, text, _ in DIALOGUE), "transcriptSimplified": "\n".join(f"{who}：{CONVERT.convert(text)}" for who, text, _ in DIALOGUE), "translationVi": "\n".join(f"{who}：{vi}" for who, _, vi in DIALOGUE)},
-        "cc2-textbook-l05-t03": {"transcriptTraditional": "\n\n".join(text for text, _ in READING), "transcriptSimplified": "\n\n".join(CONVERT.convert(text) for text, _ in READING), "translationVi": "\n\n".join(vi for _, vi in READING)},
+        "cc2-textbook-l05-t01": {"transcriptTraditional": "\n".join(f"{who}：{text}" for who, text, _ in DIALOGUE), "transcriptSimplified": "\n".join(f"{simplified(who)}：{simplified(text)}" for who, text, _ in DIALOGUE), "translationVi": "\n".join(f"{who}：{vi}" for who, _, vi in DIALOGUE)},
+        "cc2-textbook-l05-t03": {"transcriptTraditional": "\n\n".join(text for text, _ in READING), "transcriptSimplified": "\n\n".join(simplified(text) for text, _ in READING), "translationVi": "\n\n".join(vi for _, vi in READING)},
     })
     path.write_text(json.dumps(reviewed, ensure_ascii=False, indent=2) + "\n")
     path = ROOT / "data/academy/cc2-script-map.json"

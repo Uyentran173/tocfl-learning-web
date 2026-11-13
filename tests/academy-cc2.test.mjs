@@ -7,6 +7,7 @@ import { fileURLToPath } from 'node:url';
 import { academyVolume2, academyVolume2Lesson01, academyVolume2Lesson02, academyVolume2Lesson03, academyVolume2Lesson04, academyVolume2Lesson05, academyVolume2Lesson06, validateAcademyLessonContent, academyVocabularyByIds } from '../lib/academy-catalog.ts';
 import { academyScriptText } from '../lib/academy-script.ts';
 import audioManifest from '../data/academy/cc2-audio-manifest.json' with { type: 'json' };
+import reviewedContent from '../data/academy/cc2-reviewed-content.json' with { type: 'json' };
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -93,6 +94,31 @@ test('Volume 2 source text keeps separate Traditional and Simplified spellings',
   assert.equal(academyScriptText(academyVolume2Lesson05.grammar[1].title, 'simplified'), 'V 着 + hành động — vừa giữ trạng thái, vừa làm');
   assert.equal(academyScriptText(academyVolume2Lesson06.title, 'simplified'), '我打算搬到学校附近');
   assert.equal(academyScriptText(academyVolume2Lesson06.grammar[4].title, 'simplified'), '而且 — hơn nữa; và còn');
+});
+
+test('all published Academy sentences, vocabulary examples and transcripts follow the selected script', () => {
+  for (let lessonNumber = 1; lessonNumber <= 6; lessonNumber++) {
+    const number = String(lessonNumber).padStart(2, '0');
+    const lesson = JSON.parse(readFileSync(path.join(root, `data/academy/cc2-lesson${number}.json`), 'utf8'));
+    const vocabulary = JSON.parse(readFileSync(path.join(root, `data/academy/cc2-lesson${number}-vocabulary.json`), 'utf8'));
+    function checkSentences(value) {
+      if (Array.isArray(value)) { value.forEach(checkSentences); return; }
+      if (!value || typeof value !== 'object') return;
+      if (typeof value.chinese === 'string' && typeof value.simplified === 'string') {
+        assert.equal(value.simplified, academyScriptText(value.chinese, 'simplified'), `${number}: ${value.chinese}`);
+      }
+      Object.values(value).forEach(checkSentences);
+    }
+    checkSentences(lesson);
+    for (const word of vocabulary.records) {
+      assert.equal(word.simplified, academyScriptText(word.traditional, 'simplified'), word.id);
+      assert.equal(word.exampleSimplified, academyScriptText(word.exampleTraditional, 'simplified'), word.id);
+    }
+    for (const track of [1, 3]) {
+      const content = reviewedContent[`cc2-textbook-l${number}-t${String(track).padStart(2, '0')}`];
+      if (content) assert.equal(content.transcriptSimplified, academyScriptText(content.transcriptTraditional, 'simplified'), `${number}:${track}`);
+    }
+  }
 });
 
 test('only PDF-verified Lesson 01–06 tracks are published', () => {

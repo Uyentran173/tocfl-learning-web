@@ -144,7 +144,7 @@ def main() -> None:
     path = ROOT / "data/academy/cc2-reviewed-content.json"
     reviewed = json.loads(path.read_text())
     reviewed.update({
-        "cc2-textbook-l06-t01": {"transcriptTraditional": "\n".join(f"{who}：{text}" for who, text, _ in DIALOGUE), "transcriptSimplified": "\n".join(f"{who}：{CONVERT.convert(text)}" for who, text, _ in DIALOGUE), "translationVi": "\n".join(f"{who}：{vi}" for who, _, vi in DIALOGUE)},
+        "cc2-textbook-l06-t01": {"transcriptTraditional": "\n".join(f"{who}：{text}" for who, text, _ in DIALOGUE), "transcriptSimplified": "\n".join(f"{CONVERT.convert(who)}：{CONVERT.convert(text)}" for who, text, _ in DIALOGUE), "translationVi": "\n".join(f"{who}：{vi}" for who, _, vi in DIALOGUE)},
         "cc2-textbook-l06-t03": {"transcriptTraditional": "\n\n".join(text for text, _ in READING), "transcriptSimplified": "\n\n".join(CONVERT.convert(text) for text, _ in READING), "translationVi": "\n\n".join(vi for _, vi in READING)},
     })
     path.write_text(json.dumps(reviewed, ensure_ascii=False, indent=2) + "\n")

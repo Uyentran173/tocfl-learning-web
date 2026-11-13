@@ -7,6 +7,7 @@ import lesson06Source from "../data/academy/cc2-lesson06-vocabulary.json" with {
 import lesson07Source from "../data/academy/cc2-lesson07-vocabulary.json" with { type: "json" };
 import lesson08Source from "../data/academy/cc2-lesson08-vocabulary.json" with { type: "json" };
 import lesson09Source from "../data/academy/cc2-lesson09-vocabulary.json" with { type: "json" };
+import lesson10Source from "../data/academy/cc2-lesson10-vocabulary.json" with { type: "json" };
 import { cc1Lesson01Words } from "./cc1-lesson01-vocabulary.ts";
 import { cc1CourseVocabularySets } from "./cc1-course-vocabulary.ts";
 import type { VocabularySet, VocabularyWord } from "./vocabulary.ts";
@@ -44,6 +45,7 @@ export const cc2Lesson06Words = lessonWords(lesson06Source.records, 6, [...exist
 export const cc2Lesson07Words = lessonWords(lesson07Source.records, 7, [...existing, ...cc2Lesson01Words, ...cc2Lesson02Words, ...cc2Lesson03Words, ...cc2Lesson04Words, ...cc2Lesson05Words, ...cc2Lesson06Words]);
 export const cc2Lesson08Words = lessonWords(lesson08Source.records, 8, [...existing, ...cc2Lesson01Words, ...cc2Lesson02Words, ...cc2Lesson03Words, ...cc2Lesson04Words, ...cc2Lesson05Words, ...cc2Lesson06Words, ...cc2Lesson07Words]);
 export const cc2Lesson09Words = lessonWords(lesson09Source.records, 9, [...existing, ...cc2Lesson01Words, ...cc2Lesson02Words, ...cc2Lesson03Words, ...cc2Lesson04Words, ...cc2Lesson05Words, ...cc2Lesson06Words, ...cc2Lesson07Words, ...cc2Lesson08Words]);
+export const cc2Lesson10Words = lessonWords(lesson10Source.records, 10, [...existing, ...cc2Lesson01Words, ...cc2Lesson02Words, ...cc2Lesson03Words, ...cc2Lesson04Words, ...cc2Lesson05Words, ...cc2Lesson06Words, ...cc2Lesson07Words, ...cc2Lesson08Words, ...cc2Lesson09Words]);
 
 export const cc2VocabularySets: VocabularySet[] = [{
   id: "cc2-v2-l01",
@@ -90,4 +92,9 @@ export const cc2VocabularySets: VocabularySet[] = [{
   title: "Bài 09 · 那個城市好漂亮",
   subtitle: "Thành phố ấy đẹp quá",
   words: cc2Lesson09Words,
+}, {
+  id: "cc2-v2-l10",
+  title: "Bài 10 · 歡迎到我家來包餃子",
+  subtitle: "Mời đến nhà tôi gói sủi cảo",
+  words: cc2Lesson10Words,
 }];

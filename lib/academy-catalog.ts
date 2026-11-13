@@ -10,7 +10,8 @@ import cc2Lesson06Data from "../data/academy/cc2-lesson06.json" with { type: "js
 import cc2Lesson07Data from "../data/academy/cc2-lesson07.json" with { type: "json" };
 import cc2Lesson08Data from "../data/academy/cc2-lesson08.json" with { type: "json" };
 import cc2Lesson09Data from "../data/academy/cc2-lesson09.json" with { type: "json" };
-import { cc2Lesson01Words, cc2Lesson02Words, cc2Lesson03Words, cc2Lesson04Words, cc2Lesson05Words, cc2Lesson06Words, cc2Lesson07Words, cc2Lesson08Words, cc2Lesson09Words } from "./cc2-course-vocabulary.ts";
+import cc2Lesson10Data from "../data/academy/cc2-lesson10.json" with { type: "json" };
+import { cc2Lesson01Words, cc2Lesson02Words, cc2Lesson03Words, cc2Lesson04Words, cc2Lesson05Words, cc2Lesson06Words, cc2Lesson07Words, cc2Lesson08Words, cc2Lesson09Words, cc2Lesson10Words } from "./cc2-course-vocabulary.ts";
 export { academyLesson01 };
 
 export const academyActivityKinds = ["lecture", "vocabulary", "grammar", "practice", "assessment"] as const;
@@ -118,6 +119,10 @@ export const academyVolume2Lesson09 = {
   ...cc2Lesson09Data,
   vocabulary: { ...cc2Lesson09Data.vocabulary, wordIds: cc2Lesson09Words.map((word) => word.id!) },
 } as unknown as AcademyLessonContent;
+export const academyVolume2Lesson10 = {
+  ...cc2Lesson10Data,
+  vocabulary: { ...cc2Lesson10Data.vocabulary, wordIds: cc2Lesson10Words.map((word) => word.id!) },
+} as unknown as AcademyLessonContent;
 export const academyVolume2LessonSummaries = [
   { chinese: "請問，到師大怎麼走？", vi: "Hỏi đường đến Sư Đại" },
   { chinese: "還是坐捷運吧！", vi: "Đi MRT thì hơn!" },
@@ -183,6 +188,7 @@ export function academyStaticLessonById(id: string): AcademyLessonContent | null
   if (id === academyVolume2Lesson07.id) return academyVolume2Lesson07;
   if (id === academyVolume2Lesson08.id) return academyVolume2Lesson08;
   if (id === academyVolume2Lesson09.id) return academyVolume2Lesson09;
+  if (id === academyVolume2Lesson10.id) return academyVolume2Lesson10;
   const number = academyLessonNumber(id);
   return number && id.startsWith("cc1-v1-") ? academyStaticLesson(number) : null;
 }

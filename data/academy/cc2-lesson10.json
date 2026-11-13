@@ -1,0 +1,1024 @@
+{
+  "contentVersion": 2,
+  "id": "cc2-v2-l10",
+  "title": "歡迎到我家來包餃子",
+  "titleVi": "Mời đến nhà tôi gói sủi cảo",
+  "description": "Mời bạn đến nhà, chuẩn bị món ăn và kể các bước nấu nướng.",
+  "objectives": [
+    "Mời khách và nói về nguyên liệu, cách làm món ăn.",
+    "Nói một chỗ có đủ sức chứa hay không.",
+    "Dùng 把 và bổ ngữ kết quả để nói rõ việc đã làm với đồ vật."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Cô Trương mời học trò đến nhà gói sủi cảo. Hãy theo dõi cuộc trò chuyện rồi đọc cách Đông Kiện làm kim chi.",
+    "sections": [
+      {
+        "id": "cc2-v2-l10-section-01",
+        "title": "Cùng chuẩn bị bữa ăn",
+        "body": "Mọi người mang món ăn đến, rửa tay và cùng cô giáo gói sủi cảo.",
+        "chinese": "我們就開始包吧！",
+        "simplified": "我们就开始包吧！",
+        "pinyin": "wǒ men jiù kāi shǐ bāo ba ！",
+        "meaningVi": "Chúng ta bắt đầu gói nhé!"
+      },
+      {
+        "id": "cc2-v2-l10-section-02",
+        "title": "Kể thứ tự chế biến",
+        "body": "Nói lần lượt việc rửa, trộn, thêm gia vị và cho vào lọ.",
+        "chinese": "先把大白菜洗乾淨，加鹽拌一拌。",
+        "simplified": "先把大白菜洗干净，加盐拌一拌。",
+        "pinyin": "xiān bǎ dà bái cài xǐ qián jìng ， jiā yán bàn yī bàn 。",
+        "meaningVi": "Trước tiên rửa sạch cải thảo, thêm muối rồi trộn."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc2-v2-l10-dialogue",
+        "title": "Gói sủi cảo ở nhà cô Trương",
+        "context": "Cô Trương và học trò chuẩn bị bữa ăn cùng nhau.",
+        "audioTrackId": "cc2-textbook-l10-t01",
+        "turns": [
+          {
+            "speaker": "張老師",
+            "chinese": "歡迎，歡迎，大家請進，不要脫鞋。月美，麻煩妳關門。",
+            "simplified": "欢迎，欢迎，大家请进，不要脱鞋。月美，麻烦妳关门。",
+            "pinyin": "huān yíng ， huān yíng ， dà jiā qǐng jìn ， bú yào tuō xié 。 yuè měi ， má fán nǐ guān mén 。",
+            "meaningVi": "Chào mừng mọi người, vào đi, không cần cởi giày. Nguyệt Mỹ, phiền em đóng cửa."
+          },
+          {
+            "speaker": "月美",
+            "chinese": "謝謝老師請我們來包餃子，我也帶了我們越南的春捲。",
+            "simplified": "谢谢老师请我们来包饺子，我也带了我们越南的春卷。",
+            "pinyin": "xiè xiè lǎo shī qǐng wǒ men lái bāo jiǎo zi ， wǒ yě dài le wǒ men yuè nán de chūn juǎn 。",
+            "meaningVi": "Cảm ơn cô đã mời chúng em đến gói sủi cảo. Em cũng mang nem Việt Nam."
+          },
+          {
+            "speaker": "東健",
+            "chinese": "張老師，這是我做的韓國泡菜。",
+            "simplified": "张老师，这是我做的韩国泡菜。",
+            "pinyin": "zhāng lǎo shī ， zhè shì wǒ zuò de hán guó pào cài 。",
+            "meaningVi": "Cô Trương, đây là kim chi Hàn Quốc em làm."
+          },
+          {
+            "speaker": "張老師",
+            "chinese": "看不出來你還會做泡菜！馬丁、高美玲，你們也帶東西來了啊？",
+            "simplified": "看不出来你还会做泡菜！马丁、高美玲，你们也带东西来了啊？",
+            "pinyin": "kàn bù chū lái nǐ hái huì zuò pào cài ！ mǎ dīng 、 gāo měi líng ， nǐ men yě dài dōng xī lái le a ？",
+            "meaningVi": "Không ngờ em còn biết làm kim chi! Martin, Mỹ Linh, các em cũng mang đồ đến à?"
+          },
+          {
+            "speaker": "馬丁",
+            "chinese": "我們剛剛去超市買了水果跟飲料。老師，你們家的飯廳真大。",
+            "simplified": "我们刚刚去超市买了水果跟饮料。老师，你们家的饭厅真大。",
+            "pinyin": "wǒ men gāng gāng qù chāo shì mǎi le shuǐ guǒ gēn yǐn liào 。 lǎo shī ， nǐ men jiā de fàn tīng zhēn dà 。",
+            "meaningVi": "Chúng em vừa đi siêu thị mua trái cây và đồ uống. Phòng ăn nhà cô rộng thật."
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "老師家的飯廳應該坐得下十個人吧？",
+            "simplified": "老师家的饭厅应该坐得下十个人吧？",
+            "pinyin": "lǎo shī jiā de fàn tīng yīng gāi zuò dé xià shí gè rén ba ？",
+            "meaningVi": "Phòng ăn nhà cô chắc đủ chỗ cho mười người ngồi nhỉ?"
+          },
+          {
+            "speaker": "張老師",
+            "chinese": "坐得下，所以請你們幾個人一起來吃飯沒問題。",
+            "simplified": "坐得下，所以请你们几个人一起来吃饭没问题。",
+            "pinyin": "zuò dé xià ， suǒ yǐ qǐng nǐ men jǐ gè rén yì qǐ lái chī fàn méi wèn tí 。",
+            "meaningVi": "Đủ chỗ chứ, nên mời các em đến ăn cùng rất thoải mái."
+          },
+          {
+            "speaker": "東健",
+            "chinese": "老師，我們要幫忙準備什麼？",
+            "simplified": "老师，我们要帮忙准备什么？",
+            "pinyin": "lǎo shī ， wǒ men yào bāng máng zhǔn bèi shén me ？",
+            "meaningVi": "Cô ơi, chúng em cần giúp chuẩn bị gì?"
+          },
+          {
+            "speaker": "張老師",
+            "chinese": "我把包餃子的東西都準備好了，你們去把手洗一洗，我們就開始包吧！",
+            "simplified": "我把包饺子的东西都准备好了，你们去把手洗一洗，我们就开始包吧！",
+            "pinyin": "wǒ bǎ bāo jiǎo zi de dōng xī dōu zhǔn bèi hǎo le ， nǐ men qù bǎ shǒu xǐ yī xǐ ， wǒ men jiù kāi shǐ bāo ba ！",
+            "meaningVi": "Cô đã chuẩn bị xong đồ gói sủi cảo. Các em đi rửa tay một chút rồi bắt đầu nhé!"
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "這是我第一次包餃子，你們包過嗎？",
+            "simplified": "这是我第一次包饺子，你们包过吗？",
+            "pinyin": "zhè shì wǒ dì yī cì bāo jiǎo zi ， nǐ men bāo guò ma ？",
+            "meaningVi": "Đây là lần đầu em gói sủi cảo; mọi người từng gói chưa?"
+          },
+          {
+            "speaker": "月美",
+            "chinese": "我跟馬丁以前上過做菜的課，包過水餃，對不對？",
+            "simplified": "我跟马丁以前上过做菜的课，包过水饺，对不对？",
+            "pinyin": "wǒ gēn mǎ dīng yǐ qián shàng guò zuò cài de kè ， bāo guò shuǐ jiǎo ， duì bù duì ？",
+            "meaningVi": "Em với Martin từng học lớp nấu ăn và gói sủi cảo luộc rồi, đúng không?"
+          },
+          {
+            "speaker": "馬丁",
+            "chinese": "包過，可是我包的水餃一煮就壞了。",
+            "simplified": "包过，可是我包的水饺一煮就坏了。",
+            "pinyin": "bāo guò ， kě shì wǒ bāo de shuǐ jiǎo yī zhǔ jiù huài le 。",
+            "meaningVi": "Từng gói, nhưng sủi cảo em gói vừa luộc đã hỏng."
+          },
+          {
+            "speaker": "張老師",
+            "chinese": "不是壞了，是煮破了。如果你們沒把餃子包好，一煮就破了。",
+            "simplified": "不是坏了，是煮破了。如果你们没把饺子包好，一煮就破了。",
+            "pinyin": "bú shì huài le ， shì zhǔ pò le 。 rú guǒ nǐ men méi bǎ jiǎo zi bāo hǎo ， yī zhǔ jiù pò le 。",
+            "meaningVi": "Không phải hỏng, mà là luộc bị rách. Nếu các em gói không kín, vừa luộc sẽ rách."
+          },
+          {
+            "speaker": "東健",
+            "chinese": "老師，您看我這麼包，對嗎？",
+            "simplified": "老师，您看我这么包，对吗？",
+            "pinyin": "lǎo shī ， nín kàn wǒ zhè me bāo ， duì ma ？",
+            "meaningVi": "Cô xem em gói như thế này có đúng không?"
+          },
+          {
+            "speaker": "張老師",
+            "chinese": "很好，不過你還可以多放一點餡兒，如果扁扁的，看起來就不像餃子了。",
+            "simplified": "很好，不过你还可以多放一点馅儿，如果扁扁的，看起来就不像饺子了。",
+            "pinyin": "hěn hǎo ， bù guò nǐ hái kě yǐ duō fàng yī diǎn xiàn ér ， rú guǒ biǎn biǎn de ， kàn qǐ lái jiù bù xiàng jiǎo zi le 。",
+            "meaningVi": "Tốt lắm, nhưng em cho thêm ít nhân nhé. Nếu dẹt quá trông sẽ không giống sủi cảo."
+          },
+          {
+            "speaker": "月美",
+            "chinese": "老師，我們五個人要包多少餃子？",
+            "simplified": "老师，我们五个人要包多少饺子？",
+            "pinyin": "lǎo shī ， wǒ men wǔ gè rén yào bāo duō shǎo jiǎo zi ？",
+            "meaningVi": "Cô ơi, năm người mình cần gói bao nhiêu cái?"
+          },
+          {
+            "speaker": "張老師",
+            "chinese": "我準備的材料大概可以包一百多個，再做幾道菜，還有一大碗酸辣湯，應該夠了。大家一定都吃得飽。",
+            "simplified": "我准备的材料大概可以包一百多个，再做几道菜，还有一大碗酸辣汤，应该够了。大家一定都吃得饱。",
+            "pinyin": "wǒ zhǔn bèi de cái liào dà gài kě yǐ bāo yì bǎi duō gè ， zài zuò jǐ dào cài ， hái yǒu yī dà wǎn suān là tāng ， yīng gāi gòu le 。 dà jiā yí dìng dōu chī dé bǎo 。",
+            "meaningVi": "Nguyên liệu cô chuẩn bị gói được hơn một trăm cái. Làm thêm vài món và một bát súp chua cay lớn chắc là đủ; mọi người sẽ ăn no."
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "馬丁，你來以前不是一直說餓嗎？你能吃幾個餃子？",
+            "simplified": "马丁，你来以前不是一直说饿吗？你能吃几个饺子？",
+            "pinyin": "mǎ dīng ， nǐ lái yǐ qián bú shì yì zhí shuō è ma ？ nǐ néng chī jǐ gè jiǎo zi ？",
+            "meaningVi": "Martin, trước khi đến bạn cứ bảo đói; bạn ăn được mấy cái?"
+          },
+          {
+            "speaker": "馬丁",
+            "chinese": "我想我吃得下二十個，要是妳吃不完，我可以幫妳吃。",
+            "simplified": "我想我吃得下二十个，要是妳吃不完，我可以帮妳吃。",
+            "pinyin": "wǒ xiǎng wǒ chī de xià èr shí gè ， yào shì nǐ chī bù wán ， wǒ kě yǐ bāng nǐ chī 。",
+            "meaningVi": "Tôi nghĩ mình ăn được hai mươi cái. Nếu bạn ăn không hết, tôi ăn giúp."
+          },
+          {
+            "speaker": "張老師",
+            "chinese": "大家最好能把餃子都吃光。你們包，我去把鍋子洗了，就要準備煮餃子了。",
+            "simplified": "大家最好能把饺子都吃光。你们包，我去把锅子洗了，就要准备煮饺子了。",
+            "pinyin": "dà jiā zuì hǎo néng bǎ jiǎo zi dōu chī guāng 。 nǐ men bāo ， wǒ qù bǎ guō zi xǐ le ， jiù yào zhǔn bèi zhǔ jiǎo zi le 。",
+            "meaningVi": "Tốt nhất mọi người ăn hết sủi cảo nhé. Các em cứ gói, cô đi rửa nồi để chuẩn bị luộc."
+          },
+          {
+            "speaker": "月美",
+            "chinese": "老師，我幫您把筷子和碗放在桌上。",
+            "simplified": "老师，我帮您把筷子和碗放在桌上。",
+            "pinyin": "lǎo shī ， wǒ bāng nín bǎ kuài zi hé wǎn fàng zài zhuō shàng 。",
+            "meaningVi": "Cô ơi, em giúp cô đặt đũa và bát lên bàn."
+          }
+        ]
+      },
+      {
+        "id": "cc2-v2-l10-reading",
+        "title": "Cách làm kim chi",
+        "context": "Bài đọc kể buổi gói sủi cảo và hướng dẫn làm kim chi.",
+        "audioTrackId": "cc2-textbook-l10-t03",
+        "turns": [
+          {
+            "speaker": "Bài đọc",
+            "chinese": "這個學期，馬丁、陳月美、高美玲和李東健都是張老師的學生，他們趁學期結束以前的一個週末，到張老師家包餃子。張老師已經把餃子餡兒跟餃子皮都準備好了。到了老師家以後，張老師就教他們怎麼包餃子，怎麼把餃子包得好看，怎麼包不容易煮破。",
+            "simplified": "这个学期，马丁、陈月美、高美玲和李东健都是张老师的学生，他们趁学期结束以前的一个周末，到张老师家包饺子。张老师已经把饺子馅儿跟饺子皮都准备好了。到了老师家以后，张老师就教他们怎么包饺子，怎么把饺子包得好看，怎么包不容易煮破。",
+            "pinyin": "zhè gè xué qī ， mǎ dīng 、 chén yuè měi 、 gāo měi líng hé lǐ dōng jiàn dōu shì zhāng lǎo shī de xué shēng ， tā men chèn xué qī jié shù yǐ qián de yī gè zhōu mò ， dào zhāng lǎo shī jiā bāo jiǎo zi 。 zhāng lǎo shī yǐ jīng bǎ jiǎo zi xiàn ér gēn jiǎo zi pí dōu zhǔn bèi hǎo le 。 dào le lǎo shī jiā yǐ hòu ， zhāng lǎo shī jiù jiào tā men zěn me bāo jiǎo zi ， zěn me bǎ jiǎo zi bāo dé hǎo kàn ， zěn me bāo bù róng yì zhǔ pò 。",
+            "meaningVi": "Học kỳ này Martin, Trần Nguyệt Mỹ, Cao Mỹ Linh và Lý Đông Kiện đều học cô Trương. Họ tranh thủ một cuối tuần trước khi hết học kỳ đến nhà cô gói sủi cảo. Cô đã chuẩn bị nhân và vỏ. Đến nơi, cô dạy họ gói sao cho đẹp và không bị rách khi luộc."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "除了包餃子，李東健跟陳月美還帶了自己做的韓國泡菜和越南春捲請大家吃。大家嚐了泡菜都說看不出來李東健會做泡菜。李東健說他是跟媽媽學的，做起來不太難。先把大白菜洗乾淨，加鹽拌一拌，再放辣椒和調味料，最後裝進玻璃或是塑膠罐裡，放一下就可以吃了。",
+            "simplified": "除了包饺子，李东健跟陈月美还带了自己做的韩国泡菜和越南春卷请大家吃。大家尝了泡菜都说看不出来李东健会做泡菜。李东健说他是跟妈妈学的，做起来不太难。先把大白菜洗干净，加盐拌一拌，再放辣椒和调味料，最后装进玻璃或是塑胶罐里，放一下就可以吃了。",
+            "pinyin": "chú le bāo jiǎo zi ， lǐ dōng jiàn gēn chén yuè měi hái dài le zì jǐ zuò de hán guó pào cài hé yuè nán chūn juǎn qǐng dà jiā chī 。 dà jiā cháng le pào cài dōu shuō kàn bù chū lái lǐ dōng jiàn huì zuò pào cài 。 lǐ dōng jiàn shuō tā shì gēn mā mā xué de ， zuò qǐ lái bù tài nán 。 xiān bǎ dà bái cài xǐ qián jìng ， jiā yán bàn yī bàn ， zài fàng là jiāo hé diào wèi liào ， zuì hòu zhuāng jìn bō lí huò shì sù jiāo guàn lǐ ， fàng yī xià jiù kě yǐ chī le 。",
+            "meaningVi": "Ngoài gói sủi cảo, Đông Kiện và Nguyệt Mỹ còn mang kim chi Hàn Quốc và nem Việt Nam tự làm cho mọi người ăn. Ai nếm kim chi cũng bất ngờ vì Đông Kiện biết làm. Anh học từ mẹ và bảo cách làm không khó: rửa sạch cải thảo, thêm muối trộn đều, rồi thêm ớt và gia vị. Cuối cùng cho vào lọ thủy tinh hoặc nhựa, để một lúc là ăn được."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "張老師也說，像中國的餃子、韓國的泡菜，或是越南的春捲、日本的壽司，材料很容易買得到，做起來也不難，都是大家常吃的食物。",
+            "simplified": "张老师也说，像中国的饺子、韩国的泡菜，或是越南的春卷、日本的寿司，材料很容易买得到，做起来也不难，都是大家常吃的食物。",
+            "pinyin": "zhāng lǎo shī yě shuō ， xiàng zhōng guó de jiǎo zi 、 hán guó de pào cài ， huò shì yuè nán de chūn juǎn 、 rì běn de shòu sī ， cái liào hěn róng yì mǎi dé dào ， zuò qǐ lái yě bù nán ， dōu shì dà jiā cháng chī de shí wù 。",
+            "meaningVi": "Cô Trương nói nguyên liệu của các món quen thuộc như sủi cảo Trung Hoa, kim chi Hàn Quốc, nem Việt Nam hay sushi Nhật Bản đều dễ mua và cách làm không khó."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc2-v2-l10-check-01",
+        "prompt": "Đông Kiện mang món gì đến?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kim chi Hàn Quốc"
+          },
+          {
+            "id": "b",
+            "text": "Sushi"
+          },
+          {
+            "id": "c",
+            "text": "Súp chua cay"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Anh nói 這是我做的韓國泡菜.",
+        "skill": "Hội thoại"
+      },
+      {
+        "id": "cc2-v2-l10-check-02",
+        "prompt": "Theo bài đọc, Đông Kiện học làm kim chi từ ai?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Mẹ"
+          },
+          {
+            "id": "b",
+            "text": "Cô Trương"
+          },
+          {
+            "id": "c",
+            "text": "Martin"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Bài đọc nói 他是跟媽媽學的.",
+        "skill": "Bài đọc"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem phiên âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc2-v2-l10-v001",
+      "cc2-v2-l10-v002",
+      "cc2-v2-l10-v003",
+      "cc2-v2-l10-v004",
+      "cc2-v2-l10-v005",
+      "cc2-v2-l10-v006",
+      "cc2-v2-l10-v007",
+      "cc2-v2-l10-v008",
+      "cc2-v2-l10-v009",
+      "cc2-v2-l10-v010",
+      "cc2-v2-l10-v011",
+      "cc2-v2-l10-v012",
+      "cc2-v2-l10-v013",
+      "cc2-v2-l10-v014",
+      "cc2-v2-l10-v015",
+      "cc2-v2-l10-v016",
+      "cc2-v2-l10-v017",
+      "cc2-v2-l10-v018",
+      "cc2-v2-l10-v019",
+      "cc2-v2-l10-v020",
+      "cc2-v2-l10-v021",
+      "cc2-v2-l10-v022",
+      "cc2-v2-l10-v023",
+      "cc2-v2-l10-v024",
+      "cc2-v2-l10-v025",
+      "cc2-v2-l10-v026",
+      "cc2-v2-l10-v027",
+      "cc2-v2-l10-v028",
+      "cc2-v2-l10-v029",
+      "cc2-v2-l10-v030",
+      "cc2-v2-l10-v031",
+      "cc2-v2-l10-v032",
+      "cc2-v2-l10-v033",
+      "cc2-v2-l10-v034",
+      "cc2-v2-l10-v035",
+      "cc2-v2-l10-v036",
+      "cc2-v2-l10-v037",
+      "cc2-v2-l10-v038",
+      "cc2-v2-l10-v039",
+      "cc2-v2-l10-v040",
+      "cc2-v2-l10-v041",
+      "cc2-v2-l10-v042",
+      "cc2-v2-l10-v043",
+      "cc2-v2-l10-v044",
+      "cc2-v2-l10-v045"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc2-textbook-l10-t02",
+        "label": "Từ vựng hội thoại"
+      },
+      {
+        "id": "cc2-textbook-l10-t04",
+        "label": "Từ vựng bài đọc"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc2-v2-l10-grammar-01",
+      "title": "V + 出來 — nhận ra sau khi quan sát",
+      "audioTrackId": "cc2-textbook-l10-t05",
+      "explanation": "出來 sau động từ tri giác hoặc suy nghĩ nhấn kết quả nhận ra, phân biệt hay nghĩ ra điều gì. 看得出來 là nhìn mà nhận ra; 看不出來 là không nhận ra. Nó khác hướng di chuyển 出來 trong 走出來.",
+      "structure": "看 / 聽 / 吃 / 想 + 得 / 不 + 出來",
+      "examples": [
+        {
+          "chinese": "看不出來你還會做泡菜！",
+          "simplified": "看不出来你还会做泡菜！",
+          "pinyin": "kàn bù chū lái nǐ hái huì zuò pào cài ！",
+          "meaningVi": "Không ngờ bạn còn biết làm kim chi!"
+        },
+        {
+          "chinese": "我吃得出來這裡放了辣椒。",
+          "simplified": "我吃得出来这里放了辣椒。",
+          "pinyin": "wǒ chī dé chū lái zhè lǐ fàng le là jiāo 。",
+          "meaningVi": "Tôi nếm ra món này có cho ớt."
+        }
+      ],
+      "commonMistake": "Đừng hiểu 出來 là 'đi ra' khi đứng sau động từ nhận thức.",
+      "check": {
+        "id": "cc2-v2-l10-grammar-check-01",
+        "prompt": "Điền: 這是什麼味道？我吃不＿＿。",
+        "options": [
+          {
+            "id": "a",
+            "text": "出來"
+          },
+          {
+            "id": "b",
+            "text": "下去"
+          },
+          {
+            "id": "c",
+            "text": "好了"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "出來 sau động từ tri giác hoặc suy nghĩ nhấn kết quả nhận ra, phân biệt hay nghĩ ra điều gì.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l10-grammar-02",
+      "title": "V + 得 / 不 + 下 — còn đủ chỗ",
+      "audioTrackId": "cc2-textbook-l10-t06",
+      "explanation": "下 sau động từ nói liệu không gian hoặc sức chứa có đủ cho người, vật hay thức ăn hay không. 坐得下 là ngồi vừa; 裝不下 là không đựng nổi. Trong hội thoại, phòng ăn đủ cho mười người ngồi.",
+      "structure": "Động từ + 得 / 不 + 下 + số lượng / vật",
+      "examples": [
+        {
+          "chinese": "老師家的飯廳坐得下十個人。",
+          "simplified": "老师家的饭厅坐得下十个人。",
+          "pinyin": "lǎo shī jiā de fàn tīng zuò dé xià shí gè rén 。",
+          "meaningVi": "Phòng ăn nhà cô đủ chỗ cho mười người."
+        },
+        {
+          "chinese": "背包太小，裝不下電腦。",
+          "simplified": "背包太小，装不下电脑。",
+          "pinyin": "bēi bāo tài xiǎo ， zhuāng bù xià diàn nǎo 。",
+          "meaningVi": "Ba lô nhỏ quá, không đựng vừa máy tính."
+        }
+      ],
+      "commonMistake": "Đừng dùng 下 để nói khả năng chi trả; trường hợp ấy dùng 得起.",
+      "check": {
+        "id": "cc2-v2-l10-grammar-check-02",
+        "prompt": "Điền: 這個房間坐得＿＿十個人。",
+        "options": [
+          {
+            "id": "a",
+            "text": "起"
+          },
+          {
+            "id": "b",
+            "text": "到"
+          },
+          {
+            "id": "c",
+            "text": "下"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "下 sau động từ nói liệu không gian hoặc sức chứa có đủ cho người, vật hay thức ăn hay không.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l10-grammar-03",
+      "title": "把 + đồ vật + V 一 V — làm nhẹ một chút",
+      "audioTrackId": "cc2-textbook-l10-t07",
+      "explanation": "Dùng 把 đưa vật đã biết lên trước rồi lặp động từ để đề nghị làm nhẹ, làm nhanh một lần: 把手洗一洗. Đây là cách nói tự nhiên khi rủ hoặc nhờ ai làm việc nhỏ, không phải hoàn thành toàn bộ một quá trình dài.",
+      "structure": "把 + đồ vật + động từ + 一 + động từ",
+      "examples": [
+        {
+          "chinese": "你們去把手洗一洗。",
+          "simplified": "你们去把手洗一洗。",
+          "pinyin": "nǐ men qù bǎ shǒu xǐ yī xǐ 。",
+          "meaningVi": "Các em đi rửa tay một chút."
+        },
+        {
+          "chinese": "請把材料拌一拌。",
+          "simplified": "请把材料拌一拌。",
+          "pinyin": "qǐng bǎ cái liào bàn yī bàn 。",
+          "meaningVi": "Hãy trộn nguyên liệu một chút."
+        }
+      ],
+      "commonMistake": "Đừng bỏ 把 nếu vật được nêu trước động từ trong mẫu này.",
+      "check": {
+        "id": "cc2-v2-l10-grammar-check-03",
+        "prompt": "Điền: 請把手洗一＿＿。",
+        "options": [
+          {
+            "id": "a",
+            "text": "吃"
+          },
+          {
+            "id": "b",
+            "text": "洗"
+          },
+          {
+            "id": "c",
+            "text": "煮"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Dùng 把 đưa vật đã biết lên trước rồi lặp động từ để đề nghị làm nhẹ, làm nhanh một lần: 把手洗一洗.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l10-grammar-04",
+      "title": "把 + đồ vật + V + kết quả",
+      "audioTrackId": "cc2-textbook-l10-t08",
+      "explanation": "Sau 把, động từ thường đi với kết quả cụ thể như 包好, 煮破, 吃光 hoặc 洗乾淨. Cấu trúc cho biết vật bị tác động ra sao sau hành động. Trong bài, gói không kín sẽ khiến sủi cảo bị rách khi luộc.",
+      "structure": "把 + vật đã biết + động từ + bổ ngữ kết quả",
+      "examples": [
+        {
+          "chinese": "你們沒把餃子包好，一煮就破了。",
+          "simplified": "你们没把饺子包好，一煮就破了。",
+          "pinyin": "nǐ men méi bǎ jiǎo zi bāo hǎo ， yī zhǔ jiù pò le 。",
+          "meaningVi": "Nếu các em gói sủi cảo không kín, luộc sẽ rách."
+        },
+        {
+          "chinese": "大家把餃子都吃光了。",
+          "simplified": "大家把饺子都吃光了。",
+          "pinyin": "dà jiā bǎ jiǎo zi dōu chī guāng le 。",
+          "meaningVi": "Mọi người đã ăn hết sủi cảo."
+        }
+      ],
+      "commonMistake": "Tránh để động từ đứng trơ sau 把 mà không có kết quả hoặc cách xử lý rõ ràng.",
+      "check": {
+        "id": "cc2-v2-l10-grammar-check-04",
+        "prompt": "Điền: 大家把餃子吃＿＿了。",
+        "options": [
+          {
+            "id": "a",
+            "text": "下"
+          },
+          {
+            "id": "b",
+            "text": "起"
+          },
+          {
+            "id": "c",
+            "text": "光"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Sau 把, động từ thường đi với kết quả cụ thể như 包好, 煮破, 吃光 hoặc 洗乾淨.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l10-grammar-05",
+      "title": "趁 — tranh thủ lúc",
+      "audioTrackId": "cc2-textbook-l10-t09",
+      "explanation": "趁 nêu thời điểm hoặc cơ hội thuận lợi để làm một việc. 趁學期結束以前 là tranh thủ trước khi hết học kỳ. Có thể theo sau bằng danh từ thời gian hoặc một mệnh đề chỉ tình huống.",
+      "structure": "趁 + thời điểm / hoàn cảnh，+ hành động",
+      "examples": [
+        {
+          "chinese": "他們趁學期結束以前到老師家包餃子。",
+          "simplified": "他们趁学期结束以前到老师家包饺子。",
+          "pinyin": "tā men chèn xué qī jié shù yǐ qián dào lǎo shī jiā bāo jiǎo zi 。",
+          "meaningVi": "Họ tranh thủ trước khi hết học kỳ đến nhà cô gói sủi cảo."
+        },
+        {
+          "chinese": "趁週末有空，我們去買材料。",
+          "simplified": "趁周末有空，我们去买材料。",
+          "pinyin": "chèn zhōu mò yǒu kòng ， wǒ men qù mǎi cái liào 。",
+          "meaningVi": "Tranh thủ cuối tuần rảnh, chúng ta đi mua nguyên liệu."
+        }
+      ],
+      "commonMistake": "Đừng nhầm 趁 với 因為: 趁 chỉ cơ hội, không đơn thuần nêu nguyên nhân.",
+      "check": {
+        "id": "cc2-v2-l10-grammar-check-05",
+        "prompt": "Điền: ＿＿週末有空，我們去買材料。",
+        "options": [
+          {
+            "id": "a",
+            "text": "趁"
+          },
+          {
+            "id": "b",
+            "text": "因為"
+          },
+          {
+            "id": "c",
+            "text": "要不然"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "趁 nêu thời điểm hoặc cơ hội thuận lợi để làm một việc.",
+        "skill": "Ngữ pháp"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc2-v2-l10-listening-01",
+      "prompt": "Nghe hội thoại. Nguyệt Mỹ mang món gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nem Việt Nam"
+        },
+        {
+          "id": "b",
+          "text": "Kim chi"
+        },
+        {
+          "id": "c",
+          "text": "Sushi"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Cô nói 帶了我們越南的春捲.",
+      "skill": "Nghe chi tiết",
+      "audioTrackId": "cc2-textbook-l10-t01"
+    },
+    {
+      "id": "cc2-v2-l10-listening-02",
+      "prompt": "Nghe hội thoại. Phòng ăn chứa được khoảng bao nhiêu người?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hai người"
+        },
+        {
+          "id": "b",
+          "text": "Hai mươi người"
+        },
+        {
+          "id": "c",
+          "text": "Mười người"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Mỹ Linh hỏi 坐得下十個人吧, cô Trương xác nhận.",
+      "skill": "Nghe số lượng",
+      "audioTrackId": "cc2-textbook-l10-t01"
+    },
+    {
+      "id": "cc2-v2-l10-listening-03",
+      "prompt": "Nghe bài đọc. Cô Trương đã chuẩn bị gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nhân và vỏ sủi cảo"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ bát đũa"
+        },
+        {
+          "id": "c",
+          "text": "Chỉ súp"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc ghi 餃子餡兒跟餃子皮都準備好了.",
+      "skill": "Nghe chi tiết",
+      "audioTrackId": "cc2-textbook-l10-t03"
+    },
+    {
+      "id": "cc2-v2-l10-listening-04",
+      "prompt": "Nghe bài đọc. Sau khi trộn cải thảo với muối, Đông Kiện thêm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đường và sữa"
+        },
+        {
+          "id": "b",
+          "text": "Trái cây"
+        },
+        {
+          "id": "c",
+          "text": "Ớt và gia vị"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Đoạn hai nói 再放辣椒和調味料.",
+      "skill": "Nghe thứ tự",
+      "audioTrackId": "cc2-textbook-l10-t03"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc2-v2-l10-practice-01",
+      "prompt": "‘餡兒’ là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "vỏ bánh"
+        },
+        {
+          "id": "b",
+          "text": "chiếc nồi"
+        },
+        {
+          "id": "c",
+          "text": "nhân bánh"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "餡兒 là nhân bên trong bánh.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc2-v2-l10-practice-02",
+      "prompt": "Điền: 看不＿＿你還會做泡菜。",
+      "options": [
+        {
+          "id": "a",
+          "text": "下去"
+        },
+        {
+          "id": "b",
+          "text": "得起"
+        },
+        {
+          "id": "c",
+          "text": "出來"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "看不出來 là không nhận ra, không ngờ.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l10-practice-03",
+      "prompt": "Martin gói sủi cảo gặp vấn đề gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Không mua được cải thảo"
+        },
+        {
+          "id": "b",
+          "text": "Luộc lên thì vỏ bị rách"
+        },
+        {
+          "id": "c",
+          "text": "Không có đủ đũa"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Cô Trương sửa thành 煮破了.",
+      "skill": "Hội thoại"
+    },
+    {
+      "id": "cc2-v2-l10-practice-04",
+      "prompt": "Điền: 這間飯廳坐得＿＿十個人。",
+      "options": [
+        {
+          "id": "a",
+          "text": "起"
+        },
+        {
+          "id": "b",
+          "text": "到"
+        },
+        {
+          "id": "c",
+          "text": "下"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "坐得下 nói đủ chỗ ngồi.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l10-practice-05",
+      "prompt": "Điền: 請把手洗一＿＿。",
+      "options": [
+        {
+          "id": "a",
+          "text": "包"
+        },
+        {
+          "id": "b",
+          "text": "煮"
+        },
+        {
+          "id": "c",
+          "text": "洗"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "洗一洗 là rửa một chút.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l10-practice-06",
+      "prompt": "Điền: 把餃子都吃＿＿。",
+      "options": [
+        {
+          "id": "a",
+          "text": "下"
+        },
+        {
+          "id": "b",
+          "text": "來"
+        },
+        {
+          "id": "c",
+          "text": "光"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "吃光 là ăn hết sạch.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l10-practice-07",
+      "prompt": "Điền: ＿＿週末有空，我們去包餃子。",
+      "options": [
+        {
+          "id": "a",
+          "text": "因為"
+        },
+        {
+          "id": "b",
+          "text": "要不然"
+        },
+        {
+          "id": "c",
+          "text": "趁"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "趁 chỉ tranh thủ thời gian thuận lợi.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l10-practice-08",
+      "prompt": "Món nào Nguyệt Mỹ tự làm?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kim chi Hàn Quốc"
+        },
+        {
+          "id": "b",
+          "text": "Sủi cảo Nhật Bản"
+        },
+        {
+          "id": "c",
+          "text": "Nem Việt Nam"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc nói 陳月美帶了自己做的越南春捲.",
+      "skill": "Bài đọc"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc2-v2-l10-assessment-01",
+      "prompt": "‘調味料’ là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "nguyên liệu chính"
+        },
+        {
+          "id": "b",
+          "text": "nồi nấu"
+        },
+        {
+          "id": "c",
+          "text": "gia vị"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "調味料 là gia vị.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc2-v2-l10-assessment-02",
+      "prompt": "Điền: 我吃得＿＿這裡放了辣椒。",
+      "options": [
+        {
+          "id": "a",
+          "text": "下去"
+        },
+        {
+          "id": "b",
+          "text": "好了"
+        },
+        {
+          "id": "c",
+          "text": "出來"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "吃得出來 là nếm mà nhận ra.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l10-assessment-03",
+      "prompt": "Cô Trương bảo khách có cần cởi giày không?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ Martin cần cởi"
+        },
+        {
+          "id": "b",
+          "text": "Không cần"
+        },
+        {
+          "id": "c",
+          "text": "Bắt buộc cởi"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Cô nói 不要脫鞋.",
+      "skill": "Hội thoại"
+    },
+    {
+      "id": "cc2-v2-l10-assessment-04",
+      "prompt": "Điền: 背包太小，裝不＿＿電腦。",
+      "options": [
+        {
+          "id": "a",
+          "text": "下"
+        },
+        {
+          "id": "b",
+          "text": "起"
+        },
+        {
+          "id": "c",
+          "text": "到"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "裝不下 là không đủ chỗ đựng.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l10-assessment-05",
+      "prompt": "Điền: 請把材料拌一＿＿。",
+      "options": [
+        {
+          "id": "a",
+          "text": "煮"
+        },
+        {
+          "id": "b",
+          "text": "光"
+        },
+        {
+          "id": "c",
+          "text": "拌"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Lặp động từ nêu việc làm nhẹ một lần.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l10-assessment-06",
+      "prompt": "Nếu gói sủi cảo không kín, khi luộc sẽ thế nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bị rách"
+        },
+        {
+          "id": "b",
+          "text": "Tự đổi màu"
+        },
+        {
+          "id": "c",
+          "text": "Nở gấp đôi"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Cô Trương nói 一煮就破了.",
+      "skill": "Hội thoại"
+    },
+    {
+      "id": "cc2-v2-l10-assessment-07",
+      "prompt": "Điền: 他把碗洗＿＿了。",
+      "options": [
+        {
+          "id": "a",
+          "text": "得起"
+        },
+        {
+          "id": "b",
+          "text": "乾淨"
+        },
+        {
+          "id": "c",
+          "text": "下去"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "洗乾淨 nêu kết quả rửa sạch.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l10-assessment-08",
+      "prompt": "Điền: ＿＿學期結束以前，我們去老師家。",
+      "options": [
+        {
+          "id": "a",
+          "text": "所以"
+        },
+        {
+          "id": "b",
+          "text": "趁"
+        },
+        {
+          "id": "c",
+          "text": "因為"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "趁 nêu lúc thuận lợi để đi.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l10-assessment-09",
+      "prompt": "Đông Kiện học làm kim chi từ ai?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sư phụ"
+        },
+        {
+          "id": "b",
+          "text": "Bạn cùng lớp"
+        },
+        {
+          "id": "c",
+          "text": "Mẹ"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc ghi 他是跟媽媽學的.",
+      "skill": "Bài đọc"
+    },
+    {
+      "id": "cc2-v2-l10-assessment-10",
+      "prompt": "Sau khi cho gia vị, Đông Kiện làm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đổ bỏ"
+        },
+        {
+          "id": "b",
+          "text": "Cho vào lọ thủy tinh hoặc nhựa"
+        },
+        {
+          "id": "c",
+          "text": "Cho vào lò nướng"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc ghi 最後裝進玻璃或是塑膠罐裡.",
+      "skill": "Bài đọc"
+    }
+  ],
+  "writingTask": {
+    "id": "cc2-v2-l10-writing",
+    "title": "Món ăn bạn muốn giới thiệu",
+    "prompt": "Viết 2–3 câu giới thiệu một món ăn và các bước làm đơn giản. Thử dùng 趁 hoặc 把.",
+    "sampleTraditional": "趁週末有空，我把材料準備好。先把菜洗一洗，再把它們拌一拌。",
+    "sampleSimplified": "趁周末有空，我把材料准备好。先把菜洗一洗，再把它们拌一拌。"
+  }
+}

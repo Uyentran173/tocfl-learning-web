@@ -2,6 +2,8 @@ import type { UiLocale } from "./i18n";
 
 export const academyNewMessages: Record<Exclude<UiLocale, "vi">, Record<string, string>> = {
   en: {
+    "Bài 01–03 đã mở: hỏi đường, đi MRT và kể chuyện học tiếng Hoa.": "Lessons 01–03 are open: directions, MRT travel, and talking about learning Chinese.",
+    "Bài 01–03 đã sẵn sàng. Các bài tiếp theo sẽ xuất hiện sau khi được hoàn thiện.": "Lessons 01–03 are ready. More lessons will open as they are completed.",
     "Bài 01 và 02 đã mở: hỏi đường, đi MRT, đọc hiểu và luyện nghe.": "Lessons 01 and 02 are open: directions, MRT travel, reading, and listening.",
     "Bài 01 và 02 đã sẵn sàng. Các bài tiếp theo sẽ xuất hiện sau khi được hoàn thiện.": "Lessons 01 and 02 are ready. More lessons will open as they are completed.",
     "Tập 2": "Volume 2", "Từ vựng hội thoại": "Dialogue vocabulary", "Từ vựng bài đọc": "Reading vocabulary", "Bài 01 đã sẵn sàng: hỏi đường, đọc hiểu, từ vựng, ngữ pháp và luyện nghe.": "Lesson 01 is ready: directions, reading, vocabulary, grammar, and listening.", "Bài 01 đã sẵn sàng. Các bài tiếp theo sẽ xuất hiện sau khi nội dung và âm thanh được soát xong.": "Lesson 01 is ready. More lessons will open as their content and audio are reviewed.",
@@ -28,6 +30,8 @@ export const academyNewMessages: Record<Exclude<UiLocale, "vi">, Record<string, 
     "Chọn bản ghi âm đã được đối chiếu với nội dung trong sách. Bạn có thể nghe lại và ghi chú theo nhịp học của mình.": "Choose a recording matched to this lesson. Replay it and take notes at your own pace.",
   },
   "zh-CN": {
+    "Bài 01–03 đã mở: hỏi đường, đi MRT và kể chuyện học tiếng Hoa.": "第 01–03 课已开放：问路、搭捷运和分享学中文的经历。",
+    "Bài 01–03 đã sẵn sàng. Các bài tiếp theo sẽ xuất hiện sau khi được hoàn thiện.": "第 01–03 课已开放。其他课程完成后会陆续上线。",
     "Bài 01 và 02 đã mở: hỏi đường, đi MRT, đọc hiểu và luyện nghe.": "第 01、02 课已开放：问路、搭捷运、阅读和听力。",
     "Bài 01 và 02 đã sẵn sàng. Các bài tiếp theo sẽ xuất hiện sau khi được hoàn thiện.": "第 01、02 课已开放。其他课程完成后会陆续上线。",
     "Tập 2": "第二册", "Từ vựng hội thoại": "对话词汇", "Từ vựng bài đọc": "阅读词汇", "Bài 01 đã sẵn sàng: hỏi đường, đọc hiểu, từ vựng, ngữ pháp và luyện nghe.": "第 01 课已开放：问路、阅读、词汇、语法和听力。", "Bài 01 đã sẵn sàng. Các bài tiếp theo sẽ xuất hiện sau khi nội dung và âm thanh được soát xong.": "第 01 课已开放。其他课程会在内容与音频核对完成后上线。",
@@ -49,6 +53,8 @@ export const academyNewMessages: Record<Exclude<UiLocale, "vi">, Record<string, 
     "Chọn bản ghi âm đã được đối chiếu với nội dung trong sách. Bạn có thể nghe lại và ghi chú theo nhịp học của mình.": "选择已经和教材内容核对的录音。你可以重听，并按自己的节奏做笔记。",
   },
   "zh-TW": {
+    "Bài 01–03 đã mở: hỏi đường, đi MRT và kể chuyện học tiếng Hoa.": "第 01–03 課已開放：問路、搭捷運和分享學中文的經歷。",
+    "Bài 01–03 đã sẵn sàng. Các bài tiếp theo sẽ xuất hiện sau khi được hoàn thiện.": "第 01–03 課已開放。其他課程完成後會陸續上線。",
     "Bài 01 và 02 đã mở: hỏi đường, đi MRT, đọc hiểu và luyện nghe.": "第 01、02 課已開放：問路、搭捷運、閱讀與聽力。",
     "Bài 01 và 02 đã sẵn sàng. Các bài tiếp theo sẽ xuất hiện sau khi được hoàn thiện.": "第 01、02 課已開放。其他課程完成後會陸續上線。",
     "Tập 2": "第二冊", "Từ vựng hội thoại": "對話詞彙", "Từ vựng bài đọc": "閱讀詞彙", "Bài 01 đã sẵn sàng: hỏi đường, đọc hiểu, từ vựng, ngữ pháp và luyện nghe.": "第 01 課已開放：問路、閱讀、詞彙、語法與聽力。", "Bài 01 đã sẵn sàng. Các bài tiếp theo sẽ xuất hiện sau khi nội dung và âm thanh được soát xong.": "第 01 課已開放。其他課程將在內容與音訊核對完成後上線。",

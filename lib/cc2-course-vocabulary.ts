@@ -1,5 +1,6 @@
 import lesson01Source from "../data/academy/cc2-lesson01-vocabulary.json" with { type: "json" };
 import lesson02Source from "../data/academy/cc2-lesson02-vocabulary.json" with { type: "json" };
+import lesson03Source from "../data/academy/cc2-lesson03-vocabulary.json" with { type: "json" };
 import { cc1Lesson01Words } from "./cc1-lesson01-vocabulary.ts";
 import { cc1CourseVocabularySets } from "./cc1-course-vocabulary.ts";
 import type { VocabularySet, VocabularyWord } from "./vocabulary.ts";
@@ -30,6 +31,7 @@ function lessonWords(records: typeof lesson01Source.records, lessonNumber: numbe
 
 export const cc2Lesson01Words = lessonWords(lesson01Source.records, 1, existing);
 export const cc2Lesson02Words = lessonWords(lesson02Source.records, 2, [...existing, ...cc2Lesson01Words]);
+export const cc2Lesson03Words = lessonWords(lesson03Source.records, 3, [...existing, ...cc2Lesson01Words, ...cc2Lesson02Words]);
 
 export const cc2VocabularySets: VocabularySet[] = [{
   id: "cc2-v2-l01",
@@ -41,4 +43,9 @@ export const cc2VocabularySets: VocabularySet[] = [{
   title: "Bài 02 · 還是坐捷運吧！",
   subtitle: "Đi MRT thì hơn!",
   words: cc2Lesson02Words,
+}, {
+  id: "cc2-v2-l03",
+  title: "Bài 03 · 你的中文進步了！",
+  subtitle: "Tiếng Hoa của bạn tiến bộ rồi!",
+  words: cc2Lesson03Words,
 }];

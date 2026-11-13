@@ -1,0 +1,1035 @@
+{
+  "contentVersion": 2,
+  "id": "cc2-v2-l03",
+  "title": "你的中文進步了！",
+  "titleVi": "Tiếng Hoa của bạn tiến bộ rồi!",
+  "description": "Nói về trải nghiệm học tiếng Hoa, thời gian học và cách luyện ngôn ngữ trong đời sống.",
+  "objectives": [
+    "Kể kinh nghiệm đã từng làm bằng 過.",
+    "Nói điều xảy ra ít hoặc muộn hơn mong đợi bằng 才.",
+    "Chia sẻ cách học và luyện tập tiếng Hoa trong đời sống."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Như Ngọc và Điền Trung trò chuyện trước giờ thi. Bài đọc theo chân Mã An Đồng học tiếng Hoa ở Sư Đại và khám phá Đài Bắc.",
+    "sections": [
+      {
+        "id": "cc2-v2-l03-section-01",
+        "title": "Đã từng học",
+        "body": "Trong hội thoại, 過 xuất hiện khi Như Ngọc kể kinh nghiệm học chữ Hán trước đây. Chú ý sự khác nhau giữa kinh nghiệm đã có và một sự việc cụ thể.",
+        "chinese": "我在美國念高中的時候就學過了。",
+        "simplified": "我在美国念高中的时候就学过了。",
+        "pinyin": "wǒ zài měi guó niàn gāo zhōng de shí hòu jiù xué guò le 。",
+        "meaningVi": "Hồi học cấp ba ở Mỹ, tôi đã từng học rồi."
+      },
+      {
+        "id": "cc2-v2-l03-section-02",
+        "title": "Mới và mãi mới",
+        "body": "才 giúp người nói nhấn mạnh khoảng thời gian ngắn hoặc việc xảy ra muộn. Hãy xem ngữ cảnh để hiểu sắc thái.",
+        "chinese": "我才學了半年。",
+        "simplified": "我才学了半年。",
+        "pinyin": "wǒ cái xué le bàn nián 。",
+        "meaningVi": "Tôi mới học được nửa năm."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc2-v2-l03-dialogue",
+        "title": "Trước giờ thi",
+        "context": "Như Ngọc và Điền Trung nói về việc học tiếng Hoa.",
+        "audioTrackId": "cc2-textbook-l03-t01",
+        "turns": [
+          {
+            "speaker": "田中",
+            "chinese": "早，妳今天來得真早。",
+            "simplified": "早，妳今天来得真早。",
+            "pinyin": "zǎo ， nǐ jīn tiān lái dé zhēn zǎo 。",
+            "meaningVi": "Chào buổi sáng, hôm nay bạn đến sớm thật."
+          },
+          {
+            "speaker": "如玉",
+            "chinese": "是啊！我今天是搭捷運來的。",
+            "simplified": "是啊！我今天是搭捷运来的。",
+            "pinyin": "shì a ！ wǒ jīn tiān shì dā jié yùn lái de 。",
+            "meaningVi": "Ừ! Hôm nay mình đến bằng MRT."
+          },
+          {
+            "speaker": "田中",
+            "chinese": "今天的考試，妳準備了嗎？",
+            "simplified": "今天的考试，妳准备了吗？",
+            "pinyin": "jīn tiān de kǎo shì ， nǐ zhǔn bèi le ma ？",
+            "meaningVi": "Bạn chuẩn bị cho bài thi hôm nay chưa?"
+          },
+          {
+            "speaker": "如玉",
+            "chinese": "準備得差不多了，應該可以考得不錯。你覺得聽寫很容易吧？",
+            "simplified": "准备得差不多了，应该可以考得不错。你觉得听写很容易吧？",
+            "pinyin": "zhǔn bèi dé chà bu duō le ， yīng gāi kě yǐ kǎo dé bù cuò 。 nǐ jué dé tīng xiě hěn róng yì ba ？",
+            "meaningVi": "Mình chuẩn bị gần xong rồi, chắc sẽ làm bài khá tốt. Bạn thấy nghe viết dễ lắm nhỉ?"
+          },
+          {
+            "speaker": "田中",
+            "chinese": "是啊，日本人從小學就開始學寫漢字。",
+            "simplified": "是啊，日本人从小学就开始学写汉字。",
+            "pinyin": "shì a ， rì běn rén cóng xiǎo xué jiù kāi shǐ xué xiě hàn zì 。",
+            "meaningVi": "Ừ, người Nhật bắt đầu học viết chữ Hán từ tiểu học."
+          },
+          {
+            "speaker": "如玉",
+            "chinese": "我現在也覺得寫字不難，因為我在美國念高中的時候就學過了。",
+            "simplified": "我现在也觉得写字不难，因为我在美国念高中的时候就学过了。",
+            "pinyin": "wǒ xiàn zài yě jué dé xiě zì bù nán ， yīn wèi wǒ zài měi guó niàn gāo zhōng de shí hòu jiù xué guò le 。",
+            "meaningVi": "Bây giờ mình cũng thấy viết chữ không khó, vì hồi học cấp ba ở Mỹ mình đã học rồi."
+          },
+          {
+            "speaker": "田中",
+            "chinese": "妳在這個語言中心學了多久了？",
+            "simplified": "妳在这个语言中心学了多久了？",
+            "pinyin": "nǐ zài zhè gè yǔ yán zhōng xīn xué le duō jiǔ le ？",
+            "meaningVi": "Bạn học ở trung tâm ngôn ngữ này được bao lâu rồi?"
+          },
+          {
+            "speaker": "如玉",
+            "chinese": "我才學了半年，你呢？",
+            "simplified": "我才学了半年，你呢？",
+            "pinyin": "wǒ cái xué le bàn nián ， nǐ ne ？",
+            "meaningVi": "Mình mới học nửa năm. Còn bạn?"
+          },
+          {
+            "speaker": "田中",
+            "chinese": "我來了快一年了，可是我說話，還說得不夠流利。",
+            "simplified": "我来了快一年了，可是我说话，还说得不够流利。",
+            "pinyin": "wǒ lái le kuài yī nián le ， kě shì wǒ shuō huà ， hái shuō dé bù gòu liú lì 。",
+            "meaningVi": "Mình đến gần một năm rồi, nhưng nói vẫn chưa đủ lưu loát."
+          },
+          {
+            "speaker": "如玉",
+            "chinese": "雖然我只來了半年，但是我知道我的中文進步了。",
+            "simplified": "虽然我只来了半年，但是我知道我的中文进步了。",
+            "pinyin": "suī rán wǒ zhǐ lái le bàn nián ， dàn shì wǒ zhī dào wǒ de zhōng wén jìn bù le 。",
+            "meaningVi": "Tuy mình mới đến nửa năm, nhưng mình biết tiếng Hoa của mình đã tiến bộ."
+          },
+          {
+            "speaker": "田中",
+            "chinese": "我覺得在說中文的環境裡學中文，進步得比較快。",
+            "simplified": "我觉得在说中文的环境里学中文，进步得比较快。",
+            "pinyin": "wǒ jué dé zài shuō zhōng wén de huán jìng lǐ xué zhōng wén ， jìn bù dé bǐ jiào kuài 。",
+            "meaningVi": "Mình thấy học tiếng Hoa trong môi trường nói tiếng Hoa sẽ tiến bộ nhanh hơn."
+          },
+          {
+            "speaker": "如玉",
+            "chinese": "我同意。我希望回國的時候能看中文報紙。",
+            "simplified": "我同意。我希望回国的时候能看中文报纸。",
+            "pinyin": "wǒ tóng yì 。 wǒ xī wàng huí guó de shí hòu néng kàn zhòng wén bào zhǐ 。",
+            "meaningVi": "Mình đồng ý. Mình mong khi về nước có thể đọc báo tiếng Hoa."
+          },
+          {
+            "speaker": "田中",
+            "chinese": "我想妳一定可以。今天下了課，妳要去哪裡？",
+            "simplified": "我想妳一定可以。今天下了课，妳要去哪里？",
+            "pinyin": "wǒ xiǎng nǐ yí dìng kě yǐ 。 jīn tiān xià le kè ， nǐ yào qù nǎ lǐ ？",
+            "meaningVi": "Mình nghĩ chắc chắn bạn làm được. Hôm nay tan học bạn sẽ đi đâu?"
+          },
+          {
+            "speaker": "如玉",
+            "chinese": "我要去活動中心跟語言交換的朋友見面。",
+            "simplified": "我要去活动中心跟语言交换的朋友见面。",
+            "pinyin": "wǒ yào qù huó dòng zhōng xīn gēn yǔ yán jiāo huàn de péng yǒu jiàn miàn 。",
+            "meaningVi": "Mình đến trung tâm sinh hoạt gặp bạn trao đổi ngôn ngữ."
+          },
+          {
+            "speaker": "田中",
+            "chinese": "妳說的活動中心在哪裡？",
+            "simplified": "妳说的活动中心在哪里？",
+            "pinyin": "nǐ shuō de huó dòng zhōng xīn zài nǎ lǐ ？",
+            "meaningVi": "Trung tâm sinh hoạt bạn nói ở đâu?"
+          },
+          {
+            "speaker": "如玉",
+            "chinese": "在一樓有麵包店的那棟樓裡面，我們一起去聽過一次演講，記得嗎？",
+            "simplified": "在一楼有面包店的那栋楼里面，我们一起去听过一次演讲，记得吗？",
+            "pinyin": "zài yī lóu yǒu miàn bāo diàn de nà dòng lóu lǐ miàn ， wǒ men yì qǐ qù tīng guò yī cì yǎn jiǎng ， jì dé ma ？",
+            "meaningVi": "Ở trong tòa nhà có tiệm bánh mì ở tầng một. Chúng ta từng cùng đến đó nghe một buổi diễn thuyết, bạn nhớ không?"
+          },
+          {
+            "speaker": "田中",
+            "chinese": "噢，我想起來了。",
+            "simplified": "噢，我想起来了。",
+            "pinyin": "ō ， wǒ xiǎng qǐ lái le 。",
+            "meaningVi": "À, mình nhớ ra rồi."
+          }
+        ]
+      },
+      {
+        "id": "cc2-v2-l03-reading",
+        "title": "Học tiếng Hoa ở Sư Đại",
+        "context": "Mã An Đồng học trên lớp và luyện tiếng Hoa khi đi chơi cuối tuần.",
+        "audioTrackId": "cc2-textbook-l03-t03",
+        "turns": [
+          {
+            "speaker": "Bài đọc",
+            "chinese": "馬安同到師大來學中文，他選了每天上三個小時的課，下了課要寫作業，還要準備第二天的課。馬安同剛開始學寫中國字，覺得真難，所以每天都練習寫字，常常半夜十二點多才睡覺。雖然有點累，但是他很高興現在會寫很多字了。",
+            "simplified": "马安同到师大来学中文，他选了每天上三个小时的课，下了课要写作业，还要准备第二天的课。马安同刚开始学写中国字，觉得真难，所以每天都练习写字，常常半夜十二点多才睡觉。虽然有点累，但是他很高兴现在会写很多字了。",
+            "pinyin": "mǎ ān tóng dào shī dà lái xué zhōng wén ， tā xuǎn le měi tiān shàng sān gè xiǎo shí de kè ， xià le kè yào xiě zuò yè ， hái yào zhǔn bèi dì èr tiān de kè 。 mǎ ān tóng gāng kāi shǐ xué xiě zhōng guó zì ， jué dé zhēn nán ， suǒ yǐ měi tiān dōu liàn xí xiě zì ， cháng cháng bàn yè shí èr diǎn duō cái shuì jué 。 suī rán yǒu diǎn lèi ， dàn shì tā hěn gāo xìng xiàn zài huì xiě hěn duō zì le 。",
+            "meaningVi": "Mã An Đồng đến Sư Đại học tiếng Hoa. Anh chọn lớp học ba tiếng mỗi ngày; tan học còn phải làm bài tập và chuẩn bị bài ngày hôm sau. Lúc mới học viết chữ Hán, anh thấy rất khó nên ngày nào cũng tập viết, thường sau nửa đêm mới ngủ. Dù hơi mệt, anh rất vui vì bây giờ đã viết được nhiều chữ."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "週末，馬安同比平常輕鬆多了。他有時候搭捷運去貓空喝茶，有時候坐公車去陽明山爬山。爬山的時候，他認識了很多台灣人。台灣人對外國人很好，常常跟馬安同聊天，告訴他一些台灣的文化。",
+            "simplified": "周末，马安同比平常轻松多了。他有时候搭捷运去猫空喝茶，有时候坐公车去阳明山爬山。爬山的时候，他认识了很多台湾人。台湾人对外国人很好，常常跟马安同聊天，告诉他一些台湾的文化。",
+            "pinyin": "zhōu mò ， mǎ ān tóng bǐ píng cháng qīng sōng duō le 。 tā yǒu shí hòu dā jié yùn qù māo kōng hē chá ， yǒu shí hòu zuò gōng chē qù yáng míng shān pá shān 。 pá shān de shí hòu ， tā rèn shí le hěn duō tái wān rén 。 tái wān rén duì wài guó rén hěn hǎo ， cháng cháng gēn mǎ ān tóng liáo tiān ， gào sù tā yī xiē tái wān de wén huà 。",
+            "meaningVi": "Cuối tuần, Mã An Đồng thư thả hơn ngày thường nhiều. Có khi anh đi MRT đến Miêu Không uống trà, có khi đi xe buýt đến núi Dương Minh leo núi. Khi leo núi, anh quen nhiều người Đài Loan. Họ đối xử tốt với người nước ngoài, thường trò chuyện với anh và kể về văn hóa Đài Loan."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "馬安同有一個語言交換的朋友，他們一有空，就拿著地圖搭捷運去逛逛。安同喜歡看捷運上的廣告，要是有沒學過的字，他就會問那位朋友怎麼說。他覺得到處走走，可以了解台灣人的生活，也可以練習練習中文，哪裡都能學中文，真是不錯。",
+            "simplified": "马安同有一个语言交换的朋友，他们一有空，就拿着地图搭捷运去逛逛。安同喜欢看捷运上的广告，要是有没学过的字，他就会问那位朋友怎么说。他觉得到处走走，可以了解台湾人的生活，也可以练习练习中文，哪里都能学中文，真是不错。",
+            "pinyin": "mǎ ān tóng yǒu yī gè yǔ yán jiāo huàn de péng yǒu ， tā men yī yǒu kòng ， jiù ná zhù dì tú dā jié yùn qù guàng guàng 。 ān tóng xǐ huān kàn jié yùn shàng de guǎng gào ， yào shì yǒu méi xué guò de zì ， tā jiù huì wèn nà wèi péng yǒu zěn me shuō 。 tā jué dé dào chù zǒu zǒu ， kě yǐ liǎo jiě tái wān rén de shēng huó ， yě kě yǐ liàn xí liàn xí zhōng wén ， nǎ lǐ dōu néng xué zhōng wén ， zhēn shì bù cuò 。",
+            "meaningVi": "Mã An Đồng có một người bạn trao đổi ngôn ngữ. Hễ rảnh, hai người lại cầm bản đồ đi MRT dạo quanh. Anh thích xem quảng cáo trên MRT; gặp chữ chưa học thì hỏi người bạn ấy cách đọc. Anh thấy đi đây đó giúp mình hiểu đời sống người Đài Loan, đồng thời luyện tiếng Hoa. Học ở đâu cũng được, thật hay."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc2-v2-l03-check-01",
+        "prompt": "Như Ngọc đã học chữ Hán từ khi nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Từ lúc học tiểu học ở Nhật"
+          },
+          {
+            "id": "b",
+            "text": "Mới bắt đầu hôm nay"
+          },
+          {
+            "id": "c",
+            "text": "Thời học cấp ba ở Mỹ"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Cô nói 在美國念高中的時候就學過了.",
+        "skill": "Hội thoại"
+      },
+      {
+        "id": "cc2-v2-l03-check-02",
+        "prompt": "Vì sao Mã An Đồng tập viết mỗi ngày?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Anh muốn làm báo"
+          },
+          {
+            "id": "b",
+            "text": "Lớp học bắt buộc đi leo núi"
+          },
+          {
+            "id": "c",
+            "text": "Lúc đầu anh thấy viết chữ rất khó"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Bài đọc nói 剛開始學寫中國字，覺得真難，所以每天都練習寫字.",
+        "skill": "Bài đọc"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem phiên âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc2-v2-l03-v001",
+      "cc2-v2-l03-v002",
+      "cc2-v2-l03-v003",
+      "cc2-v2-l03-v004",
+      "cc2-v2-l03-v005",
+      "cc2-v2-l03-v006",
+      "cc2-v2-l03-v007",
+      "cc2-v2-l03-v008",
+      "cc2-v2-l03-v009",
+      "cc2-v2-l03-v010",
+      "cc2-v2-l03-v011",
+      "cc2-v2-l03-v012",
+      "cc2-v2-l03-v013",
+      "cc2-v2-l03-v014",
+      "cc2-v2-l03-v015",
+      "cc2-v2-l03-v016",
+      "cc2-v2-l03-v017",
+      "cc2-v2-l03-v018",
+      "cc2-v2-l03-v019",
+      "cc2-v2-l03-v020",
+      "cc2-v2-l03-v021",
+      "cc2-v2-l03-v022",
+      "cc2-v2-l03-v023",
+      "cc2-v2-l03-v024",
+      "cc2-v2-l03-v025",
+      "cc2-v2-l03-v026",
+      "cc2-v2-l03-v027",
+      "cc2-v2-l03-v028",
+      "cc2-v2-l03-v029",
+      "cc2-v2-l03-v030",
+      "cc2-v2-l03-v031",
+      "cc2-v2-l03-v032",
+      "cc2-v2-l03-v033",
+      "cc2-v2-l03-v034",
+      "cc2-v2-l03-v035",
+      "cc2-v2-l03-v036",
+      "cc2-v2-l03-v037",
+      "cc2-v2-l03-v038",
+      "cc2-v2-l03-v039",
+      "cc2-v2-l03-v040",
+      "cc2-v2-l03-v041"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc2-textbook-l03-t02",
+        "label": "Từ vựng hội thoại"
+      },
+      {
+        "id": "cc2-textbook-l03-t04",
+        "label": "Từ vựng bài đọc"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc2-v2-l03-grammar-01",
+      "title": "差不多 — gần như; xấp xỉ",
+      "audioTrackId": "cc2-textbook-l03-t05",
+      "explanation": "差不多 có ba cách dùng trong bài. Đứng một mình làm vị ngữ để nói hai thứ gần giống nhau. Đứng sau động từ hoặc tính từ để nói việc gần đạt mức mong muốn. Đứng trước số lượng để chỉ con số xấp xỉ. Ngữ cảnh quyết định nên hiểu theo cách nào.",
+      "structure": "A 跟 B 差不多 / động từ + 得差不多了 / 差不多 + số lượng",
+      "examples": [
+        {
+          "chinese": "我們開始學中文的時間差不多。",
+          "simplified": "我们开始学中文的时间差不多。",
+          "pinyin": "wǒ men kāi shǐ xué zhōng wén de shí jiān chà bu duō 。",
+          "meaningVi": "Thời gian chúng tôi bắt đầu học tiếng Hoa gần như nhau."
+        },
+        {
+          "chinese": "我的功課寫得差不多了。",
+          "simplified": "我的功课写得差不多了。",
+          "pinyin": "wǒ de gōng kè xiě dé chà bu duō le 。",
+          "meaningVi": "Bài tập của tôi gần làm xong rồi."
+        }
+      ],
+      "commonMistake": "Đừng hiểu 差不多 là 'đã hoàn thành' trong mọi câu; 写得差不多了 vẫn có thể còn một chút việc.",
+      "check": {
+        "id": "cc2-v2-l03-grammar-check-01",
+        "prompt": "Điền vào câu: 我的功課寫得＿＿了。",
+        "options": [
+          {
+            "id": "a",
+            "text": "過"
+          },
+          {
+            "id": "b",
+            "text": "報紙"
+          },
+          {
+            "id": "c",
+            "text": "差不多"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "差不多 có ba cách dùng trong bài.",
+        "skill": "差不多 — gần như; xấp xỉ"
+      }
+    },
+    {
+      "id": "cc2-v2-l03-grammar-02",
+      "title": "過 — đã từng trải nghiệm",
+      "audioTrackId": "cc2-textbook-l03-t06",
+      "explanation": "Đặt 過 sau động từ để nói đã từng có trải nghiệm, không nhấn vào một lần cụ thể. Dùng 沒 khi phủ định: 沒去過. So với 了, 過 thường nói đến kinh nghiệm tính đến hiện tại; 了 có thể kể một sự kiện đã xảy ra vào thời điểm xác định.",
+      "structure": "Chủ ngữ + động từ + 過 + tân ngữ / 沒 + động từ + 過",
+      "examples": [
+        {
+          "chinese": "我在高中學過中文。",
+          "simplified": "我在高中学过中文。",
+          "pinyin": "wǒ zài gāo zhōng xué guò zhōng wén 。",
+          "meaningVi": "Tôi đã từng học tiếng Hoa ở cấp ba."
+        },
+        {
+          "chinese": "我沒去過貓空。",
+          "simplified": "我没去过猫空。",
+          "pinyin": "wǒ méi qù guò māo kōng 。",
+          "meaningVi": "Tôi chưa từng đến Miêu Không."
+        }
+      ],
+      "commonMistake": "Không nói 不去過 để phủ định một trải nghiệm; dùng 沒去過.",
+      "check": {
+        "id": "cc2-v2-l03-grammar-check-02",
+        "prompt": "Điền vào câu: 我以前＿＿台南。",
+        "options": [
+          {
+            "id": "a",
+            "text": "去過"
+          },
+          {
+            "id": "b",
+            "text": "不去過"
+          },
+          {
+            "id": "c",
+            "text": "去才"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Đặt 過 sau động từ để nói đã từng có trải nghiệm, không nhấn vào một lần cụ thể.",
+        "skill": "過 — đã từng trải nghiệm"
+      }
+    },
+    {
+      "id": "cc2-v2-l03-grammar-03",
+      "title": "才 — mới chỉ; ít hơn mong đợi",
+      "audioTrackId": "cc2-textbook-l03-t07",
+      "explanation": "才 đặt trước động từ hoặc cụm số lượng để nhấn mạnh 'mới có bấy nhiêu', ít hơn điều người nói kỳ vọng. Trong câu 我才學了半年, người nói thấy nửa năm là ngắn. 只 cũng có nghĩa 'chỉ' nhưng trung tính hơn; 才 mang đánh giá chủ quan.",
+      "structure": "Chủ ngữ + 才 + động từ + số lượng",
+      "examples": [
+        {
+          "chinese": "我才學了半年中文。",
+          "simplified": "我才学了半年中文。",
+          "pinyin": "wǒ cái xué le bàn nián zhōng wén 。",
+          "meaningVi": "Tôi mới học tiếng Hoa được nửa năm."
+        },
+        {
+          "chinese": "這本書才五十塊。",
+          "simplified": "这本书才五十块。",
+          "pinyin": "zhè běn shū cái wǔ shí kuài 。",
+          "meaningVi": "Cuốn sách này chỉ có 50 đồng."
+        }
+      ],
+      "commonMistake": "Đừng dùng 才 như một từ chỉ thời quá khứ đơn thuần; nó cho thấy lượng hoặc thời gian ít hơn mong đợi.",
+      "check": {
+        "id": "cc2-v2-l03-grammar-check-03",
+        "prompt": "Điền vào câu: 這本書＿＿五十塊。",
+        "options": [
+          {
+            "id": "a",
+            "text": "才"
+          },
+          {
+            "id": "b",
+            "text": "過"
+          },
+          {
+            "id": "c",
+            "text": "雖然"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "才 đặt trước động từ hoặc cụm số lượng để nhấn mạnh 'mới có bấy nhiêu', ít hơn điều người nói kỳ vọng.",
+        "skill": "才 — mới chỉ; ít hơn mong đợi"
+      }
+    },
+    {
+      "id": "cc2-v2-l03-grammar-04",
+      "title": "想起來 — nhớ ra",
+      "audioTrackId": "cc2-textbook-l03-t08",
+      "explanation": "想起來 chỉ khoảnh khắc điều đã quên hiện lại trong trí nhớ. Có thể thêm 了 khi sự nhớ ra đã xảy ra: 我想起來了. Khác với 想, đây không phải là 'muốn' hoặc 'nghĩ về' nói chung.",
+      "structure": "Chủ ngữ + 想起來 + (tân ngữ) + 了",
+      "examples": [
+        {
+          "chinese": "噢，我想起來了。",
+          "simplified": "噢，我想起来了。",
+          "pinyin": "ō ， wǒ xiǎng qǐ lái le 。",
+          "meaningVi": "Ồ, tôi nhớ ra rồi."
+        },
+        {
+          "chinese": "那位同學的名字，我想起來了。",
+          "simplified": "那位同学的名字，我想起来了。",
+          "pinyin": "nà wèi tóng xué de míng zì ， wǒ xiǎng qǐ lái le 。",
+          "meaningVi": "Tên bạn học ấy, tôi nhớ ra rồi."
+        }
+      ],
+      "commonMistake": "Không dùng 想起來 khi muốn nói một dự định; 想去 là 'muốn đi', 想起來 là 'nhớ ra'.",
+      "check": {
+        "id": "cc2-v2-l03-grammar-check-04",
+        "prompt": "Điền vào câu: 噢，我＿＿了！",
+        "options": [
+          {
+            "id": "a",
+            "text": "想去"
+          },
+          {
+            "id": "b",
+            "text": "才"
+          },
+          {
+            "id": "c",
+            "text": "想起來"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "想起來 chỉ khoảnh khắc điều đã quên hiện lại trong trí nhớ.",
+        "skill": "想起來 — nhớ ra"
+      }
+    },
+    {
+      "id": "cc2-v2-l03-grammar-05",
+      "title": "才 — mãi đến lúc đó mới",
+      "audioTrackId": "cc2-textbook-l03-t09",
+      "explanation": "Khi một sự việc xảy ra muộn hơn mong đợi, 才 đứng trước động từ và thường đi với mốc thời gian. '他半夜才睡覺' nghĩa là mãi đến nửa đêm anh ấy mới ngủ. So với 就, 才 gợi cảm giác muộn hoặc lâu; 就 gợi cảm giác sớm hoặc nhanh.",
+      "structure": "Mốc thời gian + 才 + động từ",
+      "examples": [
+        {
+          "chinese": "他常常半夜十二點多才睡覺。",
+          "simplified": "他常常半夜十二点多才睡觉。",
+          "pinyin": "tā cháng cháng bàn yè shí èr diǎn duō cái shuì jué 。",
+          "meaningVi": "Anh ấy thường mãi sau 12 giờ đêm mới đi ngủ."
+        },
+        {
+          "chinese": "我等了十分鐘，捷運才來。",
+          "simplified": "我等了十分钟，捷运才来。",
+          "pinyin": "wǒ děng le shí fēn zhōng ， jié yùn cái lái 。",
+          "meaningVi": "Tôi đợi mười phút MRT mới đến."
+        }
+      ],
+      "commonMistake": "Đừng xem 才 và 就 là hai từ thay thế nhau; sắc thái sớm/muộn đối lập.",
+      "check": {
+        "id": "cc2-v2-l03-grammar-check-05",
+        "prompt": "Điền vào câu: 我等了十分鐘，捷運＿＿來。",
+        "options": [
+          {
+            "id": "a",
+            "text": "雖然"
+          },
+          {
+            "id": "b",
+            "text": "才"
+          },
+          {
+            "id": "c",
+            "text": "過"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Khi một sự việc xảy ra muộn hơn mong đợi, 才 đứng trước động từ và thường đi với mốc thời gian.",
+        "skill": "才 — mãi đến lúc đó mới"
+      }
+    },
+    {
+      "id": "cc2-v2-l03-grammar-06",
+      "title": "Lặp động từ hai âm tiết ABAB",
+      "audioTrackId": "cc2-textbook-l03-t10",
+      "explanation": "Lặp một động từ hai âm tiết theo mẫu ABAB để diễn tả thử hoặc làm một chút: 練習練習, 了解了解. Cách này thường làm lời đề nghị nhẹ hơn. Không thêm 一下 hoặc 一點 sau dạng đã lặp vì cả hai cũng làm nhẹ mức độ hành động.",
+      "structure": "AB → ABAB",
+      "examples": [
+        {
+          "chinese": "今天的漢字，我還得練習練習。",
+          "simplified": "今天的汉字，我还得练习练习。",
+          "pinyin": "jīn tiān de hàn zì ， wǒ hái dé liàn xí liàn xí 。",
+          "meaningVi": "Những chữ Hán học hôm nay tôi còn phải luyện thêm một chút."
+        },
+        {
+          "chinese": "我想了解了解台灣人的生活。",
+          "simplified": "我想了解了解台湾人的生活。",
+          "pinyin": "wǒ xiǎng liǎo jiě liǎo jiě tái wān rén de shēng huó 。",
+          "meaningVi": "Tôi muốn tìm hiểu đôi chút về cuộc sống người Đài Loan."
+        }
+      ],
+      "commonMistake": "Không nói 練習練習一下; chọn một cách diễn đạt mức độ nhẹ.",
+      "check": {
+        "id": "cc2-v2-l03-grammar-check-06",
+        "prompt": "Điền vào câu: 我想＿＿台灣人的生活。",
+        "options": [
+          {
+            "id": "a",
+            "text": "了解了解"
+          },
+          {
+            "id": "b",
+            "text": "了解一下了解"
+          },
+          {
+            "id": "c",
+            "text": "了解過了解"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Lặp một động từ hai âm tiết theo mẫu ABAB để diễn tả thử hoặc làm một chút: 練習練習, 了解了解.",
+        "skill": "Lặp động từ hai âm tiết ABAB"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc2-v2-l03-listening-01",
+      "prompt": "Nghe hội thoại. Như Ngọc đến lớp bằng gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Xe buýt"
+        },
+        {
+          "id": "b",
+          "text": "Taxi"
+        },
+        {
+          "id": "c",
+          "text": "MRT"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Cô nói 我今天是搭捷運來的.",
+      "skill": "Nghe chi tiết",
+      "audioTrackId": "cc2-textbook-l03-t01"
+    },
+    {
+      "id": "cc2-v2-l03-listening-02",
+      "prompt": "Nghe hội thoại. Ai đã học tiếng Hoa gần một năm?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Điền Trung"
+        },
+        {
+          "id": "b",
+          "text": "Như Ngọc"
+        },
+        {
+          "id": "c",
+          "text": "Mã An Đồng"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Điền Trung nói 我來了快一年了.",
+      "skill": "Nghe thời gian",
+      "audioTrackId": "cc2-textbook-l03-t01"
+    },
+    {
+      "id": "cc2-v2-l03-listening-03",
+      "prompt": "Nghe bài đọc. Mã An Đồng làm gì sau giờ học?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đi leo núi ngay"
+        },
+        {
+          "id": "b",
+          "text": "Về nước"
+        },
+        {
+          "id": "c",
+          "text": "Làm bài tập và chuẩn bị bài hôm sau"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc nói 下了課要寫作業，還要準備第二天的課.",
+      "skill": "Nghe trình tự",
+      "audioTrackId": "cc2-textbook-l03-t03"
+    },
+    {
+      "id": "cc2-v2-l03-listening-04",
+      "prompt": "Nghe bài đọc. Mã An Đồng dùng gì để khám phá thành phố cùng bạn?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Máy bay"
+        },
+        {
+          "id": "b",
+          "text": "Bản đồ và MRT"
+        },
+        {
+          "id": "c",
+          "text": "Xe đạp"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nói 拿著地圖搭捷運去逛逛.",
+      "skill": "Nghe ý chính",
+      "audioTrackId": "cc2-textbook-l03-t03"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc2-v2-l03-practice-01",
+      "prompt": "‘進步’ nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "chuẩn bị"
+        },
+        {
+          "id": "b",
+          "text": "tiến bộ"
+        },
+        {
+          "id": "c",
+          "text": "quên mất"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "進步 là tiến bộ trong việc học hoặc một kỹ năng.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc2-v2-l03-practice-02",
+      "prompt": "Điền: 我以前＿＿中文。",
+      "options": [
+        {
+          "id": "a",
+          "text": "學過"
+        },
+        {
+          "id": "b",
+          "text": "不學過"
+        },
+        {
+          "id": "c",
+          "text": "學才"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "過 đứng sau động từ để nói trải nghiệm.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l03-practice-03",
+      "prompt": "田中 học ở trung tâm ngôn ngữ được bao lâu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hai năm"
+        },
+        {
+          "id": "b",
+          "text": "Gần một năm"
+        },
+        {
+          "id": "c",
+          "text": "Nửa năm"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Anh nói 我來了快一年了.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc2-v2-l03-practice-04",
+      "prompt": "Điền: 這本書＿＿五十塊。",
+      "options": [
+        {
+          "id": "a",
+          "text": "環境"
+        },
+        {
+          "id": "b",
+          "text": "才"
+        },
+        {
+          "id": "c",
+          "text": "過"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "才 cho thấy người nói nghĩ 50 đồng là ít.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l03-practice-05",
+      "prompt": "Như Ngọc muốn gặp ai sau giờ học?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Giáo viên dạy tiếng Nhật"
+        },
+        {
+          "id": "b",
+          "text": "Bạn cùng phòng"
+        },
+        {
+          "id": "c",
+          "text": "Bạn trao đổi ngôn ngữ"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Cô nói 要去活動中心跟語言交換的朋友見面.",
+      "skill": "Hội thoại"
+    },
+    {
+      "id": "cc2-v2-l03-practice-06",
+      "prompt": "Điền: 我等了十分鐘，捷運＿＿來。",
+      "options": [
+        {
+          "id": "a",
+          "text": "過"
+        },
+        {
+          "id": "b",
+          "text": "也"
+        },
+        {
+          "id": "c",
+          "text": "才"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "才 cho thấy MRT đến muộn hơn mong đợi.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l03-practice-07",
+      "prompt": "Mã An Đồng làm gì khi thấy chữ chưa học trên MRT?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hỏi bạn cách đọc"
+        },
+        {
+          "id": "b",
+          "text": "Bỏ qua luôn"
+        },
+        {
+          "id": "c",
+          "text": "Mua báo"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc ghi 他就會問那位朋友怎麼說.",
+      "skill": "Bài đọc"
+    },
+    {
+      "id": "cc2-v2-l03-practice-08",
+      "prompt": "Chọn cách nói 'luyện tập một chút'.",
+      "options": [
+        {
+          "id": "a",
+          "text": "練習練習一下"
+        },
+        {
+          "id": "b",
+          "text": "練練習習"
+        },
+        {
+          "id": "c",
+          "text": "練習練習"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Động từ hai âm tiết lặp theo mẫu ABAB.",
+      "skill": "Ngữ pháp"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc2-v2-l03-assessment-01",
+      "prompt": "‘報紙’ là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "quảng cáo"
+        },
+        {
+          "id": "b",
+          "text": "báo giấy"
+        },
+        {
+          "id": "c",
+          "text": "bài thi"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "報紙 là báo giấy.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc2-v2-l03-assessment-02",
+      "prompt": "Điền: 你去＿＿陽明山嗎？",
+      "options": [
+        {
+          "id": "a",
+          "text": "才"
+        },
+        {
+          "id": "b",
+          "text": "都"
+        },
+        {
+          "id": "c",
+          "text": "過"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "過 đứng sau động từ 去 để hỏi trải nghiệm.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l03-assessment-03",
+      "prompt": "Như Ngọc đã học tiếng Hoa bao lâu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gần một năm"
+        },
+        {
+          "id": "b",
+          "text": "Một tháng"
+        },
+        {
+          "id": "c",
+          "text": "Nửa năm"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Cô nói 我才學了半年.",
+      "skill": "Hội thoại"
+    },
+    {
+      "id": "cc2-v2-l03-assessment-04",
+      "prompt": "Điền: 我＿＿學了半年中文。",
+      "options": [
+        {
+          "id": "a",
+          "text": "雖然"
+        },
+        {
+          "id": "b",
+          "text": "才"
+        },
+        {
+          "id": "c",
+          "text": "過"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "才 nhấn mạnh khoảng thời gian còn ngắn.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l03-assessment-05",
+      "prompt": "Vì sao Như Ngọc thấy viết chữ không khó?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cô đã học từ thời cấp ba"
+        },
+        {
+          "id": "b",
+          "text": "Cô không cần học chữ Hán"
+        },
+        {
+          "id": "c",
+          "text": "Cô chỉ mới bắt đầu học"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Cô nói 在美國念高中的時候就學過了.",
+      "skill": "Hội thoại"
+    },
+    {
+      "id": "cc2-v2-l03-assessment-06",
+      "prompt": "Điền: 噢，我＿＿了。",
+      "options": [
+        {
+          "id": "a",
+          "text": "想去"
+        },
+        {
+          "id": "b",
+          "text": "不夠"
+        },
+        {
+          "id": "c",
+          "text": "想起來"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "想起來 là nhớ ra.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l03-assessment-07",
+      "prompt": "Mã An Đồng thường ngủ lúc nào khi mới học viết chữ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trước 9 giờ"
+        },
+        {
+          "id": "b",
+          "text": "Ngay sau giờ học"
+        },
+        {
+          "id": "c",
+          "text": "Sau nửa đêm"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc ghi 常常半夜十二點多才睡覺.",
+      "skill": "Bài đọc"
+    },
+    {
+      "id": "cc2-v2-l03-assessment-08",
+      "prompt": "Điền: 我們＿＿台灣人的生活。",
+      "options": [
+        {
+          "id": "a",
+          "text": "了解過了解"
+        },
+        {
+          "id": "b",
+          "text": "了解了解一下"
+        },
+        {
+          "id": "c",
+          "text": "了解了解"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Động từ hai âm tiết lặp ABAB.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l03-assessment-09",
+      "prompt": "Mã An Đồng đi đâu để uống trà vào cuối tuần?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lục Đảo"
+        },
+        {
+          "id": "b",
+          "text": "Miêu Không"
+        },
+        {
+          "id": "c",
+          "text": "Đài Nam"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nói 搭捷運去貓空喝茶.",
+      "skill": "Bài đọc"
+    },
+    {
+      "id": "cc2-v2-l03-assessment-10",
+      "prompt": "Câu nào nói 'tôi chưa từng đến Đài Nam'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "我才去台南。"
+        },
+        {
+          "id": "b",
+          "text": "我沒去過台南。"
+        },
+        {
+          "id": "c",
+          "text": "我不去過台南。"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Phủ định trải nghiệm với 沒 + động từ + 過.",
+      "skill": "Ngữ pháp"
+    }
+  ],
+  "writingTask": {
+    "id": "cc2-v2-l03-writing",
+    "title": "Chuyện học tiếng Hoa",
+    "prompt": "Viết 2–3 câu kể bạn đã từng học gì, học được bao lâu và muốn luyện thêm điều gì. Thử dùng 過 hoặc 才.",
+    "sampleTraditional": "我學過中文，可是才學了半年。我想多練習練習說話。",
+    "sampleSimplified": "我学过中文，可是才学了半年。我想多练习练习说话。"
+  }
+}

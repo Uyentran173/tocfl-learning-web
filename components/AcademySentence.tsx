@@ -3,16 +3,30 @@
 import { useMemo, useState } from "react";
 import type { AcademySentence as Sentence } from "@/lib/academy-catalog";
 import { cc1Lesson01Words } from "@/lib/cc1-lesson01-vocabulary";
+import { cc1CourseVocabularySets } from "@/lib/cc1-course-vocabulary";
+import { cc2VocabularySets } from "@/lib/cc2-course-vocabulary";
 import type { AcademyScript } from "@/lib/academy-script";
 import { useT } from "./PreferencesProvider";
 
 type Piece = { text: string; id?: string; pinyin?: string; meaning?: string };
+const academyWords = [...cc1Lesson01Words, ...cc1CourseVocabularySets.flatMap((set) => set.words), ...cc2VocabularySets.flatMap((set) => set.words)];
+const lexicons = Object.fromEntries((["traditional", "simplified"] as const).map((script) => {
+  const words = academyWords.map((word) => ({ text: script === "simplified" ? word.simplified! : word.traditional!, id: word.id!, pinyin: word.pinyin, meaning: word.meaning }))
+    .filter((word) => word.text && word.id)
+    .sort((a, b) => b.text.length - a.text.length);
+  const byFirstCharacter = new Map<string, Piece[]>();
+  for (const word of words) {
+    const group = byFirstCharacter.get(word.text[0]) ?? [];
+    group.push(word);
+    byFirstCharacter.set(word.text[0], group);
+  }
+  return [script, byFirstCharacter];
+})) as Record<AcademyScript, Map<string, Piece[]>>;
 function tokenize(input: string, script: AcademyScript): Piece[] {
-  const lexicon = cc1Lesson01Words.map((word) => ({ text: script === "simplified" ? word.simplified! : word.traditional!, id: word.id!, pinyin: word.pinyin, meaning: word.meaning })).sort((a, b) => b.text.length - a.text.length);
   const pieces: Piece[] = [];
   let index = 0;
   while (index < input.length) {
-    const found = lexicon.find((entry) => input.startsWith(entry.text, index));
+    const found = lexicons[script].get(input[index])?.find((entry) => input.startsWith(entry.text, index));
     if (found) { pieces.push(found); index += found.text.length; }
     else { pieces.push({ text: input[index] }); index += 1; }
   }

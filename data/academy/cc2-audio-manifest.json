@@ -699,8 +699,14 @@
       "pdfPages": [
         79
       ],
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 79,
+        "bookPage": 52,
+        "labelVi": "Đối thoại",
+        "referenceCode": "03-01",
+        "itemCount": null
+      }
     },
     {
       "id": "cc2-textbook-l03-t02",
@@ -717,8 +723,14 @@
       "pdfPages": [
         82
       ],
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 82,
+        "bookPage": 55,
+        "labelVi": "Từ vựng hội thoại",
+        "referenceCode": "03-02",
+        "itemCount": null
+      }
     },
     {
       "id": "cc2-textbook-l03-t03",
@@ -735,8 +747,14 @@
       "pdfPages": [
         83
       ],
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 83,
+        "bookPage": 56,
+        "labelVi": "Bài đọc",
+        "referenceCode": "03-03",
+        "itemCount": null
+      }
     },
     {
       "id": "cc2-textbook-l03-t04",
@@ -753,8 +771,14 @@
       "pdfPages": [
         84
       ],
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 84,
+        "bookPage": 57,
+        "labelVi": "Từ vựng bài đọc",
+        "referenceCode": "03-04",
+        "itemCount": null
+      }
     },
     {
       "id": "cc2-textbook-l03-t05",
@@ -771,8 +795,14 @@
       "pdfPages": [
         85
       ],
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 85,
+        "bookPage": 58,
+        "labelVi": "Ngữ pháp: 差不多",
+        "referenceCode": "03-05",
+        "itemCount": null
+      }
     },
     {
       "id": "cc2-textbook-l03-t06",
@@ -789,8 +819,14 @@
       "pdfPages": [
         87
       ],
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 87,
+        "bookPage": 60,
+        "labelVi": "Ngữ pháp: 過",
+        "referenceCode": "03-06",
+        "itemCount": null
+      }
     },
     {
       "id": "cc2-textbook-l03-t07",
@@ -807,8 +843,14 @@
       "pdfPages": [
         88
       ],
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 88,
+        "bookPage": 61,
+        "labelVi": "Ngữ pháp: 才",
+        "referenceCode": "03-07",
+        "itemCount": null
+      }
     },
     {
       "id": "cc2-textbook-l03-t08",
@@ -823,8 +865,14 @@
       "sha256": "712d995555c9f82b518603063e00fe43513bb05b0489aa5642732233502953d4",
       "printedReference": "03-08",
       "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 90,
+        "bookPage": 63,
+        "labelVi": "Ngữ pháp: 想起來",
+        "referenceCode": "03-08",
+        "itemCount": null
+      }
     },
     {
       "id": "cc2-textbook-l03-t09",
@@ -841,8 +889,14 @@
       "pdfPages": [
         92
       ],
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 92,
+        "bookPage": 65,
+        "labelVi": "Ngữ pháp: 才 chỉ thời gian",
+        "referenceCode": "03-09",
+        "itemCount": null
+      }
     },
     {
       "id": "cc2-textbook-l03-t10",
@@ -859,8 +913,14 @@
       "pdfPages": [
         93
       ],
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 93,
+        "bookPage": 66,
+        "labelVi": "Ngữ pháp: lặp động từ ABAB",
+        "referenceCode": "03-10",
+        "itemCount": null
+      }
     },
     {
       "id": "cc2-workbook-l03-t01",
@@ -877,8 +937,14 @@
       "pdfPages": [
         21
       ],
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 21,
+        "bookPage": 19,
+        "labelVi": "Nghe và chép chính tả",
+        "referenceCode": "03-1",
+        "itemCount": 5
+      }
     },
     {
       "id": "cc2-workbook-l03-t02",
@@ -895,8 +961,14 @@
       "pdfPages": [
         21
       ],
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 21,
+        "bookPage": 19,
+        "labelVi": "Nghe hội thoại ngắn, chọn đáp án",
+        "referenceCode": "03-2",
+        "itemCount": 5
+      }
     },
     {
       "id": "cc2-workbook-l03-t03",
@@ -913,8 +985,14 @@
       "pdfPages": [
         22
       ],
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 22,
+        "bookPage": 20,
+        "labelVi": "Nghe câu chuyện, xác định đúng sai",
+        "referenceCode": "03-3",
+        "itemCount": 5
+      }
     },
     {
       "id": "cc2-workbook-l03-t04",
@@ -931,8 +1009,14 @@
       "pdfPages": [
         22
       ],
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 22,
+        "bookPage": 20,
+        "labelVi": "Nghe câu chuyện, ghi thông tin",
+        "referenceCode": "03-4",
+        "itemCount": 8
+      }
     },
     {
       "id": "cc2-textbook-l04-t01",

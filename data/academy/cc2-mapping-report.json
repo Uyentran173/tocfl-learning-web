@@ -118,16 +118,17 @@
     "cc2-textbook-unassigned-00",
     "cc2-workbook-unassigned-00"
   ],
-  "pendingActivityMappings": 184,
+  "pendingActivityMappings": 170,
   "warnings": [
     "PDF code detection is an audit aid; activity types require separate verification before publication.",
     "The two 00.mp3 files remain unassigned."
   ],
-  "verifiedActivityMappings": 27,
+  "verifiedActivityMappings": 41,
   "manuallyVerifiedPrintedReferences": [
     "cc2-textbook-l01-t04",
     "cc2-textbook-l01-t07",
     "cc2-textbook-l02-t08",
-    "cc2-textbook-l02-t10"
+    "cc2-textbook-l02-t10",
+    "cc2-textbook-l03-t08"
   ]
 }

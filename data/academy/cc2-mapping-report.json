@@ -1,0 +1,131 @@
+{
+  "courseId": "cc2",
+  "volume": 2,
+  "found": {
+    "textbook": 150,
+    "workbook": 61
+  },
+  "lessonCounts": [
+    {
+      "lesson": 1,
+      "textbook": 9,
+      "workbook": 4
+    },
+    {
+      "lesson": 2,
+      "textbook": 10,
+      "workbook": 4
+    },
+    {
+      "lesson": 3,
+      "textbook": 10,
+      "workbook": 4
+    },
+    {
+      "lesson": 4,
+      "textbook": 9,
+      "workbook": 4
+    },
+    {
+      "lesson": 5,
+      "textbook": 9,
+      "workbook": 4
+    },
+    {
+      "lesson": 6,
+      "textbook": 9,
+      "workbook": 4
+    },
+    {
+      "lesson": 7,
+      "textbook": 9,
+      "workbook": 4
+    },
+    {
+      "lesson": 8,
+      "textbook": 12,
+      "workbook": 4
+    },
+    {
+      "lesson": 9,
+      "textbook": 10,
+      "workbook": 4
+    },
+    {
+      "lesson": 10,
+      "textbook": 9,
+      "workbook": 4
+    },
+    {
+      "lesson": 11,
+      "textbook": 11,
+      "workbook": 4
+    },
+    {
+      "lesson": 12,
+      "textbook": 10,
+      "workbook": 4
+    },
+    {
+      "lesson": 13,
+      "textbook": 13,
+      "workbook": 4
+    },
+    {
+      "lesson": 14,
+      "textbook": 10,
+      "workbook": 4
+    },
+    {
+      "lesson": 15,
+      "textbook": 9,
+      "workbook": 4
+    }
+  ],
+  "printedReferenceCount": {
+    "textbook": 125,
+    "workbook": 58
+  },
+  "printedReferenceMissingIds": [
+    "cc2-textbook-l01-t04",
+    "cc2-textbook-l01-t07",
+    "cc2-textbook-l02-t08",
+    "cc2-textbook-l02-t10",
+    "cc2-textbook-l03-t08",
+    "cc2-textbook-l04-t02",
+    "cc2-textbook-l04-t09",
+    "cc2-textbook-l05-t02",
+    "cc2-textbook-l05-t07",
+    "cc2-workbook-l05-t03",
+    "cc2-textbook-l06-t02",
+    "cc2-textbook-l07-t02",
+    "cc2-textbook-l07-t06",
+    "cc2-textbook-l08-t02",
+    "cc2-textbook-l08-t03",
+    "cc2-textbook-l08-t04",
+    "cc2-textbook-l08-t06",
+    "cc2-workbook-l08-t03",
+    "cc2-textbook-l09-t02",
+    "cc2-textbook-l09-t04",
+    "cc2-textbook-l09-t05",
+    "cc2-textbook-l09-t10",
+    "cc2-textbook-l10-t08",
+    "cc2-textbook-l11-t04",
+    "cc2-textbook-l11-t06",
+    "cc2-textbook-l15-t06"
+  ],
+  "unassignedIds": [
+    "cc2-textbook-unassigned-00",
+    "cc2-workbook-unassigned-00"
+  ],
+  "pendingActivityMappings": 198,
+  "warnings": [
+    "PDF code detection is an audit aid; activity types require separate verification before publication.",
+    "The two 00.mp3 files remain unassigned."
+  ],
+  "verifiedActivityMappings": 13,
+  "manuallyVerifiedPrintedReferences": [
+    "cc2-textbook-l01-t04",
+    "cc2-textbook-l01-t07"
+  ]
+}

@@ -1,5 +1,6 @@
 import { cc1Lesson01Words } from "./cc1-lesson01-vocabulary.ts";
 import cc1ScriptMap from "../data/academy/cc1-script-map.json" with { type: "json" };
+import cc2ScriptMap from "../data/academy/cc2-script-map.json" with { type: "json" };
 
 export type AcademyScript = "traditional" | "simplified";
 
@@ -15,7 +16,7 @@ export function academyScriptText(input: string, script: AcademyScript): string 
   for (let index = 0; index < input.length;) {
     const match = conversions.find(([traditional]) => input.startsWith(traditional, index));
     if (match) { result += match[1]; index += match[0].length; }
-    else { result += cc1ScriptMap.characters[input[index] as keyof typeof cc1ScriptMap.characters] ?? input[index]; index++; }
+    else { result += cc1ScriptMap.characters[input[index] as keyof typeof cc1ScriptMap.characters] ?? cc2ScriptMap[input[index] as keyof typeof cc2ScriptMap] ?? input[index]; index++; }
   }
   return result;
 }

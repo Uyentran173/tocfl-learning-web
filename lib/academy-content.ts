@@ -9,6 +9,10 @@ export async function publishedAcademyLesson01(): Promise<AcademyLessonContent> 
 export async function publishedAcademyLesson(number: number): Promise<AcademyLessonContent> {
   const fallback = academyStaticLesson(number);
   if (!fallback) throw new Error(`Unknown Academy lesson ${number}`);
+  return publishedAcademyLessonByFallback(fallback);
+}
+
+export async function publishedAcademyLessonByFallback(fallback: AcademyLessonContent): Promise<AcademyLessonContent> {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const key = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY;
   if (!url || !key) return fallback;

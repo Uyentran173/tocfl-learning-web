@@ -1,5 +1,6 @@
 import { cc1Lesson01Words } from "./cc1-lesson01-vocabulary.ts";
 import { cc1CourseVocabularySets } from "./cc1-course-vocabulary.ts";
+import { cc2VocabularySets } from "./cc2-course-vocabulary.ts";
 
 export type VocabularyWord = {
   id?: string;
@@ -121,12 +122,14 @@ export const textbookSets: VocabularySet[] = [
     ],
   },
   ...cc1CourseVocabularySets,
+  ...cc2VocabularySets,
 ];
 
 // Keep course > chapter > lesson nesting so later textbook imports need no UI changes.
 export const textbooks: VocabularyTextbook[] = [
   { id: "contemporary-chinese", title: "A Course in Contemporary Chinese", chapters: [
     { id: "cc1-v1", title: "Tập 1", lessons: [textbookSets[0], ...cc1CourseVocabularySets] },
+    { id: "cc2-v2", title: "Tập 2", lessons: cc2VocabularySets },
   ] },
   { id: "nhap-mon", title: "Bộ từ vựng nhập môn", chapters: [
     { id: "nen-tang", title: "Nền tảng", lessons: textbookSets.slice(1, 2) },

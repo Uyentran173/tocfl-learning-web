@@ -1,0 +1,987 @@
+{
+  "contentVersion": 2,
+  "id": "cc2-v2-l01",
+  "title": "請問，到師大怎麼走？",
+  "titleVi": "Hỏi đường đến Sư Đại",
+  "description": "Học cách hỏi đường, chỉ phương hướng và kể hai việc diễn ra cùng lúc qua hội thoại và bài đọc quanh Sư Đại.",
+  "objectives": [
+    "Hỏi và chỉ đường bằng các mốc gần gũi như giao lộ, đèn giao thông.",
+    "Nói vị trí xa gần và nhận xét điều mình nghe, thấy.",
+    "Kể hai việc đang diễn ra cùng lúc bằng 一邊…一邊…."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "An Đồng bị lạc gần Sư Đại và hỏi người đi đường. Sau đó, An Đồng cùng Như Ngọc dùng bản đồ để khám phá khu phố. Hãy đọc câu chữ trước, rồi mở phiên âm và nghĩa khi cần.",
+    "sections": [
+      {
+        "id": "cc2-v2-l01-section-01",
+        "title": "Mở lời hỏi đường",
+        "body": "請問 giúp câu hỏi lịch sự hơn. Sau 到 là điểm đến; 怎麼走 hỏi lối đi. Khi nghe chỉ dẫn, chú ý thứ tự các mốc.",
+        "chinese": "請問，到師大怎麼走？",
+        "simplified": "请问，到师大怎么走？",
+        "pinyin": "qǐng wèn ， dào shī dà zěn me zǒu ？",
+        "meaningVi": "Xin hỏi, đi đến Sư Đại bằng đường nào?"
+      },
+      {
+        "id": "cc2-v2-l01-section-02",
+        "title": "Theo mốc, không chỉ theo hướng",
+        "body": "Lời chỉ đường tốt thường có cả hướng rẽ và mốc nhận biết. Trong bài, đèn giao thông thứ hai là dấu hiệu biết mình sắp tới Sư Đại.",
+        "chinese": "過了第二個紅綠燈，就看見師大了。",
+        "simplified": "过了第二个红绿灯，就看见师大了。",
+        "pinyin": "guò le dì èr gè hóng lǜ dēng ， jiù kàn jiàn shī dà le 。",
+        "meaningVi": "Qua đèn giao thông thứ hai là nhìn thấy Sư Đại."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc2-v2-l01-dialogue",
+        "title": "Hỏi đường và tìm máy ATM",
+        "context": "An Đồng hỏi một người đi đường ở gần Sư Đại.",
+        "audioTrackId": "cc2-textbook-l01-t01",
+        "turns": [
+          {
+            "speaker": "路人",
+            "chinese": "你需要我幫忙嗎？",
+            "simplified": "你需要我帮忙吗？",
+            "pinyin": "nǐ xū yào wǒ bāng máng ma ？",
+            "meaningVi": "Bạn có cần tôi giúp không?"
+          },
+          {
+            "speaker": "安同",
+            "chinese": "我好像迷路了。",
+            "simplified": "我好像迷路了。",
+            "pinyin": "wǒ hǎo xiàng mí lù le 。",
+            "meaningVi": "Hình như tôi bị lạc đường."
+          },
+          {
+            "speaker": "路人",
+            "chinese": "你要去哪裡？",
+            "simplified": "你要去哪里？",
+            "pinyin": "nǐ yào qù nǎ lǐ ？",
+            "meaningVi": "Bạn muốn đi đâu?"
+          },
+          {
+            "speaker": "安同",
+            "chinese": "請問，到師大怎麼走？",
+            "simplified": "请问，到师大怎么走？",
+            "pinyin": "qǐng wèn ， dào shī dà zěn me zǒu ？",
+            "meaningVi": "Xin hỏi, đi đến Sư Đại bằng đường nào?"
+          },
+          {
+            "speaker": "路人",
+            "chinese": "你從這裡往前走，到了下一個路口，右轉——",
+            "simplified": "你从这里往前走，到了下一个路口，右转——",
+            "pinyin": "nǐ cóng zhè lǐ wǎng qián zǒu ， dào le xià yī gè lù kǒu ， yòu zhuǎn — —",
+            "meaningVi": "Từ đây bạn đi thẳng. Đến giao lộ kế tiếp thì rẽ phải…"
+          },
+          {
+            "speaker": "安同",
+            "chinese": "右轉就到了嗎？聽起來不遠。",
+            "simplified": "右转就到了吗？听起来不远。",
+            "pinyin": "yòu zhuǎn jiù dào le ma ？ tīng qǐ lái bù yuǎn 。",
+            "meaningVi": "Rẽ phải là tới rồi à? Nghe có vẻ không xa."
+          },
+          {
+            "speaker": "路人",
+            "chinese": "還沒到！你右轉以後，是和平東路一段，再往前一直走，過了第二個紅綠燈，就看見師大了。",
+            "simplified": "还没到！你右转以后，是和平东路一段，再往前一直走，过了第二个红绿灯，就看见师大了。",
+            "pinyin": "hái méi dào ！ nǐ yòu zhuǎn yǐ hòu ， shì hé píng dōng lù yī duàn ， zài wǎng qián yì zhí zǒu ， guò le dì èr gè hóng lǜ dēng ， jiù kàn jiàn shī dà le 。",
+            "meaningVi": "Chưa tới đâu! Rẽ phải xong là đường Hòa Bình Đông, đoạn một. Đi thẳng tiếp, qua đèn giao thông thứ hai là thấy Sư Đại."
+          },
+          {
+            "speaker": "安同",
+            "chinese": "謝謝，我知道了。",
+            "simplified": "谢谢，我知道了。",
+            "pinyin": "xiè xiè ， wǒ zhī dào le 。",
+            "meaningVi": "Cảm ơn, tôi hiểu rồi."
+          },
+          {
+            "speaker": "路人",
+            "chinese": "你的中文很好。",
+            "simplified": "你的中文很好。",
+            "pinyin": "nǐ de zhōng wén hěn hǎo 。",
+            "meaningVi": "Tiếng Hoa của bạn rất tốt."
+          },
+          {
+            "speaker": "安同",
+            "chinese": "謝謝，我還得多學一點。能不能再告訴我，這附近有沒有提款機？",
+            "simplified": "谢谢，我还得多学一点。能不能再告诉我，这附近有没有提款机？",
+            "pinyin": "xiè xiè ， wǒ hái děi duō xué yī diǎn 。 néng bù néng zài gào sù wǒ ， zhè fù jìn yǒu méi yǒu tí kuǎn jī ？",
+            "meaningVi": "Cảm ơn, tôi còn phải học thêm. Bạn có thể cho tôi biết gần đây có máy ATM không?"
+          },
+          {
+            "speaker": "路人",
+            "chinese": "從這裡往和平東路走，好像沒有銀行，不過大部分的超商裡應該都有。",
+            "simplified": "从这里往和平东路走，好像没有银行，不过大部分的超商里应该都有。",
+            "pinyin": "cóng zhè lǐ wǎng hé píng dōng lù zǒu ， hǎo xiàng méi yǒu yín xíng ， bù guò dà bù fèn de chāo shāng lǐ yīng gāi dōu yǒu 。",
+            "meaningVi": "Đi từ đây về phía đường Hòa Bình Đông thì hình như không có ngân hàng, nhưng phần lớn cửa hàng tiện lợi chắc đều có."
+          },
+          {
+            "speaker": "安同",
+            "chinese": "你說的「超商」是「7-11」那種便利商店嗎？",
+            "simplified": "你说的「超商」是「7-11」那种便利商店吗？",
+            "pinyin": "nǐ shuō de 「 chāo shāng 」 shì 「 7 - 1 1 」 nà zhǒng biàn lì shāng diàn ma ？",
+            "meaningVi": "‘超商’ mà bạn nói là cửa hàng tiện lợi kiểu 7-11 phải không?"
+          },
+          {
+            "speaker": "路人",
+            "chinese": "是的。對了，郵局也可以提錢。",
+            "simplified": "是的。对了，邮局也可以提钱。",
+            "pinyin": "shì de 。 duì le ， yóu jú yě kě yǐ tí qián 。",
+            "meaningVi": "Đúng rồi. À, ở bưu điện cũng rút tiền được."
+          },
+          {
+            "speaker": "安同",
+            "chinese": "我看見了，那邊有一家便利商店。謝謝，謝謝！",
+            "simplified": "我看见了，那边有一家便利商店。谢谢，谢谢！",
+            "pinyin": "wǒ kàn jiàn le ， nà biān yǒu yī jiā biàn lì shāng diàn 。 xiè xiè ， xiè xiè ！",
+            "meaningVi": "Tôi thấy rồi, đằng kia có một cửa hàng tiện lợi. Cảm ơn, cảm ơn!"
+          },
+          {
+            "speaker": "路人",
+            "chinese": "不客氣。",
+            "simplified": "不客气。",
+            "pinyin": "bù kè qì 。",
+            "meaningVi": "Không có gì."
+          }
+        ]
+      },
+      {
+        "id": "cc2-v2-l01-reading",
+        "title": "Dạo quanh khu Sư Đại",
+        "context": "Mã An Đồng và Bạch Như Ngọc thử bản đồ mới.",
+        "audioTrackId": "cc2-textbook-l01-t03",
+        "turns": [
+          {
+            "speaker": "Bài đọc",
+            "chinese": "馬安同下載了新的地圖到手機裡，他找白如玉跟他在師大附近走走，試試地圖好用不好用。他們看著地圖，從學校門口往左轉，過了和平東路就到了師大路。在師大路上，他們看見很多賣小吃的店，也有賣衣服和日用品的商店。他們經過兩個小巷子再右轉，這邊的商店比師大路的多。",
+            "simplified": "马安同下载了新的地图到手机里，他找白如玉跟他在师大附近走走，试试地图好用不好用。他们看着地图，从学校门口往左转，过了和平东路就到了师大路。在师大路上，他们看见很多卖小吃的店，也有卖衣服和日用品的商店。他们经过两个小巷子再右转，这边的商店比师大路的多。",
+            "pinyin": "mǎ ān tóng xià zài le xīn de dì tú dào shǒu jī lǐ ， tā zhǎo bái rú yù gēn tā zài shī dà fù jìn zǒu zǒu ， shì shì dì tú hǎo yòng bù hǎo yòng 。 tā men kàn zhù dì tú ， cóng xué xiào mén kǒu wǎng zuǒ zhuǎn ， guò le hé píng dōng lù jiù dào le shī dà lù 。 zài shī dà lù shàng ， tā men kàn jiàn hěn duō mài xiǎo chī de diàn ， yě yǒu mài yī fú hé rì yòng pǐn de shāng diàn 。 tā men jīng guò liǎng gè xiǎo xiàng zi zài yòu zhuǎn ， zhè biān de shāng diàn bǐ shī dà lù de duō 。",
+            "meaningVi": "Mã An Đồng tải bản đồ mới vào điện thoại rồi rủ Bạch Như Ngọc dạo quanh Sư Đại để thử xem bản đồ có dễ dùng không. Họ vừa xem bản đồ vừa rẽ trái từ cổng trường; qua đường Hòa Bình Đông thì đến đường Sư Đại. Ở đó có nhiều quán ăn vặt, cửa hàng quần áo và đồ dùng hằng ngày. Họ đi qua hai con hẻm nhỏ rồi rẽ phải; khu này còn nhiều cửa hàng hơn đường Sư Đại."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "他們逛了半天，白如玉覺得有一點餓，所以他們到一家麵店，點了兩碗牛肉麵。他們一邊吃麵，一邊看著手機裡的地圖，發現離麵店不遠的巷子裡有一家賣背包的店。馬安同正好想買一個背包，所以決定吃了麵就到這家店去看看。",
+            "simplified": "他们逛了半天，白如玉觉得有一点饿，所以他们到一家面店，点了两碗牛肉面。他们一边吃面，一边看着手机里的地图，发现离面店不远的巷子里有一家卖背包的店。马安同正好想买一个背包，所以决定吃了面就到这家店去看看。",
+            "pinyin": "tā men guàng le bàn tiān ， bái rú yù jué de yǒu yī diǎn è ， suǒ yǐ tā men dào yī jiā miàn diàn ， diǎn le liǎng wǎn niú ròu miàn 。 tā men yī biān chī miàn ， yī biān kàn zhù shǒu jī lǐ de dì tú ， fā xiàn lí miàn diàn bù yuǎn de xiàng zi lǐ yǒu yī jiā mài bēi bāo de diàn 。 mǎ ān tóng zhèng hǎo xiǎng mǎi yī gè bēi bāo ， suǒ yǐ jué dìng chī le miàn jiù dào zhè jiā diàn qù kàn kàn 。",
+            "meaningVi": "Đi dạo khá lâu, Bạch Như Ngọc thấy hơi đói nên hai người vào một quán mì, gọi hai tô mì bò. Vừa ăn vừa xem bản đồ trên điện thoại, họ phát hiện một cửa hàng bán ba lô trong hẻm, cách quán mì không xa. Mã An Đồng đúng lúc muốn mua ba lô nên quyết định ăn xong sẽ ghé xem."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "最後，馬安同買了一個背包，白如玉也在附近買了兩枝筆和一本本子。馬安同和白如玉都覺得，逛師大附近的店真有意思，吃的東西和日用品也很便宜。",
+            "simplified": "最后，马安同买了一个背包，白如玉也在附近买了两枝笔和一本本子。马安同和白如玉都觉得，逛师大附近的店真有意思，吃的东西和日用品也很便宜。",
+            "pinyin": "zuì hòu ， mǎ ān tóng mǎi le yī gè bēi bāo ， bái rú yù yě zài fù jìn mǎi le liǎng zhī bǐ hé yī běn běn zi 。 mǎ ān tóng hé bái rú yù dōu jué de ， guàng shī dà fù jìn de diàn zhēn yǒu yì si ， chī de dōng xī hé rì yòng pǐn yě hěn pián yi 。",
+            "meaningVi": "Cuối cùng, Mã An Đồng mua một chiếc ba lô; Bạch Như Ngọc mua hai cây bút và một cuốn sổ ở gần đó. Cả hai đều thấy dạo các cửa hàng quanh Sư Đại rất thú vị, đồ ăn và vật dụng hằng ngày cũng rẻ."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc2-v2-l01-check-01",
+        "prompt": "Sau khi rẽ phải, người đi đường bảo An Đồng làm gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Đi thẳng qua đèn giao thông thứ hai"
+          },
+          {
+            "id": "b",
+            "text": "Vào bưu điện ngay"
+          },
+          {
+            "id": "c",
+            "text": "Rẽ trái ở giao lộ kế tiếp"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Người đi đường nói 再往前一直走，過了第二個紅綠燈.",
+        "skill": "Hỏi đường"
+      },
+      {
+        "id": "cc2-v2-l01-check-02",
+        "prompt": "Hai nhân vật trong bài đọc tìm cửa hàng bán ba lô ở đâu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Trong trường"
+          },
+          {
+            "id": "b",
+            "text": "Trong hẻm gần quán mì"
+          },
+          {
+            "id": "c",
+            "text": "Bên cạnh ngân hàng"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Đoạn đọc ghi 離麵店不遠的巷子裡有一家賣背包的店.",
+        "skill": "Đọc hiểu"
+      }
+    ],
+    "pronunciation": [],
+    "culture": [
+      {
+        "id": "cc2-v2-l01-culture-01",
+        "title": "‘超商’ ở Đài Loan",
+        "body": "超商 là cách gọi ngắn của cửa hàng tiện lợi. Trong hội thoại, người đi đường gợi ý tìm máy ATM ở đó hoặc tại bưu điện."
+      }
+    ]
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từng từ để xem phiên âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc2-v2-l01-v001",
+      "cc2-v2-l01-v002",
+      "cc2-v2-l01-v003",
+      "cc2-v2-l01-v004",
+      "cc2-v2-l01-v005",
+      "cc2-v2-l01-v006",
+      "cc2-v2-l01-v007",
+      "cc2-v2-l01-v008",
+      "cc2-v2-l01-v009",
+      "cc2-v2-l01-v010",
+      "cc2-v2-l01-v011",
+      "cc2-v2-l01-v012",
+      "cc2-v2-l01-v013",
+      "cc2-v2-l01-v014",
+      "cc2-v2-l01-v015",
+      "cc2-v2-l01-v016",
+      "cc2-v2-l01-v017",
+      "cc2-v2-l01-v018",
+      "cc2-v2-l01-v019",
+      "cc2-v2-l01-v020",
+      "cc2-v2-l01-v021",
+      "cc2-v2-l01-v022",
+      "cc2-v2-l01-v023",
+      "cc2-v2-l01-v024",
+      "cc2-v2-l01-v025",
+      "cc2-v2-l01-v026",
+      "cc2-v2-l01-v027",
+      "cc2-v2-l01-v028",
+      "cc2-v2-l01-v029",
+      "cc2-v2-l01-v030",
+      "cc2-v2-l01-v031",
+      "cc2-v2-l01-v032",
+      "cc2-v2-l01-v033",
+      "cc2-v2-l01-v034",
+      "cc2-v2-l01-v035",
+      "cc2-v2-l01-v036",
+      "cc2-v2-l01-v037",
+      "cc2-v2-l01-v038",
+      "cc2-v2-l01-v039",
+      "cc2-v2-l01-v040",
+      "cc2-v2-l01-v041",
+      "cc2-v2-l01-v042",
+      "cc2-v2-l01-v043",
+      "cc2-v2-l01-v044"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc2-textbook-l01-t02",
+        "label": "Từ vựng hội thoại"
+      },
+      {
+        "id": "cc2-textbook-l01-t04",
+        "label": "Từ vựng bài đọc"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc2-v2-l01-grammar-01",
+      "title": "從…往… — nói hướng đi",
+      "audioTrackId": "cc2-textbook-l01-t05",
+      "explanation": "從 đánh dấu điểm xuất phát; 往 giới thiệu hướng di chuyển, không nhất thiết là đích cuối. Sau 往 có thể là phương hướng như 前、左、右 hoặc một địa điểm. Khi đã rõ đang đứng ở đâu, có thể lược 從. Nói theo thứ tự: từ đâu → đi về hướng nào → làm gì.",
+      "structure": "從 + nơi xuất phát + 往 + hướng / địa điểm + động từ",
+      "examples": [
+        {
+          "chinese": "你從這裡往前一直走。",
+          "simplified": "你从这里往前一直走。",
+          "pinyin": "nǐ cóng zhè lǐ wǎng qián yì zhí zǒu 。",
+          "meaningVi": "Từ đây bạn cứ đi thẳng về phía trước."
+        },
+        {
+          "chinese": "從學校門口往左轉，就到師大路了。",
+          "simplified": "从学校门口往左转，就到师大路了。",
+          "pinyin": "cóng xué xiào mén kǒu wǎng zuǒ zhuǎn ， jiù dào shī dà lù le 。",
+          "meaningVi": "Rẽ trái từ cổng trường là đến đường Sư Đại."
+        }
+      ],
+      "commonMistake": "Đừng dùng 往 để chỉ điểm xuất phát; điểm xuất phát phải theo sau 從.",
+      "check": {
+        "id": "cc2-v2-l01-grammar-check-01",
+        "prompt": "Chọn câu đúng với mẫu ngữ pháp này.",
+        "options": [
+          {
+            "id": "a",
+            "text": "從學校門口往左走。"
+          },
+          {
+            "id": "b",
+            "text": "往學校門口從左走。"
+          },
+          {
+            "id": "c",
+            "text": "學校門口從往左走。"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "從 + nơi bắt đầu, 往 + hướng di chuyển.",
+        "skill": "從…往… — nói hướng đi"
+      }
+    },
+    {
+      "id": "cc2-v2-l01-grammar-02",
+      "title": "Động từ + 起來 — cảm nhận và đánh giá",
+      "audioTrackId": "cc2-textbook-l01-t06",
+      "explanation": "Đặt 起來 sau một động từ cảm giác để nêu ấn tượng của người nói: 聽起來 ‘nghe có vẻ’, 看起來 ‘trông có vẻ’, 吃起來 ‘ăn thấy’. Đằng sau là nhận xét. Đây là đánh giá qua trải nghiệm, nên không đồng nghĩa với một sự thật đã được kiểm chứng.",
+      "structure": "看 / 聽 / 吃 / 喝 + 起來 + nhận xét",
+      "examples": [
+        {
+          "chinese": "這道菜看起來很好吃。",
+          "simplified": "这道菜看起来很好吃。",
+          "pinyin": "zhè dào cài kàn qǐ lái hěn hǎo chī 。",
+          "meaningVi": "Món này trông có vẻ ngon."
+        },
+        {
+          "chinese": "這條路聽起來不遠。",
+          "simplified": "这条路听起来不远。",
+          "pinyin": "zhè tiáo lù tīng qǐ lái bù yuǎn 。",
+          "meaningVi": "Con đường này nghe có vẻ không xa."
+        }
+      ],
+      "commonMistake": "Phủ định nằm ở phần nhận xét: 看起來不好吃, không đặt 不 trước 起來 trong mẫu này.",
+      "check": {
+        "id": "cc2-v2-l01-grammar-check-02",
+        "prompt": "Chọn câu đúng với mẫu ngữ pháp này.",
+        "options": [
+          {
+            "id": "a",
+            "text": "這個辦法聽起來不錯。"
+          },
+          {
+            "id": "b",
+            "text": "這個辦法聽不起來錯。"
+          },
+          {
+            "id": "c",
+            "text": "這個辦法起來聽不錯。"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "聽起來 diễn tả ấn tượng nghe được, rồi mới đến nhận xét 不錯.",
+        "skill": "Động từ + 起來 — cảm nhận và đánh giá"
+      }
+    },
+    {
+      "id": "cc2-v2-l01-grammar-03",
+      "title": "Động từ + 著 — trạng thái đang tiếp diễn",
+      "audioTrackId": "cc2-textbook-l01-t07",
+      "explanation": "著 đứng ngay sau động từ để cho biết hành động hay trạng thái ấy đang được duy trì. Trong bài, 看著地圖 nghĩa là mắt vẫn dõi theo bản đồ khi nhân vật di chuyển. Nó thường mô tả trạng thái nền của một hành động khác; đừng hiểu 著 là ‘đã xong’.",
+      "structure": "Động từ + 著 + tân ngữ; hành động tiếp theo",
+      "examples": [
+        {
+          "chinese": "他看著地圖找路。",
+          "simplified": "他看着地图找路。",
+          "pinyin": "tā kàn zhù dì tú zhǎo lù 。",
+          "meaningVi": "Anh ấy vừa nhìn bản đồ vừa tìm đường."
+        },
+        {
+          "chinese": "她拿著手機等朋友。",
+          "simplified": "她拿着手机等朋友。",
+          "pinyin": "tā ná zhù shǒu jī děng péng yǒu 。",
+          "meaningVi": "Cô ấy cầm điện thoại trong lúc đợi bạn."
+        }
+      ],
+      "commonMistake": "Đừng dùng 著 để kể một hành động đã hoàn tất; 看了地圖 mới nhấn mạnh ‘đã xem xong’.",
+      "check": {
+        "id": "cc2-v2-l01-grammar-check-03",
+        "prompt": "Chọn câu đúng với mẫu ngữ pháp này.",
+        "options": [
+          {
+            "id": "a",
+            "text": "他看著地圖找路。"
+          },
+          {
+            "id": "b",
+            "text": "他著看地圖找路。"
+          },
+          {
+            "id": "c",
+            "text": "他看地圖著找路。"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "著 đi ngay sau động từ 看 để biểu thị việc xem bản đồ đang tiếp diễn.",
+        "skill": "Động từ + 著 — trạng thái đang tiếp diễn"
+      }
+    },
+    {
+      "id": "cc2-v2-l01-grammar-04",
+      "title": "一邊…一邊… — hai việc cùng lúc",
+      "audioTrackId": "cc2-textbook-l01-t08",
+      "explanation": "Dùng một cặp 一邊 để nối hai hành động xảy ra đồng thời, thường do cùng một người thực hiện. Mỗi 一邊 phải đi với một cụm động từ. Cách nói này hợp với những việc có thể thực hiện song song, như ăn và xem bản đồ.",
+      "structure": "Chủ ngữ + 一邊 + việc 1，一邊 + việc 2",
+      "examples": [
+        {
+          "chinese": "我們一邊吃麵，一邊看地圖。",
+          "simplified": "我们一边吃面，一边看地图。",
+          "pinyin": "wǒ men yī biān chī miàn ， yī biān kàn dì tú 。",
+          "meaningVi": "Chúng tôi vừa ăn mì vừa xem bản đồ."
+        },
+        {
+          "chinese": "她一邊走路，一邊聽歌。",
+          "simplified": "她一边走路，一边听歌。",
+          "pinyin": "tā yī biān zǒu lù ， yī biān tīng gē 。",
+          "meaningVi": "Cô ấy vừa đi bộ vừa nghe nhạc."
+        }
+      ],
+      "commonMistake": "Không dùng mẫu này cho hai việc diễn ra lần lượt: ăn xong rồi mới đi không phải 一邊吃一邊走.",
+      "check": {
+        "id": "cc2-v2-l01-grammar-check-04",
+        "prompt": "Chọn câu đúng với mẫu ngữ pháp này.",
+        "options": [
+          {
+            "id": "a",
+            "text": "她一邊吃飯，一邊看電視。"
+          },
+          {
+            "id": "b",
+            "text": "她一邊吃飯，再一邊看電視。"
+          },
+          {
+            "id": "c",
+            "text": "她吃飯一邊，看電視一邊。"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Hai cụm 一邊 nối hai hành động diễn ra cùng lúc.",
+        "skill": "一邊…一邊… — hai việc cùng lúc"
+      }
+    },
+    {
+      "id": "cc2-v2-l01-grammar-05",
+      "title": "離 — diễn đạt khoảng cách",
+      "audioTrackId": "cc2-textbook-l01-t09",
+      "explanation": "離 nối một địa điểm với một mốc để nói khoảng cách giữa hai nơi. Tính chất xa/gần đứng sau mốc: 離學校很近, 離麵店不遠. Muốn phủ định, phủ định tính chất xa/gần, không phủ định trực tiếp 離. Có thể thêm thời gian di chuyển để người nghe hình dung rõ hơn.",
+      "structure": "Địa điểm A + 離 + địa điểm B + 遠 / 近",
+      "examples": [
+        {
+          "chinese": "郵局離學校很近。",
+          "simplified": "邮局离学校很近。",
+          "pinyin": "yóu jú lí xué xiào hěn jìn 。",
+          "meaningVi": "Bưu điện rất gần trường."
+        },
+        {
+          "chinese": "那家店離麵店不遠。",
+          "simplified": "那家店离面店不远。",
+          "pinyin": "nà jiā diàn lí miàn diàn bù yuǎn 。",
+          "meaningVi": "Cửa hàng đó cách quán mì không xa."
+        }
+      ],
+      "commonMistake": "Nói 離學校不遠, không nói 不離學校遠 khi muốn diễn tả khoảng cách.",
+      "check": {
+        "id": "cc2-v2-l01-grammar-check-05",
+        "prompt": "Chọn câu đúng với mẫu ngữ pháp này.",
+        "options": [
+          {
+            "id": "a",
+            "text": "超商離學校不遠。"
+          },
+          {
+            "id": "b",
+            "text": "超商不離學校遠。"
+          },
+          {
+            "id": "c",
+            "text": "超商學校離不遠。"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "離 đặt trước mốc 學校; 不 phủ định 遠.",
+        "skill": "離 — diễn đạt khoảng cách"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc2-v2-l01-listening-01",
+      "prompt": "Nghe đối thoại. An Đồng muốn đến đâu trước tiên?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bưu điện"
+        },
+        {
+          "id": "b",
+          "text": "Sư Đại"
+        },
+        {
+          "id": "c",
+          "text": "Ga tàu"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Anh ấy hỏi: 到師大怎麼走？",
+      "skill": "Nghe ý chính",
+      "audioTrackId": "cc2-textbook-l01-t01"
+    },
+    {
+      "id": "cc2-v2-l01-listening-02",
+      "prompt": "Nghe đối thoại. Ở đâu có thể rút tiền theo người đi đường?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ ở trường"
+        },
+        {
+          "id": "b",
+          "text": "Ở quán mì"
+        },
+        {
+          "id": "c",
+          "text": "Ở cửa hàng tiện lợi hoặc bưu điện"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Người đi đường nhắc đến 超商 và 郵局.",
+      "skill": "Nghe chi tiết",
+      "audioTrackId": "cc2-textbook-l01-t01"
+    },
+    {
+      "id": "cc2-v2-l01-listening-03",
+      "prompt": "Nghe bài đọc. Họ vừa ăn mì vừa làm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Xem bản đồ trên điện thoại"
+        },
+        {
+          "id": "b",
+          "text": "Gọi cho người đi đường"
+        },
+        {
+          "id": "c",
+          "text": "Mua bút"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc nói 一邊吃麵，一邊看著手機裡的地圖.",
+      "skill": "Nghe chi tiết",
+      "audioTrackId": "cc2-textbook-l01-t03"
+    },
+    {
+      "id": "cc2-v2-l01-listening-04",
+      "prompt": "Nghe bài đọc. Cuối cùng Mã An Đồng mua gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Một cuốn vở"
+        },
+        {
+          "id": "b",
+          "text": "Một chiếc ba lô"
+        },
+        {
+          "id": "c",
+          "text": "Hai cây bút"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Đoạn cuối nói 馬安同買了一個背包.",
+      "skill": "Nghe kết quả",
+      "audioTrackId": "cc2-textbook-l01-t03"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc2-v2-l01-practice-01",
+      "prompt": "Muốn hỏi lịch sự đường đến Sư Đại, nói thế nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "請問，到師大怎麼走？"
+        },
+        {
+          "id": "b",
+          "text": "師大請問走到？"
+        },
+        {
+          "id": "c",
+          "text": "請問，師大是走嗎？"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "請問 mở đầu lịch sự; 到…怎麼走 hỏi cách đi đến nơi đó.",
+      "skill": "Hỏi đường"
+    },
+    {
+      "id": "cc2-v2-l01-practice-02",
+      "prompt": "Điền vào chỗ trống: 從這裡＿＿前走。",
+      "options": [
+        {
+          "id": "a",
+          "text": "從"
+        },
+        {
+          "id": "b",
+          "text": "往"
+        },
+        {
+          "id": "c",
+          "text": "離"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "往前 nghĩa là đi về phía trước.",
+      "skill": "Phương hướng"
+    },
+    {
+      "id": "cc2-v2-l01-practice-03",
+      "prompt": "‘Qua đèn giao thông thứ hai’ là…",
+      "options": [
+        {
+          "id": "a",
+          "text": "過了第二個紅綠燈"
+        },
+        {
+          "id": "b",
+          "text": "第二個紅綠燈過來"
+        },
+        {
+          "id": "c",
+          "text": "紅綠燈在第二過"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "過了 + mốc là đã đi qua mốc đó; 第二個 chỉ thứ tự.",
+      "skill": "Chỉ đường"
+    },
+    {
+      "id": "cc2-v2-l01-practice-04",
+      "prompt": "Điền: 這個地圖看＿＿很好用。",
+      "options": [
+        {
+          "id": "a",
+          "text": "著"
+        },
+        {
+          "id": "b",
+          "text": "起來"
+        },
+        {
+          "id": "c",
+          "text": "離"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "看起來 là ‘trông có vẻ’ khi đưa ra nhận xét.",
+      "skill": "起來"
+    },
+    {
+      "id": "cc2-v2-l01-practice-05",
+      "prompt": "Chọn câu diễn tả hai việc cùng lúc.",
+      "options": [
+        {
+          "id": "a",
+          "text": "吃了麵以後看地圖。"
+        },
+        {
+          "id": "b",
+          "text": "看地圖以後吃麵。"
+        },
+        {
+          "id": "c",
+          "text": "一邊吃麵，一邊看地圖。"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Hai vế 一邊 nối hai hành động đồng thời.",
+      "skill": "一邊"
+    },
+    {
+      "id": "cc2-v2-l01-practice-06",
+      "prompt": "Cửa hàng cách quán mì không xa. Chọn câu đúng.",
+      "options": [
+        {
+          "id": "a",
+          "text": "那家店離麵店不遠。"
+        },
+        {
+          "id": "b",
+          "text": "那家店不離麵店遠。"
+        },
+        {
+          "id": "c",
+          "text": "那家店往麵店不遠。"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "離 là mốc đo khoảng cách; 不 phủ định 遠.",
+      "skill": "離"
+    },
+    {
+      "id": "cc2-v2-l01-practice-07",
+      "prompt": "Điền: 他們看＿＿地圖找路。",
+      "options": [
+        {
+          "id": "a",
+          "text": "了"
+        },
+        {
+          "id": "b",
+          "text": "著"
+        },
+        {
+          "id": "c",
+          "text": "過"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "看著 biểu thị việc xem bản đồ vẫn đang tiếp diễn.",
+      "skill": "著"
+    },
+    {
+      "id": "cc2-v2-l01-practice-08",
+      "prompt": "Cụm nào nghĩa là ‘rẽ trái’?",
+      "options": [
+        {
+          "id": "a",
+          "text": "右轉"
+        },
+        {
+          "id": "b",
+          "text": "往前"
+        },
+        {
+          "id": "c",
+          "text": "左轉"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "左 là trái; 轉 là rẽ.",
+      "skill": "Từ vựng"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc2-v2-l01-assessment-01",
+      "prompt": "‘Ngã đường tiếp theo’ là…",
+      "options": [
+        {
+          "id": "a",
+          "text": "下一個路口"
+        },
+        {
+          "id": "b",
+          "text": "第二個郵局"
+        },
+        {
+          "id": "c",
+          "text": "前面的師大"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "下 + lượng từ + 路口 diễn tả giao lộ tiếp theo.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc2-v2-l01-assessment-02",
+      "prompt": "Nói ‘trông có vẻ ngon’ với món ăn.",
+      "options": [
+        {
+          "id": "a",
+          "text": "吃著好吃"
+        },
+        {
+          "id": "b",
+          "text": "看起來很好吃"
+        },
+        {
+          "id": "c",
+          "text": "往前很好吃"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "看起來 diễn tả nhận xét qua quan sát.",
+      "skill": "起來"
+    },
+    {
+      "id": "cc2-v2-l01-assessment-03",
+      "prompt": "An Đồng muốn tìm máy gì gần đó?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Máy bán vé"
+        },
+        {
+          "id": "b",
+          "text": "Máy ATM"
+        },
+        {
+          "id": "c",
+          "text": "Máy in"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Anh ấy hỏi 這附近有沒有提款機？",
+      "skill": "Đối thoại"
+    },
+    {
+      "id": "cc2-v2-l01-assessment-04",
+      "prompt": "Trong bài đọc, họ rẽ trái từ đâu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cửa quán mì"
+        },
+        {
+          "id": "b",
+          "text": "Bưu điện"
+        },
+        {
+          "id": "c",
+          "text": "Cổng trường"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Đoạn đọc nói 從學校門口往左轉.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc2-v2-l01-assessment-05",
+      "prompt": "Chọn cách nói ‘vừa ăn vừa xem bản đồ’.",
+      "options": [
+        {
+          "id": "a",
+          "text": "一邊吃，一邊看地圖"
+        },
+        {
+          "id": "b",
+          "text": "吃了以後看地圖"
+        },
+        {
+          "id": "c",
+          "text": "吃著看完地圖"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "一邊…一邊… diễn tả hai việc cùng lúc.",
+      "skill": "一邊"
+    },
+    {
+      "id": "cc2-v2-l01-assessment-06",
+      "prompt": "Điền: 郵局＿＿學校很近。",
+      "options": [
+        {
+          "id": "a",
+          "text": "往"
+        },
+        {
+          "id": "b",
+          "text": "從"
+        },
+        {
+          "id": "c",
+          "text": "離"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "離 giới thiệu mốc để so khoảng cách.",
+      "skill": "離"
+    },
+    {
+      "id": "cc2-v2-l01-assessment-07",
+      "prompt": "‘Hẻm nhỏ’ là…",
+      "options": [
+        {
+          "id": "a",
+          "text": "小巷子"
+        },
+        {
+          "id": "b",
+          "text": "大路口"
+        },
+        {
+          "id": "c",
+          "text": "紅綠燈"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "巷子 là hẻm; 小 là nhỏ.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc2-v2-l01-assessment-08",
+      "prompt": "Ai mua một chiếc ba lô?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bạch Như Ngọc"
+        },
+        {
+          "id": "b",
+          "text": "Mã An Đồng"
+        },
+        {
+          "id": "c",
+          "text": "Người đi đường"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Đoạn cuối ghi 馬安同買了一個背包.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc2-v2-l01-assessment-09",
+      "prompt": "Chọn câu chỉ dẫn đúng.",
+      "options": [
+        {
+          "id": "a",
+          "text": "往這裡從前走。"
+        },
+        {
+          "id": "b",
+          "text": "這裡離往前走。"
+        },
+        {
+          "id": "c",
+          "text": "從這裡往前走。"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Điểm bắt đầu theo sau 從, hướng theo sau 往.",
+      "skill": "Hỏi đường"
+    },
+    {
+      "id": "cc2-v2-l01-assessment-10",
+      "prompt": "Đoạn cuối cho biết Bạch Như Ngọc mua gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hai cây bút và một cuốn sổ"
+        },
+        {
+          "id": "b",
+          "text": "Một chiếc ba lô"
+        },
+        {
+          "id": "c",
+          "text": "Hai tô mì bò"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc nói 白如玉…買了兩枝筆和一本本子.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "writingTask": {
+    "id": "cc2-v2-l01-writing",
+    "title": "Tự chỉ đường",
+    "prompt": "Viết 2–3 câu tiếng Hoa chỉ đường từ nơi bạn đang ở đến một địa điểm gần đó. Dùng ít nhất một mốc như 路口 hoặc 紅綠燈.",
+    "sampleTraditional": "從這裡往前走，到了第二個路口右轉。過了紅綠燈，就看見郵局了。",
+    "sampleSimplified": "从这里往前走，到了第二个路口右转。过了红绿灯，就看见邮局了。"
+  }
+}

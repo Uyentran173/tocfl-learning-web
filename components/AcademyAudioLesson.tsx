@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import type { AcademyTrack } from "@/lib/academy";
 import reviewedContent from "@/data/academy/cc1-reviewed-content.json";
+import cc2ReviewedContent from "@/data/academy/cc2-reviewed-content.json";
 import { progressStorage } from "@/lib/progress-storage";
 import { useT } from "./PreferencesProvider";
 
@@ -10,7 +11,7 @@ type LessonProgress = { version: 1; selectedTrackId: string; listenedIds: string
 function TrackList({ items, heading, activeId, progress, onSelect, t }: { items: AcademyTrack[]; heading: string; activeId: string; progress: LessonProgress; onSelect: (id: string) => void; t: (value: string) => string }) {
   return <section className="paper p-4 sm:p-5"><h2 className="text-lg font-bold">{t(heading)}</h2><div className="mt-4 grid gap-2">{items.map((track) => <button type="button" key={track.id} className="academy-track" aria-current={activeId === track.id ? "true" : undefined} onClick={() => onSelect(track.id)}><span className="academy-track-number">{String(track.number).padStart(2, "0")}</span><span className="min-w-0 flex-1 text-left"><strong>{t(track.activity?.labelVi ?? "Bản ghi âm")}</strong><small>{track.activity?.referenceCode}</small></span><span className="text-sm text-[var(--brand)]" aria-label={progress.completedIds.includes(track.id) ? t("Đã hoàn thành") : progress.listenedIds.includes(track.id) ? t("Đã nghe") : undefined}>{progress.completedIds.includes(track.id) ? "✓" : progress.listenedIds.includes(track.id) ? "◌" : "▶"}</span></button>)}</div></section>;
 }
-const progressKeyForLesson = (lesson: number) => `taiwen-academy:v1:cc1:l${String(lesson).padStart(2, "0")}`;
+const progressKeyForLesson = (lesson: number, courseId: string) => `taiwen-academy:v1:${courseId}:l${String(lesson).padStart(2, "0")}`;
 const speeds = [0.75, 1, 1.25, 1.5];
 
 function readProgress(firstTrackId: string, progressKey: string): LessonProgress {
@@ -29,9 +30,9 @@ function readProgress(firstTrackId: string, progressKey: string): LessonProgress
   } catch { return empty; }
 }
 
-export default function AcademyAudioLesson({ tracks, availableTrackIds, embedded = false, lessonNumber = 1, script = "traditional" }: { tracks: AcademyTrack[]; availableTrackIds: string[]; embedded?: boolean; lessonNumber?: number; script?: "traditional" | "simplified" }) {
+export default function AcademyAudioLesson({ tracks, availableTrackIds, embedded = false, lessonNumber = 1, script = "traditional", courseId = "cc1" }: { tracks: AcademyTrack[]; availableTrackIds: string[]; embedded?: boolean; lessonNumber?: number; script?: "traditional" | "simplified"; courseId?: "cc1" | "cc2" }) {
   const t = useT();
-  const progressKey = progressKeyForLesson(lessonNumber);
+  const progressKey = progressKeyForLesson(lessonNumber, courseId);
   const textbook = tracks.filter((track) => track.source === "textbook");
   const workbook = tracks.filter((track) => track.source === "workbook");
   const [progress, setProgress] = useState<LessonProgress>({ version: 1, selectedTrackId: tracks[0]?.id ?? "", listenedIds: [], completedIds: [], responses: {}, guestResponses: {} });
@@ -55,7 +56,8 @@ export default function AcademyAudioLesson({ tracks, availableTrackIds, embedded
 
   const active = tracks.find((track) => track.id === progress.selectedTrackId) ?? tracks[0];
   const available = active && availableTrackIds.includes(active.id);
-  const reviewed = (reviewedContent as Record<string, { transcriptTraditional?: string; transcriptSimplified?: string; translationVi?: string }>)[active?.id ?? ""];
+  const reviewMap: Record<string, { transcriptTraditional?: string; transcriptSimplified?: string; translationVi?: string }> = courseId === "cc2" ? cc2ReviewedContent : reviewedContent;
+  const reviewed = reviewMap[active?.id ?? ""];
   function selectTrack(id: string) {
     audioRef.current?.pause();
     setAudioError(false);
@@ -91,7 +93,7 @@ export default function AcademyAudioLesson({ tracks, availableTrackIds, embedded
       <h2 className="mt-3 text-2xl font-bold" aria-live="polite">{t(active.activity?.labelVi ?? "Bản ghi âm")}</h2>
       <p className="mt-2 text-sm muted">{t("Trang sách")} {active.activity?.bookPage} · {t("BÀI")} {String(lessonNumber).padStart(2, "0")}</p>
       {available ? <div className="academy-player mt-6">
-        <audio key={active.id} ref={audioRef} controls preload="none" src={`/academy/cc1/audio/${encodeURIComponent(active.id)}.mp3`} onEnded={markListened} onError={() => setAudioError(true)} onLoadedMetadata={() => { if (audioRef.current) audioRef.current.playbackRate = speed; }} aria-label={`${t("Âm thanh")} ${active.activity?.referenceCode}`} />
+        <audio key={active.id} ref={audioRef} controls preload="none" src={`/academy/${courseId}/audio/${encodeURIComponent(active.id)}.mp3`} onEnded={markListened} onError={() => setAudioError(true)} onLoadedMetadata={() => { if (audioRef.current) audioRef.current.playbackRate = speed; }} aria-label={`${t("Âm thanh")} ${active.activity?.referenceCode}`} />
         <div className="mt-4 flex flex-wrap items-center gap-3">
           <button type="button" className="button-secondary text-sm" onClick={replay}>{t("Nghe lại từ đầu")}</button>
           <label className="flex items-center gap-2 text-sm font-semibold"><span>{t("Tốc độ")}</span><select className="academy-speed" value={speed} onChange={(event) => changeSpeed(Number(event.target.value))} aria-label={t("Tốc độ phát")}>{speeds.map((value) => <option key={value} value={value}>{value}×</option>)}</select></label>

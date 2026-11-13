@@ -11,7 +11,7 @@ from opencc import OpenCC
 
 
 ROOT = Path(__file__).resolve().parents[1]
-EXPECTED_COUNTS = {1: 44, 2: 46, 3: 41, 4: 45, 5: 44, 6: 48, 7: 42, 8: 36, 9: 42, 10: 45, 11: 46, 12: 47}
+EXPECTED_COUNTS = {1: 44, 2: 46, 3: 41, 4: 45, 5: 44, 6: 48, 7: 42, 8: 36, 9: 42, 10: 45, 11: 46, 12: 47, 13: 44}
 
 
 def main() -> None:

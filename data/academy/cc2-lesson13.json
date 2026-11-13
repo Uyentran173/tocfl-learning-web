@@ -1,0 +1,1188 @@
+{
+  "contentVersion": 2,
+  "id": "cc2-v2-l13",
+  "title": "我的手機掉了",
+  "titleVi": "Tôi làm mất điện thoại rồi",
+  "description": "Tìm đồ thất lạc, kể lại hành trình và nói về thói quen dùng internet.",
+  "objectives": [
+    "Hỏi và kể lại nơi có thể đánh rơi đồ vật.",
+    "Phân biệt 過 chỉ hoàn tất với 過 chỉ kinh nghiệm.",
+    "Dùng 只有…才… để nêu điều kiện cần và 每 để nói tần suất."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Martin tưởng mình lại mất điện thoại. Ái Lệ giúp anh nhớ lại từng nơi đã đi.",
+    "sections": [
+      {
+        "id": "cc2-v2-l13-section-01",
+        "title": "Lần theo dấu vết",
+        "body": "Hỏi lần cuối nhìn thấy điện thoại và những nơi đã đến.",
+        "chinese": "你傳完簡訊後，還去了什麼地方？",
+        "simplified": "你传完简讯后，还去了什么地方？",
+        "pinyin": "nǐ chuán wán jiǎn xùn hòu ， hái qù le shén me dì fāng ？",
+        "meaningVi": "Sau khi nhắn tin, bạn còn đi đâu nữa?"
+      },
+      {
+        "id": "cc2-v2-l13-section-02",
+        "title": "Dùng internet hợp lý",
+        "body": "Bài đọc cân nhắc lợi ích và ảnh hưởng của việc luôn trực tuyến.",
+        "chinese": "我們應該想一想，怎麼好好地利用網路。",
+        "simplified": "我们应该想一想，怎么好好地利用网路。",
+        "pinyin": "wǒ men yīng gāi xiǎng yī xiǎng ， zěn me hǎo hǎo dì lì yòng wǎng lù 。",
+        "meaningVi": "Chúng ta nên nghĩ cách sử dụng internet cho tốt."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc2-v2-l13-dialogue",
+        "title": "Điện thoại của Martin ở đâu?",
+        "context": "Ái Lệ giúp Martin tìm chiếc điện thoại tưởng đã bị mất.",
+        "audioTrackId": "cc2-textbook-l13-t01",
+        "turns": [
+          {
+            "speaker": "愛麗",
+            "chinese": "怎麼了？在找什麼？",
+            "simplified": "怎么了？在找什么？",
+            "pinyin": "zěn me le ？ zài zhǎo shén me ？",
+            "meaningVi": "Sao vậy? Bạn đang tìm gì?"
+          },
+          {
+            "speaker": "馬丁",
+            "chinese": "找我的手機，我怎麼找都找不到。",
+            "simplified": "找我的手机，我怎么找都找不到。",
+            "pinyin": "zhǎo wǒ de shǒu jī ， wǒ zěn me zhǎo dōu zhǎo bú dào 。",
+            "meaningVi": "Tìm điện thoại. Tôi tìm kiểu gì cũng không thấy."
+          },
+          {
+            "speaker": "愛麗",
+            "chinese": "我早上還看到你在餐廳低頭玩手機，你是不是在餐廳掉的？",
+            "simplified": "我早上还看到你在餐厅低头玩手机，你是不是在餐厅掉的？",
+            "pinyin": "wǒ zǎo shàng hái kàn dào nǐ zài cān tīng dī tóu wán shǒu jī ， nǐ shì bú shì zài cān tīng diào de ？",
+            "meaningVi": "Sáng nay tôi còn thấy bạn cúi đầu dùng điện thoại ở nhà hàng. Có phải bạn làm rơi ở đó không?"
+          },
+          {
+            "speaker": "馬丁",
+            "chinese": "不是，我離開餐廳後，還給義大利朋友傳過簡訊。",
+            "simplified": "不是，我离开餐厅后，还给义大利朋友传过简讯。",
+            "pinyin": "bú shì ， wǒ lí kāi cān tīng hòu ， hái gěi yì dà lì péng yǒu chuán guò jiǎn xùn 。",
+            "meaningVi": "Không, rời nhà hàng rồi tôi còn nhắn tin cho bạn người Ý."
+          },
+          {
+            "speaker": "愛麗",
+            "chinese": "是不是被誰拿走了？要是有人撿到了，看見你的手機那麼新，功能又好，就留下自己用了。",
+            "simplified": "是不是被谁拿走了？要是有人捡到了，看见你的手机那么新，功能又好，就留下自己用了。",
+            "pinyin": "shì bú shì bèi shuí ná zǒu le ？ yào shì yǒu rén jiǎn dào le ， kàn jiàn nǐ de shǒu jī nà me xīn ， gōng néng yòu hǎo ， jiù liú xià zì jǐ yòng le 。",
+            "meaningVi": "Hay có ai cầm đi? Nếu ai nhặt được, thấy máy mới lại có chức năng tốt, có khi họ giữ dùng luôn."
+          },
+          {
+            "speaker": "馬丁",
+            "chinese": "我就怕是這樣，這已經是我掉的第三支手機了。",
+            "simplified": "我就怕是这样，这已经是我掉的第三支手机了。",
+            "pinyin": "wǒ jiù pà shì zhè yàng ， zhè yǐ jīng shì wǒ diào de dì sān zhī shǒu jī le 。",
+            "meaningVi": "Tôi sợ đúng thế. Đây đã là chiếc điện thoại thứ ba tôi làm mất."
+          },
+          {
+            "speaker": "愛麗",
+            "chinese": "你的手機是你女朋友送的禮物？這樣會讓她生氣吧！",
+            "simplified": "你的手机是你女朋友送的礼物？这样会让她生气吧！",
+            "pinyin": "nǐ de shǒu jī shì nǐ nǚ péng yǒu sòng de lǐ wù ？ zhè yàng huì ràng tā shēng qì ba ！",
+            "meaningVi": "Điện thoại là quà bạn gái tặng à? Vậy chắc cô ấy sẽ giận!"
+          },
+          {
+            "speaker": "馬丁",
+            "chinese": "是啊！她還叫我別再掉手機了。要是被她知道了，一定會罵我的。",
+            "simplified": "是啊！她还叫我别再掉手机了。要是被她知道了，一定会骂我的。",
+            "pinyin": "shì a ！ tā hái jiào wǒ bié zài diào shǒu jī le 。 yào shì bèi tā zhī dào le ， yí dìng huì mà wǒ de 。",
+            "meaningVi": "Đúng! Cô ấy còn bảo tôi đừng làm mất điện thoại nữa. Nếu biết, chắc chắn cô ấy sẽ mắng."
+          },
+          {
+            "speaker": "愛麗",
+            "chinese": "你是什麼時候發現手機不見的？",
+            "simplified": "你是什么时候发现手机不见的？",
+            "pinyin": "nǐ shì shén me shí hòu fā xiàn shǒu jī bù jiàn de ？",
+            "meaningVi": "Bạn phát hiện không thấy điện thoại lúc nào?"
+          },
+          {
+            "speaker": "馬丁",
+            "chinese": "我剛剛想上網，才發現不見的。",
+            "simplified": "我刚刚想上网，才发现不见的。",
+            "pinyin": "wǒ gāng gāng xiǎng shàng wǎng ， cái fā xiàn bù jiàn de 。",
+            "meaningVi": "Vừa nãy tôi định lên mạng mới phát hiện mất."
+          },
+          {
+            "speaker": "愛麗",
+            "chinese": "你傳完簡訊後，還去了什麼地方？",
+            "simplified": "你传完简讯后，还去了什么地方？",
+            "pinyin": "nǐ chuán wán jiǎn xùn hòu ， hái qù le shén me dì fāng ？",
+            "meaningVi": "Sau khi nhắn tin, bạn còn đi đâu nữa?"
+          },
+          {
+            "speaker": "馬丁",
+            "chinese": "我先去健身房做運動，然後去圖書館做功課。",
+            "simplified": "我先去健身房做运动，然后去图书馆做功课。",
+            "pinyin": "wǒ xiān qù jiàn shēn fáng zuò yùn dòng ， rán hòu qù tú shū guǎn zuò gōng kè 。",
+            "meaningVi": "Tôi đến phòng tập trước, rồi đến thư viện làm bài."
+          },
+          {
+            "speaker": "愛麗",
+            "chinese": "你去圖書館找過了嗎？",
+            "simplified": "你去图书馆找过了吗？",
+            "pinyin": "nǐ qù tú shū guǎn zhǎo guò le ma ？",
+            "meaningVi": "Bạn đã tìm ở thư viện chưa?"
+          },
+          {
+            "speaker": "馬丁",
+            "chinese": "到處都找過了，還是找不到。怎麼辦？我女朋友不會讓我再買新手機的。",
+            "simplified": "到处都找过了，还是找不到。怎么办？我女朋友不会让我再买新手机的。",
+            "pinyin": "dào chù dōu zhǎo guò le ， hái shì zhǎo bú dào 。 zěn me bàn ？ wǒ nǚ péng yǒu bù huì ràng wǒ zài mǎi xīn shǒu jī de 。",
+            "meaningVi": "Tôi tìm khắp nơi rồi vẫn không thấy. Làm sao đây? Bạn gái sẽ không để tôi mua máy mới nữa đâu."
+          },
+          {
+            "speaker": "愛麗",
+            "chinese": "那健身房呢？",
+            "simplified": "那健身房呢？",
+            "pinyin": "nà jiàn shēn fáng ne ？",
+            "meaningVi": "Còn phòng tập thì sao?"
+          },
+          {
+            "speaker": "馬丁",
+            "chinese": "我在健身房沒用手機。啊！我想起來了！",
+            "simplified": "我在健身房没用手机。啊！我想起来了！",
+            "pinyin": "wǒ zài jiàn shēn fáng méi yòng shǒu jī 。 a ！ wǒ xiǎng qǐ lái le ！",
+            "meaningVi": "Ở phòng tập tôi không dùng điện thoại. À! Tôi nhớ ra rồi!"
+          },
+          {
+            "speaker": "愛麗",
+            "chinese": "想起來啦？放在什麼地方了？",
+            "simplified": "想起来啦？放在什么地方了？",
+            "pinyin": "xiǎng qǐ lái la ？ fàng zài shén me dì fāng le ？",
+            "meaningVi": "Nhớ ra rồi à? Bạn để ở đâu?"
+          },
+          {
+            "speaker": "馬丁",
+            "chinese": "剛剛我在查回國的班機資料，正要訂位的時候，手機沒電了。所以我去健身房的時候，放在那裡充電。",
+            "simplified": "刚刚我在查回国的班机资料，正要订位的时候，手机没电了。所以我去健身房的时候，放在那里充电。",
+            "pinyin": "gāng gāng wǒ zài chá huí guó de bān jī zī liào ， zhèng yào dìng wèi de shí hòu ， shǒu jī méi diàn le 。 suǒ yǐ wǒ qù jiàn shēn fáng de shí hòu ， fàng zài nà lǐ chōng diàn 。",
+            "meaningVi": "Vừa nãy tôi tra chuyến bay về nước, đang định đặt chỗ thì máy hết pin. Thế nên lúc đến phòng tập, tôi để máy ở đó sạc."
+          },
+          {
+            "speaker": "愛麗",
+            "chinese": "你怎麼這麼糊塗，趕快回去拿吧！",
+            "simplified": "你怎么这么糊涂，赶快回去拿吧！",
+            "pinyin": "nǐ zěn me zhè me hú tú ， gǎn kuài huí qù ná ba ！",
+            "meaningVi": "Sao bạn đãng trí thế? Mau quay lại lấy đi!"
+          },
+          {
+            "speaker": "馬丁",
+            "chinese": "那我先走了！妳別告訴我女朋友喔！",
+            "simplified": "那我先走了！妳别告诉我女朋友喔！",
+            "pinyin": "nà wǒ xiān zǒu le ！ nǐ bié gào sù wǒ nǚ péng yǒu ō ！",
+            "meaningVi": "Vậy tôi đi trước! Đừng kể bạn gái tôi nhé!"
+          }
+        ]
+      },
+      {
+        "id": "cc2-v2-l13-reading",
+        "title": "Internet và cuộc sống",
+        "context": "Bài đọc nói về lợi ích và mặt trái của việc sử dụng mạng quá nhiều.",
+        "audioTrackId": "cc2-textbook-l13-t03",
+        "turns": [
+          {
+            "speaker": "Bài đọc",
+            "chinese": "現代人的生活已經離不開網路了，生活裡有很多事，比方說買東西、查資料、下載音樂，只要上網，就能做到。住在不同國家的人，也能天天用網路聊天。要是哪裡發生了事情，這些消息，都能透過網路，馬上傳到世界每一個地方，讓大家知道第一手資料。網路替我們節省了時間，還把世界變小了。",
+            "simplified": "现代人的生活已经离不开网路了，生活里有很多事，比方说买东西、查资料、下载音乐，只要上网，就能做到。住在不同国家的人，也能天天用网路聊天。要是哪里发生了事情，这些消息，都能透过网路，马上传到世界每一个地方，让大家知道第一手资料。网路替我们节省了时间，还把世界变小了。",
+            "pinyin": "xiàn dài rén de shēng huó yǐ jīng lí bù kāi wǎng lù le ， shēng huó lǐ yǒu hěn duō shì ， bǐ fāng shuō mǎi dōng xī 、 chá zī liào 、 xià zài yīn lè ， zhǐ yào shàng wǎng ， jiù néng zuò dào 。 zhù zài bù tóng guó jiā de rén ， yě néng tiān tiān yòng wǎng lù liáo tiān 。 yào shì nǎ lǐ fā shēng liǎo shì qíng ， zhè xiē xiāo xī ， dōu néng tòu guò wǎng lù ， mǎ shàng chuán dào shì jiè měi yī gè dì fāng ， ràng dà jiā zhī dào dì yī shǒu zī liào 。 wǎng lù tì wǒ men jié shěng le shí jiān ， hái bǎ shì jiè biàn xiǎo le 。",
+            "meaningVi": "Cuộc sống hiện đại khó thiếu internet. Mua sắm, tra tài liệu, tải nhạc đều làm được khi lên mạng. Người ở các nước khác nhau cũng trò chuyện mỗi ngày. Tin tức lan nhanh đến khắp thế giới, giúp ta có thông tin trực tiếp. Internet tiết kiệm thời gian và khiến thế giới như nhỏ lại."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "雖然網路讓我們的生活變得更便利，但是也有一些問題。很多人每天早上才起床，就急著上網。每五分鐘就要檢查一次郵件，一有新消息、新照片就立刻上傳。他們什麼時候都在上網，好像只有睡覺的時候，才離開網路。在網路上花太多時間，讓很多人的生活變得不正常了。",
+            "simplified": "虽然网路让我们的生活变得更便利，但是也有一些问题。很多人每天早上才起床，就急着上网。每五分钟就要检查一次邮件，一有新消息、新照片就立刻上传。他们什么时候都在上网，好像只有睡觉的时候，才离开网路。在网路上花太多时间，让很多人的生活变得不正常了。",
+            "pinyin": "suī rán wǎng lù ràng wǒ men de shēng huó biàn dé gèng biàn lì ， dàn shì yě yǒu yī xiē wèn tí 。 hěn duō rén měi tiān zǎo shàng cái qǐ chuáng ， jiù jí zhù shàng wǎng 。 měi wǔ fēn zhōng jiù yào jiǎn chá yī cì yóu jiàn ， yī yǒu xīn xiāo xī 、 xīn zhào piān jiù lì kè shàng chuán 。 tā men shén me shí hòu dōu zài shàng wǎng ， hǎo xiàng zhǐ yǒu shuì jué de shí hòu ， cái lí kāi wǎng lù 。 zài wǎng lù shàng huā tài duō shí jiān ， ràng hěn duō rén de shēng huó biàn dé bú zhèng cháng le 。",
+            "meaningVi": "Dù internet giúp cuộc sống tiện hơn, nó cũng gây vấn đề. Nhiều người vừa thức dậy đã vội lên mạng, năm phút lại kiểm tra email, có tin hay ảnh mới là tải lên ngay. Họ gần như chỉ rời mạng lúc ngủ. Dành quá nhiều thời gian online làm cuộc sống nhiều người mất cân bằng."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "網路太方便了，讓大家已經習慣透過網路跟朋友打招呼、聊天、談事情，但是不想跟人面對面地說話，人跟人的關係好像越來越遠了。我們應該想一想，怎麼好好地利用網路，才不會影響人跟人的關係。",
+            "simplified": "网路太方便了，让大家已经习惯透过网路跟朋友打招呼、聊天、谈事情，但是不想跟人面对面地说话，人跟人的关系好像越来越远了。我们应该想一想，怎么好好地利用网路，才不会影响人跟人的关系。",
+            "pinyin": "wǎng lù tài fāng biàn le ， ràng dà jiā yǐ jīng xí guàn tòu guò wǎng lù gēn péng yǒu dǎ zhāo hū 、 liáo tiān 、 tán shì qíng ， dàn shì bù xiǎng gēn rén miàn duì miàn dì shuō huà ， rén gēn rén de guān xì hǎo xiàng yuè lái yuè yuǎn le 。 wǒ men yīng gāi xiǎng yī xiǎng ， zěn me hǎo hǎo dì lì yòng wǎng lù ， cái bù huì yǐng xiǎng rén gēn rén de guān xì 。",
+            "meaningVi": "Internet quá tiện khiến mọi người quen chào hỏi, trò chuyện và bàn việc qua mạng, nhưng lại ngại nói chuyện trực tiếp; quan hệ giữa người với người dường như xa hơn. Chúng ta nên nghĩ cách dùng mạng hợp lý để không ảnh hưởng các mối quan hệ."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc2-v2-l13-check-01",
+        "prompt": "Martin để điện thoại ở đâu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ở nhà hàng"
+          },
+          {
+            "id": "b",
+            "text": "Trên máy bay"
+          },
+          {
+            "id": "c",
+            "text": "Ở phòng tập để sạc"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Anh nhớ ra 放在那裡充電 khi đến 健身房.",
+        "skill": "Hội thoại"
+      },
+      {
+        "id": "cc2-v2-l13-check-02",
+        "prompt": "Bài đọc khuyên làm gì với internet?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Dùng hợp lý để không ảnh hưởng quan hệ"
+          },
+          {
+            "id": "b",
+            "text": "Ngừng dùng hoàn toàn"
+          },
+          {
+            "id": "c",
+            "text": "Chỉ dùng để mua sắm"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Cuối bài nói 好好地利用網路，才不會影響人跟人的關係.",
+        "skill": "Bài đọc"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem phiên âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc2-v2-l13-v001",
+      "cc2-v2-l13-v002",
+      "cc2-v2-l13-v003",
+      "cc2-v2-l13-v004",
+      "cc2-v2-l13-v005",
+      "cc2-v2-l13-v006",
+      "cc2-v2-l13-v007",
+      "cc2-v2-l13-v008",
+      "cc2-v2-l13-v009",
+      "cc2-v2-l13-v010",
+      "cc2-v2-l13-v011",
+      "cc2-v2-l13-v012",
+      "cc2-v2-l13-v013",
+      "cc2-v2-l13-v014",
+      "cc2-v2-l13-v015",
+      "cc2-v2-l13-v016",
+      "cc2-v2-l13-v017",
+      "cc2-v2-l13-v018",
+      "cc2-v2-l13-v019",
+      "cc2-v2-l13-v020",
+      "cc2-v2-l13-v021",
+      "cc2-v2-l13-v022",
+      "cc2-v2-l13-v023",
+      "cc2-v2-l13-v024",
+      "cc2-v2-l13-v025",
+      "cc2-v2-l13-v026",
+      "cc2-v2-l13-v027",
+      "cc2-v2-l13-v028",
+      "cc2-v2-l13-v029",
+      "cc2-v2-l13-v030",
+      "cc2-v2-l13-v031",
+      "cc2-v2-l13-v032",
+      "cc2-v2-l13-v033",
+      "cc2-v2-l13-v034",
+      "cc2-v2-l13-v035",
+      "cc2-v2-l13-v036",
+      "cc2-v2-l13-v037",
+      "cc2-v2-l13-v038",
+      "cc2-v2-l13-v039",
+      "cc2-v2-l13-v040",
+      "cc2-v2-l13-v041",
+      "cc2-v2-l13-v042",
+      "cc2-v2-l13-v043",
+      "cc2-v2-l13-v044"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc2-textbook-l13-t02",
+        "label": "Từ vựng hội thoại"
+      },
+      {
+        "id": "cc2-textbook-l13-t04",
+        "label": "Từ vựng bài đọc"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc2-v2-l13-grammar-01",
+      "title": "V + 過 — đã hoàn tất hành động",
+      "audioTrackId": "cc2-textbook-l13-t05",
+      "explanation": "過 ở bài này đứng sau động từ để nói việc đã làm xong, như 傳過簡訊. Khác với 過 chỉ ‘đã từng’ trải nghiệm trong 去過台中: hãy nhìn ngữ cảnh, mốc thời gian và kết quả.",
+      "structure": "Động từ + 過 + đối tượng",
+      "examples": [
+        {
+          "chinese": "我離開餐廳後，還傳過簡訊。",
+          "simplified": "我离开餐厅后，还传过简讯。",
+          "pinyin": "wǒ lí kāi cān tīng hòu ， hái chuán guò jiǎn xùn 。",
+          "meaningVi": "Sau khi rời nhà hàng, tôi còn gửi tin nhắn."
+        },
+        {
+          "chinese": "圖書館我已經找過了。",
+          "simplified": "图书馆我已经找过了。",
+          "pinyin": "tú shū guǎn wǒ yǐ jīng zhǎo guò le 。",
+          "meaningVi": "Tôi đã tìm ở thư viện rồi."
+        }
+      ],
+      "commonMistake": "Đừng hiểu mọi 過 đều là ‘đã từng’; ở đây có thể nhấn một hành động cụ thể đã hoàn tất.",
+      "check": {
+        "id": "cc2-v2-l13-grammar-check-01",
+        "prompt": "Điền: 我剛剛傳＿＿簡訊。",
+        "options": [
+          {
+            "id": "a",
+            "text": "被"
+          },
+          {
+            "id": "b",
+            "text": "走"
+          },
+          {
+            "id": "c",
+            "text": "過"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "過 ở bài này đứng sau động từ để nói việc đã làm xong, như 傳過簡訊.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l13-grammar-02",
+      "title": "V + 走 — mang đi, rời khỏi",
+      "audioTrackId": "cc2-textbook-l13-t06",
+      "explanation": "走 sau động từ chỉ người hoặc vật rời khỏi chỗ cũ sau hành động: 拿走 là cầm đi, 騎走 là đi xe rời đi. Nó khác động từ 走 đứng riêng nghĩa là đi bộ.",
+      "structure": "Động từ + 走 + đối tượng",
+      "examples": [
+        {
+          "chinese": "是不是被誰拿走了？",
+          "simplified": "是不是被谁拿走了？",
+          "pinyin": "shì bú shì bèi shuí ná zǒu le ？",
+          "meaningVi": "Có phải ai cầm đi rồi không?"
+        },
+        {
+          "chinese": "他把腳踏車騎走了。",
+          "simplified": "他把脚踏车骑走了。",
+          "pinyin": "tā bǎ jiǎo tà chē qí zǒu le 。",
+          "meaningVi": "Anh ấy đi chiếc xe đạp đó mất rồi."
+        }
+      ],
+      "commonMistake": "Trong 拿走, đừng dịch riêng 走 là ‘đi bộ’.",
+      "check": {
+        "id": "cc2-v2-l13-grammar-check-02",
+        "prompt": "Điền: 有人把手機拿＿＿了。",
+        "options": [
+          {
+            "id": "a",
+            "text": "過"
+          },
+          {
+            "id": "b",
+            "text": "才"
+          },
+          {
+            "id": "c",
+            "text": "走"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "走 sau động từ chỉ người hoặc vật rời khỏi chỗ cũ sau hành động: 拿走 là cầm đi, 騎走 là đi xe rời đi.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l13-grammar-03",
+      "title": "叫 + người + V — bảo ai làm gì",
+      "audioTrackId": "cc2-textbook-l13-t07",
+      "explanation": "叫 có thể dùng khi yêu cầu, sai hoặc bảo ai thực hiện việc gì. Trong hội thoại, bạn gái bảo Martin đừng làm mất điện thoại nữa. Sau 叫 là người nhận yêu cầu rồi mới đến hành động.",
+      "structure": "叫 + người + hành động",
+      "examples": [
+        {
+          "chinese": "她叫我別再掉手機了。",
+          "simplified": "她叫我别再掉手机了。",
+          "pinyin": "tā jiào wǒ bié zài diào shǒu jī le 。",
+          "meaningVi": "Cô ấy bảo tôi đừng làm mất điện thoại nữa."
+        },
+        {
+          "chinese": "醫生叫我多休息。",
+          "simplified": "医生叫我多休息。",
+          "pinyin": "yī shēng jiào wǒ duō xiū xī 。",
+          "meaningVi": "Bác sĩ bảo tôi nghỉ ngơi nhiều hơn."
+        }
+      ],
+      "commonMistake": "Đừng nhầm 叫 trong mẫu này với ‘tên gọi’.",
+      "check": {
+        "id": "cc2-v2-l13-grammar-check-03",
+        "prompt": "Điền: 醫生＿＿我多休息。",
+        "options": [
+          {
+            "id": "a",
+            "text": "叫"
+          },
+          {
+            "id": "b",
+            "text": "過"
+          },
+          {
+            "id": "c",
+            "text": "被"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "叫 có thể dùng khi yêu cầu, sai hoặc bảo ai thực hiện việc gì.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l13-grammar-04",
+      "title": "別再…了 — đừng tiếp tục nữa",
+      "audioTrackId": "cc2-textbook-l13-t08",
+      "explanation": "Dùng 別再 trước việc muốn người nghe ngừng lặp lại, rồi đặt 了 cuối câu. Câu này thường là lời nhắc hoặc lời yêu cầu trực tiếp.",
+      "structure": "別再 + hành động + 了",
+      "examples": [
+        {
+          "chinese": "別再掉手機了。",
+          "simplified": "别再掉手机了。",
+          "pinyin": "bié zài diào shǒu jī le 。",
+          "meaningVi": "Đừng làm mất điện thoại nữa."
+        },
+        {
+          "chinese": "別再玩手機了。",
+          "simplified": "别再玩手机了。",
+          "pinyin": "bié zài wán shǒu jī le 。",
+          "meaningVi": "Đừng dùng điện thoại nữa."
+        }
+      ],
+      "commonMistake": "Thiếu 再 sẽ mất sắc thái ‘đừng làm tiếp/lặp lại’.",
+      "check": {
+        "id": "cc2-v2-l13-grammar-check-04",
+        "prompt": "Điền: ＿＿掉手機了。",
+        "options": [
+          {
+            "id": "a",
+            "text": "別再"
+          },
+          {
+            "id": "b",
+            "text": "只有"
+          },
+          {
+            "id": "c",
+            "text": "每三天"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Dùng 別再 trước việc muốn người nghe ngừng lặp lại, rồi đặt 了 cuối câu.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l13-grammar-05",
+      "title": "會…的 — chắc chắn sẽ",
+      "audioTrackId": "cc2-textbook-l13-t09",
+      "explanation": "會 đi cùng 的 cuối câu để trấn an hoặc khẳng định một kết quả tương lai mà người nói tin chắc. Người nghe nhận được cảm giác chắc chắn hơn so với chỉ nói 會.",
+      "structure": "Chủ ngữ + 會 + hành động / kết quả + 的",
+      "examples": [
+        {
+          "chinese": "她會生氣的。",
+          "simplified": "她会生气的。",
+          "pinyin": "tā huì shēng qì de 。",
+          "meaningVi": "Cô ấy sẽ giận đấy."
+        },
+        {
+          "chinese": "你會找到手機的。",
+          "simplified": "你会找到手机的。",
+          "pinyin": "nǐ huì zhǎo dào shǒu jī de 。",
+          "meaningVi": "Bạn sẽ tìm được điện thoại thôi."
+        }
+      ],
+      "commonMistake": "Không dùng mẫu này cho một sự thật đã được chứng minh xong; nó nhấn dự đoán chắc chắn.",
+      "check": {
+        "id": "cc2-v2-l13-grammar-check-05",
+        "prompt": "Điền: 放心，你＿＿找到手機＿＿。",
+        "options": [
+          {
+            "id": "a",
+            "text": "每…次"
+          },
+          {
+            "id": "b",
+            "text": "會…的"
+          },
+          {
+            "id": "c",
+            "text": "只有…才"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "會 đi cùng 的 cuối câu để trấn an hoặc khẳng định một kết quả tương lai mà người nói tin chắc.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l13-grammar-06",
+      "title": "透過 — thông qua",
+      "audioTrackId": "cc2-textbook-l13-t10",
+      "explanation": "透過 nêu phương tiện trung gian giúp thực hiện hành động. Trong bài đọc, thông tin truyền đi qua internet. Sau 透過 là phương tiện, rồi đến việc được làm.",
+      "structure": "透過 + phương tiện + hành động",
+      "examples": [
+        {
+          "chinese": "消息透過網路傳到世界各地。",
+          "simplified": "消息透过网路传到世界各地。",
+          "pinyin": "xiāo xī tòu guò wǎng lù chuán dào shì jiè gè dì 。",
+          "meaningVi": "Tin tức truyền đi khắp nơi qua internet."
+        },
+        {
+          "chinese": "我透過朋友認識了她。",
+          "simplified": "我透过朋友认识了她。",
+          "pinyin": "wǒ tòu guò péng yǒu rèn shí le tā 。",
+          "meaningVi": "Tôi quen cô ấy qua một người bạn."
+        }
+      ],
+      "commonMistake": "Đừng đặt 透過 trước kết quả mà bỏ phương tiện trung gian.",
+      "check": {
+        "id": "cc2-v2-l13-grammar-check-06",
+        "prompt": "Điền: 我們＿＿網路聊天。",
+        "options": [
+          {
+            "id": "a",
+            "text": "透過"
+          },
+          {
+            "id": "b",
+            "text": "只有"
+          },
+          {
+            "id": "c",
+            "text": "別再"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "透過 nêu phương tiện trung gian giúp thực hiện hành động.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l13-grammar-07",
+      "title": "才…就… — mới… đã…",
+      "audioTrackId": "cc2-textbook-l13-t11",
+      "explanation": "才 ở vế đầu và 就 ở vế sau cho thấy hai việc xảy ra rất gần nhau, thường kèm cảm giác bất ngờ vì quá nhanh. Trong bài, có người vừa thức dậy đã vội lên mạng.",
+      "structure": "Mới + việc 1 (才)，đã + việc 2 (就)",
+      "examples": [
+        {
+          "chinese": "他才起床，就急著上網。",
+          "simplified": "他才起床，就急着上网。",
+          "pinyin": "tā cái qǐ chuáng ， jiù jí zhù shàng wǎng 。",
+          "meaningVi": "Anh ấy vừa thức dậy đã vội lên mạng."
+        },
+        {
+          "chinese": "蛋糕才拿來，就被大家吃完了。",
+          "simplified": "蛋糕才拿来，就被大家吃完了。",
+          "pinyin": "dàn gāo cái ná lái ， jiù bèi dà jiā chī wán le 。",
+          "meaningVi": "Bánh vừa mang đến đã bị mọi người ăn hết."
+        }
+      ],
+      "commonMistake": "Đừng nhầm với 只有…才… chỉ điều kiện cần.",
+      "check": {
+        "id": "cc2-v2-l13-grammar-check-07",
+        "prompt": "Điền: 他＿＿起床，＿＿上網。",
+        "options": [
+          {
+            "id": "a",
+            "text": "只有…才"
+          },
+          {
+            "id": "b",
+            "text": "每…次"
+          },
+          {
+            "id": "c",
+            "text": "才…就"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "才 ở vế đầu và 就 ở vế sau cho thấy hai việc xảy ra rất gần nhau, thường kèm cảm giác bất ngờ vì quá nhanh.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l13-grammar-08",
+      "title": "每 + khoảng thời gian — tần suất",
+      "audioTrackId": "cc2-textbook-l13-t12",
+      "explanation": "每 đi với một khoảng thời gian để nói một hành động lặp lại đều đặn: 每五分鐘檢查一次郵件 là cứ năm phút kiểm tra email một lần. Phần sau cho biết hành động và số lần.",
+      "structure": "每 + thời gian + hành động + số lần",
+      "examples": [
+        {
+          "chinese": "他每五分鐘檢查一次郵件。",
+          "simplified": "他每五分钟检查一次邮件。",
+          "pinyin": "tā měi wǔ fēn zhōng jiǎn chá yī cì yóu jiàn 。",
+          "meaningVi": "Cứ năm phút anh ấy kiểm tra email một lần."
+        },
+        {
+          "chinese": "我每三天去一次健身房。",
+          "simplified": "我每三天去一次健身房。",
+          "pinyin": "wǒ měi sān tiān qù yī cì jiàn shēn fáng 。",
+          "meaningVi": "Cứ ba ngày tôi đến phòng tập một lần."
+        }
+      ],
+      "commonMistake": "Nếu đã có 每, nhớ nêu khoảng thời gian cụ thể khi muốn nói tần suất.",
+      "check": {
+        "id": "cc2-v2-l13-grammar-check-08",
+        "prompt": "Điền: 他＿＿五分鐘檢查一次郵件。",
+        "options": [
+          {
+            "id": "a",
+            "text": "被"
+          },
+          {
+            "id": "b",
+            "text": "才"
+          },
+          {
+            "id": "c",
+            "text": "每"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "每 đi với một khoảng thời gian để nói một hành động lặp lại đều đặn: 每五分鐘檢查一次郵件 là cứ năm phút kiểm tra email một lần.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l13-grammar-09",
+      "title": "只有…才… — chỉ khi… mới…",
+      "audioTrackId": "cc2-textbook-l13-t13",
+      "explanation": "只有 đưa ra điều kiện cần, 才 là kết quả chỉ xảy ra khi điều kiện ấy được đáp ứng. Khác 只要…就…: 只要 nhấn điều kiện đủ, dễ đạt; 只有 nhấn chỉ duy nhất điều kiện ấy mới cho kết quả.",
+      "structure": "只有 + điều kiện，才 + kết quả",
+      "examples": [
+        {
+          "chinese": "只有睡覺的時候，才離開網路。",
+          "simplified": "只有睡觉的时候，才离开网路。",
+          "pinyin": "zhǐ yǒu shuì jué de shí hòu ， cái lí kāi wǎng lù 。",
+          "meaningVi": "Chỉ lúc ngủ họ mới rời mạng."
+        },
+        {
+          "chinese": "只有多休息，病才會好得快。",
+          "simplified": "只有多休息，病才会好得快。",
+          "pinyin": "zhǐ yǒu duō xiū xī ， bìng cái huì hǎo dé kuài 。",
+          "meaningVi": "Chỉ khi nghỉ ngơi nhiều bệnh mới mau khỏi."
+        }
+      ],
+      "commonMistake": "Đừng đổi 只有…才… thành 只要…就… nếu muốn giữ nghĩa ‘chỉ khi’.",
+      "check": {
+        "id": "cc2-v2-l13-grammar-check-09",
+        "prompt": "Điền: ＿＿睡覺的時候，＿＿離開網路。",
+        "options": [
+          {
+            "id": "a",
+            "text": "只有…才"
+          },
+          {
+            "id": "b",
+            "text": "才…就"
+          },
+          {
+            "id": "c",
+            "text": "每…次"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "只有 đưa ra điều kiện cần, 才 là kết quả chỉ xảy ra khi điều kiện ấy được đáp ứng.",
+        "skill": "Ngữ pháp"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc2-v2-l13-listening-01",
+      "prompt": "Nghe hội thoại. Martin đang tìm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Điện thoại"
+        },
+        {
+          "id": "b",
+          "text": "Ví tiền"
+        },
+        {
+          "id": "c",
+          "text": "Vé máy bay"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Anh nói 找我的手機.",
+      "skill": "Nghe vật",
+      "audioTrackId": "cc2-textbook-l13-t01"
+    },
+    {
+      "id": "cc2-v2-l13-listening-02",
+      "prompt": "Nghe hội thoại. Vì sao Martin để điện thoại ở phòng tập?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Để bạn mượn"
+        },
+        {
+          "id": "b",
+          "text": "Để sạc pin"
+        },
+        {
+          "id": "c",
+          "text": "Để bán"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Anh nói 放在那裡充電.",
+      "skill": "Nghe lý do",
+      "audioTrackId": "cc2-textbook-l13-t01"
+    },
+    {
+      "id": "cc2-v2-l13-listening-03",
+      "prompt": "Nghe bài đọc. Internet giúp truyền tin thế nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nhanh tới khắp thế giới"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ trong một lớp học"
+        },
+        {
+          "id": "c",
+          "text": "Rất chậm"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc nói 馬上傳到世界每一個地方.",
+      "skill": "Nghe ý chính",
+      "audioTrackId": "cc2-textbook-l13-t03"
+    },
+    {
+      "id": "cc2-v2-l13-listening-04",
+      "prompt": "Nghe bài đọc. Người dùng quá nhiều mạng có thể bỏ quên điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tải ảnh"
+        },
+        {
+          "id": "b",
+          "text": "Tra tài liệu"
+        },
+        {
+          "id": "c",
+          "text": "Trò chuyện trực tiếp"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc nói 不想跟人面對面地說話.",
+      "skill": "Nghe chi tiết",
+      "audioTrackId": "cc2-textbook-l13-t03"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc2-v2-l13-practice-01",
+      "prompt": "‘充電’ là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "sạc pin"
+        },
+        {
+          "id": "b",
+          "text": "đặt chỗ"
+        },
+        {
+          "id": "c",
+          "text": "gửi tin"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "充電 là nạp điện cho thiết bị.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc2-v2-l13-practice-02",
+      "prompt": "Điền: 我剛剛傳＿＿簡訊。",
+      "options": [
+        {
+          "id": "a",
+          "text": "被"
+        },
+        {
+          "id": "b",
+          "text": "過"
+        },
+        {
+          "id": "c",
+          "text": "走"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "過 chỉ hành động vừa hoàn tất.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l13-practice-03",
+      "prompt": "Martin tìm ở thư viện chưa?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Không đến thư viện"
+        },
+        {
+          "id": "b",
+          "text": "Đã tìm rồi"
+        },
+        {
+          "id": "c",
+          "text": "Chưa"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Anh nói 到處都找過了.",
+      "skill": "Hội thoại"
+    },
+    {
+      "id": "cc2-v2-l13-practice-04",
+      "prompt": "Điền: 有人把手機拿＿＿了。",
+      "options": [
+        {
+          "id": "a",
+          "text": "走"
+        },
+        {
+          "id": "b",
+          "text": "過"
+        },
+        {
+          "id": "c",
+          "text": "才"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "拿走 là cầm đi khỏi chỗ cũ.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l13-practice-05",
+      "prompt": "Điền: 她叫我＿＿掉手機了。",
+      "options": [
+        {
+          "id": "a",
+          "text": "只有"
+        },
+        {
+          "id": "b",
+          "text": "每"
+        },
+        {
+          "id": "c",
+          "text": "別再"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "別再…了 nhắc đừng lặp lại việc đó.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l13-practice-06",
+      "prompt": "Điền: 消息＿＿網路傳到世界各地。",
+      "options": [
+        {
+          "id": "a",
+          "text": "透過"
+        },
+        {
+          "id": "b",
+          "text": "只有"
+        },
+        {
+          "id": "c",
+          "text": "別再"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "透過 chỉ phương tiện truyền tin.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l13-practice-07",
+      "prompt": "Điền: 他＿＿起床，＿＿急著上網。",
+      "options": [
+        {
+          "id": "a",
+          "text": "每…次"
+        },
+        {
+          "id": "b",
+          "text": "才…就"
+        },
+        {
+          "id": "c",
+          "text": "只有…才"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "才…就… nhấn hai việc xảy ra quá gần nhau.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l13-practice-08",
+      "prompt": "Trong bài đọc, mạng ảnh hưởng quan hệ thế nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Không ảnh hưởng gì"
+        },
+        {
+          "id": "b",
+          "text": "Có thể khiến người ta ít nói chuyện trực tiếp"
+        },
+        {
+          "id": "c",
+          "text": "Luôn cải thiện mọi quan hệ"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nói 不想跟人面對面地說話.",
+      "skill": "Bài đọc"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc2-v2-l13-assessment-01",
+      "prompt": "‘簡訊’ là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "tin nhắn"
+        },
+        {
+          "id": "b",
+          "text": "cuộc gọi"
+        },
+        {
+          "id": "c",
+          "text": "chuyến bay"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "簡訊 là tin nhắn ngắn.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc2-v2-l13-assessment-02",
+      "prompt": "Điền: 我已經找＿＿圖書館了。",
+      "options": [
+        {
+          "id": "a",
+          "text": "走"
+        },
+        {
+          "id": "b",
+          "text": "被"
+        },
+        {
+          "id": "c",
+          "text": "過"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "找過 chỉ đã tìm rồi.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l13-assessment-03",
+      "prompt": "Martin đã làm mất bao nhiêu điện thoại trước lần này?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hai chiếc"
+        },
+        {
+          "id": "b",
+          "text": "Không chiếc nào"
+        },
+        {
+          "id": "c",
+          "text": "Bốn chiếc"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Anh nói đây là chiếc thứ ba: 第三支手機.",
+      "skill": "Hội thoại"
+    },
+    {
+      "id": "cc2-v2-l13-assessment-04",
+      "prompt": "Điền: 他把我的手機拿＿＿了。",
+      "options": [
+        {
+          "id": "a",
+          "text": "走"
+        },
+        {
+          "id": "b",
+          "text": "過"
+        },
+        {
+          "id": "c",
+          "text": "才"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "拿走 là lấy đi.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l13-assessment-05",
+      "prompt": "Điền: 醫生＿＿我多休息。",
+      "options": [
+        {
+          "id": "a",
+          "text": "叫"
+        },
+        {
+          "id": "b",
+          "text": "每"
+        },
+        {
+          "id": "c",
+          "text": "被"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "叫 + người + hành động là bảo người đó làm.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l13-assessment-06",
+      "prompt": "Điền: ＿＿再玩手機了。",
+      "options": [
+        {
+          "id": "a",
+          "text": "每"
+        },
+        {
+          "id": "b",
+          "text": "別"
+        },
+        {
+          "id": "c",
+          "text": "只有"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "別再…了 là đừng tiếp tục.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l13-assessment-07",
+      "prompt": "Điền: 我們＿＿網路查資料。",
+      "options": [
+        {
+          "id": "a",
+          "text": "透過"
+        },
+        {
+          "id": "b",
+          "text": "別再"
+        },
+        {
+          "id": "c",
+          "text": "只有"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "透過 nêu phương tiện.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l13-assessment-08",
+      "prompt": "Điền: 他＿＿起床，＿＿檢查郵件。",
+      "options": [
+        {
+          "id": "a",
+          "text": "才…就"
+        },
+        {
+          "id": "b",
+          "text": "每…次"
+        },
+        {
+          "id": "c",
+          "text": "只有…才"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "才…就… chỉ hai việc xảy ra rất gần nhau.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l13-assessment-09",
+      "prompt": "Điền: 他＿＿五分鐘檢查一次郵件。",
+      "options": [
+        {
+          "id": "a",
+          "text": "每"
+        },
+        {
+          "id": "b",
+          "text": "被"
+        },
+        {
+          "id": "c",
+          "text": "才"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "每 + thời gian nêu tần suất.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l13-assessment-10",
+      "prompt": "Bài đọc kết luận điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ nên dùng để tải nhạc"
+        },
+        {
+          "id": "b",
+          "text": "Cần dùng internet hợp lý"
+        },
+        {
+          "id": "c",
+          "text": "Nên bỏ internet hoàn toàn"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Cuối bài nói 好好地利用網路.",
+      "skill": "Bài đọc"
+    }
+  ],
+  "writingTask": {
+    "id": "cc2-v2-l13-writing",
+    "title": "Tìm lại đồ thất lạc",
+    "prompt": "Viết 2–3 câu kể nơi bạn đã đi và cách tìm một đồ vật bị mất. Thử dùng 過, 叫 hoặc 被.",
+    "sampleTraditional": "我找過圖書館，還是找不到手機。朋友叫我回健身房看看，原來手機放在那裡充電。",
+    "sampleSimplified": "我找过图书馆，还是找不到手机。朋友叫我回健身房看看，原来手机放在那里充电。"
+  }
+}

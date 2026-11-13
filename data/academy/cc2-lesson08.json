@@ -1,0 +1,1130 @@
+{
+  "contentVersion": 2,
+  "id": "cc2-v2-l08",
+  "title": "學功夫",
+  "titleVi": "Học võ công",
+  "description": "Nói về sở thích, việc luyện tập và khả năng làm một việc.",
+  "objectives": [
+    "Nói về sở thích và rủ bạn cùng tập luyện.",
+    "Phân biệt nghe thấy, nghe hiểu và học được một kỹ năng.",
+    "Diễn đạt khả năng, mức độ và việc tiếp tục hoặc hoàn thành hành động."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Đông Kiện gặp An Đồng ở cổng trường và hỏi về việc học Thái Cực Quyền. Hãy nghe cách hai người nói về sở thích và việc luyện tập.",
+    "sections": [
+      {
+        "id": "cc2-v2-l08-section-01",
+        "title": "Sở thích và lời mời",
+        "body": "An Đồng vẫn học Thái Cực Quyền dù lúc đầu rất mệt; Đông Kiện rủ bạn đi tập buổi chiều.",
+        "chinese": "雖然很累，可是這是我的興趣。",
+        "simplified": "虽然很累，可是这是我的兴趣。",
+        "pinyin": "suī rán hěn lèi ， kě shì zhè shì wǒ de xìng qù 。",
+        "meaningVi": "Dù rất mệt, đây vẫn là sở thích của tôi."
+      },
+      {
+        "id": "cc2-v2-l08-section-02",
+        "title": "Kết quả và khả năng",
+        "body": "Các bổ ngữ sau động từ cho biết đã nghe thấy, hiểu, học được hay có thể hoàn thành việc gì.",
+        "chinese": "我學了三個多月了，才學會了一點。",
+        "simplified": "我学了三个多月了，才学会了一点。",
+        "pinyin": "wǒ xué le sān gè duō yuè le ， cái xué huì le yī diǎn 。",
+        "meaningVi": "Tôi học hơn ba tháng rồi mà mới học được một ít."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc2-v2-l08-dialogue",
+        "title": "Học Thái Cực Quyền",
+        "context": "Đông Kiện trò chuyện với An Đồng ở cổng trường.",
+        "audioTrackId": "cc2-textbook-l08-t01",
+        "turns": [
+          {
+            "speaker": "東健",
+            "chinese": "安同！安同！",
+            "simplified": "安同！安同！",
+            "pinyin": "ān tóng ！ ān tóng ！",
+            "meaningVi": "An Đồng! An Đồng!"
+          },
+          {
+            "speaker": "安同",
+            "chinese": "東健！對不起，沒聽見你叫我。",
+            "simplified": "东健！对不起，没听见你叫我。",
+            "pinyin": "dōng jiàn ！ duì bù qǐ ， méi tīng jiàn nǐ jiào wǒ 。",
+            "meaningVi": "Đông Kiện! Xin lỗi, tôi không nghe thấy bạn gọi."
+          },
+          {
+            "speaker": "東健",
+            "chinese": "音樂那麼吵，你當然聽不見。",
+            "simplified": "音乐那么吵，你当然听不见。",
+            "pinyin": "yīn lè nà me chǎo ， nǐ dāng rán tīng bù jiàn 。",
+            "meaningVi": "Nhạc ồn thế, tất nhiên bạn không nghe thấy rồi."
+          },
+          {
+            "speaker": "安同",
+            "chinese": "有什麼事嗎？",
+            "simplified": "有什么事吗？",
+            "pinyin": "yǒu shén me shì ma ？",
+            "meaningVi": "Có chuyện gì vậy?"
+          },
+          {
+            "speaker": "東健",
+            "chinese": "沒事，只是一到學校門口，就看見你推著腳踏車走過來。",
+            "simplified": "没事，只是一到学校门口，就看见你推着脚踏车走过来。",
+            "pinyin": "méi shì ， zhǐ shì yī dào xué xiào mén kǒu ， jiù kàn jiàn nǐ tuī zhù jiǎo tà chē zǒu guò lái 。",
+            "meaningVi": "Không có gì, tôi vừa đến cổng trường là thấy bạn dắt xe đạp đi tới."
+          },
+          {
+            "speaker": "安同",
+            "chinese": "你下午要做什麼？",
+            "simplified": "你下午要做什么？",
+            "pinyin": "nǐ xià wǔ yào zuò shén me ？",
+            "meaningVi": "Chiều nay bạn định làm gì?"
+          },
+          {
+            "speaker": "東健",
+            "chinese": "我要去體育館運動。對了，你現在還在學太極拳嗎？",
+            "simplified": "我要去体育馆运动。对了，你现在还在学太极拳吗？",
+            "pinyin": "wǒ yào qù tǐ yù guǎn yùn dòng 。 duì le ， nǐ xiàn zài hái zài xué tài jí quán ma ？",
+            "meaningVi": "Tôi định đến nhà thể thao tập luyện. À, giờ bạn vẫn học Thái Cực Quyền chứ?"
+          },
+          {
+            "speaker": "安同",
+            "chinese": "是啊！我的師父說我有天分，學得不錯。",
+            "simplified": "是啊！我的师父说我有天分，学得不错。",
+            "pinyin": "shì a ！ wǒ de shī fù shuō wǒ yǒu tiān fèn ， xué dé bù cuò 。",
+            "meaningVi": "Có! Sư phụ nói tôi có năng khiếu, học khá tốt."
+          },
+          {
+            "speaker": "東健",
+            "chinese": "你師父是台灣人吧？他說中文你聽得懂嗎？",
+            "simplified": "你师父是台湾人吧？他说中文你听得懂吗？",
+            "pinyin": "nǐ shī fù shì tái wān rén ba ？ tā shuō zhōng wén nǐ tīng dé dǒng ma ？",
+            "meaningVi": "Sư phụ của bạn là người Đài Loan nhỉ? Bạn nghe hiểu tiếng Hoa của thầy không?"
+          },
+          {
+            "speaker": "安同",
+            "chinese": "剛開始我都聽不懂，可是現在沒問題了。",
+            "simplified": "刚开始我都听不懂，可是现在没问题了。",
+            "pinyin": "gāng kāi shǐ wǒ dōu tīng bù dǒng ， kě shì xiàn zài méi wèn tí le 。",
+            "meaningVi": "Lúc đầu tôi không hiểu gì, nhưng giờ thì không sao rồi."
+          },
+          {
+            "speaker": "東健",
+            "chinese": "太極拳難嗎？你學了多久了？",
+            "simplified": "太极拳难吗？你学了多久了？",
+            "pinyin": "tài jí quán nán ma ？ nǐ xué le duō jiǔ le ？",
+            "meaningVi": "Thái Cực Quyền khó không? Bạn học bao lâu rồi?"
+          },
+          {
+            "speaker": "安同",
+            "chinese": "不太容易，而且要很早起來。我學了三個多月了，才學會了一點。",
+            "simplified": "不太容易，而且要很早起来。我学了三个多月了，才学会了一点。",
+            "pinyin": "bù tài róng yì ， ér qiě yào hěn zǎo qǐ lái 。 wǒ xué le sān gè duō yuè le ， cái xué huì le yī diǎn 。",
+            "meaningVi": "Không dễ lắm, lại phải dậy rất sớm. Tôi học hơn ba tháng mà mới biết được một chút."
+          },
+          {
+            "speaker": "東健",
+            "chinese": "可是太極拳的動作看起來慢慢的，輕輕的，應該很輕鬆。",
+            "simplified": "可是太极拳的动作看起来慢慢的，轻轻的，应该很轻松。",
+            "pinyin": "kě shì tài jí quán de dòng zuò kàn qǐ lái màn màn de ， qīng qīng de ， yīng gāi hěn qīng sōng 。",
+            "meaningVi": "Nhưng động tác Thái Cực Quyền trông chậm rãi, nhẹ nhàng, chắc rất thư thái."
+          },
+          {
+            "speaker": "安同",
+            "chinese": "那些動作好像很容易，但是剛開始的時候，我早上常常累得起不來，腿也痛得走不了路。",
+            "simplified": "那些动作好像很容易，但是刚开始的时候，我早上常常累得起不来，腿也痛得走不了路。",
+            "pinyin": "nà xiē dòng zuò hǎo xiàng hěn róng yì ， dàn shì gāng kāi shǐ de shí hòu ， wǒ zǎo shàng cháng cháng lèi dé qǐ bù lái ， tuǐ yě tòng dé zǒu bù liǎo lù 。",
+            "meaningVi": "Động tác trông có vẻ dễ, nhưng hồi mới học tôi thường mệt đến mức sáng không dậy nổi, chân đau đến không đi được."
+          },
+          {
+            "speaker": "東健",
+            "chinese": "那你怎麼還學得下去？",
+            "simplified": "那你怎么还学得下去？",
+            "pinyin": "nà nǐ zěn me hái xué dé xià qù ？",
+            "meaningVi": "Vậy sao bạn vẫn học tiếp được?"
+          },
+          {
+            "speaker": "安同",
+            "chinese": "雖然很累，可是這是我的興趣。",
+            "simplified": "虽然很累，可是这是我的兴趣。",
+            "pinyin": "suī rán hěn lèi ， kě shì zhè shì wǒ de xìng qù 。",
+            "meaningVi": "Dù rất mệt, đây là sở thích của tôi."
+          },
+          {
+            "speaker": "東健",
+            "chinese": "你下午沒事吧？要不要跟我一起去運動？",
+            "simplified": "你下午没事吧？要不要跟我一起去运动？",
+            "pinyin": "nǐ xià wǔ méi shì ba ？ yào bù yào gēn wǒ yì qǐ qù yùn dòng ？",
+            "meaningVi": "Chiều nay bạn rảnh chứ? Đi tập cùng tôi nhé?"
+          },
+          {
+            "speaker": "安同",
+            "chinese": "好啊！我先去圖書館借書，下午再跟你去運動。",
+            "simplified": "好啊！我先去图书馆借书，下午再跟你去运动。",
+            "pinyin": "hǎo a ！ wǒ xiān qù tú shū guǎn jiè shū ， xià wǔ zài gēn nǐ qù yùn dòng 。",
+            "meaningVi": "Được! Tôi đi thư viện mượn sách trước, chiều sẽ đi tập cùng bạn."
+          }
+        ]
+      },
+      {
+        "id": "cc2-v2-l08-reading",
+        "title": "Luyện tập mang lại điều gì?",
+        "context": "Đông Kiện nhìn thấy sự thay đổi của An Đồng sau ba tháng học võ.",
+        "audioTrackId": "cc2-textbook-l08-t03",
+        "turns": [
+          {
+            "speaker": "Bài đọc",
+            "chinese": "今天李東健跟馬安同在體育館運動的時候，安同一直跟他說學太極拳的好處，還問他有沒有興趣，下次練習的時候可以帶他一起去。",
+            "simplified": "今天李东健跟马安同在体育馆运动的时候，安同一直跟他说学太极拳的好处，还问他有没有兴趣，下次练习的时候可以带他一起去。",
+            "pinyin": "jīn tiān lǐ dōng jiàn gēn mǎ ān tóng zài tǐ yù guǎn yùn dòng de shí hòu ， ān tóng yī zhí gēn tā shuō xué tài jí quán de hǎo chù ， hái wèn tā yǒu méi yǒu xìng qù ， xià cì liàn xí de shí hòu kě yǐ dài tā yì qǐ qù 。",
+            "meaningVi": "Hôm nay khi tập ở nhà thể thao cùng Mã An Đồng, Đông Kiện nghe bạn kể mãi về lợi ích của Thái Cực Quyền. An Đồng còn hỏi anh có thích không và ngỏ ý lần sau đưa anh đi tập cùng."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "東健想起安同剛開始學功夫的時候，常跟他抱怨，師父每次練習以前，都要大家先跑一千公尺，安同總是最後一個跑完，有的時候還跑不完。現在，東健發現安同的體力比三個月以前好多了，上了整天的課，安同還是很有精神。",
+            "simplified": "东健想起安同刚开始学功夫的时候，常跟他抱怨，师父每次练习以前，都要大家先跑一千公尺，安同总是最后一个跑完，有的时候还跑不完。现在，东健发现安同的体力比三个月以前好多了，上了整天的课，安同还是很有精神。",
+            "pinyin": "dōng jiàn xiǎng qǐ ān tóng gāng kāi shǐ xué gōng fu de shí hòu ， cháng gēn tā bào yuàn ， shī fù měi cì liàn xí yǐ qián ， dōu yào dà jiā xiān pǎo yī qiān gōng chǐ ， ān tóng zǒng shì zuì hòu yī gè pǎo wán ， yǒu de shí hòu hái pǎo bù wán 。 xiàn zài ， dōng jiàn fā xiàn ān tóng de tǐ lì bǐ sān gè yuè yǐ qián hǎo duō le ， shàng le zhěng tiān de kè ， ān tóng hái shì hěn yǒu jīng shén 。",
+            "meaningVi": "Đông Kiện nhớ lại hồi mới học võ, An Đồng thường than rằng trước mỗi buổi tập sư phụ bắt mọi người chạy một nghìn mét. Anh luôn chạy xong cuối cùng, đôi khi còn không chạy hết. Bây giờ thể lực của An Đồng tốt hơn ba tháng trước nhiều; học cả ngày rồi anh vẫn đầy sức sống."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "李東健本來以為學功夫要花很多時間，安同可能沒有時間念書了，但是安同為了多練習，每天一下課，就回宿舍念書、做功課。做完了功課，再去練習。雖然練習的時間不少，但是一點都沒影響安同的成績。",
+            "simplified": "李东健本来以为学功夫要花很多时间，安同可能没有时间念书了，但是安同为了多练习，每天一下课，就回宿舍念书、做功课。做完了功课，再去练习。虽然练习的时间不少，但是一点都没影响安同的成绩。",
+            "pinyin": "lǐ dōng jiàn běn lái yǐ wèi xué gōng fu yào huā hěn duō shí jiān ， ān tóng kě néng méi yǒu shí jiān niàn shū le ， dàn shì ān tóng wèi le duō liàn xí ， měi tiān yī xià kè ， jiù huí sù shè niàn shū 、 zuò gōng kè 。 zuò wán le gōng kè ， zài qù liàn xí 。 suī rán liàn xí de shí jiān bù shǎo ， dàn shì yī diǎn dōu méi yǐng xiǎng ān tóng de chéng jī 。",
+            "meaningVi": "Đông Kiện vốn tưởng học võ tốn nhiều thời gian, An Đồng có lẽ sẽ không còn giờ học bài. Nhưng để luyện tập nhiều hơn, ngày nào tan học An Đồng cũng về ký túc xá đọc sách, làm bài tập xong rồi mới đi tập. Tuy dành khá nhiều thời gian cho luyện tập, kết quả học tập của anh không hề bị ảnh hưởng."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "李東健看馬安同學了太極拳以後，身體健康了，功課也進步了，覺得練太極拳的好處真不少，決定明天就跟安同說他也要學太極拳。",
+            "simplified": "李东健看马安同学了太极拳以后，身体健康了，功课也进步了，觉得练太极拳的好处真不少，决定明天就跟安同说他也要学太极拳。",
+            "pinyin": "lǐ dōng jiàn kàn mǎ ān tóng xué le tài jí quán yǐ hòu ， shēn tǐ jiàn kāng le ， gōng kè yě jìn bù le ， jué dé liàn tài jí quán de hǎo chù zhēn bù shǎo ， jué dìng míng tiān jiù gēn ān tóng shuō tā yě yào xué tài jí quán 。",
+            "meaningVi": "Thấy An Đồng khỏe hơn và học hành tiến bộ sau khi tập Thái Cực Quyền, Đông Kiện nhận ra môn này có nhiều ích lợi. Anh quyết định ngày mai sẽ nói với An Đồng rằng mình cũng muốn học."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc2-v2-l08-check-01",
+        "prompt": "Đông Kiện gặp An Đồng ở đâu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Thư viện"
+          },
+          {
+            "id": "b",
+            "text": "Chợ đêm"
+          },
+          {
+            "id": "c",
+            "text": "Cổng trường"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Anh nói 一到學校門口，就看見你.",
+        "skill": "Hội thoại"
+      },
+      {
+        "id": "cc2-v2-l08-check-02",
+        "prompt": "An Đồng làm gì trước khi đi tập?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Đi xem phim"
+          },
+          {
+            "id": "b",
+            "text": "Ngủ cả buổi chiều"
+          },
+          {
+            "id": "c",
+            "text": "Về ký túc xá học và làm bài"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Bài đọc nói anh làm xong bài rồi mới đi luyện.",
+        "skill": "Bài đọc"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem phiên âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc2-v2-l08-v001",
+      "cc2-v2-l08-v002",
+      "cc2-v2-l08-v003",
+      "cc2-v2-l08-v004",
+      "cc2-v2-l08-v005",
+      "cc2-v2-l08-v006",
+      "cc2-v2-l08-v007",
+      "cc2-v2-l08-v008",
+      "cc2-v2-l08-v009",
+      "cc2-v2-l08-v010",
+      "cc2-v2-l08-v011",
+      "cc2-v2-l08-v012",
+      "cc2-v2-l08-v013",
+      "cc2-v2-l08-v014",
+      "cc2-v2-l08-v015",
+      "cc2-v2-l08-v016",
+      "cc2-v2-l08-v017",
+      "cc2-v2-l08-v018",
+      "cc2-v2-l08-v019",
+      "cc2-v2-l08-v020",
+      "cc2-v2-l08-v021",
+      "cc2-v2-l08-v022",
+      "cc2-v2-l08-v023",
+      "cc2-v2-l08-v024",
+      "cc2-v2-l08-v025",
+      "cc2-v2-l08-v026",
+      "cc2-v2-l08-v027",
+      "cc2-v2-l08-v028",
+      "cc2-v2-l08-v029",
+      "cc2-v2-l08-v030",
+      "cc2-v2-l08-v031",
+      "cc2-v2-l08-v032",
+      "cc2-v2-l08-v033",
+      "cc2-v2-l08-v034",
+      "cc2-v2-l08-v035",
+      "cc2-v2-l08-v036"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc2-textbook-l08-t02",
+        "label": "Từ vựng hội thoại"
+      },
+      {
+        "id": "cc2-textbook-l08-t04",
+        "label": "Từ vựng bài đọc"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc2-v2-l08-grammar-01",
+      "title": "V + 見 — thấy hoặc nghe được",
+      "audioTrackId": "cc2-textbook-l08-t05",
+      "explanation": "見 theo sau động từ tri giác để nêu kết quả đã nhận ra đối tượng. 看見 là nhìn thấy, 聽見 là nghe thấy. Nếu không đạt kết quả, dùng 沒看見 hoặc 聽不見 tùy ngữ cảnh.",
+      "structure": "看 / 聽 + 見 + đối tượng",
+      "examples": [
+        {
+          "chinese": "沒聽見你叫我。",
+          "simplified": "没听见你叫我。",
+          "pinyin": "méi tīng jiàn nǐ jiào wǒ 。",
+          "meaningVi": "Tôi không nghe thấy bạn gọi."
+        },
+        {
+          "chinese": "我看見你推著腳踏車走過來。",
+          "simplified": "我看见你推着脚踏车走过来。",
+          "pinyin": "wǒ kàn jiàn nǐ tuī zhù jiǎo tà chē zǒu guò lái 。",
+          "meaningVi": "Tôi thấy bạn dắt xe đạp đi tới."
+        }
+      ],
+      "commonMistake": "聽見 chỉ có nghe được âm thanh; chưa chắc đã hiểu lời nói.",
+      "check": {
+        "id": "cc2-v2-l08-grammar-check-01",
+        "prompt": "Điền: 音樂太吵，我聽不＿＿你叫我。",
+        "options": [
+          {
+            "id": "a",
+            "text": "見"
+          },
+          {
+            "id": "b",
+            "text": "懂"
+          },
+          {
+            "id": "c",
+            "text": "完"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "見 theo sau động từ tri giác để nêu kết quả đã nhận ra đối tượng.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l08-grammar-02",
+      "title": "V + 懂 — hiểu được",
+      "audioTrackId": "cc2-textbook-l08-t06",
+      "explanation": "懂 sau 看 hoặc 聽 nhấn kết quả hiểu nội dung, không chỉ nhìn hay nghe thấy. 聽懂 là nghe hiểu; 聽不懂 là nghe nhưng không hiểu. Mẫu này khác 聽見, chỉ việc âm thanh lọt vào tai.",
+      "structure": "看 / 聽 + 懂 + nội dung",
+      "examples": [
+        {
+          "chinese": "他說中文你聽得懂嗎？",
+          "simplified": "他说中文你听得懂吗？",
+          "pinyin": "tā shuō zhōng wén nǐ tīng dé dǒng ma ？",
+          "meaningVi": "Bạn nghe hiểu tiếng Hoa của thầy không?"
+        },
+        {
+          "chinese": "剛開始我都聽不懂。",
+          "simplified": "刚开始我都听不懂。",
+          "pinyin": "gāng kāi shǐ wǒ dōu tīng bù dǒng 。",
+          "meaningVi": "Lúc đầu tôi không hiểu gì."
+        }
+      ],
+      "commonMistake": "Không dùng 聽見 khi muốn nói đã hiểu nội dung lời nói.",
+      "check": {
+        "id": "cc2-v2-l08-grammar-check-02",
+        "prompt": "Điền: 老師說中文，你聽得＿＿嗎？",
+        "options": [
+          {
+            "id": "a",
+            "text": "完"
+          },
+          {
+            "id": "b",
+            "text": "懂"
+          },
+          {
+            "id": "c",
+            "text": "見"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "懂 sau 看 hoặc 聽 nhấn kết quả hiểu nội dung, không chỉ nhìn hay nghe thấy.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l08-grammar-03",
+      "title": "學 / 教 + 會 — học hoặc dạy thành thạo",
+      "audioTrackId": "cc2-textbook-l08-t07",
+      "explanation": "會 là kết quả đạt được kỹ năng sau khi học hoặc dạy. 學會騎車 nghĩa là đã học được cách đi xe; 教會則 là dạy cho người khác biết làm. Phủ định khi chưa đạt kết quả thường là 還沒學會.",
+      "structure": "學 / 教 + 會 + kỹ năng",
+      "examples": [
+        {
+          "chinese": "我學了三個多月了，才學會了一點。",
+          "simplified": "我学了三个多月了，才学会了一点。",
+          "pinyin": "wǒ xué le sān gè duō yuè le ， cái xué huì le yī diǎn 。",
+          "meaningVi": "Tôi học hơn ba tháng mới học được một chút."
+        },
+        {
+          "chinese": "她教會弟弟騎腳踏車。",
+          "simplified": "她教会弟弟骑脚踏车。",
+          "pinyin": "tā jiào huì dì di qí jiǎo tà chē 。",
+          "meaningVi": "Cô ấy dạy em trai đi xe đạp."
+        }
+      ],
+      "commonMistake": "Đừng nhầm 學會 với 會: cái trước nhấn quá trình học để đạt kỹ năng.",
+      "check": {
+        "id": "cc2-v2-l08-grammar-check-03",
+        "prompt": "Điền: 他學了很久，終於學＿＿游泳。",
+        "options": [
+          {
+            "id": "a",
+            "text": "完"
+          },
+          {
+            "id": "b",
+            "text": "會"
+          },
+          {
+            "id": "c",
+            "text": "見"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "會 là kết quả đạt được kỹ năng sau khi học hoặc dạy.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l08-grammar-04",
+      "title": "V + 得 / 不 + bổ ngữ — có làm được không",
+      "audioTrackId": "cc2-textbook-l08-t08",
+      "explanation": "Đặt 得 hoặc 不 giữa động từ và bổ ngữ để nói hành động có thể đạt kết quả hay không. 聽得懂 là có thể nghe hiểu; 聽不懂 là không thể. Đây là khả năng trong tình huống cụ thể, khác với câu kể đã hoàn thành một việc.",
+      "structure": "Động từ + 得 / 不 + bổ ngữ",
+      "examples": [
+        {
+          "chinese": "他說中文你聽得懂嗎？",
+          "simplified": "他说中文你听得懂吗？",
+          "pinyin": "tā shuō zhōng wén nǐ tīng dé dǒng ma ？",
+          "meaningVi": "Bạn nghe hiểu tiếng Hoa của thầy không?"
+        },
+        {
+          "chinese": "音樂太吵，我聽不見你叫我。",
+          "simplified": "音乐太吵，我听不见你叫我。",
+          "pinyin": "yīn lè tài chǎo ， wǒ tīng bù jiàn nǐ jiào wǒ 。",
+          "meaningVi": "Nhạc ồn quá, tôi không nghe thấy bạn gọi."
+        }
+      ],
+      "commonMistake": "Không dùng 沒 để thay 不 trong 聽不懂 khi muốn nói hiện giờ không có khả năng hiểu.",
+      "check": {
+        "id": "cc2-v2-l08-grammar-check-04",
+        "prompt": "Điền: 太吵了，我聽＿＿見你說什麼。",
+        "options": [
+          {
+            "id": "a",
+            "text": "不"
+          },
+          {
+            "id": "b",
+            "text": "得"
+          },
+          {
+            "id": "c",
+            "text": "完"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Đặt 得 hoặc 不 giữa động từ và bổ ngữ để nói hành động có thể đạt kết quả hay không.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l08-grammar-05",
+      "title": "V + 得 / 不 + 了 — làm nổi hay không",
+      "audioTrackId": "cc2-textbook-l08-t09",
+      "explanation": "了 ở đây đọc liǎo và nói về khả năng hoàn tất một việc. 吃得了 là ăn nổi; 拿不了 là không mang nổi. Nó không phải trợ từ 了 báo thay đổi trạng thái, nên cần xét vị trí và cách đọc.",
+      "structure": "Động từ + 得 / 不 + 了",
+      "examples": [
+        {
+          "chinese": "這麼多書，我拿不了。",
+          "simplified": "这么多书，我拿不了。",
+          "pinyin": "zhè me duō shū ， wǒ ná bù liǎo 。",
+          "meaningVi": "Nhiều sách thế này, tôi không mang nổi."
+        },
+        {
+          "chinese": "這碗牛肉麵，我吃得了。",
+          "simplified": "这碗牛肉面，我吃得了。",
+          "pinyin": "zhè wǎn niú ròu miàn ， wǒ chī dé le 。",
+          "meaningVi": "Bát mì bò này tôi ăn hết được."
+        }
+      ],
+      "commonMistake": "Đừng đọc bổ ngữ khả năng 了 là le.",
+      "check": {
+        "id": "cc2-v2-l08-grammar-check-05",
+        "prompt": "Điền: 東西太多，我拿不＿＿。",
+        "options": [
+          {
+            "id": "a",
+            "text": "了"
+          },
+          {
+            "id": "b",
+            "text": "懂"
+          },
+          {
+            "id": "c",
+            "text": "見"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "了 ở đây đọc liǎo và nói về khả năng hoàn tất một việc.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l08-grammar-06",
+      "title": "Tính từ + 得 + kết quả — mức độ",
+      "audioTrackId": "cc2-textbook-l08-t10",
+      "explanation": "Sau tính từ, 得 dẫn tới kết quả hoặc tác động của mức độ đó. 累得起不來 nghĩa là mệt đến không dậy nổi. Cấu trúc này giúp giải thích mức độ cụ thể thay vì chỉ nói rất mệt.",
+      "structure": "Tính từ + 得 + kết quả",
+      "examples": [
+        {
+          "chinese": "我早上常常累得起不來。",
+          "simplified": "我早上常常累得起不来。",
+          "pinyin": "wǒ zǎo shàng cháng cháng lèi dé qǐ bù lái 。",
+          "meaningVi": "Buổi sáng tôi thường mệt đến không dậy nổi."
+        },
+        {
+          "chinese": "腿痛得走不了路。",
+          "simplified": "腿痛得走不了路。",
+          "pinyin": "tuǐ tòng dé zǒu bù liǎo lù 。",
+          "meaningVi": "Chân đau đến mức không đi nổi."
+        }
+      ],
+      "commonMistake": "Không đặt kết quả trực tiếp sau tính từ mà thiếu 得.",
+      "check": {
+        "id": "cc2-v2-l08-grammar-check-06",
+        "prompt": "Điền: 他累＿＿起不來。",
+        "options": [
+          {
+            "id": "a",
+            "text": "得"
+          },
+          {
+            "id": "b",
+            "text": "了"
+          },
+          {
+            "id": "c",
+            "text": "會"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Sau tính từ, 得 dẫn tới kết quả hoặc tác động của mức độ đó.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l08-grammar-07",
+      "title": "V + 下去 — tiếp tục",
+      "audioTrackId": "cc2-textbook-l08-t11",
+      "explanation": "下去 đặt sau động từ để nói hành động còn tiếp diễn từ hiện tại về sau. 學下去 là học tiếp; 說下去 là nói tiếp. Khi phủ định, 學不下去 nêu không thể tiếp tục học trong hoàn cảnh ấy.",
+      "structure": "Động từ + 下去",
+      "examples": [
+        {
+          "chinese": "那你怎麼還學得下去？",
+          "simplified": "那你怎么还学得下去？",
+          "pinyin": "nà nǐ zěn me hái xué dé xià qù ？",
+          "meaningVi": "Vậy sao bạn vẫn học tiếp được?"
+        },
+        {
+          "chinese": "雖然很累，我還想練下去。",
+          "simplified": "虽然很累，我还想练下去。",
+          "pinyin": "suī rán hěn lèi ， wǒ hái xiǎng liàn xià qù 。",
+          "meaningVi": "Dù mệt tôi vẫn muốn tập tiếp."
+        }
+      ],
+      "commonMistake": "Đừng hiểu 下去 theo nghĩa đi xuống trong câu 學下去.",
+      "check": {
+        "id": "cc2-v2-l08-grammar-check-07",
+        "prompt": "Điền: 這門課很有趣，我想學＿＿。",
+        "options": [
+          {
+            "id": "a",
+            "text": "下去"
+          },
+          {
+            "id": "b",
+            "text": "見"
+          },
+          {
+            "id": "c",
+            "text": "完"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "下去 đặt sau động từ để nói hành động còn tiếp diễn từ hiện tại về sau.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l08-grammar-08",
+      "title": "V + 完 — làm xong",
+      "audioTrackId": "cc2-textbook-l08-t12",
+      "explanation": "完 đứng sau động từ để nêu hành động đã hoàn tất. 做完功課 là làm xong bài; 看完書 là đọc hết sách. Có thể thêm 得 / 不 trước 完 để hỏi có thể hoàn tất hay không.",
+      "structure": "Động từ + 完 + đối tượng",
+      "examples": [
+        {
+          "chinese": "做完了功課，再去練習。",
+          "simplified": "做完了功课，再去练习。",
+          "pinyin": "zuò wán le gōng kè ， zài qù liàn xí 。",
+          "meaningVi": "Làm xong bài tập rồi mới đi luyện."
+        },
+        {
+          "chinese": "這本書我看完了。",
+          "simplified": "这本书我看完了。",
+          "pinyin": "zhè běn shū wǒ kàn wán le 。",
+          "meaningVi": "Tôi đọc xong cuốn sách này rồi."
+        }
+      ],
+      "commonMistake": "Đừng dùng 了 thay 完 nếu muốn nói rõ công việc đã hoàn tất.",
+      "check": {
+        "id": "cc2-v2-l08-grammar-check-08",
+        "prompt": "Điền: 我做＿＿功課再去運動。",
+        "options": [
+          {
+            "id": "a",
+            "text": "懂"
+          },
+          {
+            "id": "b",
+            "text": "見"
+          },
+          {
+            "id": "c",
+            "text": "完"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "完 đứng sau động từ để nêu hành động đã hoàn tất.",
+        "skill": "Ngữ pháp"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc2-v2-l08-listening-01",
+      "prompt": "Nghe hội thoại. Vì sao An Đồng không nghe Đông Kiện gọi?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anh đang ngủ"
+        },
+        {
+          "id": "b",
+          "text": "Đông Kiện gọi quá nhỏ"
+        },
+        {
+          "id": "c",
+          "text": "Nhạc quá ồn"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Đông Kiện nói 音樂那麼吵.",
+      "skill": "Nghe chi tiết",
+      "audioTrackId": "cc2-textbook-l08-t01"
+    },
+    {
+      "id": "cc2-v2-l08-listening-02",
+      "prompt": "Nghe hội thoại. An Đồng học Thái Cực Quyền bao lâu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hơn ba tháng"
+        },
+        {
+          "id": "b",
+          "text": "Một tuần"
+        },
+        {
+          "id": "c",
+          "text": "Một năm"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Anh nói 我學了三個多月了.",
+      "skill": "Nghe thời gian",
+      "audioTrackId": "cc2-textbook-l08-t01"
+    },
+    {
+      "id": "cc2-v2-l08-listening-03",
+      "prompt": "Nghe bài đọc. Lúc đầu An Đồng thường than phiền điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Phải tập ở xa nhà"
+        },
+        {
+          "id": "b",
+          "text": "Phải chạy một nghìn mét trước khi tập"
+        },
+        {
+          "id": "c",
+          "text": "Phải làm quá nhiều bài viết"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nói 師父…要大家先跑一千公尺.",
+      "skill": "Nghe chi tiết",
+      "audioTrackId": "cc2-textbook-l08-t03"
+    },
+    {
+      "id": "cc2-v2-l08-listening-04",
+      "prompt": "Nghe bài đọc. Đông Kiện cuối cùng quyết định gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bỏ tập thể dục"
+        },
+        {
+          "id": "b",
+          "text": "Dạy An Đồng tiếng Hoa"
+        },
+        {
+          "id": "c",
+          "text": "Cũng học Thái Cực Quyền"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Đoạn cuối nói anh 也要學太極拳.",
+      "skill": "Nghe kết luận",
+      "audioTrackId": "cc2-textbook-l08-t03"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc2-v2-l08-practice-01",
+      "prompt": "‘聽見’ nhấn điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đã học xong kỹ năng"
+        },
+        {
+          "id": "b",
+          "text": "Đã nghe thấy âm thanh"
+        },
+        {
+          "id": "c",
+          "text": "Đã hiểu toàn bộ nội dung"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "聽見 nói về kết quả nghe thấy.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l08-practice-02",
+      "prompt": "Điền: 他的中文我聽不＿＿。",
+      "options": [
+        {
+          "id": "a",
+          "text": "完"
+        },
+        {
+          "id": "b",
+          "text": "懂"
+        },
+        {
+          "id": "c",
+          "text": "見"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "聽不懂 là nghe mà không hiểu.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l08-practice-03",
+      "prompt": "An Đồng tập môn gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bóng rổ"
+        },
+        {
+          "id": "b",
+          "text": "Cầu lông"
+        },
+        {
+          "id": "c",
+          "text": "Thái Cực Quyền"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Anh nói đang 學太極拳.",
+      "skill": "Hội thoại"
+    },
+    {
+      "id": "cc2-v2-l08-practice-04",
+      "prompt": "Điền: 我學了三個月，才學＿＿游泳。",
+      "options": [
+        {
+          "id": "a",
+          "text": "見"
+        },
+        {
+          "id": "b",
+          "text": "下去"
+        },
+        {
+          "id": "c",
+          "text": "會"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "學會 nêu kỹ năng đã học được.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l08-practice-05",
+      "prompt": "Điền: 這些書太多，我拿不＿＿。",
+      "options": [
+        {
+          "id": "a",
+          "text": "見"
+        },
+        {
+          "id": "b",
+          "text": "懂"
+        },
+        {
+          "id": "c",
+          "text": "了"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "拿不了 là không mang nổi.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l08-practice-06",
+      "prompt": "Điền: 我累＿＿起不來。",
+      "options": [
+        {
+          "id": "a",
+          "text": "完"
+        },
+        {
+          "id": "b",
+          "text": "下去"
+        },
+        {
+          "id": "c",
+          "text": "得"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "得 nối tính từ với kết quả của mức độ.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l08-practice-07",
+      "prompt": "Điền: 雖然很累，他還想學＿＿。",
+      "options": [
+        {
+          "id": "a",
+          "text": "見"
+        },
+        {
+          "id": "b",
+          "text": "下去"
+        },
+        {
+          "id": "c",
+          "text": "完"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "學下去 là tiếp tục học.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l08-practice-08",
+      "prompt": "Điền: 做＿＿功課，我再去練習。",
+      "options": [
+        {
+          "id": "a",
+          "text": "懂"
+        },
+        {
+          "id": "b",
+          "text": "見"
+        },
+        {
+          "id": "c",
+          "text": "完"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "做完 là làm xong.",
+      "skill": "Ngữ pháp"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc2-v2-l08-assessment-01",
+      "prompt": "‘師父’ là ai?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bạn học cùng lớp"
+        },
+        {
+          "id": "b",
+          "text": "Chủ nhà"
+        },
+        {
+          "id": "c",
+          "text": "Sư phụ; người thầy dạy nghề"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "師父 là người thầy truyền dạy kỹ năng.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc2-v2-l08-assessment-02",
+      "prompt": "Điền: 我看＿＿他推著腳踏車走過來。",
+      "options": [
+        {
+          "id": "a",
+          "text": "見"
+        },
+        {
+          "id": "b",
+          "text": "懂"
+        },
+        {
+          "id": "c",
+          "text": "會"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "看見 nêu kết quả nhìn thấy.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l08-assessment-03",
+      "prompt": "An Đồng lúc đầu nghe lời sư phụ thế nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Không hiểu"
+        },
+        {
+          "id": "b",
+          "text": "Hiểu hết ngay"
+        },
+        {
+          "id": "c",
+          "text": "Không nghe thấy tiếng nói"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Anh nói 剛開始我都聽不懂.",
+      "skill": "Hội thoại"
+    },
+    {
+      "id": "cc2-v2-l08-assessment-04",
+      "prompt": "Điền: 她教＿＿弟弟騎車了。",
+      "options": [
+        {
+          "id": "a",
+          "text": "會"
+        },
+        {
+          "id": "b",
+          "text": "完"
+        },
+        {
+          "id": "c",
+          "text": "見"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "教會 là dạy cho ai biết làm một việc.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l08-assessment-05",
+      "prompt": "An Đồng thường chạy bao xa trước buổi tập?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Một nghìn mét"
+        },
+        {
+          "id": "b",
+          "text": "Một trăm mét"
+        },
+        {
+          "id": "c",
+          "text": "Năm cây số"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc ghi 先跑一千公尺.",
+      "skill": "Bài đọc"
+    },
+    {
+      "id": "cc2-v2-l08-assessment-06",
+      "prompt": "Điền: 他累＿＿走不了路。",
+      "options": [
+        {
+          "id": "a",
+          "text": "懂"
+        },
+        {
+          "id": "b",
+          "text": "完"
+        },
+        {
+          "id": "c",
+          "text": "得"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "得 dẫn tới kết quả của mức độ mệt.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l08-assessment-07",
+      "prompt": "‘學不下去’ nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Không thể tiếp tục học"
+        },
+        {
+          "id": "b",
+          "text": "Chưa học xong"
+        },
+        {
+          "id": "c",
+          "text": "Học ở tầng dưới"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "下去 trong mẫu này chỉ sự tiếp diễn.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l08-assessment-08",
+      "prompt": "Điền: 我看＿＿這本書了。",
+      "options": [
+        {
+          "id": "a",
+          "text": "完"
+        },
+        {
+          "id": "b",
+          "text": "懂"
+        },
+        {
+          "id": "c",
+          "text": "下去"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "看完 là đọc hết.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l08-assessment-09",
+      "prompt": "Việc tập võ ảnh hưởng thế nào đến điểm của An Đồng?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anh bỏ học"
+        },
+        {
+          "id": "b",
+          "text": "Không ảnh hưởng"
+        },
+        {
+          "id": "c",
+          "text": "Điểm giảm nhiều"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nói 一點都沒影響安同的成績.",
+      "skill": "Bài đọc"
+    },
+    {
+      "id": "cc2-v2-l08-assessment-10",
+      "prompt": "Cuối cùng Đông Kiện muốn làm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dạy An Đồng chạy bộ"
+        },
+        {
+          "id": "b",
+          "text": "Ngừng tập luyện"
+        },
+        {
+          "id": "c",
+          "text": "Học Thái Cực Quyền cùng An Đồng"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Anh quyết định 也要學太極拳.",
+      "skill": "Bài đọc"
+    }
+  ],
+  "writingTask": {
+    "id": "cc2-v2-l08-writing",
+    "title": "Một sở thích của bạn",
+    "prompt": "Viết 2–3 câu về một môn bạn đang học, điều bạn đã làm được và lý do muốn tiếp tục.",
+    "sampleTraditional": "我學太極拳三個月了，學會了一些動作。雖然很累，可是我還想學下去。",
+    "sampleSimplified": "我学太极拳三个月了，学会了一些动作。虽然很累，可是我还想学下去。"
+  }
+}

@@ -5,6 +5,7 @@ import lesson04Source from "../data/academy/cc2-lesson04-vocabulary.json" with {
 import lesson05Source from "../data/academy/cc2-lesson05-vocabulary.json" with { type: "json" };
 import lesson06Source from "../data/academy/cc2-lesson06-vocabulary.json" with { type: "json" };
 import lesson07Source from "../data/academy/cc2-lesson07-vocabulary.json" with { type: "json" };
+import lesson08Source from "../data/academy/cc2-lesson08-vocabulary.json" with { type: "json" };
 import { cc1Lesson01Words } from "./cc1-lesson01-vocabulary.ts";
 import { cc1CourseVocabularySets } from "./cc1-course-vocabulary.ts";
 import type { VocabularySet, VocabularyWord } from "./vocabulary.ts";
@@ -40,6 +41,7 @@ export const cc2Lesson04Words = lessonWords(lesson04Source.records, 4, [...exist
 export const cc2Lesson05Words = lessonWords(lesson05Source.records, 5, [...existing, ...cc2Lesson01Words, ...cc2Lesson02Words, ...cc2Lesson03Words, ...cc2Lesson04Words]);
 export const cc2Lesson06Words = lessonWords(lesson06Source.records, 6, [...existing, ...cc2Lesson01Words, ...cc2Lesson02Words, ...cc2Lesson03Words, ...cc2Lesson04Words, ...cc2Lesson05Words]);
 export const cc2Lesson07Words = lessonWords(lesson07Source.records, 7, [...existing, ...cc2Lesson01Words, ...cc2Lesson02Words, ...cc2Lesson03Words, ...cc2Lesson04Words, ...cc2Lesson05Words, ...cc2Lesson06Words]);
+export const cc2Lesson08Words = lessonWords(lesson08Source.records, 8, [...existing, ...cc2Lesson01Words, ...cc2Lesson02Words, ...cc2Lesson03Words, ...cc2Lesson04Words, ...cc2Lesson05Words, ...cc2Lesson06Words, ...cc2Lesson07Words]);
 
 export const cc2VocabularySets: VocabularySet[] = [{
   id: "cc2-v2-l01",
@@ -76,4 +78,9 @@ export const cc2VocabularySets: VocabularySet[] = [{
   title: "Bài 07 · 垃圾車來了！",
   subtitle: "Xe rác đến rồi!",
   words: cc2Lesson07Words,
+}, {
+  id: "cc2-v2-l08",
+  title: "Bài 08 · 學功夫",
+  subtitle: "Học võ công",
+  words: cc2Lesson08Words,
 }];

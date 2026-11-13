@@ -1,0 +1,1002 @@
+{
+  "contentVersion": 2,
+  "id": "cc2-v2-l05",
+  "title": "吃喜酒",
+  "titleVi": "Đi dự tiệc cưới",
+  "description": "Giới thiệu người quen, quan sát lễ cưới và tìm hiểu cách mừng đám cưới ở Đài Loan.",
+  "objectives": [
+    "Giới thiệu người quen và chúc mừng đôi vợ chồng mới cưới.",
+    "Mô tả trang phục và hoạt động trong tiệc cưới.",
+    "Dùng 還, 著 và 等…就… để kể sự việc theo thời gian."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "An Đồng và Mỹ Linh lần đầu dự tiệc cưới ở Đài Loan. Hãy nghe cách họ chào hỏi và nhận ra những người trong buổi lễ.",
+    "sections": [
+      {
+        "id": "cc2-v2-l05-section-01",
+        "title": "Nhận ra người trong đám cưới",
+        "body": "Để chỉ rõ một người giữa đám đông, lời thoại dùng đặc điểm trang phục và vị trí của họ.",
+        "chinese": "就是穿著白西裝的那個。",
+        "simplified": "就是穿著白西装的那个。",
+        "pinyin": "jiù shì chuān zhù bái xī zhuāng de nà gè 。",
+        "meaningVi": "Chính là người mặc vest trắng ấy."
+      },
+      {
+        "id": "cc2-v2-l05-section-02",
+        "title": "Mốc thời gian của buổi lễ",
+        "body": "Từ 等 đặt mốc khách đến đủ; 就 nêu việc tiệc bắt đầu ngay sau đó.",
+        "chinese": "等客人都到了，喜宴就開始了。",
+        "simplified": "等客人都到了，喜宴就开始了。",
+        "pinyin": "děng kè rén dōu dào le ， xǐ yàn jiù kāi shǐ le 。",
+        "meaningVi": "Khi khách đến đủ, tiệc cưới bắt đầu."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc2-v2-l05-dialogue",
+        "title": "Gặp nhau tại tiệc cưới",
+        "context": "Minh Hoa đón An Đồng và Mỹ Linh, giới thiệu người thân trong buổi lễ.",
+        "audioTrackId": "cc2-textbook-l05-t01",
+        "turns": [
+          {
+            "speaker": "明華",
+            "chinese": "安同，你們來了。",
+            "simplified": "安同，你们来了。",
+            "pinyin": "ān tóng ， nǐ men lái le 。",
+            "meaningVi": "An Đồng, các bạn đến rồi."
+          },
+          {
+            "speaker": "安同",
+            "chinese": "恭喜！恭喜！明華，這是我常跟你說的高美玲。美玲，他就是新娘的哥哥，李明華。",
+            "simplified": "恭喜！恭喜！明华，这是我常跟你说的高美玲。美玲，他就是新娘的哥哥，李明华。",
+            "pinyin": "gōng xǐ ！ gōng xǐ ！ míng huá ， zhè shì wǒ cháng gēn nǐ shuō de gāo měi líng 。 měi líng ， tā jiù shì xīn niáng dī gē gē ， lǐ míng huá 。",
+            "meaningVi": "Chúc mừng, Minh Hoa! Đây là Cao Mỹ Linh mà mình thường kể với cậu. Mỹ Linh, đây là anh trai cô dâu, Lý Minh Hoa."
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "李先生，恭喜你們！謝謝你請我們來參加你妹妹的婚禮。",
+            "simplified": "李先生，恭喜你们！谢谢你请我们来参加你妹妹的婚礼。",
+            "pinyin": "lǐ xiān shēng ， gōng xǐ nǐ men ！ xiè xiè nǐ qǐng wǒ men lái cān jiā nǐ mèi mèi de hūn lǐ 。",
+            "meaningVi": "Anh Lý, xin chúc mừng gia đình! Cảm ơn anh đã mời chúng tôi dự đám cưới em gái anh."
+          },
+          {
+            "speaker": "明華",
+            "chinese": "你太客氣了。安同，你今天穿西裝真好看。",
+            "simplified": "你太客气了。安同，你今天穿西装真好看。",
+            "pinyin": "nǐ tài kè qì le 。 ān tóng ， nǐ jīn tiān chuān xī zhuāng zhēn hǎo kàn 。",
+            "meaningVi": "Cô khách sáo quá. An Đồng, hôm nay cậu mặc vest trông đẹp thật."
+          },
+          {
+            "speaker": "安同",
+            "chinese": "謝謝，參加婚禮應該要穿得很正式。",
+            "simplified": "谢谢，参加婚礼应该要穿得很正式。",
+            "pinyin": "xiè xiè ， cān jiā hūn lǐ yīng gāi yào chuān dé hěn zhèng shì 。",
+            "meaningVi": "Cảm ơn. Dự đám cưới thì nên ăn mặc trang trọng."
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "客人怎麼都還沒到？",
+            "simplified": "客人怎么都还没到？",
+            "pinyin": "kè rén zěn me dōu hái méi dào ？",
+            "meaningVi": "Sao khách vẫn chưa đến vậy?"
+          },
+          {
+            "speaker": "明華",
+            "chinese": "現在才六點，婚禮六點半開始，時間還早。",
+            "simplified": "现在才六点，婚礼六点半开始，时间还早。",
+            "pinyin": "xiàn zài cái liù diǎn ， hūn lǐ liù diǎn bàn kāi shǐ ， shí jiān hái zǎo 。",
+            "meaningVi": "Bây giờ mới sáu giờ; lễ cưới bắt đầu lúc sáu giờ rưỡi, vẫn còn sớm."
+          },
+          {
+            "speaker": "安同",
+            "chinese": "明華，手裡拿著照相機的那個人是誰？",
+            "simplified": "明华，手里拿着照相机的那个人是谁？",
+            "pinyin": "míng huá ， shǒu lǐ ná zhù zhào xiàng jī de nà gè rén shì shuí ？",
+            "meaningVi": "Minh Hoa, người cầm máy ảnh kia là ai?"
+          },
+          {
+            "speaker": "明華",
+            "chinese": "他是新郎的弟弟。",
+            "simplified": "他是新郎的弟弟。",
+            "pinyin": "tā shì xīn láng de dì di 。",
+            "meaningVi": "Cậu ấy là em trai chú rể."
+          },
+          {
+            "speaker": "安同",
+            "chinese": "新郎呢？",
+            "simplified": "新郎呢？",
+            "pinyin": "xīn láng ne ？",
+            "meaningVi": "Thế chú rể đâu?"
+          },
+          {
+            "speaker": "明華",
+            "chinese": "他在門口站著跟客人說話。",
+            "simplified": "他在门口站着跟客人说话。",
+            "pinyin": "tā zài mén kǒu zhàn zhù gēn kè rén shuō huà 。",
+            "meaningVi": "Anh ấy đang đứng ở cửa nói chuyện với khách."
+          },
+          {
+            "speaker": "安同",
+            "chinese": "哪一個？",
+            "simplified": "哪一个？",
+            "pinyin": "nǎ yī gè ？",
+            "meaningVi": "Người nào?"
+          },
+          {
+            "speaker": "明華",
+            "chinese": "就是穿著白西裝的那個。",
+            "simplified": "就是穿著白西装的那个。",
+            "pinyin": "jiù shì chuān zhù bái xī zhuāng de nà gè 。",
+            "meaningVi": "Chính là người mặc vest trắng ấy."
+          },
+          {
+            "speaker": "安同",
+            "chinese": "新郎看起來好帥。",
+            "simplified": "新郎看起来好帅。",
+            "pinyin": "xīn láng kàn qǐ lái hǎo shuài 。",
+            "meaningVi": "Chú rể trông đẹp trai thật."
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "你看，那邊那位穿著紅色禮服，跟客人說話的太太是誰？",
+            "simplified": "你看，那边那位穿着红色礼服，跟客人说话的太太是谁？",
+            "pinyin": "nǐ kàn ， nà biān nà wèi chuān zhù hóng sè lǐ fú ， gēn kè rén shuō huà de tài tài shì shuí ？",
+            "meaningVi": "Nhìn kìa, người phụ nữ mặc lễ phục đỏ đang nói chuyện với khách là ai?"
+          },
+          {
+            "speaker": "明華",
+            "chinese": "那是新郎的媽媽。",
+            "simplified": "那是新郎的妈妈。",
+            "pinyin": "nà shì xīn láng de mā mā 。",
+            "meaningVi": "Đó là mẹ chú rể."
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "她看起來好高興啊！怎麼沒看見新娘呢？",
+            "simplified": "她看起来好高兴啊！怎么没看见新娘呢？",
+            "pinyin": "tā kàn qǐ lái hǎo gāo xìng a ！ zěn me méi kàn jiàn xīn niáng ne ？",
+            "meaningVi": "Bà ấy trông vui quá! Sao vẫn chưa thấy cô dâu?"
+          },
+          {
+            "speaker": "明華",
+            "chinese": "等一下你們就會看見她了。婚禮要開始了，我帶你們去你們的座位吧！",
+            "simplified": "等一下你们就会看见她了。婚礼要开始了，我带你们去你们的座位吧！",
+            "pinyin": "děng yí xià nǐ men jiù huì kàn jiàn tā le 。 hūn lǐ yào kāi shǐ le ， wǒ dài nǐ men qù nǐ men de zuò wèi ba ！",
+            "meaningVi": "Lát nữa các bạn sẽ thấy cô ấy. Lễ cưới sắp bắt đầu rồi, để mình dẫn các bạn đến chỗ ngồi nhé!"
+          }
+        ]
+      },
+      {
+        "id": "cc2-v2-l05-reading",
+        "title": "Một tiệc cưới ở Đài Loan",
+        "context": "Bài đọc kể trình tự và những lời chúc trong tiệc cưới.",
+        "audioTrackId": "cc2-textbook-l05-t03",
+        "turns": [
+          {
+            "speaker": "Bài đọc",
+            "chinese": "李明華請安同和美玲去參加他妹妹的婚禮，這是安同他們第一次去吃喜酒。李明華告訴他們，在台灣，要結婚的人大部分都會找一個好日子，請親戚、朋友一起吃飯，熱熱鬧鬧地慶祝這件喜事。",
+            "simplified": "李明华请安同和美玲去参加他妹妹的婚礼，这是安同他们第一次去吃喜酒。李明华告诉他们，在台湾，要结婚的人大部分都会找一个好日子，请亲戚、朋友一起吃饭，热热闹闹地庆祝这件喜事。",
+            "pinyin": "lǐ míng huá qǐng ān tóng hé měi líng qù cān jiā tā mèi mèi de hūn lǐ ， zhè shì ān tóng tā men dì yī cì qù chī xǐ jiǔ 。 lǐ míng huá gào sù tā men ， zài tái wān ， yào jié hūn de rén dà bù fèn dōu huì zhǎo yī gè hǎo rì zi ， qǐng qīn qī 、 péng yǒu yì qǐ chī fàn ， rè rè nào nào dì qìng zhù zhè jiàn xǐ shì 。",
+            "meaningVi": "Lý Minh Hoa mời An Đồng và Mỹ Linh dự đám cưới em gái mình. Đây là lần đầu họ dự tiệc cưới. Minh Hoa kể rằng ở Đài Loan, phần lớn các cặp đôi chọn ngày đẹp rồi mời họ hàng, bạn bè cùng ăn uống, tổ chức vui vẻ để mừng chuyện hỷ."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "請客的那天，新郎、新娘，還有來吃喜酒的客人都穿得漂漂亮亮的。來參加的客人都會準備一個紅包送新人。等客人都到了，喜宴就開始了。大家吃了一會兒，有的人忙著到處敬酒，有的人忙著跟朋友聊天，大人有說有笑，小孩有吃有喝，熱鬧得不得了。大家吃著吃著，新郎、新娘和他們的父母就來敬酒了。客人也會祝新人百年好合、早生貴子。",
+            "simplified": "请客的那天，新郎、新娘，还有来吃喜酒的客人都穿得漂漂亮亮的。来参加的客人都会准备一个红包送新人。等客人都到了，喜宴就开始了。大家吃了一会儿，有的人忙着到处敬酒，有的人忙着跟朋友聊天，大人有说有笑，小孩有吃有喝，热闹得不得了。大家吃着吃着，新郎、新娘和他们的父母就来敬酒了。客人也会祝新人百年好合、早生贵子。",
+            "pinyin": "qǐng kè de nà tiān ， xīn láng 、 xīn niáng ， hái yǒu lái chī xǐ jiǔ de kè rén dōu chuān dé piāo piāo liàng liàng de 。 lái cān jiā de kè rén dōu huì zhǔn bèi yī gè hóng bāo sòng xīn rén 。 děng kè rén dōu dào le ， xǐ yàn jiù kāi shǐ le 。 dà jiā chī le yī huì ér ， yǒu de rén máng zhù dào chù jìng jiǔ ， yǒu de rén máng zhù gēn péng yǒu liáo tiān ， dà rén yǒu shuō yǒu xiào ， xiǎo hái yǒu chī yǒu hē ， rè nào dé bù dé le 。 dà jiā chī zhù chī zhù ， xīn láng 、 xīn niáng hé tā men de fù mǔ jiù lái jìng jiǔ le 。 kè rén yě huì zhù xīn rén bǎi nián hǎo hé 、 zǎo shēng guì zi 。",
+            "meaningVi": "Trong ngày đãi tiệc, cô dâu, chú rể và khách đều ăn mặc đẹp. Khách chuẩn bị phong bì tiền mừng tặng đôi vợ chồng mới cưới. Khi mọi người đến đủ, tiệc bắt đầu. Ăn được một lúc, có người đi mời rượu, có người trò chuyện cùng bạn; người lớn cười nói, trẻ con ăn uống, không khí rất náo nhiệt. Đang ăn thì cô dâu, chú rể cùng cha mẹ đến nâng ly. Khách chúc họ trăm năm hạnh phúc, sớm có con."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "等喜酒吃得差不多了，新娘會換另外一件漂亮的禮服，跟新郎拿著糖在門口送客人離開。這個時候很多人會跟新人一起照相，再多說幾句祝福的話。等客人都回去了，喜宴就結束了。",
+            "simplified": "等喜酒吃得差不多了，新娘会换另外一件漂亮的礼服，跟新郎拿着糖在门口送客人离开。这个时候很多人会跟新人一起照相，再多说几句祝福的话。等客人都回去了，喜宴就结束了。",
+            "pinyin": "děng xǐ jiǔ chī dé chà bu duō le ， xīn niáng huì huàn lìng wài yī jiàn piào liàng de lǐ fú ， gēn xīn láng ná zhù táng zài mén kǒu sòng kè rén lí kāi 。 zhè gè shí hòu hěn duō rén huì gēn xīn rén yì qǐ zhào xiàng ， zài duō shuō jǐ jù zhù fú de huà 。 děng kè rén dōu huí qù le ， xǐ yàn jiù jié shù le 。",
+            "meaningVi": "Khi tiệc gần tàn, cô dâu thay bộ lễ phục đẹp khác rồi cùng chú rể cầm kẹo đứng ở cửa tiễn khách. Lúc ấy nhiều người chụp ảnh chung với đôi vợ chồng mới cưới và chúc thêm vài lời. Khi khách đã về hết, tiệc cưới kết thúc."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc2-v2-l05-check-01",
+        "prompt": "Người mặc vest trắng là ai?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Chú rể"
+          },
+          {
+            "id": "b",
+            "text": "Em trai chú rể"
+          },
+          {
+            "id": "c",
+            "text": "Anh trai cô dâu"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Minh Hoa nói 就是穿著白西裝的那個 về chú rể.",
+        "skill": "Hội thoại"
+      },
+      {
+        "id": "cc2-v2-l05-check-02",
+        "prompt": "Khi nào tiệc cưới bắt đầu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Khi khách đến đủ"
+          },
+          {
+            "id": "b",
+            "text": "Khi cô dâu thay đồ"
+          },
+          {
+            "id": "c",
+            "text": "Ngay lúc An Đồng đến"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Bài đọc ghi 等客人都到了，喜宴就開始了.",
+        "skill": "Bài đọc"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem phiên âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc2-v2-l05-v001",
+      "cc2-v2-l05-v002",
+      "cc2-v2-l05-v003",
+      "cc2-v2-l05-v004",
+      "cc2-v2-l05-v005",
+      "cc2-v2-l05-v006",
+      "cc2-v2-l05-v007",
+      "cc2-v2-l05-v008",
+      "cc2-v2-l05-v009",
+      "cc2-v2-l05-v010",
+      "cc2-v2-l05-v011",
+      "cc2-v2-l05-v012",
+      "cc2-v2-l05-v013",
+      "cc2-v2-l05-v014",
+      "cc2-v2-l05-v015",
+      "cc2-v2-l05-v016",
+      "cc2-v2-l05-v017",
+      "cc2-v2-l05-v018",
+      "cc2-v2-l05-v019",
+      "cc2-v2-l05-v020",
+      "cc2-v2-l05-v021",
+      "cc2-v2-l05-v022",
+      "cc2-v2-l05-v023",
+      "cc2-v2-l05-v024",
+      "cc2-v2-l05-v025",
+      "cc2-v2-l05-v026",
+      "cc2-v2-l05-v027",
+      "cc2-v2-l05-v028",
+      "cc2-v2-l05-v029",
+      "cc2-v2-l05-v030",
+      "cc2-v2-l05-v031",
+      "cc2-v2-l05-v032",
+      "cc2-v2-l05-v033",
+      "cc2-v2-l05-v034",
+      "cc2-v2-l05-v035",
+      "cc2-v2-l05-v036",
+      "cc2-v2-l05-v037",
+      "cc2-v2-l05-v038",
+      "cc2-v2-l05-v039",
+      "cc2-v2-l05-v040",
+      "cc2-v2-l05-v041",
+      "cc2-v2-l05-v042",
+      "cc2-v2-l05-v043",
+      "cc2-v2-l05-v044"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc2-textbook-l05-t02",
+        "label": "Từ vựng hội thoại"
+      },
+      {
+        "id": "cc2-textbook-l05-t04",
+        "label": "Từ vựng bài đọc"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc2-v2-l05-grammar-01",
+      "title": "還 — vẫn; còn",
+      "audioTrackId": "cc2-textbook-l05-t05",
+      "explanation": "還 đứng trước tính từ, động từ hoặc từ phủ định để nói trạng thái chưa thay đổi: 時間還早 là vẫn còn sớm, 客人還沒到 là khách vẫn chưa tới. Trong ngữ cảnh khác, 還 cũng có nghĩa 'còn thêm'; hãy dựa vào điều đang nói để phân biệt.",
+      "structure": "Chủ ngữ + 還 + trạng thái / 還 + 沒 + động từ",
+      "examples": [
+        {
+          "chinese": "時間還早。",
+          "simplified": "时间还早。",
+          "pinyin": "shí jiān hái zǎo 。",
+          "meaningVi": "Vẫn còn sớm."
+        },
+        {
+          "chinese": "客人還沒到。",
+          "simplified": "客人还没到。",
+          "pinyin": "kè rén hái méi dào 。",
+          "meaningVi": "Khách vẫn chưa tới."
+        }
+      ],
+      "commonMistake": "Đừng dùng 還 để thay 已經: 還沒到 là chưa tới, 已經到了 là đã tới.",
+      "check": {
+        "id": "cc2-v2-l05-grammar-check-01",
+        "prompt": "Điền vào câu: 客人＿＿沒到。",
+        "options": [
+          {
+            "id": "a",
+            "text": "才"
+          },
+          {
+            "id": "b",
+            "text": "還"
+          },
+          {
+            "id": "c",
+            "text": "已經"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "還 đứng trước tính từ, động từ hoặc từ phủ định để nói trạng thái chưa thay đổi: 時間還早 là vẫn còn sớm, 客人還沒到 là khách vẫn chưa tới.",
+        "skill": "還 — vẫn; còn"
+      }
+    },
+    {
+      "id": "cc2-v2-l05-grammar-02",
+      "title": "V 著 + hành động — vừa giữ trạng thái, vừa làm",
+      "audioTrackId": "cc2-textbook-l05-t06",
+      "explanation": "Đặt 著 sau hành động hoặc trạng thái được duy trì trong khi làm hành động chính: 站著說話 là đứng nói chuyện, 拿著照相機 là cầm máy ảnh. V-著 mô tả cách hành động chính diễn ra, không chỉ đơn giản kể hai việc đồng thời như 一邊…一邊… .",
+      "structure": "Động từ 1 + 著 + động từ 2",
+      "examples": [
+        {
+          "chinese": "他在門口站著跟客人說話。",
+          "simplified": "他在门口站着跟客人说话。",
+          "pinyin": "tā zài mén kǒu zhàn zhù gēn kè rén shuō huà 。",
+          "meaningVi": "Anh ấy đứng ở cửa nói chuyện với khách."
+        },
+        {
+          "chinese": "他手裡拿著照相機。",
+          "simplified": "他手里拿着照相机。",
+          "pinyin": "tā shǒu lǐ ná zhù zhào xiàng jī 。",
+          "meaningVi": "Anh ấy cầm máy ảnh trong tay."
+        }
+      ],
+      "commonMistake": "Không thêm 了 sau 著 khi muốn diễn tả tư thế đang được duy trì trong câu này.",
+      "check": {
+        "id": "cc2-v2-l05-grammar-check-02",
+        "prompt": "Điền vào câu: 他在門口站＿＿說話。",
+        "options": [
+          {
+            "id": "a",
+            "text": "著"
+          },
+          {
+            "id": "b",
+            "text": "了"
+          },
+          {
+            "id": "c",
+            "text": "過"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Đặt 著 sau hành động hoặc trạng thái được duy trì trong khi làm hành động chính: 站著說話 là đứng nói chuyện, 拿著照相機 là cầm máy ảnh.",
+        "skill": "V 著 + hành động — vừa giữ trạng thái, vừa làm"
+      }
+    },
+    {
+      "id": "cc2-v2-l05-grammar-03",
+      "title": "Nhiều cụm động từ trong một câu",
+      "audioTrackId": "cc2-textbook-l05-t07",
+      "explanation": "Khi một người làm nhiều việc liên tiếp, đặt các cụm động từ theo trình tự sự việc. 我帶你們去座位 nghĩa là tôi dẫn các bạn đến chỗ ngồi; đổi thứ tự có thể làm đổi trọng tâm hoặc ý nghĩa. Từ phủ định thường đặt trước động từ đầu tiên.",
+      "structure": "Chủ ngữ + động từ 1 + tân ngữ + động từ 2 + nơi chốn / mục đích",
+      "examples": [
+        {
+          "chinese": "我帶你們去你們的座位吧！",
+          "simplified": "我带你们去你们的座位吧！",
+          "pinyin": "wǒ dài nǐ men qù nǐ men de zuò wèi ba ！",
+          "meaningVi": "Để tôi dẫn các bạn đến chỗ ngồi nhé!"
+        },
+        {
+          "chinese": "我跟弟弟去機場接朋友。",
+          "simplified": "我跟弟弟去机场接朋友。",
+          "pinyin": "wǒ gēn dì di qù jī chǎng jiē péng yǒu 。",
+          "meaningVi": "Tôi cùng em trai ra sân bay đón bạn."
+        }
+      ],
+      "commonMistake": "Đừng tùy tiện đảo vị trí các động từ vì câu có thể đổi nghĩa.",
+      "check": {
+        "id": "cc2-v2-l05-grammar-check-03",
+        "prompt": "Điền vào câu: 我＿＿你們去座位。",
+        "options": [
+          {
+            "id": "a",
+            "text": "等"
+          },
+          {
+            "id": "b",
+            "text": "帶"
+          },
+          {
+            "id": "c",
+            "text": "還"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Khi một người làm nhiều việc liên tiếp, đặt các cụm động từ theo trình tự sự việc.",
+        "skill": "Nhiều cụm động từ trong một câu"
+      }
+    },
+    {
+      "id": "cc2-v2-l05-grammar-04",
+      "title": "等…就… — đợi đến khi… thì…",
+      "audioTrackId": "cc2-textbook-l05-t08",
+      "explanation": "Dùng 等 để đặt mốc sự việc A, sau đó 就 nêu sự việc B sẽ diễn ra ngay khi A hoàn tất. Trong bài, khi khách về hết thì tiệc kết thúc. Có thể đặt từ phủ định ở vế phù hợp với nghĩa muốn nói.",
+      "structure": "等 + sự việc A，+ chủ ngữ + 就 + sự việc B",
+      "examples": [
+        {
+          "chinese": "等客人都回去了，喜宴就結束了。",
+          "simplified": "等客人都回去了，喜宴就结束了。",
+          "pinyin": "děng kè rén dōu huí qù le ， xǐ yàn jiù jié shù le 。",
+          "meaningVi": "Khi khách về hết, tiệc cưới liền kết thúc."
+        },
+        {
+          "chinese": "等婚禮開始了，我們就去拍照。",
+          "simplified": "等婚礼开始了，我们就去拍照。",
+          "pinyin": "děng hūn lǐ kāi shǐ le ， wǒ men jiù qù pāi zhào 。",
+          "meaningVi": "Khi lễ cưới bắt đầu, chúng ta sẽ đi chụp ảnh."
+        }
+      ],
+      "commonMistake": "Không hiểu 等 là 'đợi' một mình rồi bỏ vế 就 khi câu muốn nêu kết quả tiếp theo.",
+      "check": {
+        "id": "cc2-v2-l05-grammar-check-04",
+        "prompt": "Điền vào câu: 等客人都到了，喜宴＿＿開始。",
+        "options": [
+          {
+            "id": "a",
+            "text": "過"
+          },
+          {
+            "id": "b",
+            "text": "就"
+          },
+          {
+            "id": "c",
+            "text": "還"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Dùng 等 để đặt mốc sự việc A, sau đó 就 nêu sự việc B sẽ diễn ra ngay khi A hoàn tất.",
+        "skill": "等…就… — đợi đến khi… thì…"
+      }
+    },
+    {
+      "id": "cc2-v2-l05-grammar-05",
+      "title": "V 著 V 著，就…了 — đang… thì…",
+      "audioTrackId": "cc2-textbook-l05-t09",
+      "explanation": "Lặp động từ kèm 著 để nhấn mạnh một hành động đang tiếp diễn thì có việc khác xảy ra: 吃著吃著，就來敬酒了. Nếu động từ có tân ngữ, thường đưa tân ngữ lên trước hoặc lược bỏ khi đã rõ từ ngữ cảnh.",
+      "structure": "(Tân ngữ) + động từ + 著 + động từ + 著，+ 就 + sự việc mới + 了",
+      "examples": [
+        {
+          "chinese": "大家吃著吃著，新郎、新娘就來敬酒了。",
+          "simplified": "大家吃着吃着，新郎、新娘就来敬酒了。",
+          "pinyin": "dà jiā chī zhù chī zhù ， xīn láng 、 xīn niáng jiù lái jìng jiǔ le 。",
+          "meaningVi": "Mọi người đang ăn thì cô dâu chú rể đến mời rượu."
+        },
+        {
+          "chinese": "我們等著等著，喜宴就開始了。",
+          "simplified": "我们等着等着，喜宴就开始了。",
+          "pinyin": "wǒ men děng zhù děng zhù ， xǐ yàn jiù kāi shǐ le 。",
+          "meaningVi": "Chúng tôi đang đợi thì tiệc cưới bắt đầu."
+        }
+      ],
+      "commonMistake": "Đừng đặt tân ngữ sau mỗi lần lặp động từ; hãy nói 吃著吃著, không phải 吃飯著吃飯著.",
+      "check": {
+        "id": "cc2-v2-l05-grammar-check-05",
+        "prompt": "Điền vào câu: 大家吃著吃著，新郎新娘＿＿來敬酒了。",
+        "options": [
+          {
+            "id": "a",
+            "text": "還"
+          },
+          {
+            "id": "b",
+            "text": "才"
+          },
+          {
+            "id": "c",
+            "text": "就"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Lặp động từ kèm 著 để nhấn mạnh một hành động đang tiếp diễn thì có việc khác xảy ra: 吃著吃著，就來敬酒了.",
+        "skill": "V 著 V 著，就…了 — đang… thì…"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc2-v2-l05-listening-01",
+      "prompt": "Nghe hội thoại. Lễ cưới bắt đầu lúc nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bảy giờ"
+        },
+        {
+          "id": "b",
+          "text": "Sáu giờ rưỡi"
+        },
+        {
+          "id": "c",
+          "text": "Sáu giờ"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Minh Hoa nói 婚禮六點半開始.",
+      "skill": "Nghe thời gian",
+      "audioTrackId": "cc2-textbook-l05-t01"
+    },
+    {
+      "id": "cc2-v2-l05-listening-02",
+      "prompt": "Nghe hội thoại. Ai là người cầm máy ảnh?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Em trai chú rể"
+        },
+        {
+          "id": "b",
+          "text": "Cha chú rể"
+        },
+        {
+          "id": "c",
+          "text": "Anh trai cô dâu"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Minh Hoa nói 他是新郎的弟弟.",
+      "skill": "Nghe chi tiết",
+      "audioTrackId": "cc2-textbook-l05-t01"
+    },
+    {
+      "id": "cc2-v2-l05-listening-03",
+      "prompt": "Nghe bài đọc. Khách chuẩn bị gì tặng đôi vợ chồng mới cưới?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Máy ảnh"
+        },
+        {
+          "id": "b",
+          "text": "Bộ vest"
+        },
+        {
+          "id": "c",
+          "text": "Phong bì tiền mừng"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc nói 準備一個紅包送新人.",
+      "skill": "Nghe chi tiết",
+      "audioTrackId": "cc2-textbook-l05-t03"
+    },
+    {
+      "id": "cc2-v2-l05-listening-04",
+      "prompt": "Nghe bài đọc. Khi nào tiệc cưới kết thúc?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sau khi khách ra về"
+        },
+        {
+          "id": "b",
+          "text": "Khi mới bắt đầu ăn"
+        },
+        {
+          "id": "c",
+          "text": "Khi mọi người chụp ảnh"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc nói 等客人都回去了，喜宴就結束了.",
+      "skill": "Nghe trình tự",
+      "audioTrackId": "cc2-textbook-l05-t03"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc2-v2-l05-practice-01",
+      "prompt": "‘喜酒’ là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "lớp học"
+        },
+        {
+          "id": "b",
+          "text": "tiệc cưới"
+        },
+        {
+          "id": "c",
+          "text": "buổi phỏng vấn"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "喜酒 là tiệc cưới.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc2-v2-l05-practice-02",
+      "prompt": "Điền: 客人＿＿沒到。",
+      "options": [
+        {
+          "id": "a",
+          "text": "過"
+        },
+        {
+          "id": "b",
+          "text": "還"
+        },
+        {
+          "id": "c",
+          "text": "已經"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "還沒到 nghĩa là vẫn chưa tới.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l05-practice-03",
+      "prompt": "Minh Hoa là ai của cô dâu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Em trai"
+        },
+        {
+          "id": "b",
+          "text": "Anh trai"
+        },
+        {
+          "id": "c",
+          "text": "Chú rể"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "An Đồng giới thiệu 他就是新娘的哥哥.",
+      "skill": "Hội thoại"
+    },
+    {
+      "id": "cc2-v2-l05-practice-04",
+      "prompt": "Điền: 他站＿＿跟客人說話。",
+      "options": [
+        {
+          "id": "a",
+          "text": "了"
+        },
+        {
+          "id": "b",
+          "text": "著"
+        },
+        {
+          "id": "c",
+          "text": "過"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "站著 mô tả tư thế được duy trì khi nói chuyện.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l05-practice-05",
+      "prompt": "Khách thường chuẩn bị gì cho đôi vợ chồng mới cưới?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Phong bì tiền mừng"
+        },
+        {
+          "id": "b",
+          "text": "Bản đồ"
+        },
+        {
+          "id": "c",
+          "text": "Sách giáo khoa"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc ghi 準備一個紅包送新人.",
+      "skill": "Bài đọc"
+    },
+    {
+      "id": "cc2-v2-l05-practice-06",
+      "prompt": "Điền: 等客人都到了，喜宴＿＿開始。",
+      "options": [
+        {
+          "id": "a",
+          "text": "就"
+        },
+        {
+          "id": "b",
+          "text": "還"
+        },
+        {
+          "id": "c",
+          "text": "過"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "等…就… diễn tả việc tiếp theo sau mốc chờ.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l05-practice-07",
+      "prompt": "Chú rể mặc gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Áo khoác đen"
+        },
+        {
+          "id": "b",
+          "text": "Vest trắng"
+        },
+        {
+          "id": "c",
+          "text": "Lễ phục đỏ"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Minh Hoa nói 穿著白西裝的那個.",
+      "skill": "Hội thoại"
+    },
+    {
+      "id": "cc2-v2-l05-practice-08",
+      "prompt": "Điền: 大家吃著吃著，新人＿＿來敬酒了。",
+      "options": [
+        {
+          "id": "a",
+          "text": "過"
+        },
+        {
+          "id": "b",
+          "text": "就"
+        },
+        {
+          "id": "c",
+          "text": "還"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "V著V著，就…了 nói việc mới xảy ra lúc đang làm việc khác.",
+      "skill": "Ngữ pháp"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc2-v2-l05-assessment-01",
+      "prompt": "‘新娘’ là ai?",
+      "options": [
+        {
+          "id": "a",
+          "text": "khách mời"
+        },
+        {
+          "id": "b",
+          "text": "cô dâu"
+        },
+        {
+          "id": "c",
+          "text": "chú rể"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "新娘 là cô dâu.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc2-v2-l05-assessment-02",
+      "prompt": "Lễ cưới bắt đầu lúc mấy giờ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sáu giờ rưỡi"
+        },
+        {
+          "id": "b",
+          "text": "Sáu giờ"
+        },
+        {
+          "id": "c",
+          "text": "Bảy giờ"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Minh Hoa nói 婚禮六點半開始.",
+      "skill": "Hội thoại"
+    },
+    {
+      "id": "cc2-v2-l05-assessment-03",
+      "prompt": "Điền: 時間＿＿早。",
+      "options": [
+        {
+          "id": "a",
+          "text": "已經"
+        },
+        {
+          "id": "b",
+          "text": "過"
+        },
+        {
+          "id": "c",
+          "text": "還"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "還早 nghĩa là vẫn còn sớm.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l05-assessment-04",
+      "prompt": "Người cầm máy ảnh là ai?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Em trai chú rể"
+        },
+        {
+          "id": "b",
+          "text": "Anh trai cô dâu"
+        },
+        {
+          "id": "c",
+          "text": "Cha cô dâu"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Minh Hoa nói 他是新郎的弟弟.",
+      "skill": "Hội thoại"
+    },
+    {
+      "id": "cc2-v2-l05-assessment-05",
+      "prompt": "Điền: 他拿＿＿照相機。",
+      "options": [
+        {
+          "id": "a",
+          "text": "了"
+        },
+        {
+          "id": "b",
+          "text": "過"
+        },
+        {
+          "id": "c",
+          "text": "著"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "拿著 diễn tả việc đang cầm.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l05-assessment-06",
+      "prompt": "Khách chúc đôi vợ chồng mới cưới điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thi đỗ TOCFL"
+        },
+        {
+          "id": "b",
+          "text": "Tìm được việc làm"
+        },
+        {
+          "id": "c",
+          "text": "Trăm năm hạnh phúc, sớm có con"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc ghi 百年好合、早生貴子.",
+      "skill": "Bài đọc"
+    },
+    {
+      "id": "cc2-v2-l05-assessment-07",
+      "prompt": "Điền: 等客人回去了，喜宴＿＿結束。",
+      "options": [
+        {
+          "id": "a",
+          "text": "還"
+        },
+        {
+          "id": "b",
+          "text": "才"
+        },
+        {
+          "id": "c",
+          "text": "就"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "等…就… nêu kết quả sau khi khách về.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l05-assessment-08",
+      "prompt": "Sau khi tiệc gần tàn, cô dâu làm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bắt đầu nghi lễ"
+        },
+        {
+          "id": "b",
+          "text": "Thay lễ phục và tiễn khách"
+        },
+        {
+          "id": "c",
+          "text": "Đi học tiếng Hoa"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc ghi 新娘會換另外一件漂亮的禮服…送客人離開.",
+      "skill": "Bài đọc"
+    },
+    {
+      "id": "cc2-v2-l05-assessment-09",
+      "prompt": "Điền: 大家等著等著，喜宴＿＿開始了。",
+      "options": [
+        {
+          "id": "a",
+          "text": "過"
+        },
+        {
+          "id": "b",
+          "text": "就"
+        },
+        {
+          "id": "c",
+          "text": "還"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Sự việc bắt đầu trong lúc mọi người đang đợi.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l05-assessment-10",
+      "prompt": "‘紅包’ trong đám cưới là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "lễ phục đỏ"
+        },
+        {
+          "id": "b",
+          "text": "thiệp chúc mừng"
+        },
+        {
+          "id": "c",
+          "text": "phong bì tiền mừng"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Khách chuẩn bị 紅包 để tặng đôi vợ chồng mới cưới.",
+      "skill": "Từ vựng"
+    }
+  ],
+  "writingTask": {
+    "id": "cc2-v2-l05-writing",
+    "title": "Mời bạn dự lễ cưới",
+    "prompt": "Viết 2–3 câu chúc mừng và kể bạn nhìn thấy ai trong buổi lễ. Thử dùng 還 hoặc 著.",
+    "sampleTraditional": "恭喜你們！新郎穿著白西裝，新娘看起來很高興。客人還沒到齊。",
+    "sampleSimplified": "恭喜你们！新郎穿着白西装，新娘看起来很高兴。客人还没到齐。"
+  }
+}

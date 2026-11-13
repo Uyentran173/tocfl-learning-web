@@ -2,6 +2,8 @@ import type { UiLocale } from "./i18n";
 
 export const academyNewMessages: Record<Exclude<UiLocale, "vi">, Record<string, string>> = {
   en: {
+    "Bài 01–05 đã mở: học từ hội thoại đời thường đến công việc và lễ cưới.": "Lessons 01–05 are open, from everyday conversations to work and weddings.",
+    "Bài 01–05 đã sẵn sàng. Các bài tiếp theo sẽ xuất hiện sau khi được hoàn thiện.": "Lessons 01–05 are ready. More lessons will open as they are completed.",
     "Bài 01–04 đã mở: hỏi đường, đi MRT, học tiếng Hoa và tìm việc.": "Lessons 01–04 are open: directions, MRT travel, language learning, and work.",
     "Bài 01–04 đã sẵn sàng. Các bài tiếp theo sẽ xuất hiện sau khi được hoàn thiện.": "Lessons 01–04 are ready. More lessons will open as they are completed.",
     "Bài 01–03 đã mở: hỏi đường, đi MRT và kể chuyện học tiếng Hoa.": "Lessons 01–03 are open: directions, MRT travel, and talking about learning Chinese.",
@@ -32,6 +34,8 @@ export const academyNewMessages: Record<Exclude<UiLocale, "vi">, Record<string, 
     "Chọn bản ghi âm đã được đối chiếu với nội dung trong sách. Bạn có thể nghe lại và ghi chú theo nhịp học của mình.": "Choose a recording matched to this lesson. Replay it and take notes at your own pace.",
   },
   "zh-CN": {
+    "Bài 01–05 đã mở: học từ hội thoại đời thường đến công việc và lễ cưới.": "第 01–05 课已开放：从日常对话学到工作与婚礼。",
+    "Bài 01–05 đã sẵn sàng. Các bài tiếp theo sẽ xuất hiện sau khi được hoàn thiện.": "第 01–05 课已开放。其他课程完成后会陆续上线。",
     "Bài 01–04 đã mở: hỏi đường, đi MRT, học tiếng Hoa và tìm việc.": "第 01–04 课已开放：问路、搭捷运、学中文和找工作。",
     "Bài 01–04 đã sẵn sàng. Các bài tiếp theo sẽ xuất hiện sau khi được hoàn thiện.": "第 01–04 课已开放。其他课程完成后会陆续上线。",
     "Bài 01–03 đã mở: hỏi đường, đi MRT và kể chuyện học tiếng Hoa.": "第 01–03 课已开放：问路、搭捷运和分享学中文的经历。",
@@ -57,6 +61,8 @@ export const academyNewMessages: Record<Exclude<UiLocale, "vi">, Record<string, 
     "Chọn bản ghi âm đã được đối chiếu với nội dung trong sách. Bạn có thể nghe lại và ghi chú theo nhịp học của mình.": "选择已经和教材内容核对的录音。你可以重听，并按自己的节奏做笔记。",
   },
   "zh-TW": {
+    "Bài 01–05 đã mở: học từ hội thoại đời thường đến công việc và lễ cưới.": "第 01–05 課已開放：從日常對話學到工作與婚禮。",
+    "Bài 01–05 đã sẵn sàng. Các bài tiếp theo sẽ xuất hiện sau khi được hoàn thiện.": "第 01–05 課已開放。其他課程完成後會陸續上線。",
     "Bài 01–04 đã mở: hỏi đường, đi MRT, học tiếng Hoa và tìm việc.": "第 01–04 課已開放：問路、搭捷運、學中文和找工作。",
     "Bài 01–04 đã sẵn sàng. Các bài tiếp theo sẽ xuất hiện sau khi được hoàn thiện.": "第 01–04 課已開放。其他課程完成後會陸續上線。",
     "Bài 01–03 đã mở: hỏi đường, đi MRT và kể chuyện học tiếng Hoa.": "第 01–03 課已開放：問路、搭捷運和分享學中文的經歷。",

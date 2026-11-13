@@ -1,0 +1,1003 @@
+{
+  "contentVersion": 2,
+  "id": "cc2-v2-l04",
+  "title": "我打工，我教法文",
+  "titleVi": "Tôi làm thêm, dạy tiếng Pháp",
+  "description": "Giới thiệu kinh nghiệm, hỏi về công việc, tiền lương và buổi phỏng vấn.",
+  "objectives": [
+    "Giới thiệu học vấn và kinh nghiệm làm việc.",
+    "Hỏi về lịch làm việc và cách tính lương.",
+    "Dùng 除了…還…, 按照 và các giới từ 跟, 給, 對 đúng ngữ cảnh."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Mỹ Linh phỏng vấn vị trí dạy tiếng Pháp. Nghe cách cô giới thiệu bản thân, hỏi về lương và nhận lời làm việc.",
+    "sections": [
+      {
+        "id": "cc2-v2-l04-section-01",
+        "title": "Kể kinh nghiệm làm việc",
+        "body": "Mỹ Linh dùng 當過 để nói việc đã từng làm; người phỏng vấn hỏi rõ kinh nghiệm dạy học của cô.",
+        "chinese": "我當過語言助教。",
+        "simplified": "我当过语言助教。",
+        "pinyin": "wǒ dāng guò yǔ yán zhù jiào 。",
+        "meaningVi": "Tôi từng làm trợ giảng ngôn ngữ."
+      },
+      {
+        "id": "cc2-v2-l04-section-02",
+        "title": "Hỏi cách tính lương",
+        "body": "Hãy nghe câu hỏi 怎麼算 và cách dùng 按照 để nêu căn cứ tính lương.",
+        "chinese": "我們是按照大學教授的鐘點費算的。",
+        "simplified": "我们是按照大学教授的钟点费算的。",
+        "pinyin": "wǒ men shì àn zhào dà xué jiào shòu de zhōng diǎn fèi suàn de 。",
+        "meaningVi": "Chúng tôi tính theo thù lao giờ của giáo sư đại học."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc2-v2-l04-dialogue",
+        "title": "Phỏng vấn ở trung tâm ngôn ngữ",
+        "context": "Mỹ Linh trao đổi với người phụ trách về vị trí dạy tiếng Pháp.",
+        "audioTrackId": "cc2-textbook-l04-t01",
+        "turns": [
+          {
+            "speaker": "主任",
+            "chinese": "請坐，妳是高美玲嗎？",
+            "simplified": "请坐，妳是高美玲吗？",
+            "pinyin": "qǐng zuò ， nǐ shì gāo měi líng ma ？",
+            "meaningVi": "Mời ngồi. Cô là Cao Mỹ Linh phải không?"
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "是。您好。",
+            "simplified": "是。您好。",
+            "pinyin": "shì 。 nín hǎo 。",
+            "meaningVi": "Vâng. Chào ông."
+          },
+          {
+            "speaker": "主任",
+            "chinese": "請妳先介紹一下自己。",
+            "simplified": "请妳先介绍一下自己。",
+            "pinyin": "qǐng nǐ xiān jiè shào yī xià zì jǐ 。",
+            "meaningVi": "Cô hãy giới thiệu sơ về mình trước."
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "我叫高美玲，是法國人，今年二十八歲，現在在師大學中文。我念大學的時候上過亞洲文化和語言學。",
+            "simplified": "我叫高美玲，是法国人，今年二十八岁，现在在师大学中文。我念大学的时候上过亚洲文化和语言学。",
+            "pinyin": "wǒ jiào gāo měi líng ， shì fǎ guó rén ， jīn nián èr shí bā suì ， xiàn zài zài shī dà xué zhōng wén 。 wǒ niàn dà xué de shí hòu shàng guò yà zhōu wén huà hé yǔ yán xué 。",
+            "meaningVi": "Tôi là Cao Mỹ Linh, người Pháp, năm nay 28 tuổi và đang học tiếng Hoa ở Sư Đại. Hồi đại học tôi từng học văn hóa châu Á và ngôn ngữ học."
+          },
+          {
+            "speaker": "主任",
+            "chinese": "妳有沒有教法文的經驗？請妳談一談。",
+            "simplified": "妳有没有教法文的经验？请妳谈一谈。",
+            "pinyin": "nǐ yǒu méi yǒu jiào fǎ wén de jīng yàn ？ qǐng nǐ tán yī tán 。",
+            "meaningVi": "Cô có kinh nghiệm dạy tiếng Pháp không? Mời cô kể một chút."
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "有。我當過語言助教，那時候的學生都是外國人。",
+            "simplified": "有。我当过语言助教，那时候的学生都是外国人。",
+            "pinyin": "yǒu 。 wǒ dāng guò yǔ yán zhù jiào ， nà shí hòu de xué shēng dōu shì wài guó rén 。",
+            "meaningVi": "Có. Tôi từng làm trợ giảng ngôn ngữ; học viên lúc đó đều là người nước ngoài."
+          },
+          {
+            "speaker": "主任",
+            "chinese": "妳一個星期能來幾天？",
+            "simplified": "妳一个星期能来几天？",
+            "pinyin": "nǐ yī gè xīng qī néng lái jǐ tiān ？",
+            "meaningVi": "Một tuần cô có thể đến mấy ngày?"
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "我現在上午學中文，下午兩點以後都可以，但是我希望一個禮拜教三天就好了。",
+            "simplified": "我现在上午学中文，下午两点以后都可以，但是我希望一个礼拜教三天就好了。",
+            "pinyin": "wǒ xiàn zài shàng wǔ xué zhōng wén ， xià wǔ liǎng diǎn yǐ hòu dōu kě yǐ ， dàn shì wǒ xī wàng yī gè lǐ bài jiào sān tiān jiù hǎo le 。",
+            "meaningVi": "Hiện tôi học tiếng Hoa buổi sáng. Sau hai giờ chiều lúc nào cũng được, nhưng tôi muốn dạy ba ngày mỗi tuần thôi."
+          },
+          {
+            "speaker": "主任",
+            "chinese": "妳除了法文、中文，還會什麼語言？",
+            "simplified": "妳除了法文、中文，还会什么语言？",
+            "pinyin": "nǐ chú le fǎ wén 、 zhōng wén ， hái huì shén me yǔ yán ？",
+            "meaningVi": "Ngoài tiếng Pháp và tiếng Hoa, cô còn biết ngôn ngữ nào?"
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "我還會說西班牙語和英文。",
+            "simplified": "我还会说西班牙语和英文。",
+            "pinyin": "wǒ hái huì shuō xī bān yá yǔ hé yīng wén 。",
+            "meaningVi": "Tôi còn nói được tiếng Tây Ban Nha và tiếng Anh."
+          },
+          {
+            "speaker": "主任",
+            "chinese": "妳教過西班牙語嗎？",
+            "simplified": "妳教过西班牙语吗？",
+            "pinyin": "nǐ jiào guò xī bān yá yǔ ma ？",
+            "meaningVi": "Cô từng dạy tiếng Tây Ban Nha chưa?"
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "我大學三年級的暑假，當過西班牙語老師。",
+            "simplified": "我大学三年级的暑假，当过西班牙语老师。",
+            "pinyin": "wǒ dà xué sān nián jí de shǔ jià ， dāng guò xī bān yá yǔ lǎo shī 。",
+            "meaningVi": "Hè năm ba đại học, tôi từng dạy tiếng Tây Ban Nha."
+          },
+          {
+            "speaker": "主任",
+            "chinese": "妳的工作經驗聽起來很不錯。",
+            "simplified": "妳的工作经验听起来很不错。",
+            "pinyin": "nǐ de gōng zuò jīng yàn tīng qǐ lái hěn bù cuò 。",
+            "meaningVi": "Kinh nghiệm làm việc của cô nghe khá tốt."
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "謝謝您。對了，我想請教一下，貴中心老師的薪水怎麼算？",
+            "simplified": "谢谢您。对了，我想请教一下，贵中心老师的薪水怎么算？",
+            "pinyin": "xiè xiè nín 。 duì le ， wǒ xiǎng qǐng jiào yī xià ， guì zhōng xīn lǎo shī de xīn shuǐ zěn me suàn ？",
+            "meaningVi": "Cảm ơn ông. À, tôi muốn hỏi lương giáo viên ở trung tâm được tính thế nào?"
+          },
+          {
+            "speaker": "主任",
+            "chinese": "我們是按照大學教授的鐘點費算的。薪水跟大學老師的一樣。",
+            "simplified": "我们是按照大学教授的钟点费算的。薪水跟大学老师的一样。",
+            "pinyin": "wǒ men shì àn zhào dà xué jiào shòu de zhōng diǎn fèi suàn de 。 xīn shuǐ gēn dà xué lǎo shī de yī yàng 。",
+            "meaningVi": "Chúng tôi tính theo thù lao giờ của giáo sư đại học. Lương bằng với giáo viên đại học."
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "我很想試試這份工作。",
+            "simplified": "我很想试试这份工作。",
+            "pinyin": "wǒ hěn xiǎng shì shì zhè fèn gōng zuò 。",
+            "meaningVi": "Tôi rất muốn thử công việc này."
+          },
+          {
+            "speaker": "主任",
+            "chinese": "歡迎妳，妳下個月一號就可以來嗎？",
+            "simplified": "欢迎妳，妳下个月一号就可以来吗？",
+            "pinyin": "huān yíng nǐ ， nǐ xià gè yuè yī hào jiù kě yǐ lái ma ？",
+            "meaningVi": "Rất hoan nghênh cô. Ngày mùng một tháng sau cô có thể bắt đầu không?"
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "可以的。謝謝。",
+            "simplified": "可以的。谢谢。",
+            "pinyin": "kě yǐ de 。 xiè xiè 。",
+            "meaningVi": "Được ạ. Cảm ơn ông."
+          }
+        ]
+      },
+      {
+        "id": "cc2-v2-l04-reading",
+        "title": "Buổi phỏng vấn của Mỹ Linh",
+        "context": "Bài đọc kể vì sao Mỹ Linh đi phỏng vấn và cô nhận công việc như thế nào.",
+        "audioTrackId": "cc2-textbook-l04-t03",
+        "turns": [
+          {
+            "speaker": "Bài đọc",
+            "chinese": "高美玲來了一年了，按照台灣的法律，她已經可以打工了，所以她的台灣朋友給她介紹了一個在大學語言中心教法文的工作。雖然高美玲覺得自己的經驗還不夠，可是決定去試一試。所以她帶著履歷表到語言中心去跟主任面談。",
+            "simplified": "高美玲来了一年了，按照台湾的法律，她已经可以打工了，所以她的台湾朋友给她介绍了一个在大学语言中心教法文的工作。虽然高美玲觉得自己的经验还不够，可是决定去试一试。所以她带着履历表到语言中心去跟主任面谈。",
+            "pinyin": "gāo měi líng lái le yī nián le ， àn zhào tái wān de fǎ lǜ ， tā yǐ jīng kě yǐ dǎ gōng le ， suǒ yǐ tā de tái wān péng yǒu gěi tā jiè shào le yī gè zài dà xué yǔ yán zhōng xīn jiào fǎ wén de gōng zuò 。 suī rán gāo měi líng jué dé zì jǐ de jīng yàn hái bù gòu ， kě shì jué dìng qù shì yī shì 。 suǒ yǐ tā dài zhù lǚ lì biǎo dào yǔ yán zhōng xīn qù gēn zhǔ rèn miàn tán 。",
+            "meaningVi": "Cao Mỹ Linh đã đến đây một năm. Theo luật Đài Loan, cô đã có thể đi làm thêm, vì vậy một người bạn Đài Loan giới thiệu cho cô công việc dạy tiếng Pháp tại trung tâm ngôn ngữ của một trường đại học. Dù thấy kinh nghiệm còn thiếu, cô vẫn quyết định thử và mang CV đến phỏng vấn với người phụ trách."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "這位主任姓黃，是法國華僑，在台灣住了十幾年，他也在大學工作了十年了。高美玲在辦公室跟他談話的時候，他先問高美玲在法國的工作經驗，再問她在台灣學中文跟生活的情形。黃主任覺得高美玲的經驗很適合這份工作。",
+            "simplified": "这位主任姓黄，是法国华侨，在台湾住了十几年，他也在大学工作了十年了。高美玲在办公室跟他谈话的时候，他先问高美玲在法国的工作经验，再问她在台湾学中文跟生活的情形。黄主任觉得高美玲的经验很适合这份工作。",
+            "pinyin": "zhè wèi zhǔ rèn xìng huáng ， shì fǎ guó huá qiáo ， zài tái wān zhù le shí jǐ nián ， tā yě zài dà xué gōng zuò le shí nián le 。 gāo měi líng zài bàn gōng shì gēn tā tán huà de shí hòu ， tā xiān wèn gāo měi líng zài fǎ guó de gōng zuò jīng yàn ， zài wèn tā zài tái wān xué zhōng wén gēn shēng huó de qíng xíng 。 huáng zhǔ rèn jué dé gāo měi líng de jīng yàn hěn shì hé zhè fèn gōng zuò 。",
+            "meaningVi": "Người phụ trách họ Hoàng, là Hoa kiều ở Pháp. Ông sống tại Đài Loan hơn mười năm và cũng đã làm việc ở trường đại học mười năm. Khi hai người trò chuyện trong văn phòng, ông hỏi kinh nghiệm làm việc của Mỹ Linh ở Pháp trước, rồi hỏi về việc học tiếng Hoa và cuộc sống của cô tại Đài Loan. Ông thấy kinh nghiệm của cô rất phù hợp với công việc này."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "黃主任也給高美玲介紹了上課的書，還跟她說明了工作環境。然後，黃主任告訴高美玲，薪水按照工作的時間算，每個月的月底發薪水。高美玲覺得這份工作聽起來很不錯，所以馬上就答應了。黃主任對她說，下個月一號就開始上班。高美玲沒想到這次的面談這麼順利。",
+            "simplified": "黄主任也给高美玲介绍了上课的书，还跟她说明了工作环境。然后，黄主任告诉高美玲，薪水按照工作的时间算，每个月的月底发薪水。高美玲觉得这份工作听起来很不错，所以马上就答应了。黄主任对她说，下个月一号就开始上班。高美玲没想到这次的面谈这么顺利。",
+            "pinyin": "huáng zhǔ rèn yě gěi gāo měi líng jiè shào le shàng kè de shū ， hái gēn tā shuō míng liǎo gōng zuò huán jìng 。 rán hòu ， huáng zhǔ rèn gào sù gāo měi líng ， xīn shuǐ àn zhào gōng zuò de shí jiān suàn ， měi gè yuè de yuè dǐ fā xīn shuǐ 。 gāo měi líng jué dé zhè fèn gōng zuò tīng qǐ lái hěn bù cuò ， suǒ yǐ mǎ shàng jiù dá yīng le 。 huáng zhǔ rèn duì tā shuō ， xià gè yuè yī hào jiù kāi shǐ shàng bān 。 gāo měi líng méi xiǎng dào zhè cì de miàn tán zhè me shùn lì 。",
+            "meaningVi": "Chủ nhiệm Hoàng còn giới thiệu sách dạy học cho Mỹ Linh và giải thích môi trường làm việc. Sau đó, ông cho biết lương được tính theo thời gian làm việc và trả vào cuối mỗi tháng. Mỹ Linh thấy công việc nghe rất ổn nên đồng ý ngay. Ông bảo cô bắt đầu đi làm vào ngày mùng một tháng sau. Cô không ngờ buổi phỏng vấn lại thuận lợi đến vậy."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc2-v2-l04-check-01",
+        "prompt": "Mỹ Linh từng làm gì trước đây?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Giáo sư đại học"
+          },
+          {
+            "id": "b",
+            "text": "Chủ nhiệm trung tâm"
+          },
+          {
+            "id": "c",
+            "text": "Trợ giảng ngôn ngữ"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Cô nói 我當過語言助教.",
+        "skill": "Hội thoại"
+      },
+      {
+        "id": "cc2-v2-l04-check-02",
+        "prompt": "Vì sao Mỹ Linh có thể đi làm thêm ở Đài Loan?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Cô không cần đi học nữa"
+          },
+          {
+            "id": "b",
+            "text": "Cô đã đến Đài Loan một năm"
+          },
+          {
+            "id": "c",
+            "text": "Cô đã có bằng giáo sư"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Bài đọc ghi 來了一年了，按照台灣的法律，她已經可以打工了.",
+        "skill": "Bài đọc"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem phiên âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc2-v2-l04-v001",
+      "cc2-v2-l04-v002",
+      "cc2-v2-l04-v003",
+      "cc2-v2-l04-v004",
+      "cc2-v2-l04-v005",
+      "cc2-v2-l04-v006",
+      "cc2-v2-l04-v007",
+      "cc2-v2-l04-v008",
+      "cc2-v2-l04-v009",
+      "cc2-v2-l04-v010",
+      "cc2-v2-l04-v011",
+      "cc2-v2-l04-v012",
+      "cc2-v2-l04-v013",
+      "cc2-v2-l04-v014",
+      "cc2-v2-l04-v015",
+      "cc2-v2-l04-v016",
+      "cc2-v2-l04-v017",
+      "cc2-v2-l04-v018",
+      "cc2-v2-l04-v019",
+      "cc2-v2-l04-v020",
+      "cc2-v2-l04-v021",
+      "cc2-v2-l04-v022",
+      "cc2-v2-l04-v023",
+      "cc2-v2-l04-v024",
+      "cc2-v2-l04-v025",
+      "cc2-v2-l04-v026",
+      "cc2-v2-l04-v027",
+      "cc2-v2-l04-v028",
+      "cc2-v2-l04-v029",
+      "cc2-v2-l04-v030",
+      "cc2-v2-l04-v031",
+      "cc2-v2-l04-v032",
+      "cc2-v2-l04-v033",
+      "cc2-v2-l04-v034",
+      "cc2-v2-l04-v035",
+      "cc2-v2-l04-v036",
+      "cc2-v2-l04-v037",
+      "cc2-v2-l04-v038",
+      "cc2-v2-l04-v039",
+      "cc2-v2-l04-v040",
+      "cc2-v2-l04-v041",
+      "cc2-v2-l04-v042",
+      "cc2-v2-l04-v043",
+      "cc2-v2-l04-v044",
+      "cc2-v2-l04-v045"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc2-textbook-l04-t02",
+        "label": "Từ vựng hội thoại"
+      },
+      {
+        "id": "cc2-textbook-l04-t04",
+        "label": "Từ vựng bài đọc"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc2-v2-l04-grammar-01",
+      "title": "除了…還… — ngoài… còn…",
+      "audioTrackId": "cc2-textbook-l04-t05",
+      "explanation": "Dùng 除了 để nêu điều đã biết, rồi dùng 還 hoặc 也 để bổ sung một điều nữa. Nếu cả hai hành động đều phủ định, đặt từ phủ định sau 除了 và sau 還: 除了不喝茶，還不喝咖啡. Trong bài, người phỏng vấn hỏi về những ngoại ngữ khác ngoài tiếng Pháp và tiếng Hoa.",
+      "structure": "除了 + danh từ / hành động A，(chủ ngữ) + 還 / 也 + hành động B",
+      "examples": [
+        {
+          "chinese": "妳除了法文、中文，還會什麼語言？",
+          "simplified": "妳除了法文、中文，还会什么语言？",
+          "pinyin": "nǐ chú le fǎ wén 、 zhōng wén ， hái huì shén me yǔ yán ？",
+          "meaningVi": "Ngoài tiếng Pháp và tiếng Hoa, cô còn biết ngôn ngữ nào?"
+        },
+        {
+          "chinese": "除了法文，她還會說西班牙語。",
+          "simplified": "除了法文，她还会说西班牙语。",
+          "pinyin": "chú le fǎ wén ， tā hái huì shuō xī bān yá yǔ 。",
+          "meaningVi": "Ngoài tiếng Pháp, cô ấy còn nói được tiếng Tây Ban Nha."
+        }
+      ],
+      "commonMistake": "Đừng dừng câu ở 除了… khi muốn nói thêm; vế sau cần 還 hoặc 也 để nối ý.",
+      "check": {
+        "id": "cc2-v2-l04-grammar-check-01",
+        "prompt": "Điền vào câu: 除了法文，她＿＿會說英文。",
+        "options": [
+          {
+            "id": "a",
+            "text": "還"
+          },
+          {
+            "id": "b",
+            "text": "過"
+          },
+          {
+            "id": "c",
+            "text": "按照"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Dùng 除了 để nêu điều đã biết, rồi dùng 還 hoặc 也 để bổ sung một điều nữa.",
+        "skill": "除了…還… — ngoài… còn…"
+      }
+    },
+    {
+      "id": "cc2-v2-l04-grammar-02",
+      "title": "按照 — theo; dựa theo",
+      "audioTrackId": "cc2-textbook-l04-t06",
+      "explanation": "按照 là giới từ chỉ căn cứ để làm một việc. Cụm 按照 + căn cứ có thể đứng đầu câu hoặc đứng trước động từ. Trong bài, lương được tính theo mức thù lao theo giờ của giáo sư. Nếu phủ định, đặt 沒 hoặc 不 trước 按照.",
+      "structure": "按照 + căn cứ，+ hành động / chủ ngữ + 按照 + căn cứ + động từ",
+      "examples": [
+        {
+          "chinese": "我們是按照大學教授的鐘點費算的。",
+          "simplified": "我们是按照大学教授的钟点费算的。",
+          "pinyin": "wǒ men shì àn zhào dà xué jiào shòu de zhōng diǎn fèi suàn de 。",
+          "meaningVi": "Chúng tôi tính theo thù lao giờ của giáo sư đại học."
+        },
+        {
+          "chinese": "薪水按照工作的時間算。",
+          "simplified": "薪水按照工作的时间算。",
+          "pinyin": "xīn shuǐ àn zhào gōng zuò de shí jiān suàn 。",
+          "meaningVi": "Lương được tính theo thời gian làm việc."
+        }
+      ],
+      "commonMistake": "Không đặt 按照 sau động từ 算 trong câu này; căn cứ đứng trước hành động tính.",
+      "check": {
+        "id": "cc2-v2-l04-grammar-check-02",
+        "prompt": "Điền vào câu: 薪水＿＿工作的時間算。",
+        "options": [
+          {
+            "id": "a",
+            "text": "按照"
+          },
+          {
+            "id": "b",
+            "text": "除了"
+          },
+          {
+            "id": "c",
+            "text": "當過"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "按照 là giới từ chỉ căn cứ để làm một việc.",
+        "skill": "按照 — theo; dựa theo"
+      }
+    },
+    {
+      "id": "cc2-v2-l04-grammar-03",
+      "title": "跟 — cùng; với; từ",
+      "audioTrackId": "cc2-textbook-l04-t07",
+      "explanation": "跟 mang nghĩa khác nhau tùy động từ: 跟朋友去 là đi cùng bạn; 跟主任談 là nói chuyện với người phụ trách; 跟老師學 là học từ thầy cô. Trong bài đọc, Mỹ Linh đến phỏng vấn với chủ nhiệm và trò chuyện với ông. Khi phủ định, đặt 沒 hoặc 不 trước 跟.",
+      "structure": "跟 + người + động từ; ý nghĩa xác định theo động từ",
+      "examples": [
+        {
+          "chinese": "她帶著履歷表去跟主任面談。",
+          "simplified": "她带着履历表去跟主任面谈。",
+          "pinyin": "tā dài zhù lǚ lì biǎo qù gēn zhǔ rèn miàn tán 。",
+          "meaningVi": "Cô ấy mang CV đến phỏng vấn với người phụ trách."
+        },
+        {
+          "chinese": "我想跟老師學法文。",
+          "simplified": "我想跟老师学法文。",
+          "pinyin": "wǒ xiǎng gēn lǎo shī xué fǎ wén 。",
+          "meaningVi": "Tôi muốn học tiếng Pháp từ thầy giáo."
+        }
+      ],
+      "commonMistake": "Đừng dịch 跟 thành 'cùng' trong mọi câu; 跟老師學 nghĩa là học từ thầy cô.",
+      "check": {
+        "id": "cc2-v2-l04-grammar-check-03",
+        "prompt": "Điền vào câu: 她帶著履歷表去＿＿主任面談。",
+        "options": [
+          {
+            "id": "a",
+            "text": "除了"
+          },
+          {
+            "id": "b",
+            "text": "跟"
+          },
+          {
+            "id": "c",
+            "text": "按照"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "跟 mang nghĩa khác nhau tùy động từ: 跟朋友去 là đi cùng bạn; 跟主任談 là nói chuyện với người phụ trách; 跟老師學 là học từ thầy cô.",
+        "skill": "跟 — cùng; với; từ"
+      }
+    },
+    {
+      "id": "cc2-v2-l04-grammar-04",
+      "title": "給 — cho; vì ai đó",
+      "audioTrackId": "cc2-textbook-l04-t08",
+      "explanation": "給 đứng trước người nhận hành động hoặc người được hưởng lợi: 給她介紹工作 là giới thiệu công việc cho cô ấy; 給她準備書 là chuẩn bị sách cho cô ấy. Khi 給 mang nghĩa 'cho ai', tiếng Hoa Đài Loan cũng thường đặt cụm 給 + người sau động từ. Phủ định đứng trước 給.",
+      "structure": "給 + người + động từ + tân ngữ / động từ + tân ngữ + 給 + người",
+      "examples": [
+        {
+          "chinese": "朋友給她介紹了一份工作。",
+          "simplified": "朋友给她介绍了一份工作。",
+          "pinyin": "péng yǒu gěi tā jiè shào le yī fèn gōng zuò 。",
+          "meaningVi": "Bạn giới thiệu cho cô ấy một công việc."
+        },
+        {
+          "chinese": "黃主任也給高美玲介紹了上課的書。",
+          "simplified": "黄主任也给高美玲介绍了上课的书。",
+          "pinyin": "huáng zhǔ rèn yě gěi gāo měi líng jiè shào le shàng kè de shū 。",
+          "meaningVi": "Chủ nhiệm Hoàng cũng giới thiệu sách dạy học cho Mỹ Linh."
+        }
+      ],
+      "commonMistake": "Phân biệt 給 là động từ 'đưa/cho' với 給 là giới từ chỉ người nhận hoặc người được lợi.",
+      "check": {
+        "id": "cc2-v2-l04-grammar-check-04",
+        "prompt": "Điền vào câu: 朋友＿＿她介紹了一份工作。",
+        "options": [
+          {
+            "id": "a",
+            "text": "給"
+          },
+          {
+            "id": "b",
+            "text": "按照"
+          },
+          {
+            "id": "c",
+            "text": "除了"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "給 đứng trước người nhận hành động hoặc người được hưởng lợi: 給她介紹工作 là giới thiệu công việc cho cô ấy; 給她準備書 là chuẩn bị sách cho cô ấy.",
+        "skill": "給 — cho; vì ai đó"
+      }
+    },
+    {
+      "id": "cc2-v2-l04-grammar-05",
+      "title": "對 — đối với; hướng tới",
+      "audioTrackId": "cc2-textbook-l04-t09",
+      "explanation": "對 nêu đối tượng của lời nói, thái độ hoặc trạng thái. Trong bài, 黃主任對她說 là chủ nhiệm Hoàng nói với cô ấy. Với từ chỉ thái độ, 對…很好 nghĩa là đối xử tốt với ai. Đặt từ phủ định trước 對. Các động từ có thể đi với 對, 跟 hoặc 給 theo thói quen dùng từ; không thể thay tự do trong mọi câu.",
+      "structure": "對 + người / sự việc + động từ hoặc tính từ",
+      "examples": [
+        {
+          "chinese": "黃主任對她說，下個月一號就開始上班。",
+          "simplified": "黄主任对她说，下个月一号就开始上班。",
+          "pinyin": "huáng zhǔ rèn duì tā shuō ， xià gè yuè yī hào jiù kāi shǐ shàng bān 。",
+          "meaningVi": "Chủ nhiệm Hoàng nói với cô ấy rằng mùng một tháng sau bắt đầu làm việc."
+        },
+        {
+          "chinese": "他對學生很客氣。",
+          "simplified": "他对学生很客气。",
+          "pinyin": "tā duì xué shēng hěn kè qì 。",
+          "meaningVi": "Ông ấy rất lịch sự với học viên."
+        }
+      ],
+      "commonMistake": "Không dùng 對 để thay mọi 跟 hoặc 給; hãy nhìn động từ đi kèm và ý nghĩa của câu.",
+      "check": {
+        "id": "cc2-v2-l04-grammar-check-05",
+        "prompt": "Điền vào câu: 黃主任＿＿她說，下個月開始上班。",
+        "options": [
+          {
+            "id": "a",
+            "text": "除了"
+          },
+          {
+            "id": "b",
+            "text": "對"
+          },
+          {
+            "id": "c",
+            "text": "按照"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "對 nêu đối tượng của lời nói, thái độ hoặc trạng thái.",
+        "skill": "對 — đối với; hướng tới"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc2-v2-l04-listening-01",
+      "prompt": "Nghe hội thoại. Mỹ Linh đã từng làm công việc gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chủ nhiệm"
+        },
+        {
+          "id": "b",
+          "text": "Nhân viên bán hàng"
+        },
+        {
+          "id": "c",
+          "text": "Trợ giảng ngôn ngữ"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Cô nói 我當過語言助教.",
+      "skill": "Nghe chi tiết",
+      "audioTrackId": "cc2-textbook-l04-t01"
+    },
+    {
+      "id": "cc2-v2-l04-listening-02",
+      "prompt": "Nghe hội thoại. Mỹ Linh muốn dạy mấy ngày một tuần?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hai ngày"
+        },
+        {
+          "id": "b",
+          "text": "Sáu ngày"
+        },
+        {
+          "id": "c",
+          "text": "Ba ngày"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Cô nói 希望一個禮拜教三天.",
+      "skill": "Nghe số lượng",
+      "audioTrackId": "cc2-textbook-l04-t01"
+    },
+    {
+      "id": "cc2-v2-l04-listening-03",
+      "prompt": "Nghe bài đọc. Chủ nhiệm Hoàng từng sống ở Đài Loan bao lâu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ba tháng"
+        },
+        {
+          "id": "b",
+          "text": "Hơn mười năm"
+        },
+        {
+          "id": "c",
+          "text": "Một năm"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nói 在台灣住了十幾年.",
+      "skill": "Nghe thời gian",
+      "audioTrackId": "cc2-textbook-l04-t03"
+    },
+    {
+      "id": "cc2-v2-l04-listening-04",
+      "prompt": "Nghe bài đọc. Mỹ Linh nhận lương khi nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cuối mỗi tháng"
+        },
+        {
+          "id": "b",
+          "text": "Đầu mỗi tuần"
+        },
+        {
+          "id": "c",
+          "text": "Mỗi sáng"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc nói 每個月的月底發薪水.",
+      "skill": "Nghe chi tiết",
+      "audioTrackId": "cc2-textbook-l04-t03"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc2-v2-l04-practice-01",
+      "prompt": "‘打工’ nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "làm thêm"
+        },
+        {
+          "id": "b",
+          "text": "nghỉ học"
+        },
+        {
+          "id": "c",
+          "text": "đi du lịch"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "打工 là làm thêm, thường ngoài giờ học hoặc công việc chính.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc2-v2-l04-practice-02",
+      "prompt": "Điền: 除了法文，她＿＿會說英文。",
+      "options": [
+        {
+          "id": "a",
+          "text": "還"
+        },
+        {
+          "id": "b",
+          "text": "過"
+        },
+        {
+          "id": "c",
+          "text": "按照"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "除了…還… nêu thêm một khả năng ngoài điều đã nhắc.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l04-practice-03",
+      "prompt": "Mỹ Linh muốn dạy mấy ngày mỗi tuần?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Năm ngày"
+        },
+        {
+          "id": "b",
+          "text": "Ba ngày"
+        },
+        {
+          "id": "c",
+          "text": "Hai ngày"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Cô nói 希望一個禮拜教三天.",
+      "skill": "Hội thoại"
+    },
+    {
+      "id": "cc2-v2-l04-practice-04",
+      "prompt": "Điền: 薪水＿＿工作的時間算。",
+      "options": [
+        {
+          "id": "a",
+          "text": "除了"
+        },
+        {
+          "id": "b",
+          "text": "對"
+        },
+        {
+          "id": "c",
+          "text": "按照"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "按照 nêu căn cứ để tính lương.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l04-practice-05",
+      "prompt": "Chủ nhiệm hỏi kinh nghiệm nào của Mỹ Linh trước?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kinh nghiệm làm việc ở Pháp"
+        },
+        {
+          "id": "b",
+          "text": "Kinh nghiệm nấu ăn"
+        },
+        {
+          "id": "c",
+          "text": "Việc đi du lịch ở Đài Loan"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc ghi 先問高美玲在法國的工作經驗.",
+      "skill": "Bài đọc"
+    },
+    {
+      "id": "cc2-v2-l04-practice-06",
+      "prompt": "Điền: 她去＿＿主任面談。",
+      "options": [
+        {
+          "id": "a",
+          "text": "除了"
+        },
+        {
+          "id": "b",
+          "text": "跟"
+        },
+        {
+          "id": "c",
+          "text": "按照"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "跟主任面談 là phỏng vấn với người phụ trách.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l04-practice-07",
+      "prompt": "Công việc được trả lương khi nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mùng một mỗi tuần"
+        },
+        {
+          "id": "b",
+          "text": "Cuối mỗi tháng"
+        },
+        {
+          "id": "c",
+          "text": "Mỗi sáng"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc ghi 每個月的月底發薪水.",
+      "skill": "Bài đọc"
+    },
+    {
+      "id": "cc2-v2-l04-practice-08",
+      "prompt": "Điền: 朋友＿＿她介紹了一份工作。",
+      "options": [
+        {
+          "id": "a",
+          "text": "除了"
+        },
+        {
+          "id": "b",
+          "text": "按照"
+        },
+        {
+          "id": "c",
+          "text": "給"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "給她介紹 là giới thiệu cho cô ấy.",
+      "skill": "Ngữ pháp"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc2-v2-l04-assessment-01",
+      "prompt": "‘履歷表’ là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "tiền lương"
+        },
+        {
+          "id": "b",
+          "text": "bảng giờ học"
+        },
+        {
+          "id": "c",
+          "text": "CV; bản lý lịch"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "履歷表 là bản lý lịch dùng khi xin việc.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc2-v2-l04-assessment-02",
+      "prompt": "Mỹ Linh đã từng làm công việc gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Giáo sư đại học"
+        },
+        {
+          "id": "b",
+          "text": "Trợ giảng ngôn ngữ"
+        },
+        {
+          "id": "c",
+          "text": "Chủ nhiệm trung tâm"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Cô nói 我當過語言助教.",
+      "skill": "Hội thoại"
+    },
+    {
+      "id": "cc2-v2-l04-assessment-03",
+      "prompt": "Điền: 我＿＿老師學中文。",
+      "options": [
+        {
+          "id": "a",
+          "text": "按照"
+        },
+        {
+          "id": "b",
+          "text": "除了"
+        },
+        {
+          "id": "c",
+          "text": "跟"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "跟老師學 là học từ thầy cô.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l04-assessment-04",
+      "prompt": "Ngoài tiếng Pháp và tiếng Hoa, Mỹ Linh nói được những tiếng nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tiếng Nhật và tiếng Hàn"
+        },
+        {
+          "id": "b",
+          "text": "Tiếng Đức và tiếng Nga"
+        },
+        {
+          "id": "c",
+          "text": "Tiếng Tây Ban Nha và tiếng Anh"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Cô nói 我還會說西班牙語和英文.",
+      "skill": "Hội thoại"
+    },
+    {
+      "id": "cc2-v2-l04-assessment-05",
+      "prompt": "Điền: 按照法律，她＿＿可以打工了。",
+      "options": [
+        {
+          "id": "a",
+          "text": "已經"
+        },
+        {
+          "id": "b",
+          "text": "除了"
+        },
+        {
+          "id": "c",
+          "text": "跟"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "已經…了 nhấn mạnh việc hiện đã được phép.",
+      "skill": "Bài đọc"
+    },
+    {
+      "id": "cc2-v2-l04-assessment-06",
+      "prompt": "Mỹ Linh mang gì đến buổi phỏng vấn?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bản đồ"
+        },
+        {
+          "id": "b",
+          "text": "Ảnh du lịch"
+        },
+        {
+          "id": "c",
+          "text": "CV"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc ghi 帶著履歷表…面談.",
+      "skill": "Bài đọc"
+    },
+    {
+      "id": "cc2-v2-l04-assessment-07",
+      "prompt": "Điền: 主任＿＿她說，下個月開始上班。",
+      "options": [
+        {
+          "id": "a",
+          "text": "按照"
+        },
+        {
+          "id": "b",
+          "text": "除了"
+        },
+        {
+          "id": "c",
+          "text": "對"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "對她說 là nói với cô ấy.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l04-assessment-08",
+      "prompt": "Tiền lương được tính theo điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thời gian làm việc"
+        },
+        {
+          "id": "b",
+          "text": "Số năm sống ở Đài Loan"
+        },
+        {
+          "id": "c",
+          "text": "Số ngoại ngữ biết nói"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc ghi 薪水按照工作的時間算.",
+      "skill": "Bài đọc"
+    },
+    {
+      "id": "cc2-v2-l04-assessment-09",
+      "prompt": "Điền: 除了法文，她＿＿會說西班牙語。",
+      "options": [
+        {
+          "id": "a",
+          "text": "對"
+        },
+        {
+          "id": "b",
+          "text": "還"
+        },
+        {
+          "id": "c",
+          "text": "過"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "除了…還… nối điều đã biết với điều bổ sung.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l04-assessment-10",
+      "prompt": "Mỹ Linh bắt đầu đi làm khi nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ngay ngày phỏng vấn"
+        },
+        {
+          "id": "b",
+          "text": "Cuối năm"
+        },
+        {
+          "id": "c",
+          "text": "Mùng một tháng sau"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Chủ nhiệm nói 下個月一號就開始上班.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "writingTask": {
+    "id": "cc2-v2-l04-writing",
+    "title": "Giới thiệu khi xin việc",
+    "prompt": "Viết 2–3 câu về kinh nghiệm của bạn và một câu hỏi về công việc. Thử dùng 除了…還… hoặc 按照.",
+    "sampleTraditional": "我當過語言助教。除了教法文，我還會說中文。請問薪水怎麼算？",
+    "sampleSimplified": "我当过语言助教。除了教法文，我还会说中文。请问薪水怎么算？"
+  }
+}

@@ -32,6 +32,21 @@ VERIFIED = {
         ("workbook", 3): (22, "Nghe câu chuyện, xác định đúng sai", 5),
         ("workbook", 4): (22, "Nghe câu chuyện, ghi thông tin", 8),
     },
+    4: {
+        ("textbook", 1): (107, "Đối thoại", None),
+        ("textbook", 2): (110, "Từ vựng hội thoại", None),
+        ("textbook", 3): (111, "Bài đọc", None),
+        ("textbook", 4): (113, "Từ vựng bài đọc", None),
+        ("textbook", 5): (114, "Ngữ pháp: 除了…還…", None),
+        ("textbook", 6): (115, "Ngữ pháp: 按照", None),
+        ("textbook", 7): (117, "Ngữ pháp: 跟", None),
+        ("textbook", 8): (119, "Ngữ pháp: 給", None),
+        ("textbook", 9): (120, "Ngữ pháp: 對", None),
+        ("workbook", 1): (29, "Nghe và chép chính tả", 5),
+        ("workbook", 2): (29, "Nghe hội thoại ngắn, chọn đáp án", 5),
+        ("workbook", 3): (30, "Nghe câu chuyện, xác định đúng sai", 5),
+        ("workbook", 4): (30, "Nghe câu chuyện, ghi thông tin", 8),
+    },
 }
 
 

@@ -4,7 +4,8 @@ import cc1Lessons from "../data/academy/cc1-lessons.json" with { type: "json" };
 import cc2Lesson01Data from "../data/academy/cc2-lesson01.json" with { type: "json" };
 import cc2Lesson02Data from "../data/academy/cc2-lesson02.json" with { type: "json" };
 import cc2Lesson03Data from "../data/academy/cc2-lesson03.json" with { type: "json" };
-import { cc2Lesson01Words, cc2Lesson02Words, cc2Lesson03Words } from "./cc2-course-vocabulary.ts";
+import cc2Lesson04Data from "../data/academy/cc2-lesson04.json" with { type: "json" };
+import { cc2Lesson01Words, cc2Lesson02Words, cc2Lesson03Words, cc2Lesson04Words } from "./cc2-course-vocabulary.ts";
 export { academyLesson01 };
 
 export const academyActivityKinds = ["lecture", "vocabulary", "grammar", "practice", "assessment"] as const;
@@ -88,6 +89,10 @@ export const academyVolume2Lesson03 = {
   ...cc2Lesson03Data,
   vocabulary: { ...cc2Lesson03Data.vocabulary, wordIds: cc2Lesson03Words.map((word) => word.id!) },
 } as unknown as AcademyLessonContent;
+export const academyVolume2Lesson04 = {
+  ...cc2Lesson04Data,
+  vocabulary: { ...cc2Lesson04Data.vocabulary, wordIds: cc2Lesson04Words.map((word) => word.id!) },
+} as unknown as AcademyLessonContent;
 export const academyVolume2LessonSummaries = [
   { chinese: "請問，到師大怎麼走？", vi: "Hỏi đường đến Sư Đại" },
   { chinese: "還是坐捷運吧！", vi: "Đi MRT thì hơn!" },
@@ -147,6 +152,7 @@ export function academyStaticLessonById(id: string): AcademyLessonContent | null
   if (id === academyVolume2Lesson01.id) return academyVolume2Lesson01;
   if (id === academyVolume2Lesson02.id) return academyVolume2Lesson02;
   if (id === academyVolume2Lesson03.id) return academyVolume2Lesson03;
+  if (id === academyVolume2Lesson04.id) return academyVolume2Lesson04;
   const number = academyLessonNumber(id);
   return number && id.startsWith("cc1-v1-") ? academyStaticLesson(number) : null;
 }

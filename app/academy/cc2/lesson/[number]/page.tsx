@@ -2,13 +2,13 @@ import { notFound } from "next/navigation";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import AcademyLessonWorkspace from "@/components/AcademyLessonWorkspace";
 import { academyTracksForLesson } from "@/lib/academy";
-import { academyVolume2Lesson01, academyVolume2Lesson02, academyVolume2Lesson03, validateAcademyLessonContent } from "@/lib/academy-catalog";
+import { academyVolume2Lesson01, academyVolume2Lesson02, academyVolume2Lesson03, academyVolume2Lesson04, validateAcademyLessonContent } from "@/lib/academy-catalog";
 import { publishedAcademyLessonByFallback } from "@/lib/academy-content";
 import { createPageMetadata } from "@/lib/seo";
 
 type Props = { params: Promise<{ number: string }> };
 export const dynamic = "force-dynamic";
-const publishedLessons = { "01": academyVolume2Lesson01, "02": academyVolume2Lesson02, "03": academyVolume2Lesson03 } as const;
+const publishedLessons = { "01": academyVolume2Lesson01, "02": academyVolume2Lesson02, "03": academyVolume2Lesson03, "04": academyVolume2Lesson04 } as const;
 function lessonForNumber(number: string) {
   return publishedLessons[number as keyof typeof publishedLessons] ?? null;
 }

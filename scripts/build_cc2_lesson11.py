@@ -1,0 +1,92 @@
+"""Build reviewed Volume 2 Lesson 11 from textbook PDF pages 293–311."""
+
+from cc2_lesson_builder import write_spec
+
+SPEC = {
+    "number": 11, "title": "台灣好玩的地方真多", "titleVi": "Đài Loan có nhiều nơi thú vị quá",
+    "description": "Lên kế hoạch đi chơi, chọn điểm đến và kể một chuyến du lịch.",
+    "objectives": ["Gợi ý nơi du lịch, cân nhắc phương tiện và đặt chỗ trước.",
+                   "Kể một chuyến đi theo thứ tự và nói số lần đã làm việc gì.",
+                   "Nhận biết câu bị động với 被 và cách dùng 值得."],
+    "introduction": "Martin hỏi bạn bè nên đi đâu trong kỳ nghỉ. Sau đó anh kể chuyến đi Khẩn Đinh và Đài Trung.",
+    "sections": [
+        ("Chọn nơi muốn đi", "So sánh điểm đến và hỏi lời khuyên trước kỳ nghỉ.", "如果時間夠，我建議你去看看。", "Nếu có đủ thời gian, tôi khuyên bạn đi xem thử."),
+        ("Kể lại chuyến đi", "Dùng 然後, 後來 và số lượt để thuật lại hành trình.", "他先到墾丁去住了三天，然後又到台中玩了兩天。", "Anh đến Khẩn Đinh ở ba ngày trước, rồi đến Đài Trung chơi thêm hai ngày."),
+    ],
+    "dialogueTitle": "Đi đâu trong kỳ nghỉ?", "dialogueContext": "Martin hỏi Như Ngọc và Mỹ Linh về những nơi đáng đến ở Đài Loan.",
+    "dialogue": [
+        ("馬丁", "我來台灣以後，沒離開過台北，所以想到其他地方去看看。", "Từ khi đến Đài Loan, tôi chưa rời Đài Bắc nên muốn đi nơi khác xem thử."),
+        ("如玉", "假期快到了，你可以計畫一下啊！", "Kỳ nghỉ sắp tới rồi, bạn có thể lên kế hoạch đi!"),
+        ("馬丁", "你們去過很多地方，可不可以告訴我，哪裡一定要去看看呢？", "Hai bạn đã đi nhiều nơi. Cho tôi biết nơi nào nhất định nên đến được không?"),
+        ("美玲", "如果你喜歡海邊和游泳，可以到墾丁去，那裡有各種水上活動。", "Nếu thích biển và bơi lội, bạn có thể đến Khẩn Đinh; ở đó có nhiều hoạt động dưới nước."),
+        ("如玉", "上次我朋友來，去綠島玩了三天，她說風景很美，而且海邊有個溫泉，非常特別。", "Lần trước bạn tôi đến đảo Lục chơi ba ngày. Cô ấy nói phong cảnh rất đẹp, lại có suối nước nóng bên biển, rất đặc biệt."),
+        ("美玲", "綠島我去過兩次。如果時間夠，我建議你去看看。", "Tôi đã đến đảo Lục hai lần. Nếu có thời gian, tôi khuyên bạn đi thử."),
+        ("如玉", "夏天去綠島的人很多，船票常常買不到，你可以考慮去墾丁，交通比較方便。", "Mùa hè nhiều người đến đảo Lục nên thường khó mua vé tàu. Bạn có thể cân nhắc Khẩn Đinh, đi lại thuận tiện hơn."),
+        ("美玲", "墾丁也不錯。你回來的時候，可以順便去台中玩，台中附近也有很多有名的風景區。", "Khẩn Đinh cũng hay. Lúc về bạn có thể tiện thể ghé Đài Trung; gần đó cũng có nhiều khu thắng cảnh nổi tiếng."),
+        ("馬丁", "噢！我聽說有個地方叫什麼湖？", "Ồ! Tôi nghe nói có nơi tên là hồ gì nhỉ?"),
+        ("如玉", "你說的是日月潭吧！在台灣中部，離台中不遠。那裡不錯，有山有水，還有原住民的文化。", "Bạn nói Nhật Nguyệt Đàm phải không? Hồ ở miền trung Đài Loan, không xa Đài Trung. Ở đó có núi, có hồ và văn hóa bản địa."),
+        ("馬丁", "我也聽說台中的夜市有各種小吃，比台北多。", "Tôi cũng nghe nói chợ đêm Đài Trung có đủ loại món ăn vặt, nhiều hơn Đài Bắc."),
+        ("美玲", "對，上個月我本來計畫去台中玩一趟，後來因為颱風就沒去。", "Đúng. Tháng trước tôi định đi Đài Trung một chuyến, nhưng sau đó vì bão nên không đi."),
+        ("如玉", "好可惜，台中很有意思。", "Tiếc quá, Đài Trung thú vị lắm."),
+        ("美玲", "沒關係，以後一定還有機會。", "Không sao, sau này chắc còn cơ hội."),
+        ("馬丁", "聽了你們的建議，我打算先去墾丁，然後再到台中去玩。", "Nghe lời khuyên của hai bạn, tôi định đến Khẩn Đinh trước, rồi đi Đài Trung."),
+        ("如玉", "夏天去玩的人很多，去墾丁一定要先訂好旅館，才不會找不到地方住。", "Mùa hè nhiều người đi chơi, đến Khẩn Đinh nhớ đặt phòng trước để khỏi không tìm được chỗ ở."),
+        ("馬丁", "還要注意什麼呢？", "Còn cần chú ý điều gì nữa?"),
+        ("美玲", "我上一次去的時候，把錢包和衣服放在沙灘上，沒想到錢包不見了，大概被偷了。", "Lần trước tôi để ví và quần áo trên bãi cát, không ngờ ví biến mất, chắc bị lấy trộm."),
+        ("如玉", "雖然台灣很安全，但是還是要小心一點啊！", "Đài Loan tuy an toàn nhưng vẫn phải cẩn thận nhé!"),
+        ("美玲", "除了這件事，墾丁真的很值得去。", "Ngoài chuyện đó, Khẩn Đinh thật sự rất đáng đến."),
+    ],
+    "readingTitle": "Chuyến đi Khẩn Đinh của Martin", "readingContext": "Martin kể chuyến đi miền trung và miền nam Đài Loan.",
+    "reading": [
+        ("馬丁利用學期假到台灣中南部去玩了一趟。他先到南部的墾丁去住了三天，然後又到台中玩了兩天，玩得開心極了。", "Martin tranh thủ kỳ nghỉ học kỳ đi chơi một chuyến ở miền trung và miền nam Đài Loan. Anh ở Khẩn Đinh ba ngày rồi chơi ở Đài Trung hai ngày, vui vô cùng."),
+        ("去旅行以前，馬丁把網路上的各種資料都看了一遍。因為夏天觀光客多，很難訂到房間，他就先訂了一家在網路上很多人都說不錯的民宿。沒想到民宿就在海邊，風景比網站上的照片更漂亮，他覺得自己的運氣太好了。", "Trước chuyến đi, Martin đọc hết các thông tin trên mạng một lượt. Mùa hè đông du khách, khó đặt phòng nên anh đặt trước một homestay được nhiều người đánh giá tốt. Không ngờ nhà nghỉ nằm ngay bên biển, phong cảnh còn đẹp hơn ảnh; anh thấy mình may mắn quá."),
+        ("馬丁一到墾丁，就租了摩托車到處逛逛。墾丁除了漂亮的海邊，還有很多熱帶植物。他第一天就把所有的地方都逛了一遍。第二天白天，馬丁去海邊游泳，游累了，就躺在沙灘上曬太陽。因為看見很多人在騎水上摩托車，他也試了試。", "Vừa đến Khẩn Đinh, Martin thuê xe máy đi dạo khắp nơi. Nơi đây có bờ biển đẹp và nhiều cây nhiệt đới. Ngày đầu anh đi xem hết các nơi. Ban ngày hôm sau anh bơi ở biển, mệt rồi nằm tắm nắng trên cát. Thấy nhiều người đi mô tô nước, anh cũng thử."),
+        ("黃昏，馬丁逛到墾丁最熱鬧的那條街，看見賣各國食物的餐廳，他選了一家走進去。在餐廳裡，馬丁聽著音樂、喝著啤酒，跟別的觀光客聊聊天，他愛上了這種輕鬆又浪漫的氣氛，好像回到了自己的家鄉。馬丁覺得這一趟旅行真是太值得了。", "Chiều tối, Martin đi đến con phố nhộn nhịp nhất Khẩn Đinh và chọn một nhà hàng bán món ăn nhiều nước. Ở đó, anh nghe nhạc, uống bia, trò chuyện với du khách khác. Anh yêu bầu không khí thư thái, lãng mạn, như được trở về quê nhà. Anh thấy chuyến đi này thật đáng giá."),
+    ],
+    "grammar": [
+        ("其他的 / 別的 / 另外的 — những cách nói ‘khác’", "其他的 chỉ phần còn lại trong một nhóm; 別的 chỉ thứ khác với thứ đang nói; 另外的 thường chỉ một lựa chọn khác, tách riêng. Đều đứng trước danh từ, đôi khi lược 的.", "其他的 / 別的 / 另外的 + danh từ", ("你可以去別的地方看看。", "Bạn có thể đi xem một nơi khác."), ("除了這家民宿，另外的旅館都沒房間了。", "Ngoài homestay này, các khách sạn khác đều hết phòng."), "Đừng dùng cả ba từ như nhau: 其他 nhấn phần còn lại, 另外 nhấn lựa chọn khác.", "我不想吃牛肉，我們點＿＿菜吧。", "別的", ["才", "被"]),
+        ("下 / 趟 / 遍 / 次 — đếm lượt hành động", "次 đếm số lần nói chung; 趟 là một chuyến đi và về; 遍 nhấn làm hết từ đầu đến cuối; 下 thường chỉ một động tác ngắn. Chọn lượng từ theo hành động, không thay thế tùy ý.", "Động từ + số lượng + 下 / 趟 / 遍 / 次", ("我把資料看了一遍。", "Tôi đọc hết tài liệu một lượt."), ("我去過台中兩趟。", "Tôi đã đến Đài Trung hai chuyến."), "Đọc trọn một bài dùng 遍, còn đếm số lần đọc nói chung có thể dùng 次.", "這篇文章我從頭到尾看了一＿＿。", "遍", ["趟", "條"]),
+        ("然後 / 後來 / 以後 — sau đó", "然後 nối các việc diễn ra liên tiếp; 後來 kể điều xảy ra sau một quãng thời gian, thường là trong quá khứ; 以後 là mốc ‘sau khi’ hoặc ‘về sau’ và dùng được cho tương lai. Trong bài, Martin đến Khẩn Đinh rồi mới đến Đài Trung.", "Việc 1，然後 + việc 2 / 後來 + thay đổi / mốc + 以後", ("他先去墾丁，然後又到台中。", "Anh ấy đến Khẩn Đinh trước, sau đó đến Đài Trung."), ("我本來想去，後來因為颱風沒去。", "Ban đầu tôi định đi, nhưng sau đó vì bão nên không đi."), "Không dùng 後來 cho hai bước kế tiếp nhau trong một hướng dẫn tương lai; khi đó dùng 然後.", "我們先訂旅館，＿＿買船票。", "然後", ["被", "其他"]),
+        ("才 — chỉ khi điều kiện được đáp ứng", "Khi đứng ở vế sau, 才 cho biết chỉ khi điều kiện ở vế trước được thực hiện thì kết quả mới xảy ra. 先訂好旅館，才不會找不到地方住 nghĩa là đặt phòng trước thì mới tránh thiếu chỗ ở.", "Điều kiện，才 + kết quả", ("先訂好旅館，才不會找不到地方住。", "Đặt phòng trước thì mới không lo thiếu chỗ ở."), ("做餃子得先準備材料，才能包。", "Muốn gói sủi cảo thì trước tiên phải chuẩn bị nguyên liệu."), "Đừng đảo 才 lên trước điều kiện nếu muốn nêu quan hệ điều kiện–kết quả.", "先訂好旅館，＿＿不會找不到地方住。", "才", ["被", "遍"]),
+        ("被 — câu bị động", "被 đặt người hoặc vật chịu tác động lên đầu câu. Người gây ra có thể xuất hiện sau 被 hoặc bị lược nếu không biết. Trong hội thoại, Mỹ Linh không thấy ví và đoán ví đã bị trộm.", "Vật chịu tác động + 被 + (người thực hiện) + động từ", ("我的錢包被偷了。", "Ví tiền của tôi bị lấy trộm."), ("這些餃子被我煮破了。", "Mấy cái sủi cảo này bị tôi luộc rách."), "Phủ định chuyện đã xảy ra dùng 沒被, không đặt 沒 sau 被.", "我的錢包＿＿偷了。", "被", ["才", "遍"]),
+        ("V 了 V — làm thử một chút rồi thôi", "Lặp động từ với 了 ở giữa diễn tả một hành động ngắn đã thực hiện, thường để thử. Trong bài đọc, Martin nhìn thấy người đi mô tô nước nên cũng thử một lần.", "Động từ + 了 + động từ", ("他也試了試水上摩托車。", "Anh ấy cũng thử đi mô tô nước."), ("朋友說芒果很甜，我就嚐了嚐。", "Bạn nói xoài ngọt nên tôi nếm thử."), "Mẫu này nhấn thử ngắn; không dùng để kể một việc kéo dài suốt cả ngày.", "我看見很多人在騎，就試了＿＿。", "試", ["趟", "被"]),
+        ("V + 上 — chạm, gắn hoặc bắt đầu gắn bó", "上 sau động từ có thể chỉ tiếp xúc hoặc đạt tới đối tượng: 穿上 là mặc vào, 追上 là đuổi kịp, 愛上 là nảy sinh tình yêu. Nghĩa cụ thể phụ thuộc động từ trước nó.", "Động từ + 上 + đối tượng", ("他愛上了墾丁的氣氛。", "Anh ấy yêu bầu không khí ở Khẩn Đinh."), ("我沒追上垃圾車。", "Tôi không đuổi kịp xe rác."), "Đừng dịch 上 luôn thành ‘ở trên’; nó có thể là bổ ngữ chỉ kết quả.", "他喜歡＿＿了台灣的芒果。", "上", ["遍", "趟"]),
+    ],
+    "checks": [
+        ("Mỹ Linh gợi ý nơi nào nếu Martin thích biển và bơi?", "Khẩn Đinh", ["Đài Trung", "Nhật Nguyệt Đàm"], "Cô nói 可以到墾丁去.", "Hội thoại"),
+        ("Martin ở Đài Trung bao lâu trong bài đọc?", "Hai ngày", ["Ba ngày", "Một tuần"], "Bài đọc nói 到台中玩了兩天.", "Bài đọc"),
+    ],
+    "listening": [
+        ("Nghe hội thoại. Martin muốn đi đâu ngoài Đài Bắc?", "Đến nơi khác ở Đài Loan", ["Về quê nhà", "Chỉ đến sân bay"], "Anh nói 想到其他地方去看看.", "Nghe ý chính", 1),
+        ("Nghe hội thoại. Vì sao Như Ngọc khuyên cân nhắc Khẩn Đinh?", "Đi lại thuận tiện hơn", ["Không cần đặt phòng", "Không có du khách"], "Cô nói 交通比較方便.", "Nghe lý do", 1),
+        ("Nghe bài đọc. Martin ở Khẩn Đinh mấy ngày?", "Ba ngày", ["Hai ngày", "Năm ngày"], "Bài đọc ghi 到南部的墾丁去住了三天.", "Nghe số lượng", 3),
+        ("Nghe bài đọc. Martin thử hoạt động gì ở bãi biển?", "Đi mô tô nước", ["Lặn biển", "Đi thuyền"], "Bài đọc nói 他也試了試 sau khi nhắc 騎水上摩托車.", "Nghe chi tiết", 3),
+    ],
+    "practice": [
+        ("‘民宿’ là gì?", "nhà nghỉ kiểu homestay", ["ga tàu", "bến xe"], "民宿 là chỗ nghỉ nhỏ thường do người địa phương vận hành.", "Từ vựng"),
+        ("Điền: 我把資料從頭到尾看了一＿＿。", "遍", ["趟", "條"], "遍 nhấn đã xem hết từ đầu đến cuối.", "Ngữ pháp"),
+        ("Vì sao Mỹ Linh không đến Đài Trung tháng trước?", "Vì bão", ["Vì không biết đường", "Vì mất ví"], "Cô nói 後來因為颱風就沒去.", "Hội thoại"),
+        ("Điền: 我們先去墾丁，＿＿到台中。", "然後", ["被", "遍"], "然後 nối hai chặng liên tiếp.", "Ngữ pháp"),
+        ("Điền: 先訂好旅館，＿＿不會找不到地方住。", "才", ["被", "上"], "才 nối điều kiện với kết quả.", "Ngữ pháp"),
+        ("Điền: 我的錢包＿＿偷了。", "被", ["才", "又"], "被 đưa vật chịu tác động lên đầu câu.", "Ngữ pháp"),
+        ("Bài đọc: Martin đặt homestay trước vì sao?", "Mùa hè đông du khách, khó đặt phòng", ["Vì không thích khách sạn", "Vì bạn anh làm ở đó"], "Bài đọc nói 因為夏天觀光客多，很難訂到房間.", "Bài đọc"),
+        ("Điền: 他看見大家騎水上摩托車，也試了＿＿。", "試", ["遍", "趟"], "試了試 là thử một lần ngắn.", "Ngữ pháp"),
+    ],
+    "assessment": [
+        ("‘風景區’ là gì?", "khu thắng cảnh", ["cửa hàng", "trạm xe"], "風景區 là khu có cảnh đẹp để tham quan.", "Từ vựng"),
+        ("Điền: 我把這篇文章看了一＿＿。", "遍", ["趟", "被"], "遍 là một lượt từ đầu đến cuối.", "Ngữ pháp"),
+        ("Mỹ Linh đã đến đảo Lục mấy lần?", "Hai lần", ["Một lần", "Chưa từng"], "Cô nói 綠島我去過兩次.", "Hội thoại"),
+        ("Điền: 我本來想去，＿＿因為颱風沒去。", "後來", ["被", "其他"], "後來 kể sự thay đổi về sau.", "Ngữ pháp"),
+        ("Điền: 先買船票，＿＿能上船。", "才", ["被", "遍"], "才 nêu điều kiện cần cho kết quả.", "Ngữ pháp"),
+        ("Điền: 我的手機＿＿人拿走了。", "被", ["才", "又"], "被 đánh dấu câu bị động.", "Ngữ pháp"),
+        ("Trong bài đọc, homestay ở đâu?", "Ngay bên bờ biển", ["Giữa rừng", "Cạnh nhà ga"], "Bài đọc nói 民宿就在海邊.", "Bài đọc"),
+        ("Martin thuê gì khi vừa đến Khẩn Đinh?", "Xe máy", ["Ô tô", "Xe đạp"], "Bài đọc ghi 租了摩托車.", "Bài đọc"),
+        ("Điền: 他＿＿上了海邊輕鬆的氣氛。", "愛", ["遍", "趟"], "愛上 là bắt đầu yêu thích sâu sắc.", "Ngữ pháp"),
+        ("Martin thấy chuyến đi thế nào?", "Rất đáng giá", ["Vô nghĩa", "Quá nguy hiểm"], "Cuối bài nói 這一趟旅行真是太值得了.", "Bài đọc"),
+    ],
+    "writingTitle": "Kế hoạch kỳ nghỉ của bạn", "writingPrompt": "Viết 2–3 câu về một nơi muốn đến và cách chuẩn bị. Thử dùng 然後 hoặc 才.",
+    "writingSample": "我想去墾丁玩。先訂好旅館，才不會找不到地方住。然後我要去海邊游泳。",
+}
+
+if __name__ == "__main__":
+    write_spec(SPEC)

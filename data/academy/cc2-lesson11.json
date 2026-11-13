@@ -1,0 +1,1111 @@
+{
+  "contentVersion": 2,
+  "id": "cc2-v2-l11",
+  "title": "台灣好玩的地方真多",
+  "titleVi": "Đài Loan có nhiều nơi thú vị quá",
+  "description": "Lên kế hoạch đi chơi, chọn điểm đến và kể một chuyến du lịch.",
+  "objectives": [
+    "Gợi ý nơi du lịch, cân nhắc phương tiện và đặt chỗ trước.",
+    "Kể một chuyến đi theo thứ tự và nói số lần đã làm việc gì.",
+    "Nhận biết câu bị động với 被 và cách dùng 值得."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Martin hỏi bạn bè nên đi đâu trong kỳ nghỉ. Sau đó anh kể chuyến đi Khẩn Đinh và Đài Trung.",
+    "sections": [
+      {
+        "id": "cc2-v2-l11-section-01",
+        "title": "Chọn nơi muốn đi",
+        "body": "So sánh điểm đến và hỏi lời khuyên trước kỳ nghỉ.",
+        "chinese": "如果時間夠，我建議你去看看。",
+        "simplified": "如果时间够，我建议你去看看。",
+        "pinyin": "rú guǒ shí jiān gòu ， wǒ jiàn yì nǐ qù kàn kàn 。",
+        "meaningVi": "Nếu có đủ thời gian, tôi khuyên bạn đi xem thử."
+      },
+      {
+        "id": "cc2-v2-l11-section-02",
+        "title": "Kể lại chuyến đi",
+        "body": "Dùng 然後, 後來 và số lượt để thuật lại hành trình.",
+        "chinese": "他先到墾丁去住了三天，然後又到台中玩了兩天。",
+        "simplified": "他先到垦丁去住了三天，然后又到台中玩了两天。",
+        "pinyin": "tā xiān dào kěn dīng qù zhù le sān tiān ， rán hòu yòu dào tái zhōng wán le liǎng tiān 。",
+        "meaningVi": "Anh đến Khẩn Đinh ở ba ngày trước, rồi đến Đài Trung chơi thêm hai ngày."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc2-v2-l11-dialogue",
+        "title": "Đi đâu trong kỳ nghỉ?",
+        "context": "Martin hỏi Như Ngọc và Mỹ Linh về những nơi đáng đến ở Đài Loan.",
+        "audioTrackId": "cc2-textbook-l11-t01",
+        "turns": [
+          {
+            "speaker": "馬丁",
+            "chinese": "我來台灣以後，沒離開過台北，所以想到其他地方去看看。",
+            "simplified": "我来台湾以后，没离开过台北，所以想到其他地方去看看。",
+            "pinyin": "wǒ lái tái wān yǐ hòu ， méi lí kāi guò tái běi ， suǒ yǐ xiǎng dào qí tā dì fāng qù kàn kàn 。",
+            "meaningVi": "Từ khi đến Đài Loan, tôi chưa rời Đài Bắc nên muốn đi nơi khác xem thử."
+          },
+          {
+            "speaker": "如玉",
+            "chinese": "假期快到了，你可以計畫一下啊！",
+            "simplified": "假期快到了，你可以计划一下啊！",
+            "pinyin": "jià qī kuài dào le ， nǐ kě yǐ jì huà yī xià a ！",
+            "meaningVi": "Kỳ nghỉ sắp tới rồi, bạn có thể lên kế hoạch đi!"
+          },
+          {
+            "speaker": "馬丁",
+            "chinese": "你們去過很多地方，可不可以告訴我，哪裡一定要去看看呢？",
+            "simplified": "你们去过很多地方，可不可以告诉我，哪里一定要去看看呢？",
+            "pinyin": "nǐ men qù guò hěn duō dì fāng ， kě bù kě yǐ gào sù wǒ ， nǎ lǐ yí dìng yào qù kàn kàn ne ？",
+            "meaningVi": "Hai bạn đã đi nhiều nơi. Cho tôi biết nơi nào nhất định nên đến được không?"
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "如果你喜歡海邊和游泳，可以到墾丁去，那裡有各種水上活動。",
+            "simplified": "如果你喜欢海边和游泳，可以到垦丁去，那里有各种水上活动。",
+            "pinyin": "rú guǒ nǐ xǐ huān hǎi biān hé yóu yǒng ， kě yǐ dào kěn dīng qù ， nà lǐ yǒu gè zhǒng shuǐ shàng huó dòng 。",
+            "meaningVi": "Nếu thích biển và bơi lội, bạn có thể đến Khẩn Đinh; ở đó có nhiều hoạt động dưới nước."
+          },
+          {
+            "speaker": "如玉",
+            "chinese": "上次我朋友來，去綠島玩了三天，她說風景很美，而且海邊有個溫泉，非常特別。",
+            "simplified": "上次我朋友来，去绿岛玩了三天，她说风景很美，而且海边有个温泉，非常特别。",
+            "pinyin": "shàng cì wǒ péng yǒu lái ， qù lǜ dǎo wán le sān tiān ， tā shuō fēng jǐng hěn měi ， ér qiě hǎi biān yǒu gè wēn quán ， fēi cháng tè bié 。",
+            "meaningVi": "Lần trước bạn tôi đến đảo Lục chơi ba ngày. Cô ấy nói phong cảnh rất đẹp, lại có suối nước nóng bên biển, rất đặc biệt."
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "綠島我去過兩次。如果時間夠，我建議你去看看。",
+            "simplified": "绿岛我去过两次。如果时间够，我建议你去看看。",
+            "pinyin": "lǜ dǎo wǒ qù guò liǎng cì 。 rú guǒ shí jiān gòu ， wǒ jiàn yì nǐ qù kàn kàn 。",
+            "meaningVi": "Tôi đã đến đảo Lục hai lần. Nếu có thời gian, tôi khuyên bạn đi thử."
+          },
+          {
+            "speaker": "如玉",
+            "chinese": "夏天去綠島的人很多，船票常常買不到，你可以考慮去墾丁，交通比較方便。",
+            "simplified": "夏天去绿岛的人很多，船票常常买不到，你可以考虑去垦丁，交通比较方便。",
+            "pinyin": "xià tiān qù lǜ dǎo de rén hěn duō ， chuán piào cháng cháng mǎi bú dào ， nǐ kě yǐ kǎo lǜ qù kěn dīng ， jiāo tōng bǐ jiào fāng biàn 。",
+            "meaningVi": "Mùa hè nhiều người đến đảo Lục nên thường khó mua vé tàu. Bạn có thể cân nhắc Khẩn Đinh, đi lại thuận tiện hơn."
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "墾丁也不錯。你回來的時候，可以順便去台中玩，台中附近也有很多有名的風景區。",
+            "simplified": "垦丁也不错。你回来的时候，可以顺便去台中玩，台中附近也有很多有名的风景区。",
+            "pinyin": "kěn dīng yě bù cuò 。 nǐ huí lái de shí hòu ， kě yǐ shùn biàn qù tái zhōng wán ， tái zhōng fù jìn yě yǒu hěn duō yǒu míng de fēng jǐng qū 。",
+            "meaningVi": "Khẩn Đinh cũng hay. Lúc về bạn có thể tiện thể ghé Đài Trung; gần đó cũng có nhiều khu thắng cảnh nổi tiếng."
+          },
+          {
+            "speaker": "馬丁",
+            "chinese": "噢！我聽說有個地方叫什麼湖？",
+            "simplified": "噢！我听说有个地方叫什么湖？",
+            "pinyin": "ō ！ wǒ tīng shuō yǒu gè dì fāng jiào shén me hú ？",
+            "meaningVi": "Ồ! Tôi nghe nói có nơi tên là hồ gì nhỉ?"
+          },
+          {
+            "speaker": "如玉",
+            "chinese": "你說的是日月潭吧！在台灣中部，離台中不遠。那裡不錯，有山有水，還有原住民的文化。",
+            "simplified": "你说的是日月潭吧！在台湾中部，离台中不远。那里不错，有山有水，还有原住民的文化。",
+            "pinyin": "nǐ shuō de shì rì yuè tán ba ！ zài tái wān zhōng bù ， lí tái zhōng bù yuǎn 。 nà lǐ bù cuò ， yǒu shān yǒu shuǐ ， hái yǒu yuán zhù mín de wén huà 。",
+            "meaningVi": "Bạn nói Nhật Nguyệt Đàm phải không? Hồ ở miền trung Đài Loan, không xa Đài Trung. Ở đó có núi, có hồ và văn hóa bản địa."
+          },
+          {
+            "speaker": "馬丁",
+            "chinese": "我也聽說台中的夜市有各種小吃，比台北多。",
+            "simplified": "我也听说台中的夜市有各种小吃，比台北多。",
+            "pinyin": "wǒ yě tīng shuō tái zhōng de yè shì yǒu gè zhǒng xiǎo chī ， bǐ tái běi duō 。",
+            "meaningVi": "Tôi cũng nghe nói chợ đêm Đài Trung có đủ loại món ăn vặt, nhiều hơn Đài Bắc."
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "對，上個月我本來計畫去台中玩一趟，後來因為颱風就沒去。",
+            "simplified": "对，上个月我本来计划去台中玩一趟，后来因为台风就没去。",
+            "pinyin": "duì ， shàng gè yuè wǒ běn lái jì huà qù tái zhōng wán yī tàng ， hòu lái yīn wèi tái fēng jiù méi qù 。",
+            "meaningVi": "Đúng. Tháng trước tôi định đi Đài Trung một chuyến, nhưng sau đó vì bão nên không đi."
+          },
+          {
+            "speaker": "如玉",
+            "chinese": "好可惜，台中很有意思。",
+            "simplified": "好可惜，台中很有意思。",
+            "pinyin": "hǎo kě xī ， tái zhōng hěn yǒu yì si 。",
+            "meaningVi": "Tiếc quá, Đài Trung thú vị lắm."
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "沒關係，以後一定還有機會。",
+            "simplified": "没关系，以后一定还有机会。",
+            "pinyin": "méi guān xì ， yǐ hòu yí dìng hái yǒu jī huì 。",
+            "meaningVi": "Không sao, sau này chắc còn cơ hội."
+          },
+          {
+            "speaker": "馬丁",
+            "chinese": "聽了你們的建議，我打算先去墾丁，然後再到台中去玩。",
+            "simplified": "听了你们的建议，我打算先去垦丁，然后再到台中去玩。",
+            "pinyin": "tīng le nǐ men de jiàn yì ， wǒ dǎ suàn xiān qù kěn dīng ， rán hòu zài dào tái zhōng qù wán 。",
+            "meaningVi": "Nghe lời khuyên của hai bạn, tôi định đến Khẩn Đinh trước, rồi đi Đài Trung."
+          },
+          {
+            "speaker": "如玉",
+            "chinese": "夏天去玩的人很多，去墾丁一定要先訂好旅館，才不會找不到地方住。",
+            "simplified": "夏天去玩的人很多，去垦丁一定要先订好旅馆，才不会找不到地方住。",
+            "pinyin": "xià tiān qù wán de rén hěn duō ， qù kěn dīng yí dìng yào xiān dìng hǎo lǚ guǎn ， cái bù huì zhǎo bú dào dì fāng zhù 。",
+            "meaningVi": "Mùa hè nhiều người đi chơi, đến Khẩn Đinh nhớ đặt phòng trước để khỏi không tìm được chỗ ở."
+          },
+          {
+            "speaker": "馬丁",
+            "chinese": "還要注意什麼呢？",
+            "simplified": "还要注意什么呢？",
+            "pinyin": "hái yào zhù yì shén me ne ？",
+            "meaningVi": "Còn cần chú ý điều gì nữa?"
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "我上一次去的時候，把錢包和衣服放在沙灘上，沒想到錢包不見了，大概被偷了。",
+            "simplified": "我上一次去的时候，把钱包和衣服放在沙滩上，没想到钱包不见了，大概被偷了。",
+            "pinyin": "wǒ shàng yī cì qù de shí hòu ， bǎ qián bāo hé yī fú fàng zài shā tān shàng ， méi xiǎng dào qián bāo bù jiàn le ， dà gài bèi tōu le 。",
+            "meaningVi": "Lần trước tôi để ví và quần áo trên bãi cát, không ngờ ví biến mất, chắc bị lấy trộm."
+          },
+          {
+            "speaker": "如玉",
+            "chinese": "雖然台灣很安全，但是還是要小心一點啊！",
+            "simplified": "虽然台湾很安全，但是还是要小心一点啊！",
+            "pinyin": "suī rán tái wān hěn ān quán ， dàn shì hái shì yào xiǎo xīn yī diǎn a ！",
+            "meaningVi": "Đài Loan tuy an toàn nhưng vẫn phải cẩn thận nhé!"
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "除了這件事，墾丁真的很值得去。",
+            "simplified": "除了这件事，垦丁真的很值得去。",
+            "pinyin": "chú le zhè jiàn shì ， kěn dīng zhēn de hěn zhí de qù 。",
+            "meaningVi": "Ngoài chuyện đó, Khẩn Đinh thật sự rất đáng đến."
+          }
+        ]
+      },
+      {
+        "id": "cc2-v2-l11-reading",
+        "title": "Chuyến đi Khẩn Đinh của Martin",
+        "context": "Martin kể chuyến đi miền trung và miền nam Đài Loan.",
+        "audioTrackId": "cc2-textbook-l11-t03",
+        "turns": [
+          {
+            "speaker": "Bài đọc",
+            "chinese": "馬丁利用學期假到台灣中南部去玩了一趟。他先到南部的墾丁去住了三天，然後又到台中玩了兩天，玩得開心極了。",
+            "simplified": "马丁利用学期假到台湾中南部去玩了一趟。他先到南部的垦丁去住了三天，然后又到台中玩了两天，玩得开心极了。",
+            "pinyin": "mǎ dīng lì yòng xué qī jiǎ dào tái wān zhōng nán bù qù wán le yī tàng 。 tā xiān dào nán bù de kěn dīng qù zhù le sān tiān ， rán hòu yòu dào tái zhōng wán le liǎng tiān ， wán dé kāi xīn jí le 。",
+            "meaningVi": "Martin tranh thủ kỳ nghỉ học kỳ đi chơi một chuyến ở miền trung và miền nam Đài Loan. Anh ở Khẩn Đinh ba ngày rồi chơi ở Đài Trung hai ngày, vui vô cùng."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "去旅行以前，馬丁把網路上的各種資料都看了一遍。因為夏天觀光客多，很難訂到房間，他就先訂了一家在網路上很多人都說不錯的民宿。沒想到民宿就在海邊，風景比網站上的照片更漂亮，他覺得自己的運氣太好了。",
+            "simplified": "去旅行以前，马丁把网路上的各种资料都看了一遍。因为夏天观光客多，很难订到房间，他就先订了一家在网路上很多人都说不错的民宿。没想到民宿就在海边，风景比网站上的照片更漂亮，他觉得自己的运气太好了。",
+            "pinyin": "qù lǚ xíng yǐ qián ， mǎ dīng bǎ wǎng lù shàng de gè zhǒng zī liào dōu kàn le yī biàn 。 yīn wèi xià tiān guān guāng kè duō ， hěn nán dìng dào fáng jiān ， tā jiù xiān dìng le yī jiā zài wǎng lù shàng hěn duō rén dōu shuō bù cuò de mín sù 。 méi xiǎng dào mín sù jiù zài hǎi biān ， fēng jǐng bǐ wǎng zhàn shàng de zhào piān gèng piào liàng ， tā jué dé zì jǐ de yùn qì tài hǎo le 。",
+            "meaningVi": "Trước chuyến đi, Martin đọc hết các thông tin trên mạng một lượt. Mùa hè đông du khách, khó đặt phòng nên anh đặt trước một homestay được nhiều người đánh giá tốt. Không ngờ nhà nghỉ nằm ngay bên biển, phong cảnh còn đẹp hơn ảnh; anh thấy mình may mắn quá."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "馬丁一到墾丁，就租了摩托車到處逛逛。墾丁除了漂亮的海邊，還有很多熱帶植物。他第一天就把所有的地方都逛了一遍。第二天白天，馬丁去海邊游泳，游累了，就躺在沙灘上曬太陽。因為看見很多人在騎水上摩托車，他也試了試。",
+            "simplified": "马丁一到垦丁，就租了摩托车到处逛逛。垦丁除了漂亮的海边，还有很多热带植物。他第一天就把所有的地方都逛了一遍。第二天白天，马丁去海边游泳，游累了，就躺在沙滩上晒太阳。因为看见很多人在骑水上摩托车，他也试了试。",
+            "pinyin": "mǎ dīng yī dào kěn dīng ， jiù zū le mó tuō chē dào chù guàng guàng 。 kěn dīng chú le piào liàng de hǎi biān ， hái yǒu hěn duō rè dài zhí wù 。 tā dì yī tiān jiù bǎ suǒ yǒu de dì fāng dōu guàng le yī biàn 。 dì èr tiān bái tiān ， mǎ dīng qù hǎi biān yóu yǒng ， yóu lèi le ， jiù tǎng zài shā tān shàng shài tài yáng 。 yīn wèi kàn jiàn hěn duō rén zài qí shuǐ shàng mó tuō chē ， tā yě shì le shì 。",
+            "meaningVi": "Vừa đến Khẩn Đinh, Martin thuê xe máy đi dạo khắp nơi. Nơi đây có bờ biển đẹp và nhiều cây nhiệt đới. Ngày đầu anh đi xem hết các nơi. Ban ngày hôm sau anh bơi ở biển, mệt rồi nằm tắm nắng trên cát. Thấy nhiều người đi mô tô nước, anh cũng thử."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "黃昏，馬丁逛到墾丁最熱鬧的那條街，看見賣各國食物的餐廳，他選了一家走進去。在餐廳裡，馬丁聽著音樂、喝著啤酒，跟別的觀光客聊聊天，他愛上了這種輕鬆又浪漫的氣氛，好像回到了自己的家鄉。馬丁覺得這一趟旅行真是太值得了。",
+            "simplified": "黄昏，马丁逛到垦丁最热闹的那条街，看见卖各国食物的餐厅，他选了一家走进去。在餐厅里，马丁听着音乐、喝着啤酒，跟别的观光客聊聊天，他爱上了这种轻松又浪漫的气氛，好像回到了自己的家乡。马丁觉得这一趟旅行真是太值得了。",
+            "pinyin": "huáng hūn ， mǎ dīng guàng dào kěn dīng zuì rè nào de nà tiáo jiē ， kàn jiàn mài gè guó shí wù de cān tīng ， tā xuǎn le yī jiā zǒu jìn qù 。 zài cān tīng lǐ ， mǎ dīng tīng zhù yīn lè 、 hē zhù pí jiǔ ， gēn bié de guān guāng kè liáo liáo tiān ， tā ài shàng le zhè zhǒng qīng sōng yòu làng màn de qì fēn ， hǎo xiàng huí dào le zì jǐ de jiā xiāng 。 mǎ dīng jué dé zhè yī tàng lǚ xíng zhēn shì tài zhí de le 。",
+            "meaningVi": "Chiều tối, Martin đi đến con phố nhộn nhịp nhất Khẩn Đinh và chọn một nhà hàng bán món ăn nhiều nước. Ở đó, anh nghe nhạc, uống bia, trò chuyện với du khách khác. Anh yêu bầu không khí thư thái, lãng mạn, như được trở về quê nhà. Anh thấy chuyến đi này thật đáng giá."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc2-v2-l11-check-01",
+        "prompt": "Mỹ Linh gợi ý nơi nào nếu Martin thích biển và bơi?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Đài Trung"
+          },
+          {
+            "id": "b",
+            "text": "Nhật Nguyệt Đàm"
+          },
+          {
+            "id": "c",
+            "text": "Khẩn Đinh"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Cô nói 可以到墾丁去.",
+        "skill": "Hội thoại"
+      },
+      {
+        "id": "cc2-v2-l11-check-02",
+        "prompt": "Martin ở Đài Trung bao lâu trong bài đọc?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Hai ngày"
+          },
+          {
+            "id": "b",
+            "text": "Ba ngày"
+          },
+          {
+            "id": "c",
+            "text": "Một tuần"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Bài đọc nói 到台中玩了兩天.",
+        "skill": "Bài đọc"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem phiên âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc2-v2-l11-v001",
+      "cc2-v2-l11-v002",
+      "cc2-v2-l11-v003",
+      "cc2-v2-l11-v004",
+      "cc2-v2-l11-v005",
+      "cc2-v2-l11-v006",
+      "cc2-v2-l11-v007",
+      "cc2-v2-l11-v008",
+      "cc2-v2-l11-v009",
+      "cc2-v2-l11-v010",
+      "cc2-v2-l11-v011",
+      "cc2-v2-l11-v012",
+      "cc2-v2-l11-v013",
+      "cc2-v2-l11-v014",
+      "cc2-v2-l11-v015",
+      "cc2-v2-l11-v016",
+      "cc2-v2-l11-v017",
+      "cc2-v2-l11-v018",
+      "cc2-v2-l11-v019",
+      "cc2-v2-l11-v020",
+      "cc2-v2-l11-v021",
+      "cc2-v2-l11-v022",
+      "cc2-v2-l11-v023",
+      "cc2-v2-l11-v024",
+      "cc2-v2-l11-v025",
+      "cc2-v2-l11-v026",
+      "cc2-v2-l11-v027",
+      "cc2-v2-l11-v028",
+      "cc2-v2-l11-v029",
+      "cc2-v2-l11-v030",
+      "cc2-v2-l11-v031",
+      "cc2-v2-l11-v032",
+      "cc2-v2-l11-v033",
+      "cc2-v2-l11-v034",
+      "cc2-v2-l11-v035",
+      "cc2-v2-l11-v036",
+      "cc2-v2-l11-v037",
+      "cc2-v2-l11-v038",
+      "cc2-v2-l11-v039",
+      "cc2-v2-l11-v040",
+      "cc2-v2-l11-v041",
+      "cc2-v2-l11-v042",
+      "cc2-v2-l11-v043",
+      "cc2-v2-l11-v044",
+      "cc2-v2-l11-v045",
+      "cc2-v2-l11-v046"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc2-textbook-l11-t02",
+        "label": "Từ vựng hội thoại"
+      },
+      {
+        "id": "cc2-textbook-l11-t04",
+        "label": "Từ vựng bài đọc"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc2-v2-l11-grammar-01",
+      "title": "其他的 / 別的 / 另外的 — những cách nói ‘khác’",
+      "audioTrackId": "cc2-textbook-l11-t05",
+      "explanation": "其他的 chỉ phần còn lại trong một nhóm; 別的 chỉ thứ khác với thứ đang nói; 另外的 thường chỉ một lựa chọn khác, tách riêng. Đều đứng trước danh từ, đôi khi lược 的.",
+      "structure": "其他的 / 別的 / 另外的 + danh từ",
+      "examples": [
+        {
+          "chinese": "你可以去別的地方看看。",
+          "simplified": "你可以去别的地方看看。",
+          "pinyin": "nǐ kě yǐ qù bié de dì fāng kàn kàn 。",
+          "meaningVi": "Bạn có thể đi xem một nơi khác."
+        },
+        {
+          "chinese": "除了這家民宿，另外的旅館都沒房間了。",
+          "simplified": "除了这家民宿，另外的旅馆都没房间了。",
+          "pinyin": "chú le zhè jiā mín sù ， lìng wài de lǚ guǎn dōu méi fáng jiān le 。",
+          "meaningVi": "Ngoài homestay này, các khách sạn khác đều hết phòng."
+        }
+      ],
+      "commonMistake": "Đừng dùng cả ba từ như nhau: 其他 nhấn phần còn lại, 另外 nhấn lựa chọn khác.",
+      "check": {
+        "id": "cc2-v2-l11-grammar-check-01",
+        "prompt": "Điền: 我不想吃牛肉，我們點＿＿菜吧。",
+        "options": [
+          {
+            "id": "a",
+            "text": "才"
+          },
+          {
+            "id": "b",
+            "text": "被"
+          },
+          {
+            "id": "c",
+            "text": "別的"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "其他的 chỉ phần còn lại trong một nhóm; 別的 chỉ thứ khác với thứ đang nói; 另外的 thường chỉ một lựa chọn khác, tách riêng.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l11-grammar-02",
+      "title": "下 / 趟 / 遍 / 次 — đếm lượt hành động",
+      "audioTrackId": "cc2-textbook-l11-t06",
+      "explanation": "次 đếm số lần nói chung; 趟 là một chuyến đi và về; 遍 nhấn làm hết từ đầu đến cuối; 下 thường chỉ một động tác ngắn. Chọn lượng từ theo hành động, không thay thế tùy ý.",
+      "structure": "Động từ + số lượng + 下 / 趟 / 遍 / 次",
+      "examples": [
+        {
+          "chinese": "我把資料看了一遍。",
+          "simplified": "我把资料看了一遍。",
+          "pinyin": "wǒ bǎ zī liào kàn le yī biàn 。",
+          "meaningVi": "Tôi đọc hết tài liệu một lượt."
+        },
+        {
+          "chinese": "我去過台中兩趟。",
+          "simplified": "我去过台中两趟。",
+          "pinyin": "wǒ qù guò tái zhōng liǎng tàng 。",
+          "meaningVi": "Tôi đã đến Đài Trung hai chuyến."
+        }
+      ],
+      "commonMistake": "Đọc trọn một bài dùng 遍, còn đếm số lần đọc nói chung có thể dùng 次.",
+      "check": {
+        "id": "cc2-v2-l11-grammar-check-02",
+        "prompt": "Điền: 這篇文章我從頭到尾看了一＿＿。",
+        "options": [
+          {
+            "id": "a",
+            "text": "趟"
+          },
+          {
+            "id": "b",
+            "text": "條"
+          },
+          {
+            "id": "c",
+            "text": "遍"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "次 đếm số lần nói chung; 趟 là một chuyến đi và về; 遍 nhấn làm hết từ đầu đến cuối; 下 thường chỉ một động tác ngắn.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l11-grammar-03",
+      "title": "然後 / 後來 / 以後 — sau đó",
+      "audioTrackId": "cc2-textbook-l11-t07",
+      "explanation": "然後 nối các việc diễn ra liên tiếp; 後來 kể điều xảy ra sau một quãng thời gian, thường là trong quá khứ; 以後 là mốc ‘sau khi’ hoặc ‘về sau’ và dùng được cho tương lai. Trong bài, Martin đến Khẩn Đinh rồi mới đến Đài Trung.",
+      "structure": "Việc 1，然後 + việc 2 / 後來 + thay đổi / mốc + 以後",
+      "examples": [
+        {
+          "chinese": "他先去墾丁，然後又到台中。",
+          "simplified": "他先去垦丁，然后又到台中。",
+          "pinyin": "tā xiān qù kěn dīng ， rán hòu yòu dào tái zhōng 。",
+          "meaningVi": "Anh ấy đến Khẩn Đinh trước, sau đó đến Đài Trung."
+        },
+        {
+          "chinese": "我本來想去，後來因為颱風沒去。",
+          "simplified": "我本来想去，后来因为台风没去。",
+          "pinyin": "wǒ běn lái xiǎng qù ， hòu lái yīn wèi tái fēng méi qù 。",
+          "meaningVi": "Ban đầu tôi định đi, nhưng sau đó vì bão nên không đi."
+        }
+      ],
+      "commonMistake": "Không dùng 後來 cho hai bước kế tiếp nhau trong một hướng dẫn tương lai; khi đó dùng 然後.",
+      "check": {
+        "id": "cc2-v2-l11-grammar-check-03",
+        "prompt": "Điền: 我們先訂旅館，＿＿買船票。",
+        "options": [
+          {
+            "id": "a",
+            "text": "其他"
+          },
+          {
+            "id": "b",
+            "text": "然後"
+          },
+          {
+            "id": "c",
+            "text": "被"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "然後 nối các việc diễn ra liên tiếp; 後來 kể điều xảy ra sau một quãng thời gian, thường là trong quá khứ; 以後 là mốc ‘sau khi’ hoặc ‘về sau’ và dùng được cho tương lai.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l11-grammar-04",
+      "title": "才 — chỉ khi điều kiện được đáp ứng",
+      "audioTrackId": "cc2-textbook-l11-t08",
+      "explanation": "Khi đứng ở vế sau, 才 cho biết chỉ khi điều kiện ở vế trước được thực hiện thì kết quả mới xảy ra. 先訂好旅館，才不會找不到地方住 nghĩa là đặt phòng trước thì mới tránh thiếu chỗ ở.",
+      "structure": "Điều kiện，才 + kết quả",
+      "examples": [
+        {
+          "chinese": "先訂好旅館，才不會找不到地方住。",
+          "simplified": "先订好旅馆，才不会找不到地方住。",
+          "pinyin": "xiān dìng hǎo lǚ guǎn ， cái bù huì zhǎo bú dào dì fāng zhù 。",
+          "meaningVi": "Đặt phòng trước thì mới không lo thiếu chỗ ở."
+        },
+        {
+          "chinese": "做餃子得先準備材料，才能包。",
+          "simplified": "做饺子得先准备材料，才能包。",
+          "pinyin": "zuò jiǎo zi dé xiān zhǔn bèi cái liào ， cái néng bāo 。",
+          "meaningVi": "Muốn gói sủi cảo thì trước tiên phải chuẩn bị nguyên liệu."
+        }
+      ],
+      "commonMistake": "Đừng đảo 才 lên trước điều kiện nếu muốn nêu quan hệ điều kiện–kết quả.",
+      "check": {
+        "id": "cc2-v2-l11-grammar-check-04",
+        "prompt": "Điền: 先訂好旅館，＿＿不會找不到地方住。",
+        "options": [
+          {
+            "id": "a",
+            "text": "才"
+          },
+          {
+            "id": "b",
+            "text": "被"
+          },
+          {
+            "id": "c",
+            "text": "遍"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Khi đứng ở vế sau, 才 cho biết chỉ khi điều kiện ở vế trước được thực hiện thì kết quả mới xảy ra.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l11-grammar-05",
+      "title": "被 — câu bị động",
+      "audioTrackId": "cc2-textbook-l11-t09",
+      "explanation": "被 đặt người hoặc vật chịu tác động lên đầu câu. Người gây ra có thể xuất hiện sau 被 hoặc bị lược nếu không biết. Trong hội thoại, Mỹ Linh không thấy ví và đoán ví đã bị trộm.",
+      "structure": "Vật chịu tác động + 被 + (người thực hiện) + động từ",
+      "examples": [
+        {
+          "chinese": "我的錢包被偷了。",
+          "simplified": "我的钱包被偷了。",
+          "pinyin": "wǒ de qián bāo bèi tōu le 。",
+          "meaningVi": "Ví tiền của tôi bị lấy trộm."
+        },
+        {
+          "chinese": "這些餃子被我煮破了。",
+          "simplified": "这些饺子被我煮破了。",
+          "pinyin": "zhè xiē jiǎo zi bèi wǒ zhǔ pò le 。",
+          "meaningVi": "Mấy cái sủi cảo này bị tôi luộc rách."
+        }
+      ],
+      "commonMistake": "Phủ định chuyện đã xảy ra dùng 沒被, không đặt 沒 sau 被.",
+      "check": {
+        "id": "cc2-v2-l11-grammar-check-05",
+        "prompt": "Điền: 我的錢包＿＿偷了。",
+        "options": [
+          {
+            "id": "a",
+            "text": "被"
+          },
+          {
+            "id": "b",
+            "text": "才"
+          },
+          {
+            "id": "c",
+            "text": "遍"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "被 đặt người hoặc vật chịu tác động lên đầu câu.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l11-grammar-06",
+      "title": "V 了 V — làm thử một chút rồi thôi",
+      "audioTrackId": "cc2-textbook-l11-t10",
+      "explanation": "Lặp động từ với 了 ở giữa diễn tả một hành động ngắn đã thực hiện, thường để thử. Trong bài đọc, Martin nhìn thấy người đi mô tô nước nên cũng thử một lần.",
+      "structure": "Động từ + 了 + động từ",
+      "examples": [
+        {
+          "chinese": "他也試了試水上摩托車。",
+          "simplified": "他也试了试水上摩托车。",
+          "pinyin": "tā yě shì le shì shuǐ shàng mó tuō chē 。",
+          "meaningVi": "Anh ấy cũng thử đi mô tô nước."
+        },
+        {
+          "chinese": "朋友說芒果很甜，我就嚐了嚐。",
+          "simplified": "朋友说芒果很甜，我就尝了尝。",
+          "pinyin": "péng yǒu shuō máng guǒ hěn tián ， wǒ jiù cháng le cháng 。",
+          "meaningVi": "Bạn nói xoài ngọt nên tôi nếm thử."
+        }
+      ],
+      "commonMistake": "Mẫu này nhấn thử ngắn; không dùng để kể một việc kéo dài suốt cả ngày.",
+      "check": {
+        "id": "cc2-v2-l11-grammar-check-06",
+        "prompt": "Điền: 我看見很多人在騎，就試了＿＿。",
+        "options": [
+          {
+            "id": "a",
+            "text": "被"
+          },
+          {
+            "id": "b",
+            "text": "試"
+          },
+          {
+            "id": "c",
+            "text": "趟"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Lặp động từ với 了 ở giữa diễn tả một hành động ngắn đã thực hiện, thường để thử.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l11-grammar-07",
+      "title": "V + 上 — chạm, gắn hoặc bắt đầu gắn bó",
+      "audioTrackId": "cc2-textbook-l11-t11",
+      "explanation": "上 sau động từ có thể chỉ tiếp xúc hoặc đạt tới đối tượng: 穿上 là mặc vào, 追上 là đuổi kịp, 愛上 là nảy sinh tình yêu. Nghĩa cụ thể phụ thuộc động từ trước nó.",
+      "structure": "Động từ + 上 + đối tượng",
+      "examples": [
+        {
+          "chinese": "他愛上了墾丁的氣氛。",
+          "simplified": "他爱上了垦丁的气氛。",
+          "pinyin": "tā ài shàng le kěn dīng de qì fēn 。",
+          "meaningVi": "Anh ấy yêu bầu không khí ở Khẩn Đinh."
+        },
+        {
+          "chinese": "我沒追上垃圾車。",
+          "simplified": "我没追上垃圾车。",
+          "pinyin": "wǒ méi zhuī shàng lā jī chē 。",
+          "meaningVi": "Tôi không đuổi kịp xe rác."
+        }
+      ],
+      "commonMistake": "Đừng dịch 上 luôn thành ‘ở trên’; nó có thể là bổ ngữ chỉ kết quả.",
+      "check": {
+        "id": "cc2-v2-l11-grammar-check-07",
+        "prompt": "Điền: 他喜歡＿＿了台灣的芒果。",
+        "options": [
+          {
+            "id": "a",
+            "text": "上"
+          },
+          {
+            "id": "b",
+            "text": "遍"
+          },
+          {
+            "id": "c",
+            "text": "趟"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "上 sau động từ có thể chỉ tiếp xúc hoặc đạt tới đối tượng: 穿上 là mặc vào, 追上 là đuổi kịp, 愛上 là nảy sinh tình yêu.",
+        "skill": "Ngữ pháp"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc2-v2-l11-listening-01",
+      "prompt": "Nghe hội thoại. Martin muốn đi đâu ngoài Đài Bắc?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Về quê nhà"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ đến sân bay"
+        },
+        {
+          "id": "c",
+          "text": "Đến nơi khác ở Đài Loan"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Anh nói 想到其他地方去看看.",
+      "skill": "Nghe ý chính",
+      "audioTrackId": "cc2-textbook-l11-t01"
+    },
+    {
+      "id": "cc2-v2-l11-listening-02",
+      "prompt": "Nghe hội thoại. Vì sao Như Ngọc khuyên cân nhắc Khẩn Đinh?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Không có du khách"
+        },
+        {
+          "id": "b",
+          "text": "Đi lại thuận tiện hơn"
+        },
+        {
+          "id": "c",
+          "text": "Không cần đặt phòng"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Cô nói 交通比較方便.",
+      "skill": "Nghe lý do",
+      "audioTrackId": "cc2-textbook-l11-t01"
+    },
+    {
+      "id": "cc2-v2-l11-listening-03",
+      "prompt": "Nghe bài đọc. Martin ở Khẩn Đinh mấy ngày?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Năm ngày"
+        },
+        {
+          "id": "b",
+          "text": "Ba ngày"
+        },
+        {
+          "id": "c",
+          "text": "Hai ngày"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc ghi 到南部的墾丁去住了三天.",
+      "skill": "Nghe số lượng",
+      "audioTrackId": "cc2-textbook-l11-t03"
+    },
+    {
+      "id": "cc2-v2-l11-listening-04",
+      "prompt": "Nghe bài đọc. Martin thử hoạt động gì ở bãi biển?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lặn biển"
+        },
+        {
+          "id": "b",
+          "text": "Đi thuyền"
+        },
+        {
+          "id": "c",
+          "text": "Đi mô tô nước"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc nói 他也試了試 sau khi nhắc 騎水上摩托車.",
+      "skill": "Nghe chi tiết",
+      "audioTrackId": "cc2-textbook-l11-t03"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc2-v2-l11-practice-01",
+      "prompt": "‘民宿’ là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "nhà nghỉ kiểu homestay"
+        },
+        {
+          "id": "b",
+          "text": "ga tàu"
+        },
+        {
+          "id": "c",
+          "text": "bến xe"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "民宿 là chỗ nghỉ nhỏ thường do người địa phương vận hành.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc2-v2-l11-practice-02",
+      "prompt": "Điền: 我把資料從頭到尾看了一＿＿。",
+      "options": [
+        {
+          "id": "a",
+          "text": "遍"
+        },
+        {
+          "id": "b",
+          "text": "趟"
+        },
+        {
+          "id": "c",
+          "text": "條"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "遍 nhấn đã xem hết từ đầu đến cuối.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l11-practice-03",
+      "prompt": "Vì sao Mỹ Linh không đến Đài Trung tháng trước?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vì không biết đường"
+        },
+        {
+          "id": "b",
+          "text": "Vì mất ví"
+        },
+        {
+          "id": "c",
+          "text": "Vì bão"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Cô nói 後來因為颱風就沒去.",
+      "skill": "Hội thoại"
+    },
+    {
+      "id": "cc2-v2-l11-practice-04",
+      "prompt": "Điền: 我們先去墾丁，＿＿到台中。",
+      "options": [
+        {
+          "id": "a",
+          "text": "然後"
+        },
+        {
+          "id": "b",
+          "text": "被"
+        },
+        {
+          "id": "c",
+          "text": "遍"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "然後 nối hai chặng liên tiếp.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l11-practice-05",
+      "prompt": "Điền: 先訂好旅館，＿＿不會找不到地方住。",
+      "options": [
+        {
+          "id": "a",
+          "text": "才"
+        },
+        {
+          "id": "b",
+          "text": "被"
+        },
+        {
+          "id": "c",
+          "text": "上"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "才 nối điều kiện với kết quả.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l11-practice-06",
+      "prompt": "Điền: 我的錢包＿＿偷了。",
+      "options": [
+        {
+          "id": "a",
+          "text": "又"
+        },
+        {
+          "id": "b",
+          "text": "被"
+        },
+        {
+          "id": "c",
+          "text": "才"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "被 đưa vật chịu tác động lên đầu câu.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l11-practice-07",
+      "prompt": "Bài đọc: Martin đặt homestay trước vì sao?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vì bạn anh làm ở đó"
+        },
+        {
+          "id": "b",
+          "text": "Mùa hè đông du khách, khó đặt phòng"
+        },
+        {
+          "id": "c",
+          "text": "Vì không thích khách sạn"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nói 因為夏天觀光客多，很難訂到房間.",
+      "skill": "Bài đọc"
+    },
+    {
+      "id": "cc2-v2-l11-practice-08",
+      "prompt": "Điền: 他看見大家騎水上摩托車，也試了＿＿。",
+      "options": [
+        {
+          "id": "a",
+          "text": "趟"
+        },
+        {
+          "id": "b",
+          "text": "試"
+        },
+        {
+          "id": "c",
+          "text": "遍"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "試了試 là thử một lần ngắn.",
+      "skill": "Ngữ pháp"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc2-v2-l11-assessment-01",
+      "prompt": "‘風景區’ là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "khu thắng cảnh"
+        },
+        {
+          "id": "b",
+          "text": "cửa hàng"
+        },
+        {
+          "id": "c",
+          "text": "trạm xe"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "風景區 là khu có cảnh đẹp để tham quan.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc2-v2-l11-assessment-02",
+      "prompt": "Điền: 我把這篇文章看了一＿＿。",
+      "options": [
+        {
+          "id": "a",
+          "text": "趟"
+        },
+        {
+          "id": "b",
+          "text": "被"
+        },
+        {
+          "id": "c",
+          "text": "遍"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "遍 là một lượt từ đầu đến cuối.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l11-assessment-03",
+      "prompt": "Mỹ Linh đã đến đảo Lục mấy lần?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Một lần"
+        },
+        {
+          "id": "b",
+          "text": "Chưa từng"
+        },
+        {
+          "id": "c",
+          "text": "Hai lần"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Cô nói 綠島我去過兩次.",
+      "skill": "Hội thoại"
+    },
+    {
+      "id": "cc2-v2-l11-assessment-04",
+      "prompt": "Điền: 我本來想去，＿＿因為颱風沒去。",
+      "options": [
+        {
+          "id": "a",
+          "text": "其他"
+        },
+        {
+          "id": "b",
+          "text": "後來"
+        },
+        {
+          "id": "c",
+          "text": "被"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "後來 kể sự thay đổi về sau.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l11-assessment-05",
+      "prompt": "Điền: 先買船票，＿＿能上船。",
+      "options": [
+        {
+          "id": "a",
+          "text": "才"
+        },
+        {
+          "id": "b",
+          "text": "被"
+        },
+        {
+          "id": "c",
+          "text": "遍"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "才 nêu điều kiện cần cho kết quả.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l11-assessment-06",
+      "prompt": "Điền: 我的手機＿＿人拿走了。",
+      "options": [
+        {
+          "id": "a",
+          "text": "又"
+        },
+        {
+          "id": "b",
+          "text": "被"
+        },
+        {
+          "id": "c",
+          "text": "才"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "被 đánh dấu câu bị động.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l11-assessment-07",
+      "prompt": "Trong bài đọc, homestay ở đâu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cạnh nhà ga"
+        },
+        {
+          "id": "b",
+          "text": "Ngay bên bờ biển"
+        },
+        {
+          "id": "c",
+          "text": "Giữa rừng"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nói 民宿就在海邊.",
+      "skill": "Bài đọc"
+    },
+    {
+      "id": "cc2-v2-l11-assessment-08",
+      "prompt": "Martin thuê gì khi vừa đến Khẩn Đinh?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Xe đạp"
+        },
+        {
+          "id": "b",
+          "text": "Xe máy"
+        },
+        {
+          "id": "c",
+          "text": "Ô tô"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc ghi 租了摩托車.",
+      "skill": "Bài đọc"
+    },
+    {
+      "id": "cc2-v2-l11-assessment-09",
+      "prompt": "Điền: 他＿＿上了海邊輕鬆的氣氛。",
+      "options": [
+        {
+          "id": "a",
+          "text": "遍"
+        },
+        {
+          "id": "b",
+          "text": "趟"
+        },
+        {
+          "id": "c",
+          "text": "愛"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "愛上 là bắt đầu yêu thích sâu sắc.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l11-assessment-10",
+      "prompt": "Martin thấy chuyến đi thế nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Quá nguy hiểm"
+        },
+        {
+          "id": "b",
+          "text": "Rất đáng giá"
+        },
+        {
+          "id": "c",
+          "text": "Vô nghĩa"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Cuối bài nói 這一趟旅行真是太值得了.",
+      "skill": "Bài đọc"
+    }
+  ],
+  "writingTask": {
+    "id": "cc2-v2-l11-writing",
+    "title": "Kế hoạch kỳ nghỉ của bạn",
+    "prompt": "Viết 2–3 câu về một nơi muốn đến và cách chuẩn bị. Thử dùng 然後 hoặc 才.",
+    "sampleTraditional": "我想去墾丁玩。先訂好旅館，才不會找不到地方住。然後我要去海邊游泳。",
+    "sampleSimplified": "我想去垦丁玩。先订好旅馆，才不会找不到地方住。然后我要去海边游泳。"
+  }
+}

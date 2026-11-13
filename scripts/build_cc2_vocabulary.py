@@ -11,7 +11,7 @@ from opencc import OpenCC
 
 
 ROOT = Path(__file__).resolve().parents[1]
-EXPECTED_COUNTS = {1: 44, 2: 46, 3: 41, 4: 45, 5: 44, 6: 48, 7: 42, 8: 36, 9: 42, 10: 45}
+EXPECTED_COUNTS = {1: 44, 2: 46, 3: 41, 4: 45, 5: 44, 6: 48, 7: 42, 8: 36, 9: 42, 10: 45, 11: 46}
 
 
 def main() -> None:
@@ -26,7 +26,9 @@ def main() -> None:
         return convert.convert(value).replace("穿著", "穿着")
     with source.open(newline="") as stream:
         rows = list(csv.DictReader(stream, delimiter="\t"))
-    if len(rows) != EXPECTED_COUNTS[lesson] or len({row["traditional"] for row in rows}) != len(rows):
+    # Lesson 11 lists 又 twice with different parts of speech and meanings.
+    identities = {(row["traditional"], row["pinyin"], row["wordClass"]) for row in rows}
+    if len(rows) != EXPECTED_COUNTS[lesson] or len(identities) != len(rows):
         raise ValueError(f"Lesson {lesson:02d} must contain {EXPECTED_COUNTS[lesson]} distinct source vocabulary entries")
     result = []
     for number, row in enumerate(rows, 1):

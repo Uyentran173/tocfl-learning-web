@@ -141,6 +141,23 @@ VERIFIED = {
         ("workbook", 3): (78, "Nghe câu chuyện, xác định đúng sai", 5),
         ("workbook", 4): (78, "Nghe câu và ghép với hình", None),
     },
+    11: {
+        ("textbook", 1): (293, "Đối thoại", None),
+        ("textbook", 2): (297, "Từ vựng hội thoại", None),
+        ("textbook", 3): (298, "Bài đọc", None),
+        ("textbook", 4): (300, "Từ vựng bài đọc", None),
+        ("textbook", 5): (301, "Ngữ pháp: 其他的 / 別的 / 另外的", None),
+        ("textbook", 6): (303, "Ngữ pháp: 下 / 趟 / 遍 / 次", None),
+        ("textbook", 7): (305, "Ngữ pháp: 然後 / 後來 / 以後", None),
+        ("textbook", 8): (306, "Ngữ pháp: 才", None),
+        ("textbook", 9): (308, "Ngữ pháp: 被", None),
+        ("textbook", 10): (309, "Ngữ pháp: V 了 V", None),
+        ("textbook", 11): (311, "Ngữ pháp: 上", None),
+        ("workbook", 1): (85, "Nghe và chép chính tả", 5),
+        ("workbook", 2): (85, "Nghe hội thoại ngắn, chọn đáp án", 5),
+        ("workbook", 3): (86, "Nghe câu chuyện, xác định đúng sai", 5),
+        ("workbook", 4): (86, "Nghe câu và điền bảng", None),
+    },
 }
 
 

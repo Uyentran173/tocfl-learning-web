@@ -8,6 +8,7 @@ import lesson07Source from "../data/academy/cc2-lesson07-vocabulary.json" with {
 import lesson08Source from "../data/academy/cc2-lesson08-vocabulary.json" with { type: "json" };
 import lesson09Source from "../data/academy/cc2-lesson09-vocabulary.json" with { type: "json" };
 import lesson10Source from "../data/academy/cc2-lesson10-vocabulary.json" with { type: "json" };
+import lesson11Source from "../data/academy/cc2-lesson11-vocabulary.json" with { type: "json" };
 import { cc1Lesson01Words } from "./cc1-lesson01-vocabulary.ts";
 import { cc1CourseVocabularySets } from "./cc1-course-vocabulary.ts";
 import type { VocabularySet, VocabularyWord } from "./vocabulary.ts";
@@ -18,7 +19,8 @@ function matchingWord(words: VocabularyWord[], traditional: string, pinyin: stri
 }
 
 function lessonWords(records: typeof lesson01Source.records, lessonNumber: number, priorWords: VocabularyWord[]): VocabularyWord[] {
-  return records.map((record) => matchingWord(priorWords, record.traditional, record.pinyin) ?? {
+  const repeatedForms = new Set(records.filter((record) => records.filter((other) => other.traditional === record.traditional && other.pinyin === record.pinyin).length > 1).map((record) => record.traditional));
+  return records.map((record) => (repeatedForms.has(record.traditional) ? undefined : matchingWord(priorWords, record.traditional, record.pinyin)) ?? {
     id: record.id,
     source: "textbook",
     sourceRecordId: record.id,
@@ -46,6 +48,7 @@ export const cc2Lesson07Words = lessonWords(lesson07Source.records, 7, [...exist
 export const cc2Lesson08Words = lessonWords(lesson08Source.records, 8, [...existing, ...cc2Lesson01Words, ...cc2Lesson02Words, ...cc2Lesson03Words, ...cc2Lesson04Words, ...cc2Lesson05Words, ...cc2Lesson06Words, ...cc2Lesson07Words]);
 export const cc2Lesson09Words = lessonWords(lesson09Source.records, 9, [...existing, ...cc2Lesson01Words, ...cc2Lesson02Words, ...cc2Lesson03Words, ...cc2Lesson04Words, ...cc2Lesson05Words, ...cc2Lesson06Words, ...cc2Lesson07Words, ...cc2Lesson08Words]);
 export const cc2Lesson10Words = lessonWords(lesson10Source.records, 10, [...existing, ...cc2Lesson01Words, ...cc2Lesson02Words, ...cc2Lesson03Words, ...cc2Lesson04Words, ...cc2Lesson05Words, ...cc2Lesson06Words, ...cc2Lesson07Words, ...cc2Lesson08Words, ...cc2Lesson09Words]);
+export const cc2Lesson11Words = lessonWords(lesson11Source.records, 11, [...existing, ...cc2Lesson01Words, ...cc2Lesson02Words, ...cc2Lesson03Words, ...cc2Lesson04Words, ...cc2Lesson05Words, ...cc2Lesson06Words, ...cc2Lesson07Words, ...cc2Lesson08Words, ...cc2Lesson09Words, ...cc2Lesson10Words]);
 
 export const cc2VocabularySets: VocabularySet[] = [{
   id: "cc2-v2-l01",
@@ -97,4 +100,9 @@ export const cc2VocabularySets: VocabularySet[] = [{
   title: "Bài 10 · 歡迎到我家來包餃子",
   subtitle: "Mời đến nhà tôi gói sủi cảo",
   words: cc2Lesson10Words,
+}, {
+  id: "cc2-v2-l11",
+  title: "Bài 11 · 台灣好玩的地方真多",
+  subtitle: "Đài Loan có nhiều nơi thú vị quá",
+  words: cc2Lesson11Words,
 }];

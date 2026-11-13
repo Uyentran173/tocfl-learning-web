@@ -3277,8 +3277,14 @@
       "pdfPages": [
         293
       ],
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 293,
+        "bookPage": 266,
+        "labelVi": "Đối thoại",
+        "referenceCode": "11-01",
+        "itemCount": null
+      }
     },
     {
       "id": "cc2-textbook-l11-t02",
@@ -3295,8 +3301,14 @@
       "pdfPages": [
         297
       ],
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 297,
+        "bookPage": 270,
+        "labelVi": "Từ vựng hội thoại",
+        "referenceCode": "11-02",
+        "itemCount": null
+      }
     },
     {
       "id": "cc2-textbook-l11-t03",
@@ -3313,8 +3325,14 @@
       "pdfPages": [
         298
       ],
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 298,
+        "bookPage": 271,
+        "labelVi": "Bài đọc",
+        "referenceCode": "11-03",
+        "itemCount": null
+      }
     },
     {
       "id": "cc2-textbook-l11-t04",
@@ -3329,8 +3347,14 @@
       "sha256": "a34be5a0116a1b4752a0325b893dd7c28ea2affea49c57ac20e3311d355205cb",
       "printedReference": "11-04",
       "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 300,
+        "bookPage": 273,
+        "labelVi": "Từ vựng bài đọc",
+        "referenceCode": "11-04",
+        "itemCount": null
+      }
     },
     {
       "id": "cc2-textbook-l11-t05",
@@ -3347,8 +3371,14 @@
       "pdfPages": [
         301
       ],
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 301,
+        "bookPage": 274,
+        "labelVi": "Ngữ pháp: 其他的 / 別的 / 另外的",
+        "referenceCode": "11-05",
+        "itemCount": null
+      }
     },
     {
       "id": "cc2-textbook-l11-t06",
@@ -3363,8 +3393,14 @@
       "sha256": "490bf59f351b61ebf1625ab36f1e04d469fa69889f849c5cf70260486ac4b98f",
       "printedReference": "11-06",
       "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 303,
+        "bookPage": 276,
+        "labelVi": "Ngữ pháp: 下 / 趟 / 遍 / 次",
+        "referenceCode": "11-06",
+        "itemCount": null
+      }
     },
     {
       "id": "cc2-textbook-l11-t07",
@@ -3381,8 +3417,14 @@
       "pdfPages": [
         305
       ],
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 305,
+        "bookPage": 278,
+        "labelVi": "Ngữ pháp: 然後 / 後來 / 以後",
+        "referenceCode": "11-07",
+        "itemCount": null
+      }
     },
     {
       "id": "cc2-textbook-l11-t08",
@@ -3399,8 +3441,14 @@
       "pdfPages": [
         306
       ],
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 306,
+        "bookPage": 279,
+        "labelVi": "Ngữ pháp: 才",
+        "referenceCode": "11-08",
+        "itemCount": null
+      }
     },
     {
       "id": "cc2-textbook-l11-t09",
@@ -3417,8 +3465,14 @@
       "pdfPages": [
         308
       ],
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 308,
+        "bookPage": 281,
+        "labelVi": "Ngữ pháp: 被",
+        "referenceCode": "11-09",
+        "itemCount": null
+      }
     },
     {
       "id": "cc2-textbook-l11-t10",
@@ -3435,8 +3489,14 @@
       "pdfPages": [
         309
       ],
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 309,
+        "bookPage": 282,
+        "labelVi": "Ngữ pháp: V 了 V",
+        "referenceCode": "11-10",
+        "itemCount": null
+      }
     },
     {
       "id": "cc2-textbook-l11-t11",
@@ -3453,8 +3513,14 @@
       "pdfPages": [
         311
       ],
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 311,
+        "bookPage": 284,
+        "labelVi": "Ngữ pháp: 上",
+        "referenceCode": "11-11",
+        "itemCount": null
+      }
     },
     {
       "id": "cc2-workbook-l11-t01",
@@ -3471,8 +3537,14 @@
       "pdfPages": [
         85
       ],
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 85,
+        "bookPage": 83,
+        "labelVi": "Nghe và chép chính tả",
+        "referenceCode": "11-1",
+        "itemCount": 5
+      }
     },
     {
       "id": "cc2-workbook-l11-t02",
@@ -3489,8 +3561,14 @@
       "pdfPages": [
         85
       ],
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 85,
+        "bookPage": 83,
+        "labelVi": "Nghe hội thoại ngắn, chọn đáp án",
+        "referenceCode": "11-2",
+        "itemCount": 5
+      }
     },
     {
       "id": "cc2-workbook-l11-t03",
@@ -3507,8 +3585,14 @@
       "pdfPages": [
         86
       ],
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 86,
+        "bookPage": 84,
+        "labelVi": "Nghe câu chuyện, xác định đúng sai",
+        "referenceCode": "11-3",
+        "itemCount": 5
+      }
     },
     {
       "id": "cc2-workbook-l11-t04",
@@ -3525,8 +3609,14 @@
       "pdfPages": [
         86
       ],
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 86,
+        "bookPage": 84,
+        "labelVi": "Nghe câu và điền bảng",
+        "referenceCode": "11-4",
+        "itemCount": null
+      }
     },
     {
       "id": "cc2-textbook-l12-t01",

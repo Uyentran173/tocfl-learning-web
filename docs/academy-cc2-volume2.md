@@ -1,6 +1,6 @@
 # Contemporary Chinese · Volume 2
 
-Volume 2 has 15 lesson identities (`cc2-v2-l01` through `cc2-v2-l15`). Lessons 01–05 are published. Lessons 06–15 remain unavailable until their text, teaching content, and audio mappings have been reviewed. Each completed lesson is released separately.
+Volume 2 has 15 lesson identities (`cc2-v2-l01` through `cc2-v2-l15`). Lessons 01–06 are published. Lessons 07–15 remain unavailable until their text, teaching content, and audio mappings have been reviewed. Each completed lesson is released separately.
 
 ## Source and staging
 
@@ -18,7 +18,7 @@ python3 scripts/import_cc2_audio.py \
   --workbook-zip '/Users/macbookpro/Downloads/當代中文課程 第二冊 作業本-20261112T123209Z-1-001.zip'
 ```
 
-Use `python3 scripts/publish_cc2_lesson01_audio.py`, `python3 scripts/publish_cc2_lesson02_audio.py`, and `python3 scripts/publish_cc2_lesson_audio.py --lesson N` for N = 3, 4, 5 after staging and checking the printed codes against the PDFs. They copy 13, 14, 14, 13, and 13 tracks, respectively, into `public/academy/cc2/audio/`. No later lesson audio is public. Re-running the staging import resets mapping statuses, so re-run all five publication steps afterward.
+Use `python3 scripts/publish_cc2_lesson01_audio.py`, `python3 scripts/publish_cc2_lesson02_audio.py`, and `python3 scripts/publish_cc2_lesson_audio.py --lesson N` for N = 3, 4, 5, 6 after staging and checking the printed codes against the PDFs. They copy 13, 14, 14, 13, 13, and 13 tracks, respectively, into `public/academy/cc2/audio/`. No later lesson audio is public. Re-running the staging import resets mapping statuses, so re-run all six publication steps afterward.
 
 ## Lesson 01
 
@@ -52,6 +52,12 @@ The 13 recordings are mapped to visible textbook codes `04-01`–`04-09` and wor
 
 The 13 recordings follow visible textbook codes `05-01`–`05-09` and workbook codes `05-1`–`05-4`; the visually checked `05-02` and `05-07` were absent from PDF text extraction. Workbook audio remains separate and has no invented transcript or answer key. Progress keys use `cc2-v2-l05`.
 
+## Lesson 06
+
+`scripts/build_cc2_vocabulary.py --lesson 6` builds 48 textbook vocabulary records. `scripts/build_cc2_lesson06.py` builds the 17-turn moving-house dialogue, three-paragraph reading, five grammar points, four listening checks, eight practice questions, and ten assessment questions. Traditional source lines were checked against visible textbook pages 132–133 and 136–137. Simplified variants are stored separately; Vietnamese translations and exercises are Tai Wén content.
+
+The 13 recordings follow visible textbook codes `06-01`–`06-09` and workbook codes `06-1`–`06-4`. The `06-02` code is visible on textbook PDF page 162, although PDF text extraction did not find it. Workbook recordings remain separate without invented transcript or answer key. Progress keys use `cc2-v2-l06`.
+
 ## Remaining work
 
-144 tracks remain private for later lessons; this count includes two unassigned `00.mp3` files. The mapping report lists pending lesson tracks whose printed codes were not detected in extracted PDF text. Their visible pages must be reviewed before they are published. Lessons 06–15 need their own verified text, vocabulary, explanations and assessments before routes are opened.
+131 tracks remain private for later lessons; this count includes two unassigned `00.mp3` files. The mapping report lists pending lesson tracks whose printed codes were not detected in extracted PDF text. Their visible pages must be reviewed before they are published. Lessons 07–15 need their own verified text, vocabulary, explanations and assessments before routes are opened.

@@ -1,0 +1,999 @@
+{
+  "contentVersion": 2,
+  "id": "cc2-v2-l06",
+  "title": "我打算搬到學校附近",
+  "titleVi": "Tôi định chuyển đến gần trường",
+  "description": "Tìm nhà, so sánh chỗ ở, bàn về tiền thuê và cách chuyển đồ.",
+  "objectives": [
+    "Nói về chỗ ở mong muốn và điều kiện thuê nhà.",
+    "Diễn đạt ý định chuyển đồ đến nơi khác hoặc đưa cho người khác.",
+    "Dùng 到, 在, 給, 把 và 而且 để nói rõ hướng và kết quả."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Đông Kiện đang tìm nhà gần trường. Hãy theo dõi tiêu chí chọn phòng và cách anh sắp xếp đồ đạc ở nhà cũ.",
+    "sections": [
+      {
+        "id": "cc2-v2-l06-section-01",
+        "title": "Chọn nhà gần trường",
+        "body": "Đông Kiện muốn chuyển đến gần trường, ưu tiên nhà gần MRT và có ánh sáng tốt.",
+        "chinese": "我想搬到離學校近一點的地方。",
+        "simplified": "我想搬到离学校近一点的地方。",
+        "pinyin": "wǒ xiǎng bān dào lí xué xiào jìn yī diǎn de dì fāng 。",
+        "meaningVi": "Tôi muốn chuyển đến nơi gần trường hơn."
+      },
+      {
+        "id": "cc2-v2-l06-section-02",
+        "title": "Sắp xếp đồ khi chuyển nhà",
+        "body": "Với 把, người nói đặt đồ vật lên trước rồi nói sẽ chuyển, để hoặc tặng món đó ở đâu, cho ai.",
+        "chinese": "我把資料存在隨身碟裡。",
+        "simplified": "我把资料存在随身碟里。",
+        "pinyin": "wǒ bǎ zī liào cún zài suí shēn dié lǐ 。",
+        "meaningVi": "Tôi lưu tài liệu vào USB."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc2-v2-l06-dialogue",
+        "title": "Tìm nhà gần trường",
+        "context": "Đông Kiện kể với Mỹ Linh về kế hoạch chuyển nhà.",
+        "audioTrackId": "cc2-textbook-l06-t01",
+        "turns": [
+          {
+            "speaker": "美玲",
+            "chinese": "你在做什麼？要不要到河邊的公園去騎騎腳踏車？",
+            "simplified": "你在做什么？要不要到河边的公园去骑骑脚踏车？",
+            "pinyin": "nǐ zài zuò shén me ？ yào bù yào dào hé biān de gōng yuán qù qí qí jiǎo tà chē ？",
+            "meaningVi": "Bạn đang làm gì vậy? Có muốn đến công viên ven sông đạp xe một chút không?"
+          },
+          {
+            "speaker": "東健",
+            "chinese": "我正在網站上找租房子的資料。",
+            "simplified": "我正在网站上找租房子的资料。",
+            "pinyin": "wǒ zhèng zài wǎng zhàn shàng zhǎo zū fáng zi de zī liào 。",
+            "meaningVi": "Mình đang tìm thông tin thuê nhà trên mạng."
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "我聽說你打算搬家？",
+            "simplified": "我听说你打算搬家？",
+            "pinyin": "wǒ tīng shuō nǐ dǎ suàn bān jiā ？",
+            "meaningVi": "Mình nghe nói bạn định chuyển nhà?"
+          },
+          {
+            "speaker": "東健",
+            "chinese": "是啊，我想搬到離學校近一點的地方。",
+            "simplified": "是啊，我想搬到离学校近一点的地方。",
+            "pinyin": "shì a ， wǒ xiǎng bān dào lí xué xiào jìn yī diǎn de dì fāng 。",
+            "meaningVi": "Ừ, mình muốn chuyển đến nơi gần trường hơn."
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "可是我記得你三個月以前才搬到這裡的。",
+            "simplified": "可是我记得你三个月以前才搬到这里的。",
+            "pinyin": "kě shì wǒ jì dé nǐ sān gè yuè yǐ qián cái bān dào zhè lǐ de 。",
+            "meaningVi": "Nhưng mình nhớ bạn mới chuyển đến đây ba tháng trước mà."
+          },
+          {
+            "speaker": "東健",
+            "chinese": "對，我的合約還沒到期。還好我有一個同學喜歡這個環境，他可以搬到這裡來住。",
+            "simplified": "对，我的合约还没到期。还好我有一个同学喜欢这个环境，他可以搬到这里来住。",
+            "pinyin": "duì ， wǒ de hé yuē hái méi dào qī 。 hái hǎo wǒ yǒu yī gè tóng xué xǐ huān zhè gè huán jìng ， tā kě yǐ bān dào zhè lǐ lái zhù 。",
+            "meaningVi": "Đúng, hợp đồng của mình chưa hết hạn. May là có bạn cùng lớp thích chỗ này, cậu ấy có thể chuyển đến ở."
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "你想找什麼樣的房子？",
+            "simplified": "你想找什么样的房子？",
+            "pinyin": "nǐ xiǎng zhǎo shén me yàng de fáng zi ？",
+            "meaningVi": "Bạn muốn tìm nhà như thế nào?"
+          },
+          {
+            "speaker": "東健",
+            "chinese": "我先找捷運站附近的房子。還有，環境好、光線好也很重要。",
+            "simplified": "我先找捷运站附近的房子。还有，环境好、光线好也很重要。",
+            "pinyin": "wǒ xiān zhǎo jié yùn zhàn fù jìn de fáng zi 。 hái yǒu ， huán jìng hǎo 、 guāng xiàn hǎo yě hěn zhòng yào 。",
+            "meaningVi": "Trước tiên mình tìm nhà gần ga MRT. Môi trường tốt và đủ ánh sáng cũng rất quan trọng."
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "捷運站附近的房子比較貴吧？",
+            "simplified": "捷运站附近的房子比较贵吧？",
+            "pinyin": "jié yùn zhàn fù jìn de fáng zi bǐ jiào guì ba ？",
+            "meaningVi": "Nhà gần ga MRT đắt hơn nhỉ?"
+          },
+          {
+            "speaker": "東健",
+            "chinese": "如果太貴，我再找別的地方。捷運站那麼多，我想應該有合適的。",
+            "simplified": "如果太贵，我再找别的地方。捷运站那么多，我想应该有合适的。",
+            "pinyin": "rú guǒ tài guì ， wǒ zài zhǎo bié de dì fāng 。 jié yùn zhàn nà me duō ， wǒ xiǎng yīng gāi yǒu hé shì de 。",
+            "meaningVi": "Nếu đắt quá mình sẽ tìm chỗ khác. Có nhiều ga MRT như vậy, chắc sẽ có nơi phù hợp."
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "如果你搬家了，我就少了一個朋友跟我練習中文。好可惜！",
+            "simplified": "如果你搬家了，我就少了一个朋友跟我练习中文。好可惜！",
+            "pinyin": "rú guǒ nǐ bān jiā le ， wǒ jiù shǎo le yī gè péng yǒu gēn wǒ liàn xí zhōng wén 。 hǎo kě xī ！",
+            "meaningVi": "Nếu bạn chuyển đi, mình sẽ mất một người bạn cùng luyện tiếng Hoa. Tiếc quá!"
+          },
+          {
+            "speaker": "東健",
+            "chinese": "我會常來啊。我不會把東西都搬到新家，有一些東西，我會送給朋友或是先放在這裡。",
+            "simplified": "我会常来啊。我不会把东西都搬到新家，有一些东西，我会送给朋友或是先放在这里。",
+            "pinyin": "wǒ huì cháng lái a 。 wǒ bù huì bǎ dōng xī dōu bān dào xīn jiā ， yǒu yī xiē dōng xī ， wǒ huì sòng gěi péng yǒu huò shì xiān fàng zài zhè lǐ 。",
+            "meaningVi": "Mình sẽ thường ghé mà. Mình không chuyển hết đồ sang nhà mới; vài món mình sẽ tặng bạn hoặc để lại đây trước."
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "那麼，你要付兩邊的房租啊？",
+            "simplified": "那么，你要付两边的房租啊？",
+            "pinyin": "nà me ， nǐ yào fù liǎng biān de fáng zū a ？",
+            "meaningVi": "Vậy bạn phải trả tiền thuê cả hai chỗ à?"
+          },
+          {
+            "speaker": "東健",
+            "chinese": "這裡的房租當然是我同學付，他還願意開車幫我搬家。",
+            "simplified": "这里的房租当然是我同学付，他还愿意开车帮我搬家。",
+            "pinyin": "zhè lǐ de fáng zū dāng rán shì wǒ tóng xué fù ， tā hái yuàn yì kāi chē bāng wǒ bān jiā 。",
+            "meaningVi": "Tiền thuê ở đây tất nhiên bạn cùng lớp sẽ trả. Cậu ấy còn sẵn lòng lái xe giúp mình chuyển nhà."
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "你同學真好！",
+            "simplified": "你同学真好！",
+            "pinyin": "nǐ tóng xué zhēn hǎo ！",
+            "meaningVi": "Bạn cùng lớp của bạn tốt thật!"
+          },
+          {
+            "speaker": "東健",
+            "chinese": "是啊！他是我在台灣最好的朋友。妳再等我一下，我把資料存在隨身碟裡。",
+            "simplified": "是啊！他是我在台湾最好的朋友。妳再等我一下，我把资料存在随身碟里。",
+            "pinyin": "shì a ！ tā shì wǒ zài tái wān zuì hǎo de péng yǒu 。 nǐ zài děng wǒ yī xià ， wǒ bǎ zī liào cún zài suí shēn dié lǐ 。",
+            "meaningVi": "Ừ! Cậu ấy là bạn thân nhất của mình ở Đài Loan. Đợi mình một chút nữa, mình lưu tài liệu vào USB đã."
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "慢慢來，不急！等一會兒我們再去騎腳踏車。",
+            "simplified": "慢慢来，不急！等一会儿我们再去骑脚踏车。",
+            "pinyin": "màn màn lái ， bù jí ！ děng yī huì ér wǒ men zài qù qí jiǎo tà chē 。",
+            "meaningVi": "Cứ thong thả, không vội! Lát nữa mình đi đạp xe."
+          }
+        ]
+      },
+      {
+        "id": "cc2-v2-l06-reading",
+        "title": "Căn phòng phù hợp",
+        "context": "Bài đọc nói rõ lý do chuyển nhà và các điều kiện Đông Kiện mong muốn.",
+        "audioTrackId": "cc2-textbook-l06-t03",
+        "turns": [
+          {
+            "speaker": "Bài đọc",
+            "chinese": "李東健租的房子離師大相當遠，每天騎自行車到學校都得花一個小時左右，他覺得很不方便，所以他最近計畫找房子搬家。這一天，他在網站上看了很多租房子的資料。",
+            "simplified": "李东健租的房子离师大相当远，每天骑自行车到学校都得花一个小时左右，他觉得很不方便，所以他最近计划找房子搬家。这一天，他在网站上看了很多租房子的资料。",
+            "pinyin": "lǐ dōng jiàn zū de fáng zi lí shī dà xiāng dāng yuǎn ， měi tiān qí zì xíng chē dào xué xiào dōu dé huā yī gè xiǎo shí zuǒ yòu ， tā jué dé hěn bù fāng biàn ， suǒ yǐ tā zuì jìn jì huà zhǎo fáng zi bān jiā 。 zhè yī tiān ， tā zài wǎng zhàn shàng kàn le hěn duō zū fáng zi de zī liào 。",
+            "meaningVi": "Nhà Đông Kiện thuê khá xa Sư Đại. Ngày nào anh cũng mất khoảng một tiếng đạp xe đến trường, rất bất tiện. Vì vậy gần đây anh dự định tìm nhà để chuyển. Hôm ấy anh xem nhiều thông tin cho thuê nhà trên mạng."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "李東健最想在捷運站附近租一間套房，有床、桌子和椅子這些家具，而且房間的光線要好，環境也不要太吵。可是台灣朋友都說，這種套房房租會比較貴，李東健覺得台北的生活費比首爾低，如果多花一點時間找，一定能找到便宜而且合適的。",
+            "simplified": "李东健最想在捷运站附近租一间套房，有床、桌子和椅子这些家具，而且房间的光线要好，环境也不要太吵。可是台湾朋友都说，这种套房房租会比较贵，李东健觉得台北的生活费比首尔低，如果多花一点时间找，一定能找到便宜而且合适的。",
+            "pinyin": "lǐ dōng jiàn zuì xiǎng zài jié yùn zhàn fù jìn zū yī jiān tào fáng ， yǒu chuáng 、 zhuō zi hé yǐ zi zhè xiē jiā jù ， ér qiě fáng jiān de guāng xiàn yào hǎo ， huán jìng yě bú yào tài chǎo 。 kě shì tái wān péng yǒu dōu shuō ， zhè zhǒng tào fáng fáng zū huì bǐ jiào guì ， lǐ dōng jiàn jué dé tái běi de shēng huó fèi bǐ shǒu ěr dī ， rú guǒ duō huā yī diǎn shí jiān zhǎo ， yí dìng néng zhǎo dào pián yi ér qiě hé shì de 。",
+            "meaningVi": "Đông Kiện muốn nhất là thuê một phòng khép kín gần ga MRT, có giường, bàn, ghế, đủ sáng và không quá ồn. Bạn bè Đài Loan đều nói phòng như vậy sẽ đắt hơn. Nhưng anh thấy chi phí sinh hoạt ở Đài Bắc thấp hơn Seoul; nếu chịu khó tìm thêm, chắc sẽ tìm được chỗ vừa rẻ vừa phù hợp."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "李東健想，如果他搬到學校附近住，除了留在圖書館的時間能長一點，可以念書、寫作業、跟同學討論功課，還可以參加一些學校的社團活動。不過他的好朋友高美玲有一點失望，她覺得少了一個可以練習中文的朋友。李東健要高美玲放心，因為他打算把一些不常用的東西先留在這裡，所以還會常來找他們聊天。",
+            "simplified": "李东健想，如果他搬到学校附近住，除了留在图书馆的时间能长一点，可以念书、写作业、跟同学讨论功课，还可以参加一些学校的社团活动。不过他的好朋友高美玲有一点失望，她觉得少了一个可以练习中文的朋友。李东健要高美玲放心，因为他打算把一些不常用的东西先留在这里，所以还会常来找他们聊天。",
+            "pinyin": "lǐ dōng jiàn xiǎng ， rú guǒ tā bān dào xué xiào fù jìn zhù ， chú le liú zài tú shū guǎn de shí jiān néng zhǎng yī diǎn ， kě yǐ niàn shū 、 xiě zuò yè 、 gēn tóng xué tǎo lùn gōng kè ， hái kě yǐ cān jiā yī xiē xué xiào de shè tuán huó dòng 。 bù guò tā de hǎo péng yǒu gāo měi líng yǒu yī diǎn shī wàng ， tā jué dé shǎo le yī gè kě yǐ liàn xí zhōng wén de péng yǒu 。 lǐ dōng jiàn yào gāo měi líng fàng xīn ， yīn wèi tā dǎ suàn bǎ yī xiē bù cháng yòng de dōng xī xiān liú zài zhè lǐ ， suǒ yǐ hái huì cháng lái zhǎo tā men liáo tiān 。",
+            "meaningVi": "Đông Kiện nghĩ rằng nếu sống gần trường, anh có thể ở thư viện lâu hơn để học, làm bài và trao đổi với bạn; còn có thể tham gia câu lạc bộ. Mỹ Linh hơi thất vọng vì sẽ bớt một người bạn luyện tiếng Hoa. Đông Kiện bảo cô yên tâm: anh định để lại đây vài món ít dùng nên vẫn sẽ thường ghé trò chuyện."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc2-v2-l06-check-01",
+        "prompt": "Đông Kiện muốn nhà ở gần nơi nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Sân bay"
+          },
+          {
+            "id": "b",
+            "text": "Chợ đêm"
+          },
+          {
+            "id": "c",
+            "text": "Trường học và ga MRT"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Anh muốn 搬到離學校近一點的地方 và tìm nhà gần ga MRT.",
+        "skill": "Hội thoại"
+      },
+      {
+        "id": "cc2-v2-l06-check-02",
+        "prompt": "Vì sao Mỹ Linh muốn Đông Kiện vẫn thường ghé?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Để trả tiền thuê nhà"
+          },
+          {
+            "id": "b",
+            "text": "Để mua xe"
+          },
+          {
+            "id": "c",
+            "text": "Để tiếp tục luyện tiếng Hoa cùng nhau"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Cô tiếc vì sẽ ít đi một người bạn luyện tiếng Hoa.",
+        "skill": "Bài đọc"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem phiên âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc2-v2-l06-v001",
+      "cc2-v2-l06-v002",
+      "cc2-v2-l06-v003",
+      "cc2-v2-l06-v004",
+      "cc2-v2-l06-v005",
+      "cc2-v2-l06-v006",
+      "cc2-v2-l06-v007",
+      "cc2-v2-l06-v008",
+      "cc2-v2-l06-v009",
+      "cc2-v2-l06-v010",
+      "cc2-v2-l06-v011",
+      "cc2-v2-l06-v012",
+      "cc2-v2-l06-v013",
+      "cc2-v2-l06-v014",
+      "cc2-v2-l06-v015",
+      "cc2-v2-l06-v016",
+      "cc2-v2-l06-v017",
+      "cc2-v2-l06-v018",
+      "cc2-v2-l06-v019",
+      "cc2-v2-l06-v020",
+      "cc2-v2-l06-v021",
+      "cc2-v2-l06-v022",
+      "cc2-v2-l06-v023",
+      "cc2-v2-l06-v024",
+      "cc2-v2-l06-v025",
+      "cc2-v2-l06-v026",
+      "cc2-v2-l06-v027",
+      "cc2-v2-l06-v028",
+      "cc2-v2-l06-v029",
+      "cc2-v2-l06-v030",
+      "cc2-v2-l06-v031",
+      "cc2-v2-l06-v032",
+      "cc2-v2-l06-v033",
+      "cc2-v2-l06-v034",
+      "cc2-v2-l06-v035",
+      "cc2-v2-l06-v036",
+      "cc2-v2-l06-v037",
+      "cc2-v2-l06-v038",
+      "cc2-v2-l06-v039",
+      "cc2-v2-l06-v040",
+      "cc2-v2-l06-v041",
+      "cc2-v2-l06-v042",
+      "cc2-v2-l06-v043",
+      "cc2-v2-l06-v044",
+      "cc2-v2-l06-v045",
+      "cc2-v2-l06-v046",
+      "cc2-v2-l06-v047",
+      "cc2-v2-l06-v048"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc2-textbook-l06-t02",
+        "label": "Từ vựng hội thoại"
+      },
+      {
+        "id": "cc2-textbook-l06-t04",
+        "label": "Từ vựng bài đọc"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc2-v2-l06-grammar-01",
+      "title": "到 — chỉ nơi đến của chuyển động",
+      "audioTrackId": "cc2-textbook-l06-t05",
+      "explanation": "Đặt 到 sau động từ chỉ di chuyển để nêu đích đến: 搬到學校附近 là chuyển đến gần trường. Cả hành động và đích đến tạo thành một ý; nếu phủ định, đặt 沒 hoặc 不 trước động từ chính. Phân biệt 到 (đến nơi) với 在 (vị trí sau khi đặt một vật).",
+      "structure": "Chủ ngữ + động từ di chuyển + 到 + nơi chốn",
+      "examples": [
+        {
+          "chinese": "我想搬到離學校近一點的地方。",
+          "simplified": "我想搬到离学校近一点的地方。",
+          "pinyin": "wǒ xiǎng bān dào lí xué xiào jìn yī diǎn de dì fāng 。",
+          "meaningVi": "Tôi muốn chuyển đến nơi gần trường hơn."
+        },
+        {
+          "chinese": "他每天騎自行車到學校。",
+          "simplified": "他每天骑自行车到学校。",
+          "pinyin": "tā měi tiān qí zì xíng chē dào xué xiào 。",
+          "meaningVi": "Ngày nào anh ấy cũng đạp xe đến trường."
+        }
+      ],
+      "commonMistake": "Không nói 搬在學校附近 khi muốn nhấn đích đến của hành động chuyển nhà; dùng 搬到.",
+      "check": {
+        "id": "cc2-v2-l06-grammar-check-01",
+        "prompt": "Điền vào câu: 我想搬＿＿學校附近。",
+        "options": [
+          {
+            "id": "a",
+            "text": "給"
+          },
+          {
+            "id": "b",
+            "text": "到"
+          },
+          {
+            "id": "c",
+            "text": "在"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Đặt 到 sau động từ chỉ di chuyển để nêu đích đến: 搬到學校附近 là chuyển đến gần trường.",
+        "skill": "到 — chỉ nơi đến của chuyển động"
+      }
+    },
+    {
+      "id": "cc2-v2-l06-grammar-02",
+      "title": "給 — người nhận sau động từ",
+      "audioTrackId": "cc2-textbook-l06-t06",
+      "explanation": "Với các động từ có hai tân ngữ như 送, 付, 賣, đặt 給 trước người nhận: 送給朋友一些東西. Người nhận đứng sau 給, còn vật được chuyển giao đứng tiếp sau. Trong hội thoại, Đông Kiện sẽ tặng một số đồ cho bạn.",
+      "structure": "Động từ + 給 + người nhận + đồ vật",
+      "examples": [
+        {
+          "chinese": "我會送給朋友一些東西。",
+          "simplified": "我会送给朋友一些东西。",
+          "pinyin": "wǒ huì sòng gěi péng yǒu yī xiē dōng xī 。",
+          "meaningVi": "Tôi sẽ tặng bạn vài món đồ."
+        },
+        {
+          "chinese": "他付給房東三個月的房租。",
+          "simplified": "他付给房东三个月的房租。",
+          "pinyin": "tā fù gěi fáng dōng sān gè yuè de fáng zū 。",
+          "meaningVi": "Anh ấy trả cho chủ nhà ba tháng tiền thuê."
+        }
+      ],
+      "commonMistake": "Đừng đổi chỗ người nhận và đồ vật sau 給 trong mẫu cơ bản này.",
+      "check": {
+        "id": "cc2-v2-l06-grammar-check-02",
+        "prompt": "Điền vào câu: 我會送＿＿朋友一些東西。",
+        "options": [
+          {
+            "id": "a",
+            "text": "在"
+          },
+          {
+            "id": "b",
+            "text": "到"
+          },
+          {
+            "id": "c",
+            "text": "給"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Với các động từ có hai tân ngữ như 送, 付, 賣, đặt 給 trước người nhận: 送給朋友一些東西.",
+        "skill": "給 — người nhận sau động từ"
+      }
+    },
+    {
+      "id": "cc2-v2-l06-grammar-03",
+      "title": "V 在 — nơi vật được đặt lại",
+      "audioTrackId": "cc2-textbook-l06-t07",
+      "explanation": "V + 在 nêu vị trí của một vật sau hành động đặt, giữ hoặc lưu. 放在這裡 là để ở đây; 存在隨身碟裡 là lưu trong USB. Nơi chốn sau 在 là kết quả của hành động, không nhất thiết là nơi người nói đang đứng.",
+      "structure": "Động từ đặt / lưu + 在 + vị trí",
+      "examples": [
+        {
+          "chinese": "有一些東西，我會先放在這裡。",
+          "simplified": "有一些东西，我会先放在这里。",
+          "pinyin": "yǒu yī xiē dōng xī ， wǒ huì xiān fàng zài zhè lǐ 。",
+          "meaningVi": "Một số đồ tôi sẽ để lại ở đây trước."
+        },
+        {
+          "chinese": "我把資料存在隨身碟裡。",
+          "simplified": "我把资料存在随身碟里。",
+          "pinyin": "wǒ bǎ zī liào cún zài suí shēn dié lǐ 。",
+          "meaningVi": "Tôi lưu tài liệu vào USB."
+        }
+      ],
+      "commonMistake": "Không dùng 到 trong 放在桌子上 nếu ý là vị trí cuối cùng sau khi đặt; dùng 在.",
+      "check": {
+        "id": "cc2-v2-l06-grammar-check-03",
+        "prompt": "Điền vào câu: 我把資料存＿＿隨身碟裡。",
+        "options": [
+          {
+            "id": "a",
+            "text": "到"
+          },
+          {
+            "id": "b",
+            "text": "給"
+          },
+          {
+            "id": "c",
+            "text": "在"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "V + 在 nêu vị trí của một vật sau hành động đặt, giữ hoặc lưu.",
+        "skill": "V 在 — nơi vật được đặt lại"
+      }
+    },
+    {
+      "id": "cc2-v2-l06-grammar-04",
+      "title": "把…V 到 / 在 / 給… — chuyển đồ đến nơi hoặc người",
+      "audioTrackId": "cc2-textbook-l06-t08",
+      "explanation": "Dùng 把 khi nêu rõ một vật đã biết rồi nói mình xử lý vật đó ra sao. Động từ phía sau phải có kết quả hoặc đích: 搬到新家, 放在這裡, 送給朋友. Đến một địa điểm dùng 到; vị trí đặt lại dùng 在; người nhận dùng 給.",
+      "structure": "Chủ ngữ + 把 + đồ vật + động từ + 到 / 在 / 給 + nơi / người",
+      "examples": [
+        {
+          "chinese": "我不會把東西都搬到新家。",
+          "simplified": "我不会把东西都搬到新家。",
+          "pinyin": "wǒ bù huì bǎ dōng xī dōu bān dào xīn jiā 。",
+          "meaningVi": "Tôi sẽ không chuyển hết đồ sang nhà mới."
+        },
+        {
+          "chinese": "我把資料存在隨身碟裡。",
+          "simplified": "我把资料存在随身碟里。",
+          "pinyin": "wǒ bǎ zī liào cún zài suí shēn dié lǐ 。",
+          "meaningVi": "Tôi lưu tài liệu vào USB."
+        }
+      ],
+      "commonMistake": "Tránh câu 把東西搬 khi thiếu đích hoặc kết quả; nói rõ 搬到哪裡.",
+      "check": {
+        "id": "cc2-v2-l06-grammar-check-04",
+        "prompt": "Điền vào câu: 我＿＿資料存在隨身碟裡。",
+        "options": [
+          {
+            "id": "a",
+            "text": "把"
+          },
+          {
+            "id": "b",
+            "text": "還"
+          },
+          {
+            "id": "c",
+            "text": "如果"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Dùng 把 khi nêu rõ một vật đã biết rồi nói mình xử lý vật đó ra sao.",
+        "skill": "把…V 到 / 在 / 給… — chuyển đồ đến nơi hoặc người"
+      }
+    },
+    {
+      "id": "cc2-v2-l06-grammar-05",
+      "title": "而且 — hơn nữa; và còn",
+      "audioTrackId": "cc2-textbook-l06-t09",
+      "explanation": "而且 nối hai đặc điểm hoặc hai ý bổ sung. Trong bài, căn phòng cần đủ sáng và môi trường không ồn; người nói cũng muốn nhà vừa rẻ vừa phù hợp. Khi nối hai tính từ, 而且 đứng giữa chúng; khi nối hai mệnh đề, nó thường đứng đầu ý thứ hai.",
+      "structure": "Ý A + 而且 + ý B",
+      "examples": [
+        {
+          "chinese": "房子的環境好，而且光線也好。",
+          "simplified": "房子的环境好，而且光线也好。",
+          "pinyin": "fáng zi de huán jìng hǎo ， ér qiě guāng xiàn yě hǎo 。",
+          "meaningVi": "Môi trường quanh nhà tốt, lại đủ sáng."
+        },
+        {
+          "chinese": "一定能找到便宜而且合適的。",
+          "simplified": "一定能找到便宜而且合适的。",
+          "pinyin": "yí dìng néng zhǎo dào pián yi ér qiě hé shì de 。",
+          "meaningVi": "Chắc chắn sẽ tìm được chỗ vừa rẻ vừa phù hợp."
+        }
+      ],
+      "commonMistake": "Đừng dùng 而且 để nêu hai ý đối lập; hãy dùng 但是 hoặc 可是 khi muốn nói 'nhưng'.",
+      "check": {
+        "id": "cc2-v2-l06-grammar-check-05",
+        "prompt": "Điền vào câu: 這間房子便宜＿＿合適。",
+        "options": [
+          {
+            "id": "a",
+            "text": "如果"
+          },
+          {
+            "id": "b",
+            "text": "而且"
+          },
+          {
+            "id": "c",
+            "text": "可是"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "而且 nối hai đặc điểm hoặc hai ý bổ sung.",
+        "skill": "而且 — hơn nữa; và còn"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc2-v2-l06-listening-01",
+      "prompt": "Nghe hội thoại. Đông Kiện đang tìm gì trên mạng?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thông tin thuê nhà"
+        },
+        {
+          "id": "b",
+          "text": "Lịch thi"
+        },
+        {
+          "id": "c",
+          "text": "Thông tin việc làm"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Anh nói 正在網站上找租房子的資料.",
+      "skill": "Nghe chi tiết",
+      "audioTrackId": "cc2-textbook-l06-t01"
+    },
+    {
+      "id": "cc2-v2-l06-listening-02",
+      "prompt": "Nghe hội thoại. Ai sẽ trả tiền thuê nhà cũ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chủ nhà"
+        },
+        {
+          "id": "b",
+          "text": "Bạn cùng lớp của Đông Kiện"
+        },
+        {
+          "id": "c",
+          "text": "Mỹ Linh"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Anh nói 這裡的房租當然是我同學付.",
+      "skill": "Nghe vai trò",
+      "audioTrackId": "cc2-textbook-l06-t01"
+    },
+    {
+      "id": "cc2-v2-l06-listening-03",
+      "prompt": "Nghe bài đọc. Đông Kiện mất bao lâu để đạp xe tới trường?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mười phút"
+        },
+        {
+          "id": "b",
+          "text": "Hai giờ"
+        },
+        {
+          "id": "c",
+          "text": "Khoảng một giờ"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc nói 花一個小時左右.",
+      "skill": "Nghe số lượng",
+      "audioTrackId": "cc2-textbook-l06-t03"
+    },
+    {
+      "id": "cc2-v2-l06-listening-04",
+      "prompt": "Nghe bài đọc. Đông Kiện mong muốn căn phòng có đặc điểm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ở rất xa ga MRT"
+        },
+        {
+          "id": "b",
+          "text": "Không có bàn ghế"
+        },
+        {
+          "id": "c",
+          "text": "Đủ sáng và không quá ồn"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc nói 光線要好，環境也不要太吵.",
+      "skill": "Nghe chi tiết",
+      "audioTrackId": "cc2-textbook-l06-t03"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc2-v2-l06-practice-01",
+      "prompt": "‘搬家’ nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "đi du lịch"
+        },
+        {
+          "id": "b",
+          "text": "tìm việc"
+        },
+        {
+          "id": "c",
+          "text": "chuyển nhà"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "搬家 là chuyển nhà.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc2-v2-l06-practice-02",
+      "prompt": "Điền: 我想搬＿＿學校附近。",
+      "options": [
+        {
+          "id": "a",
+          "text": "給"
+        },
+        {
+          "id": "b",
+          "text": "到"
+        },
+        {
+          "id": "c",
+          "text": "在"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "到 chỉ đích đến của việc chuyển nhà.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l06-practice-03",
+      "prompt": "Vì sao Đông Kiện muốn chuyển nhà?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bạn cùng lớp không thích nhà"
+        },
+        {
+          "id": "b",
+          "text": "Nhà hiện tại quá xa trường"
+        },
+        {
+          "id": "c",
+          "text": "Hợp đồng đã hết hạn"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc ghi 離師大相當遠…覺得很不方便.",
+      "skill": "Bài đọc"
+    },
+    {
+      "id": "cc2-v2-l06-practice-04",
+      "prompt": "Điền: 我把資料存＿＿電腦裡。",
+      "options": [
+        {
+          "id": "a",
+          "text": "給"
+        },
+        {
+          "id": "b",
+          "text": "在"
+        },
+        {
+          "id": "c",
+          "text": "到"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "存在哪裡 nêu chỗ dữ liệu được lưu lại.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l06-practice-05",
+      "prompt": "Đông Kiện muốn căn phòng có điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rất xa ga MRT"
+        },
+        {
+          "id": "b",
+          "text": "Đủ ánh sáng, không quá ồn"
+        },
+        {
+          "id": "c",
+          "text": "Không có nội thất"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc ghi 光線要好，環境也不要太吵.",
+      "skill": "Bài đọc"
+    },
+    {
+      "id": "cc2-v2-l06-practice-06",
+      "prompt": "Điền: 我會送＿＿朋友一些東西。",
+      "options": [
+        {
+          "id": "a",
+          "text": "到"
+        },
+        {
+          "id": "b",
+          "text": "給"
+        },
+        {
+          "id": "c",
+          "text": "在"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "給 đánh dấu người nhận đồ.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l06-practice-07",
+      "prompt": "Ai sẽ trả tiền thuê nhà cũ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bạn cùng lớp của Đông Kiện"
+        },
+        {
+          "id": "b",
+          "text": "Mỹ Linh"
+        },
+        {
+          "id": "c",
+          "text": "Chủ nhà"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Anh nói 這裡的房租當然是我同學付.",
+      "skill": "Hội thoại"
+    },
+    {
+      "id": "cc2-v2-l06-practice-08",
+      "prompt": "Điền: 房子便宜＿＿合適。",
+      "options": [
+        {
+          "id": "a",
+          "text": "可是"
+        },
+        {
+          "id": "b",
+          "text": "如果"
+        },
+        {
+          "id": "c",
+          "text": "而且"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "而且 nối hai đặc điểm cùng chiều.",
+      "skill": "Ngữ pháp"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc2-v2-l06-assessment-01",
+      "prompt": "‘隨身碟’ là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "hợp đồng thuê"
+        },
+        {
+          "id": "b",
+          "text": "vé MRT"
+        },
+        {
+          "id": "c",
+          "text": "USB; ổ nhớ di động"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "隨身碟 là USB.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc2-v2-l06-assessment-02",
+      "prompt": "Đông Kiện đang tìm thông tin ở đâu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trong thư viện"
+        },
+        {
+          "id": "b",
+          "text": "Ở ga MRT"
+        },
+        {
+          "id": "c",
+          "text": "Trên trang web"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Anh nói 正在網站上找租房子的資料.",
+      "skill": "Hội thoại"
+    },
+    {
+      "id": "cc2-v2-l06-assessment-03",
+      "prompt": "Điền: 我把椅子放＿＿房間裡。",
+      "options": [
+        {
+          "id": "a",
+          "text": "給"
+        },
+        {
+          "id": "b",
+          "text": "在"
+        },
+        {
+          "id": "c",
+          "text": "到"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "放在 nêu vị trí sau khi đặt.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l06-assessment-04",
+      "prompt": "Hợp đồng hiện tại của Đông Kiện đã hết hạn chưa?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rồi"
+        },
+        {
+          "id": "b",
+          "text": "Không có hợp đồng"
+        },
+        {
+          "id": "c",
+          "text": "Chưa"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Anh nói 我的合約還沒到期.",
+      "skill": "Hội thoại"
+    },
+    {
+      "id": "cc2-v2-l06-assessment-05",
+      "prompt": "Điền: 我想把書拿＿＿學校。",
+      "options": [
+        {
+          "id": "a",
+          "text": "給"
+        },
+        {
+          "id": "b",
+          "text": "到"
+        },
+        {
+          "id": "c",
+          "text": "在"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "拿到 nêu đích đến của việc mang sách.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l06-assessment-06",
+      "prompt": "Đông Kiện mất bao lâu đạp xe đến trường mỗi ngày?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ba giờ"
+        },
+        {
+          "id": "b",
+          "text": "Khoảng một giờ"
+        },
+        {
+          "id": "c",
+          "text": "Mười phút"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc ghi 花一個小時左右.",
+      "skill": "Bài đọc"
+    },
+    {
+      "id": "cc2-v2-l06-assessment-07",
+      "prompt": "Điền: 他送＿＿朋友一本書。",
+      "options": [
+        {
+          "id": "a",
+          "text": "在"
+        },
+        {
+          "id": "b",
+          "text": "到"
+        },
+        {
+          "id": "c",
+          "text": "給"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "送給 đánh dấu người nhận.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l06-assessment-08",
+      "prompt": "Vì sao Mỹ Linh hơi thất vọng?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sẽ bớt một người bạn luyện tiếng Hoa"
+        },
+        {
+          "id": "b",
+          "text": "Cô phải trả thêm tiền thuê"
+        },
+        {
+          "id": "c",
+          "text": "Cô không thích đạp xe"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Cô nói 少了一個朋友跟我練習中文.",
+      "skill": "Hội thoại"
+    },
+    {
+      "id": "cc2-v2-l06-assessment-09",
+      "prompt": "Điền: 這間房子便宜＿＿離學校近。",
+      "options": [
+        {
+          "id": "a",
+          "text": "可是"
+        },
+        {
+          "id": "b",
+          "text": "如果"
+        },
+        {
+          "id": "c",
+          "text": "而且"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "而且 nêu thêm ưu điểm.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l06-assessment-10",
+      "prompt": "Đông Kiện muốn tham gia gì nếu chuyển gần trường?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hoạt động câu lạc bộ"
+        },
+        {
+          "id": "b",
+          "text": "Buổi phỏng vấn"
+        },
+        {
+          "id": "c",
+          "text": "Tiệc cưới"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc ghi 可以參加一些學校的社團活動.",
+      "skill": "Bài đọc"
+    }
+  ],
+  "writingTask": {
+    "id": "cc2-v2-l06-writing",
+    "title": "Căn phòng bạn muốn thuê",
+    "prompt": "Viết 2–3 câu về chỗ ở bạn muốn tìm và nơi bạn sẽ để đồ khi chuyển nhà. Thử dùng 到, 在 hoặc 而且.",
+    "sampleTraditional": "我想搬到學校附近。房間要便宜，而且光線要好。我把書放在桌子上。",
+    "sampleSimplified": "我想搬到学校附近。房间要便宜，而且光线要好。我把书放在桌子上。"
+  }
+}

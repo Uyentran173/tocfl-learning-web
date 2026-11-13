@@ -4,14 +4,14 @@ import { readFileSync, readdirSync } from 'node:fs';
 import path from 'node:path';
 import test from 'node:test';
 import { fileURLToPath } from 'node:url';
-import { academyVolume2, academyVolume2Lesson01, academyVolume2Lesson02, academyVolume2Lesson03, academyVolume2Lesson04, academyVolume2Lesson05, academyVolume2Lesson06, academyVolume2Lesson07, academyVolume2Lesson08, validateAcademyLessonContent, academyVocabularyByIds } from '../lib/academy-catalog.ts';
+import { academyVolume2, academyVolume2Lesson01, academyVolume2Lesson02, academyVolume2Lesson03, academyVolume2Lesson04, academyVolume2Lesson05, academyVolume2Lesson06, academyVolume2Lesson07, academyVolume2Lesson08, academyVolume2Lesson09, validateAcademyLessonContent, academyVocabularyByIds } from '../lib/academy-catalog.ts';
 import { academyScriptText } from '../lib/academy-script.ts';
 import audioManifest from '../data/academy/cc2-audio-manifest.json' with { type: 'json' };
 import reviewedContent from '../data/academy/cc2-reviewed-content.json' with { type: 'json' };
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
-test('Volume 2 publishes eight complete, separately identified lessons', () => {
+test('Volume 2 publishes nine complete, separately identified lessons', () => {
   assert.equal(academyVolume2.lessonIds.length, 15);
   assert.equal(academyVolume2Lesson01.id, 'cc2-v2-l01');
   assert.equal(validateAcademyLessonContent(academyVolume2Lesson01), true);
@@ -93,6 +93,16 @@ test('Volume 2 publishes eight complete, separately identified lessons', () => {
   assert.equal(academyVolume2Lesson08.listening.length, 4);
   assert.equal(academyVolume2Lesson08.practice.length, 8);
   assert.equal(academyVolume2Lesson08.assessment.length, 10);
+  assert.equal(academyVolume2Lesson09.id, 'cc2-v2-l09');
+  assert.equal(validateAcademyLessonContent(academyVolume2Lesson09), true);
+  assert.equal(academyVolume2Lesson09.lecture.dialogues[0].turns.length, 19);
+  assert.equal(academyVolume2Lesson09.lecture.dialogues[1].turns.length, 4);
+  assert.equal(academyVolume2Lesson09.vocabulary.wordIds.length, 42);
+  assert.equal(academyVocabularyByIds(academyVolume2Lesson09.vocabulary.wordIds).length, 42);
+  assert.equal(academyVolume2Lesson09.grammar.length, 6);
+  assert.equal(academyVolume2Lesson09.listening.length, 4);
+  assert.equal(academyVolume2Lesson09.practice.length, 8);
+  assert.equal(academyVolume2Lesson09.assessment.length, 10);
 });
 
 test('Volume 2 source text keeps separate Traditional and Simplified spellings', () => {
@@ -118,10 +128,12 @@ test('Volume 2 source text keeps separate Traditional and Simplified spellings',
   assert.equal(academyScriptText(academyVolume2Lesson07.grammar[3].title, 'simplified'), 'Nơi chốn + V 着 + người / vật');
   assert.equal(academyScriptText(academyVolume2Lesson08.title, 'simplified'), '学功夫');
   assert.equal(academyScriptText(academyVolume2Lesson08.grammar[2].title, 'simplified'), '学 / 教 + 会 — học hoặc dạy thành thạo');
+  assert.equal(academyScriptText(academyVolume2Lesson09.title, 'simplified'), '那个城市好漂亮');
+  assert.equal(academyScriptText(academyVolume2Lesson09.grammar[2].title, 'simplified'), '跟…比起来 — so sánh hai bên');
 });
 
 test('all published Academy sentences, vocabulary examples and transcripts follow the selected script', () => {
-  for (let lessonNumber = 1; lessonNumber <= 8; lessonNumber++) {
+  for (let lessonNumber = 1; lessonNumber <= 9; lessonNumber++) {
     const number = String(lessonNumber).padStart(2, '0');
     const lesson = JSON.parse(readFileSync(path.join(root, `data/academy/cc2-lesson${number}.json`), 'utf8'));
     const vocabulary = JSON.parse(readFileSync(path.join(root, `data/academy/cc2-lesson${number}-vocabulary.json`), 'utf8'));
@@ -145,9 +157,9 @@ test('all published Academy sentences, vocabulary examples and transcripts follo
   }
 });
 
-test('only PDF-verified Lesson 01–08 tracks are published', () => {
+test('only PDF-verified Lesson 01–09 tracks are published', () => {
   const tracks = audioManifest.tracks.filter((track) => track.mappingStatus === 'verified');
-  assert.equal(tracks.length, 109);
+  assert.equal(tracks.length, 123);
   assert.equal(tracks.filter((track) => track.lesson === 1).length, 13);
   assert.equal(tracks.filter((track) => track.lesson === 2).length, 14);
   assert.equal(tracks.filter((track) => track.lesson === 2 && track.source === 'textbook').length, 10);
@@ -164,6 +176,8 @@ test('only PDF-verified Lesson 01–08 tracks are published', () => {
   assert.equal(tracks.filter((track) => track.lesson === 7 && track.source === 'workbook').length, 4);
   assert.equal(tracks.filter((track) => track.lesson === 8 && track.source === 'textbook').length, 12);
   assert.equal(tracks.filter((track) => track.lesson === 8 && track.source === 'workbook').length, 4);
+  assert.equal(tracks.filter((track) => track.lesson === 9 && track.source === 'textbook').length, 10);
+  assert.equal(tracks.filter((track) => track.lesson === 9 && track.source === 'workbook').length, 4);
   const ids = new Set(tracks.map((track) => track.id));
   assert.equal(ids.size, tracks.length);
   const publicDir = path.join(root, 'public/academy/cc2/audio');
@@ -174,7 +188,7 @@ test('only PDF-verified Lesson 01–08 tracks are published', () => {
     assert.equal(bytes.length, track.bytes, track.id);
     assert.equal(createHash('sha256').update(bytes).digest('hex'), track.sha256, track.id);
   }
-  for (const lesson of [academyVolume2Lesson01, academyVolume2Lesson02, academyVolume2Lesson03, academyVolume2Lesson04, academyVolume2Lesson05, academyVolume2Lesson06, academyVolume2Lesson07, academyVolume2Lesson08]) {
+  for (const lesson of [academyVolume2Lesson01, academyVolume2Lesson02, academyVolume2Lesson03, academyVolume2Lesson04, academyVolume2Lesson05, academyVolume2Lesson06, academyVolume2Lesson07, academyVolume2Lesson08, academyVolume2Lesson09]) {
     for (const question of lesson.listening) assert.ok(ids.has(question.audioTrackId), question.id);
     for (const dialogue of lesson.lecture.dialogues) assert.ok(ids.has(dialogue.audioTrackId), dialogue.id);
     for (const audio of lesson.vocabulary.audioTracks) assert.ok(ids.has(audio.id), audio.id);

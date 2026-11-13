@@ -1,0 +1,1057 @@
+{
+  "contentVersion": 2,
+  "id": "cc2-v2-l09",
+  "title": "那個城市好漂亮",
+  "titleVi": "Thành phố ấy đẹp quá",
+  "description": "Kể chuyến đi, so sánh các nơi và mô tả điều mình nhìn thấy.",
+  "objectives": [
+    "Kể một chuyến đi và nêu nét đặc sắc của điểm đến.",
+    "So sánh thành phố, nông thôn, món ăn và thời tiết.",
+    "Dùng bổ ngữ 好, 到, 起 và các mẫu nhấn mức độ."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Mỹ Linh kể Đông Kiện nghe về kỳ nghỉ ở Thái Lan; bài đọc tiếp tục so sánh Đài Bắc với các vùng khác của Đài Loan.",
+    "sections": [
+      {
+        "id": "cc2-v2-l09-section-01",
+        "title": "Kể chuyến đi",
+        "body": "Nêu nơi đã đến, điều gây ấn tượng và một kỷ niệm đáng nhớ.",
+        "chinese": "我放春假的時候到泰國去玩了一個星期。",
+        "simplified": "我放春假的时候到泰国去玩了一个星期。",
+        "pinyin": "wǒ fàng chūn jià de shí hòu dào tài guó qù wán le yī gè xīng qī 。",
+        "meaningVi": "Kỳ nghỉ xuân tôi đi Thái Lan chơi một tuần."
+      },
+      {
+        "id": "cc2-v2-l09-section-02",
+        "title": "So sánh nơi chốn",
+        "body": "Dùng 比起來 và 像…一樣 để chỉ sự khác biệt hoặc tương đồng.",
+        "chinese": "台北跟中南部比起來，生活費比較高。",
+        "simplified": "台北跟中南部比起来，生活费比较高。",
+        "pinyin": "tái běi gēn zhōng nán bù bǐ qǐ lái ， shēng huó fèi bǐ jiào gāo 。",
+        "meaningVi": "So với miền Trung và Nam, chi phí sinh hoạt ở Đài Bắc cao hơn."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc2-v2-l09-dialogue",
+        "title": "Chuyến đi Thái Lan",
+        "context": "Mỹ Linh kể Đông Kiện nghe những điều cô thích ở Thái Lan.",
+        "audioTrackId": "cc2-textbook-l09-t01",
+        "turns": [
+          {
+            "speaker": "美玲",
+            "chinese": "我放春假的時候到泰國去玩了一個星期，你呢？",
+            "simplified": "我放春假的时候到泰国去玩了一个星期，你呢？",
+            "pinyin": "wǒ fàng chūn jià de shí hòu dào tài guó qù wán le yī gè xīng qī ， nǐ ne ？",
+            "meaningVi": "Kỳ nghỉ xuân tôi đi Thái Lan chơi một tuần, còn bạn?"
+          },
+          {
+            "speaker": "東健",
+            "chinese": "我哪裡也沒去，忙著搬家。",
+            "simplified": "我哪里也没去，忙着搬家。",
+            "pinyin": "wǒ nǎ lǐ yě méi qù ， máng zhù bān jiā 。",
+            "meaningVi": "Tôi chẳng đi đâu cả, bận chuyển nhà."
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "都搬好了嗎？",
+            "simplified": "都搬好了吗？",
+            "pinyin": "dōu bān hǎo le ma ？",
+            "meaningVi": "Chuyển xong hết rồi à?"
+          },
+          {
+            "speaker": "東健",
+            "chinese": "都搬好了。泰國怎麼樣？",
+            "simplified": "都搬好了。泰国怎么样？",
+            "pinyin": "dōu bān hǎo le 。 tài guó zěn me yàng ？",
+            "meaningVi": "Xong cả rồi. Thái Lan thế nào?"
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "我好喜歡，沒想到泰國這麼有特色，玩一個星期也不夠。",
+            "simplified": "我好喜欢，没想到泰国这么有特色，玩一个星期也不够。",
+            "pinyin": "wǒ hǎo xǐ huān ， méi xiǎng dào tài guó zhè me yǒu tè sè ， wán yī gè xīng qī yě bù gòu 。",
+            "meaningVi": "Tôi thích lắm. Không ngờ Thái Lan đặc sắc đến vậy; một tuần chơi vẫn chưa đủ."
+          },
+          {
+            "speaker": "東健",
+            "chinese": "真的啊！有些什麼特色呢？",
+            "simplified": "真的啊！有些什么特色呢？",
+            "pinyin": "zhēn de a ！ yǒu xiē shén me tè sè ne ？",
+            "meaningVi": "Thật sao! Có gì đặc sắc?"
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "那裡的房子很漂亮，跟法國的比起來，顏色比較多。",
+            "simplified": "那里的房子很漂亮，跟法国的比起来，颜色比较多。",
+            "pinyin": "nà lǐ de fáng zi hěn piào liàng ， gēn fǎ guó de bǐ qǐ lái ， yán sè bǐ jiào duō 。",
+            "meaningVi": "Nhà ở đó rất đẹp, nhiều màu sắc hơn nhà ở Pháp."
+          },
+          {
+            "speaker": "東健",
+            "chinese": "聽說泰國的廟很多。",
+            "simplified": "听说泰国的庙很多。",
+            "pinyin": "tīng shuō tài guó de miào hěn duō 。",
+            "meaningVi": "Nghe nói Thái Lan có nhiều đền chùa."
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "是。泰國到處都是廟，就像法國有很多教堂一樣。",
+            "simplified": "是。泰国到处都是庙，就像法国有很多教堂一样。",
+            "pinyin": "shì 。 tài guó dào chù dōu shì miào ， jiù xiàng fǎ guó yǒu hěn duō jiào táng yī yàng 。",
+            "meaningVi": "Đúng. Thái Lan đâu đâu cũng có đền chùa, giống như Pháp có nhiều nhà thờ."
+          },
+          {
+            "speaker": "東健",
+            "chinese": "泰國的海邊怎麼樣？",
+            "simplified": "泰国的海边怎么样？",
+            "pinyin": "tài guó de hǎi biān zěn me yàng ？",
+            "meaningVi": "Bờ biển Thái Lan thế nào?"
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "美極了。我到南部的小島去潛水，藍藍的海水非常乾淨，看得見各種顏色的魚。",
+            "simplified": "美极了。我到南部的小岛去潜水，蓝蓝的海水非常干净，看得见各种颜色的鱼。",
+            "pinyin": "měi jí le 。 wǒ dào nán bù de xiǎo dǎo qù qián shuǐ ， lán lán de hǎi shuǐ fēi cháng qián jìng ， kàn dé jiàn gè zhǒng yán sè de yú 。",
+            "meaningVi": "Đẹp vô cùng. Tôi đến một đảo nhỏ phía Nam lặn biển; nước xanh sạch và thấy được cá đủ màu."
+          },
+          {
+            "speaker": "東健",
+            "chinese": "聽起來好美啊！除了到處去玩，妳一定也吃了很多泰國菜吧？",
+            "simplified": "听起来好美啊！除了到处去玩，妳一定也吃了很多泰国菜吧？",
+            "pinyin": "tīng qǐ lái hǎo měi a ！ chú le dào chù qù wán ， nǐ yí dìng yě chī le hěn duō tài guó cài ba ？",
+            "meaningVi": "Nghe đẹp thật! Ngoài đi chơi khắp nơi, chắc bạn còn ăn nhiều món Thái nhỉ?"
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "當然啊，在那裡吃的泰國菜跟我在法國吃的不一樣。",
+            "simplified": "当然啊，在那里吃的泰国菜跟我在法国吃的不一样。",
+            "pinyin": "dāng rán a ， zài nà lǐ chī de tài guó cài gēn wǒ zài fǎ guó chī de bù yī yàng 。",
+            "meaningVi": "Tất nhiên. Món Thái tôi ăn ở đó khác món Thái ăn ở Pháp."
+          },
+          {
+            "speaker": "東健",
+            "chinese": "有什麼不一樣？",
+            "simplified": "有什么不一样？",
+            "pinyin": "yǒu shén me bù yī yàng ？",
+            "meaningVi": "Khác ở chỗ nào?"
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "在法國，沒有那麼多酸酸辣辣的菜，但是在泰國，很多菜都放了檸檬，味道比較酸。",
+            "simplified": "在法国，没有那么多酸酸辣辣的菜，但是在泰国，很多菜都放了柠檬，味道比较酸。",
+            "pinyin": "zài fǎ guó ， méi yǒu nà me duō suān suān là là de cài ， dàn shì zài tài guó ， hěn duō cài dōu fàng le níng méng ， wèi dào bǐ jiào suān 。",
+            "meaningVi": "Ở Pháp không có nhiều món chua cay như vậy; ở Thái Lan nhiều món cho chanh nên vị chua hơn."
+          },
+          {
+            "speaker": "東健",
+            "chinese": "泰國這麼好玩，妳不想回來吧？",
+            "simplified": "泰国这么好玩，妳不想回来吧？",
+            "pinyin": "tài guó zhè me hǎo wán ， nǐ bù xiǎng huí lái ba ？",
+            "meaningVi": "Thái Lan vui thế, chắc bạn không muốn về?"
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "對啊！這些都是忘不了的經驗。如果不必上課，我一定要多住一個月。",
+            "simplified": "对啊！这些都是忘不了的经验。如果不必上课，我一定要多住一个月。",
+            "pinyin": "duì a ！ zhè xiē dōu shì wàng bù liǎo de jīng yàn 。 rú guǒ bù bì shàng kè ， wǒ yí dìng yào duō zhù yī gè yuè 。",
+            "meaningVi": "Đúng vậy! Đó đều là những trải nghiệm không thể quên. Nếu không phải đi học, tôi sẽ ở thêm một tháng."
+          },
+          {
+            "speaker": "東健",
+            "chinese": "妳下次去的時候，我可以跟妳一起去嗎？",
+            "simplified": "妳下次去的时候，我可以跟妳一起去吗？",
+            "pinyin": "nǐ xià cì qù de shí hòu ， wǒ kě yǐ gēn nǐ yì qǐ qù ma ？",
+            "meaningVi": "Lần sau bạn đi, tôi đi cùng được không?"
+          },
+          {
+            "speaker": "美玲",
+            "chinese": "好，沒問題。",
+            "simplified": "好，没问题。",
+            "pinyin": "hǎo ， méi wèn tí 。",
+            "meaningVi": "Được, không vấn đề gì."
+          }
+        ]
+      },
+      {
+        "id": "cc2-v2-l09-reading",
+        "title": "Đài Bắc và miền Trung, miền Nam",
+        "context": "Mỹ Linh so sánh thành phố lớn với thị trấn và các vùng khác của Đài Loan.",
+        "audioTrackId": "cc2-textbook-l09-t03",
+        "turns": [
+          {
+            "speaker": "Bài đọc",
+            "chinese": "高美玲利用放假的時候到處去旅行，她喜歡台北這個大城市，也喜歡中南部鄉下。因為她家在巴黎，已經習慣大城市熱鬧的氣氛，但是她覺得台灣鄉下小鎮也很有意思。",
+            "simplified": "高美玲利用放假的时候到处去旅行，她喜欢台北这个大城市，也喜欢中南部乡下。因为她家在巴黎，已经习惯大城市热闹的气氛，但是她觉得台湾乡下小镇也很有意思。",
+            "pinyin": "gāo měi líng lì yòng fàng jià de shí hòu dào chù qù lǚ xíng ， tā xǐ huān tái běi zhè gè dà chéng shì ， yě xǐ huān zhōng nán bù xiāng xià 。 yīn wèi tā jiā zài bā lí ， yǐ jīng xí guàn dà chéng shì rè nào de qì fēn ， dàn shì tā jué dé tái wān xiāng xià xiǎo zhèn yě hěn yǒu yì si 。",
+            "meaningVi": "Mỹ Linh tranh thủ kỳ nghỉ đi du lịch khắp nơi. Cô thích Đài Bắc, nhưng cũng thích vùng quê miền Trung và Nam. Vì gia đình ở Paris, cô đã quen không khí náo nhiệt của thành phố lớn; dù vậy, cô vẫn thấy những thị trấn nhỏ ở Đài Loan rất thú vị."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "高美玲發現中南部跟台北有很多不同的地方。台北市區現代的公寓、大樓比較多，馬路寬、汽車多。中南部除了新建築，也看得見傳統的老房子。她在高雄市看見很多三層樓的房子，朋友告訴她，買得起房子的南部人，比較喜歡這種房子。",
+            "simplified": "高美玲发现中南部跟台北有很多不同的地方。台北市区现代的公寓、大楼比较多，马路宽、汽车多。中南部除了新建筑，也看得见传统的老房子。她在高雄市看见很多三层楼的房子，朋友告诉她，买得起房子的南部人，比较喜欢这种房子。",
+            "pinyin": "gāo měi líng fā xiàn zhōng nán bù gēn tái běi yǒu hěn duō bù tóng de dì fāng 。 tái běi shì qū xiàn dài de gōng yù 、 dà lóu bǐ jiào duō ， mǎ lù kuān 、 qì chē duō 。 zhōng nán bù chú le xīn jiàn zhù ， yě kàn dé jiàn chuán tǒng de lǎo fáng zi 。 tā zài gāo xióng shì kàn jiàn hěn duō sān céng lóu de fáng zi ， péng yǒu gào sù tā ， mǎi dé qǐ fáng zi de nán bù rén ， bǐ jiào xǐ huān zhè zhǒng fáng zi 。",
+            "meaningVi": "Mỹ Linh thấy miền Trung và Nam khác Đài Bắc ở nhiều điểm. Trung tâm Đài Bắc có nhiều chung cư, cao ốc hiện đại, đường rộng và đông xe. Ở miền Trung, miền Nam, ngoài công trình mới còn thấy nhà cổ truyền thống. Tại Cao Hùng, cô thấy nhiều nhà ba tầng; bạn cô nói người miền Nam đủ điều kiện mua nhà thường thích kiểu nhà này."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "台灣不是很大，但是南部的天氣比北部好多了。夏天雖然熱得很，可是冬天不冷，而且不常下雨。美玲覺得可能天氣好，所以南部人很熱情。",
+            "simplified": "台湾不是很大，但是南部的天气比北部好多了。夏天虽然热得很，可是冬天不冷，而且不常下雨。美玲觉得可能天气好，所以南部人很热情。",
+            "pinyin": "tái wān bú shì hěn dà ， dàn shì nán bù de tiān qì bǐ běi bù hǎo duō le 。 xià tiān suī rán rè dé hěn ， kě shì dōng tiān bù lěng ， ér qiě bù cháng xià yǔ 。 měi líng jué dé kě néng tiān qì hǎo ， suǒ yǐ nán bù rén hěn rè qíng 。",
+            "meaningVi": "Đài Loan không lớn, nhưng thời tiết miền Nam tốt hơn miền Bắc nhiều. Mùa hè rất nóng, song mùa đông không lạnh và ít mưa. Mỹ Linh nghĩ có lẽ nhờ thời tiết dễ chịu nên người miền Nam rất nhiệt tình."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "台北跟中南部比起來，雖然生活費高，環境比較擠，但是美玲還是喜歡住在台北。她覺得台北到處都有餐廳、便利商店，百貨公司也很多，什麼時候都吃得到飯，也買得到飲料，所以她越來越喜歡生活方便的台北了。",
+            "simplified": "台北跟中南部比起来，虽然生活费高，环境比较挤，但是美玲还是喜欢住在台北。她觉得台北到处都有餐厅、便利商店，百货公司也很多，什么时候都吃得到饭，也买得到饮料，所以她越来越喜欢生活方便的台北了。",
+            "pinyin": "tái běi gēn zhōng nán bù bǐ qǐ lái ， suī rán shēng huó fèi gāo ， huán jìng bǐ jiào jǐ ， dàn shì měi líng hái shì xǐ huān zhù zài tái běi 。 tā jué dé tái běi dào chù dōu yǒu cān tīng 、 biàn lì shāng diàn ， bǎi huò gōng sī yě hěn duō ， shén me shí hòu dōu chī dé dào fàn ， yě mǎi dé dào yǐn liào ， suǒ yǐ tā yuè lái yuè xǐ huān shēng huó fāng biàn de tái běi le 。",
+            "meaningVi": "So với miền Trung và Nam, Đài Bắc đắt đỏ và đông đúc hơn, nhưng Mỹ Linh vẫn thích sống ở đó. Nhà hàng, cửa hàng tiện lợi và trung tâm bách hóa có khắp nơi; lúc nào cô cũng có thể tìm đồ ăn, thức uống. Vì cuộc sống thuận tiện, cô ngày càng thích Đài Bắc."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc2-v2-l09-check-01",
+        "prompt": "Mỹ Linh đã đi đâu dịp nghỉ xuân?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Việt Nam"
+          },
+          {
+            "id": "b",
+            "text": "Thái Lan"
+          },
+          {
+            "id": "c",
+            "text": "Nhật Bản"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Cô nói 到泰國去玩了一個星期.",
+        "skill": "Hội thoại"
+      },
+      {
+        "id": "cc2-v2-l09-check-02",
+        "prompt": "Vì sao Mỹ Linh thích sống ở Đài Bắc?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Cuộc sống thuận tiện"
+          },
+          {
+            "id": "b",
+            "text": "Không có xe cộ"
+          },
+          {
+            "id": "c",
+            "text": "Tiền thuê rẻ nhất"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Bài đọc nói cô 越來越喜歡生活方便的台北.",
+        "skill": "Bài đọc"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem phiên âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc2-v2-l09-v001",
+      "cc2-v2-l09-v002",
+      "cc2-v2-l09-v003",
+      "cc2-v2-l09-v004",
+      "cc2-v2-l09-v005",
+      "cc2-v2-l09-v006",
+      "cc2-v2-l09-v007",
+      "cc2-v2-l09-v008",
+      "cc2-v2-l09-v009",
+      "cc2-v2-l09-v010",
+      "cc2-v2-l09-v011",
+      "cc2-v2-l09-v012",
+      "cc2-v2-l09-v013",
+      "cc2-v2-l09-v014",
+      "cc2-v2-l09-v015",
+      "cc2-v2-l09-v016",
+      "cc2-v2-l09-v017",
+      "cc2-v2-l09-v018",
+      "cc2-v2-l09-v019",
+      "cc2-v2-l09-v020",
+      "cc2-v2-l09-v021",
+      "cc2-v2-l09-v022",
+      "cc2-v2-l09-v023",
+      "cc2-v2-l09-v024",
+      "cc2-v2-l09-v025",
+      "cc2-v2-l09-v026",
+      "cc2-v2-l09-v027",
+      "cc2-v2-l09-v028",
+      "cc2-v2-l09-v029",
+      "cc2-v2-l09-v030",
+      "cc2-v2-l09-v031",
+      "cc2-v2-l09-v032",
+      "cc2-v2-l09-v033",
+      "cc2-v2-l09-v034",
+      "cc2-v2-l09-v035",
+      "cc2-v2-l09-v036",
+      "cc2-v2-l09-v037",
+      "cc2-v2-l09-v038",
+      "cc2-v2-l09-v039",
+      "cc2-v2-l09-v040",
+      "cc2-v2-l09-v041",
+      "cc2-v2-l09-v042"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc2-textbook-l09-t02",
+        "label": "Từ vựng hội thoại"
+      },
+      {
+        "id": "cc2-textbook-l09-t04",
+        "label": "Từ vựng bài đọc"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc2-v2-l09-grammar-01",
+      "title": "V + 好 — làm xong cho ổn thỏa",
+      "audioTrackId": "cc2-textbook-l09-t05",
+      "explanation": "好 sau động từ cho biết việc đã được làm xong và ở trạng thái sẵn sàng. 搬好了 là chuyển nhà xong; 準備好了 là chuẩn bị ổn thỏa. So với 完, 好 còn nhấn kết quả đạt yêu cầu.",
+      "structure": "Động từ + 好 + 了",
+      "examples": [
+        {
+          "chinese": "我昨天搬家，很快就搬好了。",
+          "simplified": "我昨天搬家，很快就搬好了。",
+          "pinyin": "wǒ zuó tiān bān jiā ， hěn kuài jiù bān hǎo le 。",
+          "meaningVi": "Hôm qua tôi chuyển nhà và đã xong rất nhanh."
+        },
+        {
+          "chinese": "明天的考試，我都準備好了。",
+          "simplified": "明天的考试，我都准备好了。",
+          "pinyin": "míng tiān de kǎo shì ， wǒ dōu zhǔn bèi hǎo le 。",
+          "meaningVi": "Tôi đã chuẩn bị xong cho kỳ thi ngày mai."
+        }
+      ],
+      "commonMistake": "Không phải động từ nào cũng kết hợp tự nhiên với 好; dùng theo trường hợp đã học.",
+      "check": {
+        "id": "cc2-v2-l09-grammar-check-01",
+        "prompt": "Điền: 明天考試，我都準備＿＿了。",
+        "options": [
+          {
+            "id": "a",
+            "text": "到"
+          },
+          {
+            "id": "b",
+            "text": "起"
+          },
+          {
+            "id": "c",
+            "text": "好"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "好 sau động từ cho biết việc đã được làm xong và ở trạng thái sẵn sàng.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l09-grammar-02",
+      "title": "V + 到 — đạt được kết quả",
+      "audioTrackId": "cc2-textbook-l09-t06",
+      "explanation": "到 sau động từ nhấn kết quả đã đạt tới: 買到 là mua được, 找到 là tìm thấy. Với 看 hoặc 聽, 看得到 và 聽得到 còn diễn đạt khả năng nhìn hoặc nghe được. Phủ định kết quả đã xảy ra thường dùng 沒 + V + 到.",
+      "structure": "Động từ + 到 + đối tượng",
+      "examples": [
+        {
+          "chinese": "在台灣很容易買到外國東西。",
+          "simplified": "在台湾很容易买到外国东西。",
+          "pinyin": "zài tái wān hěn róng yì mǎi dào wài guó dōng xī 。",
+          "meaningVi": "Ở Đài Loan khá dễ mua được hàng nước ngoài."
+        },
+        {
+          "chinese": "我找了很久，才找到了手機。",
+          "simplified": "我找了很久，才找到了手机。",
+          "pinyin": "wǒ zhǎo le hěn jiǔ ， cái zhǎo dào le shǒu jī 。",
+          "meaningVi": "Tôi tìm rất lâu mới tìm thấy điện thoại."
+        }
+      ],
+      "commonMistake": "Đừng nhầm V 到 là đích đến trong chuyển động với bổ ngữ kết quả ở đây.",
+      "check": {
+        "id": "cc2-v2-l09-grammar-check-02",
+        "prompt": "Điền: 我找了很久，才找＿＿手機。",
+        "options": [
+          {
+            "id": "a",
+            "text": "好"
+          },
+          {
+            "id": "b",
+            "text": "極"
+          },
+          {
+            "id": "c",
+            "text": "到"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "到 sau động từ nhấn kết quả đã đạt tới: 買到 là mua được, 找到 là tìm thấy.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l09-grammar-03",
+      "title": "跟…比起來 — so sánh hai bên",
+      "audioTrackId": "cc2-textbook-l09-t07",
+      "explanation": "Đặt hai đối tượng trước 比起來, sau đó nêu điểm khác biệt bằng 比較, 多了 hoặc 一點. Mẫu này hữu ích khi so sánh nơi sống, thời tiết hoặc giá cả. Trong bài, Mỹ Linh so màu sắc nhà ở Thái Lan với Pháp.",
+      "structure": "A 跟 B 比起來，A + 比較 / 多了 + đặc điểm",
+      "examples": [
+        {
+          "chinese": "跟法國的比起來，泰國的房子顏色比較多。",
+          "simplified": "跟法国的比起来，泰国的房子颜色比较多。",
+          "pinyin": "gēn fǎ guó de bǐ qǐ lái ， tài guó de fáng zi yán sè bǐ jiào duō 。",
+          "meaningVi": "So với Pháp, nhà ở Thái Lan có nhiều màu hơn."
+        },
+        {
+          "chinese": "台北跟中南部比起來，生活費比較高。",
+          "simplified": "台北跟中南部比起来，生活费比较高。",
+          "pinyin": "tái běi gēn zhōng nán bù bǐ qǐ lái ， shēng huó fèi bǐ jiào gāo 。",
+          "meaningVi": "So với miền Trung và Nam, Đài Bắc đắt đỏ hơn."
+        }
+      ],
+      "commonMistake": "Sau 比起來 cần nói rõ tiêu chí so sánh, không chỉ dừng ở tên hai nơi.",
+      "check": {
+        "id": "cc2-v2-l09-grammar-check-03",
+        "prompt": "Điền: 台北跟中南部比＿＿，生活費比較高。",
+        "options": [
+          {
+            "id": "a",
+            "text": "下去"
+          },
+          {
+            "id": "b",
+            "text": "不了"
+          },
+          {
+            "id": "c",
+            "text": "起來"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Đặt hai đối tượng trước 比起來, sau đó nêu điểm khác biệt bằng 比較, 多了 hoặc 一點.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l09-grammar-04",
+      "title": "像…一樣 — giống như",
+      "audioTrackId": "cc2-textbook-l09-t08",
+      "explanation": "像…一樣 nêu sự tương đồng về đặc điểm hoặc tình huống. Đặt đối tượng làm mốc sau 像, rồi nêu điểm giống nhau sau 一樣. Bài hội thoại so nhiều ngôi đền ở Thái Lan với nhiều nhà thờ ở Pháp.",
+      "structure": "A + 像 + B + 一樣 + đặc điểm / tình huống",
+      "examples": [
+        {
+          "chinese": "泰國到處都是廟，就像法國有很多教堂一樣。",
+          "simplified": "泰国到处都是庙，就像法国有很多教堂一样。",
+          "pinyin": "tài guó dào chù dōu shì miào ， jiù xiàng fǎ guó yǒu hěn duō jiào táng yī yàng 。",
+          "meaningVi": "Thái Lan nơi nào cũng có đền chùa, giống như Pháp có nhiều nhà thờ."
+        },
+        {
+          "chinese": "台灣的水果像越南的水果一樣好吃。",
+          "simplified": "台湾的水果像越南的水果一样好吃。",
+          "pinyin": "tái wān de shuǐ guǒ xiàng yuè nán de shuǐ guǒ yī yàng hǎo chī 。",
+          "meaningVi": "Trái cây Đài Loan ngon như trái cây Việt Nam."
+        }
+      ],
+      "commonMistake": "Đừng dùng 像…一樣 để hỏi theo mẫu A 不 A; hãy hỏi A 跟 B 一樣不一樣.",
+      "check": {
+        "id": "cc2-v2-l09-grammar-check-04",
+        "prompt": "Điền: 這裡的海邊像花蓮＿＿漂亮。",
+        "options": [
+          {
+            "id": "a",
+            "text": "一樣"
+          },
+          {
+            "id": "b",
+            "text": "起來"
+          },
+          {
+            "id": "c",
+            "text": "極了"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "像…一樣 nêu sự tương đồng về đặc điểm hoặc tình huống.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l09-grammar-05",
+      "title": "Tính từ + 極了 / 得很 — nhấn mức độ",
+      "audioTrackId": "cc2-textbook-l09-t09",
+      "explanation": "極了 hoặc 得很 đặt sau tính từ để nhấn 'rất, cực kỳ'. 美極了 là đẹp vô cùng; 熱得很 là rất nóng. Đây là cách nhấn mức độ trong khẩu ngữ, không phải hai hành động nối tiếp.",
+      "structure": "Tính từ + 極了 / 得很",
+      "examples": [
+        {
+          "chinese": "泰國的海邊美極了。",
+          "simplified": "泰国的海边美极了。",
+          "pinyin": "tài guó de hǎi biān měi jí le 。",
+          "meaningVi": "Bờ biển Thái Lan đẹp vô cùng."
+        },
+        {
+          "chinese": "南部夏天熱得很。",
+          "simplified": "南部夏天热得很。",
+          "pinyin": "nán bù xià tiān rè dé hěn 。",
+          "meaningVi": "Mùa hè miền Nam nóng lắm."
+        }
+      ],
+      "commonMistake": "Không đặt 很 trước tính từ rồi thêm 極了 một cách máy móc trong cùng cụm.",
+      "check": {
+        "id": "cc2-v2-l09-grammar-check-05",
+        "prompt": "Điền: 那個城市漂亮＿＿。",
+        "options": [
+          {
+            "id": "a",
+            "text": "極了"
+          },
+          {
+            "id": "b",
+            "text": "比起來"
+          },
+          {
+            "id": "c",
+            "text": "買得起"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "極了 hoặc 得很 đặt sau tính từ để nhấn 'rất, cực kỳ'.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l09-grammar-06",
+      "title": "V + 得 / 不 + 起 — đủ khả năng chi trả",
+      "audioTrackId": "cc2-textbook-l09-t10",
+      "explanation": "起 trong 買得起, 租得起 nói về việc có đủ tiền để mua hoặc thuê. Phủ định bằng 不: 買不起 là không đủ khả năng mua. Chỉ dùng với một số động từ liên quan chi phí hoặc khả năng gánh vác.",
+      "structure": "買 / 租 / 住 / 穿 + 得 / 不 + 起",
+      "examples": [
+        {
+          "chinese": "買得起房子的南部人比較喜歡這種房子。",
+          "simplified": "买得起房子的南部人比较喜欢这种房子。",
+          "pinyin": "mǎi dé qǐ fáng zi de nán bù rén bǐ jiào xǐ huān zhè zhǒng fáng zi 。",
+          "meaningVi": "Người miền Nam mua nổi nhà thường thích kiểu nhà này."
+        },
+        {
+          "chinese": "這間公寓太貴，我買不起。",
+          "simplified": "这间公寓太贵，我买不起。",
+          "pinyin": "zhè jiān gōng yù tài guì ， wǒ mǎi bù qǐ 。",
+          "meaningVi": "Căn hộ này đắt quá, tôi không mua nổi."
+        }
+      ],
+      "commonMistake": "起 ở đây là bổ ngữ khả năng, không phải động từ 'đứng dậy'.",
+      "check": {
+        "id": "cc2-v2-l09-grammar-check-06",
+        "prompt": "Điền: 這間房子太貴，我買不＿＿。",
+        "options": [
+          {
+            "id": "a",
+            "text": "到"
+          },
+          {
+            "id": "b",
+            "text": "好"
+          },
+          {
+            "id": "c",
+            "text": "起"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "起 trong 買得起, 租得起 nói về việc có đủ tiền để mua hoặc thuê.",
+        "skill": "Ngữ pháp"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc2-v2-l09-listening-01",
+      "prompt": "Nghe hội thoại. Đông Kiện làm gì trong kỳ nghỉ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đi lặn biển"
+        },
+        {
+          "id": "b",
+          "text": "Đi Thái Lan"
+        },
+        {
+          "id": "c",
+          "text": "Chuyển nhà"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Anh nói 忙著搬家.",
+      "skill": "Nghe chi tiết",
+      "audioTrackId": "cc2-textbook-l09-t01"
+    },
+    {
+      "id": "cc2-v2-l09-listening-02",
+      "prompt": "Nghe hội thoại. Mỹ Linh đi đâu lặn biển?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Một đảo nhỏ phía Nam"
+        },
+        {
+          "id": "b",
+          "text": "Đài Bắc"
+        },
+        {
+          "id": "c",
+          "text": "Paris"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Cô nói 到南部的小島去潛水.",
+      "skill": "Nghe địa điểm",
+      "audioTrackId": "cc2-textbook-l09-t01"
+    },
+    {
+      "id": "cc2-v2-l09-listening-03",
+      "prompt": "Nghe bài đọc. Cao Hùng có nhiều kiểu nhà nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nhà một tầng"
+        },
+        {
+          "id": "b",
+          "text": "Nhà gỗ nhỏ"
+        },
+        {
+          "id": "c",
+          "text": "Nhà ba tầng"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc ghi 三層樓的房子.",
+      "skill": "Nghe chi tiết",
+      "audioTrackId": "cc2-textbook-l09-t03"
+    },
+    {
+      "id": "cc2-v2-l09-listening-04",
+      "prompt": "Nghe bài đọc. Mùa đông miền Nam thế nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rất lạnh và nhiều tuyết"
+        },
+        {
+          "id": "b",
+          "text": "Mưa suốt mùa"
+        },
+        {
+          "id": "c",
+          "text": "Không lạnh và ít mưa"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Đoạn ba nói 冬天不冷，而且不常下雨.",
+      "skill": "Nghe thời tiết",
+      "audioTrackId": "cc2-textbook-l09-t03"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc2-v2-l09-practice-01",
+      "prompt": "‘特色’ nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "nét đặc sắc"
+        },
+        {
+          "id": "b",
+          "text": "màu sắc"
+        },
+        {
+          "id": "c",
+          "text": "địa điểm"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "特色 là điểm riêng nổi bật.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc2-v2-l09-practice-02",
+      "prompt": "Điền: 我都準備＿＿了。",
+      "options": [
+        {
+          "id": "a",
+          "text": "到"
+        },
+        {
+          "id": "b",
+          "text": "起"
+        },
+        {
+          "id": "c",
+          "text": "好"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "準備好 là chuẩn bị xong, sẵn sàng.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l09-practice-03",
+      "prompt": "Mỹ Linh nói món Thái ở đâu chua hơn?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ở Đài Bắc"
+        },
+        {
+          "id": "b",
+          "text": "Ở Thái Lan"
+        },
+        {
+          "id": "c",
+          "text": "Ở Pháp"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Cô nói 在泰國…味道比較酸.",
+      "skill": "Hội thoại"
+    },
+    {
+      "id": "cc2-v2-l09-practice-04",
+      "prompt": "Điền: 我終於找＿＿手機了。",
+      "options": [
+        {
+          "id": "a",
+          "text": "好"
+        },
+        {
+          "id": "b",
+          "text": "極"
+        },
+        {
+          "id": "c",
+          "text": "到"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "找到 nêu kết quả tìm thấy.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l09-practice-05",
+      "prompt": "Điền: 台北跟高雄比＿＿，比較擠。",
+      "options": [
+        {
+          "id": "a",
+          "text": "起來"
+        },
+        {
+          "id": "b",
+          "text": "下去"
+        },
+        {
+          "id": "c",
+          "text": "極了"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "比起來 mở phép so sánh hai nơi.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l09-practice-06",
+      "prompt": "Điền: 這裡像花蓮＿＿漂亮。",
+      "options": [
+        {
+          "id": "a",
+          "text": "得起"
+        },
+        {
+          "id": "b",
+          "text": "一樣"
+        },
+        {
+          "id": "c",
+          "text": "極了"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "像…一樣 nêu điểm tương đồng.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l09-practice-07",
+      "prompt": "Điền: 海邊美＿＿。",
+      "options": [
+        {
+          "id": "a",
+          "text": "極了"
+        },
+        {
+          "id": "b",
+          "text": "起來"
+        },
+        {
+          "id": "c",
+          "text": "不到"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "美極了 là đẹp vô cùng.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l09-practice-08",
+      "prompt": "Điền: 房子太貴，我買不＿＿。",
+      "options": [
+        {
+          "id": "a",
+          "text": "起"
+        },
+        {
+          "id": "b",
+          "text": "到"
+        },
+        {
+          "id": "c",
+          "text": "好"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "買不起 là không đủ tiền mua.",
+      "skill": "Ngữ pháp"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc2-v2-l09-assessment-01",
+      "prompt": "‘潛水’ là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "lặn biển"
+        },
+        {
+          "id": "b",
+          "text": "leo núi"
+        },
+        {
+          "id": "c",
+          "text": "đạp xe"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "潛水 là lặn.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc2-v2-l09-assessment-02",
+      "prompt": "Điền: 我搬家都搬＿＿了。",
+      "options": [
+        {
+          "id": "a",
+          "text": "好"
+        },
+        {
+          "id": "b",
+          "text": "到"
+        },
+        {
+          "id": "c",
+          "text": "起"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "搬好 nhấn chuyển nhà xong xuôi.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l09-assessment-03",
+      "prompt": "Thái Lan có nhiều công trình tôn giáo nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bảo tàng"
+        },
+        {
+          "id": "b",
+          "text": "Đền chùa"
+        },
+        {
+          "id": "c",
+          "text": "Nhà thờ"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Mỹ Linh nói 泰國到處都是廟.",
+      "skill": "Hội thoại"
+    },
+    {
+      "id": "cc2-v2-l09-assessment-04",
+      "prompt": "Điền: 這裡很容易買＿＿飲料。",
+      "options": [
+        {
+          "id": "a",
+          "text": "好"
+        },
+        {
+          "id": "b",
+          "text": "起"
+        },
+        {
+          "id": "c",
+          "text": "到"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "買到 là mua được.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l09-assessment-05",
+      "prompt": "Ở miền Trung và Nam, ngoài nhà mới còn thấy gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ cao ốc mới"
+        },
+        {
+          "id": "b",
+          "text": "Không có nhà ở"
+        },
+        {
+          "id": "c",
+          "text": "Nhà cũ truyền thống"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc nêu 傳統的老房子.",
+      "skill": "Bài đọc"
+    },
+    {
+      "id": "cc2-v2-l09-assessment-06",
+      "prompt": "Điền: 台北跟中南部比＿＿，生活費較高。",
+      "options": [
+        {
+          "id": "a",
+          "text": "起來"
+        },
+        {
+          "id": "b",
+          "text": "極了"
+        },
+        {
+          "id": "c",
+          "text": "完"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "比起來 dùng để so sánh.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l09-assessment-07",
+      "prompt": "Điền: 泰國的廟多得像法國的教堂＿＿。",
+      "options": [
+        {
+          "id": "a",
+          "text": "起來"
+        },
+        {
+          "id": "b",
+          "text": "買得起"
+        },
+        {
+          "id": "c",
+          "text": "一樣"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "像…一樣 nêu sự tương đồng.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l09-assessment-08",
+      "prompt": "Điền: 這個地方美＿＿。",
+      "options": [
+        {
+          "id": "a",
+          "text": "起"
+        },
+        {
+          "id": "b",
+          "text": "極了"
+        },
+        {
+          "id": "c",
+          "text": "到"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "美極了 nhấn mức độ đẹp.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l09-assessment-09",
+      "prompt": "‘買得起’ có nghĩa gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đã mua xong"
+        },
+        {
+          "id": "b",
+          "text": "Tìm thấy món muốn mua"
+        },
+        {
+          "id": "c",
+          "text": "Có đủ tiền mua"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "得起 là đủ khả năng chi trả.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l09-assessment-10",
+      "prompt": "Mỹ Linh ngày càng thích sống ở đâu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đài Bắc"
+        },
+        {
+          "id": "b",
+          "text": "Paris"
+        },
+        {
+          "id": "c",
+          "text": "Một đảo Thái Lan"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Đoạn cuối ghi 越來越喜歡生活方便的台北.",
+      "skill": "Bài đọc"
+    }
+  ],
+  "writingTask": {
+    "id": "cc2-v2-l09-writing",
+    "title": "So sánh hai nơi bạn biết",
+    "prompt": "Viết 2–3 câu so sánh hai thành phố hoặc vùng miền. Thử dùng 比起來 và 像…一樣.",
+    "sampleTraditional": "台北跟高雄比起來，生活費比較高。高雄的海邊像花蓮一樣漂亮。",
+    "sampleSimplified": "台北跟高雄比起来，生活费比较高。高雄的海边像花莲一样漂亮。"
+  }
+}

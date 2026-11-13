@@ -6,6 +6,7 @@ import { academyActivityKindsForLesson, academyLessonStatus, academyLessonSummar
 import { academyProgressKeyForLesson, emptyAcademyProgressForLesson, parseAcademyLessonProgress, type AcademyLessonProgress } from "@/lib/academy-progress";
 import { progressStorage } from "@/lib/progress-storage";
 import { academyLessonLabel } from "@/lib/i18n-academy";
+import { academyScriptText } from "@/lib/academy-script";
 import { usePreferences } from "./PreferencesProvider";
 
 type AvailableLesson = { number: number; title: string; estimatedMinutes: number | null };
@@ -35,12 +36,13 @@ export default function AcademyJourney({ lessons, volume = academyVolume, summar
       const total = academyActivityKindsForLesson(id).length;
       const started = completed > 0 || Object.keys(progress.answers).length > 0 || progress.currentActivityId !== emptyAcademyProgressForLesson(id).currentActivityId;
       const href = `${lessonRoute}/${String(number).padStart(2, "0")}${started ? `?activity=${encodeURIComponent(progress.currentActivityId)}` : ""}`;
-      const title = available?.title ?? summaries[index].chinese;
+      const script = progress.script;
+      const title = academyScriptText(available?.title ?? summaries[index].chinese, script);
       return <li key={id} className={`academy-route-stop ${published ? "is-open" : "is-draft"}`}>
         <span className="academy-route-node" aria-hidden="true">{String(number).padStart(2, "0")}</span>
         {published ? <Link href={href} className="academy-route-card academy-card-link paper" aria-label={`${t(started ? "Tiếp tục học" : "Bắt đầu bài học")}: ${title}`}>
           <p className="page-eyebrow">{academyLessonLabel(locale, number)}</p>
-          <h3 className="mt-3 text-lg font-bold" lang="zh-Hant">{title}</h3>
+          <h3 className="mt-3 text-lg font-bold" lang={script === "traditional" ? "zh-Hant" : "zh-Hans"}>{title}</h3>
           <p className="mt-2 text-sm muted">{summaries[index].vi}{available?.estimatedMinutes ? ` · ${available.estimatedMinutes} ${t("phút dự kiến")}` : ""}</p>
           {started && <div className="academy-progress-bar mt-4" role="progressbar" aria-valuenow={completed} aria-valuemin={0} aria-valuemax={total} aria-label={t("Tiến độ bài học")}><span style={{ width: `${completed / total * 100}%` }} /></div>}
           <span className="academy-route-card-footer"><span>{t(started ? "Tiếp tục học" : "Bắt đầu bài học")}</span><span className="academy-card-arrow" aria-hidden="true">→</span></span>

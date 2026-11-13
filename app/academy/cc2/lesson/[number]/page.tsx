@@ -2,26 +2,32 @@ import { notFound } from "next/navigation";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import AcademyLessonWorkspace from "@/components/AcademyLessonWorkspace";
 import { academyTracksForLesson } from "@/lib/academy";
-import { academyVolume2Lesson01, validateAcademyLessonContent } from "@/lib/academy-catalog";
+import { academyVolume2Lesson01, academyVolume2Lesson02, validateAcademyLessonContent } from "@/lib/academy-catalog";
 import { publishedAcademyLessonByFallback } from "@/lib/academy-content";
 import { createPageMetadata } from "@/lib/seo";
 
 type Props = { params: Promise<{ number: string }> };
 export const dynamic = "force-dynamic";
+const publishedLessons = { "01": academyVolume2Lesson01, "02": academyVolume2Lesson02 } as const;
+function lessonForNumber(number: string) {
+  return publishedLessons[number as keyof typeof publishedLessons] ?? null;
+}
 
 export async function generateMetadata({ params }: Props) {
   const { number } = await params;
-  if (number !== "01") return {};
-  return createPageMetadata("Hỏi đường đến Sư Đại · Tai Wén Academy", academyVolume2Lesson01.description, "/academy/cc2/lesson/01", { noIndex: true });
+  const lesson = lessonForNumber(number);
+  if (!lesson) return {};
+  return createPageMetadata(`${lesson.titleVi} · Tai Wén Academy`, lesson.description, `/academy/cc2/lesson/${number}`, { noIndex: true });
 }
 
 export default async function AcademyVolume2LessonPage({ params }: Props) {
   const { number } = await params;
-  if (number !== "01" || !validateAcademyLessonContent(academyVolume2Lesson01)) notFound();
-  const content = await publishedAcademyLessonByFallback(academyVolume2Lesson01);
-  const tracks = academyTracksForLesson(1, true, "cc2");
+  const lesson = lessonForNumber(number);
+  if (!lesson || !validateAcademyLessonContent(lesson)) notFound();
+  const content = await publishedAcademyLessonByFallback(lesson);
+  const tracks = academyTracksForLesson(Number(number), true, "cc2");
   return <main className="academy-lesson-page mx-auto max-w-7xl px-5 py-8 sm:px-8 sm:py-12">
-    <Breadcrumbs items={[{ label: "Tai Wén Academy", href: "/academy", translate: false }, { label: "Tập 2", href: "/academy/contemporary-chinese/cc2-v2" }, { label: "Bài 01" }]} />
+    <Breadcrumbs items={[{ label: "Tai Wén Academy", href: "/academy", translate: false }, { label: "Tập 2", href: "/academy/contemporary-chinese/cc2-v2" }, { label: `Bài ${number}` }]} />
     <AcademyLessonWorkspace content={content} tracks={tracks} availableTrackIds={tracks.map((track) => track.id)} canEdit={false} />
   </main>;
 }

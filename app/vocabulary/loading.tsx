@@ -1,3 +1,3 @@
 import PageLoading from "@/components/PageLoading";
 
-export default function Loading() { return <PageLoading variant="reading" message="Đang tải từ vựng…" />; }
+export default function Loading() { return <PageLoading message="Đang tải từ vựng…" />; }

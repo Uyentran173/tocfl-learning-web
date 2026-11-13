@@ -1,20 +1,20 @@
-import source from "../data/academy/cc2-lesson01-vocabulary.json" with { type: "json" };
+import lesson01Source from "../data/academy/cc2-lesson01-vocabulary.json" with { type: "json" };
+import lesson02Source from "../data/academy/cc2-lesson02-vocabulary.json" with { type: "json" };
 import { cc1Lesson01Words } from "./cc1-lesson01-vocabulary.ts";
 import { cc1CourseVocabularySets } from "./cc1-course-vocabulary.ts";
 import type { VocabularySet, VocabularyWord } from "./vocabulary.ts";
 
 const existing = [...cc1Lesson01Words, ...cc1CourseVocabularySets.flatMap((set) => set.words)];
-function matchingWord(traditional: string, pinyin: string) {
-  return existing.find((word) => word.traditional === traditional && word.pinyin.toLowerCase().replaceAll(" ", "") === pinyin.toLowerCase().replaceAll(" ", ""));
+function matchingWord(words: VocabularyWord[], traditional: string, pinyin: string) {
+  return words.find((word) => word.traditional === traditional && word.pinyin.toLowerCase().replaceAll(" ", "") === pinyin.toLowerCase().replaceAll(" ", ""));
 }
 
-export const cc2Lesson01Words: VocabularyWord[] = source.records.map((record) => {
-  const prior = matchingWord(record.traditional, record.pinyin);
-  return prior ?? {
+function lessonWords(records: typeof lesson01Source.records, lessonNumber: number, priorWords: VocabularyWord[]): VocabularyWord[] {
+  return records.map((record) => matchingWord(priorWords, record.traditional, record.pinyin) ?? {
     id: record.id,
     source: "textbook",
     sourceRecordId: record.id,
-    sourceLabel: "Giáo trình tiếng Hoa đương đại · Tập 2 · Bài 01",
+    sourceLabel: `Giáo trình tiếng Hoa đương đại · Tập 2 · Bài ${String(lessonNumber).padStart(2, "0")}`,
     hanzi: record.traditional,
     traditional: record.traditional,
     simplified: record.simplified,
@@ -25,12 +25,20 @@ export const cc2Lesson01Words: VocabularyWord[] = source.records.map((record) =>
     exampleTraditional: record.exampleTraditional,
     exampleSimplified: record.exampleSimplified,
     translation: record.exampleVi,
-  };
-});
+  });
+}
+
+export const cc2Lesson01Words = lessonWords(lesson01Source.records, 1, existing);
+export const cc2Lesson02Words = lessonWords(lesson02Source.records, 2, [...existing, ...cc2Lesson01Words]);
 
 export const cc2VocabularySets: VocabularySet[] = [{
   id: "cc2-v2-l01",
   title: "Bài 01 · 請問，到師大怎麼走？",
   subtitle: "Hỏi đường đến Sư Đại",
   words: cc2Lesson01Words,
+}, {
+  id: "cc2-v2-l02",
+  title: "Bài 02 · 還是坐捷運吧！",
+  subtitle: "Đi MRT thì hơn!",
+  words: cc2Lesson02Words,
 }];

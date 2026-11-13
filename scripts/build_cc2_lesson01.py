@@ -188,10 +188,16 @@ def main() -> None:
             "translationVi": "\n\n".join(vi for _, vi in reading),
         },
     }
-    (ROOT / "data/academy/cc2-reviewed-content.json").write_text(json.dumps(reviewed, ensure_ascii=False, indent=2) + "\n")
+    reviewed_path = ROOT / "data/academy/cc2-reviewed-content.json"
+    combined_reviewed = json.loads(reviewed_path.read_text()) if reviewed_path.exists() else {}
+    combined_reviewed.update(reviewed)
+    reviewed_path.write_text(json.dumps(combined_reviewed, ensure_ascii=False, indent=2) + "\n")
     from_chars = set("".join(str(value) for value in walk_strings(lesson)))
     conversions = {char: CONVERT.convert(char) for char in from_chars if CONVERT.convert(char) != char}
-    (ROOT / "data/academy/cc2-script-map.json").write_text(json.dumps(conversions, ensure_ascii=False, indent=2) + "\n")
+    map_path = ROOT / "data/academy/cc2-script-map.json"
+    combined_map = json.loads(map_path.read_text()) if map_path.exists() else {}
+    combined_map.update(conversions)
+    map_path.write_text(json.dumps(combined_map, ensure_ascii=False, indent=2) + "\n")
     print(f"Built {lesson['id']}: {len(lesson['lecture']['dialogues'][0]['turns'])} dialogue turns, {len(lesson['vocabulary']['wordIds'])} words, {len(lesson['grammar'])} grammar points")
 
 

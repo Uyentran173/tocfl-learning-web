@@ -2,6 +2,8 @@ import type { UiLocale } from "./i18n";
 
 export const academyNewMessages: Record<Exclude<UiLocale, "vi">, Record<string, string>> = {
   en: {
+    "Bài 01 và 02 đã mở: hỏi đường, đi MRT, đọc hiểu và luyện nghe.": "Lessons 01 and 02 are open: directions, MRT travel, reading, and listening.",
+    "Bài 01 và 02 đã sẵn sàng. Các bài tiếp theo sẽ xuất hiện sau khi được hoàn thiện.": "Lessons 01 and 02 are ready. More lessons will open as they are completed.",
     "Tập 2": "Volume 2", "Từ vựng hội thoại": "Dialogue vocabulary", "Từ vựng bài đọc": "Reading vocabulary", "Bài 01 đã sẵn sàng: hỏi đường, đọc hiểu, từ vựng, ngữ pháp và luyện nghe.": "Lesson 01 is ready: directions, reading, vocabulary, grammar, and listening.", "Bài 01 đã sẵn sàng. Các bài tiếp theo sẽ xuất hiện sau khi nội dung và âm thanh được soát xong.": "Lesson 01 is ready. More lessons will open as their content and audio are reviewed.",
     "Học tiếng Hoa,": "Learn Chinese,", "mở ra thế giới mới.": "open a new world.", "Học theo lộ trình, luyện tập thông minh và tự tin chinh phục TOCFL cùng Tai Wén.": "Follow a clear path, practice with purpose, and take on TOCFL with confidence at Tai Wén.",
     "Khám phá thế giới học tập Tai Wén": "Explore the Tai Wén learning world", "Mỗi bài học là một điểm đến mới": "Every lesson takes you somewhere new", "Hội thoại đời thường": "Everyday dialogues", "Từ mới dễ nhớ": "Words that stick", "Hiểu cách dùng": "Learn how it works", "Thử sức từng bước": "Practice step by step", "Sẵn sàng đi thi": "Get exam ready", "Vuốt để xem thêm hoạt động": "Swipe to see more",
@@ -26,6 +28,8 @@ export const academyNewMessages: Record<Exclude<UiLocale, "vi">, Record<string, 
     "Chọn bản ghi âm đã được đối chiếu với nội dung trong sách. Bạn có thể nghe lại và ghi chú theo nhịp học của mình.": "Choose a recording matched to this lesson. Replay it and take notes at your own pace.",
   },
   "zh-CN": {
+    "Bài 01 và 02 đã mở: hỏi đường, đi MRT, đọc hiểu và luyện nghe.": "第 01、02 课已开放：问路、搭捷运、阅读和听力。",
+    "Bài 01 và 02 đã sẵn sàng. Các bài tiếp theo sẽ xuất hiện sau khi được hoàn thiện.": "第 01、02 课已开放。其他课程完成后会陆续上线。",
     "Tập 2": "第二册", "Từ vựng hội thoại": "对话词汇", "Từ vựng bài đọc": "阅读词汇", "Bài 01 đã sẵn sàng: hỏi đường, đọc hiểu, từ vựng, ngữ pháp và luyện nghe.": "第 01 课已开放：问路、阅读、词汇、语法和听力。", "Bài 01 đã sẵn sàng. Các bài tiếp theo sẽ xuất hiện sau khi nội dung và âm thanh được soát xong.": "第 01 课已开放。其他课程会在内容与音频核对完成后上线。",
     "Học tiếng Hoa,": "学华语，", "mở ra thế giới mới.": "打开新世界。", "Học theo lộ trình, luyện tập thông minh và tự tin chinh phục TOCFL cùng Tai Wén.": "在 Tai Wén 按清晰路线学习、有效练习，自信迎接 TOCFL。",
     "Khám phá thế giới học tập Tai Wén": "探索 Tai Wén 学习世界", "Mỗi bài học là một điểm đến mới": "每一课都是新的起点", "Hội thoại đời thường": "日常对话", "Từ mới dễ nhớ": "轻松记新词", "Hiểu cách dùng": "理解用法", "Thử sức từng bước": "循序练习", "Sẵn sàng đi thi": "准备考试", "Vuốt để xem thêm hoạt động": "滑动查看更多活动",
@@ -45,6 +49,8 @@ export const academyNewMessages: Record<Exclude<UiLocale, "vi">, Record<string, 
     "Chọn bản ghi âm đã được đối chiếu với nội dung trong sách. Bạn có thể nghe lại và ghi chú theo nhịp học của mình.": "选择已经和教材内容核对的录音。你可以重听，并按自己的节奏做笔记。",
   },
   "zh-TW": {
+    "Bài 01 và 02 đã mở: hỏi đường, đi MRT, đọc hiểu và luyện nghe.": "第 01、02 課已開放：問路、搭捷運、閱讀與聽力。",
+    "Bài 01 và 02 đã sẵn sàng. Các bài tiếp theo sẽ xuất hiện sau khi được hoàn thiện.": "第 01、02 課已開放。其他課程完成後會陸續上線。",
     "Tập 2": "第二冊", "Từ vựng hội thoại": "對話詞彙", "Từ vựng bài đọc": "閱讀詞彙", "Bài 01 đã sẵn sàng: hỏi đường, đọc hiểu, từ vựng, ngữ pháp và luyện nghe.": "第 01 課已開放：問路、閱讀、詞彙、語法與聽力。", "Bài 01 đã sẵn sàng. Các bài tiếp theo sẽ xuất hiện sau khi nội dung và âm thanh được soát xong.": "第 01 課已開放。其他課程將在內容與音訊核對完成後上線。",
     "Học tiếng Hoa,": "學華語，", "mở ra thế giới mới.": "開啟新世界。", "Học theo lộ trình, luyện tập thông minh và tự tin chinh phục TOCFL cùng Tai Wén.": "在 Tai Wén 按清楚的路線學習、有效練習，自信迎接 TOCFL。",
     "Khám phá thế giới học tập Tai Wén": "探索 Tai Wén 學習世界", "Mỗi bài học là một điểm đến mới": "每一課都是新的起點", "Hội thoại đời thường": "日常對話", "Từ mới dễ nhớ": "輕鬆記新詞", "Hiểu cách dùng": "理解用法", "Thử sức từng bước": "循序練習", "Sẵn sàng đi thi": "準備考試", "Vuốt để xem thêm hoạt động": "滑動查看更多活動",

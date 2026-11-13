@@ -49,6 +49,7 @@ button:not(:disabled):active { transform: translateY(1px); filter: brightness(.9
 .ui-empty { padding: 32px 24px; border: 1px dashed var(--brand-border); border-radius: var(--radius-card); background: var(--surface); text-align: center; }
 .ui-skeleton { border-radius: var(--radius-control); background: var(--brand-soft); }
 .mascot-loading-screen { display: grid; place-items: center; min-height: calc(100svh - 76px); padding: 24px; }
+.mascot-loading-screen-full { min-height: 100svh; }
 .mascot-loader { display: flex; align-items: center; justify-content: center; min-width: 0; }
 .mascot-loader-art { display: block; width: clamp(210px, 24vw, 280px); aspect-ratio: 418 / 627; overflow: hidden; opacity: 0; transition: opacity 160ms ease; }
 .mascot-loader-art.is-visible { opacity: 1; }
@@ -56,7 +57,7 @@ button:not(:disabled):active { transform: translateY(1px); filter: brightness(.9
 .mascot-loader-message { color: var(--muted); font-size: 13px; font-weight: 600; line-height: 1.5; }
 .mascot-loader-compact { gap: 12px; }
 .mascot-loader-compact .mascot-loader-art { width: 52px; flex: 0 0 52px; }
-@media (max-width: 720px) { .mascot-loading-screen { min-height: calc(100svh - 68px); } }
+@media (max-width: 720px) { .mascot-loading-screen { min-height: calc(100svh - 68px); } .mascot-loading-screen-full { min-height: 100svh; } }
 @media (prefers-reduced-motion: reduce) { .mascot-loader-art { transition: none; } }
 @media (prefers-reduced-motion: no-preference) { .ui-skeleton { animation: ui-skeleton-pulse 1.5s ease-in-out infinite alternate; } }
 @keyframes ui-skeleton-pulse { to { opacity: .55; } }

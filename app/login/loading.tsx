@@ -1,3 +1,3 @@
 import PageLoading from "@/components/PageLoading";
 
-export default function Loading() { return <PageLoading variant="laptop" message="Đang mở trang đăng nhập…" />; }
+export default function Loading() { return <PageLoading message="Đang mở trang đăng nhập…" />; }

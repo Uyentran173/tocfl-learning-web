@@ -9,6 +9,7 @@ import type { AuthChangeEvent, User } from "@supabase/supabase-js";
 import { createSupabaseBrowserClient, supabaseConfigured } from "@/lib/supabase/client";
 import { guestProgressNeedsMigration, loadAccountProgress, migrateGuestProgress, ProgressConflictError, resolveProgressConflict, syncProgressEntry } from "@/lib/cloud-progress";
 import { accountProgressKey, pendingProgressKeys, progressWriteEvent, setProgressUser } from "@/lib/progress-storage";
+import PageLoading from "./PageLoading";
 
 type AuthState = {
   user: User | null;
@@ -33,7 +34,7 @@ export function useAuth() {
 }
 
 export default function AuthProvider({ children }: { children: ReactNode }) {
-  const { t, locale, theme, setLocale, setTheme } = usePreferences();
+  const { locale, theme, setLocale, setTheme } = usePreferences();
   const router = useRouter();
   const [user, setUser] = useState<User | null>(null);
   const [ready, setReady] = useState(!supabaseConfigured);
@@ -230,5 +231,5 @@ export default function AuthProvider({ children }: { children: ReactNode }) {
   }, [router, supabase]);
 
   const value: AuthState = { user, ready, configured: supabaseConfigured, syncError, syncing: syncingCount > 0, displayName, updateDisplayName, savePreference, conflicts, resolveConflict, guestMigrationAvailable, migrateGuest, signOut };
-  return <AuthContext.Provider value={value}>{ready ? <div key={user?.id ?? "guest"} className="contents">{children}</div> : <main className="mx-auto max-w-4xl px-6 py-20 text-center" role="status">{t("Đang mở Tai Wén…")}</main>}</AuthContext.Provider>;
+  return <AuthContext.Provider value={value}>{ready ? <div key={user?.id ?? "guest"} className="contents">{children}</div> : <PageLoading message="Đang mở Tai Wén…" fullViewport />}</AuthContext.Provider>;
 }

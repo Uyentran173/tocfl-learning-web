@@ -1,0 +1,1032 @@
+{
+  "contentVersion": 2,
+  "id": "cc2-v2-l02",
+  "title": "還是坐捷運吧！",
+  "titleVi": "Đi MRT thì hơn!",
+  "description": "Hỏi đường đi bằng phương tiện công cộng, so sánh xe buýt với MRT và lên kế hoạch đến Lục Đảo.",
+  "objectives": [
+    "Hỏi và chỉ cách đi bằng xe buýt, MRT, tàu hỏa và thuyền.",
+    "So sánh các cách đi rồi đưa ra lời khuyên phù hợp.",
+    "Dùng phủ định mạnh, phủ định nhẹ và các cách diễn tả mức độ trong hội thoại."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Như Ngọc định đi xem triển lãm bằng xe buýt; An Đồng gợi ý đi MRT. Trong bài đọc, Mỹ Mỹ tìm cách đi lại ở Đài Bắc rồi lên kế hoạch ra Lục Đảo.",
+    "sections": [
+      {
+        "id": "cc2-v2-l02-section-01",
+        "title": "Chọn tuyến và chuyển xe",
+        "body": "先…再… giúp sắp xếp các chặng: đi tuyến số 2 đến ga Đài Bắc trước, rồi mới chuyển tuyến. Hãy xác định điểm chuyển xe khi nghe chỉ dẫn.",
+        "chinese": "妳先坐2號線到台北車站，再換車到展覽館。",
+        "simplified": "妳先坐2号线到台北车站，再换车到展览馆。",
+        "pinyin": "nǐ xiān zuò 2 hào xiàn dào tái běi chē zhàn ， zài huàn chē dào zhǎn lǎn guǎn 。",
+        "meaningVi": "Bạn đi tuyến số 2 đến ga Đài Bắc trước, rồi chuyển xe đến nhà triển lãm."
+      },
+      {
+        "id": "cc2-v2-l02-section-02",
+        "title": "So sánh trước khi khuyên",
+        "body": "An Đồng so tốc độ và thời gian của hai cách đi. Từ lý do ấy, anh dùng 還是…吧 để khuyên Như Ngọc chọn MRT.",
+        "chinese": "捷運比較快，你還是坐捷運吧！",
+        "simplified": "捷运比较快，你还是坐捷运吧！",
+        "pinyin": "jié yùn bǐ jiào kuài ， nǐ hái shì zuò jié yùn ba ！",
+        "meaningVi": "MRT nhanh hơn; bạn đi MRT thì hơn!"
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc2-v2-l02-dialogue",
+        "title": "Xe buýt hay MRT?",
+        "context": "Như Ngọc và An Đồng bàn cách đến nhà triển lãm.",
+        "audioTrackId": "cc2-textbook-l02-t01",
+        "turns": [
+          {
+            "speaker": "如玉",
+            "chinese": "安同，早！你要去哪裡？",
+            "simplified": "安同，早！你要去哪里？",
+            "pinyin": "ān tóng ， zǎo ！ nǐ yào qù nǎ lǐ ？",
+            "meaningVi": "An Đồng, chào buổi sáng! Bạn đi đâu vậy?"
+          },
+          {
+            "speaker": "安同",
+            "chinese": "早！我約了朋友一起去看電影，你呢？",
+            "simplified": "早！我约了朋友一起去看电影，你呢？",
+            "pinyin": "zǎo ！ wǒ yuē le péng yǒu yì qǐ qù kàn diàn yǐng ， nǐ ne ？",
+            "meaningVi": "Chào buổi sáng! Tôi hẹn bạn cùng đi xem phim. Còn bạn?"
+          },
+          {
+            "speaker": "如玉",
+            "chinese": "我要去看電腦展。",
+            "simplified": "我要去看电脑展。",
+            "pinyin": "wǒ yào qù kàn diàn nǎo zhǎn 。",
+            "meaningVi": "Tôi định đi xem triển lãm máy tính."
+          },
+          {
+            "speaker": "安同",
+            "chinese": "你去哪裡看電腦展？",
+            "simplified": "你去哪里看电脑展？",
+            "pinyin": "nǐ qù nǎ lǐ kàn diàn nǎo zhǎn ？",
+            "meaningVi": "Bạn xem triển lãm máy tính ở đâu?"
+          },
+          {
+            "speaker": "如玉",
+            "chinese": "世貿展覽館，我現在要去對面坐公車。",
+            "simplified": "世贸展览馆，我现在要去对面坐公车。",
+            "pinyin": "shì mào zhǎn lǎn guǎn ， wǒ xiàn zài yào qù duì miàn zuò gōng chē 。",
+            "meaningVi": "Ở Trung tâm triển lãm Thương mại Thế giới. Giờ tôi định sang bên kia đường đón xe buýt."
+          },
+          {
+            "speaker": "安同",
+            "chinese": "那裡離台北101不遠，妳怎麼不坐捷運呢？",
+            "simplified": "那里离台北101不远，妳怎么不坐捷运呢？",
+            "pinyin": "nà lǐ lí tái běi 1 0 1 bù yuǎn ， nǐ zěn me bù zuò jié yùn ne ？",
+            "meaningVi": "Nơi đó không xa tháp Đài Bắc 101. Sao bạn không đi MRT?"
+          },
+          {
+            "speaker": "如玉",
+            "chinese": "朋友告訴我公車直接到展覽館，不必換車。",
+            "simplified": "朋友告诉我公车直接到展览馆，不必换车。",
+            "pinyin": "péng yǒu gào sù wǒ gōng chē zhí jiē dào zhǎn lǎn guǎn ， bù bì huàn chē 。",
+            "meaningVi": "Bạn tôi nói xe buýt đi thẳng đến nhà triển lãm, không phải chuyển xe."
+          },
+          {
+            "speaker": "安同",
+            "chinese": "坐捷運也很方便。妳先坐2號線到台北車站，再換車到展覽館。",
+            "simplified": "坐捷运也很方便。妳先坐2号线到台北车站，再换车到展览馆。",
+            "pinyin": "zuò jié yùn yě hěn fāng biàn 。 nǐ xiān zuò 2 hào xiàn dào tái běi chē zhàn ， zài huàn chē dào zhǎn lǎn guǎn 。",
+            "meaningVi": "Đi MRT cũng tiện. Bạn đi tuyến số 2 đến ga Đài Bắc, rồi chuyển xe đến nhà triển lãm."
+          },
+          {
+            "speaker": "如玉",
+            "chinese": "聽起來坐捷運比較麻煩。",
+            "simplified": "听起来坐捷运比较麻烦。",
+            "pinyin": "tīng qǐ lái zuò jié yùn bǐ jiào má fán 。",
+            "meaningVi": "Nghe có vẻ đi MRT phiền hơn."
+          },
+          {
+            "speaker": "安同",
+            "chinese": "一點也不麻煩，捷運比較快，坐公車要花一個多小時。你還是坐捷運吧！",
+            "simplified": "一点也不麻烦，捷运比较快，坐公车要花一个多小时。你还是坐捷运吧！",
+            "pinyin": "yī diǎn yě bù má fán ， jié yùn bǐ jiào kuài ， zuò gōng chē yào huā yī gè duō xiǎo shí 。 nǐ hái shì zuò jié yùn ba ！",
+            "meaningVi": "Không phiền chút nào. MRT nhanh hơn; đi xe buýt mất hơn một tiếng. Bạn đi MRT thì hơn!"
+          },
+          {
+            "speaker": "如玉",
+            "chinese": "捷運站遠嗎？",
+            "simplified": "捷运站远吗？",
+            "pinyin": "jié yùn zhàn yuǎn ma ？",
+            "meaningVi": "Ga MRT có xa không?"
+          },
+          {
+            "speaker": "安同",
+            "chinese": "捷運站就在前面。",
+            "simplified": "捷运站就在前面。",
+            "pinyin": "jié yùn zhàn jiù zài qián miàn 。",
+            "meaningVi": "Ga MRT ở ngay phía trước."
+          },
+          {
+            "speaker": "如玉",
+            "chinese": "謝謝！我得趕快走了。",
+            "simplified": "谢谢！我得赶快走了。",
+            "pinyin": "xiè xiè ！ wǒ děi gǎn kuài zǒu le 。",
+            "meaningVi": "Cảm ơn! Tôi phải đi nhanh đây."
+          },
+          {
+            "speaker": "安同",
+            "chinese": "別急，走慢一點。捷運的班次很多。",
+            "simplified": "别急，走慢一点。捷运的班次很多。",
+            "pinyin": "bié jí ， zǒu màn yī diǎn 。 jié yùn de bān cì hěn duō 。",
+            "meaningVi": "Đừng vội, đi chậm một chút. MRT có nhiều chuyến mà."
+          },
+          {
+            "speaker": "如玉",
+            "chinese": "好，我們下禮拜見。",
+            "simplified": "好，我们下礼拜见。",
+            "pinyin": "hǎo ， wǒ men xià lǐ bài jiàn 。",
+            "meaningVi": "Được, hẹn gặp tuần sau."
+          }
+        ]
+      },
+      {
+        "id": "cc2-v2-l02-reading",
+        "title": "Mỹ Mỹ đi lại ở Đài Loan",
+        "context": "Từ sân bay đến Đài Bắc, rồi dự định ra Lục Đảo.",
+        "audioTrackId": "cc2-textbook-l02-t03",
+        "turns": [
+          {
+            "speaker": "Bài đọc",
+            "chinese": "如玉的朋友美美從法國到台灣來玩兩個禮拜，她先從歐洲坐飛機到越南，再轉機到台灣。到了機場，美美直接坐巴士到台北。如玉告訴她，在市區坐捷運是最方便的，所以她下了巴士，就坐捷運到旅館去了。",
+            "simplified": "如玉的朋友美美从法国到台湾来玩两个礼拜，她先从欧洲坐飞机到越南，再转机到台湾。到了机场，美美直接坐巴士到台北。如玉告诉她，在市区坐捷运是最方便的，所以她下了巴士，就坐捷运到旅馆去了。",
+            "pinyin": "rú yù de péng yǒu měi měi cóng fǎ guó dào tái wān lái wán liǎng gè lǐ bài ， tā xiān cóng ōu zhōu zuò fēi jī dào yuè nán ， zài zhuǎn jī dào tái wān 。 dào le jī chǎng ， měi měi zhí jiē zuò bā shì dào tái běi 。 rú yù gào sù tā ， zài shì qū zuò jié yùn shì zuì fāng biàn de ， suǒ yǐ tā xià le bā shì ， jiù zuò jié yùn dào lǚ guǎn qù le 。",
+            "meaningVi": "Mỹ Mỹ, bạn của Như Ngọc, từ Pháp sang Đài Loan chơi hai tuần. Cô bay từ châu Âu đến Việt Nam, rồi nối chuyến đến Đài Loan. Tới sân bay, cô đi xe buýt thẳng đến Đài Bắc. Như Ngọc bảo rằng trong trung tâm thành phố, MRT tiện nhất; vì vậy Mỹ Mỹ xuống xe buýt và đi MRT đến khách sạn."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "美美覺得台北的交通非常便利，到處都有公車、計程車，還有捷運，去哪裡都很方便。台北捷運的路線不複雜，車票也不貴，買一張悠遊卡，誰都可以輕輕鬆鬆地去逛逛。",
+            "simplified": "美美觉得台北的交通非常便利，到处都有公车、计程车，还有捷运，去哪里都很方便。台北捷运的路线不复杂，车票也不贵，买一张悠游卡，谁都可以轻轻松松地去逛逛。",
+            "pinyin": "měi měi jué dé tái běi de jiāo tōng fēi cháng biàn lì ， dào chù dōu yǒu gōng chē 、 jì chéng chē ， hái yǒu jié yùn ， qù nǎ lǐ dōu hěn fāng biàn 。 tái běi jié yùn de lù xiàn bù fù zá ， chē piào yě bù guì ， mǎi yī zhāng yōu yóu kǎ ， shuí dōu kě yǐ qīng qīng sōng sōng de qù guàng guàng 。",
+            "meaningVi": "Mỹ Mỹ thấy giao thông Đài Bắc rất thuận tiện: xe buýt, taxi và MRT ở khắp nơi, đi đâu cũng dễ. Các tuyến MRT không phức tạp, vé cũng không đắt. Chỉ cần mua một thẻ EasyCard là ai cũng có thể đi đây đó thoải mái."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "美美住在法國東部，沒有什麼機會到海邊。聽說台灣附近的小島，風景都很美，所以她決定到綠島去看看。綠島在台灣的東南邊，到那裡不太方便。美美得先坐火車到台東，再搭船或是飛機到綠島。她打算第二個星期去綠島，好好地玩一玩。",
+            "simplified": "美美住在法国东部，没有什么机会到海边。听说台湾附近的小岛，风景都很美，所以她决定到绿岛去看看。绿岛在台湾的东南边，到那里不太方便。美美得先坐火车到台东，再搭船或是飞机到绿岛。她打算第二个星期去绿岛，好好地玩一玩。",
+            "pinyin": "měi měi zhù zài fǎ guó dōng bù ， méi yǒu shén me jī huì dào hǎi biān 。 tīng shuō tái wān fù jìn de xiǎo dǎo ， fēng jǐng dōu hěn měi ， suǒ yǐ tā jué dìng dào lǜ dǎo qù kàn kàn 。 lǜ dǎo zài tái wān de dōng nán biān ， dào nà lǐ bù tài fāng biàn 。 měi měi děi xiān zuò huǒ chē dào tái dōng ， zài dā chuán huò shì fēi jī dào lǜ dǎo 。 tā dǎ suàn dì èr gè xīng qī qù lǜ dǎo ， hǎo hǎo de wán yī wán 。",
+            "meaningVi": "Mỹ Mỹ sống ở miền đông nước Pháp nên ít có dịp ra biển. Nghe nói những đảo nhỏ gần Đài Loan có phong cảnh rất đẹp, cô quyết định đến Lục Đảo xem thử. Lục Đảo nằm về phía đông nam Đài Loan, đường đi không tiện lắm: cô phải đi tàu hỏa đến Đài Đông, rồi đi thuyền hoặc máy bay ra đảo. Cô định dành tuần thứ hai để đến đó chơi cho thỏa thích."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc2-v2-l02-check-01",
+        "prompt": "Vì sao Như Ngọc định đi xe buýt?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Vì xe buýt đến thẳng nhà triển lãm, không phải chuyển xe"
+          },
+          {
+            "id": "b",
+            "text": "Vì MRT ngừng chạy"
+          },
+          {
+            "id": "c",
+            "text": "Vì ga MRT quá xa"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Cô nói 公車直接到展覽館，不必換車.",
+        "skill": "Hội thoại"
+      },
+      {
+        "id": "cc2-v2-l02-check-02",
+        "prompt": "Mỹ Mỹ phải đi qua thành phố nào trước khi ra Lục Đảo?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Đài Bắc"
+          },
+          {
+            "id": "b",
+            "text": "Đài Đông"
+          },
+          {
+            "id": "c",
+            "text": "Đài Nam"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Bài đọc ghi 先坐火車到台東，再搭船或是飛機到綠島.",
+        "skill": "Bài đọc"
+      }
+    ],
+    "pronunciation": [],
+    "culture": [
+      {
+        "id": "cc2-v2-l02-culture-01",
+        "title": "Thẻ 悠遊卡",
+        "body": "Bài đọc nhắc đến 悠遊卡 khi Mỹ Mỹ đi lại bằng MRT ở Đài Bắc. Hãy nhận ra tên thẻ này khi đọc các tình huống giao thông."
+      }
+    ]
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để mở phiên âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc2-v2-l02-v001",
+      "cc2-v2-l02-v002",
+      "cc2-v2-l02-v003",
+      "cc2-v2-l02-v004",
+      "cc2-v2-l02-v005",
+      "cc2-v2-l02-v006",
+      "cc2-v2-l02-v007",
+      "cc2-v2-l02-v008",
+      "cc2-v2-l02-v009",
+      "cc2-v2-l02-v010",
+      "cc2-v2-l02-v011",
+      "cc2-v2-l02-v012",
+      "cc2-v2-l02-v013",
+      "cc2-v2-l02-v014",
+      "cc2-v2-l02-v015",
+      "cc2-v2-l02-v016",
+      "cc2-v2-l02-v017",
+      "cc2-v2-l02-v018",
+      "cc2-v2-l02-v019",
+      "cc2-v2-l02-v020",
+      "cc2-v2-l02-v021",
+      "cc2-v2-l02-v022",
+      "cc2-v2-l02-v023",
+      "cc2-v2-l02-v024",
+      "cc2-v2-l02-v025",
+      "cc2-v2-l02-v026",
+      "cc2-v2-l02-v027",
+      "cc2-v2-l02-v028",
+      "cc2-v2-l02-v029",
+      "cc2-v2-l02-v030",
+      "cc2-v2-l02-v031",
+      "cc2-v2-l02-v032",
+      "cc2-v2-l02-v033",
+      "cc2-v2-l02-v034",
+      "cc2-v2-l02-v035",
+      "cc2-v2-l02-v036",
+      "cc2-v2-l02-v037",
+      "cc2-v2-l02-v038",
+      "cc2-v2-l02-v039",
+      "cc2-v2-l02-v040",
+      "cc2-v2-l02-v041",
+      "cc2-v2-l02-v042",
+      "cc2-v2-l02-v043",
+      "cc2-v2-l02-v044",
+      "cc2-v2-l02-v045",
+      "cc2-v2-l02-v046"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc2-textbook-l02-t02",
+        "label": "Từ vựng hội thoại"
+      },
+      {
+        "id": "cc2-textbook-l02-t04",
+        "label": "Từ vựng bài đọc"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc2-v2-l02-grammar-01",
+      "title": "一點也不 / 沒 — hoàn toàn không",
+      "audioTrackId": "cc2-textbook-l02-t05",
+      "explanation": "Mẫu này nhấn mạnh mức phủ định bằng không, mạnh hơn 不 hoặc 沒 thông thường. Với tính từ, nói 一點也不 + tính từ. Với động từ và tân ngữ, đặt tân ngữ ngay sau 一點: 一點飯也沒吃. 也 có thể đổi thành 都. Không dùng mẫu này để nói mức độ dương tính. Trong câu kể quá khứ, 沒 nói việc không xảy ra; 不 thường nói chủ ý không làm.",
+      "structure": "Chủ ngữ + 一點 (+ tân ngữ) + 也/都 + 不/沒 + động từ/tính từ",
+      "examples": [
+        {
+          "chinese": "坐捷運一點也不麻煩。",
+          "simplified": "坐捷运一点也不麻烦。",
+          "pinyin": "zuò jié yùn yī diǎn yě bù má fán 。",
+          "meaningVi": "Đi MRT hoàn toàn không phiền."
+        },
+        {
+          "chinese": "他昨天一點飯也沒吃。",
+          "simplified": "他昨天一点饭也没吃。",
+          "pinyin": "tā zuó tiān yī diǎn fàn yě méi chī 。",
+          "meaningVi": "Hôm qua anh ấy không ăn chút cơm nào."
+        }
+      ],
+      "commonMistake": "Khi có tân ngữ, đừng để nó sau động từ: 一點飯也沒吃, không phải 一點也沒吃飯 trong mẫu này.",
+      "check": {
+        "id": "cc2-v2-l02-grammar-check-01",
+        "prompt": "Chọn câu đúng với mẫu ngữ pháp này.",
+        "options": [
+          {
+            "id": "a",
+            "text": "他昨天一點飯也沒吃。"
+          },
+          {
+            "id": "b",
+            "text": "他昨天一點也沒吃飯。"
+          },
+          {
+            "id": "c",
+            "text": "他昨天飯一點沒也吃。"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Tân ngữ 飯 phải đứng sau 一點, trước 也沒吃.",
+        "skill": "一點也不 / 沒 — hoàn toàn không"
+      }
+    },
+    {
+      "id": "cc2-v2-l02-grammar-02",
+      "title": "還是…吧 — gợi ý phương án tốt hơn",
+      "audioTrackId": "cc2-textbook-l02-t06",
+      "explanation": "Khi cân nhắc vài cách làm, 還是 giúp đưa ra lựa chọn hợp lý hơn trong hoàn cảnh ấy. Đặt 還是 trước hành động được đề nghị và 吧 ở cuối câu để lời khuyên nghe nhẹ nhàng. Khác với 還是 trong câu hỏi ‘A hay B?’, ở đây người nói đang khuyên chọn một phương án.",
+      "structure": "Chủ ngữ + 還是 + hành động + 吧",
+      "examples": [
+        {
+          "chinese": "坐公車太慢，我們還是坐捷運吧。",
+          "simplified": "坐公车太慢，我们还是坐捷运吧。",
+          "pinyin": "zuò gōng chē tài màn ， wǒ men hái shì zuò jié yùn ba 。",
+          "meaningVi": "Xe buýt chậm quá, chúng ta đi MRT thì hơn."
+        },
+        {
+          "chinese": "已經很晚了，還是明天再打電話吧。",
+          "simplified": "已经很晚了，还是明天再打电话吧。",
+          "pinyin": "yǐ jīng hěn wǎn le ， hái shì míng tiān zài dǎ diàn huà ba 。",
+          "meaningVi": "Muộn rồi, để mai gọi điện thì hơn."
+        }
+      ],
+      "commonMistake": "Đừng bỏ 吧 nếu muốn giữ sắc thái đề nghị nhẹ nhàng trong mẫu của bài.",
+      "check": {
+        "id": "cc2-v2-l02-grammar-check-02",
+        "prompt": "Chọn câu đúng với mẫu ngữ pháp này.",
+        "options": [
+          {
+            "id": "a",
+            "text": "下雨了，我們還是坐捷運吧。"
+          },
+          {
+            "id": "b",
+            "text": "下雨了，我們坐還是捷運吧。"
+          },
+          {
+            "id": "c",
+            "text": "下雨了，我們還是吧坐捷運。"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "還是 đứng trước hành động được khuyên; 吧 đặt cuối câu.",
+        "skill": "還是…吧 — gợi ý phương án tốt hơn"
+      }
+    },
+    {
+      "id": "cc2-v2-l02-grammar-03",
+      "title": "Động từ / tính từ + 一點 — điều chỉnh mức độ",
+      "audioTrackId": "cc2-textbook-l02-t07",
+      "explanation": "Đặt 一點 sau động từ hoặc tính từ để yêu cầu thay đổi một chút: 走慢一點, 說清楚一點. Mẫu này thường xuất hiện trong lời nhắc hoặc đề nghị. Nó khác với 一點也不 ở trên: ở đây 一點 nói mức độ thay đổi, không tạo phủ định.",
+      "structure": "Động từ + tính từ + 一點",
+      "examples": [
+        {
+          "chinese": "別急，走慢一點。",
+          "simplified": "别急，走慢一点。",
+          "pinyin": "bié jí ， zǒu màn yī diǎn 。",
+          "meaningVi": "Đừng vội, đi chậm một chút."
+        },
+        {
+          "chinese": "請你說清楚一點。",
+          "simplified": "请你说清楚一点。",
+          "pinyin": "qǐng nǐ shuō qīng chǔ yī diǎn 。",
+          "meaningVi": "Bạn nói rõ hơn một chút nhé."
+        }
+      ],
+      "commonMistake": "Không đưa 一點 lên trước cụm hành động nếu muốn diễn tả ‘hơn một chút’ trong mẫu này.",
+      "check": {
+        "id": "cc2-v2-l02-grammar-check-03",
+        "prompt": "Chọn câu đúng với mẫu ngữ pháp này.",
+        "options": [
+          {
+            "id": "a",
+            "text": "請你走慢一點。"
+          },
+          {
+            "id": "b",
+            "text": "請你一點走慢。"
+          },
+          {
+            "id": "c",
+            "text": "請你慢走一點地。"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "一點 theo sau phần nói về mức độ: 走慢一點.",
+        "skill": "Động từ / tính từ + 一點 — điều chỉnh mức độ"
+      }
+    },
+    {
+      "id": "cc2-v2-l02-grammar-04",
+      "title": "Tính từ hai âm tiết lặp AABB",
+      "audioTrackId": "cc2-textbook-l02-t08",
+      "explanation": "Một số tính từ hai âm tiết có thể lặp cả hai âm tiết: 輕鬆 → 輕輕鬆鬆, 開心 → 開開心心. Trước động từ, thêm 地: 輕輕鬆鬆地逛逛. Trước danh từ, dùng 的: 乾乾淨淨的房間. Đây là cách tả trạng thái sinh động hơn, không phải mọi tính từ đều lặp được; bài cho phép các từ như 輕鬆、漂亮、舒服、乾淨、開心、快樂、客氣. Đừng thêm 很 trước dạng đã lặp.",
+      "structure": "AB → AABB；AABB + 地 + động từ / AABB + 的 + danh từ",
+      "examples": [
+        {
+          "chinese": "有了悠遊卡，就可以輕輕鬆鬆地去逛逛。",
+          "simplified": "有了悠游卡，就可以轻轻松松地去逛逛。",
+          "pinyin": "yǒu le yōu yóu kǎ ， jiù kě yǐ qīng qīng sōng sōng de qù guàng guàng 。",
+          "meaningVi": "Có thẻ EasyCard thì có thể đi dạo thoải mái."
+        },
+        {
+          "chinese": "我想住在乾乾淨淨的房間。",
+          "simplified": "我想住在干干净净的房间。",
+          "pinyin": "wǒ xiǎng zhù zài qián qián jìng jìng de fáng jiān 。",
+          "meaningVi": "Tôi muốn ở trong một căn phòng sạch sẽ."
+        }
+      ],
+      "commonMistake": "Không nói 很輕輕鬆鬆: dạng AABB đã mang sắc thái nhấn mạnh.",
+      "check": {
+        "id": "cc2-v2-l02-grammar-check-04",
+        "prompt": "Chọn câu đúng với mẫu ngữ pháp này.",
+        "options": [
+          {
+            "id": "a",
+            "text": "他輕輕鬆鬆地走到車站。"
+          },
+          {
+            "id": "b",
+            "text": "他很輕輕鬆鬆地走到車站。"
+          },
+          {
+            "id": "c",
+            "text": "他輕鬆輕鬆地走到車站。"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "輕鬆 lặp thành 輕輕鬆鬆; trước động từ dùng 地.",
+        "skill": "Tính từ hai âm tiết lặp AABB"
+      }
+    },
+    {
+      "id": "cc2-v2-l02-grammar-05",
+      "title": "不太 + tính từ — phủ định nhẹ",
+      "audioTrackId": "cc2-textbook-l02-t09",
+      "explanation": "不太 nghĩa là ‘không… lắm’. Nó thường làm lời nhận xét mềm hơn so với 不: 不太方便 ‘không tiện lắm’. Trong ngữ cảnh khác, người nói cũng có thể dùng nó để trấn an: 不太冷 ‘không lạnh lắm’. Đặt 不太 ngay trước tính từ; đừng hiểu thành ‘hoàn toàn không’ như 一點也不.",
+      "structure": "Chủ ngữ + 不太 + tính từ",
+      "examples": [
+        {
+          "chinese": "到綠島不太方便。",
+          "simplified": "到绿岛不太方便。",
+          "pinyin": "dào lǜ dǎo bù tài fāng biàn 。",
+          "meaningVi": "Đến Lục Đảo không tiện lắm."
+        },
+        {
+          "chinese": "今天不太冷，不必穿那麼多。",
+          "simplified": "今天不太冷，不必穿那么多。",
+          "pinyin": "jīn tiān bù tài lěng ， bù bì chuān nà me duō 。",
+          "meaningVi": "Hôm nay không lạnh lắm, không cần mặc nhiều vậy."
+        }
+      ],
+      "commonMistake": "不太遠 là ‘không xa lắm’, nhẹ hơn 一點也不遠 ‘không xa chút nào’.",
+      "check": {
+        "id": "cc2-v2-l02-grammar-check-05",
+        "prompt": "Chọn câu đúng với mẫu ngữ pháp này.",
+        "options": [
+          {
+            "id": "a",
+            "text": "這條路不太複雜。"
+          },
+          {
+            "id": "b",
+            "text": "這條路太不複雜。"
+          },
+          {
+            "id": "c",
+            "text": "這條路不複雜太。"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "不太 đặt ngay trước tính từ 複雜.",
+        "skill": "不太 + tính từ — phủ định nhẹ"
+      }
+    },
+    {
+      "id": "cc2-v2-l02-grammar-06",
+      "title": "Phương hướng + 部 / 邊 — chỉ khu vực và phía",
+      "audioTrackId": "cc2-textbook-l02-t10",
+      "explanation": "部 chỉ một vùng của khu vực rộng: 台灣東部 là miền đông Đài Loan. 邊 chỉ phía tương đối với một mốc: 台灣的東南邊 là phía đông nam Đài Loan. Với vị trí trên bản đồ, hãy xác định rõ mốc trước khi chọn 部 hay 邊. Một số cách nói cố định không dùng cả hai, như 中部 ‘miền trung’.",
+      "structure": "Địa danh + phương hướng + 部 / địa danh + 的 + phương hướng + 邊",
+      "examples": [
+        {
+          "chinese": "台灣東部的風景很美。",
+          "simplified": "台湾东部的风景很美。",
+          "pinyin": "tái wān dōng bù de fēng jǐng hěn měi 。",
+          "meaningVi": "Phong cảnh miền đông Đài Loan rất đẹp."
+        },
+        {
+          "chinese": "綠島在台灣的東南邊。",
+          "simplified": "绿岛在台湾的东南边。",
+          "pinyin": "lǜ dǎo zài tái wān de dōng nán biān 。",
+          "meaningVi": "Lục Đảo nằm về phía đông nam Đài Loan."
+        }
+      ],
+      "commonMistake": "Không tự tạo 中邊 để nói ‘miền trung’; hãy dùng 中部.",
+      "check": {
+        "id": "cc2-v2-l02-grammar-check-06",
+        "prompt": "Chọn câu đúng với mẫu ngữ pháp này.",
+        "options": [
+          {
+            "id": "a",
+            "text": "綠島在台灣的東南邊。"
+          },
+          {
+            "id": "b",
+            "text": "綠島在台灣的中邊。"
+          },
+          {
+            "id": "c",
+            "text": "綠島在台灣的東南中。"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "東南邊 chỉ phía đông nam so với Đài Loan.",
+        "skill": "Phương hướng + 部 / 邊 — chỉ khu vực và phía"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc2-v2-l02-listening-01",
+      "prompt": "Nghe hội thoại. Như Ngọc muốn đến đâu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sân bay"
+        },
+        {
+          "id": "b",
+          "text": "Trung tâm triển lãm Thương mại Thế giới"
+        },
+        {
+          "id": "c",
+          "text": "Lục Đảo"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Cô nói 我要去看電腦展 ở 世貿展覽館.",
+      "skill": "Nghe ý chính",
+      "audioTrackId": "cc2-textbook-l02-t01"
+    },
+    {
+      "id": "cc2-v2-l02-listening-02",
+      "prompt": "Nghe hội thoại. Theo An Đồng, đi cách nào nhanh hơn?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đi MRT"
+        },
+        {
+          "id": "b",
+          "text": "Đi xe buýt"
+        },
+        {
+          "id": "c",
+          "text": "Đi bộ"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Anh ấy nói 捷運比較快.",
+      "skill": "Nghe so sánh",
+      "audioTrackId": "cc2-textbook-l02-t01"
+    },
+    {
+      "id": "cc2-v2-l02-listening-03",
+      "prompt": "Nghe bài đọc. Mỹ Mỹ làm gì sau khi xuống xe buýt ở Đài Bắc?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đi taxi"
+        },
+        {
+          "id": "b",
+          "text": "Đi tàu hỏa"
+        },
+        {
+          "id": "c",
+          "text": "Đi MRT đến khách sạn"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc nói 她下了巴士，就坐捷運到旅館去了.",
+      "skill": "Nghe trình tự",
+      "audioTrackId": "cc2-textbook-l02-t03"
+    },
+    {
+      "id": "cc2-v2-l02-listening-04",
+      "prompt": "Nghe bài đọc. Mỹ Mỹ định đến Lục Đảo vào lúc nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tuần thứ hai"
+        },
+        {
+          "id": "b",
+          "text": "Ngay ngày đầu tiên"
+        },
+        {
+          "id": "c",
+          "text": "Sau hai tháng"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Cô 打算第二個星期去綠島.",
+      "skill": "Nghe thời gian",
+      "audioTrackId": "cc2-textbook-l02-t03"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc2-v2-l02-practice-01",
+      "prompt": "Điền: 坐公車要換兩次車，我們＿＿坐捷運吧。",
+      "options": [
+        {
+          "id": "a",
+          "text": "直接"
+        },
+        {
+          "id": "b",
+          "text": "還是"
+        },
+        {
+          "id": "c",
+          "text": "不必"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "還是…吧 dùng để đề nghị phương án hợp lý hơn.",
+      "skill": "Gợi ý"
+    },
+    {
+      "id": "cc2-v2-l02-practice-02",
+      "prompt": "Câu nào diễn tả ‘không phiền chút nào’?",
+      "options": [
+        {
+          "id": "a",
+          "text": "不太麻煩"
+        },
+        {
+          "id": "b",
+          "text": "麻煩一點"
+        },
+        {
+          "id": "c",
+          "text": "一點也不麻煩"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "一點也不 nhấn mạnh phủ định hoàn toàn.",
+      "skill": "Phủ định"
+    },
+    {
+      "id": "cc2-v2-l02-practice-03",
+      "prompt": "Điền: 到台北車站以後要＿＿車。",
+      "options": [
+        {
+          "id": "a",
+          "text": "換"
+        },
+        {
+          "id": "b",
+          "text": "下"
+        },
+        {
+          "id": "c",
+          "text": "約"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "換車 là chuyển sang chuyến hoặc tuyến khác.",
+      "skill": "Đi lại"
+    },
+    {
+      "id": "cc2-v2-l02-practice-04",
+      "prompt": "Muốn nhắc bạn đi chậm hơn một chút, nói thế nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "走一點慢。"
+        },
+        {
+          "id": "b",
+          "text": "走慢一點。"
+        },
+        {
+          "id": "c",
+          "text": "一點走慢。"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "一點 đặt sau 走慢 để điều chỉnh mức độ.",
+      "skill": "Lời nhắc"
+    },
+    {
+      "id": "cc2-v2-l02-practice-05",
+      "prompt": "Điền: 台北捷運的路線＿＿複雜。",
+      "options": [
+        {
+          "id": "a",
+          "text": "太不"
+        },
+        {
+          "id": "b",
+          "text": "不複"
+        },
+        {
+          "id": "c",
+          "text": "不太"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "不太 + tính từ diễn tả ‘không… lắm’.",
+      "skill": "Nhận xét"
+    },
+    {
+      "id": "cc2-v2-l02-practice-06",
+      "prompt": "Chọn cách nói ‘đi dạo thoải mái’.",
+      "options": [
+        {
+          "id": "a",
+          "text": "輕輕鬆鬆地去逛逛"
+        },
+        {
+          "id": "b",
+          "text": "很輕輕鬆鬆去逛逛"
+        },
+        {
+          "id": "c",
+          "text": "輕鬆輕鬆的去逛逛"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "輕鬆 lặp AABB; 地 nối trạng thái với hành động.",
+      "skill": "Lặp tính từ"
+    },
+    {
+      "id": "cc2-v2-l02-practice-07",
+      "prompt": "Bài đọc cho biết Mỹ Mỹ chuyển máy bay ở đâu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đài Đông"
+        },
+        {
+          "id": "b",
+          "text": "Việt Nam"
+        },
+        {
+          "id": "c",
+          "text": "Đài Bắc"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Cô 從歐洲坐飛機到越南，再轉機到台灣.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc2-v2-l02-practice-08",
+      "prompt": "Lục Đảo nằm về phía nào của Đài Loan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Phía tây bắc"
+        },
+        {
+          "id": "b",
+          "text": "Miền trung"
+        },
+        {
+          "id": "c",
+          "text": "Phía đông nam"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc nói 綠島在台灣的東南邊.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc2-v2-l02-assessment-01",
+      "prompt": "‘Không cần chuyển xe’ là…",
+      "options": [
+        {
+          "id": "a",
+          "text": "不必換車"
+        },
+        {
+          "id": "b",
+          "text": "直接換車"
+        },
+        {
+          "id": "c",
+          "text": "趕快換車"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "不必 nghĩa là không cần, 換車 là chuyển xe.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc2-v2-l02-assessment-02",
+      "prompt": "Điền: 坐公車比較慢，我們＿＿坐捷運吧。",
+      "options": [
+        {
+          "id": "a",
+          "text": "一點"
+        },
+        {
+          "id": "b",
+          "text": "還是"
+        },
+        {
+          "id": "c",
+          "text": "到處"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "還是…吧 gợi ý lựa chọn tốt hơn.",
+      "skill": "Gợi ý"
+    },
+    {
+      "id": "cc2-v2-l02-assessment-03",
+      "prompt": "Câu nào có nghĩa ‘tuyến MRT không phức tạp lắm’?",
+      "options": [
+        {
+          "id": "a",
+          "text": "捷運路線一點也不便宜。"
+        },
+        {
+          "id": "b",
+          "text": "捷運路線比較麻煩。"
+        },
+        {
+          "id": "c",
+          "text": "捷運路線不太複雜。"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "不太複雜 diễn tả không phức tạp lắm.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l02-assessment-04",
+      "prompt": "An Đồng bảo Như Ngọc bắt đầu đi tuyến nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tuyến số 2"
+        },
+        {
+          "id": "b",
+          "text": "Tuyến số 5"
+        },
+        {
+          "id": "c",
+          "text": "Xe buýt sân bay"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Trong hội thoại: 妳先坐2號線到台北車站.",
+      "skill": "Hội thoại"
+    },
+    {
+      "id": "cc2-v2-l02-assessment-05",
+      "prompt": "Điền: 請你說清楚＿＿。",
+      "options": [
+        {
+          "id": "a",
+          "text": "地"
+        },
+        {
+          "id": "b",
+          "text": "一點"
+        },
+        {
+          "id": "c",
+          "text": "也不"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "一點 sau tính từ 清楚 làm lời đề nghị ‘rõ hơn một chút’.",
+      "skill": "Lời nhắc"
+    },
+    {
+      "id": "cc2-v2-l02-assessment-06",
+      "prompt": "Từ nào là dạng lặp đúng của 輕鬆?",
+      "options": [
+        {
+          "id": "a",
+          "text": "輕鬆輕鬆"
+        },
+        {
+          "id": "b",
+          "text": "輕輕鬆"
+        },
+        {
+          "id": "c",
+          "text": "輕輕鬆鬆"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Tính từ hai âm tiết lặp theo mẫu AABB.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l02-assessment-07",
+      "prompt": "Mỹ Mỹ dùng gì để đi MRT thuận tiện?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thẻ EasyCard"
+        },
+        {
+          "id": "b",
+          "text": "Vé tàu hỏa"
+        },
+        {
+          "id": "c",
+          "text": "Vé máy bay"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Đoạn đọc nhắc đến 買一張悠遊卡.",
+      "skill": "Bài đọc"
+    },
+    {
+      "id": "cc2-v2-l02-assessment-08",
+      "prompt": "Điền: 綠島在台灣的東南＿＿。",
+      "options": [
+        {
+          "id": "a",
+          "text": "部"
+        },
+        {
+          "id": "b",
+          "text": "邊"
+        },
+        {
+          "id": "c",
+          "text": "站"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Đối với vị trí so với Đài Loan, dùng 東南邊.",
+      "skill": "Vị trí"
+    },
+    {
+      "id": "cc2-v2-l02-assessment-09",
+      "prompt": "Theo bài đọc, cách nào đi từ Đài Đông đến Lục Đảo?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ đi xe buýt"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ đi MRT"
+        },
+        {
+          "id": "c",
+          "text": "Đi thuyền hoặc máy bay"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc nói 再搭船或是飛機到綠島.",
+      "skill": "Bài đọc"
+    },
+    {
+      "id": "cc2-v2-l02-assessment-10",
+      "prompt": "Câu nào nói ‘hoàn toàn không đắt’?",
+      "options": [
+        {
+          "id": "a",
+          "text": "一點也不貴。"
+        },
+        {
+          "id": "b",
+          "text": "不太貴一點。"
+        },
+        {
+          "id": "c",
+          "text": "貴一點也不。"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "一點也不 + tính từ phủ định mạnh.",
+      "skill": "Phủ định"
+    }
+  ],
+  "writingTask": {
+    "id": "cc2-v2-l02-writing",
+    "title": "Chọn cách đi",
+    "prompt": "Viết 2–3 câu tiếng Hoa: từ nơi bạn ở đến một địa điểm bạn muốn đến, bạn sẽ đi bằng gì? Nêu một lý do và một lời khuyên bằng 還是…吧.",
+    "sampleTraditional": "坐公車要花一個多小時，捷運比較快。我們還是坐捷運吧！",
+    "sampleSimplified": "坐公交车要花一个多小时，捷运比较快。我们还是坐捷运吧！"
+  }
+}

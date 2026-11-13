@@ -1,7 +1,8 @@
-"""Build reviewed Volume 2 Lesson 01 vocabulary records from the edited TSV."""
+"""Build reviewed Volume 2 lesson vocabulary records from the edited TSV."""
 
 from __future__ import annotations
 
+import argparse
 import csv
 import json
 from pathlib import Path
@@ -10,22 +11,26 @@ from opencc import OpenCC
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / "data/academy/cc2-lesson01-vocabulary.tsv"
-TARGET = ROOT / "data/academy/cc2-lesson01-vocabulary.json"
+EXPECTED_COUNTS = {1: 44, 2: 46}
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--lesson", type=int, choices=EXPECTED_COUNTS, default=1)
+    lesson = parser.parse_args().lesson
+    source = ROOT / f"data/academy/cc2-lesson{lesson:02d}-vocabulary.tsv"
+    target = ROOT / f"data/academy/cc2-lesson{lesson:02d}-vocabulary.json"
     convert = OpenCC("tw2s")
-    with SOURCE.open(newline="") as stream:
+    with source.open(newline="") as stream:
         rows = list(csv.DictReader(stream, delimiter="\t"))
-    if len(rows) != 44 or len({row["traditional"] for row in rows}) != len(rows):
-        raise ValueError("Lesson 01 must contain 44 distinct source vocabulary entries")
+    if len(rows) != EXPECTED_COUNTS[lesson] or len({row["traditional"] for row in rows}) != len(rows):
+        raise ValueError(f"Lesson {lesson:02d} must contain {EXPECTED_COUNTS[lesson]} distinct source vocabulary entries")
     result = []
     for number, row in enumerate(rows, 1):
         if not all(row.values()):
             raise ValueError(f"Missing vocabulary field at row {number}")
         result.append({
-            "id": f"cc2-v2-l01-v{number:03d}",
+            "id": f"cc2-v2-l{lesson:02d}-v{number:03d}",
             "traditional": row["traditional"],
             "simplified": convert.convert(row["traditional"]),
             "pinyin": row["pinyin"],
@@ -35,7 +40,7 @@ def main() -> None:
             "exampleSimplified": convert.convert(row["exampleTraditional"]),
             "exampleVi": row["exampleVi"],
         })
-    TARGET.write_text(json.dumps({"lessonId": "cc2-v2-l01", "records": result}, ensure_ascii=False, indent=2) + "\n")
+    target.write_text(json.dumps({"lessonId": f"cc2-v2-l{lesson:02d}", "records": result}, ensure_ascii=False, indent=2) + "\n")
     print(f"Built {len(result)} vocabulary records")
 
 

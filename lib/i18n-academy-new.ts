@@ -2,6 +2,8 @@ import type { UiLocale } from "./i18n";
 
 export const academyNewMessages: Record<Exclude<UiLocale, "vi">, Record<string, string>> = {
   en: {
+    "Bài 01–07 đã mở: học từ hội thoại đời thường đến công việc, chuyển nhà và nếp sống Đài Loan.": "Lessons 01–07 are open: everyday conversations, work, moving home, and life in Taiwan.",
+    "Bài 01–07 đã sẵn sàng. Các bài tiếp theo sẽ xuất hiện sau khi được hoàn thiện.": "Lessons 01–07 are ready. More lessons will open as they are completed.",
     "Bài 01–06 đã mở: học từ hội thoại đời thường đến công việc, lễ cưới và chuyển nhà.": "Lessons 01–06 are open: everyday conversations, work, weddings, and moving home.",
     "Bài 01–06 đã sẵn sàng. Các bài tiếp theo sẽ xuất hiện sau khi được hoàn thiện.": "Lessons 01–06 are ready. More lessons will open as they are completed.",
     "Bài 01–05 đã mở: học từ hội thoại đời thường đến công việc và lễ cưới.": "Lessons 01–05 are open, from everyday conversations to work and weddings.",
@@ -36,6 +38,8 @@ export const academyNewMessages: Record<Exclude<UiLocale, "vi">, Record<string, 
     "Chọn bản ghi âm đã được đối chiếu với nội dung trong sách. Bạn có thể nghe lại và ghi chú theo nhịp học của mình.": "Choose a recording matched to this lesson. Replay it and take notes at your own pace.",
   },
   "zh-CN": {
+    "Bài 01–07 đã mở: học từ hội thoại đời thường đến công việc, chuyển nhà và nếp sống Đài Loan.": "第 01–07 课已开放：日常对话、工作、搬家和台湾生活。",
+    "Bài 01–07 đã sẵn sàng. Các bài tiếp theo sẽ xuất hiện sau khi được hoàn thiện.": "第 01–07 课已开放。其他课程完成后会陆续上线。",
     "Bài 01–06 đã mở: học từ hội thoại đời thường đến công việc, lễ cưới và chuyển nhà.": "第 01–06 课已开放：日常对话、工作、婚礼与搬家。",
     "Bài 01–06 đã sẵn sàng. Các bài tiếp theo sẽ xuất hiện sau khi được hoàn thiện.": "第 01–06 课已开放。其他课程完成后会陆续上线。",
     "Bài 01–05 đã mở: học từ hội thoại đời thường đến công việc và lễ cưới.": "第 01–05 课已开放：从日常对话学到工作与婚礼。",
@@ -65,6 +69,8 @@ export const academyNewMessages: Record<Exclude<UiLocale, "vi">, Record<string, 
     "Chọn bản ghi âm đã được đối chiếu với nội dung trong sách. Bạn có thể nghe lại và ghi chú theo nhịp học của mình.": "选择已经和教材内容核对的录音。你可以重听，并按自己的节奏做笔记。",
   },
   "zh-TW": {
+    "Bài 01–07 đã mở: học từ hội thoại đời thường đến công việc, chuyển nhà và nếp sống Đài Loan.": "第 01–07 課已開放：日常對話、工作、搬家和臺灣生活。",
+    "Bài 01–07 đã sẵn sàng. Các bài tiếp theo sẽ xuất hiện sau khi được hoàn thiện.": "第 01–07 課已開放。其他課程完成後會陸續上線。",
     "Bài 01–06 đã mở: học từ hội thoại đời thường đến công việc, lễ cưới và chuyển nhà.": "第 01–06 課已開放：日常對話、工作、婚禮與搬家。",
     "Bài 01–06 đã sẵn sàng. Các bài tiếp theo sẽ xuất hiện sau khi được hoàn thiện.": "第 01–06 課已開放。其他課程完成後會陸續上線。",
     "Bài 01–05 đã mở: học từ hội thoại đời thường đến công việc và lễ cưới.": "第 01–05 課已開放：從日常對話學到工作與婚禮。",

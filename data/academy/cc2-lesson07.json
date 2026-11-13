@@ -1,0 +1,993 @@
+{
+  "contentVersion": 2,
+  "id": "cc2-v2-l07",
+  "title": "垃圾車來了！",
+  "titleVi": "Xe rác đến rồi!",
+  "description": "Học cách nói về đổ rác, tái chế và mô tả hướng di chuyển.",
+  "objectives": [
+    "Hiểu giờ và nơi thu gom rác trong tình huống đời sống Đài Loan.",
+    "Nói đồ vật được mang đến đâu bằng bổ ngữ chỉ hướng.",
+    "Nêu mục đích và miêu tả người, vật ở một nơi."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Đông Kiện định mang rác xuống lầu nhưng hôm đó xe không thu gom. Qua câu chuyện, bạn sẽ học cách nói về giờ đổ rác và phân loại rác.",
+    "sections": [
+      {
+        "id": "cc2-v2-l07-section-01",
+        "title": "Đổ rác ở Đài Bắc",
+        "body": "Xe rác đến đúng giờ; người dân mang rác ra điểm thu gom và phân loại đồ tái chế.",
+        "chinese": "每個星期三和星期天是不收的。",
+        "simplified": "每个星期三和星期天是不收的。",
+        "pinyin": "měi gè xīng qī sān hé xīng qī tiān shì bù shōu de 。",
+        "meaningVi": "Thứ Tư và Chủ nhật hằng tuần không thu gom rác."
+      },
+      {
+        "id": "cc2-v2-l07-section-02",
+        "title": "Nói về hướng di chuyển",
+        "body": "來 và 去 cho biết chuyển động hướng về hay rời xa điểm nhìn của người nói.",
+        "chinese": "你拿回家去，明天再倒吧！",
+        "simplified": "你拿回家去，明天再倒吧！",
+        "pinyin": "nǐ ná huí jiā qù ， míng tiān zài dào ba ！",
+        "meaningVi": "Cháu mang về nhà, mai hãy đổ nhé!"
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc2-v2-l07-dialogue",
+        "title": "Xe rác đến rồi!",
+        "context": "Đông Kiện hỏi cô Trần về lịch thu gom rác.",
+        "audioTrackId": "cc2-textbook-l07-t01",
+        "turns": [
+          {
+            "speaker": "陳太太",
+            "chinese": "東健，要出去啊？",
+            "simplified": "东健，要出去啊？",
+            "pinyin": "dōng jiàn ， yào chū qù a ？",
+            "meaningVi": "Đông Kiện, cháu định ra ngoài à?"
+          },
+          {
+            "speaker": "東健",
+            "chinese": "是啊！垃圾車快來了，我得趕快下樓去倒垃圾。",
+            "simplified": "是啊！垃圾车快来了，我得赶快下楼去倒垃圾。",
+            "pinyin": "shì a ！ lā jī chē kuài lái le ， wǒ dé gǎn kuài xià lóu qù dào lā jī 。",
+            "meaningVi": "Vâng! Xe rác sắp đến rồi, cháu phải nhanh xuống lầu đổ rác."
+          },
+          {
+            "speaker": "陳太太",
+            "chinese": "丟垃圾？今天是星期三，不收垃圾啊！",
+            "simplified": "丢垃圾？今天是星期三，不收垃圾啊！",
+            "pinyin": "diū lā jī ？ jīn tiān shì xīng qī sān ， bù shōu lā jī a ！",
+            "meaningVi": "Đổ rác ư? Hôm nay thứ Tư, không thu gom rác đâu!"
+          },
+          {
+            "speaker": "東健",
+            "chinese": "真的嗎？我以為天天都收。",
+            "simplified": "真的吗？我以为天天都收。",
+            "pinyin": "zhēn de ma ？ wǒ yǐ wèi tiān tiān dōu shōu 。",
+            "meaningVi": "Thật ạ? Cháu cứ tưởng ngày nào cũng thu gom."
+          },
+          {
+            "speaker": "陳太太",
+            "chinese": "不是，每個星期三和星期天是不收的。",
+            "simplified": "不是，每个星期三和星期天是不收的。",
+            "pinyin": "bú shì ， měi gè xīng qī sān hé xīng qī tiān shì bù shōu de 。",
+            "meaningVi": "Không, thứ Tư và Chủ nhật hằng tuần không thu gom."
+          },
+          {
+            "speaker": "東健",
+            "chinese": "那麼，我這些汽水罐和紙杯也不能拿出去回收了嗎？",
+            "simplified": "那么，我这些汽水罐和纸杯也不能拿出去回收了吗？",
+            "pinyin": "nà me ， wǒ zhè xiē qì shuǐ guàn hé zhǐ bēi yě bù néng ná chū qù huí shōu le ma ？",
+            "meaningVi": "Vậy những lon nước ngọt và ly giấy này cháu cũng không mang ra để tái chế được sao?"
+          },
+          {
+            "speaker": "陳太太",
+            "chinese": "是啊！",
+            "simplified": "是啊！",
+            "pinyin": "shì a ！",
+            "meaningVi": "Đúng vậy!"
+          },
+          {
+            "speaker": "東健",
+            "chinese": "為什麼在台北倒垃圾這麼麻煩？",
+            "simplified": "为什么在台北倒垃圾这么麻烦？",
+            "pinyin": "wèi shén me zài tái běi dào lā jī zhè me má fán ？",
+            "meaningVi": "Sao đổ rác ở Đài Bắc phiền thế ạ?"
+          },
+          {
+            "speaker": "陳太太",
+            "chinese": "剛開始的時候，台北人也覺得這個規定很麻煩，現在大家都習慣了。",
+            "simplified": "刚开始的时候，台北人也觉得这个规定很麻烦，现在大家都习惯了。",
+            "pinyin": "gāng kāi shǐ de shí hòu ， tái běi rén yě jué dé zhè gè guī dìng hěn má fán ， xiàn zài dà jiā dōu xí guàn le 。",
+            "meaningVi": "Lúc đầu người Đài Bắc cũng thấy quy định này phiền, giờ ai cũng quen rồi."
+          },
+          {
+            "speaker": "東健",
+            "chinese": "更麻煩的是，我一定要在晚上九點把垃圾拿出去，要不然就不能倒了。",
+            "simplified": "更麻烦的是，我一定要在晚上九点把垃圾拿出去，要不然就不能倒了。",
+            "pinyin": "gèng má fán de shì ， wǒ yí dìng yào zài wǎn shàng jiǔ diǎn bǎ lā jī ná chū qù ， yào bù rán jiù bù néng dào le 。",
+            "meaningVi": "Phiền hơn là cháu phải mang rác ra lúc chín giờ tối; nếu không thì không đổ được nữa."
+          },
+          {
+            "speaker": "陳太太",
+            "chinese": "你說的對，有一次，我一回來，垃圾車就來了。我馬上放下皮包，跑出去倒垃圾。",
+            "simplified": "你说的对，有一次，我一回来，垃圾车就来了。我马上放下皮包，跑出去倒垃圾。",
+            "pinyin": "nǐ shuō de duì ， yǒu yī cì ， wǒ yī huí lái ， lā jī chē jiù lái le 。 wǒ mǎ shàng fàng xià pí bāo ， pǎo chū qù dào lā jī 。",
+            "meaningVi": "Cháu nói đúng. Có lần cô vừa về thì xe rác đến. Cô đặt túi xuống ngay rồi chạy ra đổ rác."
+          },
+          {
+            "speaker": "東健",
+            "chinese": "對啊！我常常看到有人追垃圾車。",
+            "simplified": "对啊！我常常看到有人追垃圾车。",
+            "pinyin": "duì a ！ wǒ cháng cháng kàn dào yǒu rén zhuī lā jī chē 。",
+            "meaningVi": "Đúng ạ! Cháu thường thấy có người chạy đuổi theo xe rác."
+          },
+          {
+            "speaker": "陳太太",
+            "chinese": "晚上，這麼多人從家裡拿著垃圾走出來，一起站著等垃圾車，你不覺得很有趣嗎？",
+            "simplified": "晚上，这么多人从家里拿着垃圾走出来，一起站着等垃圾车，你不觉得很有趣吗？",
+            "pinyin": "wǎn shàng ， zhè me duō rén cóng jiā lǐ ná zhù lā jī zǒu chū lái ， yì qǐ zhàn zhù děng lā jī chē ， nǐ bù jué dé hěn yǒu qù ma ？",
+            "meaningVi": "Buổi tối, nhiều người cầm rác ra khỏi nhà rồi đứng chờ xe cùng nhau, cháu không thấy thú vị sao?"
+          },
+          {
+            "speaker": "東健",
+            "chinese": "大家常一邊聊天，一邊等，看起來真的很有意思。",
+            "simplified": "大家常一边聊天，一边等，看起来真的很有意思。",
+            "pinyin": "dà jiā cháng yī biān liáo tiān ， yī biān děng ， kàn qǐ lái zhēn de hěn yǒu yì si 。",
+            "meaningVi": "Mọi người vừa trò chuyện vừa chờ; trông đúng là khá vui."
+          },
+          {
+            "speaker": "陳太太",
+            "chinese": "雖然倒垃圾有點麻煩，但是好像也不壞。",
+            "simplified": "虽然倒垃圾有点麻烦，但是好像也不坏。",
+            "pinyin": "suī rán dào lā jī yǒu diǎn má fán ， dàn shì hǎo xiàng yě bù huài 。",
+            "meaningVi": "Đổ rác tuy hơi phiền, nhưng xem ra cũng không tệ."
+          },
+          {
+            "speaker": "東健",
+            "chinese": "那麼，我這包垃圾怎麼辦？",
+            "simplified": "那么，我这包垃圾怎么办？",
+            "pinyin": "nà me ， wǒ zhè bāo lā jī zěn me bàn ？",
+            "meaningVi": "Vậy túi rác này của cháu phải làm sao?"
+          },
+          {
+            "speaker": "陳太太",
+            "chinese": "你拿回家去，明天再倒吧！",
+            "simplified": "你拿回家去，明天再倒吧！",
+            "pinyin": "nǐ ná huí jiā qù ， míng tiān zài dào ba ！",
+            "meaningVi": "Cháu mang về nhà, mai hãy đổ nhé!"
+          }
+        ]
+      },
+      {
+        "id": "cc2-v2-l07-reading",
+        "title": "Xe rác ở Đài Bắc",
+        "context": "Mã An Đồng lần đầu thấy cách đổ rác ở Đài Bắc.",
+        "audioTrackId": "cc2-textbook-l07-t03",
+        "turns": [
+          {
+            "speaker": "Bài đọc",
+            "chinese": "馬安同到台灣的第二天，晚上在房間上網，跟父母聊台灣的情形，他忽然聽見外面有音樂的聲音，可是不知道音樂是從哪裡來的，覺得有一點奇怪，所以從窗戶往外看。他看見很多人拿著袋子往路口走，路口已經站了很多人，才知道是垃圾車的音樂。那輛垃圾車一開過來，大家就走過去把手裡的垃圾丟進去。",
+            "simplified": "马安同到台湾的第二天，晚上在房间上网，跟父母聊台湾的情形，他忽然听见外面有音乐的声音，可是不知道音乐是从哪里来的，觉得有一点奇怪，所以从窗户往外看。他看见很多人拿着袋子往路口走，路口已经站了很多人，才知道是垃圾车的音乐。那辆垃圾车一开过来，大家就走过去把手里的垃圾丢进去。",
+            "pinyin": "mǎ ān tóng dào tái wān de dì èr tiān ， wǎn shàng zài fáng jiān shàng wǎng ， gēn fù mǔ liáo tái wān de qíng xíng ， tā hū rán tīng jiàn wài miàn yǒu yīn lè de shēng yīn ， kě shì bù zhī dào yīn lè shì cóng nǎ lǐ lái de ， jué dé yǒu yī diǎn qí guài ， suǒ yǐ cóng chuāng hù wǎng wài kàn 。 tā kàn jiàn hěn duō rén ná zhù dài zi wǎng lù kǒu zǒu ， lù kǒu yǐ jīng zhàn le hěn duō rén ， cái zhī dào shì lā jī chē de yīn lè 。 nà liàng lā jī chē yī kāi guò lái ， dà jiā jiù zǒu guò qù bǎ shǒu lǐ de lā jī diū jìn qù 。",
+            "meaningVi": "Tối ngày thứ hai ở Đài Loan, Mã An Đồng lên mạng trong phòng, trò chuyện với bố mẹ về cuộc sống ở đây. Anh bất chợt nghe tiếng nhạc bên ngoài, thấy lạ nên nhìn qua cửa sổ. Nhiều người cầm túi đi về phía ngã tư; ở đó đã có rất đông người đứng chờ. Lúc ấy anh mới biết đó là nhạc của xe rác. Xe vừa tới, mọi người liền đi đến bỏ rác vào xe."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "外國人剛到台北，不知道哪裡可以丟垃圾，也不知道什麼時候可以丟垃圾，馬安同問了台灣人才知道，台北的垃圾車只在一定的時間、一定的地點收垃圾。雖然有點麻煩，但是路上沒有垃圾，對台北的環境比較好。",
+            "simplified": "外国人刚到台北，不知道哪里可以丢垃圾，也不知道什么时候可以丢垃圾，马安同问了台湾人才知道，台北的垃圾车只在一定的时间、一定的地点收垃圾。虽然有点麻烦，但是路上没有垃圾，对台北的环境比较好。",
+            "pinyin": "wài guó rén gāng dào tái běi ， bù zhī dào nǎ lǐ kě yǐ diū lā jī ， yě bù zhī dào shén me shí hòu kě yǐ diū lā jī ， mǎ ān tóng wèn le tái wān rén cái zhī dào ， tái běi de lā jī chē zhǐ zài yí dìng de shí jiān 、 yí dìng de dì diǎn shōu lā jī 。 suī rán yǒu diǎn má fán ， dàn shì lù shàng méi yǒu lā jī ， duì tái běi de huán jìng bǐ jiào hǎo 。",
+            "meaningVi": "Người mới đến Đài Bắc thường không biết đổ rác ở đâu, vào lúc nào. Mã An Đồng hỏi người Đài Loan mới biết xe rác chỉ thu gom vào thời gian và địa điểm cố định. Tuy hơi bất tiện, cách này giúp đường phố không có rác và tốt hơn cho môi trường Đài Bắc."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "為了保護環境，大家都應該做垃圾分類，那些可以再利用的紙、瓶子、塑膠杯都要回收，丟進資源回收桶裡。現在大家都知道，一個乾乾淨淨的城市也是一個進步的城市。",
+            "simplified": "为了保护环境，大家都应该做垃圾分类，那些可以再利用的纸、瓶子、塑胶杯都要回收，丢进资源回收桶里。现在大家都知道，一个干干净净的城市也是一个进步的城市。",
+            "pinyin": "wèi le bǎo hù huán jìng ， dà jiā dōu yīng gāi zuò lā jī fēn lèi ， nà xiē kě yǐ zài lì yòng de zhǐ 、 píng zi 、 sù jiāo bēi dōu yào huí shōu ， diū jìn zī yuán huí shōu tǒng lǐ 。 xiàn zài dà jiā dōu zhī dào ， yī gè qián qián jìng jìng de chéng shì yě shì yī gè jìn bù de chéng shì 。",
+            "meaningVi": "Để bảo vệ môi trường, mọi người nên phân loại rác. Giấy, chai và ly nhựa có thể dùng lại cần được tái chế và bỏ vào thùng thu gom. Ngày nay ai cũng hiểu rằng một thành phố sạch sẽ cũng là một thành phố tiến bộ."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc2-v2-l07-check-01",
+        "prompt": "Thứ Tư ở đây có thu gom rác không?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Có"
+          },
+          {
+            "id": "b",
+            "text": "Chỉ thu gom giấy"
+          },
+          {
+            "id": "c",
+            "text": "Không"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Hội thoại nói 星期三不收垃圾.",
+        "skill": "Hội thoại"
+      },
+      {
+        "id": "cc2-v2-l07-check-02",
+        "prompt": "Vì sao Mã An Đồng nhìn qua cửa sổ?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Nghe tiếng nhạc bên ngoài và thấy lạ"
+          },
+          {
+            "id": "b",
+            "text": "Đợi người thân đến"
+          },
+          {
+            "id": "c",
+            "text": "Tìm xe buýt"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Bài đọc nói anh nghe nhạc, cảm thấy kỳ lạ nên nhìn ra ngoài.",
+        "skill": "Bài đọc"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem phiên âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc2-v2-l07-v001",
+      "cc2-v2-l07-v002",
+      "cc2-v2-l07-v003",
+      "cc2-v2-l07-v004",
+      "cc2-v2-l07-v005",
+      "cc2-v2-l07-v006",
+      "cc2-v2-l07-v007",
+      "cc2-v2-l07-v008",
+      "cc2-v2-l07-v009",
+      "cc2-v2-l07-v010",
+      "cc2-v2-l07-v011",
+      "cc2-v2-l07-v012",
+      "cc2-v2-l07-v013",
+      "cc2-v2-l07-v014",
+      "cc2-v2-l07-v015",
+      "cc2-v2-l07-v016",
+      "cc2-v2-l07-v017",
+      "cc2-v2-l07-v018",
+      "cc2-v2-l07-v019",
+      "cc2-v2-l07-v020",
+      "cc2-v2-l07-v021",
+      "cc2-v2-l07-v022",
+      "cc2-v2-l07-v023",
+      "cc2-v2-l07-v024",
+      "cc2-v2-l07-v025",
+      "cc2-v2-l07-v026",
+      "cc2-v2-l07-v027",
+      "cc2-v2-l07-v028",
+      "cc2-v2-l07-v029",
+      "cc2-v2-l07-v030",
+      "cc2-v2-l07-v031",
+      "cc2-v2-l07-v032",
+      "cc2-v2-l07-v033",
+      "cc2-v2-l07-v034",
+      "cc2-v2-l07-v035",
+      "cc2-v2-l07-v036",
+      "cc2-v2-l07-v037",
+      "cc2-v2-l07-v038",
+      "cc2-v2-l07-v039",
+      "cc2-v2-l07-v040",
+      "cc2-v2-l07-v041",
+      "cc2-v2-l07-v042"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc2-textbook-l07-t02",
+        "label": "Từ vựng hội thoại"
+      },
+      {
+        "id": "cc2-textbook-l07-t04",
+        "label": "Từ vựng bài đọc"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc2-v2-l07-grammar-01",
+      "title": "V + 來 / 去 — hướng di chuyển",
+      "audioTrackId": "cc2-textbook-l07-t05",
+      "explanation": "Đặt 來 khi chuyển động hướng về điểm nhìn của người nói và 去 khi đi xa điểm đó. Giữa động từ và 來/去 có thể thêm hướng như 上, 下, 進, 出, 回, 過. Vì thế 跑出去 là chạy ra ngoài, còn 拿回家去 là mang trở về nhà. Nơi đến được đặt trước 來/去.",
+      "structure": "Động từ + hướng + 來 / 去",
+      "examples": [
+        {
+          "chinese": "你拿回家去，明天再倒吧！",
+          "simplified": "你拿回家去，明天再倒吧！",
+          "pinyin": "nǐ ná huí jiā qù ， míng tiān zài dào ba ！",
+          "meaningVi": "Cháu mang về nhà, mai hãy đổ."
+        },
+        {
+          "chinese": "他從房間走出來。",
+          "simplified": "他从房间走出来。",
+          "pinyin": "tā cóng fáng jiān zǒu chū lái 。",
+          "meaningVi": "Anh ấy đi ra khỏi phòng."
+        }
+      ],
+      "commonMistake": "Đừng đổi 來 thành 去 nếu người hoặc vật đang đi về phía điểm nhìn của người nói.",
+      "check": {
+        "id": "cc2-v2-l07-grammar-check-01",
+        "prompt": "Điền: 他從樓下跑上＿＿。",
+        "options": [
+          {
+            "id": "a",
+            "text": "在"
+          },
+          {
+            "id": "b",
+            "text": "來"
+          },
+          {
+            "id": "c",
+            "text": "去"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Đặt 來 khi chuyển động hướng về điểm nhìn của người nói và 去 khi đi xa điểm đó.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l07-grammar-02",
+      "title": "把 + đồ vật + V + hướng",
+      "audioTrackId": "cc2-textbook-l07-t06",
+      "explanation": "Dùng 把 để đưa vật đã xác định lên trước, rồi nêu rõ nó được chuyển theo hướng nào. Trong 我把垃圾拿出去了, rác là vật đã biết và 拿出去 là kết quả di chuyển. Mẫu này cần thành phần chỉ hướng hoặc kết quả sau động từ.",
+      "structure": "Chủ ngữ + 把 + vật đã biết + động từ + hướng + 來 / 去",
+      "examples": [
+        {
+          "chinese": "我把垃圾拿出去了。",
+          "simplified": "我把垃圾拿出去了。",
+          "pinyin": "wǒ bǎ lā jī ná chū qù le 。",
+          "meaningVi": "Tôi đã mang rác ra ngoài."
+        },
+        {
+          "chinese": "大家把手裡的垃圾丟進去。",
+          "simplified": "大家把手里的垃圾丢进去。",
+          "pinyin": "dà jiā bǎ shǒu lǐ de lā jī diū jìn qù 。",
+          "meaningVi": "Mọi người bỏ rác trên tay vào trong."
+        }
+      ],
+      "commonMistake": "Không dừng ở 把垃圾拿; cần nói đã mang rác đi đâu.",
+      "check": {
+        "id": "cc2-v2-l07-grammar-check-02",
+        "prompt": "Điền: 我＿＿垃圾拿出去了。",
+        "options": [
+          {
+            "id": "a",
+            "text": "為了"
+          },
+          {
+            "id": "b",
+            "text": "給"
+          },
+          {
+            "id": "c",
+            "text": "把"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Dùng 把 để đưa vật đã xác định lên trước, rồi nêu rõ nó được chuyển theo hướng nào.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l07-grammar-03",
+      "title": "不 / 沒…嗎？ — hỏi mang ý phản bác",
+      "audioTrackId": "cc2-textbook-l07-t07",
+      "explanation": "Câu hỏi phủ định kết thúc bằng 嗎 có thể mang sắc thái nhắc nhở hoặc phản bác: người nói nghĩ rằng đối phương lẽ ra đã biết điều đó. Trong hội thoại, 你不覺得很有趣嗎？ là lời mời người nghe nhìn nhận sự thú vị. Sắc thái này có thể hơi gắt, nên cân nhắc ngữ cảnh.",
+      "structure": "不 / 沒 + động từ hoặc tính từ + 嗎？",
+      "examples": [
+        {
+          "chinese": "你不覺得很有趣嗎？",
+          "simplified": "你不觉得很有趣吗？",
+          "pinyin": "nǐ bù jué dé hěn yǒu qù ma ？",
+          "meaningVi": "Cháu không thấy thú vị sao?"
+        },
+        {
+          "chinese": "你沒看見我正在忙嗎？",
+          "simplified": "你没看见我正在忙吗？",
+          "pinyin": "nǐ méi kàn jiàn wǒ zhèng zài máng ma ？",
+          "meaningVi": "Bạn không thấy tôi đang bận sao?"
+        }
+      ],
+      "commonMistake": "Đừng dùng cấu trúc này khi cần một câu hỏi trung tính, lịch sự.",
+      "check": {
+        "id": "cc2-v2-l07-grammar-check-03",
+        "prompt": "Điền: 你不覺得這個規定很麻煩＿＿？",
+        "options": [
+          {
+            "id": "a",
+            "text": "呢"
+          },
+          {
+            "id": "b",
+            "text": "嗎"
+          },
+          {
+            "id": "c",
+            "text": "吧"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Câu hỏi phủ định kết thúc bằng 嗎 có thể mang sắc thái nhắc nhở hoặc phản bác: người nói nghĩ rằng đối phương lẽ ra đã biết điều đó.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l07-grammar-04",
+      "title": "Nơi chốn + V 著 + người / vật",
+      "audioTrackId": "cc2-textbook-l07-t08",
+      "explanation": "Để nói có người hoặc vật đang ở một nơi trong tư thế nào, đặt nơi chốn trước, rồi dùng động từ tư thế với 著 và đối tượng ở cuối. 路口站著很多人 nghĩa là có nhiều người đang đứng ở ngã tư. Đây là cách miêu tả cảnh, không nhấn mạnh ai đang thực hiện hành động.",
+      "structure": "Nơi chốn + 站 / 坐 / 放… + 著 + người / vật",
+      "examples": [
+        {
+          "chinese": "路口已經站了很多人。",
+          "simplified": "路口已经站了很多人。",
+          "pinyin": "lù kǒu yǐ jīng zhàn le hěn duō rén 。",
+          "meaningVi": "Ở ngã tư đã có rất đông người đứng."
+        },
+        {
+          "chinese": "咖啡店裡坐著很多學生。",
+          "simplified": "咖啡店里坐着很多学生。",
+          "pinyin": "kā fēi diàn lǐ zuò zhù hěn duō xué shēng 。",
+          "meaningVi": "Trong quán cà phê có nhiều học sinh đang ngồi."
+        }
+      ],
+      "commonMistake": "Nếu muốn giới thiệu cảnh vật, đừng đặt 很多人 làm chủ ngữ của mẫu tồn tại này.",
+      "check": {
+        "id": "cc2-v2-l07-grammar-check-04",
+        "prompt": "Điền: 咖啡店裡坐＿＿很多學生。",
+        "options": [
+          {
+            "id": "a",
+            "text": "把"
+          },
+          {
+            "id": "b",
+            "text": "給"
+          },
+          {
+            "id": "c",
+            "text": "著"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Để nói có người hoặc vật đang ở một nơi trong tư thế nào, đặt nơi chốn trước, rồi dùng động từ tư thế với 著 và đối tượng ở cuối.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc2-v2-l07-grammar-05",
+      "title": "為了 — để; nhằm",
+      "audioTrackId": "cc2-textbook-l07-t09",
+      "explanation": "為了 nêu mục đích của hành động, theo sau là danh từ hoặc cụm động từ. Có thể đặt cụm mục đích ở đầu câu hoặc sau chủ ngữ. Bài đọc dùng 為了保護環境 để giải thích lý do phải phân loại rác.",
+      "structure": "為了 + mục đích，+ hành động",
+      "examples": [
+        {
+          "chinese": "為了保護環境，大家都應該做垃圾分類。",
+          "simplified": "为了保护环境，大家都应该做垃圾分类。",
+          "pinyin": "wèi le bǎo hù huán jìng ， dà jiā dōu yīng gāi zuò lā jī fēn lèi 。",
+          "meaningVi": "Để bảo vệ môi trường, mọi người nên phân loại rác."
+        },
+        {
+          "chinese": "他為了學中文，來台灣念書。",
+          "simplified": "他为了学中文，来台湾念书。",
+          "pinyin": "tā wèi le xué zhōng wén ， lái tái wān niàn shū 。",
+          "meaningVi": "Anh ấy đến Đài Loan học để học tiếng Hoa."
+        }
+      ],
+      "commonMistake": "Đừng nhầm 為了 chỉ mục đích với 因為 chỉ nguyên nhân.",
+      "check": {
+        "id": "cc2-v2-l07-grammar-check-05",
+        "prompt": "Điền: ＿＿保護環境，我們應該回收瓶子。",
+        "options": [
+          {
+            "id": "a",
+            "text": "因為"
+          },
+          {
+            "id": "b",
+            "text": "要不然"
+          },
+          {
+            "id": "c",
+            "text": "為了"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "為了 nêu mục đích của hành động, theo sau là danh từ hoặc cụm động từ.",
+        "skill": "Ngữ pháp"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc2-v2-l07-listening-01",
+      "prompt": "Nghe hội thoại. Đông Kiện định đi đâu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đến trường"
+        },
+        {
+          "id": "b",
+          "text": "Đi mua nước"
+        },
+        {
+          "id": "c",
+          "text": "Xuống lầu đổ rác"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Anh nói 得趕快下樓去倒垃圾.",
+      "skill": "Nghe chi tiết",
+      "audioTrackId": "cc2-textbook-l07-t01"
+    },
+    {
+      "id": "cc2-v2-l07-listening-02",
+      "prompt": "Nghe hội thoại. Đông Kiện phải làm gì với túi rác?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bỏ vào thùng giấy"
+        },
+        {
+          "id": "b",
+          "text": "Mang về nhà, mai đổ"
+        },
+        {
+          "id": "c",
+          "text": "Để ở cầu thang"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Cô Trần bảo 拿回家去，明天再倒.",
+      "skill": "Nghe kết quả",
+      "audioTrackId": "cc2-textbook-l07-t01"
+    },
+    {
+      "id": "cc2-v2-l07-listening-03",
+      "prompt": "Nghe bài đọc. Tiếng nhạc bên ngoài phát ra từ đâu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Xe rác"
+        },
+        {
+          "id": "b",
+          "text": "Trường học"
+        },
+        {
+          "id": "c",
+          "text": "Một cửa hàng"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Mã An Đồng phát hiện đó là 垃圾車的音樂.",
+      "skill": "Nghe chi tiết",
+      "audioTrackId": "cc2-textbook-l07-t03"
+    },
+    {
+      "id": "cc2-v2-l07-listening-04",
+      "prompt": "Nghe bài đọc. Vì sao mọi người phân loại rác?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Để bảo vệ môi trường"
+        },
+        {
+          "id": "b",
+          "text": "Để bán vé xe"
+        },
+        {
+          "id": "c",
+          "text": "Để xe đến sớm"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Đoạn cuối bắt đầu 為了保護環境.",
+      "skill": "Nghe ý chính",
+      "audioTrackId": "cc2-textbook-l07-t03"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc2-v2-l07-practice-01",
+      "prompt": "‘回收’ nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "đặt xuống"
+        },
+        {
+          "id": "b",
+          "text": "tái chế; thu hồi"
+        },
+        {
+          "id": "c",
+          "text": "chạy theo"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "回收 là tái chế hoặc thu hồi.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc2-v2-l07-practice-02",
+      "prompt": "Điền: 我把垃圾拿出＿＿。",
+      "options": [
+        {
+          "id": "a",
+          "text": "來"
+        },
+        {
+          "id": "b",
+          "text": "在"
+        },
+        {
+          "id": "c",
+          "text": "去"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Rác được mang ra xa điểm nhìn, nên dùng 去.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l07-practice-03",
+      "prompt": "Vì sao thứ Tư Đông Kiện không thể đổ rác?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anh đi làm về quá muộn"
+        },
+        {
+          "id": "b",
+          "text": "Anh không có túi rác"
+        },
+        {
+          "id": "c",
+          "text": "Xe rác không thu gom vào thứ Tư"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "陳太太 nói 每個星期三和星期天是不收的.",
+      "skill": "Hội thoại"
+    },
+    {
+      "id": "cc2-v2-l07-practice-04",
+      "prompt": "Điền: 為了保護環境，大家應該做垃圾＿＿。",
+      "options": [
+        {
+          "id": "a",
+          "text": "皮包"
+        },
+        {
+          "id": "b",
+          "text": "聲音"
+        },
+        {
+          "id": "c",
+          "text": "分類"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "垃圾分類 là phân loại rác.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc2-v2-l07-practice-05",
+      "prompt": "Mã An Đồng nghe thấy gì bên ngoài?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tiếng nhạc của xe rác"
+        },
+        {
+          "id": "b",
+          "text": "Tiếng người hát"
+        },
+        {
+          "id": "c",
+          "text": "Tiếng chuông trường"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Anh nghe 音樂的聲音 rồi mới biết đó là nhạc xe rác.",
+      "skill": "Bài đọc"
+    },
+    {
+      "id": "cc2-v2-l07-practice-06",
+      "prompt": "Điền: 路口站＿＿很多人。",
+      "options": [
+        {
+          "id": "a",
+          "text": "把"
+        },
+        {
+          "id": "b",
+          "text": "著"
+        },
+        {
+          "id": "c",
+          "text": "給"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Động từ tư thế với 著 miêu tả cảnh có nhiều người đang đứng.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l07-practice-07",
+      "prompt": "‘要不然’ dùng để nêu điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Một thời điểm quá khứ"
+        },
+        {
+          "id": "b",
+          "text": "Hệ quả nếu không làm việc vừa nói"
+        },
+        {
+          "id": "c",
+          "text": "Mục đích của hành động"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "要不然 nghĩa là nếu không thì.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l07-practice-08",
+      "prompt": "Điền: ＿＿保護環境，我們應該回收瓶子。",
+      "options": [
+        {
+          "id": "a",
+          "text": "為了"
+        },
+        {
+          "id": "b",
+          "text": "因為"
+        },
+        {
+          "id": "c",
+          "text": "還是"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "為了 chỉ mục đích: để bảo vệ môi trường.",
+      "skill": "Ngữ pháp"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc2-v2-l07-assessment-01",
+      "prompt": "‘垃圾車’ là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "xe rác"
+        },
+        {
+          "id": "b",
+          "text": "xe buýt"
+        },
+        {
+          "id": "c",
+          "text": "xe cứu thương"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "垃圾車 là xe rác.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc2-v2-l07-assessment-02",
+      "prompt": "Theo hội thoại, ngày nào không thu gom rác?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thứ Hai và thứ Ba"
+        },
+        {
+          "id": "b",
+          "text": "Thứ Bảy và Chủ nhật"
+        },
+        {
+          "id": "c",
+          "text": "Thứ Tư và Chủ nhật"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "陳太太 nói rõ 每個星期三和星期天是不收的.",
+      "skill": "Hội thoại"
+    },
+    {
+      "id": "cc2-v2-l07-assessment-03",
+      "prompt": "Điền: 他從房間走出＿＿。",
+      "options": [
+        {
+          "id": "a",
+          "text": "把"
+        },
+        {
+          "id": "b",
+          "text": "來"
+        },
+        {
+          "id": "c",
+          "text": "去"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "來 chỉ hướng về điểm nhìn của người nói.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l07-assessment-04",
+      "prompt": "Bài đọc nói rác được thu gom thế nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vào giờ và địa điểm cố định"
+        },
+        {
+          "id": "b",
+          "text": "Bất cứ lúc nào"
+        },
+        {
+          "id": "c",
+          "text": "Chỉ trong khuôn viên trường"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "垃圾車只在一定的時間、一定的地點收垃圾.",
+      "skill": "Bài đọc"
+    },
+    {
+      "id": "cc2-v2-l07-assessment-05",
+      "prompt": "Điền: 我＿＿瓶子丟進回收桶。",
+      "options": [
+        {
+          "id": "a",
+          "text": "為了"
+        },
+        {
+          "id": "b",
+          "text": "嗎"
+        },
+        {
+          "id": "c",
+          "text": "把"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "把 nêu vật đã biết trước hành động bỏ vào thùng.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l07-assessment-06",
+      "prompt": "‘汽水罐’ là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "lon nước ngọt"
+        },
+        {
+          "id": "b",
+          "text": "ly nhựa"
+        },
+        {
+          "id": "c",
+          "text": "chai thủy tinh"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "汽水罐 là lon nước ngọt.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc2-v2-l07-assessment-07",
+      "prompt": "Điền: 咖啡店裡坐＿＿很多學生。",
+      "options": [
+        {
+          "id": "a",
+          "text": "去"
+        },
+        {
+          "id": "b",
+          "text": "給"
+        },
+        {
+          "id": "c",
+          "text": "著"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "坐著 miêu tả nhiều người đang ngồi trong quán.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l07-assessment-08",
+      "prompt": "Vì sao nên phân loại rác?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Để xe rác đến sớm hơn"
+        },
+        {
+          "id": "b",
+          "text": "Để không phải dùng túi"
+        },
+        {
+          "id": "c",
+          "text": "Để bảo vệ môi trường"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc mở đoạn cuối bằng 為了保護環境.",
+      "skill": "Bài đọc"
+    },
+    {
+      "id": "cc2-v2-l07-assessment-09",
+      "prompt": "Điền: ＿＿學中文，他來台灣念書。",
+      "options": [
+        {
+          "id": "a",
+          "text": "可是"
+        },
+        {
+          "id": "b",
+          "text": "為了"
+        },
+        {
+          "id": "c",
+          "text": "要不然"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "為了 nêu mục đích học tiếng Hoa.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc2-v2-l07-assessment-10",
+      "prompt": "Nếu hôm nay chưa đổ được rác, Đông Kiện nên làm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mang về nhà và mai đổ"
+        },
+        {
+          "id": "b",
+          "text": "Để lại ở ngã tư"
+        },
+        {
+          "id": "c",
+          "text": "Bỏ vào túi của cô Trần"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "陳太太 nói 你拿回家去，明天再倒吧.",
+      "skill": "Hội thoại"
+    }
+  ],
+  "writingTask": {
+    "id": "cc2-v2-l07-writing",
+    "title": "Cách đổ rác nơi bạn sống",
+    "prompt": "Viết 2–3 câu về thời gian và nơi đổ rác. Hãy thử dùng 為了 hoặc một bổ ngữ chỉ hướng.",
+    "sampleTraditional": "為了保護環境，我把瓶子丟進回收桶。晚上我拿垃圾出去。",
+    "sampleSimplified": "为了保护环境，我把瓶子丢进回收桶。晚上我拿垃圾出去。"
+  }
+}

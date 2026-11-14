@@ -638,7 +638,7 @@ html[data-theme="dark"] .home-path-card p { color: var(--muted); }
 .academy-answer-grid { display: grid; gap: 7px; }
 .academy-answer { min-height: 46px; }
 .academy-question-feedback { margin-top: 12px; padding: 10px 12px; border-radius: 11px; font-size: 13px; line-height: 1.6; }
-.academy-vocab-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 10px; }
+.academy-vocab-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); align-items: start; gap: 10px; }
 .academy-word { padding: 0; min-width: 0; }
 .academy-word-front { display: flex; align-items: center; gap: 10px; width: 100%; padding: 15px; color: var(--text); text-align: left; }
 .academy-word-front strong { flex: 1; font-family: var(--font-chinese); font-size: 23px; }

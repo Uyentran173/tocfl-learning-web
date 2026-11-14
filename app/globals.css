@@ -79,10 +79,18 @@ button:not(:disabled):active { transform: translateY(1px); filter: brightness(.9
 .site-nav { display: flex; align-items: center; gap: 4px; }
 .site-nav-link { display: inline-flex; align-items: center; min-height: 42px; padding: 8px 13px; border-radius: 10px; color: var(--muted); text-decoration: none; font-size: 13px; font-weight: 700; transition: color var(--motion-fast) ease, background-color var(--motion-fast) ease; }
 .site-nav-link:hover, .site-nav-link[aria-current="page"] { background: var(--brand-soft); color: var(--brand); }
+.site-explore-menu { position: relative; }
+.site-explore-menu > summary { list-style: none; gap: 6px; cursor: pointer; }
+.site-explore-menu > summary::-webkit-details-marker { display: none; }
+.site-explore-menu[open] > summary { background: var(--brand-soft); color: var(--brand); }
+.site-explore-panel { position: absolute; z-index: 60; top: calc(100% + 8px); right: 0; display: grid; min-width: 230px; padding: 8px; border: 1px solid var(--border); border-radius: 16px; background: var(--surface-raised); box-shadow: var(--shadow-popover); }
+.site-explore-panel a { display: block; padding: 10px 12px; border-radius: 9px; color: var(--text); font-size: 13px; font-weight: 650; text-decoration: none; }
+.site-explore-panel a:hover, .site-explore-panel a:focus-visible { background: var(--brand-soft); color: var(--brand); }
 .site-mobile-menu { display: none; position: relative; }
 .site-mobile-menu summary { list-style: none; display: flex; align-items: center; gap: 8px; padding: 9px 13px; border: 1px solid var(--brand-border); border-radius: 10px; color: var(--brand); font-size: 13px; font-weight: 700; cursor: pointer; }
 .site-mobile-menu summary::-webkit-details-marker { display: none; }
-.site-mobile-menu nav { position: absolute; z-index: 50; right: 0; top: calc(100% + 8px); display: grid; min-width: 230px; padding: 8px; border: 1px solid var(--border); border-radius: 14px; background: var(--surface-raised); box-shadow: var(--shadow-popover); }
+.site-mobile-menu nav { position: absolute; z-index: 50; right: 0; top: calc(100% + 8px); display: grid; min-width: 230px; max-height: min(78vh, 650px); overflow-y: auto; padding: 8px; border: 1px solid var(--border); border-radius: 14px; background: var(--surface-raised); box-shadow: var(--shadow-popover); }
+.site-mobile-sub-link { padding-left: 25px; font-size: 12px; }
 .site-footer { margin-top: 64px; border-top: 1px solid var(--border); background: var(--footer); color: var(--muted); }
 .site-footer-inner { width: min(100%, 1280px); margin: 0 auto; padding: 48px 24px 42px; display: grid; grid-template-columns: minmax(220px,2fr) repeat(3,minmax(130px,1fr)); gap: 36px; }
 .site-footer-about { max-width: 340px; }

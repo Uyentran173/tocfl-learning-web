@@ -4,9 +4,13 @@ import Link from "next/link";
 import { siteConfig } from "@/lib/site";
 import { BrandMark } from "./SiteBrand";
 import { useT } from "./PreferencesProvider";
+import { usePreferences } from "./PreferencesProvider";
+import { exploreContent } from "@/lib/explore-content";
 
 export default function SiteFooter() {
   const t = useT();
+  const { locale } = usePreferences();
+  const explore = exploreContent[locale].nav;
   return <footer className="site-footer">
     <div className="site-footer-inner">
       <div className="site-footer-about">
@@ -30,6 +34,10 @@ export default function SiteFooter() {
         <h2>{t("Kỳ thi và hỗ trợ")}</h2>
         <Link href="/exam-guide">{t("Hướng dẫn dự thi")}</Link>
         <Link href="/exam-guide#test-centers">{t("Chọn điểm thi")}</Link>
+        <Link href="/explore/about">{explore.about}</Link>
+        <Link href="/explore/features">{explore.features}</Link>
+        <Link href="/explore/faq">{explore.faq}</Link>
+        <Link href="/explore/contact">{explore.contact}</Link>
       </div>
     </div>
     <div className="site-footer-bottom"><span>© {new Date().getFullYear()} {siteConfig.name}</span><span>{t("Học nhẹ nhàng · Tiến bộ mỗi ngày")}</span></div>

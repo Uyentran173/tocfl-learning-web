@@ -12,6 +12,8 @@ import HomeFeatureArt from "@/components/HomeFeatureArt";
 import HomeVocabularyDemo from "@/components/HomeVocabularyDemo";
 import profilePhotoStyles from "./profile-photo.module.css";
 import { useT } from "@/components/PreferencesProvider";
+import { usePreferences } from "@/components/PreferencesProvider";
+import { exploreContent } from "@/lib/explore-content";
 
 const features = [
   { title: "Học từ vựng", description: "Ghi nhớ từ mới bằng thẻ học ngắn, ví dụ gần gũi và tiến độ rõ ràng.", href: "/vocabulary", theme: "words" },
@@ -21,6 +23,8 @@ const features = [
 
 export default function Home() {
   const t = useT();
+  const { locale } = usePreferences();
+  const explore = exploreContent[locale].nav;
   const [academyResume, setAcademyResume] = useState<string | null>(null);
   useEffect(() => {
     const timer = window.setTimeout(() => {
@@ -88,7 +92,7 @@ export default function Home() {
     </section>
 
     <section className="home-section home-story" aria-labelledby="home-about-title">
-      <div className="home-about-copy"><p className="page-eyebrow">{t("VỀ NỀN TẢNG")}</p><h2 id="home-about-title">{t("Một nơi để học, luyện tập và chuẩn bị cho kỳ thi.")}</h2><p>{t("Bắt đầu bằng một bài học, vài từ mới hoặc một đề TOCFL. Tai Wén giúp bạn theo dõi từng bước tiến của mình.")}</p><Link href="/exam-guide" className="button-quiet">{t("Tìm hiểu về kỳ thi")} →</Link></div>
+      <div className="home-about-copy"><p className="page-eyebrow">{t("VỀ NỀN TẢNG")}</p><h2 id="home-about-title">{t("Một nơi để học, luyện tập và chuẩn bị cho kỳ thi.")}</h2><p>{t("Bắt đầu bằng một bài học, vài từ mới hoặc một đề TOCFL. Tai Wén giúp bạn theo dõi từng bước tiến của mình.")}</p><div className="home-explore-links"><Link href="/explore/about">{explore.about} ↗</Link><Link href="/explore/features">{explore.features} ↗</Link><Link href="/explore/faq">{explore.faq} ↗</Link><Link href="/explore/contact">{explore.contact} ↗</Link></div></div>
       <div className="home-developer paper"><div className={profilePhotoStyles.portrait}><Image src="/images/uyen-tran-profile.png" alt="Uyên Trần" width={1254} height={1254} sizes="(max-width: 600px) 300px, 340px" quality={90} className={profilePhotoStyles.photo} /></div><div><p className="page-eyebrow">{t("VỀ NGƯỜI PHÁT TRIỂN")}</p><h3>{t("Chào bạn, mình là Uyên Trần")}</h3><p>{t("Mình là")} <strong>Uyên Trần</strong>, {t("hiện đang tự học tiếng Trung phồn thể tại Việt Nam và hướng tới việc du học Đài Loan. Trong quá trình học, mình nhận ra tài liệu dành cho người Việt, đặc biệt là tài liệu luyện TOCFL, thường nằm rải rác ở nhiều nơi.")}</p><p>{t("Vì vậy, mình xây dựng")} <strong>{siteConfig.name}</strong> {t("như một nơi để học, luyện tập và chuẩn bị cho TOCFL theo cách gọn gàng và dễ dùng hơn. Mình vẫn đang trên hành trình học tiếng Trung, và website này cũng sẽ tiếp tục được hoàn thiện cùng hành trình đó.")}</p></div></div>
     </section>
 

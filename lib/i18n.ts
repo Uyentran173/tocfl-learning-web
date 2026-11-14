@@ -4,6 +4,7 @@ import { academyMessages } from "./i18n-academy";
 import { academyNewMessages } from "./i18n-academy-new.ts";
 import { authMessages } from "./i18n-auth";
 import { homeDemoMessages } from "./i18n-home-demo";
+import { exploreContent } from "./explore-content";
 
 export const uiLocales = ["vi", "en", "zh-CN", "zh-TW"] as const;
 export type UiLocale = (typeof uiLocales)[number];
@@ -107,6 +108,9 @@ const pageTitleSources: Record<string, string> = {
 
 export function localizedDocumentTitle(locale: UiLocale, pathname: string): string | null {
   if (pathname === "/") return `Tai Wén | ${translate(locale, "Học tiếng Hoa Đài Loan & luyện thi TOCFL")}`;
+  if (pathname === "/explore") return `${exploreContent[locale].nav.explore} | Tai Wén`;
+  const exploreRoute = pathname.match(/^\/explore\/(about|features|faq|contact)$/)?.[1] as "about" | "features" | "faq" | "contact" | undefined;
+  if (exploreRoute) return `${exploreContent[locale].nav[exploreRoute]} | Tai Wén`;
   const staticTitle = pageTitleSources[pathname];
   if (staticTitle) return `${translate(locale, staticTitle)} | Tai Wén`;
   const match = /^\/tocfl\/(novice-reading-2018-11|novice-test-\d+|band-[abc]-test-\d+)\/(instructions|exam|result|review)$/.exec(pathname);

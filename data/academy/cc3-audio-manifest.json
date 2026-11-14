@@ -1,0 +1,2805 @@
+{
+  "schemaVersion": 1,
+  "courseId": "cc3",
+  "volume": 3,
+  "title": "A Course in Contemporary Chinese — Volume 3",
+  "pdfSha256": {
+    "textbook": "ee7dd31524afc44d3d1e0b17ae6243d80e160d4aa2f128e8f73525dd0fc36f71",
+    "workbook": "ec2c232cdc2c0265eccb4f10a577d4e8b5ab4f833c4747ab99bab063750484b5"
+  },
+  "sourceZipSha256": {
+    "textbook": "bfeae7666a42007b76ac39c24b7cffc51f4ca28af9c916bfb61c7ced0e44599b",
+    "workbook": "c6d5411ba0f1af046180c6156a451afec3d4cf4f89ff75488bce5c59f64a89c7"
+  },
+  "tracks": [
+    {
+      "id": "cc3-textbook-unassigned-00",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": null,
+      "source": "textbook",
+      "number": null,
+      "originalName": "00.mp3",
+      "privatePath": "textbook/00.mp3",
+      "bytes": 506882,
+      "sha256": "7538949d7cea95a09dd9c7d1578618afe5f3e860cf8ed9a81710a0777be50b07",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-workbook-unassigned-00",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": null,
+      "source": "workbook",
+      "number": null,
+      "originalName": "00.mp3",
+      "privatePath": "workbook/00.mp3",
+      "bytes": 511480,
+      "sha256": "d8db4fcbc7c18739c262b470e869498a2d1f5d9561000ea53378cf64c40919c7",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l01-t01",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 1,
+      "source": "textbook",
+      "number": 1,
+      "originalName": "01-01.mp3",
+      "privatePath": "textbook/01-01.mp3",
+      "bytes": 2201289,
+      "sha256": "ccf360061723e12255b6e622f8728d31969a09b0f060c1e910311e2a06e157ab",
+      "pdfPages": [
+        29,
+        39
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 29,
+        "bookPage": 2,
+        "labelVi": "Hội thoại",
+        "referenceCode": "01-01",
+        "itemCount": null
+      }
+    },
+    {
+      "id": "cc3-textbook-l01-t02",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 1,
+      "source": "textbook",
+      "number": 2,
+      "originalName": "01-02.mp3",
+      "privatePath": "textbook/01-02.mp3",
+      "bytes": 2073811,
+      "sha256": "de40ae155809ae1b717811039430f3edac0bbb69d5fb11d535bc75c5b864700e",
+      "pdfPages": [
+        32
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 32,
+        "bookPage": 5,
+        "labelVi": "Từ vựng hội thoại",
+        "referenceCode": "01-02",
+        "itemCount": null
+      }
+    },
+    {
+      "id": "cc3-textbook-l01-t03",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 1,
+      "source": "textbook",
+      "number": 3,
+      "originalName": "01-03.mp3",
+      "privatePath": "textbook/01-03.mp3",
+      "bytes": 1898686,
+      "sha256": "ac76ab5d14e94157cbea40d488a265d25a4748e862e5564fcd1197dacca5bf45",
+      "pdfPages": [
+        34
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 34,
+        "bookPage": 7,
+        "labelVi": "Bài đọc",
+        "referenceCode": "01-03",
+        "itemCount": null
+      }
+    },
+    {
+      "id": "cc3-textbook-l01-t04",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 1,
+      "source": "textbook",
+      "number": 4,
+      "originalName": "01-04.mp3",
+      "privatePath": "textbook/01-04.mp3",
+      "bytes": 1311036,
+      "sha256": "3932b82e7144efb91f99a8dc42207374fb942ee174a7ab81d891c0d56e83d0a3",
+      "pdfPages": [
+        36
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 36,
+        "bookPage": 9,
+        "labelVi": "Từ vựng bài đọc",
+        "referenceCode": "01-04",
+        "itemCount": null
+      }
+    },
+    {
+      "id": "cc3-textbook-l01-t05",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 1,
+      "source": "textbook",
+      "number": 5,
+      "originalName": "01-05.mp3",
+      "privatePath": "textbook/01-05.mp3",
+      "bytes": 1244998,
+      "sha256": "2cdc0235fe16a3c4f542b91f4cc00469a4f08d1f97b095588d39166a0c2f03ea",
+      "pdfPages": [
+        37
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 37,
+        "bookPage": 10,
+        "labelVi": "Ngữ pháp: …的話",
+        "referenceCode": "01-05",
+        "itemCount": null
+      }
+    },
+    {
+      "id": "cc3-textbook-l01-t06",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 1,
+      "source": "textbook",
+      "number": 6,
+      "originalName": "01-06.mp3",
+      "privatePath": "textbook/01-06.mp3",
+      "bytes": 839996,
+      "sha256": "1b1df4d410809f48dfe9ab3d04165226d6034708a9402688fbbdb50c7a8b66e7",
+      "pdfPages": [
+        38
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 38,
+        "bookPage": 11,
+        "labelVi": "Ngữ pháp: 不到",
+        "referenceCode": "01-06",
+        "itemCount": null
+      }
+    },
+    {
+      "id": "cc3-textbook-l01-t07",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 1,
+      "source": "textbook",
+      "number": 7,
+      "originalName": "01-07.mp3",
+      "privatePath": "textbook/01-07.mp3",
+      "bytes": 1056498,
+      "sha256": "f8788b43a68f507a1b8a0bcc1fce7e23cb4327fee42116fba89a32377dfa46a9",
+      "pdfPages": [
+        39
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 39,
+        "bookPage": 12,
+        "labelVi": "Ngữ pháp: 差一點",
+        "referenceCode": "01-07",
+        "itemCount": null
+      }
+    },
+    {
+      "id": "cc3-textbook-l01-t08",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 1,
+      "source": "textbook",
+      "number": 8,
+      "originalName": "01-08.mp3",
+      "privatePath": "textbook/01-08.mp3",
+      "bytes": 825785,
+      "sha256": "b15c889c87033b185e8589625cb94e9fab2e455ef061a4e817ddb49b380d9c44",
+      "pdfPages": [
+        40
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 40,
+        "bookPage": 13,
+        "labelVi": "Ngữ pháp: 恐怕",
+        "referenceCode": "01-08",
+        "itemCount": null
+      }
+    },
+    {
+      "id": "cc3-textbook-l01-t09",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 1,
+      "source": "textbook",
+      "number": 9,
+      "originalName": "01-09.mp3",
+      "privatePath": "textbook/01-09.mp3",
+      "bytes": 844175,
+      "sha256": "ba40af9b8d62903d7d1966806d0774296ec3c6b9c1185f138553dcbacb6297ac",
+      "pdfPages": [
+        41
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 41,
+        "bookPage": 14,
+        "labelVi": "Ngữ pháp: 好不容易",
+        "referenceCode": "01-09",
+        "itemCount": null
+      }
+    },
+    {
+      "id": "cc3-textbook-l01-t10",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 1,
+      "source": "textbook",
+      "number": 10,
+      "originalName": "01-10.mp3",
+      "privatePath": "textbook/01-10.mp3",
+      "bytes": 862983,
+      "sha256": "e01a2c1c4fbeda328d89ecbaebe76ef7281eeb85201b638946428337044347d1",
+      "pdfPages": [
+        41
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 41,
+        "bookPage": 14,
+        "labelVi": "Ngữ pháp: 說…就…",
+        "referenceCode": "01-10",
+        "itemCount": null
+      }
+    },
+    {
+      "id": "cc3-textbook-l01-t11",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 1,
+      "source": "textbook",
+      "number": 11,
+      "originalName": "01-11.mp3",
+      "privatePath": "textbook/01-11.mp3",
+      "bytes": 1252521,
+      "sha256": "75450a7413e53d62fdc9e43332010448c07ed3f8fba1b63cf13388e703c52a90",
+      "pdfPages": [
+        42
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 42,
+        "bookPage": 15,
+        "labelVi": "Ngữ pháp: 不管…都…",
+        "referenceCode": "01-11",
+        "itemCount": null
+      }
+    },
+    {
+      "id": "cc3-workbook-l01-t01",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 1,
+      "source": "workbook",
+      "number": 1,
+      "originalName": "01-1.mp3",
+      "privatePath": "workbook/01-1.mp3",
+      "bytes": 2997919,
+      "sha256": "358ed5166dc27bd306b48daa471faa22bfbc3ee3757d1518498850e79dd5bffe",
+      "pdfPages": [
+        3
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 3,
+        "bookPage": 1,
+        "labelVi": "Bài tập nghe A",
+        "referenceCode": "01-1",
+        "itemCount": null
+      }
+    },
+    {
+      "id": "cc3-workbook-l01-t02",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 1,
+      "source": "workbook",
+      "number": 2,
+      "originalName": "01-2.mp3",
+      "privatePath": "workbook/01-2.mp3",
+      "bytes": 1631192,
+      "sha256": "80333aa5633105312a66a01b3b00fd50ff9e7b1392e70a2a078c02927bc38cf4",
+      "pdfPages": [
+        3
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 3,
+        "bookPage": 1,
+        "labelVi": "Bài tập nghe B",
+        "referenceCode": "01-2",
+        "itemCount": null
+      }
+    },
+    {
+      "id": "cc3-textbook-l02-t01",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 2,
+      "source": "textbook",
+      "number": 1,
+      "originalName": "02-01.mp3",
+      "privatePath": "textbook/02-01.mp3",
+      "bytes": 2765116,
+      "sha256": "58e245365cbdb185de05e3026822cbd7022ad1e541a0e41e59271270ba02b232",
+      "pdfPages": [
+        51,
+        62
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l02-t02",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 2,
+      "source": "textbook",
+      "number": 2,
+      "originalName": "02-02.mp3",
+      "privatePath": "textbook/02-02.mp3",
+      "bytes": 1983532,
+      "sha256": "ac00d556a99884b58fb55ee8b263c1f67d7024fddfbb18cf3607b479ad55f1fb",
+      "pdfPages": [
+        55
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l02-t03",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 2,
+      "source": "textbook",
+      "number": 3,
+      "originalName": "02-03.mp3",
+      "privatePath": "textbook/02-03.mp3",
+      "bytes": 1840172,
+      "sha256": "3ed3c627119cd8a118059a168b0ca4ce6365d68e9361c218fc206bfada2f0cb9",
+      "pdfPages": [
+        56
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l02-t04",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 2,
+      "source": "textbook",
+      "number": 4,
+      "originalName": "02-04.mp3",
+      "privatePath": "textbook/02-04.mp3",
+      "bytes": 1547601,
+      "sha256": "3f326aead5b0018839c148c73bc7ef6e15f7ca5a3f5b67f55df17ab9a251ff25",
+      "pdfPages": [
+        58
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l02-t05",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 2,
+      "source": "textbook",
+      "number": 5,
+      "originalName": "02-05.mp3",
+      "privatePath": "textbook/02-05.mp3",
+      "bytes": 1046885,
+      "sha256": "190cb303e6c1531892d151225b4bcc41cc5226180ab7521c9e97c7b217784ac5",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l02-t06",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 2,
+      "source": "textbook",
+      "number": 6,
+      "originalName": "02-06.mp3",
+      "privatePath": "textbook/02-06.mp3",
+      "bytes": 755986,
+      "sha256": "06a0e196142c8756a85d470afa2b370fa13ed972bb3a212c78f7bcc70b5d46f2",
+      "pdfPages": [
+        61
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l02-t07",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 2,
+      "source": "textbook",
+      "number": 7,
+      "originalName": "02-07.mp3",
+      "privatePath": "textbook/02-07.mp3",
+      "bytes": 1136329,
+      "sha256": "1d6e090ef21dfa3791d7e6ce3eb04200042395eb675750e4b4f9e9be4cf65d24",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l02-t08",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 2,
+      "source": "textbook",
+      "number": 8,
+      "originalName": "02-08.mp3",
+      "privatePath": "textbook/02-08.mp3",
+      "bytes": 865073,
+      "sha256": "bc74e1bc10306c01b4e528b8dea2ad0b092352ccda77095f2f11579fe1ded0d5",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l02-t09",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 2,
+      "source": "textbook",
+      "number": 9,
+      "originalName": "02-09.mp3",
+      "privatePath": "textbook/02-09.mp3",
+      "bytes": 1139672,
+      "sha256": "32dbf4451e88c5af288e35c7f76ae926c1b9af34a00322377bdd964f99f60fe6",
+      "pdfPages": [
+        64
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l02-t10",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 2,
+      "source": "textbook",
+      "number": 10,
+      "originalName": "02-10.mp3",
+      "privatePath": "textbook/02-10.mp3",
+      "bytes": 887225,
+      "sha256": "b8eb10f587546720d23be76eedb141976c0c8a7d80f5b75715bd22d1d884c736",
+      "pdfPages": [
+        65
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l02-t11",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 2,
+      "source": "textbook",
+      "number": 11,
+      "originalName": "02-11.mp3",
+      "privatePath": "textbook/02-11.mp3",
+      "bytes": 918572,
+      "sha256": "b944d4b723944d1f6e5d56ea77bee06207cbe696a1e7a0d6c95d432082e8f75d",
+      "pdfPages": [
+        66
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-workbook-l02-t01",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 2,
+      "source": "workbook",
+      "number": 1,
+      "originalName": "02-1.mp3",
+      "privatePath": "workbook/02-1.mp3",
+      "bytes": 3488603,
+      "sha256": "b81ea49c7c594489a2e0d33ce7ac4273bfb5008cf2674e94ae6024424e5de978",
+      "pdfPages": [
+        11
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-workbook-l02-t02",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 2,
+      "source": "workbook",
+      "number": 2,
+      "originalName": "02-2.mp3",
+      "privatePath": "workbook/02-2.mp3",
+      "bytes": 1667137,
+      "sha256": "4ec9434dc4812e0cc8067cd7a3a2e4cfa9b730f4431af207ea7407cfde118ed1",
+      "pdfPages": [
+        11
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l03-t01",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 3,
+      "source": "textbook",
+      "number": 1,
+      "originalName": "03-01.mp3",
+      "privatePath": "textbook/03-01.mp3",
+      "bytes": 3149638,
+      "sha256": "d71c9ec517d1ac39039dc420ce43dc14ce1d1ad56304b30eeb43911290fc86cf",
+      "pdfPages": [
+        75
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l03-t02",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 3,
+      "source": "textbook",
+      "number": 2,
+      "originalName": "03-02.mp3",
+      "privatePath": "textbook/03-02.mp3",
+      "bytes": 2305361,
+      "sha256": "b3934d750466554098e7b23438cc6d63a645959855219900dad55e6b3d26a02a",
+      "pdfPages": [
+        79
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l03-t03",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 3,
+      "source": "textbook",
+      "number": 3,
+      "originalName": "03-03.mp3",
+      "privatePath": "textbook/03-03.mp3",
+      "bytes": 2378921,
+      "sha256": "1dbfc86310e608f1607f72bc9be13e0daac8cb82665e7234f7835dc24f1e08d7",
+      "pdfPages": [
+        81
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l03-t04",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 3,
+      "source": "textbook",
+      "number": 4,
+      "originalName": "03-04.mp3",
+      "privatePath": "textbook/03-04.mp3",
+      "bytes": 2263565,
+      "sha256": "bf2b7915377f667b6901c7cdf1a34781135006e9d110013484f2cea6b67c5870",
+      "pdfPages": [
+        83
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l03-t05",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 3,
+      "source": "textbook",
+      "number": 5,
+      "originalName": "03-05.mp3",
+      "privatePath": "textbook/03-05.mp3",
+      "bytes": 1428900,
+      "sha256": "9a5a87f60385f256cfdae3c5410730fb81dd61ee66e76a0fab6150183f881fcf",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l03-t06",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 3,
+      "source": "textbook",
+      "number": 6,
+      "originalName": "03-06.mp3",
+      "privatePath": "textbook/03-06.mp3",
+      "bytes": 912303,
+      "sha256": "9006afa3a26b55c24cc140d04c8a660d6988ecf1fb6cfc7abe41feb68e093fa1",
+      "pdfPages": [
+        87
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l03-t07",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 3,
+      "source": "textbook",
+      "number": 7,
+      "originalName": "03-07.mp3",
+      "privatePath": "textbook/03-07.mp3",
+      "bytes": 1232459,
+      "sha256": "c4ff3ea0e0db0ae2e9e8913b5289be91fe4e3db0273f979ee274025a678c59b4",
+      "pdfPages": [
+        88
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l03-t08",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 3,
+      "source": "textbook",
+      "number": 8,
+      "originalName": "03-08.mp3",
+      "privatePath": "textbook/03-08.mp3",
+      "bytes": 1156391,
+      "sha256": "2c9bfae4cb8a2674ed7521fcaf4c5aed90f0b2146b50213629ae5816c7c4f06f",
+      "pdfPages": [
+        89
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l03-t09",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 3,
+      "source": "textbook",
+      "number": 9,
+      "originalName": "03-09.mp3",
+      "privatePath": "textbook/03-09.mp3",
+      "bytes": 887643,
+      "sha256": "2a8261bca1c62b3ccef2db75e7d1dc431f8a14960af8e9bd83f19dcbdf3c88ba",
+      "pdfPages": [
+        90
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l03-t10",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 3,
+      "source": "textbook",
+      "number": 10,
+      "originalName": "03-10.mp3",
+      "privatePath": "textbook/03-10.mp3",
+      "bytes": 763509,
+      "sha256": "c915013164d0fd0d992daf5e8b2942eed7355777d38dfe388deffb407bf3dd51",
+      "pdfPages": [
+        91
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l03-t11",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 3,
+      "source": "textbook",
+      "number": 11,
+      "originalName": "03-11.mp3",
+      "privatePath": "textbook/03-11.mp3",
+      "bytes": 701651,
+      "sha256": "16a957614e37f4e74e3b5140ce79f5420d6bd9921ae9fc0084b254ec82a16dce",
+      "pdfPages": [
+        91
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l03-t12",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 3,
+      "source": "textbook",
+      "number": 12,
+      "originalName": "03-12.mp3",
+      "privatePath": "textbook/03-12.mp3",
+      "bytes": 839160,
+      "sha256": "af0871f9e2ffbbe86ee8e1b7df421e3034744fae19b52ee5095ecaa186803327",
+      "pdfPages": [
+        93
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l03-t13",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 3,
+      "source": "textbook",
+      "number": 13,
+      "originalName": "03-13.mp3",
+      "privatePath": "textbook/03-13.mp3",
+      "bytes": 949919,
+      "sha256": "b9fbbaf7ccf3b15551d8ca74c0b9233ef236a60e4d9bb1ad883d0ebbbe686092",
+      "pdfPages": [
+        94
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-workbook-l03-t01",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 3,
+      "source": "workbook",
+      "number": 1,
+      "originalName": "03-1.mp3",
+      "privatePath": "workbook/03-1.mp3",
+      "bytes": 3918683,
+      "sha256": "b70fb3c361674ea37b0efcfcaa31d3f537fd4d2ded236abe1708a0ff3fff60f0",
+      "pdfPages": [
+        19
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-workbook-l03-t02",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 3,
+      "source": "workbook",
+      "number": 2,
+      "originalName": "03-2.mp3",
+      "privatePath": "workbook/03-2.mp3",
+      "bytes": 1846023,
+      "sha256": "7c7d2b9cc639cea60056de12e562937fb9047effd7126727779f2bace611a1b5",
+      "pdfPages": [
+        20
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l04-t01",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 4,
+      "source": "textbook",
+      "number": 1,
+      "originalName": "04-01.mp3",
+      "privatePath": "textbook/04-01.mp3",
+      "bytes": 3263323,
+      "sha256": "28c0423fa664b72a84f9ce4ccb6fed8dd0e56dabfc7497b5a28da5fb27f4dd59",
+      "pdfPages": [
+        103
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l04-t02",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 4,
+      "source": "textbook",
+      "number": 2,
+      "originalName": "04-02.mp3",
+      "privatePath": "textbook/04-02.mp3",
+      "bytes": 2290314,
+      "sha256": "1e5c8c6f237c796aa24a89650bb7bf0d202fc12f39993c75341ba400477ab0d4",
+      "pdfPages": [
+        107
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l04-t03",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 4,
+      "source": "textbook",
+      "number": 3,
+      "originalName": "04-03.mp3",
+      "privatePath": "textbook/04-03.mp3",
+      "bytes": 2274432,
+      "sha256": "2f3677220066c3f8cf2649f4498714b5f080fa52529dab325bd896c4c547ca68",
+      "pdfPages": [
+        109
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l04-t04",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 4,
+      "source": "textbook",
+      "number": 4,
+      "originalName": "04-04.mp3",
+      "privatePath": "textbook/04-04.mp3",
+      "bytes": 1908299,
+      "sha256": "ad34041bfee77f2bfd81b21eee5cbaa22dba8643aa01f68fb8be63e8056f448b",
+      "pdfPages": [
+        111
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l04-t05",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 4,
+      "source": "textbook",
+      "number": 5,
+      "originalName": "04-05.mp3",
+      "privatePath": "textbook/04-05.mp3",
+      "bytes": 1281361,
+      "sha256": "7d5e511a1056f356372336209c908d6b2bb5bf0f9ceeda9f1edb7f62bbf112d8",
+      "pdfPages": [
+        113
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l04-t06",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 4,
+      "source": "textbook",
+      "number": 6,
+      "originalName": "04-06.mp3",
+      "privatePath": "textbook/04-06.mp3",
+      "bytes": 1082412,
+      "sha256": "4341832f3b15a31b2bf94de6ba9aad30739303e7dd9d4e37eed913bce313796f",
+      "pdfPages": [
+        114
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l04-t07",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 4,
+      "source": "textbook",
+      "number": 7,
+      "originalName": "04-07.mp3",
+      "privatePath": "textbook/04-07.mp3",
+      "bytes": 881374,
+      "sha256": "ffeac0f92696c8b6fe5593ef0b8adcfda63031de3b6e9b9e165593ce3a72acba",
+      "pdfPages": [
+        115
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l04-t08",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 4,
+      "source": "textbook",
+      "number": 8,
+      "originalName": "04-08.mp3",
+      "privatePath": "textbook/04-08.mp3",
+      "bytes": 1258373,
+      "sha256": "67feb314fec079bca86dd1c5c940c4ff0585ebc211d177f50aa19662f09d923f",
+      "pdfPages": [
+        116
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l04-t09",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 4,
+      "source": "textbook",
+      "number": 9,
+      "originalName": "04-09.mp3",
+      "privatePath": "textbook/04-09.mp3",
+      "bytes": 1190663,
+      "sha256": "f7e797a9c16c8978c53e15e5652470bf03f7cf4f96f0a1679c74cf43c1815439",
+      "pdfPages": [
+        117
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l04-t10",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 4,
+      "source": "textbook",
+      "number": 10,
+      "originalName": "04-10.mp3",
+      "privatePath": "textbook/04-10.mp3",
+      "bytes": 910631,
+      "sha256": "b47654ef7aa7655b046c09917454e529ec8448a136abbe7c5b7d666fa49749c8",
+      "pdfPages": [
+        118
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l04-t11",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 4,
+      "source": "textbook",
+      "number": 11,
+      "originalName": "04-11.mp3",
+      "privatePath": "textbook/04-11.mp3",
+      "bytes": 900182,
+      "sha256": "bfdfc302c30ff998ed71622651a0aefb98794ca0260143f6aa9a19334acbf9f8",
+      "pdfPages": [
+        118
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l04-t12",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 4,
+      "source": "textbook",
+      "number": 12,
+      "originalName": "04-12.mp3",
+      "privatePath": "textbook/04-12.mp3",
+      "bytes": 913974,
+      "sha256": "ac8eadea6cbe58a8ca8717fc03f270c3085299d5760091019fa162d356dbeb03",
+      "pdfPages": [
+        119
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-workbook-l04-t01",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 4,
+      "source": "workbook",
+      "number": 1,
+      "originalName": "04-1.mp3",
+      "privatePath": "workbook/04-1.mp3",
+      "bytes": 3304701,
+      "sha256": "de5eb97b051cdc7c61e1941b42003026b433be9fa340e0fac729dac4d0ca7a20",
+      "pdfPages": [
+        27
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-workbook-l04-t02",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 4,
+      "source": "workbook",
+      "number": 2,
+      "originalName": "04-2.mp3",
+      "privatePath": "workbook/04-2.mp3",
+      "bytes": 1858562,
+      "sha256": "ef753a6c23eb9ec4f60ec5234a34507de6e96eb2f5fd5e322930bdf97c81af16",
+      "pdfPages": [
+        27
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l05-t01",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 5,
+      "source": "textbook",
+      "number": 1,
+      "originalName": "05-01.mp3",
+      "privatePath": "textbook/05-01.mp3",
+      "bytes": 3113694,
+      "sha256": "e4d1bd3fd9ae10da0927d104b25baa2e686d69519635eeb0fea3dc0f1b25a1a0",
+      "pdfPages": [
+        127
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l05-t02",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 5,
+      "source": "textbook",
+      "number": 2,
+      "originalName": "05-02.mp3",
+      "privatePath": "textbook/05-02.mp3",
+      "bytes": 2213827,
+      "sha256": "4c04129d0610fa53bedc871f2e5f6cc21cdfdef6d53b4831e58658022eac6a58",
+      "pdfPages": [
+        131
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l05-t03",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 5,
+      "source": "textbook",
+      "number": 3,
+      "originalName": "05-03.mp3",
+      "privatePath": "textbook/05-03.mp3",
+      "bytes": 2402745,
+      "sha256": "4d42d6045d6469eaabb670a2bf4afa327ac710a7563a9c4115f6fc7060804325",
+      "pdfPages": [
+        133
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l05-t04",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 5,
+      "source": "textbook",
+      "number": 4,
+      "originalName": "05-04.mp3",
+      "privatePath": "textbook/05-04.mp3",
+      "bytes": 2311630,
+      "sha256": "948491994199627bca42be5a0a6365ef757aab93fc24d37f39290aa3d9a502f2",
+      "pdfPages": [
+        135
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l05-t05",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 5,
+      "source": "textbook",
+      "number": 5,
+      "originalName": "05-05.mp3",
+      "privatePath": "textbook/05-05.mp3",
+      "bytes": 894748,
+      "sha256": "d701e7cb6407a53ae371e19a984c1b327041d6fa304759c084e16f673dc26a1b",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l05-t06",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 5,
+      "source": "textbook",
+      "number": 6,
+      "originalName": "05-06.mp3",
+      "privatePath": "textbook/05-06.mp3",
+      "bytes": 839160,
+      "sha256": "e14f918c2d67dc6c6d407e9a20ed7c6d7b3dfdea455a3cfc5bd1d0c13141506a",
+      "pdfPages": [
+        138
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l05-t07",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 5,
+      "source": "textbook",
+      "number": 7,
+      "originalName": "05-07.mp3",
+      "privatePath": "textbook/05-07.mp3",
+      "bytes": 804051,
+      "sha256": "c56a996b955f0f0b2990323d55737f5f08a999187fecfa7e7054a1941204bb6f",
+      "pdfPages": [
+        140
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l05-t08",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 5,
+      "source": "textbook",
+      "number": 8,
+      "originalName": "05-08.mp3",
+      "privatePath": "textbook/05-08.mp3",
+      "bytes": 1355339,
+      "sha256": "587b3979f45dd25219f7f7552b00b6403068381d52d0a674c7cf31bb9219158d",
+      "pdfPages": [
+        141
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l05-t09",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 5,
+      "source": "textbook",
+      "number": 9,
+      "originalName": "05-09.mp3",
+      "privatePath": "textbook/05-09.mp3",
+      "bytes": 722131,
+      "sha256": "7e175ff942ccf1c50b3328f20745ec3079fb7b1915ef2c5312059b14a06e6cd2",
+      "pdfPages": [
+        142
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l05-t10",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 5,
+      "source": "textbook",
+      "number": 10,
+      "originalName": "05-10.mp3",
+      "privatePath": "textbook/05-10.mp3",
+      "bytes": 1210307,
+      "sha256": "7e6e4da218bcf939150f957f59a76e8971ee86a9489b2e7aea8f85c706e00b31",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l05-t11",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 5,
+      "source": "textbook",
+      "number": 11,
+      "originalName": "05-11.mp3",
+      "privatePath": "textbook/05-11.mp3",
+      "bytes": 962876,
+      "sha256": "1222f621d2864bbc0aa4fcc31c4df89bd751f9c3043c274e4109d78e241904f2",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l05-t12",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 5,
+      "source": "textbook",
+      "number": 12,
+      "originalName": "05-12.mp3",
+      "privatePath": "textbook/05-12.mp3",
+      "bytes": 839160,
+      "sha256": "8652953d266c5b9714c4893d96fce372d807823b8e901ab7ad6daeaf97926ae2",
+      "pdfPages": [
+        147
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-workbook-l05-t01",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 5,
+      "source": "workbook",
+      "number": 1,
+      "originalName": "05-1.mp3",
+      "privatePath": "workbook/05-1.mp3",
+      "bytes": 3493618,
+      "sha256": "ab05b5269a573bb27304a0bb22c5e0b27a83cfe7e0e13773825ceb102574d53d",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-workbook-l05-t02",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 5,
+      "source": "workbook",
+      "number": 2,
+      "originalName": "05-2.mp3",
+      "privatePath": "workbook/05-2.mp3",
+      "bytes": 2081752,
+      "sha256": "831e9a0b2afb02acdc360676aeb3770e6f4435187abdad0023efee1a478b5afb",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l06-t01",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 6,
+      "source": "textbook",
+      "number": 1,
+      "originalName": "06-01.mp3",
+      "privatePath": "textbook/06-01.mp3",
+      "bytes": 2781834,
+      "sha256": "30872947496813cee8c7f2ce23975d2a25e23e678b9939694291997bad6bf341",
+      "pdfPages": [
+        155
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l06-t02",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 6,
+      "source": "textbook",
+      "number": 2,
+      "originalName": "06-02.mp3",
+      "privatePath": "textbook/06-02.mp3",
+      "bytes": 2128982,
+      "sha256": "97b1af66697b95a61e1cb542174b9637c2c52c3beae31134653c7bf657718961",
+      "pdfPages": [
+        159
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l06-t03",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 6,
+      "source": "textbook",
+      "number": 3,
+      "originalName": "06-03.mp3",
+      "privatePath": "textbook/06-03.mp3",
+      "bytes": 2474634,
+      "sha256": "37aa5a256cf42379c0851751f54c3034fe1b4436f543c8701e8c1845aa363f23",
+      "pdfPages": [
+        161
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l06-t04",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 6,
+      "source": "textbook",
+      "number": 4,
+      "originalName": "06-04.mp3",
+      "privatePath": "textbook/06-04.mp3",
+      "bytes": 2264401,
+      "sha256": "434f85bf094c6d672ed47183993cf5b588d52cbbbc725a8f7acf29b73bf108b9",
+      "pdfPages": [
+        163
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l06-t05",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 6,
+      "source": "textbook",
+      "number": 5,
+      "originalName": "06-05.mp3",
+      "privatePath": "textbook/06-05.mp3",
+      "bytes": 1423467,
+      "sha256": "4208b79a1688e6c11a97cc1ab4b19553e98487198d41cf126b9ac34d316c50a1",
+      "pdfPages": [
+        165
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l06-t06",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 6,
+      "source": "textbook",
+      "number": 6,
+      "originalName": "06-06.mp3",
+      "privatePath": "textbook/06-06.mp3",
+      "bytes": 988789,
+      "sha256": "06959bead8e2faf9f24d063378c543971ef9b42a62360840fd0c647b0925452b",
+      "pdfPages": [
+        166
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l06-t07",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 6,
+      "source": "textbook",
+      "number": 7,
+      "originalName": "06-07.mp3",
+      "privatePath": "textbook/06-07.mp3",
+      "bytes": 1285958,
+      "sha256": "e75a9ab9231a7eae6266455d72a1da592f1062082742363a97b2a6b0499918bb",
+      "pdfPages": [
+        167
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l06-t08",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 6,
+      "source": "textbook",
+      "number": 8,
+      "originalName": "06-08.mp3",
+      "privatePath": "textbook/06-08.mp3",
+      "bytes": 827039,
+      "sha256": "acc15ecb445ac2f430c48d0a26b29a0ebe447fe127487edeea544c1a31228780",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l06-t09",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 6,
+      "source": "textbook",
+      "number": 9,
+      "originalName": "06-09.mp3",
+      "privatePath": "textbook/06-09.mp3",
+      "bytes": 834144,
+      "sha256": "886532251513a5bde6ce0e39a3619a855b6f1946f723a4670b869726f699d71e",
+      "pdfPages": [
+        169
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l06-t10",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 6,
+      "source": "textbook",
+      "number": 10,
+      "originalName": "06-10.mp3",
+      "privatePath": "textbook/06-10.mp3",
+      "bytes": 905615,
+      "sha256": "dc7b06ae27d778f40fc9511f63c8c007089f2198fa24b2b757683393ff996ada",
+      "pdfPages": [
+        170
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l06-t11",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 6,
+      "source": "textbook",
+      "number": 11,
+      "originalName": "06-11.mp3",
+      "privatePath": "textbook/06-11.mp3",
+      "bytes": 1168094,
+      "sha256": "854f2a6cc88b20c9d695a93242061930c8ea14fd527486c0a48021582f25dd47",
+      "pdfPages": [
+        171
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l06-t12",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 6,
+      "source": "textbook",
+      "number": 12,
+      "originalName": "06-12.mp3",
+      "privatePath": "textbook/06-12.mp3",
+      "bytes": 989625,
+      "sha256": "078fd479cef102244d2f39bfdb3eacb3d6cbc33257be7e0b5c71dd5c0631f8dc",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-workbook-l06-t01",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 6,
+      "source": "workbook",
+      "number": 1,
+      "originalName": "06-1.mp3",
+      "privatePath": "workbook/06-1.mp3",
+      "bytes": 3261651,
+      "sha256": "df3ee38651f0d079f41f955a1a58f512abf8cd5d636a85caaa180939eb94695d",
+      "pdfPages": [
+        43
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-workbook-l06-t02",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 6,
+      "source": "workbook",
+      "number": 2,
+      "originalName": "06-2.mp3",
+      "privatePath": "workbook/06-2.mp3",
+      "bytes": 1897014,
+      "sha256": "697c89c94ceda500cbf7d75bd6f9888584f1799e00f4d59532f51b594a3f7c8f",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l07-t01",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 7,
+      "source": "textbook",
+      "number": 1,
+      "originalName": "07-01.mp3",
+      "privatePath": "textbook/07-01.mp3",
+      "bytes": 3095303,
+      "sha256": "4604a94242c96fe998f5cfe3dbeec66494a5e6947fc696c751fa8a0853406149",
+      "pdfPages": [
+        181
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l07-t02",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 7,
+      "source": "textbook",
+      "number": 2,
+      "originalName": "07-02.mp3",
+      "privatePath": "textbook/07-02.mp3",
+      "bytes": 2579960,
+      "sha256": "0db193a373f365c1de2b6bfab85f981ebd65454f891b09078641fb67fe78677b",
+      "pdfPages": [
+        185
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l07-t03",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 7,
+      "source": "textbook",
+      "number": 3,
+      "originalName": "07-03.mp3",
+      "privatePath": "textbook/07-03.mp3",
+      "bytes": 2661880,
+      "sha256": "a993d5246e32e4e04897360c63d8e2054f8771945dae634aa51bce153efde976",
+      "pdfPages": [
+        187
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l07-t04",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 7,
+      "source": "textbook",
+      "number": 4,
+      "originalName": "07-04.mp3",
+      "privatePath": "textbook/07-04.mp3",
+      "bytes": 2299927,
+      "sha256": "3114d386d7769d645013bf99b135178cd1392eee41950dcecb81f016b66b04ad",
+      "pdfPages": [
+        189
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l07-t05",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 7,
+      "source": "textbook",
+      "number": 5,
+      "originalName": "07-05.mp3",
+      "privatePath": "textbook/07-05.mp3",
+      "bytes": 1423467,
+      "sha256": "f39639f252a2c9e80c612aa50450be776e4a6661f33bde311980e7c622b3b3ed",
+      "pdfPages": [
+        191
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l07-t06",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 7,
+      "source": "textbook",
+      "number": 6,
+      "originalName": "07-06.mp3",
+      "privatePath": "textbook/07-06.mp3",
+      "bytes": 926931,
+      "sha256": "e38a7473f3662a3e3cf5fcc8031d28cd04104e343d75b2ca0488afade50c040e",
+      "pdfPages": [
+        192
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l07-t07",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 7,
+      "source": "textbook",
+      "number": 7,
+      "originalName": "07-07.mp3",
+      "privatePath": "textbook/07-07.mp3",
+      "bytes": 929021,
+      "sha256": "8aea68597e0813b33a0546416cedab3f639ddafa629d4761fcc793b4e9ae3902",
+      "pdfPages": [
+        193
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l07-t08",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 7,
+      "source": "textbook",
+      "number": 8,
+      "originalName": "07-08.mp3",
+      "privatePath": "textbook/07-08.mp3",
+      "bytes": 906451,
+      "sha256": "165f7104573b67cf9c1a18fcc0399a8571940e2538dae8741f1c409c4ec22236",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l07-t09",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 7,
+      "source": "textbook",
+      "number": 9,
+      "originalName": "07-09.mp3",
+      "privatePath": "textbook/07-09.mp3",
+      "bytes": 1203202,
+      "sha256": "2fc0df0828ed92c278e5c6251fea91b0b1cabd5d3504edd00762db9c85a9cc67",
+      "pdfPages": [
+        195
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l07-t10",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 7,
+      "source": "textbook",
+      "number": 10,
+      "originalName": "07-10.mp3",
+      "privatePath": "textbook/07-10.mp3",
+      "bytes": 1404241,
+      "sha256": "7501b355f7138184115896249fd292ed8443db813e9bcea31843eb848baaab46",
+      "pdfPages": [
+        196
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l07-t11",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 7,
+      "source": "textbook",
+      "number": 11,
+      "originalName": "07-11.mp3",
+      "privatePath": "textbook/07-11.mp3",
+      "bytes": 917318,
+      "sha256": "b3855e680af05352d6a54b87b36d8f0e317b75be3227d81192abfd71ae23958e",
+      "pdfPages": [
+        197
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-workbook-l07-t01",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 7,
+      "source": "workbook",
+      "number": 1,
+      "originalName": "07-1.mp3",
+      "privatePath": "workbook/07-1.mp3",
+      "bytes": 2821122,
+      "sha256": "23177d96d0440ab9ffd1f5bf52c282941868a621a57eaf2b735e607158afbe33",
+      "pdfPages": [
+        51
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-workbook-l07-t02",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 7,
+      "source": "workbook",
+      "number": 2,
+      "originalName": "07-2.mp3",
+      "privatePath": "workbook/07-2.mp3",
+      "bytes": 1590232,
+      "sha256": "9a6ea003b610d5d2e98f7ecaa177983b0455204f922000e8e99e026eeb0d2c23",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l08-t01",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 8,
+      "source": "textbook",
+      "number": 1,
+      "originalName": "08-01.mp3",
+      "privatePath": "textbook/08-01.mp3",
+      "bytes": 2964482,
+      "sha256": "f171266a943feb6672d0b3864eebb0b874ea8eaedfc66794f4959a67bba2bf4a",
+      "pdfPages": [
+        207
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l08-t02",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 8,
+      "source": "textbook",
+      "number": 2,
+      "originalName": "08-02.mp3",
+      "privatePath": "textbook/08-02.mp3",
+      "bytes": 2439525,
+      "sha256": "36c71a077a6102733c7ed391e22d40856d1ce1ea2e5535231f7c1454095e210a",
+      "pdfPages": [
+        211
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l08-t03",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 8,
+      "source": "textbook",
+      "number": 3,
+      "originalName": "08-03.mp3",
+      "privatePath": "textbook/08-03.mp3",
+      "bytes": 2725409,
+      "sha256": "ff22a8ff1582ce0e5907c230c12641c427ca518ff9dde77b7489b4beea0ddece",
+      "pdfPages": [
+        213
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l08-t04",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 8,
+      "source": "textbook",
+      "number": 4,
+      "originalName": "08-04.mp3",
+      "privatePath": "textbook/08-04.mp3",
+      "bytes": 3389547,
+      "sha256": "d9fa0afe486ac85106476d18c4324319978153be5a474200a5f3192d0c5742ce",
+      "pdfPages": [
+        216
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l08-t05",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 8,
+      "source": "textbook",
+      "number": 5,
+      "originalName": "08-05.mp3",
+      "privatePath": "textbook/08-05.mp3",
+      "bytes": 1135493,
+      "sha256": "947ec4678f2edcb600bc09e4c8171d42dc76f46d0ae15f3cabf5e74115895581",
+      "pdfPages": [
+        218
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l08-t06",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 8,
+      "source": "textbook",
+      "number": 6,
+      "originalName": "08-06.mp3",
+      "privatePath": "textbook/08-06.mp3",
+      "bytes": 1206546,
+      "sha256": "9c920ef8408d9effb32b89b4ae33df102340928a869f933de28d8c4cbe962d27",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l08-t07",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 8,
+      "source": "textbook",
+      "number": 7,
+      "originalName": "08-07.mp3",
+      "privatePath": "textbook/08-07.mp3",
+      "bytes": 1282196,
+      "sha256": "81228b5c64c31e9cab27347bacf333a8a9dbfd9e22d65099706ff23dde67cdc7",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l08-t08",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 8,
+      "source": "textbook",
+      "number": 8,
+      "originalName": "08-08.mp3",
+      "privatePath": "textbook/08-08.mp3",
+      "bytes": 842921,
+      "sha256": "ba4337391b8c739f18120c75bff7782285982c9d65e1d991cd35ec7683907533",
+      "pdfPages": [
+        221
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l08-t09",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 8,
+      "source": "textbook",
+      "number": 9,
+      "originalName": "08-09.mp3",
+      "privatePath": "textbook/08-09.mp3",
+      "bytes": 1004672,
+      "sha256": "e8a38c517e64759324dba4b602c7661a76394f0fe721c58ca5912e9586838642",
+      "pdfPages": [
+        222
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l08-t10",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 8,
+      "source": "textbook",
+      "number": 10,
+      "originalName": "08-10.mp3",
+      "privatePath": "textbook/08-10.mp3",
+      "bytes": 853788,
+      "sha256": "18fc1c71ba4f3a4d525c5a41d84d338dcfa4fd0dc6b352356a0344791b4c78fa",
+      "pdfPages": [
+        223
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l08-t11",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 8,
+      "source": "textbook",
+      "number": 11,
+      "originalName": "08-11.mp3",
+      "privatePath": "textbook/08-11.mp3",
+      "bytes": 880956,
+      "sha256": "0b126594bc9248c40386cf2948679c36784cf44544347a6c43e502a6a020461f",
+      "pdfPages": [
+        224
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l08-t12",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 8,
+      "source": "textbook",
+      "number": 12,
+      "originalName": "08-12.mp3",
+      "privatePath": "textbook/08-12.mp3",
+      "bytes": 660691,
+      "sha256": "4b1e81cc5ac76a304b497d20d6f34f153f6adea5a87b66e0f97f8231d2d42c3c",
+      "pdfPages": [
+        225
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-workbook-l08-t01",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 8,
+      "source": "workbook",
+      "number": 1,
+      "originalName": "08-1.mp3",
+      "privatePath": "workbook/08-1.mp3",
+      "bytes": 3350258,
+      "sha256": "929bbbfa8383e25fd3ae611755731302b9a8120b9337ef52101fa3b0218a44a6",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-workbook-l08-t02",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 8,
+      "source": "workbook",
+      "number": 2,
+      "originalName": "08-2.mp3",
+      "privatePath": "workbook/08-2.mp3",
+      "bytes": 1728159,
+      "sha256": "1563e8f994f2cde6c0b2b5fd5050d1cd5a62d06a82c8716962e171dff9bdf528",
+      "pdfPages": [
+        59
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l09-t01",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 9,
+      "source": "textbook",
+      "number": 1,
+      "originalName": "09-01.mp3",
+      "privatePath": "textbook/09-01.mp3",
+      "bytes": 3193524,
+      "sha256": "b0b653df05a4576e6c291dbae284a783a20508235a7e9538024ff4c5b109695e",
+      "pdfPages": [
+        233
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l09-t02",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 9,
+      "source": "textbook",
+      "number": 2,
+      "originalName": "09-02.mp3",
+      "privatePath": "textbook/09-02.mp3",
+      "bytes": 1982278,
+      "sha256": "e5ff30a0081974aa4b6e4a1827900b93475a5efd16143bae1ffa08bab24c6d38",
+      "pdfPages": [
+        237
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l09-t03",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 9,
+      "source": "textbook",
+      "number": 3,
+      "originalName": "09-03.mp3",
+      "privatePath": "textbook/09-03.mp3",
+      "bytes": 2689047,
+      "sha256": "4229ab00cefafd3d498764ea23cbe56f7eabb1061931d79bcfaf3838b12444b0",
+      "pdfPages": [
+        238
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l09-t04",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 9,
+      "source": "textbook",
+      "number": 4,
+      "originalName": "09-04.mp3",
+      "privatePath": "textbook/09-04.mp3",
+      "bytes": 2691137,
+      "sha256": "6af511098fc7aee50a419d673834c3fbac9e67ab30b99339d4071444e91917b0",
+      "pdfPages": [
+        241
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l09-t05",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 9,
+      "source": "textbook",
+      "number": 5,
+      "originalName": "09-05.mp3",
+      "privatePath": "textbook/09-05.mp3",
+      "bytes": 1041870,
+      "sha256": "bb1035a80fffb59ce7169e3224c774415c96212c4937b58b478b01a655357be7",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l09-t06",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 9,
+      "source": "textbook",
+      "number": 6,
+      "originalName": "09-06.mp3",
+      "privatePath": "textbook/09-06.mp3",
+      "bytes": 1365370,
+      "sha256": "6c83e0d2bb52281c0a0e5af1d40772b71d9794a5a6d0e1c28844f7a1229d5ca7",
+      "pdfPages": [
+        244
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l09-t07",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 9,
+      "source": "textbook",
+      "number": 7,
+      "originalName": "09-07.mp3",
+      "privatePath": "textbook/09-07.mp3",
+      "bytes": 957860,
+      "sha256": "9e6ee9cf2a3e0c1d58a852ebeef1ccd6ea9ca0c0a5354bc6098079bc8b40cc45",
+      "pdfPages": [
+        245
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l09-t08",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 9,
+      "source": "textbook",
+      "number": 8,
+      "originalName": "09-08.mp3",
+      "privatePath": "textbook/09-08.mp3",
+      "bytes": 891823,
+      "sha256": "911231a620ded79e805a66feded1fddb5d5cdf22cd74ba7a190cd45d74005853",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l09-t09",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 9,
+      "source": "textbook",
+      "number": 9,
+      "originalName": "09-09.mp3",
+      "privatePath": "textbook/09-09.mp3",
+      "bytes": 1073635,
+      "sha256": "3e66921ecfe4e060c6bf95ee591ce5b0abc8f40f9cee746b06cbe0934352ac22",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l09-t10",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 9,
+      "source": "textbook",
+      "number": 10,
+      "originalName": "09-10.mp3",
+      "privatePath": "textbook/09-10.mp3",
+      "bytes": 820352,
+      "sha256": "ae8f588efaf0408a259739b91ebff2592b010e5e6a6893d0aa20d5c7269fef85",
+      "pdfPages": [
+        248
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l09-t11",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 9,
+      "source": "textbook",
+      "number": 11,
+      "originalName": "09-11.mp3",
+      "privatePath": "textbook/09-11.mp3",
+      "bytes": 878030,
+      "sha256": "f1a4cb89d6760c92c8eadb05584b39a9fc6afe6633fba0bd4083572d0cf2d758",
+      "pdfPages": [
+        249
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-workbook-l09-t01",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 9,
+      "source": "workbook",
+      "number": 1,
+      "originalName": "09-1.mp3",
+      "privatePath": "workbook/09-1.mp3",
+      "bytes": 3558402,
+      "sha256": "f98156e8be54d0b07f306b91ec1d5b17b051567b98fbaf10ba7583a1d181f0a4",
+      "pdfPages": [
+        67
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-workbook-l09-t02",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 9,
+      "source": "workbook",
+      "number": 2,
+      "originalName": "09-2.mp3",
+      "privatePath": "workbook/09-2.mp3",
+      "bytes": 1727741,
+      "sha256": "210037542cc674d227312b2adeb43636768742799a78134b3c86357716b4d8e5",
+      "pdfPages": [
+        67
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l10-t01",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 10,
+      "source": "textbook",
+      "number": 1,
+      "originalName": "10-01.mp3",
+      "privatePath": "textbook/10-01.mp3",
+      "bytes": 2936061,
+      "sha256": "a0de8076eb156b753177177ae28594022817bb41afa420ed8e836ef6ebc97f55",
+      "pdfPages": [
+        257
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l10-t02",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 10,
+      "source": "textbook",
+      "number": 2,
+      "originalName": "10-02.mp3",
+      "privatePath": "textbook/10-02.mp3",
+      "bytes": 2231800,
+      "sha256": "37efda3d3d5c10587e3d8f74f5e204b7572ad61786bf2fde19db552380b5a834",
+      "pdfPages": [
+        261
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l10-t03",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 10,
+      "source": "textbook",
+      "number": 3,
+      "originalName": "10-03.mp3",
+      "privatePath": "textbook/10-03.mp3",
+      "bytes": 2740038,
+      "sha256": "9446770449f6f9e050ef7f29b86f6acd68d975609b1957481ddf5ffc1ae42790",
+      "pdfPages": [
+        263
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l10-t04",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 10,
+      "source": "textbook",
+      "number": 4,
+      "originalName": "10-04.mp3",
+      "privatePath": "textbook/10-04.mp3",
+      "bytes": 2391460,
+      "sha256": "8e6b6fd33c42d7d43f739ed5fc6e0def529340bd6a3b146cf1975541875dce5c",
+      "pdfPages": [
+        266
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l10-t05",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 10,
+      "source": "textbook",
+      "number": 5,
+      "originalName": "10-05.mp3",
+      "privatePath": "textbook/10-05.mp3",
+      "bytes": 1172273,
+      "sha256": "106152475a64307c94a319c30256a0d86add2577682f1a213fb705bc4b7bd80a",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l10-t06",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 10,
+      "source": "textbook",
+      "number": 6,
+      "originalName": "10-06.mp3",
+      "privatePath": "textbook/10-06.mp3",
+      "bytes": 1168512,
+      "sha256": "cff766972459635d21b697f0958fa28d870ac3f8e3630bc540e7a03d93a15914",
+      "pdfPages": [
+        268
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l10-t07",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 10,
+      "source": "textbook",
+      "number": 7,
+      "originalName": "10-07.mp3",
+      "privatePath": "textbook/10-07.mp3",
+      "bytes": 1762014,
+      "sha256": "d8a5a0c065e347e0a29120956ad1df90a2f45f99f8ef45e68f8fc2d84d8a692d",
+      "pdfPages": [
+        269
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l10-t08",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 10,
+      "source": "textbook",
+      "number": 8,
+      "originalName": "10-08.mp3",
+      "privatePath": "textbook/10-08.mp3",
+      "bytes": 1131313,
+      "sha256": "b419df6dd1d71b5a0bb5a8e72146e731ed6644e3a1fad4519f3603fe7b6f7ee8",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l10-t09",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 10,
+      "source": "textbook",
+      "number": 9,
+      "originalName": "10-09.mp3",
+      "privatePath": "textbook/10-09.mp3",
+      "bytes": 3542520,
+      "sha256": "979afae958a86992b9c31cc5162d9e1c9c2fc784b95a853341aa915abf8c3b10",
+      "pdfPages": [
+        272
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l10-t10",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 10,
+      "source": "textbook",
+      "number": 10,
+      "originalName": "10-10.mp3",
+      "privatePath": "textbook/10-10.mp3",
+      "bytes": 857550,
+      "sha256": "7bdffffb71832c507c93183352e6dbbc5843e9ed79730bcbc2ad6688a80f23b2",
+      "pdfPages": [
+        274
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-workbook-l10-t01",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 10,
+      "source": "workbook",
+      "number": 1,
+      "originalName": "10-1.mp3",
+      "privatePath": "workbook/10-1.mp3",
+      "bytes": 2938987,
+      "sha256": "4b71c07ad97735919572e0ec36992c05f2ff5a375719271bf16733f3528ff34e",
+      "pdfPages": [
+        75
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-workbook-l10-t02",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 10,
+      "source": "workbook",
+      "number": 2,
+      "originalName": "10-2.mp3",
+      "privatePath": "workbook/10-2.mp3",
+      "bytes": 2208394,
+      "sha256": "da5c84b7e771f99318e07c69a60ee8527a2960dae9a1c7cfc6a4b3475a468b32",
+      "pdfPages": [
+        75
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l11-t01",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 11,
+      "source": "textbook",
+      "number": 1,
+      "originalName": "11-01.mp3",
+      "privatePath": "textbook/11-01.mp3",
+      "bytes": 3522040,
+      "sha256": "1e0e0ee8dbc594383a01fa04e08dbc53e58e68f3ba78906820df610016fb870c",
+      "pdfPages": [
+        285,
+        298
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l11-t02",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 11,
+      "source": "textbook",
+      "number": 2,
+      "originalName": "11-02.mp3",
+      "privatePath": "textbook/11-02.mp3",
+      "bytes": 2824048,
+      "sha256": "50711b9c9a8f6d435cafc95e607c46aa7cf8e92e706764fbf62c060d4b5bbc2e",
+      "pdfPages": [
+        289
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l11-t03",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 11,
+      "source": "textbook",
+      "number": 3,
+      "originalName": "11-03.mp3",
+      "privatePath": "textbook/11-03.mp3",
+      "bytes": 2905968,
+      "sha256": "fb3901eaf58fc3324cbaf8d4130ec9f3da1076acda13366de8b0950ef88501d0",
+      "pdfPages": [
+        291
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l11-t04",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 11,
+      "source": "textbook",
+      "number": 4,
+      "originalName": "11-04.mp3",
+      "privatePath": "textbook/11-04.mp3",
+      "bytes": 2905550,
+      "sha256": "7c7ae662cd33b79f1103076de52b039bdcabd7d8095776c9f092a1140f910da1",
+      "pdfPages": [
+        293
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l11-t05",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 11,
+      "source": "textbook",
+      "number": 5,
+      "originalName": "11-05.mp3",
+      "privatePath": "textbook/11-05.mp3",
+      "bytes": 1781240,
+      "sha256": "2e0b8f8e4a25ecd337c770c87493ff833a4566c6adbfea034201e1249a858591",
+      "pdfPages": [
+        296
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l11-t06",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 11,
+      "source": "textbook",
+      "number": 6,
+      "originalName": "11-06.mp3",
+      "privatePath": "textbook/11-06.mp3",
+      "bytes": 1064858,
+      "sha256": "236e12729d249b0553b4e84d0f851f724011b7161611590606f5deef8023000a",
+      "pdfPages": [
+        297
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l11-t07",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 11,
+      "source": "textbook",
+      "number": 7,
+      "originalName": "11-07.mp3",
+      "privatePath": "textbook/11-07.mp3",
+      "bytes": 1288466,
+      "sha256": "aba64b5a34c406023c3749aab3a392e10d6feb96cebc9d9a628858b82a3b1a49",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l11-t08",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 11,
+      "source": "textbook",
+      "number": 8,
+      "originalName": "11-08.mp3",
+      "privatePath": "textbook/11-08.mp3",
+      "bytes": 1028077,
+      "sha256": "3427039df45d267e603992723b69325dd59665bb796ae6f066bbaafdb3b4f4f2",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l11-t09",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 11,
+      "source": "textbook",
+      "number": 9,
+      "originalName": "11-09.mp3",
+      "privatePath": "textbook/11-09.mp3",
+      "bytes": 916900,
+      "sha256": "9638416d6439558d9fc1d5222dcc80005dd887008c1588efab403a234ff5ec53",
+      "pdfPages": [
+        300
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l11-t10",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 11,
+      "source": "textbook",
+      "number": 10,
+      "originalName": "11-10.mp3",
+      "privatePath": "textbook/11-10.mp3",
+      "bytes": 2001086,
+      "sha256": "e7e63da26616b19723f9298969352963783cfeec57da918f9e902ea37ec27a83",
+      "pdfPages": [
+        301
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-workbook-l11-t01",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 11,
+      "source": "workbook",
+      "number": 1,
+      "originalName": "11-1.mp3",
+      "privatePath": "workbook/11-1.mp3",
+      "bytes": 3508247,
+      "sha256": "24684b6b80581b730afc0f17d47569108ec9e104dc77556bfe54e9cb79d8a579",
+      "pdfPages": [
+        83
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-workbook-l11-t02",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 11,
+      "source": "workbook",
+      "number": 2,
+      "originalName": "11-2.mp3",
+      "privatePath": "workbook/11-2.mp3",
+      "bytes": 3305537,
+      "sha256": "74f97359a380c42968d96f5ea4538e7857a0a7a2705ffed4e11a89d0182cd993",
+      "pdfPages": [
+        83
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l12-t01",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 12,
+      "source": "textbook",
+      "number": 1,
+      "originalName": "12-01.mp3",
+      "privatePath": "textbook/12-01.mp3",
+      "bytes": 2987052,
+      "sha256": "d6ecfff4a1c65939bfeef6b5a1c833f9ca0f8edb67129629033af0b9ef3a5678",
+      "pdfPages": [
+        309,
+        323,
+        338,
+        339,
+        340,
+        341,
+        342,
+        343,
+        345,
+        346,
+        348,
+        349,
+        350,
+        351,
+        352,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l12-t02",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 12,
+      "source": "textbook",
+      "number": 2,
+      "originalName": "12-02.mp3",
+      "privatePath": "textbook/12-02.mp3",
+      "bytes": 2816525,
+      "sha256": "fc27c499620e8a12d2354cd908b4ca4db5a31743365025ee0d21cc2e362c46fc",
+      "pdfPages": [
+        313,
+        337,
+        338,
+        339,
+        340,
+        341,
+        342,
+        343,
+        344,
+        345,
+        346,
+        349,
+        350,
+        351,
+        352,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l12-t03",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 12,
+      "source": "textbook",
+      "number": 3,
+      "originalName": "12-03.mp3",
+      "privatePath": "textbook/12-03.mp3",
+      "bytes": 2739202,
+      "sha256": "3b9f2c120bb0422e0b93a67ca7a6382305026c11554f6c1516348e2ae854b973",
+      "pdfPages": [
+        315
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l12-t04",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 12,
+      "source": "textbook",
+      "number": 4,
+      "originalName": "12-04.mp3",
+      "privatePath": "textbook/12-04.mp3",
+      "bytes": 2849543,
+      "sha256": "59f09578cb526955ff80d5d1c21bd25565d4910395e2d215d23785b809f856f6",
+      "pdfPages": [
+        317
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l12-t05",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 12,
+      "source": "textbook",
+      "number": 5,
+      "originalName": "12-05.mp3",
+      "privatePath": "textbook/12-05.mp3",
+      "bytes": 2658954,
+      "sha256": "86fa45a095539bad0d9c88da8eaf6e39ed0375783804c6b5dad0b26bd9018a55",
+      "pdfPages": [
+        319
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l12-t06",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 12,
+      "source": "textbook",
+      "number": 6,
+      "originalName": "12-06.mp3",
+      "privatePath": "textbook/12-06.mp3",
+      "bytes": 1889909,
+      "sha256": "04cfbdf53041fcd3fc43542e8f9cf34aa3ae59a704c06441b5ca90644067288a",
+      "pdfPages": [
+        321
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l12-t07",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 12,
+      "source": "textbook",
+      "number": 7,
+      "originalName": "12-07.mp3",
+      "privatePath": "textbook/12-07.mp3",
+      "bytes": 1774134,
+      "sha256": "443be776b5bc45aa332f6f8e830dc0d4757855170592ebaf20745e07a6e1aec5",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l12-t08",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 12,
+      "source": "textbook",
+      "number": 8,
+      "originalName": "12-08.mp3",
+      "privatePath": "textbook/12-08.mp3",
+      "bytes": 1357847,
+      "sha256": "4217415a9b112b4c87f5e8cc824ff93c2f462b8390a868da615af28de4ca3eca",
+      "pdfPages": [
+        325
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-textbook-l12-t10",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 12,
+      "source": "textbook",
+      "number": 10,
+      "originalName": "12-10.mp3",
+      "privatePath": "textbook/12-10.mp3",
+      "bytes": 3056015,
+      "sha256": "19678aabb50a571555057a2be65ddd424b190b3bb2103cc3cf26211df1b2558a",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-workbook-l12-t01",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 12,
+      "source": "workbook",
+      "number": 1,
+      "originalName": "12-1.mp3",
+      "privatePath": "workbook/12-1.mp3",
+      "bytes": 3328943,
+      "sha256": "e72451e721a4c7fcd5b66f71715c7e4eef22f0af435e23facf72bb584f7990c6",
+      "pdfPages": [
+        91
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc3-workbook-l12-t02",
+      "courseId": "cc3",
+      "volume": 3,
+      "lesson": 12,
+      "source": "workbook",
+      "number": 2,
+      "originalName": "12-2.mp3",
+      "privatePath": "workbook/12-2.mp3",
+      "bytes": 1928361,
+      "sha256": "0022f25ef0c6d69d2e9a5a9b248d9ced3a64ad5b2158a391d2c8602f5696d82b",
+      "pdfPages": [
+        91
+      ],
+      "mappingStatus": "pending",
+      "activity": null
+    }
+  ]
+}

@@ -26,7 +26,7 @@ export default function AcademyJourney({ lessons, volume = academyVolume, summar
     return () => window.clearTimeout(timer);
   }, [lessons, volume]);
   const availableByNumber = new Map(lessons.map((lesson) => [lesson.number, lesson]));
-  return <ol className="academy-route mt-8" aria-label={t("Hành trình 15 bài học")}>
+  return <ol className="academy-route mt-8" aria-label={t("HÀNH TRÌNH HỌC TẬP")}>
     {volume.lessonIds.map((id, index) => {
       const number = index + 1;
       const available = availableByNumber.get(number);

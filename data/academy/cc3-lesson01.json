@@ -1,0 +1,1087 @@
+{
+  "contentVersion": 2,
+  "id": "cc3-v3-l01",
+  "title": "開學了",
+  "titleVi": "Khai giảng rồi",
+  "description": "Bài học về chọn lớp, chuyển ngành và học bổng qua hội thoại và bài đọc của Tập 3.",
+  "objectives": [
+    "Trao đổi về lớp học, kỳ thi, học bổng và việc chuyển ngành.",
+    "Dùng …的話, 不到, 差一點 và 恐怕 để nói điều kiện, số lượng và dự đoán.",
+    "Kể một kết quả khó đạt được và diễn tả quyết định bất ngờ bằng 好不容易 và 說…就….",
+    "Diễn đạt việc không đổi dù điều kiện thay đổi bằng 不管…都…."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Ngày đầu học kỳ, An Đức Tư và La San Đế kể về lớp mới. Hà Nhã Đình cũng chia sẻ lý do chuyển ngành. Hãy nghe hội thoại trước, rồi đọc bài về quyết định của cô ấy.",
+    "sections": [
+      {
+        "id": "cc3-v3-l01-section-01",
+        "title": "Chuyện lớp mới",
+        "body": "Chú ý cách hai người hỏi về bạn học, giáo viên và áp lực học tập. Ngoài 口試 và 筆試, lớp của An Đức Tư còn có bài báo cáo miệng.",
+        "chinese": "我們這學期除了每一課的口試、筆試以外，還要做兩次口頭報告。",
+        "simplified": "我们这学期除了每一课的口试、笔试以外，还要做两次口头报告。",
+        "pinyin": "wǒ men zhè xué qī chú le měi yī kè de kǒu shì 、 bǐ shì yǐ wài ， hái yào zuò liǎng cì kǒu tóu bào gào 。",
+        "meaningVi": "Học kỳ này, ngoài thi vấn đáp và thi viết của mỗi bài, chúng tôi còn phải thuyết trình miệng hai lần."
+      },
+      {
+        "id": "cc3-v3-l01-section-02",
+        "title": "Một quyết định có lý do",
+        "body": "Hà Nhã Đình chuyển ngành vì ngành cũ không hợp sở thích. Đọc để tìm điều cô ấy nói với mẹ và thủ tục sau khi mẹ đồng ý.",
+        "chinese": "她想了很久，決定跟媽媽討論轉系的事。",
+        "simplified": "她想了很久，决定跟妈妈讨论转系的事。",
+        "pinyin": "tā xiǎng le hěn jiǔ ， jué dìng gēn mā mā tǎo lùn zhuǎn xì de shì 。",
+        "meaningVi": "Cô ấy suy nghĩ rất lâu rồi quyết định bàn chuyện chuyển ngành với mẹ."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc3-v3-l01-dialogue",
+        "title": "Ngày đầu học kỳ",
+        "context": "An Đức Tư và La San Đế nói chuyện sau giờ học; Hà Nhã Đình đi ngang qua.",
+        "audioTrackId": "cc3-textbook-l01-t01",
+        "turns": [
+          {
+            "speaker": "安德思",
+            "chinese": "羅珊蒂，下課啦！怎麼樣？你們班上有我們上個學期的同學嗎？",
+            "simplified": "罗珊蒂，下课啦！怎么样？你们班上有我们上个学期的同学吗？",
+            "pinyin": "luó shān dì ， xià kè la ！ zěn me yàng ？ nǐ men bān shàng yǒu wǒ men shàng gè xué qī de tóng xué ma ？",
+            "meaningVi": "La San Đế, tan học rồi! Thế nào? Lớp bạn có ai học cùng chúng ta học kỳ trước không?"
+          },
+          {
+            "speaker": "羅珊蒂",
+            "chinese": "沒有，都沒有。你們班怎麼樣？",
+            "simplified": "没有，都没有。你们班怎么样？",
+            "pinyin": "méi yǒu ， dōu méi yǒu 。 nǐ men bān zěn me yàng ？",
+            "meaningVi": "Không, chẳng có ai cả. Lớp bạn thế nào?"
+          },
+          {
+            "speaker": "安德思",
+            "chinese": "都是新生，我一個也不認識，而且只有我一個男的。",
+            "simplified": "都是新生，我一个也不认识，而且只有我一个男的。",
+            "pinyin": "dōu shì xīn shēng ， wǒ yī gè yě bù rèn shí ， ér qiě zhǐ yǒu wǒ yī gè nán de 。",
+            "meaningVi": "Toàn sinh viên mới, tôi chẳng quen ai, mà còn chỉ có mình tôi là nam."
+          },
+          {
+            "speaker": "羅珊蒂",
+            "chinese": "老師呢？老師怎麼樣？",
+            "simplified": "老师呢？老师怎么样？",
+            "pinyin": "lǎo shī ne ？ lǎo shī zěn me yàng ？",
+            "meaningVi": "Còn giáo viên? Thầy thế nào?"
+          },
+          {
+            "speaker": "安德思",
+            "chinese": "老師很嚴。他說我們這學期除了每一課的口試、筆試以外，還要做兩次口頭報告。我覺得壓力好大。你們班呢？",
+            "simplified": "老师很严。他说我们这学期除了每一课的口试、笔试以外，还要做两次口头报告。我觉得压力好大。你们班呢？",
+            "pinyin": "lǎo shī hěn yán 。 tā shuō wǒ men zhè xué qī chú le měi yī kè de kǒu shì 、 bǐ shì yǐ wài ， hái yào zuò liǎng cì kǒu tóu bào gào 。 wǒ jué dé yā lì hǎo dà 。 nǐ men bān ne ？",
+            "meaningVi": "Thầy rất nghiêm. Thầy bảo học kỳ này ngoài thi vấn đáp và thi viết mỗi bài, chúng tôi còn phải thuyết trình hai lần. Tôi thấy áp lực quá. Còn lớp bạn?"
+          },
+          {
+            "speaker": "羅珊蒂",
+            "chinese": "老師的說明很清楚，同學也很熱情。我們今天就一起去吃中飯了。",
+            "simplified": "老师的说明很清楚，同学也很热情。我们今天就一起去吃中饭了。",
+            "pinyin": "lǎo shī de shuō míng hěn qīng chǔ ， tóng xué yě hěn rè qíng 。 wǒ men jīn tiān jiù yì qǐ qù chī zhōng fàn le 。",
+            "meaningVi": "Thầy giải thích rất rõ, các bạn cũng nhiệt tình. Hôm nay chúng tôi đã cùng đi ăn trưa."
+          },
+          {
+            "speaker": "安德思",
+            "chinese": "聽起來不錯。還有位子嗎？有位子的話，我想去旁聽。",
+            "simplified": "听起来不错。还有位子吗？有位子的话，我想去旁听。",
+            "pinyin": "tīng qǐ lái bù cuò 。 hái yǒu wèi zi ma ？ yǒu wèi zi de huà ， wǒ xiǎng qù páng tīng 。",
+            "meaningVi": "Nghe hay đấy. Còn chỗ không? Nếu còn, tôi muốn đến dự thính."
+          },
+          {
+            "speaker": "羅珊蒂",
+            "chinese": "你想換班啊？你不是打算在台灣上大學嗎？老師嚴才學得快，學得好啊。",
+            "simplified": "你想换班啊？你不是打算在台湾上大学吗？老师严才学得快，学得好啊。",
+            "pinyin": "nǐ xiǎng huàn bān a ？ nǐ bú shì dǎ suàn zài tái wān shàng dà xué ma ？ lǎo shī yán cái xué dé kuài ， xué dé hǎo a 。",
+            "meaningVi": "Bạn muốn đổi lớp à? Chẳng phải bạn định học đại học ở Đài Loan sao? Thầy nghiêm thì mới học nhanh, học tốt được."
+          },
+          {
+            "speaker": "安德思",
+            "chinese": "可是我是獎學金學生。要是成績不到80分，拿不到獎學金，就得回國了。",
+            "simplified": "可是我是奖学金学生。要是成绩不到80分，拿不到奖学金，就得回国了。",
+            "pinyin": "kě shì wǒ shì jiǎng xué jīn xué shēng 。 yào shì chéng jī bú dào 8 0 fēn ， ná bú dào jiǎng xué jīn ， jiù dé huí guó le 。",
+            "meaningVi": "Nhưng tôi là sinh viên nhận học bổng. Nếu điểm không đạt 80, không lấy được học bổng, tôi phải về nước."
+          },
+          {
+            "speaker": "羅珊蒂",
+            "chinese": "我真羨慕你有獎學金。不像我休學來台灣，花的都是父母的錢，一定得用功念書才行。",
+            "simplified": "我真羡慕你有奖学金。不像我休学来台湾，花的都是父母的钱，一定得用功念书才行。",
+            "pinyin": "wǒ zhēn xiàn mù nǐ yǒu jiǎng xué jīn 。 bù xiàng wǒ xiū xué lái tái wān ， huā de dōu shì fù mǔ de qián ， yí dìng dé yòng gōng niàn shū cái xíng 。",
+            "meaningVi": "Tôi thật ngưỡng mộ bạn có học bổng. Tôi tạm nghỉ học để đến Đài Loan, tiêu toàn tiền của bố mẹ nên nhất định phải chăm học."
+          },
+          {
+            "speaker": "安德思",
+            "chinese": "何雅婷，聽說妳轉系了？",
+            "simplified": "何雅婷，听说妳转系了？",
+            "pinyin": "hé yǎ tíng ， tīng shuō nǐ zhuǎn xì le ？",
+            "meaningVi": "Hà Nhã Đình, nghe nói bạn chuyển ngành rồi?"
+          },
+          {
+            "speaker": "何雅婷",
+            "chinese": "是啊，這個學期我轉到國際關係系去了。",
+            "simplified": "是啊，这个学期我转到国际关系系去了。",
+            "pinyin": "shì a ， zhè gè xué qī wǒ zhuǎn dào guó jì guān xì xì qù le 。",
+            "meaningVi": "Đúng vậy, học kỳ này tôi chuyển sang ngành Quan hệ quốc tế."
+          },
+          {
+            "speaker": "安德思",
+            "chinese": "妳原來念的會計系不是很熱門嗎？怎麼不念了？",
+            "simplified": "妳原来念的会计系不是很热门吗？怎么不念了？",
+            "pinyin": "nǐ yuán lái niàn de huì jì xì bú shì hěn rè mén ma ？ zěn me bù niàn le ？",
+            "meaningVi": "Ngành Kế toán bạn học trước đây chẳng phải rất được ưa chuộng sao? Sao bạn không học nữa?"
+          },
+          {
+            "speaker": "何雅婷",
+            "chinese": "我念不下去了。我每天熬夜念書，可是還是差一點被當。這樣下去，四年恐怕沒辦法畢業。",
+            "simplified": "我念不下去了。我每天熬夜念书，可是还是差一点被当。这样下去，四年恐怕没办法毕业。",
+            "pinyin": "wǒ niàn bù xià qù le 。 wǒ měi tiān áo yè niàn shū ， kě shì hái shì chà yī diǎn bèi dāng 。 zhè yàng xià qù ， sì nián kǒng pà méi bàn fǎ bì yè 。",
+            "meaningVi": "Tôi không học tiếp nổi. Ngày nào tôi cũng thức khuya học mà vẫn suýt trượt môn. Cứ thế này, e là bốn năm cũng không tốt nghiệp được."
+          },
+          {
+            "speaker": "羅珊蒂",
+            "chinese": "念國際關係很適合妳。妳的英文那麼流利，口才又好，以後可以當外交人員。",
+            "simplified": "念国际关系很适合妳。妳的英文那么流利，口才又好，以后可以当外交人员。",
+            "pinyin": "niàn guó jì guān xì hěn shì hé nǐ 。 nǐ de yīng wén nà me liú lì ， kǒu cái yòu hǎo ， yǐ hòu kě yǐ dāng wài jiāo rén yuán 。",
+            "meaningVi": "Ngành Quan hệ quốc tế rất hợp với bạn. Tiếng Anh của bạn lưu loát, lại ăn nói giỏi; sau này có thể làm nhà ngoại giao."
+          },
+          {
+            "speaker": "何雅婷",
+            "chinese": "謝謝妳這麼說。我真想多跟你們聊聊。可惜我得走了，我跟教授約好了討論選課的事，不能遲到。再見。",
+            "simplified": "谢谢妳这么说。我真想多跟你们聊聊。可惜我得走了，我跟教授约好了讨论选课的事，不能迟到。再见。",
+            "pinyin": "xiè xiè nǐ zhè me shuō 。 wǒ zhēn xiǎng duō gēn nǐ men liáo liáo 。 kě xī wǒ dé zǒu le ， wǒ gēn jiào shòu yuē hǎo le tǎo lùn xuǎn kè de shì ， bù néng chí dào 。 zài jiàn 。",
+            "meaningVi": "Cảm ơn bạn. Tôi muốn nói chuyện thêm, nhưng tiếc là phải đi. Tôi đã hẹn với giáo sư bàn chuyện chọn môn, không thể đến muộn. Tạm biệt."
+          }
+        ]
+      },
+      {
+        "id": "cc3-v3-l01-reading",
+        "title": "Hà Nhã Đình muốn chuyển ngành",
+        "context": "Bài đọc kể rõ lý do và thủ tục chuyển ngành.",
+        "audioTrackId": "cc3-textbook-l01-t03",
+        "turns": [
+          {
+            "speaker": "Bài đọc",
+            "chinese": "何雅婷是家裡的獨生女。從小父母讓她念私立小學，下了課還去學西班牙文、書法、游泳跟網球。何雅婷也沒讓父母失望，成績一直都很好，還考上了理想的大學，念的是熱門的會計系。沒想到才念了一個學期，她就發現跟她的興趣不合，念起來非常痛苦。她想了很久，決定跟媽媽討論轉系的事。",
+            "simplified": "何雅婷是家里的独生女。从小父母让她念私立小学，下了课还去学西班牙文、书法、游泳跟网球。何雅婷也没让父母失望，成绩一直都很好，还考上了理想的大学，念的是热门的会计系。没想到才念了一个学期，她就发现跟她的兴趣不合，念起来非常痛苦。她想了很久，决定跟妈妈讨论转系的事。",
+            "pinyin": "hé yǎ tíng shì jiā lǐ de dú shēng nǚ 。 cóng xiǎo fù mǔ ràng tā niàn sī lì xiǎo xué ， xià le kè hái qù xué xī bān yá wén 、 shū fǎ 、 yóu yǒng gēn wǎng qiú 。 hé yǎ tíng yě méi ràng fù mǔ shī wàng ， chéng jī yì zhí dōu hěn hǎo ， hái kǎo shàng le lǐ xiǎng de dà xué ， niàn de shì rè mén de huì jì xì 。 méi xiǎng dào cái niàn le yī gè xué qī ， tā jiù fā xiàn gēn tā de xìng qù bù hé ， niàn qǐ lái fēi cháng tòng kǔ 。 tā xiǎng le hěn jiǔ ， jué dìng gēn mā mā tǎo lùn zhuǎn xì de shì 。",
+            "meaningVi": "Hà Nhã Đình là con gái một. Từ nhỏ, bố mẹ cho cô học trường tiểu học tư và sau giờ học còn học tiếng Tây Ban Nha, thư pháp, bơi lội, quần vợt. Cô không phụ lòng bố mẹ: thành tích luôn tốt, còn thi đỗ đại học mong muốn, vào ngành Kế toán được nhiều người chọn. Nhưng mới học một học kỳ, cô nhận ra ngành không hợp sở thích và thấy việc học rất khổ sở. Sau nhiều suy nghĩ, cô quyết định bàn chuyện chuyển ngành với mẹ."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "媽媽聽到何雅婷打算轉到國際關係系，非常生氣。她覺得何雅婷好不容易才考上這麼好的科系，怎麼可以說放棄就放棄？而且，念會計系工作機會比較多。跟興趣比起來，將來的發展當然更重要。如果她真的對別的課有興趣，利用時間去旁聽就好了。不管何雅婷怎麼說，她都反對。",
+            "simplified": "妈妈听到何雅婷打算转到国际关系系，非常生气。她觉得何雅婷好不容易才考上这么好的科系，怎么可以说放弃就放弃？而且，念会计系工作机会比较多。跟兴趣比起来，将来的发展当然更重要。如果她真的对别的课有兴趣，利用时间去旁听就好了。不管何雅婷怎么说，她都反对。",
+            "pinyin": "mā mā tīng dào hé yǎ tíng dǎ suàn zhuǎn dào guó jì guān xì xì ， fēi cháng shēng qì 。 tā jué dé hé yǎ tíng hǎo bù róng yì cái kǎo shàng zhè me hǎo de kē xì ， zěn me kě yǐ shuō fàng qì jiù fàng qì ？ ér qiě ， niàn huì jì xì gōng zuò jī huì bǐ jiào duō 。 gēn xìng qù bǐ qǐ lái ， jiāng lái de fā zhǎn dāng rán gèng zhòng yào 。 rú guǒ tā zhēn de duì bié de kè yǒu xìng qù ， lì yòng shí jiān qù páng tīng jiù hǎo le 。 bù guǎn hé yǎ tíng zěn me shuō ， tā dōu fǎn duì 。",
+            "meaningVi": "Mẹ rất giận khi nghe cô định chuyển sang ngành Quan hệ quốc tế. Bà nghĩ con gái vất vả lắm mới đỗ vào một ngành tốt như vậy, sao có thể nói bỏ là bỏ? Hơn nữa, học Kế toán có nhiều cơ hội việc làm hơn; so với sở thích, triển vọng sau này quan trọng hơn. Nếu thích môn khác thì cứ tranh thủ đến dự thính. Dù Nhã Đình nói gì, mẹ vẫn phản đối."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "不過何雅婷告訴媽媽，她個性活潑，而且外語能力不錯，如果念國際關係，會有更好的成績，請媽媽不必擔心她的將來。這一次就請媽媽讓她自己決定吧。媽媽想了又想，捨不得女兒念得這麼痛苦，最後還是同意了。何雅婷聽了非常高興，她立刻上網填表辦轉系的手續，申請上學期的成績單，然後還請教授幫她寫推薦信。",
+            "simplified": "不过何雅婷告诉妈妈，她个性活泼，而且外语能力不错，如果念国际关系，会有更好的成绩，请妈妈不必担心她的将来。这一次就请妈妈让她自己决定吧。妈妈想了又想，舍不得女儿念得这么痛苦，最后还是同意了。何雅婷听了非常高兴，她立刻上网填表办转系的手续，申请上学期的成绩单，然后还请教授帮她写推荐信。",
+            "pinyin": "bù guò hé yǎ tíng gào sù mā mā ， tā gè xìng huó pō ， ér qiě wài yǔ néng lì bù cuò ， rú guǒ niàn guó jì guān xì ， huì yǒu gèng hǎo de chéng jī ， qǐng mā mā bù bì dān xīn tā de jiāng lái 。 zhè yī cì jiù qǐng mā mā ràng tā zì jǐ jué dìng ba 。 mā mā xiǎng le yòu xiǎng ， shě bù dé nǚ ér niàn dé zhè me tòng kǔ ， zuì hòu hái shì tóng yì le 。 hé yǎ tíng tīng le fēi cháng gāo xìng ， tā lì kè shàng wǎng tián biǎo bàn zhuǎn xì de shǒu xù ， shēn qǐng shàng xué qī de chéng jī dān ， rán hòu hái qǐng jiào shòu bāng tā xiě tuī jiàn xìn 。",
+            "meaningVi": "Nhã Đình giải thích rằng cô hoạt bát, ngoại ngữ cũng khá; nếu học Quan hệ quốc tế, cô sẽ có kết quả tốt hơn nên mẹ không cần lo cho tương lai của cô. Lần này cô xin được tự quyết định. Mẹ suy nghĩ mãi, không nỡ để con học khổ sở như thế nên cuối cùng đồng ý. Nhã Đình rất vui, lập tức lên mạng điền biểu mẫu làm thủ tục chuyển ngành, xin bảng điểm học kỳ trước rồi nhờ giáo sư viết thư giới thiệu."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc3-v3-l01-check-01",
+        "prompt": "Vì sao An Đức Tư lo lắng về lớp học?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Anh không thích các bạn mới."
+          },
+          {
+            "id": "b",
+            "text": "Anh muốn bỏ học ngay."
+          },
+          {
+            "id": "c",
+            "text": "Lớp nhiều bài kiểm tra và báo cáo, trong khi anh cần giữ học bổng."
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Anh nói mình thấy áp lực; nếu điểm dưới 80 sẽ không có học bổng.",
+        "skill": "Đọc hội thoại"
+      },
+      {
+        "id": "cc3-v3-l01-check-02",
+        "prompt": "Vì sao Hà Nhã Đình muốn chuyển ngành?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Cô muốn học gần nhà hơn."
+          },
+          {
+            "id": "b",
+            "text": "Cô chưa từng đỗ vào đại học."
+          },
+          {
+            "id": "c",
+            "text": "Ngành Kế toán không hợp sở thích, cô học rất khổ sở."
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Bài đọc nêu rõ 興趣不合 và 念起來非常痛苦.",
+        "skill": "Đọc bài"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem phiên âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc3-v3-l01-v001",
+      "cc3-v3-l01-v002",
+      "cc3-v3-l01-v003",
+      "cc3-v3-l01-v004",
+      "cc3-v3-l01-v005",
+      "cc3-v3-l01-v006",
+      "cc3-v3-l01-v007",
+      "cc3-v3-l01-v008",
+      "cc3-v3-l01-v009",
+      "cc3-v3-l01-v010",
+      "cc3-v3-l01-v011",
+      "cc3-v3-l01-v012",
+      "cc3-v3-l01-v013",
+      "cc3-v3-l01-v014",
+      "cc3-v3-l01-v015",
+      "cc3-v3-l01-v016",
+      "cc3-v3-l01-v017",
+      "cc3-v3-l01-v018",
+      "cc3-v3-l01-v019",
+      "cc3-v3-l01-v020",
+      "cc3-v3-l01-v021",
+      "cc3-v3-l01-v022",
+      "cc3-v3-l01-v023",
+      "cc3-v3-l01-v024",
+      "cc3-v3-l01-v025",
+      "cc3-v3-l01-v026",
+      "cc3-v3-l01-v027",
+      "cc3-v3-l01-v028",
+      "cc3-v3-l01-v029",
+      "cc3-v3-l01-v030",
+      "cc3-v3-l01-v031",
+      "cc3-v3-l01-v032",
+      "cc3-v3-l01-v033",
+      "cc3-v3-l01-v034",
+      "cc3-v3-l01-v035",
+      "cc3-v3-l01-v036",
+      "cc3-v3-l01-v037",
+      "cc3-v3-l01-v038",
+      "cc3-v3-l01-v039",
+      "cc3-v3-l01-v040",
+      "cc3-v3-l01-v041",
+      "cc3-v3-l01-v042",
+      "cc3-v3-l01-v043",
+      "cc3-v3-l01-v044",
+      "cc3-v3-l01-v045",
+      "cc3-v3-l01-v046",
+      "cc3-v3-l01-v047",
+      "cc3-v3-l01-v048",
+      "cc3-v3-l01-v049",
+      "cc3-v3-l01-v050",
+      "cc3-v3-l01-v051",
+      "cc3-v3-l01-v052",
+      "cc3-v3-l01-v053",
+      "cc3-v3-l01-v054",
+      "cc3-v3-l01-v055",
+      "cc3-v3-l01-v056"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc3-textbook-l01-t02",
+        "label": "Từ vựng hội thoại"
+      },
+      {
+        "id": "cc3-textbook-l01-t04",
+        "label": "Từ vựng bài đọc"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc3-v3-l01-grammar-01",
+      "title": "…的話 — nếu",
+      "audioTrackId": "cc3-textbook-l01-t05",
+      "explanation": "Đặt 的話 sau điều kiện; kết quả nằm ở vế sau. Đây là cách nói tự nhiên trong hội thoại. Có thể đi cùng 如果 hoặc 要是 khi muốn làm rõ giả định. Không đặt 的話 ở cuối vế kết quả.",
+      "structure": "điều kiện + 的話，kết quả",
+      "examples": [
+        {
+          "chinese": "有位子的話，我想去旁聽。",
+          "simplified": "有位子的话，我想去旁听。",
+          "pinyin": "yǒu wèi zi de huà ， wǒ xiǎng qù páng tīng 。",
+          "meaningVi": "Nếu còn chỗ, tôi muốn đến dự thính."
+        },
+        {
+          "chinese": "你想轉系的話，最好先跟父母討論。",
+          "simplified": "你想转系的话，最好先跟父母讨论。",
+          "pinyin": "nǐ xiǎng zhuǎn xì de huà ， zuì hǎo xiān gēn fù mǔ tǎo lùn 。",
+          "meaningVi": "Nếu muốn chuyển ngành, tốt nhất hãy bàn với bố mẹ trước."
+        }
+      ],
+      "commonMistake": "Đừng viết 我想去旁聽的話，有位子 để diễn đạt ‘nếu còn chỗ’ vì như vậy đổi mất điều kiện.",
+      "check": {
+        "id": "cc3-v3-l01-grammar-check-01",
+        "prompt": "Điền: 有位子＿＿，我想去旁聽。",
+        "options": [
+          {
+            "id": "a",
+            "text": "不到"
+          },
+          {
+            "id": "b",
+            "text": "的話"
+          },
+          {
+            "id": "c",
+            "text": "以外"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Đặt 的話 sau điều kiện; kết quả nằm ở vế sau.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc3-v3-l01-grammar-02",
+      "title": "不到 — chưa đến",
+      "audioTrackId": "cc3-textbook-l01-t06",
+      "explanation": "不到 đứng ngay trước số lượng để nói chưa đạt mốc ấy. Trong bài, điểm dưới 80 có thể khiến An Đức Tư mất học bổng. Mẫu này khác với 不到 nơi chốn trong câu ‘không đến được’.",
+      "structure": "不到 + con số / thời lượng / khoảng cách",
+      "examples": [
+        {
+          "chinese": "要是成績不到80分，就拿不到獎學金。",
+          "simplified": "要是成绩不到80分，就拿不到奖学金。",
+          "pinyin": "yào shì chéng jī bú dào 8 0 fēn ， jiù ná bú dào jiǎng xué jīn 。",
+          "meaningVi": "Nếu điểm chưa đạt 80 thì không lấy được học bổng."
+        },
+        {
+          "chinese": "從這裡走到學校不到十分鐘。",
+          "simplified": "从这里走到学校不到十分钟。",
+          "pinyin": "cóng zhè lǐ zǒu dào xué xiào bú dào shí fēn zhōng 。",
+          "meaningVi": "Đi bộ từ đây đến trường chưa tới mười phút."
+        }
+      ],
+      "commonMistake": "Đặt con số sau 到; 不到80分 nghĩa là ít hơn 80 điểm, không phải đúng 80.",
+      "check": {
+        "id": "cc3-v3-l01-grammar-check-02",
+        "prompt": "Điền: 他等了＿＿十分鐘。",
+        "options": [
+          {
+            "id": "a",
+            "text": "恐怕"
+          },
+          {
+            "id": "b",
+            "text": "不管"
+          },
+          {
+            "id": "c",
+            "text": "不到"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "不到 đứng ngay trước số lượng để nói chưa đạt mốc ấy.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc3-v3-l01-grammar-03",
+      "title": "差一點（就）… — suýt nữa",
+      "audioTrackId": "cc3-textbook-l01-t07",
+      "explanation": "Dùng khi một sự việc gần xảy ra nhưng rốt cuộc đã không xảy ra; 就 có thể lược. Trong bài, Hà Nhã Đình suýt trượt môn, không phải đã trượt. So với 差不多 ‘xấp xỉ’, 差一點 nhấn mạnh ranh giới giữa có và không xảy ra.",
+      "structure": "差一點（就）+ động từ / kết quả",
+      "examples": [
+        {
+          "chinese": "我每天熬夜念書，可是還是差一點被當。",
+          "simplified": "我每天熬夜念书，可是还是差一点被当。",
+          "pinyin": "wǒ měi tiān áo yè niàn shū ， kě shì hái shì chà yī diǎn bèi dāng 。",
+          "meaningVi": "Ngày nào tôi cũng thức khuya học mà vẫn suýt trượt môn."
+        },
+        {
+          "chinese": "昨天我差一點忘了交報告。",
+          "simplified": "昨天我差一点忘了交报告。",
+          "pinyin": "zuó tiān wǒ chà yī diǎn wàng le jiāo bào gào 。",
+          "meaningVi": "Hôm qua tôi suýt quên nộp báo cáo."
+        }
+      ],
+      "commonMistake": "Đừng dịch 差一點被當 thành ‘đã trượt môn’; sự việc chỉ suýt xảy ra.",
+      "check": {
+        "id": "cc3-v3-l01-grammar-check-03",
+        "prompt": "Điền: 我＿＿忘了帶成績單。",
+        "options": [
+          {
+            "id": "a",
+            "text": "差一點"
+          },
+          {
+            "id": "b",
+            "text": "不管"
+          },
+          {
+            "id": "c",
+            "text": "以外"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Dùng khi một sự việc gần xảy ra nhưng rốt cuộc đã không xảy ra; 就 có thể lược.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc3-v3-l01-grammar-04",
+      "title": "恐怕 — e rằng",
+      "audioTrackId": "cc3-textbook-l01-t08",
+      "explanation": "Dùng khi người nói dự đoán một khả năng không mong muốn. Nó cho thấy thái độ lo lắng, khác với 可能 trung tính hơn. Trong hội thoại, Hà Nhã Đình lo sẽ không thể tốt nghiệp đúng hạn.",
+      "structure": "恐怕 + tình huống bất lợi",
+      "examples": [
+        {
+          "chinese": "這樣下去，四年恐怕沒辦法畢業。",
+          "simplified": "这样下去，四年恐怕没办法毕业。",
+          "pinyin": "zhè yàng xià qù ， sì nián kǒng pà méi bàn fǎ bì yè 。",
+          "meaningVi": "Cứ thế này, e là bốn năm cũng không tốt nghiệp được."
+        },
+        {
+          "chinese": "再晚一點出門，恐怕會遲到。",
+          "simplified": "再晚一点出门，恐怕会迟到。",
+          "pinyin": "zài wǎn yī diǎn chū mén ， kǒng pà huì chí dào 。",
+          "meaningVi": "Ra khỏi nhà muộn hơn nữa thì e là sẽ đến trễ."
+        }
+      ],
+      "commonMistake": "恐怕 không khẳng định điều đó chắc chắn xảy ra; đây là dự đoán của người nói.",
+      "check": {
+        "id": "cc3-v3-l01-grammar-check-04",
+        "prompt": "Điền: 現在出門，＿＿會遲到。",
+        "options": [
+          {
+            "id": "a",
+            "text": "恐怕"
+          },
+          {
+            "id": "b",
+            "text": "不到"
+          },
+          {
+            "id": "c",
+            "text": "以外"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Dùng khi người nói dự đoán một khả năng không mong muốn.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc3-v3-l01-grammar-05",
+      "title": "好不容易（才）… — vất vả lắm mới",
+      "audioTrackId": "cc3-textbook-l01-t09",
+      "explanation": "Nói về kết quả đạt được sau nhiều khó khăn; 才 làm nổi bật sự vất vả ấy. Mẹ Nhã Đình cho rằng cô đã cố gắng rất nhiều mới đỗ vào ngành Kế toán. Không dùng mẫu này cho việc dễ dàng, không cần nỗ lực.",
+      "structure": "好不容易（才）+ đạt được kết quả",
+      "examples": [
+        {
+          "chinese": "她好不容易才考上這麼好的科系。",
+          "simplified": "她好不容易才考上这么好的科系。",
+          "pinyin": "tā hǎo bù róng yì cái kǎo shàng zhè me hǎo de kē xì 。",
+          "meaningVi": "Cô ấy vất vả lắm mới đỗ vào ngành tốt như vậy."
+        },
+        {
+          "chinese": "我好不容易才拿到獎學金。",
+          "simplified": "我好不容易才拿到奖学金。",
+          "pinyin": "wǒ hǎo bù róng yì cái ná dào jiǎng xué jīn 。",
+          "meaningVi": "Tôi vất vả lắm mới nhận được học bổng."
+        }
+      ],
+      "commonMistake": "好不容易 không có nghĩa ‘không dễ’ theo nghĩa phủ định đơn thuần; cả cụm nêu một kết quả cuối cùng đã đạt được.",
+      "check": {
+        "id": "cc3-v3-l01-grammar-check-05",
+        "prompt": "Điền: 她＿＿才考上理想的大學。",
+        "options": [
+          {
+            "id": "a",
+            "text": "差一點"
+          },
+          {
+            "id": "b",
+            "text": "不到"
+          },
+          {
+            "id": "c",
+            "text": "好不容易"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Nói về kết quả đạt được sau nhiều khó khăn; 才 làm nổi bật sự vất vả ấy.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc3-v3-l01-grammar-06",
+      "title": "說…就… — nói là làm ngay",
+      "audioTrackId": "cc3-textbook-l01-t10",
+      "explanation": "Lặp động từ ở hai vế để thể hiện hành động xảy ra bất ngờ hoặc nhanh hơn người nói tưởng. Mẹ trách Nhã Đình ‘nói bỏ là bỏ’ ngành đã khó khăn mới thi đỗ. Mẫu này thường mang sắc thái ngạc nhiên hay không hài lòng.",
+      "structure": "說 + động từ， 就 + cùng động từ",
+      "examples": [
+        {
+          "chinese": "怎麼可以說放棄就放棄？",
+          "simplified": "怎么可以说放弃就放弃？",
+          "pinyin": "zěn me kě yǐ shuō fàng qì jiù fàng qì ？",
+          "meaningVi": "Sao có thể nói bỏ là bỏ ngay?"
+        },
+        {
+          "chinese": "他說走就走，沒告訴我們。",
+          "simplified": "他说走就走，没告诉我们。",
+          "pinyin": "tā shuō zǒu jiù zǒu ， méi gào sù wǒ men 。",
+          "meaningVi": "Anh ấy nói đi là đi, không báo cho chúng tôi."
+        }
+      ],
+      "commonMistake": "Hai động từ trong 說V就V phải khớp nhau; nếu khác, ý ‘nói là làm ngay’ không còn rõ.",
+      "check": {
+        "id": "cc3-v3-l01-grammar-check-06",
+        "prompt": "Điền: 他說＿＿就走，大家都很吃驚。",
+        "options": [
+          {
+            "id": "a",
+            "text": "走"
+          },
+          {
+            "id": "b",
+            "text": "來"
+          },
+          {
+            "id": "c",
+            "text": "去"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Lặp động từ ở hai vế để thể hiện hành động xảy ra bất ngờ hoặc nhanh hơn người nói tưởng.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc3-v3-l01-grammar-07",
+      "title": "不管…都… — dù thế nào vẫn",
+      "audioTrackId": "cc3-textbook-l01-t11",
+      "explanation": "Nêu một điều kiện có thể thay đổi, nhưng kết quả sau 都 không đổi. Trong bài, mẹ Nhã Đình phản đối dù cô giải thích thế nào. Sau 不管 thường dùng từ để hỏi như 怎麼 hoặc cặp lựa chọn.",
+      "structure": "不管 + điều kiện， chủ thể + 都 + kết quả",
+      "examples": [
+        {
+          "chinese": "不管何雅婷怎麼說，她都反對。",
+          "simplified": "不管何雅婷怎么说，她都反对。",
+          "pinyin": "bù guǎn hé yǎ tíng zěn me shuō ， tā dōu fǎn duì 。",
+          "meaningVi": "Dù Nhã Đình nói thế nào, bà vẫn phản đối."
+        },
+        {
+          "chinese": "不管工作多忙，他每天都運動。",
+          "simplified": "不管工作多忙，他每天都运动。",
+          "pinyin": "bù guǎn gōng zuò duō máng ， tā měi tiān dōu yùn dòng 。",
+          "meaningVi": "Dù công việc bận thế nào, ngày nào anh ấy cũng tập thể dục."
+        }
+      ],
+      "commonMistake": "Đừng bỏ 都 ở vế kết quả khi dùng mẫu 不管…都… trong bài này.",
+      "check": {
+        "id": "cc3-v3-l01-grammar-check-07",
+        "prompt": "Điền: 不管她怎麼說，媽媽＿＿反對。",
+        "options": [
+          {
+            "id": "a",
+            "text": "就"
+          },
+          {
+            "id": "b",
+            "text": "都"
+          },
+          {
+            "id": "c",
+            "text": "才"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Nêu một điều kiện có thể thay đổi, nhưng kết quả sau 都 không đổi.",
+        "skill": "Ngữ pháp"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc3-v3-l01-listening-01",
+      "prompt": "Nghe hội thoại: vì sao An Đức Tư quan tâm điểm số?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vì điểm dưới 80 thì anh không giữ được học bổng."
+        },
+        {
+          "id": "b",
+          "text": "Vì anh đã thi trượt tất cả các môn."
+        },
+        {
+          "id": "c",
+          "text": "Vì anh không muốn học ở Đài Loan nữa."
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Anh nói 要是成績不到80分，拿不到獎學金，就得回國了.",
+      "skill": "Nghe hiểu hội thoại",
+      "audioTrackId": "cc3-textbook-l01-t01"
+    },
+    {
+      "id": "cc3-v3-l01-listening-02",
+      "prompt": "Nghe hội thoại: Hà Nhã Đình chuyển sang ngành nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ngoại ngữ"
+        },
+        {
+          "id": "b",
+          "text": "Quan hệ quốc tế"
+        },
+        {
+          "id": "c",
+          "text": "Kế toán"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Cô nói 這個學期我轉到國際關係系去了.",
+      "skill": "Nghe hiểu hội thoại",
+      "audioTrackId": "cc3-textbook-l01-t01"
+    },
+    {
+      "id": "cc3-v3-l01-listening-03",
+      "prompt": "Nghe bài đọc: sau khi mẹ đồng ý, Hà Nhã Đình làm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cô bỏ học và về quê ngay."
+        },
+        {
+          "id": "b",
+          "text": "Cô đăng ký lại ngành Kế toán."
+        },
+        {
+          "id": "c",
+          "text": "Cô lên mạng làm thủ tục chuyển ngành, xin bảng điểm và thư giới thiệu."
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc kết thúc bằng ba việc: điền mẫu, xin bảng điểm và nhờ giáo sư viết thư.",
+      "skill": "Nghe hiểu bài đọc",
+      "audioTrackId": "cc3-textbook-l01-t03"
+    },
+    {
+      "id": "cc3-v3-l01-listening-04",
+      "prompt": "Nghe bài đọc: mẹ Hà Nhã Đình lo điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Triển vọng việc làm và tương lai của con"
+        },
+        {
+          "id": "b",
+          "text": "Con không biết ngoại ngữ"
+        },
+        {
+          "id": "c",
+          "text": "Con không thích đi học"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bà cho rằng cơ hội việc làm của ngành Kế toán nhiều hơn và tương lai quan trọng hơn sở thích.",
+      "skill": "Nghe hiểu bài đọc",
+      "audioTrackId": "cc3-textbook-l01-t03"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc3-v3-l01-practice-01",
+      "prompt": "Điền: 有位子的＿＿，我想去旁聽。",
+      "options": [
+        {
+          "id": "a",
+          "text": "分"
+        },
+        {
+          "id": "b",
+          "text": "班"
+        },
+        {
+          "id": "c",
+          "text": "話"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "的話 đánh dấu điều kiện ‘nếu còn chỗ’.",
+      "skill": "Điều kiện"
+    },
+    {
+      "id": "cc3-v3-l01-practice-02",
+      "prompt": "Trong bài, dưới bao nhiêu điểm thì An Đức Tư không được học bổng?",
+      "options": [
+        {
+          "id": "a",
+          "text": "80"
+        },
+        {
+          "id": "b",
+          "text": "60"
+        },
+        {
+          "id": "c",
+          "text": "100"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Anh nói 成績不到80分 thì sẽ không có học bổng.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc3-v3-l01-practice-03",
+      "prompt": "Điền: 我差一點＿＿當了。",
+      "options": [
+        {
+          "id": "a",
+          "text": "把"
+        },
+        {
+          "id": "b",
+          "text": "在"
+        },
+        {
+          "id": "c",
+          "text": "被"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "被當 nghĩa là bị đánh trượt môn; 差一點 chỉ việc suýt xảy ra.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc3-v3-l01-practice-04",
+      "prompt": "Mẹ Nhã Đình ban đầu nghĩ gì về ngành Kế toán?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chẳng có tương lai."
+        },
+        {
+          "id": "b",
+          "text": "Có nhiều cơ hội việc làm hơn."
+        },
+        {
+          "id": "c",
+          "text": "Không hợp tính cách của bà."
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bà nói 念會計系工作機會比較多.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc3-v3-l01-practice-05",
+      "prompt": "Điền: 不管她怎麼說，媽媽＿＿反對。",
+      "options": [
+        {
+          "id": "a",
+          "text": "了"
+        },
+        {
+          "id": "b",
+          "text": "都"
+        },
+        {
+          "id": "c",
+          "text": "才"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Không đổi kết quả dù lời giải thích thay đổi: 不管…都….",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc3-v3-l01-practice-06",
+      "prompt": "Hà Nhã Đình hoàn tất thủ tục sau khi ai đồng ý?",
+      "options": [
+        {
+          "id": "a",
+          "text": "La San Đế"
+        },
+        {
+          "id": "b",
+          "text": "Mẹ cô ấy"
+        },
+        {
+          "id": "c",
+          "text": "An Đức Tư"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Mẹ cuối cùng 同意了, rồi Hà Nhã Đình mới điền biểu mẫu.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc3-v3-l01-practice-07",
+      "prompt": "Điền: 她好不容易＿＿考上理想的大學。",
+      "options": [
+        {
+          "id": "a",
+          "text": "都"
+        },
+        {
+          "id": "b",
+          "text": "的話"
+        },
+        {
+          "id": "c",
+          "text": "才"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "好不容易才 nhấn mạnh kết quả sau nhiều cố gắng.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc3-v3-l01-practice-08",
+      "prompt": "Điền: 他說走＿＿走，沒有先通知我。",
+      "options": [
+        {
+          "id": "a",
+          "text": "都"
+        },
+        {
+          "id": "b",
+          "text": "不到"
+        },
+        {
+          "id": "c",
+          "text": "就"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "說V就V diễn đạt hành động xảy ra rất nhanh, bất ngờ.",
+      "skill": "Ngữ pháp"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc3-v3-l01-assessment-01",
+      "prompt": "Trong hội thoại, lớp của An Đức Tư có thêm việc gì ngoài thi viết và thi vấn đáp?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Một cuộc phỏng vấn"
+        },
+        {
+          "id": "b",
+          "text": "Hai bài báo cáo miệng"
+        },
+        {
+          "id": "c",
+          "text": "Hai chuyến đi thực tế"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "除了…以外，還要做兩次口頭報告.",
+      "skill": "Đọc hội thoại"
+    },
+    {
+      "id": "cc3-v3-l01-assessment-02",
+      "prompt": "旁聽 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đăng ký lại môn"
+        },
+        {
+          "id": "b",
+          "text": "Thi vấn đáp"
+        },
+        {
+          "id": "c",
+          "text": "Dự thính một lớp học"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "有位子的話，我想去旁聽: nếu còn chỗ, anh muốn ngồi học dự thính.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc3-v3-l01-assessment-03",
+      "prompt": "Câu nào diễn đạt ‘suýt trượt môn’ đúng?",
+      "options": [
+        {
+          "id": "a",
+          "text": "好不容易被當"
+        },
+        {
+          "id": "b",
+          "text": "差一點被當"
+        },
+        {
+          "id": "c",
+          "text": "已經被當"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "差一點 nói việc gần xảy ra nhưng chưa xảy ra.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc3-v3-l01-assessment-04",
+      "prompt": "不到80分 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dưới 80 điểm"
+        },
+        {
+          "id": "b",
+          "text": "Đúng 80 điểm"
+        },
+        {
+          "id": "c",
+          "text": "Trên 80 điểm"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "不到 + số lượng nghĩa là chưa đạt mốc đó.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc3-v3-l01-assessment-05",
+      "prompt": "Tại sao Hà Nhã Đình muốn chuyển khỏi ngành Kế toán?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ngành mới học gần nhà hơn."
+        },
+        {
+          "id": "b",
+          "text": "Ngành không hợp sở thích và khiến cô học rất khổ sở."
+        },
+        {
+          "id": "c",
+          "text": "Cô không được nhận học bổng."
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc viết 跟她的興趣不合，念起來非常痛苦.",
+      "skill": "Đọc bài"
+    },
+    {
+      "id": "cc3-v3-l01-assessment-06",
+      "prompt": "好不容易才考上 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dễ dàng thi đỗ vào"
+        },
+        {
+          "id": "b",
+          "text": "Suýt thi đỗ vào"
+        },
+        {
+          "id": "c",
+          "text": "Vất vả lắm mới thi đỗ vào"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "好不容易才 nhấn mạnh kết quả đạt sau nhiều cố gắng.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc3-v3-l01-assessment-07",
+      "prompt": "Điền: 不管天氣怎麼樣，我＿＿要去上課。",
+      "options": [
+        {
+          "id": "a",
+          "text": "才"
+        },
+        {
+          "id": "b",
+          "text": "就"
+        },
+        {
+          "id": "c",
+          "text": "都"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "不管…都… diễn đạt kết quả vẫn giữ nguyên.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc3-v3-l01-assessment-08",
+      "prompt": "Hà Nhã Đình xin giáo sư giúp việc gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Viết thư giới thiệu"
+        },
+        {
+          "id": "b",
+          "text": "Đổi điểm thi"
+        },
+        {
+          "id": "c",
+          "text": "Đóng học phí"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Đoạn cuối nói 請教授幫她寫推薦信.",
+      "skill": "Đọc bài"
+    },
+    {
+      "id": "cc3-v3-l01-assessment-09",
+      "prompt": "Điền: 有位子的＿＿，我想去旁聽。",
+      "options": [
+        {
+          "id": "a",
+          "text": "分"
+        },
+        {
+          "id": "b",
+          "text": "話"
+        },
+        {
+          "id": "c",
+          "text": "班"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Có chỗ là điều kiện; 的話 đặt sau vế điều kiện.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc3-v3-l01-assessment-10",
+      "prompt": "Trong bài đọc, mẹ Hà Nhã Đình cuối cùng quyết định thế nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đồng ý cho con chuyển ngành"
+        },
+        {
+          "id": "b",
+          "text": "Vẫn phản đối"
+        },
+        {
+          "id": "c",
+          "text": "Bắt con tạm nghỉ học"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Mẹ suy nghĩ rồi 同意了.",
+      "skill": "Đọc bài"
+    }
+  ],
+  "writingTask": {
+    "id": "cc3-v3-l01-writing",
+    "title": "Giải thích một quyết định học tập",
+    "prompt": "Viết 3–4 câu tiếng Hoa: bạn đang học gì, gặp khó khăn nào và muốn thay đổi điều gì. Hãy thử dùng …的話 hoặc 恐怕.",
+    "sampleTraditional": "我原來念會計，可是跟我的興趣不合。這樣下去，我恐怕沒辦法繼續念。轉系的話，我想先跟家人討論。",
+    "sampleSimplified": "我原来念会计，可是跟我的兴趣不合。这样下去，我恐怕没办法继续念。转系的话，我想先跟家人讨论。"
+  }
+}

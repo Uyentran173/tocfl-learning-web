@@ -2,6 +2,7 @@ import type { UiLocale } from "./i18n";
 
 export const academyNewMessages: Record<Exclude<UiLocale, "vi">, Record<string, string>> = {
   en: {
+    "Tập 3": "Volume 3", "Bắt đầu với Bài 01; các bài tiếp theo sẽ mở khi hoàn thiện.": "Start with Lesson 01. More lessons will open as they are completed.",
     "Chọn một bài đã mở để bắt đầu hoặc tiếp tục học.": "Choose an open lesson to begin or continue learning.",
     "Học qua hội thoại, bài đọc, từ vựng, ngữ pháp và luyện nghe.": "Learn through dialogues, readings, vocabulary, grammar, and listening.",
     "Bài 01–08 đã mở: học hội thoại, đi lại, công việc, đời sống và sở thích ở Đài Loan.": "Lessons 01–08 are open: dialogues, travel, work, daily life, and hobbies in Taiwan.",
@@ -42,6 +43,7 @@ export const academyNewMessages: Record<Exclude<UiLocale, "vi">, Record<string, 
     "Chọn bản ghi âm đã được đối chiếu với nội dung trong sách. Bạn có thể nghe lại và ghi chú theo nhịp học của mình.": "Choose a recording matched to this lesson. Replay it and take notes at your own pace.",
   },
   "zh-CN": {
+    "Tập 3": "第三册", "Bắt đầu với Bài 01; các bài tiếp theo sẽ mở khi hoàn thiện.": "从第 01 课开始，后续课程完成后将陆续开放。",
     "Chọn một bài đã mở để bắt đầu hoặc tiếp tục học.": "选择已开放的课程，开始或继续学习。",
     "Học qua hội thoại, bài đọc, từ vựng, ngữ pháp và luyện nghe.": "通过对话、阅读、词汇、语法和听力学习。",
     "Bài 01–08 đã mở: học hội thoại, đi lại, công việc, đời sống và sở thích ở Đài Loan.": "第 01–08 课已开放：对话、交通、工作、日常生活和兴趣。",
@@ -77,6 +79,7 @@ export const academyNewMessages: Record<Exclude<UiLocale, "vi">, Record<string, 
     "Chọn bản ghi âm đã được đối chiếu với nội dung trong sách. Bạn có thể nghe lại và ghi chú theo nhịp học của mình.": "选择已经和教材内容核对的录音。你可以重听，并按自己的节奏做笔记。",
   },
   "zh-TW": {
+    "Tập 3": "第三冊", "Bắt đầu với Bài 01; các bài tiếp theo sẽ mở khi hoàn thiện.": "從第 01 課開始，後續課程完成後將陸續開放。",
     "Chọn một bài đã mở để bắt đầu hoặc tiếp tục học.": "選擇已開放的課程，開始或繼續學習。",
     "Học qua hội thoại, bài đọc, từ vựng, ngữ pháp và luyện nghe.": "透過對話、閱讀、詞彙、語法和聽力學習。",
     "Bài 01–08 đã mở: học hội thoại, đi lại, công việc, đời sống và sở thích ở Đài Loan.": "第 01–08 課已開放：對話、交通、工作、日常生活與興趣。",

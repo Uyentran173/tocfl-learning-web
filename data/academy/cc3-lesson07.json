@@ -1,0 +1,1119 @@
+{
+  "contentVersion": 2,
+  "id": "cc3-v3-l07",
+  "title": "我最親的家「人」",
+  "titleVi": "Người thân thiết nhất như gia đình",
+  "description": "Học cách nói về gia đình và các mối quan hệ thân thiết qua hội thoại, bài đọc, từ vựng và ngữ pháp của Bài 07.",
+  "objectives": [
+    "Hiểu và trao đổi về gia đình và các mối quan hệ thân thiết.",
+    "Đọc và nghe hội thoại “我最親的家「人」” cùng bài đọc “多元家庭”.",
+    "Dùng 亂＋V; 各V各的; 就算…也… trong ngữ cảnh phù hợp."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Bài 07 xoay quanh gia đình và các mối quan hệ thân thiết. Nghe hội thoại trước, sau đó đọc bài và tự kiểm tra điều đã hiểu.",
+    "sections": [
+      {
+        "id": "cc3-v3-l07-section-01",
+        "title": "Theo dõi hội thoại",
+        "body": "Nghe cách các nhân vật nói về gia đình và các mối quan hệ thân thiết; sau đó đọc từng lượt lời.",
+        "chinese": "何雅婷，昨天我們去打籃球，妳怎麼沒去？",
+        "simplified": "何雅婷，昨天我们去打篮球，妳怎么没去？",
+        "pinyin": "hé yǎ tíng ， zuó tiān wǒ men qù dǎ lán qiú ， nǐ zěn me méi qù ？",
+        "meaningVi": "Hà Nhã Đình, hôm qua bọn mình đi chơi bóng rổ, sao bạn không đi?"
+      },
+      {
+        "id": "cc3-v3-l07-section-02",
+        "title": "Đọc trong ngữ cảnh",
+        "body": "Đọc “多元家庭” và chú ý các chi tiết khác với hội thoại.",
+        "chinese": "李文彥的阿姨一個人帶著孩子住在台北。",
+        "simplified": "李文彦的阿姨一个人带着孩子住在台北。",
+        "pinyin": "lǐ wén yàn de ā yí yī gè rén dài zhù hái zi zhù zài tái běi 。",
+        "meaningVi": "Dì của Lý Văn Ngạn sống một mình với con ở Đài Bắc."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc3-v3-l07-dialogue",
+        "title": "我最親的家「人」",
+        "context": "Hội thoại trong giáo trình",
+        "audioTrackId": "cc3-textbook-l07-t01",
+        "turns": [
+          {
+            "speaker": "羅珊蒂",
+            "chinese": "何雅婷，昨天我們去打籃球，妳怎麼沒去？",
+            "simplified": "何雅婷，昨天我们去打篮球，妳怎么没去？",
+            "pinyin": "hé yǎ tíng ， zuó tiān wǒ men qù dǎ lán qiú ， nǐ zěn me méi qù ？",
+            "meaningVi": "Hà Nhã Đình, hôm qua bọn mình đi chơi bóng rổ, sao bạn không đi?"
+          },
+          {
+            "speaker": "何雅婷",
+            "chinese": "我媽說我爺爺跌倒，叫我去看他。",
+            "simplified": "我妈说我爷爷跌倒，叫我去看他。",
+            "pinyin": "wǒ mā shuō wǒ yé yé diē dǎo ， jiào wǒ qù kàn tā 。",
+            "meaningVi": "Mẹ tôi nói ông nội tôi bị ngã và bảo tôi đến thăm ông."
+          },
+          {
+            "speaker": "羅珊蒂",
+            "chinese": "妳爺爺還好吧？",
+            "simplified": "妳爷爷还好吧？",
+            "pinyin": "nǐ yé yé hái hǎo ba ？",
+            "meaningVi": "Ông nội con có sao không?"
+          },
+          {
+            "speaker": "何雅婷",
+            "chinese": "還好。幸虧鄰居聽見狗一直叫，很快地過來幫忙，所以沒什麼關係。",
+            "simplified": "还好。幸亏邻居听见狗一直叫，很快地过来帮忙，所以没什么关系。",
+            "pinyin": "hái hǎo 。 xìng kuī lín jū tīng jiàn gǒu yì zhí jiào ， hěn kuài dì guò lái bāng máng ， suǒ yǐ méi shén me guān xì 。",
+            "meaningVi": "Cũng ổn. May mà hàng xóm nghe thấy tiếng chó sủa liên tục nên đã nhanh chóng sang giúp đỡ, nên không sao cả."
+          },
+          {
+            "speaker": "羅珊蒂",
+            "chinese": "妳爺爺一個人住啊？",
+            "simplified": "妳爷爷一个人住啊？",
+            "pinyin": "nǐ yé yé yī gè rén zhù a ？",
+            "meaningVi": "Ông của con sống một mình à?"
+          },
+          {
+            "speaker": "何雅婷",
+            "chinese": "嗯，奶奶過世以後，爺爺就一個人住。我爸擔心爺爺，所以領養了一隻狗陪他。",
+            "simplified": "嗯，奶奶过世以后，爷爷就一个人住。我爸担心爷爷，所以领养了一只狗陪他。",
+            "pinyin": "ń ， nǎi nǎi guò shì yǐ hòu ， yé yé jiù yī gè rén zhù 。 wǒ bà dān xīn yé yé ， suǒ yǐ lǐng yǎng le yī zhī gǒu péi tā 。",
+            "meaningVi": "Ừm, sau khi bà nội mất, ông nội sống một mình. Ba tôi lo lắng cho ông nội, nên đã nhận nuôi một chú chó để bầu bạn với ông."
+          },
+          {
+            "speaker": "羅珊蒂",
+            "chinese": "幸虧有這隻可愛的狗，要不然就太孤單了。",
+            "simplified": "幸亏有这只可爱的狗，要不然就太孤单了。",
+            "pinyin": "xìng kuī yǒu zhè zhī kě ài de gǒu ， yào bù rán jiù tài gū dān le 。",
+            "meaningVi": "Cũng may là có chú chó đáng yêu này, nếu không thì cô đơn lắm."
+          },
+          {
+            "speaker": "何雅婷",
+            "chinese": "我爺爺很愛牠，把牠當成家人一樣，晚上還讓牠睡在自己的床上。（李文彥走過來）",
+            "simplified": "我爷爷很爱牠，把牠当成家人一样，晚上还让牠睡在自己的床上。（李文彦走过来）",
+            "pinyin": "wǒ yé yé hěn ài tā ， bǎ tā dāng chéng jiā rén yī yàng ， wǎn shàng hái ràng tā shuì zài zì jǐ de chuáng shàng 。 （ lǐ wén yàn zǒu guò lái ）",
+            "meaningVi": "Ông nội tôi rất yêu nó, coi nó như một thành viên trong gia đình, thậm chí còn cho nó ngủ trên giường của ông vào ban đêm. (Lý Văn Ngạn đi tới)"
+          },
+          {
+            "speaker": "李文彥",
+            "chinese": "什麼？睡在他床上？狗不髒嗎？不怕牠把床弄髒嗎？",
+            "simplified": "什么？睡在他床上？狗不脏吗？不怕牠把床弄脏吗？",
+            "pinyin": "shén me ？ shuì zài tā chuáng shàng ？ gǒu bù zāng ma ？ bù pà tā bǎ chuáng nòng zāng ma ？",
+            "meaningVi": "Cái gì? Ngủ trên giường của nó? Chó không bẩn sao? Bạn không sợ nó làm bẩn giường sao?"
+          },
+          {
+            "speaker": "何雅婷",
+            "chinese": "我爺爺常給狗洗澡，牠乾淨得很。",
+            "simplified": "我爷爷常给狗洗澡，牠干净得很。",
+            "pinyin": "wǒ yé yé cháng gěi gǒu xǐ zǎo ， tā qián jìng dé hěn 。",
+            "meaningVi": "Ông nội tôi thường tắm cho chó, nên nó rất sạch sẽ."
+          },
+          {
+            "speaker": "李文彥",
+            "chinese": "以前我女朋友養了一隻狗，整天亂叫、亂咬東西。有一天，我忍不住打了牠，我女朋友氣得要跟我分手。",
+            "simplified": "以前我女朋友养了一只狗，整天乱叫、乱咬东西。有一天，我忍不住打了牠，我女朋友气得要跟我分手。",
+            "pinyin": "yǐ qián wǒ nǚ péng yǒu yǎng le yī zhī gǒu ， zhěng tiān luàn jiào 、 luàn yǎo dōng xī 。 yǒu yī tiān ， wǒ rěn bú zhù dǎ le tā ， wǒ nǚ péng yǒu qì dé yào gēn wǒ fēn shǒu 。",
+            "meaningVi": "Trước đây, bạn gái tôi nuôi một con chó, ngày nào nó cũng sủa bậy, cắn lung tung. Một hôm, tôi không kìm được nên đã đánh nó. Bạn gái tôi tức giận đến mức muốn chia tay với tôi."
+          },
+          {
+            "speaker": "羅珊蒂",
+            "chinese": "你怎麼可以打狗？狗是人最好的朋友。很多研究報告都說，人緊張的時候，摸摸狗會減輕壓力。",
+            "simplified": "你怎么可以打狗？狗是人最好的朋友。很多研究报告都说，人紧张的时候，摸摸狗会减轻压力。",
+            "pinyin": "nǐ zěn me kě yǐ dǎ gǒu ？ gǒu shì rén zuì hǎo de péng yǒu 。 hěn duō yán jiū bào gào dōu shuō ， rén jǐn zhāng de shí hòu ， mō mō gǒu huì jiǎn qīng yā lì 。",
+            "meaningVi": "Sao bạn lại đánh chó được chứ? Chó là người bạn tốt nhất của con người. Nhiều nghiên cứu cho thấy rằng việc vuốt ve chó có thể giúp giảm căng thẳng khi con người cảm thấy lo lắng."
+          },
+          {
+            "speaker": "李文彥",
+            "chinese": "不過台灣人對狗太好了。不但送狗去美容院，還帶狗去餐廳慶祝生日。現在狗連路都不必走了，坐在推車裡讓主人推著逛街。",
+            "simplified": "不过台湾人对狗太好了。不但送狗去美容院，还带狗去餐厅庆祝生日。现在狗连路都不必走了，坐在推车里让主人推着逛街。",
+            "pinyin": "bù guò tái wān rén duì gǒu tài hǎo le 。 bù dàn sòng gǒu qù měi róng yuàn ， hái dài gǒu qù cān tīng qìng zhù shēng rì 。 xiàn zài gǒu lián lù dōu bù bì zǒu le ， zuò zài tuī chē lǐ ràng zhǔ rén tuī zhù guàng jiē 。",
+            "meaningVi": "Tuy nhiên, người Đài Loan đối xử với chó quá tốt. Họ không chỉ đưa chó đến tiệm làm đẹp mà còn đưa chó đến nhà hàng để tổ chức sinh nhật. Bây giờ chó thậm chí còn không cần phải đi bộ nữa, chúng ngồi trong xe đẩy để chủ nhân đẩy đi dạo phố."
+          },
+          {
+            "speaker": "羅珊蒂",
+            "chinese": "對狗好有什麼不對？現代社會大家各忙各的，常常回到家就只有一個人。人跟狗相處的時間有時候比家人還長呢。",
+            "simplified": "对狗好有什么不对？现代社会大家各忙各的，常常回到家就只有一个人。人跟狗相处的时间有时候比家人还长呢。",
+            "pinyin": "duì gǒu hǎo yǒu shén me bù duì ？ xiàn dài shè huì dà jiā gè máng gè de ， cháng cháng huí dào jiā jiù zhǐ yǒu yī gè rén 。 rén gēn gǒu xiāng chù de shí jiān yǒu shí hòu bǐ jiā rén hái zhǎng ne 。",
+            "meaningVi": "Tốt với chó thì có gì sai? Trong xã hội hiện đại, mọi người đều bận rộn với công việc riêng của mình, và thường chỉ có một mình khi về nhà. Đôi khi thời gian con người ở bên chó còn nhiều hơn cả thời gian ở bên gia đình."
+          },
+          {
+            "speaker": "何雅婷",
+            "chinese": "是啊，現在有些人覺得生活壓力太大，養不起孩子，就算結了婚也不生孩子，寧可養寵物。還有很多單身的人，他們一個人住，寵物對他們來說，比家人還親。",
+            "simplified": "是啊，现在有些人觉得生活压力太大，养不起孩子，就算结了婚也不生孩子，宁可养宠物。还有很多单身的人，他们一个人住，宠物对他们来说，比家人还亲。",
+            "pinyin": "shì a ， xiàn zài yǒu xiē rén jué dé shēng huó yā lì tài dà ， yǎng bù qǐ hái zi ， jiù suàn jié le hūn yě bù shēng hái zi ， níng kě yǎng chǒng wù 。 hái yǒu hěn duō dān shēn de rén ， tā men yī gè rén zhù ， chǒng wù duì tā men lái shuō ， bǐ jiā rén hái qīn 。",
+            "meaningVi": "Đúng vậy, hiện nay có một số người cảm thấy áp lực cuộc sống quá lớn, không đủ khả năng nuôi con, nên dù đã kết hôn cũng không sinh con, mà thà nuôi thú cưng còn hơn. Ngoài ra còn có rất nhiều người độc thân sống một mình, đối với họ, thú cưng còn thân thiết hơn cả người nhà."
+          },
+          {
+            "speaker": "李文彥",
+            "chinese": "不管怎麼說，狗不是人。你生病的時候，牠不能照顧你，幫你買晚飯，陪你去醫院。而且，你有問題的時候，也不能問牠的意見。人還是應該建立跟人的關係。",
+            "simplified": "不管怎么说，狗不是人。你生病的时候，牠不能照顾你，帮你买晚饭，陪你去医院。而且，你有问题的时候，也不能问牠的意见。人还是应该建立跟人的关系。",
+            "pinyin": "bù guǎn zěn me shuō ， gǒu bú shì rén 。 nǐ shēng bìng de shí hòu ， tā bù néng zhào gù nǐ ， bāng nǐ mǎi wǎn fàn ， péi nǐ qù yī yuàn 。 ér qiě ， nǐ yǒu wèn tí de shí hòu ， yě bù néng wèn tā de yì jiàn 。 rén hái shì yīng gāi jiàn lì gēn rén de guān xì 。",
+            "meaningVi": "Dù sao thì chó cũng không phải là người. Khi bạn bị bệnh, nó không thể chăm sóc bạn, giúp bạn mua bữa tối, hay đi cùng bạn đến bệnh viện. Hơn nữa, khi bạn gặp vấn đề, bạn cũng không thể hỏi ý kiến của nó. Con người vẫn nên xây dựng mối quan hệ với con người."
+          },
+          {
+            "speaker": "羅珊蒂",
+            "chinese": "可是狗可以幫你建立跟別人的關係。",
+            "simplified": "可是狗可以帮你建立跟别人的关系。",
+            "pinyin": "kě shì gǒu kě yǐ bāng nǐ jiàn lì gēn bié rén de guān xì 。",
+            "meaningVi": "Nhưng chó có thể giúp bạn xây dựng mối quan hệ với người khác."
+          },
+          {
+            "speaker": "何雅婷",
+            "chinese": "是啊，我爺爺養狗以後，快樂多了。每天帶著狗去散步，認識了很多朋友。他們有說不完的話，回家以後還上網繼續聊。",
+            "simplified": "是啊，我爷爷养狗以后，快乐多了。每天带着狗去散步，认识了很多朋友。他们有说不完的话，回家以后还上网继续聊。",
+            "pinyin": "shì a ， wǒ yé yé yǎng gǒu yǐ hòu ， kuài lè duō le 。 měi tiān dài zhù gǒu qù sàn bù ， rèn shí le hěn duō péng yǒu 。 tā men yǒu shuō bù wán de huà ， huí jiā yǐ hòu hái shàng wǎng jì xù liáo 。",
+            "meaningVi": "Đúng vậy, ông tôi vui vẻ hơn nhiều kể từ khi nuôi chó. Ông ấy dắt chó đi dạo mỗi ngày và kết bạn được với rất nhiều người. Họ có nói chuyện không dứt, về nhà rồi vẫn lên mạng tiếp tục trò chuyện."
+          },
+          {
+            "speaker": "李文彥",
+            "chinese": "妳們說的也對。可是我還是覺得一個人應該有家庭，更應該有孩子，一家人熱熱鬧鬧地一起生活才是真正的幸福。",
+            "simplified": "妳们说的也对。可是我还是觉得一个人应该有家庭，更应该有孩子，一家人热热闹闹地一起生活才是真正的幸福。",
+            "pinyin": "nǐ men shuō de yě duì 。 kě shì wǒ hái shì jué dé yī gè rén yīng gāi yǒu jiā tíng ， gèng yīng gāi yǒu hái zi ， yī jiā rén rè rè nào nào dì yì qǐ shēng huó cái shì zhēn zhèng de xìng fú 。",
+            "meaningVi": "Các bạn nói cũng đúng. Nhưng tôi vẫn cảm thấy một người nên có gia đình, thậm chí nên có con cái. Cả nhà sống cùng nhau vui vẻ, náo nhiệt mới là hạnh phúc thực sự."
+          }
+        ]
+      },
+      {
+        "id": "cc3-v3-l07-reading",
+        "title": "多元家庭",
+        "context": "Bài đọc trong giáo trình",
+        "audioTrackId": "cc3-textbook-l07-t03",
+        "turns": [
+          {
+            "speaker": "Bài đọc",
+            "chinese": "李文彥的阿姨一個人帶著孩子住在台北。她的先生因為工作的關係，大部分的時間都在國外。阿姨白天在學校教書，下了班，接了孩子回家，就忙著做飯、陪孩子做功課。好不容易等孩子睡了，才能開始改學生的作業，準備第二天上課的資料。週末的時候，還要上市場幫公公買一個星期的菜。家裡大大小小的事全靠她一個人。她常說，她雖然不是單親媽媽，可是生活比單親媽媽更辛苦。阿姨很羨慕她的同學—美真。美真是一個單身貴族。大學時代，在學校就是一個風雲人物，不但人長得美，而且能力強，追她的人多得不得了。可是她一直不想結婚，一來怕結了婚不自由，不能發展自己的興趣，二來，她的經濟獨立，可以把自己的生活安排得很好。雖然大部分的時候她都很享受單身生活，但是一個人旅行的時候，她也常想，要是身邊有個伴也不錯。美真的朋友—家華，也不願意結婚。他雖然跟女朋友已經同居好幾年了，但是一想到成家以後，得負擔起養家的責任，他就下不了決心。而且，要是結了婚，就會有生孩子的壓力。現在社會這麼亂，怎麼教養孩子？他想來想去，覺得還是現在的生活比較好。",
+            "simplified": "李文彦的阿姨一个人带着孩子住在台北。她的先生因为工作的关系，大部分的时间都在国外。阿姨白天在学校教书，下了班，接了孩子回家，就忙着做饭、陪孩子做功课。好不容易等孩子睡了，才能开始改学生的作业，准备第二天上课的资料。周末的时候，还要上市场帮公公买一个星期的菜。家里大大小小的事全靠她一个人。她常说，她虽然不是单亲妈妈，可是生活比单亲妈妈更辛苦。阿姨很羡慕她的同学—美真。美真是一个单身贵族。大学时代，在学校就是一个风云人物，不但人长得美，而且能力强，追她的人多得不得了。可是她一直不想结婚，一来怕结了婚不自由，不能发展自己的兴趣，二来，她的经济独立，可以把自己的生活安排得很好。虽然大部分的时候她都很享受单身生活，但是一个人旅行的时候，她也常想，要是身边有个伴也不错。美真的朋友—家华，也不愿意结婚。他虽然跟女朋友已经同居好几年了，但是一想到成家以后，得负担起养家的责任，他就下不了决心。而且，要是结了婚，就会有生孩子的压力。现在社会这么乱，怎么教养孩子？他想来想去，觉得还是现在的生活比较好。",
+            "pinyin": "lǐ wén yàn de ā yí yī gè rén dài zhù hái zi zhù zài tái běi 。 tā de xiān shēng yīn wèi gōng zuò de guān xì ， dà bù fèn de shí jiān dōu zài guó wài 。 ā yí bái tiān zài xué xiào jiào shū ， xià le bān ， jiē le hái zi huí jiā ， jiù máng zhù zuò fàn 、 péi hái zi zuò gōng kè 。 hǎo bù róng yì děng hái zi shuì le ， cái néng kāi shǐ gǎi xué shēng de zuò yè ， zhǔn bèi dì èr tiān shàng kè de zī liào 。 zhōu mò de shí hòu ， hái yào shàng shì chǎng bāng gōng gōng mǎi yī gè xīng qī de cài 。 jiā lǐ dà dà xiǎo xiǎo de shì quán kào tā yī gè rén 。 tā cháng shuō ， tā suī rán bú shì dān qīn mā mā ， kě shì shēng huó bǐ dān qīn mā mā gèng xīn kǔ 。 ā yí hěn xiàn mù tā de tóng xué — měi zhēn 。 měi zhēn shì yī gè dān shēn guì zú 。 dà xué shí dài ， zài xué xiào jiù shì yī gè fēng yún rén wù ， bù dàn rén zhǎng dé měi ， ér qiě néng lì qiáng ， zhuī tā de rén duō dé bù dé le 。 kě shì tā yì zhí bù xiǎng jié hūn ， yī lái pà jié le hūn bù zì yóu ， bù néng fā zhǎn zì jǐ de xìng qù ， èr lái ， tā de jīng jì dú lì ， kě yǐ bǎ zì jǐ de shēng huó ān pái dé hěn hǎo 。 suī rán dà bù fèn de shí hòu tā dōu hěn xiǎng shòu dān shēn shēng huó ， dàn shì yī gè rén lǚ xíng de shí hòu ， tā yě cháng xiǎng ， yào shì shēn biān yǒu gè bàn yě bù cuò 。 měi zhēn de péng yǒu — jiā huá ， yě bù yuàn yì jié hūn 。 tā suī rán gēn nǚ péng yǒu yǐ jīng tóng jū hǎo jǐ nián le ， dàn shì yī xiǎng dào chéng jiā yǐ hòu ， dé fù dān qǐ yǎng jiā de zé rèn ， tā jiù xià bù liǎo jué xīn 。 ér qiě ， yào shì jié le hūn ， jiù huì yǒu shēng hái zi de yā lì 。 xiàn zài shè huì zhè me luàn ， zěn me jiào yǎng hái zi ？ tā xiǎng lái xiǎng qù ， jué dé hái shì xiàn zài de shēng huó bǐ jiào hǎo 。",
+            "meaningVi": "Dì của Lý Văn Ngạn sống một mình với con ở Đài Bắc. Chồng bà vì công việc nên hầu hết thời gian đều ở nước ngoài. Ban ngày, dì dạy học ở trường, tan sở thì đón con về nhà, rồi lại bận rộn nấu ăn, kèm con làm bài tập. Phải mất rất nhiều công sức mới chờ được đến khi con ngủ, lúc đó bà mới có thể bắt đầu chấm bài tập của học sinh và chuẩn bị tài liệu cho tiết học ngày hôm sau. Cuối tuần, bà còn phải ra chợ mua đồ ăn cho cả tuần giúp ba chồng. Mọi việc lớn nhỏ trong nhà đều do một mình bà ấy lo liệu. Bà thường nói rằng mặc dù bà không phải là một bà mẹ đơn thân, nhưng cuộc sống của bà còn vất vả hơn cả một bà mẹ đơn thân. Dì rất ghen tị với bạn học của mình — Mỹ Chân. Mỹ Chân là một quý cô độc thân. Thời đại học, cô là một nhân vật nổi tiếng trong trường. Cô không chỉ xinh đẹp mà còn rất giỏi giang, nên có rất nhiều người theo đuổi. Nhưng cô ấy luôn không muốn kết hôn. Một là vì sợ rằng sau khi kết hôn sẽ không được tự do, không thể phát triển sở thích của mình. Hai là vì cô ấy độc lập về tài chính, có thể tự sắp xếp cuộc sống của mình rất tốt. Mặc dù hầu hết thời gian cô đều tận hưởng cuộc sống độc thân, nhưng khi đi du lịch một mình, cô cũng thường nghĩ rằng sẽ thật tuyệt nếu có một người bạn đồng hành bên cạnh. Bạn của Mỹ Chân – Gia Hoa, cũng không muốn kết hôn. Mặc dù anh đã sống chung với bạn gái nhiều năm, nhưng cứ nghĩ đến việc sau khi lập gia đình, anh sẽ phải gánh vác trách nhiệm nuôi gia đình, là anh lại không thể quyết định được. Hơn nữa, nếu kết hôn, anh sẽ chịu áp lực phải sinh con. Xã hội bây giờ hỗn loạn như vậy, làm sao mà nuôi dạy con cái được? Anh ta suy nghĩ mãi, cảm thấy cuộc sống hiện tại vẫn tốt hơn."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "雖然女朋友跟他說過幾次，年紀不小，應該結婚了，他還是沒答應。現在社會慢慢地接受了各種家庭的組成方式。同居不再被認為是不道德的事了，一個人也能是一個「單身家庭」。因此，只要有愛，愛自己、愛家人，就是一個完整的家。",
+            "simplified": "虽然女朋友跟他说过几次，年纪不小，应该结婚了，他还是没答应。现在社会慢慢地接受了各种家庭的组成方式。同居不再被认为是不道德的事了，一个人也能是一个「单身家庭」。因此，只要有爱，爱自己、爱家人，就是一个完整的家。",
+            "pinyin": "suī rán nǚ péng yǒu gēn tā shuō guò jǐ cì ， nián jì bù xiǎo ， yīng gāi jié hūn le ， tā hái shì méi dá yīng 。 xiàn zài shè huì màn màn dì jiē shòu le gè zhǒng jiā tíng de zǔ chéng fāng shì 。 tóng jū bù zài bèi rèn wèi shì bù dào dé de shì le ， yī gè rén yě néng shì yī gè 「 dān shēn jiā tíng 」 。 yīn cǐ ， zhǐ yào yǒu ài ， ài zì jǐ 、 ài jiā rén ， jiù shì yī gè wán zhěng de jiā 。",
+            "meaningVi": "Mặc dù bạn gái đã nói với anh ta vài lần rằng anh ta không còn trẻ nữa và nên kết hôn, nhưng anh ta vẫn không đồng ý. Xã hội ngày nay đang dần chấp nhận nhiều mô hình gia đình khác nhau. Sống chung không còn bị coi là hành vi trái đạo đức nữa, và một người cũng có thể là một \"gia đình độc thân\". Vì vậy, chỉ cần có tình yêu, yêu bản thân, yêu gia đình, thì đó đã là một gia đình trọn vẹn."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc3-v3-l07-dialogue-01-lecture",
+        "prompt": "Trong hội thoại, “何雅婷，昨天我們去打籃球，妳怎麼沒去？” có nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Hà Nhã Đình, hôm qua bọn mình đi chơi bóng rổ, sao bạn không đi?"
+          },
+          {
+            "id": "b",
+            "text": "Mẹ tôi nói ông nội tôi bị ngã và bảo tôi đến thăm ông."
+          },
+          {
+            "id": "c",
+            "text": "Cũng ổn. May mà hàng xóm nghe thấy tiếng chó sủa liên tục nên đã nhanh chóng sang giúp đỡ, nên không sao cả."
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Hà Nhã Đình, hôm qua bọn mình đi chơi bóng rổ, sao bạn không đi?",
+        "skill": "Đọc hiểu hội thoại"
+      },
+      {
+        "id": "cc3-v3-l07-dialogue-02-lecture",
+        "prompt": "Trong hội thoại, “我爺爺常給狗洗澡，牠乾淨得很。” có nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Mẹ tôi nói ông nội tôi bị ngã và bảo tôi đến thăm ông."
+          },
+          {
+            "id": "b",
+            "text": "Ông nội tôi thường tắm cho chó, nên nó rất sạch sẽ."
+          },
+          {
+            "id": "c",
+            "text": "Hà Nhã Đình, hôm qua bọn mình đi chơi bóng rổ, sao bạn không đi?"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Ông nội tôi thường tắm cho chó, nên nó rất sạch sẽ.",
+        "skill": "Đọc hiểu hội thoại"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem nghĩa và ví dụ.",
+    "wordIds": [
+      "cc3-v3-l07-v001",
+      "cc3-v3-l07-v002",
+      "cc3-v3-l07-v003",
+      "cc3-v3-l07-v004",
+      "cc3-v3-l07-v005",
+      "cc3-v3-l07-v006",
+      "cc3-v3-l07-v007",
+      "cc3-v3-l07-v008",
+      "cc3-v3-l07-v009",
+      "cc3-v3-l07-v010",
+      "cc3-v3-l07-v011",
+      "cc3-v3-l07-v012",
+      "cc3-v3-l07-v013",
+      "cc3-v3-l07-v014",
+      "cc3-v3-l07-v015",
+      "cc3-v3-l07-v016",
+      "cc3-v3-l07-v017",
+      "cc3-v3-l07-v018",
+      "cc3-v3-l07-v019",
+      "cc3-v3-l07-v020",
+      "cc3-v3-l07-v021",
+      "cc3-v3-l07-v022",
+      "cc3-v3-l07-v023",
+      "cc3-v3-l07-v024",
+      "cc3-v3-l07-v025",
+      "cc3-v3-l07-v026",
+      "cc3-v3-l07-v027",
+      "cc3-v3-l07-v028",
+      "cc3-v3-l07-v029",
+      "cc3-v3-l07-v030",
+      "cc3-v3-l07-v031",
+      "cc3-v3-l07-v032",
+      "cc3-v3-l07-v033",
+      "cc3-v3-l07-v034",
+      "cc3-v3-l07-v035",
+      "cc3-v3-l07-v036",
+      "cc3-v3-l07-v037",
+      "cc3-v3-l07-v038",
+      "cc3-v3-l07-v039",
+      "cc3-v3-l07-v040",
+      "cc3-v3-l07-v041",
+      "cc3-v3-l07-v042",
+      "cc3-v3-l07-v043",
+      "cc3-v3-l07-v044",
+      "cc3-v3-l07-v045",
+      "cc3-v3-l07-v046",
+      "cc3-v3-l07-v047",
+      "cc3-v3-l07-v048",
+      "cc3-v3-l07-v049",
+      "cc3-v3-l07-v050",
+      "cc3-v3-l07-v051",
+      "cc3-v3-l07-v052",
+      "cc3-v3-l07-v053",
+      "cc3-v3-l07-v054",
+      "cc3-v3-l07-v055",
+      "cc3-v3-l07-v056",
+      "cc3-v3-l07-v057",
+      "cc3-v3-l07-v058",
+      "cc3-v3-l07-v059",
+      "cc3-v3-l07-v060",
+      "cc3-v3-l07-v061",
+      "cc3-v3-l07-v062",
+      "cc3-v3-l07-v063",
+      "cc3-v3-l07-v064",
+      "cc3-v3-l07-v065-2",
+      "cc3-v3-l07-v066",
+      "cc3-v3-l07-v067",
+      "cc3-v3-l07-v068",
+      "cc3-v3-l07-v069",
+      "cc3-v3-l07-v070",
+      "cc3-v3-l07-v071",
+      "cc3-v3-l07-v072",
+      "cc3-v3-l07-v073",
+      "cc3-v3-l07-v074",
+      "cc3-v3-l07-v075"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc3-textbook-l07-t02",
+        "label": "Từ vựng hội thoại"
+      },
+      {
+        "id": "cc3-textbook-l07-t04",
+        "label": "Từ vựng bài đọc"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc3-v3-l07-grammar-01",
+      "title": "亂＋V",
+      "audioTrackId": "cc3-textbook-l07-t05",
+      "explanation": "亂＋V nói làm một việc bừa bãi, không đúng chỗ hoặc không theo quy tắc; chẳng hạn 亂倒垃圾 là đổ rác bừa bãi.",
+      "structure": "亂＋V",
+      "examples": [
+        {
+          "chinese": "你不能亂倒垃圾，得等垃圾車來才能倒。",
+          "simplified": "你不能乱倒垃圾，得等垃圾车来才能倒。",
+          "pinyin": "nǐ bù néng luàn dào lā jī ， dé děng lā jī chē lái cái néng dào 。",
+          "meaningVi": "Bạn không thể đổ rác bừa bãi mà phải đợi xe chở rác tới."
+        },
+        {
+          "chinese": "這些座位都有人坐，不能亂坐。",
+          "simplified": "这些座位都有人坐，不能乱坐。",
+          "pinyin": "zhè xiē zuò wèi dōu yǒu rén zuò ， bù néng luàn zuò 。",
+          "meaningVi": "Những chỗ ngồi này đã có người ngồi nên không được phép ngồi ngẫu nhiên."
+        }
+      ],
+      "commonMistake": "",
+      "check": {
+        "id": "cc3-v3-l07-grammar-check-01",
+        "prompt": "Mẫu 亂＋V dùng để diễn đạt ý nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "亂＋V nói làm một việc bừa bãi, không đúng chỗ hoặc không theo quy tắc; chẳng hạn 亂倒垃圾 là đổ rác bừa bãi."
+          },
+          {
+            "id": "b",
+            "text": "各V各的 diễn tả mỗi người tự làm phần việc của mình, không cùng hành động. Động từ được lặp lại quanh 各 và 的."
+          },
+          {
+            "id": "c",
+            "text": "就算…也… nêu điều vẫn đúng dù giả sử điều kiện khó khăn xảy ra: “cho dù… vẫn…”."
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "亂＋V nói làm một việc bừa bãi, không đúng chỗ hoặc không theo quy tắc; chẳng hạn 亂倒垃圾 là đổ rác bừa bãi.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc3-v3-l07-grammar-02",
+      "title": "各V各的",
+      "audioTrackId": "cc3-textbook-l07-t06",
+      "explanation": "各V各的 diễn tả mỗi người tự làm phần việc của mình, không cùng hành động. Động từ được lặp lại quanh 各 và 的.",
+      "structure": "各V各的",
+      "examples": [
+        {
+          "chinese": "他們結婚以後，因為在不同的城市上班，還是各住各的。",
+          "simplified": "他们结婚以后，因为在不同的城市上班，还是各住各的。",
+          "pinyin": "tā men jié hūn yǐ hòu ， yīn wèi zài bù tóng de chéng shì shàng bān ， hái shì gè zhù gè de 。",
+          "meaningVi": "Sau khi kết hôn, họ vẫn sống ly thân vì làm việc ở các thành phố khác nhau."
+        },
+        {
+          "chinese": "他們各說各的，沒辦法一起討論。",
+          "simplified": "他们各说各的，没办法一起讨论。",
+          "pinyin": "tā men gè shuō gè de ， méi bàn fǎ yì qǐ tǎo lùn 。",
+          "meaningVi": "Mỗi người đều nói về những điều riêng của mình và không thể thảo luận về nó cùng nhau."
+        }
+      ],
+      "commonMistake": "",
+      "check": {
+        "id": "cc3-v3-l07-grammar-check-02",
+        "prompt": "Mẫu 各V各的 dùng để diễn đạt ý nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "各V各的 diễn tả mỗi người tự làm phần việc của mình, không cùng hành động. Động từ được lặp lại quanh 各 và 的."
+          },
+          {
+            "id": "b",
+            "text": "亂＋V nói làm một việc bừa bãi, không đúng chỗ hoặc không theo quy tắc; chẳng hạn 亂倒垃圾 là đổ rác bừa bãi."
+          },
+          {
+            "id": "c",
+            "text": "就算…也… nêu điều vẫn đúng dù giả sử điều kiện khó khăn xảy ra: “cho dù… vẫn…”."
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "各V各的 diễn tả mỗi người tự làm phần việc của mình, không cùng hành động. Động từ được lặp lại quanh 各 và 的.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc3-v3-l07-grammar-03",
+      "title": "就算…也…",
+      "audioTrackId": "cc3-textbook-l07-t07",
+      "explanation": "就算…也… nêu điều vẫn đúng dù giả sử điều kiện khó khăn xảy ra: “cho dù… vẫn…”.",
+      "structure": "就算…也…",
+      "examples": [
+        {
+          "chinese": "我爸爸常說：就算我做不動了，也不要靠孩子。",
+          "simplified": "我爸爸常说：就算我做不动了，也不要靠孩子。",
+          "pinyin": "wǒ bà bà cháng shuō ： jiù suàn wǒ zuò bù dòng le ， yě bú yào kào hái zi 。",
+          "meaningVi": "Bố tôi thường nói: Dù bố không làm được nữa cũng đừng trông cậy vào con cái."
+        },
+        {
+          "chinese": "就算你的能力比老闆強，你也應該聽老闆的意見。",
+          "simplified": "就算你的能力比老板强，你也应该听老板的意见。",
+          "pinyin": "jiù suàn nǐ de néng lì bǐ lǎo bǎn qiáng ， nǐ yě yīng gāi tīng lǎo bǎn de yì jiàn 。",
+          "meaningVi": "Dù có năng lực hơn sếp thì bạn vẫn nên lắng nghe ý kiến ​​của sếp."
+        }
+      ],
+      "commonMistake": "",
+      "check": {
+        "id": "cc3-v3-l07-grammar-check-03",
+        "prompt": "Mẫu 就算…也… dùng để diễn đạt ý nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "亂＋V nói làm một việc bừa bãi, không đúng chỗ hoặc không theo quy tắc; chẳng hạn 亂倒垃圾 là đổ rác bừa bãi."
+          },
+          {
+            "id": "b",
+            "text": "各V各的 diễn tả mỗi người tự làm phần việc của mình, không cùng hành động. Động từ được lặp lại quanh 各 và 的."
+          },
+          {
+            "id": "c",
+            "text": "就算…也… nêu điều vẫn đúng dù giả sử điều kiện khó khăn xảy ra: “cho dù… vẫn…”."
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "就算…也… nêu điều vẫn đúng dù giả sử điều kiện khó khăn xảy ra: “cho dù… vẫn…”.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc3-v3-l07-grammar-04",
+      "title": "因為＋名詞",
+      "audioTrackId": "cc3-textbook-l07-t08",
+      "explanation": "因為＋名詞 dùng một danh từ hoặc cụm danh từ để nêu lý do. Nếu lý do là cả một mệnh đề, cần xét cấu trúc câu đầy đủ.",
+      "structure": "因為＋名詞",
+      "examples": [
+        {
+          "chinese": "因為氣溫的變化，今年的芒果熟得比較早。因為工作的關係，我需要懂越南語的翻譯人員。",
+          "simplified": "因为气温的变化，今年的芒果熟得比较早。因为工作的关系，我需要懂越南语的翻译人员。",
+          "pinyin": "yīn wèi qì wēn de biàn huà ， jīn nián de máng guǒ shú dé bǐ jiào zǎo 。 yīn wèi gōng zuò de guān xì ， wǒ xū yào dǒng yuè nán yǔ de fān yì rén yuán 。",
+          "meaningVi": "Do nhiệt độ thay đổi nên xoài chín sớm hơn năm nay. Vì công việc của mình nên mình cần một phiên dịch viên hiểu được tiếng Việt."
+        },
+        {
+          "chinese": "因為成家晚的關係，他的孩子年紀還很小。",
+          "simplified": "因为成家晚的关系，他的孩子年纪还很小。",
+          "pinyin": "yīn wèi chéng jiā wǎn de guān xì ， tā de hái zi nián jì hái hěn xiǎo 。",
+          "meaningVi": "Vì lấy chồng muộn nên các con anh còn rất nhỏ."
+        }
+      ],
+      "commonMistake": "",
+      "check": {
+        "id": "cc3-v3-l07-grammar-check-04",
+        "prompt": "Mẫu 因為＋名詞 dùng để diễn đạt ý nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "亂＋V nói làm một việc bừa bãi, không đúng chỗ hoặc không theo quy tắc; chẳng hạn 亂倒垃圾 là đổ rác bừa bãi."
+          },
+          {
+            "id": "b",
+            "text": "各V各的 diễn tả mỗi người tự làm phần việc của mình, không cùng hành động. Động từ được lặp lại quanh 各 và 的."
+          },
+          {
+            "id": "c",
+            "text": "因為＋名詞 dùng một danh từ hoặc cụm danh từ để nêu lý do. Nếu lý do là cả một mệnh đề, cần xét cấu trúc câu đầy đủ."
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "因為＋名詞 dùng một danh từ hoặc cụm danh từ để nêu lý do. Nếu lý do là cả một mệnh đề, cần xét cấu trúc câu đầy đủ.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc3-v3-l07-grammar-05",
+      "title": "一來…二來…",
+      "audioTrackId": "cc3-textbook-l07-t09",
+      "explanation": "一來…二來… liệt kê hai lý do cho cùng một kết luận: “thứ nhất… thứ hai…”.",
+      "structure": "一來…二來…",
+      "examples": [
+        {
+          "chinese": "我不信任他，一來我們認識不久，二來聽說他會騙人。",
+          "simplified": "我不信任他，一来我们认识不久，二来听说他会骗人。",
+          "pinyin": "wǒ bù xìn rèn tā ， yī lái wǒ men rèn shí bù jiǔ ， èr lái tīng shuō tā huì piàn rén 。",
+          "meaningVi": "Tôi không tin anh ta. Thứ nhất, chúng tôi quen nhau chưa lâu, thứ hai, tôi nghe nói anh ấy có thể nói dối người khác."
+        },
+        {
+          "chinese": "我不跟你們到綠島去玩，一來我怕坐船，二來我不會游泳，去了沒意思。",
+          "simplified": "我不跟你们到绿岛去玩，一来我怕坐船，二来我不会游泳，去了没意思。",
+          "pinyin": "wǒ bù gēn nǐ men dào lǜ dǎo qù wán ， yī lái wǒ pà zuò chuán ， èr lái wǒ bù huì yóu yǒng ， qù le méi yì si 。",
+          "meaningVi": "Tôi sẽ không đến Đảo Xanh với bạn. Thứ nhất, tôi sợ đi thuyền. Thứ hai, tôi không biết bơi nên đi đến đó sẽ rất chán."
+        }
+      ],
+      "commonMistake": "",
+      "check": {
+        "id": "cc3-v3-l07-grammar-check-05",
+        "prompt": "Mẫu 一來…二來… dùng để diễn đạt ý nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "亂＋V nói làm một việc bừa bãi, không đúng chỗ hoặc không theo quy tắc; chẳng hạn 亂倒垃圾 là đổ rác bừa bãi."
+          },
+          {
+            "id": "b",
+            "text": "各V各的 diễn tả mỗi người tự làm phần việc của mình, không cùng hành động. Động từ được lặp lại quanh 各 và 的."
+          },
+          {
+            "id": "c",
+            "text": "一來…二來… liệt kê hai lý do cho cùng một kết luận: “thứ nhất… thứ hai…”."
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "一來…二來… liệt kê hai lý do cho cùng một kết luận: “thứ nhất… thứ hai…”.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc3-v3-l07-grammar-06",
+      "title": "V來V去",
+      "audioTrackId": "cc3-textbook-l07-t10",
+      "explanation": "V來V去 nhấn mạnh hành động lặp đi lặp lại hoặc đổi qua đổi lại mà chưa có kết quả rõ, như 想來想去.",
+      "structure": "V來V去",
+      "examples": [
+        {
+          "chinese": "孩子總是喜歡打來打去，你別擔心。",
+          "simplified": "孩子总是喜欢打来打去，你别担心。",
+          "pinyin": "hái zi zǒng shì xǐ huān dǎ lái dǎ qù ， nǐ bié dān xīn 。",
+          "meaningVi": "Trẻ con luôn thích đánh nhau, đừng lo lắng."
+        },
+        {
+          "chinese": "他很講究吃，他說吃來吃去，還是台南的牛肉湯最好喝。",
+          "simplified": "他很讲究吃，他说吃来吃去，还是台南的牛肉汤最好喝。",
+          "pinyin": "tā hěn jiǎng jiū chī ， tā shuō chī lái chī qù ， hái shì tái nán de niú ròu tāng zuì hǎo hē 。",
+          "meaningVi": "Anh ấy rất đặc biệt về đồ ăn, và anh ấy nói rằng dù anh ấy ăn món gì thì súp bò ở Đài Nam là ngon nhất."
+        }
+      ],
+      "commonMistake": "",
+      "check": {
+        "id": "cc3-v3-l07-grammar-check-06",
+        "prompt": "Mẫu V來V去 dùng để diễn đạt ý nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "亂＋V nói làm một việc bừa bãi, không đúng chỗ hoặc không theo quy tắc; chẳng hạn 亂倒垃圾 là đổ rác bừa bãi."
+          },
+          {
+            "id": "b",
+            "text": "各V各的 diễn tả mỗi người tự làm phần việc của mình, không cùng hành động. Động từ được lặp lại quanh 各 và 的."
+          },
+          {
+            "id": "c",
+            "text": "V來V去 nhấn mạnh hành động lặp đi lặp lại hoặc đổi qua đổi lại mà chưa có kết quả rõ, như 想來想去."
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "V來V去 nhấn mạnh hành động lặp đi lặp lại hoặc đổi qua đổi lại mà chưa có kết quả rõ, như 想來想去.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc3-v3-l07-grammar-07",
+      "title": "不再…了",
+      "audioTrackId": "cc3-textbook-l07-t11",
+      "explanation": "不再…了 cho biết một trạng thái/hành động trước đây đã chấm dứt: “không còn… nữa”.",
+      "structure": "不再…了",
+      "examples": [
+        {
+          "chinese": "他覺得自己長大了，可以獨立了，就不再接受父母的幫助了。",
+          "simplified": "他觉得自己长大了，可以独立了，就不再接受父母的帮助了。",
+          "pinyin": "tā jué dé zì jǐ zhǎng dà le ， kě yǐ dú lì le ， jiù bù zài jiē shòu fù mǔ de bāng zhù le 。",
+          "meaningVi": "Anh cảm thấy mình đã trưởng thành và có thể tự lập nên không còn nhận sự giúp đỡ của bố mẹ nữa."
+        },
+        {
+          "chinese": "我已經跟我男朋友分手了，我們不再見面了。",
+          "simplified": "我已经跟我男朋友分手了，我们不再见面了。",
+          "pinyin": "wǒ yǐ jīng gēn wǒ nán péng yǒu fēn shǒu le ， wǒ men bù zài jiàn miàn le 。",
+          "meaningVi": "Tôi đã chia tay bạn trai và chúng tôi không còn gặp nhau nữa."
+        }
+      ],
+      "commonMistake": "",
+      "check": {
+        "id": "cc3-v3-l07-grammar-check-07",
+        "prompt": "Mẫu 不再…了 dùng để diễn đạt ý nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "各V各的 diễn tả mỗi người tự làm phần việc của mình, không cùng hành động. Động từ được lặp lại quanh 各 và 的."
+          },
+          {
+            "id": "b",
+            "text": "不再…了 cho biết một trạng thái/hành động trước đây đã chấm dứt: “không còn… nữa”."
+          },
+          {
+            "id": "c",
+            "text": "亂＋V nói làm một việc bừa bãi, không đúng chỗ hoặc không theo quy tắc; chẳng hạn 亂倒垃圾 là đổ rác bừa bãi."
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "不再…了 cho biết một trạng thái/hành động trước đây đã chấm dứt: “không còn… nữa”.",
+        "skill": "Ngữ pháp"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc3-v3-l07-listening-01",
+      "prompt": "Nghe hội thoại: chọn ý của lời mở đầu.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cũng ổn. May mà hàng xóm nghe thấy tiếng chó sủa liên tục nên đã nhanh chóng sang giúp đỡ, nên không sao cả."
+        },
+        {
+          "id": "b",
+          "text": "Hà Nhã Đình, hôm qua bọn mình đi chơi bóng rổ, sao bạn không đi?"
+        },
+        {
+          "id": "c",
+          "text": "Mẹ tôi nói ông nội tôi bị ngã và bảo tôi đến thăm ông."
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Hà Nhã Đình, hôm qua bọn mình đi chơi bóng rổ, sao bạn không đi?",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc3-textbook-l07-t01"
+    },
+    {
+      "id": "cc3-v3-l07-listening-02",
+      "prompt": "Nghe hội thoại: chọn ý của phần kết.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tôi vẫn nghĩ có gia đình, con cái và sống vui vẻ bên nhau mới là hạnh phúc thật sự."
+        },
+        {
+          "id": "b",
+          "text": "Hà Nhã Đình, hôm qua bọn mình đi chơi bóng rổ, sao bạn không đi?"
+        },
+        {
+          "id": "c",
+          "text": "Mẹ tôi nói ông nội tôi bị ngã và bảo tôi đến thăm ông."
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Tôi vẫn nghĩ có gia đình, con cái và sống vui vẻ bên nhau mới là hạnh phúc thật sự.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc3-textbook-l07-t01"
+    },
+    {
+      "id": "cc3-v3-l07-listening-03",
+      "prompt": "Nghe bài đọc: chọn ý của lời mở đầu.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dì của Lý Văn Ngạn sống một mình với con ở Đài Bắc."
+        },
+        {
+          "id": "b",
+          "text": "Hà Nhã Đình, hôm qua bọn mình đi chơi bóng rổ, sao bạn không đi?"
+        },
+        {
+          "id": "c",
+          "text": "Mẹ tôi nói ông nội tôi bị ngã và bảo tôi đến thăm ông."
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Dì của Lý Văn Ngạn sống một mình với con ở Đài Bắc.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc3-textbook-l07-t03"
+    },
+    {
+      "id": "cc3-v3-l07-listening-04",
+      "prompt": "Nghe bài đọc: chọn ý của phần kết.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vì vậy, chỉ cần có tình yêu, yêu bản thân, yêu gia đình, thì đó đã là một gia đình trọn vẹn."
+        },
+        {
+          "id": "b",
+          "text": "Hà Nhã Đình, hôm qua bọn mình đi chơi bóng rổ, sao bạn không đi?"
+        },
+        {
+          "id": "c",
+          "text": "Mẹ tôi nói ông nội tôi bị ngã và bảo tôi đến thăm ông."
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Vì vậy, chỉ cần có tình yêu, yêu bản thân, yêu gia đình, thì đó đã là một gia đình trọn vẹn.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc3-textbook-l07-t03"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc3-v3-l07-vocab-01-practice",
+      "prompt": "Điền từ vào câu: 如果你買給我冰淇淋，我就＿＿你一下。",
+      "options": [
+        {
+          "id": "a",
+          "text": "孤單"
+        },
+        {
+          "id": "b",
+          "text": "親"
+        },
+        {
+          "id": "c",
+          "text": "可愛"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "親: một người thân.",
+      "skill": "Từ vựng",
+      "kind": "fill"
+    },
+    {
+      "id": "cc3-v3-l07-vocab-02-practice",
+      "prompt": "Điền từ vào câu: 你＿＿的名字是什麼？",
+      "options": [
+        {
+          "id": "a",
+          "text": "鄰居"
+        },
+        {
+          "id": "b",
+          "text": "狗"
+        },
+        {
+          "id": "c",
+          "text": "爺爺"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "爺爺: người cha của cha (ông nội).",
+      "skill": "Từ vựng",
+      "kind": "fill"
+    },
+    {
+      "id": "cc3-v3-l07-vocab-03-practice",
+      "prompt": "鄰居 có nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "người cha của cha (ông nội)"
+        },
+        {
+          "id": "b",
+          "text": "người hàng xóm"
+        },
+        {
+          "id": "c",
+          "text": "một người thân"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "người hàng xóm",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc3-v3-l07-vocab-04-practice",
+      "prompt": "狗 có nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "người cha của cha (ông nội)"
+        },
+        {
+          "id": "b",
+          "text": "con chó"
+        },
+        {
+          "id": "c",
+          "text": "một người thân"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "con chó",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc3-v3-l07-grammar-01-practice",
+      "prompt": "Mẫu 亂＋V dùng để diễn đạt ý nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "各V各的 diễn tả mỗi người tự làm phần việc của mình, không cùng hành động. Động từ được lặp lại quanh 各 và 的."
+        },
+        {
+          "id": "b",
+          "text": "就算…也… nêu điều vẫn đúng dù giả sử điều kiện khó khăn xảy ra: “cho dù… vẫn…”."
+        },
+        {
+          "id": "c",
+          "text": "亂＋V nói làm một việc bừa bãi, không đúng chỗ hoặc không theo quy tắc; chẳng hạn 亂倒垃圾 là đổ rác bừa bãi."
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "亂＋V nói làm một việc bừa bãi, không đúng chỗ hoặc không theo quy tắc; chẳng hạn 亂倒垃圾 là đổ rác bừa bãi.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc3-v3-l07-grammar-02-practice",
+      "prompt": "Mẫu 各V各的 dùng để diễn đạt ý nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "各V各的 diễn tả mỗi người tự làm phần việc của mình, không cùng hành động. Động từ được lặp lại quanh 各 và 的."
+        },
+        {
+          "id": "b",
+          "text": "亂＋V nói làm một việc bừa bãi, không đúng chỗ hoặc không theo quy tắc; chẳng hạn 亂倒垃圾 là đổ rác bừa bãi."
+        },
+        {
+          "id": "c",
+          "text": "就算…也… nêu điều vẫn đúng dù giả sử điều kiện khó khăn xảy ra: “cho dù… vẫn…”."
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "各V各的 diễn tả mỗi người tự làm phần việc của mình, không cùng hành động. Động từ được lặp lại quanh 各 và 的.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc3-v3-l07-dialogue-01-practice",
+      "prompt": "Trong hội thoại, “何雅婷，昨天我們去打籃球，妳怎麼沒去？” có nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hà Nhã Đình, hôm qua bọn mình đi chơi bóng rổ, sao bạn không đi?"
+        },
+        {
+          "id": "b",
+          "text": "Mẹ tôi nói ông nội tôi bị ngã và bảo tôi đến thăm ông."
+        },
+        {
+          "id": "c",
+          "text": "Cũng ổn. May mà hàng xóm nghe thấy tiếng chó sủa liên tục nên đã nhanh chóng sang giúp đỡ, nên không sao cả."
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Hà Nhã Đình, hôm qua bọn mình đi chơi bóng rổ, sao bạn không đi?",
+      "skill": "Đọc hiểu hội thoại"
+    },
+    {
+      "id": "cc3-v3-l07-reading-01-practice",
+      "prompt": "Đọc bài: đoạn đầu nói về điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mẹ tôi nói ông nội tôi bị ngã và bảo tôi đến thăm ông."
+        },
+        {
+          "id": "b",
+          "text": "Dì của Lý Văn Ngạn sống một mình với con ở Đài Bắc."
+        },
+        {
+          "id": "c",
+          "text": "Hà Nhã Đình, hôm qua bọn mình đi chơi bóng rổ, sao bạn không đi?"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Dì của Lý Văn Ngạn sống một mình với con ở Đài Bắc.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc3-v3-l07-vocab-05-assessment",
+      "prompt": "叫 có nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "tên là; gọi"
+        },
+        {
+          "id": "b",
+          "text": "một người thân"
+        },
+        {
+          "id": "c",
+          "text": "người cha của cha (ông nội)"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "tên là; gọi",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc3-v3-l07-vocab-06-assessment",
+      "prompt": "嗯 có nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "người cha của cha (ông nội)"
+        },
+        {
+          "id": "b",
+          "text": "Ừm"
+        },
+        {
+          "id": "c",
+          "text": "một người thân"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Ừm",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc3-v3-l07-vocab-07-assessment",
+      "prompt": "奶奶 có nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "người cha của cha (ông nội)"
+        },
+        {
+          "id": "b",
+          "text": "bà nội"
+        },
+        {
+          "id": "c",
+          "text": "một người thân"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "bà nội",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc3-v3-l07-vocab-08-assessment",
+      "prompt": "過世 có nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "qua đời"
+        },
+        {
+          "id": "b",
+          "text": "một người thân"
+        },
+        {
+          "id": "c",
+          "text": "người cha của cha (ông nội)"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "qua đời",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc3-v3-l07-grammar-03-assessment",
+      "prompt": "Mẫu 就算…也… dùng để diễn đạt ý nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "各V各的 diễn tả mỗi người tự làm phần việc của mình, không cùng hành động. Động từ được lặp lại quanh 各 và 的."
+        },
+        {
+          "id": "b",
+          "text": "就算…也… nêu điều vẫn đúng dù giả sử điều kiện khó khăn xảy ra: “cho dù… vẫn…”."
+        },
+        {
+          "id": "c",
+          "text": "亂＋V nói làm một việc bừa bãi, không đúng chỗ hoặc không theo quy tắc; chẳng hạn 亂倒垃圾 là đổ rác bừa bãi."
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "就算…也… nêu điều vẫn đúng dù giả sử điều kiện khó khăn xảy ra: “cho dù… vẫn…”.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc3-v3-l07-grammar-04-assessment",
+      "prompt": "Mẫu 因為＋名詞 dùng để diễn đạt ý nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "因為＋名詞 dùng một danh từ hoặc cụm danh từ để nêu lý do. Nếu lý do là cả một mệnh đề, cần xét cấu trúc câu đầy đủ."
+        },
+        {
+          "id": "b",
+          "text": "亂＋V nói làm một việc bừa bãi, không đúng chỗ hoặc không theo quy tắc; chẳng hạn 亂倒垃圾 là đổ rác bừa bãi."
+        },
+        {
+          "id": "c",
+          "text": "各V各的 diễn tả mỗi người tự làm phần việc của mình, không cùng hành động. Động từ được lặp lại quanh 各 và 的."
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "因為＋名詞 dùng một danh từ hoặc cụm danh từ để nêu lý do. Nếu lý do là cả một mệnh đề, cần xét cấu trúc câu đầy đủ.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc3-v3-l07-dialogue-02-assessment",
+      "prompt": "Trong hội thoại, “我爺爺常給狗洗澡，牠乾淨得很。” có nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mẹ tôi nói ông nội tôi bị ngã và bảo tôi đến thăm ông."
+        },
+        {
+          "id": "b",
+          "text": "Ông nội tôi thường tắm cho chó, nên nó rất sạch sẽ."
+        },
+        {
+          "id": "c",
+          "text": "Hà Nhã Đình, hôm qua bọn mình đi chơi bóng rổ, sao bạn không đi?"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Ông nội tôi thường tắm cho chó, nên nó rất sạch sẽ.",
+      "skill": "Đọc hiểu hội thoại"
+    },
+    {
+      "id": "cc3-v3-l07-dialogue-03-assessment",
+      "prompt": "Trong hội thoại, “妳們說的也對。可是我還是覺得一個人應該有家庭，更應該有孩子，一家人熱熱鬧鬧地一起生活才是真正的幸福。” có nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hà Nhã Đình, hôm qua bọn mình đi chơi bóng rổ, sao bạn không đi?"
+        },
+        {
+          "id": "b",
+          "text": "Mẹ tôi nói ông nội tôi bị ngã và bảo tôi đến thăm ông."
+        },
+        {
+          "id": "c",
+          "text": "Tôi vẫn nghĩ có gia đình, con cái và sống vui vẻ bên nhau mới là hạnh phúc thật sự."
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Tôi vẫn nghĩ có gia đình, con cái và sống vui vẻ bên nhau mới là hạnh phúc thật sự.",
+      "skill": "Đọc hiểu hội thoại"
+    },
+    {
+      "id": "cc3-v3-l07-reading-01-assessment",
+      "prompt": "Đọc bài: đoạn đầu nói về điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mẹ tôi nói ông nội tôi bị ngã và bảo tôi đến thăm ông."
+        },
+        {
+          "id": "b",
+          "text": "Dì của Lý Văn Ngạn sống một mình với con ở Đài Bắc."
+        },
+        {
+          "id": "c",
+          "text": "Hà Nhã Đình, hôm qua bọn mình đi chơi bóng rổ, sao bạn không đi?"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Dì của Lý Văn Ngạn sống một mình với con ở Đài Bắc.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc3-v3-l07-reading-02-assessment",
+      "prompt": "Đọc bài: đoạn cuối nói về điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hà Nhã Đình, hôm qua bọn mình đi chơi bóng rổ, sao bạn không đi?"
+        },
+        {
+          "id": "b",
+          "text": "Mẹ tôi nói ông nội tôi bị ngã và bảo tôi đến thăm ông."
+        },
+        {
+          "id": "c",
+          "text": "Vì vậy, chỉ cần có tình yêu, yêu bản thân, yêu gia đình, thì đó đã là một gia đình trọn vẹn."
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Vì vậy, chỉ cần có tình yêu, yêu bản thân, yêu gia đình, thì đó đã là một gia đình trọn vẹn.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "writingTask": {
+    "id": "cc3-v3-l07-writing",
+    "title": "Viết về chủ đề bài học",
+    "prompt": "Viết 3–4 câu tiếng Hoa về gia đình và các mối quan hệ thân thiết. Thử dùng ít nhất một mẫu ngữ pháp vừa học."
+  }
+}

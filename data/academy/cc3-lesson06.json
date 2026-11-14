@@ -1,0 +1,1180 @@
+{
+  "contentVersion": 2,
+  "id": "cc3-v3-l06",
+  "title": "到鄉下住一晚！",
+  "titleVi": "Ở miền quê một đêm",
+  "description": "Học cách nói về nông thôn, thực phẩm và lối sống qua hội thoại, bài đọc, từ vựng và ngữ pháp của Bài 06.",
+  "objectives": [
+    "Hiểu và trao đổi về nông thôn, thực phẩm và lối sống.",
+    "Đọc và nghe hội thoại “到鄉下住一晚！” cùng bài đọc “現代小農”.",
+    "Dùng 因為…才…; …不說，…也…; 再加上 trong ngữ cảnh phù hợp."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Bài 06 xoay quanh nông thôn, thực phẩm và lối sống. Nghe hội thoại trước, sau đó đọc bài và tự kiểm tra điều đã hiểu.",
+    "sections": [
+      {
+        "id": "cc3-v3-l06-section-01",
+        "title": "Theo dõi hội thoại",
+        "body": "Nghe cách các nhân vật nói về nông thôn, thực phẩm và lối sống; sau đó đọc từng lượt lời.",
+        "chinese": "歡迎、歡迎。大家隨便坐。這是剛摘下來的芒果，大家嚐嚐。",
+        "simplified": "欢迎、欢迎。大家随便坐。这是刚摘下来的芒果，大家尝尝。",
+        "pinyin": "huān yíng 、 huān yíng 。 dà jiā suí biàn zuò 。 zhè shì gāng zhāi xià lái de máng guǒ ， dà jiā cháng cháng 。",
+        "meaningVi": "Chào mừng, chào mừng. Mọi người cứ tự nhiên ngồi nhé. Đây là những trái xoài vừa hái, mọi người nếm thử xem."
+      },
+      {
+        "id": "cc3-v3-l06-section-02",
+        "title": "Đọc trong ngữ cảnh",
+        "body": "Đọc “現代小農” và chú ý các chi tiết khác với hội thoại.",
+        "chinese": "星期天一大早，何雅婷就陪著媽媽到農夫市集去買菜。",
+        "simplified": "星期天一大早，何雅婷就陪着妈妈到农夫市集去买菜。",
+        "pinyin": "xīng qī tiān yī dà zǎo ， hé yǎ tíng jiù péi zhù mā mā dào nóng fū shì jí qù mǎi cài 。",
+        "meaningVi": "Sáng sớm Chủ nhật, Hà Nhã Đình đi cùng mẹ đến chợ nông sản để mua rau."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc3-v3-l06-dialogue",
+        "title": "到鄉下住一晚！",
+        "context": "Hội thoại trong giáo trình",
+        "audioTrackId": "cc3-textbook-l06-t01",
+        "turns": [
+          {
+            "speaker": "表哥",
+            "chinese": "歡迎、歡迎。大家隨便坐。這是剛摘下來的芒果，大家嚐嚐。",
+            "simplified": "欢迎、欢迎。大家随便坐。这是刚摘下来的芒果，大家尝尝。",
+            "pinyin": "huān yíng 、 huān yíng 。 dà jiā suí biàn zuò 。 zhè shì gāng zhāi xià lái de máng guǒ ， dà jiā cháng cháng 。",
+            "meaningVi": "Chào mừng, chào mừng. Mọi người cứ tự nhiên ngồi nhé. Đây là những trái xoài vừa hái, mọi người nếm thử xem."
+          },
+          {
+            "speaker": "李文彥",
+            "chinese": "很好吃吧？我表哥除了芒果以外，還種了很多有機蔬菜。他是現代農夫。",
+            "simplified": "很好吃吧？我表哥除了芒果以外，还种了很多有机蔬菜。他是现代农夫。",
+            "pinyin": "hěn hǎo chī ba ？ wǒ biǎo gē chú le máng guǒ yǐ wài ， hái zhǒng le hěn duō yǒu jī shū cài 。 tā shì xiàn dài nóng fū 。",
+            "meaningVi": "Ngon lắm phải không? Ngoài xoài, anh họ tôi còn trồng rất nhiều loại rau hữu cơ. Anh ấy là một nông dân thời hiện đại."
+          },
+          {
+            "speaker": "安德思",
+            "chinese": "為什麼說他是現代農夫？",
+            "simplified": "为什么说他是现代农夫？",
+            "pinyin": "wèi shén me shuō tā shì xiàn dài nóng fū ？",
+            "meaningVi": "Tại sao lại nói ông là một người nông dân hiện đại?"
+          },
+          {
+            "speaker": "李文彥",
+            "chinese": "因為他跟傳統農夫很不一樣。為了減少對環境的汙染，他不用農藥，而且只用天然堆肥，大家可以放心地吃。",
+            "simplified": "因为他跟传统农夫很不一样。为了减少对环境的污染，他不用农药，而且只用天然堆肥，大家可以放心地吃。",
+            "pinyin": "yīn wèi tā gēn chuán tǒng nóng fū hěn bù yī yàng 。 wèi le jiǎn shǎo duì huán jìng de wū rǎn ， tā bù yòng nóng yào ， ér qiě zhǐ yòng tiān rán duī féi ， dà jiā kě yǐ fàng xīn dì chī 。",
+            "meaningVi": "Bởi vì ông ấy rất khác với những người nông dân truyền thống. Để giảm thiểu ô nhiễm môi trường, ông không sử dụng thuốc bảo vệ thực vật mà chỉ dùng phân hữu cơ tự nhiên, vì vậy mọi người có thể yên tâm sử dụng."
+          },
+          {
+            "speaker": "安德思",
+            "chinese": "當農夫不是很辛苦嗎？你為什麼要當農夫？",
+            "simplified": "当农夫不是很辛苦吗？你为什么要当农夫？",
+            "pinyin": "dāng nóng fū bú shì hěn xīn kǔ ma ？ nǐ wèi shén me yào dāng nóng fū ？",
+            "meaningVi": "Làm nông dân không phải rất vất vả sao? Tại sao bạn lại muốn làm nông dân?"
+          },
+          {
+            "speaker": "表哥",
+            "chinese": "我本來在大學教書，因為看到父母年紀大了，做不動了，才決定回來幫忙的。",
+            "simplified": "我本来在大学教书，因为看到父母年纪大了，做不动了，才决定回来帮忙的。",
+            "pinyin": "wǒ běn lái zài dà xué jiào shū ， yīn wèi kàn dào fù mǔ nián jì dà le ， zuò bù dòng le ， cái jué dìng huí lái bāng máng de 。",
+            "meaningVi": "Trước đây tôi đang dạy học ở trường đại học, nhưng vì thấy ba mẹ đã già, không còn làm được việc nữa nên tôi quyết định về nhà để giúp đỡ."
+          },
+          {
+            "speaker": "羅珊蒂",
+            "chinese": "你家人不反對你回來嗎？",
+            "simplified": "你家人不反对你回来吗？",
+            "pinyin": "nǐ jiā rén bù fǎn duì nǐ huí lái ma ？",
+            "meaningVi": "Gia đình anh không phản đối việc anh quay lại sao?"
+          },
+          {
+            "speaker": "表哥",
+            "chinese": "當然反對。農夫在台灣的社會地位不高，工作辛苦不說，收入也不穩定，父母都希望孩子有更好的發展。",
+            "simplified": "当然反对。农夫在台湾的社会地位不高，工作辛苦不说，收入也不稳定，父母都希望孩子有更好的发展。",
+            "pinyin": "dāng rán fǎn duì 。 nóng fū zài tái wān de shè huì dì wèi bù gāo ， gōng zuò xīn kǔ bù shuō ， shōu rù yě bù wěn dìng ， fù mǔ dōu xī wàng hái zi yǒu gèng hǎo de fā zhǎn 。",
+            "meaningVi": "Tất nhiên là phản đối. Nông dân ở Đài Loan có địa vị xã hội không cao. Ngoài việc công việc vất vả, thu nhập cũng không ổn định. Các bậc cha mẹ đều hy vọng con cái mình có thể phát triển tốt hơn."
+          },
+          {
+            "speaker": "羅珊蒂",
+            "chinese": "怎麼會呢？超市的有機蔬菜都貴得不得了。",
+            "simplified": "怎么会呢？超市的有机蔬菜都贵得不得了。",
+            "pinyin": "zěn me huì ne ？ chāo shì de yǒu jī shū cài dōu guì dé bù dé le 。",
+            "meaningVi": "Sao lại thế nhỉ? Rau hữu cơ ở siêu thị đắt kinh khủng."
+          },
+          {
+            "speaker": "表哥",
+            "chinese": "賣給超市，農夫的利潤很低，可是自己賣的話，問題更多。今天不談這個。天氣這麼好，別一直待在屋子裡，我們出去走走吧。（到了屋外）",
+            "simplified": "卖给超市，农夫的利润很低，可是自己卖的话，问题更多。今天不谈这个。天气这么好，别一直待在屋子里，我们出去走走吧。（到了屋外）",
+            "pinyin": "mài gěi chāo shì ， nóng fū de lì rùn hěn dī ， kě shì zì jǐ mài de huà ， wèn tí gèng duō 。 jīn tiān bù tán zhè gè 。 tiān qì zhè me hǎo ， bié yì zhí dài zài wū zi lǐ ， wǒ men chū qù zǒu zǒu ba 。 （ dào le wū wài ）",
+            "meaningVi": "Khi bán cho siêu thị, lợi nhuận của nông dân rất thấp, nhưng nếu tự bán thì lại gặp nhiều vấn đề hơn. Hôm nay chúng ta không nói về chuyện này. Thời tiết đẹp thế này, đừng có ở mãi trong nhà, chúng ta ra ngoài đi dạo một chút nhé. (Ra đến ngoài nhà)"
+          },
+          {
+            "speaker": "安德思",
+            "chinese": "這些番茄真漂亮！",
+            "simplified": "这些番茄真漂亮！",
+            "pinyin": "zhè xiē fān qié zhēn piào liàng ！",
+            "meaningVi": "Những quả cà chua này thật đẹp!"
+          },
+          {
+            "speaker": "表哥",
+            "chinese": "這不是基因改造的，是新品種。今年氣候特別好，再加上沒有颱風，所以青菜水果都長得很好。",
+            "simplified": "这不是基因改造的，是新品种。今年气候特别好，再加上没有台风，所以青菜水果都长得很好。",
+            "pinyin": "zhè bú shì jī yīn gǎi zào de ， shì xīn pǐn zhǒng 。 jīn nián qì hòu tè bié hǎo ， zài jiā shàng méi yǒu tái fēng ， suǒ yǐ qīng cài shuǐ guǒ dōu zhǎng dé hěn hǎo 。",
+            "meaningVi": "Đây không phải là sản phẩm biến đổi gen, mà là một giống mới. Năm nay thời tiết đặc biệt tốt, cộng thêm không có bão, nên rau củ và trái cây đều phát triển rất tốt."
+          },
+          {
+            "speaker": "安德思",
+            "chinese": "這些番茄熟了嗎？",
+            "simplified": "这些番茄熟了吗？",
+            "pinyin": "zhè xiē fān qié shú le ma ？",
+            "meaningVi": "Những quả cà chua này đã chín chưa?"
+          },
+          {
+            "speaker": "表哥",
+            "chinese": "熟了，熟了，摘下來就可以吃了。這些番茄都是有機的，不必洗。",
+            "simplified": "熟了，熟了，摘下来就可以吃了。这些番茄都是有机的，不必洗。",
+            "pinyin": "shú le ， shú le ， zhāi xià lái jiù kě yǐ chī le 。 zhè xiē fān qié dōu shì yǒu jī de ， bù bì xǐ 。",
+            "meaningVi": "Chín rồi, chín rồi, hái xuống là ăn được ngay. Những quả cà chua này đều là cà chua hữu cơ, không cần rửa."
+          },
+          {
+            "speaker": "安德思",
+            "chinese": "這麼大的一片田，你一個人照顧，忙得過來嗎？",
+            "simplified": "这么大的一片田，你一个人照顾，忙得过来吗？",
+            "pinyin": "zhè me dà de yī piàn tián ， nǐ yī gè rén zhào gù ， máng dé guò lái ma ？",
+            "meaningVi": "Một cánh đồng lớn như vậy mà anh chỉ có một mình, có bận rộn quá không?"
+          },
+          {
+            "speaker": "表哥",
+            "chinese": "平常還好，可是收成的時候，很難找到人幫忙。",
+            "simplified": "平常还好，可是收成的时候，很难找到人帮忙。",
+            "pinyin": "píng cháng hái hǎo ， kě shì shōu chéng de shí hòu ， hěn nán zhǎo dào rén bāng máng 。",
+            "meaningVi": "Thông thường thì không sao, nhưng đến mùa thu hoạch thì rất khó tìm được người giúp đỡ."
+          },
+          {
+            "speaker": "李文彥",
+            "chinese": "這幾年，回鄉下種田的年輕人不是很多嗎？",
+            "simplified": "这几年，回乡下种田的年轻人不是很多吗？",
+            "pinyin": "zhè jǐ nián ， huí xiāng xià zhǒng tián de nián qīng rén bú shì hěn duō ma ？",
+            "meaningVi": "Mấy năm gần đây, chẳng phải có rất nhiều thanh niên trở về quê làm nông sao?"
+          },
+          {
+            "speaker": "表哥",
+            "chinese": "忙的時候，大家都一樣，連自己的事都做不完，怎麼有時間幫別人的忙？",
+            "simplified": "忙的时候，大家都一样，连自己的事都做不完，怎么有时间帮别人的忙？",
+            "pinyin": "máng de shí hòu ， dà jiā dōu yī yàng ， lián zì jǐ de shì dōu zuò bù wán ， zěn me yǒu shí jiān bāng bié rén de máng ？",
+            "meaningVi": "Khi bận rộn, ai cũng như ai, ngay cả việc của chính mình còn chưa làm xong, thì làm sao có thời gian giúp đỡ người khác?"
+          },
+          {
+            "speaker": "羅珊蒂",
+            "chinese": "你怎麼不找個太太來幫你？",
+            "simplified": "你怎么不找个太太来帮你？",
+            "pinyin": "nǐ zěn me bù zhǎo gè tài tài lái bāng nǐ ？",
+            "meaningVi": "Sao anh không tìm một người vợ để giúp đỡ anh?"
+          },
+          {
+            "speaker": "李文彥",
+            "chinese": "妳這問題問得真好。我表哥什麼都有，就是少了一個太太。",
+            "simplified": "妳这问题问得真好。我表哥什么都有，就是少了一个太太。",
+            "pinyin": "nǐ zhè wèn tí wèn dé zhēn hǎo 。 wǒ biǎo gē shén me dōu yǒu ， jiù shì shǎo le yī gè tài tài 。",
+            "meaningVi": "Cô hỏi câu này hay thật. Anh họ tôi có tất cả mọi thứ, chỉ thiếu một người vợ."
+          },
+          {
+            "speaker": "表哥",
+            "chinese": "別開玩笑了。農夫看天吃飯，收入這麼不穩定，怎麼敢結婚？",
+            "simplified": "别开玩笑了。农夫看天吃饭，收入这么不稳定，怎么敢结婚？",
+            "pinyin": "bié kāi wán xiào le 。 nóng fū kàn tiān chī fàn ， shōu rù zhè me bù wěn dìng ， zěn me gǎn jié hūn ？",
+            "meaningVi": "Đừng có đùa nữa. Nông dân làm việc dựa vào thời tiết, thu nhập lại bất ổn như vậy, sao dám kết hôn chứ?"
+          },
+          {
+            "speaker": "羅珊蒂",
+            "chinese": "表哥，你條件這麼好，我給你介紹一個，怎麼樣？",
+            "simplified": "表哥，你条件这么好，我给你介绍一个，怎么样？",
+            "pinyin": "biǎo gē ， nǐ tiáo jiàn zhè me hǎo ， wǒ gěi nǐ jiè shào yī gè ， zěn me yàng ？",
+            "meaningVi": "Anh họ, điều kiện của anh tốt như vậy, để em giới thiệu cho anh một người nhé, được không?"
+          },
+          {
+            "speaker": "表哥",
+            "chinese": "以後再說吧！天黑了，我們快回去吃飯。",
+            "simplified": "以后再说吧！天黑了，我们快回去吃饭。",
+            "pinyin": "yǐ hòu zài shuō ba ！ tiān hēi le ， wǒ men kuài huí qù chī fàn 。",
+            "meaningVi": "Để sau này nói tiếp! Trời tối rồi, chúng ta mau về ăn cơm thôi."
+          }
+        ]
+      },
+      {
+        "id": "cc3-v3-l06-reading",
+        "title": "現代小農",
+        "context": "Bài đọc trong giáo trình",
+        "audioTrackId": "cc3-textbook-l06-t03",
+        "turns": [
+          {
+            "speaker": "Bài đọc",
+            "chinese": "星期天一大早，何雅婷就陪著媽媽到農夫市集去買菜。最近食品安全出了好幾次問題，何雅婷的媽媽為了家人的健康，開始注意食材的產地，也盡量到有機商店和農夫市集買菜。雖然這些地方賣的東西種類沒有市場那麼多，價錢也比較高，可是媽媽常跟農夫聊天，了解小農用友善的方式對待土地和環境，很信任他們，所以寧可每個星期跑一趟，多花一點錢，也要支持小農。像何雅婷媽媽這樣關心小農的人越來越多。有人寫文章介紹小農種的蔬菜水果，有人到處幫小農推銷，其中最有名的是一位麵包師傅。他從小在農村長大，了解農夫的辛苦。為了幫助小農，也為了幫自己的產品找更好的食材，他常常拜訪小農，用他們出產的食材做出受歡迎的麵包。由於報紙、網路的介紹，許多住在城市裡的人開始羨慕小農的生活。他們利用放假的時候，帶著孩子到農村去，一方面可以讓孩子在田裡跑跑跳跳，接近自然，一方面自己也可以放鬆心情。到鄉下住一晚變成了現在熱門的休閒活動。隨著小農越來越受重視，到農村來觀光的人也慢慢地多起來了，連便利商店都來了。",
+            "simplified": "星期天一大早，何雅婷就陪着妈妈到农夫市集去买菜。最近食品安全出了好几次问题，何雅婷的妈妈为了家人的健康，开始注意食材的产地，也尽量到有机商店和农夫市集买菜。虽然这些地方卖的东西种类没有市场那么多，价钱也比较高，可是妈妈常跟农夫聊天，了解小农用友善的方式对待土地和环境，很信任他们，所以宁可每个星期跑一趟，多花一点钱，也要支持小农。像何雅婷妈妈这样关心小农的人越来越多。有人写文章介绍小农种的蔬菜水果，有人到处帮小农推销，其中最有名的是一位面包师傅。他从小在农村长大，了解农夫的辛苦。为了帮助小农，也为了帮自己的产品找更好的食材，他常常拜访小农，用他们出产的食材做出受欢迎的面包。由于报纸、网路的介绍，许多住在城市里的人开始羡慕小农的生活。他们利用放假的时候，带着孩子到农村去，一方面可以让孩子在田里跑跑跳跳，接近自然，一方面自己也可以放松心情。到乡下住一晚变成了现在热门的休闲活动。随着小农越来越受重视，到农村来观光的人也慢慢地多起来了，连便利商店都来了。",
+            "pinyin": "xīng qī tiān yī dà zǎo ， hé yǎ tíng jiù péi zhù mā mā dào nóng fū shì jí qù mǎi cài 。 zuì jìn shí pǐn ān quán chū le hǎo jǐ cì wèn tí ， hé yǎ tíng de mā mā wèi le jiā rén de jiàn kāng ， kāi shǐ zhù yì shí cái de chǎn dì ， yě jǐn liàng dào yǒu jī shāng diàn hé nóng fū shì jí mǎi cài 。 suī rán zhè xiē dì fāng mài de dōng xī zhǒng lèi méi yǒu shì chǎng nà me duō ， jià qián yě bǐ jiào gāo ， kě shì mā mā cháng gēn nóng fū liáo tiān ， liǎo jiě xiǎo nóng yòng yǒu shàn de fāng shì duì dài tǔ dì hé huán jìng ， hěn xìn rèn tā men ， suǒ yǐ níng kě měi gè xīng qī pǎo yī tàng ， duō huā yī diǎn qián ， yě yào zhī chí xiǎo nóng 。 xiàng hé yǎ tíng mā mā zhè yàng guān xīn xiǎo nóng de rén yuè lái yuè duō 。 yǒu rén xiě wén zhāng jiè shào xiǎo nóng zhǒng de shū cài shuǐ guǒ ， yǒu rén dào chù bāng xiǎo nóng tuī xiāo ， qí zhōng zuì yǒu míng de shì yī wèi miàn bāo shī fù 。 tā cóng xiǎo zài nóng cūn zhǎng dà ， liǎo jiě nóng fū de xīn kǔ 。 wèi le bāng zhù xiǎo nóng ， yě wèi le bāng zì jǐ de chǎn pǐn zhǎo gèng hǎo de shí cái ， tā cháng cháng bài fǎng xiǎo nóng ， yòng tā men chū chǎn de shí cái zuò chū shòu huān yíng de miàn bāo 。 yóu yú bào zhǐ 、 wǎng lù de jiè shào ， xǔ duō zhù zài chéng shì lǐ de rén kāi shǐ xiàn mù xiǎo nóng de shēng huó 。 tā men lì yòng fàng jià de shí hòu ， dài zhù hái zi dào nóng cūn qù ， yì fāng miàn kě yǐ ràng hái zi zài tián lǐ pǎo pǎo tiào tiào ， jiē jìn zì rán ， yì fāng miàn zì jǐ yě kě yǐ fàng sōng xīn qíng 。 dào xiāng xià zhù yī wǎn biàn chéng le xiàn zài rè mén de xiū xián huó dòng 。 suí zhù xiǎo nóng yuè lái yuè shòu zhòng shì ， dào nóng cūn lái guān guāng de rén yě màn màn dì duō qǐ lái le ， lián biàn lì shāng diàn dōu lái le 。",
+            "meaningVi": "Sáng sớm Chủ nhật, Hà Nhã Đình đi cùng mẹ đến chợ nông sản để mua rau. Gần đây, đã có nhiều vấn đề về an toàn thực phẩm . Vì sức khỏe của gia đình, mẹ của Hà Nhã Đình bắt đầu chú ý đến nguồn gốc của thực phẩm và cố gắng mua rau củ ở các cửa hàng hữu cơ và chợ nông sản. Mặc dù những nơi này không bán nhiều loại sản phẩm như chợ và giá cả cũng cao hơn, nhưng mẹ thường trò chuyện với các nông dân, tìm hiểu cách các nông dân nhỏ đối xử thân thiện với đất đai và môi trường, nên rất tin tưởng họ. Vì vậy, mẹ thà mỗi tuần đi một chuyến, tốn thêm chút tiền cũng phải ủng hộ các nông dân nhỏ. Càng ngày càng có nhiều người quan tâm đến các nông dân nhỏ như mẹ của Hà Nhã Đình. Có người viết bài giới thiệu các loại rau củ quả do nông dân quy mô nhỏ trồng, có người đi khắp nơi để giúp nông dân quy mô nhỏ quảng bá sản phẩm, trong số đó nổi tiếng nhất là một thợ làm bánh. Ông lớn lên ở nông thôn từ nhỏ, nên hiểu được sự vất vả của người nông dân. Để giúp các nông dân nhỏ và cũng để tìm nguồn nguyên liệu tốt hơn cho sản phẩm của mình, ông thường xuyên ghé thăm các nông dân nhỏ và sử dụng nguyên liệu do họ sản xuất để làm ra những loại bánh mì được ưa chuộng. Nhờ những bài giới thiệu trên báo chí và mạng Internet, nhiều người sống ở thành phố bắt đầu ngưỡng mộ cuộc sống của những nông dân nhỏ. Họ tận dụng thời gian nghỉ lễ để đưa con cái về nông thôn, một mặt để cho con cái chạy nhảy trên cánh đồng, gần gũi với thiên nhiên, mặt khác cũng để bản thân được thư giãn. Ở lại nông thôn một đêm đã trở thành một hoạt động giải trí phổ biến hiện nay. Khi các nông dân quy mô nhỏ ngày càng được quan tâm, số lượng du khách đến tham quan nông thôn cũng dần tăng lên, thậm chí cả các cửa hàng tiện lợi cũng xuất hiện."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "以前當地人習慣自己做飯，或是到傳統的小商店和小吃店消費，現在便利商店更方便也更吸引他們。傳統的小店生意受到了影響，原來安靜的農村有了很大的變化。現在農人擔心的是傳統的生活方式會不會消失。",
+            "simplified": "以前当地人习惯自己做饭，或是到传统的小商店和小吃店消费，现在便利商店更方便也更吸引他们。传统的小店生意受到了影响，原来安静的农村有了很大的变化。现在农人担心的是传统的生活方式会不会消失。",
+            "pinyin": "yǐ qián dāng dì rén xí guàn zì jǐ zuò fàn ， huò shì dào chuán tǒng de xiǎo shāng diàn hé xiǎo chī diàn xiāo fèi ， xiàn zài biàn lì shāng diàn gèng fāng biàn yě gèng xī yǐn tā men 。 chuán tǒng de xiǎo diàn shēng yì shòu dào le yǐng xiǎng ， yuán lái ān jìng de nóng cūn yǒu le hěn dà de biàn huà 。 xiàn zài nóng rén dān xīn de shì chuán tǒng de shēng huó fāng shì huì bù huì xiāo shī 。",
+            "meaningVi": "Trước đây, người dân địa phương thường tự nấu ăn hoặc mua sắm tại các cửa hàng nhỏ và quán ăn truyền thống. Nhưng ngày nay, các cửa hàng tiện lợi trở nên thuận tiện hơn và thu hút họ nhiều hơn. Hoạt động kinh doanh của các cửa hàng nhỏ truyền thống bị ảnh hưởng, và những ngôi làng nông thôn vốn yên tĩnh trước đây đã có sự thay đổi lớn. Điều mà người nông dân hiện nay lo lắng là liệu lối sống truyền thống có biến mất hay không."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc3-v3-l06-dialogue-01-lecture",
+        "prompt": "Trong hội thoại, “歡迎、歡迎。大家隨便坐。這是剛摘下來的芒果，大家嚐嚐。” có nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Tại sao lại nói ông là một người nông dân hiện đại?"
+          },
+          {
+            "id": "b",
+            "text": "Chào mừng, chào mừng. Mọi người cứ tự nhiên ngồi nhé. Đây là những trái xoài vừa hái, mọi người nếm thử xem."
+          },
+          {
+            "id": "c",
+            "text": "Ngon lắm phải không? Ngoài xoài, anh họ tôi còn trồng rất nhiều loại rau hữu cơ. Anh ấy là một nông dân thời hiện đại."
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Chào mừng, chào mừng. Mọi người cứ tự nhiên ngồi nhé. Đây là những trái xoài vừa hái, mọi người nếm thử xem.",
+        "skill": "Đọc hiểu hội thoại"
+      },
+      {
+        "id": "cc3-v3-l06-dialogue-02-lecture",
+        "prompt": "Trong hội thoại, “這不是基因改造的，是新品種。今年氣候特別好，再加上沒有颱風，所以青菜水果都長得很好。” có nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ngon lắm phải không? Ngoài xoài, anh họ tôi còn trồng rất nhiều loại rau hữu cơ. Anh ấy là một nông dân thời hiện đại."
+          },
+          {
+            "id": "b",
+            "text": "Đây không phải giống biến đổi gen mà là giống mới. Năm nay thời tiết tốt, lại không có bão, nên rau củ và trái cây đều phát triển tốt."
+          },
+          {
+            "id": "c",
+            "text": "Chào mừng, chào mừng. Mọi người cứ tự nhiên ngồi nhé. Đây là những trái xoài vừa hái, mọi người nếm thử xem."
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Đây không phải giống biến đổi gen mà là giống mới. Năm nay thời tiết tốt, lại không có bão, nên rau củ và trái cây đều phát triển tốt.",
+        "skill": "Đọc hiểu hội thoại"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem nghĩa và ví dụ.",
+    "wordIds": [
+      "cc3-v3-l06-v001",
+      "cc3-v3-l06-v002",
+      "cc3-v3-l06-v003",
+      "cc3-v3-l06-v004",
+      "cc3-v3-l06-v005",
+      "cc3-v3-l06-v006",
+      "cc3-v3-l06-v007",
+      "cc3-v3-l06-v008",
+      "cc3-v3-l06-v009",
+      "cc3-v3-l06-v010",
+      "cc3-v3-l06-v011",
+      "cc3-v3-l06-v012",
+      "cc3-v3-l06-v013",
+      "cc3-v3-l06-v014",
+      "cc3-v3-l06-v015",
+      "cc3-v3-l06-v016",
+      "cc3-v3-l06-v017",
+      "cc3-v3-l06-v018",
+      "cc3-v3-l06-v019",
+      "cc3-v3-l06-v020",
+      "cc3-v3-l06-v021",
+      "cc3-v3-l06-v022",
+      "cc3-v3-l06-v023",
+      "cc3-v3-l06-v024",
+      "cc3-v3-l06-v025",
+      "cc3-v3-l06-v026",
+      "cc3-v3-l06-v027",
+      "cc3-v3-l06-v028",
+      "cc3-v3-l06-v029",
+      "cc3-v3-l06-v030",
+      "cc3-v3-l06-v031",
+      "cc3-v3-l06-v032",
+      "cc3-v3-l06-v033",
+      "cc3-v3-l06-v034",
+      "cc3-v3-l06-v035",
+      "cc3-v3-l06-v036",
+      "cc3-v3-l06-v037",
+      "cc3-v3-l06-v038",
+      "cc3-v3-l06-v039",
+      "cc3-v3-l06-v040",
+      "cc3-v3-l06-v041",
+      "cc3-v3-l06-v042",
+      "cc3-v3-l06-v043",
+      "cc3-v3-l06-v044",
+      "cc3-v3-l06-v045",
+      "cc3-v3-l06-v046",
+      "cc3-v3-l06-v047",
+      "cc3-v3-l06-v048",
+      "cc3-v3-l06-v049",
+      "cc3-v3-l06-v050",
+      "cc3-v3-l06-v051",
+      "cc3-v3-l06-v052",
+      "cc3-v3-l06-v053",
+      "cc3-v3-l06-v054",
+      "cc3-v3-l06-v055",
+      "cc3-v3-l06-v056",
+      "cc3-v3-l06-v057",
+      "cc3-v3-l06-v058",
+      "cc3-v3-l06-v059",
+      "cc3-v3-l06-v060",
+      "cc3-v3-l06-v061",
+      "cc3-v3-l06-v062",
+      "cc3-v3-l06-v063",
+      "cc3-v3-l06-v064",
+      "cc3-v3-l06-v065",
+      "cc3-v3-l06-v066"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc3-textbook-l06-t02",
+        "label": "Từ vựng hội thoại"
+      },
+      {
+        "id": "cc3-textbook-l06-t04",
+        "label": "Từ vựng bài đọc"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc3-v3-l06-grammar-01",
+      "title": "因為…才…",
+      "audioTrackId": "cc3-textbook-l06-t05",
+      "explanation": "因為…才… gắn nguyên nhân với kết quả, nhấn mạnh chính vì nguyên nhân đó mà kết quả mới xảy ra. 才 quan trọng cho sắc thái này.",
+      "structure": "因為…才…",
+      "examples": [
+        {
+          "chinese": "因為賣保險，收入不穩定，她才想換工作的。",
+          "simplified": "因为卖保险，收入不稳定，她才想换工作的。",
+          "pinyin": "yīn wèi mài bǎo xiǎn ， shōu rù bù wěn dìng ， tā cái xiǎng huàn gōng zuò de 。",
+          "meaningVi": "Cô muốn chuyển việc vì thu nhập từ bán bảo hiểm không ổn định."
+        },
+        {
+          "chinese": "因為這個沙拉是用表哥種的有機蔬菜做的，我才吃的。",
+          "simplified": "因为这个沙拉是用表哥种的有机蔬菜做的，我才吃的。",
+          "pinyin": "yīn wèi zhè gè shā lā shì yòng biǎo gē zhǒng de yǒu jī shū cài zuò de ， wǒ cái chī de 。",
+          "meaningVi": "Tôi ăn món salad này vì nó được làm từ rau hữu cơ do anh họ tôi trồng."
+        }
+      ],
+      "commonMistake": "",
+      "check": {
+        "id": "cc3-v3-l06-grammar-check-01",
+        "prompt": "Mẫu 因為…才… dùng để diễn đạt ý nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "…不說，…也… bổ sung rằng ngoài điều thứ nhất, điều thứ hai cũng đúng: “chưa kể… còn…”."
+          },
+          {
+            "id": "b",
+            "text": "再加上 thêm một yếu tố vào những lý do đã nêu: “thêm vào đó”. Dùng khi các yếu tố cùng góp phần tạo kết quả."
+          },
+          {
+            "id": "c",
+            "text": "因為…才… gắn nguyên nhân với kết quả, nhấn mạnh chính vì nguyên nhân đó mà kết quả mới xảy ra. 才 quan trọng cho sắc thái này."
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "因為…才… gắn nguyên nhân với kết quả, nhấn mạnh chính vì nguyên nhân đó mà kết quả mới xảy ra. 才 quan trọng cho sắc thái này.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc3-v3-l06-grammar-02",
+      "title": "…不說，…也…",
+      "audioTrackId": "cc3-textbook-l06-t06",
+      "explanation": "…不說，…也… bổ sung rằng ngoài điều thứ nhất, điều thứ hai cũng đúng: “chưa kể… còn…”.",
+      "structure": "…不說，…也…",
+      "examples": [
+        {
+          "chinese": "那個地方吵不說，環境也很複雜。",
+          "simplified": "那个地方吵不说，环境也很复杂。",
+          "pinyin": "nà gè dì fāng chǎo bù shuō ， huán jìng yě hěn fù zá 。",
+          "meaningVi": "Nơi này không chỉ ồn ào mà môi trường cũng rất phức tạp."
+        },
+        {
+          "chinese": "他現在的工作是推銷產品。薪水低不說，也很辛苦。",
+          "simplified": "他现在的工作是推销产品。薪水低不说，也很辛苦。",
+          "pinyin": "tā xiàn zài de gōng zuò shì tuī xiāo chǎn pǐn 。 xīn shuǐ dī bù shuō ， yě hěn xīn kǔ 。",
+          "meaningVi": "Công việc hiện tại của anh là bán sản phẩm. Chưa kể lương thấp, công việc này cũng rất vất vả."
+        }
+      ],
+      "commonMistake": "",
+      "check": {
+        "id": "cc3-v3-l06-grammar-check-02",
+        "prompt": "Mẫu …不說，…也… dùng để diễn đạt ý nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "因為…才… gắn nguyên nhân với kết quả, nhấn mạnh chính vì nguyên nhân đó mà kết quả mới xảy ra. 才 quan trọng cho sắc thái này."
+          },
+          {
+            "id": "b",
+            "text": "再加上 thêm một yếu tố vào những lý do đã nêu: “thêm vào đó”. Dùng khi các yếu tố cùng góp phần tạo kết quả."
+          },
+          {
+            "id": "c",
+            "text": "…不說，…也… bổ sung rằng ngoài điều thứ nhất, điều thứ hai cũng đúng: “chưa kể… còn…”."
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "…不說，…也… bổ sung rằng ngoài điều thứ nhất, điều thứ hai cũng đúng: “chưa kể… còn…”.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc3-v3-l06-grammar-03",
+      "title": "再加上",
+      "audioTrackId": "cc3-textbook-l06-t07",
+      "explanation": "再加上 thêm một yếu tố vào những lý do đã nêu: “thêm vào đó”. Dùng khi các yếu tố cùng góp phần tạo kết quả.",
+      "structure": "再加上",
+      "examples": [
+        {
+          "chinese": "那件衣服的款式比較舊，顏色也太淺，再加上穿起來不舒服，所以雖然打五折，我也沒買。",
+          "simplified": "那件衣服的款式比较旧，颜色也太浅，再加上穿起来不舒服，所以虽然打五折，我也没买。",
+          "pinyin": "nà jiàn yī fú de kuǎn shì bǐ jiào jiù ， yán sè yě tài qiǎn ， zài jiā shàng chuān qǐ lái bù shū fú ， suǒ yǐ suī rán dǎ wǔ zhé ， wǒ yě méi mǎi 。",
+          "meaningVi": "Váy kiểu cũ, màu nhạt quá, mặc không thoải mái nên mình cũng không mua dù đang giảm 50%."
+        },
+        {
+          "chinese": "陽明山上有很多很好的餐廳，再加上夜景很美，他決定帶女朋友上陽明山吃晚飯。",
+          "simplified": "阳明山上有很多很好的餐厅，再加上夜景很美，他决定带女朋友上阳明山吃晚饭。",
+          "pinyin": "yáng míng shān shàng yǒu hěn duō hěn hǎo de cān tīng ， zài jiā shàng yè jǐng hěn měi ， tā jué dìng dài nǚ péng yǒu shàng yáng míng shān chī wǎn fàn 。",
+          "meaningVi": "Ở Dương Minh Sơn có rất nhiều nhà hàng ngon, cảnh đêm rất đẹp nên anh quyết định đưa bạn gái đến Dương Minh Sơn ăn tối."
+        }
+      ],
+      "commonMistake": "",
+      "check": {
+        "id": "cc3-v3-l06-grammar-check-03",
+        "prompt": "Mẫu 再加上 dùng để diễn đạt ý nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "再加上 thêm một yếu tố vào những lý do đã nêu: “thêm vào đó”. Dùng khi các yếu tố cùng góp phần tạo kết quả."
+          },
+          {
+            "id": "b",
+            "text": "因為…才… gắn nguyên nhân với kết quả, nhấn mạnh chính vì nguyên nhân đó mà kết quả mới xảy ra. 才 quan trọng cho sắc thái này."
+          },
+          {
+            "id": "c",
+            "text": "…不說，…也… bổ sung rằng ngoài điều thứ nhất, điều thứ hai cũng đúng: “chưa kể… còn…”."
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "再加上 thêm một yếu tố vào những lý do đã nêu: “thêm vào đó”. Dùng khi các yếu tố cùng góp phần tạo kết quả.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc3-v3-l06-grammar-04",
+      "title": "什麼都…就是…",
+      "audioTrackId": "cc3-textbook-l06-t08",
+      "explanation": "什麼都…就是… đối lập việc hầu như thứ gì cũng có với một ngoại lệ còn thiếu: “cái gì cũng… chỉ riêng…”.",
+      "structure": "什麼都…就是…",
+      "examples": [
+        {
+          "chinese": "她什麼都買了，就是忘了買鹽。",
+          "simplified": "她什么都买了，就是忘了买盐。",
+          "pinyin": "tā shén me dōu mǎi le ， jiù shì wàng le mǎi yán 。",
+          "meaningVi": "Cô ấy mua mọi thứ trừ muối."
+        },
+        {
+          "chinese": "這家商店今天什麼都打八折，就是我要買的東西不打折。",
+          "simplified": "这家商店今天什么都打八折，就是我要买的东西不打折。",
+          "pinyin": "zhè jiā shāng diàn jīn tiān shén me dōu dǎ bā zhé ， jiù shì wǒ yào mǎi de dōng xī bù dǎ zhé 。",
+          "meaningVi": "Hôm nay mọi thứ trong cửa hàng này đều giảm giá 20%, ngoại trừ những món tôi muốn mua."
+        }
+      ],
+      "commonMistake": "",
+      "check": {
+        "id": "cc3-v3-l06-grammar-check-04",
+        "prompt": "Mẫu 什麼都…就是… dùng để diễn đạt ý nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "什麼都…就是… đối lập việc hầu như thứ gì cũng có với một ngoại lệ còn thiếu: “cái gì cũng… chỉ riêng…”."
+          },
+          {
+            "id": "b",
+            "text": "因為…才… gắn nguyên nhân với kết quả, nhấn mạnh chính vì nguyên nhân đó mà kết quả mới xảy ra. 才 quan trọng cho sắc thái này."
+          },
+          {
+            "id": "c",
+            "text": "…不說，…也… bổ sung rằng ngoài điều thứ nhất, điều thứ hai cũng đúng: “chưa kể… còn…”."
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "什麼都…就是… đối lập việc hầu như thứ gì cũng có với một ngoại lệ còn thiếu: “cái gì cũng… chỉ riêng…”.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc3-v3-l06-grammar-05",
+      "title": "寧可…也要…",
+      "audioTrackId": "cc3-textbook-l06-t09",
+      "explanation": "寧可…也要… thể hiện quyết tâm chọn cách thứ nhất dù phải chấp nhận khó khăn, để đạt điều ở vế sau.",
+      "structure": "寧可…也要…",
+      "examples": [
+        {
+          "chinese": "父母寧可自己辛苦一點，也要讓孩子快樂。",
+          "simplified": "父母宁可自己辛苦一点，也要让孩子快乐。",
+          "pinyin": "fù mǔ níng kě zì jǐ xīn kǔ yī diǎn ， yě yào ràng hái zi kuài lè 。",
+          "meaningVi": "Cha mẹ thà làm việc chăm chỉ hơn để làm cho con cái họ hạnh phúc."
+        },
+        {
+          "chinese": "小農寧可收成少，也要種出安全、健康的食材。",
+          "simplified": "小农宁可收成少，也要种出安全、健康的食材。",
+          "pinyin": "xiǎo nóng níng kě shōu chéng shǎo ， yě yào zhǒng chū ān quán 、 jiàn kāng de shí cái 。",
+          "meaningVi": "Những người nông dân nhỏ muốn thu hoạch ít nhưng cũng trồng thực phẩm an toàn và lành mạnh."
+        }
+      ],
+      "commonMistake": "",
+      "check": {
+        "id": "cc3-v3-l06-grammar-check-05",
+        "prompt": "Mẫu 寧可…也要… dùng để diễn đạt ý nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "因為…才… gắn nguyên nhân với kết quả, nhấn mạnh chính vì nguyên nhân đó mà kết quả mới xảy ra. 才 quan trọng cho sắc thái này."
+          },
+          {
+            "id": "b",
+            "text": "…不說，…也… bổ sung rằng ngoài điều thứ nhất, điều thứ hai cũng đúng: “chưa kể… còn…”."
+          },
+          {
+            "id": "c",
+            "text": "寧可…也要… thể hiện quyết tâm chọn cách thứ nhất dù phải chấp nhận khó khăn, để đạt điều ở vế sau."
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "寧可…也要… thể hiện quyết tâm chọn cách thứ nhất dù phải chấp nhận khó khăn, để đạt điều ở vế sau.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc3-v3-l06-grammar-06",
+      "title": "像…的＋名詞",
+      "audioTrackId": "cc3-textbook-l06-t10",
+      "explanation": "像…的＋名詞 dùng một hình ảnh hoặc sự vật để mô tả danh từ phía sau, nghĩa là “danh từ giống như…”.",
+      "structure": "像…的＋名詞",
+      "examples": [
+        {
+          "chinese": "像小籠包、炸雞排、擔仔麵這樣的小吃，他都喜歡。",
+          "simplified": "像小笼包、炸鸡排、担仔面这样的小吃，他都喜欢。",
+          "pinyin": "xiàng xiǎo lóng bāo 、 zhà jī pái 、 dān zǎi miàn zhè yàng de xiǎo chī ， tā dōu xǐ huān 。",
+          "meaningVi": "Anh ấy thích đồ ăn nhẹ như xiaolongbao, bít tết gà rán và mì danzi."
+        },
+        {
+          "chinese": "像你這樣喜歡古蹟的人，一定要去台南看看。",
+          "simplified": "像你这样喜欢古迹的人，一定要去台南看看。",
+          "pinyin": "xiàng nǐ zhè yàng xǐ huān gǔ jī de rén ， yí dìng yào qù tái nán kàn kàn 。",
+          "meaningVi": "Những người thích di tích lịch sử như bạn nhất định phải ghé thăm Đài Nam."
+        }
+      ],
+      "commonMistake": "",
+      "check": {
+        "id": "cc3-v3-l06-grammar-check-06",
+        "prompt": "Mẫu 像…的＋名詞 dùng để diễn đạt ý nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "像…的＋名詞 dùng một hình ảnh hoặc sự vật để mô tả danh từ phía sau, nghĩa là “danh từ giống như…”."
+          },
+          {
+            "id": "b",
+            "text": "因為…才… gắn nguyên nhân với kết quả, nhấn mạnh chính vì nguyên nhân đó mà kết quả mới xảy ra. 才 quan trọng cho sắc thái này."
+          },
+          {
+            "id": "c",
+            "text": "…不說，…也… bổ sung rằng ngoài điều thứ nhất, điều thứ hai cũng đúng: “chưa kể… còn…”."
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "像…的＋名詞 dùng một hình ảnh hoặc sự vật để mô tả danh từ phía sau, nghĩa là “danh từ giống như…”.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc3-v3-l06-grammar-07",
+      "title": "一方面…一方面…",
+      "audioTrackId": "cc3-textbook-l06-t11",
+      "explanation": "一方面…一方面… nói hai mặt hoặc hai việc diễn ra song song: “một mặt… mặt khác…”.",
+      "structure": "一方面…一方面…",
+      "examples": [
+        {
+          "chinese": "她去聽五月天的演唱會，一方面想放鬆心情，一方面也想了解為什麼五月天這麼受歡迎。",
+          "simplified": "她去听五月天的演唱会，一方面想放松心情，一方面也想了解为什么五月天这么受欢迎。",
+          "pinyin": "tā qù tīng wǔ yuè tiān de yǎn chàng huì ， yì fāng miàn xiǎng fàng sōng xīn qíng ， yì fāng miàn yě xiǎng liǎo jiě wèi shén me wǔ yuè tiān zhè me shòu huān yíng 。",
+          "meaningVi": "Cô ấy đã đến tham dự buổi hòa nhạc của Mayday. Một mặt, cô muốn thư giãn, mặt khác, cô cũng muốn hiểu tại sao Mayday lại nổi tiếng đến vậy."
+        },
+        {
+          "chinese": "她暑假去打工，一方面想賺點錢，一方面也想學一些社會經驗。",
+          "simplified": "她暑假去打工，一方面想赚点钱，一方面也想学一些社会经验。",
+          "pinyin": "tā shǔ jià qù dǎ gōng ， yì fāng miàn xiǎng zhuàn diǎn qián ， yì fāng miàn yě xiǎng xué yī xiē shè huì jīng yàn 。",
+          "meaningVi": "Cô ấy đã đi làm trong kỳ nghỉ hè. Một mặt, cô muốn kiếm một ít tiền, mặt khác, cô cũng muốn học hỏi một số kinh nghiệm xã hội."
+        }
+      ],
+      "commonMistake": "",
+      "check": {
+        "id": "cc3-v3-l06-grammar-check-07",
+        "prompt": "Mẫu 一方面…一方面… dùng để diễn đạt ý nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "因為…才… gắn nguyên nhân với kết quả, nhấn mạnh chính vì nguyên nhân đó mà kết quả mới xảy ra. 才 quan trọng cho sắc thái này."
+          },
+          {
+            "id": "b",
+            "text": "…不說，…也… bổ sung rằng ngoài điều thứ nhất, điều thứ hai cũng đúng: “chưa kể… còn…”."
+          },
+          {
+            "id": "c",
+            "text": "一方面…一方面… nói hai mặt hoặc hai việc diễn ra song song: “một mặt… mặt khác…”."
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "一方面…一方面… nói hai mặt hoặc hai việc diễn ra song song: “một mặt… mặt khác…”.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc3-v3-l06-grammar-08",
+      "title": "隨著…也…",
+      "audioTrackId": "cc3-textbook-l06-t12",
+      "explanation": "隨著…也… nói một thay đổi kéo theo thay đổi khác: “cùng với việc… thì… cũng…”.",
+      "structure": "隨著…也…",
+      "examples": [
+        {
+          "chinese": "隨著中國的經濟越來越好，中國在國際上的地位也越來越重要。",
+          "simplified": "随着中国的经济越来越好，中国在国际上的地位也越来越重要。",
+          "pinyin": "suí zhù zhōng guó de jīng jì yuè lái yuè hǎo ， zhōng guó zài guó jì shàng de dì wèi yě yuè lái yuè zhòng yào 。",
+          "meaningVi": "Khi nền kinh tế Trung Quốc ngày càng tốt hơn, vị thế quốc tế của Trung Quốc ngày càng trở nên quan trọng."
+        },
+        {
+          "chinese": "隨著她的中文越來越好，她參加的活動也越來越多。",
+          "simplified": "随着她的中文越来越好，她参加的活动也越来越多。",
+          "pinyin": "suí zhù tā de zhōng wén yuè lái yuè hǎo ， tā cān jiā de huó dòng yě yuè lái yuè duō 。",
+          "meaningVi": "Khi tiếng Trung của cô ngày càng tốt hơn, cô tham gia ngày càng nhiều hoạt động."
+        }
+      ],
+      "commonMistake": "",
+      "check": {
+        "id": "cc3-v3-l06-grammar-check-08",
+        "prompt": "Mẫu 隨著…也… dùng để diễn đạt ý nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "隨著…也… nói một thay đổi kéo theo thay đổi khác: “cùng với việc… thì… cũng…”."
+          },
+          {
+            "id": "b",
+            "text": "因為…才… gắn nguyên nhân với kết quả, nhấn mạnh chính vì nguyên nhân đó mà kết quả mới xảy ra. 才 quan trọng cho sắc thái này."
+          },
+          {
+            "id": "c",
+            "text": "…不說，…也… bổ sung rằng ngoài điều thứ nhất, điều thứ hai cũng đúng: “chưa kể… còn…”."
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "隨著…也… nói một thay đổi kéo theo thay đổi khác: “cùng với việc… thì… cũng…”.",
+        "skill": "Ngữ pháp"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc3-v3-l06-listening-01",
+      "prompt": "Nghe hội thoại: chọn ý của lời mở đầu.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chào mừng, chào mừng. Mọi người cứ tự nhiên ngồi nhé. Đây là những trái xoài vừa hái, mọi người nếm thử xem."
+        },
+        {
+          "id": "b",
+          "text": "Ngon lắm phải không? Ngoài xoài, anh họ tôi còn trồng rất nhiều loại rau hữu cơ. Anh ấy là một nông dân thời hiện đại."
+        },
+        {
+          "id": "c",
+          "text": "Tại sao lại nói ông là một người nông dân hiện đại?"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Chào mừng, chào mừng. Mọi người cứ tự nhiên ngồi nhé. Đây là những trái xoài vừa hái, mọi người nếm thử xem.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc3-textbook-l06-t01"
+    },
+    {
+      "id": "cc3-v3-l06-listening-02",
+      "prompt": "Nghe hội thoại: chọn ý của phần kết.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chào mừng, chào mừng. Mọi người cứ tự nhiên ngồi nhé. Đây là những trái xoài vừa hái, mọi người nếm thử xem."
+        },
+        {
+          "id": "b",
+          "text": "Ngon lắm phải không? Ngoài xoài, anh họ tôi còn trồng rất nhiều loại rau hữu cơ. Anh ấy là một nông dân thời hiện đại."
+        },
+        {
+          "id": "c",
+          "text": "Để sau này nói tiếp! Trời tối rồi, chúng ta mau về ăn cơm thôi."
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Để sau này nói tiếp! Trời tối rồi, chúng ta mau về ăn cơm thôi.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc3-textbook-l06-t01"
+    },
+    {
+      "id": "cc3-v3-l06-listening-03",
+      "prompt": "Nghe bài đọc: chọn ý của lời mở đầu.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sáng sớm Chủ nhật, Hà Nhã Đình đi cùng mẹ đến chợ nông sản để mua rau."
+        },
+        {
+          "id": "b",
+          "text": "Chào mừng, chào mừng."
+        },
+        {
+          "id": "c",
+          "text": "Ngon lắm phải không?"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Sáng sớm Chủ nhật, Hà Nhã Đình đi cùng mẹ đến chợ nông sản để mua rau.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc3-textbook-l06-t03"
+    },
+    {
+      "id": "cc3-v3-l06-listening-04",
+      "prompt": "Nghe bài đọc: chọn ý của phần kết.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anh ấy là một nông dân thời hiện đại."
+        },
+        {
+          "id": "b",
+          "text": "Điều mà người nông dân hiện nay lo lắng là liệu lối sống truyền thống có biến mất hay không."
+        },
+        {
+          "id": "c",
+          "text": "Đây là những trái xoài vừa hái, mọi người nếm thử xem."
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Điều mà người nông dân hiện nay lo lắng là liệu lối sống truyền thống có biến mất hay không.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc3-textbook-l06-t03"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc3-v3-l06-vocab-01-practice",
+      "prompt": "李文彥 có nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "tùy ý"
+        },
+        {
+          "id": "b",
+          "text": "Lý Văn Yên"
+        },
+        {
+          "id": "c",
+          "text": "anh em họ"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Lý Văn Yên",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc3-v3-l06-vocab-02-practice",
+      "prompt": "Điền từ vào câu: 我＿＿什麼都有，就是少了一個太太。",
+      "options": [
+        {
+          "id": "a",
+          "text": "蔬菜"
+        },
+        {
+          "id": "b",
+          "text": "農夫"
+        },
+        {
+          "id": "c",
+          "text": "表哥"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "表哥: anh em họ.",
+      "skill": "Từ vựng",
+      "kind": "fill"
+    },
+    {
+      "id": "cc3-v3-l06-vocab-03-practice",
+      "prompt": "隨便 có nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lý Văn Yên"
+        },
+        {
+          "id": "b",
+          "text": "anh em họ"
+        },
+        {
+          "id": "c",
+          "text": "tùy ý"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "tùy ý",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc3-v3-l06-vocab-04-practice",
+      "prompt": "蔬菜 có nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "anh em họ"
+        },
+        {
+          "id": "b",
+          "text": "rau củ"
+        },
+        {
+          "id": "c",
+          "text": "Lý Văn Yên"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "rau củ",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc3-v3-l06-grammar-01-practice",
+      "prompt": "Mẫu 因為…才… dùng để diễn đạt ý nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "再加上 thêm một yếu tố vào những lý do đã nêu: “thêm vào đó”. Dùng khi các yếu tố cùng góp phần tạo kết quả."
+        },
+        {
+          "id": "b",
+          "text": "因為…才… gắn nguyên nhân với kết quả, nhấn mạnh chính vì nguyên nhân đó mà kết quả mới xảy ra. 才 quan trọng cho sắc thái này."
+        },
+        {
+          "id": "c",
+          "text": "…不說，…也… bổ sung rằng ngoài điều thứ nhất, điều thứ hai cũng đúng: “chưa kể… còn…”."
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "因為…才… gắn nguyên nhân với kết quả, nhấn mạnh chính vì nguyên nhân đó mà kết quả mới xảy ra. 才 quan trọng cho sắc thái này.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc3-v3-l06-grammar-02-practice",
+      "prompt": "Mẫu …不說，…也… dùng để diễn đạt ý nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "再加上 thêm một yếu tố vào những lý do đã nêu: “thêm vào đó”. Dùng khi các yếu tố cùng góp phần tạo kết quả."
+        },
+        {
+          "id": "b",
+          "text": "…不說，…也… bổ sung rằng ngoài điều thứ nhất, điều thứ hai cũng đúng: “chưa kể… còn…”."
+        },
+        {
+          "id": "c",
+          "text": "因為…才… gắn nguyên nhân với kết quả, nhấn mạnh chính vì nguyên nhân đó mà kết quả mới xảy ra. 才 quan trọng cho sắc thái này."
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "…不說，…也… bổ sung rằng ngoài điều thứ nhất, điều thứ hai cũng đúng: “chưa kể… còn…”.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc3-v3-l06-dialogue-01-practice",
+      "prompt": "Trong hội thoại, “歡迎、歡迎。大家隨便坐。這是剛摘下來的芒果，大家嚐嚐。” có nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tại sao lại nói ông là một người nông dân hiện đại?"
+        },
+        {
+          "id": "b",
+          "text": "Chào mừng, chào mừng. Mọi người cứ tự nhiên ngồi nhé. Đây là những trái xoài vừa hái, mọi người nếm thử xem."
+        },
+        {
+          "id": "c",
+          "text": "Ngon lắm phải không? Ngoài xoài, anh họ tôi còn trồng rất nhiều loại rau hữu cơ. Anh ấy là một nông dân thời hiện đại."
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Chào mừng, chào mừng. Mọi người cứ tự nhiên ngồi nhé. Đây là những trái xoài vừa hái, mọi người nếm thử xem.",
+      "skill": "Đọc hiểu hội thoại"
+    },
+    {
+      "id": "cc3-v3-l06-reading-01-practice",
+      "prompt": "Đọc bài: đoạn đầu nói về điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chào mừng, chào mừng."
+        },
+        {
+          "id": "b",
+          "text": "Ngon lắm phải không?"
+        },
+        {
+          "id": "c",
+          "text": "Sáng sớm Chủ nhật, Hà Nhã Đình đi cùng mẹ đến chợ nông sản để mua rau."
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Sáng sớm Chủ nhật, Hà Nhã Đình đi cùng mẹ đến chợ nông sản để mua rau.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc3-v3-l06-vocab-05-assessment",
+      "prompt": "農夫 có nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "anh em họ"
+        },
+        {
+          "id": "b",
+          "text": "nông dân"
+        },
+        {
+          "id": "c",
+          "text": "Lý Văn Yên"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "nông dân",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc3-v3-l06-vocab-06-assessment",
+      "prompt": "減少 có nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lý Văn Yên"
+        },
+        {
+          "id": "b",
+          "text": "anh em họ"
+        },
+        {
+          "id": "c",
+          "text": "giảm bớt"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "giảm bớt",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc3-v3-l06-vocab-07-assessment",
+      "prompt": "農藥 có nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lý Văn Yên"
+        },
+        {
+          "id": "b",
+          "text": "anh em họ"
+        },
+        {
+          "id": "c",
+          "text": "thuốc trừ sâu"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "thuốc trừ sâu",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc3-v3-l06-vocab-08-assessment",
+      "prompt": "天然 có nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lý Văn Yên"
+        },
+        {
+          "id": "b",
+          "text": "anh em họ"
+        },
+        {
+          "id": "c",
+          "text": "thiên nhiên"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "thiên nhiên",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc3-v3-l06-grammar-03-assessment",
+      "prompt": "Mẫu 再加上 dùng để diễn đạt ý nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "…不說，…也… bổ sung rằng ngoài điều thứ nhất, điều thứ hai cũng đúng: “chưa kể… còn…”."
+        },
+        {
+          "id": "b",
+          "text": "再加上 thêm một yếu tố vào những lý do đã nêu: “thêm vào đó”. Dùng khi các yếu tố cùng góp phần tạo kết quả."
+        },
+        {
+          "id": "c",
+          "text": "因為…才… gắn nguyên nhân với kết quả, nhấn mạnh chính vì nguyên nhân đó mà kết quả mới xảy ra. 才 quan trọng cho sắc thái này."
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "再加上 thêm một yếu tố vào những lý do đã nêu: “thêm vào đó”. Dùng khi các yếu tố cùng góp phần tạo kết quả.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc3-v3-l06-grammar-04-assessment",
+      "prompt": "Mẫu 什麼都…就是… dùng để diễn đạt ý nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "什麼都…就是… đối lập việc hầu như thứ gì cũng có với một ngoại lệ còn thiếu: “cái gì cũng… chỉ riêng…”."
+        },
+        {
+          "id": "b",
+          "text": "因為…才… gắn nguyên nhân với kết quả, nhấn mạnh chính vì nguyên nhân đó mà kết quả mới xảy ra. 才 quan trọng cho sắc thái này."
+        },
+        {
+          "id": "c",
+          "text": "…不說，…也… bổ sung rằng ngoài điều thứ nhất, điều thứ hai cũng đúng: “chưa kể… còn…”."
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "什麼都…就是… đối lập việc hầu như thứ gì cũng có với một ngoại lệ còn thiếu: “cái gì cũng… chỉ riêng…”.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc3-v3-l06-dialogue-02-assessment",
+      "prompt": "Trong hội thoại, “這不是基因改造的，是新品種。今年氣候特別好，再加上沒有颱風，所以青菜水果都長得很好。” có nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ngon lắm phải không? Ngoài xoài, anh họ tôi còn trồng rất nhiều loại rau hữu cơ. Anh ấy là một nông dân thời hiện đại."
+        },
+        {
+          "id": "b",
+          "text": "Đây không phải giống biến đổi gen mà là giống mới. Năm nay thời tiết tốt, lại không có bão, nên rau củ và trái cây đều phát triển tốt."
+        },
+        {
+          "id": "c",
+          "text": "Chào mừng, chào mừng. Mọi người cứ tự nhiên ngồi nhé. Đây là những trái xoài vừa hái, mọi người nếm thử xem."
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Đây không phải giống biến đổi gen mà là giống mới. Năm nay thời tiết tốt, lại không có bão, nên rau củ và trái cây đều phát triển tốt.",
+      "skill": "Đọc hiểu hội thoại"
+    },
+    {
+      "id": "cc3-v3-l06-dialogue-03-assessment",
+      "prompt": "Trong hội thoại, “以後再說吧！天黑了，我們快回去吃飯。” có nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chào mừng, chào mừng. Mọi người cứ tự nhiên ngồi nhé. Đây là những trái xoài vừa hái, mọi người nếm thử xem."
+        },
+        {
+          "id": "b",
+          "text": "Ngon lắm phải không? Ngoài xoài, anh họ tôi còn trồng rất nhiều loại rau hữu cơ. Anh ấy là một nông dân thời hiện đại."
+        },
+        {
+          "id": "c",
+          "text": "Để sau này nói tiếp! Trời tối rồi, chúng ta mau về ăn cơm thôi."
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Để sau này nói tiếp! Trời tối rồi, chúng ta mau về ăn cơm thôi.",
+      "skill": "Đọc hiểu hội thoại"
+    },
+    {
+      "id": "cc3-v3-l06-reading-01-assessment",
+      "prompt": "Đọc bài: đoạn đầu nói về điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chào mừng, chào mừng."
+        },
+        {
+          "id": "b",
+          "text": "Ngon lắm phải không?"
+        },
+        {
+          "id": "c",
+          "text": "Sáng sớm Chủ nhật, Hà Nhã Đình đi cùng mẹ đến chợ nông sản để mua rau."
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Sáng sớm Chủ nhật, Hà Nhã Đình đi cùng mẹ đến chợ nông sản để mua rau.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc3-v3-l06-reading-02-assessment",
+      "prompt": "Đọc bài: đoạn cuối nói về điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đây là những trái xoài vừa hái, mọi người nếm thử xem."
+        },
+        {
+          "id": "b",
+          "text": "Anh ấy là một nông dân thời hiện đại."
+        },
+        {
+          "id": "c",
+          "text": "Điều mà người nông dân hiện nay lo lắng là liệu lối sống truyền thống có biến mất hay không."
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Điều mà người nông dân hiện nay lo lắng là liệu lối sống truyền thống có biến mất hay không.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "writingTask": {
+    "id": "cc3-v3-l06-writing",
+    "title": "Viết về chủ đề bài học",
+    "prompt": "Viết 3–4 câu tiếng Hoa về nông thôn, thực phẩm và lối sống. Thử dùng ít nhất một mẫu ngữ pháp vừa học."
+  }
+}

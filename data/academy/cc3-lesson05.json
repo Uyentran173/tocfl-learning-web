@@ -1,0 +1,1159 @@
+{
+  "contentVersion": 2,
+  "id": "cc3-v3-l05",
+  "title": "現在流行什麼？",
+  "titleVi": "Bây giờ thịnh hành gì?",
+  "description": "Học cách nói về thời trang và cách chọn trang phục qua hội thoại, bài đọc, từ vựng và ngữ pháp của Bài 05.",
+  "objectives": [
+    "Hiểu và trao đổi về thời trang và cách chọn trang phục.",
+    "Đọc và nghe hội thoại “現在流行什麼？” cùng bài đọc “撞衫”.",
+    "Dùng V＋滿; V＋出; 不如 trong ngữ cảnh phù hợp."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Bài 05 xoay quanh thời trang và cách chọn trang phục. Nghe hội thoại trước, sau đó đọc bài và tự kiểm tra điều đã hiểu.",
+    "sections": [
+      {
+        "id": "cc3-v3-l05-section-01",
+        "title": "Theo dõi hội thoại",
+        "body": "Nghe cách các nhân vật nói về thời trang và cách chọn trang phục; sau đó đọc từng lượt lời.",
+        "chinese": "你怎麼了？怎麼那麼沒精神？",
+        "simplified": "你怎么了？怎么那么没精神？",
+        "pinyin": "nǐ zěn me le ？ zěn me nà me méi jīng shén ？",
+        "meaningVi": "Anh sao thế? Sao trông bạn ủ rũ thế?"
+      },
+      {
+        "id": "cc3-v3-l05-section-02",
+        "title": "Đọc trong ngữ cảnh",
+        "body": "Đọc “撞衫” và chú ý các chi tiết khác với hội thoại.",
+        "chinese": "何雅婷昨天晚上去上西班牙文課的時候，發現班上有個同學穿著一件跟她一模一樣的淺藍色外套。",
+        "simplified": "何雅婷昨天晚上去上西班牙文课的时候，发现班上有个同学穿着一件跟她一模一样的浅蓝色外套。",
+        "pinyin": "hé yǎ tíng zuó tiān wǎn shàng qù shàng xī bān yá wén kè de shí hòu ， fā xiàn bān shàng yǒu gè tóng xué chuān zhù yī jiàn gēn tā yī mó yī yàng de qiǎn lán sè wài tào 。",
+        "meaningVi": "Tối qua, khi Hà Nhã Đình đến lớp học tiếng Tây Ban Nha, cô phát hiện một bạn cùng lớp đang mặc chiếc áo khoác màu xanh nhạt giống hệt của mình."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc3-v3-l05-dialogue",
+        "title": "現在流行什麼？",
+        "context": "Hội thoại trong giáo trình",
+        "audioTrackId": "cc3-textbook-l05-t01",
+        "turns": [
+          {
+            "speaker": "陳敏萱",
+            "chinese": "你怎麼了？怎麼那麼沒精神？",
+            "simplified": "你怎么了？怎么那么没精神？",
+            "pinyin": "nǐ zěn me le ？ zěn me nà me méi jīng shén ？",
+            "meaningVi": "Anh sao thế? Sao trông bạn ủ rũ thế?"
+          },
+          {
+            "speaker": "高橋健太",
+            "chinese": "唉！氣死了！昨天我上網買五月天演唱會的票。沒想到網路塞車，我試了兩、三個鐘頭，等我上線成功，票已經賣完了。真倒楣！",
+            "simplified": "唉！气死了！昨天我上网买五月天演唱会的票。没想到网路塞车，我试了两、三个钟头，等我上线成功，票已经卖完了。真倒楣！",
+            "pinyin": "āi ！ qì sǐ le ！ zuó tiān wǒ shàng wǎng mǎi wǔ yuè tiān yǎn chàng huì de piào 。 méi xiǎng dào wǎng lù sāi chē ， wǒ shì le liǎng 、 sān gè zhōng tóu ， děng wǒ shàng xiàn chéng gōng ， piào yǐ jīng mài wán le 。 zhēn dào méi ！",
+            "meaningVi": "Ôi! Tức chết đi được! Hôm qua tôi lên mạng mua vé xem concert của Mayday. Không ngờ mạng lại bị nghẽn. Tôi đã thử hai, ba tiếng đồng hồ. Đến khi vào được trang web thì vé đã bán hết rồi. Thật xui xẻo!"
+          },
+          {
+            "speaker": "陳敏萱",
+            "chinese": "你別生氣了。買不到就算了。為什麼非聽不可？",
+            "simplified": "你别生气了。买不到就算了。为什么非听不可？",
+            "pinyin": "nǐ bié shēng qì le 。 mǎi bú dào jiù suàn le 。 wèi shén me fēi tīng bù kě ？",
+            "meaningVi": "Đừng giận nữa. Không mua được thì thôi vậy. Tại sao nhất định phải nghe?"
+          },
+          {
+            "speaker": "羅珊蒂",
+            "chinese": "五月天是誰？什麼演唱會啊？",
+            "simplified": "五月天是谁？什么演唱会啊？",
+            "pinyin": "wǔ yuè tiān shì shuí ？ shén me yǎn chàng huì a ？",
+            "meaningVi": "Mayday là ai? Concert gì vậy?"
+          },
+          {
+            "speaker": "高橋健太",
+            "chinese": "（拿出手機）妳聽。這就是他們的歌。五月天是華人世界最受歡迎的樂團。下個月他們的演唱會，我當然不能錯過。",
+            "simplified": "（拿出手机）妳听。这就是他们的歌。五月天是华人世界最受欢迎的乐团。下个月他们的演唱会，我当然不能错过。",
+            "pinyin": "（ ná chū shǒu jī ） nǐ tīng 。 zhè jiù shì tā men de gē 。 wǔ yuè tiān shì huá rén shì jiè zuì shòu huān yíng de lè tuán 。 xià gè yuè tā men de yǎn chàng huì ， wǒ dāng rán bù néng cuò guò 。",
+            "meaningVi": "(Lấy điện thoại ra) Cô nghe này. Đây là bài hát của họ. Mayday là ban nhạc được yêu thích nhất trong thế giới người Hoa. Tất nhiên là tôi không thể bỏ lỡ buổi hòa nhạc của họ vào tháng tới."
+          },
+          {
+            "speaker": "陳敏萱",
+            "chinese": "我朋友去聽了他們的跨年演唱會。她說，那天體育館擠滿了人，大家都站在椅子上又唱又叫，興奮極了。",
+            "simplified": "我朋友去听了他们的跨年演唱会。她说，那天体育馆挤满了人，大家都站在椅子上又唱又叫，兴奋极了。",
+            "pinyin": "wǒ péng yǒu qù tīng le tā men de kuà nián yǎn chàng huì 。 tā shuō ， nà tiān tǐ yù guǎn jǐ mǎn le rén ， dà jiā dōu zhàn zài yǐ zi shàng yòu chàng yòu jiào ， xìng fèn jí le 。",
+            "meaningVi": "Bạn tôi đã đi xem buổi hòa nhạc đêm giao thừa của họ. Cô ấy nói rằng hôm đó nhà thi đấu chật kín người, mọi người đều đứng trên ghế vừa hát vừa hò hét, vô cùng phấn khích."
+          },
+          {
+            "speaker": "羅珊蒂",
+            "chinese": "他們很帥嗎？為什麼這麼多人迷他們？",
+            "simplified": "他们很帅吗？为什么这么多人迷他们？",
+            "pinyin": "tā men hěn shuài ma ？ wèi shén me zhè me duō rén mí tā men ？",
+            "meaningVi": "Họ có đẹp trai không? Tại sao nhiều người lại mê họ đến vậy?"
+          },
+          {
+            "speaker": "高橋健太",
+            "chinese": "大家喜歡他們是因為他們的歌詞不但都寫得很美，而且能說出年輕人心裡的話。高興的時候，要聽；難過的時候，更要聽。",
+            "simplified": "大家喜欢他们是因为他们的歌词不但都写得很美，而且能说出年轻人心里的话。高兴的时候，要听；难过的时候，更要听。",
+            "pinyin": "dà jiā xǐ huān tā men shì yīn wèi tā men de gē cí bù dàn dōu xiě dé hěn měi ， ér qiě néng shuō chū nián qīng rén xīn lǐ de huà 。 gāo xìng de shí hòu ， yào tīng ； nán guò de shí hòu ， gèng yào tīng 。",
+            "meaningVi": "Mọi người thích họ vì lời bài hát của họ không chỉ được viết rất hay mà còn có thể nói lên tiếng lòng của giới trẻ. Khi vui, bạn nên nghe; khi buồn, bạn càng nên nghe hơn."
+          },
+          {
+            "speaker": "陳敏萱",
+            "chinese": "演唱會人那麼多，票又不好買，不如在家上網看舒服。",
+            "simplified": "演唱会人那么多，票又不好买，不如在家上网看舒服。",
+            "pinyin": "yǎn chàng huì rén nà me duō ， piào yòu bù hǎo mǎi ， bù rú zài jiā shàng wǎng kàn shū fú 。",
+            "meaningVi": "Concert đông người quá, vé lại khó mua, chi bằng ở nhà xem online cho thoải mái."
+          },
+          {
+            "speaker": "高橋健太",
+            "chinese": "聽演唱會當然要去現場，大家一起唱，一起跳，整個體育館都在震動。這樣的感覺沒去過的人是不能了解的。",
+            "simplified": "听演唱会当然要去现场，大家一起唱，一起跳，整个体育馆都在震动。这样的感觉没去过的人是不能了解的。",
+            "pinyin": "tīng yǎn chàng huì dāng rán yào qù xiàn chǎng ， dà jiā yì qǐ chàng ， yì qǐ tiào ， zhěng gè tǐ yù guǎn dōu zài zhèn dòng 。 zhè yàng de gǎn jué méi qù guò de rén shì bù néng liǎo jiě de 。",
+            "meaningVi": "Tất nhiên là phải đến tận nơi để xem concert rồi. Mọi người cùng nhau hát, cùng nhau nhảy, cả sân vận động đều rung chuyển. Những người chưa từng trải qua cảm giác này sẽ không thể hiểu được."
+          },
+          {
+            "speaker": "陳敏萱",
+            "chinese": "聲音那麼大，吵死了。還是在家好。",
+            "simplified": "声音那么大，吵死了。还是在家好。",
+            "pinyin": "shēng yīn nà me dà ， chǎo sǐ le 。 hái shì zài jiā hǎo 。",
+            "meaningVi": "Âm thanh lớn quá, ồn chết đi được. Vẫn là ở nhà sướng hơn."
+          },
+          {
+            "speaker": "高橋健太",
+            "chinese": "妳整天在家不會太無聊嗎？",
+            "simplified": "妳整天在家不会太无聊吗？",
+            "pinyin": "nǐ zhěng tiān zài jiā bù huì tài wú liáo ma ？",
+            "meaningVi": "Chị ở nhà cả ngày không thấy chán lắm sao?"
+          },
+          {
+            "speaker": "陳敏萱",
+            "chinese": "怎麼會呢？有那麼多有趣的漫畫，怎麼會覺得無聊呢？",
+            "simplified": "怎么会呢？有那么多有趣的漫画，怎么会觉得无聊呢？",
+            "pinyin": "zěn me huì ne ？ yǒu nà me duō yǒu qù de màn huà ， zěn me huì jué dé wú liáo ne ？",
+            "meaningVi": "Sao lại thế được? Có rất nhiều truyện tranh thú vị, sao lại cảm thấy buồn chán được chứ?"
+          },
+          {
+            "speaker": "羅珊蒂",
+            "chinese": "我媽媽說租書店的漫畫內容都太色情，不適合我們看。",
+            "simplified": "我妈妈说租书店的漫画内容都太色情，不适合我们看。",
+            "pinyin": "wǒ mā mā shuō zū shū diàn de màn huà nèi róng dōu tài sè qíng ， bù shì hé wǒ men kàn 。",
+            "meaningVi": "Mẹ tôi nói rằng nội dung truyện tranh ở tiệm cho thuê truyện đều quá khiêu dâm, không phù hợp để chúng tôi đọc."
+          },
+          {
+            "speaker": "高橋健太",
+            "chinese": "現在誰去租書店啊？大家都用平板電腦跟智慧型手機上網看了。",
+            "simplified": "现在谁去租书店啊？大家都用平板电脑跟智慧型手机上网看了。",
+            "pinyin": "xiàn zài shuí qù zū shū diàn a ？ dà jiā dōu yòng píng bǎn diàn nǎo gēn zhì huì xíng shǒu jī shàng wǎng kàn le 。",
+            "meaningVi": "Bây giờ ai còn đến tiệm cho thuê sách nữa? Mọi người đều dùng máy tính bảng và điện thoại thông minh để đọc sách trên mạng."
+          },
+          {
+            "speaker": "羅珊蒂",
+            "chinese": "我媽也說他朋友的孩子因為迷漫畫，花了太多時間，影響了功課，所以她不讓我們看。",
+            "simplified": "我妈也说他朋友的孩子因为迷漫画，花了太多时间，影响了功课，所以她不让我们看。",
+            "pinyin": "wǒ mā yě shuō tā péng yǒu de hái zi yīn wèi mí màn huà ， huā le tài duō shí jiān ， yǐng xiǎng le gōng kè ， suǒ yǐ tā bù ràng wǒ men kàn 。",
+            "meaningVi": "Mẹ tôi cũng nói rằng con của bạn bà ấy vì mê truyện tranh, dành quá nhiều thời gian cho việc này nên ảnh hưởng đến việc học, vì vậy bà ấy không cho chúng tôi xem."
+          },
+          {
+            "speaker": "高橋健太",
+            "chinese": "不會啊，好的漫畫也很多啊。看漫畫除了可以放鬆心情，還可以學到很多歷史、文化和傳統。",
+            "simplified": "不会啊，好的漫画也很多啊。看漫画除了可以放松心情，还可以学到很多历史、文化和传统。",
+            "pinyin": "bù huì a ， hǎo de màn huà yě hěn duō a 。 kàn màn huà chú le kě yǐ fàng sōng xīn qíng ， hái kě yǐ xué dào hěn duō lì shǐ 、 wén huà hé chuán tǒng 。",
+            "meaningVi": "Không đâu, cũng có rất nhiều truyện tranh hay mà. Ngoài việc thư giãn tâm trạng, đọc truyện tranh còn giúp bạn học được rất nhiều điều về lịch sử, văn hóa và truyền thống."
+          },
+          {
+            "speaker": "陳敏萱",
+            "chinese": "沒錯。我也是看了漫畫才知道壽司是怎麼做的。",
+            "simplified": "没错。我也是看了漫画才知道寿司是怎么做的。",
+            "pinyin": "méi cuò 。 wǒ yě shì kàn le màn huà cái zhī dào shòu sī shì zěn me zuò de 。",
+            "meaningVi": "Đúng vậy. Tôi cũng học được cách làm sushi từ truyện tranh."
+          },
+          {
+            "speaker": "羅珊蒂",
+            "chinese": "看漫畫就是為了殺時間。你們想太多啦。",
+            "simplified": "看漫画就是为了杀时间。你们想太多啦。",
+            "pinyin": "kàn màn huà jiù shì wèi le shā shí jiān 。 nǐ men xiǎng tài duō la 。",
+            "meaningVi": "Đọc truyện tranh là để giết thời gian. Các bạn nghĩ nhiều quá rồi đó."
+          },
+          {
+            "speaker": "陳敏萱",
+            "chinese": "幾點了？這麼晚啦？我跟朋友約了去看漫畫展，他們在捷運站等我，再不走就來不及了。改天再聊吧。",
+            "simplified": "几点了？这么晚啦？我跟朋友约了去看漫画展，他们在捷运站等我，再不走就来不及了。改天再聊吧。",
+            "pinyin": "jǐ diǎn le ？ zhè me wǎn la ？ wǒ gēn péng yǒu yuē le qù kàn màn huà zhǎn ， tā men zài jié yùn zhàn děng wǒ ， zài bù zǒu jiù lái bù jí le 。 gǎi tiān zài liáo ba 。",
+            "meaningVi": "Mấy giờ rồi? Muộn vậy sao? Tôi hẹn bạn bè đi xem triển lãm truyện tranh, họ đang đợi tôi ở ga tàu điện ngầm. Nếu không đi ngay bây giờ thì sẽ trễ mất. Hôm khác nói chuyện tiếp nhé."
+          }
+        ]
+      },
+      {
+        "id": "cc3-v3-l05-reading",
+        "title": "撞衫",
+        "context": "Bài đọc trong giáo trình",
+        "audioTrackId": "cc3-textbook-l05-t03",
+        "turns": [
+          {
+            "speaker": "Bài đọc",
+            "chinese": "何雅婷昨天晚上去上西班牙文課的時候，發現班上有個同學穿著一件跟她一模一樣的淺藍色外套。何雅婷馬上脫掉外套，把它塞進背包裡。她覺得怎麼會發生這種事情呢？這件外套是當季款式，她看到連續劇裡的女主角穿了這件衣服看起來很甜美，所以才特別請朋友從國外寄來的。沒想到居然撞衫，害她整個晚上心情都很不好。今天中午下了課以後，何雅婷跟陳敏萱和安德思見面的時候，談到了這件事。陳敏萱覺得不需要為了這種事不高興。既然是最流行的款式，當然會有很多人穿。服裝公司在各種媒體上用不同的方式做廣告，吸引大家去買，撞衫就很難避免。只要能穿出不同的感覺就好了。安德思不懂為什麼有人怕撞衫。他認為何雅婷太小題大作了。衣服、包包跟別人一樣有什麼關係。商人為了賺錢，每年都要推出新的產品，新的款式，像電子產品，如果市場上有了最新型的，自己沒有，就落伍了。如果別人有跟自己一樣的新產品，一定會說個不停，像碰到了知音。既然這樣，女人為什麼怕撞衫呢？何雅婷覺得他說的沒錯，是很難想像如果自己穿著喇叭褲去上課，會給別人什麼印象。",
+            "simplified": "何雅婷昨天晚上去上西班牙文课的时候，发现班上有个同学穿着一件跟她一模一样的浅蓝色外套。何雅婷马上脱掉外套，把它塞进背包里。她觉得怎么会发生这种事情呢？这件外套是当季款式，她看到连续剧里的女主角穿了这件衣服看起来很甜美，所以才特别请朋友从国外寄来的。没想到居然撞衫，害她整个晚上心情都很不好。今天中午下了课以后，何雅婷跟陈敏萱和安德思见面的时候，谈到了这件事。陈敏萱觉得不需要为了这种事不高兴。既然是最流行的款式，当然会有很多人穿。服装公司在各种媒体上用不同的方式做广告，吸引大家去买，撞衫就很难避免。只要能穿出不同的感觉就好了。安德思不懂为什么有人怕撞衫。他认为何雅婷太小题大作了。衣服、包包跟别人一样有什么关系。商人为了赚钱，每年都要推出新的产品，新的款式，像电子产品，如果市场上有了最新型的，自己没有，就落伍了。如果别人有跟自己一样的新产品，一定会说个不停，像碰到了知音。既然这样，女人为什么怕撞衫呢？何雅婷觉得他说的没错，是很难想像如果自己穿着喇叭裤去上课，会给别人什么印象。",
+            "pinyin": "hé yǎ tíng zuó tiān wǎn shàng qù shàng xī bān yá wén kè de shí hòu ， fā xiàn bān shàng yǒu gè tóng xué chuān zhù yī jiàn gēn tā yī mó yī yàng de qiǎn lán sè wài tào 。 hé yǎ tíng mǎ shàng tuō diào wài tào ， bǎ tā sāi jìn bēi bāo lǐ 。 tā jué dé zěn me huì fā shēng zhè zhǒng shì qíng ne ？ zhè jiàn wài tào shì dāng jì kuǎn shì ， tā kàn dào lián xù jù lǐ de nǚ zhǔ jué chuān le zhè jiàn yī fú kàn qǐ lái hěn tián měi ， suǒ yǐ cái tè bié qǐng péng yǒu cóng guó wài jì lái de 。 méi xiǎng dào jū rán zhuàng shān ， hài tā zhěng gè wǎn shàng xīn qíng dōu hěn bù hǎo 。 jīn tiān zhōng wǔ xià le kè yǐ hòu ， hé yǎ tíng gēn chén mǐn xuān hé ān dé sī jiàn miàn de shí hòu ， tán dào le zhè jiàn shì 。 chén mǐn xuān jué dé bù xū yào wèi le zhè zhǒng shì bù gāo xìng 。 jì rán shì zuì liú xíng de kuǎn shì ， dāng rán huì yǒu hěn duō rén chuān 。 fú zhuāng gōng sī zài gè zhǒng méi tǐ shàng yòng bù tóng de fāng shì zuò guǎng gào ， xī yǐn dà jiā qù mǎi ， zhuàng shān jiù hěn nán bì miǎn 。 zhǐ yào néng chuān chū bù tóng de gǎn jué jiù hǎo le 。 ān dé sī bù dǒng wèi shén me yǒu rén pà zhuàng shān 。 tā rèn wèi hé yǎ tíng tài xiǎo tí dà zuò le 。 yī fú 、 bāo bāo gēn bié rén yī yàng yǒu shén me guān xì 。 shāng rén wèi le zhuàn qián ， měi nián dōu yào tuī chū xīn de chǎn pǐn ， xīn de kuǎn shì ， xiàng diàn zi chǎn pǐn ， rú guǒ shì chǎng shàng yǒu le zuì xīn xíng de ， zì jǐ méi yǒu ， jiù luò wǔ le 。 rú guǒ bié rén yǒu gēn zì jǐ yī yàng de xīn chǎn pǐn ， yí dìng huì shuō gè bù tíng ， xiàng pèng dào le zhī yīn 。 jì rán zhè yàng ， nǚ rén wèi shén me pà zhuàng shān ne ？ hé yǎ tíng jué dé tā shuō de méi cuò ， shì hěn nán xiǎng xiàng rú guǒ zì jǐ chuān zhù lǎ bā kù qù shàng kè ， huì gěi bié rén shén me yìn xiàng 。",
+            "meaningVi": "Tối qua, khi Hà Nhã Đình đến lớp học tiếng Tây Ban Nha, cô phát hiện một bạn cùng lớp đang mặc chiếc áo khoác màu xanh nhạt giống hệt của mình. Hà Nhã Đình lập tức cởi áo khoác ra, nhét vào ba lô. Cô ấy tự hỏi tại sao chuyện này lại xảy ra? Chiếc áo khoác này là mẫu của mùa hiện tại. Cô thấy nữ chính trong bộ phim truyền hình mặc chiếc áo này trông rất dễ thương, nên mới đặc biệt nhờ bạn gửi từ nước ngoài về. Không ngờ lại đụng độ trang phục, khiến cô ấy cả buổi tối đều không vui. Sau giờ học trưa nay, khi gặp Trần Mẫn Huyên và An Đức Tư, Hà Nhã Đình đã kể lại chuyện này. Trần Mẫn Huyên cảm thấy không cần phải buồn vì chuyện này. Vì đây là kiểu thời trang đang thịnh hành nhất, nên tất nhiên sẽ có rất nhiều người mặc. Các công ty thời trang quảng cáo bằng nhiều cách khác nhau trên các phương tiện truyền thông để thu hút mọi người mua hàng, nên việc đụng hàng là điều khó tránh khỏi. Chỉ cần mặc lên trông khác biệt là được. An Đức Tư không hiểu tại sao có người lại sợ đụng hàng. Anh ấy cho rằng Hà Nhã Đình đang làm quá vấn đề. Quần áo, túi xách giống người khác thì có sao? Để kiếm tiền, các doanh nhân phải tung ra các sản phẩm mới, các mẫu mã mới mỗi năm. Ví dụ như các sản phẩm điện tử, nếu trên thị trường đã có mẫu mới nhất mà mình không có thì sẽ bị coi là lạc hậu. Nếu người khác cũng có sản phẩm mới giống mình, chắc chắn họ sẽ nói mãi không thôi, như thể gặp được tri kỷ vậy. Vậy thì tại sao phụ nữ lại sợ đụng đồ? Hà Nhã Đình cảm thấy anh nói đúng, thật khó tưởng tượng nếu cô mặc quần ống loe đi học thì sẽ gây ấn tượng gì với người khác."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "再說，如果不懂流行，不看最受歡迎的連續劇，不去最熱門的餐廳，不玩最流行的電腦遊戲，不知道現在流行化什麼樣的妝，大概就沒什麼朋友了。",
+            "simplified": "再说，如果不懂流行，不看最受欢迎的连续剧，不去最热门的餐厅，不玩最流行的电脑游戏，不知道现在流行化什么样的妆，大概就没什么朋友了。",
+            "pinyin": "zài shuō ， rú guǒ bù dǒng liú xíng ， bù kàn zuì shòu huān yíng de lián xù jù ， bù qù zuì rè mén de cān tīng ， bù wán zuì liú xíng de diàn nǎo yóu xì ， bù zhī dào xiàn zài liú xíng huà shén me yàng de zhuāng ， dà gài jiù méi shén me péng yǒu le 。",
+            "meaningVi": "Hơn nữa, nếu không hiểu biết về thời trang, không xem những bộ phim truyền hình nổi tiếng nhất, không đến những nhà hàng hot nhất, không chơi những trò chơi điện tử phổ biến nhất, không biết kiểu trang điểm nào đang thịnh hành, thì có lẽ sẽ chẳng có mấy người bạn."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc3-v3-l05-dialogue-01-lecture",
+        "prompt": "Trong hội thoại, “你怎麼了？怎麼那麼沒精神？” có nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Đừng giận nữa. Không mua được thì thôi vậy. Tại sao nhất định phải nghe?"
+          },
+          {
+            "id": "b",
+            "text": "Mayday là ai? Concert gì vậy?"
+          },
+          {
+            "id": "c",
+            "text": "Anh sao thế? Sao trông bạn ủ rũ thế?"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Anh sao thế? Sao trông bạn ủ rũ thế?",
+        "skill": "Đọc hiểu hội thoại"
+      },
+      {
+        "id": "cc3-v3-l05-dialogue-02-lecture",
+        "prompt": "Trong hội thoại, “聲音那麼大，吵死了。還是在家好。” có nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Đừng giận nữa. Không mua được thì thôi vậy. Tại sao nhất định phải nghe?"
+          },
+          {
+            "id": "b",
+            "text": "Âm thanh lớn quá, ồn chết đi được. Vẫn là ở nhà sướng hơn."
+          },
+          {
+            "id": "c",
+            "text": "Anh sao thế? Sao trông bạn ủ rũ thế?"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Âm thanh lớn quá, ồn chết đi được. Vẫn là ở nhà sướng hơn.",
+        "skill": "Đọc hiểu hội thoại"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem nghĩa và ví dụ.",
+    "wordIds": [
+      "cc3-v3-l05-v001",
+      "cc3-v3-l05-v002",
+      "cc3-v3-l05-v003",
+      "cc3-v3-l05-v004",
+      "cc3-v3-l05-v005",
+      "cc3-v3-l05-v006",
+      "cc3-v3-l05-v007",
+      "cc3-v3-l05-v008",
+      "cc3-v3-l05-v009",
+      "cc3-v3-l05-v010",
+      "cc3-v3-l05-v011",
+      "cc3-v3-l05-v012",
+      "cc3-v3-l05-v013",
+      "cc3-v3-l05-v014",
+      "cc3-v3-l05-v015",
+      "cc3-v3-l05-v016",
+      "cc3-v3-l05-v017",
+      "cc3-v3-l05-v018",
+      "cc3-v3-l05-v019",
+      "cc3-v3-l05-v020",
+      "cc3-v3-l05-v021",
+      "cc3-v3-l05-v022",
+      "cc3-v3-l05-v023",
+      "cc3-v3-l05-v024",
+      "cc3-v3-l05-v025",
+      "cc3-v3-l05-v026",
+      "cc3-v3-l05-v027",
+      "cc3-v3-l05-v028",
+      "cc3-v3-l05-v029",
+      "cc3-v3-l05-v030",
+      "cc3-v3-l05-v031",
+      "cc3-v3-l05-v032",
+      "cc3-v3-l05-v033",
+      "cc3-v3-l05-v034",
+      "cc3-v3-l05-v035",
+      "cc3-v3-l05-v036",
+      "cc3-v3-l05-v037",
+      "cc3-v3-l05-v038",
+      "cc3-v3-l05-v039",
+      "cc3-v3-l05-v040",
+      "cc3-v3-l05-v041",
+      "cc3-v3-l05-v042",
+      "cc3-v3-l05-v043",
+      "cc3-v3-l05-v044",
+      "cc3-v3-l05-v045",
+      "cc3-v3-l05-v046",
+      "cc3-v3-l05-v047",
+      "cc3-v3-l05-v048",
+      "cc3-v3-l05-v049",
+      "cc3-v3-l05-v050",
+      "cc3-v3-l05-v051",
+      "cc3-v3-l05-v052",
+      "cc3-v3-l05-v053",
+      "cc3-v3-l05-v054",
+      "cc3-v3-l05-v055",
+      "cc3-v3-l05-v056",
+      "cc3-v3-l05-v057",
+      "cc3-v3-l05-v058",
+      "cc3-v3-l05-v059",
+      "cc3-v3-l05-v060",
+      "cc3-v3-l05-v061",
+      "cc3-v3-l05-v062",
+      "cc3-v3-l05-v063",
+      "cc3-v3-l05-v064",
+      "cc3-v3-l05-v065",
+      "cc3-v3-l05-v066"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc3-textbook-l05-t02",
+        "label": "Từ vựng hội thoại"
+      },
+      {
+        "id": "cc3-textbook-l05-t04",
+        "label": "Từ vựng bài đọc"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc3-v3-l05-grammar-01",
+      "title": "V＋滿",
+      "audioTrackId": "cc3-textbook-l05-t05",
+      "explanation": "V＋滿 cho biết vật hoặc nơi đã được lấp đầy bởi kết quả của hành động, như 寫滿 “viết kín”.",
+      "structure": "V＋滿",
+      "examples": [
+        {
+          "chinese": "街道的兩邊蓋滿了新的大樓。",
+          "simplified": "街道的两边盖满了新的大楼。",
+          "pinyin": "jiē dào de liǎng biān gài mǎn le xīn de dà lóu 。",
+          "meaningVi": "Các đường phố được lót bằng các tòa nhà mới."
+        },
+        {
+          "chinese": "101 大樓前面擠滿了看跨年煙火的年輕人。",
+          "simplified": "101 大楼前面挤满了看跨年烟火的年轻人。",
+          "pinyin": "1 0 1   dà lóu qián miàn jǐ mǎn le kàn kuà nián yān huǒ de nián qīng rén 。",
+          "meaningVi": "Phía trước tòa nhà 101 đông đúc giới trẻ xem bắn pháo hoa đêm giao thừa."
+        }
+      ],
+      "commonMistake": "",
+      "check": {
+        "id": "cc3-v3-l05-grammar-check-01",
+        "prompt": "Mẫu V＋滿 dùng để diễn đạt ý nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "V＋滿 cho biết vật hoặc nơi đã được lấp đầy bởi kết quả của hành động, như 寫滿 “viết kín”."
+          },
+          {
+            "id": "b",
+            "text": "V＋出 nhấn mạnh kết quả xuất hiện hoặc được nhận ra sau hành động. Hãy đọc động từ trước 出 để xác định điều gì được đưa ra."
+          },
+          {
+            "id": "c",
+            "text": "不如 đưa ra lựa chọn được cho là tốt hơn: “chi bằng”. Thường dùng khi so sánh hai cách làm trong hoàn cảnh hiện tại."
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "V＋滿 cho biết vật hoặc nơi đã được lấp đầy bởi kết quả của hành động, như 寫滿 “viết kín”.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc3-v3-l05-grammar-02",
+      "title": "V＋出",
+      "audioTrackId": "cc3-textbook-l05-t06",
+      "explanation": "V＋出 nhấn mạnh kết quả xuất hiện hoặc được nhận ra sau hành động. Hãy đọc động từ trước 出 để xác định điều gì được đưa ra.",
+      "structure": "V＋出",
+      "examples": [
+        {
+          "chinese": "我不好意思說出的話，他都幫我說了。",
+          "simplified": "我不好意思说出的话，他都帮我说了。",
+          "pinyin": "wǒ bù hǎo yì sī shuō chū de huà ， tā dōu bāng wǒ shuō le 。",
+          "meaningVi": "Anh ấy đã nói với tôi tất cả những gì tôi xấu hổ khi nói ra."
+        },
+        {
+          "chinese": "一樣的衣服，他穿起來，總是能穿出跟別人完全不同的感覺。",
+          "simplified": "一样的衣服，他穿起来，总是能穿出跟别人完全不同的感觉。",
+          "pinyin": "yī yàng de yī fú ， tā chuān qǐ lái ， zǒng shì néng chuān chū gēn bié rén wán quán bù tóng de gǎn jué 。",
+          "meaningVi": "Khi mặc cùng một bộ quần áo, anh ấy luôn có cảm giác khác biệt hoàn toàn với những người khác."
+        }
+      ],
+      "commonMistake": "",
+      "check": {
+        "id": "cc3-v3-l05-grammar-check-02",
+        "prompt": "Mẫu V＋出 dùng để diễn đạt ý nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "不如 đưa ra lựa chọn được cho là tốt hơn: “chi bằng”. Thường dùng khi so sánh hai cách làm trong hoàn cảnh hiện tại."
+          },
+          {
+            "id": "b",
+            "text": "V＋出 nhấn mạnh kết quả xuất hiện hoặc được nhận ra sau hành động. Hãy đọc động từ trước 出 để xác định điều gì được đưa ra."
+          },
+          {
+            "id": "c",
+            "text": "V＋滿 cho biết vật hoặc nơi đã được lấp đầy bởi kết quả của hành động, như 寫滿 “viết kín”."
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "V＋出 nhấn mạnh kết quả xuất hiện hoặc được nhận ra sau hành động. Hãy đọc động từ trước 出 để xác định điều gì được đưa ra.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc3-v3-l05-grammar-03",
+      "title": "不如",
+      "audioTrackId": "cc3-textbook-l05-t07",
+      "explanation": "不如 đưa ra lựa chọn được cho là tốt hơn: “chi bằng”. Thường dùng khi so sánh hai cách làm trong hoàn cảnh hiện tại.",
+      "structure": "不如",
+      "examples": [
+        {
+          "chinese": "這件衣服的品質不如那件的好。",
+          "simplified": "这件衣服的品质不如那件的好。",
+          "pinyin": "zhè jiàn yī fú de pǐn zhì bù rú nà jiàn de hǎo 。",
+          "meaningVi": "Chất lượng của chiếc váy này không tốt bằng chiếc váy kia."
+        },
+        {
+          "chinese": "這家火鍋店的海鮮不如那家的新鮮。",
+          "simplified": "这家火锅店的海鲜不如那家的新鲜。",
+          "pinyin": "zhè jiā huǒ guō diàn de hǎi xiān bù rú nà jiā de xīn xiān 。",
+          "meaningVi": "Hải sản ở quán Lẩu này không tươi bằng quán Lẩu kia."
+        }
+      ],
+      "commonMistake": "",
+      "check": {
+        "id": "cc3-v3-l05-grammar-check-03",
+        "prompt": "Mẫu 不如 dùng để diễn đạt ý nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "V＋滿 cho biết vật hoặc nơi đã được lấp đầy bởi kết quả của hành động, như 寫滿 “viết kín”."
+          },
+          {
+            "id": "b",
+            "text": "V＋出 nhấn mạnh kết quả xuất hiện hoặc được nhận ra sau hành động. Hãy đọc động từ trước 出 để xác định điều gì được đưa ra."
+          },
+          {
+            "id": "c",
+            "text": "不如 đưa ra lựa chọn được cho là tốt hơn: “chi bằng”. Thường dùng khi so sánh hai cách làm trong hoàn cảnh hiện tại."
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "不如 đưa ra lựa chọn được cho là tốt hơn: “chi bằng”. Thường dùng khi so sánh hai cách làm trong hoàn cảnh hiện tại.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc3-v3-l05-grammar-04",
+      "title": "再不…就…了",
+      "audioTrackId": "cc3-textbook-l05-t08",
+      "explanation": "再不…就…了 cảnh báo rằng nếu không hành động ngay thì kết quả ở vế sau sẽ xảy ra: “nếu còn không… thì sẽ…”.",
+      "structure": "再不…就…了",
+      "examples": [
+        {
+          "chinese": "已經四個月沒下雨了。再不下雨，我們就沒水喝了。",
+          "simplified": "已经四个月没下雨了。再不下雨，我们就没水喝了。",
+          "pinyin": "yǐ jīng sì gè yuè méi xià yǔ le 。 zài bù xià yǔ ， wǒ men jiù méi shuǐ hē le 。",
+          "meaningVi": "Đã bốn tháng trời không mưa. Nếu trời không mưa, chúng ta sẽ không có nước để uống."
+        },
+        {
+          "chinese": "天氣這麼潮濕，再不買除濕機，衣服就要發霉了。",
+          "simplified": "天气这么潮湿，再不买除湿机，衣服就要发霉了。",
+          "pinyin": "tiān qì zhè me cháo shī ， zài bù mǎi chú shī jī ， yī fú jiù yào fā méi le 。",
+          "meaningVi": "Thời tiết ẩm ướt quá. Nếu không mua máy hút ẩm, quần áo của bạn sẽ bị mốc."
+        }
+      ],
+      "commonMistake": "",
+      "check": {
+        "id": "cc3-v3-l05-grammar-check-04",
+        "prompt": "Mẫu 再不…就…了 dùng để diễn đạt ý nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "V＋出 nhấn mạnh kết quả xuất hiện hoặc được nhận ra sau hành động. Hãy đọc động từ trước 出 để xác định điều gì được đưa ra."
+          },
+          {
+            "id": "b",
+            "text": "再不…就…了 cảnh báo rằng nếu không hành động ngay thì kết quả ở vế sau sẽ xảy ra: “nếu còn không… thì sẽ…”."
+          },
+          {
+            "id": "c",
+            "text": "V＋滿 cho biết vật hoặc nơi đã được lấp đầy bởi kết quả của hành động, như 寫滿 “viết kín”."
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "再不…就…了 cảnh báo rằng nếu không hành động ngay thì kết quả ở vế sau sẽ xảy ra: “nếu còn không… thì sẽ…”.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc3-v3-l05-grammar-05",
+      "title": "V＋掉",
+      "audioTrackId": "cc3-textbook-l05-t09",
+      "explanation": "V＋掉 cho biết một vật bị loại bỏ hoặc biến mất sau hành động, như 刪掉 “xóa đi”.",
+      "structure": "V＋掉",
+      "examples": [
+        {
+          "chinese": "廚房裡的垃圾，我拿出去丟掉了。",
+          "simplified": "厨房里的垃圾，我拿出去丢掉了。",
+          "pinyin": "chú fáng lǐ de lā jī ， wǒ ná chū qù diū diào le 。",
+          "meaningVi": "Tôi mang rác trong bếp ra ngoài vứt đi."
+        },
+        {
+          "chinese": "誰把我的咖啡喝掉了？",
+          "simplified": "谁把我的咖啡喝掉了？",
+          "pinyin": "shuí bǎ wǒ de kā fēi hē diào le ？",
+          "meaningVi": "Ai uống hết cà phê của tôi rồi?"
+        }
+      ],
+      "commonMistake": "",
+      "check": {
+        "id": "cc3-v3-l05-grammar-check-05",
+        "prompt": "Mẫu V＋掉 dùng để diễn đạt ý nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "V＋出 nhấn mạnh kết quả xuất hiện hoặc được nhận ra sau hành động. Hãy đọc động từ trước 出 để xác định điều gì được đưa ra."
+          },
+          {
+            "id": "b",
+            "text": "V＋掉 cho biết một vật bị loại bỏ hoặc biến mất sau hành động, như 刪掉 “xóa đi”."
+          },
+          {
+            "id": "c",
+            "text": "V＋滿 cho biết vật hoặc nơi đã được lấp đầy bởi kết quả của hành động, như 寫滿 “viết kín”."
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "V＋掉 cho biết một vật bị loại bỏ hoặc biến mất sau hành động, như 刪掉 “xóa đi”.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc3-v3-l05-grammar-06",
+      "title": "居然",
+      "audioTrackId": "cc3-textbook-l05-t10",
+      "explanation": "居然 diễn tả sự ngạc nhiên vì kết quả trái với điều dự đoán: “không ngờ”. Đặt trước thông tin gây bất ngờ.",
+      "structure": "居然",
+      "examples": [
+        {
+          "chinese": "他是韓國人，居然不吃辣。",
+          "simplified": "他是韩国人，居然不吃辣。",
+          "pinyin": "tā shì hán guó rén ， jū rán bù chī là 。",
+          "meaningVi": "Anh ấy là người Hàn Quốc và không ăn được đồ cay."
+        },
+        {
+          "chinese": "語言中心主任約他今天早上面談，他居然忘了。",
+          "simplified": "语言中心主任约他今天早上面谈，他居然忘了。",
+          "pinyin": "yǔ yán zhōng xīn zhǔ rèn yuē tā jīn tiān zǎo shàng miàn tán ， tā jū rán wàng le 。",
+          "meaningVi": "Sáng nay giám đốc trung tâm ngoại ngữ mời anh phỏng vấn nhưng thực ra anh quên mất."
+        }
+      ],
+      "commonMistake": "",
+      "check": {
+        "id": "cc3-v3-l05-grammar-check-06",
+        "prompt": "Mẫu 居然 dùng để diễn đạt ý nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "V＋滿 cho biết vật hoặc nơi đã được lấp đầy bởi kết quả của hành động, như 寫滿 “viết kín”."
+          },
+          {
+            "id": "b",
+            "text": "V＋出 nhấn mạnh kết quả xuất hiện hoặc được nhận ra sau hành động. Hãy đọc động từ trước 出 để xác định điều gì được đưa ra."
+          },
+          {
+            "id": "c",
+            "text": "居然 diễn tả sự ngạc nhiên vì kết quả trái với điều dự đoán: “không ngờ”. Đặt trước thông tin gây bất ngờ."
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "居然 diễn tả sự ngạc nhiên vì kết quả trái với điều dự đoán: “không ngờ”. Đặt trước thông tin gây bất ngờ.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc3-v3-l05-grammar-07",
+      "title": "既然…就…",
+      "audioTrackId": "cc3-textbook-l05-t11",
+      "explanation": "既然…就… đặt một sự việc đã biết làm cơ sở cho quyết định phía sau: “đã… thì…”. Vế sau là phản ứng hợp lý từ tiền đề.",
+      "structure": "既然…就…",
+      "examples": [
+        {
+          "chinese": "既然天氣這麼不穩定，我們就別去海邊了吧。",
+          "simplified": "既然天气这么不稳定，我们就别去海边了吧。",
+          "pinyin": "jì rán tiān qì zhè me bù wěn dìng ， wǒ men jiù bié qù hǎi biān le ba 。",
+          "meaningVi": "Vì thời tiết không ổn định nên chúng ta đừng đi biển."
+        },
+        {
+          "chinese": "既然網路塞車，那就先去運動，晚一點再上網。",
+          "simplified": "既然网路塞车，那就先去运动，晚一点再上网。",
+          "pinyin": "jì rán wǎng lù sāi chē ， nà jiù xiān qù yùn dòng ， wǎn yī diǎn zài shàng wǎng 。",
+          "meaningVi": "Vì Internet bị tắc nghẽn nên hãy tập thể dục trước rồi lên mạng sau."
+        }
+      ],
+      "commonMistake": "",
+      "check": {
+        "id": "cc3-v3-l05-grammar-check-07",
+        "prompt": "Mẫu 既然…就… dùng để diễn đạt ý nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "V＋滿 cho biết vật hoặc nơi đã được lấp đầy bởi kết quả của hành động, như 寫滿 “viết kín”."
+          },
+          {
+            "id": "b",
+            "text": "V＋出 nhấn mạnh kết quả xuất hiện hoặc được nhận ra sau hành động. Hãy đọc động từ trước 出 để xác định điều gì được đưa ra."
+          },
+          {
+            "id": "c",
+            "text": "既然…就… đặt một sự việc đã biết làm cơ sở cho quyết định phía sau: “đã… thì…”. Vế sau là phản ứng hợp lý từ tiền đề."
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "既然…就… đặt một sự việc đã biết làm cơ sở cho quyết định phía sau: “đã… thì…”. Vế sau là phản ứng hợp lý từ tiền đề.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc3-v3-l05-grammar-08",
+      "title": "V＋個不停",
+      "audioTrackId": "cc3-textbook-l05-t12",
+      "explanation": "V＋個不停 nhấn mạnh hành động tiếp diễn không ngừng, thường mang sắc thái nhiều đến mức đáng chú ý.",
+      "structure": "V＋個不停",
+      "examples": [
+        {
+          "chinese": "雨下個不停，真不知道什麼時候天氣才會變好。",
+          "simplified": "雨下个不停，真不知道什么时候天气才会变好。",
+          "pinyin": "yǔ xià gè bù tíng ， zhēn bù zhī dào shén me shí hòu tiān qì cái huì biàn hǎo 。",
+          "meaningVi": "Trời vẫn mưa, và tôi thực sự không biết khi nào thời tiết sẽ tốt hơn."
+        },
+        {
+          "chinese": "什麼事讓你這麼生氣，罵個不停？",
+          "simplified": "什么事让你这么生气，骂个不停？",
+          "pinyin": "shén me shì ràng nǐ zhè me shēng qì ， mà gè bù tíng ？",
+          "meaningVi": "Điều gì khiến bạn tức giận đến mức liên tục chửi bới?"
+        }
+      ],
+      "commonMistake": "",
+      "check": {
+        "id": "cc3-v3-l05-grammar-check-08",
+        "prompt": "Mẫu V＋個不停 dùng để diễn đạt ý nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "V＋滿 cho biết vật hoặc nơi đã được lấp đầy bởi kết quả của hành động, như 寫滿 “viết kín”."
+          },
+          {
+            "id": "b",
+            "text": "V＋出 nhấn mạnh kết quả xuất hiện hoặc được nhận ra sau hành động. Hãy đọc động từ trước 出 để xác định điều gì được đưa ra."
+          },
+          {
+            "id": "c",
+            "text": "V＋個不停 nhấn mạnh hành động tiếp diễn không ngừng, thường mang sắc thái nhiều đến mức đáng chú ý."
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "V＋個不停 nhấn mạnh hành động tiếp diễn không ngừng, thường mang sắc thái nhiều đến mức đáng chú ý.",
+        "skill": "Ngữ pháp"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc3-v3-l05-listening-01",
+      "prompt": "Nghe hội thoại: chọn ý của lời mở đầu.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anh sao thế? Sao trông bạn ủ rũ thế?"
+        },
+        {
+          "id": "b",
+          "text": "Đừng giận nữa. Không mua được thì thôi vậy. Tại sao nhất định phải nghe?"
+        },
+        {
+          "id": "c",
+          "text": "Mayday là ai? Concert gì vậy?"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Anh sao thế? Sao trông bạn ủ rũ thế?",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc3-textbook-l05-t01"
+    },
+    {
+      "id": "cc3-v3-l05-listening-02",
+      "prompt": "Nghe hội thoại: chọn ý của phần kết.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đừng giận nữa. Không mua được thì thôi vậy. Tại sao nhất định phải nghe?"
+        },
+        {
+          "id": "b",
+          "text": "Muộn rồi! Tôi hẹn bạn ở ga để đi xem triển lãm truyện tranh; không đi ngay sẽ trễ."
+        },
+        {
+          "id": "c",
+          "text": "Anh sao thế? Sao trông bạn ủ rũ thế?"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Muộn rồi! Tôi hẹn bạn ở ga để đi xem triển lãm truyện tranh; không đi ngay sẽ trễ.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc3-textbook-l05-t01"
+    },
+    {
+      "id": "cc3-v3-l05-listening-03",
+      "prompt": "Nghe bài đọc: chọn ý của lời mở đầu.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anh sao thế?"
+        },
+        {
+          "id": "b",
+          "text": "Đừng giận nữa."
+        },
+        {
+          "id": "c",
+          "text": "Tối qua, khi Hà Nhã Đình đến lớp học tiếng Tây Ban Nha, cô phát hiện một bạn cùng lớp đang mặc chiếc áo khoác màu xanh nhạt giống hệt của mình."
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Tối qua, khi Hà Nhã Đình đến lớp học tiếng Tây Ban Nha, cô phát hiện một bạn cùng lớp đang mặc chiếc áo khoác màu xanh nhạt giống hệt của mình.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc3-textbook-l05-t03"
+    },
+    {
+      "id": "cc3-v3-l05-listening-04",
+      "prompt": "Nghe bài đọc: chọn ý của phần kết.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nếu không theo kịp thời trang, phim ảnh, quán ăn và trò chơi đang thịnh hành, bạn dễ lạc lõng trong câu chuyện với bạn bè."
+        },
+        {
+          "id": "b",
+          "text": "Sao trông bạn ủ rũ thế?"
+        },
+        {
+          "id": "c",
+          "text": "Tại sao nhất định phải nghe?"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Nếu không theo kịp thời trang, phim ảnh, quán ăn và trò chơi đang thịnh hành, bạn dễ lạc lõng trong câu chuyện với bạn bè.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc3-textbook-l05-t03"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc3-v3-l05-vocab-01-practice",
+      "prompt": "Điền từ vào câu: 你覺得足球在美國沒有那麼＿＿是什麼原因？",
+      "options": [
+        {
+          "id": "a",
+          "text": "上線"
+        },
+        {
+          "id": "b",
+          "text": "迷"
+        },
+        {
+          "id": "c",
+          "text": "流行"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "流行: trào lưu, được ưa chuộng rộng rãi.",
+      "skill": "Từ vựng",
+      "kind": "fill"
+    },
+    {
+      "id": "cc3-v3-l05-vocab-02-practice",
+      "prompt": "唉 có nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "trào lưu, được ưa chuộng rộng rãi"
+        },
+        {
+          "id": "b",
+          "text": "buổi hòa nhạc"
+        },
+        {
+          "id": "c",
+          "text": "ôi; haiz (thán từ)"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "ôi; haiz (thán từ)",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc3-v3-l05-vocab-03-practice",
+      "prompt": "演唱會 có nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "buổi hòa nhạc"
+        },
+        {
+          "id": "b",
+          "text": "trào lưu, được ưa chuộng rộng rãi"
+        },
+        {
+          "id": "c",
+          "text": "ôi; haiz (thán từ)"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "buổi hòa nhạc",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc3-v3-l05-vocab-04-practice",
+      "prompt": "塞車 có nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "trào lưu, được ưa chuộng rộng rãi"
+        },
+        {
+          "id": "b",
+          "text": "ôi; haiz (thán từ)"
+        },
+        {
+          "id": "c",
+          "text": "kẹt xe; tắc đường"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "kẹt xe; tắc đường",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc3-v3-l05-grammar-01-practice",
+      "prompt": "Mẫu V＋滿 dùng để diễn đạt ý nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "V＋出 nhấn mạnh kết quả xuất hiện hoặc được nhận ra sau hành động. Hãy đọc động từ trước 出 để xác định điều gì được đưa ra."
+        },
+        {
+          "id": "b",
+          "text": "不如 đưa ra lựa chọn được cho là tốt hơn: “chi bằng”. Thường dùng khi so sánh hai cách làm trong hoàn cảnh hiện tại."
+        },
+        {
+          "id": "c",
+          "text": "V＋滿 cho biết vật hoặc nơi đã được lấp đầy bởi kết quả của hành động, như 寫滿 “viết kín”."
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "V＋滿 cho biết vật hoặc nơi đã được lấp đầy bởi kết quả của hành động, như 寫滿 “viết kín”.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc3-v3-l05-grammar-02-practice",
+      "prompt": "Mẫu V＋出 dùng để diễn đạt ý nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "V＋滿 cho biết vật hoặc nơi đã được lấp đầy bởi kết quả của hành động, như 寫滿 “viết kín”."
+        },
+        {
+          "id": "b",
+          "text": "不如 đưa ra lựa chọn được cho là tốt hơn: “chi bằng”. Thường dùng khi so sánh hai cách làm trong hoàn cảnh hiện tại."
+        },
+        {
+          "id": "c",
+          "text": "V＋出 nhấn mạnh kết quả xuất hiện hoặc được nhận ra sau hành động. Hãy đọc động từ trước 出 để xác định điều gì được đưa ra."
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "V＋出 nhấn mạnh kết quả xuất hiện hoặc được nhận ra sau hành động. Hãy đọc động từ trước 出 để xác định điều gì được đưa ra.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc3-v3-l05-dialogue-01-practice",
+      "prompt": "Trong hội thoại, “你怎麼了？怎麼那麼沒精神？” có nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đừng giận nữa. Không mua được thì thôi vậy. Tại sao nhất định phải nghe?"
+        },
+        {
+          "id": "b",
+          "text": "Mayday là ai? Concert gì vậy?"
+        },
+        {
+          "id": "c",
+          "text": "Anh sao thế? Sao trông bạn ủ rũ thế?"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Anh sao thế? Sao trông bạn ủ rũ thế?",
+      "skill": "Đọc hiểu hội thoại"
+    },
+    {
+      "id": "cc3-v3-l05-reading-01-practice",
+      "prompt": "Đọc bài: đoạn đầu nói về điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anh sao thế?"
+        },
+        {
+          "id": "b",
+          "text": "Đừng giận nữa."
+        },
+        {
+          "id": "c",
+          "text": "Tối qua, khi Hà Nhã Đình đến lớp học tiếng Tây Ban Nha, cô phát hiện một bạn cùng lớp đang mặc chiếc áo khoác màu xanh nhạt giống hệt của mình."
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Tối qua, khi Hà Nhã Đình đến lớp học tiếng Tây Ban Nha, cô phát hiện một bạn cùng lớp đang mặc chiếc áo khoác màu xanh nhạt giống hệt của mình.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc3-v3-l05-vocab-05-assessment",
+      "prompt": "上線 có nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ôi; haiz (thán từ)"
+        },
+        {
+          "id": "b",
+          "text": "Lên mạng"
+        },
+        {
+          "id": "c",
+          "text": "trào lưu, được ưa chuộng rộng rãi"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Lên mạng",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc3-v3-l05-vocab-06-assessment",
+      "prompt": "成功 có nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ôi; haiz (thán từ)"
+        },
+        {
+          "id": "b",
+          "text": "thành công"
+        },
+        {
+          "id": "c",
+          "text": "trào lưu, được ưa chuộng rộng rãi"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "thành công",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc3-v3-l05-vocab-07-assessment",
+      "prompt": "倒楣 có nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "xui hận"
+        },
+        {
+          "id": "b",
+          "text": "trào lưu, được ưa chuộng rộng rãi"
+        },
+        {
+          "id": "c",
+          "text": "ôi; haiz (thán từ)"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "xui hận",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc3-v3-l05-vocab-08-assessment",
+      "prompt": "樂團 có nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "trào lưu, được ưa chuộng rộng rãi"
+        },
+        {
+          "id": "b",
+          "text": "ôi; haiz (thán từ)"
+        },
+        {
+          "id": "c",
+          "text": "ban nhạc"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "ban nhạc",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc3-v3-l05-grammar-03-assessment",
+      "prompt": "Mẫu 不如 dùng để diễn đạt ý nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "V＋出 nhấn mạnh kết quả xuất hiện hoặc được nhận ra sau hành động. Hãy đọc động từ trước 出 để xác định điều gì được đưa ra."
+        },
+        {
+          "id": "b",
+          "text": "不如 đưa ra lựa chọn được cho là tốt hơn: “chi bằng”. Thường dùng khi so sánh hai cách làm trong hoàn cảnh hiện tại."
+        },
+        {
+          "id": "c",
+          "text": "V＋滿 cho biết vật hoặc nơi đã được lấp đầy bởi kết quả của hành động, như 寫滿 “viết kín”."
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "不如 đưa ra lựa chọn được cho là tốt hơn: “chi bằng”. Thường dùng khi so sánh hai cách làm trong hoàn cảnh hiện tại.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc3-v3-l05-grammar-04-assessment",
+      "prompt": "Mẫu 再不…就…了 dùng để diễn đạt ý nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "V＋滿 cho biết vật hoặc nơi đã được lấp đầy bởi kết quả của hành động, như 寫滿 “viết kín”."
+        },
+        {
+          "id": "b",
+          "text": "V＋出 nhấn mạnh kết quả xuất hiện hoặc được nhận ra sau hành động. Hãy đọc động từ trước 出 để xác định điều gì được đưa ra."
+        },
+        {
+          "id": "c",
+          "text": "再不…就…了 cảnh báo rằng nếu không hành động ngay thì kết quả ở vế sau sẽ xảy ra: “nếu còn không… thì sẽ…”."
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "再不…就…了 cảnh báo rằng nếu không hành động ngay thì kết quả ở vế sau sẽ xảy ra: “nếu còn không… thì sẽ…”.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc3-v3-l05-dialogue-02-assessment",
+      "prompt": "Trong hội thoại, “聲音那麼大，吵死了。還是在家好。” có nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đừng giận nữa. Không mua được thì thôi vậy. Tại sao nhất định phải nghe?"
+        },
+        {
+          "id": "b",
+          "text": "Âm thanh lớn quá, ồn chết đi được. Vẫn là ở nhà sướng hơn."
+        },
+        {
+          "id": "c",
+          "text": "Anh sao thế? Sao trông bạn ủ rũ thế?"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Âm thanh lớn quá, ồn chết đi được. Vẫn là ở nhà sướng hơn.",
+      "skill": "Đọc hiểu hội thoại"
+    },
+    {
+      "id": "cc3-v3-l05-dialogue-03-assessment",
+      "prompt": "Trong hội thoại, “幾點了？這麼晚啦？我跟朋友約了去看漫畫展，他們在捷運站等我，再不走就來不及了。改天再聊吧。” có nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Muộn rồi! Tôi hẹn bạn ở ga để đi xem triển lãm truyện tranh; không đi ngay sẽ trễ."
+        },
+        {
+          "id": "b",
+          "text": "Anh sao thế? Sao trông bạn ủ rũ thế?"
+        },
+        {
+          "id": "c",
+          "text": "Đừng giận nữa. Không mua được thì thôi vậy. Tại sao nhất định phải nghe?"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Muộn rồi! Tôi hẹn bạn ở ga để đi xem triển lãm truyện tranh; không đi ngay sẽ trễ.",
+      "skill": "Đọc hiểu hội thoại"
+    },
+    {
+      "id": "cc3-v3-l05-reading-01-assessment",
+      "prompt": "Đọc bài: đoạn đầu nói về điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anh sao thế?"
+        },
+        {
+          "id": "b",
+          "text": "Đừng giận nữa."
+        },
+        {
+          "id": "c",
+          "text": "Tối qua, khi Hà Nhã Đình đến lớp học tiếng Tây Ban Nha, cô phát hiện một bạn cùng lớp đang mặc chiếc áo khoác màu xanh nhạt giống hệt của mình."
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Tối qua, khi Hà Nhã Đình đến lớp học tiếng Tây Ban Nha, cô phát hiện một bạn cùng lớp đang mặc chiếc áo khoác màu xanh nhạt giống hệt của mình.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc3-v3-l05-reading-02-assessment",
+      "prompt": "Đọc bài: đoạn cuối nói về điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tại sao nhất định phải nghe?"
+        },
+        {
+          "id": "b",
+          "text": "Nếu không theo kịp thời trang, phim ảnh, quán ăn và trò chơi đang thịnh hành, bạn dễ lạc lõng trong câu chuyện với bạn bè."
+        },
+        {
+          "id": "c",
+          "text": "Sao trông bạn ủ rũ thế?"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Nếu không theo kịp thời trang, phim ảnh, quán ăn và trò chơi đang thịnh hành, bạn dễ lạc lõng trong câu chuyện với bạn bè.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "writingTask": {
+    "id": "cc3-v3-l05-writing",
+    "title": "Viết về chủ đề bài học",
+    "prompt": "Viết 3–4 câu tiếng Hoa về thời trang và cách chọn trang phục. Thử dùng ít nhất một mẫu ngữ pháp vừa học."
+  }
+}

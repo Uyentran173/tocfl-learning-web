@@ -18,7 +18,18 @@ import cc2Lesson14Data from "../data/academy/cc2-lesson14.json" with { type: "js
 import cc2Lesson15Data from "../data/academy/cc2-lesson15.json" with { type: "json" };
 import { cc2Lesson01Words, cc2Lesson02Words, cc2Lesson03Words, cc2Lesson04Words, cc2Lesson05Words, cc2Lesson06Words, cc2Lesson07Words, cc2Lesson08Words, cc2Lesson09Words, cc2Lesson10Words, cc2Lesson11Words, cc2Lesson12Words, cc2Lesson13Words, cc2Lesson14Words, cc2Lesson15Words } from "./cc2-course-vocabulary.ts";
 import cc3Lesson01Data from "../data/academy/cc3-lesson01.json" with { type: "json" };
-import { cc3Lesson01Words } from "./cc3-course-vocabulary.ts";
+import cc3Lesson02Data from "../data/academy/cc3-lesson02.json" with { type: "json" };
+import cc3Lesson03Data from "../data/academy/cc3-lesson03.json" with { type: "json" };
+import cc3Lesson04Data from "../data/academy/cc3-lesson04.json" with { type: "json" };
+import cc3Lesson05Data from "../data/academy/cc3-lesson05.json" with { type: "json" };
+import cc3Lesson06Data from "../data/academy/cc3-lesson06.json" with { type: "json" };
+import cc3Lesson07Data from "../data/academy/cc3-lesson07.json" with { type: "json" };
+import cc3Lesson08Data from "../data/academy/cc3-lesson08.json" with { type: "json" };
+import cc3Lesson09Data from "../data/academy/cc3-lesson09.json" with { type: "json" };
+import cc3Lesson10Data from "../data/academy/cc3-lesson10.json" with { type: "json" };
+import cc3Lesson11Data from "../data/academy/cc3-lesson11.json" with { type: "json" };
+import cc3Lesson12Data from "../data/academy/cc3-lesson12.json" with { type: "json" };
+import { cc3Lesson01Words, cc3LessonWords02to12 } from "./cc3-course-vocabulary.ts";
 export { academyLesson01 };
 
 export const academyActivityKinds = ["lecture", "vocabulary", "grammar", "practice", "assessment"] as const;
@@ -100,6 +111,12 @@ export const academyVolume3Lesson01 = {
   ...cc3Lesson01Data,
   vocabulary: { ...cc3Lesson01Data.vocabulary, wordIds: cc3Lesson01Words.map((word) => word.id!) },
 } as unknown as AcademyLessonContent;
+const cc3LessonData02to12 = [cc3Lesson02Data, cc3Lesson03Data, cc3Lesson04Data, cc3Lesson05Data, cc3Lesson06Data, cc3Lesson07Data, cc3Lesson08Data, cc3Lesson09Data, cc3Lesson10Data, cc3Lesson11Data, cc3Lesson12Data];
+export const academyVolume3Lessons02to12: AcademyLessonContent[] = cc3LessonData02to12.map((data, index) => ({
+  ...data,
+  vocabulary: { ...data.vocabulary, wordIds: cc3LessonWords02to12[index].map((word) => word.id!) },
+}) as unknown as AcademyLessonContent);
+export const academyVolume3Lessons = [academyVolume3Lesson01, ...academyVolume3Lessons02to12];
 export const academyVolume2Lesson01 = {
   ...cc2Lesson01Data,
   vocabulary: { ...cc2Lesson01Data.vocabulary, wordIds: cc2Lesson01Words.map((word) => word.id!) },
@@ -230,7 +247,8 @@ export function academyStaticLesson(number: number): AcademyLessonContent | null
   return academyLessons02to15[number - 2] ?? null;
 }
 export function academyStaticLessonById(id: string): AcademyLessonContent | null {
-  if (id === academyVolume3Lesson01.id) return academyVolume3Lesson01;
+  const volume3Lesson = academyVolume3Lessons.find((lesson) => lesson.id === id);
+  if (volume3Lesson) return volume3Lesson;
   if (id === academyVolume2Lesson01.id) return academyVolume2Lesson01;
   if (id === academyVolume2Lesson02.id) return academyVolume2Lesson02;
   if (id === academyVolume2Lesson03.id) return academyVolume2Lesson03;
@@ -274,7 +292,7 @@ export function validateAcademyLessonContent(value: unknown): value is AcademyLe
   if (!record(value.lecture) || !text(value.lecture.introduction) || !Array.isArray(value.lecture.sections) || value.lecture.sections.length < 2 || !value.lecture.sections.every((item: unknown) => record(item) && sentence(item) && text(item.id, 100) && text(item.title, 100) && text(item.body)) || !Array.isArray(value.lecture.dialogues) || value.lecture.dialogues.length < 2 || !value.lecture.dialogues.every((item: unknown) => record(item) && text(item.id, 100) && text(item.title, 100) && text(item.context) && Array.isArray(item.turns) && item.turns.length >= 2 && item.turns.every((turn: unknown) => record(turn) && text(turn.speaker, 100) && sentence(turn))) || !questionList(value.lecture.checks, 1, 10) || !Array.isArray(value.lecture.pronunciation) || (isFirst && value.lecture.pronunciation.length < 2) || !value.lecture.pronunciation.every((item: unknown) => record(item) && sentence(item) && text(item.id, 100) && text(item.title, 100) && text(item.explanation)) || !Array.isArray(value.lecture.culture) || (isFirst && value.lecture.culture.length < 1) || !value.lecture.culture.every((item: unknown) => record(item) && text(item.id, 100) && text(item.title, 100) && text(item.body))) return false;
   const expected = academyStaticLessonById(value.id as string);
   if (!expected || !record(value.vocabulary) || !text(value.vocabulary.introduction) || !Array.isArray(value.vocabulary.wordIds) || value.vocabulary.wordIds.length !== expected.vocabulary.wordIds.length || !value.vocabulary.wordIds.every((id: unknown, index: number) => id === expected.vocabulary.wordIds[index] && academyVocabularyByIds([id as string]).length === 1)) return false;
-  if (!Array.isArray(value.grammar) || value.grammar.length < (isFirst ? 5 : 4) || !value.grammar.every((point: unknown) => record(point) && text(point.id, 100) && text(point.title, 100) && text(point.explanation) && text(point.structure) && text(point.commonMistake) && Array.isArray(point.examples) && point.examples.length >= 2 && point.examples.every(sentence) && question(point.check))) return false;
+  if (!Array.isArray(value.grammar) || value.grammar.length < (isFirst ? 5 : 4) || !value.grammar.every((point: unknown) => record(point) && text(point.id, 100) && text(point.title, 100) && text(point.explanation) && text(point.structure) && typeof point.commonMistake === "string" && Array.isArray(point.examples) && point.examples.length >= 2 && point.examples.every(sentence) && question(point.check))) return false;
   if (!isFirst && !questionList(value.listening, 4, 20)) return false;
   return questionList(value.practice, 8, 30) && questionList(value.assessment, 10, 15) && (value.practice as AcademyQuestion[]).every((item, index) => item.id === expected.practice[index]?.id) && (value.assessment as AcademyQuestion[]).every((item, index) => item.id === expected.assessment[index]?.id);
 }

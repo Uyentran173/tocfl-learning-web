@@ -1,0 +1,1152 @@
+{
+  "contentVersion": 2,
+  "id": "cc4-v4-l03",
+  "title": "雲端科技",
+  "titleVi": "Công nghệ đám mây",
+  "description": "Tìm hiểu mua sắm trực tuyến và tác động hai mặt của Internet qua cuộc trò chuyện với bà ngoại.",
+  "objectives": [
+    "Hiểu cách hai thế hệ nhìn về mua sắm trực tuyến và rủi ro của nó.",
+    "Đọc về các ứng dụng của công nghệ đám mây trong giao thông, y tế và giáo dục.",
+    "Diễn đạt sự không chắc chắn, thói quen và lời tổng kết bằng mẫu ngữ pháp của bài."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Bà ngoại muốn đi trung tâm thương mại, còn Văn Lệ muốn mua trên mạng. Nghe hai người tranh luận rồi đọc bài để thấy công nghệ giúp và gây khó cho đời sống ra sao.",
+    "sections": [
+      {
+        "id": "cc4-v4-l03-section-01",
+        "title": "Mua sắm qua mạng",
+        "body": "Chú ý lý do Văn Lệ thấy tiện và những điều khiến bà ngoại lo ngại.",
+        "chinese": "網路購物很方便，不必出門。",
+        "simplified": "网路购物很方便，不必出门。",
+        "pinyin": "wǎng lù gòu wù hěn fāng biàn ， bù bì chū mén 。",
+        "meaningVi": "Mua sắm qua mạng rất tiện, không cần ra khỏi nhà."
+      },
+      {
+        "id": "cc4-v4-l03-section-02",
+        "title": "Tác động hai mặt",
+        "body": "Đọc các ví dụ về việc tra cứu và lưu thông tin, sau đó tìm lời khuyên ở cuối bài.",
+        "chinese": "總而言之，雲端科技給人類帶來正面的影響，同時也帶來了負面的影響。",
+        "simplified": "总而言之，云端科技给人类带来正面的影响，同时也带来了负面的影响。",
+        "pinyin": "zǒng ér yán zhī ， yún duān kē jì gěi rén lèi dài lái zhèng miàn de yǐng xiǎng ， tóng shí yě dài lái le fù miàn de yǐng xiǎng 。",
+        "meaningVi": "Tóm lại, công nghệ đám mây mang đến cả tác động tích cực và tiêu cực."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc4-v4-l03-dialogue",
+        "title": "Hội thoại: bà ngoại và Văn Lệ",
+        "context": "Hai người bàn cách mua quần áo và sự an toàn khi đặt hàng qua mạng.",
+        "audioTrackId": "cc4-textbook-l03-t01",
+        "turns": [
+          {
+            "speaker": "外婆",
+            "chinese": "喂，文麗，這個週末妳有空嗎？我們去逛百貨公司，買幾件新衣吧！",
+            "simplified": "喂，文丽，这个周末你有空吗？我们去逛百货公司，买几件新衣吧！",
+            "pinyin": "wèi ， wén lì ， zhè gè zhōu mò nǐ yǒu kòng ma ？ wǒ men qù guàng bǎi huò gōng sī ， mǎi jǐ jiàn xīn yī ba ！",
+            "meaningVi": "A lô, Văn Lệ, cuối tuần này cháu rảnh không? Mình đi dạo trung tâm thương mại, mua vài bộ quần áo mới nhé!"
+          },
+          {
+            "speaker": "李文麗",
+            "chinese": "外婆，週末我有事，網路商店就有很多流行女裝，何必去百貨公司呢？",
+            "simplified": "外婆，周末我有事，网路商店就有很多流行女装，何必去百货公司呢？",
+            "pinyin": "wài pó ， zhōu mò wǒ yǒu shì ， wǎng lù shāng diàn jiù yǒu hěn duō liú xíng nǚ zhuāng ， hé bì qù bǎi huò gōng sī ne ？",
+            "meaningVi": "Bà ơi, cuối tuần con có việc bận. Trên các cửa hàng trực tuyến có rất nhiều quần áo nữ thời trang, sao phải đến trung tâm thương mại làm gì?"
+          },
+          {
+            "speaker": "外婆",
+            "chinese": "在網路商店買東西，很麻煩吧？",
+            "simplified": "在网路商店买东西，很麻烦吧？",
+            "pinyin": "zài wǎng lù shāng diàn mǎi dōng xī ， hěn má fán ba ？",
+            "meaningVi": "Mua đồ ở cửa hàng trên mạng phiền lắm nhỉ?"
+          },
+          {
+            "speaker": "李文麗",
+            "chinese": "網路購物很簡單，現在是宅經濟時代，不會網路購物就落伍了。",
+            "simplified": "网路购物很简单，现在是宅经济时代，不会网路购物就落伍了。",
+            "pinyin": "wǎng lù gòu wù hěn jiǎn dān ， xiàn zài shì zhái jīng jì shí dài ， bù huì wǎng lù gòu wù jiù luò wǔ le 。",
+            "meaningVi": "Mua sắm trực tuyến rất đơn giản. Hiện nay là thời đại của nền kinh tế tại gia, nếu không biết mua sắm trực tuyến thì sẽ bị tụt hậu."
+          },
+          {
+            "speaker": "外婆",
+            "chinese": "什麼叫「宅經濟」啊？我沒聽過！",
+            "simplified": "什么叫「宅经济」啊？我没听过！",
+            "pinyin": "shén me jiào 「 zhái jīng jì 」 a ？ wǒ méi tīng guò ！",
+            "meaningVi": "“Kinh tế tại gia” là gì thế? Bà chưa nghe bao giờ!"
+          },
+          {
+            "speaker": "李文麗",
+            "chinese": "外婆，「宅」是指在家裡，「宅經濟」是指在家逛虛擬商店買東西，也就是線上購物。",
+            "simplified": "外婆，「宅」是指在家里，「宅经济」是指在家逛虚拟商店买东西，也就是线上购物。",
+            "pinyin": "wài pó ， 「 zhái 」 shì zhǐ zài jiā lǐ ， 「 zhái jīng jì 」 shì zhǐ zài jiā guàng xū nǐ shāng diàn mǎi dōng xī ， yě jiù shì xiàn shàng gòu wù 。",
+            "meaningVi": "Bà ơi, \"tại gia\" có nghĩa là ở nhà, \"kinh tế tại gia\" có nghĩa là mua sắm tại các cửa hàng ảo ở nhà, tức là mua sắm trực tuyến."
+          },
+          {
+            "speaker": "外婆",
+            "chinese": "在家上網買東西會不會比較貴啊？",
+            "simplified": "在家上网买东西会不会比较贵啊？",
+            "pinyin": "zài jiā shàng wǎng mǎi dōng xī huì bù huì bǐ jiào guì a ？",
+            "meaningVi": "Mua hàng trực tuyến tại nhà có đắt hơn không?"
+          },
+          {
+            "speaker": "李文麗",
+            "chinese": "網路商店沒有店面，不需要請店員，可以省很多錢，當然比較便宜。",
+            "simplified": "网路商店没有店面，不需要请店员，可以省很多钱，当然比较便宜。",
+            "pinyin": "wǎng lù shāng diàn méi yǒu diàn miàn ， bù xū yào qǐng diàn yuán ， kě yǐ shěng hěn duō qián ， dāng rán bǐ jiào pián yi 。",
+            "meaningVi": "Cửa hàng trực tuyến không có mặt bằng, không cần thuê nhân viên, tiết kiệm được rất nhiều tiền, tất nhiên là rẻ hơn."
+          },
+          {
+            "speaker": "外婆",
+            "chinese": "比較便宜的話，那就應該在網路上買才划算，可是我的身材不好，模特兒穿起來好看，我穿，不見得好看。",
+            "simplified": "比较便宜的话，那就应该在网路上买才划算，可是我的身材不好，模特儿穿起来好看，我穿，不见得好看。",
+            "pinyin": "bǐ jiào pián yi de huà ， nà jiù yīng gāi zài wǎng lù shàng mǎi cái huá suàn ， kě shì wǒ de shēn cái bù hǎo ， mó tè ér chuān qǐ lái hǎo kàn ， wǒ chuān ， bù jiàn dé hǎo kàn 。",
+            "meaningVi": "Nếu rẻ hơn thì mua trên mạng mới đáng tiền. Nhưng dáng bà không đẹp, người mẫu mặc đẹp chưa chắc bà mặc cũng đẹp."
+          },
+          {
+            "speaker": "李文麗",
+            "chinese": "外婆，網路商店裡的款式多得不得了。一定有合適的。",
+            "simplified": "外婆，网路商店里的款式多得不得了。一定有合适的。",
+            "pinyin": "wài pó ， wǎng lù shāng diàn lǐ de kuǎn shì duō dé bù dé le 。 yí dìng yǒu hé shì de 。",
+            "meaningVi": "Bà ơi, cửa hàng trên mạng có nhiều kiểu dáng lắm, chắc chắn có bộ hợp với bà."
+          },
+          {
+            "speaker": "外婆",
+            "chinese": "會不會買到仿冒品或是有瑕疵的東西呢？聽說網路上有的圖片跟實際的商品落差很大，我怎麼能相信賣家提供的圖片和資訊呢？",
+            "simplified": "会不会买到仿冒品或是有瑕疵的东西呢？听说网路上有的图片跟实际的商品落差很大，我怎么能相信卖家提供的图片和资讯呢？",
+            "pinyin": "huì bù huì mǎi dào fǎng mào pǐn huò shì yǒu xiá cī de dōng xī ne ？ tīng shuō wǎng lù shàng yǒu de tú piàn gēn shí jì de shāng pǐn luò chà hěn dà ， wǒ zěn me néng xiāng xìn mài jiā tí gōng de tú piàn hé zī xùn ne ？",
+            "meaningVi": "Liệu có mua phải hàng giả hay hàng bị lỗi không? Nghe nói có lúc ảnh trên mạng khác xa hàng thật, sao bà tin được ảnh và thông tin người bán đưa ra?"
+          },
+          {
+            "speaker": "李文麗",
+            "chinese": "要是對商品有疑問的話，可以直接上網問賣家，如果不相信那家網路商店，就不要買他們的東西嘛！",
+            "simplified": "要是对商品有疑问的话，可以直接上网问卖家，如果不相信那家网路商店，就不要买他们的东西嘛！",
+            "pinyin": "yào shì duì shāng pǐn yǒu yí wèn de huà ， kě yǐ zhí jiē shàng wǎng wèn mài jiā ， rú guǒ bù xiāng xìn nà jiā wǎng lù shāng diàn ， jiù bú yào mǎi tā men de dōng xī ma ！",
+            "meaningVi": "Nếu băn khoăn về hàng, bà có thể hỏi trực tiếp người bán. Nếu không tin cửa hàng đó thì đừng mua của họ!"
+          },
+          {
+            "speaker": "外婆",
+            "chinese": "我這麼老了才開始用電腦，現在還用不慣，我平常只上網瀏覽，從來沒上網買過東西，我怕買了會後悔。",
+            "simplified": "我这么老了才开始用电脑，现在还用不惯，我平常只上网浏览，从来没上网买过东西，我怕买了会后悔。",
+            "pinyin": "wǒ zhè me lǎo le cái kāi shǐ yòng diàn nǎo ， xiàn zài hái yòng bù guàn ， wǒ píng cháng zhǐ shàng wǎng liú lǎn ， cóng lái méi shàng wǎng mǎi guò dōng xī ， wǒ pà mǎi le huì hòu huǐ 。",
+            "meaningVi": "Bà lớn tuổi rồi mới bắt đầu dùng máy tính, giờ vẫn chưa quen. Bà thường chỉ lướt mạng chứ chưa từng mua hàng; bà sợ mua xong sẽ hối hận."
+          },
+          {
+            "speaker": "李文麗",
+            "chinese": "外婆，不滿意可以退換。網路購物很方便，不必出門，不管白天還是深夜，任何時間都可以買。",
+            "simplified": "外婆，不满意可以退换。网路购物很方便，不必出门，不管白天还是深夜，任何时间都可以买。",
+            "pinyin": "wài pó ， bù mǎn yì kě yǐ tuì huàn 。 wǎng lù gòu wù hěn fāng biàn ， bù bì chū mén ， bù guǎn bái tiān hái shì shēn yè ， rèn hé shí jiān dōu kě yǐ mǎi 。",
+            "meaningVi": "Bà ơi, nếu không hài lòng thì có thể đổi trả. Mua sắm qua mạng rất tiện, không cần ra khỏi nhà; dù ban ngày hay đêm khuya, lúc nào cũng mua được."
+          },
+          {
+            "speaker": "外婆",
+            "chinese": "網路購物真的那麼好嗎？上網用信用卡買東西有沒有風險？會不會被駭客盜用？",
+            "simplified": "网路购物真的那么好吗？上网用信用卡买东西有没有风险？会不会被骇客盗用？",
+            "pinyin": "wǎng lù gòu wù zhēn de nà me hǎo ma ？ shàng wǎng yòng xìn yòng kǎ mǎi dōng xī yǒu méi yǒu fēng xiǎn ？ huì bù huì bèi hài kè dào yòng ？",
+            "meaningVi": "Mua sắm trực tuyến có thực sự tốt đến vậy không? Mua sắm trực tuyến bằng thẻ tín dụng có rủi ro gì không? Có bị tin tặc đánh cắp không?"
+          },
+          {
+            "speaker": "李文麗",
+            "chinese": "是有風險啊！不過只要選擇經過認證的安全網站，就不會有問題了。",
+            "simplified": "是有风险啊！不过只要选择经过认证的安全网站，就不会有问题了。",
+            "pinyin": "shì yǒu fēng xiǎn a ！ bù guò zhǐ yào xuǎn zé jīng guò rèn zhèng de ān quán wǎng zhàn ， jiù bù huì yǒu wèn tí le 。",
+            "meaningVi": "Đúng là có rủi ro! Tuy nhiên, chỉ cần chọn các trang web an toàn đã được chứng nhận thì sẽ không có vấn đề gì."
+          },
+          {
+            "speaker": "外婆",
+            "chinese": "嗯，那我去網路上看看有沒有我喜歡的。",
+            "simplified": "嗯，那我去网路上看看有没有我喜欢的。",
+            "pinyin": "ń ， nà wǒ qù wǎng lù shàng kàn kàn yǒu méi yǒu wǒ xǐ huān de 。",
+            "meaningVi": "Ừm, vậy bà lên mạng xem có thứ gì mình thích không."
+          },
+          {
+            "speaker": "李文麗",
+            "chinese": "雲端科技進步了，利用網路購物的人越來越多，現在有很多銀髮族也上網買東西。上次我們去逛百貨公司，花了好多時間，妳累得走不動了。妳不記得了嗎？",
+            "simplified": "云端科技进步了，利用网路购物的人越来越多，现在有很多银发族也上网买东西。上次我们去逛百货公司，花了好多时间，你累得走不动了。你不记得了吗？",
+            "pinyin": "yún duān kē jì jìn bù le ， lì yòng wǎng lù gòu wù de rén yuè lái yuè duō ， xiàn zài yǒu hěn duō yín fà zú yě shàng wǎng mǎi dōng xī 。 shàng cì wǒ men qù guàng bǎi huò gōng sī ， huā le hǎo duō shí jiān ， nǐ lèi dé zǒu bù dòng le 。 nǐ bù jì dé le ma ？",
+            "meaningVi": "Công nghệ đám mây tiến bộ rồi, ngày càng nhiều người mua hàng qua mạng, cả người cao tuổi nữa. Lần trước mình đi trung tâm thương mại mất bao nhiêu thời gian, bà mệt đến mức không đi nổi. Bà không nhớ sao?"
+          }
+        ]
+      },
+      {
+        "id": "cc4-v4-l03-reading",
+        "title": "Bài đọc: công nghệ đám mây",
+        "context": "Bài đọc đưa ra các tiện ích và ảnh hưởng của việc dùng Internet quá nhiều.",
+        "audioTrackId": "cc4-textbook-l03-t03",
+        "turns": [
+          {
+            "speaker": "Bài đọc",
+            "chinese": "由於雲端科技的進步，無形中縮短了人們的距離。現代人用電子郵件取代紙筆寫信，也比較少看報紙、電視，直接在網路上看新聞、影集。越來越多人選擇網路購物、玩線上遊戲。任何人都可以把資料存在雲端上，也可以透過網路取得資訊。例如民眾開車上高速公路前，只要上網查詢路況，就可以避開塞車的路段。若要搭火車，可以利用網路訂票，等公車的時候也可以查詢公車到站時間。除了交通，雲端科技也運用在醫療、教育、商業等方面，像電子病歷、遠距教學、電子發票等等，都是很實際的例子。",
+            "simplified": "由于云端科技的进步，无形中缩短了人们的距离。现代人用电子邮件取代纸笔写信，也比较少看报纸、电视，直接在网路上看新闻、影集。越来越多人选择网路购物、玩线上游戏。任何人都可以把资料存在云端上，也可以透过网路取得资讯。例如民众开车上高速公路前，只要上网查询路况，就可以避开塞车的路段。若要搭火车，可以利用网路订票，等公车的时候也可以查询公车到站时间。除了交通，云端科技也运用在医疗、教育、商业等方面，像电子病历、远距教学、电子发票等等，都是很实际的例子。",
+            "pinyin": "yóu yú yún duān kē jì de jìn bù ， wú xíng zhōng suō duǎn le rén men de jù lí 。 xiàn dài rén yòng diàn zi yóu jiàn qǔ dài zhǐ bǐ xiě xìn ， yě bǐ jiào shǎo kàn bào zhǐ 、 diàn shì ， zhí jiē zài wǎng lù shàng kàn xīn wén 、 yǐng jí 。 yuè lái yuè duō rén xuǎn zé wǎng lù gòu wù 、 wán xiàn shàng yóu xì 。 rèn hé rén dōu kě yǐ bǎ zī liào cún zài yún duān shàng ， yě kě yǐ tòu guò wǎng lù qǔ dé zī xùn 。 lì rú mín zhòng kāi chē shàng gāo sù gōng lù qián ， zhǐ yào shàng wǎng chá xún lù kuàng ， jiù kě yǐ bì kāi sāi chē de lù duàn 。 ruò yào dā huǒ chē ， kě yǐ lì yòng wǎng lù dìng piào ， děng gōng chē de shí hòu yě kě yǐ chá xún gōng chē dào zhàn shí jiān 。 chú le jiāo tōng ， yún duān kē jì yě yùn yòng zài yī liáo 、 jiào yù 、 shāng yè děng fāng miàn ， xiàng diàn zi bìng lì 、 yuǎn jù jiào xué 、 diàn zi fā piào děng děng ， dōu shì hěn shí jì de lì zi 。",
+            "meaningVi": "Nhờ sự phát triển của công nghệ đám mây, khoảng cách giữa mọi người đã được rút ngắn một cách vô hình. Người hiện đại sử dụng email thay vì viết thư bằng giấy và bút, đồng thời cũng ít đọc báo, xem TV hơn, mà xem tin tức và phim trực tiếp trên mạng. Ngày càng có nhiều người chọn mua sắm trực tuyến và chơi trò chơi trực tuyến. Bất kỳ ai cũng có thể lưu trữ dữ liệu trên đám mây và cũng có thể truy cập thông tin qua mạng Internet. Ví dụ, trước khi lái xe lên đường cao tốc, mọi người chỉ cần lên mạng tra cứu tình hình giao thông là có thể tránh được những đoạn đường bị ùn tắc. Nếu muốn đi tàu hỏa, bạn có thể đặt vé qua mạng. Khi chờ xe buýt, bạn cũng có thể tra cứu thời gian xe buýt đến bến. Ngoài giao thông, công nghệ đám mây còn được ứng dụng trong các lĩnh vực như y tế, giáo dục, thương mại, v.v. Các ví dụ rất thực tế bao gồm hồ sơ bệnh án điện tử, giảng dạy từ xa, hóa đơn điện tử, v.v."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "雲端科技讓我們的生活更加便利，原本以為它可以幫人們節省很多時間，沒想到它卻讓有些人更忙碌了。網路上的資訊又新又有趣，確實容易讓人上癮，特別是對那些不能控制自己的人。像小玲的表弟只想玩線上遊戲，沒興趣念書，功課退步了很多，每天上網玩到半夜，早上起不來，上課常常遲到。父母勸他，他不但不聽，還大吵大鬧，父母只好帶他去看醫生。醫生說，過度使用網路會影響生活與健康。對生理、心理都不好。生理上，有的人因為長時間一直盯著螢幕看，眼睛容易疲倦，視力會變差。",
+            "simplified": "云端科技让我们的生活更加便利，原本以为它可以帮人们节省很多时间，没想到它却让有些人更忙碌了。网路上的资讯又新又有趣，确实容易让人上瘾，特别是对那些不能控制自己的人。像小玲的表弟只想玩线上游戏，没兴趣念书，功课退步了很多，每天上网玩到半夜，早上起不来，上课常常迟到。父母劝他，他不但不听，还大吵大闹，父母只好带他去看医生。医生说，过度使用网路会影响生活与健康。对生理、心理都不好。生理上，有的人因为长时间一直盯着萤幕看，眼睛容易疲倦，视力会变差。",
+            "pinyin": "yún duān kē jì ràng wǒ men de shēng huó gèng jiā biàn lì ， yuán běn yǐ wèi tā kě yǐ bāng rén men jié shěng hěn duō shí jiān ， méi xiǎng dào tā què ràng yǒu xiē rén gèng máng lù le 。 wǎng lù shàng de zī xùn yòu xīn yòu yǒu qù ， què shí róng yì ràng rén shàng yǐn ， tè bié shì duì nà xiē bù néng kòng zhì zì jǐ de rén 。 xiàng xiǎo líng de biǎo dì zhǐ xiǎng wán xiàn shàng yóu xì ， méi xìng qù niàn shū ， gōng kè tuì bù le hěn duō ， měi tiān shàng wǎng wán dào bàn yè ， zǎo shàng qǐ bù lái ， shàng kè cháng cháng chí dào 。 fù mǔ quàn tā ， tā bù dàn bù tīng ， hái dà chǎo dà nào ， fù mǔ zhǐ hǎo dài tā qù kàn yī shēng 。 yī shēng shuō ， guò dù shǐ yòng wǎng lù huì yǐng xiǎng shēng huó yǔ jiàn kāng 。 duì shēng lǐ 、 xīn lǐ dōu bù hǎo 。 shēng lǐ shàng ， yǒu de rén yīn wèi zhǎng shí jiān yì zhí dīng zhù yíng mù kàn ， yǎn jīng róng yì pí juàn ， shì lì huì biàn chà 。",
+            "meaningVi": "Công nghệ đám mây giúp cuộc sống của chúng ta trở nên thuận tiện hơn. Ban đầu, chúng ta nghĩ rằng nó có thể giúp mọi người tiết kiệm rất nhiều thời gian, nhưng không ngờ nó lại khiến một số người trở nên bận rộn hơn. Thông tin trên mạng vừa mới mẻ vừa thú vị, thực sự dễ gây nghiện, đặc biệt là đối với những người không thể tự kiểm soát bản thân. Giống như em họ của Tiểu Linh, em ấy chỉ muốn chơi game trực tuyến, không có hứng thú học hành, thành tích học tập tụt dốc rất nhiều. Ngày nào em ấy cũng lên mạng chơi đến nửa đêm, sáng hôm sau không dậy nổi, nên thường xuyên đi học muộn. Cha mẹ khuyên bảo nhưng cậu không những không nghe mà còn la lối om sòm, nên cha mẹ đành phải đưa cậu đi khám bác sĩ. Bác sĩ cho biết việc sử dụng Internet quá mức sẽ ảnh hưởng đến cuộc sống và sức khỏe. Nó không tốt cho cả thể chất lẫn tinh thần. Về mặt sinh lý, một số người dễ bị mỏi mắt và suy giảm thị lực do nhìn chằm chằm vào màn hình trong thời gian dài."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "心理上，如果不能上網，就會覺得焦慮不安。即使知道不應該一直上網，也改不了。醫生建議家長多陪伴孩子，讓他減少上網的時間。此外，要鼓勵他多參加戶外活動，這樣他的生活才會正常。總而言之，雲端科技給人類帶來正面的影響，同時也帶來了負面的影響。我們在享受雲端科技的便利時，要控制自己，不要沉迷在網路世界裡。",
+            "simplified": "心理上，如果不能上网，就会觉得焦虑不安。即使知道不应该一直上网，也改不了。医生建议家长多陪伴孩子，让他减少上网的时间。此外，要鼓励他多参加户外活动，这样他的生活才会正常。总而言之，云端科技给人类带来正面的影响，同时也带来了负面的影响。我们在享受云端科技的便利时，要控制自己，不要沉迷在网路世界里。",
+            "pinyin": "xīn lǐ shàng ， rú guǒ bù néng shàng wǎng ， jiù huì jué dé jiāo lǜ bù ān 。 jí shǐ zhī dào bù yīng gāi yì zhí shàng wǎng ， yě gǎi bù liǎo 。 yī shēng jiàn yì jiā zhǎng duō péi bàn hái zi ， ràng tā jiǎn shǎo shàng wǎng de shí jiān 。 cǐ wài ， yào gǔ lì tā duō cān jiā hù wài huó dòng ， zhè yàng tā de shēng huó cái huì zhèng cháng 。 zǒng ér yán zhī ， yún duān kē jì gěi rén lèi dài lái zhèng miàn de yǐng xiǎng ， tóng shí yě dài lái le fù miàn de yǐng xiǎng 。 wǒ men zài xiǎng shòu yún duān kē jì de biàn lì shí ， yào kòng zhì zì jǐ ， bú yào chén mí zài wǎng lù shì jiè lǐ 。",
+            "meaningVi": "Về mặt tâm lý, nếu không được lên mạng, trẻ sẽ cảm thấy lo lắng, bồn chồn. Dù biết rằng mình không nên lướt mạng suốt ngày, nhưng vẫn không thể thay đổi được. Bác sĩ khuyên các bậc cha mẹ nên dành nhiều thời gian hơn cho con cái để giúp chúng giảm thời gian sử dụng Internet. Ngoài ra, cần khuyến khích trẻ tham gia nhiều hoạt động ngoài trời hơn để cuộc sống của trẻ được bình thường. Tóm lại, công nghệ đám mây mang lại những tác động tích cực cho con người, đồng thời cũng mang lại những tác động tiêu cực. Khi tận hưởng sự tiện lợi của công nghệ đám mây, chúng ta cần phải tự kiểm soát bản thân và không nên đắm chìm trong thế giới mạng."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc4-v4-l03-check-01",
+        "prompt": "Vì sao Văn Lệ thích mua hàng trên mạng?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Cô không có cửa hàng gần nhà."
+          },
+          {
+            "id": "b",
+            "text": "Bà ngoại cấm cô đến trung tâm thương mại."
+          },
+          {
+            "id": "c",
+            "text": "Có nhiều kiểu, tiết kiệm và mua được bất cứ lúc nào."
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Văn Lệ nêu nhiều kiểu dáng, giá rẻ và mua được cả ban đêm.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc4-v4-l03-check-02",
+        "prompt": "Bài đọc khuyên điều gì khi dùng Internet?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Chỉ dùng Internet để mua sắm."
+          },
+          {
+            "id": "b",
+            "text": "Tự kiểm soát thời gian và không đắm chìm trên mạng."
+          },
+          {
+            "id": "c",
+            "text": "Bỏ hẳn mọi công nghệ."
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Đoạn kết ghi 要控制自己，不要沉迷在網路世界裡.",
+        "skill": "Đọc hiểu"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem phiên âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc4-v4-l03-v001",
+      "cc4-v4-l03-v002",
+      "cc4-v4-l03-v003",
+      "cc4-v4-l03-v004",
+      "cc4-v4-l03-v005",
+      "cc4-v4-l03-v006",
+      "cc4-v4-l03-v007",
+      "cc4-v4-l03-v008",
+      "cc4-v4-l03-v009",
+      "cc4-v4-l03-v010",
+      "cc4-v4-l03-v011",
+      "cc4-v4-l03-v012",
+      "cc4-v4-l03-v013",
+      "cc4-v4-l03-v014",
+      "cc4-v4-l03-v015",
+      "cc4-v4-l03-v016",
+      "cc4-v4-l03-v017",
+      "cc4-v4-l03-v018",
+      "cc4-v4-l03-v019",
+      "cc4-v4-l03-v020",
+      "cc4-v4-l03-v021",
+      "cc4-v4-l03-v022",
+      "cc4-v4-l03-v023",
+      "cc4-v4-l03-v024",
+      "cc4-v4-l03-v025",
+      "cc4-v4-l03-v026",
+      "cc4-v4-l03-v027",
+      "cc4-v4-l03-v028",
+      "cc4-v4-l03-v029",
+      "cc4-v4-l03-v030",
+      "cc4-v4-l03-v031",
+      "cc4-v4-l03-v032",
+      "cc4-v4-l03-v033",
+      "cc4-v4-l03-v034",
+      "cc4-v4-l03-v035",
+      "cc4-v4-l03-v036",
+      "cc4-v4-l03-v037",
+      "cc4-v4-l03-v038",
+      "cc4-v4-l03-v039",
+      "cc4-v4-l03-v040",
+      "cc4-v4-l03-v041",
+      "cc4-v4-l03-v042",
+      "cc4-v4-l03-v043",
+      "cc4-v4-l03-v044",
+      "cc4-v4-l03-v045",
+      "cc4-v4-l03-v046",
+      "cc4-v4-l03-v047",
+      "cc4-v4-l03-v048",
+      "cc4-v4-l03-v049",
+      "cc4-v4-l03-v050",
+      "cc4-v4-l03-v051",
+      "cc4-v4-l03-v052",
+      "cc4-v4-l03-v053",
+      "cc4-v4-l03-v054",
+      "cc4-v4-l03-v055",
+      "cc4-v4-l03-v056",
+      "cc4-v4-l03-v057",
+      "cc4-v4-l03-v058",
+      "cc4-v4-l03-v059",
+      "cc4-v4-l03-v060",
+      "cc4-v4-l03-v061",
+      "cc4-v4-l03-v062",
+      "cc4-v4-l03-v063",
+      "cc4-v4-l03-v064",
+      "cc4-v4-l03-v065",
+      "cc4-v4-l03-v066",
+      "cc4-v4-l03-v067",
+      "cc4-v4-l03-v068",
+      "cc4-v4-l03-v069",
+      "cc4-v4-l03-v070"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc4-textbook-l03-t02",
+        "label": "Từ vựng hội thoại"
+      },
+      {
+        "id": "cc4-textbook-l03-t04",
+        "label": "Từ vựng bài đọc"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc4-v4-l03-grammar-01",
+      "title": "何必",
+      "explanation": "Không cần phải làm một việc. Người nói thấy việc được nhắc đến không cần thiết. Câu hỏi mang ý khuyên can nhẹ hoặc chất vấn lý do.",
+      "structure": "何必 + động từ / cụm động từ + 呢？",
+      "examples": [
+        {
+          "chinese": "網路商店有很多衣服，何必去百貨公司呢？",
+          "simplified": "网路商店有很多衣服，何必去百货公司呢？",
+          "pinyin": "wǎng lù shāng diàn yǒu hěn duō yī fú ， hé bì qù bǎi huò gōng sī ne ？",
+          "meaningVi": "Cửa hàng trên mạng có nhiều quần áo, việc gì phải đến trung tâm thương mại?"
+        },
+        {
+          "chinese": "舊電腦還能用，何必買新的？",
+          "simplified": "旧电脑还能用，何必买新的？",
+          "pinyin": "jiù diàn nǎo hái néng yòng ， hé bì mǎi xīn de ？",
+          "meaningVi": "Máy cũ vẫn dùng được, việc gì phải mua máy mới?"
+        }
+      ],
+      "commonMistake": "Đừng hiểu 何必 là câu hỏi trung tính; người nói đã ngầm cho rằng việc đó không cần.",
+      "check": {
+        "id": "cc4-v4-l03-grammar-check-01",
+        "prompt": "Điền: ____去百貨公司呢？",
+        "options": [
+          {
+            "id": "a",
+            "text": "不見得"
+          },
+          {
+            "id": "b",
+            "text": "此外"
+          },
+          {
+            "id": "c",
+            "text": "何必"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Người nói thấy việc được nhắc đến không cần thiết. Câu hỏi mang ý khuyên can nhẹ hoặc chất vấn lý do.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc4-v4-l03-grammar-02",
+      "title": "不見得",
+      "explanation": "Chưa chắc; không hẳn. Dùng để bác bỏ một kết luận mà người khác cho là chắc chắn. Người mẫu mặc đẹp không có nghĩa bà ngoại mặc cũng đẹp.",
+      "structure": "chủ ngữ + 不見得 + vị ngữ",
+      "examples": [
+        {
+          "chinese": "模特兒穿起來好看，我穿不見得好看。",
+          "simplified": "模特儿穿起来好看，我穿不见得好看。",
+          "pinyin": "mó tè ér chuān qǐ lái hǎo kàn ， wǒ chuān bù jiàn dé hǎo kàn 。",
+          "meaningVi": "Người mẫu mặc đẹp, tôi mặc chưa chắc đã đẹp."
+        },
+        {
+          "chinese": "便宜的東西不見得品質差。",
+          "simplified": "便宜的东西不见得品质差。",
+          "pinyin": "pián yi de dōng xī bù jiàn dé pǐn zhì chà 。",
+          "meaningVi": "Hàng rẻ chưa chắc có chất lượng kém."
+        }
+      ],
+      "commonMistake": "Không dùng 見得 riêng lẻ để thay cho dạng khẳng định của 不見得.",
+      "check": {
+        "id": "cc4-v4-l03-grammar-check-02",
+        "prompt": "Điền: 模特兒穿得好看，我穿____好看。",
+        "options": [
+          {
+            "id": "a",
+            "text": "此外"
+          },
+          {
+            "id": "b",
+            "text": "不見得"
+          },
+          {
+            "id": "c",
+            "text": "何必"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Dùng để bác bỏ một kết luận mà người khác cho là chắc chắn. Người mẫu mặc đẹp không có nghĩa bà ngoại mặc cũng đẹp.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc4-v4-l03-grammar-03",
+      "title": "嘛",
+      "explanation": "Nhắc điều người nói cho là hiển nhiên. Trợ từ cuối câu giúp giải thích hoặc nhắc một điều người nói nghĩ là đã rõ. Trong hội thoại, Văn Lệ bảo bà ngoại đừng mua ở cửa hàng không đáng tin.",
+      "structure": "mệnh đề + 嘛！",
+      "examples": [
+        {
+          "chinese": "不相信那家商店，就不要買他們的東西嘛！",
+          "simplified": "不相信那家商店，就不要买他们的东西嘛！",
+          "pinyin": "bù xiāng xìn nà jiā shāng diàn ， jiù bú yào mǎi tā men de dōng xī ma ！",
+          "meaningVi": "Không tin cửa hàng đó thì đừng mua của họ chứ!"
+        },
+        {
+          "chinese": "有問題就問店員嘛！",
+          "simplified": "有问题就问店员嘛！",
+          "pinyin": "yǒu wèn tí jiù wèn diàn yuán ma ！",
+          "meaningVi": "Có thắc mắc thì hỏi nhân viên chứ!"
+        }
+      ],
+      "commonMistake": "嘛 không biến câu thành câu hỏi; sắc thái của nó phụ thuộc vào ngữ cảnh.",
+      "check": {
+        "id": "cc4-v4-l03-grammar-check-03",
+        "prompt": "Điền: 不相信，就別買____！",
+        "options": [
+          {
+            "id": "a",
+            "text": "此外"
+          },
+          {
+            "id": "b",
+            "text": "嘛"
+          },
+          {
+            "id": "c",
+            "text": "何必"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Trợ từ cuối câu giúp giải thích hoặc nhắc một điều người nói nghĩ là đã rõ. Trong hội thoại, Văn Lệ bảo bà ngoại đừng mua ở cửa hàng không đáng tin.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc4-v4-l03-grammar-04",
+      "title": "V 慣 / V 不慣",
+      "explanation": "Quen hay chưa quen làm việc gì. Thêm 慣 sau động từ để nói đã hình thành thói quen hoặc quen với cách làm; 不慣 là chưa thích nghi.",
+      "structure": "động từ + 慣 / 不慣",
+      "examples": [
+        {
+          "chinese": "我現在還用不慣電腦。",
+          "simplified": "我现在还用不惯电脑。",
+          "pinyin": "wǒ xiàn zài hái yòng bù guàn diàn nǎo 。",
+          "meaningVi": "Giờ tôi vẫn chưa quen dùng máy tính."
+        },
+        {
+          "chinese": "他住慣台北了。",
+          "simplified": "他住惯台北了。",
+          "pinyin": "tā zhù guàn tái běi le 。",
+          "meaningVi": "Anh ấy đã quen sống ở Đài Bắc."
+        }
+      ],
+      "commonMistake": "不慣 nói về sự chưa quen, khác với 不會 là không biết cách làm.",
+      "check": {
+        "id": "cc4-v4-l03-grammar-check-04",
+        "prompt": "Điền: 外婆還用____電腦。",
+        "options": [
+          {
+            "id": "a",
+            "text": "不慣"
+          },
+          {
+            "id": "b",
+            "text": "不見得"
+          },
+          {
+            "id": "c",
+            "text": "何必"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Thêm 慣 sau động từ để nói đã hình thành thói quen hoặc quen với cách làm; 不慣 là chưa thích nghi.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc4-v4-l03-grammar-05",
+      "title": "V 不動",
+      "explanation": "Không còn đủ sức thực hiện động tác. Khi cơ thể hoặc vật không thể tiếp tục chuyển động theo động tác đó, dùng bổ ngữ 動 ở dạng phủ định.",
+      "structure": "động từ chỉ chuyển động + 不動",
+      "examples": [
+        {
+          "chinese": "妳累得走不動了。",
+          "simplified": "你累得走不动了。",
+          "pinyin": "nǐ lèi dé zǒu bù dòng le 。",
+          "meaningVi": "Bà mệt đến mức không đi nổi nữa."
+        },
+        {
+          "chinese": "箱子太重，我搬不動。",
+          "simplified": "箱子太重，我搬不动。",
+          "pinyin": "xiāng zi tài zhòng ， wǒ bān bù dòng 。",
+          "meaningVi": "Thùng nặng quá, tôi bê không nổi."
+        }
+      ],
+      "commonMistake": "走不動 nói không đi nổi vì thiếu sức; 走不了 thường nói không thể rời đi vì lý do khác.",
+      "check": {
+        "id": "cc4-v4-l03-grammar-check-05",
+        "prompt": "Điền: 太累了，我走____。",
+        "options": [
+          {
+            "id": "a",
+            "text": "不慣"
+          },
+          {
+            "id": "b",
+            "text": "不見得"
+          },
+          {
+            "id": "c",
+            "text": "不動"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Khi cơ thể hoặc vật không thể tiếp tục chuyển động theo động tác đó, dùng bổ ngữ 動 ở dạng phủ định.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc4-v4-l03-grammar-06",
+      "title": "無形中",
+      "explanation": "Một cách âm thầm, khó nhận ra ngay. Dùng khi sự thay đổi xảy ra dần dần mà ta không nhận thấy rõ trong lúc nó diễn ra.",
+      "structure": "無形中 + động từ / kết quả",
+      "examples": [
+        {
+          "chinese": "雲端科技無形中縮短了人們的距離。",
+          "simplified": "云端科技无形中缩短了人们的距离。",
+          "pinyin": "yún duān kē jì wú xíng zhōng suō duǎn le rén men de jù lí 。",
+          "meaningVi": "Công nghệ đám mây âm thầm rút ngắn khoảng cách giữa mọi người."
+        },
+        {
+          "chinese": "常聊天無形中讓我們更熟了。",
+          "simplified": "常聊天无形中让我们更熟了。",
+          "pinyin": "cháng liáo tiān wú xíng zhōng ràng wǒ men gèng shú le 。",
+          "meaningVi": "Trò chuyện thường xuyên khiến chúng tôi thân hơn lúc nào không hay."
+        }
+      ],
+      "commonMistake": "無形中 không có nghĩa là không có kết quả; nó nhấn vào cách thay đổi diễn ra.",
+      "check": {
+        "id": "cc4-v4-l03-grammar-check-06",
+        "prompt": "Điền: 科技進步____改變了生活。",
+        "options": [
+          {
+            "id": "a",
+            "text": "無形中"
+          },
+          {
+            "id": "b",
+            "text": "何必"
+          },
+          {
+            "id": "c",
+            "text": "嘛"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Dùng khi sự thay đổi xảy ra dần dần mà ta không nhận thấy rõ trong lúc nó diễn ra.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc4-v4-l03-grammar-07",
+      "title": "此外",
+      "explanation": "Ngoài ra; thêm một điểm nữa. Dùng để bổ sung một ý khác cùng chủ đề. Bài đọc nêu thời gian dành cho con, rồi thêm hoạt động ngoài trời.",
+      "structure": "câu A。此外，câu B。",
+      "examples": [
+        {
+          "chinese": "此外，要鼓勵他多參加戶外活動。",
+          "simplified": "此外，要鼓励他多参加户外活动。",
+          "pinyin": "cǐ wài ， yào gǔ lì tā duō cān jiā hù wài huó dòng 。",
+          "meaningVi": "Ngoài ra, nên khuyến khích cậu ấy tham gia nhiều hoạt động ngoài trời."
+        },
+        {
+          "chinese": "這裡交通方便，此外，房租也便宜。",
+          "simplified": "这里交通方便，此外，房租也便宜。",
+          "pinyin": "zhè lǐ jiāo tōng fāng biàn ， cǐ wài ， fáng zū yě pián yi 。",
+          "meaningVi": "Ở đây đi lại thuận tiện; ngoài ra tiền thuê nhà cũng rẻ."
+        }
+      ],
+      "commonMistake": "此外 bổ sung thông tin, không dùng để kết luận toàn đoạn.",
+      "check": {
+        "id": "cc4-v4-l03-grammar-check-07",
+        "prompt": "Điền: 家長要多陪孩子。____，也要鼓勵戶外活動。",
+        "options": [
+          {
+            "id": "a",
+            "text": "總而言之"
+          },
+          {
+            "id": "b",
+            "text": "何必"
+          },
+          {
+            "id": "c",
+            "text": "此外"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Dùng để bổ sung một ý khác cùng chủ đề. Bài đọc nêu thời gian dành cho con, rồi thêm hoạt động ngoài trời.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc4-v4-l03-grammar-08",
+      "title": "總而言之",
+      "explanation": "Tóm lại; kết luận các ý trước. Dùng ở cuối phần trình bày để gom những luận điểm vừa nói thành một nhận xét chung, thường thiên về văn viết.",
+      "structure": "các ý dẫn chứng。總而言之，kết luận。",
+      "examples": [
+        {
+          "chinese": "總而言之，雲端科技有正面也有負面的影響。",
+          "simplified": "总而言之，云端科技有正面也有负面的影响。",
+          "pinyin": "zǒng ér yán zhī ， yún duān kē jì yǒu zhèng miàn yě yǒu fù miàn de yǐng xiǎng 。",
+          "meaningVi": "Tóm lại, công nghệ đám mây có cả tác động tích cực lẫn tiêu cực."
+        },
+        {
+          "chinese": "他常運動、飲食也健康。總而言之，生活習慣很好。",
+          "simplified": "他常运动、饮食也健康。总而言之，生活习惯很好。",
+          "pinyin": "tā cháng yùn dòng 、 yǐn shí yě jiàn kāng 。 zǒng ér yán zhī ， shēng huó xí guàn hěn hǎo 。",
+          "meaningVi": "Anh ấy thường tập thể dục và ăn uống lành mạnh; tóm lại, nếp sống rất tốt."
+        }
+      ],
+      "commonMistake": "Đừng dùng 總而言之 để thêm một ví dụ mới; nó báo hiệu phần kết.",
+      "check": {
+        "id": "cc4-v4-l03-grammar-check-08",
+        "prompt": "Điền: 說完好處和壞處，____，我們要控制上網時間。",
+        "options": [
+          {
+            "id": "a",
+            "text": "此外"
+          },
+          {
+            "id": "b",
+            "text": "何必"
+          },
+          {
+            "id": "c",
+            "text": "總而言之"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Dùng ở cuối phần trình bày để gom những luận điểm vừa nói thành một nhận xét chung, thường thiên về văn viết.",
+        "skill": "Ngữ pháp"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc4-v4-l03-listening-01",
+      "prompt": "Nghe hội thoại: bà ngoại lo điều gì khi mua quần áo trực tuyến?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hình và hàng thật có thể rất khác nhau."
+        },
+        {
+          "id": "b",
+          "text": "Không đủ tiền trả phí vận chuyển."
+        },
+        {
+          "id": "c",
+          "text": "Cửa hàng đóng cửa quá sớm."
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bà nói 圖片跟實際的商品落差很大.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l03-t01"
+    },
+    {
+      "id": "cc4-v4-l03-listening-02",
+      "prompt": "Nghe hội thoại: Văn Lệ gợi ý làm gì nếu không tin một cửa hàng?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đừng mua ở cửa hàng đó."
+        },
+        {
+          "id": "b",
+          "text": "Gửi số thẻ cho người bán."
+        },
+        {
+          "id": "c",
+          "text": "Đến tận nhà người bán."
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Cô nói 不相信那家網路商店，就不要買他們的東西.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l03-t01"
+    },
+    {
+      "id": "cc4-v4-l03-listening-03",
+      "prompt": "Nghe bài đọc: Internet giúp người đi đường tra cứu điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lịch phát sóng truyền hình."
+        },
+        {
+          "id": "b",
+          "text": "Tình hình giao thông và thời gian xe buýt đến."
+        },
+        {
+          "id": "c",
+          "text": "Giá máy tính mới."
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nêu 路況 và 公車到站時間.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l03-t03"
+    },
+    {
+      "id": "cc4-v4-l03-listening-04",
+      "prompt": "Nghe bài đọc: bác sĩ khuyên cha mẹ làm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Không cho con đến trường."
+        },
+        {
+          "id": "b",
+          "text": "Dành thời gian cho con và khuyến khích hoạt động ngoài trời."
+        },
+        {
+          "id": "c",
+          "text": "Mua thêm trò chơi trực tuyến."
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bác sĩ khuyên 多陪伴孩子 và 參加戶外活動.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l03-t03"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc4-v4-l03-practice-01",
+      "prompt": "Điền: 我穿這件衣服____好看。",
+      "options": [
+        {
+          "id": "a",
+          "text": "不見得"
+        },
+        {
+          "id": "b",
+          "text": "何必"
+        },
+        {
+          "id": "c",
+          "text": "此外"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Không chắc người khác mặc đẹp thì mình cũng vậy.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l03-practice-02",
+      "prompt": "“Việc gì phải đến trung tâm thương mại?” dùng từ nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "何必"
+        },
+        {
+          "id": "b",
+          "text": "無形中"
+        },
+        {
+          "id": "c",
+          "text": "總而言之"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "何必 đặt vấn đề một việc không cần thiết.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l03-practice-03",
+      "prompt": "Bà ngoại sợ rủi ro gì khi trả bằng thẻ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bị tin tặc đánh cắp thông tin."
+        },
+        {
+          "id": "b",
+          "text": "Bị lạc ở trung tâm thương mại."
+        },
+        {
+          "id": "c",
+          "text": "Đơn hàng đến quá sớm."
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bà hỏi 會不會被駭客盜用.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc4-v4-l03-practice-04",
+      "prompt": "Điền: 我還用____電腦。",
+      "options": [
+        {
+          "id": "a",
+          "text": "不見得"
+        },
+        {
+          "id": "b",
+          "text": "不慣"
+        },
+        {
+          "id": "c",
+          "text": "不動"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "用不慣 là chưa quen dùng.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l03-practice-05",
+      "prompt": "“Lướt xem trang web” là từ nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "取代"
+        },
+        {
+          "id": "b",
+          "text": "避開"
+        },
+        {
+          "id": "c",
+          "text": "瀏覽"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "瀏覽 là xem lướt nội dung trên mạng.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc4-v4-l03-practice-06",
+      "prompt": "Bài đọc nêu tác hại nào của việc lên mạng quá nhiều?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Làm thư giấy tăng lên."
+        },
+        {
+          "id": "b",
+          "text": "Mỏi mắt và giảm thị lực."
+        },
+        {
+          "id": "c",
+          "text": "Làm đường cao tốc đông hơn."
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Ngồi nhìn 螢幕 lâu khiến 眼睛疲倦、視力變差.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc4-v4-l03-practice-07",
+      "prompt": "Điền: Nêu thêm một ý sau câu trước thì dùng gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "總而言之"
+        },
+        {
+          "id": "b",
+          "text": "何必"
+        },
+        {
+          "id": "c",
+          "text": "此外"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "此外 bổ sung, không kết luận.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l03-practice-08",
+      "prompt": "Điền: Bà mệt tới mức không đi nổi: 累得走____。",
+      "options": [
+        {
+          "id": "a",
+          "text": "不慣"
+        },
+        {
+          "id": "b",
+          "text": "不見得"
+        },
+        {
+          "id": "c",
+          "text": "不動"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "走不動 là không đủ sức đi tiếp.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc4-v4-l03-assessment-01",
+      "prompt": "雲端科技 là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Công nghệ đám mây"
+        },
+        {
+          "id": "b",
+          "text": "Công nghệ in giấy"
+        },
+        {
+          "id": "c",
+          "text": "Máy chụp ảnh"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "雲端科技 là công nghệ đám mây được nói trong bài.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc4-v4-l03-assessment-02",
+      "prompt": "Chọn nghĩa của 不見得.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chưa chắc; không hẳn"
+        },
+        {
+          "id": "b",
+          "text": "Bắt buộc"
+        },
+        {
+          "id": "c",
+          "text": "Chưa từng"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Không thể suy ra chắc chắn người mặc sẽ đẹp như người mẫu.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l03-assessment-03",
+      "prompt": "Bà ngoại từng mua hàng qua mạng chưa?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ mua vào ban đêm."
+        },
+        {
+          "id": "b",
+          "text": "Chưa từng."
+        },
+        {
+          "id": "c",
+          "text": "Thường xuyên."
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bà nói 從來沒上網買過東西.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc4-v4-l03-assessment-04",
+      "prompt": "“Chưa quen dùng máy tính” nói thế nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "用不慣電腦"
+        },
+        {
+          "id": "b",
+          "text": "用不動電腦"
+        },
+        {
+          "id": "c",
+          "text": "何必電腦"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "用不慣 nói về thói quen chưa hình thành.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l03-assessment-05",
+      "prompt": "Chọn nghĩa của 路況.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Giá vé tàu"
+        },
+        {
+          "id": "b",
+          "text": "Thời gian học"
+        },
+        {
+          "id": "c",
+          "text": "Tình hình giao thông"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "路況 là tình trạng đường để người đi xe tránh kẹt.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc4-v4-l03-assessment-06",
+      "prompt": "Khi lên đường cao tốc, bài đọc khuyên tra cứu gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Danh sách cửa hàng thời trang."
+        },
+        {
+          "id": "b",
+          "text": "Tình trạng màn hình máy tính."
+        },
+        {
+          "id": "c",
+          "text": "Tình hình giao thông để tránh đoạn kẹt xe."
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "查詢路況 giúp 避開塞車的路段.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc4-v4-l03-assessment-07",
+      "prompt": "“Ngoài ra” khi bổ sung một ý dùng gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "此外"
+        },
+        {
+          "id": "b",
+          "text": "何必"
+        },
+        {
+          "id": "c",
+          "text": "總而言之"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "此外 mở thêm ý cùng chủ đề.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l03-assessment-08",
+      "prompt": "Chọn nghĩa của 沉迷.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chứng nhận"
+        },
+        {
+          "id": "b",
+          "text": "Mải mê đến mức khó dứt ra"
+        },
+        {
+          "id": "c",
+          "text": "Nhận hàng"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc khuyên đừng 沉迷 trong thế giới mạng.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc4-v4-l03-assessment-09",
+      "prompt": "Sau khi trình bày mặt tốt và mặt xấu, mở câu kết bằng gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "不見得"
+        },
+        {
+          "id": "b",
+          "text": "總而言之"
+        },
+        {
+          "id": "c",
+          "text": "何必"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "總而言之 tóm các ý vừa nêu.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l03-assessment-10",
+      "prompt": "Bác sĩ khuyên phụ huynh làm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ngừng dùng mọi thiết bị trong gia đình."
+        },
+        {
+          "id": "b",
+          "text": "Ở bên con nhiều hơn và khuyến khích hoạt động ngoài trời."
+        },
+        {
+          "id": "c",
+          "text": "Cho con chơi game đến khuya."
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Đó là hai gợi ý ở cuối bài đọc.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "writingTask": {
+    "id": "cc4-v4-l03-writing",
+    "title": "Mua hàng trên mạng",
+    "prompt": "Viết vài câu về một lợi ích và một rủi ro khi mua sắm trực tuyến. Dùng 不見得 và 總而言之 nếu phù hợp.",
+    "sampleTraditional": "網路購物很方便，可是便宜的東西不見得品質好。總而言之，買東西以前要看清楚資訊。",
+    "sampleSimplified": "网路购物很方便，可是便宜的东西不见得品质好。总而言之，买东西以前要看清楚资讯。"
+  }
+}

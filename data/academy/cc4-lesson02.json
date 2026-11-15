@@ -1,0 +1,1165 @@
+{
+  "contentVersion": 2,
+  "id": "cc4-v4-l02",
+  "title": "眼睛、耳朵的饗宴",
+  "titleVi": "Bữa tiệc cho mắt và tai",
+  "description": "Cùng Như Ngọc và Vân Chân đi xem biểu diễn, rồi khám phá nghệ thuật trong đời sống Đài Loan.",
+  "objectives": [
+    "Hiểu cuộc trò chuyện về trang phục, giờ giấc và phép lịch sự khi xem biểu diễn.",
+    "Đọc về múa đương đại, điện ảnh, kiến trúc và nghệ thuật ngoài không gian công cộng.",
+    "Dùng 以為, 萬一, 免得, 曾經 và các cấu trúc của bài để nói về kinh nghiệm và dự phòng."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Trước khi nghe, thử đoán vì sao Như Ngọc lo mình ăn mặc chưa phù hợp. Sau hội thoại, đọc bài để tìm những nơi cô bắt gặp nghệ thuật ở Đài Loan.",
+    "sections": [
+      {
+        "id": "cc4-v4-l02-section-01",
+        "title": "Đi xem biểu diễn",
+        "body": "Nghe xem hai nhân vật quan tâm đến giờ vào cửa và cách ăn mặc như thế nào.",
+        "chinese": "我們邊走邊說吧，免得遲到。",
+        "simplified": "我们边走边说吧，免得迟到。",
+        "pinyin": "wǒ men biān zǒu biān shuō ba ， miǎn de chí dào 。",
+        "meaningVi": "Chúng ta vừa đi vừa nói nhé, kẻo đến muộn."
+      },
+      {
+        "id": "cc4-v4-l02-section-02",
+        "title": "Nghệ thuật quanh mình",
+        "body": "Bài đọc mở rộng từ sân khấu tới phim ảnh, kiến trúc và nghệ thuật ngoài đường phố.",
+        "chinese": "在我們的生活中仔細留意的話，處處都是藝術。",
+        "simplified": "在我们的生活中仔细留意的话，处处都是艺术。",
+        "pinyin": "zài wǒ men de shēng huó zhōng zǎi xì liú yì de huà ， chù chù dōu shì yì shù 。",
+        "meaningVi": "Nếu chú ý kỹ trong đời sống, ta sẽ thấy nghệ thuật ở khắp nơi."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc4-v4-l02-dialogue",
+        "title": "Hội thoại: đến nhà hát",
+        "context": "Vân Chân và Như Ngọc chuẩn bị đi xem biểu diễn.",
+        "audioTrackId": "cc4-textbook-l02-t01",
+        "turns": [
+          {
+            "speaker": "李雲真",
+            "chinese": "快一點，打扮好了沒有？遲到的話，音樂廳就不讓我們進去，表演恐怕就看不成了。",
+            "simplified": "快一点，打扮好了没有？迟到的话，音乐厅就不让我们进去，表演恐怕就看不成了。",
+            "pinyin": "kuài yī diǎn ， dǎ bàn hǎo le méi yǒu ？ chí dào de huà ， yīn lè tīng jiù bù ràng wǒ men jìn qù ， biǎo yǎn kǒng pà jiù kàn bù chéng le 。",
+            "meaningVi": "Nhanh lên, bạn chuẩn bị xong chưa? Nếu đến muộn, nhà hát sẽ không cho chúng ta vào, e rằng sẽ lỡ buổi diễn."
+          },
+          {
+            "speaker": "白如玉",
+            "chinese": "好了，好了，馬上好。妳不認為我們應該穿得正式一點嗎？萬一別人都穿得很正式怎麼辦？",
+            "simplified": "好了，好了，马上好。妳不认为我们应该穿得正式一点吗？万一别人都穿得很正式怎么办？",
+            "pinyin": "hǎo le ， hǎo le ， mǎ shàng hǎo 。 nǐ bù rèn wèi wǒ men yīng gāi chuān dé zhèng shì yī diǎn ma ？ wàn yī bié rén dōu chuān dé hěn zhèng shì zěn me bàn ？",
+            "meaningVi": "Được rồi, được rồi, sắp xong rồi. Chị không nghĩ là chúng ta nên ăn mặc trang trọng hơn một chút sao? Nếu mọi người đều ăn mặc trang trọng thì sao?"
+          },
+          {
+            "speaker": "李雲真",
+            "chinese": "我想只要穿得整齊就可以了。我第一次去看表演的時候，以為要穿非常正式的服裝，沒想到平常的穿著就可以了。",
+            "simplified": "我想只要穿得整齐就可以了。我第一次去看表演的时候，以为要穿非常正式的服装，没想到平常的穿着就可以了。",
+            "pinyin": "wǒ xiǎng zhǐ yào chuān dé zhěng qí jiù kě yǐ le 。 wǒ dì yī cì qù kàn biǎo yǎn de shí hòu ， yǐ wèi yào chuān fēi cháng zhèng shì de fú zhuāng ， méi xiǎng dào píng cháng de chuān zhù jiù kě yǐ le 。",
+            "meaningVi": "Tôi nghĩ chỉ cần ăn mặc gọn gàng là được. Lần đầu tiên đi xem biểu diễn, tôi tưởng phải mặc trang phục rất trang trọng, nhưng không ngờ chỉ cần mặc trang phục bình thường là được."
+          },
+          {
+            "speaker": "白如玉",
+            "chinese": "這是我第一次去，可不能丟臉。",
+            "simplified": "这是我第一次去，可不能丢脸。",
+            "pinyin": "zhè shì wǒ dì yī cì qù ， kě bù néng diū liǎn 。",
+            "meaningVi": "Đây là lần đầu tiên tôi đến đó, nên không thể để mất mặt."
+          },
+          {
+            "speaker": "李雲真",
+            "chinese": "聽我朋友說，有一次他穿了短褲和涼鞋，就被擋在門外了。我同意妳的看法，去看表演時，穿著整齊對演出者也算是一種尊重。",
+            "simplified": "听我朋友说，有一次他穿了短裤和凉鞋，就被挡在门外了。我同意妳的看法，去看表演时，穿着整齐对演出者也算是一种尊重。",
+            "pinyin": "tīng wǒ péng yǒu shuō ， yǒu yī cì tā chuān le duǎn kù hé liáng xié ， jiù bèi dǎng zài mén wài le 。 wǒ tóng yì nǐ de kàn fǎ ， qù kàn biǎo yǎn shí ， chuān zhù zhěng qí duì yǎn chū zhě yě suàn shì yī zhǒng zūn zhòng 。",
+            "meaningVi": "Tôi nghe bạn tôi kể rằng có một lần anh ấy mặc quần đùi và đi dép lê, nên đã bị chặn ở ngoài cửa. Tôi đồng ý với quan điểm của bạn. Khi đi xem biểu diễn, việc ăn mặc chỉnh tề cũng là một cách thể hiện sự tôn trọng đối với các nghệ sĩ biểu diễn."
+          },
+          {
+            "speaker": "白如玉",
+            "chinese": "每個國家的文化都不太一樣，在我的國家，欣賞藝術表演也算是一種社交活動。",
+            "simplified": "每个国家的文化都不太一样，在我的国家，欣赏艺术表演也算是一种社交活动。",
+            "pinyin": "měi gè guó jiā de wén huà dōu bù tài yī yàng ， zài wǒ de guó jiā ， xīn shǎng yì shù biǎo yǎn yě suàn shì yī zhǒng shè jiāo huó dòng 。",
+            "meaningVi": "Văn hóa của mỗi quốc gia đều có sự khác biệt. Ở nước tôi, thưởng thức các buổi biểu diễn nghệ thuật cũng được coi là một hoạt động giao lưu xã hội."
+          },
+          {
+            "speaker": "李雲真",
+            "chinese": "怎麼說呢？",
+            "simplified": "怎么说呢？",
+            "pinyin": "zěn me shuō ne ？",
+            "meaningVi": "Ý bạn là sao?"
+          },
+          {
+            "speaker": "白如玉",
+            "chinese": "我們邊走邊說吧，免得遲到就得等中場休息時間才能進去了。準時也是一種禮貌。",
+            "simplified": "我们边走边说吧，免得迟到就得等中场休息时间才能进去了。准时也是一种礼貌。",
+            "pinyin": "wǒ men biān zǒu biān shuō ba ， miǎn de chí dào jiù dé děng zhōng chǎng xiū xī shí jiān cái néng jìn qù le 。 zhǔn shí yě shì yī zhǒng lǐ mào 。",
+            "meaningVi": "Chúng ta vừa đi vừa nói chuyện nhé, kẻo đến muộn lại phải đợi đến giờ nghỉ giữa buổi mới được vào. Đúng giờ cũng là một cách thể hiện sự lịch sự."
+          },
+          {
+            "speaker": "李雲真",
+            "chinese": "對了，妳剛說的社交活動是什麼意思？",
+            "simplified": "对了，妳刚说的社交活动是什么意思？",
+            "pinyin": "duì le ， nǐ gāng shuō de shè jiāo huó dòng shì shén me yì si ？",
+            "meaningVi": "À phải rồi, ý cô là gì khi nói về các hoạt động xã hội?"
+          },
+          {
+            "speaker": "白如玉",
+            "chinese": "因為我們沒有夜市，KTV 也很少，一般人下班後，晚上能去的地方不多，欣賞藝術活動可以跟朋友或同事聯絡感情。",
+            "simplified": "因为我们没有夜市，KTV 也很少，一般人下班后，晚上能去的地方不多，欣赏艺术活动可以跟朋友或同事联络感情。",
+            "pinyin": "yīn wèi wǒ men méi yǒu yè shì ， K T V   yě hěn shǎo ， yì bān rén xià bān hòu ， wǎn shàng néng qù de dì fāng bù duō ， xīn shǎng yì shù huó dòng kě yǐ gēn péng yǒu huò tóng shì lián luò gǎn qíng 。",
+            "meaningVi": "Vì chúng tôi không có chợ đêm, cũng rất ít quán karaoke, nên sau giờ làm việc, mọi người thường không có nhiều nơi để đi vào buổi tối. Tham gia các hoạt động nghệ thuật là một cách để gắn kết với bạn bè hoặc đồng nghiệp."
+          },
+          {
+            "speaker": "李雲真",
+            "chinese": "說到聯絡感情，後天我和建國要去看電影，一起去吧？",
+            "simplified": "说到联络感情，后天我和建国要去看电影，一起去吧？",
+            "pinyin": "shuō dào lián luò gǎn qíng ， hòu tiān wǒ hé jiàn guó yào qù kàn diàn yǐng ， yì qǐ qù ba ？",
+            "meaningVi": "Nói đến việc gắn kết tình cảm, ngày mốt tôi và Kiên Quốc sẽ đi xem phim, bạn đi cùng nhé?"
+          },
+          {
+            "speaker": "白如玉",
+            "chinese": "妳說的是英文系的林建國嗎？",
+            "simplified": "妳说的是英文系的林建国吗？",
+            "pinyin": "nǐ shuō de shì yīng wén xì de lín jiàn guó ma ？",
+            "meaningVi": "Bạn đang nói đến Lâm Kiến Quốc của khoa tiếng Anh phải không?"
+          },
+          {
+            "speaker": "李雲真",
+            "chinese": "就是他，你們很熟嗎？",
+            "simplified": "就是他，你们很熟吗？",
+            "pinyin": "jiù shì tā ， nǐ men hěn shú ma ？",
+            "meaningVi": "Đúng anh ấy đấy. Hai người quen nhau lắm sao?"
+          },
+          {
+            "speaker": "白如玉",
+            "chinese": "唉！別提了，上次我們好幾個人一起去看電影，他又擤鼻涕，又不停地咳嗽，還忘了關手機。",
+            "simplified": "唉！别提了，上次我们好几个人一起去看电影，他又擤鼻涕，又不停地咳嗽，还忘了关手机。",
+            "pinyin": "āi ！ bié tí le ， shàng cì wǒ men hǎo jǐ gè rén yì qǐ qù kàn diàn yǐng ， tā yòu xǐng bí tì ， yòu bù tíng dì ké sòu ， hái wàng le guān shǒu jī 。",
+            "meaningVi": "Ôi! Đừng nhắc đến nữa. Lần trước, mấy người chúng tôi cùng nhau đi xem phim, anh ta vừa xì mũi vừa ho liên tục, còn quên tắt điện thoại nữa."
+          },
+          {
+            "speaker": "李雲真",
+            "chinese": "哇！怎麼那麼沒有水準，感冒的話就應該在家休息，看電影時手機應該關機。",
+            "simplified": "哇！怎么那么没有水准，感冒的话就应该在家休息，看电影时手机应该关机。",
+            "pinyin": "wa ！ zěn me nà me méi yǒu shuǐ zhǔn ， gǎn mào de huà jiù yīng gāi zài jiā xiū xī ， kàn diàn yǐng shí shǒu jī yīng gāi guān jī 。",
+            "meaningVi": "Ôi trời! Sao lại thiếu ý thức đến vậy? Nếu bị cảm thì nên ở nhà nghỉ ngơi. Khi xem phim thì nên tắt điện thoại."
+          },
+          {
+            "speaker": "白如玉",
+            "chinese": "到了！到了！還好還有15分鐘才開始。我先去買一本表演手冊。",
+            "simplified": "到了！到了！还好还有15分钟才开始。我先去买一本表演手册。",
+            "pinyin": "dào le ！ dào le ！ hái hǎo hái yǒu 1 5 fēn zhōng cái kāi shǐ 。 wǒ xiān qù mǎi yī běn biǎo yǎn shǒu cè 。",
+            "meaningVi": "Đến rồi! Đến rồi! Cũng may là còn 15 phút nữa mới bắt đầu. Để tôi đi mua một cuốn sổ tay chương trình trước đã."
+          },
+          {
+            "speaker": "李雲真",
+            "chinese": "我去一下洗手間，等一下裡面見。",
+            "simplified": "我去一下洗手间，等一下里面见。",
+            "pinyin": "wǒ qù yī xià xǐ shǒu jiān ， děng yí xià lǐ miàn jiàn 。",
+            "meaningVi": "Tôi đi vệ sinh một chút, lát nữa gặp nhau trong đó nhé."
+          },
+          {
+            "speaker": "白如玉",
+            "chinese": "妳的手機關了嗎？",
+            "simplified": "妳的手机关了吗？",
+            "pinyin": "nǐ de shǒu jī guān le ma ？",
+            "meaningVi": "Bạn đã tắt điện thoại chưa?"
+          },
+          {
+            "speaker": "李雲真",
+            "chinese": "謝謝妳提醒我，要不然等一下手機響了就糟了。",
+            "simplified": "谢谢妳提醒我，要不然等一下手机响了就糟了。",
+            "pinyin": "xiè xiè nǐ tí xǐng wǒ ， yào bù rán děng yí xià shǒu jī xiǎng le jiù zāo le 。",
+            "meaningVi": "Cảm ơn bạn đã nhắc. Không thì lát nữa điện thoại reo sẽ phiền lắm."
+          },
+          {
+            "speaker": "白如玉",
+            "chinese": "噓，表演開始了。",
+            "simplified": "嘘，表演开始了。",
+            "pinyin": "xū ， biǎo yǎn kāi shǐ le 。",
+            "meaningVi": "Suỵt, buổi biểu diễn bắt đầu rồi."
+          }
+        ]
+      },
+      {
+        "id": "cc4-v4-l02-reading",
+        "title": "Bài đọc: nghệ thuật trong đời sống",
+        "context": "Như Ngọc kể về những loại hình nghệ thuật cô gặp ở Đài Loan.",
+        "audioTrackId": "cc4-textbook-l02-t03",
+        "turns": [
+          {
+            "speaker": "Bài đọc",
+            "chinese": "今天是白如玉來台灣以後，第一次到「國家戲劇院」看表演，她覺得非常興奮。她跟李雲真約好了，晚上要一起欣賞一場現代舞的表演。在美國時，白如玉曾經看過一次現代舞的表演。她覺得現代舞很難懂，但是很有意思。另外，李雲真還特別強調，今天晚上表演的團體—「雲門舞集」在台灣幾乎無人不知、無人不曉，千萬別錯過了這個難得的好機會。「國家音樂廳」在「國家戲劇院」對面，在那裡可以欣賞到各種音樂。白如玉小時候學過鋼琴和小提琴，特別喜歡古典音樂，她打算下次要請李雲真一起來聽音樂。",
+            "simplified": "今天是白如玉来台湾以后，第一次到「国家戏剧院」看表演，她觉得非常兴奋。她跟李云真约好了，晚上要一起欣赏一场现代舞的表演。在美国时，白如玉曾经看过一次现代舞的表演。她觉得现代舞很难懂，但是很有意思。另外，李云真还特别强调，今天晚上表演的团体—「云门舞集」在台湾几乎无人不知、无人不晓，千万别错过了这个难得的好机会。「国家音乐厅」在「国家戏剧院」对面，在那里可以欣赏到各种音乐。白如玉小时候学过钢琴和小提琴，特别喜欢古典音乐，她打算下次要请李云真一起来听音乐。",
+            "pinyin": "jīn tiān shì bái rú yù lái tái wān yǐ hòu ， dì yī cì dào 「 guó jiā xì jù yuàn 」 kàn biǎo yǎn ， tā jué dé fēi cháng xìng fèn 。 tā gēn lǐ yún zhēn yuē hǎo le ， wǎn shàng yào yì qǐ xīn shǎng yī chǎng xiàn dài wǔ de biǎo yǎn 。 zài měi guó shí ， bái rú yù céng jīng kàn guò yī cì xiàn dài wǔ de biǎo yǎn 。 tā jué dé xiàn dài wǔ hěn nán dǒng ， dàn shì hěn yǒu yì si 。 lìng wài ， lǐ yún zhēn hái tè bié qiáng diào ， jīn tiān wǎn shàng biǎo yǎn de tuán tǐ — 「 yún mén wǔ jí 」 zài tái wān jǐ hū wú rén bù zhī 、 wú rén bù xiǎo ， qiān wàn bié cuò guò le zhè gè nán dé de hǎo jī huì 。 「 guó jiā yīn lè tīng 」 zài 「 guó jiā xì jù yuàn 」 duì miàn ， zài nà lǐ kě yǐ xīn shǎng dào gè zhǒng yīn lè 。 bái rú yù xiǎo shí hòu xué guò gāng qín hé xiǎo tí qín ， tè bié xǐ huān gǔ diǎn yīn lè ， tā dǎ suàn xià cì yào qǐng lǐ yún zhēn yì qǐ lái tīng yīn lè 。",
+            "meaningVi": "Hôm nay là lần đầu tiên Bạch Như Ngọc đến \"Nhà hát Quốc gia\" xem biểu diễn kể từ khi đến Đài Loan, cô cảm thấy vô cùng phấn khích. Cô đã hẹn với Lý Vân Chân tối nay cùng nhau đi xem một buổi biểu diễn múa đương đại. Khi còn ở Mỹ, Bạch Như Ngọc từng xem một buổi biểu diễn múa đương đại. Cô cảm thấy múa đương đại rất khó hiểu, nhưng cũng rất thú vị. Ngoài ra, Lý Vân Chân còn đặc biệt nhấn mạnh rằng đoàn múa biểu diễn tối nay — \"Đoàn múa Vân Môn\" — là một cái tên gần như ai cũng biết đến ở Đài Loan, nên đừng bỏ lỡ cơ hội hiếm có này. \"Phòng Hòa nhạc Quốc gia\" nằm đối diện \"Nhà hát Kịch nghệ Quốc gia\", tại đây bạn có thể thưởng thức nhiều loại hình âm nhạc khác nhau. Hồi nhỏ, Bạch Như Ngọc từng học piano và violin, cô đặc biệt yêu thích nhạc cổ điển. Lần tới, cô dự định mời Lý Vân Chân cùng đi nghe nhạc."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "白如玉的父親是畫家，她受到父親的影響也非常喜歡畫畫。除了音樂、舞蹈和繪畫以外，她對文學、建築和電影等藝術都非常有興趣。記得剛來台灣時，她常去參觀寺廟，她認為寺廟最能表現出傳統建築之美。她還聽她的同學高橋健太提過，台南有不少古蹟，其中最值得欣賞的就是台南的寺廟了。百聞不如一見，下次一定要去看看。由於白如玉的中文進步了不少，除了參觀寺廟以外，她還常去看中文電影。上個週末她看了一部台灣電影，劇情非常特別。她想，導演所要表達的意思是現代人孤單寂寞的感覺吧。",
+            "simplified": "白如玉的父亲是画家，她受到父亲的影响也非常喜欢画画。除了音乐、舞蹈和绘画以外，她对文学、建筑和电影等艺术都非常有兴趣。记得刚来台湾时，她常去参观寺庙，她认为寺庙最能表现出传统建筑之美。她还听她的同学高桥健太提过，台南有不少古迹，其中最值得欣赏的就是台南的寺庙了。百闻不如一见，下次一定要去看看。由于白如玉的中文进步了不少，除了参观寺庙以外，她还常去看中文电影。上个周末她看了一部台湾电影，剧情非常特别。她想，导演所要表达的意思是现代人孤单寂寞的感觉吧。",
+            "pinyin": "bái rú yù de fù qīn shì huà jiā ， tā shòu dào fù qīn de yǐng xiǎng yě fēi cháng xǐ huān huà huà 。 chú le yīn lè 、 wǔ dǎo hé huì huà yǐ wài ， tā duì wén xué 、 jiàn zhù hé diàn yǐng děng yì shù dōu fēi cháng yǒu xìng qù 。 jì dé gāng lái tái wān shí ， tā cháng qù cān guān sì miào ， tā rèn wèi sì miào zuì néng biǎo xiàn chū chuán tǒng jiàn zhù zhī měi 。 tā hái tīng tā de tóng xué gāo qiáo jiàn tài tí guò ， tái nán yǒu bù shǎo gǔ jī ， qí zhōng zuì zhí de xīn shǎng de jiù shì tái nán de sì miào le 。 bǎi wén bù rú yī jiàn ， xià cì yí dìng yào qù kàn kàn 。 yóu yú bái rú yù de zhōng wén jìn bù le bù shǎo ， chú le cān guān sì miào yǐ wài ， tā hái cháng qù kàn zhòng wén diàn yǐng 。 shàng gè zhōu mò tā kàn le yī bù tái wān diàn yǐng ， jù qíng fēi cháng tè bié 。 tā xiǎng ， dǎo yǎn suǒ yào biǎo dá de yì si shì xiàn dài rén gū dān jì mò de gǎn jué ba 。",
+            "meaningVi": "Cha của Bạch Như Ngọc là một họa sĩ, cô cũng rất thích vẽ tranh dưới sự ảnh hưởng của cha mình. Ngoài âm nhạc, khiêu vũ và hội họa, cô còn rất quan tâm đến các loại hình nghệ thuật như văn học, kiến trúc và điện ảnh. Cô nhớ rằng khi mới đến Đài Loan, cô thường đi thăm các ngôi chùa. Cô cho rằng chùa là nơi thể hiện rõ nhất vẻ đẹp của kiến trúc truyền thống. Cô cũng nghe bạn cùng lớp là Takahashi Kenta nói rằng Đài Nam có rất nhiều di tích lịch sử, trong đó đáng xem nhất chính là các ngôi chùa ở Đài Nam. Trăm nghe không bằng một thấy, lần sau nhất định phải đi xem. Vì trình độ tiếng Trung của Bạch Như Ngọc đã tiến bộ rất nhiều, nên ngoài việc đi thăm các ngôi chùa, cô còn thường xuyên xem phim tiếng Trung. Cuối tuần trước, cô đã xem một bộ phim Đài Loan có cốt truyện rất đặc biệt. Cô nghĩ rằng ý của đạo diễn là muốn thể hiện cảm giác cô đơn, của con người hiện đại."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "男、女主角都是台灣目前最紅的明星，他們的演技不但好，男主角還得了今年金馬影展的最佳男主角獎。白如玉有時逛街經過台北101大樓附近的商業廣場，或週末去淡水老街附近，都看到不少街頭藝術的演出。在我們的生活中仔細留意的話，處處都是藝術，捷運站或公園裡也有不少裝置藝術可以欣賞。如果說食物能填飽我們的肚子，滿足我們的口腹之慾的話，那麼藝術就是眼睛和耳朵最豐盛的饗宴了。",
+            "simplified": "男、女主角都是台湾目前最红的明星，他们的演技不但好，男主角还得了今年金马影展的最佳男主角奖。白如玉有时逛街经过台北101大楼附近的商业广场，或周末去淡水老街附近，都看到不少街头艺术的演出。在我们的生活中仔细留意的话，处处都是艺术，捷运站或公园里也有不少装置艺术可以欣赏。如果说食物能填饱我们的肚子，满足我们的口腹之欲的话，那么艺术就是眼睛和耳朵最丰盛的飨宴了。",
+            "pinyin": "nán 、 nǚ zhǔ jué dōu shì tái wān mù qián zuì hóng de míng xīng ， tā men de yǎn jì bù dàn hǎo ， nán zhǔ jué hái dé le jīn nián jīn mǎ yǐng zhǎn de zuì jiā nán zhǔ jué jiǎng 。 bái rú yù yǒu shí guàng jiē jīng guò tái běi 1 0 1 dà lóu fù jìn de shāng yè guǎng chǎng ， huò zhōu mò qù dàn shuǐ lǎo jiē fù jìn ， dōu kàn dào bù shǎo jiē tóu yì shù de yǎn chū 。 zài wǒ men de shēng huó zhōng zǎi xì liú yì de huà ， chù chù dōu shì yì shù ， jié yùn zhàn huò gōng yuán lǐ yě yǒu bù shǎo zhuāng zhì yì shù kě yǐ xīn shǎng 。 rú guǒ shuō shí wù néng tián bǎo wǒ men de dǔ zi ， mǎn zú wǒ men de kǒu fù zhī yù de huà ， nà me yì shù jiù shì yǎn jīng hé ěr duǒ zuì fēng shèng de xiǎng yàn le 。",
+            "meaningVi": "Cả nam chính lẫn nữ chính đều là những ngôi sao nổi tiếng nhất Đài Loan hiện nay. Họ không chỉ diễn xuất giỏi mà nam chính còn giành được giải Nam diễn viên chính xuất sắc nhất tại Liên hoan phim Kim Mã năm nay. Thỉnh thoảng, khi đi dạo qua khu mua sắm gần tòa nhà Đài Bắc 101 hoặc đến khu vực gần Phố cổ Đạm Thủy vào cuối tuần, Bạch Như Ngọc đều thấy rất nhiều màn trình diễn nghệ thuật đường phố. Nếu chúng ta quan sát kỹ cuộc sống của mình, thì nghệ thuật ở khắp mọi nơi. Cũng có rất nhiều tác phẩm nghệ thuật sắp đặt để thưởng thức tại các ga tàu điện ngầm hoặc công viên. Nếu thức ăn có thể làm đầy dạ dày của chúng ta và thỏa mãn thú vui ăn uống, thì nghệ thuật chính là bữa tiệc thịnh soạn nhất cho đôi mắt và đôi tai."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc4-v4-l02-check-01",
+        "prompt": "Vì sao hai người phải đến nhà hát đúng giờ?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Đến muộn có thể phải đợi giờ nghỉ giữa buổi mới được vào."
+          },
+          {
+            "id": "b",
+            "text": "Sân khấu sẽ đóng cửa cả đêm."
+          },
+          {
+            "id": "c",
+            "text": "Họ cần mua vé mới."
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Như Ngọc nói nếu đến muộn sẽ phải đợi 中場休息 mới vào được.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc4-v4-l02-check-02",
+        "prompt": "Như Ngọc đặc biệt muốn xem đoàn nào ở Đài Loan?",
+        "options": [
+          {
+            "id": "a",
+            "text": "雲門舞集"
+          },
+          {
+            "id": "b",
+            "text": "國家音樂廳"
+          },
+          {
+            "id": "c",
+            "text": "金馬影展"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Bài đọc nêu đoàn múa biểu diễn tối đó là 雲門舞集.",
+        "skill": "Đọc hiểu"
+      }
+    ],
+    "pronunciation": [],
+    "culture": [
+      {
+        "id": "cc4-v4-l02-culture-01",
+        "title": "雲門舞集",
+        "body": "Đoàn múa Vân Môn xuất hiện trong bài đọc. Hãy phân biệt tên đoàn với địa điểm biểu diễn: 國家戲劇院 là nhà hát, còn 國家音樂廳 là phòng hòa nhạc đối diện."
+      }
+    ]
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem phiên âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc4-v4-l02-v001",
+      "cc4-v4-l02-v002",
+      "cc4-v4-l02-v003",
+      "cc4-v4-l02-v004",
+      "cc4-v4-l02-v005",
+      "cc4-v4-l02-v006",
+      "cc4-v4-l02-v007",
+      "cc4-v4-l02-v008",
+      "cc4-v4-l02-v009",
+      "cc4-v4-l02-v010",
+      "cc4-v4-l02-v011",
+      "cc4-v4-l02-v012",
+      "cc4-v4-l02-v013",
+      "cc4-v4-l02-v014",
+      "cc4-v4-l02-v015",
+      "cc4-v4-l02-v016",
+      "cc4-v4-l02-v017",
+      "cc4-v4-l02-v018",
+      "cc4-v4-l02-v019",
+      "cc4-v4-l02-v020",
+      "cc4-v4-l02-v021",
+      "cc4-v4-l02-v022",
+      "cc4-v4-l02-v023",
+      "cc4-v4-l02-v024",
+      "cc4-v4-l02-v025",
+      "cc4-v4-l02-v026",
+      "cc4-v4-l02-v027",
+      "cc4-v4-l02-v028",
+      "cc4-v4-l02-v029",
+      "cc4-v4-l02-v030",
+      "cc4-v4-l02-v031",
+      "cc4-v4-l02-v032",
+      "cc4-v4-l02-v033",
+      "cc4-v4-l02-v034",
+      "cc4-v4-l02-v035",
+      "cc4-v4-l02-v036",
+      "cc4-v4-l02-v037",
+      "cc4-v4-l02-v038",
+      "cc4-v4-l02-v039",
+      "cc4-v4-l02-v040",
+      "cc4-v4-l02-v041",
+      "cc4-v4-l02-v042",
+      "cc4-v4-l02-v043",
+      "cc4-v4-l02-v044",
+      "cc4-v4-l02-v045",
+      "cc4-v4-l02-v046",
+      "cc4-v4-l02-v047",
+      "cc4-v4-l02-v048",
+      "cc4-v4-l02-v049",
+      "cc4-v4-l02-v050",
+      "cc4-v4-l02-v051",
+      "cc4-v4-l02-v052",
+      "cc4-v4-l02-v053",
+      "cc4-v4-l02-v054",
+      "cc4-v4-l02-v055",
+      "cc4-v4-l02-v056",
+      "cc4-v4-l02-v057",
+      "cc4-v4-l02-v058",
+      "cc4-v4-l02-v059",
+      "cc4-v4-l02-v060",
+      "cc4-v4-l02-v061",
+      "cc4-v4-l02-v062",
+      "cc4-v4-l02-v063",
+      "cc4-v4-l02-v064"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc4-textbook-l02-t02",
+        "label": "Từ vựng hội thoại"
+      },
+      {
+        "id": "cc4-textbook-l02-t04",
+        "label": "Từ vựng bài đọc"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc4-v4-l02-grammar-01",
+      "title": "V 不成",
+      "explanation": "Không thực hiện được điều định làm. Dùng khi một việc dự tính không thể thành do điều kiện bên ngoài. Trong bài, đến muộn có thể khiến họ không xem được buổi diễn.",
+      "structure": "động từ + 不成",
+      "examples": [
+        {
+          "chinese": "遲到的話，表演恐怕就看不成了。",
+          "simplified": "迟到的话，表演恐怕就看不成了。",
+          "pinyin": "chí dào de huà ， biǎo yǎn kǒng pà jiù kàn bù chéng le 。",
+          "meaningVi": "Nếu đến muộn, e rằng sẽ không xem được buổi diễn."
+        },
+        {
+          "chinese": "今天下大雨，球賽看不成了。",
+          "simplified": "今天下大雨，球赛看不成了。",
+          "pinyin": "jīn tiān xià dà yǔ ， qiú sài kàn bù chéng le 。",
+          "meaningVi": "Hôm nay mưa lớn, trận bóng không xem được nữa."
+        }
+      ],
+      "commonMistake": "Không dùng 不成 để nói “không muốn làm”; nó nhấn mạnh việc không thể thành.",
+      "check": {
+        "id": "cc4-v4-l02-grammar-check-01",
+        "prompt": "Điền vào chỗ trống: 下雨了，表演可能看____。",
+        "options": [
+          {
+            "id": "a",
+            "text": "不成"
+          },
+          {
+            "id": "b",
+            "text": "不上"
+          },
+          {
+            "id": "c",
+            "text": "不完"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Dùng khi một việc dự tính không thể thành do điều kiện bên ngoài. Trong bài, đến muộn có thể khiến họ không xem được buổi diễn.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc4-v4-l02-grammar-02",
+      "title": "萬一",
+      "explanation": "Lỡ như; đề phòng một khả năng không mong muốn. Đặt trước một khả năng có thể xảy ra, thường để hỏi hoặc chuẩn bị cách ứng phó.",
+      "structure": "萬一 + tình huống, + cách xử lý",
+      "examples": [
+        {
+          "chinese": "萬一別人都穿得很正式怎麼辦？",
+          "simplified": "万一别人都穿得很正式怎么办？",
+          "pinyin": "wàn yī bié rén dōu chuān dé hěn zhèng shì zěn me bàn ？",
+          "meaningVi": "Lỡ mọi người đều ăn mặc trang trọng thì sao?"
+        },
+        {
+          "chinese": "萬一下雨，我們就改天去。",
+          "simplified": "万一下雨，我们就改天去。",
+          "pinyin": "wàn yī xià yǔ ， wǒ men jiù gǎi tiān qù 。",
+          "meaningVi": "Nếu lỡ trời mưa, chúng ta sẽ đi hôm khác."
+        }
+      ],
+      "commonMistake": "萬一 nói về khả năng cần đề phòng, không phải sự việc chắc chắn.",
+      "check": {
+        "id": "cc4-v4-l02-grammar-check-02",
+        "prompt": "Điền vào chỗ trống: ____遲到，我們就得等中場休息。",
+        "options": [
+          {
+            "id": "a",
+            "text": "萬一"
+          },
+          {
+            "id": "b",
+            "text": "曾經"
+          },
+          {
+            "id": "c",
+            "text": "所"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Đặt trước một khả năng có thể xảy ra, thường để hỏi hoặc chuẩn bị cách ứng phó.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc4-v4-l02-grammar-03",
+      "title": "以為",
+      "explanation": "Tưởng rằng nhưng thực tế khác. Dùng khi điều người nói từng tin khác với sự thật phát hiện sau đó. Trong hội thoại, Vân Chân tưởng phải mặc thật trang trọng.",
+      "structure": "chủ ngữ + 以為 + nhận định",
+      "examples": [
+        {
+          "chinese": "我以為要穿非常正式的服裝。",
+          "simplified": "我以为要穿非常正式的服装。",
+          "pinyin": "wǒ yǐ wèi yào chuān fēi cháng zhèng shì de fú zhuāng 。",
+          "meaningVi": "Tôi cứ tưởng phải mặc trang phục thật trang trọng."
+        },
+        {
+          "chinese": "我以為今天不用上課，結果老師來了。",
+          "simplified": "我以为今天不用上课，结果老师来了。",
+          "pinyin": "wǒ yǐ wèi jīn tiān bù yòng shàng kè ， jié guǒ lǎo shī lái le 。",
+          "meaningVi": "Tôi tưởng hôm nay không có lớp, hóa ra thầy cô vẫn đến."
+        }
+      ],
+      "commonMistake": "Đừng dùng 以為 để xác nhận điều mình biết chắc là đúng; khi đó dùng 認為 hoặc 覺得.",
+      "check": {
+        "id": "cc4-v4-l02-grammar-check-03",
+        "prompt": "Điền vào chỗ trống: 我____要穿西裝，沒想到穿得整齊就可以。",
+        "options": [
+          {
+            "id": "a",
+            "text": "曾經"
+          },
+          {
+            "id": "b",
+            "text": "免得"
+          },
+          {
+            "id": "c",
+            "text": "以為"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Dùng khi điều người nói từng tin khác với sự thật phát hiện sau đó. Trong hội thoại, Vân Chân tưởng phải mặc thật trang trọng.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc4-v4-l02-grammar-04",
+      "title": "可",
+      "explanation": "Nhấn mạnh lời nhắc hoặc đánh giá. 可 đứng trước vị ngữ để làm giọng nói mạnh hơn: “nhất định không được”, “quả thật”. Trong bài, Như Ngọc nhấn mạnh mình không thể mất mặt.",
+      "structure": "chủ ngữ + 可 + vị ngữ",
+      "examples": [
+        {
+          "chinese": "這是我第一次去，可不能丟臉。",
+          "simplified": "这是我第一次去，可不能丢脸。",
+          "pinyin": "zhè shì wǒ dì yī cì qù ， kě bù néng diū liǎn 。",
+          "meaningVi": "Đây là lần đầu tôi đi, nhất định không thể mất mặt."
+        },
+        {
+          "chinese": "這部電影可好看了。",
+          "simplified": "这部电影可好看了。",
+          "pinyin": "zhè bù diàn yǐng kě hǎo kàn le 。",
+          "meaningVi": "Bộ phim này hay thật đấy."
+        }
+      ],
+      "commonMistake": "可 ở đây không có nghĩa “có thể” như 可以.",
+      "check": {
+        "id": "cc4-v4-l02-grammar-check-04",
+        "prompt": "Điền vào chỗ trống: 第一次去，我____不能遲到。",
+        "options": [
+          {
+            "id": "a",
+            "text": "可"
+          },
+          {
+            "id": "b",
+            "text": "所"
+          },
+          {
+            "id": "c",
+            "text": "曾經"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "可 đứng trước vị ngữ để làm giọng nói mạnh hơn: “nhất định không được”, “quả thật”. Trong bài, Như Ngọc nhấn mạnh mình không thể mất mặt.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc4-v4-l02-grammar-05",
+      "title": "免得",
+      "explanation": "Để tránh một kết quả không mong muốn. Nêu hành động phòng trước để không phải chịu kết quả bất tiện. Họ vừa đi vừa nói để khỏi đến muộn.",
+      "structure": "làm A，免得 + kết quả xấu",
+      "examples": [
+        {
+          "chinese": "我們邊走邊說吧，免得遲到。",
+          "simplified": "我们边走边说吧，免得迟到。",
+          "pinyin": "wǒ men biān zǒu biān shuō ba ， miǎn de chí dào 。",
+          "meaningVi": "Chúng ta vừa đi vừa nói nhé, kẻo đến muộn."
+        },
+        {
+          "chinese": "把手機關了，免得影響別人。",
+          "simplified": "把手机关了，免得影响别人。",
+          "pinyin": "bǎ shǒu jī guān le ， miǎn de yǐng xiǎng bié rén 。",
+          "meaningVi": "Tắt điện thoại đi để khỏi làm phiền người khác."
+        }
+      ],
+      "commonMistake": "Sau 免得 thường là hậu quả muốn tránh, không phải mục tiêu tích cực.",
+      "check": {
+        "id": "cc4-v4-l02-grammar-check-05",
+        "prompt": "Điền vào chỗ trống: 早點出門，____遲到。",
+        "options": [
+          {
+            "id": "a",
+            "text": "免得"
+          },
+          {
+            "id": "b",
+            "text": "曾經"
+          },
+          {
+            "id": "c",
+            "text": "等"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Nêu hành động phòng trước để không phải chịu kết quả bất tiện. Họ vừa đi vừa nói để khỏi đến muộn.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc4-v4-l02-grammar-06",
+      "title": "曾經",
+      "explanation": "Đã từng trải qua. Nói về kinh nghiệm đã xảy ra trong quá khứ; không khẳng định hiện nay còn tiếp diễn.",
+      "structure": "chủ ngữ + 曾經 + động từ",
+      "examples": [
+        {
+          "chinese": "她曾經看過一次現代舞的表演。",
+          "simplified": "她曾经看过一次现代舞的表演。",
+          "pinyin": "tā céng jīng kàn guò yī cì xiàn dài wǔ de biǎo yǎn 。",
+          "meaningVi": "Cô ấy từng xem một buổi múa đương đại."
+        },
+        {
+          "chinese": "我曾經在台南住過一年。",
+          "simplified": "我曾经在台南住过一年。",
+          "pinyin": "wǒ céng jīng zài tái nán zhù guò yī nián 。",
+          "meaningVi": "Tôi từng sống ở Đài Nam một năm."
+        }
+      ],
+      "commonMistake": "Không dùng 曾經 cho một kế hoạch chưa xảy ra.",
+      "check": {
+        "id": "cc4-v4-l02-grammar-check-06",
+        "prompt": "Điền vào chỗ trống: 她____看過現代舞。",
+        "options": [
+          {
+            "id": "a",
+            "text": "萬一"
+          },
+          {
+            "id": "b",
+            "text": "免得"
+          },
+          {
+            "id": "c",
+            "text": "曾經"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Nói về kinh nghiệm đã xảy ra trong quá khứ; không khẳng định hiện nay còn tiếp diễn.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc4-v4-l02-grammar-07",
+      "title": "所 + V",
+      "explanation": "Điều mà ai đó làm hoặc muốn diễn đạt. 所 giúp danh từ hóa cụm động từ, thường gặp trong văn viết. “導演所要表達的意思” là ý mà đạo diễn muốn truyền đạt.",
+      "structure": "chủ ngữ + 所 + động từ + 的 + danh từ / nội dung",
+      "examples": [
+        {
+          "chinese": "導演所要表達的意思是孤單的感覺。",
+          "simplified": "导演所要表达的意思是孤单的感觉。",
+          "pinyin": "dǎo yǎn suǒ yào biǎo dá de yì si shì gū dān de gǎn jué 。",
+          "meaningVi": "Ý mà đạo diễn muốn truyền đạt là cảm giác cô đơn."
+        },
+        {
+          "chinese": "這就是我所知道的事。",
+          "simplified": "这就是我所知道的事。",
+          "pinyin": "zhè jiù shì wǒ suǒ zhī dào de shì 。",
+          "meaningVi": "Đây là điều tôi biết."
+        }
+      ],
+      "commonMistake": "Không tách 所 khỏi động từ theo sau; cả cụm xác định nội dung được nói tới.",
+      "check": {
+        "id": "cc4-v4-l02-grammar-check-07",
+        "prompt": "Điền vào chỗ trống: 這是導演____要表達的意思。",
+        "options": [
+          {
+            "id": "a",
+            "text": "所"
+          },
+          {
+            "id": "b",
+            "text": "萬一"
+          },
+          {
+            "id": "c",
+            "text": "曾經"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "所 giúp danh từ hóa cụm động từ, thường gặp trong văn viết. “導演所要表達的意思” là ý mà đạo diễn muốn truyền đạt.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc4-v4-l02-grammar-08",
+      "title": "等",
+      "explanation": "Liệt kê rồi kết lại bằng “v.v.”. Đặt sau một số ví dụ cùng loại để cho biết danh sách chưa hết.",
+      "structure": "A、B 和 C 等 + danh từ nhóm",
+      "examples": [
+        {
+          "chinese": "她對文學、建築和電影等藝術很有興趣。",
+          "simplified": "她对文学、建筑和电影等艺术很有兴趣。",
+          "pinyin": "tā duì wén xué 、 jiàn zhù hé diàn yǐng děng yì shù hěn yǒu xìng qù 。",
+          "meaningVi": "Cô ấy rất thích các loại hình nghệ thuật như văn học, kiến trúc và điện ảnh."
+        },
+        {
+          "chinese": "台北、台南等城市都有古蹟。",
+          "simplified": "台北、台南等城市都有古迹。",
+          "pinyin": "tái běi 、 tái nán děng chéng shì dōu yǒu gǔ jī 。",
+          "meaningVi": "Những thành phố như Đài Bắc, Đài Nam đều có di tích."
+        }
+      ],
+      "commonMistake": "等 trong mẫu liệt kê không có nghĩa “chờ”; nhìn cả câu để phân biệt.",
+      "check": {
+        "id": "cc4-v4-l02-grammar-check-08",
+        "prompt": "Điền vào chỗ trống: 她喜歡文學、電影____藝術。",
+        "options": [
+          {
+            "id": "a",
+            "text": "等"
+          },
+          {
+            "id": "b",
+            "text": "所"
+          },
+          {
+            "id": "c",
+            "text": "免得"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Đặt sau một số ví dụ cùng loại để cho biết danh sách chưa hết.",
+        "skill": "Ngữ pháp"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc4-v4-l02-listening-01",
+      "prompt": "Nghe hội thoại: Như Ngọc lo điều gì về trang phục?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mọi người có thể ăn mặc trang trọng hơn cô."
+        },
+        {
+          "id": "b",
+          "text": "Không có quần áo để thay."
+        },
+        {
+          "id": "c",
+          "text": "Rạp bắt buộc mặc đồng phục."
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Cô hỏi 萬一別人都穿得很正式怎麼辦？",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l02-t01"
+    },
+    {
+      "id": "cc4-v4-l02-listening-02",
+      "prompt": "Nghe hội thoại: vì sao họ vừa đi vừa nói?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Để tìm nhà bạn."
+        },
+        {
+          "id": "b",
+          "text": "Để tránh đến muộn buổi diễn."
+        },
+        {
+          "id": "c",
+          "text": "Để đi mua vé xem phim."
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Cô nói 邊走邊說吧，免得遲到.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l02-t01"
+    },
+    {
+      "id": "cc4-v4-l02-listening-03",
+      "prompt": "Nghe bài đọc: Như Ngọc từng học hai nhạc cụ nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Piano và guitar"
+        },
+        {
+          "id": "b",
+          "text": "Violin và sáo"
+        },
+        {
+          "id": "c",
+          "text": "Piano và violin"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc nhắc 鋼琴和小提琴.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l02-t03"
+    },
+    {
+      "id": "cc4-v4-l02-listening-04",
+      "prompt": "Nghe bài đọc: cô quan sát nghệ thuật ở đâu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ trong nhà hát"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ trong bảo tàng"
+        },
+        {
+          "id": "c",
+          "text": "Cả ga MRT và công viên"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc nói 捷運站或公園裡 cũng có tác phẩm nghệ thuật sắp đặt.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l02-t03"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc4-v4-l02-practice-01",
+      "prompt": "Điền: 我____要穿西裝，沒想到穿得整齊就可以。",
+      "options": [
+        {
+          "id": "a",
+          "text": "以為"
+        },
+        {
+          "id": "b",
+          "text": "曾經"
+        },
+        {
+          "id": "c",
+          "text": "免得"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "以為 đi với nhận định ban đầu rồi được sửa bằng 沒想到.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l02-practice-02",
+      "prompt": "“Để tránh đến muộn” là cụm nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "萬一遲到"
+        },
+        {
+          "id": "b",
+          "text": "免得遲到"
+        },
+        {
+          "id": "c",
+          "text": "曾經遲到"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "免得 nêu kết quả muốn tránh.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l02-practice-03",
+      "prompt": "Từ nào chỉ “giờ nghỉ giữa buổi”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "表演手冊"
+        },
+        {
+          "id": "b",
+          "text": "中場休息"
+        },
+        {
+          "id": "c",
+          "text": "準時"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "中場休息 là quãng nghỉ giữa một buổi diễn.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc4-v4-l02-practice-04",
+      "prompt": "Trong hội thoại, Lin Kiến Quốc gây phiền ở rạp vì điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đến muộn và bỏ về."
+        },
+        {
+          "id": "b",
+          "text": "Ho, xì mũi và quên tắt điện thoại."
+        },
+        {
+          "id": "c",
+          "text": "Nói chuyện với diễn viên."
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Như Ngọc kể anh ấy 擤鼻涕、咳嗽 và quên 關手機.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc4-v4-l02-practice-05",
+      "prompt": "“Cô từng xem múa đương đại” nên dùng từ nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "所"
+        },
+        {
+          "id": "b",
+          "text": "曾經"
+        },
+        {
+          "id": "c",
+          "text": "萬一"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "曾經 nói về kinh nghiệm đã xảy ra trong quá khứ.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l02-practice-06",
+      "prompt": "Điền: ____別人都穿得很正式怎麼辦？",
+      "options": [
+        {
+          "id": "a",
+          "text": "免得"
+        },
+        {
+          "id": "b",
+          "text": "曾經"
+        },
+        {
+          "id": "c",
+          "text": "萬一"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "萬一 đặt ra khả năng cần đề phòng.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l02-practice-07",
+      "prompt": "Vì sao Như Ngọc muốn đến Đài Nam?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Xem các ngôi chùa và di tích."
+        },
+        {
+          "id": "b",
+          "text": "Mua sổ tay chương trình."
+        },
+        {
+          "id": "c",
+          "text": "Học đàn violin."
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Cô nghe Đài Nam có 古蹟, đặc biệt là 寺廟 đáng xem.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc4-v4-l02-practice-08",
+      "prompt": "“Kỹ năng diễn xuất” là từ nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "畫家"
+        },
+        {
+          "id": "b",
+          "text": "演技"
+        },
+        {
+          "id": "c",
+          "text": "劇情"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "演技 nói về năng lực diễn xuất; 劇情 là cốt truyện.",
+      "skill": "Từ vựng"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc4-v4-l02-assessment-01",
+      "prompt": "Chọn nghĩa của 打扮.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đúng giờ"
+        },
+        {
+          "id": "b",
+          "text": "Đánh thức"
+        },
+        {
+          "id": "c",
+          "text": "Chỉnh trang; ăn diện"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "打扮 là chuẩn bị vẻ ngoài, quần áo.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc4-v4-l02-assessment-02",
+      "prompt": "Chọn nghĩa của 尊重.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tôn trọng"
+        },
+        {
+          "id": "b",
+          "text": "Trình diễn"
+        },
+        {
+          "id": "c",
+          "text": "Từ chối"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "穿著整齊 được xem là sự 尊重 đối với người biểu diễn.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc4-v4-l02-assessment-03",
+      "prompt": "Chọn câu nói “lỡ như trời mưa”.",
+      "options": [
+        {
+          "id": "a",
+          "text": "免得下雨"
+        },
+        {
+          "id": "b",
+          "text": "萬一下雨"
+        },
+        {
+          "id": "c",
+          "text": "曾經下雨"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "萬一 đưa ra khả năng cần đề phòng.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l02-assessment-04",
+      "prompt": "Điền: 我____要穿得很正式，結果不用。",
+      "options": [
+        {
+          "id": "a",
+          "text": "所"
+        },
+        {
+          "id": "b",
+          "text": "等"
+        },
+        {
+          "id": "c",
+          "text": "以為"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "以為 biểu thị điều tưởng là đúng, rồi thực tế khác.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l02-assessment-05",
+      "prompt": "Trong hội thoại, tại sao hai người không muốn đến muộn?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nhà hát sẽ thu thêm tiền."
+        },
+        {
+          "id": "b",
+          "text": "Buổi diễn sẽ bị hủy."
+        },
+        {
+          "id": "c",
+          "text": "Có thể phải đợi đến giờ nghỉ mới được vào."
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Như Ngọc nhắc quy định phải đợi 中場休息.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc4-v4-l02-assessment-06",
+      "prompt": "“Đã từng học piano” là cách nói nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "萬一學鋼琴"
+        },
+        {
+          "id": "b",
+          "text": "免得學鋼琴"
+        },
+        {
+          "id": "c",
+          "text": "曾經學過鋼琴"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "曾經 + V過 diễn tả kinh nghiệm quá khứ.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l02-assessment-07",
+      "prompt": "Từ nào chỉ một buổi trình diễn?",
+      "options": [
+        {
+          "id": "a",
+          "text": "手冊"
+        },
+        {
+          "id": "b",
+          "text": "廣場"
+        },
+        {
+          "id": "c",
+          "text": "表演"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "表演 có thể chỉ hoạt động hoặc buổi biểu diễn.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc4-v4-l02-assessment-08",
+      "prompt": "Bài đọc ví nghệ thuật với điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Một bữa ăn no"
+        },
+        {
+          "id": "b",
+          "text": "Một chuyến tàu điện"
+        },
+        {
+          "id": "c",
+          "text": "Bữa tiệc cho mắt và tai"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Câu cuối gọi nghệ thuật là 眼睛和耳朵最豐盛的饗宴.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc4-v4-l02-assessment-09",
+      "prompt": "Điền: 把手機關了，____影響別人。",
+      "options": [
+        {
+          "id": "a",
+          "text": "所"
+        },
+        {
+          "id": "b",
+          "text": "免得"
+        },
+        {
+          "id": "c",
+          "text": "曾經"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Tắt điện thoại để tránh làm phiền người khác.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l02-assessment-10",
+      "prompt": "Tại sao cô muốn xem 雲門舞集?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đó là đoàn múa rất nổi tiếng ở Đài Loan."
+        },
+        {
+          "id": "b",
+          "text": "Cô là thành viên của đoàn."
+        },
+        {
+          "id": "c",
+          "text": "Đoàn biểu diễn ở trường cô."
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc viết đoàn này ở Đài Loan 幾乎無人不知、無人不曉.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "writingTask": {
+    "id": "cc4-v4-l02-writing",
+    "title": "Giới thiệu một buổi biểu diễn",
+    "prompt": "Viết vài câu kể về một buổi biểu diễn bạn đã xem hoặc muốn xem. Dùng 曾經 hoặc 萬一 nếu phù hợp.",
+    "sampleTraditional": "我曾經看過一場現代舞表演。萬一下次去看音樂會，我會早一點出門，免得遲到。",
+    "sampleSimplified": "我曾经看过一场现代舞表演。万一下次去看音乐会，我会早一点出门，免得迟到。"
+  }
+}

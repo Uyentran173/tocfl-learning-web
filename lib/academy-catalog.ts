@@ -31,7 +31,8 @@ import cc3Lesson11Data from "../data/academy/cc3-lesson11.json" with { type: "js
 import cc3Lesson12Data from "../data/academy/cc3-lesson12.json" with { type: "json" };
 import { cc3Lesson01Words, cc3LessonWords02to12 } from "./cc3-course-vocabulary.ts";
 import cc4Lesson01Data from "../data/academy/cc4-lesson01.json" with { type: "json" };
-import { cc4Lesson01Words } from "./cc4-course-vocabulary.ts";
+import cc4Lesson02Data from "../data/academy/cc4-lesson02.json" with { type: "json" };
+import { cc4Lesson01Words, cc4Lesson02Words } from "./cc4-course-vocabulary.ts";
 import cc5Lesson01Data from "../data/academy/cc5-lesson01.json" with { type: "json" };
 import { cc5Lesson01Words } from "./cc5-course-vocabulary.ts";
 export { academyLesson01 };
@@ -121,7 +122,11 @@ export const academyVolume4Lesson01 = {
   ...cc4Lesson01Data,
   vocabulary: { ...cc4Lesson01Data.vocabulary, wordIds: cc4Lesson01Words.map((word) => word.id!) },
 } as unknown as AcademyLessonContent;
-export const academyVolume4Lessons = [academyVolume4Lesson01];
+export const academyVolume4Lesson02 = {
+  ...cc4Lesson02Data,
+  vocabulary: { ...cc4Lesson02Data.vocabulary, wordIds: cc4Lesson02Words.map((word) => word.id!) },
+} as unknown as AcademyLessonContent;
+export const academyVolume4Lessons = [academyVolume4Lesson01, academyVolume4Lesson02];
 export const academyVolume5 = {
   id: "cc5-v5",
   seriesId: academySeries.id,
@@ -299,8 +304,10 @@ export function academyStaticLesson(number: number): AcademyLessonContent | null
   return academyLessons02to15[number - 2] ?? null;
 }
 export function academyStaticLessonById(id: string): AcademyLessonContent | null {
-  if (id === academyVolume5Lesson01.id) return academyVolume5Lesson01;
-  if (id === academyVolume4Lesson01.id) return academyVolume4Lesson01;
+  const volume5Lesson = academyVolume5Lessons.find((lesson) => lesson.id === id);
+  if (volume5Lesson) return volume5Lesson;
+  const volume4Lesson = academyVolume4Lessons.find((lesson) => lesson.id === id);
+  if (volume4Lesson) return volume4Lesson;
   const volume3Lesson = academyVolume3Lessons.find((lesson) => lesson.id === id);
   if (volume3Lesson) return volume3Lesson;
   if (id === academyVolume2Lesson01.id) return academyVolume2Lesson01;

@@ -29,8 +29,8 @@ function QuestionList({ questions, answers, guestAnswers, onAnswer, script, show
 export default function AcademyLessonWorkspace({ content, tracks, availableTrackIds, canEdit }: { content: AcademyLessonContent; tracks: AcademyTrack[]; availableTrackIds: string[]; canEdit: boolean }) {
   const { t, locale } = usePreferences();
   const lessonNumber = academyLessonNumber(content.id) ?? 1;
-  const courseId = content.id.startsWith("cc3-v3-") ? "cc3" : content.id.startsWith("cc2-v2-") ? "cc2" : "cc1";
-  const overviewHref = courseId === "cc3" ? "/academy/contemporary-chinese/cc3-v3" : courseId === "cc2" ? "/academy/contemporary-chinese/cc2-v2" : "/academy/contemporary-chinese/cc1-v1";
+  const courseId = content.id.startsWith("cc4-v4-") ? "cc4" : content.id.startsWith("cc3-v3-") ? "cc3" : content.id.startsWith("cc2-v2-") ? "cc2" : "cc1";
+  const overviewHref = courseId === "cc4" ? "/academy/contemporary-chinese/cc4-v4" : courseId === "cc3" ? "/academy/contemporary-chinese/cc3-v3" : courseId === "cc2" ? "/academy/contemporary-chinese/cc2-v2" : "/academy/contemporary-chinese/cc1-v1";
   const activityKinds = academyActivityKindsForLesson(content.id);
   const lessonLabel = academyLessonLabel(locale, lessonNumber);
   const progressKey = academyProgressKeyForLesson(content.id);

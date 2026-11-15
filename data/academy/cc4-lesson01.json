@@ -1,0 +1,1221 @@
+{
+  "contentVersion": 2,
+  "id": "cc4-v4-l01",
+  "title": "十七歲還是二十五歲？",
+  "titleVi": "Mười bảy hay hai mươi lăm tuổi?",
+  "description": "Từ một cuộc trò chuyện trên mạng, học cách nói về danh tính, sở thích và khoảng cách giữa đời thực với thế giới ảo.",
+  "objectives": [
+    "Hiểu hội thoại và nhận ra thông tin Tiểu Linh nói khác với sự thật trong bài đọc.",
+    "Nói về lựa chọn, ngoại lệ, mức độ và thói quen bằng các mẫu ngữ pháp của bài.",
+    "Đọc về việc kết bạn trên mạng, sự hỗ trợ tinh thần và cách tự bảo vệ bản thân."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Một cuộc trò chuyện trong phòng chat mở ra câu hỏi: người trên mạng có đúng như họ kể? Hãy nghe hội thoại trước, rồi đọc bài để tìm tuổi thật và cuộc sống của Tiểu Linh.",
+    "sections": [
+      {
+        "id": "cc4-v4-l01-section-01",
+        "title": "Nghe trước khi đọc",
+        "body": "Chú ý những gì Tiểu Linh tự giới thiệu: tuổi, công việc, nơi sống và sở thích. Đừng vội tin mọi chi tiết.",
+        "chinese": "二十五歲，單身。家在台南，大學畢業後來台北工作，自己在外面租房子。你呢？",
+        "simplified": "二十五岁，单身。家在台南，大学毕业后来台北工作，自己在外面租房子。你呢？",
+        "pinyin": "èr shí wǔ suì ， dān shēn 。 jiā zài tái nán ， dà xué bì yè hòu lái tái běi gōng zuò ， zì jǐ zài wài miàn zū fáng zi 。 nǐ ne ？",
+        "meaningVi": "Hai mươi lăm tuổi, độc thân. Nhà tôi ở Đài Nam; tốt nghiệp đại học rồi đến Đài Bắc làm việc, thuê nhà ở riêng. Còn bạn?"
+      },
+      {
+        "id": "cc4-v4-l01-section-02",
+        "title": "Đối chiếu với bài đọc",
+        "body": "Bài đọc cho biết tuổi thật, trường học và lý do cô tìm đến bạn trên mạng. So sánh hai nguồn thông tin để hiểu câu chuyện.",
+        "chinese": "十七歲的小玲是家裡的獨生女，目前在一所明星高中就讀。",
+        "simplified": "十七岁的小玲是家里的独生女，目前在一所明星高中就读。",
+        "pinyin": "shí qī suì de xiǎo líng shì jiā lǐ de dú shēng nǚ ， mù qián zài yī suǒ míng xīng gāo zhōng jiù dú 。",
+        "meaningVi": "Tiểu Linh mười bảy tuổi, là con một và hiện học ở một trường trung học danh tiếng."
+      },
+      {
+        "id": "cc4-v4-l01-section-03",
+        "title": "Đọc sâu hơn",
+        "body": "Tìm hai mặt của mạng: sự an ủi mà Tiểu Linh nhận được và những rủi ro cô chủ động tránh.",
+        "chinese": "她也知道懂得保護自己，才不會掉進這種網路陷阱裡。",
+        "simplified": "她也知道懂得保护自己，才不会掉进这种网路陷阱里。",
+        "pinyin": "tā yě zhī dào dǒng de bǎo hù zì jǐ ， cái bù huì diào jìn zhè zhǒng wǎng lù xiàn jǐng lǐ 。",
+        "meaningVi": "Cô hiểu phải tự bảo vệ mình thì mới không rơi vào bẫy trên mạng."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc4-v4-l01-dialogue",
+        "title": "Cuộc trò chuyện trong phòng chat",
+        "context": "A Kiến và Tiểu Linh lần đầu trò chuyện trên mạng.",
+        "audioTrackId": "cc4-textbook-l01-t01",
+        "turns": [
+          {
+            "speaker": "阿建",
+            "chinese": "小玲，第一次看到妳。妳是學生還是上班族？",
+            "simplified": "小玲，第一次看到妳。妳是学生还是上班族？",
+            "pinyin": "xiǎo líng ， dì yī cì kàn dào nǐ 。 nǐ shì xué shēng hái shì shàng bān zú ？",
+            "meaningVi": "Tiểu Linh, lần đầu gặp bạn. Bạn là học sinh hay người đi làm?"
+          },
+          {
+            "speaker": "小玲",
+            "chinese": "我是上班族，剛下班回到家。",
+            "simplified": "我是上班族，刚下班回到家。",
+            "pinyin": "wǒ shì shàng bān zú ， gāng xià bān huí dào jiā 。",
+            "meaningVi": "Tôi đi làm, vừa tan ca về nhà."
+          },
+          {
+            "speaker": "阿建",
+            "chinese": "剛到家？這麼晚？真辛苦！",
+            "simplified": "刚到家？这么晚？真辛苦！",
+            "pinyin": "gāng dào jiā ？ zhè me wǎn ？ zhēn xīn kǔ ！",
+            "meaningVi": "Vừa về đến nhà à? Muộn thế? Vất vả quá!"
+          },
+          {
+            "speaker": "小玲",
+            "chinese": "不晚啊，現在才八點半而已。平常我都九點多才下班，有時候甚至工作到十點多。而且我自己一個人住，與其回到冷清的家，不如留在辦公室，還有同事陪我吃飯。",
+            "simplified": "不晚啊，现在才八点半而已。平常我都九点多才下班，有时候甚至工作到十点多。而且我自己一个人住，与其回到冷清的家，不如留在办公室，还有同事陪我吃饭。",
+            "pinyin": "bù wǎn a ， xiàn zài cái bā diǎn bàn ér yǐ 。 píng cháng wǒ dōu jiǔ diǎn duō cái xià bān ， yǒu shí hòu shèn zhì gōng zuò dào shí diǎn duō 。 ér qiě wǒ zì jǐ yī gè rén zhù ， yǔ qí huí dào lěng qīng de jiā ， bù rú liú zài bàn gōng shì ， hái yǒu tóng shì péi wǒ chī fàn 。",
+            "meaningVi": "Không muộn đâu, mới tám rưỡi. Thường tôi hơn chín giờ mới tan ca, có lúc còn làm đến hơn mười giờ. Tôi lại sống một mình; thà ở văn phòng có đồng nghiệp ăn cùng còn hơn về căn nhà vắng vẻ."
+          },
+          {
+            "speaker": "阿建",
+            "chinese": "妳幾歲？單身嗎？沒跟家人住在一起嗎？",
+            "simplified": "妳几岁？单身吗？没跟家人住在一起吗？",
+            "pinyin": "nǐ jǐ suì ？ dān shēn ma ？ méi gēn jiā rén zhù zài yì qǐ ma ？",
+            "meaningVi": "Bạn bao nhiêu tuổi? Độc thân à? Không ở cùng gia đình sao?"
+          },
+          {
+            "speaker": "小玲",
+            "chinese": "二十五歲，單身。家在台南，大學畢業後來台北工作，自己在外面租房子。你呢？",
+            "simplified": "二十五岁，单身。家在台南，大学毕业后来台北工作，自己在外面租房子。你呢？",
+            "pinyin": "èr shí wǔ suì ， dān shēn 。 jiā zài tái nán ， dà xué bì yè hòu lái tái běi gōng zuò ， zì jǐ zài wài miàn zū fáng zi 。 nǐ ne ？",
+            "meaningVi": "Hai mươi lăm tuổi, độc thân. Nhà tôi ở Đài Nam; tốt nghiệp đại học rồi đến Đài Bắc làm việc, thuê nhà ở riêng. Còn bạn?"
+          },
+          {
+            "speaker": "阿建",
+            "chinese": "我也單身，三十二歲。",
+            "simplified": "我也单身，三十二岁。",
+            "pinyin": "wǒ yě dān shēn ， sān shí èr suì 。",
+            "meaningVi": "Tôi cũng độc thân, ba mươi hai tuổi."
+          },
+          {
+            "speaker": "小玲",
+            "chinese": "在哪裡高就？",
+            "simplified": "在哪里高就？",
+            "pinyin": "zài nǎ lǐ gāo jiù ？",
+            "meaningVi": "Bạn đang làm việc ở đâu?"
+          },
+          {
+            "speaker": "阿建",
+            "chinese": "我在建設公司上班，是業務經理。部門裡有二十幾個人。",
+            "simplified": "我在建设公司上班，是业务经理。部门里有二十几个人。",
+            "pinyin": "wǒ zài jiàn shè gōng sī shàng bān ， shì yè wù jīng lǐ 。 bù mén lǐ yǒu èr shí jǐ gè rén 。",
+            "meaningVi": "Tôi làm ở công ty xây dựng, là quản lý kinh doanh. Bộ phận có hơn hai mươi người."
+          },
+          {
+            "speaker": "小玲",
+            "chinese": "你才三十二歲就已經是業務經理了，真厲害！你的工作能力一定很強。",
+            "simplified": "你才三十二岁就已经是业务经理了，真厉害！你的工作能力一定很强。",
+            "pinyin": "nǐ cái sān shí èr suì jiù yǐ jīng shì yè wù jīng lǐ le ， zhēn lì hài ！ nǐ de gōng zuò néng lì yí dìng hěn qiáng 。",
+            "meaningVi": "Mới ba mươi hai tuổi mà bạn đã là quản lý kinh doanh, giỏi thật! Chắc năng lực làm việc của bạn rất tốt."
+          },
+          {
+            "speaker": "阿建",
+            "chinese": "還可以。妳在哪裡工作呢？",
+            "simplified": "还可以。妳在哪里工作呢？",
+            "pinyin": "hái kě yǐ 。 nǐ zài nǎ lǐ gōng zuò ne ？",
+            "meaningVi": "Cũng tạm. Thế bạn làm ở đâu?"
+          },
+          {
+            "speaker": "小玲",
+            "chinese": "我在一家室內設計公司工作，畢業才兩年，經驗還不夠，所以工作常常做不完，得常加班。",
+            "simplified": "我在一家室内设计公司工作，毕业才两年，经验还不够，所以工作常常做不完，得常加班。",
+            "pinyin": "wǒ zài yī jiā shì nèi shè jì gōng sī gōng zuò ， bì yè cái liǎng nián ， jīng yàn hái bù gòu ， suǒ yǐ gōng zuò cháng cháng zuò bù wán ， dé cháng jiā bān 。",
+            "meaningVi": "Tôi làm ở một công ty thiết kế nội thất. Mới tốt nghiệp hai năm nên chưa đủ kinh nghiệm, công việc thường làm không xuể, phải hay tăng ca."
+          },
+          {
+            "speaker": "阿建",
+            "chinese": "妳的興趣是什麼？有空的時候做些什麼？",
+            "simplified": "妳的兴趣是什么？有空的时候做些什么？",
+            "pinyin": "nǐ de xìng qù shì shén me ？ yǒu kòng de shí hòu zuò xiē shén me ？",
+            "meaningVi": "Bạn thích gì? Khi rảnh thường làm gì?"
+          },
+          {
+            "speaker": "小玲",
+            "chinese": "看書、看電影、吃美食。",
+            "simplified": "看书、看电影、吃美食。",
+            "pinyin": "kàn shū 、 kàn diàn yǐng 、 chī měi shí 。",
+            "meaningVi": "Đọc sách, xem phim, ăn món ngon."
+          },
+          {
+            "speaker": "阿建",
+            "chinese": "妳愛看哪類電影？",
+            "simplified": "妳爱看哪类电影？",
+            "pinyin": "nǐ ài kàn nǎ lèi diàn yǐng ？",
+            "meaningVi": "Bạn thích xem loại phim nào?"
+          },
+          {
+            "speaker": "小玲",
+            "chinese": "我最愛看恐怖片。",
+            "simplified": "我最爱看恐怖片。",
+            "pinyin": "wǒ zuì ài kàn kǒng bù piàn 。",
+            "meaningVi": "Tôi thích phim kinh dị nhất."
+          },
+          {
+            "speaker": "阿建",
+            "chinese": "恐怖片！妳敢看恐怖片！我以為女生都只喜歡看浪漫的愛情片。好多女生都因為覺得恐怖片太可怕而被嚇哭了。",
+            "simplified": "恐怖片！妳敢看恐怖片！我以为女生都只喜欢看浪漫的爱情片。好多女生都因为觉得恐怖片太可怕而被吓哭了。",
+            "pinyin": "kǒng bù piàn ！ nǐ gǎn kàn kǒng bù piàn ！ wǒ yǐ wèi nǚ shēng dōu zhǐ xǐ huān kàn làng màn de ài qíng piàn 。 hǎo duō nǚ shēng dōu yīn wèi jué dé kǒng bù piàn tài kě pà ér bèi xià kū le 。",
+            "meaningVi": "Phim kinh dị! Bạn dám xem sao! Tôi cứ tưởng con gái chỉ thích phim tình cảm lãng mạn. Nhiều người còn bị phim kinh dị dọa phát khóc."
+          },
+          {
+            "speaker": "小玲",
+            "chinese": "並不是所有的女生都喜歡看愛情片，我就不喜歡，愛情片無聊死了！剛開始看恐怖片的時候，我也怕得不得了，但是看著看著就上癮了。現在覺得很刺激呢！",
+            "simplified": "并不是所有的女生都喜欢看爱情片，我就不喜欢，爱情片无聊死了！刚开始看恐怖片的时候，我也怕得不得了，但是看着看着就上瘾了。现在觉得很刺激呢！",
+            "pinyin": "bìng bú shì suǒ yǒu de nǚ shēng dōu xǐ huān kàn ài qíng piàn ， wǒ jiù bù xǐ huān ， ài qíng piàn wú liáo sǐ le ！ gāng kāi shǐ kàn kǒng bù piàn de shí hòu ， wǒ yě pà dé bù dé le ， dàn shì kàn zhù kàn zhù jiù shàng yǐn le 。 xiàn zài jué dé hěn cì jī ne ！",
+            "meaningVi": "Đâu phải cô gái nào cũng thích phim tình cảm; tôi thì không, thấy nó chán chết! Lúc đầu xem phim kinh dị tôi cũng sợ lắm, nhưng xem dần rồi mê. Giờ tôi thấy rất kích thích!"
+          },
+          {
+            "speaker": "阿建",
+            "chinese": "別說女生，就是男生也有很多不敢看恐怖片的。",
+            "simplified": "别说女生，就是男生也有很多不敢看恐怖片的。",
+            "pinyin": "bié shuō nǚ shēng ， jiù shì nán shēng yě yǒu hěn duō bù gǎn kàn kǒng bù piàn de 。",
+            "meaningVi": "Đừng nói con gái, ngay cả nhiều con trai cũng không dám xem phim kinh dị."
+          },
+          {
+            "speaker": "小玲",
+            "chinese": "不敢看恐怖片的男生簡直不是男生！膽子比我還小！",
+            "simplified": "不敢看恐怖片的男生简直不是男生！胆子比我还小！",
+            "pinyin": "bù gǎn kàn kǒng bù piàn de nán shēng jiǎn zhí bú shì nán shēng ！ dǎn zi bǐ wǒ hái xiǎo ！",
+            "meaningVi": "Con trai mà không dám xem phim kinh dị thì thật khó tin! Còn nhát hơn tôi nữa!"
+          },
+          {
+            "speaker": "阿建",
+            "chinese": "好啦！好啦！別這麼激動，下次我們一起去找部恐怖片看吧！",
+            "simplified": "好啦！好啦！别这么激动，下次我们一起去找部恐怖片看吧！",
+            "pinyin": "hǎo la ！ hǎo la ！ bié zhè me jī dòng ， xià cì wǒ men yì qǐ qù zhǎo bù kǒng bù piàn kàn ba ！",
+            "meaningVi": "Thôi nào, đừng kích động thế. Lần sau chúng ta cùng tìm một bộ phim kinh dị để xem nhé!"
+          },
+          {
+            "speaker": "小玲",
+            "chinese": "好啊！可是有的恐怖片是限制級的，我不能去電影院看。",
+            "simplified": "好啊！可是有的恐怖片是限制级的，我不能去电影院看。",
+            "pinyin": "hǎo a ！ kě shì yǒu de kǒng bù piàn shì xiàn zhì jí de ， wǒ bù néng qù diàn yǐng yuàn kàn 。",
+            "meaningVi": "Được! Nhưng có phim kinh dị giới hạn độ tuổi, tôi không vào rạp xem được."
+          },
+          {
+            "speaker": "阿建",
+            "chinese": "為什麼？妳不是二十五歲嗎？",
+            "simplified": "为什么？妳不是二十五岁吗？",
+            "pinyin": "wèi shén me ？ nǐ bú shì èr shí wǔ suì ma ？",
+            "meaningVi": "Sao vậy? Chẳng phải bạn hai mươi lăm tuổi à?"
+          },
+          {
+            "speaker": "小玲",
+            "chinese": "呃……",
+            "simplified": "呃……",
+            "pinyin": "è … …",
+            "meaningVi": "Ờ…"
+          }
+        ]
+      },
+      {
+        "id": "cc4-v4-l01-reading",
+        "title": "冷清的家，溫暖的網路",
+        "context": "Bài đọc: gia đình, bạn mạng và cách Tiểu Linh tự bảo vệ.",
+        "audioTrackId": "cc4-textbook-l01-t03",
+        "turns": [
+          {
+            "speaker": "Bài đọc",
+            "chinese": "十七歲的小玲是家裡的獨生女，目前在一所明星高中就讀。爸爸從事新聞媒體方面的工作，早出晚歸；媽媽的工作不至於那麼忙，但也常需要加班。因此，小玲放學後回到冷清的家，晚餐都是自己解決。雖然這樣，小玲並不寂寞，因為有許多網友陪伴她。",
+            "simplified": "十七岁的小玲是家里的独生女，目前在一所明星高中就读。爸爸从事新闻媒体方面的工作，早出晚归；妈妈的工作不至于那么忙，但也常需要加班。因此，小玲放学后回到冷清的家，晚餐都是自己解决。虽然这样，小玲并不寂寞，因为有许多网友陪伴她。",
+            "pinyin": "shí qī suì de xiǎo líng shì jiā lǐ de dú shēng nǚ ， mù qián zài yī suǒ míng xīng gāo zhōng jiù dú 。 bà bà cóng shì xīn wén méi tǐ fāng miàn de gōng zuò ， zǎo chū wǎn guī ； mā mā de gōng zuò bù zhì yú nà me máng ， dàn yě cháng xū yào jiā bān 。 yīn cǐ ， xiǎo líng fàng xué hòu huí dào lěng qīng de jiā ， wǎn cān dōu shì zì jǐ jiě jué 。 suī rán zhè yàng ， xiǎo líng bìng bù jì mò ， yīn wèi yǒu xǔ duō wǎng yǒu péi bàn tā 。",
+            "meaningVi": "Tiểu Linh mười bảy tuổi, là con một và hiện học ở một trường trung học danh tiếng. Bố làm trong ngành truyền thông, đi sớm về muộn; mẹ tuy đỡ bận hơn nhưng cũng thường tăng ca. Vì vậy, tan học về căn nhà vắng vẻ, cô tự lo bữa tối. Dẫu vậy cô không cô đơn vì có nhiều bạn trên mạng trò chuyện cùng."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "每天小玲一打開電腦，進入聊天室，就有許多網友在線上聊著今天發生的大小事。有人聊著感情的問題，有人抱怨老闆太小氣……。網友們看見小玲上線了，都會熱情地跟她打招呼。在她心情不好時，大家往往會給她加油打氣、安慰她。在小玲心裡，這個聊天室裡住著很多沒見過面的兄弟姐妹。雖然她在學校裡也有好朋友，但在網路上好像更能放心大膽地聊。",
+            "simplified": "每天小玲一打开电脑，进入聊天室，就有许多网友在线上聊着今天发生的大小事。有人聊着感情的问题，有人抱怨老板太小气……。网友们看见小玲上线了，都会热情地跟她打招呼。在她心情不好时，大家往往会给她加油打气、安慰她。在小玲心里，这个聊天室里住着很多没见过面的兄弟姐妹。虽然她在学校里也有好朋友，但在网路上好像更能放心大胆地聊。",
+            "pinyin": "měi tiān xiǎo líng yī dǎ kāi diàn nǎo ， jìn rù liáo tiān shì ， jiù yǒu xǔ duō wǎng yǒu zài xiàn shàng liáo zhù jīn tiān fā shēng de dà xiǎo shì 。 yǒu rén liáo zhù gǎn qíng de wèn tí ， yǒu rén bào yuàn lǎo bǎn tài xiǎo qì … … 。 wǎng yǒu men kàn jiàn xiǎo líng shàng xiàn le ， dōu huì rè qíng dì gēn tā dǎ zhāo hū 。 zài tā xīn qíng bù hǎo shí ， dà jiā wǎng wǎng huì gěi tā jiā yóu dǎ qì 、 ān wèi tā 。 zài xiǎo líng xīn lǐ ， zhè gè liáo tiān shì lǐ zhù zhù hěn duō méi jiàn guò miàn de xiōng dì jiě mèi 。 suī rán tā zài xué xiào lǐ yě yǒu hǎo péng yǒu ， dàn zài wǎng lù shàng hǎo xiàng gèng néng fàng xīn dà dǎn dì liáo 。",
+            "meaningVi": "Mỗi ngày, vừa mở máy tính vào phòng chat, Tiểu Linh đã thấy nhiều bạn mạng bàn chuyện lớn nhỏ trong ngày: người kể chuyện tình cảm, người than phiền ông chủ keo kiệt. Họ nhiệt tình chào khi cô lên mạng; lúc cô buồn, họ thường động viên và an ủi. Với Tiểu Linh, phòng chat như có nhiều anh chị em chưa từng gặp mặt. Dù ở trường cũng có bạn tốt, cô cảm thấy trên mạng dễ mở lòng hơn."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "另外，玩線上遊戲也是小玲紓解壓力的方法，讀書讀累了，就玩一下，不但可以轉換心情，有的跟歷史有關的遊戲還可以讓小玲對歷史更了解呢。",
+            "simplified": "另外，玩线上游戏也是小玲纾解压力的方法，读书读累了，就玩一下，不但可以转换心情，有的跟历史有关的游戏还可以让小玲对历史更了解呢。",
+            "pinyin": "lìng wài ， wán xiàn shàng yóu xì yě shì xiǎo líng shū jiě yā lì de fāng fǎ ， dú shū dú lèi le ， jiù wán yī xià ， bù dàn kě yǐ zhuǎn huàn xīn qíng ， yǒu de gēn lì shǐ yǒu guān de yóu xì hái kě yǐ ràng xiǎo líng duì lì shǐ gèng liǎo jiě ne 。",
+            "meaningVi": "Chơi game trực tuyến cũng giúp Tiểu Linh giải tỏa áp lực. Học mệt thì chơi một lát để đổi tâm trạng; một số trò chơi về lịch sử còn giúp cô hiểu lịch sử hơn."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "對小玲來說，網路的虛擬關係比現實生活中的關係簡單多了。在網路世界裡，所有的事情都可以得到安慰和支持，不會有心理負擔，即使做錯了，也不會有人責備；在現實生活中，家人的期待、學校裡的競爭都讓她喘不過氣來。躲進網路世界裡，比較自在。",
+            "simplified": "对小玲来说，网路的虚拟关系比现实生活中的关系简单多了。在网路世界里，所有的事情都可以得到安慰和支持，不会有心理负担，即使做错了，也不会有人责备；在现实生活中，家人的期待、学校里的竞争都让她喘不过气来。躲进网路世界里，比较自在。",
+            "pinyin": "duì xiǎo líng lái shuō ， wǎng lù de xū nǐ guān xì bǐ xiàn shí shēng huó zhōng de guān xì jiǎn dān duō le 。 zài wǎng lù shì jiè lǐ ， suǒ yǒu de shì qíng dōu kě yǐ dé dào ān wèi hé zhī chí ， bù huì yǒu xīn lǐ fù dān ， jí shǐ zuò cuò le ， yě bù huì yǒu rén zé bèi ； zài xiàn shí shēng huó zhōng ， jiā rén de qī dài 、 xué xiào lǐ de jìng zhēng dōu ràng tā chuǎn bù guò qì lái 。 duǒ jìn wǎng lù shì jiè lǐ ， bǐ jiào zì zài 。",
+            "meaningVi": "Với Tiểu Linh, quan hệ trên mạng đơn giản hơn nhiều so với ngoài đời. Ở đó, cô được an ủi và ủng hộ mà không thấy áp lực; ngay cả khi làm sai cũng không bị trách. Ngoài đời, kỳ vọng của gia đình và cạnh tranh ở trường khiến cô ngột ngạt. Trốn vào thế giới mạng, cô thấy dễ chịu hơn."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "雖然小玲常常跟網友聊天，但是小玲只是聊著玩的。她知道網路交友有時候很危險，所以色情、暴力網站她都不會點進去；她也知道懂得保護自己，才不會掉進這種網路陷阱裡。",
+            "simplified": "虽然小玲常常跟网友聊天，但是小玲只是聊着玩的。她知道网路交友有时候很危险，所以色情、暴力网站她都不会点进去；她也知道懂得保护自己，才不会掉进这种网路陷阱里。",
+            "pinyin": "suī rán xiǎo líng cháng cháng gēn wǎng yǒu liáo tiān ， dàn shì xiǎo líng zhǐ shì liáo zhù wán de 。 tā zhī dào wǎng lù jiāo yǒu yǒu shí hòu hěn wēi xiǎn ， suǒ yǐ sè qíng 、 bào lì wǎng zhàn tā dōu bù huì diǎn jìn qù ； tā yě zhī dào dǒng de bǎo hù zì jǐ ， cái bù huì diào jìn zhè zhǒng wǎng lù xiàn jǐng lǐ 。",
+            "meaningVi": "Dù thường trò chuyện với bạn trên mạng, Tiểu Linh chỉ xem đó là chuyện vui. Cô biết kết bạn qua mạng có lúc nguy hiểm nên không mở các trang có nội dung khiêu dâm hay bạo lực. Cô cũng hiểu phải tự bảo vệ mình để không rơi vào bẫy trên mạng."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc4-v4-l01-check-01",
+        "prompt": "Tiểu Linh thật ra bao nhiêu tuổi?",
+        "options": [
+          {
+            "id": "a",
+            "text": "32 tuổi"
+          },
+          {
+            "id": "b",
+            "text": "17 tuổi"
+          },
+          {
+            "id": "c",
+            "text": "25 tuổi"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Bài đọc mở đầu bằng 十七歲的小玲; trong phòng chat cô nói mình 25 tuổi.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc4-v4-l01-check-02",
+        "prompt": "Vì sao Tiểu Linh thích trò chuyện trên mạng?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Cô được an ủi và dễ mở lòng hơn."
+          },
+          {
+            "id": "b",
+            "text": "Cô không có bạn ở trường."
+          },
+          {
+            "id": "c",
+            "text": "Cô muốn bỏ học."
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Bài đọc nói bạn mạng động viên cô; dù có bạn ở trường, cô thấy dễ nói chuyện trên mạng hơn.",
+        "skill": "Đọc hiểu"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem phiên âm và nghĩa.",
+    "wordIds": [
+      "cc4-v4-l01-v001",
+      "cc4-v4-l01-v002",
+      "cc4-v4-l01-v003",
+      "cc4-v4-l01-v004",
+      "cc4-v4-l01-v005",
+      "cc4-v4-l01-v006",
+      "cc4-v4-l01-v007",
+      "cc4-v4-l01-v008",
+      "cc4-v4-l01-v009",
+      "cc4-v4-l01-v010",
+      "cc4-v4-l01-v011",
+      "cc4-v4-l01-v012",
+      "cc4-v4-l01-v013",
+      "cc4-v4-l01-v014",
+      "cc4-v4-l01-v015",
+      "cc4-v4-l01-v016",
+      "cc4-v4-l01-v017",
+      "cc4-v4-l01-v018",
+      "cc4-v4-l01-v019",
+      "cc4-v4-l01-v020",
+      "cc4-v4-l01-v021",
+      "cc4-v4-l01-v022",
+      "cc4-v4-l01-v023",
+      "cc4-v4-l01-v024",
+      "cc4-v4-l01-v025",
+      "cc4-v4-l01-v026",
+      "cc4-v4-l01-v027",
+      "cc4-v4-l01-v028",
+      "cc4-v4-l01-v029",
+      "cc4-v4-l01-v030",
+      "cc4-v4-l01-v031",
+      "cc4-v4-l01-v032",
+      "cc4-v4-l01-v033",
+      "cc4-v4-l01-v034",
+      "cc4-v4-l01-v035",
+      "cc4-v4-l01-v036",
+      "cc4-v4-l01-v037",
+      "cc4-v4-l01-v038",
+      "cc4-v4-l01-v039",
+      "cc4-v4-l01-v040",
+      "cc4-v4-l01-v041",
+      "cc4-v4-l01-v042",
+      "cc4-v4-l01-v043",
+      "cc4-v4-l01-v044",
+      "cc4-v4-l01-v045",
+      "cc4-v4-l01-v046",
+      "cc4-v4-l01-v047",
+      "cc4-v4-l01-v048",
+      "cc4-v4-l01-v049",
+      "cc4-v4-l01-v050",
+      "cc4-v4-l01-v051",
+      "cc4-v4-l01-v052",
+      "cc4-v4-l01-v053",
+      "cc4-v4-l01-v054",
+      "cc4-v4-l01-v055",
+      "cc4-v4-l01-v056",
+      "cc4-v4-l01-v057",
+      "cc4-v4-l01-v058",
+      "cc4-v4-l01-v059",
+      "cc4-v4-l01-v060",
+      "cc4-v4-l01-v061",
+      "cc4-v4-l01-v062",
+      "cc4-v4-l01-v063",
+      "cc4-v4-l01-v064",
+      "cc4-v4-l01-v065",
+      "cc4-v4-l01-v066",
+      "cc4-v4-l01-v067",
+      "cc4-v4-l01-v068",
+      "cc4-v4-l01-v069",
+      "cc4-v4-l01-v070"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc4-textbook-l01-t02",
+        "label": "Từ vựng hội thoại"
+      },
+      {
+        "id": "cc4-textbook-l01-t04",
+        "label": "Từ vựng bài đọc"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc4-v4-l01-grammar-01",
+      "title": "與其A，不如B",
+      "audioTrackId": "cc4-textbook-l01-t05",
+      "explanation": "Thà B còn hơn A. Nêu hai lựa chọn rồi chọn B vì B hợp lý hơn. Đây là cách nói rõ quan điểm, không chỉ liệt kê hai việc.",
+      "structure": "與其 + phương án A，不如 + phương án B",
+      "examples": [
+        {
+          "chinese": "與其回到冷清的家，不如留在辦公室。",
+          "simplified": "与其回到冷清的家，不如留在办公室。",
+          "pinyin": "yǔ qí huí dào lěng qīng de jiā ， bù rú liú zài bàn gōng shì 。",
+          "meaningVi": "Thà ở lại văn phòng còn hơn về căn nhà vắng vẻ."
+        },
+        {
+          "chinese": "與其一直擔心，不如先問清楚。",
+          "simplified": "与其一直担心，不如先问清楚。",
+          "pinyin": "yǔ qí yì zhí dān xīn ， bù rú xiān wèn qīng chǔ 。",
+          "meaningVi": "Thà hỏi cho rõ trước còn hơn cứ lo mãi."
+        }
+      ],
+      "commonMistake": "Đừng đảo ngược A và B: phương án muốn chọn đứng sau 不如.",
+      "check": {
+        "id": "cc4-v4-l01-grammar-check-01",
+        "prompt": "Mẫu 與其A，不如B diễn đạt ý nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Một lời hứa chắc chắn"
+          },
+          {
+            "id": "b",
+            "text": "Thà B còn hơn A"
+          },
+          {
+            "id": "c",
+            "text": "Chỉ một thời điểm cụ thể"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Nêu hai lựa chọn rồi chọn B vì B hợp lý hơn. Đây là cách nói rõ quan điểm, không chỉ liệt kê hai việc.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc4-v4-l01-grammar-02",
+      "title": "就（ngoại lệ）",
+      "audioTrackId": "cc4-textbook-l01-t06",
+      "explanation": "Riêng trường hợp này thì khác. Dùng 就 có nhấn giọng để đưa ra một ngoại lệ trái với điều người khác vừa khái quát. Trong bài, Tiểu Linh phản bác ý 'con gái đều thích phim tình cảm'.",
+      "structure": "nhận định chung + 我／他／這個 + 就 + ngoại lệ",
+      "examples": [
+        {
+          "chinese": "並不是所有的女生都喜歡愛情片，我就不喜歡。",
+          "simplified": "并不是所有的女生都喜欢爱情片，我就不喜欢。",
+          "pinyin": "bìng bú shì suǒ yǒu de nǚ shēng dōu xǐ huān ài qíng piàn ， wǒ jiù bù xǐ huān 。",
+          "meaningVi": "Đâu phải cô gái nào cũng thích phim tình cảm; tôi thì không."
+        },
+        {
+          "chinese": "大家都說很難，我就覺得還好。",
+          "simplified": "大家都说很难，我就觉得还好。",
+          "pinyin": "dà jiā dōu shuō hěn nán ， wǒ jiù jué dé hái hǎo 。",
+          "meaningVi": "Ai cũng bảo khó, riêng tôi thấy cũng bình thường."
+        }
+      ],
+      "commonMistake": "Đừng hiểu 就 ở đây là 'ngay lập tức'; ngữ cảnh đang đối chiếu một trường hợp khác biệt.",
+      "check": {
+        "id": "cc4-v4-l01-grammar-check-02",
+        "prompt": "Mẫu 就（ngoại lệ） diễn đạt ý nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Chỉ một thời điểm cụ thể"
+          },
+          {
+            "id": "b",
+            "text": "Một lời hứa chắc chắn"
+          },
+          {
+            "id": "c",
+            "text": "Riêng trường hợp này thì khác"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Dùng 就 có nhấn giọng để đưa ra một ngoại lệ trái với điều người khác vừa khái quát. Trong bài, Tiểu Linh phản bác ý 'con gái đều thích phim tình cảm'.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc4-v4-l01-grammar-03",
+      "title": "就的多種用法",
+      "audioTrackId": "cc4-textbook-l01-t07",
+      "explanation": "Nhận ra nghĩa của 就 theo ngữ cảnh. 就 còn có thể chỉ kết quả, thứ tự, việc xảy ra sớm hơn dự kiến hoặc số lượng ít. Hãy nhìn vế trước và cả tình huống thay vì dịch cố định thành một từ.",
+      "structure": "就 + động từ / mệnh đề, tùy vị trí",
+      "examples": [
+        {
+          "chinese": "讀書讀累了，就玩一下。",
+          "simplified": "读书读累了，就玩一下。",
+          "pinyin": "dú shū dú lèi le ， jiù wán yī xià 。",
+          "meaningVi": "Học mệt thì chơi một lát."
+        },
+        {
+          "chinese": "走路五分鐘就到了。",
+          "simplified": "走路五分钟就到了。",
+          "pinyin": "zǒu lù wǔ fēn zhōng jiù dào le 。",
+          "meaningVi": "Đi bộ năm phút là đến rồi."
+        }
+      ],
+      "commonMistake": "Đừng gán cùng một nghĩa cho mọi chữ 就; câu đầu nói việc tiếp theo, câu sau nhấn mạnh đến sớm.",
+      "check": {
+        "id": "cc4-v4-l01-grammar-check-03",
+        "prompt": "Mẫu 就的多種用法 diễn đạt ý nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Chỉ một thời điểm cụ thể"
+          },
+          {
+            "id": "b",
+            "text": "Một lời hứa chắc chắn"
+          },
+          {
+            "id": "c",
+            "text": "Nhận ra nghĩa của 就 theo ngữ cảnh"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "就 còn có thể chỉ kết quả, thứ tự, việc xảy ra sớm hơn dự kiến hoặc số lượng ít. Hãy nhìn vế trước và cả tình huống thay vì dịch cố định thành một từ.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc4-v4-l01-grammar-04",
+      "title": "別說A，就是B也…",
+      "audioTrackId": "cc4-textbook-l01-t08",
+      "explanation": "Đừng nói A, ngay cả B cũng…. Dùng để tăng mức độ: ngay cả trường hợp B đáng ngạc nhiên hơn cũng đúng, huống chi A. Bài học dùng việc nhiều nam giới cũng sợ phim kinh dị để bác suy nghĩ chỉ nữ giới sợ.",
+      "structure": "別說 + A，就是 + B + 也 + kết quả",
+      "examples": [
+        {
+          "chinese": "別說女生，就是男生也有很多不敢看恐怖片的。",
+          "simplified": "别说女生，就是男生也有很多不敢看恐怖片的。",
+          "pinyin": "bié shuō nǚ shēng ， jiù shì nán shēng yě yǒu hěn duō bù gǎn kàn kǒng bù piàn de 。",
+          "meaningVi": "Đừng nói con gái, ngay cả nhiều con trai cũng không dám xem phim kinh dị."
+        },
+        {
+          "chinese": "別說跑步，就是走一小段路他也累。",
+          "simplified": "别说跑步，就是走一小段路他也累。",
+          "pinyin": "bié shuō pǎo bù ， jiù shì zǒu yī xiǎo duàn lù tā yě lèi 。",
+          "meaningVi": "Đừng nói chạy, ngay cả đi một đoạn ngắn anh ấy cũng mệt."
+        }
+      ],
+      "commonMistake": "B phải là trường hợp mạnh hơn hoặc bất ngờ hơn A; nếu không câu sẽ mất sức nhấn.",
+      "check": {
+        "id": "cc4-v4-l01-grammar-check-04",
+        "prompt": "Mẫu 別說A，就是B也… diễn đạt ý nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Chỉ một thời điểm cụ thể"
+          },
+          {
+            "id": "b",
+            "text": "Một lời hứa chắc chắn"
+          },
+          {
+            "id": "c",
+            "text": "Đừng nói A, ngay cả B cũng…"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Dùng để tăng mức độ: ngay cả trường hợp B đáng ngạc nhiên hơn cũng đúng, huống chi A. Bài học dùng việc nhiều nam giới cũng sợ phim kinh dị để bác suy nghĩ chỉ nữ giới sợ.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc4-v4-l01-grammar-05",
+      "title": "簡直",
+      "audioTrackId": "cc4-textbook-l01-t09",
+      "explanation": "Quả là; cứ như. Dùng khi người nói thấy sự việc giống như một nhận xét rất mạnh, có phần cường điệu. Không nên hiểu phát biểu ấy theo nghĩa đen.",
+      "structure": "chủ ngữ + 簡直 + nhận xét cường điệu",
+      "examples": [
+        {
+          "chinese": "不敢看恐怖片的男生簡直不是男生！",
+          "simplified": "不敢看恐怖片的男生简直不是男生！",
+          "pinyin": "bù gǎn kàn kǒng bù piàn de nán shēng jiǎn zhí bú shì nán shēng ！",
+          "meaningVi": "Con trai mà không dám xem phim kinh dị thì quả là khó tin!"
+        },
+        {
+          "chinese": "今天熱得簡直像夏天。",
+          "simplified": "今天热得简直像夏天。",
+          "pinyin": "jīn tiān rè dé jiǎn zhí xiàng xià tiān 。",
+          "meaningVi": "Hôm nay nóng cứ như mùa hè."
+        }
+      ],
+      "commonMistake": "簡直 thể hiện cảm nhận chủ quan; tránh dùng cho số liệu cần chính xác.",
+      "check": {
+        "id": "cc4-v4-l01-grammar-check-05",
+        "prompt": "Mẫu 簡直 diễn đạt ý nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Quả là; cứ như"
+          },
+          {
+            "id": "b",
+            "text": "Chỉ một thời điểm cụ thể"
+          },
+          {
+            "id": "c",
+            "text": "Một lời hứa chắc chắn"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Dùng khi người nói thấy sự việc giống như một nhận xét rất mạnh, có phần cường điệu. Không nên hiểu phát biểu ấy theo nghĩa đen.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc4-v4-l01-grammar-06",
+      "title": "不至於",
+      "audioTrackId": "cc4-textbook-l01-t10",
+      "explanation": "Chưa đến mức. Phủ định một kết quả bị cho là quá nghiêm trọng. Có thể dùng độc lập để trấn an: 'Chưa đến mức đó đâu'.",
+      "structure": "tình huống + 不至於 + hậu quả xấu",
+      "examples": [
+        {
+          "chinese": "媽媽的工作不至於那麼忙。",
+          "simplified": "妈妈的工作不至于那么忙。",
+          "pinyin": "mā mā de gōng zuò bù zhì yú nà me máng 。",
+          "meaningVi": "Công việc của mẹ chưa đến mức bận như thế."
+        },
+        {
+          "chinese": "下雨了，但還不至於取消活動。",
+          "simplified": "下雨了，但还不至于取消活动。",
+          "pinyin": "xià yǔ le ， dàn hái bù zhì yú qǔ xiāo huó dòng 。",
+          "meaningVi": "Trời mưa rồi, nhưng chưa đến mức phải hủy hoạt động."
+        }
+      ],
+      "commonMistake": "Khác với 不會 'sẽ không', 不至於 nói mức độ chưa nghiêm trọng tới ngưỡng ấy.",
+      "check": {
+        "id": "cc4-v4-l01-grammar-check-06",
+        "prompt": "Mẫu 不至於 diễn đạt ý nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Chưa đến mức"
+          },
+          {
+            "id": "b",
+            "text": "Chỉ một thời điểm cụ thể"
+          },
+          {
+            "id": "c",
+            "text": "Một lời hứa chắc chắn"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Phủ định một kết quả bị cho là quá nghiêm trọng. Có thể dùng độc lập để trấn an: 'Chưa đến mức đó đâu'.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc4-v4-l01-grammar-07",
+      "title": "往往",
+      "audioTrackId": "cc4-textbook-l01-t11",
+      "explanation": "Thường có xu hướng. Nói về một khuynh hướng hay xảy ra trong hoàn cảnh nhất định. Trong bài, khi Tiểu Linh buồn, bạn mạng thường động viên cô. So với 常常, 往往 gắn mạnh hơn với quy luật theo tình huống.",
+      "structure": "bối cảnh / điều kiện + 往往 + sự việc lặp lại",
+      "examples": [
+        {
+          "chinese": "在她心情不好時，大家往往會安慰她。",
+          "simplified": "在她心情不好时，大家往往会安慰她。",
+          "pinyin": "zài tā xīn qíng bù hǎo shí ， dà jiā wǎng wǎng huì ān wèi tā 。",
+          "meaningVi": "Khi cô ấy buồn, mọi người thường an ủi cô."
+        },
+        {
+          "chinese": "考試前，他往往睡不好。",
+          "simplified": "考试前，他往往睡不好。",
+          "pinyin": "kǎo shì qián ， tā wǎng wǎng shuì bù hǎo 。",
+          "meaningVi": "Trước kỳ thi, anh ấy thường ngủ không ngon."
+        }
+      ],
+      "commonMistake": "Không dùng 往往 để hứa một việc sẽ làm thường xuyên trong tương lai; khi đó dùng 常常.",
+      "check": {
+        "id": "cc4-v4-l01-grammar-check-07",
+        "prompt": "Mẫu 往往 diễn đạt ý nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Một lời hứa chắc chắn"
+          },
+          {
+            "id": "b",
+            "text": "Thường có xu hướng"
+          },
+          {
+            "id": "c",
+            "text": "Chỉ một thời điểm cụ thể"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Nói về một khuynh hướng hay xảy ra trong hoàn cảnh nhất định. Trong bài, khi Tiểu Linh buồn, bạn mạng thường động viên cô. So với 常常, 往往 gắn mạnh hơn với quy luật theo tình huống.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc4-v4-l01-grammar-08",
+      "title": "V著玩",
+      "audioTrackId": "cc4-textbook-l01-t12",
+      "explanation": "Làm cho vui. Cho biết việc làm chỉ để giải trí, không có mục đích nghiêm túc. Tiểu Linh trò chuyện với bạn mạng cho vui chứ không có ý hẹn gặp.",
+      "structure": "động từ + 著玩",
+      "examples": [
+        {
+          "chinese": "小玲只是聊著玩的。",
+          "simplified": "小玲只是聊着玩的。",
+          "pinyin": "xiǎo líng zhǐ shì liáo zhù wán de 。",
+          "meaningVi": "Tiểu Linh chỉ trò chuyện cho vui thôi."
+        },
+        {
+          "chinese": "我只是寫著玩，沒有要投稿。",
+          "simplified": "我只是写着玩，没有要投稿。",
+          "pinyin": "wǒ zhǐ shì xiě zhù wán ， méi yǒu yào tóu gǎo 。",
+          "meaningVi": "Tôi chỉ viết cho vui, không định gửi đăng."
+        }
+      ],
+      "commonMistake": "Đừng hiểu 著 là đang diễn ra trong mọi trường hợp; cả cụm V著玩 diễn tả mục đích 'cho vui'.",
+      "check": {
+        "id": "cc4-v4-l01-grammar-check-08",
+        "prompt": "Mẫu V著玩 diễn đạt ý nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Chỉ một thời điểm cụ thể"
+          },
+          {
+            "id": "b",
+            "text": "Một lời hứa chắc chắn"
+          },
+          {
+            "id": "c",
+            "text": "Làm cho vui"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Cho biết việc làm chỉ để giải trí, không có mục đích nghiêm túc. Tiểu Linh trò chuyện với bạn mạng cho vui chứ không có ý hẹn gặp.",
+        "skill": "Ngữ pháp"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc4-v4-l01-listening-01",
+      "prompt": "Nghe hội thoại: Tiểu Linh tự nhận mình làm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Là nhân viên rạp phim"
+        },
+        {
+          "id": "b",
+          "text": "Là người đi làm"
+        },
+        {
+          "id": "c",
+          "text": "Là giáo viên"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Cô nói 我是上班族, nhưng bài đọc cho biết cô thực ra là học sinh.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l01-t01"
+    },
+    {
+      "id": "cc4-v4-l01-listening-02",
+      "prompt": "Nghe hội thoại: hai người bàn về loại phim nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Phim hoạt hình"
+        },
+        {
+          "id": "b",
+          "text": "Phim kinh dị"
+        },
+        {
+          "id": "c",
+          "text": "Phim tài liệu"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Tiểu Linh nói mình thích xem 恐怖片 nhất.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l01-t01"
+    },
+    {
+      "id": "cc4-v4-l01-listening-03",
+      "prompt": "Nghe bài đọc: bố Tiểu Linh thường thế nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Không đi làm"
+        },
+        {
+          "id": "b",
+          "text": "Đi làm sớm, về muộn"
+        },
+        {
+          "id": "c",
+          "text": "Làm việc tại nhà"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc dùng 早出晚歸 để tả lịch làm việc của bố.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l01-t03"
+    },
+    {
+      "id": "cc4-v4-l01-listening-04",
+      "prompt": "Nghe bài đọc: Tiểu Linh tránh điều gì trên mạng?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trang có nội dung khiêu dâm hoặc bạo lực"
+        },
+        {
+          "id": "b",
+          "text": "Trò chơi lịch sử"
+        },
+        {
+          "id": "c",
+          "text": "Phòng chat bạn bè"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Cô biết nguy hiểm nên không bấm vào 色情、暴力網站.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l01-t03"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc4-v4-l01-practice-01",
+      "prompt": "與其回到冷清的家，____留在辦公室。",
+      "options": [
+        {
+          "id": "a",
+          "text": "往往"
+        },
+        {
+          "id": "b",
+          "text": "即使"
+        },
+        {
+          "id": "c",
+          "text": "不如"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "與其A，不如B: thà ở văn phòng còn hơn về nhà vắng vẻ.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l01-practice-02",
+      "prompt": "Từ nào chỉ 'bạn trên mạng'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "部門"
+        },
+        {
+          "id": "b",
+          "text": "膽子"
+        },
+        {
+          "id": "c",
+          "text": "網友"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "網友 là người quen và trò chuyện qua mạng.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc4-v4-l01-practice-03",
+      "prompt": "'Đâu phải ai cũng thích; riêng tôi không thích' cần chữ nào để nhấn ngoại lệ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "但"
+        },
+        {
+          "id": "b",
+          "text": "就"
+        },
+        {
+          "id": "c",
+          "text": "往往"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "就 nhấn riêng trường hợp của người nói, trái với lời khái quát trước đó.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l01-practice-04",
+      "prompt": "不至於那麼忙 có nghĩa gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Không bao giờ bận"
+        },
+        {
+          "id": "b",
+          "text": "Bận hơn mọi người"
+        },
+        {
+          "id": "c",
+          "text": "Chưa đến mức bận như thế"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "不至於 phủ định mức độ quá nghiêm trọng, không phủ định việc có bận.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l01-practice-05",
+      "prompt": "Tiểu Linh học ở đâu theo bài đọc?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đại học ở Đài Bắc"
+        },
+        {
+          "id": "b",
+          "text": "Trường thiết kế nội thất"
+        },
+        {
+          "id": "c",
+          "text": "Một trường trung học danh tiếng"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc nói cô hiện 就讀 ở một 所明星高中.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc4-v4-l01-practice-06",
+      "prompt": "往往 phù hợp nhất với tình huống nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ngày mai chắc chắn cô đi xem phim."
+        },
+        {
+          "id": "b",
+          "text": "Cô chỉ vừa mở máy tính một lần."
+        },
+        {
+          "id": "c",
+          "text": "Khi buồn, cô thường được bạn mạng an ủi."
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "往往 nêu khuynh hướng lặp lại trong một bối cảnh.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l01-practice-07",
+      "prompt": "'Giải tỏa áp lực' trong bài đọc là cụm nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "責備別人"
+        },
+        {
+          "id": "b",
+          "text": "掉進陷阱"
+        },
+        {
+          "id": "c",
+          "text": "紓解壓力"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Chơi game là một cách 紓解壓力 của Tiểu Linh.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc4-v4-l01-practice-08",
+      "prompt": "Trong hội thoại, Tiểu Linh nói 25 tuổi nhưng bài đọc nói 17 tuổi. Nhận xét nào đúng?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A Kiến biết tuổi thật ngay từ đầu."
+        },
+        {
+          "id": "b",
+          "text": "Cô đã nói sai tuổi trong phòng chat."
+        },
+        {
+          "id": "c",
+          "text": "Cô vừa đổi trường."
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Chính sự lệch giữa hội thoại và bài đọc tạo tình huống của bài.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc4-v4-l01-assessment-01",
+      "prompt": "'Phòng chat' là từ nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "聊天室"
+        },
+        {
+          "id": "b",
+          "text": "電影院"
+        },
+        {
+          "id": "c",
+          "text": "建設公司"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "聊天室 là nơi hai nhân vật gặp nhau trên mạng.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc4-v4-l01-assessment-02",
+      "prompt": "'Tăng ca' là từ nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "放學"
+        },
+        {
+          "id": "b",
+          "text": "交友"
+        },
+        {
+          "id": "c",
+          "text": "加班"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "加班 là làm việc ngoài giờ.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc4-v4-l01-assessment-03",
+      "prompt": "Chọn câu diễn tả 'thà B hơn A'.",
+      "options": [
+        {
+          "id": "a",
+          "text": "即使回家，也留在這裡。"
+        },
+        {
+          "id": "b",
+          "text": "回家後，往往留在這裡。"
+        },
+        {
+          "id": "c",
+          "text": "與其回家，不如留在這裡。"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "與其A，不如B nêu phương án B được ưu tiên.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l01-assessment-04",
+      "prompt": "'Ngay cả con trai cũng có người sợ phim kinh dị' dùng mẫu nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "與其女生，不如男生…"
+        },
+        {
+          "id": "b",
+          "text": "女生往往男生…"
+        },
+        {
+          "id": "c",
+          "text": "別說女生，就是男生也…"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "別說A，就是B也… tăng mức độ bằng trường hợp B bất ngờ hơn.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l01-assessment-05",
+      "prompt": "'Chưa đến mức phải hủy' nói thế nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "還不至於取消。"
+        },
+        {
+          "id": "b",
+          "text": "往往取消。"
+        },
+        {
+          "id": "c",
+          "text": "簡直取消。"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "不至於 cho biết chưa đến mức xảy ra kết quả đó.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l01-assessment-06",
+      "prompt": "小玲只是聊著玩的。Ý của 著玩 là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nói chuyện để xin việc"
+        },
+        {
+          "id": "b",
+          "text": "Trò chuyện cho vui"
+        },
+        {
+          "id": "c",
+          "text": "Đang chơi một trò game"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Cả cụm 聊著玩 diễn tả việc làm chỉ để vui.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l01-assessment-07",
+      "prompt": "Điều gì khiến căn nhà của Tiểu Linh vắng vẻ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cô chuyển đến nơi khác."
+        },
+        {
+          "id": "b",
+          "text": "Bố mẹ thường về muộn hoặc tăng ca."
+        },
+        {
+          "id": "c",
+          "text": "Nhà đang sửa chữa."
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nêu bố 早出晚歸, mẹ cũng thường 加班.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc4-v4-l01-assessment-08",
+      "prompt": "Tiểu Linh dùng trò chơi trực tuyến để làm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bán hàng"
+        },
+        {
+          "id": "b",
+          "text": "Giải tỏa áp lực và đổi tâm trạng"
+        },
+        {
+          "id": "c",
+          "text": "Tìm việc làm"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc ghi chơi game là cách 紓解壓力, 轉換心情.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc4-v4-l01-assessment-09",
+      "prompt": "Tiểu Linh hiểu nguy cơ nào của việc kết bạn qua mạng?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Có thể rơi vào bẫy trên mạng"
+        },
+        {
+          "id": "b",
+          "text": "Mọi trò chơi đều mất tiền"
+        },
+        {
+          "id": "c",
+          "text": "Không thể học lịch sử"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Cô tránh trang nguy hiểm để không 掉進網路陷阱.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc4-v4-l01-assessment-10",
+      "prompt": "Phân biệt 就 trong '我就不喜歡':",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ việc xảy ra hôm qua"
+        },
+        {
+          "id": "b",
+          "text": "Nêu số lượng ít"
+        },
+        {
+          "id": "c",
+          "text": "Nêu riêng một ngoại lệ"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Trước đó A Kiến nói con gái đều thích phim tình cảm; cô dùng 就 để phản bác bằng trường hợp mình.",
+      "skill": "Ngữ pháp"
+    }
+  ],
+  "writingTask": {
+    "id": "cc4-v4-l01-writing",
+    "title": "Viết về cách dùng mạng an toàn",
+    "prompt": "Viết 4–5 câu tiếng Hoa về một lợi ích và một rủi ro của việc kết bạn trên mạng. Thử dùng 與其…不如… hoặc 即使…."
+  }
+}

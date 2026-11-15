@@ -30,6 +30,8 @@ import cc3Lesson10Data from "../data/academy/cc3-lesson10.json" with { type: "js
 import cc3Lesson11Data from "../data/academy/cc3-lesson11.json" with { type: "json" };
 import cc3Lesson12Data from "../data/academy/cc3-lesson12.json" with { type: "json" };
 import { cc3Lesson01Words, cc3LessonWords02to12 } from "./cc3-course-vocabulary.ts";
+import cc4Lesson01Data from "../data/academy/cc4-lesson01.json" with { type: "json" };
+import { cc4Lesson01Words } from "./cc4-course-vocabulary.ts";
 export { academyLesson01 };
 
 export const academyActivityKinds = ["lecture", "vocabulary", "grammar", "practice", "assessment"] as const;
@@ -87,7 +89,7 @@ export const academySeries = {
   id: "contemporary-chinese",
   title: "A Course in Contemporary Chinese",
   subtitle: "Giáo trình tiếng Hoa đương đại",
-  volumeIds: ["cc1-v1", "cc2-v2", "cc3-v3"],
+  volumeIds: ["cc1-v1", "cc2-v2", "cc3-v3", "cc4-v4"],
 } as const;
 export const academyVolume = {
   id: "cc1-v1",
@@ -107,6 +109,17 @@ export const academyVolume3 = {
   number: 3,
   lessonIds: Array.from({ length: 12 }, (_, index) => `cc3-v3-l${String(index + 1).padStart(2, "0")}`),
 } as const;
+export const academyVolume4 = {
+  id: "cc4-v4",
+  seriesId: academySeries.id,
+  number: 4,
+  lessonIds: Array.from({ length: 12 }, (_, index) => `cc4-v4-l${String(index + 1).padStart(2, "0")}`),
+} as const;
+export const academyVolume4Lesson01 = {
+  ...cc4Lesson01Data,
+  vocabulary: { ...cc4Lesson01Data.vocabulary, wordIds: cc4Lesson01Words.map((word) => word.id!) },
+} as unknown as AcademyLessonContent;
+export const academyVolume4Lessons = [academyVolume4Lesson01];
 export const academyVolume3Lesson01 = {
   ...cc3Lesson01Data,
   vocabulary: { ...cc3Lesson01Data.vocabulary, wordIds: cc3Lesson01Words.map((word) => word.id!) },
@@ -208,6 +221,20 @@ export const academyVolume3LessonSummaries = [
   { chinese: "台灣故事", vi: "Câu chuyện Đài Loan" },
   { chinese: "我要去投票", vi: "Tôi sẽ đi bỏ phiếu" },
 ] as const;
+export const academyVolume4LessonSummaries = [
+  { chinese: "十七歲還是二十五歲？", vi: "Mười bảy hay hai mươi lăm tuổi?" },
+  { chinese: "眼睛、耳朵的饗宴", vi: "Bữa tiệc cho mắt và tai" },
+  { chinese: "雲端科技", vi: "Công nghệ đám mây" },
+  { chinese: "床該擺哪裡", vi: "Nên đặt giường ở đâu?" },
+  { chinese: "有夢最美", vi: "Có ước mơ thật đẹp" },
+  { chinese: "天搖地動", vi: "Đất rung trời chuyển" },
+  { chinese: "大學生的事", vi: "Chuyện của sinh viên đại học" },
+  { chinese: "他們的選擇", vi: "Lựa chọn của họ" },
+  { chinese: "再談台灣故事", vi: "Nói tiếp chuyện Đài Loan" },
+  { chinese: "應徵", vi: "Ứng tuyển" },
+  { chinese: "文化、種族的大熔爐", vi: "Nơi giao thoa văn hóa và sắc tộc" },
+  { chinese: "期待美好的未來", vi: "Mong đợi tương lai tươi đẹp" },
+] as const;
 
 // Titles follow the Volume 1 contents page. Unpublished lessons have no activity content.
 export const academyLessonSummaries = [
@@ -232,7 +259,7 @@ export function academyLessonId(number: number) {
   return academyVolume.lessonIds[number - 1];
 }
 export function academyLessonNumber(id: string) {
-  const index = id.startsWith("cc3-v3-") ? academyVolume3.lessonIds.indexOf(id) : id.startsWith("cc2-v2-") ? academyVolume2.lessonIds.indexOf(id) : academyVolume.lessonIds.indexOf(id);
+  const index = id.startsWith("cc4-v4-") ? academyVolume4.lessonIds.indexOf(id) : id.startsWith("cc3-v3-") ? academyVolume3.lessonIds.indexOf(id) : id.startsWith("cc2-v2-") ? academyVolume2.lessonIds.indexOf(id) : academyVolume.lessonIds.indexOf(id);
   return index < 0 ? null : index + 1;
 }
 export function academyActivityId(lessonId: string, kind: AcademyActivityKind) {
@@ -247,6 +274,7 @@ export function academyStaticLesson(number: number): AcademyLessonContent | null
   return academyLessons02to15[number - 2] ?? null;
 }
 export function academyStaticLessonById(id: string): AcademyLessonContent | null {
+  if (id === academyVolume4Lesson01.id) return academyVolume4Lesson01;
   const volume3Lesson = academyVolume3Lessons.find((lesson) => lesson.id === id);
   if (volume3Lesson) return volume3Lesson;
   if (id === academyVolume2Lesson01.id) return academyVolume2Lesson01;
@@ -287,7 +315,7 @@ export function validateAcademyLessonContent(value: unknown): value is AcademyLe
   const sentence = (v: unknown) => record(v) && text(v.chinese) && text(v.simplified) && text(v.pinyin) && text(v.meaningVi);
   const question = (v: unknown) => record(v) && text(v.id, 100) && text(v.prompt) && text(v.feedback) && text(v.skill, 100) && Array.isArray(v.options) && v.options.length >= 2 && v.options.length <= 6 && v.options.every((choice: unknown) => record(choice) && text(choice.id, 10) && text(choice.text)) && new Set(v.options.map((choice: { id: string }) => choice.id)).size === v.options.length && v.options.some((choice: { id: string }) => choice.id === v.correctOptionId);
   const questionList = (v: unknown, min: number, max: number) => Array.isArray(v) && v.length >= min && v.length <= max && v.every(question) && new Set(v.map((q: { id: string }) => q.id)).size === v.length;
-  if (!record(value) || value.contentVersion !== 2 || !text(value.id, 100) || ![...academyVolume.lessonIds, ...academyVolume2.lessonIds, ...academyVolume3.lessonIds].includes(value.id as string) || !text(value.title, 100) || !text(value.titleVi, 100) || !text(value.description, 500) || !Array.isArray(value.objectives) || !value.objectives.length || !value.objectives.every((item: unknown) => text(item, 300)) || !(value.estimatedMinutes === null || (Number.isInteger(value.estimatedMinutes) && Number(value.estimatedMinutes) > 0 && Number(value.estimatedMinutes) <= 300))) return false;
+  if (!record(value) || value.contentVersion !== 2 || !text(value.id, 100) || ![...academyVolume.lessonIds, ...academyVolume2.lessonIds, ...academyVolume3.lessonIds, ...academyVolume4.lessonIds].includes(value.id as string) || !text(value.title, 100) || !text(value.titleVi, 100) || !text(value.description, 500) || !Array.isArray(value.objectives) || !value.objectives.length || !value.objectives.every((item: unknown) => text(item, 300)) || !(value.estimatedMinutes === null || (Number.isInteger(value.estimatedMinutes) && Number(value.estimatedMinutes) > 0 && Number(value.estimatedMinutes) <= 300))) return false;
   const isFirst = value.id === academyLesson01.id;
   if (!record(value.lecture) || !text(value.lecture.introduction) || !Array.isArray(value.lecture.sections) || value.lecture.sections.length < 2 || !value.lecture.sections.every((item: unknown) => record(item) && sentence(item) && text(item.id, 100) && text(item.title, 100) && text(item.body)) || !Array.isArray(value.lecture.dialogues) || value.lecture.dialogues.length < 2 || !value.lecture.dialogues.every((item: unknown) => record(item) && text(item.id, 100) && text(item.title, 100) && text(item.context) && Array.isArray(item.turns) && item.turns.length >= 2 && item.turns.every((turn: unknown) => record(turn) && text(turn.speaker, 100) && sentence(turn))) || !questionList(value.lecture.checks, 1, 10) || !Array.isArray(value.lecture.pronunciation) || (isFirst && value.lecture.pronunciation.length < 2) || !value.lecture.pronunciation.every((item: unknown) => record(item) && sentence(item) && text(item.id, 100) && text(item.title, 100) && text(item.explanation)) || !Array.isArray(value.lecture.culture) || (isFirst && value.lecture.culture.length < 1) || !value.lecture.culture.every((item: unknown) => record(item) && text(item.id, 100) && text(item.title, 100) && text(item.body))) return false;
   const expected = academyStaticLessonById(value.id as string);

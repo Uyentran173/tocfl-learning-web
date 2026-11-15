@@ -1,0 +1,1191 @@
+{
+  "contentVersion": 2,
+  "id": "cc4-v4-l04",
+  "title": "床該擺哪裡？",
+  "titleVi": "Nên đặt giường ở đâu?",
+  "description": "Học cách mô tả việc bài trí nhà và trao đổi về phong thủy qua một cuộc trò chuyện, rồi đọc về các chi tiết ở Đài Bắc 101.",
+  "objectives": [
+    "Mô tả vị trí đồ đạc và giải thích cách bài trí một căn phòng.",
+    "Trình bày phong thủy theo quan điểm của các nhân vật trong bài và nêu ý kiến của mình.",
+    "Nhận ra các chi tiết kiến trúc của Đài Bắc 101 được bài đọc liên hệ với phong thủy."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Vợ chồng ông Lâm vừa chuyển nhà. Khi kê giường, họ bất đồng về vị trí và bắt đầu bàn về phong thủy. Sau hội thoại, bài đọc đưa Đài Bắc 101 làm ví dụ.",
+    "sections": [
+      {
+        "id": "cc4-v4-l04-section-01",
+        "title": "Sắp xếp nhà mới",
+        "body": "Nghe cách hai người đề xuất vị trí cho chiếc giường và vì sao họ không đồng ý.",
+        "chinese": "放在這裡會正對門，不好。",
+        "simplified": "放在这里会正对门，不好。",
+        "pinyin": "fàng zài zhè lǐ huì zhèng duì mén ， bù hǎo 。",
+        "meaningVi": "Đặt ở đây sẽ đối diện cửa, không tốt."
+      },
+      {
+        "id": "cc4-v4-l04-section-02",
+        "title": "Phong thủy và kiến trúc",
+        "body": "Đọc phần giải thích về phong thủy, rồi tìm những chi tiết trên Đài Bắc 101 được nhắc tới.",
+        "chinese": "這些設計都不是偶然的。",
+        "simplified": "这些设计都不是偶然的。",
+        "pinyin": "zhè xiē shè jì dōu bú shì ǒu rán de 。",
+        "meaningVi": "Những thiết kế này không phải ngẫu nhiên."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc4-v4-l04-dialogue-01",
+        "title": "Hội thoại: kê giường trong nhà mới",
+        "context": "Vợ chồng ông Lâm vừa chuyển đồ vào nhà.",
+        "audioTrackId": "cc4-textbook-l04-t01",
+        "turns": [
+          {
+            "speaker": "林先生",
+            "chinese": "總算把所有的東西都搬過來了，累死了！",
+            "simplified": "总算把所有的东西都搬过来了，累死了！",
+            "pinyin": "zǒng suàn bǎ suǒ yǒu de dōng xī dōu bān guò lái le ， lèi sǐ le ！",
+            "meaningVi": "Cuối cùng cũng chuyển hết đồ đạc sang đây rồi, mệt quá!"
+          },
+          {
+            "speaker": "林太太",
+            "chinese": "欸！別急著坐下，先把一些大家具擺好吧。",
+            "simplified": "欸！别急著坐下，先把一些大家具摆好吧。",
+            "pinyin": "āi ！ bié jí zhù zuò xià ， xiān bǎ yī xiē dà jiā jù bǎi hǎo ba 。",
+            "meaningVi": "Này, đừng vội ngồi xuống. Mình kê mấy món đồ lớn trước đã."
+          },
+          {
+            "speaker": "林先生",
+            "chinese": "床要放在哪裡呀？衣櫥旁邊好不好？",
+            "simplified": "床要放在哪里呀？衣橱旁边好不好？",
+            "pinyin": "chuáng yào fàng zài nǎ lǐ ya ？ yī chú páng biān hǎo bù hǎo ？",
+            "meaningVi": "Đặt giường ở đâu nhỉ? Cạnh tủ quần áo được không?"
+          },
+          {
+            "speaker": "林太太",
+            "chinese": "不行！不行！不要放在那裡，放在我的梳妝台旁邊。",
+            "simplified": "不行！不行！不要放在那里，放在我的梳妆台旁边。",
+            "pinyin": "bù xíng ！ bù xíng ！ bú yào fàng zài nà lǐ ， fàng zài wǒ de shū zhuāng tái páng biān 。",
+            "meaningVi": "Không, đừng đặt ở đó. Để cạnh bàn trang điểm của em đi."
+          },
+          {
+            "speaker": "林先生",
+            "chinese": "那裡太擠了，進出不方便。",
+            "simplified": "那里太挤了，进出不方便。",
+            "pinyin": "nà lǐ tài jǐ le ， jìn chū bù fāng biàn 。",
+            "meaningVi": "Chỗ đó chật quá, đi lại không tiện."
+          },
+          {
+            "speaker": "林太太",
+            "chinese": "那就把衣櫥跟梳妝台換個位置，空間就比較大了。",
+            "simplified": "那就把衣橱跟梳妆台换个位置，空间就比较大了。",
+            "pinyin": "nà jiù bǎ yī chú gēn shū zhuāng tái huàn gè wèi zhì ， kōng jiān jiù bǐ jiào dà le 。",
+            "meaningVi": "Vậy đổi chỗ tủ quần áo với bàn trang điểm, không gian sẽ rộng hơn."
+          },
+          {
+            "speaker": "林先生",
+            "chinese": "為什麼不擺在這裡呢？",
+            "simplified": "为什么不摆在这里呢？",
+            "pinyin": "wèi shén me bù bǎi zài zhè lǐ ne ？",
+            "meaningVi": "Sao không đặt ở đây?"
+          },
+          {
+            "speaker": "林太太",
+            "chinese": "放在這裡會正對門，不好。",
+            "simplified": "放在这里会正对门，不好。",
+            "pinyin": "fàng zài zhè lǐ huì zhèng duì mén ， bù hǎo 。",
+            "meaningVi": "Đặt ở đây sẽ đối diện thẳng với cửa, không tốt."
+          },
+          {
+            "speaker": "林先生",
+            "chinese": "什麼正對門，妳太迷信了吧！",
+            "simplified": "什么正对门，你太迷信了吧！",
+            "pinyin": "shén me zhèng duì mén ， nǐ tài mí xìn le ba ！",
+            "meaningVi": "Đối diện cửa thì sao? Em mê tín quá đấy!"
+          },
+          {
+            "speaker": "林太太",
+            "chinese": "這並不是迷信，而是有科學根據的。",
+            "simplified": "这并不是迷信，而是有科学根据的。",
+            "pinyin": "zhè bìng bú shì mí xìn ， ér shì yǒu kē xué gēn jù de 。",
+            "meaningVi": "Đó không phải mê tín, mà có cơ sở khoa học."
+          },
+          {
+            "speaker": "林先生",
+            "chinese": "什麼科學根據！還不就是風水師的那些說法。如果太在意那些說法，就什麼事都做不成了。",
+            "simplified": "什么科学根据！还不就是风水师的那些说法。如果太在意那些说法，就什么事都做不成了。",
+            "pinyin": "shén me kē xué gēn jù ！ hái bù jiù shì fēng shuǐ shī de nà xiē shuō fǎ 。 rú guǒ tài zài yì nà xiē shuō fǎ ， jiù shén me shì dōu zuò bù chéng le 。",
+            "meaningVi": "Cơ sở khoa học gì chứ! Chẳng qua cũng là mấy lời của thầy phong thủy. Cứ quá để tâm thì chẳng làm được việc gì."
+          },
+          {
+            "speaker": "林太太",
+            "chinese": "才不是你說的那樣呢！所謂現代風水學，是指站在科學的角度，利用環境、改造環境的一門學問，研究的是人與居住環境的關係。你不懂不要亂說好不好！",
+            "simplified": "才不是你说的那样呢！所谓现代风水学，是指站在科学的角度，利用环境、改造环境的一门学问，研究的是人与居住环境的关系。你不懂不要乱说好不好！",
+            "pinyin": "cái bú shì nǐ shuō de nà yàng ne ！ suǒ wèi xiàn dài fēng shuǐ xué ， shì zhǐ zhàn zài kē xué de jiǎo dù ， lì yòng huán jìng 、 gǎi zào huán jìng de yī mén xué wèn ， yán jiū de shì rén yǔ jū zhù huán jìng de guān xì 。 nǐ bù dǒng bú yào luàn shuō hǎo bù hǎo ！",
+            "meaningVi": "Không phải như anh nói đâu! “Phong thủy hiện đại” là một ngành nghiên cứu mối quan hệ giữa con người và môi trường sống từ góc nhìn khoa học, tìm cách tận dụng và cải tạo môi trường. Anh không hiểu thì đừng nói bừa!"
+          },
+          {
+            "speaker": "林先生",
+            "chinese": "好！那妳說風水到底跟我們的日常生活有什麼關係？",
+            "simplified": "好！那你说风水到底跟我们的日常生活有什么关系？",
+            "pinyin": "hǎo ！ nà nǐ shuō fēng shuǐ dào dǐ gēn wǒ men de rì cháng shēng huó yǒu shén me guān xì ？",
+            "meaningVi": "Được rồi! Vậy rốt cuộc phong thủy liên quan gì đến đời sống hằng ngày của mình?"
+          },
+          {
+            "speaker": "林太太",
+            "chinese": "譬如說家裡的布置，如果在牆上掛很凶猛的動物，或是刀、劍這樣的東西，就會讓居住者的脾氣暴躁、容易衝動。又譬如說，鏡子不能正對床腳，這樣起床時容易被自己嚇到。",
+            "simplified": "譬如说家里的布置，如果在墙上挂很凶猛的动物，或是刀、剑这样的东西，就会让居住者的脾气暴躁、容易冲动。又譬如说，镜子不能正对床脚，这样起床时容易被自己吓到。",
+            "pinyin": "pì rú shuō jiā lǐ de bù zhì ， rú guǒ zài qiáng shàng guà hěn xiōng měng de dòng wù ， huò shì dāo 、 jiàn zhè yàng de dōng xī ， jiù huì ràng jū zhù zhě de pí qì bào zào 、 róng yì chōng dòng 。 yòu pì rú shuō ， jìng zi bù néng zhèng duì chuáng jiǎo ， zhè yàng qǐ chuáng shí róng yì bèi zì jǐ xià dào 。",
+            "meaningVi": "Chẳng hạn cách bài trí nhà: treo hình thú dữ hay dao kiếm trên tường có thể khiến người ở dễ nóng nảy, bốc đồng. Còn nếu gương đối diện chân giường, lúc thức dậy có thể bị chính hình ảnh của mình làm giật mình."
+          },
+          {
+            "speaker": "林先生",
+            "chinese": "等一下！等一下！妳一口氣說了那麼多，我怎麼聽得清楚？妳是說連牆上掛什麼東西都會對人的個性有影響嗎？",
+            "simplified": "等一下！等一下！你一口气说了那么多，我怎么听得清楚？你是说连墙上挂什么东西都会对人的个性有影响吗？",
+            "pinyin": "děng yí xià ！ děng yí xià ！ nǐ yī kǒu qì shuō le nà me duō ， wǒ zěn me tīng dé qīng chǔ ？ nǐ shì shuō lián qiáng shàng guà shén me dōng xī dōu huì duì rén de gè xìng yǒu yǐng xiǎng ma ？",
+            "meaningVi": "Khoan đã! Em nói một hơi nhiều thế sao anh nghe rõ được? Ý em là ngay cả thứ treo trên tường cũng ảnh hưởng đến tính cách con người à?"
+          },
+          {
+            "speaker": "林太太",
+            "chinese": "對啊！光擺飾就有很多學問，你想了解的話，我以後再慢慢告訴你。",
+            "simplified": "对啊！光摆饰就有很多学问，你想了解的话，我以后再慢慢告诉你。",
+            "pinyin": "duì a ！ guāng bǎi shì jiù yǒu hěn duō xué wèn ， nǐ xiǎng liǎo jiě de huà ， wǒ yǐ hòu zài màn màn gào sù nǐ 。",
+            "meaningVi": "Đúng vậy! Chỉ riêng đồ trang trí thôi đã có nhiều điều đáng tìm hiểu. Anh muốn biết thì sau này em kể từ từ."
+          },
+          {
+            "speaker": "林先生",
+            "chinese": "我懂了，難怪我老婆脾氣那麼壞。那把劍可別再掛上去了！",
+            "simplified": "我懂了，难怪我老婆脾气那么坏。那把剑可别再挂上去了！",
+            "pinyin": "wǒ dǒng le ， nán guài wǒ lǎo pó pí qì nà me huài 。 nà bǎ jiàn kě bié zài guà shàng qù le ！",
+            "meaningVi": "Anh hiểu rồi, bảo sao vợ anh nóng tính thế. Đừng treo thanh kiếm kia lên nữa nhé!"
+          },
+          {
+            "speaker": "林太太",
+            "chinese": "喂！你居然敢欺負我！你死定了！",
+            "simplified": "喂！你居然敢欺负我！你死定了！",
+            "pinyin": "wèi ！ nǐ jū rán gǎn qī fù wǒ ！ nǐ sǐ dìng le ！",
+            "meaningVi": "Này, anh dám trêu em à? Anh chết chắc rồi!"
+          },
+          {
+            "speaker": "林先生",
+            "chinese": "好啦！好啦！開玩笑的。不過我覺得不知道這樣的事情比較好，知道家裡風水有問題，可是卻沒辦法改變，這樣不是住得很不自在嗎？",
+            "simplified": "好啦！好啦！开玩笑的。不过我觉得不知道这样的事情比较好，知道家里风水有问题，可是却没办法改变，这样不是住得很不自在吗？",
+            "pinyin": "hǎo la ！ hǎo la ！ kāi wán xiào de 。 bù guò wǒ jué dé bù zhī dào zhè yàng de shì qíng bǐ jiào hǎo ， zhī dào jiā lǐ fēng shuǐ yǒu wèn tí ， kě shì què méi bàn fǎ gǎi biàn ， zhè yàng bú shì zhù dé hěn bù zì zài ma ？",
+            "meaningVi": "Được rồi, anh đùa thôi. Nhưng anh thấy không biết những điều ấy có khi lại tốt hơn. Biết phong thủy nhà mình có vấn đề mà không sửa được thì sống sao thoải mái?"
+          },
+          {
+            "speaker": "林太太",
+            "chinese": "話是這樣說沒錯，但是如果可以早一點了解，在租房子、買房子的時候就可以多注意這方面的問題，才不會一搬進去就後悔了。你說是不是？",
+            "simplified": "话是这样说没错，但是如果可以早一点了解，在租房子、买房子的时候就可以多注意这方面的问题，才不会一搬进去就后悔了。你说是不是？",
+            "pinyin": "huà shì zhè yàng shuō méi cuò ， dàn shì rú guǒ kě yǐ zǎo yī diǎn liǎo jiě ， zài zū fáng zi 、 mǎi fáng zi de shí hòu jiù kě yǐ duō zhù yì zhè fāng miàn de wèn tí ， cái bù huì yī bān jìn qù jiù hòu huǐ le 。 nǐ shuō shì bú shì ？",
+            "meaningVi": "Nói vậy cũng đúng. Nhưng nếu biết sớm, lúc thuê hay mua nhà mình sẽ chú ý hơn, khỏi vừa chuyển vào đã hối hận. Anh thấy đúng không?"
+          }
+        ]
+      },
+      {
+        "id": "cc4-v4-l04-reading-01",
+        "title": "Bài đọc: phong thủy trong đời sống",
+        "context": "Bài viết trình bày quan điểm của những người tin vào phong thủy và lấy Đài Bắc 101 làm ví dụ.",
+        "audioTrackId": "cc4-textbook-l04-t03",
+        "turns": [
+          {
+            "speaker": "Bài đọc",
+            "chinese": "一般來說，選一個房子，大概會考慮幾個條件：地理位置、交通的便利性、周邊的環境和價格等。隨著生活水準不斷提高，人們對選擇住宅的考慮條件更多了。不只是上面所提到的幾個，風水的好壞也成為重要的考慮條件了。「風水」這個詞是中國晉代的郭璞（西元276年到324年）第一個提出的，到現在已經有一千七百多年了。相信風水的人認為，如果風水不值得相信，都過了一千七百多年了，怎麼可能不被推翻？中國有句話說：「一命，二運，三風水。」從這裡可以看出風水在中國人心中占了很重要的地位。",
+            "simplified": "一般来说，选一个房子，大概会考虑几个条件：地理位置、交通的便利性、周边的环境和价格等。随著生活水准不断提高，人们对选择住宅的考虑条件更多了。不只是上面所提到的几个，风水的好坏也成为重要的考虑条件了。「风水」这个词是中国晋代的郭璞（西元276年到324年）第一个提出的，到现在已经有一千七百多年了。相信风水的人认为，如果风水不值得相信，都过了一千七百多年了，怎么可能不被推翻？中国有句话说：「一命，二运，三风水。」从这里可以看出风水在中国人心中占了很重要的地位。",
+            "pinyin": "yì bān lái shuō ， xuǎn yī gè fáng zi ， dà gài huì kǎo lǜ jǐ gè tiáo jiàn ： dì lǐ wèi zhì 、 jiāo tōng de biàn lì xìng 、 zhōu biān de huán jìng hé jià gé děng 。 suí zhù shēng huó shuǐ zhǔn bù duàn tí gāo ， rén men duì xuǎn zé zhù zhái de kǎo lǜ tiáo jiàn gèng duō le 。 bù zhǐ shì shàng miàn suǒ tí dào de jǐ gè ， fēng shuǐ de hǎo huài yě chéng wèi zhòng yào de kǎo lǜ tiáo jiàn le 。「 fēng shuǐ 」 zhè gè cí shì zhōng guó jìn dài de guō pú （ xī yuán 276 nián dào 324 nián ） dì yī gè tí chū de ， dào xiàn zài yǐ jīng yǒu yī qiān qī bǎi duō nián le 。 xiāng xìn fēng shuǐ de rén rèn wèi ， rú guǒ fēng shuǐ bù zhí dé xiāng xìn ， dōu guò le yī qiān qī bǎi duō nián le ， zěn me kě néng bù bèi tuī fān ？ zhōng guó yǒu jù huà shuō ：「 yī mìng ， èr yùn ， sān fēng shuǐ 。」 cóng zhè lǐ kě yǐ kàn chū fēng shuǐ zài zhōng guó rén xīn zhōng zhàn le hěn zhòng yào de dì wèi 。",
+            "meaningVi": "Thông thường, khi chọn nhà, người ta cân nhắc vị trí, giao thông, môi trường xung quanh và giá cả. Khi mức sống tăng, tiêu chí chọn nhà cũng nhiều hơn; phong thủy trở thành một yếu tố quan trọng. Theo bài đọc, Quách Phác thời Tấn là người đầu tiên nêu thuật ngữ “phong thủy” cách đây hơn 1.700 năm. Người tin vào phong thủy cho rằng nếu nó không đáng tin thì đã bị bác bỏ từ lâu. Câu “một là mệnh, hai là vận, ba là phong thủy” cho thấy vị trí của phong thủy trong suy nghĩ của nhiều người Trung Quốc."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "英國的邱吉爾曾經說過一句名言：「人建造房子，房子塑造我們。」意思是說，房子對人的影響是很大的。從風水學的角度來看，對人的個性、健康、命運有影響的不只是房子本身，房子外面的環境以及房子裡面的布置、擺飾等都是有影響的。拿台北的地標——台北101大樓來說，雖然它是一棟非常現代的建築，可是建築師參考了許多風水的想法。先從外觀看起，它像一個個往上疊的盆子，每八層樓是一個盆子。",
+            "simplified": "英国的邱吉尔曾经说过一句名言：「人建造房子，房子塑造我们。」意思是说，房子对人的影响是很大的。从风水学的角度来看，对人的个性、健康、命运有影响的不只是房子本身，房子外面的环境以及房子里面的布置、摆饰等都是有影响的。拿台北的地标——台北101大楼来说，虽然它是一栋非常现代的建筑，可是建筑师参考了许多风水的想法。先从外观看起，它像一个个往上叠的盆子，每八层楼是一个盆子。",
+            "pinyin": "yīng guó de qiū jí ěr céng jīng shuō guò yī jù míng yán ：「 rén jiàn zào fáng zi ， fáng zi sù zào wǒ men 。」 yì si shì shuō ， fáng zi duì rén de yǐng xiǎng shì hěn dà de 。 cóng fēng shuǐ xué de jiǎo dù lái kàn ， duì rén de gè xìng 、 jiàn kāng 、 mìng yùn yǒu yǐng xiǎng de bù zhǐ shì fáng zi běn shēn ， fáng zi wài miàn de huán jìng yǐ jí fáng zi lǐ miàn de bù zhì 、 bǎi shì děng dōu shì yǒu yǐng xiǎng de 。 ná tái běi de dì biāo —— tái běi 101 dà lóu lái shuō ， suī rán tā shì yī dòng fēi cháng xiàn dài de jiàn zhù ， kě shì jiàn zhù shī cān kǎo le xǔ duō fēng shuǐ de xiǎng fǎ 。 xiān cóng wài guān kàn qǐ ， tā xiàng yī gè gè wǎng shàng dié de pén zi ， měi bā céng lóu shì yī gè pén zi 。",
+            "meaningVi": "Winston Churchill từng nói: “Con người xây nhà, nhà định hình chúng ta”, ý rằng nhà cửa ảnh hưởng nhiều đến con người. Theo góc nhìn phong thủy, cả bản thân ngôi nhà, môi trường bên ngoài lẫn cách bài trí bên trong đều có thể ảnh hưởng đến tính cách, sức khỏe và vận mệnh. Bài đọc lấy Đài Bắc 101 làm ví dụ: tuy là công trình hiện đại, kiến trúc sư vẫn tham khảo nhiều ý tưởng phong thủy. Nhìn từ ngoài, tòa nhà như những chiếc chậu xếp chồng; mỗi tám tầng tạo thành một chiếc chậu."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "往外斜的牆面，讓每個盆子看起來都像個聚寶盆，每個「聚寶盆」的四個角都有代表吉祥的龍，加起來就有三十二條飛龍。另外，大樓牆上的古錢幣和左邊的屋頂上的咬錢龜都是招財的意思。信義路正門和松智路側門上面的遮雨棚，都有十條魚、十個錢幣和十個如意，意思是十全十美。走進大樓裡面，到處可見代表吉祥的「如意」。這些設計都不是偶然的，是建築師在參考了中國的風水學以後所設計出來的，下次如果你到台北101大樓去，可以算算裡面一共有多少個「如意」。",
+            "simplified": "往外斜的墙面，让每个盆子看起来都像个聚宝盆，每个「聚宝盆」的四个角都有代表吉祥的龙，加起来就有三十二条飞龙。另外，大楼墙上的古钱币和左边的屋顶上的咬钱龟都是招财的意思。信义路正门和松智路侧门上面的遮雨棚，都有十条鱼、十个钱币和十个如意，意思是十全十美。走进大楼里面，到处可见代表吉祥的「如意」。这些设计都不是偶然的，是建筑师在参考了中国的风水学以后所设计出来的，下次如果你到台北101大楼去，可以算算里面一共有多少个「如意」。",
+            "pinyin": "wǎng wài xié de qiáng miàn ， ràng měi gè pén zi kàn qǐ lái dōu xiàng gè jù bǎo pén ， měi gè 「 jù bǎo pén 」 de sì gè jiǎo dōu yǒu dài biǎo jí xiáng de lóng ， jiā qǐ lái jiù yǒu sān shí èr tiáo fēi lóng 。 lìng wài ， dà lóu qiáng shàng de gǔ qián bì hé zuǒ biān de wū dǐng shàng de yǎo qián guī dōu shì zhāo cái de yì si 。 xìn yì lù zhèng mén hé sōng zhì lù cè mén shàng miàn de zhē yǔ péng ， dōu yǒu shí tiáo yú 、 shí gè qián bì hé shí gè rú yì ， yì si shì shí quán shí měi 。 zǒu jìn dà lóu lǐ miàn ， dào chù kě jiàn dài biǎo jí xiáng de 「 rú yì 」。 zhè xiē shè jì dōu bú shì ǒu rán de ， shì jiàn zhù shī zài cān kǎo le zhōng guó de fēng shuǐ xué yǐ hòu suǒ shè jì chū lái de ， xià cì rú guǒ nǐ dào tái běi 101 dà lóu qù ， kě yǐ suàn suàn lǐ miàn yī gòng yǒu duō shǎo gè 「 rú yì 」。",
+            "meaningVi": "Những mặt tường nghiêng ra ngoài khiến mỗi tầng giống một “chậu tụ bảo”. Bốn góc của mỗi chậu có hình rồng tượng trưng cho may mắn, tổng cộng ba mươi hai con. Đồng tiền cổ trên tường và hình rùa ngậm tiền trên mái biểu thị việc thu hút tài lộc. Mái che ở cổng đường Tín Nghĩa và cổng bên đường Tùng Trí có mười con cá, mười đồng tiền và mười vật trang trí như ý, gợi ý nghĩa trọn vẹn. Bên trong tòa nhà cũng có nhiều hình như ý. Các chi tiết ấy được thiết kế có chủ đích sau khi tham khảo phong thủy; bài đọc mời người đọc thử đếm số hình như ý khi đến Đài Bắc 101."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc4-v4-l04-check-01",
+        "prompt": "Vì sao bà Lâm không muốn đặt giường ở chỗ ông Lâm chỉ?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Chỗ đó đối diện thẳng với cửa."
+          },
+          {
+            "id": "b",
+            "text": "Chỗ đó không có cửa sổ."
+          },
+          {
+            "id": "c",
+            "text": "Chỗ đó quá gần nhà bếp."
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Bà nói đặt ở đó sẽ 正對門 — đối diện cửa.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc4-v4-l04-check-02",
+        "prompt": "Bài đọc lấy công trình nào làm ví dụ về chi tiết gắn với phong thủy?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Nhà hát Quốc gia"
+          },
+          {
+            "id": "b",
+            "text": "Một ngôi chùa ở Đài Nam"
+          },
+          {
+            "id": "c",
+            "text": "Đài Bắc 101"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Bài đọc mô tả hình rồng, đồng tiền và như ý ở Đài Bắc 101.",
+        "skill": "Đọc hiểu"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Xem từ trong hội thoại và bài đọc; chạm vào từng từ để mở nghĩa và ví dụ.",
+    "wordIds": [
+      "cc4-v4-l04-v001",
+      "cc4-v4-l04-v002",
+      "cc4-v4-l04-v003",
+      "cc4-v4-l04-v004",
+      "cc4-v4-l04-v005",
+      "cc4-v4-l04-v006",
+      "cc4-v4-l04-v007",
+      "cc4-v4-l04-v008",
+      "cc4-v4-l04-v009",
+      "cc4-v4-l04-v010",
+      "cc4-v4-l04-v011",
+      "cc4-v4-l04-v012",
+      "cc4-v4-l04-v013",
+      "cc4-v4-l04-v014",
+      "cc4-v4-l04-v015",
+      "cc4-v4-l04-v016",
+      "cc4-v4-l04-v017",
+      "cc4-v4-l04-v018",
+      "cc4-v4-l04-v019",
+      "cc4-v4-l04-v020",
+      "cc4-v4-l04-v021",
+      "cc4-v4-l04-v022",
+      "cc4-v4-l04-v023",
+      "cc4-v4-l04-v024",
+      "cc4-v4-l04-v025",
+      "cc4-v4-l04-v026",
+      "cc4-v4-l04-v027",
+      "cc4-v4-l04-v028",
+      "cc4-v4-l04-v029",
+      "cc4-v4-l04-v030",
+      "cc4-v4-l04-v031",
+      "cc4-v4-l04-v032",
+      "cc4-v4-l04-v033",
+      "cc4-v4-l04-v034",
+      "cc4-v4-l04-v035",
+      "cc4-v4-l04-v036",
+      "cc4-v4-l04-v037",
+      "cc4-v4-l04-v038",
+      "cc4-v4-l04-v039",
+      "cc4-v4-l04-v040",
+      "cc4-v4-l04-v041",
+      "cc4-v4-l04-v042",
+      "cc4-v4-l04-v043",
+      "cc4-v4-l04-v044",
+      "cc4-v4-l04-v045",
+      "cc4-v4-l04-v046",
+      "cc4-v4-l04-v047",
+      "cc4-v4-l04-v048",
+      "cc4-v4-l04-v049",
+      "cc4-v4-l04-v050",
+      "cc4-v4-l04-v051",
+      "cc4-v4-l04-v052",
+      "cc4-v4-l04-v053",
+      "cc4-v4-l04-v054",
+      "cc4-v4-l04-v055",
+      "cc4-v4-l04-v056",
+      "cc4-v4-l04-v057",
+      "cc4-v4-l04-v058",
+      "cc4-v4-l04-v059",
+      "cc4-v4-l04-v060",
+      "cc4-v4-l04-v061",
+      "cc4-v4-l04-v062",
+      "cc4-v4-l04-v063",
+      "cc4-v4-l04-v064",
+      "cc4-v4-l04-v065",
+      "cc4-v4-l04-v066",
+      "cc4-v4-l04-v067",
+      "cc4-v4-l04-v068",
+      "cc4-v4-l04-v069",
+      "cc4-v4-l04-v070",
+      "cc4-v4-l04-v071",
+      "cc4-v4-l04-v072",
+      "cc4-v4-l04-v073",
+      "cc4-v4-l04-v074",
+      "cc4-v4-l04-v075",
+      "cc4-v4-l04-v076",
+      "cc4-v4-l04-v077"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc4-textbook-l04-t02",
+        "label": "Từ vựng hội thoại"
+      },
+      {
+        "id": "cc4-textbook-l04-t04",
+        "label": "Từ vựng bài đọc"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc4-v4-l04-grammar-01",
+      "title": "總算",
+      "explanation": "Cuối cùng cũng đạt được kết quả sau khi chờ hoặc cố gắng. Trong hội thoại, ông Lâm nói thế khi chuyển hết đồ vào nhà.",
+      "structure": "chủ ngữ + 總算 + động từ / kết quả",
+      "examples": [
+        {
+          "chinese": "我們總算把東西搬完了。",
+          "simplified": "我们总算把东西搬完了。",
+          "pinyin": "wǒ men zǒng suàn bǎ dōng xī bān wán le 。",
+          "meaningVi": "Cuối cùng chúng tôi cũng chuyển hết đồ."
+        },
+        {
+          "chinese": "雨下了三天，今天總算停了。",
+          "simplified": "雨下了三天，今天总算停了。",
+          "pinyin": "yǔ xià le sān tiān ， jīn tiān zǒng suàn tíng le 。",
+          "meaningVi": "Mưa ba ngày, hôm nay cuối cùng cũng tạnh."
+        }
+      ],
+      "commonMistake": "總算 nhấn mạnh quá trình chờ đợi hoặc nỗ lực trước kết quả; không chỉ là mốc cuối của một danh sách.",
+      "check": {
+        "id": "cc4-v4-l04-grammar-check-01",
+        "prompt": "Điền: 搬了一整天，____把家具搬完了。",
+        "options": [
+          {
+            "id": "a",
+            "text": "總算"
+          },
+          {
+            "id": "b",
+            "text": "所謂"
+          },
+          {
+            "id": "c",
+            "text": "光"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Sau cả ngày chuyển đồ, kết quả mong đợi cuối cùng đã tới.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l04-t05"
+    },
+    {
+      "id": "cc4-v4-l04-grammar-02",
+      "title": "還不就是",
+      "explanation": "Diễn tả “chẳng qua chỉ là…” khi người nói xem sự việc là bình thường, không có gì mới hoặc đáng ngạc nhiên. Sắc thái đôi khi hơi xem nhẹ.",
+      "structure": "還不就是 + danh từ / cụm từ",
+      "examples": [
+        {
+          "chinese": "還不就是風水師的那些說法。",
+          "simplified": "还不就是风水师的那些说法。",
+          "pinyin": "hái bù jiù shì fēng shuǐ shī de nà xiē shuō fǎ 。",
+          "meaningVi": "Chẳng qua cũng là mấy lời của thầy phong thủy."
+        },
+        {
+          "chinese": "他每天忙什麼？還不就是上班、做家事。",
+          "simplified": "他每天忙什么？还不就是上班、做家事。",
+          "pinyin": "tā měi tiān máng shén me ？ hái bù jiù shì shàng bān 、 zuò jiā shì 。",
+          "meaningVi": "Ngày nào anh ấy bận gì? Chẳng qua là đi làm và làm việc nhà."
+        }
+      ],
+      "commonMistake": "Không dùng cụm này để giới thiệu một thông tin mình muốn đề cao.",
+      "check": {
+        "id": "cc4-v4-l04-grammar-check-02",
+        "prompt": "Điền: 他今天去百貨公司做什麼？____買衣服。",
+        "options": [
+          {
+            "id": "a",
+            "text": "光"
+          },
+          {
+            "id": "b",
+            "text": "還不就是"
+          },
+          {
+            "id": "c",
+            "text": "總算"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Người đáp xem chuyện mua quần áo là điều bình thường.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l04-t06"
+    },
+    {
+      "id": "cc4-v4-l04-grammar-03",
+      "title": "才 + phủ định",
+      "explanation": "Dùng 才 trước câu phủ định để bác lại mạnh điều người khác vừa nói. Có thể thêm 呢 để tăng sắc thái đối đáp.",
+      "structure": "才 + 不是 / 不 + vị ngữ",
+      "examples": [
+        {
+          "chinese": "風水才不是迷信呢！",
+          "simplified": "风水才不是迷信呢！",
+          "pinyin": "fēng shuǐ cái bú shì mí xìn ne ！",
+          "meaningVi": "Phong thủy đâu có phải là mê tín!"
+        },
+        {
+          "chinese": "我才不想把床放在門口。",
+          "simplified": "我才不想把床放在门口。",
+          "pinyin": "wǒ cái bù xiǎng bǎ chuáng fàng zài mén kǒu 。",
+          "meaningVi": "Tôi đâu có muốn đặt giường ngay cửa."
+        }
+      ],
+      "commonMistake": "Đừng hiểu 才 ở đây là “mới” hoặc “chỉ”; nó nhấn sự phủ nhận.",
+      "check": {
+        "id": "cc4-v4-l04-grammar-check-03",
+        "prompt": "Điền: A: 你很迷信。B: 我____迷信！",
+        "options": [
+          {
+            "id": "a",
+            "text": "總算不是"
+          },
+          {
+            "id": "b",
+            "text": "光不是"
+          },
+          {
+            "id": "c",
+            "text": "才不是"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "才不是 bác lại nhận xét của người đối thoại.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l04-t07"
+    },
+    {
+      "id": "cc4-v4-l04-grammar-04",
+      "title": "Ôn các cách dùng 才",
+      "explanation": "才 đã xuất hiện với nhiều nghĩa: “chỉ mới”, “mãi đến”, “chỉ khi… mới…”, “vừa mới”, “vì… nên mới…” và cách phủ định mạnh trong bài này. Hãy nhìn vị trí của 才 và cả câu để chọn nghĩa.",
+      "structure": "tuỳ ngữ cảnh: 才 + động từ; điều kiện + 才 + kết quả; 才 + phủ định",
+      "examples": [
+        {
+          "chinese": "他十二點才睡。",
+          "simplified": "他十二点才睡。",
+          "pinyin": "tā shí èr diǎn cái shuì 。",
+          "meaningVi": "Mãi đến mười hai giờ anh ấy mới ngủ."
+        },
+        {
+          "chinese": "先看房子，才決定要不要租。",
+          "simplified": "先看房子，才决定要不要租。",
+          "pinyin": "xiān kàn fáng zi ， cái jué dìng yào bù yào zū 。",
+          "meaningVi": "Xem nhà trước rồi mới quyết định có thuê hay không."
+        },
+        {
+          "chinese": "我才不是那個意思！",
+          "simplified": "我才不是那个意思！",
+          "pinyin": "wǒ cái bú shì nà gè yì si ！",
+          "meaningVi": "Tôi đâu có ý đó!"
+        }
+      ],
+      "commonMistake": "Đừng gán một nghĩa cố định cho 才 trong mọi câu.",
+      "check": {
+        "id": "cc4-v4-l04-grammar-check-04",
+        "prompt": "Trong “先看房子，才決定要不要租”, 才 có nghĩa gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "chỉ khi xem rồi mới quyết định"
+          },
+          {
+            "id": "b",
+            "text": "mãi đến nửa đêm"
+          },
+          {
+            "id": "c",
+            "text": "phủ định lời người khác"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Vế trước là điều kiện để đưa ra quyết định ở vế sau.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc4-v4-l04-grammar-05",
+      "title": "所謂（的）A，是指B",
+      "explanation": "Dùng khi muốn xác định rõ một tên gọi hay khái niệm. A là điều được hỏi; B là phần giải thích.",
+      "structure": "所謂（的）A，是指B",
+      "examples": [
+        {
+          "chinese": "所謂現代風水學，是指研究人與居住環境關係的學問。",
+          "simplified": "所谓现代风水学，是指研究人与居住环境关系的学问。",
+          "pinyin": "suǒ wèi xiàn dài fēng shuǐ xué ， shì zhǐ yán jiū rén yǔ jū zhù huán jìng guān xì de xué wèn 。",
+          "meaningVi": "“Phong thủy học hiện đại” là ngành nghiên cứu quan hệ giữa con người và môi trường sống."
+        },
+        {
+          "chinese": "你所謂的「方便」是指不用出門嗎？",
+          "simplified": "你所谓的「方便」是指不用出门吗？",
+          "pinyin": "nǐ suǒ wèi de 「 fāng biàn 」 shì zhǐ bù yòng chū mén ma ？",
+          "meaningVi": "“Tiện” theo ý bạn là không phải ra khỏi nhà à?"
+        }
+      ],
+      "commonMistake": "B phải thật sự giải thích A; đừng chỉ lặp lại cùng một từ bằng cách nói khác.",
+      "check": {
+        "id": "cc4-v4-l04-grammar-check-05",
+        "prompt": "Điền: ____「住宅」，是指供人居住的房子。",
+        "options": [
+          {
+            "id": "a",
+            "text": "光"
+          },
+          {
+            "id": "b",
+            "text": "所謂"
+          },
+          {
+            "id": "c",
+            "text": "總算"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "所謂 mở đầu một định nghĩa.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l04-t09"
+    },
+    {
+      "id": "cc4-v4-l04-grammar-06",
+      "title": "一口氣",
+      "explanation": "Làm một việc liên tục trong một lượt, không ngắt quãng. Trong bài, ông Lâm nói bà Lâm kể quá nhiều điều trong một hơi.",
+      "structure": "一口氣 + động từ + số lượng / kết quả",
+      "examples": [
+        {
+          "chinese": "妳一口氣說了那麼多，我怎麼聽得清楚？",
+          "simplified": "你一口气说了那么多，我怎么听得清楚？",
+          "pinyin": "nǐ yī kǒu qì shuō le nà me duō ， wǒ zěn me tīng dé qīng chǔ ？",
+          "meaningVi": "Em nói một hơi nhiều thế, sao anh nghe rõ được?"
+        },
+        {
+          "chinese": "他一口氣搬了三個箱子。",
+          "simplified": "他一口气搬了三个箱子。",
+          "pinyin": "tā yī kǒu qì bān le sān gè xiāng zi 。",
+          "meaningVi": "Anh ấy chuyển liền một mạch ba thùng đồ."
+        }
+      ],
+      "commonMistake": "一口氣 không nói về hơi thở theo nghĩa đen trong cách dùng này.",
+      "check": {
+        "id": "cc4-v4-l04-grammar-check-06",
+        "prompt": "Điền: 他____把三個箱子搬上樓。",
+        "options": [
+          {
+            "id": "a",
+            "text": "還不就是"
+          },
+          {
+            "id": "b",
+            "text": "所謂"
+          },
+          {
+            "id": "c",
+            "text": "一口氣"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Hành động chuyển ba thùng diễn ra liên tục một lượt.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l04-t10"
+    },
+    {
+      "id": "cc4-v4-l04-grammar-07",
+      "title": "光A就…",
+      "explanation": "Chỉ riêng A đã đủ tạo ra kết quả B, thường để nhấn mạnh mức độ vượt dự đoán. A có thể là một việc hoặc một nhóm nhỏ.",
+      "structure": "光 + A + 就 + B",
+      "examples": [
+        {
+          "chinese": "光擺飾就有很多學問。",
+          "simplified": "光摆饰就有很多学问。",
+          "pinyin": "guāng bǎi shì jiù yǒu hěn duō xué wèn 。",
+          "meaningVi": "Chỉ riêng đồ trang trí đã có nhiều điều phải học."
+        },
+        {
+          "chinese": "光搬這張床就花了一個小時。",
+          "simplified": "光搬这张床就花了一个小时。",
+          "pinyin": "guāng bān zhè zhāng chuáng jiù huā le yī gè xiǎo shí 。",
+          "meaningVi": "Chỉ chuyển chiếc giường này đã mất một tiếng."
+        }
+      ],
+      "commonMistake": "Đừng bỏ 就 ở mệnh đề nêu kết quả khi dùng mẫu này.",
+      "check": {
+        "id": "cc4-v4-l04-grammar-check-07",
+        "prompt": "Điền: ____擺飾____有很多學問。",
+        "options": [
+          {
+            "id": "a",
+            "text": "光…就…"
+          },
+          {
+            "id": "b",
+            "text": "總算…就…"
+          },
+          {
+            "id": "c",
+            "text": "所謂…就…"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Mẫu 光A就B nhấn rằng chỉ riêng A đã đủ cho B.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l04-t11"
+    },
+    {
+      "id": "cc4-v4-l04-grammar-08",
+      "title": "都 + sự việc đã quá mức",
+      "explanation": "Trong lời than phiền, 都 nhấn rằng một mức độ hoặc thời điểm đã vượt điều người nói mong đợi, vậy mà tình huống vẫn chưa đổi.",
+      "structure": "都 + mức độ / thời điểm + 了，還…",
+      "examples": [
+        {
+          "chinese": "都這麼晚了，你還不睡？",
+          "simplified": "都这么晚了，你还不睡？",
+          "pinyin": "dōu zhè me wǎn le ， nǐ hái bù shuì ？",
+          "meaningVi": "Muộn thế này rồi mà bạn vẫn chưa ngủ à?"
+        },
+        {
+          "chinese": "我都等了一個小時了，他還沒來。",
+          "simplified": "我都等了一个小时了，他还没来。",
+          "pinyin": "wǒ dōu děng le yī gè xiǎo shí le ， tā hái méi lái 。",
+          "meaningVi": "Tôi đã đợi cả tiếng mà anh ấy vẫn chưa tới."
+        }
+      ],
+      "commonMistake": "Không phải mọi 都 đều mang sắc thái bực bội; cần nhìn cả ngữ cảnh và vế sau.",
+      "check": {
+        "id": "cc4-v4-l04-grammar-check-08",
+        "prompt": "Điền: 我____等了兩個鐘頭了，你還沒到！",
+        "options": [
+          {
+            "id": "a",
+            "text": "所謂"
+          },
+          {
+            "id": "b",
+            "text": "都"
+          },
+          {
+            "id": "c",
+            "text": "光"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "都 nhấn thời gian chờ đã quá lâu trong lời than phiền.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l04-t12"
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc4-v4-l04-listening-01",
+      "prompt": "Nghe hội thoại: ông Lâm muốn đặt giường ở đâu lúc đầu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cạnh tủ quần áo"
+        },
+        {
+          "id": "b",
+          "text": "Cạnh cửa chính"
+        },
+        {
+          "id": "c",
+          "text": "Dưới cửa sổ"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Ông hỏi 衣櫥旁邊好不好？ — cạnh tủ quần áo có được không.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l04-t01"
+    },
+    {
+      "id": "cc4-v4-l04-listening-02",
+      "prompt": "Nghe hội thoại: bà Lâm nói gì về vị trí đối diện cửa?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rất tiện đi lại"
+        },
+        {
+          "id": "b",
+          "text": "Không tốt"
+        },
+        {
+          "id": "c",
+          "text": "Rộng hơn"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bà nói 放在這裡會正對門，不好.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l04-t01"
+    },
+    {
+      "id": "cc4-v4-l04-listening-03",
+      "prompt": "Nghe bài đọc: khi chọn nhà, người ta thường cân nhắc gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ màu sơn"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ tên kiến trúc sư"
+        },
+        {
+          "id": "c",
+          "text": "Vị trí, giao thông, môi trường và giá"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Đầu bài nêu địa lý, giao thông, môi trường xung quanh và giá.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l04-t03"
+    },
+    {
+      "id": "cc4-v4-l04-listening-04",
+      "prompt": "Nghe bài đọc: các hình rồng và đồng tiền ở Đài Bắc 101 được liên hệ với điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sự may mắn và tài lộc"
+        },
+        {
+          "id": "b",
+          "text": "Thời tiết"
+        },
+        {
+          "id": "c",
+          "text": "Lịch sử chiến tranh"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc nói hình rồng tượng trưng cho may mắn và đồng tiền gợi tài lộc.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l04-t03"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc4-v4-l04-practice-01",
+      "prompt": "Điền: 搬了一天，____把東西搬完了。",
+      "options": [
+        {
+          "id": "a",
+          "text": "總算"
+        },
+        {
+          "id": "b",
+          "text": "所謂"
+        },
+        {
+          "id": "c",
+          "text": "光"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "總算 diễn tả kết quả cuối cùng sau cả ngày chuyển đồ.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l04-practice-02",
+      "prompt": "Điền: 風水____不是迷信！",
+      "options": [
+        {
+          "id": "a",
+          "text": "光"
+        },
+        {
+          "id": "b",
+          "text": "才"
+        },
+        {
+          "id": "c",
+          "text": "都"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "才 dùng để bác lại mạnh nhận xét của người khác.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l04-practice-03",
+      "prompt": "Điền: ____住宅，是指供人居住的房子。",
+      "options": [
+        {
+          "id": "a",
+          "text": "一口氣"
+        },
+        {
+          "id": "b",
+          "text": "總算"
+        },
+        {
+          "id": "c",
+          "text": "所謂"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "所謂…是指… dùng để giải thích một khái niệm.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l04-practice-04",
+      "prompt": "Điền: 他____搬了三個箱子。",
+      "options": [
+        {
+          "id": "a",
+          "text": "一口氣"
+        },
+        {
+          "id": "b",
+          "text": "光"
+        },
+        {
+          "id": "c",
+          "text": "還不就是"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "一口氣 cho biết anh ấy chuyển liên tục một lượt.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l04-practice-05",
+      "prompt": "Điền: ____這張床____花了一個小時。",
+      "options": [
+        {
+          "id": "a",
+          "text": "總算…就…"
+        },
+        {
+          "id": "b",
+          "text": "光…就…"
+        },
+        {
+          "id": "c",
+          "text": "所謂…是指…"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Chỉ riêng chiếc giường này đã mất một tiếng.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l04-practice-06",
+      "prompt": "Trong bài, vì sao bà Lâm không muốn kê giường đối diện cửa?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Giường không lọt qua cửa."
+        },
+        {
+          "id": "b",
+          "text": "Tủ quần áo chắn đường."
+        },
+        {
+          "id": "c",
+          "text": "Bà cho rằng vị trí đó không tốt."
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bà nói 放在這裡會正對門，不好.",
+      "skill": "Đọc hiểu",
+      "kind": "choice"
+    },
+    {
+      "id": "cc4-v4-l04-practice-07",
+      "prompt": "Chọn nghĩa của 擺飾.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đồ trang trí"
+        },
+        {
+          "id": "b",
+          "text": "Thầy phong thủy"
+        },
+        {
+          "id": "c",
+          "text": "Cửa bên"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "擺飾 là đồ dùng để trang trí, sắp đặt.",
+      "skill": "Từ vựng",
+      "kind": "choice"
+    },
+    {
+      "id": "cc4-v4-l04-practice-08",
+      "prompt": "Bài đọc nói chi tiết nào ở Đài Bắc 101 biểu thị tài lộc?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Màu ghế trong phòng họp"
+        },
+        {
+          "id": "b",
+          "text": "Hình đồng tiền cổ và rùa ngậm tiền"
+        },
+        {
+          "id": "c",
+          "text": "Bảng tên nhân viên"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc dùng 招財 để nói về đồng tiền và rùa ngậm tiền.",
+      "skill": "Đọc hiểu",
+      "kind": "choice"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc4-v4-l04-assessment-01",
+      "prompt": "衣櫥 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tủ quần áo"
+        },
+        {
+          "id": "b",
+          "text": "Bàn trang điểm"
+        },
+        {
+          "id": "c",
+          "text": "Chân giường"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "衣櫥 là tủ quần áo.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc4-v4-l04-assessment-02",
+      "prompt": "風水師 là ai?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kiến trúc sư"
+        },
+        {
+          "id": "b",
+          "text": "Thầy phong thủy"
+        },
+        {
+          "id": "c",
+          "text": "Người chuyển nhà"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "師 chỉ người làm nghề; 風水師 là thầy phong thủy.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc4-v4-l04-assessment-03",
+      "prompt": "Điền: 我們____把家具搬完了。",
+      "options": [
+        {
+          "id": "a",
+          "text": "所謂"
+        },
+        {
+          "id": "b",
+          "text": "光"
+        },
+        {
+          "id": "c",
+          "text": "總算"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "總算 nhấn việc cuối cùng cũng hoàn tất.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l04-assessment-04",
+      "prompt": "Điền: A: 妳很迷信。B: 我____迷信！",
+      "options": [
+        {
+          "id": "a",
+          "text": "才不是"
+        },
+        {
+          "id": "b",
+          "text": "還不就是"
+        },
+        {
+          "id": "c",
+          "text": "一口氣"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "才不是 là lời phủ định mạnh.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l04-assessment-05",
+      "prompt": "所謂A，是指B dùng để làm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kể việc diễn ra liên tục"
+        },
+        {
+          "id": "b",
+          "text": "Giải thích khái niệm A"
+        },
+        {
+          "id": "c",
+          "text": "Bày tỏ sự chờ đợi"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "B là phần định nghĩa hoặc giải thích A.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l04-assessment-06",
+      "prompt": "Trong hội thoại, ai cho rằng vị trí giường đối diện cửa không tốt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ông Lâm"
+        },
+        {
+          "id": "b",
+          "text": "Người chuyển nhà"
+        },
+        {
+          "id": "c",
+          "text": "Bà Lâm"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bà Lâm phản đối vị trí đó.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc4-v4-l04-assessment-07",
+      "prompt": "Vì sao ông Lâm nói “妳一口氣說了那麼多”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bà Lâm nói một mạch quá nhiều."
+        },
+        {
+          "id": "b",
+          "text": "Bà Lâm nói quá nhỏ."
+        },
+        {
+          "id": "c",
+          "text": "Bà Lâm bỏ đi."
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Ông than không nghe kịp vì bà nói nhiều trong một lượt.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc4-v4-l04-assessment-08",
+      "prompt": "Trong bài đọc, mỗi “chậu” trên Đài Bắc 101 ứng với bao nhiêu tầng?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sáu tầng"
+        },
+        {
+          "id": "b",
+          "text": "Tám tầng"
+        },
+        {
+          "id": "c",
+          "text": "Mười tầng"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc viết 每八層樓是一個盆子.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc4-v4-l04-assessment-09",
+      "prompt": "Chi tiết “rùa ngậm tiền” biểu thị điều gì theo bài đọc?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Giữ mát mái nhà"
+        },
+        {
+          "id": "b",
+          "text": "Đo hướng gió"
+        },
+        {
+          "id": "c",
+          "text": "Thu hút tài lộc"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc gọi đây là ý nghĩa 招財.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc4-v4-l04-assessment-10",
+      "prompt": "Câu nào dùng đúng 光A就B?",
+      "options": [
+        {
+          "id": "a",
+          "text": "光搬這張床就花了一個小時。"
+        },
+        {
+          "id": "b",
+          "text": "光搬這張床花了一個小時就。"
+        },
+        {
+          "id": "c",
+          "text": "光就搬這張床花了一個小時。"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "光 đứng trước A, 就 đứng trước kết quả B.",
+      "skill": "Ngữ pháp"
+    }
+  ],
+  "writingTask": {
+    "id": "cc4-v4-l04-writing",
+    "title": "Sắp xếp căn phòng",
+    "prompt": "Viết vài câu về vị trí bạn muốn đặt giường hoặc bàn học. Dùng một mẫu 所謂…是指… hoặc 光A就B nếu phù hợp.",
+    "sampleTraditional": "我想把床擺在窗邊。光整理這個房間就花了一個下午。",
+    "sampleSimplified": "我想把床摆在窗边。光整理这个房间就花了一个下午。"
+  }
+}

@@ -9,12 +9,13 @@ import manifest from '../data/academy/cc4-audio-manifest.json' with { type: 'jso
 import reviewed from '../data/academy/cc4-reviewed-content.json' with { type: 'json' };
 import lesson02Words from '../data/academy/cc4-lesson02-vocabulary.json' with { type: 'json' };
 import lesson03Words from '../data/academy/cc4-lesson03-vocabulary.json' with { type: 'json' };
+import lesson04Words from '../data/academy/cc4-lesson04-vocabulary.json' with { type: 'json' };
 
 const root = path.resolve(import.meta.dirname, '..');
 
 test('Volume 4 releases reviewed lessons with isolated IDs and complete activities', () => {
   assert.equal(academyVolume4.lessonIds.length, 12);
-  assert.equal(academyVolume4Lessons.length, 3);
+  assert.equal(academyVolume4Lessons.length, 4);
   const lesson = academyVolume4Lessons[0];
   assert.equal(lesson.id, 'cc4-v4-l01');
   assert.equal(validateAcademyLessonContent(lesson), true);
@@ -34,6 +35,43 @@ test('Volume 4 releases reviewed lessons with isolated IDs and complete activiti
     assert.ok(question.options.some((option) => option.id === question.correctOptionId), question.id);
     assert.equal(new Set(question.options.map((option) => option.text)).size, question.options.length, question.id);
   }
+});
+
+test('Volume 4 Lesson 04 includes source passages, named vocabulary and verified audio', () => {
+  const lesson = academyVolume4Lessons[3];
+  assert.equal(lesson.id, 'cc4-v4-l04');
+  assert.equal(validateAcademyLessonContent(lesson), true);
+  assert.equal(lesson.lecture.dialogues[0].turns.length, 20);
+  assert.equal(lesson.lecture.dialogues[1].turns.length, 3);
+  assert.deepEqual(new Set(lesson.lecture.dialogues[0].turns.map((turn) => turn.speaker)), new Set(['林先生', '林太太']));
+  assert.equal(lesson.vocabulary.wordIds.length, 77);
+  assert.equal(new Set(lesson.vocabulary.wordIds).size, 77);
+  assert.equal(academyVocabularyByIds(lesson.vocabulary.wordIds).length, 77);
+  assert.equal(lesson04Words.records.length, 77);
+  for (const word of lesson04Words.records) {
+    assert.ok(word.exampleTraditional.includes(word.traditional), word.id);
+    assert.ok(word.exampleSimplified.includes(word.simplified), word.id);
+    assert.ok(word.meaningVi && word.exampleVi && word.pinyin, word.id);
+  }
+  assert.equal(lesson.grammar.length, 8);
+  assert.equal(lesson.listening.length, 4);
+  assert.equal(lesson.practice.length, 8);
+  assert.equal(lesson.assessment.length, 10);
+  assert.equal(academyScriptText(lesson.title, 'simplified'), '床该摆哪里？');
+  for (const trackId of ['cc4-textbook-l04-t01', 'cc4-textbook-l04-t02', 'cc4-textbook-l04-t03', 'cc4-textbook-l04-t04']) {
+    const track = manifest.tracks.find((item) => item.id === trackId);
+    assert.equal(track?.mappingStatus, 'verified', trackId);
+    assert.ok(existsSync(path.join(root, 'public/academy/cc4/audio', `${trackId}.mp3`)), trackId);
+  }
+  for (const point of lesson.grammar) {
+    if (!point.audioTrackId) continue;
+    const track = manifest.tracks.find((item) => item.id === point.audioTrackId);
+    assert.equal(track?.mappingStatus, 'verified', point.audioTrackId);
+    assert.ok(existsSync(path.join(root, 'public/academy/cc4/audio', `${point.audioTrackId}.mp3`)), point.audioTrackId);
+  }
+  assert.equal(lesson.grammar[3].audioTrackId, undefined, 'unverified grammar summary audio stays unpublished');
+  assert.ok(reviewed['cc4-textbook-l04-t01'].transcriptTraditional.includes('正對門'));
+  assert.ok(reviewed['cc4-textbook-l04-t03'].transcriptTraditional.includes('台北101大樓'));
 });
 
 test('Volume 4 Lesson 03 keeps the two speakers, source vocabulary and verified listening tracks', () => {

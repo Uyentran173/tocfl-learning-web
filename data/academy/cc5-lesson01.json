@@ -1,0 +1,1401 @@
+{
+  "contentVersion": 2,
+  "id": "cc5-v5-l01",
+  "title": "言論自由的界線",
+  "titleVi": "Ranh giới của tự do ngôn luận",
+  "description": "Đọc hai lập luận trái chiều về tự do ngôn luận, học cách trình bày quan điểm, đối chiếu dẫn chứng và phản biện có trách nhiệm.",
+  "objectives": [
+    "Nắm luận điểm và dẫn chứng của hai bài đọc về tự do ngôn luận.",
+    "Dùng 12 mẫu ngữ pháp trong bài để nêu điều kiện, đối chiếu và trách nhiệm.",
+    "Viết một đoạn ngắn trình bày ý kiến có luận cứ và tôn trọng quan điểm khác."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Bài học đưa ra hai quan điểm: một bên nhấn mạnh bảo vệ quyền lên tiếng, bên kia đặt câu hỏi về tác hại khi quyền ấy bị lạm dụng. Hãy nghe và đọc từng bài trước khi chọn lập trường; mục tiêu là hiểu lý lẽ, không phải đoán ‘đáp án đúng’ cho một vấn đề xã hội.",
+    "sections": [
+      {
+        "id": "cc5-v5-l01-section-01",
+        "title": "Đọc để nhận ra luận điểm",
+        "body": "Bài 1 bắt đầu từ tin tức rồi chuyển sang định nghĩa, lợi ích và cách xử lý hành vi gây hại. Tìm câu chủ chốt của từng đoạn; phân biệt ví dụ với kết luận.",
+        "chinese": "言論自由，顧名思義，是指人人都有表達意見和想法的權利。",
+        "simplified": "言论自由，顾名思义，是指人人都有表达意见和想法的权利。",
+        "pinyin": "yán lùn zì yóu ， gù míng sī yì ， shì zhǐ rén rén dōu yǒu biǎo dá yì jiàn hé xiǎng fǎ de quán lì 。",
+        "meaningVi": "Tự do ngôn luận là quyền mọi người được bày tỏ ý kiến và suy nghĩ."
+      },
+      {
+        "id": "cc5-v5-l01-section-02",
+        "title": "Nhìn từ phía đối lập",
+        "body": "Bài 2 không phủ nhận quyền nói, nhưng lập luận rằng ẩn danh và tốc độ lan truyền có thể khuếch đại tổn hại. Chú ý các từ chuyển ý như 然而、的確、但是、否則.",
+        "chinese": "言論自由不能完全沒有限制，網路言論尤其如此。",
+        "simplified": "言论自由不能完全没有限制，网路言论尤其如此。",
+        "pinyin": "yán lùn zì yóu bù néng wán quán méi yǒu xiàn zhì ， wǎng lù yán lùn yóu qí rú cǐ 。",
+        "meaningVi": "Tự do ngôn luận không thể hoàn toàn không có giới hạn; lời nói trên mạng càng như vậy."
+      },
+      {
+        "id": "cc5-v5-l01-section-03",
+        "title": "So sánh giải pháp",
+        "body": "Hai bài cùng nhắc đến ngôn từ thù hận và trách nhiệm, nhưng bài 1 coi giáo dục và thực thi luật hiện có là trọng tâm; bài 2 đề xuất ranh giới và luật nghiêm hơn. Hãy ghi lại chính xác tác giả nào nói điều gì.",
+        "chinese": "在享受言論自由的同時，也必須承擔起相關責任。",
+        "simplified": "在享受言论自由的同时，也必须承担起相关责任。",
+        "pinyin": "zài xiǎng shòu yán lùn zì yóu de tóng shí ， yě bì xū chéng dān qǐ xiāng guān zé rèn 。",
+        "meaningVi": "Khi hưởng tự do ngôn luận, cũng phải gánh trách nhiệm tương ứng."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc5-v5-l01-reading-for",
+        "title": "Bài đọc 1 · 擁有言論自由才是真民主",
+        "context": "Lập luận bảo vệ tự do ngôn luận; sách giáo khoa tr. 2, PDF tr. 28.",
+        "audioTrackId": "cc5-textbook-l01-t02",
+        "turns": [
+          {
+            "speaker": "Bài đọc 1",
+            "chinese": "「罵人垃圾，無罪！」「沒放颱風假？市長遭網友罵慘」……看到這樣的新聞，第一個反應可能是覺得太誇張了、不可思議，於是也上網發表文章，批評司法判決沒有道理、政府無能。能這麼做，是因為我們很幸運地生活在擁有言論自由的時代。",
+            "simplified": "「骂人垃圾，无罪！」「没放台风假？市长遭网友骂惨」……看到这样的新闻，第一个反应可能是觉得太夸张了、不可思议，于是也上网发表文章，批评司法判决没有道理、政府无能。能这么做，是因为我们很幸运地生活在拥有言论自由的时代。",
+            "pinyin": "「 mà rén lā jī ， wú zuì ！ 」 「 méi fàng tái fēng jiǎ ？ shì zhǎng zāo wǎng yǒu mà cǎn 」 … … kàn dào zhè yàng de xīn wén ， dì yī gè fǎn yīng kě néng shì jué dé tài kuā zhāng le 、 bù kě sī yì ， yú shì yě shàng wǎng fā biǎo wén zhāng ， pī píng sī fǎ pàn jué méi yǒu dào lǐ 、 zhèng fǔ wú néng 。 néng zhè me zuò ， shì yīn wèi wǒ men hěn xìng yùn dì shēng huó zài yōng yǒu yán lùn zì yóu de shí dài 。",
+            "meaningVi": "Đọc tin như ‘Mắng người khác là rác mà vô tội’ hay ‘Thị trưởng bị cư dân mạng chỉ trích dữ dội vì không cho nghỉ bão’, ta có thể thấy quá đáng, khó tin rồi lên mạng viết bài phê phán phán quyết tư pháp hoặc sự bất lực của chính quyền. Ta làm được điều ấy vì may mắn sống trong thời đại có tự do ngôn luận."
+          },
+          {
+            "speaker": "Bài đọc 1",
+            "chinese": "言論自由，顧名思義，是指人人都有表達意見和想法的權利，這是民主制度的基礎。每個人都能接收各種來源的訊息，不受檢查及限制，也不必擔心說了什麼以後會被處罰。這樣的社會包容各種不同意見，即使是批評、反對也不例外。",
+            "simplified": "言论自由，顾名思义，是指人人都有表达意见和想法的权利，这是民主制度的基础。每个人都能接收各种来源的讯息，不受检查及限制，也不必担心说了什么以后会被处罚。这样的社会包容各种不同意见，即使是批评、反对也不例外。",
+            "pinyin": "yán lùn zì yóu ， gù míng sī yì ， shì zhǐ rén rén dōu yǒu biǎo dá yì jiàn hé xiǎng fǎ de quán lì ， zhè shì mín zhǔ zhì dù de jī chǔ 。 měi gè rén dōu néng jiē shōu gè zhǒng lái yuán de xùn xī ， bù shòu jiǎn chá jí xiàn zhì ， yě bù bì dān xīn shuō le shén me yǐ hòu huì bèi chù fá 。 zhè yàng de shè huì bāo róng gè zhǒng bù tóng yì jiàn ， jí shǐ shì pī píng 、 fǎn duì yě bù lì wài 。",
+            "meaningVi": "Tự do ngôn luận, đúng như tên gọi, là quyền của mọi người được bày tỏ ý kiến và suy nghĩ; đó là nền tảng của thể chế dân chủ. Ai cũng có thể tiếp nhận thông tin từ nhiều nguồn mà không bị kiểm duyệt, hạn chế hay lo bị phạt vì điều mình nói. Xã hội như vậy dung nạp những ý kiến khác nhau, kể cả lời phê bình và phản đối."
+          },
+          {
+            "speaker": "Bài đọc 1",
+            "chinese": "不論是在媒體上發表文章或上街抗議，都展現了言論自由的力量。正因為有言論自由，政府的決策受到人民的監督，無法胡作非為。想想看，一旦政府把發言權當做政治工具，民眾怎麼會不被洗腦？在言論被限制的情況下，還有人敢說真話嗎？人民又怎麼有機會爭取自己的權益？",
+            "simplified": "不论是在媒体上发表文章或上街抗议，都展现了言论自由的力量。正因为有言论自由，政府的决策受到人民的监督，无法胡作非为。想想看，一旦政府把发言权当做政治工具，民众怎么会不被洗脑？在言论被限制的情况下，还有人敢说真话吗？人民又怎么有机会争取自己的权益？",
+            "pinyin": "bù lùn shì zài méi tǐ shàng fā biǎo wén zhāng huò shàng jiē kàng yì ， dōu zhǎn xiàn le yán lùn zì yóu de lì liàng 。 zhèng yīn wèi yǒu yán lùn zì yóu ， zhèng fǔ de jué cè shòu dào rén mín de jiān dū ， wú fǎ hú zuò fēi wèi 。 xiǎng xiǎng kàn ， yí dàn zhèng fǔ bǎ fā yán quán dāng zuò zhèng zhì gōng jù ， mín zhòng zěn me huì bù bèi xǐ nǎo ？ zài yán lùn bèi xiàn zhì de qíng kuàng xià ， hái yǒu rén gǎn shuō zhēn huà ma ？ rén mín yòu zěn me yǒu jī huì zhēng qǔ zì jǐ de quán yì ？",
+            "meaningVi": "Đăng bài trên truyền thông hay xuống đường biểu tình đều thể hiện sức mạnh của tự do ngôn luận. Chính nhờ quyền ấy, quyết sách của chính phủ được người dân giám sát và chính phủ không thể làm bừa. Nếu quyền phát biểu biến thành công cụ chính trị, người dân dễ bị tẩy não; khi lời nói bị hạn chế, ai còn dám nói thật và đấu tranh cho quyền lợi của mình?"
+          },
+          {
+            "speaker": "Bài đọc 1",
+            "chinese": "人都有盲點，所以意見越是多元，不同立場的觀點越能得到平衡；當你受到批評，也有言論權來替自己辯護。如果有理，大家會跟你站在同一邊；若是無理取鬧，為反對而反對，也會有人跳出來批評指正。透過一來一往的討論和批評，真理將越辯越明，社會共識也慢慢形成。只有一種聲音的社會是無法進步的。",
+            "simplified": "人都有盲点，所以意见越是多元，不同立场的观点越能得到平衡；当你受到批评，也有言论权来替自己辩护。如果有理，大家会跟你站在同一边；若是无理取闹，为反对而反对，也会有人跳出来批评指正。透过一来一往的讨论和批评，真理将越辩越明，社会共识也慢慢形成。只有一种声音的社会是无法进步的。",
+            "pinyin": "rén dōu yǒu máng diǎn ， suǒ yǐ yì jiàn yuè shì duō yuán ， bù tóng lì chǎng de guān diǎn yuè néng dé dào píng héng ； dāng nǐ shòu dào pī píng ， yě yǒu yán lùn quán lái tì zì jǐ biàn hù 。 rú guǒ yǒu lǐ ， dà jiā huì gēn nǐ zhàn zài tóng yī biān ； ruò shì wú lǐ qǔ nào ， wèi fǎn duì ér fǎn duì ， yě huì yǒu rén tiào chū lái pī píng zhǐ zhèng 。 tòu guò yī lái yī wǎng de tǎo lùn hé pī píng ， zhēn lǐ jiāng yuè biàn yuè míng ， shè huì gòng shí yě màn màn xíng chéng 。 zhǐ yǒu yī zhǒng shēng yīn de shè huì shì wú fǎ jìn bù de 。",
+            "meaningVi": "Ai cũng có điểm mù. Ý kiến càng đa dạng, các góc nhìn khác lập trường càng có cơ hội cân bằng nhau. Khi bị phê bình, bạn cũng có quyền lên tiếng tự bảo vệ. Lý lẽ vững thì có người ủng hộ; phản đối vô cớ cũng sẽ có người chỉ ra sai sót. Qua tranh luận qua lại, sự thật sáng tỏ hơn và đồng thuận xã hội dần hình thành. Xã hội chỉ có một tiếng nói thì khó tiến bộ."
+          },
+          {
+            "speaker": "Bài đọc 1",
+            "chinese": "然而，每當提到媒體亂象，或是有人因為受不了網友的言論攻擊而自殺，大家就會開始批評言論過於自由。事實上，法律早就已經禁止發表仇恨性言論及不實謠言，那些仇恨性言論、不實內容所造成的霸凌現象，不是因為言論過於自由，而是因為那些人不懂得為自己的言論負責，誤解「言論自由」的意義。這是教育的問題，不該因此否定言論自由的價值，封住人民的嘴。",
+            "simplified": "然而，每当提到媒体乱象，或是有人因为受不了网友的言论攻击而自杀，大家就会开始批评言论过于自由。事实上，法律早就已经禁止发表仇恨性言论及不实谣言，那些仇恨性言论、不实内容所造成的霸凌现象，不是因为言论过于自由，而是因为那些人不懂得为自己的言论负责，误解「言论自由」的意义。这是教育的问题，不该因此否定言论自由的价值，封住人民的嘴。",
+            "pinyin": "rán ér ， měi dāng tí dào méi tǐ luàn xiàng ， huò shì yǒu rén yīn wèi shòu bù liǎo wǎng yǒu de yán lùn gōng jī ér zì shā ， dà jiā jiù huì kāi shǐ pī píng yán lùn guò yú zì yóu 。 shì shí shàng ， fǎ lǜ zǎo jiù yǐ jīng jìn zhǐ fā biǎo chóu hèn xìng yán lùn jí bù shí yáo yán ， nà xiē chóu hèn xìng yán lùn 、 bù shí nèi róng suǒ zào chéng de bà líng xiàn xiàng ， bú shì yīn wèi yán lùn guò yú zì yóu ， ér shì yīn wèi nà xiē rén bù dǒng de wèi zì jǐ de yán lùn fù zé ， wù jiě 「 yán lùn zì yóu 」 de yì yì 。 zhè shì jiào yù de wèn tí ， bù gāi yīn cǐ fǒu dìng yán lùn zì yóu de jià zhí ， fēng zhù rén mín de zuǐ 。",
+            "meaningVi": "Tuy nhiên, hễ nhắc đến sự hỗn loạn của truyền thông hay chuyện có người không chịu nổi lời công kích trên mạng mà tự sát, người ta lại trách tự do ngôn luận quá mức. Theo tác giả, pháp luật đã cấm ngôn từ thù hận và tin đồn sai sự thật; bắt nạt bắt nguồn từ việc một số người không chịu trách nhiệm về lời nói và hiểu sai tự do ngôn luận. Đây là vấn đề giáo dục, không nên vì vậy mà phủ nhận giá trị của quyền này hay bịt miệng người dân."
+          },
+          {
+            "speaker": "Bài đọc 1",
+            "chinese": "我們應該保護言論自由，因為這是讓有價值的想法，在這個混亂的時代裡，發出聲音的唯一方式。",
+            "simplified": "我们应该保护言论自由，因为这是让有价值的想法，在这个混乱的时代里，发出声音的唯一方式。",
+            "pinyin": "wǒ men yīng gāi bǎo hù yán lùn zì yóu ， yīn wèi zhè shì ràng yǒu jià zhí de xiǎng fǎ ， zài zhè gè hùn luàn de shí dài lǐ ， fā chū shēng yīn de wéi yī fāng shì 。",
+            "meaningVi": "Chúng ta nên bảo vệ tự do ngôn luận, vì trong thời đại hỗn loạn, đó là cách duy nhất để những ý tưởng có giá trị được cất lên."
+          }
+        ]
+      },
+      {
+        "id": "cc5-v5-l01-reading-against",
+        "title": "Bài đọc 2 · 濫用自由並非真自由",
+        "context": "Lập luận về ranh giới và trách nhiệm; sách giáo khoa tr. 12, PDF tr. 38.",
+        "audioTrackId": "cc5-textbook-l01-t06",
+        "turns": [
+          {
+            "speaker": "Bài đọc 2",
+            "chinese": "在自由民主的社會裡，每個人都可以說出自己想說的話，不用擔心會因為反對政府、批評總統，甚至說錯一個字而被抓去關。可惜，很多人都濫用了這種自由。打開電視，名嘴們不是說著毫無根據的內容，就是隨意批評；網路上，鄉民躲在匿名制度的保護傘下，讓謠言滿天飛，或是自以為正義，惡意批評，引起更多的負面情緒。言論自由簡直成了這些人的護身符，難道他們都不需要為自己所說的話負責嗎？吵個不停，真理就會越辯越明嗎？",
+            "simplified": "在自由民主的社会里，每个人都可以说出自己想说的话，不用担心会因为反对政府、批评总统，甚至说错一个字而被抓去关。可惜，很多人都滥用了这种自由。打开电视，名嘴们不是说着毫无根据的内容，就是随意批评；网路上，乡民躲在匿名制度的保护伞下，让谣言满天飞，或是自以为正义，恶意批评，引起更多的负面情绪。言论自由简直成了这些人的护身符，难道他们都不需要为自己所说的话负责吗？吵个不停，真理就会越辩越明吗？",
+            "pinyin": "zài zì yóu mín zhǔ de shè huì lǐ ， měi gè rén dōu kě yǐ shuō chū zì jǐ xiǎng shuō de huà ， bù yòng dān xīn huì yīn wèi fǎn duì zhèng fǔ 、 pī píng zǒng tǒng ， shèn zhì shuō cuò yī gè zì ér bèi zhuā qù guān 。 kě xī ， hěn duō rén dōu làn yòng le zhè zhǒng zì yóu 。 dǎ kāi diàn shì ， míng zuǐ men bú shì shuō zhù háo wú gēn jù de nèi róng ， jiù shì suí yì pī píng ； wǎng lù shàng ， xiāng mín duǒ zài nì míng zhì dù de bǎo hù sǎn xià ， ràng yáo yán mǎn tiān fēi ， huò shì zì yǐ wèi zhèng yì ， è yì pī píng ， yǐn qǐ gèng duō de fù miàn qíng xù 。 yán lùn zì yóu jiǎn zhí chéng le zhè xiē rén de hù shēn fú ， nán dào tā men dōu bù xū yào wèi zì jǐ suǒ shuō de huà fù zé ma ？ chǎo gè bù tíng ， zhēn lǐ jiù huì yuè biàn yuè míng ma ？",
+            "meaningVi": "Trong xã hội dân chủ tự do, ai cũng được nói điều mình nghĩ mà không sợ bị bắt giam vì phản đối chính phủ, chỉ trích tổng thống, thậm chí nói sai một chữ. Đáng tiếc, nhiều người lạm dụng quyền ấy. Trên truyền hình có người phát biểu thiếu căn cứ hoặc tùy tiện chỉ trích; trên mạng, có người núp sau chế độ ẩn danh để tung tin đồn, tự cho mình chính nghĩa và công kích ác ý. Tự do ngôn luận trở thành lá bùa che chắn cho họ. Tác giả đặt câu hỏi: họ không phải chịu trách nhiệm sao, và cãi mãi có thật làm chân lý sáng rõ hơn không?"
+          },
+          {
+            "speaker": "Bài đọc 2",
+            "chinese": "言論自由不能完全沒有限制，網路言論尤其如此。網路匿名方式讓許多人更大膽地表達意見，加上網路傳播速度快，因此影響力更強大、更驚人。然而，這股力量可能在人們有心或無意的情況下，對個人或社會造成威脅。的確，言論自由是每個人的權利，但是我們看到太多自由被濫用的例子。只要立場不同，就攻擊、諷刺，可是不見得每個人都能輕鬆面對這樣的言論。有人因此而得了憂鬱症，甚至自殺；多數人則選擇閉嘴不回應。網路鄉民以「言論自由」之名傷害別人，不正是破壞了言論自由嗎？",
+            "simplified": "言论自由不能完全没有限制，网路言论尤其如此。网路匿名方式让许多人更大胆地表达意见，加上网路传播速度快，因此影响力更强大、更惊人。然而，这股力量可能在人们有心或无意的情况下，对个人或社会造成威胁。的确，言论自由是每个人的权利，但是我们看到太多自由被滥用的例子。只要立场不同，就攻击、讽刺，可是不见得每个人都能轻松面对这样的言论。有人因此而得了忧郁症，甚至自杀；多数人则选择闭嘴不回应。网路乡民以「言论自由」之名伤害别人，不正是破坏了言论自由吗？",
+            "pinyin": "yán lùn zì yóu bù néng wán quán méi yǒu xiàn zhì ， wǎng lù yán lùn yóu qí rú cǐ 。 wǎng lù nì míng fāng shì ràng xǔ duō rén gèng dà dǎn dì biǎo dá yì jiàn ， jiā shàng wǎng lù chuán bō sù dù kuài ， yīn cǐ yǐng xiǎng lì gèng qiáng dà 、 gèng jīng rén 。 rán ér ， zhè gǔ lì liàng kě néng zài rén men yǒu xīn huò wú yì de qíng kuàng xià ， duì gè rén huò shè huì zào chéng wēi xié 。 de què ， yán lùn zì yóu shì měi gè rén de quán lì ， dàn shì wǒ men kàn dào tài duō zì yóu bèi làn yòng de lì zi 。 zhǐ yào lì chǎng bù tóng ， jiù gōng jī 、 fěng cì ， kě shì bù jiàn dé měi gè rén dōu néng qīng sōng miàn duì zhè yàng de yán lùn 。 yǒu rén yīn cǐ ér dé le yōu yù zhèng ， shèn zhì zì shā ； duō shù rén zé xuǎn zé bì zuǐ bù huí yīng 。 wǎng lù xiāng mín yǐ 「 yán lùn zì yóu 」 zhī míng shāng hài bié rén ， bù zhèng shì pò huài le yán lùn zì yóu ma ？",
+            "meaningVi": "Tự do ngôn luận không thể hoàn toàn không có giới hạn, đặc biệt là lời nói trên mạng. Ẩn danh khiến nhiều người mạnh dạn phát biểu hơn; tốc độ lan truyền nhanh làm ảnh hưởng càng lớn. Nhưng sức mạnh ấy, dù cố ý hay vô ý, cũng có thể đe dọa cá nhân và xã hội. Theo tác giả, bất đồng quan điểm dễ dẫn đến công kích, mỉa mai; có người vì vậy mắc trầm cảm hoặc tự sát, còn đa số chọn im lặng. Dùng danh nghĩa tự do ngôn luận để làm hại người khác cũng là phá hoại chính quyền tự do ấy."
+          },
+          {
+            "speaker": "Bài đọc 2",
+            "chinese": "除了網路，媒體人更應該管好自己的嘴巴。雖然目前有法律來處罰仇恨和歧視性言論，但事實上，媒體聰明得很，他們在標題加上「？」、「懷疑」或是「可能」這種模糊的方式，就是為了避開責任，法律根本處罰不到他們。名嘴們就更不用說了，他們擅長走在灰色地帶，就算被告，等法院判決確定，還不知得等多久，但傷害卻早就已經造成。",
+            "simplified": "除了网路，媒体人更应该管好自己的嘴巴。虽然目前有法律来处罚仇恨和歧视性言论，但事实上，媒体聪明得很，他们在标题加上「？」、「怀疑」或是「可能」这种模糊的方式，就是为了避开责任，法律根本处罚不到他们。名嘴们就更不用说了，他们擅长走在灰色地带，就算被告，等法院判决确定，还不知得等多久，但伤害却早就已经造成。",
+            "pinyin": "chú le wǎng lù ， méi tǐ rén gèng yīng gāi guǎn hǎo zì jǐ de zuǐ bā 。 suī rán mù qián yǒu fǎ lǜ lái chù fá chóu hèn hé qí shì xìng yán lùn ， dàn shì shí shàng ， méi tǐ cōng míng dé hěn ， tā men zài biāo tí jiā shàng 「 ？ 」 、 「 huái yí 」 huò shì 「 kě néng 」 zhè zhǒng mó hú de fāng shì ， jiù shì wèi le bì kāi zé rèn ， fǎ lǜ gēn běn chù fá bú dào tā men 。 míng zuǐ men jiù gèng bù yòng shuō le ， tā men shàn zhǎng zǒu zài huī sè dì dài ， jiù suàn bèi gào ， děng fǎ yuàn pàn jué què dìng ， hái bù zhī dé děng duō jiǔ ， dàn shāng hài què zǎo jiù yǐ jīng zào chéng 。",
+            "meaningVi": "Ngoài cư dân mạng, người làm truyền thông càng phải cẩn trọng lời nói. Dù đã có luật xử phạt ngôn từ thù hận và phân biệt đối xử, một số người dùng những từ mơ hồ như ‘nghi ngờ’, ‘có thể’ hoặc dấu hỏi trong tiêu đề để né trách nhiệm. Những người bình luận trên truyền hình càng giỏi đi trong vùng xám pháp lý: dù bị kiện, đến khi có phán quyết thì thiệt hại đã xảy ra từ lâu."
+          },
+          {
+            "speaker": "Bài đọc 2",
+            "chinese": "為了解決社會亂象，小自個人，大至媒體，在享受言論自由的同時，也必須承擔起相關責任；否則，政府就應該為了民眾安全與社會和諧而制定更嚴格的法律，約束已被濫用的言論自由。",
+            "simplified": "为了解决社会乱象，小自个人，大至媒体，在享受言论自由的同时，也必须承担起相关责任；否则，政府就应该为了民众安全与社会和谐而制定更严格的法律，约束已被滥用的言论自由。",
+            "pinyin": "wèi liǎo jiě jué shè huì luàn xiàng ， xiǎo zì gè rén ， dà zhì méi tǐ ， zài xiǎng shòu yán lùn zì yóu de tóng shí ， yě bì xū chéng dān qǐ xiāng guān zé rèn ； fǒu zé ， zhèng fǔ jiù yīng gāi wèi le mín zhòng ān quán yǔ shè huì hé xié ér zhì dìng gèng yán gé de fǎ lǜ ， yuē shù yǐ bèi làn yòng de yán lùn zì yóu 。",
+            "meaningVi": "Để xử lý sự hỗn loạn của xã hội, từ cá nhân đến truyền thông, ai hưởng quyền tự do ngôn luận cũng phải gánh trách nhiệm tương ứng. Nếu không, theo tác giả, chính phủ nên ban hành luật nghiêm hơn để bảo vệ an toàn và sự hòa hợp xã hội, hạn chế việc lạm dụng quyền ấy."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc5-v5-l01-check-01",
+        "prompt": "Bài đọc 1 cho rằng điều gì giúp người dân giám sát quyết sách của chính phủ?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Chỉ có một tiếng nói"
+          },
+          {
+            "id": "b",
+            "text": "Ẩn danh trên mạng"
+          },
+          {
+            "id": "c",
+            "text": "Tự do ngôn luận"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Tác giả viết 正因為有言論自由，政府的決策受到人民的監督.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc5-v5-l01-check-02",
+        "prompt": "Bài đọc 2 lo ngại điều gì khi ngôn luận trên mạng bị lạm dụng?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Mọi người sẽ không thể đọc báo"
+          },
+          {
+            "id": "b",
+            "text": "Không ai còn được ẩn danh"
+          },
+          {
+            "id": "c",
+            "text": "Tin đồn và công kích có thể gây hại"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Tác giả nêu 謠言滿天飛 và 惡意批評 như những ví dụ của việc lạm dụng.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc5-v5-l01-check-03",
+        "prompt": "Hai tác giả có cùng thái độ với ngôn từ thù hận không?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Cả hai đều ủng hộ ngôn từ thù hận"
+          },
+          {
+            "id": "b",
+            "text": "Cả hai đều phủ nhận giá trị của tự do ngôn luận"
+          },
+          {
+            "id": "c",
+            "text": "Cả hai đều xem đó là vấn đề, nhưng đề xuất khác nhau"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Bài 1 nhấn trách nhiệm và giáo dục; bài 2 đòi ranh giới và luật nghiêm hơn.",
+        "skill": "So sánh lập luận"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từng từ để xem nghĩa, phiên âm và cách dùng.",
+    "wordIds": [
+      "cc5-v5-l01-v001",
+      "cc5-v5-l01-v002",
+      "cc5-v5-l01-v003",
+      "cc5-v5-l01-v004",
+      "cc5-v5-l01-v005",
+      "cc5-v5-l01-v006",
+      "cc5-v5-l01-v007",
+      "cc5-v5-l01-v008",
+      "cc5-v5-l01-v009",
+      "cc5-v5-l01-v010",
+      "cc5-v5-l01-v011",
+      "cc5-v5-l01-v012",
+      "cc5-v5-l01-v013",
+      "cc5-v5-l01-v014",
+      "cc5-v5-l01-v015",
+      "cc5-v5-l01-v016",
+      "cc5-v5-l01-v017",
+      "cc5-v5-l01-v018",
+      "cc5-v5-l01-v019",
+      "cc5-v5-l01-v020",
+      "cc5-v5-l01-v021",
+      "cc5-v5-l01-v022",
+      "cc5-v5-l01-v023",
+      "cc5-v5-l01-v024",
+      "cc5-v5-l01-v025",
+      "cc5-v5-l01-v026",
+      "cc5-v5-l01-v027",
+      "cc5-v5-l01-v028",
+      "cc5-v5-l01-v029",
+      "cc5-v5-l01-v030",
+      "cc5-v5-l01-v031",
+      "cc5-v5-l01-v032",
+      "cc5-v5-l01-v033",
+      "cc5-v5-l01-v034",
+      "cc5-v5-l01-v035",
+      "cc5-v5-l01-v036",
+      "cc5-v5-l01-v037",
+      "cc5-v5-l01-v038",
+      "cc5-v5-l01-v039",
+      "cc5-v5-l01-v040",
+      "cc5-v5-l01-v041",
+      "cc5-v5-l01-v042",
+      "cc5-v5-l01-v043",
+      "cc5-v5-l01-v044",
+      "cc5-v5-l01-v045",
+      "cc5-v5-l01-v046",
+      "cc5-v5-l01-v047",
+      "cc5-v5-l01-v048",
+      "cc5-v5-l01-v049",
+      "cc5-v5-l01-v050",
+      "cc5-v5-l01-v051",
+      "cc5-v5-l01-v052",
+      "cc5-v5-l01-v053",
+      "cc5-v5-l01-v054",
+      "cc5-v5-l01-v055",
+      "cc5-v5-l01-v056",
+      "cc5-v5-l01-v057",
+      "cc5-v5-l01-v058",
+      "cc5-v5-l01-v059",
+      "cc5-v5-l01-v060",
+      "cc5-v5-l01-v061",
+      "cc5-v5-l01-v062",
+      "cc5-v5-l01-v063",
+      "cc5-v5-l01-v064",
+      "cc5-v5-l01-v065",
+      "cc5-v5-l01-v066",
+      "cc5-v5-l01-v067",
+      "cc5-v5-l01-v068",
+      "cc5-v5-l01-v069",
+      "cc5-v5-l01-v070",
+      "cc5-v5-l01-v071",
+      "cc5-v5-l01-v072",
+      "cc5-v5-l01-v073",
+      "cc5-v5-l01-v074",
+      "cc5-v5-l01-v075",
+      "cc5-v5-l01-v076",
+      "cc5-v5-l01-v077",
+      "cc5-v5-l01-v078",
+      "cc5-v5-l01-v079",
+      "cc5-v5-l01-v080",
+      "cc5-v5-l01-v081",
+      "cc5-v5-l01-v082",
+      "cc5-v5-l01-v083",
+      "cc5-v5-l01-v084",
+      "cc5-v5-l01-v085",
+      "cc5-v5-l01-v086",
+      "cc5-v5-l01-v087",
+      "cc5-v5-l01-v088",
+      "cc5-v5-l01-v089",
+      "cc5-v5-l01-v090",
+      "cc5-v5-l01-v091",
+      "cc5-v5-l01-v092",
+      "cc5-v5-l01-v093",
+      "cc5-v5-l01-v094",
+      "cc5-v5-l01-v095",
+      "cc5-v5-l01-v096",
+      "cc5-v5-l01-v097",
+      "cc5-v5-l01-v098",
+      "cc5-v5-l01-v099",
+      "cc5-v5-l01-v100",
+      "cc5-v5-l01-v101",
+      "cc5-v5-l01-v102"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc5-textbook-l01-t03",
+        "label": "Từ vựng bài đọc 1"
+      },
+      {
+        "id": "cc5-textbook-l01-t07",
+        "label": "Từ vựng bài đọc 2"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc5-v5-l01-grammar-01",
+      "title": "即使是…也不例外",
+      "audioTrackId": "cc5-textbook-l01-t04",
+      "explanation": "Ngay cả trường hợp tưởng là ngoại lệ cũng tuân theo quy tắc vừa nêu. Đặt 即使是 trước trường hợp được nhấn mạnh; 也不例外 ở cuối để khẳng định nó vẫn thuộc phạm vi ấy. Không dùng mẫu này khi muốn nói một ngoại lệ thật sự.",
+      "structure": "Quy tắc chung， 即使是 + trường hợp đặc biệt + 也不例外。",
+      "examples": [
+        {
+          "chinese": "每個人都要守法，即使是官員也不例外。",
+          "simplified": "每个人都要守法，即使是官员也不例外。",
+          "pinyin": "měi gè rén dōu yào shǒu fǎ ， jí shǐ shì guān yuán yě bù lì wài 。",
+          "meaningVi": "Ai cũng phải tuân luật, kể cả quan chức."
+        },
+        {
+          "chinese": "她對所有學生都很有耐心，即使是最調皮的孩子也不例外。",
+          "simplified": "她对所有学生都很有耐心，即使是最调皮的孩子也不例外。",
+          "pinyin": "tā duì suǒ yǒu xué shēng dōu hěn yǒu nài xīn ， jí shǐ shì zuì diào pí de hái zi yě bù lì wài 。",
+          "meaningVi": "Cô kiên nhẫn với mọi học sinh, kể cả đứa trẻ nghịch nhất."
+        }
+      ],
+      "commonMistake": "Đừng dịch 即使 là ‘nếu’ ở đây: nó nhấn một trường hợp có vẻ khó tin, không đặt điều kiện.",
+      "check": {
+        "id": "cc5-v5-l01-grammar-check-01",
+        "prompt": "Điền vào chỗ trống: 法律之前人人平等，____官員也不例外。",
+        "options": [
+          {
+            "id": "a",
+            "text": "事實上"
+          },
+          {
+            "id": "b",
+            "text": "即使是"
+          },
+          {
+            "id": "c",
+            "text": "一旦"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Ngay cả trường hợp tưởng là ngoại lệ cũng tuân theo quy tắc vừa nêu.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc5-v5-l01-grammar-02",
+      "title": "一旦…就／才…",
+      "audioTrackId": "cc5-textbook-l01-t04",
+      "explanation": "Nêu một tình huống có thể xảy ra và hệ quả sẽ đến sau. Dùng 就 khi hệ quả phát sinh ngay hoặc tự nhiên; dùng 才 khi kết quả chỉ có thể đạt được sau điều kiện đó. Ở bài này tác giả dùng mẫu để cảnh báo hậu quả của việc chính phủ kiểm soát phát ngôn.",
+      "structure": "一旦 + tình huống， 就／才 + hệ quả。",
+      "examples": [
+        {
+          "chinese": "一旦謠言傳開，就很難阻止。",
+          "simplified": "一旦谣言传开，就很难阻止。",
+          "pinyin": "yí dàn yáo yán chuán kāi ， jiù hěn nán zǔ zhǐ 。",
+          "meaningVi": "Một khi tin đồn lan ra, sẽ rất khó ngăn lại."
+        },
+        {
+          "chinese": "平時多練習，一旦發生災難，才有能力應變。",
+          "simplified": "平时多练习，一旦发生灾难，才有能力应变。",
+          "pinyin": "píng shí duō liàn xí ， yí dàn fā shēng zāi nán ， cái yǒu néng lì yīng biàn 。",
+          "meaningVi": "Tập luyện thường xuyên thì khi thảm họa xảy ra mới có khả năng ứng phó."
+        }
+      ],
+      "commonMistake": "Đừng đổi 就 và 才 tùy ý: 就 nêu hệ quả kéo theo, 才 nhấn điều kiện cần để có kết quả.",
+      "check": {
+        "id": "cc5-v5-l01-grammar-check-02",
+        "prompt": "Điền vào chỗ trống: 一旦消息傳開，____很難收回。",
+        "options": [
+          {
+            "id": "a",
+            "text": "就"
+          },
+          {
+            "id": "b",
+            "text": "則"
+          },
+          {
+            "id": "c",
+            "text": "為"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Nêu một tình huống có thể xảy ra và hệ quả sẽ đến sau.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc5-v5-l01-grammar-03",
+      "title": "為…而…",
+      "audioTrackId": "cc5-textbook-l01-t04",
+      "explanation": "Dùng cùng một hành động làm mục đích lẫn lý do thực hiện: ‘làm X chỉ để làm X’. Trong câu 為反對而反對, tác giả phê bình việc phản đối chỉ để phản đối, không có lý lẽ. Sắc thái thường mang ý không tán thành, nhưng có thể trung tính tùy ngữ cảnh.",
+      "structure": "為 + hành động／mục tiêu + 而 + cùng hành động。",
+      "examples": [
+        {
+          "chinese": "不要為反對而反對，先聽聽理由。",
+          "simplified": "不要为反对而反对，先听听理由。",
+          "pinyin": "bú yào wèi fǎn duì ér fǎn duì ， xiān tīng tīng lǐ yóu 。",
+          "meaningVi": "Đừng phản đối chỉ để phản đối; hãy nghe lý do trước."
+        },
+        {
+          "chinese": "他不是為寫作而寫作，而是想記錄生活。",
+          "simplified": "他不是为写作而写作，而是想记录生活。",
+          "pinyin": "tā bú shì wèi xiě zuò ér xiě zuò ， ér shì xiǎng jì lù shēng huó 。",
+          "meaningVi": "Anh ấy không viết chỉ để viết mà muốn ghi lại cuộc sống."
+        }
+      ],
+      "commonMistake": "Không dùng hai động từ không liên quan ở hai vị trí; chính sự lặp mới tạo nghĩa của mẫu.",
+      "check": {
+        "id": "cc5-v5-l01-grammar-check-03",
+        "prompt": "Điền vào chỗ trống: 他沒有提出理由，只是為____而反對。",
+        "options": [
+          {
+            "id": "a",
+            "text": "反對"
+          },
+          {
+            "id": "b",
+            "text": "保護"
+          },
+          {
+            "id": "c",
+            "text": "負責"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Dùng cùng một hành động làm mục đích lẫn lý do thực hiện: ‘làm X chỉ để làm X’.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc5-v5-l01-grammar-04",
+      "title": "事實上",
+      "audioTrackId": "cc5-textbook-l01-t04",
+      "explanation": "Dùng để bổ sung tình hình thực tế, thường sửa một suy đoán hoặc ấn tượng vừa nêu. Có thể dịch ‘thực ra’ hay ‘trên thực tế’. Trong bài đọc, nó mở phần tác giả bác lại quan điểm cho rằng tự do ngôn luận quá mức là nguyên nhân trực tiếp của bắt nạt.",
+      "structure": "Ấn tượng／lời cho rằng A。事實上，sự thật B。",
+      "examples": [
+        {
+          "chinese": "有人以為她不關心，事實上，她每天都在追蹤這件事。",
+          "simplified": "有人以为她不关心，事实上，她每天都在追踪这件事。",
+          "pinyin": "yǒu rén yǐ wèi tā bù guān xīn ， shì shí shàng ， tā měi tiān dōu zài zhuī zōng zhè jiàn shì 。",
+          "meaningVi": "Có người tưởng cô không quan tâm; thực ra ngày nào cô cũng theo dõi việc này."
+        },
+        {
+          "chinese": "大家說網路沒有規定，事實上，相關法律早就存在。",
+          "simplified": "大家说网路没有规定，事实上，相关法律早就存在。",
+          "pinyin": "dà jiā shuō wǎng lù méi yǒu guī dìng ， shì shí shàng ， xiāng guān fǎ lǜ zǎo jiù cún zài 。",
+          "meaningVi": "Người ta nói mạng không có quy định; thực ra luật liên quan đã có từ lâu."
+        }
+      ],
+      "commonMistake": "Đừng dùng 事實上 để giới thiệu một điều chưa được kiểm chứng rồi trình bày như sự thật.",
+      "check": {
+        "id": "cc5-v5-l01-grammar-check-04",
+        "prompt": "Điền vào chỗ trống: 很多人以為沒有法律規範。____，法律早就有相關條文。",
+        "options": [
+          {
+            "id": "a",
+            "text": "事實上"
+          },
+          {
+            "id": "b",
+            "text": "一旦"
+          },
+          {
+            "id": "c",
+            "text": "則"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Dùng để bổ sung tình hình thực tế, thường sửa một suy đoán hoặc ấn tượng vừa nêu.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc5-v5-l01-grammar-05",
+      "title": "A 為 B 負責",
+      "audioTrackId": "cc5-textbook-l01-t04",
+      "explanation": "A là người phải gánh trách nhiệm đối với B, thường là lời nói, hành động, chính sách hay hậu quả. 為 nối người chịu trách nhiệm với phạm vi trách nhiệm; không nhầm với 為了 mang nghĩa ‘để’.",
+      "structure": "Người／tổ chức + 為 + việc／hậu quả + 負責。",
+      "examples": [
+        {
+          "chinese": "每個人都要為自己的言論負責。",
+          "simplified": "每个人都要为自己的言论负责。",
+          "pinyin": "měi gè rén dōu yào wèi zì jǐ de yán lùn fù zé 。",
+          "meaningVi": "Mỗi người phải chịu trách nhiệm về phát ngôn của mình."
+        },
+        {
+          "chinese": "政府應該為錯誤的決策負責。",
+          "simplified": "政府应该为错误的决策负责。",
+          "pinyin": "zhèng fǔ yīng gāi wèi cuò wù de jué cè fù zé 。",
+          "meaningVi": "Chính phủ nên chịu trách nhiệm về quyết sách sai."
+        }
+      ],
+      "commonMistake": "Không nói 為負責B; đối tượng trách nhiệm phải đứng giữa 為 và 負責.",
+      "check": {
+        "id": "cc5-v5-l01-grammar-check-05",
+        "prompt": "Điền vào chỗ trống: 發文者應該____自己的言論負責。",
+        "options": [
+          {
+            "id": "a",
+            "text": "則"
+          },
+          {
+            "id": "b",
+            "text": "為"
+          },
+          {
+            "id": "c",
+            "text": "一旦"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "A là người phải gánh trách nhiệm đối với B, thường là lời nói, hành động, chính sách hay hậu quả.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc5-v5-l01-grammar-06",
+      "title": "封住…的嘴",
+      "audioTrackId": "cc5-textbook-l01-t04",
+      "explanation": "Cách nói hình tượng về việc ngăn ai đó phát biểu. Trong bài, tác giả phản đối việc lấy sai phạm của một số người làm lý do bịt miệng toàn xã hội. Mẫu này có sắc thái mạnh, phù hợp khi nói về kiểm duyệt hoặc gây áp lực buộc người khác im lặng.",
+      "structure": "封住 + người／nhóm người + 的嘴。",
+      "examples": [
+        {
+          "chinese": "批評政府不該成為封住人民的嘴的理由。",
+          "simplified": "批评政府不该成为封住人民的嘴的理由。",
+          "pinyin": "pī píng zhèng fǔ bù gāi chéng wèi fēng zhù rén mín de zuǐ de lǐ yóu 。",
+          "meaningVi": "Việc chỉ trích chính phủ không nên thành lý do bịt miệng người dân."
+        },
+        {
+          "chinese": "金錢無法永遠封住證人的嘴。",
+          "simplified": "金钱无法永远封住证人的嘴。",
+          "pinyin": "jīn qián wú fǎ yǒng yuǎn fēng zhù zhèng rén de zuǐ 。",
+          "meaningVi": "Tiền không thể bịt miệng nhân chứng mãi mãi."
+        }
+      ],
+      "commonMistake": "Đừng hiểu theo nghĩa đen là chạm vào miệng; ở đây trọng tâm là quyền lên tiếng.",
+      "check": {
+        "id": "cc5-v5-l01-grammar-check-06",
+        "prompt": "Điền vào chỗ trống: 作者反對因少數人的錯誤就____人民的嘴。",
+        "options": [
+          {
+            "id": "a",
+            "text": "展現"
+          },
+          {
+            "id": "b",
+            "text": "封住"
+          },
+          {
+            "id": "c",
+            "text": "接收"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Cách nói hình tượng về việc ngăn ai đó phát biểu.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc5-v5-l01-grammar-07",
+      "title": "躲在…的保護傘下",
+      "audioTrackId": "cc5-textbook-l01-t08",
+      "explanation": "Chỉ việc nương vào một cơ chế, danh nghĩa hay thế lực để tránh bị truy cứu. Trong bài hai, tác giả dùng hình ảnh ‘núp dưới ô bảo vệ của chế độ ẩn danh’ để nói về người tung tin đồn. Mẫu thường hàm ý phê phán.",
+      "structure": "Người／hành vi + 躲在 + cơ chế／danh nghĩa + 的保護傘下。",
+      "examples": [
+        {
+          "chinese": "有人躲在匿名制度的保護傘下散播謠言。",
+          "simplified": "有人躲在匿名制度的保护伞下散播谣言。",
+          "pinyin": "yǒu rén duǒ zài nì míng zhì dù de bǎo hù sǎn xià sàn bō yáo yán 。",
+          "meaningVi": "Có người núp sau chế độ ẩn danh để tung tin đồn."
+        },
+        {
+          "chinese": "違法者不該躲在公司的保護傘下。",
+          "simplified": "违法者不该躲在公司的保护伞下。",
+          "pinyin": "wéi fǎ zhě bù gāi duǒ zài gōng sī de bǎo hù sǎn xià 。",
+          "meaningVi": "Người vi phạm không nên núp dưới sự che chở của công ty."
+        }
+      ],
+      "commonMistake": "Đừng dùng mẫu cho sự bảo vệ tích cực bình thường nếu không muốn gợi ý né trách nhiệm.",
+      "check": {
+        "id": "cc5-v5-l01-grammar-check-07",
+        "prompt": "Điền vào chỗ trống: 他們躲在匿名制度的____下。",
+        "options": [
+          {
+            "id": "a",
+            "text": "保護傘"
+          },
+          {
+            "id": "b",
+            "text": "真理"
+          },
+          {
+            "id": "c",
+            "text": "界線"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Chỉ việc nương vào một cơ chế, danh nghĩa hay thế lực để tránh bị truy cứu.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc5-v5-l01-grammar-08",
+      "title": "尤其如此",
+      "audioTrackId": "cc5-textbook-l01-t08",
+      "explanation": "‘Điều đó càng đúng đối với…’. Dùng sau một nhận định chung để chỉ ra một trường hợp nổi bật hơn, thường có cụm 對…來說 đứng trước. Trong bài, tác giả nói lời nói trên mạng càng cần được xét đến giới hạn.",
+      "structure": "Nhận định chung， 對 + trường hợp + 來說尤其如此。",
+      "examples": [
+        {
+          "chinese": "閱讀有助於思考，對學語言的人來說尤其如此。",
+          "simplified": "阅读有助于思考，对学语言的人来说尤其如此。",
+          "pinyin": "yuè dú yǒu zhù yú sī kǎo ， duì xué yǔ yán de rén lái shuō yóu qí rú cǐ 。",
+          "meaningVi": "Đọc giúp phát triển tư duy, điều này càng đúng với người học ngôn ngữ."
+        },
+        {
+          "chinese": "說話要負責，對媒體人來說尤其如此。",
+          "simplified": "说话要负责，对媒体人来说尤其如此。",
+          "pinyin": "shuō huà yào fù zé ， duì méi tǐ rén lái shuō yóu qí rú cǐ 。",
+          "meaningVi": "Nói năng phải có trách nhiệm, đặc biệt là với người làm truyền thông."
+        }
+      ],
+      "commonMistake": "Đừng dùng 尤其如此 khi chưa có một nhận định phía trước để nó quay lại nhấn mạnh.",
+      "check": {
+        "id": "cc5-v5-l01-grammar-check-08",
+        "prompt": "Điền vào chỗ trống: 說話要負責，對媒體人來說____。",
+        "options": [
+          {
+            "id": "a",
+            "text": "一旦"
+          },
+          {
+            "id": "b",
+            "text": "尤其如此"
+          },
+          {
+            "id": "c",
+            "text": "為反對而反對"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "‘Điều đó càng đúng đối với…’.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc5-v5-l01-grammar-09",
+      "title": "則",
+      "audioTrackId": "cc5-textbook-l01-t08",
+      "explanation": "Nối hai chủ thể hoặc hai nhóm với cách làm, tình trạng khác nhau; gần nghĩa ‘còn’, ‘trong khi đó’. Trong bài, một số người bị trầm cảm hoặc tự sát, còn đa số chọn im lặng. Khác với 則 là lượng từ trong ‘一則留言’.",
+      "structure": "A + hành động 1；B + 則 + hành động 2。",
+      "examples": [
+        {
+          "chinese": "有人支持匿名，其他人則要求實名。",
+          "simplified": "有人支持匿名，其他人则要求实名。",
+          "pinyin": "yǒu rén zhī chí nì míng ， qí tā rén zé yāo qiú shí míng 。",
+          "meaningVi": "Có người ủng hộ ẩn danh, còn người khác đòi dùng tên thật."
+        },
+        {
+          "chinese": "他選擇回應，她則保持沉默。",
+          "simplified": "他选择回应，她则保持沉默。",
+          "pinyin": "tā xuǎn zé huí yīng ， tā zé bǎo chí chén mò 。",
+          "meaningVi": "Anh ấy chọn đáp lại, còn cô ấy im lặng."
+        }
+      ],
+      "commonMistake": "Đừng đặt 則 ngay trước chủ ngữ thứ hai; nó đứng sau chủ ngữ để đánh dấu phần đối chiếu.",
+      "check": {
+        "id": "cc5-v5-l01-grammar-check-09",
+        "prompt": "Điền vào chỗ trống: 有人公開抗議，多數人____保持沉默。",
+        "options": [
+          {
+            "id": "a",
+            "text": "即使是"
+          },
+          {
+            "id": "b",
+            "text": "則"
+          },
+          {
+            "id": "c",
+            "text": "一旦"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Nối hai chủ thể hoặc hai nhóm với cách làm, tình trạng khác nhau; gần nghĩa ‘còn’, ‘trong khi đó’.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc5-v5-l01-grammar-10",
+      "title": "以…之名",
+      "audioTrackId": "cc5-textbook-l01-t08",
+      "explanation": "Diễn tả việc làm điều gì đó nhân danh một lý tưởng, tổ chức hoặc nguyên tắc. Cụm này tự nó không xác nhận hành động là đúng; trong bài, tác giả phê phán người lấy danh nghĩa tự do ngôn luận để làm hại người khác.",
+      "structure": "Chủ thể + 以 + danh nghĩa + 之名 + hành động。",
+      "examples": [
+        {
+          "chinese": "有人以正義之名攻擊別人。",
+          "simplified": "有人以正义之名攻击别人。",
+          "pinyin": "yǒu rén yǐ zhèng yì zhī míng gōng jī bié rén 。",
+          "meaningVi": "Có người nhân danh công lý để công kích người khác."
+        },
+        {
+          "chinese": "學校以文化交流之名舉辦活動。",
+          "simplified": "学校以文化交流之名举办活动。",
+          "pinyin": "xué xiào yǐ wén huà jiāo liú zhī míng jǔ bàn huó dòng 。",
+          "meaningVi": "Trường tổ chức hoạt động nhân danh giao lưu văn hóa."
+        }
+      ],
+      "commonMistake": "Đừng hiểu 之名 là tên riêng của người; nó chỉ danh nghĩa hoặc lý do được nêu ra.",
+      "check": {
+        "id": "cc5-v5-l01-grammar-check-10",
+        "prompt": "Điền vào chỗ trống: 他們____言論自由之名傷害別人。",
+        "options": [
+          {
+            "id": "a",
+            "text": "以"
+          },
+          {
+            "id": "b",
+            "text": "即使"
+          },
+          {
+            "id": "c",
+            "text": "一旦"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Diễn tả việc làm điều gì đó nhân danh một lý tưởng, tổ chức hoặc nguyên tắc.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc5-v5-l01-grammar-11",
+      "title": "就更不用說了",
+      "audioTrackId": "cc5-textbook-l01-t08",
+      "explanation": "Đưa ra một trường hợp còn rõ hoặc nghiêm trọng hơn trường hợp đã nhắc. B ở câu sau phải là ví dụ cùng hướng và mức độ cao hơn A. Trong bài, tác giả nói người bình luận trên truyền hình càng giỏi né trách nhiệm hơn.",
+      "structure": "Trường hợp A đã như vậy， B 就更不用說了。",
+      "examples": [
+        {
+          "chinese": "連大人都覺得這篇文章難，小孩就更不用說了。",
+          "simplified": "连大人都觉得这篇文章难，小孩就更不用说了。",
+          "pinyin": "lián dà rén dōu jué dé zhè piān wén zhāng nán ， xiǎo hái jiù gèng bù yòng shuō le 。",
+          "meaningVi": "Ngay người lớn còn thấy bài này khó, trẻ nhỏ thì khỏi phải nói."
+        },
+        {
+          "chinese": "一般留言已經很難查證，匿名消息就更不用說了。",
+          "simplified": "一般留言已经很难查证，匿名消息就更不用说了。",
+          "pinyin": "yì bān liú yán yǐ jīng hěn nán chá zhèng ， nì míng xiāo xī jiù gèng bù yòng shuō le 。",
+          "meaningVi": "Bình luận thông thường đã khó kiểm chứng, tin ẩn danh thì còn khó hơn."
+        }
+      ],
+      "commonMistake": "Đừng dùng mẫu khi B không mạnh hơn hoặc không cùng tiêu chí so sánh với A.",
+      "check": {
+        "id": "cc5-v5-l01-grammar-check-11",
+        "prompt": "Điền vào chỗ trống: 連記者都難以確認，匿名消息____。",
+        "options": [
+          {
+            "id": "a",
+            "text": "為反對而反對"
+          },
+          {
+            "id": "b",
+            "text": "就更不用說了"
+          },
+          {
+            "id": "c",
+            "text": "即使是"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Đưa ra một trường hợp còn rõ hoặc nghiêm trọng hơn trường hợp đã nhắc.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc5-v5-l01-grammar-12",
+      "title": "（在）…的同時，也…",
+      "audioTrackId": "cc5-textbook-l01-t08",
+      "explanation": "Nêu hai mặt hoặc hai hành động cần được nhìn nhận cùng lúc. Ở kết luận của bài hai, hưởng quyền tự do ngôn luận phải đi cùng gánh trách nhiệm liên quan. Không phải mọi câu có 同時 đều chỉ hai việc xảy ra đúng cùng giây phút; mẫu cũng diễn tả sự song hành về nghĩa.",
+      "structure": "（在）+ việc A + 的同時， 也 + việc B。",
+      "examples": [
+        {
+          "chinese": "在享受自由的同時，也要尊重別人。",
+          "simplified": "在享受自由的同时，也要尊重别人。",
+          "pinyin": "zài xiǎng shòu zì yóu de tóng shí ， yě yào zūn zhòng bié rén 。",
+          "meaningVi": "Khi hưởng tự do, ta cũng phải tôn trọng người khác."
+        },
+        {
+          "chinese": "發展科技的同時，也應保護個人資料。",
+          "simplified": "发展科技的同时，也应保护个人资料。",
+          "pinyin": "fā zhǎn kē jì de tóng shí ， yě yīng bǎo hù gè rén zī liào 。",
+          "meaningVi": "Phát triển công nghệ đồng thời cũng nên bảo vệ dữ liệu cá nhân."
+        }
+      ],
+      "commonMistake": "Đừng chỉ nêu mặt lợi sau 同時; mục đích bài này là đặt quyền và trách nhiệm cạnh nhau.",
+      "check": {
+        "id": "cc5-v5-l01-grammar-check-12",
+        "prompt": "Điền vào chỗ trống: 在享受言論自由的____，也要承擔責任。",
+        "options": [
+          {
+            "id": "a",
+            "text": "來源"
+          },
+          {
+            "id": "b",
+            "text": "同時"
+          },
+          {
+            "id": "c",
+            "text": "界線"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Nêu hai mặt hoặc hai hành động cần được nhìn nhận cùng lúc.",
+        "skill": "Ngữ pháp"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc5-v5-l01-listening-01",
+      "prompt": "Nghe bài đọc 1: tác giả nói quyền nào là nền tảng dân chủ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Quyền ẩn danh tuyệt đối"
+        },
+        {
+          "id": "b",
+          "text": "Quyền phạt người bất đồng"
+        },
+        {
+          "id": "c",
+          "text": "Quyền bày tỏ ý kiến và suy nghĩ"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc giải thích 言論自由 là quyền 表達意見和想法.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l01-t02"
+    },
+    {
+      "id": "cc5-v5-l01-listening-02",
+      "prompt": "Nghe bài đọc 1: tác giả cho rằng tranh luận nhiều góc nhìn đem lại điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chính phủ không cần chịu giám sát"
+        },
+        {
+          "id": "b",
+          "text": "Mọi lời phê bình đều bị cấm"
+        },
+        {
+          "id": "c",
+          "text": "Chân lý sáng rõ và dần hình thành đồng thuận"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Tác giả dùng 真理將越辯越明，社會共識也慢慢形成.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l01-t02"
+    },
+    {
+      "id": "cc5-v5-l01-listening-03",
+      "prompt": "Nghe bài đọc 2: ẩn danh cùng tốc độ lan truyền nhanh có thể gây ra điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ảnh hưởng lớn và nguy cơ gây hại"
+        },
+        {
+          "id": "b",
+          "text": "Tin tức luôn chính xác hơn"
+        },
+        {
+          "id": "c",
+          "text": "Người dùng tự động chịu trách nhiệm"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc nêu 影響力更強大、更驚人, có thể 對個人或社會造成威脅.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l01-t06"
+    },
+    {
+      "id": "cc5-v5-l01-listening-04",
+      "prompt": "Nghe kết luận bài đọc 2: người hưởng tự do ngôn luận còn phải làm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ dùng tên thật"
+        },
+        {
+          "id": "b",
+          "text": "Chịu trách nhiệm tương ứng"
+        },
+        {
+          "id": "c",
+          "text": "Ngừng bày tỏ ý kiến"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Kết luận viết 在享受言論自由的同時，也必須承擔起相關責任.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l01-t06"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc5-v5-l01-practice-01",
+      "prompt": "Điền: 每個人都要守法，____官員也不例外。",
+      "options": [
+        {
+          "id": "a",
+          "text": "事實上"
+        },
+        {
+          "id": "b",
+          "text": "即使是"
+        },
+        {
+          "id": "c",
+          "text": "一旦"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Mẫu 即使是…也不例外 nêu người có vẻ là ngoại lệ nhưng vẫn theo quy tắc.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l01-practice-02",
+      "prompt": "Trong bài 1, vì sao tác giả phản đối việc chỉ có một tiếng nói?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tin đồn sẽ nhiều hơn"
+        },
+        {
+          "id": "b",
+          "text": "Xã hội như vậy không thể tiến bộ"
+        },
+        {
+          "id": "c",
+          "text": "Dễ tổ chức biểu tình hơn"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài 1 viết 只有一種聲音的社會是無法進步的.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l01-practice-03",
+      "prompt": "‘Chịu trách nhiệm về lời mình nói’ nên dùng cụm nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "封住人民的嘴"
+        },
+        {
+          "id": "b",
+          "text": "為自己的言論負責"
+        },
+        {
+          "id": "c",
+          "text": "為反對而反對"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "為B負責 chỉ phạm vi trách nhiệm B.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l01-practice-04",
+      "prompt": "Điền: 有人支持匿名，其他人____要求實名。",
+      "options": [
+        {
+          "id": "a",
+          "text": "則"
+        },
+        {
+          "id": "b",
+          "text": "一旦"
+        },
+        {
+          "id": "c",
+          "text": "即使是"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "則 đứng sau chủ ngữ thứ hai để đối chiếu hai nhóm.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l01-practice-05",
+      "prompt": "Bài 2 nói ai có thể núp sau chế độ ẩn danh để tung tin đồn?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Một số cư dân mạng"
+        },
+        {
+          "id": "b",
+          "text": "Tất cả thẩm phán"
+        },
+        {
+          "id": "c",
+          "text": "Người viết bài 1"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài 2 viết 鄉民躲在匿名制度的保護傘下，讓謠言滿天飛.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l01-practice-06",
+      "prompt": "‘Nhân danh tự do ngôn luận để làm hại người khác’ chứa mẫu nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "一旦…就…"
+        },
+        {
+          "id": "b",
+          "text": "以…之名"
+        },
+        {
+          "id": "c",
+          "text": "為…而…"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "以B之名 nêu danh nghĩa B được viện dẫn cho hành động.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l01-practice-07",
+      "prompt": "Theo bài 1, hiện tượng bắt nạt bắt nguồn từ đâu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mọi hình thức tự do ngôn luận đều sai"
+        },
+        {
+          "id": "b",
+          "text": "Không ai được quyền phê bình"
+        },
+        {
+          "id": "c",
+          "text": "Một số người không chịu trách nhiệm về lời mình nói"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài 1 nêu 那些人不懂得為自己的言論負責.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l01-practice-08",
+      "prompt": "Theo bài 2, ‘tiêu đề mơ hồ’ giúp một số người làm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đăng tin nhanh hơn"
+        },
+        {
+          "id": "b",
+          "text": "Né tránh trách nhiệm"
+        },
+        {
+          "id": "c",
+          "text": "Giải thích nguồn tin rõ hơn"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài 2 viết 加上「？」、「懷疑」或是「可能」…為了避開責任.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l01-practice-09",
+      "prompt": "Điền: 在享受自由的____，也要尊重他人。",
+      "options": [
+        {
+          "id": "a",
+          "text": "同時"
+        },
+        {
+          "id": "b",
+          "text": "界線"
+        },
+        {
+          "id": "c",
+          "text": "來源"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "（在）A的同時，也B đặt hai mặt quyền và trách nhiệm cạnh nhau.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l01-practice-10",
+      "prompt": "Câu nào mô tả đúng sự khác biệt giữa hai bài đọc?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bài 1 ưu tiên bảo vệ quyền lên tiếng; bài 2 nhấn giới hạn và trách nhiệm"
+        },
+        {
+          "id": "b",
+          "text": "Bài 1 cấm mọi tranh luận; bài 2 cổ vũ tin đồn"
+        },
+        {
+          "id": "c",
+          "text": "Hai bài có kết luận hoàn toàn giống nhau"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Đối chiếu câu kết và các lập luận ở cả hai bài.",
+      "skill": "So sánh lập luận"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc5-v5-l01-assessment-01",
+      "prompt": "顧名思義 có nghĩa gần nhất là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đúng như tên gọi"
+        },
+        {
+          "id": "b",
+          "text": "Theo một tin đồn"
+        },
+        {
+          "id": "c",
+          "text": "Tùy trường hợp"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "顧名思義 dùng để giải thích nghĩa từ chính tên gọi.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc5-v5-l01-assessment-02",
+      "prompt": "‘Tin đồn sai sự thật’ là cụm nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "社會共識"
+        },
+        {
+          "id": "b",
+          "text": "司法判決"
+        },
+        {
+          "id": "c",
+          "text": "不實謠言"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "不實 là không đúng sự thật, 謠言 là tin đồn.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc5-v5-l01-assessment-03",
+      "prompt": "Điền: 一旦政府控制言論，人民____失去發言機會。",
+      "options": [
+        {
+          "id": "a",
+          "text": "就可能"
+        },
+        {
+          "id": "b",
+          "text": "則已經"
+        },
+        {
+          "id": "c",
+          "text": "即使是"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "一旦 nêu điều kiện có thể kéo theo hệ quả; 就可能 diễn tả nguy cơ, không khẳng định chắc chắn.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l01-assessment-04",
+      "prompt": "Câu nào dùng 為…而… đúng với nghĩa bài học?",
+      "options": [
+        {
+          "id": "a",
+          "text": "政府為一旦而法律。"
+        },
+        {
+          "id": "b",
+          "text": "不要為反對而反對。"
+        },
+        {
+          "id": "c",
+          "text": "他為責任而消息。"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Cùng hành động 反對 được lặp để nói phản đối chỉ vì phản đối.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l01-assessment-05",
+      "prompt": "Bài 1 cho rằng nhiều góc nhìn giúp gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Xóa bỏ quyền phản biện"
+        },
+        {
+          "id": "b",
+          "text": "Tránh hoàn toàn mọi tranh cãi"
+        },
+        {
+          "id": "c",
+          "text": "Cân bằng quan điểm và hình thành đồng thuận"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài 1 dùng 多元、平衡、共識 để triển khai lập luận.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l01-assessment-06",
+      "prompt": "Bài 2 gọi tự do ngôn luận thành ‘lá bùa’ khi nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Khi người ta lấy nó làm cớ để công kích mà không chịu trách nhiệm"
+        },
+        {
+          "id": "b",
+          "text": "Khi người dân tranh luận lịch sự"
+        },
+        {
+          "id": "c",
+          "text": "Khi tòa án công bố phán quyết"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Đọc đoạn có 護身符 và câu hỏi về trách nhiệm ngay sau đó.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l01-assessment-07",
+      "prompt": "Câu nào đối chiếu hai nhóm bằng 則?",
+      "options": [
+        {
+          "id": "a",
+          "text": "有人支持則匿名，其他人反對。"
+        },
+        {
+          "id": "b",
+          "text": "有人支持匿名，其他人則反對。"
+        },
+        {
+          "id": "c",
+          "text": "則有人支持匿名，其他人反對。"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "則 đứng sau chủ ngữ thứ hai.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l01-assessment-08",
+      "prompt": "‘Núp sau chế độ ẩn danh’ diễn đạt thế nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "躲在匿名制度的保護傘下"
+        },
+        {
+          "id": "b",
+          "text": "封住匿名制度的嘴"
+        },
+        {
+          "id": "c",
+          "text": "以匿名制度越辯越明"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "保護傘 là hình ảnh ‘ô che’; 躲在…下 gợi tránh trách nhiệm.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l01-assessment-09",
+      "prompt": "Theo bài 2, vì sao tranh chấp với người bình luận trên truyền hình khó khắc phục kịp?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mọi tiêu đề đều chính xác"
+        },
+        {
+          "id": "b",
+          "text": "Phán quyết của tòa có thể đến sau khi thiệt hại đã xảy ra"
+        },
+        {
+          "id": "c",
+          "text": "Không ai có thể kiện"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài 2 viết 等法院判決確定…傷害卻早就已經造成.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l01-assessment-10",
+      "prompt": "Câu nào thể hiện đúng kết luận của bài 2?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cấm mọi lời phản đối"
+        },
+        {
+          "id": "b",
+          "text": "Hưởng quyền tự do cũng phải gánh trách nhiệm"
+        },
+        {
+          "id": "c",
+          "text": "Chỉ truyền thông mới có quyền tự do"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Kết luận nêu 在享受言論自由的同時，也必須承擔起相關責任.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l01-assessment-11",
+      "prompt": "Bài 1 bác bỏ cách hiểu nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cho rằng mọi hiện tượng bắt nạt đều do quyền phát biểu quá rộng"
+        },
+        {
+          "id": "b",
+          "text": "Cho rằng cần giáo dục trách nhiệm"
+        },
+        {
+          "id": "c",
+          "text": "Cho rằng giá trị của tiếng nói cần bảo vệ"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Tác giả nói nguyên nhân là hiểu sai quyền và không chịu trách nhiệm.",
+      "skill": "So sánh lập luận"
+    },
+    {
+      "id": "cc5-v5-l01-assessment-12",
+      "prompt": "Đọc hai bài, câu hỏi nào giúp đánh giá lập luận công bằng nhất?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mỗi tác giả dùng bằng chứng nào và đề xuất giải pháp gì?"
+        },
+        {
+          "id": "b",
+          "text": "Tác giả nào dùng nhiều chữ hơn?"
+        },
+        {
+          "id": "c",
+          "text": "Bài nào xuất hiện trước trong sách?"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Đọc phản biện cần so sánh luận cứ và giải pháp, không chỉ cảm giác đồng ý.",
+      "skill": "Đọc phản biện"
+    }
+  ],
+  "writingTask": {
+    "id": "cc5-v5-l01-writing",
+    "title": "Viết một ý kiến có trách nhiệm",
+    "prompt": "Chọn một trường hợp cụ thể trên mạng. Viết 120–180 chữ Hoa: nêu quan điểm, một lý do, một ý kiến phản biện và cách bạn cân bằng quyền phát biểu với trách nhiệm. Có thể dùng 一旦、事實上、則、在…的同時.",
+    "sampleTraditional": "我認為每個人都應該有表達意見的權利，但是在享受言論自由的同時，也要為自己的話負責。一旦沒有根據的消息傳開，就可能傷害別人。有人主張限制所有匿名留言；我則認為應該先查證內容，並處理真正的攻擊和謠言。",
+    "sampleSimplified": "我认为每个人都应该有表达意见的权利，但是在享受言论自由的同时，也要为自己的话负责。一旦没有根据的消息传开，就可能伤害别人。有人主张限制所有匿名留言；我则认为应该先查证内容，并处理真正的攻击和谣言。"
+  }
+}

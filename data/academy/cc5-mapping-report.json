@@ -1,0 +1,85 @@
+{
+  "courseId": "cc5",
+  "volume": 5,
+  "total": 97,
+  "verified": 72,
+  "pending": [
+    "cc5-textbook-unassigned-00",
+    "cc5-workbook-unassigned-00",
+    "cc5-textbook-l02-t01",
+    "cc5-textbook-l02-t02",
+    "cc5-textbook-l02-t08",
+    "cc5-textbook-l03-t04",
+    "cc5-textbook-l03-t07",
+    "cc5-textbook-l04-t03",
+    "cc5-textbook-l04-t07",
+    "cc5-textbook-l05-t01",
+    "cc5-textbook-l05-t03",
+    "cc5-textbook-l05-t07",
+    "cc5-textbook-l07-t02",
+    "cc5-textbook-l07-t03",
+    "cc5-textbook-l07-t04",
+    "cc5-textbook-l07-t05",
+    "cc5-textbook-l07-t07",
+    "cc5-textbook-l07-t09",
+    "cc5-textbook-l08-t04",
+    "cc5-textbook-l08-t07",
+    "cc5-textbook-l09-t03",
+    "cc5-textbook-l10-t01",
+    "cc5-textbook-l10-t02",
+    "cc5-textbook-l10-t05",
+    "cc5-textbook-l10-t07"
+  ],
+  "byLesson": [
+    {
+      "lesson": 1,
+      "textbook": 8,
+      "workbook": 1
+    },
+    {
+      "lesson": 2,
+      "textbook": 8,
+      "workbook": 1
+    },
+    {
+      "lesson": 3,
+      "textbook": 9,
+      "workbook": 1
+    },
+    {
+      "lesson": 4,
+      "textbook": 8,
+      "workbook": 1
+    },
+    {
+      "lesson": 5,
+      "textbook": 9,
+      "workbook": 1
+    },
+    {
+      "lesson": 6,
+      "textbook": 9,
+      "workbook": 1
+    },
+    {
+      "lesson": 7,
+      "textbook": 9,
+      "workbook": 1
+    },
+    {
+      "lesson": 8,
+      "textbook": 9,
+      "workbook": 1
+    },
+    {
+      "lesson": 9,
+      "textbook": 9,
+      "workbook": 1
+    },
+    {
+      "lesson": 10,
+      "textbook": 7,
+      "workbook": 1
+    }
+  ]
+}

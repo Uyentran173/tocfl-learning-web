@@ -1,0 +1,66 @@
+import assert from 'node:assert/strict';
+import { createHash } from 'node:crypto';
+import { existsSync, readFileSync } from 'node:fs';
+import path from 'node:path';
+import test from 'node:test';
+import { academyVolume5, academyVolume5Lessons, academyVocabularyByIds, validateAcademyLessonContent } from '../lib/academy-catalog.ts';
+import { academyScriptText } from '../lib/academy-script.ts';
+import manifest from '../data/academy/cc5-audio-manifest.json' with { type: 'json' };
+import report from '../data/academy/cc5-mapping-report.json' with { type: 'json' };
+import references from '../data/academy/cc5-printed-audio-references.json' with { type: 'json' };
+
+const root = path.resolve(import.meta.dirname, '..');
+
+test('Volume 5 exposes only complete lessons and keeps their learning content isolated', () => {
+  assert.equal(academyVolume5.lessonIds.length, 10);
+  assert.equal(academyVolume5Lessons.length, 1);
+  const lesson = academyVolume5Lessons[0];
+  assert.equal(lesson.id, 'cc5-v5-l01');
+  assert.equal(validateAcademyLessonContent(lesson), true);
+  assert.equal(lesson.lecture.dialogues.length, 2);
+  assert.deepEqual(lesson.lecture.dialogues.map((reading) => reading.turns.length), [6, 4]);
+  assert.equal(lesson.vocabulary.wordIds.length, 102);
+  assert.equal(new Set(lesson.vocabulary.wordIds).size, 102);
+  assert.equal(academyVocabularyByIds(lesson.vocabulary.wordIds).length, 102);
+  assert.equal(lesson.grammar.length, 12);
+  assert.equal(lesson.listening.length, 4);
+  assert.equal(lesson.practice.length, 10);
+  assert.equal(lesson.assessment.length, 12);
+  assert.equal(academyScriptText(lesson.title, 'simplified'), '言论自由的界线');
+  for (const reading of lesson.lecture.dialogues) {
+    assert.ok(reading.turns.every((turn) => turn.chinese && turn.simplified && turn.meaningVi));
+    assert.ok(reading.audioTrackId && manifest.tracks.some((track) => track.id === reading.audioTrackId && track.mappingStatus === 'verified'));
+  }
+  const questions = [...lesson.lecture.checks, ...lesson.listening, ...lesson.practice, ...lesson.assessment, ...lesson.grammar.map((point) => point.check)];
+  assert.equal(new Set(questions.map((question) => question.id)).size, questions.length);
+  for (const question of questions) {
+    assert.ok(question.options.some((option) => option.id === question.correctOptionId), question.id);
+    assert.equal(new Set(question.options.map((option) => option.text)).size, question.options.length, question.id);
+  }
+});
+
+test('Volume 5 keeps textbook/workbook tracks separate and only publishes verified references', () => {
+  assert.equal(manifest.tracks.length, 97);
+  assert.equal(manifest.tracks.filter((track) => track.source === 'textbook').length, 86);
+  assert.equal(manifest.tracks.filter((track) => track.source === 'workbook').length, 11);
+  assert.equal(new Set(manifest.tracks.map((track) => track.id)).size, 97);
+  assert.equal(manifest.tracks.filter((track) => track.mappingStatus === 'verified').length, report.verified);
+  assert.equal(report.verified, 72);
+  assert.equal(report.pending.length, 25);
+  assert.equal(manifest.tracks.find((track) => track.id === 'cc5-textbook-unassigned-00').mappingStatus, 'pending');
+  assert.equal(manifest.tracks.find((track) => track.id === 'cc5-workbook-unassigned-00').mappingStatus, 'pending');
+  assert.equal(manifest.tracks.filter((track) => track.lesson === 1 && track.mappingStatus === 'verified').length, 9);
+  for (const track of manifest.tracks) {
+    const published = path.join(root, 'public/academy/cc5/audio', `${track.id}.mp3`);
+    assert.equal(existsSync(published), track.mappingStatus === 'verified', track.id);
+    if (track.mappingStatus !== 'verified') continue;
+    assert.ok(track.activity?.pdfPage > 0, track.id);
+    assert.equal(track.activity.referenceCode, track.source === 'workbook' ? `${track.originalName.slice(0, -4)}-1` : track.originalName.slice(0, -4));
+    const sourcePages = track.source === 'textbook' ? references.textbook : references.workbook;
+    const printedCode = track.source === 'workbook' ? String(track.lesson).padStart(2, '0') : track.activity.referenceCode;
+    assert.equal(sourcePages[printedCode], track.activity.pdfPage, track.id);
+    const bytes = readFileSync(published);
+    assert.equal(bytes.length, track.bytes, track.id);
+    assert.equal(createHash('sha256').update(bytes).digest('hex'), track.sha256, track.id);
+  }
+});

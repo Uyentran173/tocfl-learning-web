@@ -2,8 +2,9 @@ import manifest from "@/data/academy/cc1-audio-manifest.json";
 import volume2Manifest from "@/data/academy/cc2-audio-manifest.json";
 import volume3Manifest from "@/data/academy/cc3-audio-manifest.json";
 import volume4Manifest from "@/data/academy/cc4-audio-manifest.json";
+import volume5Manifest from "@/data/academy/cc5-audio-manifest.json";
 
-export type AcademyTrack = (typeof manifest.tracks)[number] | (typeof volume2Manifest.tracks)[number] | (typeof volume3Manifest.tracks)[number] | (typeof volume4Manifest.tracks)[number];
+export type AcademyTrack = (typeof manifest.tracks)[number] | (typeof volume2Manifest.tracks)[number] | (typeof volume3Manifest.tracks)[number] | (typeof volume4Manifest.tracks)[number] | (typeof volume5Manifest.tracks)[number];
 export const academyCourse = {
   id: manifest.courseId,
   title: manifest.title,
@@ -12,13 +13,13 @@ export const academyCourse = {
   lesson01Title: "歡迎你來臺灣！",
 };
 
-export function academyTracksForLesson(lesson: number, verifiedOnly = true, courseId: "cc1" | "cc2" | "cc3" | "cc4" = "cc1"): AcademyTrack[] {
-  const source = courseId === "cc4" ? volume4Manifest.tracks : courseId === "cc3" ? volume3Manifest.tracks : courseId === "cc2" ? volume2Manifest.tracks : manifest.tracks;
+export function academyTracksForLesson(lesson: number, verifiedOnly = true, courseId: "cc1" | "cc2" | "cc3" | "cc4" | "cc5" = "cc1"): AcademyTrack[] {
+  const source = courseId === "cc5" ? volume5Manifest.tracks : courseId === "cc4" ? volume4Manifest.tracks : courseId === "cc3" ? volume3Manifest.tracks : courseId === "cc2" ? volume2Manifest.tracks : manifest.tracks;
   return source.filter((track) => track.lesson === lesson && (!verifiedOnly || track.mappingStatus === "verified"));
 }
 
 export function academyTrackById(id: string): AcademyTrack | undefined {
-  return [...manifest.tracks, ...volume2Manifest.tracks, ...volume3Manifest.tracks, ...volume4Manifest.tracks].find((track) => track.id === id);
+  return [...manifest.tracks, ...volume2Manifest.tracks, ...volume3Manifest.tracks, ...volume4Manifest.tracks, ...volume5Manifest.tracks].find((track) => track.id === id);
 }
 
 export function academyMappingSummary() {

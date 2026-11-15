@@ -1,0 +1,1975 @@
+{
+  "schemaVersion": 1,
+  "courseId": "cc5",
+  "volume": 5,
+  "title": "A Course in Contemporary Chinese — Volume 5",
+  "pdfSha256": {
+    "textbook": "2c714bc27498909af27ccc1066c366a40e00caff050e91e554da36a54a12dbd4",
+    "workbook": "3024d8ded2e487080babbd76021a17bbb3f4c298147f88eaa80a014aee32ff24"
+  },
+  "sourceZipSha256": {
+    "textbook": "f8f62823eeb7f3dc7af131cf452248e89bcdcbe9ba7e4f90382c523a66711cb4",
+    "workbook": "7306ba61a3c57a7c20a75d53d6fd9369cf82b0055fba792400bd0cf4f981565b"
+  },
+  "tracks": [
+    {
+      "id": "cc5-textbook-unassigned-00",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": null,
+      "source": "textbook",
+      "number": null,
+      "originalName": "00.mp3",
+      "privatePath": "textbook/00.mp3",
+      "bytes": 506882,
+      "sha256": "ee17fb4bb0a214696275865dd8a91184662a2d674e587c8537b1d29b3ed00a30",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc5-workbook-unassigned-00",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": null,
+      "source": "workbook",
+      "number": null,
+      "originalName": "00.mp3",
+      "privatePath": "workbook/00.mp3",
+      "bytes": 506882,
+      "sha256": "f785b0afd5e1a53840e3b89c0c826e73d74f6f8b16c75c60870383199bf51bc6",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc5-textbook-l01-t01",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 1,
+      "source": "textbook",
+      "number": 1,
+      "originalName": "01-01.mp3",
+      "privatePath": "textbook/01-01.mp3",
+      "bytes": 623493,
+      "sha256": "6392300eae4605dd3c4f02ef2a8aca5191acbfbfa054ef0027b8a7d71ae1766e",
+      "pdfPages": [
+        27
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 27,
+        "bookPage": 1,
+        "labelVi": "Chuẩn bị bài đọc",
+        "referenceCode": "01-01"
+      }
+    },
+    {
+      "id": "cc5-textbook-l01-t02",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 1,
+      "source": "textbook",
+      "number": 2,
+      "originalName": "01-02.mp3",
+      "privatePath": "textbook/01-02.mp3",
+      "bytes": 3101155,
+      "sha256": "59264a393c795603c504da8bababcce1084985f3da25cc3a84b8a2fbc8d155a3",
+      "pdfPages": [
+        28
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 28,
+        "bookPage": 2,
+        "labelVi": "Bài đọc 1: 擁有言論自由才是真民主",
+        "referenceCode": "01-02"
+      }
+    },
+    {
+      "id": "cc5-textbook-l01-t03",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 1,
+      "source": "textbook",
+      "number": 3,
+      "originalName": "01-03.mp3",
+      "privatePath": "textbook/01-03.mp3",
+      "bytes": 3677103,
+      "sha256": "7d1cd0864a844278cb3721593324f181fb7cc2fc7a0870d6c4184249feba2011",
+      "pdfPages": [
+        30
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 30,
+        "bookPage": 4,
+        "labelVi": "Từ vựng bài đọc 1",
+        "referenceCode": "01-03"
+      }
+    },
+    {
+      "id": "cc5-textbook-l01-t04",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 1,
+      "source": "textbook",
+      "number": 4,
+      "originalName": "01-04.mp3",
+      "privatePath": "textbook/01-04.mp3",
+      "bytes": 2474216,
+      "sha256": "b642e0ac864c654c02899e32d010d8c77079d851f0f70569e8eb16c104c477c2",
+      "pdfPages": [
+        32
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 32,
+        "bookPage": 6,
+        "labelVi": "Ngữ pháp bài đọc 1",
+        "referenceCode": "01-04"
+      }
+    },
+    {
+      "id": "cc5-textbook-l01-t05",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 1,
+      "source": "textbook",
+      "number": 5,
+      "originalName": "01-05.mp3",
+      "privatePath": "textbook/01-05.mp3",
+      "bytes": 2637220,
+      "sha256": "b848bd78cfb93d0c3036a5ef382dafe02d4c88ab8f715765349e6f26ef1ecff8",
+      "pdfPages": [
+        36
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 36,
+        "bookPage": 10,
+        "labelVi": "Luyện dùng từ và thành ngữ",
+        "referenceCode": "01-05"
+      }
+    },
+    {
+      "id": "cc5-textbook-l01-t06",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 1,
+      "source": "textbook",
+      "number": 6,
+      "originalName": "01-06.mp3",
+      "privatePath": "textbook/01-06.mp3",
+      "bytes": 3106170,
+      "sha256": "e6e4976bdb357648b346ee3fe4c76c0a020d6c22f0c2374eab8109b66c5b04b6",
+      "pdfPages": [
+        38
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 38,
+        "bookPage": 12,
+        "labelVi": "Bài đọc 2: 濫用自由並非真自由",
+        "referenceCode": "01-06"
+      }
+    },
+    {
+      "id": "cc5-textbook-l01-t07",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 1,
+      "source": "textbook",
+      "number": 7,
+      "originalName": "01-07.mp3",
+      "privatePath": "textbook/01-07.mp3",
+      "bytes": 2985380,
+      "sha256": "3dda6e3cc6612ed60a2d6425c95200e9eb9df0809473574a38da9b6ba5b56c53",
+      "pdfPages": [
+        39
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 39,
+        "bookPage": 13,
+        "labelVi": "Từ vựng bài đọc 2",
+        "referenceCode": "01-07"
+      }
+    },
+    {
+      "id": "cc5-textbook-l01-t08",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 1,
+      "source": "textbook",
+      "number": 8,
+      "originalName": "01-08.mp3",
+      "privatePath": "textbook/01-08.mp3",
+      "bytes": 2475052,
+      "sha256": "fd4410e71711202599074d3d7cc511f6e1d0c8325ef8c7f9799469dc979a8c25",
+      "pdfPages": [
+        41
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 41,
+        "bookPage": 15,
+        "labelVi": "Ngữ pháp bài đọc 2",
+        "referenceCode": "01-08"
+      }
+    },
+    {
+      "id": "cc5-workbook-l01-t01",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 1,
+      "source": "workbook",
+      "number": 1,
+      "originalName": "01.mp3",
+      "privatePath": "workbook/01.mp3",
+      "bytes": 3367813,
+      "sha256": "2e5a3be7ec7188318f8e4d1e0d632eba489cd5f3f57b5e246d0b65c9a3e5593f",
+      "pdfPages": [
+        3
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 3,
+        "bookPage": 1,
+        "labelVi": "Nghe ý kiến về ẩn danh và dùng tên thật",
+        "referenceCode": "01-1"
+      }
+    },
+    {
+      "id": "cc5-textbook-l02-t01",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 2,
+      "source": "textbook",
+      "number": 1,
+      "originalName": "02-01.mp3",
+      "privatePath": "textbook/02-01.mp3",
+      "bytes": 4437370,
+      "sha256": "34b707ef4c87996ff333497c6bd879ff2e0c5b100600fdca74153f15ba0b5184",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc5-textbook-l02-t02",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 2,
+      "source": "textbook",
+      "number": 2,
+      "originalName": "02-02.mp3",
+      "privatePath": "textbook/02-02.mp3",
+      "bytes": 4077925,
+      "sha256": "1a0dc5b977a8a960f40d165cf25cb02f88df11567eef6c449dd404419a5631be",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc5-textbook-l02-t03",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 2,
+      "source": "textbook",
+      "number": 3,
+      "originalName": "02-03.mp3",
+      "privatePath": "textbook/02-03.mp3",
+      "bytes": 2417792,
+      "sha256": "7a6ed45de930f9954e70f207dc1a68a6ce6c4ffe55725f96efd64d44de7fb850",
+      "pdfPages": [
+        57
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 57,
+        "bookPage": 31,
+        "labelVi": "Âm thanh kèm trang 31",
+        "referenceCode": "02-03"
+      }
+    },
+    {
+      "id": "cc5-textbook-l02-t04",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 2,
+      "source": "textbook",
+      "number": 4,
+      "originalName": "02-04.mp3",
+      "privatePath": "textbook/02-04.mp3",
+      "bytes": 1300169,
+      "sha256": "e4649aaa550ba4e6d0e3c9c9e88346a5cc4d86ccd6c4f36f50b04a4170c3ceee",
+      "pdfPages": [
+        63
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 63,
+        "bookPage": 37,
+        "labelVi": "Âm thanh kèm trang 37",
+        "referenceCode": "02-04"
+      }
+    },
+    {
+      "id": "cc5-textbook-l02-t05",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 2,
+      "source": "textbook",
+      "number": 5,
+      "originalName": "02-05.mp3",
+      "privatePath": "textbook/02-05.mp3",
+      "bytes": 3406265,
+      "sha256": "f37b79a0d48fdcadcadd727bc24a10249b60618d5ed330d76b3a165f4846c19a",
+      "pdfPages": [
+        66
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 66,
+        "bookPage": 40,
+        "labelVi": "Âm thanh kèm trang 40",
+        "referenceCode": "02-05"
+      }
+    },
+    {
+      "id": "cc5-textbook-l02-t06",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 2,
+      "source": "textbook",
+      "number": 6,
+      "originalName": "02-06.mp3",
+      "privatePath": "textbook/02-06.mp3",
+      "bytes": 2460841,
+      "sha256": "4562f0029c0e9175cca10ef79c8a66a6ee57ee250a8243416c6f736d246c98f4",
+      "pdfPages": [
+        67
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 67,
+        "bookPage": 41,
+        "labelVi": "Âm thanh kèm trang 41",
+        "referenceCode": "02-06"
+      }
+    },
+    {
+      "id": "cc5-textbook-l02-t07",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 2,
+      "source": "textbook",
+      "number": 7,
+      "originalName": "02-07.mp3",
+      "privatePath": "textbook/02-07.mp3",
+      "bytes": 1425974,
+      "sha256": "fb3cabfa6b4ebbc9e834194bec5434b582a9d29c71e75be3c79ffa5d0923bb8c",
+      "pdfPages": [
+        69
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 69,
+        "bookPage": 43,
+        "labelVi": "Âm thanh kèm trang 43",
+        "referenceCode": "02-07"
+      }
+    },
+    {
+      "id": "cc5-textbook-l02-t08",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 2,
+      "source": "textbook",
+      "number": 8,
+      "originalName": "02-08.mp3",
+      "privatePath": "textbook/02-08.mp3",
+      "bytes": 1484071,
+      "sha256": "ba0b408df8a754ac59bee18a2f651d41495126a06589769719b9b6d8c4c4904a",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc5-workbook-l02-t01",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 2,
+      "source": "workbook",
+      "number": 1,
+      "originalName": "02.mp3",
+      "privatePath": "workbook/02.mp3",
+      "bytes": 1811333,
+      "sha256": "407641c6d5983721503a28cc7e60a9698cdec01c1602d41b60f1fc5272ed6b2b",
+      "pdfPages": [
+        7
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 7,
+        "bookPage": 5,
+        "labelVi": "Bài nghe sách bài tập 02",
+        "referenceCode": "02-1"
+      }
+    },
+    {
+      "id": "cc5-textbook-l03-t01",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 3,
+      "source": "textbook",
+      "number": 1,
+      "originalName": "03-01.mp3",
+      "privatePath": "textbook/03-01.mp3",
+      "bytes": 677409,
+      "sha256": "f020fa30d245ec9cc25492272c25ca603b5ced06ab00ef83131c15c789d1227d",
+      "pdfPages": [
+        77
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 77,
+        "bookPage": 51,
+        "labelVi": "Âm thanh kèm trang 51",
+        "referenceCode": "03-01"
+      }
+    },
+    {
+      "id": "cc5-textbook-l03-t02",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 3,
+      "source": "textbook",
+      "number": 2,
+      "originalName": "03-02.mp3",
+      "privatePath": "textbook/03-02.mp3",
+      "bytes": 3764038,
+      "sha256": "f0f0342bdf169f1acfeabb80cb96e251bbf3cfbebfc78bf7c8f5872232f9ada8",
+      "pdfPages": [
+        78
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 78,
+        "bookPage": 52,
+        "labelVi": "Âm thanh kèm trang 52",
+        "referenceCode": "03-02"
+      }
+    },
+    {
+      "id": "cc5-textbook-l03-t03",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 3,
+      "source": "textbook",
+      "number": 3,
+      "originalName": "03-03.mp3",
+      "privatePath": "textbook/03-03.mp3",
+      "bytes": 3626947,
+      "sha256": "582e1e1680a6970cb5324033b87da6c0c3c3010add99e0caa792af0464fa0456",
+      "pdfPages": [
+        79
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 79,
+        "bookPage": 53,
+        "labelVi": "Âm thanh kèm trang 53",
+        "referenceCode": "03-03"
+      }
+    },
+    {
+      "id": "cc5-textbook-l03-t04",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 3,
+      "source": "textbook",
+      "number": 4,
+      "originalName": "03-04.mp3",
+      "privatePath": "textbook/03-04.mp3",
+      "bytes": 3113276,
+      "sha256": "89f05607824792c49e5669f07257fb048df274f52ee8a3db65a3c82cc3b8d30c",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc5-textbook-l03-t05",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 3,
+      "source": "textbook",
+      "number": 5,
+      "originalName": "03-05.mp3",
+      "privatePath": "textbook/03-05.mp3",
+      "bytes": 506882,
+      "sha256": "9fa8cea54196d67b9c5cdcc557246855410c3a8aad4f5e4ca618d67058079382",
+      "pdfPages": [
+        85
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 85,
+        "bookPage": 59,
+        "labelVi": "Âm thanh kèm trang 59",
+        "referenceCode": "03-05"
+      }
+    },
+    {
+      "id": "cc5-textbook-l03-t06",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 3,
+      "source": "textbook",
+      "number": 6,
+      "originalName": "03-06.mp3",
+      "privatePath": "textbook/03-06.mp3",
+      "bytes": 2922686,
+      "sha256": "40334f8207e3a000f304d6a075428931bf5f0b52b5a475cdc6203f446cdc9632",
+      "pdfPages": [
+        86
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 86,
+        "bookPage": 60,
+        "labelVi": "Âm thanh kèm trang 60",
+        "referenceCode": "03-06"
+      }
+    },
+    {
+      "id": "cc5-textbook-l03-t07",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 3,
+      "source": "textbook",
+      "number": 7,
+      "originalName": "03-07.mp3",
+      "privatePath": "textbook/03-07.mp3",
+      "bytes": 2825302,
+      "sha256": "7a416320c63f872fc52ce0ddb437004e9b9021a9beaeee2d72bf1303b95852c6",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc5-textbook-l03-t08",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 3,
+      "source": "textbook",
+      "number": 8,
+      "originalName": "03-08.mp3",
+      "privatePath": "textbook/03-08.mp3",
+      "bytes": 1663793,
+      "sha256": "72d8e46b017009922d4f1839fbdc1ff7665b78fe2b92ec560a685cac8d173d5d",
+      "pdfPages": [
+        89
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 89,
+        "bookPage": 63,
+        "labelVi": "Âm thanh kèm trang 63",
+        "referenceCode": "03-08"
+      }
+    },
+    {
+      "id": "cc5-textbook-l03-t09",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 3,
+      "source": "textbook",
+      "number": 9,
+      "originalName": "03-09.mp3",
+      "privatePath": "textbook/03-09.mp3",
+      "bytes": 1004672,
+      "sha256": "b611fef1dc87a2e0cadb5f5f70e4bb717b28f0597a0e0c213366c93cd030ee93",
+      "pdfPages": [
+        93
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 93,
+        "bookPage": 67,
+        "labelVi": "Âm thanh kèm trang 67",
+        "referenceCode": "03-09"
+      }
+    },
+    {
+      "id": "cc5-workbook-l03-t01",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 3,
+      "source": "workbook",
+      "number": 1,
+      "originalName": "03.mp3",
+      "privatePath": "workbook/03.mp3",
+      "bytes": 5364404,
+      "sha256": "e2b496d55ab6b1ef76ff8e90cce92b9e8d6e4d22e65d927f9a16ef32e17165bc",
+      "pdfPages": [
+        11
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 11,
+        "bookPage": 9,
+        "labelVi": "Bài nghe sách bài tập 03",
+        "referenceCode": "03-1"
+      }
+    },
+    {
+      "id": "cc5-textbook-l04-t01",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 4,
+      "source": "textbook",
+      "number": 1,
+      "originalName": "04-01.mp3",
+      "privatePath": "textbook/04-01.mp3",
+      "bytes": 824113,
+      "sha256": "581adc1336ba3b1b87d075060c02a5bb71bb00ae19ffb9c8feb7da9db43f7654",
+      "pdfPages": [
+        97
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 97,
+        "bookPage": 71,
+        "labelVi": "Âm thanh kèm trang 71",
+        "referenceCode": "04-01"
+      }
+    },
+    {
+      "id": "cc5-textbook-l04-t02",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 4,
+      "source": "textbook",
+      "number": 2,
+      "originalName": "04-02.mp3",
+      "privatePath": "textbook/04-02.mp3",
+      "bytes": 3010876,
+      "sha256": "dee9107c54636aacbf7aac95775f8812c110f40d5da9bf14ef7a90ee833ef75f",
+      "pdfPages": [
+        98
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 98,
+        "bookPage": 72,
+        "labelVi": "Âm thanh kèm trang 72",
+        "referenceCode": "04-02"
+      }
+    },
+    {
+      "id": "cc5-textbook-l04-t03",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 4,
+      "source": "textbook",
+      "number": 3,
+      "originalName": "04-03.mp3",
+      "privatePath": "textbook/04-03.mp3",
+      "bytes": 3619842,
+      "sha256": "c7f9c9371334ea75aebb5574aed13c37cab7736d6659b4e1edc5402cfaf1fec0",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc5-textbook-l04-t04",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 4,
+      "source": "textbook",
+      "number": 4,
+      "originalName": "04-04.mp3",
+      "privatePath": "textbook/04-04.mp3",
+      "bytes": 2309122,
+      "sha256": "4ca50898d6d2b09478f568e70a7a76b6de665f2fd9eda41205c99695fbeda022",
+      "pdfPages": [
+        101
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 101,
+        "bookPage": 75,
+        "labelVi": "Âm thanh kèm trang 75",
+        "referenceCode": "04-04"
+      }
+    },
+    {
+      "id": "cc5-textbook-l04-t05",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 4,
+      "source": "textbook",
+      "number": 5,
+      "originalName": "04-05.mp3",
+      "privatePath": "textbook/04-05.mp3",
+      "bytes": 1367042,
+      "sha256": "87325bf43f81b7fc02e4dceae55668f0eb757807954e9acf3b8387607dfd99dc",
+      "pdfPages": [
+        107
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 107,
+        "bookPage": 81,
+        "labelVi": "Âm thanh kèm trang 81",
+        "referenceCode": "04-05"
+      }
+    },
+    {
+      "id": "cc5-textbook-l04-t06",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 4,
+      "source": "textbook",
+      "number": 6,
+      "originalName": "04-06.mp3",
+      "privatePath": "textbook/04-06.mp3",
+      "bytes": 3293416,
+      "sha256": "bf4ccb9aad420b28c4392ad14bb5719c67e2c28010b8e1f54d3a8829d9530fdd",
+      "pdfPages": [
+        108
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 108,
+        "bookPage": 82,
+        "labelVi": "Âm thanh kèm trang 82",
+        "referenceCode": "04-06"
+      }
+    },
+    {
+      "id": "cc5-textbook-l04-t07",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 4,
+      "source": "textbook",
+      "number": 7,
+      "originalName": "04-07.mp3",
+      "privatePath": "textbook/04-07.mp3",
+      "bytes": 2460005,
+      "sha256": "11742bd9dcc0d4a8bfb62cc8e40d93adcb071ebea1303264f714a6d6e9c2d891",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc5-textbook-l04-t08",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 4,
+      "source": "textbook",
+      "number": 8,
+      "originalName": "04-08.mp3",
+      "privatePath": "textbook/04-08.mp3",
+      "bytes": 1762849,
+      "sha256": "f988c03a49e4d85e3ee6dd030932180cb7fabd18d98631539a2faf250e897693",
+      "pdfPages": [
+        111
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 111,
+        "bookPage": 85,
+        "labelVi": "Âm thanh kèm trang 85",
+        "referenceCode": "04-08"
+      }
+    },
+    {
+      "id": "cc5-workbook-l04-t01",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 4,
+      "source": "workbook",
+      "number": 1,
+      "originalName": "04.mp3",
+      "privatePath": "workbook/04.mp3",
+      "bytes": 2169524,
+      "sha256": "7b3b6e10eee643ca70776f37fe0ccad65e4f9f065f885066766b1efb052fdb9e",
+      "pdfPages": [
+        15
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 15,
+        "bookPage": 13,
+        "labelVi": "Bài nghe sách bài tập 04",
+        "referenceCode": "04-1"
+      }
+    },
+    {
+      "id": "cc5-textbook-l05-t01",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 5,
+      "source": "textbook",
+      "number": 1,
+      "originalName": "05-01.mp3",
+      "privatePath": "textbook/05-01.mp3",
+      "bytes": 1564737,
+      "sha256": "dd2613329110aaae9ea328b7630c84d6c37e99e1df332341099afc7312b914fc",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc5-textbook-l05-t02",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 5,
+      "source": "textbook",
+      "number": 2,
+      "originalName": "05-02.mp3",
+      "privatePath": "textbook/05-02.mp3",
+      "bytes": 2638474,
+      "sha256": "175d2be92a52b6794408f5feb1be565b1791ba02e524152b1f15e1edf45a0af9",
+      "pdfPages": [
+        122
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 122,
+        "bookPage": 96,
+        "labelVi": "Âm thanh kèm trang 96",
+        "referenceCode": "05-02"
+      }
+    },
+    {
+      "id": "cc5-textbook-l05-t03",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 5,
+      "source": "textbook",
+      "number": 3,
+      "originalName": "05-03.mp3",
+      "privatePath": "textbook/05-03.mp3",
+      "bytes": 3196032,
+      "sha256": "a603105aaf83aea9bb48b5aee06c40690f943b715f764daac1bd3fb11343ef32",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc5-textbook-l05-t04",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 5,
+      "source": "textbook",
+      "number": 4,
+      "originalName": "05-04.mp3",
+      "privatePath": "textbook/05-04.mp3",
+      "bytes": 2177047,
+      "sha256": "ee56f2971199fd7a418a55adbd943b74c097cc6226389ff22b680e271fabe89a",
+      "pdfPages": [
+        125
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 125,
+        "bookPage": 99,
+        "labelVi": "Âm thanh kèm trang 99",
+        "referenceCode": "05-04"
+      }
+    },
+    {
+      "id": "cc5-textbook-l05-t05",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 5,
+      "source": "textbook",
+      "number": 5,
+      "originalName": "05-05.mp3",
+      "privatePath": "textbook/05-05.mp3",
+      "bytes": 3053507,
+      "sha256": "69f5d198e5a196f5aadbf376566646fce3ec52c61a06201389e63a7d5ed95126",
+      "pdfPages": [
+        129
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 129,
+        "bookPage": 103,
+        "labelVi": "Âm thanh kèm trang 103",
+        "referenceCode": "05-05"
+      }
+    },
+    {
+      "id": "cc5-textbook-l05-t06",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 5,
+      "source": "textbook",
+      "number": 6,
+      "originalName": "05-06.mp3",
+      "privatePath": "textbook/05-06.mp3",
+      "bytes": 2834497,
+      "sha256": "73c659c006cf48a2b7c93034508350e48f772769168f599f8850c145dc887fdd",
+      "pdfPages": [
+        134
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 134,
+        "bookPage": 108,
+        "labelVi": "Âm thanh kèm trang 108",
+        "referenceCode": "05-06"
+      }
+    },
+    {
+      "id": "cc5-textbook-l05-t07",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 5,
+      "source": "textbook",
+      "number": 7,
+      "originalName": "05-07.mp3",
+      "privatePath": "textbook/05-07.mp3",
+      "bytes": 1681765,
+      "sha256": "624c105224e2e19ab45c9026ae2546529c50abb5b29d233b05d2d54a3ad0ce43",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc5-textbook-l05-t08",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 5,
+      "source": "textbook",
+      "number": 8,
+      "originalName": "05-08.mp3",
+      "privatePath": "textbook/05-08.mp3",
+      "bytes": 1318141,
+      "sha256": "9b4415efec9532cadbfce7227e825b487568ea98e95b17d4f3446f6f51f89c60",
+      "pdfPages": [
+        137
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 137,
+        "bookPage": 111,
+        "labelVi": "Âm thanh kèm trang 111",
+        "referenceCode": "05-08"
+      }
+    },
+    {
+      "id": "cc5-textbook-l05-t09",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 5,
+      "source": "textbook",
+      "number": 9,
+      "originalName": "05-09.mp3",
+      "privatePath": "textbook/05-09.mp3",
+      "bytes": 1235385,
+      "sha256": "106e1703595973159fd6e9b0d33943ce6f7223f424fde9fa1031e833d25a8457",
+      "pdfPages": [
+        141
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 141,
+        "bookPage": 115,
+        "labelVi": "Âm thanh kèm trang 115",
+        "referenceCode": "05-09"
+      }
+    },
+    {
+      "id": "cc5-workbook-l05-t01",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 5,
+      "source": "workbook",
+      "number": 1,
+      "originalName": "05.mp3",
+      "privatePath": "workbook/05.mp3",
+      "bytes": 2430330,
+      "sha256": "41c4094f5f2dcab1a10841f366fbbc6eee41c69b5e86c8390cdfc530449338e8",
+      "pdfPages": [
+        19
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 19,
+        "bookPage": 17,
+        "labelVi": "Bài nghe sách bài tập 05",
+        "referenceCode": "05-1"
+      }
+    },
+    {
+      "id": "cc5-textbook-l06-t01",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 6,
+      "source": "textbook",
+      "number": 1,
+      "originalName": "06-01.mp3",
+      "privatePath": "textbook/06-01.mp3",
+      "bytes": 503538,
+      "sha256": "e6a8ad735683d35ead0c9a49006a0c66318f4bea35ee5365cba97512cb8aa979",
+      "pdfPages": [
+        147
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 147,
+        "bookPage": 121,
+        "labelVi": "Âm thanh kèm trang 121",
+        "referenceCode": "06-01"
+      }
+    },
+    {
+      "id": "cc5-textbook-l06-t02",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 6,
+      "source": "textbook",
+      "number": 2,
+      "originalName": "06-02.mp3",
+      "privatePath": "textbook/06-02.mp3",
+      "bytes": 3020489,
+      "sha256": "ad941098dbfb5e1e42d4dde2fbb8753e7077c9e2c1e47728bf16cc759687b911",
+      "pdfPages": [
+        148
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 148,
+        "bookPage": 122,
+        "labelVi": "Âm thanh kèm trang 122",
+        "referenceCode": "06-02"
+      }
+    },
+    {
+      "id": "cc5-textbook-l06-t03",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 6,
+      "source": "textbook",
+      "number": 3,
+      "originalName": "06-03.mp3",
+      "privatePath": "textbook/06-03.mp3",
+      "bytes": 3965076,
+      "sha256": "3662f817a43f7d7be911ab88f47988b5db72d83e9007db71df27d7be4f7cdb9a",
+      "pdfPages": [
+        149
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 149,
+        "bookPage": 123,
+        "labelVi": "Âm thanh kèm trang 123",
+        "referenceCode": "06-03"
+      }
+    },
+    {
+      "id": "cc5-textbook-l06-t04",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 6,
+      "source": "textbook",
+      "number": 4,
+      "originalName": "06-04.mp3",
+      "privatePath": "textbook/06-04.mp3",
+      "bytes": 2253952,
+      "sha256": "f135cb3c07981964e0b6b651ae4b42c0d84e605438f0dd7350f754fd97c4dbf3",
+      "pdfPages": [
+        151
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 151,
+        "bookPage": 125,
+        "labelVi": "Âm thanh kèm trang 125",
+        "referenceCode": "06-04"
+      }
+    },
+    {
+      "id": "cc5-textbook-l06-t05",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 6,
+      "source": "textbook",
+      "number": 5,
+      "originalName": "06-05.mp3",
+      "privatePath": "textbook/06-05.mp3",
+      "bytes": 1498281,
+      "sha256": "1455e2ef99ea053b3103b83338228bf2a1e4745afc21d55fe8f5c61d74d499a3",
+      "pdfPages": [
+        157
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 157,
+        "bookPage": 131,
+        "labelVi": "Âm thanh kèm trang 131",
+        "referenceCode": "06-05"
+      }
+    },
+    {
+      "id": "cc5-textbook-l06-t06",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 6,
+      "source": "textbook",
+      "number": 6,
+      "originalName": "06-06.mp3",
+      "privatePath": "textbook/06-06.mp3",
+      "bytes": 2789357,
+      "sha256": "e5df8e266a2f5500cca26dc5d7b0984ed0be63cdca91cb3cb9f7bd99da00f33e",
+      "pdfPages": [
+        158
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 158,
+        "bookPage": 132,
+        "labelVi": "Âm thanh kèm trang 132",
+        "referenceCode": "06-06"
+      }
+    },
+    {
+      "id": "cc5-textbook-l06-t07",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 6,
+      "source": "textbook",
+      "number": 7,
+      "originalName": "06-07.mp3",
+      "privatePath": "textbook/06-07.mp3",
+      "bytes": 2523953,
+      "sha256": "702f7922ce5c3a4f646df38c5dcd5bda462ee5270c7516aa8debdcc0c3cf599c",
+      "pdfPages": [
+        159
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 159,
+        "bookPage": 133,
+        "labelVi": "Âm thanh kèm trang 133",
+        "referenceCode": "06-07"
+      }
+    },
+    {
+      "id": "cc5-textbook-l06-t08",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 6,
+      "source": "textbook",
+      "number": 8,
+      "originalName": "06-08.mp3",
+      "privatePath": "textbook/06-08.mp3",
+      "bytes": 1834738,
+      "sha256": "8b6495e2eb8a86bf6d0eb0b978d21bd3b4897edfee16521f158eea19a9584ab2",
+      "pdfPages": [
+        161
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 161,
+        "bookPage": 135,
+        "labelVi": "Âm thanh kèm trang 135",
+        "referenceCode": "06-08"
+      }
+    },
+    {
+      "id": "cc5-textbook-l06-t09",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 6,
+      "source": "textbook",
+      "number": 9,
+      "originalName": "06-09.mp3",
+      "privatePath": "textbook/06-09.mp3",
+      "bytes": 1061096,
+      "sha256": "89ad43804bbb3f1e60ee79847d76d7f43a7612d04521384acfdd7ea47559b94c",
+      "pdfPages": [
+        164
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 164,
+        "bookPage": 138,
+        "labelVi": "Âm thanh kèm trang 138",
+        "referenceCode": "06-09"
+      }
+    },
+    {
+      "id": "cc5-workbook-l06-t01",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 6,
+      "source": "workbook",
+      "number": 1,
+      "originalName": "06.mp3",
+      "privatePath": "workbook/06.mp3",
+      "bytes": 2456244,
+      "sha256": "51e2a8faea52877fd10fffc8fbab1f0a54f1edba1a226c7978d46851d47e8383",
+      "pdfPages": [
+        23
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 23,
+        "bookPage": 21,
+        "labelVi": "Bài nghe sách bài tập 06",
+        "referenceCode": "06-1"
+      }
+    },
+    {
+      "id": "cc5-textbook-l07-t01",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 7,
+      "source": "textbook",
+      "number": 1,
+      "originalName": "07-01.mp3",
+      "privatePath": "textbook/07-01.mp3",
+      "bytes": 764763,
+      "sha256": "d37f5c11ed7600d46edfe957441797a13e8641a8a7c34f20e34cbbdd18f4e154",
+      "pdfPages": [
+        169
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 169,
+        "bookPage": 143,
+        "labelVi": "Âm thanh kèm trang 143",
+        "referenceCode": "07-01"
+      }
+    },
+    {
+      "id": "cc5-textbook-l07-t02",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 7,
+      "source": "textbook",
+      "number": 2,
+      "originalName": "07-02.mp3",
+      "privatePath": "textbook/07-02.mp3",
+      "bytes": 3728512,
+      "sha256": "f98e7332f6cc23265d2e813ea7e9904717df2954ffcfd03f6571025f341e8c33",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc5-textbook-l07-t03",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 7,
+      "source": "textbook",
+      "number": 3,
+      "originalName": "07-03.mp3",
+      "privatePath": "textbook/07-03.mp3",
+      "bytes": 3129576,
+      "sha256": "16876ce04659eac78054ba44b3d2175a393c5f4210e7725aba7a6edb57a856db",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc5-textbook-l07-t04",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 7,
+      "source": "textbook",
+      "number": 4,
+      "originalName": "07-04.mp3",
+      "privatePath": "textbook/07-04.mp3",
+      "bytes": 2623427,
+      "sha256": "3a82736ab5d1f4e2940fe438dfce16a6245f9b551d04f32dd1310d8a20a6cc89",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc5-textbook-l07-t05",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 7,
+      "source": "textbook",
+      "number": 5,
+      "originalName": "07-05.mp3",
+      "privatePath": "textbook/07-05.mp3",
+      "bytes": 2435764,
+      "sha256": "d2f4a10a7f1dfa8a54aac969c7754832c7d794aad7fad709e8d9d693d14df1df",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc5-textbook-l07-t06",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 7,
+      "source": "textbook",
+      "number": 6,
+      "originalName": "07-06.mp3",
+      "privatePath": "textbook/07-06.mp3",
+      "bytes": 3993498,
+      "sha256": "dd1f56705b7ddb9afa1c938f20a7da3935c682e285569345dcdf84f4031ef614",
+      "pdfPages": [
+        180
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 180,
+        "bookPage": 154,
+        "labelVi": "Âm thanh kèm trang 154",
+        "referenceCode": "07-06"
+      }
+    },
+    {
+      "id": "cc5-textbook-l07-t07",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 7,
+      "source": "textbook",
+      "number": 7,
+      "originalName": "07-07.mp3",
+      "privatePath": "textbook/07-07.mp3",
+      "bytes": 3044730,
+      "sha256": "bbe5a8eca6a62a1026850dec7cb8e45b36452adeb98e75699b44a6d587700043",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc5-textbook-l07-t08",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 7,
+      "source": "textbook",
+      "number": 8,
+      "originalName": "07-08.mp3",
+      "privatePath": "textbook/07-08.mp3",
+      "bytes": 1341129,
+      "sha256": "6a2b0c8b440846f2157d6696703aa504022ce5f9419dad0a4d47559e8690205f",
+      "pdfPages": [
+        183
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 183,
+        "bookPage": 157,
+        "labelVi": "Âm thanh kèm trang 157",
+        "referenceCode": "07-08"
+      }
+    },
+    {
+      "id": "cc5-textbook-l07-t09",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 7,
+      "source": "textbook",
+      "number": 9,
+      "originalName": "07-09.mp3",
+      "privatePath": "textbook/07-09.mp3",
+      "bytes": 2107666,
+      "sha256": "5b69d0bde2c1a69de24437e181c667af5df18671f1df25c54360c941ae422b0a",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc5-workbook-l07-t01",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 7,
+      "source": "workbook",
+      "number": 1,
+      "originalName": "07.mp3",
+      "privatePath": "workbook/07.mp3",
+      "bytes": 2322915,
+      "sha256": "2aadad293d6af88e8b42716a16541c63e2fce3d0c1b3c156b328d8f2aeb5275d",
+      "pdfPages": [
+        27
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 27,
+        "bookPage": 25,
+        "labelVi": "Bài nghe sách bài tập 07",
+        "referenceCode": "07-1"
+      }
+    },
+    {
+      "id": "cc5-textbook-l08-t01",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 8,
+      "source": "textbook",
+      "number": 1,
+      "originalName": "08-01.mp3",
+      "privatePath": "textbook/08-01.mp3",
+      "bytes": 660691,
+      "sha256": "3063894576e21b575bb11f3845dc928d1676322317027da5928b4da3c2f2b46c",
+      "pdfPages": [
+        189
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 189,
+        "bookPage": 163,
+        "labelVi": "Âm thanh kèm trang 163",
+        "referenceCode": "08-01"
+      }
+    },
+    {
+      "id": "cc5-textbook-l08-t02",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 8,
+      "source": "textbook",
+      "number": 2,
+      "originalName": "08-02.mp3",
+      "privatePath": "textbook/08-02.mp3",
+      "bytes": 3787026,
+      "sha256": "16448f677467450209eaff62ff922c3ed9ec4e950b5efdae43a62f98a2696d84",
+      "pdfPages": [
+        190
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 190,
+        "bookPage": 164,
+        "labelVi": "Âm thanh kèm trang 164",
+        "referenceCode": "08-02"
+      }
+    },
+    {
+      "id": "cc5-textbook-l08-t03",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 8,
+      "source": "textbook",
+      "number": 3,
+      "originalName": "08-03.mp3",
+      "privatePath": "textbook/08-03.mp3",
+      "bytes": 3695911,
+      "sha256": "5515b1dc45af2d0d7c6a8467eaaa8c82ce9090d452aaae2ac35bd215847d8d2f",
+      "pdfPages": [
+        191
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 191,
+        "bookPage": 165,
+        "labelVi": "Âm thanh kèm trang 165",
+        "referenceCode": "08-03"
+      }
+    },
+    {
+      "id": "cc5-textbook-l08-t04",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 8,
+      "source": "textbook",
+      "number": 4,
+      "originalName": "08-04.mp3",
+      "privatePath": "textbook/08-04.mp3",
+      "bytes": 1286794,
+      "sha256": "3f64a35dfe0b45c20e05e7a3f4171e29fcc3b4a34f63d2b437d290923b364b6e",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc5-textbook-l08-t05",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 8,
+      "source": "textbook",
+      "number": 5,
+      "originalName": "08-05.mp3",
+      "privatePath": "textbook/08-05.mp3",
+      "bytes": 1936303,
+      "sha256": "40e4c2446d6b618817dec8f27d902b18ba13bfcada97fc0b1dd45497f4d3e399",
+      "pdfPages": [
+        197
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 197,
+        "bookPage": 171,
+        "labelVi": "Âm thanh kèm trang 171",
+        "referenceCode": "08-05"
+      }
+    },
+    {
+      "id": "cc5-textbook-l08-t06",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 8,
+      "source": "textbook",
+      "number": 6,
+      "originalName": "08-06.mp3",
+      "privatePath": "textbook/08-06.mp3",
+      "bytes": 3691731,
+      "sha256": "2bf15ac1318838b3824a55064cb7c145d833171e724ef20ee11513e4485beadd",
+      "pdfPages": [
+        200
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 200,
+        "bookPage": 174,
+        "labelVi": "Âm thanh kèm trang 174",
+        "referenceCode": "08-06"
+      }
+    },
+    {
+      "id": "cc5-textbook-l08-t07",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 8,
+      "source": "textbook",
+      "number": 7,
+      "originalName": "08-07.mp3",
+      "privatePath": "textbook/08-07.mp3",
+      "bytes": 2529805,
+      "sha256": "37f79d2f9efdc14dfc777a9d17e3b6bd5855a15f1ef5ce1724380fdf94a6365d",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc5-textbook-l08-t08",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 8,
+      "source": "textbook",
+      "number": 8,
+      "originalName": "08-08.mp3",
+      "privatePath": "textbook/08-08.mp3",
+      "bytes": 1140926,
+      "sha256": "22233e572bf7e3eb37828276cfec4b9250682a5f0d909ca5cfa151817e4f2990",
+      "pdfPages": [
+        203
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 203,
+        "bookPage": 177,
+        "labelVi": "Âm thanh kèm trang 177",
+        "referenceCode": "08-08"
+      }
+    },
+    {
+      "id": "cc5-textbook-l08-t09",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 8,
+      "source": "textbook",
+      "number": 9,
+      "originalName": "08-09.mp3",
+      "privatePath": "textbook/08-09.mp3",
+      "bytes": 2581632,
+      "sha256": "bcafb53c3b0ec741b40accd8694cd61fc97cabf3ca218c55469c35ece4676bef",
+      "pdfPages": [
+        206
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 206,
+        "bookPage": 180,
+        "labelVi": "Âm thanh kèm trang 180",
+        "referenceCode": "08-09"
+      }
+    },
+    {
+      "id": "cc5-workbook-l08-t01",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 8,
+      "source": "workbook",
+      "number": 1,
+      "originalName": "08.mp3",
+      "privatePath": "workbook/08.mp3",
+      "bytes": 1914569,
+      "sha256": "8f0922c9dfaa45563b7bef79681d818e8f5d2d93f9916cd392ba380a962fb727",
+      "pdfPages": [
+        31
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 31,
+        "bookPage": 29,
+        "labelVi": "Bài nghe sách bài tập 08",
+        "referenceCode": "08-1"
+      }
+    },
+    {
+      "id": "cc5-textbook-l09-t01",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 9,
+      "source": "textbook",
+      "number": 1,
+      "originalName": "09-01.mp3",
+      "privatePath": "textbook/09-01.mp3",
+      "bytes": 511062,
+      "sha256": "833146041247b30b18efae9c36679d43bdcc8a4c23dfe0d959d7c7f0803d9f35",
+      "pdfPages": [
+        215
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 215,
+        "bookPage": 189,
+        "labelVi": "Âm thanh kèm trang 189",
+        "referenceCode": "09-01"
+      }
+    },
+    {
+      "id": "cc5-textbook-l09-t02",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 9,
+      "source": "textbook",
+      "number": 2,
+      "originalName": "09-02.mp3",
+      "privatePath": "textbook/09-02.mp3",
+      "bytes": 3417968,
+      "sha256": "1005c9d1f008222757bf8d48a5f3e4ebb7c8084e373d6bb70d9dbae9b543c127",
+      "pdfPages": [
+        216
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 216,
+        "bookPage": 190,
+        "labelVi": "Âm thanh kèm trang 190",
+        "referenceCode": "09-02"
+      }
+    },
+    {
+      "id": "cc5-textbook-l09-t03",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 9,
+      "source": "textbook",
+      "number": 3,
+      "originalName": "09-03.mp3",
+      "privatePath": "textbook/09-03.mp3",
+      "bytes": 3165103,
+      "sha256": "c7439bfcbe74e08da5ca154d753ad2fc82a852843766d22f43e0e69cb2a2bcf1",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc5-textbook-l09-t04",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 9,
+      "source": "textbook",
+      "number": 4,
+      "originalName": "09-04.mp3",
+      "privatePath": "textbook/09-04.mp3",
+      "bytes": 2031179,
+      "sha256": "0f2b144840d5a1e2f013f36a74d1852dfdfac1e778c269cd7a54c05b8e796ce3",
+      "pdfPages": [
+        219
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 219,
+        "bookPage": 193,
+        "labelVi": "Âm thanh kèm trang 193",
+        "referenceCode": "09-04"
+      }
+    },
+    {
+      "id": "cc5-textbook-l09-t05",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 9,
+      "source": "textbook",
+      "number": 5,
+      "originalName": "09-05.mp3",
+      "privatePath": "textbook/09-05.mp3",
+      "bytes": 1316051,
+      "sha256": "baec7ac0e764688bb584cf200198f3c71bca225d29e13bd07ebfd15638a0831d",
+      "pdfPages": [
+        223
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 223,
+        "bookPage": 197,
+        "labelVi": "Âm thanh kèm trang 197",
+        "referenceCode": "09-05"
+      }
+    },
+    {
+      "id": "cc5-textbook-l09-t06",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 9,
+      "source": "textbook",
+      "number": 6,
+      "originalName": "09-06.mp3",
+      "privatePath": "textbook/09-06.mp3",
+      "bytes": 3109096,
+      "sha256": "d54ccfe4979c4cdb53bd62e7ccfd49ef2f0c80a1e8774caf3731a3d26e426d14",
+      "pdfPages": [
+        224
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 224,
+        "bookPage": 198,
+        "labelVi": "Âm thanh kèm trang 198",
+        "referenceCode": "09-06"
+      }
+    },
+    {
+      "id": "cc5-textbook-l09-t07",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 9,
+      "source": "textbook",
+      "number": 7,
+      "originalName": "09-07.mp3",
+      "privatePath": "textbook/09-07.mp3",
+      "bytes": 2962810,
+      "sha256": "f3b1cbbbd33886940204c937e97c0ce51443e03d76b02f4a4f10c783255e09a0",
+      "pdfPages": [
+        225
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 225,
+        "bookPage": 199,
+        "labelVi": "Âm thanh kèm trang 199",
+        "referenceCode": "09-07"
+      }
+    },
+    {
+      "id": "cc5-textbook-l09-t08",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 9,
+      "source": "textbook",
+      "number": 8,
+      "originalName": "09-08.mp3",
+      "privatePath": "textbook/09-08.mp3",
+      "bytes": 1508312,
+      "sha256": "08c2421af85525aa46482bc506d209556e09a12d4f5c8f5672ff4d9ccdf653d0",
+      "pdfPages": [
+        227
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 227,
+        "bookPage": 201,
+        "labelVi": "Âm thanh kèm trang 201",
+        "referenceCode": "09-08"
+      }
+    },
+    {
+      "id": "cc5-textbook-l09-t09",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 9,
+      "source": "textbook",
+      "number": 9,
+      "originalName": "09-09.mp3",
+      "privatePath": "textbook/09-09.mp3",
+      "bytes": 943649,
+      "sha256": "862e884800bc48ab997ce8e7bcb5cdabbc9e3c8751c595a826b2bb1dd787d5e6",
+      "pdfPages": [
+        231
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 231,
+        "bookPage": 205,
+        "labelVi": "Âm thanh kèm trang 205",
+        "referenceCode": "09-09"
+      }
+    },
+    {
+      "id": "cc5-workbook-l09-t01",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 9,
+      "source": "workbook",
+      "number": 1,
+      "originalName": "09.mp3",
+      "privatePath": "workbook/09.mp3",
+      "bytes": 4281054,
+      "sha256": "29cf84cd5ff5333c281007a2d9c226d12d846d5f825579be06d76682d8e912f3",
+      "pdfPages": [
+        35
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 35,
+        "bookPage": 33,
+        "labelVi": "Bài nghe sách bài tập 09",
+        "referenceCode": "09-1"
+      }
+    },
+    {
+      "id": "cc5-textbook-l10-t01",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 10,
+      "source": "textbook",
+      "number": 1,
+      "originalName": "10-01.mp3",
+      "privatePath": "textbook/10-01.mp3",
+      "bytes": 3963405,
+      "sha256": "06c7b3c3a2cba907a4f9cce59ac510b8988bb5e2fffb1e37dcf5f55f46188460",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc5-textbook-l10-t02",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 10,
+      "source": "textbook",
+      "number": 2,
+      "originalName": "10-02.mp3",
+      "privatePath": "textbook/10-02.mp3",
+      "bytes": 2281955,
+      "sha256": "634ec7311b8caf13e55155d2c8bd46385285ebb1223e37f57c934e4e8a8d1a4d",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc5-textbook-l10-t03",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 10,
+      "source": "textbook",
+      "number": 3,
+      "originalName": "10-03.mp3",
+      "privatePath": "textbook/10-03.mp3",
+      "bytes": 1690961,
+      "sha256": "3e51377312045e5009eeff16c1a230b9bcd8edd353d3ab9e2dbca372ca66fb5e",
+      "pdfPages": [
+        241
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 241,
+        "bookPage": 215,
+        "labelVi": "Âm thanh kèm trang 215",
+        "referenceCode": "10-03"
+      }
+    },
+    {
+      "id": "cc5-textbook-l10-t04",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 10,
+      "source": "textbook",
+      "number": 4,
+      "originalName": "10-04.mp3",
+      "privatePath": "textbook/10-04.mp3",
+      "bytes": 1059006,
+      "sha256": "a03ebeb6ec6abb08ddf004006488611ddfab4f92744809d80d9744e46947ae15",
+      "pdfPages": [
+        245
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 245,
+        "bookPage": 219,
+        "labelVi": "Âm thanh kèm trang 219",
+        "referenceCode": "10-04"
+      }
+    },
+    {
+      "id": "cc5-textbook-l10-t05",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 10,
+      "source": "textbook",
+      "number": 5,
+      "originalName": "10-05.mp3",
+      "privatePath": "textbook/10-05.mp3",
+      "bytes": 3688387,
+      "sha256": "b3e9400ccca92e0d736ab23d6c94a3d1f91e6252f860a2d500680ba11653d45c",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc5-textbook-l10-t06",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 10,
+      "source": "textbook",
+      "number": 6,
+      "originalName": "10-06.mp3",
+      "privatePath": "textbook/10-06.mp3",
+      "bytes": 2850797,
+      "sha256": "d6206be51263319f293fe913f88315939e51998d4d61a2aecee452ce32079575",
+      "pdfPages": [
+        248
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 248,
+        "bookPage": 222,
+        "labelVi": "Âm thanh kèm trang 222",
+        "referenceCode": "10-06"
+      }
+    },
+    {
+      "id": "cc5-textbook-l10-t07",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 10,
+      "source": "textbook",
+      "number": 7,
+      "originalName": "10-07.mp3",
+      "privatePath": "textbook/10-07.mp3",
+      "bytes": 1611966,
+      "sha256": "b3a7d0478c348b8397c5c4d8f91fa123dfd69e32c3b8c09e902164e2ada3111a",
+      "pdfPages": [],
+      "mappingStatus": "pending",
+      "activity": null
+    },
+    {
+      "id": "cc5-workbook-l10-t01",
+      "courseId": "cc5",
+      "volume": 5,
+      "lesson": 10,
+      "source": "workbook",
+      "number": 1,
+      "originalName": "10.mp3",
+      "privatePath": "workbook/10.mp3",
+      "bytes": 7335917,
+      "sha256": "8b2528171c7efdd5d54cc365c2287afed9b6bb5dd10b2f1909cb4ad9733a5465",
+      "pdfPages": [
+        39
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 39,
+        "bookPage": 37,
+        "labelVi": "Bài nghe sách bài tập 10",
+        "referenceCode": "10-1"
+      }
+    }
+  ]
+}

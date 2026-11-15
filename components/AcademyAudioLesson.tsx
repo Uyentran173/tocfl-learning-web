@@ -6,6 +6,7 @@ import reviewedContent from "@/data/academy/cc1-reviewed-content.json";
 import cc2ReviewedContent from "@/data/academy/cc2-reviewed-content.json";
 import cc3ReviewedContent from "@/data/academy/cc3-reviewed-content.json";
 import cc4ReviewedContent from "@/data/academy/cc4-reviewed-content.json";
+import cc5ReviewedContent from "@/data/academy/cc5-reviewed-content.json";
 import { progressStorage } from "@/lib/progress-storage";
 import { useT } from "./PreferencesProvider";
 
@@ -32,7 +33,7 @@ function readProgress(firstTrackId: string, progressKey: string): LessonProgress
   } catch { return empty; }
 }
 
-export default function AcademyAudioLesson({ tracks, availableTrackIds, embedded = false, lessonNumber = 1, script = "traditional", courseId = "cc1" }: { tracks: AcademyTrack[]; availableTrackIds: string[]; embedded?: boolean; lessonNumber?: number; script?: "traditional" | "simplified"; courseId?: "cc1" | "cc2" | "cc3" | "cc4" }) {
+export default function AcademyAudioLesson({ tracks, availableTrackIds, embedded = false, lessonNumber = 1, script = "traditional", courseId = "cc1" }: { tracks: AcademyTrack[]; availableTrackIds: string[]; embedded?: boolean; lessonNumber?: number; script?: "traditional" | "simplified"; courseId?: "cc1" | "cc2" | "cc3" | "cc4" | "cc5" }) {
   const t = useT();
   const progressKey = progressKeyForLesson(lessonNumber, courseId);
   const textbook = tracks.filter((track) => track.source === "textbook");
@@ -58,7 +59,7 @@ export default function AcademyAudioLesson({ tracks, availableTrackIds, embedded
 
   const active = tracks.find((track) => track.id === progress.selectedTrackId) ?? tracks[0];
   const available = active && availableTrackIds.includes(active.id);
-  const reviewMap: Record<string, { transcriptTraditional?: string; transcriptSimplified?: string; translationVi?: string }> = courseId === "cc4" ? cc4ReviewedContent : courseId === "cc3" ? cc3ReviewedContent : courseId === "cc2" ? cc2ReviewedContent : reviewedContent;
+  const reviewMap: Record<string, { transcriptTraditional?: string; transcriptSimplified?: string; translationVi?: string }> = courseId === "cc5" ? cc5ReviewedContent : courseId === "cc4" ? cc4ReviewedContent : courseId === "cc3" ? cc3ReviewedContent : courseId === "cc2" ? cc2ReviewedContent : reviewedContent;
   const reviewed = reviewMap[active?.id ?? ""];
   function selectTrack(id: string) {
     audioRef.current?.pause();
@@ -87,6 +88,7 @@ export default function AcademyAudioLesson({ tracks, availableTrackIds, embedded
     if (audioRef.current) audioRef.current.playbackRate = value;
   }
   if (!active) return null;
+  const itemCount = active.activity && "itemCount" in active.activity ? active.activity.itemCount : null;
   const guestCopy = Object.entries(progress.guestResponses).filter(([key]) => key === active.id || key.startsWith(`${active.id}:`));
   return <div className={embedded ? "academy-audio-embedded mt-5 grid gap-5" : "mt-9 grid gap-5 lg:grid-cols-[minmax(0,1fr)_minmax(300px,1.2fr)]"}>
     <div className="space-y-5">{textbook.length > 0 && <TrackList items={textbook} heading="Âm thanh giáo trình" activeId={active.id} progress={progress} onSelect={selectTrack} t={t} />}{workbook.length > 0 && <TrackList items={workbook} heading="Âm thanh bài tập" activeId={active.id} progress={progress} onSelect={selectTrack} t={t} />}</div>
@@ -106,7 +108,7 @@ export default function AcademyAudioLesson({ tracks, availableTrackIds, embedded
       <div className="mt-6 border-t border-[var(--border)] pt-5">
         <h3 className="font-bold">{t(active.source === "workbook" ? "Bài tập nghe" : "Luyện nghe và ghi lại")}</h3>
         <p className="mt-2 text-sm leading-6 muted">{t(active.source === "workbook" ? "Nghe và trả lời câu hỏi trong sách bài tập. Phần này chưa chấm tự động." : "Nghe rồi ghi lại điều bạn muốn nhớ.")}</p>
-        {active.source === "workbook" && active.activity?.itemCount ? <div className="mt-4 grid gap-3 sm:grid-cols-2">{Array.from({ length: active.activity.itemCount }, (_, index) => <label key={index} className="block text-sm font-semibold">{t("Mục")} {index + 1}<input className="academy-response mt-2" value={progress.responses[`${active.id}:${index + 1}`] ?? ""} onChange={(event) => { setHasChanges(true); setProgress((current) => ({ ...current, responses: { ...current.responses, [`${active.id}:${index + 1}`]: event.target.value } })); }} aria-label={`${t("Mục")} ${index + 1}`} /></label>)}</div> : <><label className="mt-4 block text-sm font-semibold" htmlFor="academy-response">{t("Ghi chép của bạn")}</label><textarea id="academy-response" className="academy-response mt-2" rows={5} value={progress.responses[active.id] ?? ""} onChange={(event) => { setHasChanges(true); setProgress((current) => ({ ...current, responses: { ...current.responses, [active.id]: event.target.value } })); }} placeholder={t("Ghi lại câu trả lời hoặc điều bạn muốn ôn tập…")} /></>}
+        {active.source === "workbook" && itemCount ? <div className="mt-4 grid gap-3 sm:grid-cols-2">{Array.from({ length: itemCount }, (_, index) => <label key={index} className="block text-sm font-semibold">{t("Mục")} {index + 1}<input className="academy-response mt-2" value={progress.responses[`${active.id}:${index + 1}`] ?? ""} onChange={(event) => { setHasChanges(true); setProgress((current) => ({ ...current, responses: { ...current.responses, [`${active.id}:${index + 1}`]: event.target.value } })); }} aria-label={`${t("Mục")} ${index + 1}`} /></label>)}</div> : <><label className="mt-4 block text-sm font-semibold" htmlFor="academy-response">{t("Ghi chép của bạn")}</label><textarea id="academy-response" className="academy-response mt-2" rows={5} value={progress.responses[active.id] ?? ""} onChange={(event) => { setHasChanges(true); setProgress((current) => ({ ...current, responses: { ...current.responses, [active.id]: event.target.value } })); }} placeholder={t("Ghi lại câu trả lời hoặc điều bạn muốn ôn tập…")} /></>}
         {guestCopy.length > 0 && <details className="mt-4 rounded-xl border border-[var(--border)] p-3 text-sm"><summary className="cursor-pointer font-semibold">{t("Ghi chép từ chế độ khách")}</summary><ul className="mt-2 space-y-2">{guestCopy.map(([key, value]) => <li key={key}><strong>{key === active.id ? t("Ghi chép") : `${t("Mục")} ${key.split(":").at(-1)}`}: </strong><span className="whitespace-pre-wrap">{value}</span></li>)}</ul></details>}
         <div className="mt-4 flex flex-wrap items-center justify-between gap-3"><button type="button" className="button-primary text-sm" aria-pressed={progress.completedIds.includes(active.id)} onClick={markComplete}>{progress.completedIds.includes(active.id) ? t("Đã hoàn thành") : t("Đánh dấu hoàn thành")}</button></div>
       </div>

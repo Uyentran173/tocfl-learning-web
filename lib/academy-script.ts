@@ -3,6 +3,7 @@ import cc1ScriptMap from "../data/academy/cc1-script-map.json" with { type: "jso
 import cc2ScriptMap from "../data/academy/cc2-script-map.json" with { type: "json" };
 import cc3ScriptMap from "../data/academy/cc3-script-map.json" with { type: "json" };
 import cc4ScriptMap from "../data/academy/cc4-script-map.json" with { type: "json" };
+import cc5ScriptMap from "../data/academy/cc5-script-map.json" with { type: "json" };
 
 export type AcademyScript = "traditional" | "simplified";
 
@@ -18,7 +19,7 @@ export function academyScriptText(input: string, script: AcademyScript): string 
   for (let index = 0; index < input.length;) {
     const match = conversions.find(([traditional]) => input.startsWith(traditional, index));
     if (match) { result += match[1]; index += match[0].length; }
-    else { result += cc1ScriptMap.characters[input[index] as keyof typeof cc1ScriptMap.characters] ?? cc2ScriptMap[input[index] as keyof typeof cc2ScriptMap] ?? cc3ScriptMap[input[index] as keyof typeof cc3ScriptMap] ?? cc4ScriptMap[input[index] as keyof typeof cc4ScriptMap] ?? input[index]; index++; }
+    else { result += cc1ScriptMap.characters[input[index] as keyof typeof cc1ScriptMap.characters] ?? cc2ScriptMap[input[index] as keyof typeof cc2ScriptMap] ?? cc3ScriptMap[input[index] as keyof typeof cc3ScriptMap] ?? cc4ScriptMap[input[index] as keyof typeof cc4ScriptMap] ?? cc5ScriptMap[input[index] as keyof typeof cc5ScriptMap] ?? input[index]; index++; }
   }
   return result;
 }

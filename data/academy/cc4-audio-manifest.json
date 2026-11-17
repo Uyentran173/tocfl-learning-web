@@ -3461,11 +3461,16 @@
       "bytes": 3393308,
       "sha256": "b61b882cbbc20c9da1da8fdf8dd0c35e652980d8221c64a97171629d73439650",
       "pdfPages": [
-        301,
-        312
+        301
       ],
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 301,
+        "bookPage": 274,
+        "labelVi": "Hội thoại",
+        "referenceCode": "12-01",
+        "itemCount": null
+      }
     },
     {
       "id": "cc4-textbook-l12-t02",
@@ -3593,9 +3598,17 @@
       "privatePath": "textbook/12-07.mp3",
       "bytes": 928603,
       "sha256": "bc04dfd4750f8553eb355c8a091c07762b154e6ae44b391685a7511e84061a6f",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        312
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 312,
+        "bookPage": 285,
+        "labelVi": "Ngữ pháp 小自…大至…",
+        "referenceCode": "12-07",
+        "itemCount": null
+      }
     },
     {
       "id": "cc4-textbook-l12-t08",
@@ -3608,9 +3621,17 @@
       "privatePath": "textbook/12-08.mp3",
       "bytes": 882209,
       "sha256": "1524501b3e0519567d3b207432f3f4953fb314ca26c1f386eb95ccdaabc8cb51",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        313
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 313,
+        "bookPage": 286,
+        "labelVi": "Ngữ pháp 竟然",
+        "referenceCode": "12-08",
+        "itemCount": null
+      }
     },
     {
       "id": "cc4-textbook-l12-t09",

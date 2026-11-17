@@ -2,7 +2,7 @@
   "courseId": "cc4",
   "volume": 4,
   "total": 170,
-  "verified": 151,
+  "verified": 154,
   "pending": [
     "cc4-textbook-unassigned-00",
     "cc4-workbook-unassigned-00",
@@ -19,10 +19,7 @@
     "cc4-textbook-l08-t12",
     "cc4-textbook-l09-t11",
     "cc4-textbook-l09-t12",
-    "cc4-textbook-l10-t07",
-    "cc4-textbook-l12-t01",
-    "cc4-textbook-l12-t07",
-    "cc4-textbook-l12-t08"
+    "cc4-textbook-l10-t07"
   ],
   "byLesson": [
     {

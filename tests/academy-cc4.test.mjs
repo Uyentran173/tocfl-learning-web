@@ -17,12 +17,13 @@ import lesson08Words from '../data/academy/cc4-lesson08-vocabulary.json' with { 
 import lesson09Words from '../data/academy/cc4-lesson09-vocabulary.json' with { type: 'json' };
 import lesson10Words from '../data/academy/cc4-lesson10-vocabulary.json' with { type: 'json' };
 import lesson11Words from '../data/academy/cc4-lesson11-vocabulary.json' with { type: 'json' };
+import lesson12Words from '../data/academy/cc4-lesson12-vocabulary.json' with { type: 'json' };
 
 const root = path.resolve(import.meta.dirname, '..');
 
 test('Volume 4 releases reviewed lessons with isolated IDs and complete activities', () => {
   assert.equal(academyVolume4.lessonIds.length, 12);
-  assert.equal(academyVolume4Lessons.length, 11);
+  assert.equal(academyVolume4Lessons.length, 12);
   const lesson = academyVolume4Lessons[0];
   assert.equal(lesson.id, 'cc4-v4-l01');
   assert.equal(validateAcademyLessonContent(lesson), true);
@@ -42,6 +43,38 @@ test('Volume 4 releases reviewed lessons with isolated IDs and complete activiti
     assert.ok(question.options.some((option) => option.id === question.correctOptionId), question.id);
     assert.equal(new Set(question.options.map((option) => option.text)).size, question.options.length, question.id);
   }
+});
+
+test('Volume 4 Lesson 12 completes the volume with source-aligned civics content and verified audio', () => {
+  const lesson = academyVolume4Lessons[11];
+  assert.equal(lesson.id, 'cc4-v4-l12');
+  assert.equal(validateAcademyLessonContent(lesson), true);
+  assert.equal(lesson.lecture.dialogues[0].turns.length, 21);
+  assert.equal(lesson.lecture.dialogues[1].turns.length, 3);
+  assert.ok(lesson.lecture.dialogues[0].turns[7].chinese.includes('小自一個麵包'));
+  assert.ok(lesson.lecture.dialogues[1].turns[0].chinese.includes('發展停滯'));
+  assert.equal(lesson12Words.records.length, 83);
+  assert.equal(academyVocabularyByIds(lesson.vocabulary.wordIds).length, 83);
+  for (const word of lesson12Words.records) {
+    assert.ok(word.meaningVi && word.exampleVi && word.pinyin && word.wordClass, word.id);
+    const parts = word.traditional.split('…');
+    assert.ok(parts.every((part) => word.exampleTraditional.includes(part)), word.id);
+    assert.ok(!/[\u4e00-\u9fff]/u.test(word.exampleVi), word.id);
+  }
+  assert.equal(lesson.grammar.length, 9);
+  assert.equal(lesson.practice.length, 9);
+  assert.equal(lesson.assessment.length, 10);
+  assert.equal(academyScriptText(lesson.title, 'simplified'), '期待美好的未来');
+  for (let number = 1; number <= 13; number++) {
+    const trackId = `cc4-textbook-l12-t${String(number).padStart(2, '0')}`;
+    const track = manifest.tracks.find((item) => item.id === trackId);
+    assert.equal(track?.mappingStatus, 'verified', trackId);
+    const file = path.join(root, 'public/academy/cc4/audio', `${trackId}.mp3`);
+    assert.ok(existsSync(file), trackId);
+    assert.equal(createHash('sha256').update(readFileSync(file)).digest('hex'), track.sha256, trackId);
+  }
+  assert.equal(reviewed['cc4-textbook-l12-t01'].transcriptTraditional.split('\n').length, 21);
+  assert.equal(reviewed['cc4-textbook-l12-t03'].transcriptTraditional.split('\n').length, 3);
 });
 
 test('Volume 4 Lesson 11 preserves multicultural text, 93 words and verified audio', () => {

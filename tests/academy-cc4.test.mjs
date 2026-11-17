@@ -12,12 +12,13 @@ import lesson03Words from '../data/academy/cc4-lesson03-vocabulary.json' with { 
 import lesson04Words from '../data/academy/cc4-lesson04-vocabulary.json' with { type: 'json' };
 import lesson05Words from '../data/academy/cc4-lesson05-vocabulary.json' with { type: 'json' };
 import lesson06Words from '../data/academy/cc4-lesson06-vocabulary.json' with { type: 'json' };
+import lesson07Words from '../data/academy/cc4-lesson07-vocabulary.json' with { type: 'json' };
 
 const root = path.resolve(import.meta.dirname, '..');
 
 test('Volume 4 releases reviewed lessons with isolated IDs and complete activities', () => {
   assert.equal(academyVolume4.lessonIds.length, 12);
-  assert.equal(academyVolume4Lessons.length, 6);
+  assert.equal(academyVolume4Lessons.length, 7);
   const lesson = academyVolume4Lessons[0];
   assert.equal(lesson.id, 'cc4-v4-l01');
   assert.equal(validateAcademyLessonContent(lesson), true);
@@ -37,6 +38,29 @@ test('Volume 4 releases reviewed lessons with isolated IDs and complete activiti
     assert.ok(question.options.some((option) => option.id === question.correctOptionId), question.id);
     assert.equal(new Set(question.options.map((option) => option.text)).size, question.options.length, question.id);
   }
+});
+
+test('Volume 4 Lesson 07 preserves the complete college dialogue, vocabulary and reading audio', () => {
+  const lesson = academyVolume4Lessons[6];
+  assert.equal(lesson.id, 'cc4-v4-l07');
+  assert.equal(validateAcademyLessonContent(lesson), true);
+  assert.equal(lesson.lecture.dialogues[0].turns.length, 17);
+  assert.equal(lesson.lecture.dialogues[1].turns.length, 4);
+  assert.deepEqual(new Set(lesson.lecture.dialogues[0].turns.map((turn) => turn.speaker)), new Set(['博文', '玉珍']));
+  assert.ok(lesson.lecture.dialogues[0].turns.at(-1).chinese.includes('寒暑假爭取到企業實習'));
+  assert.ok(lesson.lecture.dialogues[1].turns[0].chinese.includes('何清源是學校的風雲人物'));
+  assert.equal(lesson07Words.records.length, 78);
+  assert.equal(academyVocabularyByIds(lesson.vocabulary.wordIds).length, 78);
+  assert.equal(lesson.grammar.length, 8);
+  assert.equal(lesson.practice.length, 8);
+  assert.equal(lesson.assessment.length, 10);
+  assert.equal(academyScriptText(lesson.title, 'simplified'), '大学生的事');
+  for (const trackId of ['cc4-textbook-l07-t01', 'cc4-textbook-l07-t02', 'cc4-textbook-l07-t03', 'cc4-textbook-l07-t04', 'cc4-textbook-l07-t08']) {
+    assert.equal(manifest.tracks.find((track) => track.id === trackId)?.mappingStatus, 'verified');
+    assert.ok(existsSync(path.join(root, 'public/academy/cc4/audio', `${trackId}.mp3`)));
+  }
+  assert.ok(reviewed['cc4-textbook-l07-t01'].transcriptTraditional.includes('現在開始還來得及'));
+  assert.ok(reviewed['cc4-textbook-l07-t03'].transcriptTraditional.includes('一見鍾情'));
 });
 
 test('Volume 4 Lesson 06 includes the complete earthquake dialogue, reading and verified tracks', () => {

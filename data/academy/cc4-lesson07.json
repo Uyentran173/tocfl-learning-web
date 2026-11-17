@@ -1,0 +1,1173 @@
+{
+  "contentVersion": 2,
+  "id": "cc4-v4-l07",
+  "title": "大學生的事",
+  "titleVi": "Chuyện của sinh viên đại học",
+  "description": "Theo dõi cuộc trò chuyện về đời sống đại học và đọc câu chuyện tình cảm giữa các sinh viên.",
+  "objectives": [
+    "Nói về học tập, thực tập và những lựa chọn trong thời sinh viên.",
+    "Hiểu và dùng các cấu trúc 還, 一下…一下…, phân số, 一連, 個夠, 有助於, 於是 và 向.",
+    "Đọc hiểu trình tự và quan hệ nhân vật trong câu chuyện 暗戀."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Bác Văn và Ngọc Trân bàn về việc học, làm thêm và những điều đáng làm ở đại học. Bài đọc kể chuyện Ngọc Trân thầm yêu một bạn cùng lớp.",
+    "sections": [
+      {
+        "id": "cc4-v4-l07-section-01",
+        "title": "Học tập và lựa chọn",
+        "body": "Theo dõi ý kiến khác nhau của hai nhân vật về việc học, hẹn hò, trao đổi sinh viên và thực tập.",
+        "chinese": "如果時光可以倒流，有幾件事我會認真做。",
+        "simplified": "如果时光可以倒流，有几件事我会认真做。",
+        "pinyin": "rú guǒ shí guāng kě yǐ dào liú ， yǒu jǐ jiàn shì wǒ huì rèn zhēn zuò 。",
+        "meaningVi": "Nếu thời gian quay lại, có vài việc anh sẽ làm thật nghiêm túc."
+      },
+      {
+        "id": "cc4-v4-l07-section-02",
+        "title": "Các mối quan hệ",
+        "body": "Bài đọc lần lượt cho biết cảm xúc của Ngọc Trân, mối quan hệ của Thanh Nguyên và điều Nhã Đình dự định làm.",
+        "chinese": "她在開學的第一天，就對何清源一見鍾情了。",
+        "simplified": "她在开学的第一天，就对何清源一见钟情了。",
+        "pinyin": "tā zài kāi xué de dì yī tiān ， jiù duì hé qīng yuán yī jiàn zhōng qíng le 。",
+        "meaningVi": "Ngay ngày đầu nhập học, cô đã yêu Thanh Nguyên từ cái nhìn đầu tiên."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc4-v4-l07-dialogue-01",
+        "title": "Hội thoại: thời sinh viên",
+        "context": "Bác Văn và Ngọc Trân trao đổi về học tập, tình yêu và cơ hội thực tập.",
+        "audioTrackId": "cc4-textbook-l07-t01",
+        "turns": [
+          {
+            "speaker": "博文",
+            "chinese": "學妹，要不要去社團辦公室？有幾個一年級的學弟要我教他們彈吉他。",
+            "simplified": "学妹，要不要去社团办公室？有几个一年级的学弟要我教他们弹吉他。",
+            "pinyin": "xué mèi ， yào bù yào qù shè tuán bàn gōng shì ？ yǒu jǐ gè yī nián jí de xué dì yào wǒ jiào tā men dàn jí tā 。",
+            "meaningVi": "Em có muốn đến phòng câu lạc bộ không? Có mấy bạn nam năm nhất nhờ anh dạy chơi ghi-ta."
+          },
+          {
+            "speaker": "玉珍",
+            "chinese": "我不能去，我晚上要打工，得趁下午有空時去圖書館寫報告，要不然就交不出來了。明天再去吧！",
+            "simplified": "我不能去，我晚上要打工，得趁下午有空时去图书馆写报告，要不然就交不出来了。明天再去吧！",
+            "pinyin": "wǒ bù néng qù ， wǒ wǎn shàng yào dǎ gōng ， dé chèn xià wǔ yǒu kòng shí qù tú shū guǎn xiě bào gào ， yào bù rán jiù jiāo bù chū lái le 。 míng tiān zài qù ba ！",
+            "meaningVi": "Em không đi được. Tối nay em phải làm thêm, chiều phải tranh thủ đến thư viện viết báo cáo, không thì không nộp kịp. Để mai đi nhé!"
+          },
+          {
+            "speaker": "博文",
+            "chinese": "可是我明天白天有兩個家教，晚上跟女朋友約好了，根本沒有時間。",
+            "simplified": "可是我明天白天有两个家教，晚上跟女朋友约好了，根本没有时间。",
+            "pinyin": "kě shì wǒ míng tiān bái tiān yǒu liǎng gè jiā jiào ， wǎn shàng gēn nǚ péng yǒu yuē hǎo le ， gēn běn méi yǒu shí jiān 。",
+            "meaningVi": "Nhưng ban ngày mai anh có hai buổi dạy kèm, tối lại hẹn với bạn gái rồi. Anh chẳng còn thời gian."
+          },
+          {
+            "speaker": "玉珍",
+            "chinese": "學長，你還真忙！欸！對了！你的畢業展做得怎麼樣了？",
+            "simplified": "学长，你还真忙！欸！对了！你的毕业展做得怎么样了？",
+            "pinyin": "xué zhǎng ， nǐ hái zhēn máng ！ āi ！ duì le ！ nǐ de bì yè zhǎn zuò dé zěn me yàng le ？",
+            "meaningVi": "Anh bận thật đấy! À, đồ án triển lãm tốt nghiệp của anh đến đâu rồi?"
+          },
+          {
+            "speaker": "博文",
+            "chinese": "唉！進度已經落後了，教授一下說要這樣做，一下說要那樣做，害我改來改去，現在連二分之一都還沒完成。有的地方一連改了三次，教授還是覺得不滿意。",
+            "simplified": "唉！进度已经落后了，教授一下说要这样做，一下说要那样做，害我改来改去，现在连二分之一都还没完成。有的地方一连改了三次，教授还是觉得不满意。",
+            "pinyin": "āi ！ jìn dù yǐ jīng luò hòu le ， jiào shòu yī xià shuō yào zhè yàng zuò ， yī xià shuō yào nà yàng zuò ， hài wǒ gǎi lái gǎi qù ， xiàn zài lián èr fēn zhī yī dōu hái méi wán chéng 。 yǒu de dì fāng yī lián gǎi le sān cì ， jiào shòu hái shì jué dé bù mǎn yì 。",
+            "meaningVi": "Haiz, tiến độ bị chậm rồi. Giáo sư lúc bảo làm thế này, lúc bảo làm thế kia, khiến anh sửa đi sửa lại. Đến một nửa anh còn chưa xong; có chỗ sửa liên tiếp ba lần mà thầy vẫn chưa hài lòng."
+          },
+          {
+            "speaker": "玉珍",
+            "chinese": "做畢業展真的很痛苦，雖然我兩年後才要做，我想我還是早一點開始準備，免得到時候來不及，畢不了業。",
+            "simplified": "做毕业展真的很痛苦，虽然我两年后才要做，我想我还是早一点开始准备，免得到时候来不及，毕不了业。",
+            "pinyin": "zuò bì yè zhǎn zhēn de hěn tòng kǔ ， suī rán wǒ liǎng nián hòu cái yào zuò ， wǒ xiǎng wǒ hái shì zǎo yī diǎn kāi shǐ zhǔn bèi ， miǎn de dào shí hòu lái bù jí ， bì bù liǎo yè 。",
+            "meaningVi": "Làm triển lãm tốt nghiệp vất vả thật. Dù hai năm nữa em mới phải làm, em nghĩ nên chuẩn bị sớm để khỏi đến lúc ấy không kịp tốt nghiệp."
+          },
+          {
+            "speaker": "博文",
+            "chinese": "妳這樣想是對的，我現在也有點後悔沒有早一點開始準備，如果二、三年級的時候少約會，少玩一點，多念點書，現在大概會好一點。",
+            "simplified": "你这样想是对的，我现在也有点后悔没有早一点开始准备，如果二、三年级的时候少约会，少玩一点，多念点书，现在大概会好一点。",
+            "pinyin": "nǐ zhè yàng xiǎng shì duì de ， wǒ xiàn zài yě yǒu diǎn hòu huǐ méi yǒu zǎo yī diǎn kāi shǐ zhǔn bèi ， rú guǒ èr 、 sān nián jí de shí hòu shǎo yuē huì ， shǎo wán yī diǎn ， duō niàn diǎn shū ， xiàn zài dà gài huì hǎo yī diǎn 。",
+            "meaningVi": "Em nghĩ thế là đúng. Anh cũng hơi hối hận vì không chuẩn bị sớm. Nếu năm hai, năm ba anh bớt hẹn hò, bớt chơi và học nhiều hơn thì giờ chắc đã đỡ hơn."
+          },
+          {
+            "speaker": "玉珍",
+            "chinese": "可是學長，如果大學四年光念書，沒有參加社團，沒有交男女朋友，那念大學還有什麼意思呢？像學長你，又會念書，又會玩，跟女朋友的感情也很穩定，這才是大學生該做的事啊！不像我，到現在連個男朋友都沒有。",
+            "simplified": "可是学长，如果大学四年光念书，没有参加社团，没有交男女朋友，那念大学还有什么意思呢？像学长你，又会念书，又会玩，跟女朋友的感情也很稳定，这才是大学生该做的事啊！不像我，到现在连个男朋友都没有。",
+            "pinyin": "kě shì xué zhǎng ， rú guǒ dà xué sì nián guāng niàn shū ， méi yǒu cān jiā shè tuán ， méi yǒu jiāo nán nǚ péng yǒu ， nà niàn dà xué hái yǒu shén me yì si ne ？ xiàng xué zhǎng nǐ ， yòu huì niàn shū ， yòu huì wán ， gēn nǚ péng yǒu de gǎn qíng yě hěn wěn dìng ， zhè cái shì dà xué shēng gāi zuò de shì a ！ bù xiàng wǒ ， dào xiàn zài lián gè nán péng yǒu dōu méi yǒu 。",
+            "meaningVi": "Nhưng nếu bốn năm đại học chỉ học, không tham gia câu lạc bộ, không yêu đương thì học đại học còn gì thú vị? Như anh vừa học vừa chơi, tình cảm với bạn gái lại ổn định, thế mới là đời sinh viên chứ! Còn em đến giờ vẫn chưa có bạn trai."
+          },
+          {
+            "speaker": "博文",
+            "chinese": "是啊！我二、三年級的時候也覺得一生就上一次大學，當然要談戀愛、玩個夠。不過如果時光可以倒流，有幾件事我會認真做。",
+            "simplified": "是啊！我二、三年级的时候也觉得一生就上一次大学，当然要谈恋爱、玩个够。不过如果时光可以倒流，有几件事我会认真做。",
+            "pinyin": "shì a ！ wǒ èr 、 sān nián jí de shí hòu yě jué dé yī shēng jiù shàng yī cì dà xué ， dāng rán yào tán liàn ài 、 wán gè gòu 。 bù guò rú guǒ shí guāng kě yǐ dào liú ， yǒu jǐ jiàn shì wǒ huì rèn zhēn zuò 。",
+            "meaningVi": "Ừ. Hồi năm hai, năm ba anh cũng nghĩ đời người chỉ học đại học một lần, phải yêu đương và chơi cho thỏa. Nhưng nếu thời gian quay lại, có vài việc anh sẽ làm thật nghiêm túc."
+          },
+          {
+            "speaker": "玉珍",
+            "chinese": "哪幾件事？",
+            "simplified": "哪几件事？",
+            "pinyin": "nǎ jǐ jiàn shì ？",
+            "meaningVi": "Những việc gì ạ?"
+          },
+          {
+            "speaker": "博文",
+            "chinese": "例如加強我的語言能力，至少把一種外語學好一點。現在我的英文普普通通，西班牙文考試也都是低空飛過，如果回到二年級，我一定會努力把外語學好。",
+            "simplified": "例如加强我的语言能力，至少把一种外语学好一点。现在我的英文普普通通，西班牙文考试也都是低空飞过，如果回到二年级，我一定会努力把外语学好。",
+            "pinyin": "lì rú jiā qiáng wǒ de yǔ yán néng lì ， zhì shǎo bǎ yī zhǒng wài yǔ xué hǎo yī diǎn 。 xiàn zài wǒ de yīng wén pǔ pǔ tōng tōng ， xī bān yá wén kǎo shì yě dōu shì dī kōng fēi guò ， rú guǒ huí dào èr nián jí ， wǒ yí dìng huì nǔ lì bǎ wài yǔ xué hǎo 。",
+            "meaningVi": "Ví dụ, anh sẽ nâng cao khả năng ngôn ngữ, ít nhất học tốt một ngoại ngữ. Tiếng Anh của anh bình thường, tiếng Tây Ban Nha thì chỉ vừa đủ điểm qua. Nếu trở lại năm hai, anh nhất định sẽ cố học ngoại ngữ cho tốt."
+          },
+          {
+            "speaker": "玉珍",
+            "chinese": "嗯，語言能力的確很重要。",
+            "simplified": "嗯，语言能力的确很重要。",
+            "pinyin": "ń ， yǔ yán néng lì de què hěn zhòng yào 。",
+            "meaningVi": "Ừ, năng lực ngôn ngữ đúng là rất quan trọng."
+          },
+          {
+            "speaker": "博文",
+            "chinese": "另外，我也會積極地申請當交換學生，不管是英文環境還是西文環境，都有助於外語的訓練。",
+            "simplified": "另外，我也会积极地申请当交换学生，不管是英文环境还是西文环境，都有助于外语的训练。",
+            "pinyin": "lìng wài ， wǒ yě huì jī jí dì shēn qǐng dāng jiāo huàn xué shēng ， bù guǎn shì yīng wén huán jìng hái shì xī wén huán jìng ， dōu yǒu zhù yú wài yǔ de xùn liàn 。",
+            "meaningVi": "Ngoài ra anh sẽ tích cực xin đi trao đổi sinh viên. Dù ở môi trường nói tiếng Anh hay tiếng Tây Ban Nha, việc đó đều giúp rèn luyện ngoại ngữ."
+          },
+          {
+            "speaker": "玉珍",
+            "chinese": "可是到外國一年，就會晚一年畢業。",
+            "simplified": "可是到外国一年，就会晚一年毕业。",
+            "pinyin": "kě shì dào wài guó yī nián ， jiù huì wǎn yī nián bì yè 。",
+            "meaningVi": "Nhưng ra nước ngoài một năm thì sẽ tốt nghiệp muộn một năm."
+          },
+          {
+            "speaker": "博文",
+            "chinese": "這有什麼關係呢？一年在人的一生中只不過是幾十分之一，為了將來，多花一年也是值得的。",
+            "simplified": "这有什么关系呢？一年在人的一生中只不过是几十分之一，为了将来，多花一年也是值得的。",
+            "pinyin": "zhè yǒu shén me guān xì ne ？ yī nián zài rén de yī shēng zhōng zhǐ bù guò shì jǐ shí fēn zhī yī ， wèi le jiāng lái ， duō huā yī nián yě shì zhí de de 。",
+            "meaningVi": "Có sao đâu? Một năm chỉ chiếm một phần nhỏ, chừng một phần vài chục của đời người. Vì tương lai, dành thêm một năm cũng đáng."
+          },
+          {
+            "speaker": "玉珍",
+            "chinese": "除了加強語言以外，還有呢？",
+            "simplified": "除了加强语言以外，还有呢？",
+            "pinyin": "chú le jiā qiáng yǔ yán yǐ wài ， hái yǒu ne ？",
+            "meaningVi": "Ngoài việc học ngoại ngữ, còn gì nữa ạ?"
+          },
+          {
+            "speaker": "博文",
+            "chinese": "我會在寒暑假爭取到企業實習的機會。對一個大學生來說，進入職場實習，才能真正知道職場是什麼，也才知道「工作」是什麼。學妹，妳現在才二年級，現在開始還來得及！",
+            "simplified": "我会在寒暑假争取到企业实习的机会。对一个大学生来说，进入职场实习，才能真正知道职场是什么，也才知道「工作」是什么。学妹，你现在才二年级，现在开始还来得及！",
+            "pinyin": "wǒ huì zài hán shǔ jià zhēng qǔ dào qǐ yè shí xí de jī huì 。 duì yī gè dà xué shēng lái shuō ， jìn rù zhí chǎng shí xí ， cái néng zhēn zhèng zhī dào zhí chǎng shì shén me ， yě cái zhī dào 「 gōng zuò 」 shì shén me 。 xué mèi ， nǐ xiàn zài cái èr nián jí ， xiàn zài kāi shǐ hái lái dé jí ！",
+            "meaningVi": "Anh sẽ tranh thủ cơ hội thực tập ở doanh nghiệp vào kỳ nghỉ đông, hè. Sinh viên phải vào môi trường làm việc thực tế mới hiểu công sở và công việc là thế nào. Em mới học năm hai, bắt đầu bây giờ vẫn còn kịp!"
+          }
+        ]
+      },
+      {
+        "id": "cc4-v4-l07-reading-01",
+        "title": "Bài đọc: 暗戀",
+        "context": "Câu chuyện về Ngọc Trân, Thanh Nguyên và những người bạn.",
+        "audioTrackId": "cc4-textbook-l07-t03",
+        "turns": [
+          {
+            "speaker": "Bài đọc",
+            "chinese": "何雅婷最近注意到同學玉珍上課時不太專心，目光總是跟著男同學何清源移動，於是雅婷下課後找了玉珍一起吃飯。原來玉珍因為暗戀同學何清源而非常煩惱。其實她在開學的第一天，就對何清源一見鍾情了。何清源是學校的風雲人物，不但擔任學生會的會長，還是籃球校隊隊員，長得高大、帥氣。他有一雙迷死人的眼睛，個性開朗、活潑。有他在的地方就笑聲不斷。玉珍總是會忍不住注意清源的一舉一動。連在夢裡清源對她微笑，也會讓她一整天心情都很好。",
+            "simplified": "何雅婷最近注意到同学玉珍上课时不太专心，目光总是跟着男同学何清源移动，于是雅婷下课后找了玉珍一起吃饭。原来玉珍因为暗恋同学何清源而非常烦恼。其实她在开学的第一天，就对何清源一见钟情了。何清源是学校的风云人物，不但担任学生会的会长，还是篮球校队队员，长得高大、帅气。他有一双迷死人的眼睛，个性开朗、活泼。有他在的地方就笑声不断。玉珍总是会忍不住注意清源的一举一动。连在梦里清源对她微笑，也会让她一整天心情都很好。",
+            "pinyin": "hé yǎ tíng zuì jìn zhù yì dào tóng xué yù zhēn shàng kè shí bù tài zhuān xīn ， mù guāng zǒng shì gēn zhù nán tóng xué hé qīng yuán yí dòng ， yú shì yǎ tíng xià kè hòu zhǎo le yù zhēn yì qǐ chī fàn 。 yuán lái yù zhēn yīn wèi àn liàn tóng xué hé qīng yuán ér fēi cháng fán nǎo 。 qí shí tā zài kāi xué de dì yī tiān ， jiù duì hé qīng yuán yī jiàn zhōng qíng le 。 hé qīng yuán shì xué xiào de fēng yún rén wù ， bù dàn dān rèn xué shēng huì de huì zhǎng ， hái shì lán qiú xiào duì duì yuán ， zhǎng dé gāo dà 、 shuài qì 。 tā yǒu yī shuāng mí sǐ rén de yǎn jīng ， gè xìng kāi lǎng 、 huó pō 。 yǒu tā zài de dì fāng jiù xiào shēng bù duàn 。 yù zhēn zǒng shì huì rěn bú zhù zhù yì qīng yuán de yī jǔ yī dòng 。 lián zài mèng lǐ qīng yuán duì tā wēi xiào ， yě huì ràng tā yī zhěng tiān xīn qíng dōu hěn hǎo 。",
+            "meaningVi": "Gần đây Nhã Đình nhận thấy Ngọc Trân không tập trung trong giờ học, ánh mắt cứ dõi theo bạn nam Hà Thanh Nguyên. Sau giờ học, cô rủ Ngọc Trân đi ăn. Hóa ra Ngọc Trân đang buồn phiền vì thầm yêu Thanh Nguyên. Ngay ngày đầu nhập học, cô đã yêu anh ấy từ cái nhìn đầu tiên. Thanh Nguyên nổi tiếng trong trường: vừa là chủ tịch hội sinh viên vừa là thành viên đội bóng rổ. Anh cao lớn, đẹp trai, có đôi mắt cuốn hút và tính tình cởi mở, hoạt bát. Ở đâu có anh là ở đó có tiếng cười. Ngọc Trân không thể không để ý từng cử chỉ của anh; ngay cả nụ cười của anh trong mơ cũng khiến cô vui cả ngày."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "情人節的前一天，玉珍親手做了巧克力，想送給清源。結果當天看見清源桌上已經放了一大堆的巧克力，於是玉珍就把巧克力收了起來。雅婷建議玉珍去向清源告白，可是玉珍不敢。她覺得像清源這樣的萬人迷，怎麼可能喜歡這麼普通的自己？去告白只是讓自己受傷而已。看到玉珍這樣，雅婷很想幫她，於是，雅婷去找清源的好朋友林榮華。她聽榮華說，清源有一個交往不久的女朋友，那個女生是中文系的系花。幾個月前，清源開始追那個女生，每天打電話、傳簡訊、寫情書給她。",
+            "simplified": "情人节的前一天，玉珍亲手做了巧克力，想送给清源。结果当天看见清源桌上已经放了一大堆的巧克力，于是玉珍就把巧克力收了起来。雅婷建议玉珍去向清源告白，可是玉珍不敢。她觉得像清源这样的万人迷，怎么可能喜欢这么普通的自己？去告白只是让自己受伤而已。看到玉珍这样，雅婷很想帮她，于是，雅婷去找清源的好朋友林荣华。她听荣华说，清源有一个交往不久的女朋友，那个女生是中文系的系花。几个月前，清源开始追那个女生，每天打电话、传简讯、写情书给她。",
+            "pinyin": "qíng rén jié de qián yī tiān ， yù zhēn qīn shǒu zuò le qiǎo kè lì ， xiǎng sòng gěi qīng yuán 。 jié guǒ dāng tiān kàn jiàn qīng yuán zhuō shàng yǐ jīng fàng le yī dà duī de qiǎo kè lì ， yú shì yù zhēn jiù bǎ qiǎo kè lì shōu le qǐ lái 。 yǎ tíng jiàn yì yù zhēn qù xiàng qīng yuán gào bái ， kě shì yù zhēn bù gǎn 。 tā jué dé xiàng qīng yuán zhè yàng de wàn rén mí ， zěn me kě néng xǐ huān zhè me pǔ tōng de zì jǐ ？ qù gào bái zhǐ shì ràng zì jǐ shòu shāng ér yǐ 。 kàn dào yù zhēn zhè yàng ， yǎ tíng hěn xiǎng bāng tā ， yú shì ， yǎ tíng qù zhǎo qīng yuán de hǎo péng yǒu lín róng huá 。 tā tīng róng huá shuō ， qīng yuán yǒu yī gè jiāo wǎng bù jiǔ de nǚ péng yǒu ， nà gè nǚ shēng shì zhōng wén xì de xì huā 。 jǐ gè yuè qián ， qīng yuán kāi shǐ zhuī nà gè nǚ shēng ， měi tiān dǎ diàn huà 、 chuán jiǎn xùn 、 xiě qíng shū gěi tā 。",
+            "meaningVi": "Trước Lễ Tình nhân một ngày, Ngọc Trân tự tay làm sô-cô-la định tặng Thanh Nguyên. Nhưng hôm ấy cô thấy trên bàn anh đã có cả đống sô-cô-la nên cất quà của mình đi. Nhã Đình khuyên cô tỏ tình, nhưng cô không dám. Cô nghĩ một người được nhiều người yêu mến như anh sao có thể thích một người bình thường như mình; tỏ tình chỉ khiến mình tổn thương. Muốn giúp bạn, Nhã Đình tìm Lâm Vinh Hoa, bạn thân của Thanh Nguyên. Vinh Hoa kể rằng Thanh Nguyên mới có bạn gái; cô ấy là hoa khôi khoa tiếng Trung. Mấy tháng trước, Thanh Nguyên bắt đầu theo đuổi cô, ngày nào cũng gọi điện, nhắn tin và viết thư tình."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "剛開始，那個女生的態度很曖昧，讓清源弄不清楚。過了一個多月，那個女生終於答應跟他交往！他開心得不得了。就這樣，清源跟女朋友甜甜蜜蜜地交往了兩、三個月。過了不久，清源發現，約會的時候，女朋友對他的態度沒有原來那麼溫柔了，動不動就生氣，傳給她的訊息也常常已讀不回。有時候清源看見女朋友跟其他男生有說有笑，讓他忌妒死了，很沒有安全感。要是清源為了這樣的事情生氣，女朋友就說他太容易吃醋了。他們吵架往往都是為了這樣的事情。",
+            "simplified": "刚开始，那个女生的态度很暧昧，让清源弄不清楚。过了一个多月，那个女生终于答应跟他交往！他开心得不得了。就这样，清源跟女朋友甜甜蜜蜜地交往了两、三个月。过了不久，清源发现，约会的时候，女朋友对他的态度没有原来那么温柔了，动不动就生气，传给她的讯息也常常已读不回。有时候清源看见女朋友跟其他男生有说有笑，让他忌妒死了，很没有安全感。要是清源为了这样的事情生气，女朋友就说他太容易吃醋了。他们吵架往往都是为了这样的事情。",
+            "pinyin": "gāng kāi shǐ ， nà gè nǚ shēng de tài dù hěn ài mèi ， ràng qīng yuán nòng bù qīng chǔ 。 guò le yī gè duō yuè ， nà gè nǚ shēng zhōng yú dá yīng gēn tā jiāo wǎng ！ tā kāi xīn dé bù dé le 。 jiù zhè yàng ， qīng yuán gēn nǚ péng yǒu tián tián mì mì dì jiāo wǎng le liǎng 、 sān gè yuè 。 guò le bù jiǔ ， qīng yuán fā xiàn ， yuē huì de shí hòu ， nǚ péng yǒu duì tā de tài dù méi yǒu yuán lái nà me wēn róu le ， dòng bù dòng jiù shēng qì ， chuán gěi tā de xùn xī yě cháng cháng yǐ dú bù huí 。 yǒu shí hòu qīng yuán kàn jiàn nǚ péng yǒu gēn qí tā nán shēng yǒu shuō yǒu xiào ， ràng tā jì dù sǐ le ， hěn méi yǒu ān quán gǎn 。 yào shì qīng yuán wèi le zhè yàng de shì qíng shēng qì ， nǚ péng yǒu jiù shuō tā tài róng yì chī cù le 。 tā men chǎo jià wǎng wǎng dōu shì wèi le zhè yàng de shì qíng 。",
+            "meaningVi": "Ban đầu cô gái có thái độ mập mờ khiến Thanh Nguyên không hiểu rõ. Hơn một tháng sau cô mới đồng ý hẹn hò, làm anh vui không kể xiết. Họ yêu nhau ngọt ngào hai, ba tháng. Rồi Thanh Nguyên thấy bạn gái không còn dịu dàng như trước: cô hay giận, thường đọc tin nhắn mà không trả lời. Thấy cô cười nói với những chàng trai khác, anh ghen và bất an. Khi anh giận vì những chuyện ấy, cô nói anh dễ ghen quá. Họ thường cãi nhau vì thế."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "有一次，榮華看見清源的女朋友跟一個男生手牽手散步，還看見那個男的吻了她。榮華想：「難道她劈腿了？糟糕！我該不該告訴清源呢？」聽到這裡，雅婷打算馬上去告訴玉珍，讓玉珍趁這個機會把清源搶過來。",
+            "simplified": "有一次，荣华看见清源的女朋友跟一个男生手牵手散步，还看见那个男的吻了她。荣华想：「难道她劈腿了？糟糕！我该不该告诉清源呢？」听到这里，雅婷打算马上去告诉玉珍，让玉珍趁这个机会把清源抢过来。",
+            "pinyin": "yǒu yī cì ， róng huá kàn jiàn qīng yuán de nǚ péng yǒu gēn yī gè nán shēng shǒu qiān shǒu sàn bù ， hái kàn jiàn nà gè nán de wěn le tā 。 róng huá xiǎng ：「 nán dào tā pī tuǐ le ？ zāo gāo ！ wǒ gāi bù gāi gào sù qīng yuán ne ？」 tīng dào zhè lǐ ， yǎ tíng dǎ suàn mǎ shàng qù gào sù yù zhēn ， ràng yù zhēn chèn zhè gè jī huì bǎ qīng yuán qiǎng guò lái 。",
+            "meaningVi": "Có lần Vinh Hoa thấy bạn gái Thanh Nguyên nắm tay một chàng trai khác đi dạo và chàng trai ấy hôn cô. Vinh Hoa nghĩ: “Chẳng lẽ cô ấy bắt cá hai tay? Mình có nên nói cho Thanh Nguyên biết không?” Nghe vậy, Nhã Đình định báo ngay cho Ngọc Trân để bạn nhân cơ hội này giành lấy Thanh Nguyên."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc4-v4-l07-check-01",
+        "prompt": "Vì sao Bác Văn chưa làm xong triển lãm tốt nghiệp?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Giáo sư yêu cầu sửa nhiều lần"
+          },
+          {
+            "id": "b",
+            "text": "Anh quên đến lớp"
+          },
+          {
+            "id": "c",
+            "text": "Anh làm mất tài liệu"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Anh nói giáo sư thay đổi yêu cầu và có chỗ anh sửa liên tiếp ba lần.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc4-v4-l07-check-02",
+        "prompt": "Vì sao Ngọc Trân không tỏ tình với Thanh Nguyên?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Cô ấy sắp đi nước ngoài"
+          },
+          {
+            "id": "b",
+            "text": "Cô ấy nghĩ anh sẽ không thích mình"
+          },
+          {
+            "id": "c",
+            "text": "Cô ấy không biết anh là ai"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Cô ấy cho rằng một người được nhiều người yêu mến như Thanh Nguyên khó thích người bình thường như mình.",
+        "skill": "Đọc hiểu"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từng từ để xem cách đọc, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc4-v4-l07-v001",
+      "cc4-v4-l07-v002",
+      "cc4-v4-l07-v003",
+      "cc4-v4-l07-v004",
+      "cc4-v4-l07-v005",
+      "cc4-v4-l07-v006",
+      "cc4-v4-l07-v007",
+      "cc4-v4-l07-v008",
+      "cc4-v4-l07-v009",
+      "cc4-v4-l07-v010",
+      "cc4-v4-l07-v011",
+      "cc4-v4-l07-v012",
+      "cc4-v4-l07-v013",
+      "cc4-v4-l07-v014",
+      "cc4-v4-l07-v015",
+      "cc4-v4-l07-v016",
+      "cc4-v4-l07-v017",
+      "cc4-v4-l07-v018",
+      "cc4-v4-l07-v019",
+      "cc4-v4-l07-v020",
+      "cc4-v4-l07-v021",
+      "cc4-v4-l07-v022",
+      "cc4-v4-l07-v023",
+      "cc4-v4-l07-v024",
+      "cc4-v4-l07-v025",
+      "cc4-v4-l07-v026",
+      "cc4-v4-l07-v027",
+      "cc4-v4-l07-v028",
+      "cc4-v4-l07-v029",
+      "cc4-v4-l07-v030",
+      "cc4-v4-l07-v031",
+      "cc4-v4-l07-v032",
+      "cc4-v4-l07-v033",
+      "cc4-v4-l07-v034",
+      "cc4-v4-l07-v035",
+      "cc4-v4-l07-v036",
+      "cc4-v4-l07-v037",
+      "cc4-v4-l07-v038",
+      "cc4-v4-l07-v039",
+      "cc4-v4-l07-v040",
+      "cc4-v4-l07-v041",
+      "cc4-v4-l07-v042",
+      "cc4-v4-l07-v043",
+      "cc4-v4-l07-v044",
+      "cc4-v4-l07-v045",
+      "cc4-v4-l07-v046",
+      "cc4-v4-l07-v047",
+      "cc4-v4-l07-v048",
+      "cc4-v4-l07-v049",
+      "cc4-v4-l07-v050",
+      "cc4-v4-l07-v051",
+      "cc4-v4-l07-v052",
+      "cc4-v4-l07-v053",
+      "cc4-v4-l07-v054",
+      "cc4-v4-l07-v055",
+      "cc4-v4-l07-v056",
+      "cc4-v4-l07-v057",
+      "cc4-v4-l07-v058",
+      "cc4-v4-l07-v059",
+      "cc4-v4-l07-v060",
+      "cc4-v4-l07-v061",
+      "cc4-v4-l07-v062",
+      "cc4-v4-l07-v063",
+      "cc4-v4-l07-v064",
+      "cc4-v4-l07-v065",
+      "cc4-v4-l07-v066",
+      "cc4-v4-l07-v067",
+      "cc4-v4-l07-v068",
+      "cc4-v4-l07-v069",
+      "cc4-v4-l07-v070",
+      "cc4-v4-l07-v071",
+      "cc4-v4-l07-v072",
+      "cc4-v4-l07-v073",
+      "cc4-v4-l07-v074",
+      "cc4-v4-l07-v075",
+      "cc4-v4-l07-v076",
+      "cc4-v4-l07-v077",
+      "cc4-v4-l07-v078"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc4-textbook-l07-t02",
+        "label": "Từ vựng hội thoại"
+      },
+      {
+        "id": "cc4-textbook-l07-t04",
+        "label": "Từ vựng bài đọc"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc4-v4-l07-grammar-01",
+      "title": "還 thật là, hóa ra",
+      "structure": "還 + 真／滿 + tính từ / động từ trạng thái",
+      "explanation": "還 trong bài thể hiện sự ngạc nhiên trước điều người nói vừa nhận ra; thường theo sau là 真 hoặc 滿. Nó không mang nghĩa “vẫn” trong trường hợp này.",
+      "examples": [
+        {
+          "chinese": "你還真忙！",
+          "simplified": "你还真忙！",
+          "pinyin": "nǐ hái zhēn máng ！",
+          "meaningVi": "Anh bận thật đấy!"
+        },
+        {
+          "chinese": "這家店的菜還滿好吃的。",
+          "simplified": "这家店的菜还满好吃的。",
+          "pinyin": "zhè jiā diàn de cài hái mǎn hǎo chī de 。",
+          "meaningVi": "Món ở quán này hóa ra khá ngon."
+        }
+      ],
+      "commonMistake": "Đừng hiểu 還真忙 là “vẫn bận”; câu nhấn sự ngạc nhiên về mức độ bận.",
+      "check": {
+        "id": "cc4-v4-l07-grammar-check-01",
+        "prompt": "Điền: 我以為他不會唱歌，他____會唱！",
+        "options": [
+          {
+            "id": "a",
+            "text": "還真"
+          },
+          {
+            "id": "b",
+            "text": "一連"
+          },
+          {
+            "id": "c",
+            "text": "向"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "還真 diễn tả điều trái dự đoán.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l07-t05"
+    },
+    {
+      "id": "cc4-v4-l07-grammar-02",
+      "title": "一下…一下…",
+      "structure": "一下 + hành động A，一下 + hành động B",
+      "explanation": "Mẫu này diễn tả hai hoạt động hoặc trạng thái thay đổi qua lại rất nhanh; trong ngữ cảnh có thể thể hiện sự khó chịu của người nói.",
+      "examples": [
+        {
+          "chinese": "教授一下說要這樣做，一下說要那樣做。",
+          "simplified": "教授一下说要这样做，一下说要那样做。",
+          "pinyin": "jiào shòu yī xià shuō yào zhè yàng zuò ， yī xià shuō yào nà yàng zuò 。",
+          "meaningVi": "Giáo sư lúc bảo làm thế này, lúc lại bảo làm thế kia."
+        },
+        {
+          "chinese": "這裡天氣一下冷，一下熱。",
+          "simplified": "这里天气一下冷，一下热。",
+          "pinyin": "zhè lǐ tiān qì yī xià lěng ， yī xià rè 。",
+          "meaningVi": "Thời tiết ở đây lúc lạnh lúc nóng."
+        }
+      ],
+      "commonMistake": "Không dùng 一下…一下… để kể hai việc liên tiếp nhưng không thay phiên.",
+      "check": {
+        "id": "cc4-v4-l07-grammar-check-02",
+        "prompt": "Điền: 他____看書，____看手機，沒辦法專心。",
+        "options": [
+          {
+            "id": "a",
+            "text": "一下…一下…"
+          },
+          {
+            "id": "b",
+            "text": "一連…一連…"
+          },
+          {
+            "id": "c",
+            "text": "向…向…"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Hai hành động thay phiên nhanh, hợp với 一下…一下….",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l07-t06"
+    },
+    {
+      "id": "cc4-v4-l07-grammar-03",
+      "title": "Phân số A 分之 B",
+      "structure": "mẫu số A + 分之 + tử số B",
+      "explanation": "Trong tiếng Hoa, nói mẫu số trước rồi mới đến tử số: 二分之一 là một phần hai, 百分之四 là bốn phần trăm. 百分之百 còn có thể nhấn “chắc chắn”.",
+      "examples": [
+        {
+          "chinese": "報告還有二分之一沒完成。",
+          "simplified": "报告还有二分之一没完成。",
+          "pinyin": "bào gào hái yǒu èr fēn zhī yī méi wán chéng 。",
+          "meaningVi": "Báo cáo còn một nửa chưa làm xong."
+        },
+        {
+          "chinese": "百分之百的人都同意。",
+          "simplified": "百分之百的人都同意。",
+          "pinyin": "bǎi fēn zhī bǎi de rén dōu tóng yì 。",
+          "meaningVi": "Một trăm phần trăm mọi người đều đồng ý."
+        }
+      ],
+      "commonMistake": "Đừng đảo tử số và mẫu số theo thứ tự tiếng Việt.",
+      "check": {
+        "id": "cc4-v4-l07-grammar-check-03",
+        "prompt": "二分之一 nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Một phần hai"
+          },
+          {
+            "id": "b",
+            "text": "Hai phần một"
+          },
+          {
+            "id": "c",
+            "text": "Hai phần mười"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "二 là mẫu số, 一 là tử số.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l07-t07"
+    },
+    {
+      "id": "cc4-v4-l07-grammar-04",
+      "title": "一連 + số lượng",
+      "structure": "一連 + số lượng + động từ／động từ + số lượng",
+      "explanation": "一連 nhấn một chuỗi hành động hay sự việc diễn ra liên tiếp. Sau 一連 thường có số lượng hoặc khoảng thời gian; với phủ định, cụm số lượng đặt ngay sau 一連.",
+      "examples": [
+        {
+          "chinese": "他一連改了三次。",
+          "simplified": "他一连改了三次。",
+          "pinyin": "tā yī lián gǎi le sān cì 。",
+          "meaningVi": "Anh ấy sửa liên tiếp ba lần."
+        },
+        {
+          "chinese": "我一連三天沒睡好。",
+          "simplified": "我一连三天没睡好。",
+          "pinyin": "wǒ yī lián sān tiān méi shuì hǎo 。",
+          "meaningVi": "Tôi ngủ không ngon ba ngày liền."
+        }
+      ],
+      "commonMistake": "Không bỏ cụm số lượng sau 一連 khi muốn nói rõ chuỗi kéo dài bao lâu.",
+      "check": {
+        "id": "cc4-v4-l07-grammar-check-04",
+        "prompt": "Điền: 他____三天都去圖書館。",
+        "options": [
+          {
+            "id": "a",
+            "text": "向"
+          },
+          {
+            "id": "b",
+            "text": "一連"
+          },
+          {
+            "id": "c",
+            "text": "還真"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "一連三天 chỉ ba ngày liên tiếp.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l07-t08"
+    },
+    {
+      "id": "cc4-v4-l07-grammar-05",
+      "title": "Động từ + 個夠",
+      "structure": "động từ + 個夠",
+      "explanation": "Mẫu này nói làm một việc đến khi thật thỏa thích, thường dùng cho dự định hoặc mong muốn. Có thể dịch “cho đã”, “cho thỏa”.",
+      "examples": [
+        {
+          "chinese": "考試後我要玩個夠。",
+          "simplified": "考试后我要玩个够。",
+          "pinyin": "kǎo shì hòu wǒ yào wán gè gòu 。",
+          "meaningVi": "Thi xong tôi sẽ chơi cho đã."
+        },
+        {
+          "chinese": "今天我們可以聊個夠。",
+          "simplified": "今天我们可以聊个够。",
+          "pinyin": "jīn tiān wǒ men kě yǐ liáo gè gòu 。",
+          "meaningVi": "Hôm nay chúng ta có thể trò chuyện cho thỏa."
+        }
+      ],
+      "commonMistake": "Không chen 不 vào giữa 個 và 夠; mẫu này không dùng ở dạng phủ định.",
+      "check": {
+        "id": "cc4-v4-l07-grammar-check-05",
+        "prompt": "Điền: 週末我要睡____。",
+        "options": [
+          {
+            "id": "a",
+            "text": "個夠"
+          },
+          {
+            "id": "b",
+            "text": "一連"
+          },
+          {
+            "id": "c",
+            "text": "分之一"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "睡個夠 là ngủ cho đã.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l07-t09"
+    },
+    {
+      "id": "cc4-v4-l07-grammar-06",
+      "title": "有助於",
+      "structure": "sự việc A + 有助於 + việc／mục tiêu B",
+      "explanation": "有助於 diễn đạt việc A giúp đạt mục tiêu B, hơi trang trọng hơn 對…有幫助. Sau 於 là điều được lợi, như sức khỏe hoặc việc học.",
+      "examples": [
+        {
+          "chinese": "出國有助於外語的訓練。",
+          "simplified": "出国有助于外语的训练。",
+          "pinyin": "chū guó yǒu zhù yú wài yǔ de xùn liàn 。",
+          "meaningVi": "Ra nước ngoài có ích cho việc rèn luyện ngoại ngữ."
+        },
+        {
+          "chinese": "運動有助於身體健康。",
+          "simplified": "运动有助于身体健康。",
+          "pinyin": "yùn dòng yǒu zhù yú shēn tǐ jiàn kāng 。",
+          "meaningVi": "Vận động có ích cho sức khỏe."
+        }
+      ],
+      "commonMistake": "Đừng đặt mục tiêu ở trước 有助於 rồi bỏ việc tạo ra lợi ích.",
+      "check": {
+        "id": "cc4-v4-l07-grammar-check-06",
+        "prompt": "Điền: 多閱讀____提高中文能力。",
+        "options": [
+          {
+            "id": "a",
+            "text": "一連"
+          },
+          {
+            "id": "b",
+            "text": "有助於"
+          },
+          {
+            "id": "c",
+            "text": "還真"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Đọc nhiều giúp cải thiện năng lực tiếng Trung.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l07-t10"
+    },
+    {
+      "id": "cc4-v4-l07-grammar-07",
+      "title": "於是",
+      "structure": "nguyên nhân／tình huống，於是 + quyết định／hành động tiếp theo",
+      "explanation": "於是 nối một tình huống với hành động được thúc đẩy bởi tình huống ấy. Nó còn cho thấy việc sau xảy ra tiếp theo; 所以 chỉ quan hệ nguyên nhân-kết quả rộng hơn.",
+      "examples": [
+        {
+          "chinese": "下雨了，於是我們留在家裡。",
+          "simplified": "下雨了，于是我们留在家里。",
+          "pinyin": "xià yǔ le ， yú shì wǒ men liú zài jiā lǐ 。",
+          "meaningVi": "Trời mưa nên chúng tôi ở nhà."
+        },
+        {
+          "chinese": "她看到朋友很難過，於是去安慰他。",
+          "simplified": "她看到朋友很难过，于是去安慰他。",
+          "pinyin": "tā kàn dào péng yǒu hěn nán guò ， yú shì qù ān wèi tā 。",
+          "meaningVi": "Thấy bạn buồn, cô ấy đến an ủi."
+        }
+      ],
+      "commonMistake": "Không dùng 於是 cho hậu quả tự nhiên không phải hành động hay diễn tiến tiếp theo, như nhà bị bão làm hỏng.",
+      "check": {
+        "id": "cc4-v4-l07-grammar-check-07",
+        "prompt": "Điền: 她看見朋友需要幫忙，____走過去。",
+        "options": [
+          {
+            "id": "a",
+            "text": "一連"
+          },
+          {
+            "id": "b",
+            "text": "向"
+          },
+          {
+            "id": "c",
+            "text": "於是"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Đi giúp là hành động được thúc đẩy bởi tình huống trước.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l07-t11"
+    },
+    {
+      "id": "cc4-v4-l07-grammar-08",
+      "title": "向",
+      "structure": "向 + người／hướng + động từ",
+      "explanation": "向 chỉ người hoặc hướng mà hành động nhắm tới: 向老師請教, 向右轉. Khi nói với một người, nhiều ngữ cảnh có thể dùng 跟; với hướng không gian thì không thay bằng 跟.",
+      "examples": [
+        {
+          "chinese": "她向老師請教問題。",
+          "simplified": "她向老师请教问题。",
+          "pinyin": "tā xiàng lǎo shī qǐng jiào wèn tí 。",
+          "meaningVi": "Cô ấy hỏi giáo viên về một vấn đề."
+        },
+        {
+          "chinese": "請在下一個路口向右轉。",
+          "simplified": "请在下一个路口向右转。",
+          "pinyin": "qǐng zài xià yī gè lù kǒu xiàng yòu zhuǎn 。",
+          "meaningVi": "Xin rẽ phải ở ngã đường tiếp theo."
+        }
+      ],
+      "commonMistake": "Không dùng 跟右轉 để chỉ hướng rẽ; phải dùng 向右轉.",
+      "check": {
+        "id": "cc4-v4-l07-grammar-check-08",
+        "prompt": "Điền: 他想____朋友道歉。",
+        "options": [
+          {
+            "id": "a",
+            "text": "一連"
+          },
+          {
+            "id": "b",
+            "text": "向"
+          },
+          {
+            "id": "c",
+            "text": "於是"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "向 chỉ người nhận lời xin lỗi.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l07-t12"
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc4-v4-l07-listening-01",
+      "prompt": "Nghe hội thoại: Bác Văn đã sửa một số chỗ bao nhiêu lần?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Một lần"
+        },
+        {
+          "id": "b",
+          "text": "Ba lần"
+        },
+        {
+          "id": "c",
+          "text": "Năm lần"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Anh nói 有的地方一連改了三次.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l07-t01"
+    },
+    {
+      "id": "cc4-v4-l07-listening-02",
+      "prompt": "Nghe hội thoại: Bác Văn muốn làm gì trong kỳ nghỉ đông và hè?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đi thực tập ở doanh nghiệp"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ học ở thư viện"
+        },
+        {
+          "id": "c",
+          "text": "Mở câu lạc bộ mới"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Anh nói sẽ tranh thủ cơ hội vào doanh nghiệp thực tập trong kỳ nghỉ.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l07-t01"
+    },
+    {
+      "id": "cc4-v4-l07-listening-03",
+      "prompt": "Nghe bài đọc: Ngọc Trân tự tay làm gì cho Thanh Nguyên?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Một tấm thiệp"
+        },
+        {
+          "id": "b",
+          "text": "Một quyển sách"
+        },
+        {
+          "id": "c",
+          "text": "Sô-cô-la"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc nói 玉珍親手做了巧克力.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l07-t03"
+    },
+    {
+      "id": "cc4-v4-l07-listening-04",
+      "prompt": "Nghe bài đọc: Vinh Hoa thấy bạn gái Thanh Nguyên làm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nắm tay một chàng trai khác"
+        },
+        {
+          "id": "b",
+          "text": "Đi học cùng Nhã Đình"
+        },
+        {
+          "id": "c",
+          "text": "Viết báo cáo ở thư viện"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Vinh Hoa thấy cô ấy nắm tay và được một chàng trai khác hôn.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l07-t03"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc4-v4-l07-practice-01",
+      "prompt": "Điền: 我以為他不會唱歌，他____會唱！",
+      "options": [
+        {
+          "id": "a",
+          "text": "還真"
+        },
+        {
+          "id": "b",
+          "text": "一連"
+        },
+        {
+          "id": "c",
+          "text": "向"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "還真 thể hiện sự ngạc nhiên.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l07-practice-02",
+      "prompt": "Điền: 他____看書，____看手機，不能專心。",
+      "options": [
+        {
+          "id": "a",
+          "text": "一連…一連…"
+        },
+        {
+          "id": "b",
+          "text": "一下…一下…"
+        },
+        {
+          "id": "c",
+          "text": "向…向…"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Hai hoạt động luân phiên nhanh.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l07-practice-03",
+      "prompt": "Điền: 這份報告我完成了____。",
+      "options": [
+        {
+          "id": "a",
+          "text": "一連"
+        },
+        {
+          "id": "b",
+          "text": "有助於"
+        },
+        {
+          "id": "c",
+          "text": "二分之一"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "二分之一 là một phần hai.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l07-practice-04",
+      "prompt": "Điền: 他____三天都去圖書館。",
+      "options": [
+        {
+          "id": "a",
+          "text": "一連"
+        },
+        {
+          "id": "b",
+          "text": "向"
+        },
+        {
+          "id": "c",
+          "text": "於是"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "一連三天 là ba ngày liên tiếp.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l07-practice-05",
+      "prompt": "Điền: 考試結束後，我想玩____。",
+      "options": [
+        {
+          "id": "a",
+          "text": "分之一"
+        },
+        {
+          "id": "b",
+          "text": "個夠"
+        },
+        {
+          "id": "c",
+          "text": "於是"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "玩個夠 là chơi cho thỏa.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l07-practice-06",
+      "prompt": "Điền: 閱讀____提高語言能力。",
+      "options": [
+        {
+          "id": "a",
+          "text": "還真"
+        },
+        {
+          "id": "b",
+          "text": "一連"
+        },
+        {
+          "id": "c",
+          "text": "有助於"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Đọc sách giúp cải thiện năng lực ngôn ngữ.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l07-practice-07",
+      "prompt": "Điền: 她看到朋友難過，____去安慰他。",
+      "options": [
+        {
+          "id": "a",
+          "text": "於是"
+        },
+        {
+          "id": "b",
+          "text": "向"
+        },
+        {
+          "id": "c",
+          "text": "一連"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "於是 nối tình huống với hành động tiếp theo.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l07-practice-08",
+      "prompt": "Điền: 她____老師請教問題。",
+      "options": [
+        {
+          "id": "a",
+          "text": "一連"
+        },
+        {
+          "id": "b",
+          "text": "向"
+        },
+        {
+          "id": "c",
+          "text": "還真"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "向 chỉ người mà hành động hướng tới.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc4-v4-l07-assessment-01",
+      "prompt": "進度 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tiến độ"
+        },
+        {
+          "id": "b",
+          "text": "Số lượng"
+        },
+        {
+          "id": "c",
+          "text": "Tư cách"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "進度 là tiến độ của một công việc hoặc việc học.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc4-v4-l07-assessment-02",
+      "prompt": "低空飛過 trong bài nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thất bại hoàn toàn"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ vừa đủ điểm qua"
+        },
+        {
+          "id": "c",
+          "text": "Đạt điểm tuyệt đối"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "低空飛過 nghĩa bóng là qua môn sát mức tối thiểu.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc4-v4-l07-assessment-03",
+      "prompt": "二分之一 bằng bao nhiêu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hai phần một"
+        },
+        {
+          "id": "b",
+          "text": "Hai phần mười"
+        },
+        {
+          "id": "c",
+          "text": "Một nửa"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "二分之一 là một phần hai.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l07-assessment-04",
+      "prompt": "Điền: 他____改了三次，老師還是不滿意。",
+      "options": [
+        {
+          "id": "a",
+          "text": "一連"
+        },
+        {
+          "id": "b",
+          "text": "向"
+        },
+        {
+          "id": "c",
+          "text": "於是"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "一連 nhấn ba lần sửa liên tiếp.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l07-assessment-05",
+      "prompt": "Trong bài đọc, ai thầm yêu Thanh Nguyên?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nhã Đình"
+        },
+        {
+          "id": "b",
+          "text": "Ngọc Trân"
+        },
+        {
+          "id": "c",
+          "text": "Vinh Hoa"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nói 玉珍因為暗戀同學何清源.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc4-v4-l07-assessment-06",
+      "prompt": "Ngọc Trân định tặng Thanh Nguyên gì vào Lễ Tình nhân?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hoa"
+        },
+        {
+          "id": "b",
+          "text": "Sách"
+        },
+        {
+          "id": "c",
+          "text": "Sô-cô-la"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Cô ấy tự tay làm sô-cô-la.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc4-v4-l07-assessment-07",
+      "prompt": "Điền: 她看見朋友需要幫忙，____走過去。",
+      "options": [
+        {
+          "id": "a",
+          "text": "於是"
+        },
+        {
+          "id": "b",
+          "text": "一連"
+        },
+        {
+          "id": "c",
+          "text": "還真"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "於是 dẫn hành động tiếp theo.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l07-assessment-08",
+      "prompt": "Kỳ nghỉ đông và hè, Bác Văn muốn làm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chuyển trường"
+        },
+        {
+          "id": "b",
+          "text": "Thực tập ở doanh nghiệp"
+        },
+        {
+          "id": "c",
+          "text": "Mua nhà"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Anh nói sẽ tranh thủ cơ hội thực tập ở doanh nghiệp.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc4-v4-l07-assessment-09",
+      "prompt": "Cụm nào có nghĩa “ngủ cho thỏa”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "睡分之一"
+        },
+        {
+          "id": "b",
+          "text": "睡一連"
+        },
+        {
+          "id": "c",
+          "text": "睡個夠"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Động từ + 個夠 diễn tả làm cho đã.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l07-assessment-10",
+      "prompt": "向 trong 向老師請教指 người nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Giáo viên"
+        },
+        {
+          "id": "b",
+          "text": "Học sinh"
+        },
+        {
+          "id": "c",
+          "text": "Bạn gái"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "向 đặt trước người mà hành động hỏi hướng tới.",
+      "skill": "Ngữ pháp"
+    }
+  ],
+  "writingTask": {
+    "id": "cc4-v4-l07-writing",
+    "title": "Nhìn lại thời sinh viên",
+    "prompt": "Viết vài câu về việc bạn muốn làm khi còn đi học. Có thể dùng 有助於, 於是 hoặc 向 nếu hợp ngữ cảnh.",
+    "sampleTraditional": "我想爭取實習的機會，因為實習有助於了解工作。我也會向學長請教。",
+    "sampleSimplified": "我想争取实习的机会，因为实习有助于了解工作。我也会向学长请教。"
+  }
+}

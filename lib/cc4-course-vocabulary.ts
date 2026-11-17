@@ -4,6 +4,7 @@ import lesson03Source from "../data/academy/cc4-lesson03-vocabulary.json" with {
 import lesson04Source from "../data/academy/cc4-lesson04-vocabulary.json" with { type: "json" };
 import lesson05Source from "../data/academy/cc4-lesson05-vocabulary.json" with { type: "json" };
 import lesson06Source from "../data/academy/cc4-lesson06-vocabulary.json" with { type: "json" };
+import lesson07Source from "../data/academy/cc4-lesson07-vocabulary.json" with { type: "json" };
 import { cc1Lesson01Words } from "./cc1-lesson01-vocabulary.ts";
 import { cc1CourseVocabularySets } from "./cc1-course-vocabulary.ts";
 import { cc2VocabularySets } from "./cc2-course-vocabulary.ts";
@@ -132,6 +133,26 @@ export const cc4Lesson06Words: VocabularyWord[] = lesson06Source.records.map((re
     translation: record.exampleVi,
   });
 
+export const cc4Lesson07Words: VocabularyWord[] = lesson07Source.records.map((record) =>
+  [...previousWords, ...cc4Lesson01Words, ...cc4Lesson02Words, ...cc4Lesson03Words, ...cc4Lesson04Words, ...cc4Lesson05Words, ...cc4Lesson06Words].find((word) =>
+    word.traditional === record.traditional && normalized(word.pinyin) === normalized(record.pinyin),
+  ) ?? {
+    id: record.id,
+    source: "textbook",
+    sourceRecordId: record.id,
+    sourceLabel: "Giáo trình tiếng Hoa đương đại · Tập 4 · Bài 07",
+    hanzi: record.traditional,
+    traditional: record.traditional,
+    simplified: record.simplified,
+    pinyin: record.pinyin,
+    meaning: record.meaningVi,
+    wordClass: record.wordClass,
+    example: record.exampleTraditional,
+    exampleTraditional: record.exampleTraditional,
+    exampleSimplified: record.exampleSimplified,
+    translation: record.exampleVi,
+  });
+
 export const cc4VocabularySets: VocabularySet[] = [
   {
     id: source.lessonId,
@@ -168,5 +189,11 @@ export const cc4VocabularySets: VocabularySet[] = [
     title: "Bài 06 · 天搖地動",
     subtitle: "Đất trời rung chuyển",
     words: cc4Lesson06Words,
+  },
+  {
+    id: lesson07Source.lessonId,
+    title: "Bài 07 · 大學生的事",
+    subtitle: "Chuyện của sinh viên đại học",
+    words: cc4Lesson07Words,
   },
 ];

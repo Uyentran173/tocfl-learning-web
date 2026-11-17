@@ -1975,9 +1975,17 @@
       "privatePath": "textbook/07-03.mp3",
       "bytes": 3415878,
       "sha256": "4b2d4f923bb84c16a170b8190c40dac716b9ce79dae4cc2729abca357ba5b78c",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        182
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 182,
+        "bookPage": 155,
+        "labelVi": "Bài đọc",
+        "referenceCode": "07-03",
+        "itemCount": null
+      }
     },
     {
       "id": "cc4-textbook-l07-t04",
@@ -2082,9 +2090,17 @@
       "privatePath": "textbook/07-08.mp3",
       "bytes": 1005089,
       "sha256": "a80bbed9d7ae8d88ec25b994ee3cc6c8824417e43c3865ae98e677a6cd3287e2",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        188
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 188,
+        "bookPage": 162,
+        "labelVi": "Ngữ pháp: 一連",
+        "referenceCode": "07-08",
+        "itemCount": null
+      }
     },
     {
       "id": "cc4-textbook-l07-t09",

@@ -1,0 +1,1292 @@
+{
+  "contentVersion": 2,
+  "id": "cc5-v5-l02",
+  "title": "關於基改食品，我有話要說",
+  "titleVi": "Tôi có điều muốn nói về thực phẩm biến đổi gen",
+  "description": "Nghe hai nhóm nhân vật tranh luận về thực phẩm biến đổi gen; học cách nhận ra luận điểm, bằng chứng và kết luận.",
+  "objectives": [
+    "Phân biệt quan điểm ủng hộ và phản đối trong một chương trình phát thanh.",
+    "Đọc hiểu lập luận về dinh dưỡng, năng suất, môi trường và quyền lợi người tiêu dùng.",
+    "Dùng các mẫu trong bài để nêu tiền đề, đánh giá bằng chứng và bày tỏ mục đích."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Một chương trình phát thanh mời nhiều người bàn về thực phẩm biến đổi gen. Mỗi nhân vật có lập luận riêng. Hãy nghe từng bài và xác định ai nói gì trước khi đưa ra ý kiến của bạn.",
+    "sections": [
+      {
+        "id": "cc5-v5-l02-section-01",
+        "title": "Nhận diện luận điểm",
+        "body": "Bài 1 lần lượt nêu dinh dưỡng, sản lượng và an toàn như các lý do ủng hộ. Đây là quan điểm của các nhân vật, không phải kết luận của bài học.",
+        "chinese": "基改食品究竟安不安全，是大家都關心的話題。",
+        "simplified": "基改食品究竟安不安全，是大家都关心的话题。",
+        "pinyin": "jī gǎi shí pǐn jiū jìng ān bù ān quán ， shì dà jiā dōu guān xīn de huà tí 。",
+        "meaningVi": "Thực phẩm biến đổi gen có thật sự an toàn không là điều mọi người đều quan tâm."
+      },
+      {
+        "id": "cc5-v5-l02-section-02",
+        "title": "Đối chiếu bằng chứng",
+        "body": "Bài 2 phản biện bằng các lo ngại về môi trường, giá hạt giống và quyền của người tiêu dùng. Tìm câu nêu căn cứ trước khi đọc kết luận.",
+        "chinese": "從農藥使用量上升的事實來看，問題仍然存在。",
+        "simplified": "从农药使用量上升的事实来看，问题仍然存在。",
+        "pinyin": "cóng nóng yào shǐ yòng liàng shàng shēng de shì shí lái kàn ， wèn tí réng rán cún zài 。",
+        "meaningVi": "Xét từ việc lượng thuốc nông nghiệp sử dụng tăng, vấn đề vẫn còn đó."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc5-v5-l02-reading1",
+        "title": "Bài đọc 1 · Ủng hộ thực phẩm biến đổi gen",
+        "context": "Chương trình phát thanh mời người dẫn, bác sĩ, nhà nghiên cứu và doanh nghiệp trình bày quan điểm.",
+        "audioTrackId": "cc5-textbook-l02-t01",
+        "turns": [
+          {
+            "speaker": "廣播節目主持人",
+            "chinese": "聽眾朋友大家好！我是「健康加油站」節目主持人張成方。今天中午我在一家麵店用餐，電視正播著基因改造食品新聞。我聽見老闆說：「基因改造不但可以減少農藥的使用，還能夠殺死蟲子，有什麼不好的？」隔壁桌的客人回答：「蟲子會死，人吃了就不會有問題嗎？」基改食品究竟安不安全，是大家都關心的話題，就像手機、核能一樣，帶給我們方便，卻也可能危害健康。到底該怎麼選擇呢？首先，我們來聽聽贊成的人怎麼說：",
+            "simplified": "听众朋友大家好！我是「健康加油站」节目主持人张成方。今天中午我在一家面店用餐，电视正播着基因改造食品新闻。我听见老板说：「基因改造不但可以减少农药的使用，还能够杀死虫子，有什么不好的？」隔壁桌的客人回答：「虫子会死，人吃了就不会有问题吗？」基改食品究竟安不安全，是大家都关心的话题，就像手机、核能一样，带给我们方便，却也可能危害健康。到底该怎么选择呢？首先，我们来听听赞成的人怎么说：",
+            "pinyin": "tīng zhòng péng yǒu dà jiā hǎo ！ wǒ shì 「 jiàn kāng jiā yóu zhàn 」 jié mù zhǔ chí rén zhāng chéng fāng 。 jīn tiān zhōng wǔ wǒ zài yī jiā miàn diàn yòng cān ， diàn shì zhèng bō zhù jī yīn gǎi zào shí pǐn xīn wén 。 wǒ tīng jiàn lǎo bǎn shuō ： 「 jī yīn gǎi zào bù dàn kě yǐ jiǎn shǎo nóng yào de shǐ yòng ， hái néng gòu shā sǐ chóng zi ， yǒu shén me bù hǎo de ？ 」 gé bì zhuō de kè rén huí dá ： 「 chóng zi huì sǐ ， rén chī le jiù bù huì yǒu wèn tí ma ？ 」 jī gǎi shí pǐn jiū jìng ān bù ān quán ， shì dà jiā dōu guān xīn de huà tí ， jiù xiàng shǒu jī 、 hé néng yī yàng ， dài gěi wǒ men fāng biàn ， què yě kě néng wēi hài jiàn kāng 。 dào dǐ gāi zěn me xuǎn zé ne ？ shǒu xiān ， wǒ men lái tīng tīng zàn chéng de rén zěn me shuō ：",
+            "meaningVi": "Các bạn xem chương trình hôm nay, chào mừng các bạn! Tôi là Trương Thành Phương, người dẫn chương trình \"Trạm tiếp sức sức khỏe\". Hôm nay trưa, tôi đã đi ăn tại một quán mì. Lúc đó, trên TV đang phát tin tức về thực phẩm biến đổi gen. Tôi nghe chủ quán nói: \"Việc biến đổi gen không chỉ giúp giảm việc sử dụng thuốc trừ sâu, mà còn có thể tiêu diệt sâu bệnh, vậy thì có gì không tốt?\" Người ngồi bên cạnh bàn đã trả lời: \"Sâu chết thì ăn vào người thì có vấn đề gì không?\" Việc thực phẩm biến đổi gen có an toàn hay không là một chủ đề mà mọi người đều quan tâm, giống như điện thoại hay năng lượng hạt nhân – mang lại sự tiện lợi, nhưng cũng có thể gây hại cho sức khỏe. Vậy chúng ta nên chọn thế nào? Trước hết, chúng ta hãy nghe quan điểm ủng hộ:"
+          },
+          {
+            "speaker": "醫師",
+            "chinese": "大家想想看，超市、早餐店、夜市，各式各樣基因改造的食物早就進了我們的肚子裡了。基因改造，簡單地說，只不過是利用科學技術，把更新、更好的基因，加在原來的種子裡而已。比如說含有更多維他命A的蔬果、能抗癌的番茄、不會引起過敏的花生⋯等等。科學家證實，這些基因改造的食物不但有豐富的營養價值，也讓大家在享用美味的同時，達到預防疾病的效果。現代人為了健康，每天都必須吃好幾種蔬菜；但是未來，一餐基改食物就能提供我們一天所需要的營養。既然越改越進步，為什麼還有人要反對呢？",
+            "simplified": "大家想想看，超市、早餐店、夜市，各式各样基因改造的食物早就进了我们的肚子里了。基因改造，简单地说，只不过是利用科学技术，把更新、更好的基因，加在原来的种子里而已。比如说含有更多维他命A的蔬果、能抗癌的番茄、不会引起过敏的花生⋯等等。科学家证实，这些基因改造的食物不但有丰富的营养价值，也让大家在享用美味的同时，达到预防疾病的效果。现代人为了健康，每天都必须吃好几种蔬菜；但是未来，一餐基改食物就能提供我们一天所需要的营养。既然越改越进步，为什么还有人要反对呢？",
+            "pinyin": "dà jiā xiǎng xiǎng kàn ， chāo shì 、 zǎo cān diàn 、 yè shì ， gè shì gè yàng jī yīn gǎi zào de shí wù zǎo jiù jìn le wǒ men de dǔ zi lǐ le 。 jī yīn gǎi zào ， jiǎn dān dì shuō ， zhǐ bù guò shì lì yòng kē xué jì shù ， bǎ gēng xīn 、 gèng hǎo de jī yīn ， jiā zài yuán lái de zhǒng zi lǐ ér yǐ 。 bǐ rú shuō hán yǒu gèng duō wéi tā mìng A de shū guǒ 、 néng kàng ái de fān qié 、 bù huì yǐn qǐ guò mǐn de huā shēng ⋯ děng děng 。 kē xué jiā zhèng shí ， zhè xiē jī yīn gǎi zào de shí wù bù dàn yǒu fēng fù de yíng yǎng jià zhí ， yě ràng dà jiā zài xiǎng yòng měi wèi de tóng shí ， dá dào yù fáng jí bìng de xiào guǒ 。 xiàn dài rén wèi le jiàn kāng ， měi tiān dōu bì xū chī hǎo jǐ zhǒng shū cài ； dàn shì wèi lái ， yī cān jī gǎi shí wù jiù néng tí gōng wǒ men yī tiān suǒ xū yào de yíng yǎng 。 jì rán yuè gǎi yuè jìn bù ， wèi shén me hái yǒu rén yào fǎn duì ne ？",
+            "meaningVi": "Các bạn hãy nghĩ xem, thực phẩm biến đổi gen đã sớm xuất hiện trong bữa ăn hàng ngày của chúng ta – từ siêu thị, quán ăn sáng, đến các chợ đêm. Theo định nghĩa đơn giản, biến đổi gen chỉ là việc sử dụng công nghệ khoa học để thêm vào các gen mới, hiện đại và tốt hơn vào hạt giống gốc. Ví dụ như rau củ chứa nhiều vitamin A hơn, cà chua có khả năng chống ung thư, đậu phộng không gây dị ứng... Các nhà khoa học đã chứng minh rằng, những thực phẩm biến đổi gen này không chỉ có giá trị dinh dưỡng cao mà còn giúp chúng ta phòng ngừa bệnh tật khi thưởng thức những món ăn ngon. Hiện nay, con người hiện nay cần ăn nhiều loại rau củ mỗi ngày để đảm bảo sức khỏe, nhưng tương lai, chỉ cần một bữa thực phẩm biến đổi gen có thể đủ cung cấp tất cả các dưỡng chất cần thiết trong một ngày. Vì sao lại có người phản đối khi việc chỉnh sửa này càng làm cho thực phẩm ngày càng tiến bộ?"
+          },
+          {
+            "speaker": "農業研究員",
+            "chinese": "我認為基改食物最大的好處是能夠解決許多問題。專家們已經提出警告，全球人口將在2050年突破百億，加上氣候不正常，糧食不足的問題早晚會發生。基改技術不僅可以減少農藥的使用、降低成本、增加農作物的抵抗力、預防蟲害、減少環境汙染，更重要的是可以提高產量，解決飢荒。再說，含有基改大豆、玉米的食品早就與我們的生活密不可分。美國是生產基改食物最多的國家，多數人都能接受基改食物，我們何必擔心呢？而且一旦缺少糧食，必須依賴進口，將造成嚴重的經濟危機。基改的影響這麼大，我們都應該支持才對。",
+            "simplified": "我认为基改食物最大的好处是能够解决许多问题。专家们已经提出警告，全球人口将在2050年突破百亿，加上气候不正常，粮食不足的问题早晚会发生。基改技术不仅可以减少农药的使用、降低成本、增加农作物的抵抗力、预防虫害、减少环境污染，更重要的是可以提高产量，解决饥荒。再说，含有基改大豆、玉米的食品早就与我们的生活密不可分。美国是生产基改食物最多的国家，多数人都能接受基改食物，我们何必担心呢？而且一旦缺少粮食，必须依赖进口，将造成严重的经济危机。基改的影响这么大，我们都应该支持才对。",
+            "pinyin": "wǒ rèn wèi jī gǎi shí wù zuì dà de hǎo chù shì néng gòu jiě jué xǔ duō wèn tí 。 zhuān jiā men yǐ jīng tí chū jǐng gào ， quán qiú rén kǒu jiāng zài 2 0 5 0 nián tū pò bǎi yì ， jiā shàng qì hòu bú zhèng cháng ， liáng shí bù zú de wèn tí zǎo wǎn huì fā shēng 。 jī gǎi jì shù bù jǐn kě yǐ jiǎn shǎo nóng yào de shǐ yòng 、 jiàng dī chéng běn 、 zēng jiā nóng zuò wù de dǐ kàng lì 、 yù fáng chóng hài 、 jiǎn shǎo huán jìng wū rǎn ， gèng zhòng yào de shì kě yǐ tí gāo chǎn liàng ， jiě jué jī huāng 。 zài shuō ， hán yǒu jī gǎi dà dòu 、 yù mǐ de shí pǐn zǎo jiù yǔ wǒ men de shēng huó mì bù kě fēn 。 měi guó shì shēng chǎn jī gǎi shí wù zuì duō de guó jiā ， duō shù rén dōu néng jiē shòu jī gǎi shí wù ， wǒ men hé bì dān xīn ne ？ ér qiě yí dàn quē shǎo liáng shí ， bì xū yī lài jìn kǒu ， jiāng zào chéng yán zhòng de jīng jì wēi jī 。 jī gǎi de yǐng xiǎng zhè me dà ， wǒ men dōu yīng gāi zhī chí cái duì 。",
+            "meaningVi": "Tôi cho rằng lợi ích lớn nhất của thực phẩm biến đổi gen là có thể giải quyết nhiều vấn đề. Các chuyên gia đã cảnh báo rằng, dân số toàn cầu sẽ vượt quá 10 tỷ vào năm 2050, cùng với tình trạng khí hậu bất thường, vấn đề thiếu lương thực sẽ sớm xảy ra. Công nghệ biến đổi gen không chỉ giúp giảm sử dụng thuốc trừ sâu, tiết kiệm chi phí, tăng khả năng chống chịu của cây trồng, phòng ngừa sâu bệnh và giảm ô nhiễm môi trường, mà quan trọng hơn là tăng năng suất, giải quyết nạn đói. Hơn nữa, thực phẩm chứa đậu nành, ngô biến đổi gen đã trở nên gần gũi với cuộc sống hàng ngày của chúng ta. Hoa Kỳ là quốc gia sản xuất thực phẩm biến đổi gen nhiều nhất, và đa số người dân đều chấp nhận thực phẩm này, vậy chúng ta còn lo gì? Hơn nữa, nếu thiếu lương thực và phải nhập khẩu, sẽ gây ra khủng hoảng kinh tế nghiêm trọng. Với tác động lớn như vậy, chúng ta đều nên ủng hộ."
+          },
+          {
+            "speaker": "生物科技公司經理",
+            "chinese": "「基改食品有害健康」這種說法毫無科學根據可言。最新的一項報導指出，25年來，超過500個機構研究了大量的基改農產品，直到現在都沒有足夠的證據可以證明基改作物對人體和環境有害。他們的結論是：基改作物與傳統作物一樣安全。英國有位農業專家也表示，有問題的其實是在農作物生長過程中所使用的農藥，如除草劑等物質，而不是基改科技本身，所以不需要把基改科技當成怪物，自己嚇自己。此外，按照我國的法律，只要食品中含有基改原料，都必須在包裝上清楚標示，消費者不必擔心。總而言之，我們可以自由地選擇，享受科技帶來的一切美好與便利。",
+            "simplified": "「基改食品有害健康」这种说法毫无科学根据可言。最新的一项报导指出，25年来，超过500个机构研究了大量的基改农产品，直到现在都没有足够的证据可以证明基改作物对人体和环境有害。他们的结论是：基改作物与传统作物一样安全。英国有位农业专家也表示，有问题的其实是在农作物生长过程中所使用的农药，如除草剂等物质，而不是基改科技本身，所以不需要把基改科技当成怪物，自己吓自己。此外，按照我国的法律，只要食品中含有基改原料，都必须在包装上清楚标示，消费者不必担心。总而言之，我们可以自由地选择，享受科技带来的一切美好与便利。",
+            "pinyin": "「 jī gǎi shí pǐn yǒu hài jiàn kāng 」 zhè zhǒng shuō fǎ háo wú kē xué gēn jù kě yán 。 zuì xīn de yī xiàng bào dǎo zhǐ chū ， 2 5 nián lái ， chāo guò 5 0 0 gè jī gòu yán jiū le dà liàng de jī gǎi nóng chǎn pǐn ， zhí dào xiàn zài dōu méi yǒu zú gòu de zhèng jù kě yǐ zhèng míng jī gǎi zuò wù duì rén tǐ hé huán jìng yǒu hài 。 tā men de jié lùn shì ： jī gǎi zuò wù yǔ chuán tǒng zuò wù yī yàng ān quán 。 yīng guó yǒu wèi nóng yè zhuān jiā yě biǎo shì ， yǒu wèn tí de qí shí shì zài nóng zuò wù shēng zhǎng guò chéng zhōng suǒ shǐ yòng de nóng yào ， rú chú cǎo jì děng wù zhì ， ér bú shì jī gǎi kē jì běn shēn ， suǒ yǐ bù xū yào bǎ jī gǎi kē jì dāng chéng guài wù ， zì jǐ xià zì jǐ 。 cǐ wài ， àn zhào wǒ guó de fǎ lǜ ， zhǐ yào shí pǐn zhōng hán yǒu jī gǎi yuán liào ， dōu bì xū zài bāo zhuāng shàng qīng chǔ biāo shì ， xiāo fèi zhě bù bì dān xīn 。 zǒng ér yán zhī ， wǒ men kě yǐ zì yóu dì xuǎn zé ， xiǎng shòu kē jì dài lái de yī qiè měi hǎo yǔ biàn lì 。",
+            "meaningVi": "Lời nói rằng \"thức ăn biến đổi gen gây hại cho sức khỏe\" hoàn toàn không có cơ sở khoa học. Theo một báo cáo mới nhất, trong 25 năm qua, hơn 500 tổ chức đã nghiên cứu hàng loạt sản phẩm nông nghiệp biến đổi gen, và đến nay vẫn chưa có bằng chứng nào đủ mạnh để chứng minh rằng các sản phẩm này gây hại cho cơ thể con người hay môi trường. Kết luận của họ là: các sản phẩm biến đổi gen an toàn như các sản phẩm nông nghiệp truyền thống. Một chuyên gia nông nghiệp người Anh cũng cho rằng, vấn đề thực sự nằm ở các chất thuốc trừ sâu, thuốc diệt cỏ, hay các chất hóa học được sử dụng trong quá trình trồng trọt, chứ không phải ở công nghệ biến đổi gen. Vì vậy, không cần phải coi công nghệ biến đổi gen là một \"quái vật\" và tự mình gây lo sợ. Ngoài ra, theo quy định của pháp luật nước ta, bất kỳ thực phẩm nào chứa thành phần biến đổi gen đều phải được ghi rõ trên bao bì, do đó người tiêu dùng hoàn toàn không cần lo lắng. Tóm lại, chúng ta có thể tự do lựa chọn và tận hưởng mọi điều tuyệt vời, tiện lợi mà công nghệ mang lại."
+          }
+        ]
+      },
+      {
+        "id": "cc5-v5-l02-reading2",
+        "title": "Bài đọc 2 · Phản đối thực phẩm biến đổi gen",
+        "context": "Người dẫn mời người nội trợ, biên tập viên và giáo sư nêu lập luận phản biện.",
+        "audioTrackId": "cc5-textbook-l02-t05",
+        "turns": [
+          {
+            "speaker": "主持人",
+            "chinese": "以上幾位意見都是贊成基改的，現在我們來聽聽另一種聲音：",
+            "simplified": "以上几位意见都是赞成基改的，现在我们来听听另一种声音：",
+            "pinyin": "yǐ shàng jǐ wèi yì jiàn dōu shì zàn chéng jī gǎi de ， xiàn zài wǒ men lái tīng tīng lìng yī zhǒng shēng yīn ：",
+            "meaningVi": "Các ý kiến trên đều ủng hộ việc biến đổi gen. Bây giờ, chúng ta hãy nghe một tiếng nói khác:"
+          },
+          {
+            "speaker": "家庭主婦",
+            "chinese": "報上說，基改作物使昆蟲的種類與數量越來越少，鳥類沒有東西吃，影響整個大自然。越來越多研究報導指出，吃基改食品容易過敏、不孕，甚至罹患癌症。大豆、番茄、玉米、蘋果早就是基改食物，連基改鮭魚都成了美食，這些食物已不知不覺上了我們的餐桌，很難從外觀辨別，因此怎麼能讓人吃得安心呢？",
+            "simplified": "报上说，基改作物使昆虫的种类与数量越来越少，鸟类没有东西吃，影响整个大自然。越来越多研究报导指出，吃基改食品容易过敏、不孕，甚至罹患癌症。大豆、番茄、玉米、苹果早就是基改食物，连基改鲑鱼都成了美食，这些食物已不知不觉上了我们的餐桌，很难从外观辨别，因此怎么能让人吃得安心呢？",
+            "pinyin": "bào shàng shuō ， jī gǎi zuò wù shǐ kūn chóng de zhǒng lèi yǔ shù liàng yuè lái yuè shǎo ， niǎo lèi méi yǒu dōng xī chī ， yǐng xiǎng zhěng gè dà zì rán 。 yuè lái yuè duō yán jiū bào dǎo zhǐ chū ， chī jī gǎi shí pǐn róng yì guò mǐn 、 bù yùn ， shèn zhì lí huàn ái zhèng 。 dà dòu 、 fān qié 、 yù mǐ 、 píng guǒ zǎo jiù shì jī gǎi shí wù ， lián jī gǎi guī yú dōu chéng le měi shí ， zhè xiē shí wù yǐ bù zhī bù jué shàng le wǒ men de cān zhuō ， hěn nán cóng wài guān biàn bié ， yīn cǐ zěn me néng ràng rén chī dé ān xīn ne ？",
+            "meaningVi": "Theo báo cáo, các loại thực phẩm biến đổi gen đang làm giảm dần số lượng và đa dạng loài côn trùng, khiến chim không có thức ăn, ảnh hưởng đến toàn bộ hệ sinh thái tự nhiên. Ngày càng có nhiều nghiên cứu báo cáo rằng việc tiêu thụ thực phẩm biến đổi gen dễ gây dị ứng, vô sinh, thậm chí ung thư. Đậu nành, cà chua, bắp, táo đã là những thực phẩm biến đổi gen, đến cả cá hồi biến đổi gen cũng đã trở thành món ăn phổ biến. Những thực phẩm này đã dần dần xuất hiện trên bàn ăn của chúng ta, khó nhận biết từ bên ngoài, vậy làm sao để người dân có thể ăn mà yên tâm?"
+          },
+          {
+            "speaker": "科學雜誌編輯",
+            "chinese": "由於基改作物既抗蟲害也抗除草劑，農夫因此大量使用除草劑，不必擔心影響作物，後果卻是昆蟲和雜草產生了抗藥性。某家取得基改種子專利的農業技術公司一方面販賣基改種子，一方面生產更強的除草劑賣給農民。這家公司收購了全球大多數的種子公司，使種子價格居高不下，農民根本買不起，但卻又買不到天然的種子，這絕對不符合公平正義。基改公司所說的「可以減少農藥使用」、「解決糧食不足問題」都非事實。過去15年，美國因為種植基改作物，農藥總用量增加了約1億8千3百萬公斤。即便全球基改作物早已大量增加，世界各地仍有飢荒。因此，從「農藥使用量上升」和「賣基改種子兼賣農藥」的事實來看，基改公司真正的目的並不是想滿足大家對食物的需要，而是為了商業利益。難道我們還要繼續買這種「欺騙的種子」嗎？",
+            "simplified": "由于基改作物既抗虫害也抗除草剂，农夫因此大量使用除草剂，不必担心影响作物，后果却是昆虫和杂草产生了抗药性。某家取得基改种子专利的农业技术公司一方面贩卖基改种子，一方面生产更强的除草剂卖给农民。这家公司收购了全球大多数的种子公司，使种子价格居高不下，农民根本买不起，但却又买不到天然的种子，这绝对不符合公平正义。基改公司所说的「可以减少农药使用」、「解决粮食不足问题」都非事实。过去15年，美国因为种植基改作物，农药总用量增加了约1亿8千3百万公斤。即便全球基改作物早已大量增加，世界各地仍有饥荒。因此，从「农药使用量上升」和「卖基改种子兼卖农药」的事实来看，基改公司真正的目的并不是想满足大家对食物的需要，而是为了商业利益。难道我们还要继续买这种「欺骗的种子」吗？",
+            "pinyin": "yóu yú jī gǎi zuò wù jì kàng chóng hài yě kàng chú cǎo jì ， nóng fū yīn cǐ dà liàng shǐ yòng chú cǎo jì ， bù bì dān xīn yǐng xiǎng zuò wù ， hòu guǒ què shì kūn chóng hé zá cǎo chǎn shēng le kàng yào xìng 。 mǒu jiā qǔ dé jī gǎi zhǒng zi zhuān lì de nóng yè jì shù gōng sī yì fāng miàn fàn mài jī gǎi zhǒng zi ， yì fāng miàn shēng chǎn gèng qiáng de chú cǎo jì mài gěi nóng mín 。 zhè jiā gōng sī shōu gòu le quán qiú dà duō shù de zhǒng zi gōng sī ， shǐ zhǒng zi jià gé jū gāo bù xià ， nóng mín gēn běn mǎi bù qǐ ， dàn què yòu mǎi bú dào tiān rán de zhǒng zi ， zhè jué duì bù fú hé gōng píng zhèng yì 。 jī gǎi gōng sī suǒ shuō de 「 kě yǐ jiǎn shǎo nóng yào shǐ yòng 」 、 「 jiě jué liáng shí bù zú wèn tí 」 dōu fēi shì shí 。 guò qù 1 5 nián ， měi guó yīn wèi zhǒng zhí jī gǎi zuò wù ， nóng yào zǒng yòng liàng zēng jiā le yuē 1 yì 8 qiān 3 bǎi wàn gōng jīn 。 jí biàn quán qiú jī gǎi zuò wù zǎo yǐ dà liàng zēng jiā ， shì jiè gè dì réng yǒu jī huāng 。 yīn cǐ ， cóng 「 nóng yào shǐ yòng liàng shàng shēng 」 hé 「 mài jī gǎi zhǒng zi jiān mài nóng yào 」 de shì shí lái kàn ， jī gǎi gōng sī zhēn zhèng de mù dì bìng bú shì xiǎng mǎn zú dà jiā duì shí wù de xū yào ， ér shì wèi le shāng yè lì yì 。 nán dào wǒ men hái yào jì xù mǎi zhè zhǒng 「 qī piàn de zhǒng zi 」 ma ？",
+            "meaningVi": "Do các loại cây trồng biến đổi gen vừa kháng sâu hại vừa kháng thuốc diệt cỏ, nên nông dân vì vậy dùng nhiều thuốc diệt cỏ, không lo ngại ảnh hưởng đến cây trồng. Tuy nhiên, hệ quả là các loài côn trùng và cỏ đã phát triển khả năng kháng thuốc. Một công ty công nghệ nông nghiệp sở hữu bằng sáng chế về hạt trồng biến đổi gen vừa bán hạt biến đổi gen, vừa sản xuất các loại thuốc diệt cỏ mạnh hơn để bán cho nông dân. Công ty này đã mua lại đa số các công ty cung cấp hạt, khiến giá hạt tăng cao, khiến nông dân không thể mua được, đồng thời họ không thể tìm thấy hạt trồng tự nhiên – điều này hoàn toàn không phù hợp với sự công bằng và chính nghĩa. Các tuyên bố của công ty biến đổi gen như \"giảm thiểu việc sử dụng thuốc diệt cỏ\" hay \"giải quyết vấn đề thiếu lương thực\" đều không đúng sự thật. Trong 15 năm qua, Hoa Kỳ đã tăng thêm khoảng 183 triệu kg thuốc diệt cỏ do trồng cây trồng biến đổi gen. Dù cây trồng biến đổi gen đã được trồng rộng rãi trên toàn cầu, thì ở nhiều nơi trên thế giới vẫn còn đói kém. Do đó, dựa vào thực tế việc \"tăng lượng thuốc diệt cỏ\" và việc \"bán hạt biến đổi gen đồng thời bán thuốc diệt cỏ\", mục đích thực sự của các công ty này không phải là đáp ứng nhu cầu thực phẩm của người dân, mà là nhằm mục đích lợi nhuận. Liệu chúng ta có nên tiếp tục mua những \"hạt giống lừa dối\" này không?"
+          },
+          {
+            "speaker": "大學教授",
+            "chinese": "聽完前面兩位的意見後，我認為基改作物不但會造成嚴重經濟損失，也正在威脅國人的健康。政府應該立法禁止種植和進口，以照顧本地農民的利益、保障食品安全和維護消費者的權益。我們不需要這種神奇食物，那只不過是廠商行銷的手段而已。基改食物將會讓我們付出嚴重的代價。我們要選擇接受，還是拒絕？聰明的人都知道，自己的健康，掌握在自己手中。",
+            "simplified": "听完前面两位的意见后，我认为基改作物不但会造成严重经济损失，也正在威胁国人的健康。政府应该立法禁止种植和进口，以照顾本地农民的利益、保障食品安全和维护消费者的权益。我们不需要这种神奇食物，那只不过是厂商行销的手段而已。基改食物将会让我们付出严重的代价。我们要选择接受，还是拒绝？聪明的人都知道，自己的健康，掌握在自己手中。",
+            "pinyin": "tīng wán qián miàn liǎng wèi de yì jiàn hòu ， wǒ rèn wèi jī gǎi zuò wù bù dàn huì zào chéng yán zhòng jīng jì sǔn shī ， yě zhèng zài wēi xié guó rén de jiàn kāng 。 zhèng fǔ yīng gāi lì fǎ jìn zhǐ zhǒng zhí hé jìn kǒu ， yǐ zhào gù běn dì nóng mín de lì yì 、 bǎo zhàng shí pǐn ān quán hé wéi hù xiāo fèi zhě de quán yì 。 wǒ men bù xū yào zhè zhǒng shén qí shí wù ， nà zhǐ bù guò shì chǎng shāng háng xiāo de shǒu duàn ér yǐ 。 jī gǎi shí wù jiāng huì ràng wǒ men fù chū yán zhòng de dài jià 。 wǒ men yào xuǎn zé jiē shòu ， hái shì jù jué ？ cōng míng de rén dōu zhī dào ， zì jǐ de jiàn kāng ， zhǎng wò zài zì jǐ shǒu zhōng 。",
+            "meaningVi": "Sau khi nghe ý kiến của hai người trước, tôi cho rằng cây trồng biến đổi gen không chỉ gây ra thiệt hại kinh tế nghiêm trọng, mà còn đang đe dọa đến sức khỏe của người dân. Chính phủ nên ban luật cấm trồng và nhập khẩu, nhằm bảo vệ lợi ích của nông dân địa phương, đảm bảo an toàn thực phẩm và bảo vệ quyền lợi người tiêu dùng. Chúng ta không cần những loại thực phẩm kỳ diệu như vậy; đó chỉ là chiêu thức quảng bá của các doanh nghiệp. Thực phẩm biến đổi gen sẽ khiến chúng ta phải trả giá rất cao. Chúng ta nên chọn chấp nhận hay từ chối? Những người thông minh đều biết rằng sức khỏe của bản thân nằm trong tay mình."
+          },
+          {
+            "speaker": "主持人",
+            "chinese": "到底，基因改造是好，是壞？是未來美夢的實現，還是正在形成的災難？恐怕需要更多時間來證明。今天節目的時間到了，我們下次再見。",
+            "simplified": "到底，基因改造是好，是坏？是未来美梦的实现，还是正在形成的灾难？恐怕需要更多时间来证明。今天节目的时间到了，我们下次再见。",
+            "pinyin": "dào dǐ ， jī yīn gǎi zào shì hǎo ， shì huài ？ shì wèi lái měi mèng de shí xiàn ， hái shì zhèng zài xíng chéng de zāi nán ？ kǒng pà xū yào gèng duō shí jiān lái zhèng míng 。 jīn tiān jié mù dì shí jiān dào le ， wǒ men xià cì zài jiàn 。",
+            "meaningVi": "Cuối cùng, biến đổi gen là điều tốt hay điều xấu? Là sự thực hiện của giấc mơ tương lai, hay đang dần hình thành thành thảm họa? Có lẽ cần thêm thời gian để chứng minh. Thời gian chương trình hôm nay đã kết thúc, chúng ta hẹn gặp lại lần sau."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc5-v5-l02-check-01",
+        "prompt": "Người dẫn mở đầu chương trình bằng câu hỏi nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Nên mua điện thoại nào?"
+          },
+          {
+            "id": "b",
+            "text": "Thực phẩm biến đổi gen có an toàn không?"
+          },
+          {
+            "id": "c",
+            "text": "Có nên ngừng phát thanh không?"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Người dẫn nói 基改食品究竟安不安全 là chủ đề mọi người quan tâm.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc5-v5-l02-check-02",
+        "prompt": "Theo bác sĩ, lợi ích được nhấn mạnh là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Giảm hoàn toàn mọi nguy cơ"
+          },
+          {
+            "id": "b",
+            "text": "Tăng giá trị dinh dưỡng và góp phần phòng bệnh"
+          },
+          {
+            "id": "c",
+            "text": "Không cần ghi nhãn thực phẩm"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Bác sĩ nêu 營養價值 và 預防疾病; đây là lập luận của nhân vật.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc5-v5-l02-check-03",
+        "prompt": "Theo nhà nghiên cứu nông nghiệp, lợi ích quan trọng hơn là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Tăng sản lượng và giải quyết nạn đói"
+          },
+          {
+            "id": "b",
+            "text": "Giảm số lượng cây trồng"
+          },
+          {
+            "id": "c",
+            "text": "Ngừng nhập khẩu ngay"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Bà/ông ấy nói 更重要的是可以提高產量，解決飢荒.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc5-v5-l02-check-04",
+        "prompt": "Biên tập viên phản đối vì sao giá hạt giống cao?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Vì không có bằng sáng chế"
+          },
+          {
+            "id": "b",
+            "text": "Một công ty đã thu mua phần lớn công ty hạt giống"
+          },
+          {
+            "id": "c",
+            "text": "Vì người tiêu dùng tự trồng quá ít"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Bài đọc nói công ty 收購了全球大多數的種子公司.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc5-v5-l02-check-05",
+        "prompt": "Người dẫn kết thúc bằng thái độ nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Cần thêm thời gian để chứng minh mặt lợi và hại"
+          },
+          {
+            "id": "b",
+            "text": "Khẳng định tuyệt đối bên ủng hộ đúng"
+          },
+          {
+            "id": "c",
+            "text": "Khẳng định tuyệt đối bên phản đối đúng"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Câu cuối nêu 恐怕需要更多時間來證明.",
+        "skill": "Đọc hiểu"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từng từ để xem phát âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc5-v5-l02-v001",
+      "cc5-v5-l02-v002",
+      "cc5-v5-l02-v003",
+      "cc5-v5-l02-v004",
+      "cc5-v5-l02-v005",
+      "cc5-v5-l02-v006",
+      "cc5-v5-l02-v007",
+      "cc5-v5-l02-v008",
+      "cc5-v5-l02-v009",
+      "cc5-v5-l02-v010",
+      "cc5-v5-l02-v011",
+      "cc5-v5-l02-v012",
+      "cc5-v5-l02-v013",
+      "cc5-v5-l02-v014",
+      "cc5-v5-l02-v015",
+      "cc5-v5-l02-v016",
+      "cc5-v5-l02-v017",
+      "cc5-v5-l02-v018",
+      "cc5-v5-l02-v019",
+      "cc5-v5-l02-v020",
+      "cc5-v5-l02-v021",
+      "cc5-v5-l02-v022",
+      "cc5-v5-l02-v023",
+      "cc5-v5-l02-v024",
+      "cc5-v5-l02-v025",
+      "cc5-v5-l02-v026",
+      "cc5-v5-l02-v027",
+      "cc5-v5-l02-v028",
+      "cc5-v5-l02-v029",
+      "cc5-v5-l02-v030",
+      "cc5-v5-l02-v031",
+      "cc5-v5-l02-v032",
+      "cc5-v5-l02-v033",
+      "cc5-v5-l02-v034",
+      "cc5-v5-l02-v035",
+      "cc5-v5-l02-v036",
+      "cc5-v5-l02-v037",
+      "cc5-v5-l02-v038",
+      "cc5-v5-l02-v039",
+      "cc5-v5-l02-v040",
+      "cc5-v5-l02-v041",
+      "cc5-v5-l02-v042",
+      "cc5-v5-l02-v043",
+      "cc5-v5-l02-v044",
+      "cc5-v5-l02-v045",
+      "cc5-v5-l02-v046",
+      "cc5-v5-l02-v047",
+      "cc5-v5-l02-v048",
+      "cc5-v5-l02-v049",
+      "cc5-v5-l02-v050",
+      "cc5-v5-l02-v051",
+      "cc5-v5-l02-v052",
+      "cc5-v5-l02-v053",
+      "cc5-v5-l02-v054",
+      "cc5-v5-l02-v055",
+      "cc5-v5-l02-v056",
+      "cc5-v5-l02-v057",
+      "cc5-v5-l02-v058",
+      "cc5-v5-l02-v059",
+      "cc5-v5-l02-v060",
+      "cc5-v5-l02-v061",
+      "cc5-v5-l02-v062",
+      "cc5-v5-l02-v063",
+      "cc5-v5-l02-v064",
+      "cc5-v5-l02-v065",
+      "cc5-v5-l02-v066",
+      "cc5-v5-l02-v067",
+      "cc5-v5-l02-v068",
+      "cc5-v5-l02-v069",
+      "cc5-v5-l02-v070",
+      "cc5-v5-l02-v071",
+      "cc5-v5-l02-v072",
+      "cc5-v5-l02-v073",
+      "cc5-v5-l02-v074",
+      "cc5-v5-l02-v075",
+      "cc5-v5-l02-v076",
+      "cc5-v5-l02-v077",
+      "cc5-v5-l02-v078",
+      "cc5-v5-l02-v079",
+      "cc5-v5-l02-v080",
+      "cc5-v5-l02-v081",
+      "cc5-v5-l02-v082",
+      "cc5-v5-l02-v083",
+      "cc5-v5-l02-v084",
+      "cc5-v5-l02-v085",
+      "cc5-v5-l02-v086",
+      "cc5-v5-l02-v087",
+      "cc5-v5-l02-v088",
+      "cc5-v5-l02-v089",
+      "cc5-v5-l02-v090",
+      "cc5-v5-l02-v091",
+      "cc5-v5-l02-v092",
+      "cc5-v5-l02-v093",
+      "cc5-v5-l02-v094",
+      "cc5-v5-l02-v095",
+      "cc5-v5-l02-v096",
+      "cc5-v5-l02-v097",
+      "cc5-v5-l02-v098",
+      "cc5-v5-l02-v099",
+      "cc5-v5-l02-v100"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc5-v5-l02-grammar-01",
+      "title": "既然 A，為什麼還 B 呢？",
+      "structure": "既然 + điều đã biết，為什麼還 + hành động trái dự đoán + 呢？",
+      "explanation": "Dùng khi A đã là một sự thật hoặc tiền đề được chấp nhận, nhưng B vẫn xảy ra và người nói thấy khó hiểu. 還 nhấn mạnh sự trái ngược; câu hỏi thường mang sắc thái chất vấn.",
+      "examples": [
+        {
+          "chinese": "既然基改食品有營養價值，為什麼還有人反對呢？",
+          "simplified": "既然基改食品有营养价值，为什么还有人反对呢？",
+          "pinyin": "jì rán jī gǎi shí pǐn yǒu yíng yǎng jià zhí ， wèi shén me hái yǒu rén fǎn duì ne ？",
+          "meaningVi": "Nếu thực phẩm biến đổi gen có giá trị dinh dưỡng, sao vẫn có người phản đối?"
+        },
+        {
+          "chinese": "既然你已經決定了，為什麼還要問大家呢？",
+          "simplified": "既然你已经决定了，为什么还要问大家呢？",
+          "pinyin": "jì rán nǐ yǐ jīng jué dìng le ， wèi shén me hái yào wèn dà jiā ne ？",
+          "meaningVi": "Nếu bạn đã quyết định rồi, sao vẫn hỏi mọi người?"
+        }
+      ],
+      "commonMistake": "Đừng dùng mẫu này để hỏi nguyên nhân trung lập; nó ngầm cho thấy B không hợp với A.",
+      "check": {
+        "id": "cc5-v5-l02-grammar-check-01",
+        "prompt": "「既然你知道風險，為什麼還買？」 thể hiện điều gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Người nói thấy việc mua trái với điều đã biết"
+          },
+          {
+            "id": "b",
+            "text": "Người nói chưa biết có rủi ro"
+          },
+          {
+            "id": "c",
+            "text": "Người nói đồng ý mua"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "既然 nêu tiền đề đã biết, 還 nêu việc trái dự đoán.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l02-t03"
+    },
+    {
+      "id": "cc5-v5-l02-grammar-02",
+      "title": "早晚",
+      "structure": "chủ ngữ + 早晚 + sẽ xảy ra",
+      "explanation": "早晚 nghĩa là “sớm muộn”: thời điểm chưa xác định nhưng người nói cho rằng sự việc cuối cùng sẽ xảy ra. Có thể nói 早晚會… hoặc …是早晚的事.",
+      "examples": [
+        {
+          "chinese": "糧食不足的問題早晚會發生。",
+          "simplified": "粮食不足的问题早晚会发生。",
+          "pinyin": "liáng shí bù zú de wèn tí zǎo wǎn huì fā shēng 。",
+          "meaningVi": "Vấn đề thiếu lương thực sớm muộn sẽ xảy ra."
+        },
+        {
+          "chinese": "他不改變習慣，早晚會生病。",
+          "simplified": "他不改变习惯，早晚会生病。",
+          "pinyin": "tā bù gǎi biàn xí guàn ， zǎo wǎn huì shēng bìng 。",
+          "meaningVi": "Nếu không đổi thói quen, sớm muộn anh ấy sẽ mắc bệnh."
+        }
+      ],
+      "commonMistake": "早晚 không chỉ một ngày cụ thể trong lịch.",
+      "check": {
+        "id": "cc5-v5-l02-grammar-check-02",
+        "prompt": "「早晚會發生」 có nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Sớm muộn cũng sẽ xảy ra"
+          },
+          {
+            "id": "b",
+            "text": "Đã xảy ra sáng nay"
+          },
+          {
+            "id": "c",
+            "text": "Chỉ xảy ra vào buổi tối"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "早晚 diễn tả tính tất yếu theo nhận định của người nói.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l02-t03"
+    },
+    {
+      "id": "cc5-v5-l02-grammar-03",
+      "title": "不僅 A，更重要的是 B",
+      "structure": "不僅 + lợi ích A，更重要的是 + lợi ích B",
+      "explanation": "Mẫu này liệt kê nhiều điểm nhưng đặt B ở vị trí quan trọng hơn. 不僅 có thể đi với 也/還; 更重要的是 giúp chuyển từ ý phụ sang luận điểm chính.",
+      "examples": [
+        {
+          "chinese": "基改技術不僅能降低成本，更重要的是可以提高產量。",
+          "simplified": "基改技术不仅能降低成本，更重要的是可以提高产量。",
+          "pinyin": "jī gǎi jì shù bù jǐn néng jiàng dī chéng běn ， gèng zhòng yào de shì kě yǐ tí gāo chǎn liàng 。",
+          "meaningVi": "Công nghệ biến đổi gen không chỉ giảm chi phí; quan trọng hơn, nó có thể tăng sản lượng."
+        },
+        {
+          "chinese": "學中文不僅能看懂課文，更重要的是能與人交流。",
+          "simplified": "学中文不仅能看懂课文，更重要的是能与人交流。",
+          "pinyin": "xué zhōng wén bù jǐn néng kàn dǒng kè wén ， gèng zhòng yào de shì néng yǔ rén jiāo liú 。",
+          "meaningVi": "Học tiếng Hoa không chỉ để hiểu bài đọc; quan trọng hơn là giao tiếp được."
+        }
+      ],
+      "commonMistake": "Hai vế cần cùng chủ đề; B phải thực sự là trọng tâm muốn nhấn.",
+      "check": {
+        "id": "cc5-v5-l02-grammar-check-03",
+        "prompt": "Trong mẫu 不僅 A，更重要的是 B, ý nào được nhấn mạnh nhất?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Hai ý hoàn toàn không liên quan"
+          },
+          {
+            "id": "b",
+            "text": "B"
+          },
+          {
+            "id": "c",
+            "text": "A"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "更重要的是 đánh dấu luận điểm quan trọng hơn.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l02-t03"
+    },
+    {
+      "id": "cc5-v5-l02-grammar-04",
+      "title": "應該…才對",
+      "structure": "chủ ngữ + 應該 + hành động + 才對",
+      "explanation": "Dùng để khẳng định một hành động là điều hợp lý hoặc đúng đắn theo quan điểm người nói. 才對 đặt sau mệnh đề làm sắc thái mạnh hơn 應該 đơn thuần.",
+      "examples": [
+        {
+          "chinese": "我們應該先看證據才對。",
+          "simplified": "我们应该先看证据才对。",
+          "pinyin": "wǒ men yīng gāi xiān kàn zhèng jù cái duì 。",
+          "meaningVi": "Chúng ta nên xem bằng chứng trước mới đúng."
+        },
+        {
+          "chinese": "食品包裝應該標示原料才對。",
+          "simplified": "食品包装应该标示原料才对。",
+          "pinyin": "shí pǐn bāo zhuāng yīng gāi biāo shì yuán liào cái duì 。",
+          "meaningVi": "Bao bì thực phẩm nên ghi rõ nguyên liệu mới đúng."
+        }
+      ],
+      "commonMistake": "Đây là ý kiến của người nói, không tự động là sự thật khách quan.",
+      "check": {
+        "id": "cc5-v5-l02-grammar-check-04",
+        "prompt": "「應該先查證才對」 có sắc thái gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Nói không cần kiểm chứng"
+          },
+          {
+            "id": "b",
+            "text": "Cho rằng kiểm chứng trước mới là cách đúng"
+          },
+          {
+            "id": "c",
+            "text": "Nói việc kiểm chứng đã hoàn tất"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "才對 nhấn điều người nói cho là hợp lý.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l02-t03"
+    },
+    {
+      "id": "cc5-v5-l02-grammar-05",
+      "title": "毫無…可言",
+      "structure": "毫無 + danh từ/trừu tượng + 可言",
+      "explanation": "Mẫu văn viết mang nghĩa “hoàn toàn không có … để nói tới”. Dùng với những khái niệm như 根據、效果、自由. Sắc thái phủ định mạnh hơn 沒有.",
+      "examples": [
+        {
+          "chinese": "這種說法毫無科學根據可言。",
+          "simplified": "这种说法毫无科学根据可言。",
+          "pinyin": "zhè zhǒng shuō fǎ háo wú kē xué gēn jù kě yán 。",
+          "meaningVi": "Cách nói này hoàn toàn không có cơ sở khoa học."
+        },
+        {
+          "chinese": "沒有選擇權，就毫無自由可言。",
+          "simplified": "没有选择权，就毫无自由可言。",
+          "pinyin": "méi yǒu xuǎn zé quán ， jiù háo wú zì yóu kě yán 。",
+          "meaningVi": "Không có quyền lựa chọn thì chẳng thể nói là có tự do."
+        }
+      ],
+      "commonMistake": "Không đặt một hành động cụ thể vào giữa 毫無 và 可言.",
+      "check": {
+        "id": "cc5-v5-l02-grammar-check-05",
+        "prompt": "「毫無根據可言」 nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Căn cứ đã được kiểm chứng"
+          },
+          {
+            "id": "b",
+            "text": "Hoàn toàn không có căn cứ"
+          },
+          {
+            "id": "c",
+            "text": "Có nhiều căn cứ"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "毫無…可言 là cách phủ định rất mạnh.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l02-t03"
+    },
+    {
+      "id": "cc5-v5-l02-grammar-06",
+      "title": "其實是 A 而不是 B",
+      "structure": "其實是 + điều đúng A + 而不是 + điều bị bác bỏ B",
+      "explanation": "Dùng khi sửa lại một cách hiểu sai: điều cốt lõi là A chứ không phải B. 其實 mở ra sự thật phía sau bề ngoài; 而不是 phủ định cách giải thích B.",
+      "examples": [
+        {
+          "chinese": "問題其實是農藥，而不是基改科技本身。",
+          "simplified": "问题其实是农药，而不是基改科技本身。",
+          "pinyin": "wèn tí qí shí shì nóng yào ， ér bú shì jī gǎi kē jì běn shēn 。",
+          "meaningVi": "Vấn đề thực ra nằm ở thuốc nông nghiệp chứ không phải bản thân công nghệ biến đổi gen."
+        },
+        {
+          "chinese": "他擔心的其實是價格，而不是味道。",
+          "simplified": "他担心的其实是价格，而不是味道。",
+          "pinyin": "tā dān xīn de qí shí shì jià gé ， ér bú shì wèi dào 。",
+          "meaningVi": "Điều anh ấy lo thực ra là giá cả, chứ không phải mùi vị."
+        }
+      ],
+      "commonMistake": "Không đảo A/B: A là điều người nói xác nhận, B là điều bị bác bỏ.",
+      "check": {
+        "id": "cc5-v5-l02-grammar-check-06",
+        "prompt": "Trong 「其實是價格而不是味道」, điều được khẳng định là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Cả hai đều không đúng"
+          },
+          {
+            "id": "b",
+            "text": "Giá cả"
+          },
+          {
+            "id": "c",
+            "text": "Mùi vị"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "其實是 A xác nhận A; 而不是 B bác bỏ B.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l02-t03"
+    },
+    {
+      "id": "cc5-v5-l02-grammar-07",
+      "title": "怎麼能…呢？",
+      "structure": "怎麼能 + hành động/kết quả + 呢？",
+      "explanation": "Đây thường là câu hỏi tu từ, bộc lộ rằng người nói cho việc ấy khó có thể hoặc không nên xảy ra. Ngữ cảnh quyết định sắc thái ngạc nhiên hay phản đối.",
+      "examples": [
+        {
+          "chinese": "看不到標示，怎麼能吃得安心呢？",
+          "simplified": "看不到标示，怎么能吃得安心呢？",
+          "pinyin": "kàn bú dào biāo shì ， zěn me néng chī dé ān xīn ne ？",
+          "meaningVi": "Không thấy nhãn ghi rõ, làm sao có thể yên tâm ăn?"
+        },
+        {
+          "chinese": "沒有足夠的證據，怎麼能下結論呢？",
+          "simplified": "没有足够的证据，怎么能下结论呢？",
+          "pinyin": "méi yǒu zú gòu de zhèng jù ， zěn me néng xià jié lùn ne ？",
+          "meaningVi": "Không đủ bằng chứng, sao có thể kết luận?"
+        }
+      ],
+      "commonMistake": "Không mặc định đây là câu hỏi xin hướng dẫn “làm thế nào”; nhiều khi nó nhấn sự không thể.",
+      "check": {
+        "id": "cc5-v5-l02-grammar-check-07",
+        "prompt": "「沒有證據，怎麼能相信呢？」 hàm ý gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Không thể dễ dàng tin khi thiếu bằng chứng"
+          },
+          {
+            "id": "b",
+            "text": "Đã có đủ bằng chứng"
+          },
+          {
+            "id": "c",
+            "text": "Chỉ hỏi địa điểm tìm bằng chứng"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "怎麼能…呢 là câu hỏi tu từ trong ngữ cảnh này.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l02-t07"
+    },
+    {
+      "id": "cc5-v5-l02-grammar-08",
+      "title": "從…來看",
+      "structure": "從 + bằng chứng/góc nhìn + 來看，+ nhận định",
+      "explanation": "Dùng để nêu cơ sở của một kết luận: “xét từ … thì …”. A có thể là số liệu, sự việc hoặc một góc nhìn; sau 來看 là nhận định rút ra, không phải dữ kiện đứng riêng.",
+      "examples": [
+        {
+          "chinese": "從農藥使用量來看，情況沒有變好。",
+          "simplified": "从农药使用量来看，情况没有变好。",
+          "pinyin": "cóng nóng yào shǐ yòng liàng lái kàn ， qíng kuàng méi yǒu biàn hǎo 。",
+          "meaningVi": "Xét từ lượng thuốc nông nghiệp được sử dụng, tình hình chưa khá hơn."
+        },
+        {
+          "chinese": "從消費者的角度來看，標示必須清楚。",
+          "simplified": "从消费者的角度来看，标示必须清楚。",
+          "pinyin": "cóng xiāo fèi zhě de jiǎo dù lái kàn ， biāo shì bì xū qīng chǔ 。",
+          "meaningVi": "Xét từ góc nhìn của người tiêu dùng, nhãn phải rõ ràng."
+        }
+      ],
+      "commonMistake": "Cần nêu rõ căn cứ trước 來看; tránh dùng cho kết luận không liên quan.",
+      "check": {
+        "id": "cc5-v5-l02-grammar-check-08",
+        "prompt": "「從標示來看」 đặt phần nào trước 來看?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Thời gian dự kiến"
+          },
+          {
+            "id": "b",
+            "text": "Căn cứ để nhận định"
+          },
+          {
+            "id": "c",
+            "text": "Kết luận cuối cùng"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "從…來看 mở đầu bằng cơ sở của suy luận.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l02-t07"
+    },
+    {
+      "id": "cc5-v5-l02-grammar-09",
+      "title": "以…",
+      "structure": "mệnh đề hành động + 以 + mục đích",
+      "explanation": "以 trong văn viết có nghĩa “để/nhằm”, nối hành động với mục đích. Nó cô đọng hơn 為了; vế sau thường là một động từ như 保障、減少、維護.",
+      "examples": [
+        {
+          "chinese": "政府應該立法，以保障食品安全。",
+          "simplified": "政府应该立法，以保障食品安全。",
+          "pinyin": "zhèng fǔ yīng gāi lì fǎ ， yǐ bǎo zhàng shí pǐn ān quán 。",
+          "meaningVi": "Chính phủ nên ban hành luật để bảo đảm an toàn thực phẩm."
+        },
+        {
+          "chinese": "包裝上要標示原料，以方便消費者選擇。",
+          "simplified": "包装上要标示原料，以方便消费者选择。",
+          "pinyin": "bāo zhuāng shàng yào biāo shì yuán liào ， yǐ fāng biàn xiāo fèi zhě xuǎn zé 。",
+          "meaningVi": "Bao bì cần ghi nguyên liệu để người mua dễ lựa chọn."
+        }
+      ],
+      "commonMistake": "Đừng nhầm 以 chỉ mục đích trong mẫu này với 以 A 為 B nghĩa là lấy A làm B.",
+      "check": {
+        "id": "cc5-v5-l02-grammar-check-09",
+        "prompt": "「立法以保障安全」, 以 nối điều gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Hai sự kiện trái ngược"
+          },
+          {
+            "id": "b",
+            "text": "Một người với một nơi chốn"
+          },
+          {
+            "id": "c",
+            "text": "Hành động lập pháp với mục đích bảo đảm an toàn"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "以 ở đây nêu mục đích của hành động.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l02-t07"
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc5-v5-l02-listening-01",
+      "prompt": "Nghe bài 1: người dẫn nghe hai khách hàng tranh luận ở đâu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trên xe buýt"
+        },
+        {
+          "id": "b",
+          "text": "Trong một quán mì"
+        },
+        {
+          "id": "c",
+          "text": "Trong phòng thí nghiệm"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Đầu bài: 今天中午我在一家麵店用餐.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l02-t01"
+    },
+    {
+      "id": "cc5-v5-l02-listening-02",
+      "prompt": "Nghe bài 1: bác sĩ nêu ví dụ loại hạt nào không gây dị ứng?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đậu nành"
+        },
+        {
+          "id": "b",
+          "text": "Bắp"
+        },
+        {
+          "id": "c",
+          "text": "Đậu phộng"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bác sĩ nhắc 不會引起過敏的花生.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l02-t01"
+    },
+    {
+      "id": "cc5-v5-l02-listening-03",
+      "prompt": "Nghe bài 2: người nội trợ nói điều gì khiến bà khó yên tâm?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bao bì quá lớn"
+        },
+        {
+          "id": "b",
+          "text": "Không có quán bán rau"
+        },
+        {
+          "id": "c",
+          "text": "Khó phân biệt thực phẩm biến đổi gen qua bề ngoài"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bà nói 很難從外觀辨別.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l02-t05"
+    },
+    {
+      "id": "cc5-v5-l02-listening-04",
+      "prompt": "Nghe bài 2: giáo sư đề xuất chính phủ làm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bỏ tất cả nhãn thực phẩm"
+        },
+        {
+          "id": "b",
+          "text": "Tăng giá hạt giống"
+        },
+        {
+          "id": "c",
+          "text": "Ban hành luật cấm trồng và nhập khẩu"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Giáo sư nói 應該立法禁止種植和進口.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l02-t05"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc5-v5-l02-practice-01",
+      "prompt": "Điền: ____已經知道有風險，為什麼____要買？",
+      "options": [
+        {
+          "id": "a",
+          "text": "既然；還"
+        },
+        {
+          "id": "b",
+          "text": "不僅；也"
+        },
+        {
+          "id": "c",
+          "text": "從；來看"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "既然 nêu tiền đề, 還 nhấn hành động trái dự đoán.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l02-practice-02",
+      "prompt": "Điền: 這樣下去，問題____會發生。",
+      "options": [
+        {
+          "id": "a",
+          "text": "毫無"
+        },
+        {
+          "id": "b",
+          "text": "從"
+        },
+        {
+          "id": "c",
+          "text": "早晚"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "早晚 nghĩa là sớm muộn.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l02-practice-03",
+      "prompt": "Điền: 這個方法____能節省時間，____可以減少成本。",
+      "options": [
+        {
+          "id": "a",
+          "text": "不僅；還"
+        },
+        {
+          "id": "b",
+          "text": "既然；還"
+        },
+        {
+          "id": "c",
+          "text": "其實；不是"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "不僅…還… nối hai lợi ích.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l02-practice-04",
+      "prompt": "Điền: 食品包裝____清楚標示原料____。",
+      "options": [
+        {
+          "id": "a",
+          "text": "應該；才對"
+        },
+        {
+          "id": "b",
+          "text": "毫無；可言"
+        },
+        {
+          "id": "c",
+          "text": "從；來看"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "應該…才對 nhấn cách làm được cho là hợp lý.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l02-practice-05",
+      "prompt": "Điền: 這種說法____根據____。",
+      "options": [
+        {
+          "id": "a",
+          "text": "毫無；可言"
+        },
+        {
+          "id": "b",
+          "text": "不僅；還"
+        },
+        {
+          "id": "c",
+          "text": "既然；呢"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "毫無…可言 diễn tả hoàn toàn không có.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l02-practice-06",
+      "prompt": "Điền: 真正的問題____標示不清，____產品的顏色。",
+      "options": [
+        {
+          "id": "a",
+          "text": "既然；為什麼"
+        },
+        {
+          "id": "b",
+          "text": "不僅；更"
+        },
+        {
+          "id": "c",
+          "text": "其實是；而不是"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "其實是 A 而不是 B sửa một cách hiểu sai.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l02-practice-07",
+      "prompt": "Điền: 沒有足夠的證據，____下結論____？",
+      "options": [
+        {
+          "id": "a",
+          "text": "怎麼能；呢"
+        },
+        {
+          "id": "b",
+          "text": "既然；還"
+        },
+        {
+          "id": "c",
+          "text": "不僅；更"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "怎麼能…呢 hỏi tu từ để phản đối việc kết luận khi thiếu chứng cứ.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l02-practice-08",
+      "prompt": "Điền: ____目前的資料____，我們還不能確定。",
+      "options": [
+        {
+          "id": "a",
+          "text": "從；來看"
+        },
+        {
+          "id": "b",
+          "text": "既然；還"
+        },
+        {
+          "id": "c",
+          "text": "不僅；更"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "從…來看 nêu cơ sở trước nhận định.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l02-practice-09",
+      "prompt": "Điền: 包裝上要標示原料，____方便消費者選擇。",
+      "options": [
+        {
+          "id": "a",
+          "text": "兼"
+        },
+        {
+          "id": "b",
+          "text": "以"
+        },
+        {
+          "id": "c",
+          "text": "非"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "以 trong văn viết nêu mục đích.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l02-practice-10",
+      "prompt": "Xếp ý theo lập luận của biên tập viên.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Không có cỏ dại → người tiêu dùng luôn yên tâm → ủng hộ"
+        },
+        {
+          "id": "b",
+          "text": "Dùng nhiều thuốc diệt cỏ → giá hạt giống cao → phản đối lợi ích thương mại"
+        },
+        {
+          "id": "c",
+          "text": "Giá hạt giống cao → không cần bằng chứng → ủng hộ"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bà/ông ấy nêu việc dùng thuốc, công ty thu mua hạt giống và lợi ích thương mại.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc5-v5-l02-assessment-01",
+      "prompt": "「基改」 là cách viết ngắn của gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "基本改良"
+        },
+        {
+          "id": "b",
+          "text": "基因改造"
+        },
+        {
+          "id": "c",
+          "text": "基礎改革"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "基改 viết tắt từ 基因改造.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc5-v5-l02-assessment-02",
+      "prompt": "Bài 1 gồm những tiếng nói nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ người tiêu dùng phản đối"
+        },
+        {
+          "id": "b",
+          "text": "Người dẫn và ba nhân vật ủng hộ"
+        },
+        {
+          "id": "c",
+          "text": "Chỉ một bác sĩ"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài 1 lần lượt có người dẫn, bác sĩ, nhà nghiên cứu và quản lý công ty.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l02-assessment-03",
+      "prompt": "「早晚會發生」 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ xảy ra về đêm"
+        },
+        {
+          "id": "b",
+          "text": "Sớm muộn sẽ xảy ra"
+        },
+        {
+          "id": "c",
+          "text": "Đã xảy ra sáng nay"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "早晚 ở đây diễn tả sự việc rồi sẽ xảy ra.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l02-assessment-04",
+      "prompt": "Nhà nghiên cứu nhấn mạnh lợi ích nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tăng sản lượng lương thực"
+        },
+        {
+          "id": "b",
+          "text": "Giảm số lượng cây trồng"
+        },
+        {
+          "id": "c",
+          "text": "Không cần nông dân"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Cụm 更重要的是可以提高產量 là trọng tâm trong lập luận.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l02-assessment-05",
+      "prompt": "「毫無科學根據可言」 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Có một ít bằng chứng"
+        },
+        {
+          "id": "b",
+          "text": "Hoàn toàn không có cơ sở khoa học"
+        },
+        {
+          "id": "c",
+          "text": "Đã được khoa học xác nhận"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "毫無…可言 là phủ định mạnh.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l02-assessment-06",
+      "prompt": "Theo bài 1, thực phẩm có nguyên liệu biến đổi gen phải làm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ghi rõ trên bao bì"
+        },
+        {
+          "id": "b",
+          "text": "Không được bán"
+        },
+        {
+          "id": "c",
+          "text": "Chỉ bán ở bệnh viện"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Quản lý công ty nêu 包裝上清楚標示.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l02-assessment-07",
+      "prompt": "Người nội trợ lo điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Khó phân biệt thực phẩm qua bề ngoài"
+        },
+        {
+          "id": "b",
+          "text": "Không có đủ tạp chí"
+        },
+        {
+          "id": "c",
+          "text": "Không ai trồng đậu nành"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bà ấy nói 很難從外觀辨別.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l02-assessment-08",
+      "prompt": "「居高不下」 dùng cho giá có nghĩa gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Giảm xuống rất thấp"
+        },
+        {
+          "id": "b",
+          "text": "Ở mức cao mãi, không giảm"
+        },
+        {
+          "id": "c",
+          "text": "Tăng rồi giảm ngay"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Trong bài, giá hạt giống 居高不下.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc5-v5-l02-assessment-09",
+      "prompt": "Biên tập viên cho rằng động cơ của công ty là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lợi ích thương mại"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ nghiên cứu trong trường học"
+        },
+        {
+          "id": "c",
+          "text": "Bảo tồn mọi giống hạt tự nhiên"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc nói 為了商業利益; đây là lập luận của nhân vật.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l02-assessment-10",
+      "prompt": "「從證據來看」 có vai trò gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nêu nơi đi du lịch"
+        },
+        {
+          "id": "b",
+          "text": "Nêu người bị phỏng vấn"
+        },
+        {
+          "id": "c",
+          "text": "Nêu căn cứ cho nhận định"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "從…來看 giới thiệu cơ sở cho kết luận.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l02-assessment-11",
+      "prompt": "Giáo sư đề xuất chính sách nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tăng thuế sách giáo khoa"
+        },
+        {
+          "id": "b",
+          "text": "Cấm trồng và nhập khẩu thực phẩm biến đổi gen"
+        },
+        {
+          "id": "c",
+          "text": "Bỏ mọi quy định về thực phẩm"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Giáo sư đề xuất 立法禁止種植和進口.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l02-assessment-12",
+      "prompt": "Kết thúc chương trình, người dẫn nói gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vấn đề đã được giải quyết hoàn toàn"
+        },
+        {
+          "id": "b",
+          "text": "Mọi người đều có cùng quan điểm"
+        },
+        {
+          "id": "c",
+          "text": "Cần thêm thời gian để xác minh"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Người dẫn nói 恐怕需要更多時間來證明.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "writingTask": {
+    "id": "cc5-v5-l02-writing",
+    "title": "Một ý kiến có căn cứ",
+    "prompt": "Viết một đoạn ngắn bằng tiếng Hoa: bạn ủng hộ hay lo ngại về một loại thực phẩm mới? Nêu một căn cứ, thừa nhận một ý kiến khác và kết luận. Có thể dùng 從…來看、其實是…而不是…、以….",
+    "sampleTraditional": "從目前的資料來看，我認為食品標示應該更清楚。有人重視產量，也有人擔心環境。無論選擇哪一種食品，消費者都需要足夠的資訊，以做出適合自己的決定。",
+    "sampleSimplified": "从目前的资料来看，我认为食品标示应该更清楚。有人重视产量，也有人担心环境。无论选择哪一种食品，消费者都需要足够的资讯，以做出适合自己的决定。"
+  }
+}

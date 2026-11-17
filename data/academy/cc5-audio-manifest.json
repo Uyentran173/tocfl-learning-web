@@ -251,9 +251,16 @@
       "privatePath": "textbook/02-01.mp3",
       "bytes": 4437370,
       "sha256": "34b707ef4c87996ff333497c6bd879ff2e0c5b100600fdca74153f15ba0b5184",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        54
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 54,
+        "bookPage": 28,
+        "labelVi": "Âm thanh kèm trang 28",
+        "referenceCode": "02-01"
+      }
     },
     {
       "id": "cc5-textbook-l02-t02",
@@ -266,9 +273,16 @@
       "privatePath": "textbook/02-02.mp3",
       "bytes": 4077925,
       "sha256": "1a0dc5b977a8a960f40d165cf25cb02f88df11567eef6c449dd404419a5631be",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        55
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 55,
+        "bookPage": 29,
+        "labelVi": "Âm thanh kèm trang 29",
+        "referenceCode": "02-02"
+      }
     },
     {
       "id": "cc5-textbook-l02-t03",
@@ -391,9 +405,16 @@
       "privatePath": "textbook/02-08.mp3",
       "bytes": 1484071,
       "sha256": "ba0b408df8a754ac59bee18a2f651d41495126a06589769719b9b6d8c4c4904a",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        72
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 72,
+        "bookPage": 46,
+        "labelVi": "Âm thanh kèm trang 46",
+        "referenceCode": "02-08"
+      }
     },
     {
       "id": "cc5-workbook-l02-t01",

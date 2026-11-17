@@ -14,12 +14,13 @@ import lesson05Words from '../data/academy/cc4-lesson05-vocabulary.json' with { 
 import lesson06Words from '../data/academy/cc4-lesson06-vocabulary.json' with { type: 'json' };
 import lesson07Words from '../data/academy/cc4-lesson07-vocabulary.json' with { type: 'json' };
 import lesson08Words from '../data/academy/cc4-lesson08-vocabulary.json' with { type: 'json' };
+import lesson09Words from '../data/academy/cc4-lesson09-vocabulary.json' with { type: 'json' };
 
 const root = path.resolve(import.meta.dirname, '..');
 
 test('Volume 4 releases reviewed lessons with isolated IDs and complete activities', () => {
   assert.equal(academyVolume4.lessonIds.length, 12);
-  assert.equal(academyVolume4Lessons.length, 8);
+  assert.equal(academyVolume4Lessons.length, 9);
   const lesson = academyVolume4Lessons[0];
   assert.equal(lesson.id, 'cc4-v4-l01');
   assert.equal(validateAcademyLessonContent(lesson), true);
@@ -39,6 +40,33 @@ test('Volume 4 releases reviewed lessons with isolated IDs and complete activiti
     assert.ok(question.options.some((option) => option.id === question.correctOptionId), question.id);
     assert.equal(new Set(question.options.map((option) => option.text)).size, question.options.length, question.id);
   }
+});
+
+test('Volume 4 Lesson 09 includes the final dialogue turns, historical reading and verified tracks', () => {
+  const lesson = academyVolume4Lessons[8];
+  assert.equal(lesson.id, 'cc4-v4-l09');
+  assert.equal(validateAcademyLessonContent(lesson), true);
+  assert.equal(lesson.lecture.dialogues[0].turns.length, 20);
+  assert.equal(lesson.lecture.dialogues[1].turns.length, 3);
+  assert.ok(lesson.lecture.dialogues[0].turns.at(-1).chinese.includes('萬華沒落了'));
+  assert.ok(lesson.lecture.dialogues[1].turns[1].chinese.includes('尚未出世的兒子'));
+  assert.equal(lesson09Words.records.length, 91);
+  assert.equal(academyVocabularyByIds(lesson.vocabulary.wordIds).length, 91);
+  for (const word of lesson09Words.records) {
+    assert.ok(word.exampleTraditional.includes(word.traditional), word.id);
+    assert.ok(word.exampleSimplified.includes(word.simplified), word.id);
+    assert.ok(word.meaningVi && word.exampleVi && word.pinyin && word.wordClass, word.id);
+  }
+  assert.equal(lesson.grammar.length, 8);
+  assert.equal(lesson.practice.length, 8);
+  assert.equal(lesson.assessment.length, 10);
+  assert.equal(academyScriptText(lesson.title, 'simplified'), '再谈台湾故事');
+  for (const trackId of ['cc4-textbook-l09-t01', 'cc4-textbook-l09-t02', 'cc4-textbook-l09-t03', 'cc4-textbook-l09-t04']) {
+    assert.equal(manifest.tracks.find((track) => track.id === trackId)?.mappingStatus, 'verified');
+    assert.ok(existsSync(path.join(root, 'public/academy/cc4/audio', `${trackId}.mp3`)));
+  }
+  assert.ok(reviewed['cc4-textbook-l09-t01'].transcriptTraditional.includes('萬華沒落了'));
+  assert.ok(reviewed['cc4-textbook-l09-t03'].transcriptTraditional.includes('落地生根'));
 });
 
 test('Volume 4 Lesson 08 preserves the family-choice texts, complete vocabulary and verified audio', () => {

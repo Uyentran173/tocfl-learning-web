@@ -1,0 +1,1210 @@
+{
+  "contentVersion": 2,
+  "id": "cc4-v4-l09",
+  "title": "再談台灣故事",
+  "titleVi": "Tìm hiểu thêm chuyện Đài Loan",
+  "description": "Tìm hiểu các địa danh lịch sử ở Đài Loan và đọc câu chuyện về một người lính xa quê.",
+  "objectives": [
+    "Giới thiệu sự phát triển của một địa danh và kể lại nguồn gốc tên gọi.",
+    "Dùng 把…當做…, 在…下, 該, 自從…以後, 幾, 不禁, 仍然 và 究竟 đúng ngữ cảnh.",
+    "Đọc hiểu câu chuyện đời của một người lính và nêu diễn biến theo thời gian."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Lai Ân và Văn Lệ nói về Đài Nam, Lộc Cảng và Vạn Hoa. Bài đọc kể về ông Trương, người rời quê đến Đài Loan rồi trải qua nhiều năm xa gia đình.",
+    "sections": [
+      {
+        "id": "cc4-v4-l09-section-01",
+        "title": "Địa danh và tên gọi",
+        "body": "Chú ý cách Văn Lệ giải thích tên Lộc Cảng và 艋舺 từ địa hình, ngôn ngữ và lịch sử.",
+        "chinese": "人們便稱這個地方「鹿港」。",
+        "simplified": "人们便称这个地方「鹿港」。",
+        "pinyin": "rén men biàn chēng zhè gè dì fāng 「 lù gǎng 」。",
+        "meaningVi": "Vì vậy người ta gọi nơi này là Lộc Cảng."
+      },
+      {
+        "id": "cc4-v4-l09-section-02",
+        "title": "Một câu chuyện đời",
+        "body": "Theo các mốc 1949, thời gian xa quê và cuộc gặp lại của ông Trương với gia đình.",
+        "chinese": "台灣就是我的家鄉，我算是落地生根了。",
+        "simplified": "台湾就是我的家乡，我算是落地生根了。",
+        "pinyin": "tái wān jiù shì wǒ de jiā xiāng ， wǒ suàn shì luò dì shēng gēn le 。",
+        "meaningVi": "Đài Loan là quê hương của tôi; tôi đã bén rễ ở đây."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc4-v4-l09-dialogue-01",
+        "title": "Hội thoại: chuyện Đài Loan",
+        "context": "Lai Ân và Văn Lệ trò chuyện ở khu Đông Đài Bắc.",
+        "audioTrackId": "cc4-textbook-l09-t01",
+        "turns": [
+          {
+            "speaker": "高來恩",
+            "chinese": "哇！台北東區好熱鬧啊！",
+            "simplified": "哇！台北东区好热闹啊！",
+            "pinyin": "wa ！ tái běi dōng qū hǎo rè nào a ！",
+            "meaningVi": "Ôi chà! Khu vực phía Đông Đài Bắc thật náo nhiệt!"
+          },
+          {
+            "speaker": "李文麗",
+            "chinese": "以前這裡可不是熱鬧的地方，一百年前這裡還是鄉下，沒什麼人住。",
+            "simplified": "以前这里可不是热闹的地方，一百年前这里还是乡下，没什么人住。",
+            "pinyin": "yǐ qián zhè lǐ kě bú shì rè nào de dì fāng ， yì bǎi nián qián zhè lǐ hái shì xiāng xià ， méi shén me rén zhù 。",
+            "meaningVi": "Trước đây, nơi này không hề nhộn nhịp. Một trăm năm trước, đây vẫn còn là vùng quê, không có nhiều người sinh sống."
+          },
+          {
+            "speaker": "高來恩",
+            "chinese": "台灣以前最熱鬧的地方在哪裡？",
+            "simplified": "台湾以前最热闹的地方在哪里？",
+            "pinyin": "tái wān yǐ qián zuì rè nào de dì fāng zài nǎ lǐ ？",
+            "meaningVi": "Nơi nào từng là nơi náo nhiệt nhất ở Đài Loan?"
+          },
+          {
+            "speaker": "李文麗",
+            "chinese": "台灣的政治、經濟中心是從南往北逐漸發展的。以前有三個最熱鬧的地方，一是台南，二是鹿港，三是艋舺。",
+            "simplified": "台湾的政治、经济中心是从南往北逐渐发展的。以前有三个最热闹的地方，一是台南，二是鹿港，三是艋舺。",
+            "pinyin": "tái wān de zhèng zhì 、 jīng jì zhōng xīn shì cóng nán wǎng běi zhú jiàn fā zhǎn de 。 yǐ qián yǒu sān gè zuì rè nào de dì fāng ， yī shì tái nán ， èr shì lù gǎng ， sān shì měng xiá 。",
+            "meaningVi": "Trung tâm chính trị và kinh tế Đài Loan phát triển dần từ Nam ra Bắc. Trước đây có ba nơi náo nhiệt nhất: Đài Nam, Lộc Cảng và Bangka."
+          },
+          {
+            "speaker": "高來恩",
+            "chinese": "我去過台南，我知道差不多四百年前，荷蘭人曾經把台灣當做亞洲的貿易據點。台南有不少古蹟，赤崁樓就是荷蘭人統治台灣時，在台南建造的，那是家喻戶曉的觀光景點。鹿港和艋舺在哪裡？",
+            "simplified": "我去过台南，我知道差不多四百年前，荷兰人曾经把台湾当做亚洲的贸易据点。台南有不少古迹，赤崁楼就是荷兰人统治台湾时，在台南建造的，那是家喻户晓的观光景点。鹿港和艋舺在哪里？",
+            "pinyin": "wǒ qù guò tái nán ， wǒ zhī dào chà bu duō sì bǎi nián qián ， hé lán rén céng jīng bǎ tái wān dāng zuò yà zhōu de mào yì jù diǎn 。 tái nán yǒu bù shǎo gǔ jī ， chì kàn lóu jiù shì hé lán rén tǒng zhì tái wān shí ， zài tái nán jiàn zào de ， nà shì jiā yù hù xiǎo de guān guāng jǐng diǎn 。 lù gǎng hé měng xiá zài nǎ lǐ ？",
+            "meaningVi": "Tôi từng đến Đài Nam. Khoảng bốn trăm năm trước, người Hà Lan xem Đài Loan là cứ điểm thương mại ở châu Á. Xích Khảm Lâu ở Đài Nam là di tích được xây dựng khi họ cai trị, ai cũng biết đến. Lộc Cảng và Bangka nằm ở đâu?"
+          },
+          {
+            "speaker": "李文麗",
+            "chinese": "鹿港是以前台灣中部最繁榮的港口，據說河邊經常有鹿群出現，也有人說是因為港的形狀像鹿角，人們便稱這個地方「鹿港」。",
+            "simplified": "鹿港是以前台湾中部最繁荣的港口，据说河边经常有鹿群出现，也有人说是因为港的形状像鹿角，人们便称这个地方「鹿港」。",
+            "pinyin": "lù gǎng shì yǐ qián tái wān zhōng bù zuì fán róng de gǎng kǒu ， jù shuō hé biān jīng cháng yǒu lù qún chū xiàn ， yě yǒu rén shuō shì yīn wèi gǎng de xíng zhuàng xiàng lù jiǎo ， rén men biàn chēng zhè gè dì fāng 「 lù gǎng 」。",
+            "meaningVi": "Lộc Cảng từng là cảng thịnh vượng nhất ở miền Trung Đài Loan. Người ta nói rằng đàn hươu thường xuất hiện bên bờ sông, cũng có người nói rằng vì hình dạng của cảng giống như gạc hươu nên người ta gọi nơi này là \"Lộc Cảng\"."
+          },
+          {
+            "speaker": "高來恩",
+            "chinese": "台灣以前有很多鹿嗎？",
+            "simplified": "台湾以前有很多鹿吗？",
+            "pinyin": "tái wān yǐ qián yǒu hěn duō lù ma ？",
+            "meaningVi": "Trước đây ở Đài Loan có nhiều hươu không?"
+          },
+          {
+            "speaker": "李文麗",
+            "chinese": "以前台灣中部滿山遍野到處可以看到鹿。",
+            "simplified": "以前台湾中部满山遍野到处可以看到鹿。",
+            "pinyin": "yǐ qián tái wān zhōng bù mǎn shān biàn yě dào chù kě yǐ kàn dào lù 。",
+            "meaningVi": "Trước đây, ở miền Trung Đài Loan, hươu có thể được nhìn thấy khắp mọi nơi, trên núi và trên đồng bằng."
+          },
+          {
+            "speaker": "高來恩",
+            "chinese": "為什麼現在在台灣看不到鹿，只有在動物園才看得到？",
+            "simplified": "为什么现在在台湾看不到鹿，只有在动物园才看得到？",
+            "pinyin": "wèi shén me xiàn zài zài tái wān kàn bú dào lù ， zhǐ yǒu zài dòng wù yuán cái kàn dé dào ？",
+            "meaningVi": "Tại sao bây giờ ở Đài Loan không thấy hươu nữa mà chỉ thấy ở sở thú?"
+          },
+          {
+            "speaker": "李文麗",
+            "chinese": "聽說後來有人為了賣鹿皮賺錢，不知殺了多少鹿，在這種情形下，鹿的數量就減少了。",
+            "simplified": "听说后来有人为了卖鹿皮赚钱，不知杀了多少鹿，在这种情形下，鹿的数量就减少了。",
+            "pinyin": "tīng shuō hòu lái yǒu rén wèi le mài lù pí zhuàn qián ， bù zhī shā le duō shǎo lù ， zài zhè zhǒng qíng xíng xià ， lù de shù liàng jiù jiǎn shǎo le 。",
+            "meaningVi": "Tôi nghe nói sau này có người vì muốn kiếm tiền bán da hươu mà không biết đã giết bao nhiêu con hươu. Trong tình huống như vậy, số lượng hươu sẽ giảm đi."
+          },
+          {
+            "speaker": "高來恩",
+            "chinese": "鹿港有什麼值得參觀的景點嗎？",
+            "simplified": "鹿港有什么值得参观的景点吗？",
+            "pinyin": "lù gǎng yǒu shén me zhí de cān guān de jǐng diǎn ma ？",
+            "meaningVi": "Ở Lộc Cảng có điểm tham quan nào đáng ghé thăm không?"
+          },
+          {
+            "speaker": "李文麗",
+            "chinese": "鹿港的風光已經成為歷史，可是留下了許多古蹟，那裡的寺廟和民宅都是古色古香的，非常值得參觀。",
+            "simplified": "鹿港的风光已经成为历史，可是留下了许多古迹，那里的寺庙和民宅都是古色古香的，非常值得参观。",
+            "pinyin": "lù gǎng de fēng guāng yǐ jīng chéng wèi lì shǐ ， kě shì liú xià le xǔ duō gǔ jī ， nà lǐ de sì miào hé mín zhái dōu shì gǔ sè gǔ xiāng de ， fēi cháng zhí de cān guān 。",
+            "meaningVi": "Cảnh quan của Lộc Cảng đã trở thành lịch sử, nhưng nơi đây vẫn còn lưu giữ nhiều di tích. Các ngôi chùa và nhà dân ở đây đều mang phong cách cổ kính, rất đáng để ghé thăm."
+          },
+          {
+            "speaker": "高來恩",
+            "chinese": "那裡有什麼好吃的東西？",
+            "simplified": "那里有什么好吃的东西？",
+            "pinyin": "nà lǐ yǒu shén me hǎo chī de dōng xī ？",
+            "meaningVi": "Ở đó có món gì ngon không?"
+          },
+          {
+            "speaker": "李文麗",
+            "chinese": "鹿港有一些傳統點心和小吃，像綠豆糕、牛舌餅和蚵仔煎，都讓人垂涎三尺。",
+            "simplified": "鹿港有一些传统点心和小吃，像绿豆糕、牛舌饼和蚵仔煎，都让人垂涎三尺。",
+            "pinyin": "lù gǎng yǒu yī xiē chuán tǒng diǎn xīn hé xiǎo chī ， xiàng lǜ dòu gāo 、 niú shé bǐng hé hé zǎi jiān ， dōu ràng rén chuí xián sān chǐ 。",
+            "meaningVi": "Lộc Cảng có một số món điểm tâm và ăn vặt truyền thống, như bánh đậu xanh, bánh lưỡi bò và bánh trứng chiên hàu, đều khiến người ta thèm rớt nước miếng."
+          },
+          {
+            "speaker": "高來恩",
+            "chinese": "哦，那麼好吃嗎？我真想嚐嚐看。再來，該介紹一下「艋舺」在哪裡了！",
+            "simplified": "哦，那么好吃吗？我真想尝尝看。再来，该介绍一下「艋舺」在哪里了！",
+            "pinyin": "ó ， nà me hǎo chī ma ？ wǒ zhēn xiǎng cháng cháng kàn 。 zài lái ， gāi jiè shào yī xià 「 měng xiá 」 zài nǎ lǐ le ！",
+            "meaningVi": "Ồ, nghe ngon quá! Tôi muốn nếm thử. Giờ chị giới thiệu Bangka ở đâu đi!"
+          },
+          {
+            "speaker": "李文麗",
+            "chinese": "「艋舺」，在台灣北部淡水河邊，是台北最早發展的地方，差不多兩百年前是它最興盛的時期，現在叫「萬華」。因為當時淡水河上都是獨木舟—獨木舟是一種小船，原住民稱獨木舟為「艋舺」，大家就把這個地方叫「艋舺」。",
+            "simplified": "「艋舺」，在台湾北部淡水河边，是台北最早发展的地方，差不多两百年前是它最兴盛的时期，现在叫「万华」。因为当时淡水河上都是独木舟—独木舟是一种小船，原住民称独木舟为「艋舺」，大家就把这个地方叫「艋舺」。",
+            "pinyin": "「 měng xiá 」， zài tái wān běi bù dàn shuǐ hé biān ， shì tái běi zuì zǎo fā zhǎn de dì fāng ， chà bu duō liǎng bǎi nián qián shì tā zuì xìng shèng de shí qī ， xiàn zài jiào 「 wàn huá 」。 yīn wèi dāng shí dàn shuǐ hé shàng dōu shì dú mù zhōu — dú mù zhōu shì yī zhǒng xiǎo chuán ， yuán zhù mín chēng dú mù zhōu wèi 「 měng xiá 」， dà jiā jiù bǎ zhè gè dì fāng jiào 「 měng xiá 」。",
+            "meaningVi": "Bangka nằm bên sông Đạm Thủy ở miền Bắc Đài Loan, là nơi Đài Bắc phát triển sớm nhất. Khoảng hai trăm năm trước, nơi này thịnh vượng nhất; nay gọi là Vạn Hoa. Hồi đó sông Đạm Thủy có nhiều thuyền độc mộc. Người bản địa gọi thuyền độc mộc là Bangka, nên mọi người cũng dùng tên ấy để gọi vùng này."
+          },
+          {
+            "speaker": "高來恩",
+            "chinese": "我還是不懂為什麼「艋舺」現在叫「萬華」？",
+            "simplified": "我还是不懂为什么「艋舺」现在叫「万华」？",
+            "pinyin": "wǒ hái shì bù dǒng wèi shén me 「 měng xiá 」 xiàn zài jiào 「 wàn huá 」？",
+            "meaningVi": "Tôi vẫn chưa hiểu vì sao Bangka giờ lại gọi là Vạn Hoa."
+          },
+          {
+            "speaker": "李文麗",
+            "chinese": "以前原住民用獨木舟從淡水河載運農產品來賣，日本人統治台灣的時候，因「艋舺」的台語發音與日語「萬華」（Manka） 相似，所以改名「萬華」，現在台語還是叫「艋舺」（Bangkah）。",
+            "simplified": "以前原住民用独木舟从淡水河载运农产品来卖，日本人统治台湾的时候，因「艋舺」的台语发音与日语「万华」（Manka） 相似，所以改名「万华」，现在台语还是叫「艋舺」（Bangkah）。",
+            "pinyin": "yǐ qián yuán zhù mín yòng dú mù zhōu cóng dàn shuǐ hé zài yùn nóng chǎn pǐn lái mài ， rì běn rén tǒng zhì tái wān de shí hòu ， yīn 「 měng xiá 」 de tái yǔ fā yīn yǔ rì yǔ 「 wàn huá 」（Manka）  xiāng sì ， suǒ yǐ gǎi míng 「 wàn huá 」， xiàn zài tái yǔ hái shì jiào 「 měng xiá 」（Bangkah）。",
+            "meaningVi": "Trước đây, người bản địa dùng thuyền độc mộc chở nông sản trên sông Đạm Thủy đến bán. Thời Nhật cai trị, vì cách phát âm Bangka trong tiếng Đài gần với Vạn Hoa (Manka) trong tiếng Nhật nên nơi này được đổi tên thành Vạn Hoa. Tiếng Đài ngày nay vẫn gọi là Bangka (Bangkah)."
+          },
+          {
+            "speaker": "高來恩",
+            "chinese": "原來是這樣啊！那萬華有什麼可看的地方嗎？",
+            "simplified": "原来是这样啊！那万华有什么可看的地方吗？",
+            "pinyin": "yuán lái shì zhè yàng a ！ nà wàn huá yǒu shén me kě kàn de dì fāng ma ？",
+            "meaningVi": "Ra là vậy! Vạn Hoa có những nơi nào đáng xem?"
+          },
+          {
+            "speaker": "李文麗",
+            "chinese": "雖然萬華沒落了，卻依然保留了許多古蹟、寺廟、老街，都值得去看看，會讓人覺得好像回到過去。路邊也有很多傳統美食，觀光客都喜歡去那裡。下次我們一起去吧！",
+            "simplified": "虽然万华没落了，却依然保留了许多古迹、寺庙、老街，都值得去看看，会让人觉得好像回到过去。路边也有很多传统美食，观光客都喜欢去那里。下次我们一起去吧！",
+            "pinyin": "suī rán wàn huá méi là le ， què yī rán bǎo liú le xǔ duō gǔ jī 、 sì miào 、 lǎo jiē ， dōu zhí de qù kàn kàn ， huì ràng rén jué dé hǎo xiàng huí dào guò qù 。 lù biān yě yǒu hěn duō chuán tǒng měi shí ， guān guāng kè dōu xǐ huān qù nà lǐ 。 xià cì wǒ men yì qǐ qù ba ！",
+            "meaningVi": "Dù Vạn Hoa không còn hưng thịnh, nơi đây vẫn giữ nhiều di tích, chùa và phố cổ đáng ghé thăm, khiến người ta như trở về quá khứ. Ven đường còn có nhiều món ăn truyền thống mà du khách thích. Lần tới chúng ta cùng đi nhé!"
+          }
+        ]
+      },
+      {
+        "id": "cc4-v4-l09-reading-01",
+        "title": "Bài đọc: 落地生根",
+        "context": "Câu chuyện của ông Trương về chiến tranh, xa quê và cuộc sống ở Đài Loan.",
+        "audioTrackId": "cc4-textbook-l09-t03",
+        "turns": [
+          {
+            "speaker": "Bài đọc",
+            "chinese": "老張在身強體壯的年紀去當兵，後來離鄉背井，飄洋過海，隨著蔣介石的軍隊來到了台灣，根據台灣的人口資料，1949年從中國大陸到台灣來的人口數目，差不多是一百多萬，大約佔當時台灣人口的百分之十三。自從1949年以後，台灣和中國將近四十年沒有任何往來，因此改變了老張的命運。剛來台灣的時候，老張以為過不了幾年就能回去。他雖然思念家人，卻一直無法回老家，連通信也不可以，家人毫無音訊。過了幾年他離開軍隊，靠賣麵過生活。",
+            "simplified": "老张在身强体壮的年纪去当兵，后来离乡背井，飘洋过海，随著蒋介石的军队来到了台湾，根据台湾的人口资料，1949年从中国大陆到台湾来的人口数目，差不多是一百多万，大约占当时台湾人口的百分之十三。自从1949年以后，台湾和中国将近四十年没有任何往来，因此改变了老张的命运。刚来台湾的时候，老张以为过不了几年就能回去。他虽然思念家人，却一直无法回老家，连通信也不可以，家人毫无音讯。过了几年他离开军队，靠卖面过生活。",
+            "pinyin": "lǎo zhāng zài shēn qiáng tǐ zhuàng de nián jì qù dāng bīng ， hòu lái lí xiāng bèi jǐng ， piāo yáng guò hǎi ， suí zhù jiǎng jiè shí de jūn duì lái dào le tái wān ， gēn jù tái wān de rén kǒu zī liào ，1949 nián cóng zhōng guó dà lù dào tái wān lái de rén kǒu shù mù ， chà bu duō shì yì bǎi duō wàn ， dà yuē zhàn dāng shí tái wān rén kǒu de bǎi fēn zhī shí sān 。 zì cóng 1949 nián yǐ hòu ， tái wān hé zhōng guó jiāng jìn sì shí nián méi yǒu rèn hé wǎng lái ， yīn cǐ gǎi biàn le lǎo zhāng de mìng yùn 。 gāng lái tái wān de shí hòu ， lǎo zhāng yǐ wèi guò bù liǎo jǐ nián jiù néng huí qù 。 tā suī rán sī niàn jiā rén ， què yì zhí wú fǎ huí lǎo jiā ， lián tōng xìn yě bù kě yǐ ， jiā rén háo wú yīn xùn 。 guò le jǐ nián tā lí kāi jūn duì ， kào mài miàn guò shēng huó 。",
+            "meaningVi": "Ông Trương nhập ngũ khi còn trẻ và khỏe mạnh, sau đó rời quê hương, vượt biển, đến Đài Loan cùng với quân đội của Tưởng Giới Thạch. Theo số liệu dân số của Đài Loan, năm 1949, số người từ Trung Quốc đại lục đến Đài Loan vào khoảng hơn một triệu người, chiếm khoảng 13% dân số Đài Loan thời bấy giờ. Kể từ năm 1949, Đài Loan và Trung Quốc đã không có bất kỳ giao lưu nào trong gần 40 năm, điều này đã thay đổi số phận của ông Trương. Khi mới đến Đài Loan, ông Trương nghĩ rằng chỉ vài năm nữa là có thể trở về. Mặc dù nhớ gia đình, nhưng ông vẫn không thể trở về quê nhà, thậm chí còn không được phép liên lạc, nên không có tin tức gì từ gia đình. Vài năm sau, ông rời khỏi quân ngũ và kiếm sống bằng nghề bán mì."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "遠離了父母親與妻子，朝思暮想，等待了二十多年還是不能回去，他想大概永遠都回不去了。他覺得很孤單，經過朋友的介紹，在台灣又娶了一個太太，生了兩個女兒。沒想到來台四十年後政府開放探親，他終於可以回去看親人了。他到處打聽家人的消息，才知道父母親和妻子早已在文化大革命時過世了。當他聽到這個消息，不禁流下淚來。他終於回去見到了離開家鄉時尚未出世的兒子。兒子的童年沒有爸爸，靠親戚過日子，吃了很多苦。老張看著第一次見面時已經四十歲的兒子，他的心裡既高興又傷心。",
+            "simplified": "远离了父母亲与妻子，朝思暮想，等待了二十多年还是不能回去，他想大概永远都回不去了。他觉得很孤单，经过朋友的介绍，在台湾又娶了一个太太，生了两个女儿。没想到来台四十年后政府开放探亲，他终于可以回去看亲人了。他到处打听家人的消息，才知道父母亲和妻子早已在文化大革命时过世了。当他听到这个消息，不禁流下泪来。他终于回去见到了离开家乡时尚未出世的儿子。儿子的童年没有爸爸，靠亲戚过日子，吃了很多苦。老张看著第一次见面时已经四十岁的儿子，他的心里既高兴又伤心。",
+            "pinyin": "yuǎn lí le fù mǔ qīn yǔ qī zǐ ， zhāo sī mù xiǎng ， děng dài le èr shí duō nián hái shì bù néng huí qù ， tā xiǎng dà gài yǒng yuǎn dōu huí bù qù le 。 tā jué dé hěn gū dān ， jīng guò péng yǒu de jiè shào ， zài tái wān yòu qǔ le yī gè tài tài ， shēng le liǎng gè nǚ ér 。 méi xiǎng dào lái tái sì shí nián hòu zhèng fǔ kāi fàng tàn qīn ， tā zhōng yú kě yǐ huí qù kàn qīn rén le 。 tā dào chù dǎ tīng jiā rén de xiāo xī ， cái zhī dào fù mǔ qīn hé qī zǐ zǎo yǐ zài wén huà dà gé mìng shí guò shì le 。 dāng tā tīng dào zhè gè xiāo xī ， bù jīn liú xià lèi lái 。 tā zhōng yú huí qù jiàn dào le lí kāi jiā xiāng shí shàng wèi chū shì de ér zi 。 ér zi de tóng nián méi yǒu bà bà ， kào qīn qī guò rì zi ， chī le hěn duō kǔ 。 lǎo zhāng kàn zhù dì yī cì jiàn miàn shí yǐ jīng sì shí suì de ér zi ， tā de xīn lǐ jì gāo xìng yòu shāng xīn 。",
+            "meaningVi": "Xa cách cha mẹ và vợ, ngày đêm mong nhớ, chờ đợi hơn hai mươi năm vẫn không thể trở về, ông nghĩ có lẽ mình sẽ không bao giờ được trở về nữa. Ông cảm thấy rất cô đơn, nên qua sự giới thiệu của bạn bè, ông đã kết hôn với một người vợ khác ở Đài Loan và sinh được hai cô con gái. Không ngờ rằng sau 40 năm đến Đài Loan, chính phủ đã cho phép người dân về thăm thân nhân, cuối cùng ông cũng có thể về thăm người thân của mình. Ông tìm hiểu tin tức về gia đình khắp nơi và mới biết rằng cha mẹ và vợ ông đã qua đời từ thời Cách mạng Văn hóa. Khi nghe tin này, ông không khỏi bật khóc. Cuối cùng, ông cũng được trở về gặp đứa con trai chưa ra đời khi ông rời quê hương. Thời thơ ấu, cậu con trai không có cha, phải sống nhờ người thân và chịu nhiều vất vả. Lần đầu tiên gặp mặt, ông Trương nhìn đứa con trai đã 40 tuổi của mình, trong lòng vừa vui mừng vừa buồn bã."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "雖然老張為兒子買了很多東西，並且留下一筆錢，但是兒子仍然不能原諒父親，他怪父親沒有盡到做父親的責任。這究竟是誰的錯？誰了解他們內心的痛苦和創傷？老張帶著遺憾回台灣了。老張說：「生活在沒有戰爭的時代，要好好珍惜。我這一輩子最精華的時間不是在打仗就是在逃難，吃的苦實在太多。我已經習慣這裡的生活，不打算回去了，台灣就是我的家鄉，我算是落地生根了。」恐懼不安的歲月過去了，老張在這裡找到了平靜。許多跟老張有一樣遭遇的老兵，都有一段刻骨銘心的故事。",
+            "simplified": "虽然老张为儿子买了很多东西，并且留下一笔钱，但是儿子仍然不能原谅父亲，他怪父亲没有尽到做父亲的责任。这究竟是谁的错？谁了解他们内心的痛苦和创伤？老张带著遗憾回台湾了。老张说：「生活在没有战争的时代，要好好珍惜。我这一辈子最精华的时间不是在打仗就是在逃难，吃的苦实在太多。我已经习惯这里的生活，不打算回去了，台湾就是我的家乡，我算是落地生根了。」恐惧不安的岁月过去了，老张在这里找到了平静。许多跟老张有一样遭遇的老兵，都有一段刻骨铭心的故事。",
+            "pinyin": "suī rán lǎo zhāng wèi ér zi mǎi le hěn duō dōng xī ， bìng qiě liú xià yī bǐ qián ， dàn shì ér zi réng rán bù néng yuán liàng fù qīn ， tā guài fù qīn méi yǒu jǐn dào zuò fù qīn de zé rèn 。 zhè jiū jìng shì shuí de cuò ？ shuí liǎo jiě tā men nèi xīn de tòng kǔ hé chuàng shāng ？ lǎo zhāng dài zhù yí hàn huí tái wān le 。 lǎo zhāng shuō ：「 shēng huó zài méi yǒu zhàn zhēng de shí dài ， yào hǎo hǎo zhēn xī 。 wǒ zhè yī bèi zi zuì jīng huá de shí jiān bú shì zài dǎ zhàng jiù shì zài táo nán ， chī de kǔ shí zài tài duō 。 wǒ yǐ jīng xí guàn zhè lǐ de shēng huó ， bù dǎ suàn huí qù le ， tái wān jiù shì wǒ de jiā xiāng ， wǒ suàn shì luò dì shēng gēn le 。」 kǒng jù bù ān de suì yuè guò qù le ， lǎo zhāng zài zhè lǐ zhǎo dào le píng jìng 。 xǔ duō gēn lǎo zhāng yǒu yī yàng zāo yù de lǎo bīng ， dōu yǒu yī duàn kè gǔ míng xīn de gù shì 。",
+            "meaningVi": "Mặc dù ông Trương đã mua rất nhiều thứ cho con trai và để lại một khoản tiền, nhưng con trai vẫn không thể tha thứ cho cha. Cậu trách cha đã không làm tròn trách nhiệm của một người cha. Rốt cuộc thì đây là lỗi của ai? Ai hiểu được nỗi đau và vết thương trong lòng họ? Ông Trương trở về Đài Loan trong nỗi tiếc nuối. Ông Trương nói: \"Sống trong thời đại không có chiến tranh, hãy biết trân trọng. Những năm tháng đẹp nhất trong đời tôi là những năm tháng hoặc đánh trận, hoặc chạy nạn, tôi đã chịu quá nhiều cực khổ. Tôi đã quen với cuộc sống ở đây và không có ý định quay lại. Đài Loan là quê hương của tôi, có thể nói là tôi đã bén rễ ở đây rồi.” Những năm tháng sợ hãi, bất an đã qua đi, ông Trương đã tìm thấy sự bình yên ở đây. Nhiều cựu binh có cùng số phận với ông Trương đều có những câu chuyện khó quên."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc4-v4-l09-check-01",
+        "prompt": "Vì sao nơi này được gọi là 鹿港?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Vì từng có nhiều hươu hoặc cảng có hình như gạc hươu"
+          },
+          {
+            "id": "b",
+            "text": "Vì có nhiều ngựa"
+          },
+          {
+            "id": "c",
+            "text": "Vì gần sân bay"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Văn Lệ nêu hai cách giải thích liên quan đến hươu.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc4-v4-l09-check-02",
+        "prompt": "Vì sao ông Trương không thể về thăm gia đình trong nhiều năm?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Vì quên đường về"
+          },
+          {
+            "id": "b",
+            "text": "Vì hai bên không qua lại trong gần bốn mươi năm"
+          },
+          {
+            "id": "c",
+            "text": "Vì đã bán nhà"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Bài đọc nói từ năm 1949 hai bên gần bốn mươi năm không có qua lại.",
+        "skill": "Đọc hiểu"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem cách đọc, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc4-v4-l09-v001",
+      "cc4-v4-l09-v002",
+      "cc4-v4-l09-v003",
+      "cc4-v4-l09-v004",
+      "cc4-v4-l09-v005",
+      "cc4-v4-l09-v006",
+      "cc4-v4-l09-v007",
+      "cc4-v4-l09-v008",
+      "cc4-v4-l09-v009",
+      "cc4-v4-l09-v010",
+      "cc4-v4-l09-v011",
+      "cc4-v4-l09-v012",
+      "cc4-v4-l09-v013",
+      "cc4-v4-l09-v014",
+      "cc4-v4-l09-v015",
+      "cc4-v4-l09-v016",
+      "cc4-v4-l09-v017",
+      "cc4-v4-l09-v018",
+      "cc4-v4-l09-v019",
+      "cc4-v4-l09-v020",
+      "cc4-v4-l09-v021",
+      "cc4-v4-l09-v022",
+      "cc4-v4-l09-v023",
+      "cc4-v4-l09-v024",
+      "cc4-v4-l09-v025",
+      "cc4-v4-l09-v026",
+      "cc4-v4-l09-v027",
+      "cc4-v4-l09-v028",
+      "cc4-v4-l09-v029",
+      "cc4-v4-l09-v030",
+      "cc4-v4-l09-v031",
+      "cc4-v4-l09-v032",
+      "cc4-v4-l09-v033",
+      "cc4-v4-l09-v034",
+      "cc4-v4-l09-v035",
+      "cc4-v4-l09-v036",
+      "cc4-v4-l09-v037",
+      "cc4-v4-l09-v038",
+      "cc4-v4-l09-v039",
+      "cc4-v4-l09-v040",
+      "cc4-v4-l09-v041",
+      "cc4-v4-l09-v042",
+      "cc4-v4-l09-v043",
+      "cc4-v4-l09-v044",
+      "cc4-v4-l09-v045",
+      "cc4-v4-l09-v046",
+      "cc4-v4-l09-v047",
+      "cc4-v4-l09-v048",
+      "cc4-v4-l09-v049",
+      "cc4-v4-l09-v050",
+      "cc4-v4-l09-v051",
+      "cc4-v4-l09-v052",
+      "cc4-v4-l09-v053",
+      "cc4-v4-l09-v054",
+      "cc4-v4-l09-v055",
+      "cc4-v4-l09-v056",
+      "cc4-v4-l09-v057",
+      "cc4-v4-l09-v058",
+      "cc4-v4-l09-v059",
+      "cc4-v4-l09-v060",
+      "cc4-v4-l09-v061",
+      "cc4-v4-l09-v062",
+      "cc4-v4-l09-v063",
+      "cc4-v4-l09-v064",
+      "cc4-v4-l09-v065",
+      "cc4-v4-l09-v066",
+      "cc4-v4-l09-v067",
+      "cc4-v4-l09-v068",
+      "cc4-v4-l09-v069",
+      "cc4-v4-l09-v070",
+      "cc4-v4-l09-v071",
+      "cc4-v4-l09-v072",
+      "cc4-v4-l09-v073",
+      "cc4-v4-l09-v074",
+      "cc4-v4-l09-v075",
+      "cc4-v4-l09-v076",
+      "cc4-v4-l09-v077",
+      "cc4-v4-l09-v078",
+      "cc4-v4-l09-v079",
+      "cc4-v4-l09-v080",
+      "cc4-v4-l09-v081",
+      "cc4-v4-l09-v082",
+      "cc4-v4-l09-v083",
+      "cc4-v4-l09-v084",
+      "cc4-v4-l09-v085",
+      "cc4-v4-l09-v086",
+      "cc4-v4-l09-v087",
+      "cc4-v4-l09-v088",
+      "cc4-v4-l09-v089",
+      "cc4-v4-l09-v090",
+      "cc4-v4-l09-v091"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc4-textbook-l09-t02",
+        "label": "Từ vựng hội thoại"
+      },
+      {
+        "id": "cc4-textbook-l09-t04",
+        "label": "Từ vựng bài đọc"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc4-v4-l09-grammar-01",
+      "title": "把 A 當做 B",
+      "structure": "chủ ngữ + 把 A 當做 B",
+      "explanation": "Mẫu này nói người nói xem A như B, dùng B để gọi vai trò hoặc cách nhìn về A. A là đối tượng được đánh giá, B là vai trò được gán cho nó.",
+      "examples": [
+        {
+          "chinese": "他把台灣當做自己的家。",
+          "simplified": "他把台湾当做自己的家。",
+          "pinyin": "tā bǎ tái wān dāng zuò zì jǐ de jiā 。",
+          "meaningVi": "Ông ấy xem Đài Loan là nhà của mình."
+        },
+        {
+          "chinese": "我們把圖書館當做安靜學習的地方。",
+          "simplified": "我们把图书馆当做安静学习的地方。",
+          "pinyin": "wǒ men bǎ tú shū guǎn dāng zuò ān jìng xué xí de dì fāng 。",
+          "meaningVi": "Chúng tôi xem thư viện là nơi học yên tĩnh."
+        }
+      ],
+      "commonMistake": "Đừng đảo A và B: 把台灣當做家 là xem Đài Loan như nhà, không phải xem nhà như Đài Loan.",
+      "check": {
+        "id": "cc4-v4-l09-grammar-check-01",
+        "prompt": "Điền: 他____台灣____自己的家。",
+        "options": [
+          {
+            "id": "a",
+            "text": "把…當做"
+          },
+          {
+            "id": "b",
+            "text": "在…下"
+          },
+          {
+            "id": "c",
+            "text": "自從…以後"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "把 A 當做 B diễn tả cách ông ấy nhìn Đài Loan.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l09-t05"
+    },
+    {
+      "id": "cc4-v4-l09-grammar-02",
+      "title": "在…下",
+      "structure": "在 + hoàn cảnh／tác động + 下，kết quả",
+      "explanation": "Mẫu này đặt một sự việc vào bối cảnh hoặc điều kiện dẫn tới kết quả. Sau 在 thường là danh từ trừu tượng như tình hình, áp lực, sự giúp đỡ; 下 ở đây không mang nghĩa vị trí.",
+      "examples": [
+        {
+          "chinese": "在朋友的幫助下，他找到了工作。",
+          "simplified": "在朋友的帮助下，他找到了工作。",
+          "pinyin": "zài péng yǒu de bāng zhù xià ， tā zhǎo dào le gōng zuò 。",
+          "meaningVi": "Nhờ bạn giúp đỡ, anh ấy tìm được việc."
+        },
+        {
+          "chinese": "在這種情形下，鹿的數量減少了。",
+          "simplified": "在这种情形下，鹿的数量减少了。",
+          "pinyin": "zài zhè zhǒng qíng xíng xià ， lù de shù liàng jiǎn shǎo le 。",
+          "meaningVi": "Trong tình hình ấy, số lượng hươu giảm đi."
+        }
+      ],
+      "commonMistake": "Không hiểu 下 là “ở phía dưới” trong cấu trúc chỉ bối cảnh này.",
+      "check": {
+        "id": "cc4-v4-l09-grammar-check-02",
+        "prompt": "Điền: ____老師的鼓勵____，他敢上台說話了。",
+        "options": [
+          {
+            "id": "a",
+            "text": "自從…以後"
+          },
+          {
+            "id": "b",
+            "text": "在…下"
+          },
+          {
+            "id": "c",
+            "text": "把…當做"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Sự động viên của thầy là bối cảnh dẫn tới hành động.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l09-t06"
+    },
+    {
+      "id": "cc4-v4-l09-grammar-03",
+      "title": "該",
+      "structure": "該 + động từ／該 + người + động từ／該 + danh từ",
+      "explanation": "該 có ba cách dùng trong bài: “nên làm” (該走了), “đến lượt ai làm” (該你了) và “đó, nói trên” trong văn viết (該公司). Xem vị trí của 該 để chọn nghĩa.",
+      "examples": [
+        {
+          "chinese": "你該珍惜這個機會。",
+          "simplified": "你该珍惜这个机会。",
+          "pinyin": "nǐ gāi zhēn xī zhè gè jī huì 。",
+          "meaningVi": "Bạn nên trân trọng cơ hội này."
+        },
+        {
+          "chinese": "現在該你報告了。",
+          "simplified": "现在该你报告了。",
+          "pinyin": "xiàn zài gāi nǐ bào gào le 。",
+          "meaningVi": "Bây giờ đến lượt bạn trình bày."
+        },
+        {
+          "chinese": "該公司在台北設有辦公室。",
+          "simplified": "该公司在台北设有办公室。",
+          "pinyin": "gāi gōng sī zài tái běi shè yǒu bàn gōng shì 。",
+          "meaningVi": "Công ty nói trên có văn phòng tại Đài Bắc."
+        }
+      ],
+      "commonMistake": "Đừng dịch 該公司 thành “công ty nên”; 該 đứng trước danh từ ở văn viết nghĩa là “đó”.",
+      "check": {
+        "id": "cc4-v4-l09-grammar-check-03",
+        "prompt": "該你報告了 nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Đến lượt bạn trình bày"
+          },
+          {
+            "id": "b",
+            "text": "Bạn đã báo cáo xong"
+          },
+          {
+            "id": "c",
+            "text": "Công ty báo cáo"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "該 + người + hành động chỉ đến lượt người ấy.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l09-t07"
+    },
+    {
+      "id": "cc4-v4-l09-grammar-04",
+      "title": "自從…以後",
+      "structure": "自從 + mốc thời gian／sự kiện + 以後，sự thay đổi",
+      "explanation": "自從 nêu mốc bắt đầu của một trạng thái hoặc thay đổi kéo dài đến sau đó. 以後 đôi khi có thể rút thành 後.",
+      "examples": [
+        {
+          "chinese": "自從搬家以後，我很少見到他。",
+          "simplified": "自从搬家以后，我很少见到他。",
+          "pinyin": "zì cóng bān jiā yǐ hòu ， wǒ hěn shǎo jiàn dào tā 。",
+          "meaningVi": "Từ khi chuyển nhà, tôi ít gặp anh ấy."
+        },
+        {
+          "chinese": "自從1949年以後，兩岸將近四十年沒有往來。",
+          "simplified": "自从1949年以后，两岸将近四十年没有往来。",
+          "pinyin": "zì cóng 1949 nián yǐ hòu ， liǎng àn jiāng jìn sì shí nián méi yǒu wǎng lái 。",
+          "meaningVi": "Từ sau năm 1949, hai bờ không qua lại trong gần bốn mươi năm."
+        }
+      ],
+      "commonMistake": "Sau 自從 phải có một mốc thời gian hoặc sự kiện, không chỉ đặt một hành động không rõ mốc.",
+      "check": {
+        "id": "cc4-v4-l09-grammar-check-04",
+        "prompt": "Điền: ____她搬家____，我們很少見面。",
+        "options": [
+          {
+            "id": "a",
+            "text": "在…下"
+          },
+          {
+            "id": "b",
+            "text": "把…當做"
+          },
+          {
+            "id": "c",
+            "text": "自從…以後"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Cấu trúc này xác định mốc bắt đầu của việc ít gặp nhau.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l09-t08"
+    },
+    {
+      "id": "cc4-v4-l09-grammar-05",
+      "title": "幾",
+      "structure": "幾 + lượng từ／幾十 + lượng từ／沒 + động từ + 幾 + lượng từ",
+      "explanation": "幾 dùng để hỏi “mấy”, để nói “vài” hay “mấy chục”, và trong câu phủ định để giảm nhẹ một khoảng thời gian hoặc số lượng: 沒幾個人 là không có mấy người.",
+      "examples": [
+        {
+          "chinese": "你去過幾個地方？",
+          "simplified": "你去过几个地方？",
+          "pinyin": "nǐ qù guò jǐ gè dì fāng ？",
+          "meaningVi": "Bạn đã đến mấy nơi?"
+        },
+        {
+          "chinese": "他在台灣住了好幾年。",
+          "simplified": "他在台湾住了好几年。",
+          "pinyin": "tā zài tái wān zhù le hǎo jǐ nián 。",
+          "meaningVi": "Anh ấy đã sống ở Đài Loan vài năm."
+        },
+        {
+          "chinese": "過不了幾年，他就回去了。",
+          "simplified": "过不了几年，他就回去了。",
+          "pinyin": "guò bù liǎo jǐ nián ， tā jiù huí qù le 。",
+          "meaningVi": "Chẳng mấy năm sau anh ấy đã trở về."
+        }
+      ],
+      "commonMistake": "Đừng hiểu 幾十 là con số chính xác; nó chỉ khoảng vài chục.",
+      "check": {
+        "id": "cc4-v4-l09-grammar-check-05",
+        "prompt": "沒幾個人支持他 nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ai cũng ủng hộ"
+          },
+          {
+            "id": "b",
+            "text": "Không có mấy người ủng hộ"
+          },
+          {
+            "id": "c",
+            "text": "Đúng mười người ủng hộ"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "沒幾個人 là số người rất ít.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l09-t09"
+    },
+    {
+      "id": "cc4-v4-l09-grammar-06",
+      "title": "不禁",
+      "structure": "tình huống，chủ ngữ + 不禁 + phản ứng",
+      "explanation": "不禁 diễn tả phản ứng tự nhiên khó kìm lại sau một sự việc: bật khóc, bật cười, nghĩ đến điều gì. Thường dùng trong văn kể chuyện.",
+      "examples": [
+        {
+          "chinese": "聽到消息，他不禁流下淚來。",
+          "simplified": "听到消息，他不禁流下泪来。",
+          "pinyin": "tīng dào xiāo xī ， tā bù jīn liú xià lèi lái 。",
+          "meaningVi": "Nghe tin, ông ấy không kìm được nước mắt."
+        },
+        {
+          "chinese": "看到老朋友，她不禁笑了。",
+          "simplified": "看到老朋友，她不禁笑了。",
+          "pinyin": "kàn dào lǎo péng yǒu ， tā bù jīn xiào le 。",
+          "meaningVi": "Thấy bạn cũ, cô ấy không nhịn được cười."
+        }
+      ],
+      "commonMistake": "Không dùng 不禁 cho một kế hoạch cố ý như “ngày mai sẽ đi mua vé”.",
+      "check": {
+        "id": "cc4-v4-l09-grammar-check-06",
+        "prompt": "Điền: 聽到這個消息，他____流下眼淚。",
+        "options": [
+          {
+            "id": "a",
+            "text": "不禁"
+          },
+          {
+            "id": "b",
+            "text": "仍然"
+          },
+          {
+            "id": "c",
+            "text": "究竟"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Rơi nước mắt là phản ứng khó kìm khi nghe tin.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l09-t10"
+    },
+    {
+      "id": "cc4-v4-l09-grammar-07",
+      "title": "仍然",
+      "structure": "dù tình huống thay đổi，chủ ngữ + 仍然 + trạng thái",
+      "explanation": "仍然 nói trạng thái tiếp tục như trước, gần với 還是 nhưng trang trọng hơn. Nó thường xuất hiện sau 雖然…但是／卻… để nhấn sự không thay đổi.",
+      "examples": [
+        {
+          "chinese": "雖然下雨，他仍然出門。",
+          "simplified": "虽然下雨，他仍然出门。",
+          "pinyin": "suī rán xià yǔ ， tā réng rán chū mén 。",
+          "meaningVi": "Dù trời mưa, anh ấy vẫn ra ngoài."
+        },
+        {
+          "chinese": "兒子仍然不能原諒父親。",
+          "simplified": "儿子仍然不能原谅父亲。",
+          "pinyin": "ér zi réng rán bù néng yuán liàng fù qīn 。",
+          "meaningVi": "Người con vẫn không thể tha thứ cho cha."
+        }
+      ],
+      "commonMistake": "Đừng dùng 仍然 để nói một việc chỉ mới bắt đầu.",
+      "check": {
+        "id": "cc4-v4-l09-grammar-check-07",
+        "prompt": "Điền: 雖然很晚了，他____在工作。",
+        "options": [
+          {
+            "id": "a",
+            "text": "究竟"
+          },
+          {
+            "id": "b",
+            "text": "仍然"
+          },
+          {
+            "id": "c",
+            "text": "不禁"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Công việc tiếp diễn dù đã khuya.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc4-v4-l09-grammar-08",
+      "title": "究竟",
+      "structure": "究竟 + câu hỏi",
+      "explanation": "究竟 dùng khi muốn tìm cho ra câu trả lời, gần với 到底 nhưng trang trọng hơn. Có thể đặt trước cả câu hỏi; không thêm 嗎 vào câu hỏi dùng 究竟.",
+      "examples": [
+        {
+          "chinese": "這究竟是誰的錯？",
+          "simplified": "这究竟是谁的错？",
+          "pinyin": "zhè jiū jìng shì shuí de cuò ？",
+          "meaningVi": "Rốt cuộc đây là lỗi của ai?"
+        },
+        {
+          "chinese": "究竟誰了解他們的痛苦？",
+          "simplified": "究竟谁了解他们的痛苦？",
+          "pinyin": "jiū jìng shuí liǎo jiě tā men de tòng kǔ ？",
+          "meaningVi": "Rốt cuộc ai hiểu nỗi đau của họ?"
+        }
+      ],
+      "commonMistake": "Không nói “究竟…嗎”; hãy dùng từ để hỏi hoặc mẫu hỏi lựa chọn.",
+      "check": {
+        "id": "cc4-v4-l09-grammar-check-08",
+        "prompt": "Điền: 這____是誰的錯？",
+        "options": [
+          {
+            "id": "a",
+            "text": "仍然"
+          },
+          {
+            "id": "b",
+            "text": "不禁"
+          },
+          {
+            "id": "c",
+            "text": "究竟"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "究竟 nhấn câu hỏi muốn tìm ra sự thật.",
+        "skill": "Ngữ pháp"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc4-v4-l09-listening-01",
+      "prompt": "Nghe hội thoại: Văn Lệ nêu ba nơi từng náo nhiệt nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đài Nam, Lộc Cảng, 艋舺"
+        },
+        {
+          "id": "b",
+          "text": "Đài Bắc, Cao Hùng, Hoa Liên"
+        },
+        {
+          "id": "c",
+          "text": "Đài Trung, Đài Đông, Cơ Long"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Cô ấy kể 台南、鹿港、艋舺.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l09-t01"
+    },
+    {
+      "id": "cc4-v4-l09-listening-02",
+      "prompt": "Nghe hội thoại: tên 萬華 gắn với thời kỳ nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thời Hà Lan"
+        },
+        {
+          "id": "b",
+          "text": "Thời Nhật cai trị"
+        },
+        {
+          "id": "c",
+          "text": "Thời hiện đại"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Văn Lệ nói tên được đổi trong thời Nhật cai trị.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l09-t01"
+    },
+    {
+      "id": "cc4-v4-l09-listening-03",
+      "prompt": "Nghe bài đọc: ông Trương mất liên lạc với gia đình trong bao lâu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Một năm"
+        },
+        {
+          "id": "b",
+          "text": "Năm năm"
+        },
+        {
+          "id": "c",
+          "text": "Nhiều thập niên"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc nói gần bốn mươi năm hai bên không qua lại.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l09-t03"
+    },
+    {
+      "id": "cc4-v4-l09-listening-04",
+      "prompt": "Nghe bài đọc: người con trai phản ứng thế nào khi gặp cha?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vẫn không thể tha thứ"
+        },
+        {
+          "id": "b",
+          "text": "Ngay lập tức cùng về Đài Loan"
+        },
+        {
+          "id": "c",
+          "text": "Không biết mình có cha"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Người con trách cha chưa làm tròn trách nhiệm và vẫn không tha thứ.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l09-t03"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc4-v4-l09-practice-01",
+      "prompt": "Điền: 他____台灣____自己的家。",
+      "options": [
+        {
+          "id": "a",
+          "text": "把…當做"
+        },
+        {
+          "id": "b",
+          "text": "在…下"
+        },
+        {
+          "id": "c",
+          "text": "自從…以後"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Người nói xem Đài Loan như nhà.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l09-practice-02",
+      "prompt": "Điền: ____老師的鼓勵____，他敢發言了。",
+      "options": [
+        {
+          "id": "a",
+          "text": "自從…以後"
+        },
+        {
+          "id": "b",
+          "text": "在…下"
+        },
+        {
+          "id": "c",
+          "text": "把…當做"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Sự động viên là bối cảnh giúp anh ấy dám phát biểu.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l09-practice-03",
+      "prompt": "Điền: 現在____你報告了。",
+      "options": [
+        {
+          "id": "a",
+          "text": "仍然"
+        },
+        {
+          "id": "b",
+          "text": "不禁"
+        },
+        {
+          "id": "c",
+          "text": "該"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "該你 báo hiệu đến lượt bạn.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l09-practice-04",
+      "prompt": "Điền: ____搬家____，他很少見到朋友。",
+      "options": [
+        {
+          "id": "a",
+          "text": "自從…以後"
+        },
+        {
+          "id": "b",
+          "text": "把…當做"
+        },
+        {
+          "id": "c",
+          "text": "在…下"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Từ khi chuyển nhà là mốc thời gian.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l09-practice-05",
+      "prompt": "Điền: 這個城市有____十個公園。",
+      "options": [
+        {
+          "id": "a",
+          "text": "究竟"
+        },
+        {
+          "id": "b",
+          "text": "幾"
+        },
+        {
+          "id": "c",
+          "text": "不禁"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "幾十 nói khoảng vài chục.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l09-practice-06",
+      "prompt": "Điền: 聽到壞消息，他____流下淚來。",
+      "options": [
+        {
+          "id": "a",
+          "text": "仍然"
+        },
+        {
+          "id": "b",
+          "text": "該"
+        },
+        {
+          "id": "c",
+          "text": "不禁"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Không kìm được nước mắt là 不禁.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l09-practice-07",
+      "prompt": "Điền: 雖然很晚，他____在工作。",
+      "options": [
+        {
+          "id": "a",
+          "text": "仍然"
+        },
+        {
+          "id": "b",
+          "text": "究竟"
+        },
+        {
+          "id": "c",
+          "text": "不禁"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Việc làm tiếp tục dù muộn.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l09-practice-08",
+      "prompt": "Điền: 這____是誰的錯？",
+      "options": [
+        {
+          "id": "a",
+          "text": "該"
+        },
+        {
+          "id": "b",
+          "text": "究竟"
+        },
+        {
+          "id": "c",
+          "text": "仍然"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "究竟 nhấn muốn tìm câu trả lời.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc4-v4-l09-assessment-01",
+      "prompt": "鹿港 theo cách giải thích trong bài gắn với con vật nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hươu"
+        },
+        {
+          "id": "b",
+          "text": "Trâu"
+        },
+        {
+          "id": "c",
+          "text": "Ngựa"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Tên gọi liên hệ đàn hươu hoặc gạc hươu.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc4-v4-l09-assessment-02",
+      "prompt": "艋舺 ngày nay gọi là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đài Nam"
+        },
+        {
+          "id": "b",
+          "text": "萬華"
+        },
+        {
+          "id": "c",
+          "text": "Lộc Cảng"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Văn Lệ nói nơi này hiện gọi là 萬華.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc4-v4-l09-assessment-03",
+      "prompt": "落地生根 nghĩa gần nhất là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rời khỏi quê hương"
+        },
+        {
+          "id": "b",
+          "text": "Đi đánh trận"
+        },
+        {
+          "id": "c",
+          "text": "Bén rễ, ổn định ở một nơi"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Ông Trương nói Đài Loan đã trở thành quê hương của mình.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc4-v4-l09-assessment-04",
+      "prompt": "Điền: 他____圖書館____安靜學習的地方。",
+      "options": [
+        {
+          "id": "a",
+          "text": "把…當做"
+        },
+        {
+          "id": "b",
+          "text": "在…下"
+        },
+        {
+          "id": "c",
+          "text": "不禁"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "把 A 當做 B là xem A như B.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l09-assessment-05",
+      "prompt": "Trong bài đọc, ai vẫn không tha thứ cho ông Trương?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Người vợ"
+        },
+        {
+          "id": "b",
+          "text": "Người con trai"
+        },
+        {
+          "id": "c",
+          "text": "Người bạn"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nói người con trai trách cha không làm tròn trách nhiệm.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc4-v4-l09-assessment-06",
+      "prompt": "Điền: 聽到消息，他____哭了。",
+      "options": [
+        {
+          "id": "a",
+          "text": "該"
+        },
+        {
+          "id": "b",
+          "text": "仍然"
+        },
+        {
+          "id": "c",
+          "text": "不禁"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bật khóc không kìm được là 不禁.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l09-assessment-07",
+      "prompt": "仍然 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vẫn như trước"
+        },
+        {
+          "id": "b",
+          "text": "Từ bây giờ"
+        },
+        {
+          "id": "c",
+          "text": "Tuyệt đối không"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "仍然 nhấn trạng thái tiếp diễn.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc4-v4-l09-assessment-08",
+      "prompt": "Điền: 雖然下雨，他____出門。",
+      "options": [
+        {
+          "id": "a",
+          "text": "究竟"
+        },
+        {
+          "id": "b",
+          "text": "仍然"
+        },
+        {
+          "id": "c",
+          "text": "該"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Anh ấy vẫn ra ngoài dù trời mưa.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l09-assessment-09",
+      "prompt": "究竟 thường dùng trong câu nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Câu chào"
+        },
+        {
+          "id": "b",
+          "text": "Câu mệnh lệnh"
+        },
+        {
+          "id": "c",
+          "text": "Câu hỏi muốn làm rõ"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "究竟 nêu mong muốn tìm cho ra câu trả lời.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l09-assessment-10",
+      "prompt": "自從…以後 nêu điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mốc bắt đầu một trạng thái"
+        },
+        {
+          "id": "b",
+          "text": "Vị trí phía dưới"
+        },
+        {
+          "id": "c",
+          "text": "Số người tham gia"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Mẫu này đặt mốc thời gian cho sự thay đổi hoặc tiếp diễn.",
+      "skill": "Ngữ pháp"
+    }
+  ],
+  "writingTask": {
+    "id": "cc4-v4-l09-writing",
+    "title": "Một nơi có câu chuyện",
+    "prompt": "Giới thiệu ngắn một địa danh bạn biết: tên gọi, lịch sử hoặc điều khiến nơi đó đáng ghé thăm. Dùng một cấu trúc của bài nếu phù hợp.",
+    "sampleTraditional": "鹿港以前是繁榮的港口。雖然現在的風光不同了，那裡仍然保留了許多古蹟。",
+    "sampleSimplified": "鹿港以前是繁荣的港口。虽然现在的风光不同了，那里仍然保留了许多古迹。"
+  }
+}

@@ -6,6 +6,7 @@ import lesson05Source from "../data/academy/cc4-lesson05-vocabulary.json" with {
 import lesson06Source from "../data/academy/cc4-lesson06-vocabulary.json" with { type: "json" };
 import lesson07Source from "../data/academy/cc4-lesson07-vocabulary.json" with { type: "json" };
 import lesson08Source from "../data/academy/cc4-lesson08-vocabulary.json" with { type: "json" };
+import lesson09Source from "../data/academy/cc4-lesson09-vocabulary.json" with { type: "json" };
 import { cc1Lesson01Words } from "./cc1-lesson01-vocabulary.ts";
 import { cc1CourseVocabularySets } from "./cc1-course-vocabulary.ts";
 import { cc2VocabularySets } from "./cc2-course-vocabulary.ts";
@@ -174,6 +175,26 @@ export const cc4Lesson08Words: VocabularyWord[] = lesson08Source.records.map((re
     translation: record.exampleVi,
   });
 
+export const cc4Lesson09Words: VocabularyWord[] = lesson09Source.records.map((record) =>
+  [...previousWords, ...cc4Lesson01Words, ...cc4Lesson02Words, ...cc4Lesson03Words, ...cc4Lesson04Words, ...cc4Lesson05Words, ...cc4Lesson06Words, ...cc4Lesson07Words, ...cc4Lesson08Words].find((word) =>
+    word.traditional === record.traditional && normalized(word.pinyin) === normalized(record.pinyin),
+  ) ?? {
+    id: record.id,
+    source: "textbook",
+    sourceRecordId: record.id,
+    sourceLabel: "Giáo trình tiếng Hoa đương đại · Tập 4 · Bài 09",
+    hanzi: record.traditional,
+    traditional: record.traditional,
+    simplified: record.simplified,
+    pinyin: record.pinyin,
+    meaning: record.meaningVi,
+    wordClass: record.wordClass,
+    example: record.exampleTraditional,
+    exampleTraditional: record.exampleTraditional,
+    exampleSimplified: record.exampleSimplified,
+    translation: record.exampleVi,
+  });
+
 export const cc4VocabularySets: VocabularySet[] = [
   {
     id: source.lessonId,
@@ -222,5 +243,11 @@ export const cc4VocabularySets: VocabularySet[] = [
     title: "Bài 08 · 他們的選擇",
     subtitle: "Lựa chọn của họ",
     words: cc4Lesson08Words,
+  },
+  {
+    id: lesson09Source.lessonId,
+    title: "Bài 09 · 再談台灣故事",
+    subtitle: "Tìm hiểu thêm chuyện Đài Loan",
+    words: cc4Lesson09Words,
   },
 ];

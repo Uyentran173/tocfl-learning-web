@@ -1,0 +1,1201 @@
+{
+  "contentVersion": 2,
+  "id": "cc4-v4-l08",
+  "title": "他們的選擇",
+  "titleVi": "Lựa chọn của họ",
+  "description": "Tìm hiểu những lựa chọn về gia đình và đọc bài viết về tình trạng sinh ít con ở Đài Loan.",
+  "objectives": [
+    "Trao đổi về hôn nhân, sinh con và những lựa chọn cá nhân.",
+    "Hiểu các cách dùng 反正, 不只, 難免, 倒是, 這下子, 合不來, 何況 và 否則.",
+    "Đọc và tóm tắt tác động của tỷ lệ sinh thấp đối với xã hội."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Lệ Hoa và Lỗ Á bàn về gia đình và việc sinh con. Bài đọc nhìn rộng hơn vào tác động của tình trạng sinh ít con ở Đài Loan.",
+    "sections": [
+      {
+        "id": "cc4-v4-l08-section-01",
+        "title": "Lựa chọn cá nhân",
+        "body": "Theo dõi cách Lệ Hoa giải thích vì sao một số người chọn nuôi thú cưng và không sinh con.",
+        "chinese": "年輕的一代更喜歡追求自由，過著無拘無束的生活。",
+        "simplified": "年轻的一代更喜欢追求自由，过著无拘无束的生活。",
+        "pinyin": "nián qīng de yí dài gèng xǐ huān zhuī qiú zì yóu ， guò zhù wú jū wú shù de shēng huó 。",
+        "meaningVi": "Thế hệ trẻ thích theo đuổi tự do và sống không gò bó."
+      },
+      {
+        "id": "cc4-v4-l08-section-02",
+        "title": "Tác động xã hội",
+        "body": "Bài đọc chuyển từ lựa chọn cá nhân sang trường học, việc làm, kinh tế và các chính sách hỗ trợ.",
+        "chinese": "人口老化，也給社會帶來很大的負擔。",
+        "simplified": "人口老化，也给社会带来很大的负担。",
+        "pinyin": "rén kǒu lǎo huà ， yě gěi shè huì dài lái hěn dà de fù dān 。",
+        "meaningVi": "Dân số già hóa cũng tạo gánh nặng lớn cho xã hội."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc4-v4-l08-dialogue-01",
+        "title": "Hội thoại: những lựa chọn",
+        "context": "Lệ Hoa và Lỗ Á gặp nhau ở công viên.",
+        "audioTrackId": "cc4-textbook-l08-t01",
+        "turns": [
+          {
+            "speaker": "王麗華",
+            "chinese": "魯亞，來公園散步嗎？",
+            "simplified": "鲁亚，来公园散步吗？",
+            "pinyin": "lǔ yà ， lái gōng yuán sàn bù ma ？",
+            "meaningVi": "Anh Lỗ Á, ra công viên đi dạo à?"
+          },
+          {
+            "speaker": "魯亞",
+            "chinese": "麗華，好久不見，我在圖書館坐太久了，出來走一走。",
+            "simplified": "丽华，好久不见，我在图书馆坐太久了，出来走一走。",
+            "pinyin": "lì huá ， hǎo jiǔ bù jiàn ， wǒ zài tú shū guǎn zuò tài jiǔ le ， chū lái zǒu yī zǒu 。",
+            "meaningVi": "Lệ Hoa, lâu rồi không gặp. Tôi ngồi trong thư viện lâu quá nên ra ngoài đi dạo."
+          },
+          {
+            "speaker": "王麗華",
+            "chinese": "最近在忙什麼？論文寫完了嗎？",
+            "simplified": "最近在忙什么？论文写完了吗？",
+            "pinyin": "zuì jìn zài máng shén me ？ lùn wén xiě wán le ma ？",
+            "meaningVi": "Dạo này anh bận gì? Luận văn viết xong chưa?"
+          },
+          {
+            "speaker": "魯亞",
+            "chinese": "論文寫得差不多了，妳呢，在忙什麼？",
+            "simplified": "论文写得差不多了，你呢，在忙什么？",
+            "pinyin": "lùn wén xiě dé chà bu duō le ， nǐ ne ， zài máng shén me ？",
+            "meaningVi": "Luận văn gần xong rồi. Còn cô, đang bận gì?"
+          },
+          {
+            "speaker": "王麗華",
+            "chinese": "我姐姐上個月生了個兒子，有時候我會去幫她照顧一下孩子。",
+            "simplified": "我姐姐上个月生了个儿子，有时候我会去帮她照顾一下孩子。",
+            "pinyin": "wǒ jiě jiě shàng gè yuè shēng le gè ér zi ， yǒu shí hòu wǒ huì qù bāng tā zhào gù yī xià hái zi 。",
+            "meaningVi": "Tháng trước chị tôi sinh con trai, thỉnh thoảng tôi đến giúp chị chăm em bé."
+          },
+          {
+            "speaker": "魯亞",
+            "chinese": "恭喜恭喜，那麼妳當阿姨嘍。",
+            "simplified": "恭喜恭喜，那么你当阿姨喽。",
+            "pinyin": "gōng xǐ gōng xǐ ， nà me nǐ dāng ā yí lóu 。",
+            "meaningVi": "Chúc mừng! Vậy là cô làm dì rồi."
+          },
+          {
+            "speaker": "王麗華",
+            "chinese": "是啊！沒想到我居然這麼快就當阿姨了。",
+            "simplified": "是啊！没想到我居然这么快就当阿姨了。",
+            "pinyin": "shì a ！ méi xiǎng dào wǒ jū rán zhè me kuài jiù dāng ā yí le 。",
+            "meaningVi": "Đúng vậy. Không ngờ tôi lại làm dì sớm thế."
+          },
+          {
+            "speaker": "魯亞",
+            "chinese": "對了，有一件事我一直覺得很不可思議，但是又不好意思問。",
+            "simplified": "对了，有一件事我一直觉得很不可思议，但是又不好意思问。",
+            "pinyin": "duì le ， yǒu yī jiàn shì wǒ yì zhí jué dé hěn bù kě sī yì ， dàn shì yòu bù hǎo yì sī wèn 。",
+            "meaningVi": "À, có chuyện tôi thấy khó hiểu từ lâu nhưng ngại hỏi."
+          },
+          {
+            "speaker": "王麗華",
+            "chinese": "有話直說吧，反正我們那麼熟了，就算你說錯了，我也不會生氣的。",
+            "simplified": "有话直说吧，反正我们那么熟了，就算你说错了，我也不会生气的。",
+            "pinyin": "yǒu huà zhí shuō ba ， fǎn zhèng wǒ men nà me shú le ， jiù suàn nǐ shuō cuò le ， wǒ yě bù huì shēng qì de 。",
+            "meaningVi": "Cứ nói thẳng đi. Chúng ta thân nhau rồi, anh có nói sai tôi cũng không giận đâu."
+          },
+          {
+            "speaker": "魯亞",
+            "chinese": "我常來公園散步，不只看過一次娃娃推車裡坐著的並不是小孩，而是一隻狗。台灣人瘋了嗎？",
+            "simplified": "我常来公园散步，不只看过一次娃娃推车里坐著的并不是小孩，而是一只狗。台湾人疯了吗？",
+            "pinyin": "wǒ cháng lái gōng yuán sàn bù ， bù zhǐ kàn guò yī cì wá wá tuī chē lǐ zuò zhù de bìng bú shì xiǎo hái ， ér shì yī zhī gǒu 。 tái wān rén fēng le ma ？",
+            "meaningVi": "Tôi hay đi dạo ở công viên. Không chỉ một lần tôi thấy trong xe đẩy là chó chứ không phải em bé. Người Đài Loan bị sao vậy?"
+          },
+          {
+            "speaker": "王麗華",
+            "chinese": "哈！哈！哈！那是因為現在不少台灣人覺得養孩子又花錢又辛苦，結了婚不生小孩的人，就會考慮養寵物代替小孩；至於不婚的人因為獨自一人生活，難免會覺得孤單寂寞，因此就想養寵物陪伴。你常看到狗坐娃娃車的事就不足為奇了。",
+            "simplified": "哈！哈！哈！那是因为现在不少台湾人觉得养孩子又花钱又辛苦，结了婚不生小孩的人，就会考虑养宠物代替小孩；至于不婚的人因为独自一人生活，难免会觉得孤单寂寞，因此就想养宠物陪伴。你常看到狗坐娃娃车的事就不足为奇了。",
+            "pinyin": "hā ！ hā ！ hā ！ nà shì yīn wèi xiàn zài bù shǎo tái wān rén jué dé yǎng hái zi yòu huā qián yòu xīn kǔ ， jié le hūn bù shēng xiǎo hái de rén ， jiù huì kǎo lǜ yǎng chǒng wù dài tì xiǎo hái ； zhì yú bù hūn de rén yīn wèi dú zì yī rén shēng huó ， nán miǎn huì jué dé gū dān jì mò ， yīn cǐ jiù xiǎng yǎng chǒng wù péi bàn 。 nǐ cháng kàn dào gǒu zuò wá wá chē de shì jiù bù zú wèi qí le 。",
+            "meaningVi": "Ha ha! Nhiều người Đài Loan thấy nuôi con vừa tốn tiền vừa vất vả. Một số cặp vợ chồng không sinh con nên nuôi thú cưng thay thế. Người sống một mình khó tránh cảm giác cô đơn nên cũng nuôi thú cưng làm bạn. Vì vậy, thấy chó ngồi xe đẩy chẳng có gì lạ."
+          },
+          {
+            "speaker": "魯亞",
+            "chinese": "養一個孩子所需要的費用當然遠遠超過養一隻狗，但是你們不是有傳宗接代的觀念嗎？",
+            "simplified": "养一个孩子所需要的费用当然远远超过养一只狗，但是你们不是有传宗接代的观念吗？",
+            "pinyin": "yǎng yī gè hái zi suǒ xū yào de fèi yòng dāng rán yuǎn yuǎn chāo guò yǎng yī zhī gǒu ， dàn shì nǐ men bú shì yǒu chuán zōng jiē dài de guān niàn ma ？",
+            "meaningVi": "Nuôi một đứa trẻ chắc chắn tốn hơn nuôi chó rất nhiều. Nhưng chẳng phải các bạn có quan niệm nối dõi tông đường sao?"
+          },
+          {
+            "speaker": "王麗華",
+            "chinese": "年輕的一代不願意像父母一樣被婚姻及家庭束縛，更喜歡追求自由，過著無拘無束的生活；老一輩的人倒是還有這種觀念。",
+            "simplified": "年轻的一代不愿意像父母一样被婚姻及家庭束缚，更喜欢追求自由，过著无拘无束的生活；老一辈的人倒是还有这种观念。",
+            "pinyin": "nián qīng de yí dài bù yuàn yì xiàng fù mǔ yī yàng bèi hūn yīn jí jiā tíng shù fù ， gèng xǐ huān zhuī qiú zì yóu ， guò zhù wú jū wú shù de shēng huó ； lǎo yī bèi de rén dǎo shì hái yǒu zhè zhǒng guān niàn 。",
+            "meaningVi": "Thế hệ trẻ không muốn bị hôn nhân và gia đình ràng buộc như cha mẹ. Họ thích tự do, sống không gò bó; thế hệ trước thì vẫn giữ quan niệm ấy."
+          },
+          {
+            "speaker": "魯亞",
+            "chinese": "難道政府沒有推行什麼政策來鼓勵生育嗎？",
+            "simplified": "难道政府没有推行什么政策来鼓励生育吗？",
+            "pinyin": "nán dào zhèng fǔ méi yǒu tuī xíng shén me zhèng cè lái gǔ lì shēng yù ma ？",
+            "meaningVi": "Chẳng lẽ chính phủ không có chính sách khuyến khích sinh con?"
+          },
+          {
+            "speaker": "王麗華",
+            "chinese": "雖然政府提出了一些補助生育的政策，但是一般人還是覺得補助得不夠，所以寧可選擇不生孩子。",
+            "simplified": "虽然政府提出了一些补助生育的政策，但是一般人还是觉得补助得不够，所以宁可选择不生孩子。",
+            "pinyin": "suī rán zhèng fǔ tí chū le yī xiē bǔ zhù shēng yù de zhèng cè ， dàn shì yì bān rén hái shì jué dé bǔ zhù dé bù gòu ， suǒ yǐ níng kě xuǎn zé bù shēng hái zi 。",
+            "meaningVi": "Dù chính phủ có trợ cấp sinh con, nhiều người vẫn thấy chưa đủ nên chọn không sinh."
+          },
+          {
+            "speaker": "魯亞",
+            "chinese": "那麼，台灣以後會不會到處都只看得到老人呢？",
+            "simplified": "那么，台湾以后会不会到处都只看得到老人呢？",
+            "pinyin": "nà me ， tái wān yǐ hòu huì bù huì dào chù dōu zhǐ kàn dé dào lǎo rén ne ？",
+            "meaningVi": "Vậy sau này Đài Loan sẽ chỉ toàn người già sao?"
+          },
+          {
+            "speaker": "王麗華",
+            "chinese": "很多夫婦就算願意生孩子，大多數也只生一個，現在很多孩子都是獨生子或獨生女。",
+            "simplified": "很多夫妇就算愿意生孩子，大多数也只生一个，现在很多孩子都是独生子或独生女。",
+            "pinyin": "hěn duō fū fù jiù suàn yuàn yì shēng hái zi ， dà duō shù yě zhǐ shēng yī gè ， xiàn zài hěn duō hái zi dōu shì dú shēng zi huò dú shēng nǚ 。",
+            "meaningVi": "Nhiều cặp vợ chồng dù muốn có con cũng chỉ sinh một đứa. Giờ có rất nhiều con một."
+          },
+          {
+            "speaker": "魯亞",
+            "chinese": "中國以前施行「一胎化政策」，大部分的家庭也只有一個孩子。",
+            "simplified": "中国以前施行「一胎化政策」，大部分的家庭也只有一个孩子。",
+            "pinyin": "zhōng guó yǐ qián shī xíng 「 yī tāi huà zhèng cè 」， dà bù fèn de jiā tíng yě zhǐ yǒu yī gè hái zi 。",
+            "meaningVi": "Trước đây Trung Quốc áp dụng chính sách một con; phần lớn gia đình cũng chỉ có một đứa trẻ."
+          },
+          {
+            "speaker": "王麗華",
+            "chinese": "是啊，結果很多父母都把孩子寵壞了。孩子少對很多職業的影響也很大，像老師、婦產科醫生等。",
+            "simplified": "是啊，结果很多父母都把孩子宠坏了。孩子少对很多职业的影响也很大，像老师、妇产科医生等。",
+            "pinyin": "shì a ， jié guǒ hěn duō fù mǔ dōu bǎ hái zi chǒng huài le 。 hái zi shǎo duì hěn duō zhí yè de yǐng xiǎng yě hěn dà ， xiàng lǎo shī 、 fù chǎn kē yī shēng děng 。",
+            "meaningVi": "Đúng vậy, nhiều cha mẹ vì thế nuông chiều con quá mức. Trẻ em ít đi cũng ảnh hưởng đến nhiều nghề, như giáo viên, bác sĩ sản phụ khoa."
+          },
+          {
+            "speaker": "魯亞",
+            "chinese": "難怪我的朋友最近失業了。她本來在補習班教英文，可是老闆告訴她，最近學生越來越少，所以不得不結束營業。這下子她得另外再找工作了。",
+            "simplified": "难怪我的朋友最近失业了。她本来在补习班教英文，可是老板告诉她，最近学生越来越少，所以不得不结束营业。这下子她得另外再找工作了。",
+            "pinyin": "nán guài wǒ de péng yǒu zuì jìn shī yè le 。 tā běn lái zài bǔ xí bān jiào yīng wén ， kě shì lǎo bǎn gào sù tā ， zuì jìn xué shēng yuè lái yuè shǎo ， suǒ yǐ bù dé bù jié shù yíng yè 。 zhè xià zi tā dé lìng wài zài zhǎo gōng zuò le 。",
+            "meaningVi": "Chẳng trách gần đây bạn tôi mất việc. Cô ấy dạy tiếng Anh ở trung tâm, nhưng ông chủ bảo học viên ngày càng ít nên buộc phải đóng cửa. Giờ cô ấy phải tìm việc khác."
+          }
+        ]
+      },
+      {
+        "id": "cc4-v4-l08-reading-01",
+        "title": "Bài đọc: 不婚、不生的家庭現象",
+        "context": "Tình trạng ít trẻ em và những tác động đến xã hội.",
+        "audioTrackId": "cc4-textbook-l08-t03",
+        "turns": [
+          {
+            "speaker": "Bài đọc",
+            "chinese": "不知道從什麼時候起，台灣已成為全球生育率最低的國家之一。越來越多的人不結婚，他們覺得寧缺勿濫，只要合不來就分手。結了婚的人動不動就離婚，哪裡會考慮生兒育女這件事呢？另外值得注意的是，學歷越高者，生育的孩子越少，結婚年齡和生育的年齡也較大。",
+            "simplified": "不知道从什么时候起，台湾已成为全球生育率最低的国家之一。越来越多的人不结婚，他们觉得宁缺勿滥，只要合不来就分手。结了婚的人动不动就离婚，哪里会考虑生儿育女这件事呢？另外值得注意的是，学历越高者，生育的孩子越少，结婚年龄和生育的年龄也较大。",
+            "pinyin": "bù zhī dào cóng shén me shí hòu qǐ ， tái wān yǐ chéng wèi quán qiú shēng yù lǜ zuì dī de guó jiā zhī yī 。 yuè lái yuè duō de rén bù jié hūn ， tā men jué dé níng quē wù làn ， zhǐ yào hé bù lái jiù fēn shǒu 。 jié le hūn de rén dòng bù dòng jiù lí hūn ， nǎ lǐ huì kǎo lǜ shēng ér yù nǚ zhè jiàn shì ne ？ lìng wài zhí de zhù yì de shì ， xué lì yuè gāo zhě ， shēng yù de hái zi yuè shǎo ， jié hūn nián líng hé shēng yù de nián líng yě jiào dà 。",
+            "meaningVi": "Không biết từ bao giờ, Đài Loan đã trở thành một trong những nơi có tỷ lệ sinh thấp nhất thế giới. Ngày càng nhiều người không kết hôn vì thà chờ người phù hợp còn hơn chọn đại; không hợp thì chia tay. Người đã kết hôn cũng dễ ly hôn, khó nghĩ tới chuyện sinh con. Đáng chú ý, người học càng cao thường sinh càng ít con và kết hôn, sinh con ở tuổi muộn hơn."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "不婚、不生也使不少行業受到重大影響，不少幼稚園及學校都因為招生困難，只好不斷地減班。沒想到台灣人這種不婚不生的現象居然也影響到了白如玉。昨天補習班的林老闆告訴她，補習班將營業到這個月底。因為「少子化」的關係，這幾年很多連鎖的兒童美語補習班都倒閉了，更何況他這個小補習班呢？",
+            "simplified": "不婚、不生也使不少行业受到重大影响，不少幼稚园及学校都因为招生困难，只好不断地减班。没想到台湾人这种不婚不生的现象居然也影响到了白如玉。昨天补习班的林老板告诉她，补习班将营业到这个月底。因为「少子化」的关系，这几年很多连锁的儿童美语补习班都倒闭了，更何况他这个小补习班呢？",
+            "pinyin": "bù hūn 、 bù shēng yě shǐ bù shǎo xíng yè shòu dào zhòng dà yǐng xiǎng ， bù shǎo yòu zhì yuán jí xué xiào dōu yīn wèi zhāo shēng kùn nán ， zhǐ hǎo bù duàn dì jiǎn bān 。 méi xiǎng dào tái wān rén zhè zhǒng bù hūn bù shēng de xiàn xiàng jū rán yě yǐng xiǎng dào le bái rú yù 。 zuó tiān bǔ xí bān de lín lǎo bǎn gào sù tā ， bǔ xí bān jiāng yíng yè dào zhè gè yuè dǐ 。 yīn wèi 「 shǎo zǐ huà 」 de guān xì ， zhè jǐ nián hěn duō lián suǒ de ér tóng měi yǔ bǔ xí bān dōu dào bì le ， gèng hé kuàng tā zhè gè xiǎo bǔ xí bān ne ？",
+            "meaningVi": "Việc không kết hôn, không sinh con ảnh hưởng lớn đến nhiều ngành. Không ít trường mầm non và trường học khó tuyển sinh nên phải liên tục giảm lớp. Tình trạng ấy còn ảnh hưởng đến Bạch Như Ngọc: hôm qua ông chủ trung tâm ngoại ngữ báo với cô rằng trung tâm chỉ hoạt động đến cuối tháng. Do trẻ em ngày càng ít, nhiều chuỗi trung tâm Anh ngữ cho trẻ đã đóng cửa trong vài năm qua, huống chi một trung tâm nhỏ."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "除了補習班無法繼續經營下去以外，林老闆更擔心的是台灣的未來。年輕人看不到遠景，只想過著獨善其身的生活。社會上沒有足夠的年輕人加入，經濟的發展更是停滯不前。人口老化，也給社會帶來很大的負擔。目前政府針對「少子化」提出的辦法，包括多項鼓勵生育的措施。從未婚生子減稅、延長產假、改善托育環境到第三胎每個月可領三千元直到孩子成年等。",
+            "simplified": "除了补习班无法继续经营下去以外，林老板更担心的是台湾的未来。年轻人看不到远景，只想过著独善其身的生活。社会上没有足够的年轻人加入，经济的发展更是停滞不前。人口老化，也给社会带来很大的负担。目前政府针对「少子化」提出的办法，包括多项鼓励生育的措施。从未婚生子减税、延长产假、改善托育环境到第三胎每个月可领三千元直到孩子成年等。",
+            "pinyin": "chú le bǔ xí bān wú fǎ jì xù jīng yíng xià qù yǐ wài ， lín lǎo bǎn gèng dān xīn de shì tái wān de wèi lái 。 nián qīng rén kàn bú dào yuǎn jǐng ， zhǐ xiǎng guò zhù dú shàn qí shēn de shēng huó 。 shè huì shàng méi yǒu zú gòu de nián qīng rén jiā rù ， jīng jì de fā zhǎn gèng shì tíng zhì bù qián 。 rén kǒu lǎo huà ， yě gěi shè huì dài lái hěn dà de fù dān 。 mù qián zhèng fǔ zhēn duì 「 shǎo zǐ huà 」 tí chū de bàn fǎ ， bāo kuò duō xiàng gǔ lì shēng yù de cuò shī 。 cóng wèi hūn shēng zi jiǎn shuì 、 yán zhǎng chǎn jiǎ 、 gǎi shàn tuō yù huán jìng dào dì sān tāi měi gè yuè kě lǐng sān qiān yuán zhí dào hái zi chéng nián děng 。",
+            "meaningVi": "Ngoài việc không thể tiếp tục kinh doanh, ông chủ trung tâm còn lo cho tương lai Đài Loan. Người trẻ không thấy triển vọng, chỉ muốn lo cho riêng mình. Thiếu người trẻ tham gia, kinh tế trì trệ; dân số già hóa tạo thêm gánh nặng. Chính phủ đưa ra nhiều biện pháp khuyến khích sinh con, từ giảm thuế, kéo dài nghỉ thai sản, cải thiện môi trường chăm sóc trẻ đến trợ cấp hằng tháng cho con thứ ba đến khi trưởng thành."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "要鼓勵生育，給錢並不是一個好辦法，除非政府能針對整體環境來改善，否則婦女還是不會有生育的意願。以前祖父母能幫忙照顧孫子、孫女，但是現代人晚婚、晚生育，同時要照顧老一代和新一代，要負擔的責任更重，因此就更不願意生育了。政府雖然提出了不少政策，但是實現這些政策的預算常需要幾十億元，對國家財政是另一項沉重的負擔。政府如何有效改善台灣婦女生育的環境，正考驗著政府的智慧。",
+            "simplified": "要鼓励生育，给钱并不是一个好办法，除非政府能针对整体环境来改善，否则妇女还是不会有生育的意愿。以前祖父母能帮忙照顾孙子、孙女，但是现代人晚婚、晚生育，同时要照顾老一代和新一代，要负担的责任更重，因此就更不愿意生育了。政府虽然提出了不少政策，但是实现这些政策的预算常需要几十亿元，对国家财政是另一项沉重的负担。政府如何有效改善台湾妇女生育的环境，正考验著政府的智慧。",
+            "pinyin": "yào gǔ lì shēng yù ， gěi qián bìng bú shì yī gè hǎo bàn fǎ ， chú fēi zhèng fǔ néng zhēn duì zhěng tǐ huán jìng lái gǎi shàn ， fǒu zé fù nǚ hái shì bù huì yǒu shēng yù de yì yuàn 。 yǐ qián zǔ fù mǔ néng bāng máng zhào gù sūn zi 、 sūn nǚ ， dàn shì xiàn dài rén wǎn hūn 、 wǎn shēng yù ， tóng shí yào zhào gù lǎo yí dài hé xīn yí dài ， yào fù dān de zé rèn gèng zhòng ， yīn cǐ jiù gèng bù yuàn yì shēng yù le 。 zhèng fǔ suī rán tí chū le bù shǎo zhèng cè ， dàn shì shí xiàn zhè xiē zhèng cè de yù suàn cháng xū yào jǐ shí yì yuán ， duì guó jiā cái zhèng shì lìng yī xiàng chén zhòng de fù dān 。 zhèng fǔ rú hé yǒu xiào gǎi shàn tái wān fù nǚ shēng yù de huán jìng ， zhèng kǎo yàn zhù zhèng fǔ de zhì huì 。",
+            "meaningVi": "Chỉ trợ cấp tiền không đủ để khuyến khích sinh con. Nếu chính phủ không cải thiện toàn bộ môi trường sống, phụ nữ vẫn không muốn sinh. Trước kia ông bà có thể chăm cháu, còn người hiện đại kết hôn và sinh con muộn, phải chăm cả cha mẹ lẫn con cái nên trách nhiệm nặng hơn. Chính sách cũng tốn ngân sách rất lớn. Cải thiện môi trường sinh con hiệu quả đến đâu là bài toán thử thách chính phủ."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc4-v4-l08-check-01",
+        "prompt": "Vì sao Lệ Hoa nói một số người nuôi thú cưng?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Để thay cho con hoặc có bạn đồng hành"
+          },
+          {
+            "id": "b",
+            "text": "Vì thú cưng được trợ cấp"
+          },
+          {
+            "id": "c",
+            "text": "Vì công viên bắt buộc"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Cô ấy nói người không sinh con nuôi thú cưng thay con; người sống một mình nuôi để bớt cô đơn.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc4-v4-l08-check-02",
+        "prompt": "Tình trạng sinh ít con ảnh hưởng tới điều gì trong bài đọc?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Chỉ du lịch"
+          },
+          {
+            "id": "b",
+            "text": "Trường học, việc làm và xã hội"
+          },
+          {
+            "id": "c",
+            "text": "Chỉ thời tiết"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Bài đọc nêu các trường giảm lớp, trung tâm đóng cửa và gánh nặng dân số già.",
+        "skill": "Đọc hiểu"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem cách đọc, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc4-v4-l08-v001",
+      "cc4-v4-l08-v002",
+      "cc4-v4-l08-v003",
+      "cc4-v4-l08-v004",
+      "cc4-v4-l08-v005",
+      "cc4-v4-l08-v006",
+      "cc4-v4-l08-v007",
+      "cc4-v4-l08-v008",
+      "cc4-v4-l08-v009",
+      "cc4-v4-l08-v010",
+      "cc4-v4-l08-v011",
+      "cc4-v4-l08-v012",
+      "cc4-v4-l08-v013",
+      "cc4-v4-l08-v014",
+      "cc4-v4-l08-v015",
+      "cc4-v4-l08-v016",
+      "cc4-v4-l08-v017",
+      "cc4-v4-l08-v018",
+      "cc4-v4-l08-v019",
+      "cc4-v4-l08-v020",
+      "cc4-v4-l08-v021",
+      "cc4-v4-l08-v022",
+      "cc4-v4-l08-v023",
+      "cc4-v4-l08-v024",
+      "cc4-v4-l08-v025",
+      "cc4-v4-l08-v026",
+      "cc4-v4-l08-v027",
+      "cc4-v4-l08-v028",
+      "cc4-v4-l08-v029",
+      "cc4-v4-l08-v030",
+      "cc4-v4-l08-v031",
+      "cc4-v4-l08-v032",
+      "cc4-v4-l08-v033",
+      "cc4-v4-l08-v034",
+      "cc4-v4-l08-v035",
+      "cc4-v4-l08-v036",
+      "cc4-v4-l08-v037",
+      "cc4-v4-l08-v038",
+      "cc4-v4-l08-v039",
+      "cc4-v4-l08-v040",
+      "cc4-v4-l08-v041",
+      "cc4-v4-l08-v042",
+      "cc4-v4-l08-v043",
+      "cc4-v4-l08-v044",
+      "cc4-v4-l08-v045",
+      "cc4-v4-l08-v046",
+      "cc4-v4-l08-v047",
+      "cc4-v4-l08-v048",
+      "cc4-v4-l08-v049",
+      "cc4-v4-l08-v050",
+      "cc4-v4-l08-v051",
+      "cc4-v4-l08-v052",
+      "cc4-v4-l08-v053",
+      "cc4-v4-l08-v054",
+      "cc4-v4-l08-v055",
+      "cc4-v4-l08-v056",
+      "cc4-v4-l08-v057",
+      "cc4-v4-l08-v058",
+      "cc4-v4-l08-v059",
+      "cc4-v4-l08-v060",
+      "cc4-v4-l08-v061",
+      "cc4-v4-l08-v062",
+      "cc4-v4-l08-v063",
+      "cc4-v4-l08-v064",
+      "cc4-v4-l08-v065",
+      "cc4-v4-l08-v066",
+      "cc4-v4-l08-v067",
+      "cc4-v4-l08-v068",
+      "cc4-v4-l08-v069",
+      "cc4-v4-l08-v070",
+      "cc4-v4-l08-v071",
+      "cc4-v4-l08-v072",
+      "cc4-v4-l08-v073",
+      "cc4-v4-l08-v074",
+      "cc4-v4-l08-v075",
+      "cc4-v4-l08-v076",
+      "cc4-v4-l08-v077",
+      "cc4-v4-l08-v078",
+      "cc4-v4-l08-v079",
+      "cc4-v4-l08-v080",
+      "cc4-v4-l08-v081",
+      "cc4-v4-l08-v082",
+      "cc4-v4-l08-v083",
+      "cc4-v4-l08-v084",
+      "cc4-v4-l08-v085",
+      "cc4-v4-l08-v086",
+      "cc4-v4-l08-v087",
+      "cc4-v4-l08-v088",
+      "cc4-v4-l08-v089",
+      "cc4-v4-l08-v090",
+      "cc4-v4-l08-v091",
+      "cc4-v4-l08-v092",
+      "cc4-v4-l08-v093"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc4-textbook-l08-t02",
+        "label": "Từ vựng hội thoại"
+      },
+      {
+        "id": "cc4-textbook-l08-t04",
+        "label": "Từ vựng bài đọc"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc4-v4-l08-grammar-01",
+      "title": "反正",
+      "structure": "không quản tình huống A，反正 + kết luận B",
+      "explanation": "反正 cho biết điều B vẫn không đổi dù tình huống A ra sao; tiếng Việt thường dịch “dù sao thì”. Có thể đặt sau 不管 hoặc 無論.",
+      "examples": [
+        {
+          "chinese": "不管你去不去，反正我會去。",
+          "simplified": "不管你去不去，反正我会去。",
+          "pinyin": "bù guǎn nǐ qù bù qù ， fǎn zhèng wǒ huì qù 。",
+          "meaningVi": "Dù anh có đi hay không, tôi vẫn sẽ đi."
+        },
+        {
+          "chinese": "反正我們那麼熟了，有話直說吧。",
+          "simplified": "反正我们那么熟了，有话直说吧。",
+          "pinyin": "fǎn zhèng wǒ men nà me shú le ， yǒu huà zhí shuō ba 。",
+          "meaningVi": "Dù sao chúng ta cũng thân nhau rồi, cứ nói thẳng đi."
+        }
+      ],
+      "commonMistake": "Đừng dùng 反正 để mở một kết luận hoàn toàn không liên quan đến tình huống vừa nói.",
+      "check": {
+        "id": "cc4-v4-l08-grammar-check-01",
+        "prompt": "Điền: 不管他答不答應，____我會先試試。",
+        "options": [
+          {
+            "id": "a",
+            "text": "反正"
+          },
+          {
+            "id": "b",
+            "text": "否則"
+          },
+          {
+            "id": "c",
+            "text": "較"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Ý định thử vẫn giữ nguyên bất kể anh ấy có đồng ý hay không.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc4-v4-l08-grammar-02",
+      "title": "不只",
+      "structure": "不只 + số lượng／hành động",
+      "explanation": "不只 nhấn rằng mức thực tế vượt quá con số hay phạm vi nêu ra. Trong bài, 不只看過一次 nghĩa là đã thấy hơn một lần.",
+      "examples": [
+        {
+          "chinese": "我不只看過一次。",
+          "simplified": "我不只看过一次。",
+          "pinyin": "wǒ bù zhǐ kàn guò yī cì 。",
+          "meaningVi": "Tôi đã thấy hơn một lần."
+        },
+        {
+          "chinese": "她不只會說中文，還會說英文。",
+          "simplified": "她不只会说中文，还会说英文。",
+          "pinyin": "tā bù zhǐ huì shuō zhōng wén ， hái huì shuō yīng wén 。",
+          "meaningVi": "Cô ấy không chỉ nói được tiếng Hoa mà còn nói được tiếng Anh."
+        }
+      ],
+      "commonMistake": "Không hiểu 不只一次 là “chỉ một lần”; đó là hơn một lần.",
+      "check": {
+        "id": "cc4-v4-l08-grammar-check-02",
+        "prompt": "不只一次 nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Chỉ một lần"
+          },
+          {
+            "id": "b",
+            "text": "Hơn một lần"
+          },
+          {
+            "id": "c",
+            "text": "Chưa lần nào"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "不只 phủ định giới hạn “một lần”.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc4-v4-l08-grammar-03",
+      "title": "難免",
+      "structure": "tình huống + 難免 + cảm giác／kết quả",
+      "explanation": "難免 nói một cảm giác hoặc sự việc khó tránh trong hoàn cảnh đã nêu, không khẳng định rằng mọi người đều chắc chắn như vậy.",
+      "examples": [
+        {
+          "chinese": "獨自生活難免會覺得孤單。",
+          "simplified": "独自生活难免会觉得孤单。",
+          "pinyin": "dú zì shēng huó nán miǎn huì jué dé gū dān 。",
+          "meaningVi": "Sống một mình khó tránh cảm giác cô đơn."
+        },
+        {
+          "chinese": "第一次上台，難免有點緊張。",
+          "simplified": "第一次上台，难免有点紧张。",
+          "pinyin": "dì yī cì shàng tái ， nán miǎn yǒu diǎn jǐn zhāng 。",
+          "meaningVi": "Lần đầu lên sân khấu khó tránh hơi hồi hộp."
+        }
+      ],
+      "commonMistake": "Đừng dùng 難免 như từ chỉ “cố tình”; nó nói điều khó tránh.",
+      "check": {
+        "id": "cc4-v4-l08-grammar-check-03",
+        "prompt": "Điền: 第一次上台，____會緊張。",
+        "options": [
+          {
+            "id": "a",
+            "text": "倒是"
+          },
+          {
+            "id": "b",
+            "text": "難免"
+          },
+          {
+            "id": "c",
+            "text": "否則"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Lần đầu trình bày thì hồi hộp là điều khó tránh.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc4-v4-l08-grammar-04",
+      "title": "倒是",
+      "structure": "chủ đề A + kết quả A；chủ đề B + 倒是 + kết quả B",
+      "explanation": "倒是 nêu một điều tương phản nhẹ với điều vừa nói. Trong bài, người trẻ thích tự do; thế hệ trước thì vẫn giữ quan niệm nối dõi.",
+      "examples": [
+        {
+          "chinese": "年輕人喜歡自由，老一輩的人倒是還有這種觀念。",
+          "simplified": "年轻人喜欢自由，老一辈的人倒是还有这种观念。",
+          "pinyin": "nián qīng rén xǐ huān zì yóu ， lǎo yī bèi de rén dǎo shì hái yǒu zhè zhǒng guān niàn 。",
+          "meaningVi": "Người trẻ thích tự do, còn thế hệ trước vẫn giữ quan niệm ấy."
+        },
+        {
+          "chinese": "我不想去，他倒是很想去。",
+          "simplified": "我不想去，他倒是很想去。",
+          "pinyin": "wǒ bù xiǎng qù ， tā dǎo shì hěn xiǎng qù 。",
+          "meaningVi": "Tôi không muốn đi, còn anh ấy lại rất muốn."
+        }
+      ],
+      "commonMistake": "Cần có bối cảnh để người nghe thấy sự khác biệt giữa hai vế.",
+      "check": {
+        "id": "cc4-v4-l08-grammar-check-04",
+        "prompt": "Điền: 我不餓，他____想吃飯。",
+        "options": [
+          {
+            "id": "a",
+            "text": "倒是"
+          },
+          {
+            "id": "b",
+            "text": "除非"
+          },
+          {
+            "id": "c",
+            "text": "何況"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "倒是 đối chiếu mong muốn của hai người.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc4-v4-l08-grammar-05",
+      "title": "這下子",
+      "structure": "tình huống vừa xảy ra。這下子 + hệ quả",
+      "explanation": "這下子 mở đầu hệ quả mới nảy sinh từ việc vừa kể; thường mang sắc thái “thế thì”, “giờ thì”.",
+      "examples": [
+        {
+          "chinese": "補習班關門了，這下子她得找工作了。",
+          "simplified": "补习班关门了，这下子她得找工作了。",
+          "pinyin": "bǔ xí bān guān mén le ， zhè xià zi tā dé zhǎo gōng zuò le 。",
+          "meaningVi": "Trung tâm đóng cửa, giờ cô ấy phải tìm việc."
+        },
+        {
+          "chinese": "雨下得很大，這下子我們不能出去。",
+          "simplified": "雨下得很大，这下子我们不能出去。",
+          "pinyin": "yǔ xià dé hěn dà ， zhè xià zi wǒ men bù néng chū qù 。",
+          "meaningVi": "Mưa lớn quá, thế là chúng ta không ra ngoài được."
+        }
+      ],
+      "commonMistake": "Không dùng 這下子 cho một sự kiện không liên quan đến câu trước.",
+      "check": {
+        "id": "cc4-v4-l08-grammar-check-05",
+        "prompt": "Điền: 火車停開了，____我們得改搭公車。",
+        "options": [
+          {
+            "id": "a",
+            "text": "何況"
+          },
+          {
+            "id": "b",
+            "text": "這下子"
+          },
+          {
+            "id": "c",
+            "text": "倒是"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Việc tàu ngừng chạy dẫn đến phải đổi phương tiện.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc4-v4-l08-grammar-06",
+      "title": "Động từ + 來: 合得來／合不來",
+      "structure": "động từ + 得／不 + 來",
+      "explanation": "來 trong 合得來／合不來 nói hai người có hợp nhau hay không. Đây là bổ ngữ trong một cụm cố định; 合不來 nghĩa là không hợp tính.",
+      "examples": [
+        {
+          "chinese": "他們兩個很合得來。",
+          "simplified": "他们两个很合得来。",
+          "pinyin": "tā men liǎng gè hěn hé dé lái 。",
+          "meaningVi": "Hai người đó rất hợp nhau."
+        },
+        {
+          "chinese": "只要合不來就分手。",
+          "simplified": "只要合不来就分手。",
+          "pinyin": "zhǐ yào hé bù lái jiù fēn shǒu 。",
+          "meaningVi": "Chỉ cần không hợp thì chia tay."
+        }
+      ],
+      "commonMistake": "Đừng hiểu 來 ở đây là “đến” theo nghĩa chuyển động.",
+      "check": {
+        "id": "cc4-v4-l08-grammar-check-06",
+        "prompt": "合不來 nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Không hợp nhau"
+          },
+          {
+            "id": "b",
+            "text": "Chưa đến"
+          },
+          {
+            "id": "c",
+            "text": "Không đủ tiền"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "合不來 nói quan hệ giữa người với người.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc4-v4-l08-grammar-07",
+      "title": "何況",
+      "structure": "ý A đã như vậy，何況 + ý B mạnh hơn",
+      "explanation": "何況 đưa ra trường hợp B còn rõ hơn hoặc khó hơn A; thường dịch “huống chi”. Trong bài, chuỗi trung tâm lớn còn đóng cửa, huống chi trung tâm nhỏ.",
+      "examples": [
+        {
+          "chinese": "大補習班都倒閉了，何況這個小補習班？",
+          "simplified": "大补习班都倒闭了，何况这个小补习班？",
+          "pinyin": "dà bǔ xí bān dōu dào bì le ， hé kuàng zhè gè xiǎo bǔ xí bān ？",
+          "meaningVi": "Trung tâm lớn còn đóng cửa, huống chi trung tâm nhỏ này?"
+        },
+        {
+          "chinese": "他連走路都累，何況跑步？",
+          "simplified": "他连走路都累，何况跑步？",
+          "pinyin": "tā lián zǒu lù dōu lèi ， hé kuàng pǎo bù ？",
+          "meaningVi": "Đi bộ anh ấy còn mệt, huống chi chạy?"
+        }
+      ],
+      "commonMistake": "B phải là trường hợp nhấn mạnh thêm từ A, không phải một ví dụ ngẫu nhiên.",
+      "check": {
+        "id": "cc4-v4-l08-grammar-check-07",
+        "prompt": "Điền: 連大公司都很難經營，____小公司？",
+        "options": [
+          {
+            "id": "a",
+            "text": "反正"
+          },
+          {
+            "id": "b",
+            "text": "難免"
+          },
+          {
+            "id": "c",
+            "text": "何況"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Công ty nhỏ là trường hợp càng khó hơn.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc4-v4-l08-grammar-08",
+      "title": "否則",
+      "structure": "điều kiện／lời khuyên，否則 + kết quả nếu không làm",
+      "explanation": "否則 nối điều cần xảy ra với hệ quả nếu điều ấy không xảy ra. Khi đi với 除非, mẫu nghĩa là “trừ khi A, nếu không thì B”.",
+      "examples": [
+        {
+          "chinese": "快點走，否則會遲到。",
+          "simplified": "快点走，否则会迟到。",
+          "pinyin": "kuài diǎn zǒu ， fǒu zé huì chí dào 。",
+          "meaningVi": "Đi nhanh lên, nếu không sẽ muộn."
+        },
+        {
+          "chinese": "除非改善環境，否則生育意願不會提高。",
+          "simplified": "除非改善环境，否则生育意愿不会提高。",
+          "pinyin": "chú fēi gǎi shàn huán jìng ， fǒu zé shēng yù yì yuàn bù huì tí gāo 。",
+          "meaningVi": "Trừ khi cải thiện môi trường, nếu không mong muốn sinh con sẽ không tăng."
+        }
+      ],
+      "commonMistake": "Không đặt 否則 trước điều kiện cần thực hiện; nó dẫn hệ quả khi điều kiện không được đáp ứng.",
+      "check": {
+        "id": "cc4-v4-l08-grammar-check-08",
+        "prompt": "Điền: 要快一點，____我們會遲到。",
+        "options": [
+          {
+            "id": "a",
+            "text": "否則"
+          },
+          {
+            "id": "b",
+            "text": "倒是"
+          },
+          {
+            "id": "c",
+            "text": "反正"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "否則 dẫn hệ quả nếu không nhanh lên.",
+        "skill": "Ngữ pháp"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc4-v4-l08-listening-01",
+      "prompt": "Nghe hội thoại: Lỗ Á thấy gì trong xe đẩy?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Một con mèo"
+        },
+        {
+          "id": "b",
+          "text": "Một con chó"
+        },
+        {
+          "id": "c",
+          "text": "Một em bé"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Anh ấy kể đã thấy chó ngồi trong xe đẩy.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l08-t01"
+    },
+    {
+      "id": "cc4-v4-l08-listening-02",
+      "prompt": "Nghe hội thoại: bạn của Lỗ Á vì sao mất việc?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trung tâm ít học viên nên đóng cửa"
+        },
+        {
+          "id": "b",
+          "text": "Cô ấy chuyển thành phố"
+        },
+        {
+          "id": "c",
+          "text": "Cô ấy nghỉ thai sản"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Anh ấy nói học viên ngày càng ít và trung tâm buộc phải ngừng hoạt động.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l08-t01"
+    },
+    {
+      "id": "cc4-v4-l08-listening-03",
+      "prompt": "Nghe bài đọc: vì sao nhiều trường giảm lớp?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thiếu giáo viên"
+        },
+        {
+          "id": "b",
+          "text": "Khó tuyển sinh"
+        },
+        {
+          "id": "c",
+          "text": "Không đủ sách"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nói số trẻ ít đi khiến trường khó tuyển sinh.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l08-t03"
+    },
+    {
+      "id": "cc4-v4-l08-listening-04",
+      "prompt": "Nghe bài đọc: người viết nghĩ chỉ trợ cấp tiền có đủ để khuyến khích sinh con không?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Có, luôn đủ"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ đủ cho trung tâm nhỏ"
+        },
+        {
+          "id": "c",
+          "text": "Không, cần cải thiện môi trường sống"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Đoạn cuối nói cho tiền không phải cách tốt nếu môi trường sống không được cải thiện.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l08-t03"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc4-v4-l08-practice-01",
+      "prompt": "Điền: 不管你去不去，____我會去。",
+      "options": [
+        {
+          "id": "a",
+          "text": "反正"
+        },
+        {
+          "id": "b",
+          "text": "何況"
+        },
+        {
+          "id": "c",
+          "text": "否則"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "反正 cho biết ý định không đổi.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l08-practice-02",
+      "prompt": "Điền: 我____去過一次那家店。",
+      "options": [
+        {
+          "id": "a",
+          "text": "倒是"
+        },
+        {
+          "id": "b",
+          "text": "不只"
+        },
+        {
+          "id": "c",
+          "text": "否則"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "不只一次 nghĩa là hơn một lần.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l08-practice-03",
+      "prompt": "Điền: 第一次上台，____會緊張。",
+      "options": [
+        {
+          "id": "a",
+          "text": "何況"
+        },
+        {
+          "id": "b",
+          "text": "反正"
+        },
+        {
+          "id": "c",
+          "text": "難免"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "難免 nói điều khó tránh.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l08-practice-04",
+      "prompt": "Điền: 我不餓，他____想吃。",
+      "options": [
+        {
+          "id": "a",
+          "text": "倒是"
+        },
+        {
+          "id": "b",
+          "text": "除非"
+        },
+        {
+          "id": "c",
+          "text": "將"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "倒是 đối chiếu hai người.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l08-practice-05",
+      "prompt": "Điền: 公司關門了，____她得找工作。",
+      "options": [
+        {
+          "id": "a",
+          "text": "何況"
+        },
+        {
+          "id": "b",
+          "text": "這下子"
+        },
+        {
+          "id": "c",
+          "text": "較"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "這下子 mở hệ quả mới.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l08-practice-06",
+      "prompt": "Điền: 他們兩人____，常常吵架。",
+      "options": [
+        {
+          "id": "a",
+          "text": "何況"
+        },
+        {
+          "id": "b",
+          "text": "否則"
+        },
+        {
+          "id": "c",
+          "text": "合不來"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "合不來 là không hợp nhau.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l08-practice-07",
+      "prompt": "Điền: 大公司都倒閉了，____小公司？",
+      "options": [
+        {
+          "id": "a",
+          "text": "何況"
+        },
+        {
+          "id": "b",
+          "text": "反正"
+        },
+        {
+          "id": "c",
+          "text": "倒是"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "何況 nêu trường hợp càng khó hơn.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l08-practice-08",
+      "prompt": "Điền: 快點走，____會遲到。",
+      "options": [
+        {
+          "id": "a",
+          "text": "倒是"
+        },
+        {
+          "id": "b",
+          "text": "否則"
+        },
+        {
+          "id": "c",
+          "text": "較"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "否則 dẫn hệ quả nếu không đi nhanh.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc4-v4-l08-assessment-01",
+      "prompt": "反正 trong bài có nghĩa gần nhất là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dù sao thì"
+        },
+        {
+          "id": "b",
+          "text": "Vừa mới"
+        },
+        {
+          "id": "c",
+          "text": "Có lẽ"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "反正 nêu điều vẫn không đổi dù tình huống khác nhau.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l08-assessment-02",
+      "prompt": "不只一次 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chưa lần nào"
+        },
+        {
+          "id": "b",
+          "text": "Hơn một lần"
+        },
+        {
+          "id": "c",
+          "text": "Đúng một lần"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "不只 phủ định giới hạn một lần.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc4-v4-l08-assessment-03",
+      "prompt": "Điền: 獨自生活____會覺得孤單。",
+      "options": [
+        {
+          "id": "a",
+          "text": "何況"
+        },
+        {
+          "id": "b",
+          "text": "倒是"
+        },
+        {
+          "id": "c",
+          "text": "難免"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "難免 diễn tả cảm giác khó tránh.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l08-assessment-04",
+      "prompt": "Lỗ Á nhìn thấy gì trong xe đẩy?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Một con chó"
+        },
+        {
+          "id": "b",
+          "text": "Một chiếc cặp"
+        },
+        {
+          "id": "c",
+          "text": "Một giỏ trái cây"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Anh ấy thấy chó ngồi trong xe đẩy em bé.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc4-v4-l08-assessment-05",
+      "prompt": "少子化 nói về điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Giàu lên"
+        },
+        {
+          "id": "b",
+          "text": "Số trẻ em giảm"
+        },
+        {
+          "id": "c",
+          "text": "Tăng lớp học"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "少子化 là tình trạng có ít trẻ em do tỷ lệ sinh thấp.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc4-v4-l08-assessment-06",
+      "prompt": "Trong bài đọc, những nơi nào bị ảnh hưởng khi số trẻ giảm?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sân bay"
+        },
+        {
+          "id": "b",
+          "text": "Rạp hát"
+        },
+        {
+          "id": "c",
+          "text": "Trường học và trung tâm ngoại ngữ"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc nói các trường giảm lớp và nhiều trung tâm đóng cửa.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc4-v4-l08-assessment-07",
+      "prompt": "Điền: 大公司都很難經營，____小公司？",
+      "options": [
+        {
+          "id": "a",
+          "text": "何況"
+        },
+        {
+          "id": "b",
+          "text": "否則"
+        },
+        {
+          "id": "c",
+          "text": "反正"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "何況 nhấn trường hợp còn khó hơn.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l08-assessment-08",
+      "prompt": "Điền: 快一點，____會遲到。",
+      "options": [
+        {
+          "id": "a",
+          "text": "難免"
+        },
+        {
+          "id": "b",
+          "text": "否則"
+        },
+        {
+          "id": "c",
+          "text": "較"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "否則 dẫn hệ quả nếu không nhanh hơn.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l08-assessment-09",
+      "prompt": "Người viết cho rằng điều gì cần cải thiện để khuyến khích sinh con?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ phát thêm tiền"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ đóng trường"
+        },
+        {
+          "id": "c",
+          "text": "Môi trường sống tổng thể"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Đoạn cuối yêu cầu cải thiện môi trường tổng thể.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc4-v4-l08-assessment-10",
+      "prompt": "合不來 dùng khi nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hai người không hợp nhau"
+        },
+        {
+          "id": "b",
+          "text": "Hai người chưa đến"
+        },
+        {
+          "id": "c",
+          "text": "Hai người không nhận tiền"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "合不來 diễn tả quan hệ không hợp.",
+      "skill": "Ngữ pháp"
+    }
+  ],
+  "writingTask": {
+    "id": "cc4-v4-l08-writing",
+    "title": "Một lựa chọn và lý do",
+    "prompt": "Viết vài câu về một lựa chọn trong cuộc sống và lý do của bạn. Có thể dùng 反正, 難免 hoặc 否則 nếu hợp ngữ cảnh.",
+    "sampleTraditional": "我想先找到適合自己的工作，否則生活壓力會很大。",
+    "sampleSimplified": "我想先找到适合自己的工作，否则生活压力会很大。"
+  }
+}

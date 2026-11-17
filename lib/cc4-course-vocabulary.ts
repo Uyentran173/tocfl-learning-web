@@ -2,6 +2,7 @@ import source from "../data/academy/cc4-lesson01-vocabulary.json" with { type: "
 import lesson02Source from "../data/academy/cc4-lesson02-vocabulary.json" with { type: "json" };
 import lesson03Source from "../data/academy/cc4-lesson03-vocabulary.json" with { type: "json" };
 import lesson04Source from "../data/academy/cc4-lesson04-vocabulary.json" with { type: "json" };
+import lesson05Source from "../data/academy/cc4-lesson05-vocabulary.json" with { type: "json" };
 import { cc1Lesson01Words } from "./cc1-lesson01-vocabulary.ts";
 import { cc1CourseVocabularySets } from "./cc1-course-vocabulary.ts";
 import { cc2VocabularySets } from "./cc2-course-vocabulary.ts";
@@ -90,6 +91,26 @@ export const cc4Lesson04Words: VocabularyWord[] = lesson04Source.records.map((re
     translation: record.exampleVi,
   });
 
+export const cc4Lesson05Words: VocabularyWord[] = lesson05Source.records.map((record) =>
+  [...previousWords, ...cc4Lesson01Words, ...cc4Lesson02Words, ...cc4Lesson03Words, ...cc4Lesson04Words].find((word) =>
+    word.traditional === record.traditional && normalized(word.pinyin) === normalized(record.pinyin),
+  ) ?? {
+    id: record.id,
+    source: "textbook",
+    sourceRecordId: record.id,
+    sourceLabel: "Giáo trình tiếng Hoa đương đại · Tập 4 · Bài 05",
+    hanzi: record.traditional,
+    traditional: record.traditional,
+    simplified: record.simplified,
+    pinyin: record.pinyin,
+    meaning: record.meaningVi,
+    wordClass: record.wordClass,
+    example: record.exampleTraditional,
+    exampleTraditional: record.exampleTraditional,
+    exampleSimplified: record.exampleSimplified,
+    translation: record.exampleVi,
+  });
+
 export const cc4VocabularySets: VocabularySet[] = [
   {
     id: source.lessonId,
@@ -114,5 +135,11 @@ export const cc4VocabularySets: VocabularySet[] = [
     title: "Bài 04 · 床該擺哪裡？",
     subtitle: "Nên đặt giường ở đâu?",
     words: cc4Lesson04Words,
+  },
+  {
+    id: lesson05Source.lessonId,
+    title: "Bài 05 · 有夢最美",
+    subtitle: "Có ước mơ là điều đẹp nhất",
+    words: cc4Lesson05Words,
   },
 ];

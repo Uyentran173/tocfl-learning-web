@@ -1,0 +1,1187 @@
+{
+  "contentVersion": 2,
+  "id": "cc4-v4-l05",
+  "title": "有夢最美",
+  "titleVi": "Có ước mơ là điều đẹp nhất",
+  "description": "Từ câu chuyện tiến sĩ bán gà chiên, tìm hiểu việc làm, thu nhập và cách theo đuổi ước mơ.",
+  "objectives": [
+    "Nói về học vấn, nghề nghiệp và việc tự nuôi sống bản thân.",
+    "Hiểu các góc nhìn khác nhau về công việc và cơ hội việc làm.",
+    "Đọc một bài viết về giá cả, khởi nghiệp và nỗ lực theo đuổi ước mơ."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Vân Chân đến phỏng vấn một cựu sinh viên có bằng tiến sĩ nhưng bán gà chiên ở chợ đêm. Từ đó, cô và An Đồng bàn về học vấn và nghề nghiệp; bài đọc mở rộng sang chi phí sống và ước mơ khởi nghiệp.",
+    "sections": [
+      {
+        "id": "cc4-v4-l05-section-01",
+        "title": "Học vấn và công việc",
+        "body": "Nghe hai nhân vật nêu cả ý kiến ủng hộ lẫn băn khoăn về tiến sĩ bán gà chiên.",
+        "chinese": "賣雞排並不丟臉，不偷不搶，靠自己賺錢，很好啊！",
+        "simplified": "卖鸡排并不丢脸，不偷不抢，靠自己赚钱，很好啊！",
+        "pinyin": "mài jī pái bìng bù diū liǎn ， bù tōu bù qiǎng ， kào zì jǐ zhuàn qián ， hěn hǎo a ！",
+        "meaningVi": "Bán gà chiên không đáng xấu hổ; tự kiếm tiền bằng sức mình là tốt."
+      },
+      {
+        "id": "cc4-v4-l05-section-02",
+        "title": "Ước mơ và cơ hội",
+        "body": "Đọc những khó khăn về vật giá, việc làm rồi chú ý cách bài kết thúc bằng lời khuyên.",
+        "chinese": "機會是留給準備好的人。",
+        "simplified": "机会是留给准备好的人。",
+        "pinyin": "jī huì shì liú gěi zhǔn bèi hǎo de rén 。",
+        "meaningVi": "Cơ hội dành cho người đã chuẩn bị sẵn sàng."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc4-v4-l05-dialogue-01",
+        "title": "Hội thoại: tiến sĩ bán gà chiên",
+        "context": "Mã An Đồng gặp Lý Vân Chân ở chợ đêm.",
+        "audioTrackId": "cc4-textbook-l05-t01",
+        "turns": [
+          {
+            "speaker": "馬安同",
+            "chinese": "雲真，妳也受到連續劇的影響來排隊買雞排嗎？",
+            "simplified": "云真，你也受到连续剧的影响来排队买鸡排吗？",
+            "pinyin": "yún zhēn ， nǐ yě shòu dào lián xù jù de yǐng xiǎng lái pái duì mǎi jī pái ma ？",
+            "meaningVi": "Vân Chân, có phải cậu cũng bị phim truyền hình ảnh hưởng nên mới đến xếp hàng mua gà chiên không?"
+          },
+          {
+            "speaker": "李雲真",
+            "chinese": "我哪裡有時間看連續劇？我不是來買雞排的，而是為了校刊來採訪老闆的。",
+            "simplified": "我哪里有时间看连续剧？我不是来买鸡排的，而是为了校刊来采访老板的。",
+            "pinyin": "wǒ nǎ lǐ yǒu shí jiān kàn lián xù jù ？ wǒ bú shì lái mǎi jī pái de ， ér shì wèi le xiào kān lái cǎi fǎng lǎo bǎn de 。",
+            "meaningVi": "Tớ lấy đâu ra thời gian xem phim? Tớ đến phỏng vấn ông chủ cho báo trường, chứ không phải mua gà chiên."
+          },
+          {
+            "speaker": "馬安同",
+            "chinese": "這個賣雞排的老闆很有名嗎？",
+            "simplified": "这个卖鸡排的老板很有名吗？",
+            "pinyin": "zhè gè mài jī pái de lǎo bǎn hěn yǒu míng ma ？",
+            "meaningVi": "Ông chủ bán gà chiên này nổi tiếng lắm à?"
+          },
+          {
+            "speaker": "李雲真",
+            "chinese": "你沒聽說過嗎？他是我們學校的校友，去年剛得到博士學位。",
+            "simplified": "你没听说过吗？他是我们学校的校友，去年刚得到博士学位。",
+            "pinyin": "nǐ méi tīng shuō guò ma ？ tā shì wǒ men xué xiào de xiào yǒu ， qù nián gāng dé dào bó shì xué wèi 。",
+            "meaningVi": "Cậu chưa nghe chuyện đó sao? Anh ấy là cựu sinh viên trường mình, năm ngoái vừa lấy bằng tiến sĩ."
+          },
+          {
+            "speaker": "馬安同",
+            "chinese": "我沒聽錯吧？既然有那麼高的學歷，為什麼要在夜市裡賣雞排呢？",
+            "simplified": "我没听错吧？既然有那么高的学历，为什么要在夜市里卖鸡排呢？",
+            "pinyin": "wǒ méi tīng cuò ba ？ jì rán yǒu nà me gāo de xué lì ， wèi shén me yào zài yè shì lǐ mài jī pái ne ？",
+            "meaningVi": "Tớ nghe không nhầm chứ? Học cao như thế, sao anh ấy lại bán gà chiên ở chợ đêm?"
+          },
+          {
+            "speaker": "李雲真",
+            "chinese": "現在博士去考清潔隊員、碩士去當司機和學士擺地攤的現象在台灣越來越普遍，已經不稀奇了。",
+            "simplified": "现在博士去考清洁队员、硕士去当司机和学士摆地摊的现象在台湾越来越普遍，已经不稀奇了。",
+            "pinyin": "xiàn zài bó shì qù kǎo qīng jié duì yuán 、 shuò shì qù dāng sī jī hé xué shì bǎi dì tān de xiàn xiàng zài tái wān yuè lái yuè pǔ biàn ， yǐ jīng bù xī qí le 。",
+            "meaningVi": "Ở Đài Loan bây giờ, tiến sĩ thi vào đội vệ sinh, thạc sĩ lái xe, cử nhân bán hàng rong ngày càng phổ biến, chẳng còn lạ nữa."
+          },
+          {
+            "speaker": "馬安同",
+            "chinese": "賣雞排並不丟臉，不偷不搶，靠自己賺錢，很好啊！",
+            "simplified": "卖鸡排并不丢脸，不偷不抢，靠自己赚钱，很好啊！",
+            "pinyin": "mài jī pái bìng bù diū liǎn ， bù tōu bù qiǎng ， kào zì jǐ zhuàn qián ， hěn hǎo a ！",
+            "meaningVi": "Bán gà chiên đâu có gì đáng xấu hổ. Không trộm cắp, cướp giật, tự kiếm tiền nuôi mình là tốt rồi!"
+          },
+          {
+            "speaker": "李雲真",
+            "chinese": "我也這麼認為，但也聽到不少負面的看法，批評這種人浪費國家的教育資源。",
+            "simplified": "我也这么认为，但也听到不少负面的看法，批评这种人浪费国家的教育资源。",
+            "pinyin": "wǒ yě zhè me rèn wèi ， dàn yě tīng dào bù shǎo fù miàn de kàn fǎ ， pī píng zhè zhǒng rén làng fèi guó jiā de jiào yù zī yuán 。",
+            "meaningVi": "Tớ cũng nghĩ vậy, nhưng cũng nghe nhiều ý kiến tiêu cực, cho rằng như thế là lãng phí nguồn lực giáo dục của đất nước."
+          },
+          {
+            "speaker": "馬安同",
+            "chinese": "這個我可以了解，畢竟念到博士不容易，應該可以為國家貢獻更多才對。",
+            "simplified": "这个我可以了解，毕竟念到博士不容易，应该可以为国家贡献更多才对。",
+            "pinyin": "zhè gè wǒ kě yǐ liǎo jiě ， bì jìng niàn dào bó shì bù róng yì ， yīng gāi kě yǐ wèi guó jiā gòng xiàn gèng duō cái duì 。",
+            "meaningVi": "Tớ hiểu ý đó. Dù sao học đến tiến sĩ cũng không dễ, lẽ ra có thể đóng góp nhiều hơn cho đất nước."
+          },
+          {
+            "speaker": "李雲真",
+            "chinese": "這的確是個很嚴重的問題。很多人盲目升學，甚至有些學生因為要逃避就業而延後畢業的時間。",
+            "simplified": "这的确是个很严重的问题。很多人盲目升学，甚至有些学生因为要逃避就业而延后毕业的时间。",
+            "pinyin": "zhè de què shì gè hěn yán zhòng de wèn tí 。 hěn duō rén máng mù shēng xué ， shèn zhì yǒu xiē xué shēng yīn wèi yào táo bì jiù yè ér yán hòu bì yè de shí jiān 。",
+            "meaningVi": "Đó quả là một vấn đề nghiêm trọng. Nhiều người học lên một cách mù quáng; có người còn trì hoãn tốt nghiệp để tránh phải đi làm."
+          },
+          {
+            "speaker": "馬安同",
+            "chinese": "在我的國家並沒有這個問題，因為大多數人都念不起大學。",
+            "simplified": "在我的国家并没有这个问题，因为大多数人都念不起大学。",
+            "pinyin": "zài wǒ de guó jiā bìng méi yǒu zhè gè wèn tí ， yīn wèi dà duō shù rén dōu niàn bù qǐ dà xué 。",
+            "meaningVi": "Ở nước tớ không có vấn đề này, vì đa số người dân không đủ khả năng học đại học."
+          },
+          {
+            "speaker": "李雲真",
+            "chinese": "不過話說回來，能自食其力的人比那些「靠爸族」好多了。",
+            "simplified": "不过话说回来，能自食其力的人比那些「靠爸族」好多了。",
+            "pinyin": "bù guò huà shuō huí lái ， néng zì shí qí lì de rén bǐ nà xiē 「 kào bà zú 」 hǎo duō le 。",
+            "meaningVi": "Nhưng nói đi cũng phải nói lại, người tự nuôi sống mình vẫn tốt hơn nhiều so với “con nhà dựa bố mẹ”."
+          },
+          {
+            "speaker": "馬安同",
+            "chinese": "所謂「靠爸族」是指靠父母生活嗎？",
+            "simplified": "所谓「靠爸族」是指靠父母生活吗？",
+            "pinyin": "suǒ wèi 「 kào bà zú 」 shì zhǐ kào fù mǔ shēng huó ma ？",
+            "meaningVi": "“Con nhà dựa bố mẹ” nghĩa là sống nhờ cha mẹ sao?"
+          },
+          {
+            "speaker": "李雲真",
+            "chinese": "大概的意思是：自己沒什麼能力，這些人之所以成功是因為父母的關係。另外還有一種人叫「啃老族」，就是自己沒有能力獨立生活，還住在家裡靠父母的人。",
+            "simplified": "大概的意思是：自己没什么能力，这些人之所以成功是因为父母的关系。另外还有一种人叫「啃老族」，就是自己没有能力独立生活，还住在家里靠父母的人。",
+            "pinyin": "dà gài de yì si shì ： zì jǐ méi shén me néng lì ， zhè xiē rén zhī suǒ yǐ chéng gōng shì yīn wèi fù mǔ de guān xì 。 lìng wài hái yǒu yī zhǒng rén jiào 「 kěn lǎo zú 」， jiù shì zì jǐ méi yǒu néng lì dú lì shēng huó ， hái zhù zài jiā lǐ kào fù mǔ de rén 。",
+            "meaningVi": "Đại khái là người không có nhiều năng lực nhưng thành công nhờ quan hệ của cha mẹ. Còn “người ăn bám cha mẹ” là người không thể sống độc lập, vẫn ở nhà dựa vào cha mẹ."
+          },
+          {
+            "speaker": "馬安同",
+            "chinese": "我的國家現在也有不少這種人。我沒有有錢的父母，得趕快去圖書館看書了，畢業後我得靠自己啊！",
+            "simplified": "我的国家现在也有不少这种人。我没有有钱的父母，得赶快去图书馆看书了，毕业后我得靠自己啊！",
+            "pinyin": "wǒ de guó jiā xiàn zài yě yǒu bù shǎo zhè zhǒng rén 。 wǒ méi yǒu yǒu qián de fù mǔ ， dé gǎn kuài qù tú shū guǎn kàn shū le ， bì yè hòu wǒ dé kào zì jǐ a ！",
+            "meaningVi": "Nước tớ cũng có nhiều người như thế. Tớ không có cha mẹ giàu, phải mau đến thư viện học thôi; tốt nghiệp rồi tớ phải tự lo!"
+          },
+          {
+            "speaker": "李雲真",
+            "chinese": "我也該去採訪了，免得等一下老闆收攤，我就採訪不成了。",
+            "simplified": "我也该去采访了，免得等一下老板收摊，我就采访不成了。",
+            "pinyin": "wǒ yě gāi qù cǎi fǎng le ， miǎn de děng yí xià lǎo bǎn shōu tān ， wǒ jiù cǎi fǎng bù chéng le 。",
+            "meaningVi": "Tớ cũng phải đi phỏng vấn, kẻo lát nữa ông chủ dọn hàng thì không phỏng vấn được."
+          },
+          {
+            "speaker": "馬安同",
+            "chinese": "那麼，希望妳採訪順利，我等著看下一期的校刊。",
+            "simplified": "那么，希望你采访顺利，我等着看下一期的校刊。",
+            "pinyin": "nà me ， xī wàng nǐ cǎi fǎng shùn lì ， wǒ děng zhù kàn xià yī qī de xiào kān 。",
+            "meaningVi": "Chúc cậu phỏng vấn thuận lợi. Tớ chờ đọc số báo trường kỳ tới."
+          },
+          {
+            "speaker": "李雲真",
+            "chinese": "謝謝，明天見。",
+            "simplified": "谢谢，明天见。",
+            "pinyin": "xiè xiè ， míng tiān jiàn 。",
+            "meaningVi": "Cảm ơn, mai gặp."
+          },
+          {
+            "speaker": "馬安同",
+            "chinese": "對了，採訪完了以後，別忘了買一些「博士雞排」吃吃看。",
+            "simplified": "对了，采访完了以后，别忘了买一些「博士鸡排」吃吃看。",
+            "pinyin": "duì le ， cǎi fǎng wán le yǐ hòu ， bié wàng le mǎi yī xiē 「 bó shì jī pái 」 chī chī kàn 。",
+            "meaningVi": "À, phỏng vấn xong nhớ mua vài miếng “gà chiên tiến sĩ” nếm thử nhé."
+          },
+          {
+            "speaker": "李雲真",
+            "chinese": "希望我吃了以後，也可以早一點拿到博士學位。",
+            "simplified": "希望我吃了以后，也可以早一点拿到博士学位。",
+            "pinyin": "xī wàng wǒ chī le yǐ hòu ， yě kě yǐ zǎo yī diǎn ná dào bó shì xué wèi 。",
+            "meaningVi": "Mong là ăn xong tớ cũng sớm lấy được bằng tiến sĩ."
+          }
+        ]
+      },
+      {
+        "id": "cc4-v4-l05-reading-01",
+        "title": "Bài đọc: đừng từ bỏ ước mơ",
+        "context": "Một bài viết về giá cả, việc làm và ước mơ ở Đài Loan.",
+        "audioTrackId": "cc4-textbook-l05-t03",
+        "turns": [
+          {
+            "speaker": "Bài đọc",
+            "chinese": "在台灣生活了一段時間以後，馬安同覺得台灣的物價比他剛來的時候上漲了不少。有越來越多的台灣人抱怨這種低所得、高物價的情況，什麼都漲了，就是薪水沒漲。一般大學剛畢業的年輕人，不是找不到工作，就是每個月的薪水只能勉強生活。不少人辛苦工作了很多年，卻根本存不了什麼錢，更別說有能力買房子了。有些人還成立了「無殼蝸牛」組織，抗議台灣地價和房價高漲，造成貧富不均，人民買不起房子。根據台灣政府的統計，每年的失業率大概在百分之三到五左右。",
+            "simplified": "在台湾生活了一段时间以后，马安同觉得台湾的物价比他刚来的时候上涨了不少。有越来越多的台湾人抱怨这种低所得、高物价的情况，什么都涨了，就是薪水没涨。一般大学刚毕业的年轻人，不是找不到工作，就是每个月的薪水只能勉强生活。不少人辛苦工作了很多年，却根本存不了什么钱，更别说有能力买房子了。有些人还成立了「无壳蜗牛」组织，抗议台湾地价和房价高涨，造成贫富不均，人民买不起房子。根据台湾政府的统计，每年的失业率大概在百分之三到五左右。",
+            "pinyin": "zài tái wān shēng huó le yī duàn shí jiān yǐ hòu ， mǎ ān tóng jué dé tái wān de wù jià bǐ tā gāng lái de shí hòu shàng zhǎng le bù shǎo 。 yǒu yuè lái yuè duō de tái wān rén bào yuàn zhè zhǒng dī suǒ de 、 gāo wù jià de qíng kuàng ， shén me dōu zhǎng le ， jiù shì xīn shuǐ méi zhǎng 。 yì bān dà xué gāng bì yè de nián qīng rén ， bú shì zhǎo bú dào gōng zuò ， jiù shì měi gè yuè de xīn shuǐ zhǐ néng miǎn qiáng shēng huó 。 bù shǎo rén xīn kǔ gōng zuò le hěn duō nián ， què gēn běn cún bù liǎo shén me qián ， gèng bié shuō yǒu néng lì mǎi fáng zi le 。 yǒu xiē rén hái chéng lì le 「 wú ké wō niú 」 zǔ zhī ， kàng yì tái wān dì jià hé fáng jià gāo zhǎng ， zào chéng pín fù bù jūn ， rén mín mǎi bù qǐ fáng zi 。 gēn jù tái wān zhèng fǔ de tǒng jì ， měi nián de shī yè lǜ dà gài zài bǎi fēn zhī sān dào wǔ zuǒ yòu 。",
+            "meaningVi": "Sau một thời gian ở Đài Loan, Mã An Đồng nhận thấy giá cả tăng nhiều so với lúc mới đến. Ngày càng nhiều người than phiền về thu nhập thấp, vật giá cao: thứ gì cũng tăng, trừ lương. Người mới tốt nghiệp đại học hoặc không tìm được việc, hoặc chỉ đủ sống với đồng lương mỗi tháng. Nhiều người làm việc vất vả nhiều năm mà chẳng để dành được bao nhiêu, nói gì đến mua nhà. Có người lập tổ chức “ốc sên không vỏ” để phản đối giá đất, giá nhà tăng cao, chênh lệch giàu nghèo và tình trạng không mua nổi nhà. Theo số liệu của chính quyền Đài Loan được bài đọc dẫn lại, tỷ lệ thất nghiệp mỗi năm khoảng ba đến năm phần trăm."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "雖然跟其他國家比起來，台灣的失業率並不特別高，但人民卻覺得生活苦哈哈的，很多人都是「窮忙族」。這種現象一方面受到全球經濟不景氣的影響，另一方面是因為政府所施行的經濟政策也有問題。大多數人的薪資多年未調高不說，還有不少人被裁員。在台灣找不到工作的，不得不去中國大陸或別的國家另謀發展。馬安同今年在台灣過年時，他觀察到一些有趣的現象。不少台灣人恨不得能一夜致富，大家喜歡買彩券，希望能中獎，常做發財夢。",
+            "simplified": "虽然跟其他国家比起来，台湾的失业率并不特别高，但人民却觉得生活苦哈哈的，很多人都是「穷忙族」。这种现象一方面受到全球经济不景气的影响，另一方面是因为政府所施行的经济政策也有问题。大多数人的薪资多年未调高不说，还有不少人被裁员。在台湾找不到工作的，不得不去中国大陆或别的国家另谋发展。马安同今年在台湾过年时，他观察到一些有趣的现象。不少台湾人恨不得能一夜致富，大家喜欢买彩券，希望能中奖，常做发财梦。",
+            "pinyin": "suī rán gēn qí tā guó jiā bǐ qǐ lái ， tái wān de shī yè lǜ bìng bù tè bié gāo ， dàn rén mín què jué dé shēng huó kǔ hā hā de ， hěn duō rén dōu shì 「 qióng máng zú 」。 zhè zhǒng xiàn xiàng yì fāng miàn shòu dào quán qiú jīng jì bù jǐng qì de yǐng xiǎng ， lìng yì fāng miàn shì yīn wèi zhèng fǔ suǒ shī xíng de jīng jì zhèng cè yě yǒu wèn tí 。 dà duō shù rén de xīn zī duō nián wèi diào gāo bù shuō ， hái yǒu bù shǎo rén bèi cái yuán 。 zài tái wān zhǎo bú dào gōng zuò de ， bù dé bù qù zhōng guó dà lù huò bié de guó jiā lìng móu fā zhǎn 。 mǎ ān tóng jīn nián zài tái wān guò nián shí ， tā guān chá dào yī xiē yǒu qù de xiàn xiàng 。 bù shǎo tái wān rén hèn bù dé néng yī yè zhì fù ， dà jiā xǐ huān mǎi cǎi quàn ， xī wàng néng zhōng jiǎng ， cháng zuò fā cái mèng 。",
+            "meaningVi": "So với các nước khác, tỷ lệ thất nghiệp ở Đài Loan không quá cao, nhưng nhiều người vẫn sống chật vật, bận rộn mà vẫn nghèo. Một mặt, đó là tác động của kinh tế toàn cầu suy thoái; mặt khác, chính sách kinh tế cũng có vấn đề. Lương nhiều năm không tăng, lại còn có người bị cắt giảm việc làm. Người không tìm được việc ở Đài Loan phải sang Trung Quốc đại lục hoặc nước khác tìm cơ hội. Trong dịp Tết ở Đài Loan, Mã An Đồng thấy nhiều người mua vé số, mong trúng thưởng và giàu lên chỉ sau một đêm."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "另外還有一個現象就是每個人都想當老闆，不想看別人的臉色，所以在台灣有不少只有三、四個人的小公司。根據新聞報導指出，台灣有八成的年輕人想自己創業，而且大部分都想從事餐飲業。目前雖然經濟情況差，就業機會少，但是人生因為夢想而美麗，有夢最美。有句話說：「機會是留給準備好的人」，夢想的實現要經過許多努力及挑戰。培養實力，等待機會，相信每一個人都能擁有自己的一片天。",
+            "simplified": "另外还有一个现象就是每个人都想当老板，不想看别人的脸色，所以在台湾有不少只有三、四个人的小公司。根据新闻报导指出，台湾有八成的年轻人想自己创业，而且大部分都想从事餐饮业。目前虽然经济情况差，就业机会少，但是人生因为梦想而美丽，有梦最美。有句话说：「机会是留给准备好的人」，梦想的实现要经过许多努力及挑战。培养实力，等待机会，相信每一个人都能拥有自己的一片天。",
+            "pinyin": "lìng wài hái yǒu yī gè xiàn xiàng jiù shì měi gè rén dōu xiǎng dāng lǎo bǎn ， bù xiǎng kàn bié rén de liǎn sè ， suǒ yǐ zài tái wān yǒu bù shǎo zhǐ yǒu sān 、 sì gè rén de xiǎo gōng sī 。 gēn jù xīn wén bào dǎo zhǐ chū ， tái wān yǒu bā chéng de nián qīng rén xiǎng zì jǐ chuàng yè ， ér qiě dà bù fèn dōu xiǎng cóng shì cān yǐn yè 。 mù qián suī rán jīng jì qíng kuàng chà ， jiù yè jī huì shǎo ， dàn shì rén shēng yīn wèi mèng xiǎng ér měi lì ， yǒu mèng zuì měi 。 yǒu jù huà shuō ：「 jī huì shì liú gěi zhǔn bèi hǎo de rén 」， mèng xiǎng de shí xiàn yào jīng guò xǔ duō nǔ lì jí tiāo zhàn 。 péi yǎng shí lì ， děng dài jī huì ， xiāng xìn měi yī gè rén dōu néng yōng yǒu zì jǐ de yī piàn tiān 。",
+            "meaningVi": "Một hiện tượng khác là nhiều người muốn làm chủ, không muốn phải nhìn sắc mặt người khác; vì thế ở Đài Loan có nhiều công ty nhỏ chỉ ba, bốn người. Theo bài báo được tác giả dẫn, tám mươi phần trăm người trẻ muốn tự khởi nghiệp, phần lớn trong ngành ăn uống. Dù kinh tế khó khăn và việc làm ít, bài đọc nhắc rằng ước mơ làm cuộc đời đẹp hơn. “Cơ hội dành cho người đã chuẩn bị sẵn sàng”: để đạt được ước mơ cần nỗ lực, vượt thử thách, rèn năng lực và chờ cơ hội tìm chỗ đứng của riêng mình."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc4-v4-l05-check-01",
+        "prompt": "Vì sao Vân Chân đến gặp người bán gà chiên?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Để phỏng vấn cho báo trường"
+          },
+          {
+            "id": "b",
+            "text": "Để xin việc"
+          },
+          {
+            "id": "c",
+            "text": "Để học nấu ăn"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Cô nói mình đến vì báo trường, không phải để mua gà.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc4-v4-l05-check-02",
+        "prompt": "Bài đọc khuyên điều gì để thực hiện ước mơ?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Chỉ cần mua vé số"
+          },
+          {
+            "id": "b",
+            "text": "Không nên khởi nghiệp"
+          },
+          {
+            "id": "c",
+            "text": "Rèn năng lực, nỗ lực và chờ cơ hội"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Cuối bài nói đến 培養實力，等待機會.",
+        "skill": "Đọc hiểu"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từng từ để xem nghĩa và ví dụ trong ngữ cảnh.",
+    "wordIds": [
+      "cc4-v4-l05-v001",
+      "cc4-v4-l05-v002",
+      "cc4-v4-l05-v003",
+      "cc4-v4-l05-v004",
+      "cc4-v4-l05-v005",
+      "cc4-v4-l05-v006",
+      "cc4-v4-l05-v007",
+      "cc4-v4-l05-v008",
+      "cc4-v4-l05-v009",
+      "cc4-v4-l05-v010",
+      "cc4-v4-l05-v011",
+      "cc4-v4-l05-v012",
+      "cc4-v4-l05-v013",
+      "cc4-v4-l05-v014",
+      "cc4-v4-l05-v015",
+      "cc4-v4-l05-v016",
+      "cc4-v4-l05-v017",
+      "cc4-v4-l05-v018",
+      "cc4-v4-l05-v019",
+      "cc4-v4-l05-v020",
+      "cc4-v4-l05-v021",
+      "cc4-v4-l05-v022",
+      "cc4-v4-l05-v023",
+      "cc4-v4-l05-v024",
+      "cc4-v4-l05-v025",
+      "cc4-v4-l05-v026",
+      "cc4-v4-l05-v027",
+      "cc4-v4-l05-v028",
+      "cc4-v4-l05-v029",
+      "cc4-v4-l05-v030",
+      "cc4-v4-l05-v031",
+      "cc4-v4-l05-v032",
+      "cc4-v4-l05-v033",
+      "cc4-v4-l05-v034",
+      "cc4-v4-l05-v035",
+      "cc4-v4-l05-v036",
+      "cc4-v4-l05-v037",
+      "cc4-v4-l05-v038",
+      "cc4-v4-l05-v039",
+      "cc4-v4-l05-v040",
+      "cc4-v4-l05-v041",
+      "cc4-v4-l05-v042",
+      "cc4-v4-l05-v043",
+      "cc4-v4-l05-v044",
+      "cc4-v4-l05-v045",
+      "cc4-v4-l05-v046",
+      "cc4-v4-l05-v047",
+      "cc4-v4-l05-v048",
+      "cc4-v4-l05-v049",
+      "cc4-v4-l05-v050",
+      "cc4-v4-l05-v051",
+      "cc4-v4-l05-v052",
+      "cc4-v4-l05-v053",
+      "cc4-v4-l05-v054",
+      "cc4-v4-l05-v055",
+      "cc4-v4-l05-v056",
+      "cc4-v4-l05-v057",
+      "cc4-v4-l05-v058",
+      "cc4-v4-l05-v059",
+      "cc4-v4-l05-v060",
+      "cc4-v4-l05-v061",
+      "cc4-v4-l05-v062",
+      "cc4-v4-l05-v063",
+      "cc4-v4-l05-v064",
+      "cc4-v4-l05-v065",
+      "cc4-v4-l05-v066",
+      "cc4-v4-l05-v067",
+      "cc4-v4-l05-v068",
+      "cc4-v4-l05-v069",
+      "cc4-v4-l05-v070",
+      "cc4-v4-l05-v071",
+      "cc4-v4-l05-v072",
+      "cc4-v4-l05-v073",
+      "cc4-v4-l05-v074",
+      "cc4-v4-l05-v075",
+      "cc4-v4-l05-v076",
+      "cc4-v4-l05-v077",
+      "cc4-v4-l05-v078",
+      "cc4-v4-l05-v079",
+      "cc4-v4-l05-v080",
+      "cc4-v4-l05-v081"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc4-textbook-l05-t02",
+        "label": "Từ vựng hội thoại"
+      },
+      {
+        "id": "cc4-textbook-l05-t04",
+        "label": "Từ vựng bài đọc"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc4-v4-l05-grammar-01",
+      "title": "哪裡 + có thể…",
+      "explanation": "哪裡 trong câu hỏi tu từ phủ nhận một giả định: “làm gì có thể…”. Người nói không thật sự hỏi về địa điểm.",
+      "structure": "chủ ngữ + 哪裡 + động từ / có thể…？",
+      "examples": [
+        {
+          "chinese": "我哪裡有時間看連續劇？",
+          "simplified": "我哪里有时间看连续剧？",
+          "pinyin": "wǒ nǎ lǐ yǒu shí jiān kàn lián xù jù ？",
+          "meaningVi": "Tớ lấy đâu ra thời gian xem phim truyền hình?"
+        },
+        {
+          "chinese": "剛畢業的年輕人哪裡有錢買房子？",
+          "simplified": "刚毕业的年轻人哪里有钱买房子？",
+          "pinyin": "gāng bì yè de nián qīng rén nǎ lǐ yǒu qián mǎi fáng zi ？",
+          "meaningVi": "Người trẻ vừa tốt nghiệp lấy đâu ra tiền mua nhà?"
+        }
+      ],
+      "commonMistake": "Đừng dịch 哪裡 ở đây thành “ở đâu”.",
+      "check": {
+        "id": "cc4-v4-l05-grammar-check-01",
+        "prompt": "Điền: 我忙得很，____有時間看電視？",
+        "options": [
+          {
+            "id": "a",
+            "text": "哪裡"
+          },
+          {
+            "id": "b",
+            "text": "畢竟"
+          },
+          {
+            "id": "c",
+            "text": "根本"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "哪裡 phủ nhận việc có thời gian xem TV.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l05-t05"
+    },
+    {
+      "id": "cc4-v4-l05-grammar-02",
+      "title": "畢竟",
+      "explanation": "Nhắc một sự thật khó bỏ qua để giải thích hoặc điều chỉnh nhận xét trước đó: “dù sao thì”, “xét cho cùng”.",
+      "structure": "畢竟 + sự thật / lý do",
+      "examples": [
+        {
+          "chinese": "畢竟念到博士不容易。",
+          "simplified": "毕竟念到博士不容易。",
+          "pinyin": "bì jìng niàn dào bó shì bù róng yì 。",
+          "meaningVi": "Dù sao học đến tiến sĩ cũng không dễ."
+        },
+        {
+          "chinese": "他畢竟是新來的，還需要時間。",
+          "simplified": "他毕竟是新来的，还需要时间。",
+          "pinyin": "tā bì jìng shì xīn lái de ， hái xū yào shí jiān 。",
+          "meaningVi": "Dù sao anh ấy cũng mới đến, cần thêm thời gian."
+        }
+      ],
+      "commonMistake": "畢竟 đưa ra điều cần xét đến, không thay cho từ chỉ kết luận như 所以.",
+      "check": {
+        "id": "cc4-v4-l05-grammar-check-02",
+        "prompt": "Điền: 他____剛到台灣，還不熟悉這裡。",
+        "options": [
+          {
+            "id": "a",
+            "text": "的確"
+          },
+          {
+            "id": "b",
+            "text": "畢竟"
+          },
+          {
+            "id": "c",
+            "text": "恨不得"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Người nói nhắc hoàn cảnh vừa đến Đài Loan để giải thích.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l05-t06"
+    },
+    {
+      "id": "cc4-v4-l05-grammar-03",
+      "title": "的確",
+      "explanation": "Xác nhận điều vừa được nói hoặc nhấn mạnh rằng một nhận xét là đúng: “quả thật”.",
+      "structure": "的確 + mệnh đề / tính từ",
+      "examples": [
+        {
+          "chinese": "這的確是個嚴重的問題。",
+          "simplified": "这的确是个严重的问题。",
+          "pinyin": "zhè de què shì gè yán zhòng de wèn tí 。",
+          "meaningVi": "Đây quả thật là một vấn đề nghiêm trọng."
+        },
+        {
+          "chinese": "這家店的確很受歡迎。",
+          "simplified": "这家店的确很受欢迎。",
+          "pinyin": "zhè jiā diàn de què hěn shòu huān yíng 。",
+          "meaningVi": "Cửa hàng này quả thật rất được ưa chuộng."
+        }
+      ],
+      "commonMistake": "的確 là sự thừa nhận; nếu muốn bác bỏ ý trước, cần mẫu khác.",
+      "check": {
+        "id": "cc4-v4-l05-grammar-check-03",
+        "prompt": "Điền: A: 物價漲了很多。B: ____，生活變得更難了。",
+        "options": [
+          {
+            "id": "a",
+            "text": "根本"
+          },
+          {
+            "id": "b",
+            "text": "話說回來"
+          },
+          {
+            "id": "c",
+            "text": "的確"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Người đáp đồng ý với nhận xét trước.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l05-t07"
+    },
+    {
+      "id": "cc4-v4-l05-grammar-04",
+      "title": "話說回來",
+      "explanation": "Sau khi thừa nhận một ý, chuyển sang góc nhìn khác để bổ sung hoặc điều chỉnh: “nói đi cũng phải nói lại”.",
+      "structure": "ý A。不過／可是話說回來，ý B。",
+      "examples": [
+        {
+          "chinese": "賣雞排並不丟臉。不過話說回來，學到的知識也能用在別的地方。",
+          "simplified": "卖鸡排并不丢脸。不过话说回来，学到的知识也能用在别的地方。",
+          "pinyin": "mài jī pái bìng bù diū liǎn 。 bù guò huà shuō huí lái ， xué dào de zhī shí yě néng yòng zài bié de dì fāng 。",
+          "meaningVi": "Bán gà chiên không đáng xấu hổ. Nhưng nói đi cũng phải nói lại, kiến thức học được còn dùng được ở nơi khác."
+        },
+        {
+          "chinese": "房價很高，可是話說回來，這裡的交通很方便。",
+          "simplified": "房价很高，可是话说回来，这里的交通很方便。",
+          "pinyin": "fáng jià hěn gāo ， kě shì huà shuō huí lái ， zhè lǐ de jiāo tōng hěn fāng biàn 。",
+          "meaningVi": "Giá nhà cao, nhưng nói đi cũng phải nói lại, giao thông ở đây rất tiện."
+        }
+      ],
+      "commonMistake": "Đừng dùng 話說回來 khi chỉ lặp lại cùng một ý; vế sau cần một góc nhìn khác.",
+      "check": {
+        "id": "cc4-v4-l05-grammar-check-04",
+        "prompt": "Điền: 這份工作辛苦，____，收入還算穩定。",
+        "options": [
+          {
+            "id": "a",
+            "text": "話說回來"
+          },
+          {
+            "id": "b",
+            "text": "哪裡"
+          },
+          {
+            "id": "c",
+            "text": "根本"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Vế sau đưa ra một mặt khác của công việc.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l05-t08"
+    },
+    {
+      "id": "cc4-v4-l05-grammar-05",
+      "title": "之所以…是因為…",
+      "explanation": "Đặt kết quả trước rồi nêu nguyên nhân sau. Dùng khi muốn nhấn vào lý do của một kết quả đã biết.",
+      "structure": "chủ ngữ + 之所以 + kết quả，是因為 + nguyên nhân",
+      "examples": [
+        {
+          "chinese": "他之所以成功，是因為一直努力。",
+          "simplified": "他之所以成功，是因为一直努力。",
+          "pinyin": "tā zhī suǒ yǐ chéng gōng ， shì yīn wèi yì zhí nǔ lì 。",
+          "meaningVi": "Anh ấy thành công là vì luôn cố gắng."
+        },
+        {
+          "chinese": "房價之所以上漲，是因為需求增加。",
+          "simplified": "房价之所以上涨，是因为需求增加。",
+          "pinyin": "fáng jià zhī suǒ yǐ shàng zhǎng ， shì yīn wèi xū qiú zēng jiā 。",
+          "meaningVi": "Giá nhà tăng là vì nhu cầu tăng."
+        }
+      ],
+      "commonMistake": "Đừng đảo nhầm quan hệ: sau 是因為 là nguyên nhân, không phải kết quả.",
+      "check": {
+        "id": "cc4-v4-l05-grammar-check-05",
+        "prompt": "Điền: 他____延後畢業，____想逃避就業。",
+        "options": [
+          {
+            "id": "a",
+            "text": "畢竟…所以…"
+          },
+          {
+            "id": "b",
+            "text": "之所以…是因為…"
+          },
+          {
+            "id": "c",
+            "text": "哪裡…就…"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Vế sau 是因為 giải thích nguyên nhân trì hoãn tốt nghiệp.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l05-t09"
+    },
+    {
+      "id": "cc4-v4-l05-grammar-06",
+      "title": "根本 + phủ định",
+      "explanation": "Nhấn mạnh sự phủ định hoàn toàn: “hoàn toàn không”, “chẳng hề”. Thường đứng trước 不, 沒 hoặc động từ có bổ ngữ phủ định.",
+      "structure": "根本 + 不／沒／V不了",
+      "examples": [
+        {
+          "chinese": "辛苦工作多年，卻根本存不了錢。",
+          "simplified": "辛苦工作多年，却根本存不了钱。",
+          "pinyin": "xīn kǔ gōng zuò duō nián ， què gēn běn cún bù liǎo qián 。",
+          "meaningVi": "Làm việc vất vả nhiều năm mà hoàn toàn không để dành được tiền."
+        },
+        {
+          "chinese": "我根本不知道這件事。",
+          "simplified": "我根本不知道这件事。",
+          "pinyin": "wǒ gēn běn bù zhī dào zhè jiàn shì 。",
+          "meaningVi": "Tôi hoàn toàn không biết chuyện này."
+        }
+      ],
+      "commonMistake": "根本 ở đây không mang nghĩa “gốc rễ” của danh từ 根本.",
+      "check": {
+        "id": "cc4-v4-l05-grammar-check-06",
+        "prompt": "Điền: 他____沒聽過這個消息。",
+        "options": [
+          {
+            "id": "a",
+            "text": "畢竟"
+          },
+          {
+            "id": "b",
+            "text": "的確"
+          },
+          {
+            "id": "c",
+            "text": "根本"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "根本 nhấn mạnh sự phủ định hoàn toàn.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc4-v4-l05-grammar-07",
+      "title": "更別說",
+      "explanation": "Vế A đã khó hoặc không làm được, vế B còn khó hơn: “huống chi”, “nói gì đến”.",
+      "structure": "A，更別說 + B",
+      "examples": [
+        {
+          "chinese": "連生活費都存不了，更別說買房子了。",
+          "simplified": "连生活费都存不了，更别说买房子了。",
+          "pinyin": "lián shēng huó fèi dōu cún bù liǎo ， gèng bié shuō mǎi fáng zi le 。",
+          "meaningVi": "Ngay cả tiền sinh hoạt còn không để dành được, nói gì đến mua nhà."
+        },
+        {
+          "chinese": "他連中文報紙都看不懂，更別說寫文章了。",
+          "simplified": "他连中文报纸都看不懂，更别说写文章了。",
+          "pinyin": "tā lián zhōng wén bào zhǐ dōu kàn bù dǒng ， gèng bié shuō xiě wén zhāng le 。",
+          "meaningVi": "Anh ấy đọc báo tiếng Trung còn không hiểu, huống chi viết bài."
+        }
+      ],
+      "commonMistake": "Vế B phải là mức độ cao hơn hoặc khó hơn A.",
+      "check": {
+        "id": "cc4-v4-l05-grammar-check-07",
+        "prompt": "Điền: 連租金都付不起，____買房子了。",
+        "options": [
+          {
+            "id": "a",
+            "text": "更別說"
+          },
+          {
+            "id": "b",
+            "text": "的確"
+          },
+          {
+            "id": "c",
+            "text": "話說回來"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Mua nhà khó hơn trả tiền thuê; 更別說 dẫn vế khó hơn.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc4-v4-l05-grammar-08",
+      "title": "恨不得",
+      "explanation": "Diễn tả mong muốn rất mạnh, thường là điều khó thực hiện ngay: “chỉ mong”, “ước gì có thể”.",
+      "structure": "chủ ngữ + 恨不得 + 能／可以 + việc mong muốn",
+      "examples": [
+        {
+          "chinese": "不少人恨不得能一夜致富。",
+          "simplified": "不少人恨不得能一夜致富。",
+          "pinyin": "bù shǎo rén hèn bù dé néng yī yè zhì fù 。",
+          "meaningVi": "Nhiều người chỉ mong có thể giàu lên sau một đêm."
+        },
+        {
+          "chinese": "我恨不得現在就放假。",
+          "simplified": "我恨不得现在就放假。",
+          "pinyin": "wǒ hèn bù dé xiàn zài jiù fàng jià 。",
+          "meaningVi": "Tôi chỉ mong được nghỉ ngay bây giờ."
+        }
+      ],
+      "commonMistake": "Không dùng 恨不得 với dạng phủ định 不可以 như một mong muốn thông thường.",
+      "check": {
+        "id": "cc4-v4-l05-grammar-check-08",
+        "prompt": "Điền: 他累壞了，____現在就回家休息。",
+        "options": [
+          {
+            "id": "a",
+            "text": "根本"
+          },
+          {
+            "id": "b",
+            "text": "恨不得"
+          },
+          {
+            "id": "c",
+            "text": "哪裡"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "恨不得 diễn tả mong muốn rất mạnh.",
+        "skill": "Ngữ pháp"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc4-v4-l05-listening-01",
+      "prompt": "Nghe hội thoại: Vân Chân đến chợ đêm để làm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Phỏng vấn ông chủ cho báo trường"
+        },
+        {
+          "id": "b",
+          "text": "Mua quần áo"
+        },
+        {
+          "id": "c",
+          "text": "Học lái xe"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Cô nói mình đến 採訪老闆 cho 校刊.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l05-t01"
+    },
+    {
+      "id": "cc4-v4-l05-listening-02",
+      "prompt": "Nghe hội thoại: người bán gà chiên có học vị gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cử nhân"
+        },
+        {
+          "id": "b",
+          "text": "Tiến sĩ"
+        },
+        {
+          "id": "c",
+          "text": "Thạc sĩ"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Anh ấy năm ngoái vừa lấy 博士學位.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l05-t01"
+    },
+    {
+      "id": "cc4-v4-l05-listening-03",
+      "prompt": "Nghe bài đọc: điều gì tăng còn lương không tăng?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Số trường học"
+        },
+        {
+          "id": "b",
+          "text": "Số ngày nghỉ"
+        },
+        {
+          "id": "c",
+          "text": "Giá cả hàng hóa"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc nói 什麼都漲了，就是薪水沒漲.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l05-t03"
+    },
+    {
+      "id": "cc4-v4-l05-listening-04",
+      "prompt": "Nghe bài đọc: nhiều người muốn làm gì thay vì làm thuê?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tự làm chủ, khởi nghiệp"
+        },
+        {
+          "id": "b",
+          "text": "Bỏ học"
+        },
+        {
+          "id": "c",
+          "text": "Chuyển đến chợ đêm"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc nói nhiều người muốn 當老闆 và 自己創業.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l05-t03"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc4-v4-l05-practice-01",
+      "prompt": "Điền: 我這麼忙，____有時間看連續劇？",
+      "options": [
+        {
+          "id": "a",
+          "text": "哪裡"
+        },
+        {
+          "id": "b",
+          "text": "畢竟"
+        },
+        {
+          "id": "c",
+          "text": "根本"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "哪裡 là câu hỏi tu từ phủ nhận việc có thời gian.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l05-practice-02",
+      "prompt": "Điền: 他____剛畢業，還需要經驗。",
+      "options": [
+        {
+          "id": "a",
+          "text": "的確"
+        },
+        {
+          "id": "b",
+          "text": "畢竟"
+        },
+        {
+          "id": "c",
+          "text": "恨不得"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "畢竟 nhắc hoàn cảnh cần tính đến.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l05-practice-03",
+      "prompt": "Điền: A: 物價漲了。B: ____。",
+      "options": [
+        {
+          "id": "a",
+          "text": "根本"
+        },
+        {
+          "id": "b",
+          "text": "哪裡"
+        },
+        {
+          "id": "c",
+          "text": "的確"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "的確 xác nhận điều vừa nghe.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l05-practice-04",
+      "prompt": "Điền: 這份工作很累。____，收入還算穩定。",
+      "options": [
+        {
+          "id": "a",
+          "text": "話說回來"
+        },
+        {
+          "id": "b",
+          "text": "根本"
+        },
+        {
+          "id": "c",
+          "text": "哪裡"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Vế sau nhìn công việc từ góc khác.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l05-practice-05",
+      "prompt": "Điền: 他____延後畢業，____想逃避就業。",
+      "options": [
+        {
+          "id": "a",
+          "text": "畢竟…所以…"
+        },
+        {
+          "id": "b",
+          "text": "之所以…是因為…"
+        },
+        {
+          "id": "c",
+          "text": "哪裡…就…"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "之所以 nêu kết quả, 是因為 nêu nguyên nhân.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l05-practice-06",
+      "prompt": "Điền: 連生活費都存不了，____買房子了。",
+      "options": [
+        {
+          "id": "a",
+          "text": "的確"
+        },
+        {
+          "id": "b",
+          "text": "恨不得"
+        },
+        {
+          "id": "c",
+          "text": "更別說"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Vế mua nhà còn khó hơn.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l05-practice-07",
+      "prompt": "「啃老族」指誰?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Người lớn sống dựa vào cha mẹ"
+        },
+        {
+          "id": "b",
+          "text": "Người bán gà chiên"
+        },
+        {
+          "id": "c",
+          "text": "Người nghiên cứu kinh tế"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Hội thoại định nghĩa người không thể sống độc lập và vẫn dựa vào cha mẹ.",
+      "skill": "Từ vựng",
+      "kind": "choice"
+    },
+    {
+      "id": "cc4-v4-l05-practice-08",
+      "prompt": "Vì sao người ta lập tổ chức 「無殼蝸牛」?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vì muốn bán vé số"
+        },
+        {
+          "id": "b",
+          "text": "Để phản đối giá đất và giá nhà tăng cao"
+        },
+        {
+          "id": "c",
+          "text": "Để mở tiệm ăn"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nói tổ chức phản đối giá nhà, giá đất tăng.",
+      "skill": "Đọc hiểu",
+      "kind": "choice"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc4-v4-l05-assessment-01",
+      "prompt": "校刊 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Báo/tạp chí của trường"
+        },
+        {
+          "id": "b",
+          "text": "Bằng tiến sĩ"
+        },
+        {
+          "id": "c",
+          "text": "Tờ vé số"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "校刊 là ấn phẩm của trường.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc4-v4-l05-assessment-02",
+      "prompt": "自食其力 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sống nhờ cha mẹ"
+        },
+        {
+          "id": "b",
+          "text": "Tự làm tự nuôi sống mình"
+        },
+        {
+          "id": "c",
+          "text": "Chỉ mua đồ ăn"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "自食其力 nhấn khả năng tự lo sinh kế.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc4-v4-l05-assessment-03",
+      "prompt": "Điền: ____念到博士不容易。",
+      "options": [
+        {
+          "id": "a",
+          "text": "哪裡"
+        },
+        {
+          "id": "b",
+          "text": "根本"
+        },
+        {
+          "id": "c",
+          "text": "畢竟"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "畢竟 nhắc một sự thật cần cân nhắc.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l05-assessment-04",
+      "prompt": "Điền: 他____不知道這件事。",
+      "options": [
+        {
+          "id": "a",
+          "text": "根本"
+        },
+        {
+          "id": "b",
+          "text": "的確"
+        },
+        {
+          "id": "c",
+          "text": "更別說"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "根本 nhấn mạnh hoàn toàn không biết.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l05-assessment-05",
+      "prompt": "之所以…是因為… diễn đạt quan hệ gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "So sánh"
+        },
+        {
+          "id": "b",
+          "text": "Kết quả và nguyên nhân"
+        },
+        {
+          "id": "c",
+          "text": "Thời gian và địa điểm"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Vế sau 是因為 nêu nguyên nhân của kết quả trước.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l05-assessment-06",
+      "prompt": "Trong hội thoại, Vân Chân muốn phỏng vấn ai?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tài xế"
+        },
+        {
+          "id": "b",
+          "text": "Thầy giáo"
+        },
+        {
+          "id": "c",
+          "text": "Người bán gà chiên có bằng tiến sĩ"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Cô đến phỏng vấn cựu sinh viên bán gà chiên.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc4-v4-l05-assessment-07",
+      "prompt": "Mã An Đồng nghĩ gì về việc bán gà chiên?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Không đáng xấu hổ nếu tự kiếm tiền"
+        },
+        {
+          "id": "b",
+          "text": "Phải có bằng tiến sĩ mới được bán"
+        },
+        {
+          "id": "c",
+          "text": "Nên bỏ việc ngay"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Anh nói 不偷不搶，靠自己賺錢，很好啊.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc4-v4-l05-assessment-08",
+      "prompt": "Theo bài đọc, điều gì tăng còn lương không tăng?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Số ngày nghỉ"
+        },
+        {
+          "id": "b",
+          "text": "Vật giá"
+        },
+        {
+          "id": "c",
+          "text": "Số trường học"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nói 什麼都漲了，就是薪水沒漲.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc4-v4-l05-assessment-09",
+      "prompt": "「無殼蝸牛」 gợi đến người nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Người sở hữu nhiều nhà"
+        },
+        {
+          "id": "b",
+          "text": "Người làm nghề du lịch"
+        },
+        {
+          "id": "c",
+          "text": "Người không đủ tiền mua nhà"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Từ này được dùng trong đoạn phản đối giá nhà tăng.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc4-v4-l05-assessment-10",
+      "prompt": "Cuối bài nhắc điều gì khi theo đuổi ước mơ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rèn năng lực và chờ cơ hội"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ mua vé số"
+        },
+        {
+          "id": "c",
+          "text": "Không cần chuẩn bị"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Kết bài viết 培養實力，等待機會.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "writingTask": {
+    "id": "cc4-v4-l05-writing",
+    "title": "Công việc và ước mơ",
+    "prompt": "Viết vài câu về một công việc bạn quan tâm và điều cần chuẩn bị. Dùng 畢竟 hoặc 之所以…是因為… nếu phù hợp.",
+    "sampleTraditional": "我之所以想當記者，是因為喜歡採訪不同的人。畢竟好的報導需要準備。",
+    "sampleSimplified": "我之所以想当记者，是因为喜欢采访不同的人。毕竟好的报道需要准备。"
+  }
+}

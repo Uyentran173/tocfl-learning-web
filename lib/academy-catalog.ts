@@ -40,7 +40,8 @@ import cc4Lesson07Data from "../data/academy/cc4-lesson07.json" with { type: "js
 import cc4Lesson08Data from "../data/academy/cc4-lesson08.json" with { type: "json" };
 import cc4Lesson09Data from "../data/academy/cc4-lesson09.json" with { type: "json" };
 import cc4Lesson10Data from "../data/academy/cc4-lesson10.json" with { type: "json" };
-import { cc4Lesson01Words, cc4Lesson02Words, cc4Lesson03Words, cc4Lesson04Words, cc4Lesson05Words, cc4Lesson06Words, cc4Lesson07Words, cc4Lesson08Words, cc4Lesson09Words, cc4Lesson10Words } from "./cc4-course-vocabulary.ts";
+import cc4Lesson11Data from "../data/academy/cc4-lesson11.json" with { type: "json" };
+import { cc4Lesson01Words, cc4Lesson02Words, cc4Lesson03Words, cc4Lesson04Words, cc4Lesson05Words, cc4Lesson06Words, cc4Lesson07Words, cc4Lesson08Words, cc4Lesson09Words, cc4Lesson10Words, cc4Lesson11Words } from "./cc4-course-vocabulary.ts";
 import cc5Lesson01Data from "../data/academy/cc5-lesson01.json" with { type: "json" };
 import { cc5Lesson01Words } from "./cc5-course-vocabulary.ts";
 export { academyLesson01 };
@@ -166,7 +167,11 @@ export const academyVolume4Lesson10 = {
   ...cc4Lesson10Data,
   vocabulary: { ...cc4Lesson10Data.vocabulary, wordIds: cc4Lesson10Words.map((word) => word.id!) },
 } as unknown as AcademyLessonContent;
-export const academyVolume4Lessons = [academyVolume4Lesson01, academyVolume4Lesson02, academyVolume4Lesson03, academyVolume4Lesson04, academyVolume4Lesson05, academyVolume4Lesson06, academyVolume4Lesson07, academyVolume4Lesson08, academyVolume4Lesson09, academyVolume4Lesson10];
+export const academyVolume4Lesson11 = {
+  ...cc4Lesson11Data,
+  vocabulary: { ...cc4Lesson11Data.vocabulary, wordIds: cc4Lesson11Words.map((word) => word.id!) },
+} as unknown as AcademyLessonContent;
+export const academyVolume4Lessons = [academyVolume4Lesson01, academyVolume4Lesson02, academyVolume4Lesson03, academyVolume4Lesson04, academyVolume4Lesson05, academyVolume4Lesson06, academyVolume4Lesson07, academyVolume4Lesson08, academyVolume4Lesson09, academyVolume4Lesson10, academyVolume4Lesson11];
 export const academyVolume5 = {
   id: "cc5-v5",
   seriesId: academySeries.id,

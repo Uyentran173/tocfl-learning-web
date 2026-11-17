@@ -3139,11 +3139,16 @@
       "bytes": 3790787,
       "sha256": "0b85c0fffb10d44b1ab8a37b02551203da093f68527cca583b710264ec4beb1a",
       "pdfPages": [
-        277,
-        289
+        277
       ],
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 277,
+        "bookPage": 250,
+        "labelVi": "Hội thoại",
+        "referenceCode": "11-01",
+        "itemCount": null
+      }
     },
     {
       "id": "cc4-textbook-l11-t02",
@@ -3225,9 +3230,17 @@
       "privatePath": "textbook/11-05.mp3",
       "bytes": 1357847,
       "sha256": "064ea75c35587c52cfef200292b64154e123338418459cca37d44ae75b050bf1",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        287
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 287,
+        "bookPage": 260,
+        "labelVi": "Ngữ pháp 偏偏",
+        "referenceCode": "11-05",
+        "itemCount": null
+      }
     },
     {
       "id": "cc4-textbook-l11-t06",
@@ -3263,9 +3276,17 @@
       "privatePath": "textbook/11-07.mp3",
       "bytes": 806977,
       "sha256": "a474f54a0328785d9a70eeee7d7ae91821f121f4560d4d828b64612e8d0e6747",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        289
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 289,
+        "bookPage": 262,
+        "labelVi": "Ngữ pháp 難得",
+        "referenceCode": "11-07",
+        "itemCount": null
+      }
     },
     {
       "id": "cc4-textbook-l11-t08",
@@ -3324,9 +3345,17 @@
       "privatePath": "textbook/11-10.mp3",
       "bytes": 994223,
       "sha256": "b948e9a5ec2093aa74e3c7fbe150cbf1a9838d042212ad11ee59a7a37de026ad",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        292
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 292,
+        "bookPage": 265,
+        "labelVi": "Ngữ pháp 漸漸",
+        "referenceCode": "11-10",
+        "itemCount": null
+      }
     },
     {
       "id": "cc4-textbook-l11-t11",

@@ -1,0 +1,1153 @@
+{
+  "contentVersion": 2,
+  "id": "cc4-v4-l11",
+  "title": "文化、種族的大熔爐",
+  "titleVi": "Nơi hội tụ nhiều nền văn hóa và sắc tộc",
+  "description": "Tìm hiểu ngôn ngữ gia đình, nhập cư và những thay đổi trong xã hội Đài Loan.",
+  "objectives": [
+    "Trao đổi về tiếng mẹ đẻ và trải nghiệm hòa nhập trong gia đình đa ngôn ngữ.",
+    "Đọc hiểu tác động của đa dạng văn hóa đối với giáo dục và dân số.",
+    "Dùng 偏偏, 照, 難得, 在…之餘, 難以, 漸漸 và 可見 đúng ngữ cảnh."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Trong ngày gặp phụ huynh, Như Ngọc trò chuyện với vợ chồng ông Trương về ngôn ngữ của Tiểu Minh và cuộc sống của các gia đình nhập cư. Bài đọc mở rộng sang thay đổi dân số và giáo dục.",
+    "sections": [
+      {
+        "id": "cc4-v4-l11-section-01",
+        "title": "Ngôn ngữ trong gia đình",
+        "body": "Nghe vì sao Tiểu Minh ít dùng tiếng Việt dù mẹ mong cậu luyện tập. Ngoài ra, để ý cách bà Trương kể việc học nhiều ngôn ngữ.",
+        "chinese": "小明在台灣難得有機會說越南話。",
+        "simplified": "小明在台湾难得有机会说越南话。",
+        "pinyin": "xiǎo míng zài tái wān nán dé yǒu jī huì shuō yuè nán huà 。",
+        "meaningVi": "Ở Đài Loan, Tiểu Minh hiếm khi có dịp nói tiếng Việt."
+      },
+      {
+        "id": "cc4-v4-l11-section-02",
+        "title": "Đa văn hóa và giáo dục",
+        "body": "Bài đọc đặt câu hỏi về nguồn lực giáo dục, sự công bằng và cơ hội của trẻ em trong xã hội đa ngôn ngữ.",
+        "chinese": "將來教育資源的分配與公平地對待就變得非常重要。",
+        "simplified": "将来教育资源的分配与公平地对待就变得非常重要。",
+        "pinyin": "jiāng lái jiào yù zī yuán de fēn pèi yǔ gōng píng dì duì dài jiù biàn dé fēi cháng zhòng yào 。",
+        "meaningVi": "Trong tương lai, việc phân bổ nguồn lực giáo dục và đối xử công bằng sẽ rất quan trọng."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc4-v4-l11-dialogue-01",
+        "title": "Hội thoại: ngày gặp phụ huynh",
+        "context": "Như Ngọc gặp vợ chồng ông Trương và bàn về tiếng mẹ đẻ, hòa nhập văn hóa.",
+        "audioTrackId": "cc4-textbook-l11-t01",
+        "turns": [
+          {
+            "speaker": "張先生",
+            "chinese": "真可惜，補習班就要結束營業了，以後見面的機會就更少了。",
+            "simplified": "真可惜，补习班就要结束营业了，以后见面的机会就更少了。",
+            "pinyin": "zhēn kě xī ， bǔ xí bān jiù yào jié shù yíng yè le ， yǐ hòu jiàn miàn de jī huì jiù gèng shǎo le 。",
+            "meaningVi": "Thật đáng tiếc khi trung tâm sắp đóng cửa, sau này cơ hội gặp nhau sẽ ít hơn."
+          },
+          {
+            "speaker": "張太太",
+            "chinese": "如玉，以後要是有空的話歡迎常來我們家玩。",
+            "simplified": "如玉，以后要是有空的话欢迎常来我们家玩。",
+            "pinyin": "rú yù ， yǐ hòu yào shì yǒu kòng de huà huān yíng cháng lái wǒ men jiā wán 。",
+            "meaningVi": "Như Ngọc, sau này nếu rảnh rỗi thì em cứ đến nhà chúng tôi chơi nhé."
+          },
+          {
+            "speaker": "白如玉",
+            "chinese": "謝謝，要是以後小明在英文方面有什麼問題的話，請隨時打電話給我。",
+            "simplified": "谢谢，要是以后小明在英文方面有什么问题的话，请随时打电话给我。",
+            "pinyin": "xiè xiè ， yào shì yǐ hòu xiǎo míng zài yīng wén fāng miàn yǒu shén me wèn tí de huà ， qǐng suí shí dǎ diàn huà gěi wǒ 。",
+            "meaningVi": "Cảm ơn cô. Sau này nếu Tiểu Minh có vấn đề gì về tiếng Anh, xin cô cứ gọi cho tôi bất cứ lúc nào."
+          },
+          {
+            "speaker": "張太太",
+            "chinese": "小明的英文進步了不少，但他的越南話卻退步了很多。有時候想想真氣人，我叫他跟我說越南話，他偏偏不聽，還是照說中文。",
+            "simplified": "小明的英文进步了不少，但他的越南话却退步了很多。有时候想想真气人，我叫他跟我说越南话，他偏偏不听，还是照说中文。",
+            "pinyin": "xiǎo míng de yīng wén jìn bù le bù shǎo ， dàn tā de yuè nán huà què tuì bù le hěn duō 。 yǒu shí hòu xiǎng xiǎng zhēn qì rén ， wǒ jiào tā gēn wǒ shuō yuè nán huà ， tā piān piān bù tīng ， hái shì zhào shuō zhōng wén 。",
+            "meaningVi": "Tiếng Anh của Tiểu Minh tiến bộ rất nhiều, nhưng tiếng Việt của cậu ấy lại thụt lùi rất nhiều. Đôi khi nghĩ đến chuyện này thật bực mình. Tôi bảo cậu ấy nói tiếng Việt với tôi, nhưng cậu ấy nhất định không nghe, vẫn cứ nói tiếng Trung."
+          },
+          {
+            "speaker": "張先生",
+            "chinese": "小明在台灣難得有機會說越南話，再加上他不肯跟他媽媽練習，慢慢地越南話就退步了。",
+            "simplified": "小明在台湾难得有机会说越南话，再加上他不肯跟他妈妈练习，慢慢地越南话就退步了。",
+            "pinyin": "xiǎo míng zài tái wān nán dé yǒu jī huì shuō yuè nán huà ， zài jiā shàng tā bù kěn gēn tā mā mā liàn xí ， màn màn dì yuè nán huà jiù tuì bù le 。",
+            "meaningVi": "Ở Đài Loan, Tiểu Minh hiếm khi có cơ hội nói tiếng Việt. Thêm vào đó, cậu không chịu luyện nói với mẹ, nên dần dần trình độ tiếng Việt của cậu bị thụt lùi."
+          },
+          {
+            "speaker": "白如玉",
+            "chinese": "小孩子如果能學好自己的「母語」，不但不會影響學習，在許多方面的學習上反而會更好。",
+            "simplified": "小孩子如果能学好自己的「母语」，不但不会影响学习，在许多方面的学习上反而会更好。",
+            "pinyin": "xiǎo hái zi rú guǒ néng xué hǎo zì jǐ de 「 mǔ yǔ 」 ， bù dàn bù huì yǐng xiǎng xué xí ， zài xǔ duō fāng miàn de xué xí shàng fǎn ér huì gèng hǎo 。",
+            "meaningVi": "Nếu trẻ có thể học tốt \"tiếng mẹ đẻ\" của mình thì không những không ảnh hưởng đến việc học mà còn học tốt hơn ở nhiều mặt."
+          },
+          {
+            "speaker": "張太太",
+            "chinese": "是啊！就像我小時候在美國，父母跟我們姐弟在家說越南話；到了學校我就跟同學說英文；來台灣念大學後，我才開始學中文的。",
+            "simplified": "是啊！就像我小时候在美国，父母跟我们姐弟在家说越南话；到了学校我就跟同学说英文；来台湾念大学后，我才开始学中文的。",
+            "pinyin": "shì a ！ jiù xiàng wǒ xiǎo shí hòu zài měi guó ， fù mǔ gēn wǒ men jiě dì zài jiā shuō yuè nán huà ； dào le xué xiào wǒ jiù gēn tóng xué shuō yīng wén ； lái tái wān niàn dà xué hòu ， wǒ cái kāi shǐ xué zhōng wén de 。",
+            "meaningVi": "Đúng vậy! Khi còn nhỏ, ở Mỹ, ba mẹ nói tiếng Việt với anh chị em chúng tôi ở nhà; khi đến trường, tôi nói tiếng Anh với các bạn cùng lớp; sau khi sang Đài Loan học đại học, tôi mới bắt đầu học tiếng Trung."
+          },
+          {
+            "speaker": "白如玉",
+            "chinese": "哇！真難得，我以為張太太妳是越南華僑，從小在家就說中文，所以中文說得那麼流利，好像沒有什麼口音。",
+            "simplified": "哇！真难得，我以为张太太妳是越南华侨，从小在家就说中文，所以中文说得那么流利，好像没有什么口音。",
+            "pinyin": "wa ！ zhēn nán dé ， wǒ yǐ wèi zhāng tài tài nǐ shì yuè nán huá qiáo ， cóng xiǎo zài jiā jiù shuō zhōng wén ， suǒ yǐ zhōng wén shuō dé nà me liú lì ， hǎo xiàng méi yǒu shén me kǒu yīn 。",
+            "meaningVi": "Ôi! Thật hiếm thấy. Tôi tưởng rằng bà Trương là người Hoa gốc Việt, từ nhỏ đã nói tiếng Trung ở nhà, nên mới nói tiếng Trung lưu loát như vậy, dường như không có chút giọng địa phương nào."
+          },
+          {
+            "speaker": "張太太",
+            "chinese": "謝謝妳的誇獎，雖然我在台灣已經住了十多年了，但也花了好長一段時間來適應這裡的語言、文化、生活習慣及價值觀等。",
+            "simplified": "谢谢妳的夸奖，虽然我在台湾已经住了十多年了，但也花了好长一段时间来适应这里的语言、文化、生活习惯及价值观等。",
+            "pinyin": "xiè xiè nǐ de kuā jiǎng ， suī rán wǒ zài tái wān yǐ jīng zhù le shí duō nián le ， dàn yě huā le hǎo zhǎng yī duàn shí jiān lái shì yīng zhè lǐ de yǔ yán 、 wén huà 、 shēng huó xí guàn jí jià zhí guān děng 。",
+            "meaningVi": "Cảm ơn lời khen của bạn. Mặc dù tôi đã sống ở Đài Loan hơn 10 năm, nhưng cũng phải mất một thời gian dài để thích nghi với ngôn ngữ, văn hóa, thói quen sinh hoạt và các giá trị ở đây."
+          },
+          {
+            "speaker": "白如玉",
+            "chinese": "妳真是了不起，會說那麼多種語言，又能適應那麼多種文化。",
+            "simplified": "妳真是了不起，会说那么多种语言，又能适应那么多种文化。",
+            "pinyin": "nǐ zhēn shì liǎo bù qǐ ， huì shuō nà me duō zhǒng yǔ yán ， yòu néng shì yīng nà me duō zhǒng wén huà 。",
+            "meaningVi": "Em thật tuyệt vời khi có thể nói được nhiều ngôn ngữ như vậy và thích nghi được với nhiều nền văn hóa như vậy."
+          },
+          {
+            "speaker": "張先生",
+            "chinese": "她在工作之餘也常常去「新移民多元文化交流活動中心」當志工。",
+            "simplified": "她在工作之余也常常去「新移民多元文化交流活动中心」当志工。",
+            "pinyin": "tā zài gōng zuò zhī yú yě cháng cháng qù 「 xīn yí mín duō yuán wén huà jiāo liú huó dòng zhōng xīn 」 dāng zhì gōng 。",
+            "meaningVi": "Ngoài giờ làm việc, cô thường xuyên đến \"Trung tâm Giao lưu Văn hóa Đa dạng cho Người nhập cư Mới\" để làm tình nguyện viên."
+          },
+          {
+            "speaker": "白如玉",
+            "chinese": "原來有這樣的地方啊！當志工要做些什麼事呢？",
+            "simplified": "原来有这样的地方啊！当志工要做些什么事呢？",
+            "pinyin": "yuán lái yǒu zhè yàng de dì fāng a ！ dāng zhì gōng yào zuò xiē shén me shì ne ？",
+            "meaningVi": "Hóa ra là có một nơi như vậy! Làm tình nguyện viên thì phải làm những gì?"
+          },
+          {
+            "speaker": "張太太",
+            "chinese": "在台灣每個縣、市都有這樣的活動中心。我能做的就是安慰那些外籍配偶，跟她們聊聊天。因為不少人有很多生活適應上的問題，例如：想家、睡不著、寂寞、焦慮、後悔等情況，再加上語言溝通的障礙，也不容易和台灣本地人建立良好的人際關係。",
+            "simplified": "在台湾每个县、市都有这样的活动中心。我能做的就是安慰那些外籍配偶，跟她们聊聊天。因为不少人有很多生活适应上的问题，例如：想家、睡不着、寂寞、焦虑、后悔等情况，再加上语言沟通的障碍，也不容易和台湾本地人建立良好的人际关系。",
+            "pinyin": "zài tái wān měi gè xiàn 、 shì dōu yǒu zhè yàng de huó dòng zhōng xīn 。 wǒ néng zuò de jiù shì ān wèi nà xiē wài jí pèi ǒu ， gēn tā men liáo liáo tiān 。 yīn wèi bù shǎo rén yǒu hěn duō shēng huó shì yīng shàng de wèn tí ， lì rú ： xiǎng jiā 、 shuì bù zhù 、 jì mò 、 jiāo lǜ 、 hòu huǐ děng qíng kuàng ， zài jiā shàng yǔ yán gōu tōng de zhàng ài ， yě bù róng yì hé tái wān běn dì rén jiàn lì liáng hǎo de rén jì guān xì 。",
+            "meaningVi": "Ở Đài Loan, huyện hay thành phố nào cũng có trung tâm như vậy. Tôi chỉ có thể trò chuyện và an ủi những người phối ngẫu nước ngoài. Nhiều người gặp khó khăn khi thích nghi với cuộc sống: nhớ nhà, mất ngủ, cô đơn, lo âu hoặc hối hận. Rào cản ngôn ngữ lại khiến họ khó xây dựng quan hệ tốt với người bản địa."
+          },
+          {
+            "speaker": "張先生",
+            "chinese": "台灣以往比較少面對多元文化的衝擊，所以社會大眾難以接受和認同這些跨國婚姻移民。",
+            "simplified": "台湾以往比较少面对多元文化的冲击，所以社会大众难以接受和认同这些跨国婚姻移民。",
+            "pinyin": "tái wān yǐ wǎng bǐ jiào shǎo miàn duì duō yuán wén huà de chōng jī ， suǒ yǐ shè huì dà zhòng nán yǐ jiē shòu hé rèn tóng zhè xiē kuà guó hūn yīn yí mín 。",
+            "meaningVi": "Trước đây, Đài Loan ít khi phải đối mặt với cú sốc văn hóa đa dạng, vì vậy công chúng khó chấp nhận và công nhận những người nhập cư kết hôn xuyên quốc gia này."
+          },
+          {
+            "speaker": "白如玉",
+            "chinese": "是啊，其實美國早期也一樣。另外也曾經因為其他國家的人口大量移入，憂慮會降低人口素質而歧視移民。",
+            "simplified": "是啊，其实美国早期也一样。另外也曾经因为其他国家的人口大量移入，忧虑会降低人口素质而歧视移民。",
+            "pinyin": "shì a ， qí shí měi guó zǎo qī yě yī yàng 。 lìng wài yě céng jīng yīn wèi qí tā guó jiā de rén kǒu dà liàng yí rù ， yōu lǜ huì jiàng dī rén kǒu sù zhì ér qí shì yí mín 。",
+            "meaningVi": "Đúng vậy, thực ra thời kỳ đầu của nước Mỹ cũng giống như vậy. Ngoài ra, cũng từng có thời kỳ người dân từ các quốc gia khác di cư ồ ạt vào Mỹ, khiến người ta lo ngại chất lượng dân số sẽ bị giảm sút và dẫn đến sự phân biệt đối xử với người nhập cư."
+          },
+          {
+            "speaker": "張先生",
+            "chinese": "這些新移民的家庭和子女，其實可能是台灣發展全球化的重要資產。",
+            "simplified": "这些新移民的家庭和子女，其实可能是台湾发展全球化的重要资产。",
+            "pinyin": "zhè xiē xīn yí mín de jiā tíng hé zǐ nǚ ， qí shí kě néng shì tái wān fā zhǎn quán qiú huà de zhòng yào zī chǎn 。",
+            "meaningVi": "Gia đình và con cái của những người nhập cư mới này thực ra có thể là một tài sản quan trọng cho sự phát triển toàn cầu hóa của Đài Loan."
+          },
+          {
+            "speaker": "張太太",
+            "chinese": "面對不同文化，我們應以平等、尊重、學習的方式來相互了解。",
+            "simplified": "面对不同文化，我们应以平等、尊重、学习的方式来相互了解。",
+            "pinyin": "miàn duì bù tóng wén huà ， wǒ men yīng yǐ píng děng 、 zūn zhòng 、 xué xí de fāng shì lái xiāng hù liǎo jiě 。",
+            "meaningVi": "Khi tiếp xúc với các nền văn hóa khác nhau, chúng ta nên tìm hiểu lẫn nhau trên tinh thần bình đẳng, tôn trọng và học hỏi."
+          },
+          {
+            "speaker": "張先生",
+            "chinese": "面對新移民時，如果我們把他們當外人，他們就會成為外人；如果把他們當自己人，他們才會用自己人的態度面對我們。所以態度真的非常重要。",
+            "simplified": "面对新移民时，如果我们把他们当外人，他们就会成为外人；如果把他们当自己人，他们才会用自己人的态度面对我们。所以态度真的非常重要。",
+            "pinyin": "miàn duì xīn yí mín shí ， rú guǒ wǒ men bǎ tā men dāng wài rén ， tā men jiù huì chéng wèi wài rén ； rú guǒ bǎ tā men dāng zì jǐ rén ， tā men cái huì yòng zì jǐ rén de tài dù miàn duì wǒ men 。 suǒ yǐ tài dù zhēn de fēi cháng zhòng yào 。",
+            "meaningVi": "Khi đối diện với những người nhập cư mới, nếu chúng ta coi họ là người ngoài, thì họ sẽ trở thành người ngoài; nếu chúng ta coi họ là người của mình, thì họ mới đối xử với chúng ta bằng thái độ của người nhà. Vì vậy, thái độ thực sự rất quan trọng."
+          },
+          {
+            "speaker": "白如玉",
+            "chinese": "我非常同意你們的看法。今天真高興有機會跟你們聊了那麼多，也讓我對台灣有了更進一步的了解，真謝謝你們。",
+            "simplified": "我非常同意你们的看法。今天真高兴有机会跟你们聊了那么多，也让我对台湾有了更进一步的了解，真谢谢你们。",
+            "pinyin": "wǒ fēi cháng tóng yì nǐ men de kàn fǎ 。 jīn tiān zhēn gāo xìng yǒu jī huì gēn nǐ men liáo le nà me duō ， yě ràng wǒ duì tái wān yǒu le gèng jìn yī bù de liǎo jiě ， zhēn xiè xiè nǐ men 。",
+            "meaningVi": "Tôi hoàn toàn đồng ý với quan điểm của các bạn. Hôm nay tôi rất vui vì có cơ hội được trò chuyện nhiều với các bạn, và cũng giúp tôi hiểu thêm về Đài Loan. Cảm ơn các bạn rất nhiều."
+          },
+          {
+            "speaker": "張太太",
+            "chinese": "哪裡，哪裡，也謝謝妳這麼照顧小明，要常跟我們聯絡喔。",
+            "simplified": "哪里，哪里，也谢谢妳这么照顾小明，要常跟我们联络喔。",
+            "pinyin": "nǎ lǐ ， nǎ lǐ ， yě xiè xiè nǐ zhè me zhào gù xiǎo míng ， yào cháng gēn wǒ men lián luò ō 。",
+            "meaningVi": "Đâu có, đâu có, cảm ơn cô đã chăm sóc Tiểu Minh. Hãy thường xuyên liên lạc với chúng tôi nhé."
+          }
+        ]
+      },
+      {
+        "id": "cc4-v4-l11-reading-01",
+        "title": "Bài đọc: 多元文化新台灣",
+        "context": "Một góc nhìn về biến đổi dân số, giáo dục và đa văn hóa ở Đài Loan.",
+        "audioTrackId": "cc4-textbook-l11-t03",
+        "turns": [
+          {
+            "speaker": "Bài đọc",
+            "chinese": "白如玉來台灣以後，因為在補習班教英文的關係，而漸漸地和一些學生家長越來越熟。張先生夫婦就是那些家長之一，他們都曾在美國念書，所以對白如玉特別照顧。在台灣，除了學中文和嘗試多了解台灣的文化及社會外，白如玉也想多了解一些台灣這二、三十年來的發展。每次補習班有家長日，白如玉都一定參加，這樣就可多與那些家長談談了。",
+            "simplified": "白如玉来台湾以后，因为在补习班教英文的关系，而渐渐地和一些学生家长越来越熟。张先生夫妇就是那些家长之一，他们都曾在美国念书，所以对白如玉特别照顾。在台湾，除了学中文和尝试多了解台湾的文化及社会外，白如玉也想多了解一些台湾这二、三十年来的发展。每次补习班有家长日，白如玉都一定参加，这样就可多与那些家长谈谈了。",
+            "pinyin": "bái rú yù lái tái wān yǐ hòu ， yīn wèi zài bǔ xí bān jiào yīng wén de guān xì ， ér jiàn jiàn dì hé yī xiē xué shēng jiā zhǎng yuè lái yuè shú 。 zhāng xiān shēng fū fù jiù shì nà xiē jiā zhǎng zhī yī ， tā men dōu céng zài měi guó niàn shū ， suǒ yǐ duì bái rú yù tè bié zhào gù 。 zài tái wān ， chú le xué zhōng wén hé cháng shì duō liǎo jiě tái wān de wén huà jí shè huì wài ， bái rú yù yě xiǎng duō liǎo jiě yī xiē tái wān zhè èr 、 sān shí nián lái de fā zhǎn 。 měi cì bǔ xí bān yǒu jiā zhǎng rì ， bái rú yù dōu yí dìng cān jiā ， zhè yàng jiù kě duō yǔ nà xiē jiā zhǎng tán tán le 。",
+            "meaningVi": "Sau khi đến Đài Loan dạy tiếng Anh ở trung tâm, Bạch Như Ngọc dần thân với một số phụ huynh. Vợ chồng ông Trương là một trong số đó; vì từng học ở Mỹ, họ đặc biệt quan tâm đến cô. Ngoài học tiếng Hoa và tìm hiểu văn hóa, xã hội Đài Loan, cô còn muốn biết nơi đây đã thay đổi thế nào trong hai, ba thập niên qua. Cô luôn tham dự ngày gặp phụ huynh ở trung tâm để có dịp trò chuyện với họ."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "白如玉聽台灣朋友提過，台灣的社會結構這些年來產生了很大的轉變，尤其是台灣人口組成的變化。聽說現在每八個嬰兒中，就有一個雙親之一不是本國國籍，其中占最多數的是大陸籍與越南籍。以後這些兒童及其父母親的總人數將會占台灣人口相當的比例，對社會、經濟與政治發展都將產生影響。所有改變中，改變最多也是最根本的，將是種族與語言的多元化。可見將來所謂的「母語」，恐怕就不只是現有的國語、台語、客語與原住民語了。將來教育資源的分配與公平地對待就變得非常重要。",
+            "simplified": "白如玉听台湾朋友提过，台湾的社会结构这些年来产生了很大的转变，尤其是台湾人口组成的变化。听说现在每八个婴儿中，就有一个双亲之一不是本国国籍，其中占最多数的是大陆籍与越南籍。以后这些儿童及其父母亲的总人数将会占台湾人口相当的比例，对社会、经济与政治发展都将产生影响。所有改变中，改变最多也是最根本的，将是种族与语言的多元化。可见将来所谓的「母语」，恐怕就不只是现有的国语、台语、客语与原住民语了。将来教育资源的分配与公平地对待就变得非常重要。",
+            "pinyin": "bái rú yù tīng tái wān péng yǒu tí guò ， tái wān de shè huì jié gòu zhè xiē nián lái chǎn shēng le hěn dà de zhuǎn biàn ， yóu qí shì tái wān rén kǒu zǔ chéng de biàn huà 。 tīng shuō xiàn zài měi bā gè yīng ér zhōng ， jiù yǒu yī gè shuāng qīn zhī yī bú shì běn guó guó jí ， qí zhōng zhàn zuì duō shù de shì dà lù jí yǔ yuè nán jí 。 yǐ hòu zhè xiē ér tóng jí qí fù mǔ qīn de zǒng rén shù jiāng huì zhàn tái wān rén kǒu xiāng dāng de bǐ lì ， duì shè huì 、 jīng jì yǔ zhèng zhì fā zhǎn dōu jiāng chǎn shēng yǐng xiǎng 。 suǒ yǒu gǎi biàn zhōng ， gǎi biàn zuì duō yě shì zuì gēn běn de ， jiāng shì zhǒng zú yǔ yǔ yán de duō yuán huà 。 kě jiàn jiāng lái suǒ wèi de 「 mǔ yǔ 」 ， kǒng pà jiù bù zhǐ shì xiàn yǒu de guó yǔ 、 tái yǔ 、 kè yǔ yǔ yuán zhù mín yǔ le 。 jiāng lái jiào yù zī yuán de fēn pèi yǔ gōng píng dì duì dài jiù biàn dé fēi cháng zhòng yào 。",
+            "meaningVi": "Như Ngọc nghe bạn bè kể rằng cơ cấu xã hội Đài Loan đã thay đổi lớn trong những năm gần đây, nhất là thành phần dân số. Theo bài đọc, trong tám trẻ sơ sinh có một trẻ có cha hoặc mẹ không mang quốc tịch Đài Loan; nhiều nhất là người gốc Hoa đại lục và Việt Nam. Số trẻ này cùng cha mẹ sẽ chiếm một tỷ lệ đáng kể trong dân số, ảnh hưởng đến phát triển xã hội, kinh tế và chính trị. Thay đổi căn bản nhất là sự đa dạng về sắc tộc và ngôn ngữ. Vì vậy, “tiếng mẹ đẻ” trong tương lai có thể không chỉ gồm tiếng Hoa phổ thông, tiếng Đài, tiếng Khách Gia và tiếng của các dân tộc bản địa. Việc phân bổ nguồn lực giáo dục và đối xử công bằng sẽ càng quan trọng."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "學校不但要顧慮到學童的身心發展與適應，對缺乏課業指導的學童，也要積極輔導，不能讓這些學童輸在起跑點上，失去了競爭力，甚至沒有公平的發展機會。然而從正面的觀點來看，這種多種族、多元文化的社會也會加速台灣的全球化。另一方面，台灣地區的新生兒，近幾年已創下了歷史新低紀錄。出生率已有明顯的下降趨勢。因為這個趨勢會加速台灣社會的高齡化，對於下一個世代而言，將會是沉重的負擔。將來不但生產力不足，台灣也很難與別的國家一較長短。",
+            "simplified": "学校不但要顾虑到学童的身心发展与适应，对缺乏课业指导的学童，也要积极辅导，不能让这些学童输在起跑点上，失去了竞争力，甚至没有公平的发展机会。然而从正面的观点来看，这种多种族、多元文化的社会也会加速台湾的全球化。另一方面，台湾地区的新生儿，近几年已创下了历史新低纪录。出生率已有明显的下降趋势。因为这个趋势会加速台湾社会的高龄化，对于下一个世代而言，将会是沉重的负担。将来不但生产力不足，台湾也很难与别的国家一较长短。",
+            "pinyin": "xué xiào bù dàn yào gù lǜ dào xué tóng de shēn xīn fā zhǎn yǔ shì yīng ， duì quē fá kè yè zhǐ dǎo de xué tóng ， yě yào jī jí fǔ dǎo ， bù néng ràng zhè xiē xué tóng shū zài qǐ pǎo diǎn shàng ， shī qù le jìng zhēng lì ， shèn zhì méi yǒu gōng píng de fā zhǎn jī huì 。 rán ér cóng zhèng miàn de guān diǎn lái kàn ， zhè zhǒng duō zhǒng zú 、 duō yuán wén huà de shè huì yě huì jiā sù tái wān de quán qiú huà 。 lìng yì fāng miàn ， tái wān dì qū de xīn shēng ér ， jìn jǐ nián yǐ chuàng xià le lì shǐ xīn dī jì lù 。 chū shēng lǜ yǐ yǒu míng xiǎn de xià jiàng qū shì 。 yīn wèi zhè gè qū shì huì jiā sù tái wān shè huì de gāo líng huà ， duì yú xià yī gè shì dài ér yán ， jiāng huì shì chén zhòng de fù dān 。 jiāng lái bù dàn shēng chǎn lì bù zú ， tái wān yě hěn nán yǔ bié de guó jiā yī jiào zhǎng duǎn 。",
+            "meaningVi": "Nhà trường cần quan tâm đến thể chất, tinh thần và khả năng hòa nhập của trẻ. Những em thiếu người hướng dẫn học tập cũng cần được hỗ trợ, để không bị tụt lại từ vạch xuất phát và mất cơ hội phát triển công bằng. Nhìn theo hướng tích cực, một xã hội đa sắc tộc, đa văn hóa sẽ thúc đẩy Đài Loan hội nhập toàn cầu. Mặt khác, số trẻ mới sinh đã xuống mức thấp kỷ lục trong những năm gần đây. Tỷ lệ sinh giảm rõ rệt sẽ đẩy nhanh quá trình già hóa dân số và trở thành gánh nặng cho thế hệ sau. Năng lực sản xuất có thể thiếu hụt, khiến Đài Loan khó cạnh tranh với các nước khác."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "台灣若要持續發展，就應該正視新移民的家庭問題，並尊重、欣賞多元文化與積極面對其所帶來的衝擊。",
+            "simplified": "台湾若要持续发展，就应该正视新移民的家庭问题，并尊重、欣赏多元文化与积极面对其所带来的冲击。",
+            "pinyin": "tái wān ruò yào chí xù fā zhǎn ， jiù yīng gāi zhèng shì xīn yí mín de jiā tíng wèn tí ， bìng zūn zhòng 、 xīn shǎng duō yuán wén huà yǔ jī jí miàn duì qí suǒ dài lái de chōng jī 。",
+            "meaningVi": "Muốn tiếp tục phát triển, Đài Loan cần nhìn thẳng vào vấn đề của các gia đình nhập cư mới, tôn trọng và trân trọng sự đa dạng văn hóa, đồng thời chủ động đối diện với những thay đổi mà nó mang lại."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc4-v4-l11-check-01",
+        "prompt": "Vì sao tiếng Việt của Tiểu Minh kém đi?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Cậu không từng học tiếng Việt"
+          },
+          {
+            "id": "b",
+            "text": "Gia đình không nói tiếng Việt"
+          },
+          {
+            "id": "c",
+            "text": "Cậu ít có dịp nói và không chịu luyện với mẹ"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Bố mẹ nói cậu ít cơ hội dùng tiếng Việt ở Đài Loan và không chịu luyện với mẹ.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc4-v4-l11-check-02",
+        "prompt": "Theo bài đọc, điều gì cần được quan tâm khi dân số đa dạng hơn?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Chỉ dạy một ngôn ngữ"
+          },
+          {
+            "id": "b",
+            "text": "Bỏ qua trẻ thiếu hỗ trợ"
+          },
+          {
+            "id": "c",
+            "text": "Phân bổ giáo dục và đối xử công bằng"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Bài đọc nêu rõ nguồn lực giáo dục và sự đối xử công bằng trở nên quan trọng.",
+        "skill": "Đọc hiểu"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từng từ để xem phát âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc4-v4-l11-v001",
+      "cc4-v4-l11-v002",
+      "cc4-v4-l11-v003",
+      "cc4-v4-l11-v004",
+      "cc4-v4-l11-v005",
+      "cc4-v4-l11-v006",
+      "cc4-v4-l11-v007",
+      "cc4-v4-l11-v008",
+      "cc4-v4-l11-v009",
+      "cc4-v4-l11-v010",
+      "cc4-v4-l11-v011",
+      "cc4-v4-l11-v012",
+      "cc4-v4-l11-v013",
+      "cc4-v4-l11-v014",
+      "cc4-v4-l11-v015",
+      "cc4-v4-l11-v016",
+      "cc4-v4-l11-v017",
+      "cc4-v4-l11-v018",
+      "cc4-v4-l11-v019",
+      "cc4-v4-l11-v020",
+      "cc4-v4-l11-v021",
+      "cc4-v4-l11-v022",
+      "cc4-v4-l11-v023",
+      "cc4-v4-l11-v024",
+      "cc4-v4-l11-v025",
+      "cc4-v4-l11-v026",
+      "cc4-v4-l11-v027",
+      "cc4-v4-l11-v028",
+      "cc4-v4-l11-v029",
+      "cc4-v4-l11-v030",
+      "cc4-v4-l11-v031",
+      "cc4-v4-l11-v032",
+      "cc4-v4-l11-v033",
+      "cc4-v4-l11-v034",
+      "cc4-v4-l11-v035",
+      "cc4-v4-l11-v036",
+      "cc4-v4-l11-v037",
+      "cc4-v4-l11-v038",
+      "cc4-v4-l11-v039",
+      "cc4-v4-l11-v040",
+      "cc4-v4-l11-v041",
+      "cc4-v4-l11-v042",
+      "cc4-v4-l11-v043",
+      "cc4-v4-l11-v044",
+      "cc4-v4-l11-v045",
+      "cc4-v4-l11-v046",
+      "cc4-v4-l11-v047",
+      "cc4-v4-l11-v048",
+      "cc4-v4-l11-v049",
+      "cc4-v4-l11-v050",
+      "cc4-v4-l11-v051",
+      "cc4-v4-l11-v052",
+      "cc4-v4-l11-v053",
+      "cc4-v4-l11-v054",
+      "cc4-v4-l11-v055",
+      "cc4-v4-l11-v056",
+      "cc4-v4-l11-v057",
+      "cc4-v4-l11-v058",
+      "cc4-v4-l11-v059",
+      "cc4-v4-l11-v060",
+      "cc4-v4-l11-v061",
+      "cc4-v4-l11-v062",
+      "cc4-v4-l11-v063",
+      "cc4-v4-l11-v064",
+      "cc4-v4-l11-v065",
+      "cc4-v4-l11-v066",
+      "cc4-v4-l11-v067",
+      "cc4-v4-l11-v068",
+      "cc4-v4-l11-v069",
+      "cc4-v4-l11-v070",
+      "cc4-v4-l11-v071",
+      "cc4-v4-l11-v072",
+      "cc4-v4-l11-v073",
+      "cc4-v4-l11-v074",
+      "cc4-v4-l11-v075",
+      "cc4-v4-l11-v076",
+      "cc4-v4-l11-v077",
+      "cc4-v4-l11-v078",
+      "cc4-v4-l11-v079",
+      "cc4-v4-l11-v080",
+      "cc4-v4-l11-v081",
+      "cc4-v4-l11-v082",
+      "cc4-v4-l11-v083",
+      "cc4-v4-l11-v084",
+      "cc4-v4-l11-v085",
+      "cc4-v4-l11-v086",
+      "cc4-v4-l11-v087",
+      "cc4-v4-l11-v088",
+      "cc4-v4-l11-v089",
+      "cc4-v4-l11-v090",
+      "cc4-v4-l11-v091",
+      "cc4-v4-l11-v092",
+      "cc4-v4-l11-v093"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc4-v4-l11-grammar-01",
+      "title": "偏偏",
+      "structure": "偏偏 + mệnh đề trái mong đợi",
+      "explanation": "偏偏 diễn tả việc xảy ra trái ý hoặc trái điều người nói mong đợi; sắc thái thường là bực mình. Có thể đứng trước động từ hoặc cả mệnh đề, không nhất thiết lặp hai lần.",
+      "examples": [
+        {
+          "chinese": "我今天沒帶雨傘，希望別下雨，偏偏下午下起大雨來了。",
+          "simplified": "我今天没带雨伞，希望别下雨，偏偏下午下起大雨来了。",
+          "pinyin": "wǒ jīn tiān méi dài yǔ sǎn ， xī wàng bié xià yǔ ， piān piān xià wǔ xià qǐ dà yǔ lái le 。",
+          "meaningVi": "Hôm nay tôi không mang ô, mong trời đừng mưa, vậy mà chiều lại mưa to."
+        },
+        {
+          "chinese": "我請他別穿西裝來參加，他卻偏偏穿了黑色西裝來了。",
+          "simplified": "我请他别穿西装来参加，他却偏偏穿了黑色西装来了。",
+          "pinyin": "wǒ qǐng tā bié chuān xī zhuāng lái cān jiā ， tā què piān piān chuān le hēi sè xī zhuāng lái le 。",
+          "meaningVi": "Tôi bảo anh ấy đừng mặc vest, vậy mà anh ấy lại cứ mặc vest đen đến."
+        }
+      ],
+      "commonMistake": "Đừng dùng 偏偏 cho một sự việc đúng như mong muốn; nó nhấn sự trái ý.",
+      "check": {
+        "id": "cc4-v4-l11-grammar-check-01",
+        "prompt": "偏偏 cho biết điều gì trong 「他偏偏不聽」?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Anh ấy đang tập nghe"
+          },
+          {
+            "id": "b",
+            "text": "Anh ấy vẫn không nghe dù được nhắc"
+          },
+          {
+            "id": "c",
+            "text": "Anh ấy tình cờ không nghe"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Đó là việc trái ý người nói.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l11-t05"
+    },
+    {
+      "id": "cc4-v4-l11-grammar-02",
+      "title": "照",
+      "structure": "照 + động từ",
+      "explanation": "照 đi với động từ để nói ai vẫn cứ làm như thế, bất chấp lời khuyên hay hoàn cảnh. Trong bài, 小明「照說中文」 nghĩa là mẹ muốn cậu nói tiếng Việt nhưng cậu vẫn nói tiếng Hoa. Dạng này thường nhắc đến việc đã xảy ra.",
+      "examples": [
+        {
+          "chinese": "老師說不要寫，他們不聽，照寫。",
+          "simplified": "老师说不要写，他们不听，照写。",
+          "pinyin": "lǎo shī shuō bú yào xiě ， tā men bù tīng ， zhào xiě 。",
+          "meaningVi": "Giáo viên bảo đừng viết nhưng họ không nghe, vẫn cứ viết."
+        },
+        {
+          "chinese": "叫他別彈吉他了，但他還是照彈。",
+          "simplified": "叫他别弹吉他了，但他还是照弹。",
+          "pinyin": "jiào tā bié dàn jí tā le ， dàn tā hái shì zhào dàn 。",
+          "meaningVi": "Bảo anh ấy đừng chơi đàn nữa nhưng anh ấy vẫn chơi."
+        }
+      ],
+      "commonMistake": "Đừng hiểu 照說中文 là “nói theo ánh sáng”; 照 ở đây nghĩa là vẫn cứ.",
+      "check": {
+        "id": "cc4-v4-l11-grammar-check-02",
+        "prompt": "小明「照說中文」 nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Cậu nói tiếng Hoa rất nhỏ"
+          },
+          {
+            "id": "b",
+            "text": "Cậu vẫn nói tiếng Hoa"
+          },
+          {
+            "id": "c",
+            "text": "Cậu mới bắt đầu học tiếng Hoa"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "照 nhấn hành động vẫn tiếp diễn.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l11-t06"
+    },
+    {
+      "id": "cc4-v4-l11-grammar-03",
+      "title": "難得",
+      "structure": "難得 + động từ／真難得",
+      "explanation": "難得 dùng khi một việc ít có cơ hội xảy ra. Nó đứng trước động từ để nói “hiếm khi được…”; còn 真難得 là nhận xét rằng điều gì đó thật đáng quý, không dễ gặp.",
+      "examples": [
+        {
+          "chinese": "他給自己很大的壓力，難得看到他輕鬆的樣子。",
+          "simplified": "他给自己很大的压力，难得看到他轻松的样子。",
+          "pinyin": "tā gěi zì jǐ hěn dà de yā lì ， nán dé kàn dào tā qīng sōng de yàng zi 。",
+          "meaningVi": "Anh ấy tự gây áp lực lớn cho mình; hiếm khi thấy anh ấy thư thái."
+        },
+        {
+          "chinese": "妳會說那麼多種語言，真難得。",
+          "simplified": "妳会说那么多种语言，真难得。",
+          "pinyin": "nǐ huì shuō nà me duō zhǒng yǔ yán ， zhēn nán dé 。",
+          "meaningVi": "Bạn nói được nhiều ngôn ngữ như vậy, thật đáng nể."
+        }
+      ],
+      "commonMistake": "難得 không có nghĩa “khó mà đạt được” trong mọi ngữ cảnh; hãy xét cả câu.",
+      "check": {
+        "id": "cc4-v4-l11-grammar-check-03",
+        "prompt": "「難得看到他輕鬆的樣子」 nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Hiếm khi thấy anh ấy thư thái"
+          },
+          {
+            "id": "b",
+            "text": "Anh ấy luôn thư thái"
+          },
+          {
+            "id": "c",
+            "text": "Anh ấy sắp nghỉ việc"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "難得 ở đây chỉ sự hiếm gặp.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l11-t07"
+    },
+    {
+      "id": "cc4-v4-l11-grammar-04",
+      "title": "在…之餘",
+      "structure": "在 + hoạt động chính + 之餘，+ hoạt động khác",
+      "explanation": "Mẫu trang trọng này đặt hoạt động chính làm mốc, rồi nói một việc khác được làm vào lúc rảnh ngoài hoạt động ấy. Ví dụ 在工作之餘 là ngoài giờ làm. Không dùng 之餘 để chỉ hai hành động xảy ra đúng cùng một lúc.",
+      "examples": [
+        {
+          "chinese": "她在工作之餘也常常當志工。",
+          "simplified": "她在工作之余也常常当志工。",
+          "pinyin": "tā zài gōng zuò zhī yú yě cháng cháng dāng zhì gōng 。",
+          "meaningVi": "Ngoài giờ làm, cô ấy cũng thường làm tình nguyện."
+        },
+        {
+          "chinese": "農人們在農忙之餘，常舉行一些慶祝活動。",
+          "simplified": "农人们在农忙之余，常举行一些庆祝活动。",
+          "pinyin": "nóng rén men zài nóng máng zhī yú ， cháng jǔ xíng yī xiē qìng zhù huó dòng 。",
+          "meaningVi": "Ngoài lúc bận việc đồng áng, nông dân thường tổ chức một số hoạt động mừng lễ."
+        }
+      ],
+      "commonMistake": "Đừng hiểu 在…之餘 là “trong lúc đang…”; nó chỉ thời gian ngoài hoạt động chính.",
+      "check": {
+        "id": "cc4-v4-l11-grammar-check-04",
+        "prompt": "「在工作之餘當志工」 nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Làm tình nguyện ngoài giờ làm"
+          },
+          {
+            "id": "b",
+            "text": "Làm tình nguyện thay vì đi làm"
+          },
+          {
+            "id": "c",
+            "text": "Làm tình nguyện trong giờ làm"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "之餘 đặt việc phụ vào khoảng thời gian ngoài công việc chính.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l11-t08"
+    },
+    {
+      "id": "cc4-v4-l11-grammar-05",
+      "title": "難以",
+      "structure": "難以 + động từ hai âm tiết",
+      "explanation": "難以 là cách nói trang trọng cho “khó mà…”, thường đi trước động từ hoặc cụm động từ hai âm tiết. Trong bài, vì rào cản ngôn ngữ nên nhiều người 難以接受 hoặc 難以溝通, tức khó chấp nhận hoặc giao tiếp.",
+      "examples": [
+        {
+          "chinese": "由於語言的障礙，他們兩個人一直難以溝通。",
+          "simplified": "由于语言的障碍，他们两个人一直难以沟通。",
+          "pinyin": "yóu yú yǔ yán de zhàng ài ， tā men liǎng gè rén yì zhí nán yǐ gōu tōng 。",
+          "meaningVi": "Vì rào cản ngôn ngữ, hai người ấy luôn khó giao tiếp."
+        },
+        {
+          "chinese": "這個週末他請我去吃喜酒，我實在難以拒絕。",
+          "simplified": "这个周末他请我去吃喜酒，我实在难以拒绝。",
+          "pinyin": "zhè gè zhōu mò tā qǐng wǒ qù chī xǐ jiǔ ， wǒ shí zài nán yǐ jù jué 。",
+          "meaningVi": "Cuối tuần này anh ấy mời tôi dự tiệc cưới; tôi thật khó từ chối."
+        }
+      ],
+      "commonMistake": "Sau 難以 nên dùng động từ/cụm động từ, không dùng trực tiếp một danh từ.",
+      "check": {
+        "id": "cc4-v4-l11-grammar-check-05",
+        "prompt": "「難以溝通」 nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Không cần giao tiếp"
+          },
+          {
+            "id": "b",
+            "text": "Giao tiếp thường xuyên"
+          },
+          {
+            "id": "c",
+            "text": "Khó giao tiếp"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "難以 đứng trước hành động để nói việc đó khó thực hiện.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l11-t09"
+    },
+    {
+      "id": "cc4-v4-l11-grammar-06",
+      "title": "漸漸",
+      "structure": "漸漸（地）+ sự thay đổi",
+      "explanation": "漸漸 mô tả một quá trình thay đổi từng chút một theo thời gian. Nó có thể đứng trước 地 + động từ, hoặc trước một vị ngữ biểu thị biến đổi; khác với 突然 là xảy ra đột ngột.",
+      "examples": [
+        {
+          "chinese": "白如玉漸漸地和學生家長熟了。",
+          "simplified": "白如玉渐渐地和学生家长熟了。",
+          "pinyin": "bái rú yù jiàn jiàn dì hé xué shēng jiā zhǎng shú le 。",
+          "meaningVi": "Bạch Như Ngọc dần dần thân với phụ huynh học sinh."
+        },
+        {
+          "chinese": "學了客語以後，我漸漸地聽得懂了。",
+          "simplified": "学了客语以后，我渐渐地听得懂了。",
+          "pinyin": "xué le kè yǔ yǐ hòu ， wǒ jiàn jiàn dì tīng dé dǒng le 。",
+          "meaningVi": "Sau khi học tiếng Khách Gia, tôi dần dần nghe hiểu."
+        }
+      ],
+      "commonMistake": "Đừng dùng 漸漸 cho sự kiện chỉ xảy ra tức thì, không có quá trình.",
+      "check": {
+        "id": "cc4-v4-l11-grammar-check-06",
+        "prompt": "「漸漸地熟了」 nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Đột nhiên quên nhau"
+          },
+          {
+            "id": "b",
+            "text": "Lâu rồi không gặp"
+          },
+          {
+            "id": "c",
+            "text": "Dần dần trở nên thân quen"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "漸漸 nói về thay đổi theo thời gian.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l11-t10"
+    },
+    {
+      "id": "cc4-v4-l11-grammar-07",
+      "title": "可見",
+      "structure": "sự kiện / bằng chứng，可見 + kết luận",
+      "explanation": "可見 nối quan sát hoặc bằng chứng với một kết luận rút ra từ đó. Nó không chỉ có nghĩa “có thể nhìn thấy” bằng mắt. Trong bài, thay đổi dân số và ngôn ngữ dẫn tới nhận định giáo dục cần đối xử công bằng hơn.",
+      "examples": [
+        {
+          "chinese": "有錢的人越來越有錢，窮人越來越窮，可見貧富不均的情況越來越嚴重了。",
+          "simplified": "有钱的人越来越有钱，穷人越来越穷，可见贫富不均的情况越来越严重了。",
+          "pinyin": "yǒu qián de rén yuè lái yuè yǒu qián ， qióng rén yuè lái yuè qióng ， kě jiàn pín fù bù jūn de qíng kuàng yuè lái yuè yán zhòng le 。",
+          "meaningVi": "Người giàu càng giàu, người nghèo càng nghèo; như vậy có thể thấy chênh lệch giàu nghèo ngày càng nghiêm trọng."
+        },
+        {
+          "chinese": "他還年輕就有了自己的事業，可見他多麼努力。",
+          "simplified": "他还年轻就有了自己的事业，可见他多么努力。",
+          "pinyin": "tā hái nián qīng jiù yǒu le zì jǐ de shì yè ， kě jiàn tā duō me nǔ lì 。",
+          "meaningVi": "Anh ấy còn trẻ mà đã có sự nghiệp riêng; như vậy có thể thấy anh ấy nỗ lực đến mức nào."
+        }
+      ],
+      "commonMistake": "Sau 可見 phải là nhận định suy ra từ thông tin trước đó, không phải một ý không liên quan.",
+      "check": {
+        "id": "cc4-v4-l11-grammar-check-07",
+        "prompt": "Trong 「人口轉變很大，可見教育資源需要調整」, 可見 làm gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Chỉ một cảnh vật nhìn thấy"
+          },
+          {
+            "id": "b",
+            "text": "Chỉ sự việc trong quá khứ"
+          },
+          {
+            "id": "c",
+            "text": "Dẫn tới kết luận từ thông tin trước"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "可見 nối bằng chứng với kết luận.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l11-t11"
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc4-v4-l11-listening-01",
+      "prompt": "Nghe hội thoại: Tiểu Minh thường nói ngôn ngữ nào dù mẹ muốn cậu nói tiếng Việt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tiếng Anh"
+        },
+        {
+          "id": "b",
+          "text": "Tiếng Khách Gia"
+        },
+        {
+          "id": "c",
+          "text": "Tiếng Hoa"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Mẹ nói cậu vẫn cứ nói tiếng Hoa.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l11-t01"
+    },
+    {
+      "id": "cc4-v4-l11-listening-02",
+      "prompt": "Nghe hội thoại: bà Trương làm gì ngoài giờ làm?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dạy tiếng Anh ở trường"
+        },
+        {
+          "id": "b",
+          "text": "Làm ở nhà hàng"
+        },
+        {
+          "id": "c",
+          "text": "Làm tình nguyện ở trung tâm giao lưu đa văn hóa"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Chồng bà nói bà thường đến trung tâm làm tình nguyện.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l11-t01"
+    },
+    {
+      "id": "cc4-v4-l11-listening-03",
+      "prompt": "Nghe bài đọc: điều gì đang giảm rõ rệt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Số người nhập cư"
+        },
+        {
+          "id": "b",
+          "text": "Tỷ lệ sinh"
+        },
+        {
+          "id": "c",
+          "text": "Số trường học"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nói 出生率已有明顯的下降趨勢.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l11-t03"
+    },
+    {
+      "id": "cc4-v4-l11-listening-04",
+      "prompt": "Nghe bài đọc: xã hội đa văn hóa có thể góp phần vào điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Làm biến mất các gia đình mới"
+        },
+        {
+          "id": "b",
+          "text": "Thúc đẩy Đài Loan hội nhập toàn cầu"
+        },
+        {
+          "id": "c",
+          "text": "Loại bỏ mọi ngôn ngữ khác"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nêu rằng đa dạng văn hóa có thể 加速台灣的全球化.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l11-t03"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc4-v4-l11-practice-01",
+      "prompt": "他不肯跟媽媽說越南話，____說中文。",
+      "options": [
+        {
+          "id": "a",
+          "text": "照"
+        },
+        {
+          "id": "b",
+          "text": "可見"
+        },
+        {
+          "id": "c",
+          "text": "難以"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "照說 diễn tả vẫn cứ nói.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l11-practice-02",
+      "prompt": "希望今天別下雨，____下午下起大雨來了。",
+      "options": [
+        {
+          "id": "a",
+          "text": "可見"
+        },
+        {
+          "id": "b",
+          "text": "偏偏"
+        },
+        {
+          "id": "c",
+          "text": "漸漸"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "偏偏 diễn tả việc trái mong đợi.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l11-practice-03",
+      "prompt": "她在工作____常常去當志工。",
+      "options": [
+        {
+          "id": "a",
+          "text": "之餘"
+        },
+        {
+          "id": "b",
+          "text": "之中"
+        },
+        {
+          "id": "c",
+          "text": "之後"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "在工作之餘 nghĩa là ngoài giờ làm.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l11-practice-04",
+      "prompt": "因為語言不同，他們____溝通。",
+      "options": [
+        {
+          "id": "a",
+          "text": "難以"
+        },
+        {
+          "id": "b",
+          "text": "偏偏"
+        },
+        {
+          "id": "c",
+          "text": "照"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "難以 đứng trước động từ để nói khó thực hiện.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l11-practice-05",
+      "prompt": "來台灣以後，她____適應了這裡的生活。",
+      "options": [
+        {
+          "id": "a",
+          "text": "漸漸"
+        },
+        {
+          "id": "b",
+          "text": "偏偏"
+        },
+        {
+          "id": "c",
+          "text": "難得"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "漸漸 diễn tả quá trình thay đổi.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l11-practice-06",
+      "prompt": "新移民的孩子可能 giúp ích gì cho Đài Loan?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Khiến mọi gia đình rời Đài Loan"
+        },
+        {
+          "id": "b",
+          "text": "Góp phần vào quá trình toàn cầu hóa"
+        },
+        {
+          "id": "c",
+          "text": "Làm giảm số ngôn ngữ"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Ông Trương gọi các gia đình mới là tài sản quan trọng cho toàn cầu hóa.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc4-v4-l11-practice-07",
+      "prompt": "「母語」 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tiếng nước ngoài"
+        },
+        {
+          "id": "b",
+          "text": "Tiếng dùng trong bài thi"
+        },
+        {
+          "id": "c",
+          "text": "Tiếng mẹ đẻ"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "母語 là ngôn ngữ đầu đời của một người.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc4-v4-l11-practice-08",
+      "prompt": "Theo bài đọc, trẻ thiếu người hướng dẫn học tập cần được làm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ học ở nhà"
+        },
+        {
+          "id": "b",
+          "text": "Được hỗ trợ để có cơ hội phát triển công bằng"
+        },
+        {
+          "id": "c",
+          "text": "Bị loại khỏi trường"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nói cần tích cực 輔導, không để các em thua ngay từ vạch xuất phát.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc4-v4-l11-assessment-01",
+      "prompt": "「偏偏」 diễn tả điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Việc đã được dự đoán đúng"
+        },
+        {
+          "id": "b",
+          "text": "Việc sẽ luôn xảy ra"
+        },
+        {
+          "id": "c",
+          "text": "Việc trái với mong muốn"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "偏偏 mang sắc thái trái ý.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l11-assessment-02",
+      "prompt": "「口音」 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bài tập phát âm"
+        },
+        {
+          "id": "b",
+          "text": "Giọng địa phương / giọng nói đặc trưng"
+        },
+        {
+          "id": "c",
+          "text": "Ngôn ngữ mẹ đẻ"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "口音 là accent.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc4-v4-l11-assessment-03",
+      "prompt": "「在工作之餘」 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ngoài lúc làm việc"
+        },
+        {
+          "id": "b",
+          "text": "Đang làm việc"
+        },
+        {
+          "id": "c",
+          "text": "Trước khi bắt đầu làm việc"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "之餘 chỉ thời gian ngoài hoạt động chính.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l11-assessment-04",
+      "prompt": "Bà Trương học tiếng Hoa khi nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sau khi nghỉ hưu"
+        },
+        {
+          "id": "b",
+          "text": "Sau khi đến Đài Loan học đại học"
+        },
+        {
+          "id": "c",
+          "text": "Từ nhỏ ở nhà tại Mỹ"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bà nói đến Đài Loan học đại học rồi mới bắt đầu học tiếng Hoa.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc4-v4-l11-assessment-05",
+      "prompt": "Vì sao một số người phối ngẫu nước ngoài khó hòa nhập?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Không muốn gặp ai"
+        },
+        {
+          "id": "b",
+          "text": "Không có trung tâm hỗ trợ"
+        },
+        {
+          "id": "c",
+          "text": "Khó thích nghi và gặp rào cản ngôn ngữ"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bà Trương nhắc tới khó khăn thích nghi và giao tiếp.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc4-v4-l11-assessment-06",
+      "prompt": "「可見」 nối hai ý theo quan hệ nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thứ tự thời gian"
+        },
+        {
+          "id": "b",
+          "text": "Bằng chứng rồi kết luận"
+        },
+        {
+          "id": "c",
+          "text": "Nguyên nhân rồi nhượng bộ"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "可見 dẫn ra kết luận từ điều đã nêu.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l11-assessment-07",
+      "prompt": "「漸漸」 diễn tả điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Xảy ra bất ngờ"
+        },
+        {
+          "id": "b",
+          "text": "Không bao giờ thay đổi"
+        },
+        {
+          "id": "c",
+          "text": "Thay đổi dần dần"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "漸漸 chỉ quá trình từng bước.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l11-assessment-08",
+      "prompt": "Theo bài đọc, tỷ lệ sinh ở Đài Loan ra sao?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tăng rất nhanh"
+        },
+        {
+          "id": "b",
+          "text": "Không thay đổi"
+        },
+        {
+          "id": "c",
+          "text": "Đang giảm rõ rệt"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc nói 出生率已有明顯的下降趨勢.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc4-v4-l11-assessment-09",
+      "prompt": "「難以溝通」 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Không cần nói chuyện"
+        },
+        {
+          "id": "b",
+          "text": "Giao tiếp rất giỏi"
+        },
+        {
+          "id": "c",
+          "text": "Khó giao tiếp"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "難以 + động từ nghĩa là khó thực hiện việc đó.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l11-assessment-10",
+      "prompt": "Bài đọc đề nghị thái độ nào với gia đình nhập cư mới?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tôn trọng đa dạng và đối diện vấn đề"
+        },
+        {
+          "id": "b",
+          "text": "Phớt lờ sự khác biệt"
+        },
+        {
+          "id": "c",
+          "text": "Chỉ nói một ngôn ngữ"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Đoạn cuối nói cần 正視 và 尊重 đa văn hóa.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "writingTask": {
+    "id": "cc4-v4-l11-writing",
+    "title": "Nói về một cộng đồng đa ngôn ngữ",
+    "prompt": "Viết vài câu về những ngôn ngữ trong gia đình hoặc cộng đồng của bạn, và cách mọi người hiểu nhau.",
+    "sampleTraditional": "我的家人會說不同的語言。雖然有時候難以溝通，但我們漸漸學會互相尊重。",
+    "sampleSimplified": "我的家人会说不同的语言。虽然有时候难以沟通，但我们渐渐学会互相尊重。"
+  }
+}

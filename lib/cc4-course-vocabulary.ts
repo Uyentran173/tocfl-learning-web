@@ -8,6 +8,7 @@ import lesson07Source from "../data/academy/cc4-lesson07-vocabulary.json" with {
 import lesson08Source from "../data/academy/cc4-lesson08-vocabulary.json" with { type: "json" };
 import lesson09Source from "../data/academy/cc4-lesson09-vocabulary.json" with { type: "json" };
 import lesson10Source from "../data/academy/cc4-lesson10-vocabulary.json" with { type: "json" };
+import lesson11Source from "../data/academy/cc4-lesson11-vocabulary.json" with { type: "json" };
 import { cc1Lesson01Words } from "./cc1-lesson01-vocabulary.ts";
 import { cc1CourseVocabularySets } from "./cc1-course-vocabulary.ts";
 import { cc2VocabularySets } from "./cc2-course-vocabulary.ts";
@@ -216,6 +217,26 @@ export const cc4Lesson10Words: VocabularyWord[] = lesson10Source.records.map((re
     translation: record.exampleVi,
   });
 
+export const cc4Lesson11Words: VocabularyWord[] = lesson11Source.records.map((record) =>
+  [...previousWords, ...cc4Lesson01Words, ...cc4Lesson02Words, ...cc4Lesson03Words, ...cc4Lesson04Words, ...cc4Lesson05Words, ...cc4Lesson06Words, ...cc4Lesson07Words, ...cc4Lesson08Words, ...cc4Lesson09Words, ...cc4Lesson10Words].find((word) =>
+    word.traditional === record.traditional && normalized(word.pinyin) === normalized(record.pinyin),
+  ) ?? {
+    id: record.id,
+    source: "textbook",
+    sourceRecordId: record.id,
+    sourceLabel: "Giáo trình tiếng Hoa đương đại · Tập 4 · Bài 11",
+    hanzi: record.traditional,
+    traditional: record.traditional,
+    simplified: record.simplified,
+    pinyin: record.pinyin,
+    meaning: record.meaningVi,
+    wordClass: record.wordClass,
+    example: record.exampleTraditional,
+    exampleTraditional: record.exampleTraditional,
+    exampleSimplified: record.exampleSimplified,
+    translation: record.exampleVi,
+  });
+
 export const cc4VocabularySets: VocabularySet[] = [
   {
     id: source.lessonId,
@@ -276,5 +297,11 @@ export const cc4VocabularySets: VocabularySet[] = [
     title: "Bài 10 · 應徵",
     subtitle: "Ứng tuyển việc làm",
     words: cc4Lesson10Words,
+  },
+  {
+    id: lesson11Source.lessonId,
+    title: "Bài 11 · 文化、種族的大熔爐",
+    subtitle: "Nơi hội tụ nhiều nền văn hóa và sắc tộc",
+    words: cc4Lesson11Words,
   },
 ];

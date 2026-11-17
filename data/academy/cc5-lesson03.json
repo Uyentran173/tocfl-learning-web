@@ -1,0 +1,1364 @@
+{
+  "contentVersion": 2,
+  "id": "cc5-v5-l03",
+  "title": "整型好不好",
+  "titleVi": "Phẫu thuật thẩm mỹ: nên hay không?",
+  "description": "Đọc hai lập luận trái chiều về phẫu thuật thẩm mỹ, phân biệt áp lực xã hội, quyền lựa chọn và rủi ro.",
+  "objectives": [
+    "Xác định luận điểm chính và bằng chứng của mỗi bài đọc.",
+    "Dùng 11 mẫu ngữ pháp trong bài để mô tả xu hướng, thay đổi và phản biện.",
+    "Viết một ý kiến ngắn có căn cứ và thừa nhận quan điểm khác."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Hai tác giả nhìn cùng một vấn đề từ hai phía: rủi ro và tác động xã hội; quyền quyết định về cơ thể mình. Đọc từng lập luận trước khi đánh giá.",
+    "sections": [
+      {
+        "id": "cc5-v5-l03-section-01",
+        "title": "Chuẩn đẹp và áp lực xã hội",
+        "body": "Bài 1 hỏi liệu ngoại hình có thật sự mang lại tự tin và cơ hội, rồi đối chiếu với năng lực bên trong.",
+        "chinese": "把時間和金錢投資在這些內在能力上，才是更重要的。",
+        "simplified": "把时间和金钱投资在这些内在能力上，才是更重要的。",
+        "pinyin": "bǎ shí jiān hé jīn qián tóu zī zài zhè xiē nèi zài néng lì shàng ， cái shì gèng zhòng yào de 。",
+        "meaningVi": "Đầu tư thời gian và tiền bạc cho năng lực bên trong mới quan trọng hơn."
+      },
+      {
+        "id": "cc5-v5-l03-section-02",
+        "title": "Quyền lựa chọn và bằng chứng",
+        "body": "Bài 2 cho rằng mỗi người có quyền chọn diện mạo và nhấn vào sự tiến bộ của y học. Hãy phân biệt ý kiến của tác giả với một sự thật đã kiểm chứng.",
+        "chinese": "身體是自己的，自己的樣子當然由自己決定。",
+        "simplified": "身体是自己的，自己的样子当然由自己决定。",
+        "pinyin": "shēn tǐ shì zì jǐ de ， zì jǐ de yàng zi dāng rán yóu zì jǐ jué dìng 。",
+        "meaningVi": "Cơ thể là của mình; diện mạo của mình đương nhiên do mình quyết định."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc5-v5-l03-reading1",
+        "title": "Bài đọc 1 · Thận trọng với phẫu thuật thẩm mỹ",
+        "context": "Tác giả phân tích tác động của chuẩn đẹp và rủi ro y tế.",
+        "audioTrackId": "cc5-textbook-l03-t02",
+        "turns": [
+          {
+            "speaker": "Tác giả",
+            "chinese": "近年來，人們越來越重視外表，整型有年輕化的趨勢，甚至出現了「顏值」這樣的詞。贊成的人認為，整型可以帶來自信、增加機會，完全是與他人無關的個人選擇。然而事實上，整型卻深深地影響著整個社會的價值觀。整型真能讓人更美、更有自信嗎？並不盡然。許多想要整型的年輕人拿著明星的照片，要求醫生整出一樣的高鼻子、大眼睛，這是媒體洗腦的結果。不少亞洲人認為白皮膚、細腰、豐胸、長腿、高挺的鼻子、水汪汪的大眼才是美。記得媒體報導了某場選美比賽，三十四位參賽者幾乎都長得一樣！那是他們原來的樣子嗎？很多人原本就長得不差，只因為在意外界的眼光而不斷整型，這不是和「整型可以帶來自信」相互矛盾嗎？外貌無法為我們帶來美滿的感情、順利的職涯，只有內在才可以。由於越來越多的人認為現在社會「以貌取人」，因此不計一切要讓自己看起來更英俊、漂亮，好讓自己獲得更多青睞或機會。然而，一項研究指出，男女在選擇對象的時候，友善和智力比外表更重要。同樣地，職場上需要的能力，例如團隊合作、領導能力、溝通能力等，都不是整型能帶來的。把時間和金錢投資在這些內在能力上，才是更重要的。",
+            "simplified": "近年来，人们越来越重视外表，整型有年轻化的趋势，甚至出现了「颜值」这样的词。赞成的人认为，整型可以带来自信、增加机会，完全是与他人无关的个人选择。然而事实上，整型却深深地影响着整个社会的价值观。整型真能让人更美、更有自信吗？并不尽然。许多想要整型的年轻人拿着明星的照片，要求医生整出一样的高鼻子、大眼睛，这是媒体洗脑的结果。不少亚洲人认为白皮肤、细腰、丰胸、长腿、高挺的鼻子、水汪汪的大眼才是美。记得媒体报导了某场选美比赛，三十四位参赛者几乎都长得一样！那是他们原来的样子吗？很多人原本就长得不差，只因为在意外界的眼光而不断整型，这不是和「整型可以带来自信」相互矛盾吗？外貌无法为我们带来美满的感情、顺利的职涯，只有内在才可以。由于越来越多的人认为现在社会「以貌取人」，因此不计一切要让自己看起来更英俊、漂亮，好让自己获得更多青睐或机会。然而，一项研究指出，男女在选择对象的时候，友善和智力比外表更重要。同样地，职场上需要的能力，例如团队合作、领导能力、沟通能力等，都不是整型能带来的。把时间和金钱投资在这些内在能力上，才是更重要的。",
+            "pinyin": "jìn nián lái ， rén men yuè lái yuè zhòng shì wài biǎo ， zhěng xíng yǒu nián qīng huà de qū shì ， shèn zhì chū xiàn le 「 yán zhí 」 zhè yàng de cí 。 zàn chéng de rén rèn wèi ， zhěng xíng kě yǐ dài lái zì xìn 、 zēng jiā jī huì ， wán quán shì yǔ tā rén wú guān de gè rén xuǎn zé 。 rán ér shì shí shàng ， zhěng xíng què shēn shēn dì yǐng xiǎng zhù zhěng gè shè huì de jià zhí guān 。 zhěng xíng zhēn néng ràng rén gèng měi 、 gèng yǒu zì xìn ma ？ bìng bù jǐn rán 。 xǔ duō xiǎng yào zhěng xíng de nián qīng rén ná zhù míng xīng de zhào piān ， yāo qiú yī shēng zhěng chū yī yàng de gāo bí zi 、 dà yǎn jīng ， zhè shì méi tǐ xǐ nǎo de jié guǒ 。 bù shǎo yà zhōu rén rèn wèi bái pí fū 、 xì yāo 、 fēng xiōng 、 zhǎng tuǐ 、 gāo tǐng de bí zi 、 shuǐ wāng wāng de dà yǎn cái shì měi 。 jì dé méi tǐ bào dǎo le mǒu chǎng xuǎn měi bǐ sài ， sān shí sì wèi cān sài zhě jǐ hū dōu zhǎng dé yī yàng ！ nà shì tā men yuán lái de yàng zi ma ？ hěn duō rén yuán běn jiù zhǎng dé bù chà ， zhǐ yīn wèi zài yì wài jiè de yǎn guāng ér bù duàn zhěng xíng ， zhè bú shì hé 「 zhěng xíng kě yǐ dài lái zì xìn 」 xiāng hù máo dùn ma ？ wài mào wú fǎ wèi wǒ men dài lái měi mǎn de gǎn qíng 、 shùn lì de zhí yá ， zhǐ yǒu nèi zài cái kě yǐ 。 yóu yú yuè lái yuè duō de rén rèn wèi xiàn zài shè huì 「 yǐ mào qǔ rén 」 ， yīn cǐ bù jì yī qiè yào ràng zì jǐ kàn qǐ lái gèng yīng jùn 、 piào liàng ， hǎo ràng zì jǐ huò dé gèng duō qīng lài huò jī huì 。 rán ér ， yī xiàng yán jiū zhǐ chū ， nán nǚ zài xuǎn zé duì xiàng de shí hòu ， yǒu shàn hé zhì lì bǐ wài biǎo gèng zhòng yào 。 tóng yàng dì ， zhí chǎng shàng xū yào de néng lì ， lì rú tuán duì hé zuò 、 lǐng dǎo néng lì 、 gōu tōng néng lì děng ， dōu bú shì zhěng xíng néng dài lái de 。 bǎ shí jiān hé jīn qián tóu zī zài zhè xiē nèi zài néng lì shàng ， cái shì gèng zhòng yào de 。",
+            "meaningVi": "Gần đây, con người ngày càng quan tâm đến ngoại hình, người làm phẫu thuật thẩm mỹ ngày càng trẻ, thậm chí xuất hiện khái niệm “độ đẹp ngoại hình”. Những người ủng hộ cho rằng phẫu thuật thẩm mỹ có thể mang lại sự tự tin, mở ra cơ hội, hoàn toàn là lựa chọn cá nhân không liên quan đến người khác. Tuy nhiên, thực tế cho thấy, phẫu thuật thẩm mỹ đã ảnh hưởng sâu sắc đến quan niệm giá trị trong xã hội. Liệu phẫu thuật thẩm mỹ thực sự có thể làm cho người ta đẹp hơn, tự tin hơn không? Không hẳn. Nhiều người trẻ muốn làm phẫu thuật thẩm mỹ, cầm ảnh các ngôi sao, yêu cầu bác sĩ tạo ra chiếc mũi cao, đôi mắt to giống hệt họ. Đây là hệ quả của việc truyền thông tác động đến suy nghĩ của họ. Nhiều người châu Á cho rằng da trắng, dáng thon, ngực lớn, chân dài, mũi cao và đôi mắt to long lanh là vẻ đẹp. Tôi nhớ một bài báo truyền thông về một cuộc thi sắc đẹp, trong đó 34 thí sinh gần như đều có ngoại hình giống nhau! Đó có phải là ngoại hình thật của họ không? Nhiều người vốn đã có ngoại hình khá tốt, chỉ vì sợ bị đánh giá từ xã hội mà liên tục làm phẫu thuật, điều này có mâu thuẫn với quan điểm \"phẫu thuật thẩm mỹ mang lại tự tin\" không? Ngoại hình không thể mang lại những mối quan hệ hạnh phúc hay sự nghiệp thuận lợi, chỉ có nội tại mới có thể làm điều đó. Vì ngày nay, nhiều người cho rằng xã hội \"dựa vào ngoại hình để đánh giá\", nên họ bằng mọi giá để trông mình đẹp hơn, nhằm thu hút sự chú ý và cơ hội. Tuy nhiên, một nghiên cứu cho thấy, khi chọn người yêu, cả nam và nữ đều ưu tiên tính cách thân thiện và trí tuệ hơn là ngoại hình. Tương tự, các kỹ năng cần thiết trong môi trường làm việc như làm việc nhóm, năng lực lãnh đạo, kỹ năng giao tiếp... đều không thể được mang lại chỉ bằng phẫu thuật thẩm mỹ. Việc đầu tư thời gian và tiền bạc vào các năng lực nội tại mới là điều quan trọng hơn."
+          },
+          {
+            "speaker": "Tác giả",
+            "chinese": "整型畢竟是醫療行為，儘管技術日漸進步，但是媒體仍常報導整型失敗的例子：有的人整型後胸部大小不一、鼻子歪斜、臉部變形，甚至有人在手術中因失血過多而死。更有不少人整型後飽受各種後遺症、副作用之苦。這些問題都證明，無論醫療科技多麼進步，整型手術還是有一定的風險，對生理和心理都會帶來巨大衝擊，並不值得拿自己的生命來冒險。整型原來是希望幫助那些遭受意外、影響健康的人重建外觀、恢復身體功能及信心，如今卻成為追求自信和獲得機會的捷徑。雖然這是個人的選擇，但當整型從「需要」變成「想要」，進而形成一股風氣時，我們就不得不更謹慎地看待它所帶來的影響。",
+            "simplified": "整型毕竟是医疗行为，尽管技术日渐进步，但是媒体仍常报导整型失败的例子：有的人整型后胸部大小不一、鼻子歪斜、脸部变形，甚至有人在手术中因失血过多而死。更有不少人整型后饱受各种后遗症、副作用之苦。这些问题都证明，无论医疗科技多么进步，整型手术还是有一定的风险，对生理和心理都会带来巨大冲击，并不值得拿自己的生命来冒险。整型原来是希望帮助那些遭受意外、影响健康的人重建外观、恢复身体功能及信心，如今却成为追求自信和获得机会的捷径。虽然这是个人的选择，但当整型从「需要」变成「想要」，进而形成一股风气时，我们就不得不更谨慎地看待它所带来的影响。",
+            "pinyin": "zhěng xíng bì jìng shì yī liáo xíng wèi ， jǐn guǎn jì shù rì jiàn jìn bù ， dàn shì méi tǐ réng cháng bào dǎo zhěng xíng shī bài de lì zi ： yǒu de rén zhěng xíng hòu xiōng bù dà xiǎo bù yī 、 bí zi wāi xié 、 liǎn bù biàn xíng ， shèn zhì yǒu rén zài shǒu shù zhōng yīn shī xuè guò duō ér sǐ 。 gèng yǒu bù shǎo rén zhěng xíng hòu bǎo shòu gè zhǒng hòu yí zhèng 、 fù zuò yòng zhī kǔ 。 zhè xiē wèn tí dōu zhèng míng ， wú lùn yī liáo kē jì duō me jìn bù ， zhěng xíng shǒu shù hái shì yǒu yí dìng de fēng xiǎn ， duì shēng lǐ hé xīn lǐ dōu huì dài lái jù dà chōng jī ， bìng bù zhí dé ná zì jǐ de shēng mìng lái mào xiǎn 。 zhěng xíng yuán lái shì xī wàng bāng zhù nà xiē zāo shòu yì wài 、 yǐng xiǎng jiàn kāng de rén chóng jiàn wài guān 、 huī fù shēn tǐ gōng néng jí xìn xīn ， rú jīn què chéng wèi zhuī qiú zì xìn hé huò dé jī huì de jié jìng 。 suī rán zhè shì gè rén de xuǎn zé ， dàn dāng zhěng xíng cóng 「 xū yào 」 biàn chéng 「 xiǎng yào 」 ， jìn ér xíng chéng yī gǔ fēng qì shí ， wǒ men jiù bù dé bù gèng jǐn shèn dì kàn dài tā suǒ dài lái de yǐng xiǎng 。",
+            "meaningVi": "Phẫu thuật thẩm mỹ vẫn là một hành vi y tế. Dù công nghệ ngày càng phát triển, nhưng truyền thông vẫn thường đưa tin các trường hợp thất bại sau phẫu thuật: một số người sau khi thẩm mỹ thì ngực không đều, mũi lệch, khuôn mặt biến dạng, thậm chí có người đã tử vong trong quá trình phẫu thuật do mất máu quá nhiều. Nhiều người khác phải chịu các biến chứng, tác dụng phụ sau phẫu thuật. Những vấn đề này cho thấy, dù công nghệ y tế đã tiến bộ đến đâu, phẫu thuật thẩm mỹ vẫn có rủi ro nhất định, gây tác động lớn đến cả thể chất lẫn tinh thần, và không đáng để đánh cược tính mạng. Ban đầu, thẩm mỹ được kỳ vọng giúp những người bị tai nạn hoặc ảnh hưởng đến sức khỏe khôi phục diện mạo, chức năng cơ thể và sự tự tin. Nhưng hiện nay, nó lại trở thành đường tắt để đạt được sự tự tin và cơ hội. Dù đây là lựa chọn cá nhân, nhưng khi phẫu thuật thẩm mỹ chuyển từ \"cần thiết\" sang \"muốn có\", và dần trở thành một làn sóng, thì chúng ta không thể không cân nhắc cẩn trọng hơn đến những hệ lụy mà nó mang lại."
+          }
+        ]
+      },
+      {
+        "id": "cc5-v5-l03-reading2",
+        "title": "Bài đọc 2 · Quyền lựa chọn của mỗi người",
+        "context": "Tác giả bênh vực lựa chọn cá nhân và lập luận về cơ hội.",
+        "audioTrackId": "cc5-textbook-l03-t06",
+        "turns": [
+          {
+            "speaker": "Tác giả",
+            "chinese": "近年來，社會吹起一股整型風，接受整型手術的人不分男女老少，甚至出現「整型旅遊」這樣的產品，可見整型已從醫療行為變成極具潛力的消費商品。反對者總是用一堆道德的理由阻止，然而追求完美是人的天性，也是個人的選擇。若沒有好處，怎麼會讓那麼多人不計一切代價去整型？長得好看到底有沒有好處？絕對有。第一印象非常重要，而整型手術就像化妝、打扮一樣，是一種讓你更漂亮、更有自信的方式，對求職、人際關係都有幫助。許多職業都把外貌列入考量，像是公關、業務行銷、時尚設計產業等。我的朋友接受雙眼皮手術之後，看起來精神奕奕。整型為她帶來自信，不論是面試或追求愛情，機會都多了許多。有人認為整型違反自然，那樣的美麗是假的，就給整型貼上「造假、欺騙」的標籤。這種說法並不公平，外表佔優勢的人也往往無法理解。人生來就有智力和外表的差異，天生不夠聰明的人，可以靠後天的努力爭取機會，為什麼長相平平的人就不能利用醫學技術縮小美醜的差距？",
+            "simplified": "近年来，社会吹起一股整型风，接受整型手术的人不分男女老少，甚至出现「整型旅游」这样的产品，可见整型已从医疗行为变成极具潜力的消费商品。反对者总是用一堆道德的理由阻止，然而追求完美是人的天性，也是个人的选择。若没有好处，怎么会让那么多人不计一切代价去整型？长得好看到底有没有好处？绝对有。第一印象非常重要，而整型手术就像化妆、打扮一样，是一种让你更漂亮、更有自信的方式，对求职、人际关系都有帮助。许多职业都把外貌列入考量，像是公关、业务行销、时尚设计产业等。我的朋友接受双眼皮手术之后，看起来精神奕奕。整型为她带来自信，不论是面试或追求爱情，机会都多了许多。有人认为整型违反自然，那样的美丽是假的，就给整型贴上「造假、欺骗」的标签。这种说法并不公平，外表占优势的人也往往无法理解。人生来就有智力和外表的差异，天生不够聪明的人，可以靠后天的努力争取机会，为什么长相平平的人就不能利用医学技术缩小美丑的差距？",
+            "pinyin": "jìn nián lái ， shè huì chuī qǐ yī gǔ zhěng xíng fēng ， jiē shòu zhěng xíng shǒu shù de rén bù fēn nán nǚ lǎo shào ， shèn zhì chū xiàn 「 zhěng xíng lǚ yóu 」 zhè yàng de chǎn pǐn ， kě jiàn zhěng xíng yǐ cóng yī liáo xíng wèi biàn chéng jí jù qián lì de xiāo fèi shāng pǐn 。 fǎn duì zhě zǒng shì yòng yī duī dào dé de lǐ yóu zǔ zhǐ ， rán ér zhuī qiú wán měi shì rén de tiān xìng ， yě shì gè rén de xuǎn zé 。 ruò méi yǒu hǎo chù ， zěn me huì ràng nà me duō rén bù jì yī qiè dài jià qù zhěng xíng ？ zhǎng dé hǎo kàn dào dǐ yǒu méi yǒu hǎo chù ？ jué duì yǒu 。 dì yī yìn xiàng fēi cháng zhòng yào ， ér zhěng xíng shǒu shù jiù xiàng huà zhuāng 、 dǎ bàn yī yàng ， shì yī zhǒng ràng nǐ gèng piào liàng 、 gèng yǒu zì xìn de fāng shì ， duì qiú zhí 、 rén jì guān xì dōu yǒu bāng zhù 。 xǔ duō zhí yè dōu bǎ wài mào liè rù kǎo liáng ， xiàng shì gōng guān 、 yè wù xíng xiāo 、 shí shàng shè jì chǎn yè děng 。 wǒ de péng yǒu jiē shòu shuāng yǎn pí shǒu shù zhī hòu ， kàn qǐ lái jīng shén yì yì 。 zhěng xíng wèi tā dài lái zì xìn ， bù lùn shì miàn shì huò zhuī qiú ài qíng ， jī huì dōu duō le xǔ duō 。 yǒu rén rèn wèi zhěng xíng wéi fǎn zì rán ， nà yàng de měi lì shì jiǎ de ， jiù gěi zhěng xíng tiē shàng 「 zào jiǎ 、 qī piàn 」 de biāo qiān 。 zhè zhǒng shuō fǎ bìng bù gōng píng ， wài biǎo zhàn yōu shì de rén yě wǎng wǎng wú fǎ lǐ jiě 。 rén shēng lái jiù yǒu zhì lì hé wài biǎo de chà yì ， tiān shēng bù gòu cōng míng de rén ， kě yǐ kào hòu tiān de nǔ lì zhēng qǔ jī huì ， wèi shén me zhǎng xiāng píng píng de rén jiù bù néng lì yòng yī xué jì shù suō xiǎo měi chǒu de chā jù ？",
+            "meaningVi": "Gần đây, xã hội nổi lên một làn sóng làm đẹp, người ta từ nam đến nữ, từ già đến trẻ đều chọn làm phẫu thuật thẩm mỹ, thậm chí còn xuất hiện các sản phẩm \"du lịch làm đẹp\". Điều này cho thấy thẩm mỹ đã không còn chỉ là một hành vi y tế mà đã trở thành một sản phẩm tiêu dùng có tiềm năng rất lớn. Những người phản đối luôn đưa ra những lý do đạo đức để ngăn cản, tuy nhiên, việc mong muốn hoàn hảo là bản năng của con người, cũng là lựa chọn cá nhân. Nếu không có lợi ích, làm sao lại khiến nhiều người sẵn sàng chấp nhận mọi cái giá để làm đẹp? Việc có ngoại hình đẹp thực sự có lợi ích không? Rõ ràng là có. Ấn tượng đầu tiên cực kỳ quan trọng, và phẫu thuật thẩm mỹ giống như trang điểm, làm đẹp, là một cách để bạn trông đẹp hơn, tự tin hơn, từ đó hỗ trợ trong việc tìm việc và các mối quan hệ xã hội. Nhiều ngành nghề đều xem xét ngoại hình, chẳng hạn như quan hệ công chúng, tiếp thị kinh doanh và thiết kế thời trang. Một người bạn của tôi đã làm phẫu thuật cắt mí, sau đó trông tươi tắn hơn. Sau khi làm đẹp, cô ấy cảm thấy tự tin hơn, dù khi phỏng vấn xin việc hay khi tìm kiếm tình yêu, cơ hội đều tăng lên đáng kể. Có người cho rằng làm đẹp là đi ngược lại tự nhiên, kiểu đẹp đó là giả, nên gắn nhãn \"gian dối, lừa đảo\" cho việc thẩm mỹ. Quan điểm này là không công bằng, những người có ngoại hình ấn tượng thường không thể hiểu được. Con người sinh ra đã có sự khác biệt về trí tuệ và ngoại hình, những người sinh ra không thông minh có thể nỗ lực để giành cơ hội, vậy tại sao người có ngoại hình trung bình không thể sử dụng công nghệ y học để thu hẹp khoảng cách về ngoại hình?"
+          },
+          {
+            "speaker": "Tác giả",
+            "chinese": "許多人對整型的看法停留在可怕的後遺症、副作用上，認為整型是危險的手術，這無疑是媒體經常報導負面新聞的結果。隨著醫學技術的進步，使用的器材及藥品越來越安全，風險已大幅降低。整型醫生也會事先評估患者的動機、心理狀態，再決定是否執行手術。身體是自己的，自己的樣子當然由自己決定。「身體髮膚受之父母」這樣的想法已經落伍了，就像穿衣服、剪頭髮一樣，不會對別人造成任何影響，所以根本不需要理會他人的眼光，自己開心就好。如果整型能讓一個人更喜歡自己，有何不可？",
+            "simplified": "许多人对整型的看法停留在可怕的后遗症、副作用上，认为整型是危险的手术，这无疑是媒体经常报导负面新闻的结果。随着医学技术的进步，使用的器材及药品越来越安全，风险已大幅降低。整型医生也会事先评估患者的动机、心理状态，再决定是否执行手术。身体是自己的，自己的样子当然由自己决定。「身体发肤受之父母」这样的想法已经落伍了，就像穿衣服、剪头发一样，不会对别人造成任何影响，所以根本不需要理会他人的眼光，自己开心就好。如果整型能让一个人更喜欢自己，有何不可？",
+            "pinyin": "xǔ duō rén duì zhěng xíng de kàn fǎ tíng liú zài kě pà de hòu yí zhèng 、 fù zuò yòng shàng ， rèn wèi zhěng xíng shì wēi xiǎn de shǒu shù ， zhè wú yí shì méi tǐ jīng cháng bào dǎo fù miàn xīn wén de jié guǒ 。 suí zhù yī xué jì shù de jìn bù ， shǐ yòng de qì cái jí yào pǐn yuè lái yuè ān quán ， fēng xiǎn yǐ dà fú jiàng dī 。 zhěng xíng yī shēng yě huì shì xiān píng gū huàn zhě de dòng jī 、 xīn lǐ zhuàng tài ， zài jué dìng shì fǒu zhí xíng shǒu shù 。 shēn tǐ shì zì jǐ de ， zì jǐ de yàng zi dāng rán yóu zì jǐ jué dìng 。 「 shēn tǐ fà fū shòu zhī fù mǔ 」 zhè yàng de xiǎng fǎ yǐ jīng luò wǔ le ， jiù xiàng chuān yī fú 、 jiǎn tóu fà yī yàng ， bù huì duì bié rén zào chéng rèn hé yǐng xiǎng ， suǒ yǐ gēn běn bù xū yào lǐ huì tā rén de yǎn guāng ， zì jǐ kāi xīn jiù hǎo 。 rú guǒ zhěng xíng néng ràng yī gè rén gèng xǐ huān zì jǐ ， yǒu hé bù kě ？",
+            "meaningVi": "Nhiều người vẫn còn coi phẫu thuật thẩm mỹ là một thủ thuật nguy hiểm, mang theo những tác dụng phụ đáng sợ, điều này chắc chắn là do truyền thông thường xuyên đưa tin tiêu cực. Cùng với sự tiến bộ của y học, các thiết bị và thuốc được sử dụng ngày càng an toàn, rủi ro đã được giảm đáng kể. Các bác sĩ thẩm mỹ sẽ đánh giá trước động cơ và trạng thái tâm lý của bệnh nhân, rồi mới quyết định có nên thực hiện phẫu thuật hay không. Cơ thể là của chính mình, nên việc quyết định hình dáng của mình cũng là quyền của chính mình. Ý tưởng rằng \"cơ thể và mái tóc được thừa hưởng từ cha mẹ\" đã trở nên lỗi thời, giống như việc mặc quần áo hay cắt tóc, không ảnh hưởng gì đến người khác, nên hoàn toàn không cần phải quan tâm đến ánh nhìn của người khác, miễn là mình cảm thấy vui vẻ. Nếu phẫu thuật thẩm mỹ giúp một người yêu mình hơn, thì tại sao không?"
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc5-v5-l03-check-01",
+        "prompt": "Bài đọc 1 cho rằng điều gì tác động đến chuẩn đẹp của nhiều người trẻ?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Chỉ chương trình học"
+          },
+          {
+            "id": "b",
+            "text": "Truyền thông và ánh nhìn của xã hội"
+          },
+          {
+            "id": "c",
+            "text": "Chỉ thời tiết"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Tác giả nói người trẻ mang ảnh ngôi sao tới bác sĩ và chịu tác động của truyền thông.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc5-v5-l03-check-02",
+        "prompt": "Theo bài 1, điều nào ngoại hình không thể tự mang lại?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Sự thay đổi diện mạo"
+          },
+          {
+            "id": "b",
+            "text": "Một số lựa chọn cá nhân"
+          },
+          {
+            "id": "c",
+            "text": "Quan hệ hạnh phúc và sự nghiệp thuận lợi"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Bài viết nói 外貌無法為我們帶來美滿的感情、順利的職涯.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc5-v5-l03-check-03",
+        "prompt": "Bài 1 đặt trọng tâm vào điều gì khi nói tới phẫu thuật?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Rủi ro y tế và tác động xã hội"
+          },
+          {
+            "id": "b",
+            "text": "Giá vé du lịch"
+          },
+          {
+            "id": "c",
+            "text": "Kỹ thuật may quần áo"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Tác giả nhắc 後遺症、副作用 và ảnh hưởng đến giá trị quan.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc5-v5-l03-check-04",
+        "prompt": "Bài 2 cho rằng lợi ích của việc thay đổi ngoại hình là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Loại bỏ hoàn toàn sự khác biệt"
+          },
+          {
+            "id": "b",
+            "text": "Tăng tự tin và cơ hội theo góc nhìn tác giả"
+          },
+          {
+            "id": "c",
+            "text": "Bảo đảm mọi cuộc phỏng vấn đều thành công"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Tác giả kể ví dụ một người bạn cảm thấy tự tin hơn sau phẫu thuật.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc5-v5-l03-check-05",
+        "prompt": "Hai bài đọc khác nhau chủ yếu ở điểm nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Một bên nhấn rủi ro và áp lực xã hội; bên kia nhấn lựa chọn cá nhân"
+          },
+          {
+            "id": "b",
+            "text": "Cả hai đều phản đối mọi phẫu thuật"
+          },
+          {
+            "id": "c",
+            "text": "Cả hai chỉ bàn về giá thuốc"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Đối chiếu đoạn kết của hai bài sẽ thấy hai cách đánh giá khác nhau.",
+        "skill": "Đọc hiểu"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từng từ để xem phát âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc5-v5-l03-v001",
+      "cc5-v5-l03-v002",
+      "cc5-v5-l03-v003",
+      "cc5-v5-l03-v004",
+      "cc5-v5-l03-v005",
+      "cc5-v5-l03-v006",
+      "cc5-v5-l03-v007",
+      "cc5-v5-l03-v008",
+      "cc5-v5-l03-v009",
+      "cc5-v5-l03-v010",
+      "cc5-v5-l03-v011",
+      "cc5-v5-l03-v012",
+      "cc5-v5-l03-v013",
+      "cc5-v5-l03-v014",
+      "cc5-v5-l03-v015",
+      "cc5-v5-l03-v016",
+      "cc5-v5-l03-v017",
+      "cc5-v5-l03-v018",
+      "cc5-v5-l03-v019",
+      "cc5-v5-l03-v020",
+      "cc5-v5-l03-v021",
+      "cc5-v5-l03-v022",
+      "cc5-v5-l03-v023",
+      "cc5-v5-l03-v024",
+      "cc5-v5-l03-v025",
+      "cc5-v5-l03-v026",
+      "cc5-v5-l03-v027",
+      "cc5-v5-l03-v028",
+      "cc5-v5-l03-v029",
+      "cc5-v5-l03-v030",
+      "cc5-v5-l03-v031",
+      "cc5-v5-l03-v032",
+      "cc5-v5-l03-v033",
+      "cc5-v5-l03-v034",
+      "cc5-v5-l03-v035",
+      "cc5-v5-l03-v036",
+      "cc5-v5-l03-v037",
+      "cc5-v5-l03-v038",
+      "cc5-v5-l03-v039",
+      "cc5-v5-l03-v040",
+      "cc5-v5-l03-v041",
+      "cc5-v5-l03-v042",
+      "cc5-v5-l03-v043",
+      "cc5-v5-l03-v044",
+      "cc5-v5-l03-v045",
+      "cc5-v5-l03-v046",
+      "cc5-v5-l03-v047",
+      "cc5-v5-l03-v048",
+      "cc5-v5-l03-v049",
+      "cc5-v5-l03-v050",
+      "cc5-v5-l03-v051",
+      "cc5-v5-l03-v052",
+      "cc5-v5-l03-v053",
+      "cc5-v5-l03-v054",
+      "cc5-v5-l03-v055",
+      "cc5-v5-l03-v056",
+      "cc5-v5-l03-v057",
+      "cc5-v5-l03-v058",
+      "cc5-v5-l03-v059",
+      "cc5-v5-l03-v060",
+      "cc5-v5-l03-v061",
+      "cc5-v5-l03-v062",
+      "cc5-v5-l03-v063",
+      "cc5-v5-l03-v064",
+      "cc5-v5-l03-v065",
+      "cc5-v5-l03-v066",
+      "cc5-v5-l03-v067",
+      "cc5-v5-l03-v068",
+      "cc5-v5-l03-v069",
+      "cc5-v5-l03-v070",
+      "cc5-v5-l03-v071",
+      "cc5-v5-l03-v072",
+      "cc5-v5-l03-v073",
+      "cc5-v5-l03-v074",
+      "cc5-v5-l03-v075",
+      "cc5-v5-l03-v076",
+      "cc5-v5-l03-v077",
+      "cc5-v5-l03-v078",
+      "cc5-v5-l03-v079",
+      "cc5-v5-l03-v080",
+      "cc5-v5-l03-v081",
+      "cc5-v5-l03-v082",
+      "cc5-v5-l03-v083",
+      "cc5-v5-l03-v084",
+      "cc5-v5-l03-v085",
+      "cc5-v5-l03-v086",
+      "cc5-v5-l03-v087",
+      "cc5-v5-l03-v088",
+      "cc5-v5-l03-v089",
+      "cc5-v5-l03-v090",
+      "cc5-v5-l03-v091",
+      "cc5-v5-l03-v092",
+      "cc5-v5-l03-v093",
+      "cc5-v5-l03-v094",
+      "cc5-v5-l03-v095",
+      "cc5-v5-l03-v096",
+      "cc5-v5-l03-v097",
+      "cc5-v5-l03-v098"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc5-v5-l03-grammar-01",
+      "title": "有…的趨勢",
+      "structure": "chủ ngữ + 有 + xu hướng thay đổi + 的趨勢",
+      "explanation": "Dùng để nói một hiện tượng đang phát triển theo hướng nào, chẳng hạn trẻ hóa hoặc tăng lên. Phần trước 的趨勢 phải là hướng thay đổi, không phải một sự kiện đã kết thúc.",
+      "examples": [
+        {
+          "chinese": "整型有年輕化的趨勢。",
+          "simplified": "整型有年轻化的趋势。",
+          "pinyin": "zhěng xíng yǒu nián qīng huà de qū shì 。",
+          "meaningVi": "Người làm phẫu thuật thẩm mỹ có xu hướng ngày càng trẻ."
+        },
+        {
+          "chinese": "選擇有機食品的人有增加的趨勢。",
+          "simplified": "选择有机食品的人有增加的趋势。",
+          "pinyin": "xuǎn zé yǒu jī shí pǐn de rén yǒu zēng jiā de qū shì 。",
+          "meaningVi": "Số người chọn thực phẩm hữu cơ có xu hướng tăng."
+        }
+      ],
+      "commonMistake": "Không dùng cho con số cố định không có chiều thay đổi.",
+      "check": {
+        "id": "cc5-v5-l03-grammar-check-01",
+        "prompt": "「有增加的趨勢」 nói gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Đã giảm xong"
+          },
+          {
+            "id": "b",
+            "text": "Hoàn toàn không thay đổi"
+          },
+          {
+            "id": "c",
+            "text": "Có xu hướng tăng"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "趨勢 chỉ hướng phát triển.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l03-t04"
+    },
+    {
+      "id": "cc5-v5-l03-grammar-02",
+      "title": "不計一切",
+      "structure": "不計一切 + (代價) + hành động",
+      "explanation": "Nghĩa là bất chấp mọi cái giá hay hậu quả để đạt một mục tiêu. Có thể nói 不計一切代價. Sắc thái rất mạnh, không hợp với việc nhỏ thường ngày.",
+      "examples": [
+        {
+          "chinese": "他不計一切代價爭取機會。",
+          "simplified": "他不计一切代价争取机会。",
+          "pinyin": "tā bù jì yī qiè dài jià zhēng qǔ jī huì 。",
+          "meaningVi": "Anh ấy tranh thủ cơ hội bằng mọi giá."
+        },
+        {
+          "chinese": "救援人員不計一切尋找受困者。",
+          "simplified": "救援人员不计一切寻找受困者。",
+          "pinyin": "jiù yuán rén yuán bù jì yī qiè xún zhǎo shòu kùn zhě 。",
+          "meaningVi": "Nhân viên cứu hộ tìm người mắc kẹt bằng mọi giá."
+        }
+      ],
+      "commonMistake": "Đừng dùng để diễn tả một nỗ lực bình thường không có sự đánh đổi.",
+      "check": {
+        "id": "cc5-v5-l03-grammar-check-02",
+        "prompt": "「不計一切代價」 nhấn điều gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Chỉ tốn rất ít thời gian"
+          },
+          {
+            "id": "b",
+            "text": "Không cần làm gì"
+          },
+          {
+            "id": "c",
+            "text": "Bất chấp mọi cái giá"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Mẫu nhấn sự đánh đổi để đạt mục đích.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l03-t04"
+    },
+    {
+      "id": "cc5-v5-l03-grammar-03",
+      "title": "獲得…的青睞",
+      "structure": "chủ ngữ + 獲得 + người/nhóm + 的青睞",
+      "explanation": "Dùng khi một người hay sản phẩm được ai đó chú ý và ưa thích. 青睞 không chỉ có nghĩa “nhìn thấy”; nó hàm ý đánh giá tích cực.",
+      "examples": [
+        {
+          "chinese": "她的作品獲得評審的青睞。",
+          "simplified": "她的作品获得评审的青睐。",
+          "pinyin": "tā de zuò pǐn huò dé píng shěn de qīng lài 。",
+          "meaningVi": "Tác phẩm của cô ấy được ban giám khảo ưu ái."
+        },
+        {
+          "chinese": "這項設計獲得年輕人的青睞。",
+          "simplified": "这项设计获得年轻人的青睐。",
+          "pinyin": "zhè xiàng shè jì huò dé nián qīng rén de qīng lài 。",
+          "meaningVi": "Thiết kế này được người trẻ ưa chuộng."
+        }
+      ],
+      "commonMistake": "Sau 獲得 cần nêu người dành sự ưu ái trước 的青睞.",
+      "check": {
+        "id": "cc5-v5-l03-grammar-check-03",
+        "prompt": "「獲得評審的青睞」 là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Được ban giám khảo ưu ái"
+          },
+          {
+            "id": "b",
+            "text": "Bị ban giám khảo từ chối"
+          },
+          {
+            "id": "c",
+            "text": "Chưa từng được xem"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "青睞 là sự ưa thích hoặc ưu ái.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l03-t04"
+    },
+    {
+      "id": "cc5-v5-l03-grammar-04",
+      "title": "把 A 投資在 B 上",
+      "structure": "把 + thời gian/tiền bạc A + 投資在 + lĩnh vực B + 上",
+      "explanation": "Dùng khi chủ thể bỏ nguồn lực A vào B với hy vọng thu được lợi ích. A thường là 時間、金錢、精力; B là mục tiêu như học tập hoặc năng lực.",
+      "examples": [
+        {
+          "chinese": "她把時間投資在學習上。",
+          "simplified": "她把时间投资在学习上。",
+          "pinyin": "tā bǎ shí jiān tóu zī zài xué xí shàng 。",
+          "meaningVi": "Cô ấy dành thời gian đầu tư cho việc học."
+        },
+        {
+          "chinese": "把金錢投資在內在能力上更重要。",
+          "simplified": "把金钱投资在内在能力上更重要。",
+          "pinyin": "bǎ jīn qián tóu zī zài nèi zài néng lì shàng gèng zhòng yào 。",
+          "meaningVi": "Đầu tư tiền bạc cho năng lực bên trong quan trọng hơn."
+        }
+      ],
+      "commonMistake": "Đừng đảo A và B: A là nguồn lực bỏ ra, B là nơi nhận đầu tư.",
+      "check": {
+        "id": "cc5-v5-l03-grammar-check-04",
+        "prompt": "Trong 「把時間投資在學習上」, A là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Việc học"
+          },
+          {
+            "id": "b",
+            "text": "Kết quả thi"
+          },
+          {
+            "id": "c",
+            "text": "Thời gian"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "A là nguồn lực được đầu tư.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l03-t04"
+    },
+    {
+      "id": "cc5-v5-l03-grammar-05",
+      "title": "飽受…之苦",
+      "structure": "chủ ngữ + 飽受 + khó khăn + 之苦",
+      "explanation": "Đây là cách nói trang trọng về việc phải chịu đựng một nỗi khổ trong thời gian dài. Phần giữa thường là 後遺症、歧視、戰爭 hoặc bệnh tật.",
+      "examples": [
+        {
+          "chinese": "不少人飽受後遺症之苦。",
+          "simplified": "不少人饱受后遗症之苦。",
+          "pinyin": "bù shǎo rén bǎo shòu hòu yí zhèng zhī kǔ 。",
+          "meaningVi": "Không ít người khổ sở vì di chứng."
+        },
+        {
+          "chinese": "這個地區多年來飽受乾旱之苦。",
+          "simplified": "这个地区多年来饱受干旱之苦。",
+          "pinyin": "zhè gè dì qū duō nián lái bǎo shòu qián hàn zhī kǔ 。",
+          "meaningVi": "Vùng này chịu cảnh hạn hán nhiều năm."
+        }
+      ],
+      "commonMistake": "Không dùng cho bất tiện rất nhẹ hoặc xảy ra trong chốc lát.",
+      "check": {
+        "id": "cc5-v5-l03-grammar-check-05",
+        "prompt": "「飽受後遺症之苦」 nói điều gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Chịu nhiều đau khổ vì di chứng"
+          },
+          {
+            "id": "b",
+            "text": "Chữa khỏi ngay lập tức"
+          },
+          {
+            "id": "c",
+            "text": "Chưa từng có di chứng"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "飽受…之苦 nhấn sự chịu đựng kéo dài.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l03-t04"
+    },
+    {
+      "id": "cc5-v5-l03-grammar-06",
+      "title": "原來 A，如今 B",
+      "structure": "原來 + tình trạng trước kia，如今 + tình trạng hiện nay",
+      "explanation": "Dùng để đối chiếu sự thay đổi giữa trước và bây giờ. Trong bài, tác giả đối chiếu mục đích y tế ban đầu với việc phẫu thuật thẩm mỹ trở thành đường tắt tìm tự tin.",
+      "examples": [
+        {
+          "chinese": "這裡原來是書店，如今成了咖啡店。",
+          "simplified": "这里原来是书店，如今成了咖啡店。",
+          "pinyin": "zhè lǐ yuán lái shì shū diàn ， rú jīn chéng le kā fēi diàn 。",
+          "meaningVi": "Nơi đây trước là hiệu sách, nay thành quán cà phê."
+        },
+        {
+          "chinese": "整型原來是為了重建外觀，如今卻成了追求機會的捷徑。",
+          "simplified": "整型原来是为了重建外观，如今却成了追求机会的捷径。",
+          "pinyin": "zhěng xíng yuán lái shì wèi le chóng jiàn wài guān ， rú jīn què chéng le zhuī qiú jī huì de jié jìng 。",
+          "meaningVi": "Phẫu thuật thẩm mỹ ban đầu để khôi phục diện mạo, nay lại thành đường tắt tìm cơ hội."
+        }
+      ],
+      "commonMistake": "Hai vế phải nói về cùng đối tượng ở hai thời điểm.",
+      "check": {
+        "id": "cc5-v5-l03-grammar-check-06",
+        "prompt": "「原來是書店，如今成了咖啡店」 thể hiện gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Hai nơi khác nhau"
+          },
+          {
+            "id": "b",
+            "text": "Một dự định chưa xảy ra"
+          },
+          {
+            "id": "c",
+            "text": "Sự thay đổi theo thời gian"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "原來 và 如今 đối chiếu trước với nay.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l03-t04"
+    },
+    {
+      "id": "cc5-v5-l03-grammar-07",
+      "title": "從 A，進而 B",
+      "structure": "從 + bước đầu A，進而 + bước tiếp theo B",
+      "explanation": "Dùng khi B phát triển thêm từ A, chứ không chỉ xảy ra cùng lúc. Mẫu này giúp miêu tả quá trình hoặc hệ quả nối tiếp.",
+      "examples": [
+        {
+          "chinese": "他從學習基礎知識，進而研究更複雜的問題。",
+          "simplified": "他从学习基础知识，进而研究更复杂的问题。",
+          "pinyin": "tā cóng xué xí jī chǔ zhī shí ， jìn ér yán jiū gèng fù zá de wèn tí 。",
+          "meaningVi": "Anh ấy đi từ học kiến thức nền đến nghiên cứu vấn đề phức tạp hơn."
+        },
+        {
+          "chinese": "整型從個人選擇，進而形成一股風氣。",
+          "simplified": "整型从个人选择，进而形成一股风气。",
+          "pinyin": "zhěng xíng cóng gè rén xuǎn zé ， jìn ér xíng chéng yī gǔ fēng qì 。",
+          "meaningVi": "Phẫu thuật thẩm mỹ từ lựa chọn cá nhân rồi phát triển thành trào lưu."
+        }
+      ],
+      "commonMistake": "B cần là bước phát triển tiếp theo của A.",
+      "check": {
+        "id": "cc5-v5-l03-grammar-check-07",
+        "prompt": "Trong 「從個人選擇，進而形成風氣」, B là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Hình thành trào lưu"
+          },
+          {
+            "id": "b",
+            "text": "Một cá nhân lựa chọn"
+          },
+          {
+            "id": "c",
+            "text": "Dừng hẳn việc lựa chọn"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "進而 nêu bước phát triển tiếp theo.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l03-t04"
+    },
+    {
+      "id": "cc5-v5-l03-grammar-08",
+      "title": "若 A，怎麼會 B？",
+      "structure": "若 + giả định A，怎麼會 + sự việc đã thấy B？",
+      "explanation": "Dùng để phản bác A bằng cách chỉ ra B không thể giải thích được nếu A đúng. Đây là câu hỏi tu từ, thường ngầm khẳng định A không hợp lý.",
+      "examples": [
+        {
+          "chinese": "若整型沒有好處，怎麼會有那麼多人願意做？",
+          "simplified": "若整型没有好处，怎么会有那么多人愿意做？",
+          "pinyin": "ruò zhěng xíng méi yǒu hǎo chù ， zěn me huì yǒu nà me duō rén yuàn yì zuò ？",
+          "meaningVi": "Nếu phẫu thuật thẩm mỹ không có lợi, sao nhiều người vẫn muốn làm?"
+        },
+        {
+          "chinese": "若他不在乎，怎麼會每天來幫忙？",
+          "simplified": "若他不在乎，怎么会每天来帮忙？",
+          "pinyin": "ruò tā bù zài hū ， zěn me huì měi tiān lái bāng máng ？",
+          "meaningVi": "Nếu anh ấy không quan tâm, sao ngày nào cũng đến giúp?"
+        }
+      ],
+      "commonMistake": "B nên là hiện tượng người nghe có thể quan sát hoặc chấp nhận.",
+      "check": {
+        "id": "cc5-v5-l03-grammar-check-08",
+        "prompt": "「若沒有好處，怎麼會有人願意做？」 dùng để làm gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Phản bác ý cho rằng không có lợi ích"
+          },
+          {
+            "id": "b",
+            "text": "Hỏi địa chỉ bệnh viện"
+          },
+          {
+            "id": "c",
+            "text": "Khẳng định ai cũng bắt buộc phải làm"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "B được dùng để chất vấn giả định A.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l03-t08"
+    },
+    {
+      "id": "cc5-v5-l03-grammar-09",
+      "title": "把 A 列入 B",
+      "structure": "把 + đối tượng A + 列入 + danh sách/tiêu chí B",
+      "explanation": "Dùng khi đưa A vào một phạm vi xem xét hoặc danh sách. B thường là 考量、名單、清單 hoặc 範圍.",
+      "examples": [
+        {
+          "chinese": "公司把外語能力列入考量。",
+          "simplified": "公司把外语能力列入考量。",
+          "pinyin": "gōng sī bǎ wài yǔ néng lì liè rù kǎo liáng 。",
+          "meaningVi": "Công ty đưa năng lực ngoại ngữ vào tiêu chí cân nhắc."
+        },
+        {
+          "chinese": "學校把食品安全列入今年的討論主題。",
+          "simplified": "学校把食品安全列入今年的讨论主题。",
+          "pinyin": "xué xiào bǎ shí pǐn ān quán liè rù jīn nián de tǎo lùn zhǔ tí 。",
+          "meaningVi": "Trường đưa an toàn thực phẩm vào chủ đề thảo luận năm nay."
+        }
+      ],
+      "commonMistake": "Không nhầm 列入 với 排除: một bên thêm vào, một bên loại ra.",
+      "check": {
+        "id": "cc5-v5-l03-grammar-check-09",
+        "prompt": "「把外貌列入考量」 nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Loại bỏ ngoại hình khỏi tiêu chí"
+          },
+          {
+            "id": "b",
+            "text": "Chỉ nói về trang điểm"
+          },
+          {
+            "id": "c",
+            "text": "Xem ngoại hình là một tiêu chí cân nhắc"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "列入 nghĩa là đưa vào phạm vi xem xét.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l03-t08"
+    },
+    {
+      "id": "cc5-v5-l03-grammar-10",
+      "title": "給 A 貼上 B 的標籤",
+      "structure": "給 + người/việc A + 貼上 + nhãn/định kiến B + 的標籤",
+      "explanation": "Ngoài nghĩa dán nhãn thật, mẫu này thường nói việc gán một nhận định đơn giản hoặc thiếu công bằng cho ai đó. Trong bài, tác giả phản đối việc coi mọi phẫu thuật thẩm mỹ là “造假”.",
+      "examples": [
+        {
+          "chinese": "不要給每個整型的人貼上愛慕虛榮的標籤。",
+          "simplified": "不要给每个整型的人贴上爱慕虚荣的标签。",
+          "pinyin": "bú yào gěi měi gè zhěng xíng de rén tiē shàng ài mù xū róng de biāo qiān 。",
+          "meaningVi": "Đừng gán cho mọi người phẫu thuật thẩm mỹ nhãn mê hư vinh."
+        },
+        {
+          "chinese": "有人給這種食物貼上不安全的標籤。",
+          "simplified": "有人给这种食物贴上不安全的标签。",
+          "pinyin": "yǒu rén gěi zhè zhǒng shí wù tiē shàng bù ān quán de biāo qiān 。",
+          "meaningVi": "Có người gán cho loại thực phẩm này nhãn không an toàn."
+        }
+      ],
+      "commonMistake": "Nhãn B là cách người khác nhìn A, không tự động là sự thật.",
+      "check": {
+        "id": "cc5-v5-l03-grammar-check-10",
+        "prompt": "「給整型貼上造假的標籤」 là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Giải thích một thủ thuật y tế"
+          },
+          {
+            "id": "b",
+            "text": "Gán cho phẫu thuật thẩm mỹ nhãn giả tạo"
+          },
+          {
+            "id": "c",
+            "text": "Dán giá tiền lên sản phẩm"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "貼上…的標籤 trong ngữ cảnh chỉ sự gán nhãn.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l03-t08"
+    },
+    {
+      "id": "cc5-v5-l03-grammar-11",
+      "title": "無疑是…",
+      "structure": "chủ ngữ + 無疑是 + nhận định",
+      "explanation": "無疑是 nghĩa là “không nghi ngờ gì là…”, thể hiện người nói rất chắc chắn về nhận định. Khi đọc lập luận, vẫn cần phân biệt sự chắc chắn của người nói với bằng chứng khách quan.",
+      "examples": [
+        {
+          "chinese": "這無疑是一個值得討論的問題。",
+          "simplified": "这无疑是一个值得讨论的问题。",
+          "pinyin": "zhè wú yí shì yī gè zhí de tǎo lùn de wèn tí 。",
+          "meaningVi": "Đây chắc chắn là vấn đề đáng bàn."
+        },
+        {
+          "chinese": "風險下降無疑是技術進步的結果。",
+          "simplified": "风险下降无疑是技术进步的结果。",
+          "pinyin": "fēng xiǎn xià jiàng wú yí shì jì shù jìn bù de jié guǒ 。",
+          "meaningVi": "Rủi ro giảm chắc chắn là kết quả của tiến bộ kỹ thuật."
+        }
+      ],
+      "commonMistake": "Không hiểu 無疑 là “không có vấn đề”; nó nói mức độ tin chắc.",
+      "check": {
+        "id": "cc5-v5-l03-grammar-check-11",
+        "prompt": "「這無疑是個大問題」 biểu thị gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Người nói rất chắc đây là vấn đề lớn"
+          },
+          {
+            "id": "b",
+            "text": "Người nói chưa nghe thấy gì"
+          },
+          {
+            "id": "c",
+            "text": "Vấn đề đã biến mất"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "無疑是 nhấn mức độ chắc chắn của nhận định.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l03-t08"
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc5-v5-l03-listening-01",
+      "prompt": "Nghe bài 1: người trẻ mang gì tới bác sĩ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hồ sơ xin việc"
+        },
+        {
+          "id": "b",
+          "text": "Vé du lịch"
+        },
+        {
+          "id": "c",
+          "text": "Ảnh của người nổi tiếng"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài 1 có câu 拿著明星的照片.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l03-t02"
+    },
+    {
+      "id": "cc5-v5-l03-listening-02",
+      "prompt": "Nghe bài 1: tác giả đề nghị đầu tư vào đâu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ vào quảng cáo"
+        },
+        {
+          "id": "b",
+          "text": "Năng lực bên trong"
+        },
+        {
+          "id": "c",
+          "text": "Chỉ vào dáng mũi"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Tác giả kết đoạn bằng 把時間和金錢投資在這些內在能力上.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l03-t02"
+    },
+    {
+      "id": "cc5-v5-l03-listening-03",
+      "prompt": "Nghe bài 2: người bạn của tác giả đã làm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Phẫu thuật đầu gối"
+        },
+        {
+          "id": "b",
+          "text": "Chữa sâu răng"
+        },
+        {
+          "id": "c",
+          "text": "Phẫu thuật mí mắt"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài 2 nhắc 雙眼皮手術.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l03-t06"
+    },
+    {
+      "id": "cc5-v5-l03-listening-04",
+      "prompt": "Nghe bài 2: bác sĩ đánh giá điều gì trước khi quyết định mổ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Động cơ và trạng thái tâm lý"
+        },
+        {
+          "id": "b",
+          "text": "Kết quả bầu cử"
+        },
+        {
+          "id": "c",
+          "text": "Giá vé máy bay"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài viết nói 事先評估患者的動機、心理狀態.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l03-t06"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc5-v5-l03-practice-01",
+      "prompt": "Điền: 接受整型的人____年輕化____。",
+      "options": [
+        {
+          "id": "a",
+          "text": "從；來看"
+        },
+        {
+          "id": "b",
+          "text": "並非；不可"
+        },
+        {
+          "id": "c",
+          "text": "有；的趨勢"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "有…的趨勢 nói hiện tượng phát triển theo một hướng.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l03-practice-02",
+      "prompt": "Điền: 他____代價也要完成這個目標。",
+      "options": [
+        {
+          "id": "a",
+          "text": "無疑是"
+        },
+        {
+          "id": "b",
+          "text": "日漸"
+        },
+        {
+          "id": "c",
+          "text": "不計一切"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "不計一切代價 nghĩa là bằng mọi giá.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l03-practice-03",
+      "prompt": "Điền: 這項設計____年輕人____。",
+      "options": [
+        {
+          "id": "a",
+          "text": "獲得；的青睞"
+        },
+        {
+          "id": "b",
+          "text": "給；貼標籤"
+        },
+        {
+          "id": "c",
+          "text": "從；進而"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "獲得…的青睞 nghĩa là được ai đó ưu ái.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l03-practice-04",
+      "prompt": "Điền: 她把時間____學習____。",
+      "options": [
+        {
+          "id": "a",
+          "text": "列入；中"
+        },
+        {
+          "id": "b",
+          "text": "貼上；標籤"
+        },
+        {
+          "id": "c",
+          "text": "投資在；上"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "把 A 投資在 B 上 nói đưa nguồn lực vào một lĩnh vực.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l03-practice-05",
+      "prompt": "Điền: 不少人____後遺症____。",
+      "options": [
+        {
+          "id": "a",
+          "text": "有；趨勢"
+        },
+        {
+          "id": "b",
+          "text": "飽受；之苦"
+        },
+        {
+          "id": "c",
+          "text": "獲得；青睞"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "飽受…之苦 diễn tả chịu đựng đau khổ lâu dài.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l03-practice-06",
+      "prompt": "Điền: 這裡____是書店，____成了咖啡店。",
+      "options": [
+        {
+          "id": "a",
+          "text": "若；怎麼會"
+        },
+        {
+          "id": "b",
+          "text": "原來；如今"
+        },
+        {
+          "id": "c",
+          "text": "從；進而"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "原來…如今… đối chiếu trước và nay.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l03-practice-07",
+      "prompt": "Điền: 他從學習基礎知識，____研究更複雜的問題。",
+      "options": [
+        {
+          "id": "a",
+          "text": "儘管"
+        },
+        {
+          "id": "b",
+          "text": "進而"
+        },
+        {
+          "id": "c",
+          "text": "無疑"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "進而 nêu bước tiếp theo.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l03-practice-08",
+      "prompt": "Điền: ____沒有好處，____有那麼多人願意做？",
+      "options": [
+        {
+          "id": "a",
+          "text": "從；進而"
+        },
+        {
+          "id": "b",
+          "text": "原來；如今"
+        },
+        {
+          "id": "c",
+          "text": "若；怎麼會"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "若 A，怎麼會 B dùng B để chất vấn A.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l03-practice-09",
+      "prompt": "Điền: 公司把外語能力____。",
+      "options": [
+        {
+          "id": "a",
+          "text": "飽受之苦"
+        },
+        {
+          "id": "b",
+          "text": "列入考量"
+        },
+        {
+          "id": "c",
+          "text": "貼上標籤"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "列入考量 nghĩa là đưa vào tiêu chí cân nhắc.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l03-practice-10",
+      "prompt": "Điền: 不要____每個人____同一個標籤。",
+      "options": [
+        {
+          "id": "a",
+          "text": "給；貼上"
+        },
+        {
+          "id": "b",
+          "text": "從；進而"
+        },
+        {
+          "id": "c",
+          "text": "若；怎麼會"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "給 A 貼上 B 的標籤 nói gán cho ai đó một nhãn.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l03-practice-11",
+      "prompt": "Điền: 這____一個值得討論的問題。",
+      "options": [
+        {
+          "id": "a",
+          "text": "無疑是"
+        },
+        {
+          "id": "b",
+          "text": "有何不可"
+        },
+        {
+          "id": "c",
+          "text": "不計一切"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "無疑是 thể hiện người nói rất chắc về nhận định.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc5-v5-l03-assessment-01",
+      "prompt": "「以貌取人」 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đánh giá người khác qua ngoại hình"
+        },
+        {
+          "id": "b",
+          "text": "Đầu tư cho năng lực bên trong"
+        },
+        {
+          "id": "c",
+          "text": "Thận trọng với rủi ro"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "以貌取人 là nhận định người qua vẻ ngoài.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc5-v5-l03-assessment-02",
+      "prompt": "Theo bài 1, điều gì khiến nhiều người trẻ tìm đến phẫu thuật?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Áp lực từ chuẩn đẹp và ánh nhìn bên ngoài"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ vì họ thích đọc sách"
+        },
+        {
+          "id": "c",
+          "text": "Vì không còn bác sĩ"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Tác giả nhắc ảnh người nổi tiếng và 外界的眼光.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l03-assessment-03",
+      "prompt": "「不盡然」 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Không hẳn như vậy"
+        },
+        {
+          "id": "b",
+          "text": "Chắc chắn hoàn toàn"
+        },
+        {
+          "id": "c",
+          "text": "Chưa bắt đầu"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Từ này bác bỏ một nhận định quá tuyệt đối.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc5-v5-l03-assessment-04",
+      "prompt": "Bài 1 cho rằng điều nào cần được đầu tư hơn?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Năng lực nội tại"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ màu tóc"
+        },
+        {
+          "id": "c",
+          "text": "Chỉ quảng cáo"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Đoạn kết nói đầu tư thời gian, tiền bạc vào 內在能力 quan trọng hơn.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l03-assessment-05",
+      "prompt": "「飽受後遺症之苦」 nói gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ thích du lịch"
+        },
+        {
+          "id": "b",
+          "text": "Chịu nhiều đau khổ vì di chứng"
+        },
+        {
+          "id": "c",
+          "text": "Hoàn toàn không có rủi ro"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "飽受…之苦 nhấn sự chịu đựng.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l03-assessment-06",
+      "prompt": "Bài 1 nêu rủi ro nào của phẫu thuật?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thiếu vé xem phim"
+        },
+        {
+          "id": "b",
+          "text": "Di chứng và tác dụng phụ"
+        },
+        {
+          "id": "c",
+          "text": "Không thể học ngoại ngữ"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Đoạn cuối bài 1 có 後遺症、副作用.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l03-assessment-07",
+      "prompt": "Bài 2 dùng ví dụ nào để nói cơ hội tăng?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Một người bạn sau phẫu thuật mí mắt"
+        },
+        {
+          "id": "b",
+          "text": "Một cuộc thi bơi"
+        },
+        {
+          "id": "c",
+          "text": "Một quán cà phê mới"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Tác giả kể chuyện bạn mình sau 雙眼皮手術.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l03-assessment-08",
+      "prompt": "「把外貌列入考量」 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Loại ngoại hình khỏi mọi quyết định"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ mô tả chiều cao"
+        },
+        {
+          "id": "c",
+          "text": "Xem ngoại hình là một tiêu chí"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "列入考量 là đưa vào cân nhắc.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l03-assessment-09",
+      "prompt": "Bài 2 cho rằng ai nên quyết định về cơ thể mình?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chính bản thân người đó"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ truyền thông"
+        },
+        {
+          "id": "c",
+          "text": "Bất kỳ người qua đường nào"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Tác giả nói 身體是自己的，自己的樣子當然由自己決定.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l03-assessment-10",
+      "prompt": "「給人貼標籤」 thường nói về điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gán cho người khác một nhận định đơn giản"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ đo chiều cao"
+        },
+        {
+          "id": "c",
+          "text": "Chỉ cắt tóc"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "貼標籤 ở đây là gán nhãn/định kiến.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l03-assessment-11",
+      "prompt": "「無疑是」 thể hiện điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Người nói rất chắc về nhận định"
+        },
+        {
+          "id": "b",
+          "text": "Người nói chưa có ý kiến"
+        },
+        {
+          "id": "c",
+          "text": "Người nói hỏi địa chỉ"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "無疑 là không nghi ngờ.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l03-assessment-12",
+      "prompt": "Khi đọc hai bài trái chiều, cách học phù hợp là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ nhớ một câu bất kỳ"
+        },
+        {
+          "id": "b",
+          "text": "Xác định luận điểm và bằng chứng của từng tác giả"
+        },
+        {
+          "id": "c",
+          "text": "Gộp hai quan điểm thành một"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Hai bài cùng chủ đề nhưng lập luận khác nhau.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "writingTask": {
+    "id": "cc5-v5-l03-writing",
+    "title": "Một lựa chọn cá nhân",
+    "prompt": "Viết một đoạn tiếng Hoa nêu quan điểm về phẫu thuật thẩm mỹ. Dùng ít nhất một ví dụ, một sự nhượng bộ và một kết luận.",
+    "sampleTraditional": "我認為整型是個人的選擇，但風險不能忽略。若有人因為意外需要重建外觀，我能理解；若只是受到外界眼光影響，就應該先想清楚。無論做什麼決定，都需要事先了解風險。",
+    "sampleSimplified": "我认为整型是个人的选择，但风险不能忽略。若有人因为意外需要重建外观，我能理解；若只是受到外界眼光影响，就应该先想清楚。无论做什么决定，都需要事先了解风险。"
+  }
+}

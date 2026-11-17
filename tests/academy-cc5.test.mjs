@@ -13,7 +13,7 @@ const root = path.resolve(import.meta.dirname, '..');
 
 test('Volume 5 exposes only complete lessons and keeps their learning content isolated', () => {
   assert.equal(academyVolume5.lessonIds.length, 10);
-  assert.equal(academyVolume5Lessons.length, 2);
+  assert.equal(academyVolume5Lessons.length, 3);
   const lesson = academyVolume5Lessons[0];
   assert.equal(lesson.id, 'cc5-v5-l01');
   assert.equal(validateAcademyLessonContent(lesson), true);
@@ -53,6 +53,18 @@ test('Volume 5 exposes only complete lessons and keeps their learning content is
     assert.ok(reading.turns.every((turn) => turn.chinese && turn.simplified && turn.meaningVi));
     assert.ok(reading.audioTrackId && manifest.tracks.some((track) => track.id === reading.audioTrackId && track.mappingStatus === 'verified'));
   }
+  const lesson03 = academyVolume5Lessons[2];
+  assert.equal(lesson03.id, 'cc5-v5-l03');
+  assert.equal(validateAcademyLessonContent(lesson03), true);
+  assert.deepEqual(lesson03.lecture.dialogues.map((reading) => reading.turns.length), [2, 2]);
+  assert.equal(lesson03.vocabulary.wordIds.length, 98);
+  assert.equal(new Set(lesson03.vocabulary.wordIds).size, 98);
+  assert.equal(academyVocabularyByIds(lesson03.vocabulary.wordIds).length, 98);
+  assert.equal(lesson03.grammar.length, 11);
+  assert.equal(lesson03.listening.length, 4);
+  assert.equal(lesson03.practice.length, 11);
+  assert.equal(lesson03.assessment.length, 12);
+  assert.equal(academyScriptText(lesson03.title, 'simplified'), '整型好不好');
 });
 
 test('Volume 5 keeps textbook/workbook tracks separate and only publishes verified references', () => {
@@ -61,8 +73,8 @@ test('Volume 5 keeps textbook/workbook tracks separate and only publishes verifi
   assert.equal(manifest.tracks.filter((track) => track.source === 'workbook').length, 11);
   assert.equal(new Set(manifest.tracks.map((track) => track.id)).size, 97);
   assert.equal(manifest.tracks.filter((track) => track.mappingStatus === 'verified').length, report.verified);
-  assert.equal(report.verified, 75);
-  assert.equal(report.pending.length, 22);
+  assert.equal(report.verified, 77);
+  assert.equal(report.pending.length, 20);
   assert.equal(manifest.tracks.find((track) => track.id === 'cc5-textbook-unassigned-00').mappingStatus, 'pending');
   assert.equal(manifest.tracks.find((track) => track.id === 'cc5-workbook-unassigned-00').mappingStatus, 'pending');
   assert.equal(manifest.tracks.filter((track) => track.lesson === 1 && track.mappingStatus === 'verified').length, 9);

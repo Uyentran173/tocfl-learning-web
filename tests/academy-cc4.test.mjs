@@ -15,12 +15,13 @@ import lesson06Words from '../data/academy/cc4-lesson06-vocabulary.json' with { 
 import lesson07Words from '../data/academy/cc4-lesson07-vocabulary.json' with { type: 'json' };
 import lesson08Words from '../data/academy/cc4-lesson08-vocabulary.json' with { type: 'json' };
 import lesson09Words from '../data/academy/cc4-lesson09-vocabulary.json' with { type: 'json' };
+import lesson10Words from '../data/academy/cc4-lesson10-vocabulary.json' with { type: 'json' };
 
 const root = path.resolve(import.meta.dirname, '..');
 
 test('Volume 4 releases reviewed lessons with isolated IDs and complete activities', () => {
   assert.equal(academyVolume4.lessonIds.length, 12);
-  assert.equal(academyVolume4Lessons.length, 9);
+  assert.equal(academyVolume4Lessons.length, 10);
   const lesson = academyVolume4Lessons[0];
   assert.equal(lesson.id, 'cc4-v4-l01');
   assert.equal(validateAcademyLessonContent(lesson), true);
@@ -40,6 +41,38 @@ test('Volume 4 releases reviewed lessons with isolated IDs and complete activiti
     assert.ok(question.options.some((option) => option.id === question.correctOptionId), question.id);
     assert.equal(new Set(question.options.map((option) => option.text)).size, question.options.length, question.id);
   }
+});
+
+test('Volume 4 Lesson 10 includes reviewed job-interview material and verified audio', () => {
+  const lesson = academyVolume4Lessons[9];
+  assert.equal(lesson.id, 'cc4-v4-l10');
+  assert.equal(validateAcademyLessonContent(lesson), true);
+  assert.equal(lesson.lecture.dialogues[0].turns.length, 18);
+  assert.equal(lesson.lecture.dialogues[1].turns.length, 3);
+  assert.ok(lesson.lecture.dialogues[0].turns.at(-1).chinese.includes('謝謝各位給我這個機會'));
+  assert.ok(lesson.lecture.dialogues[1].turns[0].chinese.includes('找資金'));
+  assert.equal(lesson10Words.records.length, 78);
+  assert.equal(academyVocabularyByIds(lesson.vocabulary.wordIds).length, 78);
+  for (const word of lesson10Words.records) {
+    const traditionalParts = word.traditional.replace(/[（）]/g, '').split('…');
+    const simplifiedParts = word.simplified.replace(/[（）]/g, '').split('…');
+    assert.ok(traditionalParts.every((part) => word.exampleTraditional.includes(part)), word.id);
+    assert.ok(simplifiedParts.every((part) => word.exampleSimplified.includes(part)), word.id);
+    assert.ok(word.meaningVi && word.exampleVi && word.pinyin && word.wordClass, word.id);
+  }
+  assert.equal(lesson.grammar.length, 7);
+  assert.equal(lesson.practice.length, 8);
+  assert.equal(lesson.assessment.length, 10);
+  assert.equal(academyScriptText(lesson.title, 'simplified'), '应征');
+  for (const trackId of ['cc4-textbook-l10-t01', 'cc4-textbook-l10-t02', 'cc4-textbook-l10-t03', 'cc4-textbook-l10-t04']) {
+    const track = manifest.tracks.find((item) => item.id === trackId);
+    assert.equal(track?.mappingStatus, 'verified', trackId);
+    const file = path.join(root, 'public/academy/cc4/audio', `${trackId}.mp3`);
+    assert.ok(existsSync(file), trackId);
+    assert.equal(createHash('sha256').update(readFileSync(file)).digest('hex'), track.sha256, trackId);
+  }
+  assert.ok(reviewed['cc4-textbook-l10-t01'].transcriptTraditional.includes('何建明，請你先簡單自我介紹一下'));
+  assert.ok(reviewed['cc4-textbook-l10-t03'].transcriptTraditional.includes('青年創業貸款'));
 });
 
 test('Volume 4 Lesson 09 includes the final dialogue turns, historical reading and verified tracks', () => {

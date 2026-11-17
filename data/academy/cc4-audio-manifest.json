@@ -2848,11 +2848,16 @@
       "bytes": 3864766,
       "sha256": "c32e5e80f36d0c7cca0c064f3198857075f1a4a6c97266f8c345c0196d10588b",
       "pdfPages": [
-        253,
-        265
+        253
       ],
-      "mappingStatus": "pending",
-      "activity": null
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 253,
+        "bookPage": 226,
+        "labelVi": "Hội thoại",
+        "referenceCode": "10-01",
+        "itemCount": null
+      }
     },
     {
       "id": "cc4-textbook-l10-t02",

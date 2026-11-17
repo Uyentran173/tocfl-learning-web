@@ -1,0 +1,1128 @@
+{
+  "contentVersion": 2,
+  "id": "cc4-v4-l10",
+  "title": "應徵",
+  "titleVi": "Ứng tuyển việc làm",
+  "description": "Theo dõi một buổi phỏng vấn và chuẩn bị cách trình bày kinh nghiệm, ưu điểm của bản thân.",
+  "objectives": [
+    "Giới thiệu học vấn, kinh nghiệm làm việc và gia đình khi phỏng vấn.",
+    "Phân biệt các cách dùng 著, 中, 似乎, 以, 是…的料, 下去 và 自.",
+    "Đọc hiểu quá trình Kiến Minh tìm việc và chuẩn bị phỏng vấn."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Kiến Minh chuẩn bị trang phục rồi đi phỏng vấn tại một công ty dịch vụ ăn uống. Bài đọc kể những lựa chọn và bước chuẩn bị trước buổi phỏng vấn.",
+    "sections": [
+      {
+        "id": "cc4-v4-l10-section-01",
+        "title": "Trước buổi phỏng vấn",
+        "body": "Ngọc Trân giúp anh trai chọn trang phục. Chú ý cách họ nói về số ứng viên và điều kiện tuyển dụng.",
+        "chinese": "應徵者需要具備什麼條件呢？",
+        "simplified": "应征者需要具备什么条件呢？",
+        "pinyin": "yīng zhēng zhě xū yào jù bèi shén me tiáo jiàn ne ？",
+        "meaningVi": "Ứng viên cần đáp ứng điều kiện gì?"
+      },
+      {
+        "id": "cc4-v4-l10-section-02",
+        "title": "Giới thiệu kinh nghiệm",
+        "body": "Trong buổi phỏng vấn, Kiến Minh nói về việc làm thêm, thực tập và công việc ở câu lạc bộ.",
+        "chinese": "我學到了許多跟人合作、討論的經驗。",
+        "simplified": "我学到了许多跟人合作、讨论的经验。",
+        "pinyin": "wǒ xué dào le xǔ duō gēn rén hé zuò 、 tǎo lùn de jīng yàn 。",
+        "meaningVi": "Tôi học được nhiều kinh nghiệm hợp tác và thảo luận với người khác."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc4-v4-l10-dialogue-01",
+        "title": "Hội thoại: buổi ứng tuyển",
+        "context": "Kiến Minh chuẩn bị cùng Ngọc Trân, rồi trả lời người phỏng vấn.",
+        "audioTrackId": "cc4-textbook-l10-t01",
+        "turns": [
+          {
+            "speaker": "建明",
+            "chinese": "玉珍，幫我看看我的西裝配這條領帶適不適合。",
+            "simplified": "玉珍，帮我看看我的西装配这条领带适不适合。",
+            "pinyin": "yù zhēn ， bāng wǒ kàn kàn wǒ de xī zhuāng pèi zhè tiáo lǐng dài shì bù shì hé 。",
+            "meaningVi": "Ngọc Trân, giúp tôi xem bộ vest của tôi có hợp với chiếc cà vạt này không."
+          },
+          {
+            "speaker": "玉珍",
+            "chinese": "要面試的話，這條領帶太花了，換條素色的吧！哥，看你好像很緊張的樣子。",
+            "simplified": "要面试的话，这条领带太花了，换条素色的吧！哥，看你好像很紧张的样子。",
+            "pinyin": "yào miàn shì de huà ， zhè tiáo lǐng dài tài huā le ， huàn tiáo sù sè de ba ！ gē ， kàn nǐ hǎo xiàng hěn jǐn zhāng de yàng zi 。",
+            "meaningVi": "Nếu đi phỏng vấn thì chiếc cà vạt này quá lòe loẹt, hãy đổi sang một chiếc màu trơn nhé! Anh ơi, trông anh có vẻ rất căng thẳng."
+          },
+          {
+            "speaker": "建明",
+            "chinese": "是很緊張！聽說光是寄履歷表應徵的就有一千多人，有面試機會的剩下兩百多，最後只錄取十幾個，錄取率真低。",
+            "simplified": "是很紧张！听说光是寄履历表应征的就有一千多人，有面试机会的剩下两百多，最后只录取十几个，录取率真低。",
+            "pinyin": "shì hěn jǐn zhāng ！ tīng shuō guāng shì jì lǚ lì biǎo yīng zhēng de jiù yǒu yī qiān duō rén ， yǒu miàn shì jī huì de shèng xià liǎng bǎi duō ， zuì hòu zhǐ lù qǔ shí jǐ gè ， lù qǔ shuài zhēn dī 。",
+            "meaningVi": "Thật căng thẳng! Tôi nghe nói có hơn 1.000 người chỉ nộp hồ sơ xin việc, còn lại hơn 200 người có cơ hội được phỏng vấn, cuối cùng chỉ có hơn 10 người được tuyển. Tỷ lệ trúng tuyển thật sự rất thấp."
+          },
+          {
+            "speaker": "玉珍",
+            "chinese": "當然啊！這家公司是國內餐飲業的龍頭，就社會新鮮人而言，起薪算高的，聽說福利也很不錯，大家當然搶著進去。應徵者需要具備什麼條件呢？",
+            "simplified": "当然啊！这家公司是国内餐饮业的龙头，就社会新鲜人而言，起薪算高的，听说福利也很不错，大家当然抢着进去。应征者需要具备什么条件呢？",
+            "pinyin": "dāng rán a ！ zhè jiā gōng sī shì guó nèi cān yǐn yè de lóng tóu ， jiù shè huì xīn xiān rén ér yán ， qǐ xīn suàn gāo de ， tīng shuō fú lì yě hěn bù cuò ， dà jiā dāng rán qiǎng zhe jìn qù 。 yīng zhēng zhě xū yào jù bèi shén me tiáo jiàn ne ？",
+            "meaningVi": "Tất nhiên rồi! Công ty này là công ty đầu ngành trong lĩnh vực ẩm thực tại Đài Loan. Đối với những người mới ra trường, mức lương khởi điểm ở đây được xem là khá cao. Nghe nói phúc lợi cũng rất tốt, nên mọi người đương nhiên đều tranh nhau vào làm. Ứng viên cần đáp ứng những điều kiện gì?"
+          },
+          {
+            "speaker": "建明",
+            "chinese": "其實沒什麼特別的限制，只要學士學位以上，三十五歲以下，也不一定要相關科系。",
+            "simplified": "其实没什么特别的限制，只要学士学位以上，三十五岁以下，也不一定要相关科系。",
+            "pinyin": "qí shí méi shén me tè bié de xiàn zhì ， zhǐ yào xué shì xué wèi yǐ shàng ， sān shí wǔ suì yǐ xià ， yě bù yí dìng yào xiāng guān kē xì 。",
+            "meaningVi": "Thực ra không có yêu cầu đặc biệt gì, chỉ cần có bằng cử nhân trở lên, dưới 35 tuổi, cũng không nhất thiết phải là chuyên ngành liên quan."
+          },
+          {
+            "speaker": "玉珍",
+            "chinese": "難怪應徵的人那麼多。哥，加油！",
+            "simplified": "难怪应征的人那么多。哥，加油！",
+            "pinyin": "nán guài yīng zhēng de rén nà me duō 。 gē ， jiā yóu ！",
+            "meaningVi": "Chẳng trách có nhiều người nộp đơn ứng tuyển đến vậy. Anh ơi, cố lên!"
+          },
+          {
+            "speaker": "面試官",
+            "chinese": "何建明，請你先簡單自我介紹一下。",
+            "simplified": "何建明，请你先简单自我介绍一下。",
+            "pinyin": "hé jiàn míng ， qǐng nǐ xiān jiǎn dān zì wǒ jiè shào yī xià 。",
+            "meaningVi": "Hà Kiến Minh, xin anh vui lòng giới thiệu ngắn gọn về bản thân."
+          },
+          {
+            "speaker": "建明",
+            "chinese": "好的。各位好！我是何建明，臺灣師範大學歷史系畢業，二十三歲，家住台北，家中有父母及妹妹，一共四個人。",
+            "simplified": "好的。各位好！我是何建明，台湾师范大学历史系毕业，二十三岁，家住台北，家中有父母及妹妹，一共四个人。",
+            "pinyin": "hǎo de 。 gè wèi hǎo ！ wǒ shì hé jiàn míng ， tái wān shī fàn dà xué lì shǐ xì bì yè ， èr shí sān suì ， jiā zhù tái běi ， jiā zhōng yǒu fù mǔ jí mèi mèi ， yī gòng sì gè rén 。",
+            "meaningVi": "Vâng. Xin chào mọi người! Tôi là Hà Kiến Minh, tốt nghiệp ngành Lịch sử tại Đại học Sư phạm Quốc gia Đài Loan, 23 tuổi, sống ở Đài Bắc. Gia đình tôi có bốn người, gồm cha mẹ, em gái và tôi."
+          },
+          {
+            "speaker": "面試官",
+            "chinese": "你是應屆畢業生，在大學時期有任何工作經驗嗎？",
+            "simplified": "你是应届毕业生，在大学时期有任何工作经验吗？",
+            "pinyin": "nǐ shì yīng jiè bì yè shēng ， zài dà xué shí qī yǒu rèn hé gōng zuò jīng yàn ma ？",
+            "meaningVi": "Bạn là sinh viên mới tốt nghiệp, bạn có kinh nghiệm làm việc nào trong thời gian học đại học không?"
+          },
+          {
+            "speaker": "建明",
+            "chinese": "有的，我在大學四年中，有不少打工經驗。因為我對餐飲業很有興趣，所以大一在一家小餐廳打工。後來覺得在那裡所學有限，於是就換到一家連鎖咖啡店。大三暑假我申請到一家連鎖餐飲公司的企劃部實習，在那裡學習到了許多營運方面的知識。",
+            "simplified": "有的，我在大学四年中，有不少打工经验。因为我对餐饮业很有兴趣，所以大一在一家小餐厅打工。后来觉得在那里所学有限，于是就换到一家连锁咖啡店。大三暑假我申请到一家连锁餐饮公司的企划部实习，在那里学习到了许多营运方面的知识。",
+            "pinyin": "yǒu de ， wǒ zài dà xué sì nián zhōng ， yǒu bù shǎo dǎ gōng jīng yàn 。 yīn wèi wǒ duì cān yǐn yè hěn yǒu xìng qù ， suǒ yǐ dà yī zài yī jiā xiǎo cān tīng dǎ gōng 。 hòu lái jué dé zài nà lǐ suǒ xué yǒu xiàn ， yú shì jiù huàn dào yī jiā lián suǒ kā fēi diàn 。 dà sān shǔ jià wǒ shēn qǐng dào yī jiā lián suǒ cān yǐn gōng sī de qǐ huà bù shí xí ， zài nà lǐ xué xí dào le xǔ duō yíng yùn fāng miàn de zhī shí 。",
+            "meaningVi": "Có, trong 4 năm học đại học, tôi đã có khá nhiều kinh nghiệm làm thêm. Vì tôi rất quan tâm đến ngành dịch vụ ăn uống, nên năm nhất tôi đã làm việc tại một nhà hàng nhỏ. Sau đó, tôi cảm thấy những gì học được ở đó còn hạn chế, nên đã chuyển sang làm việc tại một chuỗi cửa hàng cà phê. Vào kỳ nghỉ hè năm ba đại học, tôi đã nộp đơn xin thực tập tại phòng kế hoạch của một công ty chuỗi nhà hàng. Tại đó, tôi đã học được rất nhiều kiến thức về hoạt động kinh doanh."
+          },
+          {
+            "speaker": "面試官",
+            "chinese": "你的履歷表上說，你曾經當過社團的社長。可以談談那個經驗嗎？",
+            "simplified": "你的履历表上说，你曾经当过社团的社长。可以谈谈那个经验吗？",
+            "pinyin": "nǐ de lǚ lì biǎo shàng shuō ， nǐ céng jīng dāng guò shè tuán de shè zhǎng 。 kě yǐ tán tán nà gè jīng yàn ma ？",
+            "meaningVi": "Trong sơ yếu lý lịch của bạn có ghi rằng bạn từng là chủ tịch của một câu lạc bộ. Bạn có thể chia sẻ về trải nghiệm đó không?"
+          },
+          {
+            "speaker": "建明",
+            "chinese": "好的。我在大二的時候當了一年熱門音樂社社長，跟幾所大學聯合舉辦了兩場很大的音樂會，節目精彩，很受好評。這一年中，我學到了企劃活動的方法，也提高了自己的領導能力，更重要的是學習到很多跟人合作、討論的經驗。",
+            "simplified": "好的。我在大二的时候当了一年热门音乐社社长，跟几所大学联合举办了两场很大的音乐会，节目精彩，很受好评。这一年中，我学到了企划活动的方法，也提高了自己的领导能力，更重要的是学习到很多跟人合作、讨论的经验。",
+            "pinyin": "hǎo de 。 wǒ zài dà èr de shí hòu dāng le yī nián rè mén yīn lè shè shè zhǎng ， gēn jǐ suǒ dà xué lián hé jǔ bàn le liǎng chǎng hěn dà de yīn lè huì ， jié mù jīng cǎi ， hěn shòu hǎo píng 。 zhè yī nián zhōng ， wǒ xué dào le qǐ huà huó dòng de fāng fǎ ， yě tí gāo le zì jǐ de lǐng dǎo néng lì ， gèng zhòng yào de shì xué xí dào hěn duō gēn rén hé zuò 、 tǎo lùn de jīng yàn 。",
+            "meaningVi": "Vâng. Khi học năm hai đại học, tôi đã làm Chủ tịch Câu lạc bộ Âm nhạc Thịnh hành trong một năm. Tôi đã phối hợp với một số trường đại học để tổ chức hai buổi hòa nhạc quy mô lớn. Các chương trình đều rất tuyệt vời và nhận được nhiều lời khen ngợi. Trong năm đó, tôi đã học được cách lập kế hoạch cho các sự kiện, đồng thời nâng cao kỹ năng lãnh đạo của bản thân. Quan trọng hơn, tôi đã học được rất nhiều kinh nghiệm về cách hợp tác và thảo luận với mọi người."
+          },
+          {
+            "speaker": "面試官",
+            "chinese": "從你的打工跟實習經驗看起來，你似乎對餐飲業很有興趣。可是你知道，餐飲業非常辛苦嗎？",
+            "simplified": "从你的打工跟实习经验看起来，你似乎对餐饮业很有兴趣。可是你知道，餐饮业非常辛苦吗？",
+            "pinyin": "cóng nǐ de dǎ gōng gēn shí xí jīng yàn kàn qǐ lái ， nǐ sì hū duì cān yǐn yè hěn yǒu xìng qù 。 kě shì nǐ zhī dào ， cān yǐn yè fēi cháng xīn kǔ ma ？",
+            "meaningVi": "Dựa trên kinh nghiệm làm việc bán thời gian và thực tập của bạn, có vẻ như bạn rất quan tâm đến ngành dịch vụ ăn uống. Nhưng bạn có biết rằng làm việc trong ngành dịch vụ ăn uống rất vất vả không?"
+          },
+          {
+            "speaker": "建明",
+            "chinese": "是的，我知道。因為我的學長就是從事餐飲工作，他告訴了我不少關於這方面的事。但是我並沒有因此放棄從事餐飲業的想法，我認為就一個社會新鮮人而言，這個工作是個很好的磨練，讓我更想挑戰這個工作。",
+            "simplified": "是的，我知道。因为我的学长就是从事餐饮工作，他告诉了我不少关于这方面的事。但是我并没有因此放弃从事餐饮业的想法，我认为就一个社会新鲜人而言，这个工作是个很好的磨练，让我更想挑战这个工作。",
+            "pinyin": "shì de ， wǒ zhī dào 。 yīn wèi wǒ de xué zhǎng jiù shì cóng shì cān yǐn gōng zuò ， tā gào sù le wǒ bù shǎo guān yú zhè fāng miàn de shì 。 dàn shì wǒ bìng méi yǒu yīn cǐ fàng qì cóng shì cān yǐn yè de xiǎng fǎ ， wǒ rèn wèi jiù yī gè shè huì xīn xiān rén ér yán ， zhè gè gōng zuò shì gè hěn hǎo de mó liàn ， ràng wǒ gèng xiǎng tiāo zhàn zhè gè gōng zuò 。",
+            "meaningVi": "Vâng, tôi biết. Vì anh khóa trên của tôi làm việc trong ngành ẩm thực, anh ấy đã chia sẻ với tôi rất nhiều điều về lĩnh vực này. Tuy nhiên, tôi vẫn không từ bỏ ý định làm việc trong ngành dịch vụ ăn uống. Tôi cho rằng đối với một người mới ra trường, công việc này là một cơ hội rèn luyện rất tốt, khiến tôi càng muốn thử thách bản thân với công việc này hơn."
+          },
+          {
+            "speaker": "面試官",
+            "chinese": "你覺得你有什麼優點可以讓我們錄取你？",
+            "simplified": "你觉得你有什么优点可以让我们录取你？",
+            "pinyin": "nǐ jué dé nǐ yǒu shén me yōu diǎn kě yǐ ràng wǒ men lù qǔ nǐ ？",
+            "meaningVi": "Anh thấy mình có ưu điểm gì để chúng tôi tuyển anh?"
+          },
+          {
+            "speaker": "建明",
+            "chinese": "就像我在前面提到的，由於我有領導社團的經驗，所以我跟人合作的能力還不錯。另外，我工作認真，打工時上司常誇獎我。錄取我，公司應該不會後悔。",
+            "simplified": "就像我在前面提到的，由于我有领导社团的经验，所以我跟人合作的能力还不错。另外，我工作认真，打工时上司常夸奖我。录取我，公司应该不会后悔。",
+            "pinyin": "jiù xiàng wǒ zài qián miàn tí dào de ， yóu yú wǒ yǒu lǐng dǎo shè tuán de jīng yàn ， suǒ yǐ wǒ gēn rén hé zuò de néng lì hái bù cuò 。 lìng wài ， wǒ gōng zuò rèn zhēn ， dǎ gōng shí shàng sī cháng kuā jiǎng wǒ 。 lù qǔ wǒ ， gōng sī yīng gāi bù huì hòu huǐ 。",
+            "meaningVi": "Như tôi đã nói, nhờ từng lãnh đạo câu lạc bộ, tôi có khả năng hợp tác khá tốt. Tôi cũng làm việc nghiêm túc; khi đi làm thêm, cấp trên thường khen tôi. Công ty sẽ không hối hận nếu tuyển tôi."
+          },
+          {
+            "speaker": "面試官",
+            "chinese": "好的，今天的面試就到這裡，不管錄不錄取，我們都會在一週內以書面通知你。謝謝你來面試。",
+            "simplified": "好的，今天的面试就到这里，不管录不录取，我们都会在一周内以书面通知你。谢谢你来面试。",
+            "pinyin": "hǎo de ， jīn tiān de miàn shì jiù dào zhè lǐ ， bù guǎn lù bù lù qǔ ， wǒ men dōu huì zài yī zhōu nèi yǐ shū miàn tōng zhī nǐ 。 xiè xiè nǐ lái miàn shì 。",
+            "meaningVi": "Được rồi, buổi phỏng vấn hôm nay đến đây. Dù có được tuyển hay không, chúng tôi sẽ thông báo bằng văn bản trong vòng một tuần. Cảm ơn anh đã đến phỏng vấn."
+          },
+          {
+            "speaker": "建明",
+            "chinese": "謝謝各位給我這個機會！",
+            "simplified": "谢谢各位给我这个机会！",
+            "pinyin": "xiè xiè gè wèi gěi wǒ zhè gè jī huì ！",
+            "meaningVi": "Cảm ơn mọi người đã cho tôi cơ hội này!"
+          }
+        ]
+      },
+      {
+        "id": "cc4-v4-l10-reading-01",
+        "title": "Bài đọc: 就業還是創業？",
+        "context": "Kiến Minh cân nhắc tự kinh doanh hay làm việc tại công ty.",
+        "audioTrackId": "cc4-textbook-l10-t03",
+        "turns": [
+          {
+            "speaker": "Bài đọc",
+            "chinese": "最近建明的同班同學有的到處找工作；有的已經考上研究所，正在享受輕鬆的暑假；有的申請到國外的研究所，出國以前，得好好練習外語；還有兩個女同學打算自己創業賣衣服，正忙著找店面、找資金、找廠商。建明當然也不例外，寄履歷，等通知。這一關似乎比考大學還難。其實因為建明在大學時接觸過一些餐飲業，他也想過，去跟銀行申請青年創業貸款來自己開店，但又擔心自己不是做生意的料。最後如果因為太辛苦而做不下去，恐怕要損失一筆錢。接下來還會有繳不完的貸款。",
+            "simplified": "最近建明的同班同学有的到处找工作；有的已经考上研究所，正在享受轻松的暑假；有的申请到国外的研究所，出国以前，得好好练习外语；还有两个女同学打算自己创业卖衣服，正忙着找店面、找资金、找厂商。建明当然也不例外，寄履历，等通知。这一关似乎比考大学还难。其实因为建明在大学时接触过一些餐饮业，他也想过，去跟银行申请青年创业贷款来自己开店，但又担心自己不是做生意的料。最后如果因为太辛苦而做不下去，恐怕要损失一笔钱。接下来还会有缴不完的贷款。",
+            "pinyin": "zuì jìn jiàn míng de tóng bān tóng xué yǒu de dào chù zhǎo gōng zuò ； yǒu de yǐ jīng kǎo shàng yán jiū suǒ ， zhèng zài xiǎng shòu qīng sōng de shǔ jià ； yǒu de shēn qǐng dào guó wài de yán jiū suǒ ， chū guó yǐ qián ， dé hǎo hǎo liàn xí wài yǔ ； hái yǒu liǎng gè nǚ tóng xué dǎ suàn zì jǐ chuàng yè mài yī fú ， zhèng máng zhe zhǎo diàn miàn 、 zhǎo zī jīn 、 zhǎo chǎng shāng 。 jiàn míng dāng rán yě bù lì wài ， jì lǚ lì ， děng tōng zhī 。 zhè yī guān sì hū bǐ kǎo dà xué hái nán 。 qí shí yīn wèi jiàn míng zài dà xué shí jiē chù guò yī xiē cān yǐn yè ， tā yě xiǎng guò ， qù gēn yín xíng shēn qǐng qīng nián chuàng yè dài kuǎn lái zì jǐ kāi diàn ， dàn yòu dān xīn zì jǐ bú shì zuò shēng yì de liào 。 zuì hòu rú guǒ yīn wèi tài xīn kǔ ér zuò bù xià qù ， kǒng pà yào sǔn shī yī bǐ qián 。 jiē xià lái hái huì yǒu jiǎo bù wán de dài kuǎn 。",
+            "meaningVi": "Gần đây, một số bạn cùng lớp của Kiến Minh đang tìm việc khắp nơi; một số bạn đã thi đậu vào trường cao học và đang tận hưởng một kỳ nghỉ hè thoải mái; một số bạn đã nộp đơn vào các trường cao học ở nước ngoài, và trước khi ra nước ngoài, họ phải luyện tập ngoại ngữ thật kỹ; còn có hai bạn nữ dự định tự kinh doanh bán quần áo, đang bận rộn tìm mặt bằng, tìm vốn và tìm nhà cung cấp. Tất nhiên, Kiến Minh cũng không phải là ngoại lệ. Anh gửi hồ sơ xin việc và chờ thông báo. Giai đoạn này dường như còn khó hơn cả việc thi vào đại học. Thực ra, vì Kiến Minh đã có một số kinh nghiệm trong ngành ẩm thực khi còn học đại học, nên anh cũng từng nghĩ đến việc xin vay vốn khởi nghiệp dành cho thanh niên từ ngân hàng để tự mở cửa hàng. Tuy nhiên, anh lại lo lắng rằng mình không có khiếu kinh doanh. Cuối cùng, nếu không thể tiếp tục vì quá vất vả, e rằng anh sẽ mất một khoản tiền. Sau đó, anh còn phải trả khoản vay không dứt."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "想到這裡就提不起勇氣當老闆，寧可進一個大企業當員工。為了求職的事，建明也跟父母討論過，建明父母對他的工作倒是沒有特別的意見，只希望他找個能穩定發展的工作，將來可以養家活口就好。幸虧沒有來自父母的壓力，他才能按照自己的興趣找工作。上個星期建明接到了一家連鎖餐飲公司的通知，說他已經通過筆試，請他去面試。建明很興奮，因為這正是他的目標。為了準備面試，他上網找那家公司的資料，熟讀關於那家公司的歷史及發展，也對他所應徵的職位有初步的了解。",
+            "simplified": "想到这里就提不起勇气当老板，宁可进一个大企业当员工。为了求职的事，建明也跟父母讨论过，建明父母对他的工作倒是没有特别的意见，只希望他找个能稳定发展的工作，将来可以养家活口就好。幸亏没有来自父母的压力，他才能按照自己的兴趣找工作。上个星期建明接到了一家连锁餐饮公司的通知，说他已经通过笔试，请他去面试。建明很兴奋，因为这正是他的目标。为了准备面试，他上网找那家公司的资料，熟读关于那家公司的历史及发展，也对他所应征的职位有初步的了解。",
+            "pinyin": "xiǎng dào zhè lǐ jiù tí bù qǐ yǒng qì dāng lǎo bǎn ， níng kě jìn yī gè dà qǐ yè dāng yuán gōng 。 wèi le qiú zhí de shì ， jiàn míng yě gēn fù mǔ tǎo lùn guò ， jiàn míng fù mǔ duì tā de gōng zuò dǎo shì méi yǒu tè bié de yì jiàn ， zhǐ xī wàng tā zhǎo gè néng wěn dìng fā zhǎn de gōng zuò ， jiāng lái kě yǐ yǎng jiā huó kǒu jiù hǎo 。 xìng kuī méi yǒu lái zì fù mǔ de yā lì ， tā cái néng àn zhào zì jǐ de xìng qù zhǎo gōng zuò 。 shàng gè xīng qī jiàn míng jiē dào le yī jiā lián suǒ cān yǐn gōng sī de tōng zhī ， shuō tā yǐ jīng tōng guò bǐ shì ， qǐng tā qù miàn shì 。 jiàn míng hěn xìng fèn ， yīn wèi zhè zhèng shì tā de mù biāo 。 wèi le zhǔn bèi miàn shì ， tā shàng wǎng zhǎo nà jiā gōng sī de zī liào ， shú dú guān yú nà jiā gōng sī de lì shǐ jí fā zhǎn ， yě duì tā suǒ yīng zhēng de zhí wèi yǒu chū bù de liǎo jiě 。",
+            "meaningVi": "Nghĩ đến đây, anh không đủ can đảm để làm ông chủ, mà thà vào một công ty lớn làm nhân viên còn hơn. Về việc tìm việc làm, Kiến Minh cũng đã thảo luận với cha mẹ. Cha mẹ của Kiến Minh không có ý kiến đặc biệt gì về công việc của anh, chỉ hy vọng anh tìm được một công việc có thể phát triển ổn định, để sau này có thể nuôi sống gia đình là được. May mắn là không có áp lực từ cha mẹ, nên anh có thể tìm việc theo sở thích của mình. Tuần trước, Kiến Minh nhận được thông báo từ một công ty chuỗi nhà hàng, cho biết anh đã vượt qua vòng thi viết và được mời đến phỏng vấn. Kiến Minh rất phấn khích vì đây chính là mục tiêu của anh. Để chuẩn bị cho buổi phỏng vấn, anh lên mạng tìm thông tin về công ty đó, nghiên cứu kỹ về lịch sử và sự phát triển của công ty, đồng thời tìm hiểu sơ bộ về vị trí mà anh đang ứng tuyển."
+          },
+          {
+            "speaker": "Bài đọc",
+            "chinese": "另外還找了一些面試技巧、面試的考古題，甚至還跟同學做了面試沙盤推演。至於他的面試服裝，是妹妹陪著他去買的，畢竟男生對打扮比較沒有概念。妹妹幫他挑了一套最基本的深藍色西裝，配一件白色的襯衫。今天建明到那家公司面試，過程還算順利。面試官對他的印象好像還不錯，如果能順利錄取，那就太好了。",
+            "simplified": "另外还找了一些面试技巧、面试的考古题，甚至还跟同学做了面试沙盘推演。至于他的面试服装，是妹妹陪着他去买的，毕竟男生对打扮比较没有概念。妹妹帮他挑了一套最基本的深蓝色西装，配一件白色的衬衫。今天建明到那家公司面试，过程还算顺利。面试官对他的印象好像还不错，如果能顺利录取，那就太好了。",
+            "pinyin": "lìng wài hái zhǎo le yī xiē miàn shì jì qiǎo 、 miàn shì de kǎo gǔ tí ， shèn zhì hái gēn tóng xué zuò le miàn shì shā pán tuī yǎn 。 zhì yú tā de miàn shì fú zhuāng ， shì mèi mèi péi zhe tā qù mǎi de ， bì jìng nán shēng duì dǎ bàn bǐ jiào méi yǒu gài niàn 。 mèi mèi bāng tā tiāo le yī tào zuì jī běn de shēn lán sè xī zhuāng ， pèi yī jiàn bái sè de chèn shān 。 jīn tiān jiàn míng dào nà jiā gōng sī miàn shì ， guò chéng hái suàn shùn lì 。 miàn shì guān duì tā de yìn xiàng hǎo xiàng hái bù cuò ， rú guǒ néng shùn lì lù qǔ ， nà jiù tài hǎo le 。",
+            "meaningVi": "Ngoài ra, anh còn tìm hiểu một số kỹ năng phỏng vấn, các đề phỏng vấn những năm trước, thậm chí còn cùng các bạn cùng lớp diễn tập tình huống phỏng vấn. Về phần trang phục phỏng vấn, em gái đã đi cùng anh ấy để mua, vì dù sao thì con trai cũng không rành về cách ăn mặc. Em gái đã giúp anh chọn một bộ vest màu xanh đậm cơ bản nhất, kết hợp với một chiếc áo sơ mi trắng. Hôm nay, Kiến Minh đến công ty đó phỏng vấn, quá trình diễn ra khá suôn sẻ. Dường như người phỏng vấn có ấn tượng khá tốt về anh. Nếu anh được tuyển dụng thành công thì thật tuyệt vời."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc4-v4-l10-check-01",
+        "prompt": "Kiến Minh đã thực tập ở đâu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Phòng kế hoạch của một công ty chuỗi nhà hàng"
+          },
+          {
+            "id": "b",
+            "text": "Một trường mầm non"
+          },
+          {
+            "id": "c",
+            "text": "Một tòa soạn"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Anh nói đã thực tập ở 企劃部 của công ty chuỗi nhà hàng.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc4-v4-l10-check-02",
+        "prompt": "Vì sao anh ấy cuối cùng chọn ứng tuyển thay vì tự mở cửa hàng?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Vì không có bạn cùng lớp"
+          },
+          {
+            "id": "b",
+            "text": "Vì lo rủi ro và khoản vay nếu kinh doanh thất bại"
+          },
+          {
+            "id": "c",
+            "text": "Vì không thích ngành ăn uống"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Bài đọc nói anh lo không đủ tố chất kinh doanh, mất tiền và phải trả nợ.",
+        "skill": "Đọc hiểu"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem cách đọc, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc4-v4-l10-v001",
+      "cc4-v4-l10-v002",
+      "cc4-v4-l10-v003",
+      "cc4-v4-l10-v004",
+      "cc4-v4-l10-v005",
+      "cc4-v4-l10-v006",
+      "cc4-v4-l10-v007",
+      "cc4-v4-l10-v008",
+      "cc4-v4-l10-v009",
+      "cc4-v4-l10-v010",
+      "cc4-v4-l10-v011",
+      "cc4-v4-l10-v012",
+      "cc4-v4-l10-v013",
+      "cc4-v4-l10-v014",
+      "cc4-v4-l10-v015",
+      "cc4-v4-l10-v016",
+      "cc4-v4-l10-v017",
+      "cc4-v4-l10-v018",
+      "cc4-v4-l10-v019",
+      "cc4-v4-l10-v020",
+      "cc4-v4-l10-v021",
+      "cc4-v4-l10-v022",
+      "cc4-v4-l10-v023",
+      "cc4-v4-l10-v024",
+      "cc4-v4-l10-v025",
+      "cc4-v4-l10-v026",
+      "cc4-v4-l10-v027",
+      "cc4-v4-l10-v028",
+      "cc4-v4-l10-v029",
+      "cc4-v4-l10-v030",
+      "cc4-v4-l10-v031",
+      "cc4-v4-l10-v032",
+      "cc4-v4-l10-v033",
+      "cc4-v4-l10-v034",
+      "cc4-v4-l10-v035",
+      "cc4-v4-l10-v036",
+      "cc4-v4-l10-v037",
+      "cc4-v4-l10-v038",
+      "cc4-v4-l10-v039",
+      "cc4-v4-l10-v040",
+      "cc4-v4-l10-v041",
+      "cc4-v4-l10-v042",
+      "cc4-v4-l10-v043",
+      "cc4-v4-l10-v044",
+      "cc4-v4-l10-v045",
+      "cc4-v4-l10-v046",
+      "cc4-v4-l10-v047",
+      "cc4-v4-l10-v048",
+      "cc4-v4-l10-v049",
+      "cc4-v4-l10-v050",
+      "cc4-v4-l10-v051",
+      "cc4-v4-l10-v052",
+      "cc4-v4-l10-v053",
+      "cc4-v4-l10-v054",
+      "cc4-v4-l10-v055",
+      "cc4-v4-l10-v056",
+      "cc4-v4-l10-v057",
+      "cc4-v4-l10-v058",
+      "cc4-v4-l10-v059",
+      "cc4-v4-l10-v060",
+      "cc4-v4-l10-v061",
+      "cc4-v4-l10-v062",
+      "cc4-v4-l10-v063",
+      "cc4-v4-l10-v064",
+      "cc4-v4-l10-v065",
+      "cc4-v4-l10-v066",
+      "cc4-v4-l10-v067",
+      "cc4-v4-l10-v068",
+      "cc4-v4-l10-v069",
+      "cc4-v4-l10-v070",
+      "cc4-v4-l10-v071",
+      "cc4-v4-l10-v072",
+      "cc4-v4-l10-v073",
+      "cc4-v4-l10-v074",
+      "cc4-v4-l10-v075",
+      "cc4-v4-l10-v076",
+      "cc4-v4-l10-v077",
+      "cc4-v4-l10-v078"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc4-textbook-l10-t02",
+        "label": "Từ vựng hội thoại"
+      },
+      {
+        "id": "cc4-textbook-l10-t04",
+        "label": "Từ vựng bài đọc"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc4-v4-l10-grammar-01",
+      "title": "Các cách dùng 著",
+      "structure": "động từ + 著／động từ + 著 + động từ khác",
+      "explanation": "著 thường đọc nhẹ “zhe” và gắn sau động từ. Nó có thể chỉ trạng thái đang duy trì (門開著), cách thức đi kèm hành động khác (站著說), hành động lặp lại (看著看著) hoặc sự tồn tại tại một nơi (牆上掛著畫).",
+      "examples": [
+        {
+          "chinese": "門開著，請進來。",
+          "simplified": "门开着，请进来。",
+          "pinyin": "mén kāi zhe ， qǐng jìn lái 。",
+          "meaningVi": "Cửa đang mở, mời vào."
+        },
+        {
+          "chinese": "他站著跟大家說話。",
+          "simplified": "他站着跟大家说话。",
+          "pinyin": "tā zhàn zhe gēn dà jiā shuō huà 。",
+          "meaningVi": "Anh ấy đứng nói chuyện với mọi người."
+        }
+      ],
+      "commonMistake": "Đừng hiểu 著 trong 門開著 là một hành động đang bắt đầu; nó nhấn trạng thái đang được duy trì.",
+      "check": {
+        "id": "cc4-v4-l10-grammar-check-01",
+        "prompt": "門開著 cho biết gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Cửa đang ở trạng thái mở"
+          },
+          {
+            "id": "b",
+            "text": "Cửa sắp mở"
+          },
+          {
+            "id": "c",
+            "text": "Cửa từng mở"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "著 nói trạng thái mở vẫn đang duy trì.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l10-t05"
+    },
+    {
+      "id": "cc4-v4-l10-grammar-02",
+      "title": "Các cách dùng 中",
+      "structure": "danh từ + 中／hoạt động + 中",
+      "explanation": "中 có thể chỉ “trong số” một nhóm (五個人中), “trong một giai đoạn” (大學時期中) hoặc “đang trong quá trình” (面試中). Hãy nhìn danh từ hay hoạt động đứng trước nó.",
+      "examples": [
+        {
+          "chinese": "五個人中，只有她有經驗。",
+          "simplified": "五个人中，只有她有经验。",
+          "pinyin": "wǔ gè rén zhōng ， zhǐ yǒu tā yǒu jīng yàn 。",
+          "meaningVi": "Trong năm người, chỉ cô ấy có kinh nghiệm."
+        },
+        {
+          "chinese": "面試正在進行中。",
+          "simplified": "面试正在进行中。",
+          "pinyin": "miàn shì zhèng zài jìn xíng zhōng 。",
+          "meaningVi": "Buổi phỏng vấn đang diễn ra."
+        }
+      ],
+      "commonMistake": "Đừng dịch mọi chữ 中 là “ở giữa” theo nghĩa vị trí.",
+      "check": {
+        "id": "cc4-v4-l10-grammar-check-02",
+        "prompt": "面試中 trong ngữ cảnh này nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Sau buổi phỏng vấn"
+          },
+          {
+            "id": "b",
+            "text": "Đang phỏng vấn"
+          },
+          {
+            "id": "c",
+            "text": "Trước buổi phỏng vấn"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "中 sau hoạt động chỉ quá trình đang diễn ra.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l10-t06"
+    },
+    {
+      "id": "cc4-v4-l10-grammar-03",
+      "title": "似乎",
+      "structure": "chủ ngữ + 似乎 + nhận xét",
+      "explanation": "似乎 cho biết đây là nhận xét hoặc ấn tượng của người nói, chưa khẳng định chắc chắn. Gần với “có vẻ như”.",
+      "examples": [
+        {
+          "chinese": "你似乎對餐飲業很有興趣。",
+          "simplified": "你似乎对餐饮业很有兴趣。",
+          "pinyin": "nǐ sì hū duì cān yǐn yè hěn yǒu xìng qù 。",
+          "meaningVi": "Bạn có vẻ rất hứng thú với ngành dịch vụ ăn uống."
+        },
+        {
+          "chinese": "面試官似乎對他印象不錯。",
+          "simplified": "面试官似乎对他印象不错。",
+          "pinyin": "miàn shì guān sì hū duì tā yìn xiàng bù cuò 。",
+          "meaningVi": "Người phỏng vấn có vẻ có ấn tượng tốt về anh ấy."
+        }
+      ],
+      "commonMistake": "Không dùng 似乎 để khẳng định chắc chắn một sự thật đã được xác nhận.",
+      "check": {
+        "id": "cc4-v4-l10-grammar-check-03",
+        "prompt": "Điền: 他____很喜歡這份工作，但我不確定。",
+        "options": [
+          {
+            "id": "a",
+            "text": "似乎"
+          },
+          {
+            "id": "b",
+            "text": "以"
+          },
+          {
+            "id": "c",
+            "text": "下去"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Người nói chỉ nêu ấn tượng, chưa chắc chắn.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc4-v4-l10-grammar-04",
+      "title": "以",
+      "structure": "以 + phương tiện／cách thức + động từ",
+      "explanation": "以 là cách nói trang trọng gần với 用, chỉ phương tiện hoặc cách thức làm việc. Trong bài, 以書面通知 là thông báo bằng văn bản.",
+      "examples": [
+        {
+          "chinese": "我們會以書面通知你。",
+          "simplified": "我们会以书面通知你。",
+          "pinyin": "wǒ men huì yǐ shū miàn tōng zhī nǐ 。",
+          "meaningVi": "Chúng tôi sẽ thông báo cho bạn bằng văn bản."
+        },
+        {
+          "chinese": "他以很低的價錢買到這件衣服。",
+          "simplified": "他以很低的价钱买到这件衣服。",
+          "pinyin": "tā yǐ hěn dī de jià qián mǎi dào zhè jiàn yī fú 。",
+          "meaningVi": "Anh ấy mua chiếc áo này với giá rất thấp."
+        }
+      ],
+      "commonMistake": "Đừng hiểu 以 trong 以書面通知 là một mốc thời gian; nó chỉ cách thông báo.",
+      "check": {
+        "id": "cc4-v4-l10-grammar-check-04",
+        "prompt": "以書面通知 nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Thông báo sau một tuần"
+          },
+          {
+            "id": "b",
+            "text": "Thông báo bằng văn bản"
+          },
+          {
+            "id": "c",
+            "text": "Thông báo trực tiếp"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "以 nêu phương thức thông báo.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l10-t08"
+    },
+    {
+      "id": "cc4-v4-l10-grammar-05",
+      "title": "是…的料",
+      "structure": "chủ ngữ + 是／不是 + làm việc gì + 的料",
+      "explanation": "料 ở đây là “tố chất”. Mẫu này đánh giá ai có năng khiếu hoặc phù hợp với một việc hay không; thường dùng trong lời nói thân mật.",
+      "examples": [
+        {
+          "chinese": "他是做生意的料。",
+          "simplified": "他是做生意的料。",
+          "pinyin": "tā shì zuò shēng yì de liào 。",
+          "meaningVi": "Anh ấy có tố chất kinh doanh."
+        },
+        {
+          "chinese": "我不是唱歌的料。",
+          "simplified": "我不是唱歌的料。",
+          "pinyin": "wǒ bú shì chàng gē de liào 。",
+          "meaningVi": "Tôi không có năng khiếu ca hát."
+        }
+      ],
+      "commonMistake": "Đừng dịch 料 thành “nguyên liệu” trong mẫu nói về khả năng con người.",
+      "check": {
+        "id": "cc4-v4-l10-grammar-check-05",
+        "prompt": "不是做生意的料 nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Không đủ vốn"
+          },
+          {
+            "id": "b",
+            "text": "Không có tố chất kinh doanh"
+          },
+          {
+            "id": "c",
+            "text": "Không thích mua hàng"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Cụm nói về sự phù hợp hoặc năng khiếu.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc4-v4-l10-grammar-06",
+      "title": "下去",
+      "structure": "động từ + 下去／下去 như động từ",
+      "explanation": "下去 có nghĩa xuống dưới theo không gian, hoặc tiếp tục một việc theo thời gian. Trong 做不下去, người nói không thể tiếp tục làm nữa; hướng nghĩa do ngữ cảnh quyết định.",
+      "examples": [
+        {
+          "chinese": "這家公司不能再經營下去了。",
+          "simplified": "这家公司不能再经营下去了。",
+          "pinyin": "zhè jiā gōng sī bù néng zài jīng yíng xià qù le 。",
+          "meaningVi": "Công ty này không thể tiếp tục hoạt động."
+        },
+        {
+          "chinese": "請把箱子搬下去。",
+          "simplified": "请把箱子搬下去。",
+          "pinyin": "qǐng bǎ xiāng zi bān xià qù 。",
+          "meaningVi": "Hãy mang thùng xuống dưới."
+        }
+      ],
+      "commonMistake": "Đừng dịch 下去 thành “đi xuống” khi câu đang nói việc tiếp tục hay ngừng một hoạt động.",
+      "check": {
+        "id": "cc4-v4-l10-grammar-check-06",
+        "prompt": "做不下去 nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Không thể tiếp tục làm"
+          },
+          {
+            "id": "b",
+            "text": "Chưa xuống tầng dưới"
+          },
+          {
+            "id": "c",
+            "text": "Làm xong rồi"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "下去 ở đây chỉ sự tiếp tục theo thời gian.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l10-t10"
+    },
+    {
+      "id": "cc4-v4-l10-grammar-07",
+      "title": "自",
+      "structure": "động từ + 自 + nguồn／địa điểm",
+      "explanation": "自 là dạng trang trọng của 從 khi chỉ nguồn gốc. Nó thường đứng sau một động từ như 來自 (đến từ), 選自 (chọn từ), 翻譯自 (dịch từ).",
+      "examples": [
+        {
+          "chinese": "這封信來自台灣。",
+          "simplified": "这封信来自台湾。",
+          "pinyin": "zhè fēng xìn lái zì tái wān 。",
+          "meaningVi": "Lá thư này đến từ Đài Loan."
+        },
+        {
+          "chinese": "這篇文章選自一本書。",
+          "simplified": "这篇文章选自一本书。",
+          "pinyin": "zhè piān wén zhāng xuǎn zì yī běn shū 。",
+          "meaningVi": "Bài viết này được chọn từ một quyển sách."
+        }
+      ],
+      "commonMistake": "Không tự thay 自 bằng 從 sau mọi động từ; hãy học từng cụm như 來自, 選自.",
+      "check": {
+        "id": "cc4-v4-l10-grammar-check-07",
+        "prompt": "來自台灣 nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Đi về Đài Loan"
+          },
+          {
+            "id": "b",
+            "text": "Đến từ Đài Loan"
+          },
+          {
+            "id": "c",
+            "text": "Ở phía trên Đài Loan"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "自 chỉ nguồn gốc trong cụm 來自.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc4-textbook-l10-t11"
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc4-v4-l10-listening-01",
+      "prompt": "Nghe hội thoại: Kiến Minh muốn đổi chiếc cà vạt vì sao?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nó quá dài"
+        },
+        {
+          "id": "b",
+          "text": "Nó quá sặc sỡ"
+        },
+        {
+          "id": "c",
+          "text": "Nó bị rách"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Ngọc Trân nói chiếc cà vạt quá hoa và nên đổi sang màu trơn.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l10-t01"
+    },
+    {
+      "id": "cc4-v4-l10-listening-02",
+      "prompt": "Nghe hội thoại: công ty sẽ báo kết quả bằng cách nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bằng văn bản trong một tuần"
+        },
+        {
+          "id": "b",
+          "text": "Qua loa phát thanh"
+        },
+        {
+          "id": "c",
+          "text": "Chỉ báo cho người đỗ ngay"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Người phỏng vấn nói sẽ thông báo bằng văn bản trong vòng một tuần.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l10-t01"
+    },
+    {
+      "id": "cc4-v4-l10-listening-03",
+      "prompt": "Nghe bài đọc: Kiến Minh cân nhắc xin loại vay nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vay mua nhà"
+        },
+        {
+          "id": "b",
+          "text": "Vay du học"
+        },
+        {
+          "id": "c",
+          "text": "Vay khởi nghiệp cho thanh niên"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc nói 青年創業貸款.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l10-t03"
+    },
+    {
+      "id": "cc4-v4-l10-listening-04",
+      "prompt": "Nghe bài đọc: ai giúp Kiến Minh chọn vest?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Em gái"
+        },
+        {
+          "id": "b",
+          "text": "Mẹ"
+        },
+        {
+          "id": "c",
+          "text": "Bạn cùng lớp"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc nói 妹妹陪著他去買 và chọn bộ vest xanh đậm.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc4-textbook-l10-t03"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc4-v4-l10-practice-01",
+      "prompt": "門開____，可以進來。",
+      "options": [
+        {
+          "id": "a",
+          "text": "著"
+        },
+        {
+          "id": "b",
+          "text": "中"
+        },
+        {
+          "id": "c",
+          "text": "以"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "著 chỉ trạng thái cửa đang mở.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l10-practice-02",
+      "prompt": "面試正在進行____。",
+      "options": [
+        {
+          "id": "a",
+          "text": "著"
+        },
+        {
+          "id": "b",
+          "text": "中"
+        },
+        {
+          "id": "c",
+          "text": "自"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "中 chỉ quá trình đang diễn ra.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l10-practice-03",
+      "prompt": "他____對這份工作有興趣，但我不確定。",
+      "options": [
+        {
+          "id": "a",
+          "text": "自"
+        },
+        {
+          "id": "b",
+          "text": "以"
+        },
+        {
+          "id": "c",
+          "text": "似乎"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "似乎 nêu nhận xét chưa chắc chắn.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l10-practice-04",
+      "prompt": "公司會____書面通知。",
+      "options": [
+        {
+          "id": "a",
+          "text": "以"
+        },
+        {
+          "id": "b",
+          "text": "似乎"
+        },
+        {
+          "id": "c",
+          "text": "下去"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "以 chỉ cách thức thông báo.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l10-practice-05",
+      "prompt": "他不是做生意____。",
+      "options": [
+        {
+          "id": "a",
+          "text": "的中"
+        },
+        {
+          "id": "b",
+          "text": "的料"
+        },
+        {
+          "id": "c",
+          "text": "的自"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "是…的料 đánh giá tố chất.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l10-practice-06",
+      "prompt": "我太累了，做不____了。",
+      "options": [
+        {
+          "id": "a",
+          "text": "中"
+        },
+        {
+          "id": "b",
+          "text": "著"
+        },
+        {
+          "id": "c",
+          "text": "下去"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "下去 chỉ tiếp tục làm.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l10-practice-07",
+      "prompt": "這封信來____台灣。",
+      "options": [
+        {
+          "id": "a",
+          "text": "自"
+        },
+        {
+          "id": "b",
+          "text": "以"
+        },
+        {
+          "id": "c",
+          "text": "中"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "來自 chỉ nguồn gốc.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc4-v4-l10-practice-08",
+      "prompt": "建明在大三暑假到哪裡實習？",
+      "options": [
+        {
+          "id": "a",
+          "text": "連鎖咖啡店"
+        },
+        {
+          "id": "b",
+          "text": "連鎖餐飲公司的企劃部"
+        },
+        {
+          "id": "c",
+          "text": "歷史系辦公室"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "建明說：「大三暑假我申請到一家連鎖餐飲公司的企劃部實習」。",
+      "skill": "Đọc hiểu",
+      "kind": "choice"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc4-v4-l10-assessment-01",
+      "prompt": "應徵 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ứng tuyển"
+        },
+        {
+          "id": "b",
+          "text": "Nghỉ việc"
+        },
+        {
+          "id": "c",
+          "text": "Thăng chức"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "應徵 là nộp đơn xin việc.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc4-v4-l10-assessment-02",
+      "prompt": "Kiến Minh thực tập ở phòng nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Phòng kế toán"
+        },
+        {
+          "id": "b",
+          "text": "Phòng kế hoạch"
+        },
+        {
+          "id": "c",
+          "text": "Phòng y tế"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Anh nói đã thực tập ở 企劃部.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc4-v4-l10-assessment-03",
+      "prompt": "Điền: 他對這份工作____很有興趣。",
+      "options": [
+        {
+          "id": "a",
+          "text": "下去"
+        },
+        {
+          "id": "b",
+          "text": "以"
+        },
+        {
+          "id": "c",
+          "text": "似乎"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "似乎 cho biết đây là ấn tượng, chưa chắc chắn.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l10-assessment-04",
+      "prompt": "以書面通知 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thông báo bằng văn bản"
+        },
+        {
+          "id": "b",
+          "text": "Thông báo sau buổi họp"
+        },
+        {
+          "id": "c",
+          "text": "Thông báo qua điện thoại"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "以 chỉ phương thức, 書面 là văn bản.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l10-assessment-05",
+      "prompt": "Ai giúp Kiến Minh chọn bộ vest?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mẹ"
+        },
+        {
+          "id": "b",
+          "text": "Em gái"
+        },
+        {
+          "id": "c",
+          "text": "Người phỏng vấn"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nói 妹妹幫他挑了西裝.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc4-v4-l10-assessment-06",
+      "prompt": "做不下去 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Không xuống tầng dưới"
+        },
+        {
+          "id": "b",
+          "text": "Chưa bắt đầu"
+        },
+        {
+          "id": "c",
+          "text": "Không thể tiếp tục làm"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "下去 ở đây chỉ tiếp tục theo thời gian.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l10-assessment-07",
+      "prompt": "來自台灣 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đến từ Đài Loan"
+        },
+        {
+          "id": "b",
+          "text": "Đi tới Đài Loan"
+        },
+        {
+          "id": "c",
+          "text": "Ở giữa Đài Loan"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "來自 chỉ nguồn gốc.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l10-assessment-08",
+      "prompt": "Kiến Minh lo điều gì nếu tự mở cửa hàng rồi thất bại?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Không còn thời gian nghỉ"
+        },
+        {
+          "id": "b",
+          "text": "Mất tiền và còn nợ vay"
+        },
+        {
+          "id": "c",
+          "text": "Phải đổi trường"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Anh lo bị lỗ và khoản vay chưa trả hết.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc4-v4-l10-assessment-09",
+      "prompt": "門開著 nói gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cửa đã đóng"
+        },
+        {
+          "id": "b",
+          "text": "Cửa sắp mở"
+        },
+        {
+          "id": "c",
+          "text": "Cửa đang mở"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "著 nhấn trạng thái mở đang duy trì.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc4-v4-l10-assessment-10",
+      "prompt": "所學有限 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Những điều học được còn hạn chế"
+        },
+        {
+          "id": "b",
+          "text": "Không cần học nữa"
+        },
+        {
+          "id": "c",
+          "text": "Đã học tất cả"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "所學有限 nói lượng kiến thức học được chưa nhiều.",
+      "skill": "Từ vựng"
+    }
+  ],
+  "writingTask": {
+    "id": "cc4-v4-l10-writing",
+    "title": "Tự giới thiệu khi ứng tuyển",
+    "prompt": "Viết vài câu giới thiệu học vấn, kinh nghiệm và một ưu điểm của bạn cho buổi phỏng vấn.",
+    "sampleTraditional": "我在大學時參加過社團，也有打工的經驗。我喜歡跟人合作，希望能加入你們的公司。",
+    "sampleSimplified": "我在大学时参加过社团，也有打工的经验。我喜欢跟人合作，希望能加入你们的公司。"
+  }
+}

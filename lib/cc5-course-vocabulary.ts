@@ -1,6 +1,7 @@
 import source from "../data/academy/cc5-lesson01-vocabulary.json" with { type: "json" };
 import lesson02Source from "../data/academy/cc5-lesson02-vocabulary.json" with { type: "json" };
 import lesson03Source from "../data/academy/cc5-lesson03-vocabulary.json" with { type: "json" };
+import lesson04Source from "../data/academy/cc5-lesson04-vocabulary.json" with { type: "json" };
 import { cc1Lesson01Words } from "./cc1-lesson01-vocabulary.ts";
 import { cc1CourseVocabularySets } from "./cc1-course-vocabulary.ts";
 import { cc2VocabularySets } from "./cc2-course-vocabulary.ts";
@@ -75,6 +76,27 @@ export const cc5Lesson03Words: VocabularyWord[] = lesson03Source.records.map((re
   translation: record.exampleVi,
 });
 
+const knownWordsForLesson04 = [...knownWordsForLesson03, ...cc5Lesson03Words];
+export const cc5Lesson04Words: VocabularyWord[] = lesson04Source.records.map((record) => knownWordsForLesson04.find((word) =>
+  word.traditional === record.traditional && normalized(word.pinyin) === normalized(record.pinyin) &&
+  (word.wordClass === record.wordClass || word.meaning === record.meaningVi),
+) ?? {
+  id: record.id,
+  source: "textbook",
+  sourceRecordId: record.id,
+  sourceLabel: "Giáo trình tiếng Hoa đương đại · Tập 5 · Bài 04",
+  hanzi: record.traditional,
+  traditional: record.traditional,
+  simplified: record.simplified,
+  pinyin: record.pinyin,
+  meaning: record.meaningVi,
+  wordClass: record.wordClass,
+  example: record.exampleTraditional,
+  exampleTraditional: record.exampleTraditional,
+  exampleSimplified: record.exampleSimplified,
+  translation: record.exampleVi,
+});
+
 export const cc5VocabularySets: VocabularySet[] = [{
   id: source.lessonId,
   title: "Bài 01 · 言論自由的界線",
@@ -90,4 +112,9 @@ export const cc5VocabularySets: VocabularySet[] = [{
   title: "Bài 03 · 整型好不好",
   subtitle: "Phẫu thuật thẩm mỹ: nên hay không?",
   words: cc5Lesson03Words,
+}, {
+  id: lesson04Source.lessonId,
+  title: "Bài 04 · 傳統與現代",
+  subtitle: "Truyền thống và hiện đại",
+  words: cc5Lesson04Words,
 }];

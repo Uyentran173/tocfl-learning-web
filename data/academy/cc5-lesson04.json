@@ -1,0 +1,1187 @@
+{
+  "contentVersion": 2,
+  "id": "cc5-v5-l04",
+  "title": "傳統與現代",
+  "titleVi": "Truyền thống và hiện đại",
+  "description": "Đọc hai lập luận về đấu bò tót: giá trị văn hóa và kinh tế đối chiếu với quyền sống, phúc lợi động vật.",
+  "objectives": [
+    "Nêu được luận điểm và bằng chứng của hai tác giả.",
+    "Dùng 9 mẫu ngữ pháp để nói về thời gian, sự thay đổi và so sánh.",
+    "Viết một ý kiến cân nhắc giữa bảo tồn truyền thống và tác động hiện tại."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Cùng một truyền thống, hai tác giả đặt ưu tiên khác nhau. Bài này giúp bạn đọc kỹ dẫn chứng, nhận ra kết luận và trình bày quan điểm của mình có căn cứ.",
+    "sections": [
+      {
+        "id": "cc5-v5-l04-section-01",
+        "title": "Giá trị của truyền thống",
+        "body": "Bài 1 trình bày lịch sử, ảnh hưởng đến du lịch và ý nghĩa văn hóa của đấu bò tót.",
+        "chinese": "這項傳統活動絕對有保存的必要。",
+        "simplified": "这项传统活动绝对有保存的必要。",
+        "pinyin": "zhè xiàng chuán tǒng huó dòng jué duì yǒu bǎo cún de bì yào 。",
+        "meaningVi": "Theo tác giả, hoạt động truyền thống này cần được gìn giữ."
+      },
+      {
+        "id": "cc5-v5-l04-section-02",
+        "title": "Quyền sống và sự thay đổi",
+        "body": "Bài 2 đưa ra các con số và phản biện rằng một truyền thống gây hại không nên tiếp tục.",
+        "chinese": "保護動物的重要性遠遠超過保存一個不人道的傳統。",
+        "simplified": "保护动物的重要性远远超过保存一个不人道的传统。",
+        "pinyin": "bǎo hù dòng wù de zhòng yào xìng yuǎn yuǎn chāo guò bǎo cún yī gè bù rén dào de chuán tǒng 。",
+        "meaningVi": "Tầm quan trọng của bảo vệ động vật vượt xa việc giữ một truyền thống vô nhân đạo."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc5-v5-l04-reading1",
+        "title": "Bài đọc 1 · Giữ gìn truyền thống đấu bò tót",
+        "context": "Tác giả trình bày lịch sử, văn hóa và lợi ích kinh tế.",
+        "audioTrackId": "cc5-textbook-l04-t02",
+        "turns": [
+          {
+            "speaker": "Tác giả",
+            "chinese": "鬥牛是西班牙古老的傳統，有千年歷史。最早是把牛當做拜神的祭品，十九世紀時成為西班牙的全民運動。自1743年第一座鬥牛場在馬德里出現至今，西班牙全國鬥牛場已超過400座。鬥牛士穿著十六世紀華麗的傳統服飾在鬥牛場中表演，一面利用手中的紅色披風激怒公牛，一面隨著音樂以優雅的姿勢避開攻擊，可說是文化與藝術的完美結合。鬥牛士必須具備過人的勇氣、熟練的技術和冒險的精神，也是年輕人崇拜與學習的對象。鬥牛不但代表西班牙的傳統精神，更是重要的歷史文化。旅遊業是西班牙最重要的收入來源，每年3月到9月的鬥牛旺季，總是吸引來自世界各地的遊客前往觀賞，其中奔牛節也是西班牙傳統文化的重頭戲，當地民眾和許多年輕的外國遊客，都在此享受與牛狂奔的刺激，以及西班牙人的熱情。鬥牛的相關活動每年都為西班牙政府帶來2.8億歐元的財政收入，提供20萬人就業機會。一旦廢止，對西班牙來說，將會是一場經濟災難。因此，這項傳統活動絕對有保存的必要。",
+            "simplified": "斗牛是西班牙古老的传统，有千年历史。最早是把牛当做拜神的祭品，十九世纪时成为西班牙的全民运动。自1743年第一座斗牛场在马德里出现至今，西班牙全国斗牛场已超过400座。斗牛士穿着十六世纪华丽的传统服饰在斗牛场中表演，一面利用手中的红色披风激怒公牛，一面随着音乐以优雅的姿势避开攻击，可说是文化与艺术的完美结合。斗牛士必须具备过人的勇气、熟练的技术和冒险的精神，也是年轻人崇拜与学习的对象。斗牛不但代表西班牙的传统精神，更是重要的历史文化。旅游业是西班牙最重要的收入来源，每年3月到9月的斗牛旺季，总是吸引来自世界各地的游客前往观赏，其中奔牛节也是西班牙传统文化的重头戏，当地民众和许多年轻的外国游客，都在此享受与牛狂奔的刺激，以及西班牙人的热情。斗牛的相关活动每年都为西班牙政府带来2.8亿欧元的财政收入，提供20万人就业机会。一旦废止，对西班牙来说，将会是一场经济灾难。因此，这项传统活动绝对有保存的必要。",
+            "pinyin": "dòu niú shì xī bān yá gǔ lǎo de chuán tǒng ， yǒu qiān nián lì shǐ 。 zuì zǎo shì bǎ niú dāng zuò bài shén de jì pǐn ， shí jiǔ shì jì shí chéng wèi xī bān yá de quán mín yùn dòng 。 zì 1 7 4 3 nián dì yī zuò dòu niú chǎng zài mǎ dé lǐ chū xiàn zhì jīn ， xī bān yá quán guó dòu niú chǎng yǐ chāo guò 4 0 0 zuò 。 dòu niú shì chuān zhù shí liù shì jì huá lì de chuán tǒng fú shì zài dòu niú chǎng zhōng biǎo yǎn ， yí miàn lì yòng shǒu zhōng de hóng sè pī fēng jī nù gōng niú ， yí miàn suí zhù yīn lè yǐ yōu yǎ de zī shì bì kāi gōng jī ， kě shuō shì wén huà yǔ yì shù de wán měi jié hé 。 dòu niú shì bì xū jù bèi guò rén de yǒng qì 、 shú liàn de jì shù hé mào xiǎn de jīng shén ， yě shì nián qīng rén chóng bài yǔ xué xí de duì xiàng 。 dòu niú bù dàn dài biǎo xī bān yá de chuán tǒng jīng shén ， gèng shì zhòng yào de lì shǐ wén huà 。 lǚ yóu yè shì xī bān yá zuì zhòng yào de shōu rù lái yuán ， měi nián 3 yuè dào 9 yuè de dòu niú wàng jì ， zǒng shì xī yǐn lái zì shì jiè gè dì de yóu kè qián wǎng guān shǎng ， qí zhōng bēn niú jié yě shì xī bān yá chuán tǒng wén huà de zhòng tóu xì ， dāng dì mín zhòng hé xǔ duō nián qīng de wài guó yóu kè ， dōu zài cǐ xiǎng shòu yǔ niú kuáng bēn de cì jī ， yǐ jí xī bān yá rén de rè qíng 。 dòu niú de xiāng guān huó dòng měi nián dōu wèi xī bān yá zhèng fǔ dài lái 2 . 8 yì ōu yuán de cái zhèng shōu rù ， tí gōng 2 0 wàn rén jiù yè jī huì 。 yí dàn fèi zhǐ ， duì xī bān yá lái shuō ， jiāng huì shì yī chǎng jīng jì zāi nán 。 yīn cǐ ， zhè xiàng chuán tǒng huó dòng jué duì yǒu bǎo cún de bì yào 。",
+            "meaningVi": "Đấu bò tót là truyền thống lâu đời của Tây Ban Nha, có lịch sử hơn một ngàn năm. Ban đầu, người ta dùng bò làm tế phẩm để tế thần, và từ thế kỷ 19 trở thành môn thể thao phổ biến của toàn dân Tây Ban Nha. Từ khi xuất hiện đấu trường bò tót đầu tiên tại Madrid vào năm 1743 đến nay, Tây Ban Nha đã có hơn 400 đấu trường bò tót. Các đấu sĩ bò tót mặc trang phục truyền thống rực rỡ của thế kỷ 16, biểu diễn trên đấu trường bò tót, dùng chiếc vải đỏ trong tay để làm bò đực bốc giận, đồng thời di chuyển theo nhạc với những động tác tinh tế để tránh được các đợt tấn công, có thể coi là sự kết hợp hoàn hảo giữa văn hóa và nghệ thuật. Các đấu sĩ bò tót phải có lòng dũng cảm vượt trội, kỹ năng tinh tế và tinh thần dám mạo hiểm, đồng thời là đối tượng mà thanh niên luôn ngưỡng mộ và học hỏi. Đấu bò tót không chỉ thể hiện tinh thần truyền thống của Tây Ban Nha mà còn là một phần quan trọng trong lịch sử và văn hóa. Ngành du lịch là nguồn thu chính của Tây Ban Nha, trong mùa đấu bò tót từ tháng 3 đến tháng 9, thu hút du khách đến tham quan. Trong đó, lễ hội chạy cùng bò tót là một trong những sự kiện văn hóa truyền thống nổi bật, nơi người dân địa phương và du khách nước ngoài đều tận hưởng cảm giác hồi hộp khi cùng bò chạy nhanh, cùng với sự nhiệt tình rực rỡ của người dân Tây Ban Nha. Các hoạt động liên quan đến đấu bò tót mang lại cho chính phủ Tây Ban Nha thu nhập tài chính lên tới 280 triệu euro mỗi năm, tạo ra 200.000 việc làm. Nếu bãi bỏ, điều này sẽ gây ra một cuộc khủng hoảng kinh tế nghiêm trọng đối với Tây Ban Nha. Do đó, việc bảo tồn hoạt động truyền thống này là điều hoàn toàn cần thiết."
+          },
+          {
+            "speaker": "Tác giả",
+            "chinese": "鬥牛傳統之所以保留到現在，正是因為它代表了西班牙獨特的文化魅力和民族精神，也為戲劇、音樂、繪畫提供了無數靈感。例如諾貝爾文學獎得主、美國作家海明威在西班牙觀看奔牛節活動後寫了《太陽照常升起》這本小說，使奔牛節成為舉世聞名的節日。2013年，西班牙政府認為鬥牛不但不應該廢止，國家反而有責任保存並繼續推廣，於是將鬥牛列為國家保護的文化遺產，希望大家都能尊重這個由來已久的傳統。",
+            "simplified": "斗牛传统之所以保留到现在，正是因为它代表了西班牙独特的文化魅力和民族精神，也为戏剧、音乐、绘画提供了无数灵感。例如诺贝尔文学奖得主、美国作家海明威在西班牙观看奔牛节活动后写了《太阳照常升起》这本小说，使奔牛节成为举世闻名的节日。2013年，西班牙政府认为斗牛不但不应该废止，国家反而有责任保存并继续推广，于是将斗牛列为国家保护的文化遗产，希望大家都能尊重这个由来已久的传统。",
+            "pinyin": "dòu niú chuán tǒng zhī suǒ yǐ bǎo liú dào xiàn zài ， zhèng shì yīn wèi tā dài biǎo le xī bān yá dú tè de wén huà mèi lì hé mín zú jīng shén ， yě wèi xì jù 、 yīn lè 、 huì huà tí gōng le wú shù líng gǎn 。 lì rú nuò bèi ěr wén xué jiǎng dé zhǔ 、 měi guó zuò jiā hǎi míng wēi zài xī bān yá guān kàn bēn niú jié huó dòng hòu xiě le 《 tài yáng zhào cháng shēng qǐ 》 zhè běn xiǎo shuō ， shǐ bēn niú jié chéng wèi jǔ shì wén míng de jié rì 。 2 0 1 3 nián ， xī bān yá zhèng fǔ rèn wèi dòu niú bù dàn bù yīng gāi fèi zhǐ ， guó jiā fǎn ér yǒu zé rèn bǎo cún bìng jì xù tuī guǎng ， yú shì jiāng dòu niú liè wèi guó jiā bǎo hù de wén huà yí chǎn ， xī wàng dà jiā dōu néng zūn zhòng zhè gè yóu lái yǐ jiǔ de chuán tǒng 。",
+            "meaningVi": "Lý do vì sao truyền thống đấu bò tót vẫn được giữ gìn đến nay là vì nó thể hiện sức hấp dẫn văn hóa đặc sắc và tinh thần dân tộc riêng của Tây Ban Nha, đồng thời cung cấp vô số cảm hứng cho nghệ thuật sân khấu, âm nhạc và hội họa. Ví dụ, nhà văn Mỹ, người đã giành giải Nobel Văn học, Hemingway, sau khi quan sát lễ hội \"đấu bò\" tại Tây Ban Nha đã viết tiểu thuyết \"Mặt trời vẫn mọc\", làm cho lễ hội này trở thành một trong những lễ hội nổi tiếng toàn cầu. Năm 2013, chính phủ Tây Ban Nha cho rằng việc bãi bỏ đấu bò tót không nên được thực hiện, mà thay vào đó, quốc gia có trách nhiệm bảo tồn và tiếp tục quảng bá truyền thống này, do đó đã đưa đấu bò tót vào danh sách di sản văn hóa cần được bảo vệ, và mong mọi người đều tôn trọng một truyền thống đã tồn tại lâu đời này."
+          }
+        ]
+      },
+      {
+        "id": "cc5-v5-l04-reading2",
+        "title": "Bài đọc 2 · Quyền sống và bảo vệ động vật",
+        "context": "Tác giả phản đối đấu bò tót từ góc nhìn đạo đức và bảo vệ động vật.",
+        "audioTrackId": "cc5-textbook-l04-t06",
+        "turns": [
+          {
+            "speaker": "Tác giả",
+            "chinese": "2016年7月，一位職業鬥牛士被公牛刺死，全球觀眾透過電視轉播，也都看到了這幕血淋淋的畫面。西班牙每年約有2000場鬥牛活動，每場表演平均有三到六頭公牛死亡。在20分鐘的表演過程中，公牛不斷受到折磨與痛苦，最後被一劍一劍地刺倒在地，若是公牛刺死了鬥牛士，這頭公牛的母親就必須賠上生命。不管是對鬥牛士或是公牛，這種傷害生命的過時傳統，無論如何都不應該存在。俗話說得好，「不要把自己的快樂，建築在別人的痛苦上」。我們都知道這句話的道理，卻還是自私地為自己的快樂而虐待動物。全西班牙目前已有42所鬥牛學校，為十五歲的學生開設鬥牛課程，教導孩子們鬥牛的技巧，未來以鬥牛為職業，簡直是不可思議！有報導指出，全球每年約有25萬頭公牛因鬥牛而死亡，難道動物不能享有生存和不受傷害的權利嗎？鬥牛士這種傷害動物的職業值得尊敬嗎？社會不斷進步，觀念也應該隨著改變，任何不人道、以文化之名傷害生命的活動都應該廢止，不要再讓無辜的公牛與鬥牛士失去寶貴生命。",
+            "simplified": "2016年7月，一位职业斗牛士被公牛刺死，全球观众透过电视转播，也都看到了这幕血淋淋的画面。西班牙每年约有2000场斗牛活动，每场表演平均有三到六头公牛死亡。在20分钟的表演过程中，公牛不断受到折磨与痛苦，最后被一剑一剑地刺倒在地，若是公牛刺死了斗牛士，这头公牛的母亲就必须赔上生命。不管是对斗牛士或是公牛，这种伤害生命的过时传统，无论如何都不应该存在。俗话说得好，「不要把自己的快乐，建筑在别人的痛苦上」。我们都知道这句话的道理，却还是自私地为自己的快乐而虐待动物。全西班牙目前已有42所斗牛学校，为十五岁的学生开设斗牛课程，教导孩子们斗牛的技巧，未来以斗牛为职业，简直是不可思议！有报导指出，全球每年约有25万头公牛因斗牛而死亡，难道动物不能享有生存和不受伤害的权利吗？斗牛士这种伤害动物的职业值得尊敬吗？社会不断进步，观念也应该随着改变，任何不人道、以文化之名伤害生命的活动都应该废止，不要再让无辜的公牛与斗牛士失去宝贵生命。",
+            "pinyin": "2 0 1 6 nián 7 yuè ， yī wèi zhí yè dòu niú shì bèi gōng niú cì sǐ ， quán qiú guān zhòng tòu guò diàn shì zhuǎn bō ， yě dōu kàn dào le zhè mù xiě lín lín de huà miàn 。 xī bān yá měi nián yuē yǒu 2 0 0 0 chǎng dòu niú huó dòng ， měi chǎng biǎo yǎn píng jūn yǒu sān dào liù tóu gōng niú sǐ wáng 。 zài 2 0 fēn zhōng de biǎo yǎn guò chéng zhōng ， gōng niú bù duàn shòu dào zhé mó yǔ tòng kǔ ， zuì hòu bèi yī jiàn yī jiàn dì cì dào zài dì ， ruò shì gōng niú cì sǐ le dòu niú shì ， zhè tóu gōng niú de mǔ qīn jiù bì xū péi shàng shēng mìng 。 bù guǎn shì duì dòu niú shì huò shì gōng niú ， zhè zhǒng shāng hài shēng mìng de guò shí chuán tǒng ， wú lùn rú hé dōu bù yīng gāi cún zài 。 sú huà shuō dé hǎo ， 「 bú yào bǎ zì jǐ de kuài lè ， jiàn zhù zài bié rén de tòng kǔ shàng 」 。 wǒ men dōu zhī dào zhè jù huà de dào lǐ ， què hái shì zì sī dì wèi zì jǐ de kuài lè ér nüè dài dòng wù 。 quán xī bān yá mù qián yǐ yǒu 4 2 suǒ dòu niú xué xiào ， wèi shí wǔ suì de xué shēng kāi shè dòu niú kè chéng ， jiào dǎo hái zi men dòu niú de jì qiǎo ， wèi lái yǐ dòu niú wèi zhí yè ， jiǎn zhí shì bù kě sī yì ！ yǒu bào dǎo zhǐ chū ， quán qiú měi nián yuē yǒu 2 5 wàn tóu gōng niú yīn dòu niú ér sǐ wáng ， nán dào dòng wù bù néng xiǎng yǒu shēng cún hé bù shòu shāng hài de quán lì ma ？ dòu niú shì zhè zhǒng shāng hài dòng wù de zhí yè zhí de zūn jìng ma ？ shè huì bù duàn jìn bù ， guān niàn yě yīng gāi suí zhù gǎi biàn ， rèn hé bù rén dào 、 yǐ wén huà zhī míng shāng hài shēng mìng de huó dòng dōu yīng gāi fèi zhǐ ， bú yào zài ràng wú gū de gōng niú yǔ dòu niú shì shī qù bǎo guì shēng mìng 。",
+            "meaningVi": "Tháng 7 năm 2016, một đấu sĩ bò tót đã bị bò đực đâm chết, và mọi người trên toàn cầu, thông qua truyền hình, đều đã chứng kiến cảnh này đầy máu me. Hàng năm, Tây Ban Nha tổ chức khoảng 2.000 buổi đấu bò tót, mỗi buổi trung bình có từ ba đến sáu con bò đực chết. Trong suốt 20 phút diễn ra chương trình, các con bò đực bị hành hạ và đau đớn không ngừng, rồi bị đâm từng nhát kiếm cho đến khi ngã gục. Nếu bò đực đâm chết võ sĩ, thì mẹ của con bò đó phải chịu trách nhiệm và phải chết. Dù cho việc này là một truyền thống lỗi thời gây hại đến sinh mạng của cả đấu sĩ và bò đực, thì không nên tồn tại nữa. Như câu nói dân gian: \"không nên xây dựng niềm vui của bản thân trên nền tảng nỗi đau của người khác\". Chúng ta đều biết ý nghĩa của câu nói này, nhưng vẫn cứ ích kỷ, chỉ vì niềm vui cá nhân mà bắt bò phải chịu đau khổ. Hiện nay, Tây Ban Nha có 42 trường đào tạo đấu bò tót, tổ chức các khóa học đấu bò tót dành cho học sinh 15 tuổi, dạy kỹ năng đấu bò tót, và hướng đến việc theo đuổi nghề này trong tương lai, điều này thật sự là không thể tưởng tượng được! Theo các báo cáo, toàn cầu mỗi năm có khoảng 250.000 con bò đực bị chết vì đấu bò tót. Làm sao mà động vật không có quyền sống và được bảo vệ khỏi tổn thương? Liệu nghề đấu bò tót, gây hại cho động vật, có xứng đáng được tôn trọng không? Khi xã hội không ngừng phát triển, tư duy cũng nên thay đổi theo. Mọi hoạt động tàn nhẫn, dù được bào chữa là vì văn hóa, đều nên bị bãi bỏ. Không nên để những con bò vô tội và các võ sĩ mất đi những mạng sống quý giá."
+          },
+          {
+            "speaker": "Tác giả",
+            "chinese": "近年來全球保護動物的觀念不斷提升，越來越多的西班牙人走上街頭，抗議這個古老的文化傳統；社群網站「臉書」也認為鬥牛既殘忍又暴力，禁止刊登鬥牛照片；世界動物保護組織也高喊：「現在該是廢止鬥牛的時候了。」民意調查顯示，高達58%的西班牙人反對鬥牛，僅19%的人支持。可見，多數西班牙人也認為這個傳統無須保存。事實上，西班牙第二大城市巴塞隆納在2004年就宣布禁止鬥牛活動，另有42個城市也反對鬥牛，目的就是希望不要再有任何人或牛因此受傷或死亡。沒有人有權利把虐待動物當成娛樂活動，保護動物的重要性遠遠超過保存一個不人道的傳統。反對鬥牛最好的方法，就是到西班牙旅遊時拒絕入場參觀鬥牛，這樣一來，鬥牛活動就能澈底消失。",
+            "simplified": "近年来全球保护动物的观念不断提升，越来越多的西班牙人走上街头，抗议这个古老的文化传统；社群网站「脸书」也认为斗牛既残忍又暴力，禁止刊登斗牛照片；世界动物保护组织也高喊：「现在该是废止斗牛的时候了。」民意调查显示，高达58%的西班牙人反对斗牛，仅19%的人支持。可见，多数西班牙人也认为这个传统无须保存。事实上，西班牙第二大城市巴塞隆纳在2004年就宣布禁止斗牛活动，另有42个城市也反对斗牛，目的就是希望不要再有任何人或牛因此受伤或死亡。没有人有权利把虐待动物当成娱乐活动，保护动物的重要性远远超过保存一个不人道的传统。反对斗牛最好的方法，就是到西班牙旅游时拒绝入场参观斗牛，这样一来，斗牛活动就能澈底消失。",
+            "pinyin": "jìn nián lái quán qiú bǎo hù dòng wù de guān niàn bù duàn tí shēng ， yuè lái yuè duō de xī bān yá rén zǒu shàng jiē tóu ， kàng yì zhè gè gǔ lǎo de wén huà chuán tǒng ； shè qún wǎng zhàn 「 liǎn shū 」 yě rèn wèi dòu niú jì cán rěn yòu bào lì ， jìn zhǐ kān dēng dòu niú zhào piān ； shì jiè dòng wù bǎo hù zǔ zhī yě gāo hǎn ： 「 xiàn zài gāi shì fèi zhǐ dòu niú de shí hòu le 。 」 mín yì diào chá xiǎn shì ， gāo dá 5 8 % de xī bān yá rén fǎn duì dòu niú ， jǐn 1 9 % de rén zhī chí 。 kě jiàn ， duō shù xī bān yá rén yě rèn wèi zhè gè chuán tǒng wú xū bǎo cún 。 shì shí shàng ， xī bān yá dì èr dà chéng shì bā sāi lóng nà zài 2 0 0 4 nián jiù xuān bù jìn zhǐ dòu niú huó dòng ， lìng yǒu 4 2 gè chéng shì yě fǎn duì dòu niú ， mù dì jiù shì xī wàng bú yào zài yǒu rèn hé rén huò niú yīn cǐ shòu shāng huò sǐ wáng 。 méi yǒu rén yǒu quán lì bǎ nüè dài dòng wù dāng chéng yú lè huó dòng ， bǎo hù dòng wù de zhòng yào xìng yuǎn yuǎn chāo guò bǎo cún yī gè bù rén dào de chuán tǒng 。 fǎn duì dòu niú zuì hǎo de fāng fǎ ， jiù shì dào xī bān yá lǚ yóu shí jù jué rù chǎng cān guān dòu niú ， zhè yàng yī lái ， dòu niú huó dòng jiù néng chè dǐ xiāo shī 。",
+            "meaningVi": "Gần đây, nhận thức về việc bảo vệ động vật trên toàn cầu đang ngày càng được nâng cao, ngày càng có nhiều người Tây Ban Nha đi ra đường phản đối một truyền thống văn hóa đã tồn tại lâu đời này. Các trang mạng xã hội như Facebook cũng cho rằng việc đấu bò tót là tàn nhẫn và bạo lực, và đã cấm đăng ảnh đấu bò tót. Tổ chức Bảo vệ Động vật Thế giới cũng kêu gọi: \"Thời điểm đã đến để chấm dứt việc đấu bò tót.\" Theo khảo sát dư luận, đến 58% người Tây Ban Nha phản đối việc đấu bò tót, chỉ có 19% người ủng hộ. Điều này cho thấy đa số người Tây Ban Nha cho rằng truyền thống này không cần phải được giữ gìn. Thực tế, thành phố lớn thứ hai của Tây Ban Nha là Barcelona đã tuyên bố cấm hoạt động đấu bò tót vào năm 2004, và có thêm 42 thành phố khác cũng phản đối việc này, với mục tiêu là không ai, không con bò nào phải bị thương hay thiệt mạng. Không ai có quyền coi việc ngược đãi động vật là một hình thức giải trí. Tầm quan trọng của việc bảo vệ động vật vượt xa việc giữ gìn một truyền thống bất nhân đạo. Cách tốt nhất để chống lại việc đấu bò tót là khi du lịch Tây Ban Nha, từ chối tham quan các buổi đấu bò tót. Như vậy, hoạt động đấu bò tót sẽ hoàn toàn biến mất."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc5-v5-l04-check-01",
+        "prompt": "Bài 1 mở đầu bằng cách nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kể một cuộc phỏng vấn mới"
+          },
+          {
+            "id": "b",
+            "text": "Trích khảo sát về động vật"
+          },
+          {
+            "id": "c",
+            "text": "Giới thiệu lịch sử đấu bò tót ở Tây Ban Nha"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Đầu bài nêu truyền thống và mốc lịch sử.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc5-v5-l04-check-02",
+        "prompt": "Bài 1 nêu lý do nào để giữ hoạt động này?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Giá trị văn hóa và nguồn thu từ du lịch"
+          },
+          {
+            "id": "b",
+            "text": "Không có rủi ro cho ai"
+          },
+          {
+            "id": "c",
+            "text": "Mọi nước đều tổ chức"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Tác giả lần lượt nhắc lịch sử, văn hóa và doanh thu.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc5-v5-l04-check-03",
+        "prompt": "Bài 2 nêu vấn đề gì trong quá trình biểu diễn?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Du khách không có chỗ ngồi"
+          },
+          {
+            "id": "b",
+            "text": "Thiếu tiếng nhạc"
+          },
+          {
+            "id": "c",
+            "text": "Động vật chịu đau đớn và có thể chết"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Đoạn thứ hai mô tả con bò bị hành hạ và mất mạng.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc5-v5-l04-check-04",
+        "prompt": "Theo bài 2, kết quả khảo sát được dẫn là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Hai tỷ lệ bằng nhau"
+          },
+          {
+            "id": "b",
+            "text": "58% phản đối và 19% ủng hộ"
+          },
+          {
+            "id": "c",
+            "text": "58% ủng hộ và 19% phản đối"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Bài đọc nêu 高達58%反對，僅19%支持.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc5-v5-l04-check-05",
+        "prompt": "Hai bài khác nhau ở trọng tâm nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Cả hai chỉ nói về giá vé"
+          },
+          {
+            "id": "b",
+            "text": "Cả hai cùng cho rằng hoạt động không có lịch sử"
+          },
+          {
+            "id": "c",
+            "text": "Một bên giữ di sản; bên kia ưu tiên quyền sống của động vật"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Đọc kết luận hai bài để thấy thứ tự ưu tiên khác nhau.",
+        "skill": "Đọc hiểu"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từng từ để xem phát âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc5-v5-l04-v001",
+      "cc5-v5-l04-v002",
+      "cc5-v5-l04-v003",
+      "cc5-v5-l04-v004",
+      "cc5-v5-l04-v005",
+      "cc5-v5-l04-v006",
+      "cc5-v5-l04-v007",
+      "cc5-v5-l04-v008",
+      "cc5-v5-l04-v009",
+      "cc5-v5-l04-v010",
+      "cc5-v5-l04-v011",
+      "cc5-v5-l04-v012",
+      "cc5-v5-l04-v013",
+      "cc5-v5-l04-v014",
+      "cc5-v5-l04-v015",
+      "cc5-v5-l04-v016",
+      "cc5-v5-l04-v017",
+      "cc5-v5-l04-v018",
+      "cc5-v5-l04-v019",
+      "cc5-v5-l04-v020",
+      "cc5-v5-l04-v021",
+      "cc5-v5-l04-v022",
+      "cc5-v5-l04-v023",
+      "cc5-v5-l04-v024",
+      "cc5-v5-l04-v025",
+      "cc5-v5-l04-v026",
+      "cc5-v5-l04-v027",
+      "cc5-v5-l04-v028",
+      "cc5-v5-l04-v029",
+      "cc5-v5-l04-v030",
+      "cc5-v5-l04-v031",
+      "cc5-v5-l04-v032",
+      "cc5-v5-l04-v033",
+      "cc5-v5-l04-v034",
+      "cc5-v5-l04-v035",
+      "cc5-v5-l04-v036",
+      "cc5-v5-l04-v037",
+      "cc5-v5-l04-v038",
+      "cc5-v5-l04-v039",
+      "cc5-v5-l04-v040",
+      "cc5-v5-l04-v041",
+      "cc5-v5-l04-v042",
+      "cc5-v5-l04-v043",
+      "cc5-v5-l04-v044",
+      "cc5-v5-l04-v045",
+      "cc5-v5-l04-v046",
+      "cc5-v5-l04-v047",
+      "cc5-v5-l04-v048",
+      "cc5-v5-l04-v049",
+      "cc5-v5-l04-v050",
+      "cc5-v5-l04-v051",
+      "cc5-v5-l04-v052",
+      "cc5-v5-l04-v053",
+      "cc5-v5-l04-v054",
+      "cc5-v5-l04-v055",
+      "cc5-v5-l04-v056",
+      "cc5-v5-l04-v057",
+      "cc5-v5-l04-v058",
+      "cc5-v5-l04-v059",
+      "cc5-v5-l04-v060",
+      "cc5-v5-l04-v061",
+      "cc5-v5-l04-v062",
+      "cc5-v5-l04-v063",
+      "cc5-v5-l04-v064",
+      "cc5-v5-l04-v065",
+      "cc5-v5-l04-v066",
+      "cc5-v5-l04-v067",
+      "cc5-v5-l04-v068",
+      "cc5-v5-l04-v069",
+      "cc5-v5-l04-v070",
+      "cc5-v5-l04-v071",
+      "cc5-v5-l04-v072",
+      "cc5-v5-l04-v073",
+      "cc5-v5-l04-v074",
+      "cc5-v5-l04-v075",
+      "cc5-v5-l04-v076",
+      "cc5-v5-l04-v077",
+      "cc5-v5-l04-v078",
+      "cc5-v5-l04-v079",
+      "cc5-v5-l04-v080",
+      "cc5-v5-l04-v081",
+      "cc5-v5-l04-v082",
+      "cc5-v5-l04-v083",
+      "cc5-v5-l04-v084",
+      "cc5-v5-l04-v085",
+      "cc5-v5-l04-v086",
+      "cc5-v5-l04-v087",
+      "cc5-v5-l04-v088",
+      "cc5-v5-l04-v089",
+      "cc5-v5-l04-v090",
+      "cc5-v5-l04-v091",
+      "cc5-v5-l04-v092",
+      "cc5-v5-l04-v093"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc5-v5-l04-grammar-01",
+      "title": "自…至今",
+      "structure": "自 + mốc bắt đầu + 至今",
+      "explanation": "Dùng trong văn viết để nói một sự việc kéo dài từ mốc A tới hiện nay. Có thể thêm thông tin về thời gian hoặc số lượng ở phía sau.",
+      "examples": [
+        {
+          "chinese": "自1743年第一座鬥牛場出現至今，西班牙已有許多鬥牛場。",
+          "simplified": "自1743年第一座斗牛场出现至今，西班牙已有许多斗牛场。",
+          "pinyin": "zì 1 7 4 3 nián dì yī zuò dòu niú chǎng chū xiàn zhì jīn ， xī bān yá yǐ yǒu xǔ duō dòu niú chǎng 。",
+          "meaningVi": "Từ khi đấu trường bò tót đầu tiên xuất hiện năm 1743 đến nay, Tây Ban Nha đã có nhiều đấu trường."
+        },
+        {
+          "chinese": "這家店自去年開幕至今，一直很受歡迎。",
+          "simplified": "这家店自去年开幕至今，一直很受欢迎。",
+          "pinyin": "zhè jiā diàn zì qù nián kāi mù zhì jīn ， yì zhí hěn shòu huān yíng 。",
+          "meaningVi": "Từ khi mở cửa năm ngoái đến nay, cửa hàng này luôn được ưa chuộng."
+        }
+      ],
+      "commonMistake": "Mốc sau 至今 là hiện tại, không phải một năm trong quá khứ.",
+      "check": {
+        "id": "cc5-v5-l04-grammar-check-01",
+        "prompt": "「自去年開幕至今」 kéo dài đến khi nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Đến hiện nay"
+          },
+          {
+            "id": "b",
+            "text": "Chỉ đến cuối năm ngoái"
+          },
+          {
+            "id": "c",
+            "text": "Đến một mốc chưa nêu"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "至今 nghĩa là đến bây giờ.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l04-t04"
+    },
+    {
+      "id": "cc5-v5-l04-grammar-02",
+      "title": "一面 A，一面 B",
+      "structure": "chủ ngữ + 一面 + hành động A，一面 + hành động B",
+      "explanation": "Mẫu văn viết diễn tả hai hành động diễn ra đồng thời, gần nghĩa 一邊…一邊…. Hai hành động cần có cùng chủ thể hoặc cùng bối cảnh.",
+      "examples": [
+        {
+          "chinese": "鬥牛士一面揮動披風，一面避開公牛。",
+          "simplified": "斗牛士一面挥动披风，一面避开公牛。",
+          "pinyin": "dòu niú shì yí miàn huī dòng pī fēng ， yí miàn bì kāi gōng niú 。",
+          "meaningVi": "Đấu sĩ vừa vung áo choàng vừa tránh con bò."
+        },
+        {
+          "chinese": "她一面看資料，一面做筆記。",
+          "simplified": "她一面看资料，一面做笔记。",
+          "pinyin": "tā yí miàn kàn zī liào ， yí miàn zuò bǐ jì 。",
+          "meaningVi": "Cô ấy vừa đọc tài liệu vừa ghi chép."
+        }
+      ],
+      "commonMistake": "Không dùng để nối hai việc xảy ra lần lượt.",
+      "check": {
+        "id": "cc5-v5-l04-grammar-check-02",
+        "prompt": "「一面看資料，一面做筆記」 diễn tả gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Hai việc cách nhau nhiều năm"
+          },
+          {
+            "id": "b",
+            "text": "Một việc chưa xảy ra"
+          },
+          {
+            "id": "c",
+            "text": "Hai việc cùng lúc"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "一面…一面… nối hai hành động đồng thời.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l04-t04"
+    },
+    {
+      "id": "cc5-v5-l04-grammar-03",
+      "title": "有…的必要",
+      "structure": "有 + hành động + 的必要 / 沒有 + hành động + 的必要",
+      "explanation": "Dùng để đánh giá một hành động là cần thiết hay không cần thiết. Với phủ định, nói 沒有…的必要 hoặc 沒有必要…. Đây là đánh giá theo lập trường người nói.",
+      "examples": [
+        {
+          "chinese": "這項傳統有保存的必要。",
+          "simplified": "这项传统有保存的必要。",
+          "pinyin": "zhè xiàng chuán tǒng yǒu bǎo cún de bì yào 。",
+          "meaningVi": "Truyền thống này cần được gìn giữ."
+        },
+        {
+          "chinese": "這件事沒有爭吵的必要。",
+          "simplified": "这件事没有争吵的必要。",
+          "pinyin": "zhè jiàn shì méi yǒu zhēng chǎo de bì yào 。",
+          "meaningVi": "Việc này không cần phải cãi nhau."
+        }
+      ],
+      "commonMistake": "Đừng hiểu 必要 là hành động đã được thực hiện.",
+      "check": {
+        "id": "cc5-v5-l04-grammar-check-03",
+        "prompt": "「沒有討論的必要」 nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Không cần thảo luận"
+          },
+          {
+            "id": "b",
+            "text": "Đã thảo luận xong"
+          },
+          {
+            "id": "c",
+            "text": "Bắt buộc phải thảo luận"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "沒有…的必要 phủ định sự cần thiết.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l04-t04"
+    },
+    {
+      "id": "cc5-v5-l04-grammar-04",
+      "title": "不但不 A，反而 B",
+      "structure": "不但不/沒 + điều dự đoán A，反而 + điều trái ngược B",
+      "explanation": "Dùng khi thực tế không xảy ra như mong đợi, mà lại xảy ra điều ngược lại. 反而 đánh dấu kết quả trái dự đoán; B cần tương phản rõ với A.",
+      "examples": [
+        {
+          "chinese": "活動不但沒有減少，反而增加了。",
+          "simplified": "活动不但没有减少，反而增加了。",
+          "pinyin": "huó dòng bù dàn méi yǒu jiǎn shǎo ， fǎn ér zēng jiā le 。",
+          "meaningVi": "Hoạt động chẳng những không giảm mà còn tăng."
+        },
+        {
+          "chinese": "他不但沒有生氣，反而笑了。",
+          "simplified": "他不但没有生气，反而笑了。",
+          "pinyin": "tā bù dàn méi yǒu shēng qì ， fǎn ér xiào le 。",
+          "meaningVi": "Anh ấy chẳng những không giận mà còn cười."
+        }
+      ],
+      "commonMistake": "Nếu A và B cùng chiều, dùng 不但…而且… thay vì 反而.",
+      "check": {
+        "id": "cc5-v5-l04-grammar-check-04",
+        "prompt": "「不但沒有減少，反而增加」 nói gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Giảm liên tục"
+          },
+          {
+            "id": "b",
+            "text": "Không có thay đổi"
+          },
+          {
+            "id": "c",
+            "text": "Không giảm mà còn tăng"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "反而 nêu kết quả trái điều tưởng tượng.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l04-t04"
+    },
+    {
+      "id": "cc5-v5-l04-grammar-05",
+      "title": "將 A 列為 B",
+      "structure": "將 + đối tượng A + 列為 + vai trò/phân loại B",
+      "explanation": "Dùng khi chính thức xếp A thành B, chẳng hạn xếp một hoạt động vào diện di sản. So với 把 A 列入 B, 列為 nhấn A được xem là B; 列入 nhấn đưa A vào danh sách/phạm vi.",
+      "examples": [
+        {
+          "chinese": "政府將鬥牛列為受保護的文化遺產。",
+          "simplified": "政府将斗牛列为受保护的文化遗产。",
+          "pinyin": "zhèng fǔ jiāng dòu niú liè wèi shòu bǎo hù de wén huà yí chǎn 。",
+          "meaningVi": "Chính phủ xếp đấu bò tót vào diện di sản văn hóa được bảo vệ."
+        },
+        {
+          "chinese": "學校將這門課列為必修課。",
+          "simplified": "学校将这门课列为必修课。",
+          "pinyin": "xué xiào jiāng zhè mén kè liè wèi bì xiū kè 。",
+          "meaningVi": "Trường xếp môn này thành môn bắt buộc."
+        }
+      ],
+      "commonMistake": "Sau 列為 là loại/địa vị B, không phải một danh sách chung chung.",
+      "check": {
+        "id": "cc5-v5-l04-grammar-check-05",
+        "prompt": "「將這門課列為必修課」 nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Xếp môn này thành môn bắt buộc"
+          },
+          {
+            "id": "b",
+            "text": "Loại môn này khỏi trường"
+          },
+          {
+            "id": "c",
+            "text": "Đưa môn này vào danh sách khách mời"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "列為 nói A được xếp thành B.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l04-t04"
+    },
+    {
+      "id": "cc5-v5-l04-grammar-06",
+      "title": "有利於／不利於",
+      "structure": "A + 有利於/不利於 + người/việc B",
+      "explanation": "Dùng để đánh giá tác động tích cực hoặc tiêu cực của A đối với B. Có thể bỏ 於 trong một số trường hợp. Theo sau là danh từ hoặc một việc.",
+      "examples": [
+        {
+          "chinese": "運動有利於身體健康。",
+          "simplified": "运动有利于身体健康。",
+          "pinyin": "yùn dòng yǒu lì yú shēn tǐ jiàn kāng 。",
+          "meaningVi": "Vận động có lợi cho sức khỏe."
+        },
+        {
+          "chinese": "虐待動物不利於生命教育。",
+          "simplified": "虐待动物不利于生命教育。",
+          "pinyin": "nüè dài dòng wù bù lì yú shēng mìng jiào yù 。",
+          "meaningVi": "Ngược đãi động vật không có lợi cho giáo dục về sự sống."
+        }
+      ],
+      "commonMistake": "Đừng nhầm 不利於 với “không thích”; nó nói tác động bất lợi.",
+      "check": {
+        "id": "cc5-v5-l04-grammar-check-06",
+        "prompt": "「有利於健康」 nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Có lợi cho sức khỏe"
+          },
+          {
+            "id": "b",
+            "text": "Gây hại cho sức khỏe"
+          },
+          {
+            "id": "c",
+            "text": "Không liên quan đến sức khỏe"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "有利於 nêu tác động tích cực.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l04-t08"
+    },
+    {
+      "id": "cc5-v5-l04-grammar-07",
+      "title": "在…過程中",
+      "structure": "在 + hoạt động/quá trình + 過程中，+ việc diễn ra",
+      "explanation": "Mẫu này đặt một sự việc vào khoảng thời gian một quá trình đang diễn ra, ví dụ trong lúc biểu diễn hoặc phỏng vấn.",
+      "examples": [
+        {
+          "chinese": "在表演過程中，公牛受到折磨。",
+          "simplified": "在表演过程中，公牛受到折磨。",
+          "pinyin": "zài biǎo yǎn guò chéng zhōng ， gōng niú shòu dào zhé mó 。",
+          "meaningVi": "Trong quá trình biểu diễn, con bò bị hành hạ."
+        },
+        {
+          "chinese": "在面試過程中，他回答得很清楚。",
+          "simplified": "在面试过程中，他回答得很清楚。",
+          "pinyin": "zài miàn shì guò chéng zhōng ， tā huí dá dé hěn qīng chǔ 。",
+          "meaningVi": "Trong buổi phỏng vấn, anh ấy trả lời rất rõ."
+        }
+      ],
+      "commonMistake": "Phần giữa phải là một quá trình, không phải chỉ một địa điểm.",
+      "check": {
+        "id": "cc5-v5-l04-grammar-check-07",
+        "prompt": "「在面試過程中」 chỉ điều gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Trong lúc phỏng vấn diễn ra"
+          },
+          {
+            "id": "b",
+            "text": "Trước khi nộp đơn"
+          },
+          {
+            "id": "c",
+            "text": "Sau khi có kết quả"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "過程中 nghĩa là trong quá trình.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l04-t08"
+    },
+    {
+      "id": "cc5-v5-l04-grammar-08",
+      "title": "是…的時候了",
+      "structure": "現在/該 + 是 + hành động + 的時候了",
+      "explanation": "Dùng để nhấn thời điểm hiện tại đã đến lúc làm điều gì. Dạng phủ định là 還不是…的時候, nghĩa là chưa đến lúc.",
+      "examples": [
+        {
+          "chinese": "現在是討論這個問題的時候了。",
+          "simplified": "现在是讨论这个问题的时候了。",
+          "pinyin": "xiàn zài shì tǎo lùn zhè gè wèn tí de shí hòu le 。",
+          "meaningVi": "Bây giờ là lúc bàn về vấn đề này."
+        },
+        {
+          "chinese": "還不是做決定的時候。",
+          "simplified": "还不是做决定的时候。",
+          "pinyin": "hái bú shì zuò jué dìng de shí hòu 。",
+          "meaningVi": "Vẫn chưa đến lúc quyết định."
+        }
+      ],
+      "commonMistake": "Mẫu này nói thời điểm nên hành động, không phải mô tả một hành động đã xong.",
+      "check": {
+        "id": "cc5-v5-l04-grammar-check-08",
+        "prompt": "「還不是決定的時候」 nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Chưa đến lúc quyết định"
+          },
+          {
+            "id": "b",
+            "text": "Đã quyết định xong"
+          },
+          {
+            "id": "c",
+            "text": "Không bao giờ được quyết định"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "還不是…的時候 phủ định thời điểm hiện tại.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l04-t08"
+    },
+    {
+      "id": "cc5-v5-l04-grammar-09",
+      "title": "A 遠遠超過 B",
+      "structure": "A + 遠遠超過 + B",
+      "explanation": "Dùng để nhấn A lớn hơn B rất nhiều về số lượng, tầm quan trọng hoặc mức độ. 遠遠 làm phép so sánh mạnh hơn 超過.",
+      "examples": [
+        {
+          "chinese": "保護動物的重要性遠遠超過保存這項傳統。",
+          "simplified": "保护动物的重要性远远超过保存这项传统。",
+          "pinyin": "bǎo hù dòng wù de zhòng yào xìng yuǎn yuǎn chāo guò bǎo cún zhè xiàng chuán tǒng 。",
+          "meaningVi": "Tầm quan trọng của bảo vệ động vật vượt xa việc giữ truyền thống này."
+        },
+        {
+          "chinese": "今年的遊客人數遠遠超過去年。",
+          "simplified": "今年的游客人数远远超过去年。",
+          "pinyin": "jīn nián de yóu kè rén shù yuǎn yuǎn chāo guò qù nián 。",
+          "meaningVi": "Số du khách năm nay vượt xa năm ngoái."
+        }
+      ],
+      "commonMistake": "A và B phải có cùng tiêu chí để so sánh.",
+      "check": {
+        "id": "cc5-v5-l04-grammar-check-09",
+        "prompt": "「遠遠超過去年」 nhấn gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ít hơn năm ngoái"
+          },
+          {
+            "id": "b",
+            "text": "Bằng đúng năm ngoái"
+          },
+          {
+            "id": "c",
+            "text": "Lớn hơn năm ngoái rất nhiều"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "遠遠 nhấn khoảng cách lớn.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l04-t08"
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc5-v5-l04-listening-01",
+      "prompt": "Nghe bài 1: tác giả nói đấu bò tót có lịch sử khoảng bao lâu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Khoảng một nghìn năm"
+        },
+        {
+          "id": "b",
+          "text": "Khoảng mười năm"
+        },
+        {
+          "id": "c",
+          "text": "Chỉ mới từ năm ngoái"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Mở đầu nói 有千年歷史.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l04-t02"
+    },
+    {
+      "id": "cc5-v5-l04-listening-02",
+      "prompt": "Nghe bài 1: mùa cao điểm được nêu từ tháng nào đến tháng nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Từ tháng 3 đến tháng 9"
+        },
+        {
+          "id": "b",
+          "text": "Từ tháng 9 đến tháng 12"
+        },
+        {
+          "id": "c",
+          "text": "Chỉ tháng 1"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc nêu 每年3月到9月的鬥牛旺季.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l04-t02"
+    },
+    {
+      "id": "cc5-v5-l04-listening-03",
+      "prompt": "Nghe bài 2: sự kiện nào được kể ở đầu bài?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Một con bò được đưa vào bảo tàng"
+        },
+        {
+          "id": "b",
+          "text": "Một đấu sĩ bị bò đực đâm chết"
+        },
+        {
+          "id": "c",
+          "text": "Một đấu sĩ nhận giải Nobel"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài 2 mở bằng chuyện năm 2016 một đấu sĩ mất mạng.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l04-t06"
+    },
+    {
+      "id": "cc5-v5-l04-listening-04",
+      "prompt": "Nghe bài 2: tác giả đề nghị du khách làm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mua thêm vé"
+        },
+        {
+          "id": "b",
+          "text": "Đưa trẻ nhỏ đi học đấu bò"
+        },
+        {
+          "id": "c",
+          "text": "Từ chối vào xem đấu bò tót"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Câu cuối nêu 拒絕入場參觀鬥牛.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l04-t06"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc5-v5-l04-practice-01",
+      "prompt": "Điền: 這座鬥牛場____開放____，吸引了許多遊客。",
+      "options": [
+        {
+          "id": "a",
+          "text": "一面；一面"
+        },
+        {
+          "id": "b",
+          "text": "不但不；反而"
+        },
+        {
+          "id": "c",
+          "text": "自去年；至今"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "自…至今 nói khoảng từ mốc bắt đầu đến nay.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l04-practice-02",
+      "prompt": "Điền: 她____看資料，____做筆記。",
+      "options": [
+        {
+          "id": "a",
+          "text": "一面；一面"
+        },
+        {
+          "id": "b",
+          "text": "自；至今"
+        },
+        {
+          "id": "c",
+          "text": "將；列為"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Hai hành động diễn ra đồng thời.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l04-practice-03",
+      "prompt": "Điền: 這件事____討論____。",
+      "options": [
+        {
+          "id": "a",
+          "text": "有；的必要"
+        },
+        {
+          "id": "b",
+          "text": "不但不；反而"
+        },
+        {
+          "id": "c",
+          "text": "自；至今"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "有…的必要 nêu điều cần làm.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l04-practice-04",
+      "prompt": "Điền: 遊客不但沒有減少，____增加了。",
+      "options": [
+        {
+          "id": "a",
+          "text": "至今"
+        },
+        {
+          "id": "b",
+          "text": "過程中"
+        },
+        {
+          "id": "c",
+          "text": "反而"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "反而 nêu điều trái với dự đoán.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l04-practice-05",
+      "prompt": "Điền: 政府____這座建築____文化遺產。",
+      "options": [
+        {
+          "id": "a",
+          "text": "將；列為"
+        },
+        {
+          "id": "b",
+          "text": "一面；一面"
+        },
+        {
+          "id": "c",
+          "text": "自；至今"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "將 A 列為 B xếp A thành B.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l04-practice-06",
+      "prompt": "Điền: 運動____身體健康。",
+      "options": [
+        {
+          "id": "a",
+          "text": "有利於"
+        },
+        {
+          "id": "b",
+          "text": "不利於"
+        },
+        {
+          "id": "c",
+          "text": "遠遠超過"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Vận động có tác động tích cực đối với sức khỏe.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l04-practice-07",
+      "prompt": "Điền: ____表演____，公牛受到折磨。",
+      "options": [
+        {
+          "id": "a",
+          "text": "自；至今"
+        },
+        {
+          "id": "b",
+          "text": "一面；一面"
+        },
+        {
+          "id": "c",
+          "text": "在；過程中"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "在…過程中 đặt sự việc vào quá trình đang diễn ra.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l04-practice-08",
+      "prompt": "Điền: 現在____討論這個問題____。",
+      "options": [
+        {
+          "id": "a",
+          "text": "自；至今"
+        },
+        {
+          "id": "b",
+          "text": "將；列為"
+        },
+        {
+          "id": "c",
+          "text": "是；的時候了"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "是…的時候了 nghĩa là đã đến lúc.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l04-practice-09",
+      "prompt": "Điền: 今年的遊客人數____去年。",
+      "options": [
+        {
+          "id": "a",
+          "text": "一面一面"
+        },
+        {
+          "id": "b",
+          "text": "沒有必要"
+        },
+        {
+          "id": "c",
+          "text": "遠遠超過"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "遠遠超過 nhấn khoảng cách lớn.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc5-v5-l04-assessment-01",
+      "prompt": "「由來已久」 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Có từ lâu đời"
+        },
+        {
+          "id": "b",
+          "text": "Vừa xuất hiện hôm qua"
+        },
+        {
+          "id": "c",
+          "text": "Sắp kết thúc ngay"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Từ này nói một truyền thống tồn tại lâu.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc5-v5-l04-assessment-02",
+      "prompt": "Bài 1 gắn hoạt động đấu bò tót với giá trị nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lịch sử, văn hóa và nguồn thu du lịch"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ thời tiết"
+        },
+        {
+          "id": "c",
+          "text": "Chỉ giáo dục y tế"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Tác giả dùng ba nhóm lý do này để bảo vệ truyền thống.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l04-assessment-03",
+      "prompt": "「一面 A，一面 B」 nêu gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hai việc cách nhiều năm"
+        },
+        {
+          "id": "b",
+          "text": "Hai việc cùng lúc"
+        },
+        {
+          "id": "c",
+          "text": "Hai việc trái ngược hoàn toàn"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "一面…一面… diễn tả sự đồng thời.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l04-assessment-04",
+      "prompt": "Bài 1 nói chính phủ Tây Ban Nha đã xếp đấu bò tót thành gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Một loại nông sản"
+        },
+        {
+          "id": "b",
+          "text": "Di sản văn hóa được bảo vệ"
+        },
+        {
+          "id": "c",
+          "text": "Một môn học bắt buộc"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nêu 列為國家保護的文化遺產.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l04-assessment-05",
+      "prompt": "「有保存的必要」 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Không cần bàn"
+        },
+        {
+          "id": "b",
+          "text": "Cần gìn giữ"
+        },
+        {
+          "id": "c",
+          "text": "Đã bỏ hẳn"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "有…的必要 là đánh giá một việc là cần.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l04-assessment-06",
+      "prompt": "Bài 2 phản đối hoạt động vì lý do chính nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vì du khách thích chụp ảnh"
+        },
+        {
+          "id": "b",
+          "text": "Gây đau đớn và mất mạng cho động vật, con người"
+        },
+        {
+          "id": "c",
+          "text": "Vì quá ít âm nhạc"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc đặt quyền sống và sự an toàn lên trước.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l04-assessment-07",
+      "prompt": "「不利於」 chỉ điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Không có quan điểm"
+        },
+        {
+          "id": "b",
+          "text": "Tác động bất lợi cho một việc"
+        },
+        {
+          "id": "c",
+          "text": "Được hưởng lợi"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "不利於 là không có lợi cho.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l04-assessment-08",
+      "prompt": "Theo bài 2, 58% người trong khảo sát có thái độ nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ủng hộ đấu bò tót"
+        },
+        {
+          "id": "b",
+          "text": "Không được hỏi"
+        },
+        {
+          "id": "c",
+          "text": "Phản đối đấu bò tót"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc nêu 58%反對.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l04-assessment-09",
+      "prompt": "「遠遠超過」 nhấn gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vượt xa rất nhiều"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ hơn một chút"
+        },
+        {
+          "id": "c",
+          "text": "Hoàn toàn bằng nhau"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "遠遠 làm so sánh mạnh hơn.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l04-assessment-10",
+      "prompt": "Bài 2 đề nghị người đi du lịch làm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tổ chức lớp đấu bò"
+        },
+        {
+          "id": "b",
+          "text": "Không vào xem đấu bò tót"
+        },
+        {
+          "id": "c",
+          "text": "Mua thêm vé"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Câu cuối đưa ra cách phản đối bằng lựa chọn của du khách.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "writingTask": {
+    "id": "cc5-v5-l04-writing",
+    "title": "Giữ hay thay đổi?",
+    "prompt": "Viết một đoạn tiếng Hoa về một truyền thống ở nơi bạn sống. Nêu một lý do nên giữ, một mối lo và kết luận của bạn.",
+    "sampleTraditional": "有些傳統活動由來已久，也具有文化價值。不過，若活動會傷害生命，就有重新討論的必要。我認為保存文化很重要，但保護人與動物的安全更重要。",
+    "sampleSimplified": "有些传统活动由来已久，也具有文化价值。不过，若活动会伤害生命，就有重新讨论的必要。我认为保存文化很重要，但保护人与动物的安全更重要。"
+  }
+}

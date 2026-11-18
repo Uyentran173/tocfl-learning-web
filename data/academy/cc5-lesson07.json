@@ -1,0 +1,1122 @@
+{
+  "contentVersion": 2,
+  "id": "cc5-v5-l07",
+  "title": "增富人稅＝減窮人苦？",
+  "titleVi": "Tăng thuế người giàu có giảm khổ cho người nghèo?",
+  "description": "So sánh hai quan điểm về thuế, phúc lợi và quyền của cá nhân.",
+  "objectives": [
+    "Tóm tắt được lập luận và dẫn chứng của hai tác giả.",
+    "Dùng tám mẫu câu để nêu mục đích, nguyên nhân, góc nhìn và điều chưa rõ.",
+    "Viết ý kiến có lý do, phân biệt quan điểm của tác giả với sự thật đã được chứng minh."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Hai bài đọc nhìn vấn đề thuế từ những giá trị khác nhau. Trước khi nêu ý kiến của mình, hãy tìm từng luận điểm và xem tác giả dùng ví dụ nào để hỗ trợ.",
+    "sections": [
+      {
+        "id": "cc5-v5-l07-section-01",
+        "title": "Phúc lợi và cơ hội",
+        "body": "Bài 1 nhìn từ hoàn cảnh của hai đứa trẻ, rồi lập luận rằng thuế có thể giúp xã hội chia sẻ rủi ro.",
+        "chinese": "政府不能只是袖手旁觀，應該創造平等的機會。",
+        "simplified": "政府不能只是袖手旁观，应该创造平等的机会。",
+        "pinyin": "zhèng fǔ bù néng zhǐ shì xiù shǒu páng guān ， yīng gāi chuàng zào píng děng de jī huì 。",
+        "meaningVi": "Theo tác giả, chính phủ không thể chỉ khoanh tay đứng nhìn mà nên tạo cơ hội bình đẳng."
+      },
+      {
+        "id": "cc5-v5-l07-section-02",
+        "title": "Quyền cá nhân và hiệu quả",
+        "body": "Bài 2 chất vấn việc buộc một người hy sinh tài sản vì số đông và đề xuất giúp người yếu thế bằng cơ hội việc làm.",
+        "chinese": "是否真能有效運用，還有待討論。",
+        "simplified": "是否真能有效运用，还有待讨论。",
+        "pinyin": "shì fǒu zhēn néng yǒu xiào yùn yòng ， hái yǒu dài tǎo lùn 。",
+        "meaningVi": "Tiền thuế có thật sự được dùng hiệu quả hay không vẫn cần bàn luận."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc5-v5-l07-reading1",
+        "title": "課文一 · 政府有責維持社會公平",
+        "context": "Tác giả cho rằng tăng thuế người giàu có thể hỗ trợ người nghèo và duy trì phúc lợi.",
+        "audioTrackId": "cc5-textbook-l07-t02",
+        "turns": [
+          {
+            "speaker": "Tác giả",
+            "chinese": "清晨，六歲的阿月不像同齡的孩子一樣去上學，而是跟著媽媽到田裡工作。前年，收成前遇上了天災，害得阿月父母做了一整年白工，農田也被沖走一大半，損失慘重。現在，這家人只能靠著一小塊不值錢的田地，種著青菜勉強過日子。同樣地，隔壁村六歲的阿國是個可憐的孤兒，從小與外婆相依為命。他看著一身病痛的外婆每天工作十到十二小時，總是很懂事地主動洗衣、煮飯。阿國希望趕快長大，賺錢改善家裡的經濟，讓外婆不用那麼辛苦。很明顯地，這兩個孩子的家庭都需要經濟援助，但是錢都在別人的口袋裡。對他們來說，所謂「公平的起跑點」根本不存在，只因出生時的環境比較差，賺起錢來自然比較吃力。雖然生活在同一片土地上，有些人一生下來就擁有大量的家產，有些人努力一輩子卻一無所有。因此，對於富人累積大量財富，而遊民與貧戶持續增加的現象，政府不能只是袖手旁觀，應該以提高富人納稅比例的方式來縮小貧富差距，調整社會公平性，創造平等的機會。也許有人認為，政府要求富人多繳稅，卻為了減輕窮人的負擔而提供許多津貼，等同於拿富人的錢來補貼窮人。但話說回來，人人都是社會的一分子，不能只自私地要求國家為你做了什麼，而是應問自己為國家做了什麼。來舉個北歐國家的例子吧！很多人羨慕北歐的社會福利，那裡的人民，即使是長期生病在家、失業，政府都會提供約75%的基本工資來照顧，更別說對弱勢團體的完善福利政策了。國家之所以能出手這麼大方，就在於政府在制定政策時考慮了多數人的利益，把富人存著不用的錢進行「收入再分配」，建立完善的醫療、養老、失業補助的制度，提供人們遇到困難時的保障，讓大家共享更好的社會福利。",
+            "simplified": "清晨，六岁的阿月不像同龄的孩子一样去上学，而是跟着妈妈到田里工作。前年，收成前遇上了天灾，害得阿月父母做了一整年白工，农田也被冲走一大半，损失惨重。现在，这家人只能靠着一小块不值钱的田地，种着青菜勉强过日子。同样地，隔壁村六岁的阿国是个可怜的孤儿，从小与外婆相依为命。他看着一身病痛的外婆每天工作十到十二小时，总是很懂事地主动洗衣、煮饭。阿国希望赶快长大，赚钱改善家里的经济，让外婆不用那么辛苦。很明显地，这两个孩子的家庭都需要经济援助，但是钱都在别人的口袋里。对他们来说，所谓「公平的起跑点」根本不存在，只因出生时的环境比较差，赚起钱来自然比较吃力。虽然生活在同一片土地上，有些人一生下来就拥有大量的家产，有些人努力一辈子却一无所有。因此，对于富人累积大量财富，而游民与贫户持续增加的现象，政府不能只是袖手旁观，应该以提高富人纳税比例的方式来缩小贫富差距，调整社会公平性，创造平等的机会。也许有人认为，政府要求富人多缴税，却为了减轻穷人的负担而提供许多津贴，等同于拿富人的钱来补贴穷人。但话说回来，人人都是社会的一分子，不能只自私地要求国家为你做了什么，而是应问自己为国家做了什么。来举个北欧国家的例子吧！很多人羡慕北欧的社会福利，那里的人民，即使是长期生病在家、失业，政府都会提供约75%的基本工资来照顾，更别说对弱势团体的完善福利政策了。国家之所以能出手这么大方，就在于政府在制定政策时考虑了多数人的利益，把富人存着不用的钱进行「收入再分配」，建立完善的医疗、养老、失业补助的制度，提供人们遇到困难时的保障，让大家共享更好的社会福利。",
+            "pinyin": "qīng chén ， liù suì de ā yuè bù xiàng tóng líng de hái zi yī yàng qù shàng xué ， ér shì gēn zhù mā mā dào tián lǐ gōng zuò 。 qián nián ， shōu chéng qián yù shàng le tiān zāi ， hài dé ā yuè fù mǔ zuò le yī zhěng nián bái gōng ， nóng tián yě bèi chōng zǒu yī dà bàn ， sǔn shī cǎn zhòng 。 xiàn zài ， zhè jiā rén zhǐ néng kào zhù yī xiǎo kuài bù zhí qián de tián dì ， zhǒng zhù qīng cài miǎn qiáng guò rì zi 。 tóng yàng dì ， gé bì cūn liù suì de ā guó shì gè kě lián de gū ér ， cóng xiǎo yǔ wài pó xiāng yī wèi mìng 。 tā kàn zhù yī shēn bìng tòng de wài pó měi tiān gōng zuò shí dào shí èr xiǎo shí ， zǒng shì hěn dǒng shì dì zhǔ dòng xǐ yī 、 zhǔ fàn 。 ā guó xī wàng gǎn kuài zhǎng dà ， zhuàn qián gǎi shàn jiā lǐ de jīng jì ， ràng wài pó bù yòng nà me xīn kǔ 。 hěn míng xiǎn dì ， zhè liǎng gè hái zi de jiā tíng dōu xū yào jīng jì yuán zhù ， dàn shì qián dōu zài bié rén de kǒu dài lǐ 。 duì tā men lái shuō ， suǒ wèi 「 gōng píng de qǐ pǎo diǎn 」 gēn běn bù cún zài ， zhǐ yīn chū shēng shí de huán jìng bǐ jiào chà ， zhuàn qǐ qián lái zì rán bǐ jiào chī lì 。 suī rán shēng huó zài tóng yī piàn tǔ dì shàng ， yǒu xiē rén yī shēng xià lái jiù yōng yǒu dà liàng de jiā chǎn ， yǒu xiē rén nǔ lì yī bèi zi què yī wú suǒ yǒu 。 yīn cǐ ， duì yú fù rén lèi jī dà liàng cái fù ， ér yóu mín yǔ pín hù chí xù zēng jiā de xiàn xiàng ， zhèng fǔ bù néng zhǐ shì xiù shǒu páng guān ， yīng gāi yǐ tí gāo fù rén nà shuì bǐ lì de fāng shì lái suō xiǎo pín fù chā jù ， diào zhěng shè huì gōng píng xìng ， chuàng zào píng děng de jī huì 。 yě xǔ yǒu rén rèn wèi ， zhèng fǔ yāo qiú fù rén duō jiǎo shuì ， què wèi le jiǎn qīng qióng rén de fù dān ér tí gōng xǔ duō jīn tiē ， děng tóng yú ná fù rén de qián lái bǔ tiē qióng rén 。 dàn huà shuō huí lái ， rén rén dōu shì shè huì de yī fèn zǐ ， bù néng zhǐ zì sī dì yāo qiú guó jiā wèi nǐ zuò le shén me ， ér shì yīng wèn zì jǐ wèi guó jiā zuò le shén me 。 lái jǔ gè běi ōu guó jiā de lì zi ba ！ hěn duō rén xiàn mù běi ōu de shè huì fú lì ， nà lǐ de rén mín ， jí shǐ shì zhǎng qī shēng bìng zài jiā 、 shī yè ， zhèng fǔ dōu huì tí gōng yuē 7 5 % de jī běn gōng zī lái zhào gù ， gèng bié shuō duì ruò shì tuán tǐ de wán shàn fú lì zhèng cè le 。 guó jiā zhī suǒ yǐ néng chū shǒu zhè me dà fāng ， jiù zài yú zhèng fǔ zài zhì dìng zhèng cè shí kǎo lǜ le duō shù rén de lì yì ， bǎ fù rén cún zhù bù yòng de qián jìn xíng 「 shōu rù zài fēn pèi 」 ， jiàn lì wán shàn de yī liáo 、 yǎng lǎo 、 shī yè bǔ zhù de zhì dù ， tí gōng rén men yù dào kùn nán shí de bǎo zhàng ， ràng dà jiā gòng xiǎng gèng hǎo de shè huì fú lì 。",
+            "meaningVi": "Sáng sớm, A Nguyệt sáu tuổi không đến trường như những đứa trẻ cùng tuổi mà theo mẹ ra đồng làm việc. Năm kia, ngay trước vụ thu hoạch, thiên tai ập đến khiến cha mẹ em làm cả năm thành công cốc; hơn nửa cánh đồng cũng bị nước cuốn trôi, thiệt hại nặng nề. Giờ cả nhà chỉ còn mảnh ruộng nhỏ chẳng đáng giá bao nhiêu, trồng rau để sống qua ngày. Ở làng bên, A Quốc cũng sáu tuổi, là trẻ mồ côi, từ bé nương tựa vào bà ngoại. Thấy bà đầy bệnh tật mà ngày nào cũng làm mười đến mười hai tiếng, em hiểu chuyện, chủ động giặt quần áo và nấu cơm. A Quốc mong mau lớn để kiếm tiền cải thiện kinh tế gia đình, cho bà đỡ vất vả.\nRõ ràng hai gia đình đều cần giúp đỡ về tiền bạc, nhưng tiền lại ở trong túi người khác. Với họ, cái gọi là “vạch xuất phát công bằng” vốn không tồn tại. Chỉ vì điều kiện lúc chào đời kém hơn, việc kiếm tiền đương nhiên cũng khó hơn. Cùng sống trên một mảnh đất, có người sinh ra đã có nhiều tài sản, có người cố gắng cả đời vẫn chẳng có gì. Trước cảnh người giàu ngày càng tích lũy của cải còn người lang thang và hộ nghèo ngày càng nhiều, theo tác giả, chính phủ không thể khoanh tay đứng nhìn. Chính phủ nên tăng tỷ lệ thuế của người giàu để thu hẹp khoảng cách giàu nghèo, điều chỉnh sự công bằng trong xã hội và tạo cơ hội bình đẳng.\nCó người cho rằng bắt người giàu nộp thuế nhiều hơn rồi cấp các khoản trợ giúp để giảm gánh nặng cho người nghèo chẳng khác nào lấy tiền người giàu bù cho người nghèo. Nhưng ai cũng là thành viên xã hội: ta không nên chỉ hỏi đất nước đã làm gì cho mình mà còn phải hỏi mình đã làm gì cho đất nước. Hãy lấy các nước Bắc Âu làm ví dụ. Nhiều người ngưỡng mộ phúc lợi ở đó: ngay cả khi ốm đau dài ngày hay thất nghiệp, người dân cũng được chính phủ hỗ trợ khoảng 75% mức lương cơ bản, chưa kể chính sách phúc lợi đầy đủ dành cho người yếu thế. Theo tác giả, chính phủ có thể hào phóng như vậy vì khi hoạch định chính sách đã xét đến lợi ích của số đông, đưa tiền người giàu để dành mà không dùng vào việc “phân phối lại thu nhập”; nhờ đó xây dựng hệ thống y tế, lương hưu, trợ cấp thất nghiệp và bảo đảm cho người dân lúc khó khăn, để mọi người cùng hưởng phúc lợi tốt hơn."
+          },
+          {
+            "speaker": "Tác giả",
+            "chinese": "倘若富人還是不服，其實可以換個角度來看：如果政府不透過稅收照顧窮人，那麼窮人可能為了生存而犯罪，到時每個人走在路上都提心吊膽的，政府也需要花更多預算加派警力以維護治安。從經濟的角度來看，不是更不划算嗎？",
+            "simplified": "倘若富人还是不服，其实可以换个角度来看：如果政府不透过税收照顾穷人，那么穷人可能为了生存而犯罪，到时每个人走在路上都提心吊胆的，政府也需要花更多预算加派警力以维护治安。从经济的角度来看，不是更不划算吗？",
+            "pinyin": "tǎng ruò fù rén hái shì bù fú ， qí shí kě yǐ huàn gè jiǎo dù lái kàn ： rú guǒ zhèng fǔ bù tòu guò shuì shōu zhào gù qióng rén ， nà me qióng rén kě néng wèi le shēng cún ér fàn zuì ， dào shí měi gè rén zǒu zài lù shàng dōu tí xīn diào dǎn de ， zhèng fǔ yě xū yào huā gèng duō yù suàn jiā pài jǐng lì yǐ wéi hù zhì ān 。 cóng jīng jì de jiǎo dù lái kàn ， bú shì gèng bù huá suàn ma ？",
+            "meaningVi": "Nếu người giàu vẫn không phục, có thể nhìn từ góc độ khác: nếu chính phủ không dùng tiền thuế chăm lo cho người nghèo, có người có thể phạm tội để sinh tồn. Khi ấy ai ra đường cũng nơm nớp lo sợ, còn chính phủ phải chi thêm ngân sách tăng lực lượng cảnh sát giữ an ninh. Xét về kinh tế, như vậy chẳng phải còn tốn kém hơn sao?"
+          }
+        ]
+      },
+      {
+        "id": "cc5-v5-l07-reading2",
+        "title": "課文二 · 應尊重個人自由與權利",
+        "context": "Tác giả phản đối việc buộc người giàu gánh thêm thuế và đặt câu hỏi về hiệu quả phân phối.",
+        "audioTrackId": "cc5-textbook-l07-t06",
+        "turns": [
+          {
+            "speaker": "Tác giả",
+            "chinese": "小張在哈佛大學旁聽，課堂上教授提出了一個問題請大家思考：「想像你是名急診室的醫生，同時來了六個病人，一個需要心臟、另一個需要肺臟、第三個需要腎臟……，每個人都非常急迫地需要器官移植，否則就活不下去，可是並沒有捐贈者。你突然想到，隔壁房間有個人正全身麻醉等著做健康檢查。請問你會拿走他的器官來救其他五個人嗎？」大多數同學搖頭。教授接著提出「對富者加稅，對貧者減稅」的話題：「抽一個有錢人的稅，可以滿足許多人的迫切需要，但在考慮眾人利益的同時，是否應該尊重個人的自由與權利呢？」課程最後，現場多數人同意「不應為了滿足多數人而奪取他人生命、自由或財產。」這堂課讓小張心有所感。奮鬥多年，如今他的孩子已經長大，生活還算過得去。從小，當別人在玩樂時，他犧牲了休閒，把自己埋在書堆裡；長大後，日夜不停地工作。一路走來，他都比別人更認真，現在的社會地位與收入是他應得的。然而今年，當他看到繳稅單時，忍不住叫了一聲「天呀！要繳好多稅喔！聽說政府還打算要我們繳更多的稅，這樣努力賺錢還有什麼意義呢？」在旁那無所事事、領著低收入津貼的表弟酸酸地回：「誰叫你賺那麼多！人生短暫，那麼拼做什麼？『不怕賺錢少，就怕走得早』像我每天不必工作、睡到自然醒多好？」小張苦笑地回：「歪理，如果大家都跟你一樣當米蟲，國家經濟怎麼會好？」努力工作似乎成為一種懲罰，小張仍舊不明白自己做錯了什麼，甚至開始懷疑自己的付出是否值得。政府利用稅收來「劫富濟貧」，聽起來是關心窮人，但忽視了被劫者背後的辛苦，他不偷不搶，付出了時間與成本，卻被強制收稅奪走收入，被迫「捐款」，讓眼紅者分享自己努力的成果，這真不合理。那些習慣不勞而獲的人長期依靠社會福利，不但對國家沒幫助，也成為政府的負擔。",
+            "simplified": "小张在哈佛大学旁听，课堂上教授提出了一个问题请大家思考：「想像你是名急诊室的医生，同时来了六个病人，一个需要心脏、另一个需要肺脏、第三个需要肾脏……，每个人都非常急迫地需要器官移植，否则就活不下去，可是并没有捐赠者。你突然想到，隔壁房间有个人正全身麻醉等着做健康检查。请问你会拿走他的器官来救其他五个人吗？」大多数同学摇头。教授接着提出「对富者加税，对贫者减税」的话题：「抽一个有钱人的税，可以满足许多人的迫切需要，但在考虑众人利益的同时，是否应该尊重个人的自由与权利呢？」课程最后，现场多数人同意「不应为了满足多数人而夺取他人生命、自由或财产。」这堂课让小张心有所感。奋斗多年，如今他的孩子已经长大，生活还算过得去。从小，当别人在玩乐时，他牺牲了休闲，把自己埋在书堆里；长大后，日夜不停地工作。一路走来，他都比别人更认真，现在的社会地位与收入是他应得的。然而今年，当他看到缴税单时，忍不住叫了一声「天呀！要缴好多税喔！听说政府还打算要我们缴更多的税，这样努力赚钱还有什么意义呢？」在旁那无所事事、领着低收入津贴的表弟酸酸地回：「谁叫你赚那么多！人生短暂，那么拼做什么？『不怕赚钱少，就怕走得早』像我每天不必工作、睡到自然醒多好？」小张苦笑地回：「歪理，如果大家都跟你一样当米虫，国家经济怎么会好？」努力工作似乎成为一种惩罚，小张仍旧不明白自己做错了什么，甚至开始怀疑自己的付出是否值得。政府利用税收来「劫富济贫」，听起来是关心穷人，但忽视了被劫者背后的辛苦，他不偷不抢，付出了时间与成本，却被强制收税夺走收入，被迫「捐款」，让眼红者分享自己努力的成果，这真不合理。那些习惯不劳而获的人长期依靠社会福利，不但对国家没帮助，也成为政府的负担。",
+            "pinyin": "xiǎo zhāng zài hā fú dà xué páng tīng ， kè táng shàng jiào shòu tí chū le yī gè wèn tí qǐng dà jiā sī kǎo ： 「 xiǎng xiàng nǐ shì míng jí zhěn shì de yī shēng ， tóng shí lái le liù gè bìng rén ， yī gè xū yào xīn zàng 、 lìng yī gè xū yào fèi zàng 、 dì sān gè xū yào shèn zàng … … ， měi gè rén dōu fēi cháng jí pò dì xū yào qì guān yí zhí ， fǒu zé jiù huó bù xià qù ， kě shì bìng méi yǒu juān zèng zhě 。 nǐ tū rán xiǎng dào ， gé bì fáng jiān yǒu gè rén zhèng quán shēn má zuì děng zhù zuò jiàn kāng jiǎn chá 。 qǐng wèn nǐ huì ná zǒu tā de qì guān lái jiù qí tā wǔ gè rén ma ？ 」 dà duō shù tóng xué yáo tóu 。 jiào shòu jiē zhù tí chū 「 duì fù zhě jiā shuì ， duì pín zhě jiǎn shuì 」 de huà tí ： 「 chōu yī gè yǒu qián rén de shuì ， kě yǐ mǎn zú xǔ duō rén de pò qiè xū yào ， dàn zài kǎo lǜ zhòng rén lì yì de tóng shí ， shì fǒu yīng gāi zūn zhòng gè rén de zì yóu yǔ quán lì ne ？ 」 kè chéng zuì hòu ， xiàn chǎng duō shù rén tóng yì 「 bù yīng wèi le mǎn zú duō shù rén ér duó qǔ tā rén shēng mìng 、 zì yóu huò cái chǎn 。 」 zhè táng kè ràng xiǎo zhāng xīn yǒu suǒ gǎn 。 fèn dòu duō nián ， rú jīn tā de hái zi yǐ jīng zhǎng dà ， shēng huó hái suàn guò dé qù 。 cóng xiǎo ， dāng bié rén zài wán lè shí ， tā xī shēng le xiū xián ， bǎ zì jǐ mái zài shū duī lǐ ； zhǎng dà hòu ， rì yè bù tíng dì gōng zuò 。 yī lù zǒu lái ， tā dōu bǐ bié rén gèng rèn zhēn ， xiàn zài de shè huì dì wèi yǔ shōu rù shì tā yīng dé de 。 rán ér jīn nián ， dāng tā kàn dào jiǎo shuì dān shí ， rěn bú zhù jiào le yī shēng 「 tiān yā ！ yào jiǎo hǎo duō shuì ō ！ tīng shuō zhèng fǔ hái dǎ suàn yào wǒ men jiǎo gèng duō de shuì ， zhè yàng nǔ lì zhuàn qián hái yǒu shén me yì yì ne ？ 」 zài páng nà wú suǒ shì shì 、 lǐng zhù dī shōu rù jīn tiē de biǎo dì suān suān dì huí ： 「 shuí jiào nǐ zhuàn nà me duō ！ rén shēng duǎn zàn ， nà me pīn zuò shén me ？ 『 bù pà zhuàn qián shǎo ， jiù pà zǒu dé zǎo 』 xiàng wǒ měi tiān bù bì gōng zuò 、 shuì dào zì rán xǐng duō hǎo ？ 」 xiǎo zhāng kǔ xiào dì huí ： 「 wāi lǐ ， rú guǒ dà jiā dōu gēn nǐ yī yàng dāng mǐ chóng ， guó jiā jīng jì zěn me huì hǎo ？ 」 nǔ lì gōng zuò sì hū chéng wèi yī zhǒng chéng fá ， xiǎo zhāng réng jiù bù míng bái zì jǐ zuò cuò le shén me ， shèn zhì kāi shǐ huái yí zì jǐ de fù chū shì fǒu zhí de 。 zhèng fǔ lì yòng shuì shōu lái 「 jié fù jì pín 」 ， tīng qǐ lái shì guān xīn qióng rén ， dàn hū shì le bèi jié zhě bèi hòu de xīn kǔ ， tā bù tōu bù qiǎng ， fù chū le shí jiān yǔ chéng běn ， què bèi qiáng zhì shōu shuì duó zǒu shōu rù ， bèi pò 「 juān kuǎn 」 ， ràng yǎn hóng zhě fēn xiǎng zì jǐ nǔ lì de chéng guǒ ， zhè zhēn bù hé lǐ 。 nà xiē xí guàn bù láo ér huò de rén zhǎng qī yī kào shè huì fú lì ， bù dàn duì guó jiā méi bāng zhù ， yě chéng wèi zhèng fǔ de fù dān 。",
+            "meaningVi": "Tiểu Trương dự thính một lớp ở Đại học Harvard. Giáo sư đặt câu hỏi: “Hãy tưởng tượng bạn là bác sĩ phòng cấp cứu. Sáu bệnh nhân cùng tới: một người cần tim, một người cần phổi, người thứ ba cần thận… Ai cũng cần ghép tạng gấp, nếu không sẽ không sống nổi, mà không có người hiến. Chợt bạn nhớ ở phòng bên có một người đang được gây mê toàn thân để khám sức khỏe. Bạn có lấy nội tạng của người ấy để cứu năm người kia không?” Phần lớn sinh viên lắc đầu. Giáo sư chuyển sang chuyện “tăng thuế với người giàu, giảm thuế cho người nghèo”: thu thuế của một người giàu có thể đáp ứng nhu cầu cấp thiết của nhiều người, nhưng khi xét lợi ích số đông, có nên tôn trọng tự do và quyền của từng cá nhân không? Cuối buổi, đa số đồng ý rằng không nên tước đi tính mạng, tự do hay tài sản của người khác để thỏa mãn số đông.\nBuổi học khiến Tiểu Trương suy nghĩ. Anh đã phấn đấu nhiều năm, con cái nay lớn, cuộc sống cũng tạm ổn. Thuở nhỏ, lúc người khác vui chơi, anh hy sinh thời gian nghỉ ngơi, vùi đầu vào sách; lớn lên thì làm việc ngày đêm. Anh luôn nỗ lực hơn người và cho rằng địa vị, thu nhập hiện nay là thành quả mình xứng đáng có. Vậy mà năm nay, nhìn giấy báo thuế, anh kêu lên: “Trời ơi, phải đóng nhiều thuế quá! Nghe nói chính phủ còn định bắt chúng ta đóng thêm. Vậy cố gắng kiếm tiền còn ý nghĩa gì?” Người em họ rảnh rỗi, nhận trợ cấp dành cho người thu nhập thấp, mỉa mai: “Ai bảo anh kiếm nhiều thế! Đời ngắn ngủi, cố sức làm gì? Không sợ kiếm ít, chỉ sợ chết sớm. Như em chẳng phải làm mà ngày nào cũng ngủ đến lúc tự tỉnh, sướng biết bao!” Tiểu Trương cười gượng: “Lý lẽ gì kỳ vậy? Ai cũng ăn bám như em thì kinh tế đất nước sao khá lên được?”\nChăm làm dường như thành một hình phạt. Tiểu Trương không hiểu mình làm sai điều gì, thậm chí nghi ngờ công sức bỏ ra có đáng không. Chính phủ dùng thuế để “lấy của người giàu giúp người nghèo” nghe như quan tâm đến người nghèo, nhưng lại bỏ qua những vất vả của người bị lấy tiền. Anh không trộm cướp, đã bỏ thời gian và công sức, vậy mà bị buộc nộp thuế, bị lấy đi thu nhập, phải “quyên góp” để người khác ganh tị được hưởng thành quả của mình. Theo anh, điều ấy không hợp lý. Những người quen không làm mà hưởng, lâu ngày dựa vào phúc lợi xã hội, không giúp ích cho đất nước mà còn thành gánh nặng cho chính phủ."
+          },
+          {
+            "speaker": "Tác giả",
+            "chinese": "所謂的公平正義，不是把上層階級往下拉，應是把弱勢的低層階級往上推，提供弱勢者工作機會，協助他們用自己的力量脫離貧窮，而非像強盜一樣，搶錢多的人來養窮人，這樣只會打擊人們想積極創富的心，反而影響國家經濟發展。再說，得到的稅金，是否真能有效運用、真正縮小貧富差距？都還有待討論。總而言之，政府不應介入社會財富重分配的過程。",
+            "simplified": "所谓的公平正义，不是把上层阶级往下拉，应是把弱势的低层阶级往上推，提供弱势者工作机会，协助他们用自己的力量脱离贫穷，而非像强盗一样，抢钱多的人来养穷人，这样只会打击人们想积极创富的心，反而影响国家经济发展。再说，得到的税金，是否真能有效运用、真正缩小贫富差距？都还有待讨论。总而言之，政府不应介入社会财富重分配的过程。",
+            "pinyin": "suǒ wèi de gōng píng zhèng yì ， bú shì bǎ shàng céng jiē jí wǎng xià lā ， yīng shì bǎ ruò shì de dī céng jiē jí wǎng shàng tuī ， tí gōng ruò shì zhě gōng zuò jī huì ， xié zhù tā men yòng zì jǐ de lì liàng tuō lí pín qióng ， ér fēi xiàng qiáng dào yī yàng ， qiǎng qián duō de rén lái yǎng qióng rén ， zhè yàng zhǐ huì dǎ jī rén men xiǎng jī jí chuàng fù de xīn ， fǎn ér yǐng xiǎng guó jiā jīng jì fā zhǎn 。 zài shuō ， dé dào de shuì jīn ， shì fǒu zhēn néng yǒu xiào yùn yòng 、 zhēn zhèng suō xiǎo pín fù chā jù ？ dōu hái yǒu dài tǎo lùn 。 zǒng ér yán zhī ， zhèng fǔ bù yīng jiè rù shè huì cái fù zhòng fēn pèi de guò chéng 。",
+            "meaningVi": "Theo tác giả, công bằng không phải kéo tầng lớp trên xuống mà là nâng những người yếu thế ở tầng lớp dưới lên: tạo việc làm, giúp họ dựa vào sức mình thoát nghèo. Nếu cứ lấy tiền người giàu nuôi người nghèo như kẻ cướp, người ta sẽ nản chí làm ăn, từ đó ảnh hưởng đến kinh tế đất nước. Hơn nữa, tiền thuế có được dùng hiệu quả và thật sự thu hẹp khoảng cách giàu nghèo hay không vẫn cần bàn luận. Tóm lại, tác giả cho rằng chính phủ không nên can thiệp vào quá trình phân phối lại của cải trong xã hội."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc5-v5-l07-check-01",
+        "prompt": "Vì sao hai gia đình ở bài 1 được đưa ra làm ví dụ?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Để nói vạch xuất phát của trẻ em không luôn công bằng"
+          },
+          {
+            "id": "b",
+            "text": "Để chứng minh ai cũng có ruộng"
+          },
+          {
+            "id": "c",
+            "text": "Để hướng dẫn trồng rau"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Hoàn cảnh A Nguyệt và A Quốc cho thấy chênh lệch từ khi sinh ra.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc5-v5-l07-check-02",
+        "prompt": "Bài 1 đề xuất cách nào để thu hẹp chênh lệch?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Tăng tỷ lệ thuế của người giàu"
+          },
+          {
+            "id": "b",
+            "text": "Bỏ mọi khoản trợ cấp"
+          },
+          {
+            "id": "c",
+            "text": "Để hộ nghèo tự xoay xở"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Tác giả nói 提高富人納稅比例.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc5-v5-l07-check-03",
+        "prompt": "Bài 2 dùng chuyện ghép tạng để hỏi về điều gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Cách học y khoa"
+          },
+          {
+            "id": "b",
+            "text": "Số giờ khám bệnh"
+          },
+          {
+            "id": "c",
+            "text": "Giới hạn của việc hy sinh quyền cá nhân vì số đông"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Đa số sinh viên không đồng ý lấy nội tạng một người để cứu năm người.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc5-v5-l07-check-04",
+        "prompt": "Tiểu Trương nghĩ gì khi nhận giấy báo thuế?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Anh muốn nghỉ học Harvard"
+          },
+          {
+            "id": "b",
+            "text": "Anh đã được miễn thuế"
+          },
+          {
+            "id": "c",
+            "text": "Anh thấy nỗ lực của mình bị đối xử không công bằng"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Anh tự hỏi cố gắng kiếm tiền còn ý nghĩa gì.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc5-v5-l07-check-05",
+        "prompt": "Hai bài đọc khác nhau ở điểm nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Tên của quốc gia được nhắc"
+          },
+          {
+            "id": "b",
+            "text": "Cách phát âm từ thuế"
+          },
+          {
+            "id": "c",
+            "text": "Cách nhìn về công bằng và vai trò của chính phủ"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Bài 1 ủng hộ tái phân phối; bài 2 phản đối việc bắt buộc.",
+        "skill": "Đọc hiểu"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem phát âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc5-v5-l07-v001",
+      "cc5-v5-l07-v002",
+      "cc5-v5-l07-v003",
+      "cc5-v5-l07-v004",
+      "cc5-v5-l07-v005",
+      "cc5-v5-l07-v006",
+      "cc5-v5-l07-v007",
+      "cc5-v5-l07-v008",
+      "cc5-v5-l07-v009",
+      "cc5-v5-l07-v010",
+      "cc5-v5-l07-v011",
+      "cc5-v5-l07-v012",
+      "cc5-v5-l07-v013",
+      "cc5-v5-l07-v014",
+      "cc5-v5-l07-v015",
+      "cc5-v5-l07-v016",
+      "cc5-v5-l07-v017",
+      "cc5-v5-l07-v018",
+      "cc5-v5-l07-v019",
+      "cc5-v5-l07-v020",
+      "cc5-v5-l07-v021",
+      "cc5-v5-l07-v022",
+      "cc5-v5-l07-v023",
+      "cc5-v5-l07-v024",
+      "cc5-v5-l07-v025",
+      "cc5-v5-l07-v026",
+      "cc5-v5-l07-v027",
+      "cc5-v5-l07-v028",
+      "cc5-v5-l07-v029",
+      "cc5-v5-l07-v030",
+      "cc5-v5-l07-v031",
+      "cc5-v5-l07-v032",
+      "cc5-v5-l07-v033",
+      "cc5-v5-l07-v034",
+      "cc5-v5-l07-v035",
+      "cc5-v5-l07-v036",
+      "cc5-v5-l07-v037",
+      "cc5-v5-l07-v038",
+      "cc5-v5-l07-v039",
+      "cc5-v5-l07-v040",
+      "cc5-v5-l07-v041",
+      "cc5-v5-l07-v042",
+      "cc5-v5-l07-v043",
+      "cc5-v5-l07-v044",
+      "cc5-v5-l07-v045",
+      "cc5-v5-l07-v046",
+      "cc5-v5-l07-v047",
+      "cc5-v5-l07-v048",
+      "cc5-v5-l07-v049",
+      "cc5-v5-l07-v050",
+      "cc5-v5-l07-v051",
+      "cc5-v5-l07-v052",
+      "cc5-v5-l07-v053",
+      "cc5-v5-l07-v054",
+      "cc5-v5-l07-v055",
+      "cc5-v5-l07-v056",
+      "cc5-v5-l07-v057",
+      "cc5-v5-l07-v058",
+      "cc5-v5-l07-v059",
+      "cc5-v5-l07-v060",
+      "cc5-v5-l07-v061",
+      "cc5-v5-l07-v062",
+      "cc5-v5-l07-v063",
+      "cc5-v5-l07-v064",
+      "cc5-v5-l07-v065",
+      "cc5-v5-l07-v066",
+      "cc5-v5-l07-v067",
+      "cc5-v5-l07-v068",
+      "cc5-v5-l07-v069",
+      "cc5-v5-l07-v070",
+      "cc5-v5-l07-v071",
+      "cc5-v5-l07-v072",
+      "cc5-v5-l07-v073",
+      "cc5-v5-l07-v074",
+      "cc5-v5-l07-v075",
+      "cc5-v5-l07-v076",
+      "cc5-v5-l07-v077",
+      "cc5-v5-l07-v078",
+      "cc5-v5-l07-v079",
+      "cc5-v5-l07-v080",
+      "cc5-v5-l07-v081",
+      "cc5-v5-l07-v082",
+      "cc5-v5-l07-v083",
+      "cc5-v5-l07-v084",
+      "cc5-v5-l07-v085",
+      "cc5-v5-l07-v086",
+      "cc5-v5-l07-v087",
+      "cc5-v5-l07-v088",
+      "cc5-v5-l07-v089",
+      "cc5-v5-l07-v090",
+      "cc5-v5-l07-v091",
+      "cc5-v5-l07-v092",
+      "cc5-v5-l07-v093"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc5-v5-l07-grammar-01",
+      "title": "為了…傷腦筋",
+      "structure": "為了 + vấn đề cần giải quyết + 傷腦筋",
+      "explanation": "Nói một vấn đề khiến mình phải suy nghĩ nhiều mà vẫn thấy khó xử. 為了 giới thiệu điều khiến người nói đau đầu.",
+      "examples": [
+        {
+          "chinese": "他為了要不要換工作而傷腦筋。",
+          "simplified": "他为了要不要换工作而伤脑筋。",
+          "pinyin": "tā wèi le yào bù yào huàn gōng zuò ér shāng nǎo jīn 。",
+          "meaningVi": "Anh ấy đau đầu vì không biết có nên đổi việc không."
+        },
+        {
+          "chinese": "父母為了孩子的學費傷腦筋。",
+          "simplified": "父母为了孩子的学费伤脑筋。",
+          "pinyin": "fù mǔ wèi le hái zi de xué fèi shāng nǎo jīn 。",
+          "meaningVi": "Cha mẹ đau đầu về học phí của con."
+        }
+      ],
+      "commonMistake": "傷腦筋 là sự khó xử trước một vấn đề, không phải đau đầu do bệnh.",
+      "check": {
+        "id": "cc5-v5-l07-grammar-check-01",
+        "prompt": "「為了學費傷腦筋」 nói gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Đang chữa bệnh đau đầu"
+          },
+          {
+            "id": "b",
+            "text": "Đã đóng xong học phí"
+          },
+          {
+            "id": "c",
+            "text": "Đau đầu vì chuyện học phí"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "為了 nêu vấn đề khiến người nói khó xử.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l07-t04"
+    },
+    {
+      "id": "cc5-v5-l07-grammar-02",
+      "title": "不像 A，而是 B",
+      "structure": "不像 + A，而是 + B",
+      "explanation": "Phủ định cách hiểu A rồi nêu tình huống thật B. Trong bài, A Nguyệt không đi học như bạn cùng tuổi mà ra đồng.",
+      "examples": [
+        {
+          "chinese": "她不像別人搭車，而是每天走路上班。",
+          "simplified": "她不像别人搭车，而是每天走路上班。",
+          "pinyin": "tā bù xiàng bié rén dā chē ， ér shì měi tiān zǒu lù shàng bān 。",
+          "meaningVi": "Cô ấy không đi xe như người khác mà đi bộ đến chỗ làm mỗi ngày."
+        },
+        {
+          "chinese": "這不是借口，而是真正的困難。",
+          "simplified": "这不是借口，而是真正的困难。",
+          "pinyin": "zhè bú shì jiè kǒu ， ér shì zhēn zhèng de kùn nán 。",
+          "meaningVi": "Đây không phải cái cớ mà là khó khăn thật sự."
+        }
+      ],
+      "commonMistake": "A và B phải là hai cách hiểu hoặc hành động có thể đối chiếu.",
+      "check": {
+        "id": "cc5-v5-l07-grammar-check-02",
+        "prompt": "「不像別人搭車，而是走路」 nhấn gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Cả hai đều đi xe"
+          },
+          {
+            "id": "b",
+            "text": "Không ai đi làm"
+          },
+          {
+            "id": "c",
+            "text": "Đi bộ, không đi xe như người khác"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "而是 giới thiệu tình huống thực tế.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l07-t04"
+    },
+    {
+      "id": "cc5-v5-l07-grammar-03",
+      "title": "A 等同於 B",
+      "structure": "A + 等同於 + B",
+      "explanation": "Nói A tương đương B về ý nghĩa hoặc hậu quả trong một lập luận. Đây thường là sự đánh giá, không nhất thiết hai việc giống hệt nhau.",
+      "examples": [
+        {
+          "chinese": "不給他機會等同於放棄他。",
+          "simplified": "不给他机会等同于放弃他。",
+          "pinyin": "bù gěi tā jī huì děng tóng yú fàng qì tā 。",
+          "meaningVi": "Không cho anh ấy cơ hội chẳng khác nào từ bỏ anh ấy."
+        },
+        {
+          "chinese": "長期不運動等同於忽視健康。",
+          "simplified": "长期不运动等同于忽视健康。",
+          "pinyin": "zhǎng qī bù yùn dòng děng tóng yú hū shì jiàn kāng 。",
+          "meaningVi": "Lâu ngày không vận động chẳng khác nào xem nhẹ sức khỏe."
+        }
+      ],
+      "commonMistake": "Chỉ dùng khi có cơ sở so sánh A và B.",
+      "check": {
+        "id": "cc5-v5-l07-grammar-check-03",
+        "prompt": "「等同於」 thể hiện quan hệ nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Việc xảy ra trước"
+          },
+          {
+            "id": "b",
+            "text": "Tương đương hoặc chẳng khác nào"
+          },
+          {
+            "id": "c",
+            "text": "Trái ngược hoàn toàn"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "等同於 nối hai điều được xem là tương đương.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l07-t04"
+    },
+    {
+      "id": "cc5-v5-l07-grammar-04",
+      "title": "之所以 A，就在於 B",
+      "structure": "chủ thể + 之所以 + kết quả A，就在於 + nguyên nhân B",
+      "explanation": "Đưa ra lý do cốt lõi giải thích vì sao A xảy ra. B cần là nguyên nhân mà người nói muốn nhấn mạnh.",
+      "examples": [
+        {
+          "chinese": "他之所以成功，就在於長期努力。",
+          "simplified": "他之所以成功，就在于长期努力。",
+          "pinyin": "tā zhī suǒ yǐ chéng gōng ， jiù zài yú zhǎng qī nǔ lì 。",
+          "meaningVi": "Anh ấy thành công chính là nhờ nỗ lực lâu dài."
+        },
+        {
+          "chinese": "這項政策之所以有效，就在於照顧了更多人的需要。",
+          "simplified": "这项政策之所以有效，就在于照顾了更多人的需要。",
+          "pinyin": "zhè xiàng zhèng cè zhī suǒ yǐ yǒu xiào ， jiù zài yú zhào gù le gèng duō rén de xū yào 。",
+          "meaningVi": "Chính sách này hiệu quả chính vì đáp ứng nhu cầu của nhiều người hơn."
+        }
+      ],
+      "commonMistake": "Sau 就在於 phải nêu nguyên nhân, không lặp lại kết quả A.",
+      "check": {
+        "id": "cc5-v5-l07-grammar-check-04",
+        "prompt": "Trong 「他之所以成功，就在於努力」, 努力 là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Thời gian bắt đầu"
+          },
+          {
+            "id": "b",
+            "text": "Lý do thành công"
+          },
+          {
+            "id": "c",
+            "text": "Kết quả của thành công"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "就在於 nêu nguyên nhân được nhấn mạnh.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l07-t04"
+    },
+    {
+      "id": "cc5-v5-l07-grammar-05",
+      "title": "從…的角度來看",
+      "structure": "從 + góc nhìn/lĩnh vực + 的角度來看，+ nhận định",
+      "explanation": "Chỉ rõ mình đánh giá sự việc theo phương diện nào. Đổi góc nhìn có thể cho kết luận khác.",
+      "examples": [
+        {
+          "chinese": "從經濟的角度來看，這個計畫太貴。",
+          "simplified": "从经济的角度来看，这个计划太贵。",
+          "pinyin": "cóng jīng jì de jiǎo dù lái kàn ， zhè gè jì huà tài guì 。",
+          "meaningVi": "Xét về kinh tế, kế hoạch này quá tốn kém."
+        },
+        {
+          "chinese": "從孩子的角度來看，上學比工作重要。",
+          "simplified": "从孩子的角度来看，上学比工作重要。",
+          "pinyin": "cóng hái zi de jiǎo dù lái kàn ， shàng xué bǐ gōng zuò zhòng yào 。",
+          "meaningVi": "Từ góc nhìn của đứa trẻ, đi học quan trọng hơn đi làm."
+        }
+      ],
+      "commonMistake": "Đừng trình bày đánh giá từ một góc nhìn như chân lý duy nhất.",
+      "check": {
+        "id": "cc5-v5-l07-grammar-check-05",
+        "prompt": "「從經濟的角度來看」 giới hạn điều gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Thời điểm xảy ra"
+          },
+          {
+            "id": "b",
+            "text": "Địa điểm làm việc"
+          },
+          {
+            "id": "c",
+            "text": "Phương diện đánh giá"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "的角度來看 nêu góc nhìn.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l07-t04"
+    },
+    {
+      "id": "cc5-v5-l07-grammar-06",
+      "title": "為了 A 而 B",
+      "structure": "為了 + mục đích A + 而 + hành động B",
+      "explanation": "Nêu mục đích A dẫn đến hành động B. Trong bài 2, tác giả dùng mẫu này để đặt câu hỏi về việc hy sinh quyền cá nhân vì lợi ích số đông.",
+      "examples": [
+        {
+          "chinese": "他為了照顧家人而換工作。",
+          "simplified": "他为了照顾家人而换工作。",
+          "pinyin": "tā wèi le zhào gù jiā rén ér huàn gōng zuò 。",
+          "meaningVi": "Anh ấy đổi việc để chăm sóc gia đình."
+        },
+        {
+          "chinese": "不能為了省錢而忽視安全。",
+          "simplified": "不能为了省钱而忽视安全。",
+          "pinyin": "bù néng wèi le shěng qián ér hū shì ān quán 。",
+          "meaningVi": "Không thể vì tiết kiệm tiền mà xem nhẹ an toàn."
+        }
+      ],
+      "commonMistake": "A là mục đích; B là hành động được thực hiện vì mục đích đó.",
+      "check": {
+        "id": "cc5-v5-l07-grammar-check-06",
+        "prompt": "Trong 「為了照顧家人而換工作」, mục đích là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Đổi việc"
+          },
+          {
+            "id": "b",
+            "text": "Nghỉ học"
+          },
+          {
+            "id": "c",
+            "text": "Chăm sóc gia đình"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "為了 giới thiệu mục đích.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l07-t08"
+    },
+    {
+      "id": "cc5-v5-l07-grammar-07",
+      "title": "被迫 + động từ",
+      "structure": "chủ ngữ + 被迫 + hành động",
+      "explanation": "Diễn tả phải làm điều gì đó do áp lực hoặc hoàn cảnh, không phải tự nguyện. Bài 2 dùng khi nhân vật cho rằng mình bị buộc phải đóng góp.",
+      "examples": [
+        {
+          "chinese": "因為颱風，旅客被迫改變行程。",
+          "simplified": "因为台风，旅客被迫改变行程。",
+          "pinyin": "yīn wèi tái fēng ， lǚ kè bèi pò gǎi biàn xíng chéng 。",
+          "meaningVi": "Vì bão, hành khách buộc phải đổi lịch trình."
+        },
+        {
+          "chinese": "他被迫離開家鄉。",
+          "simplified": "他被迫离开家乡。",
+          "pinyin": "tā bèi pò lí kāi jiā xiāng 。",
+          "meaningVi": "Anh ấy buộc phải rời quê nhà."
+        }
+      ],
+      "commonMistake": "Đừng dùng 被迫 cho hành động tự nguyện.",
+      "check": {
+        "id": "cc5-v5-l07-grammar-check-07",
+        "prompt": "「被迫改變行程」 nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Tự chọn đổi lịch trình"
+          },
+          {
+            "id": "b",
+            "text": "Lên lịch trình mới theo sở thích"
+          },
+          {
+            "id": "c",
+            "text": "Buộc phải đổi lịch trình"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "被迫 nhấn tính không tự nguyện.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l07-t08"
+    },
+    {
+      "id": "cc5-v5-l07-grammar-08",
+      "title": "是否 A，還有待 B",
+      "structure": "是否 + điều chưa rõ A，還有待 + kiểm chứng/thảo luận B",
+      "explanation": "Nói chưa thể khẳng định A đúng hay sai; cần thêm B để biết. Trong bài, tác giả không khẳng định tiền thuế có thu hẹp chênh lệch hay không.",
+      "examples": [
+        {
+          "chinese": "這個方法是否有效，還有待觀察。",
+          "simplified": "这个方法是否有效，还有待观察。",
+          "pinyin": "zhè gè fāng fǎ shì fǒu yǒu xiào ， hái yǒu dài guān chá 。",
+          "meaningVi": "Cách này có hiệu quả hay không còn phải quan sát thêm."
+        },
+        {
+          "chinese": "稅收是否能縮小差距，還有待討論。",
+          "simplified": "税收是否能缩小差距，还有待讨论。",
+          "pinyin": "shuì shōu shì fǒu néng suō xiǎo chā jù ， hái yǒu dài tǎo lùn 。",
+          "meaningVi": "Thuế có thu hẹp khoảng cách hay không vẫn cần bàn luận."
+        }
+      ],
+      "commonMistake": "Không hiểu 還有待 là kết luận A đã được chứng minh.",
+      "check": {
+        "id": "cc5-v5-l07-grammar-check-08",
+        "prompt": "「是否有效，還有待觀察」 cho biết gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Đã bị bác bỏ"
+          },
+          {
+            "id": "b",
+            "text": "Chưa rõ, cần quan sát thêm"
+          },
+          {
+            "id": "c",
+            "text": "Đã chứng minh hiệu quả"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "還有待 nêu việc cần làm trước khi kết luận.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l07-t08"
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc5-v5-l07-listening-01",
+      "prompt": "Nghe bài 1: điều gì xảy ra với ruộng của gia đình A Nguyệt?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hơn nửa bị nước cuốn trôi"
+        },
+        {
+          "id": "b",
+          "text": "Được bán giá cao"
+        },
+        {
+          "id": "c",
+          "text": "Được tặng thêm"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc nói 農田也被沖走一大半.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l07-t02"
+    },
+    {
+      "id": "cc5-v5-l07-listening-02",
+      "prompt": "Nghe bài 1: tác giả lấy khu vực nào làm ví dụ về phúc lợi?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Châu Phi"
+        },
+        {
+          "id": "b",
+          "text": "Bắc Âu"
+        },
+        {
+          "id": "c",
+          "text": "Nam Mỹ"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nêu 北歐國家的例子.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l07-t02"
+    },
+    {
+      "id": "cc5-v5-l07-listening-03",
+      "prompt": "Nghe bài 2: đa số sinh viên phản ứng thế nào với câu hỏi của giáo sư?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rời lớp"
+        },
+        {
+          "id": "b",
+          "text": "Lắc đầu"
+        },
+        {
+          "id": "c",
+          "text": "Đồng ý ngay"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nói 大多數同學搖頭.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l07-t06"
+    },
+    {
+      "id": "cc5-v5-l07-listening-04",
+      "prompt": "Nghe bài 2: tác giả muốn hỗ trợ người yếu thế bằng cách nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tạo việc làm và giúp họ tự thoát nghèo"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ tăng hình phạt"
+        },
+        {
+          "id": "c",
+          "text": "Ngừng mọi việc học"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Đoạn cuối nói 提供弱勢者工作機會.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l07-t06"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc5-v5-l07-practice-01",
+      "prompt": "Điền: 他____學費____。",
+      "options": [
+        {
+          "id": "a",
+          "text": "不像；而是"
+        },
+        {
+          "id": "b",
+          "text": "是否；還有待"
+        },
+        {
+          "id": "c",
+          "text": "為了；傷腦筋"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "為了…傷腦筋: đau đầu vì một vấn đề.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l07-practice-02",
+      "prompt": "Điền: 她____別人搭車，____每天走路。",
+      "options": [
+        {
+          "id": "a",
+          "text": "為了；而"
+        },
+        {
+          "id": "b",
+          "text": "之所以；就在於"
+        },
+        {
+          "id": "c",
+          "text": "不像；而是"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "不像 A，而是 B đối chiếu hai cách làm.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l07-practice-03",
+      "prompt": "Điền: 不給他機會____放棄他。",
+      "options": [
+        {
+          "id": "a",
+          "text": "還有待"
+        },
+        {
+          "id": "b",
+          "text": "等同於"
+        },
+        {
+          "id": "c",
+          "text": "被迫"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "等同於 diễn tả sự tương đương.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l07-practice-04",
+      "prompt": "Điền: 他____成功，____長期努力。",
+      "options": [
+        {
+          "id": "a",
+          "text": "不像；而是"
+        },
+        {
+          "id": "b",
+          "text": "是否；還有待"
+        },
+        {
+          "id": "c",
+          "text": "之所以；就在於"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "之所以…就在於 nêu nguyên nhân.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l07-practice-05",
+      "prompt": "Điền: ____經濟____，這個計畫太貴。",
+      "options": [
+        {
+          "id": "a",
+          "text": "不像；而是"
+        },
+        {
+          "id": "b",
+          "text": "從；的角度來看"
+        },
+        {
+          "id": "c",
+          "text": "為了；而"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "從…的角度來看 nêu phương diện đánh giá.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l07-practice-06",
+      "prompt": "Điền: 他____照顧家人____換工作。",
+      "options": [
+        {
+          "id": "a",
+          "text": "是否；還有待"
+        },
+        {
+          "id": "b",
+          "text": "之所以；就在於"
+        },
+        {
+          "id": "c",
+          "text": "為了；而"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "為了 A 而 B nêu mục đích và hành động.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l07-practice-07",
+      "prompt": "Điền: 因為颱風，旅客____改變行程。",
+      "options": [
+        {
+          "id": "a",
+          "text": "被迫"
+        },
+        {
+          "id": "b",
+          "text": "等同於"
+        },
+        {
+          "id": "c",
+          "text": "還有待"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "被迫 nhấn việc phải làm do hoàn cảnh.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l07-practice-08",
+      "prompt": "Điền: 這個方法____有效，____觀察。",
+      "options": [
+        {
+          "id": "a",
+          "text": "不像；而是"
+        },
+        {
+          "id": "b",
+          "text": "為了；而"
+        },
+        {
+          "id": "c",
+          "text": "是否；還有待"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "是否…還有待 nói chưa thể kết luận.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc5-v5-l07-assessment-01",
+      "prompt": "「相依為命」 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tự đi du lịch"
+        },
+        {
+          "id": "b",
+          "text": "Nương tựa nhau mà sống"
+        },
+        {
+          "id": "c",
+          "text": "Sống riêng từng nhà"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "A Quốc và bà ngoại nương tựa nhau.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc5-v5-l07-assessment-02",
+      "prompt": "Bài 1 nói “公平的起跑點” không tồn tại với ai?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ nhà giàu"
+        },
+        {
+          "id": "b",
+          "text": "Hai gia đình trẻ em gặp khó khăn"
+        },
+        {
+          "id": "c",
+          "text": "Tất cả người Bắc Âu"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Ví dụ A Nguyệt và A Quốc cho thấy điều kiện ban đầu khác nhau.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l07-assessment-03",
+      "prompt": "Bài 1 muốn tăng thuế người giàu để làm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bỏ hệ thống y tế"
+        },
+        {
+          "id": "b",
+          "text": "Tăng thời giờ làm đồng"
+        },
+        {
+          "id": "c",
+          "text": "Giảm chênh lệch và tài trợ phúc lợi"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Đó là đề xuất chính của tác giả bài 1.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l07-assessment-04",
+      "prompt": "「不像 A，而是 B」 làm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ thời gian"
+        },
+        {
+          "id": "b",
+          "text": "Phủ định A và nêu tình huống B"
+        },
+        {
+          "id": "c",
+          "text": "Nêu hai nguyên nhân"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "而是 giới thiệu tình huống thực tế.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l07-assessment-05",
+      "prompt": "Câu chuyện ghép tạng trong bài 2 nhấn điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mọi người đều cần học y"
+        },
+        {
+          "id": "b",
+          "text": "Bác sĩ không được hỏi bệnh nhân"
+        },
+        {
+          "id": "c",
+          "text": "Không nên tước quyền một người chỉ để giúp số đông"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Đa số sinh viên lắc đầu trước đề nghị lấy nội tạng.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l07-assessment-06",
+      "prompt": "「被迫」 nhấn điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Làm lần đầu"
+        },
+        {
+          "id": "b",
+          "text": "Không tự nguyện"
+        },
+        {
+          "id": "c",
+          "text": "Rất vui lòng"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "被迫 là phải làm do áp lực hay hoàn cảnh.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l07-assessment-07",
+      "prompt": "Tiểu Trương phản đối điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bị buộc gánh thêm thuế từ thu nhập mình kiếm được"
+        },
+        {
+          "id": "b",
+          "text": "Con cái đã lớn"
+        },
+        {
+          "id": "c",
+          "text": "Việc đến lớp học"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Anh xem thuế cao là bất công với công sức của mình.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l07-assessment-08",
+      "prompt": "「是否有效，還有待觀察」 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đã quyết định ngừng dùng"
+        },
+        {
+          "id": "b",
+          "text": "Chưa biết hiệu quả hay không, cần quan sát thêm"
+        },
+        {
+          "id": "c",
+          "text": "Chắc chắn hiệu quả"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "還有待 cho biết chưa thể kết luận.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l07-assessment-09",
+      "prompt": "Theo bài 2, nên giúp người yếu thế bằng cách nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ bắt người giàu đóng thuế"
+        },
+        {
+          "id": "b",
+          "text": "Tạo việc làm và hỗ trợ tự thoát nghèo"
+        },
+        {
+          "id": "c",
+          "text": "Kéo mọi người xuống cùng mức"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Đoạn cuối nêu 提供弱勢者工作機會.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l07-assessment-10",
+      "prompt": "Hai bài có cùng kết luận về tái phân phối thu nhập không?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Có, cả hai đều phản đối"
+        },
+        {
+          "id": "b",
+          "text": "Không, một bài ủng hộ và một bài phản đối"
+        },
+        {
+          "id": "c",
+          "text": "Có, cả hai đều ủng hộ"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Hai bài đặt trọng tâm vào các giá trị khác nhau.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "writingTask": {
+    "id": "cc5-v5-l07-writing",
+    "title": "Nêu quan điểm về công bằng",
+    "prompt": "Viết một đoạn tiếng Hoa nêu hai góc nhìn về thuế hoặc phúc lợi rồi trình bày ý kiến của bạn.",
+    "sampleTraditional": "從社會公平的角度來看，稅收可以幫助弱勢家庭；從個人權利的角度來看，政府也應尊重人們的努力。我認為政策是否公平，還有待討論。",
+    "sampleSimplified": "从社会公平的角度来看，税收可以帮助弱势家庭；从个人权利的角度来看，政府也应尊重人们的努力。我认为政策是否公平，还有待讨论。"
+  }
+}

@@ -52,7 +52,8 @@ import cc5Lesson06Data from "../data/academy/cc5-lesson06.json" with { type: "js
 import cc5Lesson07Data from "../data/academy/cc5-lesson07.json" with { type: "json" };
 import cc5Lesson08Data from "../data/academy/cc5-lesson08.json" with { type: "json" };
 import cc5Lesson09Data from "../data/academy/cc5-lesson09.json" with { type: "json" };
-import { cc5Lesson01Words, cc5Lesson02Words, cc5Lesson03Words, cc5Lesson04Words, cc5Lesson05Words, cc5Lesson06Words, cc5Lesson07Words, cc5Lesson08Words, cc5Lesson09Words } from "./cc5-course-vocabulary.ts";
+import cc5Lesson10Data from "../data/academy/cc5-lesson10.json" with { type: "json" };
+import { cc5Lesson01Words, cc5Lesson02Words, cc5Lesson03Words, cc5Lesson04Words, cc5Lesson05Words, cc5Lesson06Words, cc5Lesson07Words, cc5Lesson08Words, cc5Lesson09Words, cc5Lesson10Words } from "./cc5-course-vocabulary.ts";
 export { academyLesson01 };
 
 export const academyActivityKinds = ["lecture", "vocabulary", "grammar", "practice", "assessment"] as const;
@@ -227,7 +228,11 @@ export const academyVolume5Lesson09 = {
   ...cc5Lesson09Data,
   vocabulary: { ...cc5Lesson09Data.vocabulary, wordIds: cc5Lesson09Words.map((word) => word.id!) },
 } as unknown as AcademyLessonContent;
-export const academyVolume5Lessons = [academyVolume5Lesson01, academyVolume5Lesson02, academyVolume5Lesson03, academyVolume5Lesson04, academyVolume5Lesson05, academyVolume5Lesson06, academyVolume5Lesson07, academyVolume5Lesson08, academyVolume5Lesson09];
+export const academyVolume5Lesson10 = {
+  ...cc5Lesson10Data,
+  vocabulary: { ...cc5Lesson10Data.vocabulary, wordIds: cc5Lesson10Words.map((word) => word.id!) },
+} as unknown as AcademyLessonContent;
+export const academyVolume5Lessons = [academyVolume5Lesson01, academyVolume5Lesson02, academyVolume5Lesson03, academyVolume5Lesson04, academyVolume5Lesson05, academyVolume5Lesson06, academyVolume5Lesson07, academyVolume5Lesson08, academyVolume5Lesson09, academyVolume5Lesson10];
 export const academyVolume3Lesson01 = {
   ...cc3Lesson01Data,
   vocabulary: { ...cc3Lesson01Data.vocabulary, wordIds: cc3Lesson01Words.map((word) => word.id!) },

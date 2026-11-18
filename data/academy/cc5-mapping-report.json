@@ -2,14 +2,10 @@
   "courseId": "cc5",
   "volume": 5,
   "total": 97,
-  "verified": 91,
+  "verified": 95,
   "pending": [
     "cc5-textbook-unassigned-00",
-    "cc5-workbook-unassigned-00",
-    "cc5-textbook-l10-t01",
-    "cc5-textbook-l10-t02",
-    "cc5-textbook-l10-t05",
-    "cc5-textbook-l10-t07"
+    "cc5-workbook-unassigned-00"
   ],
   "byLesson": [
     {

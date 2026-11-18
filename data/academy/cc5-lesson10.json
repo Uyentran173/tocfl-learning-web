@@ -1,0 +1,1160 @@
+{
+  "contentVersion": 2,
+  "id": "cc5-v5-l10",
+  "title": "同性婚姻合法化",
+  "titleVi": "Hợp pháp hóa hôn nhân cùng giới",
+  "description": "Đọc hai bản tin với những lập trường khác nhau và học cách nhận diện, trình bày lập luận.",
+  "objectives": [
+    "Theo dõi hai bản tin và phân biệt lời người dẫn, phóng viên, người được phỏng vấn.",
+    "Nhận diện các luận điểm ủng hộ và phản đối trong nội dung gốc, không lẫn quan điểm của nhân vật với sự thật đã kiểm chứng.",
+    "Dùng tám mẫu câu để nói về lập trường, quan hệ và điều kiện."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Bài học dùng hai bản tin và ý kiến phỏng vấn để luyện đọc, nghe và phân tích lập luận. Những phát biểu của nhân vật phản ánh quan điểm của họ trong giáo trình, không phải kết luận của Tai Wén.",
+    "sections": [
+      {
+        "id": "cc5-v5-l10-section-01",
+        "title": "Bản tin từ Quảng trường Hòa Bình",
+        "body": "Những người tuần hành nói về tình yêu, quyền kết hôn và các quyền pháp lý của bạn đời.",
+        "chinese": "婚姻的核心是愛，是伴侶之間的事，與性別無關。",
+        "simplified": "婚姻的核心是爱，是伴侣之间的事，与性别无关。",
+        "pinyin": "hūn yīn de hé xīn shì ài ， shì bàn lǚ zhī jiān de shì ， yǔ xìng bié wú guān 。",
+        "meaningVi": "Theo người được phỏng vấn, cốt lõi của hôn nhân là tình yêu giữa hai người bạn đời, không liên quan đến giới tính."
+      },
+      {
+        "id": "cc5-v5-l10-section-02",
+        "title": "Bản tin từ Paris",
+        "body": "Ba người được phỏng vấn nêu các lập luận phản đối từ góc nhìn sinh học, văn hóa và pháp luật. Hãy xác định ai đang nói và họ dựa vào điều gì.",
+        "chinese": "人類社會將如何發展？有賴各界不斷對話與激辯。",
+        "simplified": "人类社会将如何发展？有赖各界不断对话与激辩。",
+        "pinyin": "rén lèi shè huì jiāng rú hé fā zhǎn ？ yǒu lài gè jiè bù duàn duì huà yǔ jī biàn 。",
+        "meaningVi": "Xã hội sẽ phát triển ra sao còn phụ thuộc vào sự đối thoại và tranh luận của các bên."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc5-v5-l10-reading1",
+        "title": "課文一 · 和平廣場的報導",
+        "context": "Bản tin ghi lại ý kiến của người tuần hành ủng hộ hợp pháp hóa hôn nhân cùng giới.",
+        "audioTrackId": "cc5-textbook-l10-t01",
+        "turns": [
+          {
+            "speaker": "主播",
+            "chinese": "各位觀眾朋友大家好，和平廣場前正在舉辦一場爭取同性婚姻合法化的遊行活動。情況如何，我們現在與現場記者連線。",
+            "simplified": "各位观众朋友大家好，和平广场前正在举办一场争取同性婚姻合法化的游行活动。情况如何，我们现在与现场记者连线。",
+            "pinyin": "gè wèi guān zhòng péng yǒu dà jiā hǎo ， hé píng guǎng chǎng qián zhèng zài jǔ bàn yī chǎng zhēng qǔ tóng xìng hūn yīn hé fǎ huà de yóu xíng huó dòng 。 qíng kuàng rú hé ， wǒ men xiàn zài yǔ xiàn chǎng jì zhě lián xiàn 。",
+            "meaningVi": "Xin chào quý khán giả. Trước Quảng trường Hòa Bình đang diễn ra một cuộc tuần hành kêu gọi hợp pháp hóa hôn nhân cùng giới. Tình hình ra sao? Chúng tôi kết nối với phóng viên tại hiện trường."
+          },
+          {
+            "speaker": "記者",
+            "chinese": "記者現在所在位置是和平廣場前，現場擠滿了參加活動的民眾，高喊「同志朋友，你們並不孤單！」，希望傳達出他們跟同志站在同一陣線的立場。",
+            "simplified": "记者现在所在位置是和平广场前，现场挤满了参加活动的民众，高喊「同志朋友，你们并不孤单！」，希望传达出他们跟同志站在同一阵线的立场。",
+            "pinyin": "jì zhě xiàn zài suǒ zài wèi zhì shì hé píng guǎng chǎng qián ， xiàn chǎng jǐ mǎn le cān jiā huó dòng de mín zhòng ， gāo hǎn 「 tóng zhì péng yǒu ， nǐ men bìng bù gū dān ！ 」 ， xī wàng chuán dá chū tā men gēn tóng zhì zhàn zài tóng yī zhèn xiàn de lì chǎng 。",
+            "meaningVi": "Tôi đang ở trước Quảng trường Hòa Bình. Nơi đây chật kín người tham gia. Họ hô vang: “Các bạn đồng chí, các bạn không đơn độc!” để bày tỏ rằng họ đứng về phía cộng đồng đồng tính."
+          },
+          {
+            "speaker": "記者",
+            "chinese": "活動發起人表示，這個活動主要是希望政府能盡快通過同性婚姻法律。他說：「同性戀不是病，我們生來如此，和異性戀沒有兩樣。我們只是愛上相同性別的人，但這並沒有錯。我們也希望能跟相愛的人組成家庭，和對方分享物質和精神生活。婚姻的核心是愛，是伴侶之間的事，與性別無關。相愛的兩個人結婚是基本人權。過去，不同種族、不同階級的人不能結婚，這些歧視與限制漸漸被打破。同樣地，同性婚姻合法化也是往平權的方向努力。我們希望藉由這個活動讓大家更了解我們，也替自己爭取應有的權利。」",
+            "simplified": "活动发起人表示，这个活动主要是希望政府能尽快通过同性婚姻法律。他说：「同性恋不是病，我们生来如此，和异性恋没有两样。我们只是爱上相同性别的人，但这并没有错。我们也希望能跟相爱的人组成家庭，和对方分享物质和精神生活。婚姻的核心是爱，是伴侣之间的事，与性别无关。相爱的两个人结婚是基本人权。过去，不同种族、不同阶级的人不能结婚，这些歧视与限制渐渐被打破。同样地，同性婚姻合法化也是往平权的方向努力。我们希望借由这个活动让大家更了解我们，也替自己争取应有的权利。」",
+            "pinyin": "huó dòng fā qǐ rén biǎo shì ， zhè gè huó dòng zhǔ yào shì xī wàng zhèng fǔ néng jǐn kuài tōng guò tóng xìng hūn yīn fǎ lǜ 。 tā shuō ： 「 tóng xìng liàn bú shì bìng ， wǒ men shēng lái rú cǐ ， hé yì xìng liàn méi yǒu liǎng yàng 。 wǒ men zhǐ shì ài shàng xiàng tóng xìng bié de rén ， dàn zhè bìng méi yǒu cuò 。 wǒ men yě xī wàng néng gēn xiāng ài de rén zǔ chéng jiā tíng ， hé duì fāng fēn xiǎng wù zhì hé jīng shén shēng huó 。 hūn yīn de hé xīn shì ài ， shì bàn lǚ zhī jiān de shì ， yǔ xìng bié wú guān 。 xiāng ài de liǎng gè rén jié hūn shì jī běn rén quán 。 guò qù ， bù tóng zhǒng zú 、 bù tóng jiē jí de rén bù néng jié hūn ， zhè xiē qí shì yǔ xiàn zhì jiàn jiàn bèi dǎ pò 。 tóng yàng dì ， tóng xìng hūn yīn hé fǎ huà yě shì wǎng píng quán de fāng xiàng nǔ lì 。 wǒ men xī wàng jí yóu zhè gè huó dòng ràng dà jiā gèng liǎo jiě wǒ men ， yě tì zì jǐ zhēng qǔ yīng yǒu de quán lì 。 」",
+            "meaningVi": "Người khởi xướng cho biết mục đích chính của hoạt động là mong chính phủ sớm thông qua luật hôn nhân cùng giới. Ông nói: “Đồng tính không phải là bệnh. Chúng tôi sinh ra như vậy, chẳng khác gì người dị tính; chỉ là chúng tôi yêu người cùng giới, và điều đó không có gì sai. Chúng tôi cũng muốn lập gia đình với người mình yêu, chia sẻ cuộc sống vật chất và tinh thần. Cốt lõi của hôn nhân là tình yêu; đó là chuyện giữa hai người bạn đời, không liên quan đến giới tính. Hai người yêu nhau được kết hôn là một quyền con người cơ bản. Trước đây, người khác chủng tộc hoặc tầng lớp không được kết hôn với nhau, nhưng những phân biệt và giới hạn ấy dần bị phá bỏ. Tương tự, hợp pháp hóa hôn nhân cùng giới là một bước hướng tới bình đẳng. Chúng tôi mong qua hoạt động này, mọi người hiểu chúng tôi hơn và chúng tôi có thể giành lấy những quyền vốn thuộc về mình.”"
+          },
+          {
+            "speaker": "記者",
+            "chinese": "說到法律面，一位參與活動的民眾表示：「即使跟同性伴侶生活了一輩子，得到家人朋友的認同，但在法律上，因為沒有擁有正式的合法關係，無法節稅、共享財產、領養小孩，在對方病危時也無法簽署文件，替他做出最好的決定。儘管彼此是生活中最親密的伙伴，卻是法律上的陌生人，不能像異性戀伴侶一樣享有同樣的權益，這是不公平的。同性婚姻合法化能提供法律基礎，讓同性伴侶在財產、醫療、身分等方面享有應有的保障和權利。」",
+            "simplified": "说到法律面，一位参与活动的民众表示：「即使跟同性伴侣生活了一辈子，得到家人朋友的认同，但在法律上，因为没有拥有正式的合法关系，无法节税、共享财产、领养小孩，在对方病危时也无法签署文件，替他做出最好的决定。尽管彼此是生活中最亲密的伙伴，却是法律上的陌生人，不能像异性恋伴侣一样享有同样的权益，这是不公平的。同性婚姻合法化能提供法律基础，让同性伴侣在财产、医疗、身分等方面享有应有的保障和权利。」",
+            "pinyin": "shuō dào fǎ lǜ miàn ， yī wèi cān yǔ huó dòng de mín zhòng biǎo shì ： 「 jí shǐ gēn tóng xìng bàn lǚ shēng huó le yī bèi zi ， dé dào jiā rén péng yǒu de rèn tóng ， dàn zài fǎ lǜ shàng ， yīn wèi méi yǒu yōng yǒu zhèng shì de hé fǎ guān xì ， wú fǎ jié shuì 、 gòng xiǎng cái chǎn 、 lǐng yǎng xiǎo hái ， zài duì fāng bìng wēi shí yě wú fǎ qiān shǔ wén jiàn ， tì tā zuò chū zuì hǎo de jué dìng 。 jǐn guǎn bǐ cǐ shì shēng huó zhōng zuì qīn mì de huǒ bàn ， què shì fǎ lǜ shàng de mò shēng rén ， bù néng xiàng yì xìng liàn bàn lǚ yī yàng xiǎng yǒu tóng yàng de quán yì ， zhè shì bù gōng píng de 。 tóng xìng hūn yīn hé fǎ huà néng tí gōng fǎ lǜ jī chǔ ， ràng tóng xìng bàn lǚ zài cái chǎn 、 yī liáo 、 shēn fèn děng fāng miàn xiǎng yǒu yīng yǒu de bǎo zhàng hé quán lì 。 」",
+            "meaningVi": "Về mặt pháp lý, một người tham gia nói: “Dù đã sống cả đời với bạn đời cùng giới và được gia đình, bạn bè chấp nhận, nhưng vì không có quan hệ hợp pháp chính thức, chúng tôi không thể được ưu đãi thuế, cùng sở hữu tài sản, nhận con nuôi hay ký giấy tờ để đưa ra quyết định tốt nhất khi người kia nguy kịch. Dù thân thiết nhất trong đời, trước pháp luật chúng tôi vẫn là người xa lạ; không được hưởng quyền lợi như những cặp dị tính. Điều đó không công bằng. Hợp pháp hóa hôn nhân cùng giới sẽ tạo cơ sở pháp lý để các cặp đôi được bảo đảm quyền về tài sản, y tế và thân phận.”"
+          },
+          {
+            "speaker": "記者",
+            "chinese": "性別平權雖已是世界潮流，但目前的社會尚未取得共識。許多人會把同志跟性病、複雜的性關係等負面印象連在一起。對此，發起人說：「這完全是一種偏見。同性戀並不等於隨便的性關係，這些問題同樣也會發生在異性戀者身上。當同性婚姻合法化，同性伴侶間的關係就跟異性伴侶一樣了，在法律的規定下得約束自己的行為，有了法律的保障，同性伴侶間的關係就能更穩定，也更願意承諾與負責。」",
+            "simplified": "性别平权虽已是世界潮流，但目前的社会尚未取得共识。许多人会把同志跟性病、复杂的性关系等负面印象连在一起。对此，发起人说：「这完全是一种偏见。同性恋并不等于随便的性关系，这些问题同样也会发生在异性恋者身上。当同性婚姻合法化，同性伴侣间的关系就跟异性伴侣一样了，在法律的规定下得约束自己的行为，有了法律的保障，同性伴侣间的关系就能更稳定，也更愿意承诺与负责。」",
+            "pinyin": "xìng bié píng quán suī yǐ shì shì jiè cháo liú ， dàn mù qián de shè huì shàng wèi qǔ dé gòng shí 。 xǔ duō rén huì bǎ tóng zhì gēn xìng bìng 、 fù zá de xìng guān xì děng fù miàn yìn xiàng lián zài yì qǐ 。 duì cǐ ， fā qǐ rén shuō ： 「 zhè wán quán shì yī zhǒng piān jiàn 。 tóng xìng liàn bìng bù děng yú suí biàn de xìng guān xì ， zhè xiē wèn tí tóng yàng yě huì fā shēng zài yì xìng liàn zhě shēn shàng 。 dāng tóng xìng hūn yīn hé fǎ huà ， tóng xìng bàn lǚ jiān de guān xì jiù gēn yì xìng bàn lǚ yī yàng le ， zài fǎ lǜ de guī dìng xià dé yuē shù zì jǐ de xíng wèi ， yǒu le fǎ lǜ de bǎo zhàng ， tóng xìng bàn lǚ jiān de guān xì jiù néng gèng wěn dìng ， yě gèng yuàn yì chéng nuò yǔ fù zé 。 」",
+            "meaningVi": "Dù bình đẳng giới đã trở thành xu hướng trên thế giới, xã hội hiện vẫn chưa đạt đồng thuận. Nhiều người gắn cộng đồng đồng tính với bệnh lây truyền qua đường tình dục và các quan hệ tình dục phức tạp. Người khởi xướng đáp lại: “Đó hoàn toàn là định kiến. Đồng tính không đồng nghĩa với quan hệ tình dục tùy tiện; những vấn đề ấy cũng xảy ra ở người dị tính. Khi hôn nhân cùng giới được hợp pháp hóa, quan hệ của các cặp đôi cùng giới sẽ giống các cặp dị tính: họ phải tuân theo luật, điều chỉnh hành vi; được pháp luật bảo vệ thì quan hệ sẽ ổn định hơn, họ cũng sẵn lòng cam kết và chịu trách nhiệm hơn.”"
+          },
+          {
+            "speaker": "記者",
+            "chinese": "一位參加活動的異性戀者也表示：「我們常說有情人終成眷屬。承認同志婚姻不是世界末日，也不會破壞家庭價值。不僅不影響異性婚姻者的生活及權利，反而還擴大了保障範圍，讓更多人能按照自己所喜愛的方式生活。」",
+            "simplified": "一位参加活动的异性恋者也表示：「我们常说有情人终成眷属。承认同志婚姻不是世界末日，也不会破坏家庭价值。不仅不影响异性婚姻者的生活及权利，反而还扩大了保障范围，让更多人能按照自己所喜爱的方式生活。」",
+            "pinyin": "yī wèi cān jiā huó dòng de yì xìng liàn zhě yě biǎo shì ： 「 wǒ men cháng shuō yǒu qíng rén zhōng chéng juàn shǔ 。 chéng rèn tóng zhì hūn yīn bú shì shì jiè mò rì ， yě bù huì pò huài jiā tíng jià zhí 。 bù jǐn bù yǐng xiǎng yì xìng hūn yīn zhě de shēng huó jí quán lì ， fǎn ér hái kuò dà le bǎo zhàng fàn wéi ， ràng gèng duō rén néng àn zhào zì jǐ suǒ xǐ ài de fāng shì shēng huó 。 」",
+            "meaningVi": "Một người dị tính tham gia nói: “Chúng ta vẫn nói người yêu nhau rồi sẽ nên duyên. Công nhận hôn nhân cùng giới không phải ngày tận thế, cũng không phá hoại giá trị gia đình. Việc ấy không ảnh hưởng đến đời sống và quyền của những người kết hôn khác giới; trái lại, còn mở rộng phạm vi bảo vệ để nhiều người được sống theo cách mình mong muốn.”"
+          },
+          {
+            "speaker": "記者",
+            "chinese": "隨著社會越開放、越多元，遊行者希望政府聽見他們的心聲，讓法案保障更多人。以上是記者在和平廣場前的報導。",
+            "simplified": "随着社会越开放、越多元，游行者希望政府听见他们的心声，让法案保障更多人。以上是记者在和平广场前的报导。",
+            "pinyin": "suí zhù shè huì yuè kāi fàng 、 yuè duō yuán ， yóu xíng zhě xī wàng zhèng fǔ tīng jiàn tā men de xīn shēng ， ràng fǎ àn bǎo zhàng gèng duō rén 。 yǐ shàng shì jì zhě zài hé píng guǎng chǎng qián de bào dǎo 。",
+            "meaningVi": "Khi xã hội ngày càng cởi mở và đa dạng, những người tuần hành mong chính phủ lắng nghe tâm nguyện của họ, để dự luật bảo vệ thêm nhiều người. Trên đây là tường thuật của phóng viên từ Quảng trường Hòa Bình."
+          }
+        ]
+      },
+      {
+        "id": "cc5-v5-l10-reading2",
+        "title": "課文二 · 巴黎的報導",
+        "context": "Bản tin ghi lại ba ý kiến phản đối; đây là lập luận của người được phỏng vấn trong giáo trình.",
+        "audioTrackId": "cc5-textbook-l10-t05",
+        "turns": [
+          {
+            "speaker": "主播",
+            "chinese": "鏡頭轉到國外。美國聯邦最高法院昨天做出判決，宣布同性伴侶結婚的權利應受憲法保障。消息一出，社群媒體紛紛換上彩虹旗慶祝這個歷史性的時刻。儘管如此，社會仍有許多反對的聲音。以下是駐外記者來自法國的報導。",
+            "simplified": "镜头转到国外。美国联邦最高法院昨天做出判决，宣布同性伴侣结婚的权利应受宪法保障。消息一出，社群媒体纷纷换上彩虹旗庆祝这个历史性的时刻。尽管如此，社会仍有许多反对的声音。以下是驻外记者来自法国的报导。",
+            "pinyin": "jìng tóu zhuǎn dào guó wài 。 měi guó lián bāng zuì gāo fǎ yuàn zuó tiān zuò chū pàn jué ， xuān bù tóng xìng bàn lǚ jié hūn de quán lì yīng shòu xiàn fǎ bǎo zhàng 。 xiāo xī yī chū ， shè qún méi tǐ fēn fēn huàn shàng cǎi hóng qí qìng zhù zhè gè lì shǐ xìng de shí kè 。 jǐn guǎn rú cǐ ， shè huì réng yǒu xǔ duō fǎn duì de shēng yīn 。 yǐ xià shì zhù wài jì zhě lái zì fǎ guó de bào dǎo 。",
+            "meaningVi": "Chuyển sang tin quốc tế. Hôm qua, Tòa án Tối cao Liên bang Hoa Kỳ ra phán quyết rằng quyền kết hôn của các cặp cùng giới phải được Hiến pháp bảo vệ. Ngay sau tin này, nhiều người đổi ảnh trên mạng xã hội thành cờ cầu vồng để mừng thời khắc lịch sử. Dù vậy, xã hội vẫn có nhiều tiếng nói phản đối. Sau đây là tin từ phóng viên thường trú tại Pháp."
+          },
+          {
+            "speaker": "記者",
+            "chinese": "當許多人正在歡慶美國聯邦最高法院的判決時，巴黎市中心擠進了數萬民眾反對同性婚姻合法化。我們來聽聽他們怎麼說。",
+            "simplified": "当许多人正在欢庆美国联邦最高法院的判决时，巴黎市中心挤进了数万民众反对同性婚姻合法化。我们来听听他们怎么说。",
+            "pinyin": "dāng xǔ duō rén zhèng zài huān qìng měi guó lián bāng zuì gāo fǎ yuàn de pàn jué shí ， bā lí shì zhōng xīn jǐ jìn le shù wàn mín zhòng fǎn duì tóng xìng hūn yīn hé fǎ huà 。 wǒ men lái tīng tīng tā men zěn me shuō 。",
+            "meaningVi": "Trong lúc nhiều người ăn mừng phán quyết của Tòa án Tối cao Liên bang Hoa Kỳ, hàng chục nghìn người đã tập trung ở trung tâm Paris để phản đối việc hợp pháp hóa hôn nhân cùng giới. Hãy nghe ý kiến của họ."
+          },
+          {
+            "speaker": "民眾一",
+            "chinese": "從生物觀點來看，動物的本能之一就是生存，而繁衍下一代是生存的方式之一。為了繁衍下一代而去尋找異性交配，這是自然法則。同性戀是不自然的，也不是婚姻制度裡預期的對象。因為婚姻的定義中需要一男一女的結合，唯有如此，雙方才能在生理和心理各方面互補，自然地生育下一代。然而，同性伴侶無法擁有自己的孩子，男男、女女的組合違反自然，因此同性戀的婚姻是不可能成立的。",
+            "simplified": "从生物观点来看，动物的本能之一就是生存，而繁衍下一代是生存的方式之一。为了繁衍下一代而去寻找异性交配，这是自然法则。同性恋是不自然的，也不是婚姻制度里预期的对象。因为婚姻的定义中需要一男一女的结合，唯有如此，双方才能在生理和心理各方面互补，自然地生育下一代。然而，同性伴侣无法拥有自己的孩子，男男、女女的组合违反自然，因此同性恋的婚姻是不可能成立的。",
+            "pinyin": "cóng shēng wù guān diǎn lái kàn ， dòng wù de běn néng zhī yī jiù shì shēng cún ， ér fán yǎn xià yí dài shì shēng cún de fāng shì zhī yī 。 wèi le fán yǎn xià yí dài ér qù xún zhǎo yì xìng jiāo pèi ， zhè shì zì rán fǎ zé 。 tóng xìng liàn shì bù zì rán de ， yě bú shì hūn yīn zhì dù lǐ yù qī de duì xiàng 。 yīn wèi hūn yīn de dìng yì zhōng xū yào yī nán yī nǚ de jié hé ， wéi yǒu rú cǐ ， shuāng fāng cái néng zài shēng lǐ hé xīn lǐ gè fāng miàn hù bǔ ， zì rán dì shēng yù xià yí dài 。 rán ér ， tóng xìng bàn lǚ wú fǎ yōng yǒu zì jǐ de hái zi ， nán nán 、 nǚ nǚ de zǔ hé wéi fǎn zì rán ， yīn cǐ tóng xìng liàn de hūn yīn shì bù kě néng chéng lì de 。",
+            "meaningVi": "“Từ góc nhìn sinh học, một bản năng của động vật là sinh tồn, và sinh sản để duy trì thế hệ sau là một cách sinh tồn. Tìm bạn khác giới để giao phối và sinh sản là quy luật tự nhiên. Theo tôi, đồng tính là không tự nhiên và không phải đối tượng mà chế độ hôn nhân vốn dự liệu. Hôn nhân được định nghĩa là sự kết hợp giữa nam và nữ; chỉ như vậy hai bên mới bổ sung cho nhau về sinh lý và tâm lý, rồi sinh con một cách tự nhiên. Các cặp cùng giới không thể có con chung bằng cách ấy, nên tôi cho rằng hôn nhân cùng giới không thể hình thành.”"
+          },
+          {
+            "speaker": "民眾二",
+            "chinese": "人類為了穩定社會結構而發展出婚姻制度，因此，婚姻不只是兩個人的自由選擇，更是與社會全體有關的公共議題。同性婚姻合法化將澈底改變婚姻、家庭的定義。我們需要重新解釋這些傳統詞彙，例如什麼是爸爸、媽媽、夫妻？孩子要怎麼稱呼他們？而什麼又是「家」？同性伴侶無法生兒育女，我們如何靠家庭來維持建構社會的基礎？這是一場社會革命，不能只是以「包容」、「尊重多元」做為口號，而無視婚姻在人類文化上的意義，要求大眾改變婚姻的基本概念。",
+            "simplified": "人类为了稳定社会结构而发展出婚姻制度，因此，婚姻不只是两个人的自由选择，更是与社会全体有关的公共议题。同性婚姻合法化将澈底改变婚姻、家庭的定义。我们需要重新解释这些传统词汇，例如什么是爸爸、妈妈、夫妻？孩子要怎么称呼他们？而什么又是「家」？同性伴侣无法生儿育女，我们如何靠家庭来维持建构社会的基础？这是一场社会革命，不能只是以「包容」、「尊重多元」做为口号，而无视婚姻在人类文化上的意义，要求大众改变婚姻的基本概念。",
+            "pinyin": "rén lèi wèi le wěn dìng shè huì jié gòu ér fā zhǎn chū hūn yīn zhì dù ， yīn cǐ ， hūn yīn bù zhǐ shì liǎng gè rén de zì yóu xuǎn zé ， gèng shì yǔ shè huì quán tǐ yǒu guān de gōng gòng yì tí 。 tóng xìng hūn yīn hé fǎ huà jiāng chè dǐ gǎi biàn hūn yīn 、 jiā tíng de dìng yì 。 wǒ men xū yào chóng xīn jiě shì zhè xiē chuán tǒng cí huì ， lì rú shén me shì bà bà 、 mā mā 、 fū qī ？ hái zi yào zěn me chēng hū tā men ？ ér shén me yòu shì 「 jiā 」 ？ tóng xìng bàn lǚ wú fǎ shēng ér yù nǚ ， wǒ men rú hé kào jiā tíng lái wéi chí jiàn gòu shè huì de jī chǔ ？ zhè shì yī chǎng shè huì gé mìng ， bù néng zhǐ shì yǐ 「 bāo róng 」 、 「 zūn zhòng duō yuán 」 zuò wèi kǒu hào ， ér wú shì hūn yīn zài rén lèi wén huà shàng de yì yì ， yāo qiú dà zhòng gǎi biàn hūn yīn de jī běn gài niàn 。",
+            "meaningVi": "“Con người phát triển chế độ hôn nhân để ổn định cấu trúc xã hội. Vì vậy, hôn nhân không chỉ là lựa chọn tự do của hai người mà còn là vấn đề chung của cả xã hội. Hợp pháp hóa hôn nhân cùng giới sẽ thay đổi hoàn toàn định nghĩa hôn nhân và gia đình. Chúng ta sẽ phải giải thích lại những cách gọi truyền thống như cha, mẹ, vợ, chồng. Con cái sẽ gọi họ thế nào? Thế nào là gia đình? Nếu cặp đôi cùng giới không thể tự sinh con, gia đình sẽ duy trì nền tảng xã hội ra sao? Đây là một cuộc thay đổi xã hội lớn. Không thể chỉ lấy ‘bao dung’ và ‘tôn trọng sự đa dạng’ làm khẩu hiệu rồi bỏ qua ý nghĩa văn hóa của hôn nhân, yêu cầu mọi người thay đổi quan niệm cơ bản về nó.”"
+          },
+          {
+            "speaker": "民眾三",
+            "chinese": "支持者認為每個人對婚姻都有自主權，有選擇伴侶的自由，法律、政府或任何人都不該干涉或破壞。按照這個邏輯，彼此相愛、願意做出承諾、也願意負擔婚姻責任的兩個人，都應該納入法律保障範圍。那麼為什麼同性戀者可以，相愛的父女、母子、第三者卻不可以呢？自由不能拿來當做同性婚姻合法化的原則，因為法律不可能在同一個原則之下，只保障某些人而不保障其他人。一旦讓同性婚姻合法化，無異間接鼓勵其他形式的伴侶關係，讓亂倫、不倫躲在自由的保護傘下有機可乘。",
+            "simplified": "支持者认为每个人对婚姻都有自主权，有选择伴侣的自由，法律、政府或任何人都不该干涉或破坏。按照这个逻辑，彼此相爱、愿意做出承诺、也愿意负担婚姻责任的两个人，都应该纳入法律保障范围。那么为什么同性恋者可以，相爱的父女、母子、第三者却不可以呢？自由不能拿来当做同性婚姻合法化的原则，因为法律不可能在同一个原则之下，只保障某些人而不保障其他人。一旦让同性婚姻合法化，无异间接鼓励其他形式的伴侣关系，让乱伦、不伦躲在自由的保护伞下有机可乘。",
+            "pinyin": "zhī chí zhě rèn wèi měi gè rén duì hūn yīn dōu yǒu zì zhǔ quán ， yǒu xuǎn zé bàn lǚ de zì yóu ， fǎ lǜ 、 zhèng fǔ huò rèn hé rén dōu bù gāi gān shè huò pò huài 。 àn zhào zhè gè luó jí ， bǐ cǐ xiāng ài 、 yuàn yì zuò chū chéng nuò 、 yě yuàn yì fù dān hūn yīn zé rèn de liǎng gè rén ， dōu yīng gāi nà rù fǎ lǜ bǎo zhàng fàn wéi 。 nà me wèi shén me tóng xìng liàn zhě kě yǐ ， xiāng ài de fù nǚ 、 mǔ zi 、 dì sān zhě què bù kě yǐ ne ？ zì yóu bù néng ná lái dāng zuò tóng xìng hūn yīn hé fǎ huà de yuán zé ， yīn wèi fǎ lǜ bù kě néng zài tóng yī gè yuán zé zhī xià ， zhǐ bǎo zhàng mǒu xiē rén ér bù bǎo zhàng qí tā rén 。 yí dàn ràng tóng xìng hūn yīn hé fǎ huà ， wú yì jiān jiē gǔ lì qí tā xíng shì de bàn lǚ guān xì ， ràng luàn lún 、 bù lún duǒ zài zì yóu de bǎo hù sǎn xià yǒu jī kě chéng 。",
+            "meaningVi": "“Người ủng hộ cho rằng ai cũng có quyền tự quyết trong hôn nhân và tự do chọn bạn đời; luật pháp, chính phủ hay bất kỳ ai đều không nên can thiệp. Theo lập luận ấy, hai người yêu nhau, sẵn sàng cam kết và gánh vác trách nhiệm hôn nhân đều phải được pháp luật bảo vệ. Vậy tại sao người đồng tính được phép, còn những trường hợp cha con, mẹ con hay quan hệ với người thứ ba thì không? Theo tôi, không thể lấy tự do làm nguyên tắc hợp pháp hóa hôn nhân cùng giới: luật pháp không thể dựa vào cùng một nguyên tắc mà chỉ bảo vệ một số người. Tôi lo rằng hợp pháp hóa sẽ gián tiếp khuyến khích các kiểu quan hệ khác, tạo cơ hội cho loạn luân và quan hệ ngoài hôn nhân núp dưới danh nghĩa tự do.”"
+          },
+          {
+            "speaker": "記者",
+            "chinese": "當白宮、巴黎鐵塔等世界地標打上彩虹燈光的同時，這些反對的聲音也不容忽視。人類社會將如何發展？有賴各界不斷對話與激辯。記者來自巴黎的報導。鏡頭交還給主播。",
+            "simplified": "当白宫、巴黎铁塔等世界地标打上彩虹灯光的同时，这些反对的声音也不容忽视。人类社会将如何发展？有赖各界不断对话与激辩。记者来自巴黎的报导。镜头交还给主播。",
+            "pinyin": "dāng bái gōng 、 bā lí tiě tǎ děng shì jiè dì biāo dǎ shàng cǎi hóng dēng guāng de tóng shí ， zhè xiē fǎn duì de shēng yīn yě bù róng hū shì 。 rén lèi shè huì jiāng rú hé fā zhǎn ？ yǒu lài gè jiè bù duàn duì huà yǔ jī biàn 。 jì zhě lái zì bā lí de bào dǎo 。 jìng tóu jiāo hái gěi zhǔ bō 。",
+            "meaningVi": "Khi Nhà Trắng và tháp Eiffel cùng nhiều địa danh trên thế giới thắp đèn cầu vồng, cũng không thể bỏ qua những tiếng nói phản đối. Xã hội loài người sẽ phát triển ra sao còn phụ thuộc vào sự đối thoại và tranh luận liên tục giữa các bên. Phóng viên tường thuật từ Paris. Xin chuyển lại trường quay."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc5-v5-l10-check-01",
+        "prompt": "Theo bản tin 1, người tuần hành mong chính phủ làm gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ngừng mọi cuộc đối thoại"
+          },
+          {
+            "id": "b",
+            "text": "Thông qua luật hôn nhân cùng giới"
+          },
+          {
+            "id": "c",
+            "text": "Đóng cửa quảng trường"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Người khởi xướng nói muốn chính phủ sớm thông qua luật.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc5-v5-l10-check-02",
+        "prompt": "Người tham gia ở bản tin 1 nêu khó khăn pháp lý nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Không được ký giấy tờ khi bạn đời nguy kịch"
+          },
+          {
+            "id": "b",
+            "text": "Không thể đến bệnh viện"
+          },
+          {
+            "id": "c",
+            "text": "Không thể xem bản tin"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Bài đọc liệt kê quyền ký văn bản y tế.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc5-v5-l10-check-03",
+        "prompt": "Bản tin 2 có bao nhiêu người dân lần lượt nêu ý kiến?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ba người"
+          },
+          {
+            "id": "b",
+            "text": "Một người"
+          },
+          {
+            "id": "c",
+            "text": "Năm người"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Bài có 民眾一、民眾二、民眾三.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc5-v5-l10-check-04",
+        "prompt": "Trong bản tin 2, người dân thứ hai nhấn vào điều gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Tên các mạng xã hội"
+          },
+          {
+            "id": "b",
+            "text": "Ý nghĩa xã hội và văn hóa của hôn nhân"
+          },
+          {
+            "id": "c",
+            "text": "Giá vé tàu điện"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Người này lo về định nghĩa gia đình và xã hội.",
+        "skill": "Đọc hiểu"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem phát âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc5-v5-l10-v001",
+      "cc5-v5-l10-v002",
+      "cc5-v5-l10-v003",
+      "cc5-v5-l10-v004",
+      "cc5-v5-l10-v005",
+      "cc5-v5-l10-v006",
+      "cc5-v5-l10-v007",
+      "cc5-v5-l10-v008",
+      "cc5-v5-l10-v009",
+      "cc5-v5-l10-v010",
+      "cc5-v5-l10-v011",
+      "cc5-v5-l10-v012",
+      "cc5-v5-l10-v013",
+      "cc5-v5-l10-v014",
+      "cc5-v5-l10-v015",
+      "cc5-v5-l10-v016",
+      "cc5-v5-l10-v017",
+      "cc5-v5-l10-v018",
+      "cc5-v5-l10-v019",
+      "cc5-v5-l10-v020",
+      "cc5-v5-l10-v021",
+      "cc5-v5-l10-v022",
+      "cc5-v5-l10-v023",
+      "cc5-v5-l10-v024",
+      "cc5-v5-l10-v025",
+      "cc5-v5-l10-v026",
+      "cc5-v5-l10-v027",
+      "cc5-v5-l10-v028",
+      "cc5-v5-l10-v029",
+      "cc5-v5-l10-v030",
+      "cc5-v5-l10-v031",
+      "cc5-v5-l10-v032",
+      "cc5-v5-l10-v033",
+      "cc5-v5-l10-v034",
+      "cc5-v5-l10-v035",
+      "cc5-v5-l10-v036",
+      "cc5-v5-l10-v037",
+      "cc5-v5-l10-v038",
+      "cc5-v5-l10-v039",
+      "cc5-v5-l10-v040",
+      "cc5-v5-l10-v041",
+      "cc5-v5-l10-v042",
+      "cc5-v5-l10-v043",
+      "cc5-v5-l10-v044",
+      "cc5-v5-l10-v045",
+      "cc5-v5-l10-v046",
+      "cc5-v5-l10-v047",
+      "cc5-v5-l10-v048",
+      "cc5-v5-l10-v049",
+      "cc5-v5-l10-v050",
+      "cc5-v5-l10-v051",
+      "cc5-v5-l10-v052",
+      "cc5-v5-l10-v053",
+      "cc5-v5-l10-v054",
+      "cc5-v5-l10-v055",
+      "cc5-v5-l10-v056",
+      "cc5-v5-l10-v057",
+      "cc5-v5-l10-v058",
+      "cc5-v5-l10-v059",
+      "cc5-v5-l10-v060",
+      "cc5-v5-l10-v061",
+      "cc5-v5-l10-v062",
+      "cc5-v5-l10-v063",
+      "cc5-v5-l10-v064",
+      "cc5-v5-l10-v065",
+      "cc5-v5-l10-v066",
+      "cc5-v5-l10-v067",
+      "cc5-v5-l10-v068",
+      "cc5-v5-l10-v069",
+      "cc5-v5-l10-v070",
+      "cc5-v5-l10-v071",
+      "cc5-v5-l10-v072",
+      "cc5-v5-l10-v073",
+      "cc5-v5-l10-v074",
+      "cc5-v5-l10-v075",
+      "cc5-v5-l10-v076",
+      "cc5-v5-l10-v077",
+      "cc5-v5-l10-v078",
+      "cc5-v5-l10-v079"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc5-textbook-l10-t02",
+        "label": "Từ vựng bài đọc một"
+      },
+      {
+        "id": "cc5-textbook-l10-t06",
+        "label": "Từ vựng bài đọc hai"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc5-v5-l10-grammar-01",
+      "title": "A 跟 B 站在同一陣線",
+      "structure": "A 跟 B 站在同一陣線",
+      "explanation": "Hai bên cùng đứng về một phía để theo đuổi mục tiêu hoặc quan điểm chung. Đây là cách nói về lập trường, không nhất thiết là đứng cạnh nhau theo nghĩa đen.",
+      "examples": [
+        {
+          "chinese": "在保護環境這件事上，我跟你站在同一陣線。",
+          "simplified": "在保护环境这件事上，我跟你站在同一阵线。",
+          "pinyin": "zài bǎo hù huán jìng zhè jiàn shì shàng ， wǒ gēn nǐ zhàn zài tóng yī zhèn xiàn 。",
+          "meaningVi": "Trong chuyện bảo vệ môi trường, tôi cùng phía với bạn."
+        },
+        {
+          "chinese": "家長和老師應該站在同一陣線，幫助孩子學習。",
+          "simplified": "家长和老师应该站在同一阵线，帮助孩子学习。",
+          "pinyin": "jiā zhǎng hé lǎo shī yīng gāi zhàn zài tóng yī zhèn xiàn ， bāng zhù hái zi xué xí 。",
+          "meaningVi": "Phụ huynh và giáo viên nên cùng phía để giúp trẻ học."
+        }
+      ],
+      "commonMistake": "Đừng dùng khi hai bên đang tranh luận đối lập.",
+      "check": {
+        "id": "cc5-v5-l10-grammar-check-01",
+        "prompt": "「跟你站在同一陣線」 nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Không biết quan điểm của bạn"
+          },
+          {
+            "id": "b",
+            "text": "Có cùng lập trường với bạn"
+          },
+          {
+            "id": "c",
+            "text": "Đứng ở hai nơi"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "站在同一陣線 chỉ sự đồng lòng.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l10-t03"
+    },
+    {
+      "id": "cc5-v5-l10-grammar-02",
+      "title": "A 和 B 沒有兩樣",
+      "structure": "A 和／跟 B 沒有兩樣",
+      "explanation": "So sánh A với B và nhấn rằng hai bên không khác nhau về điểm đang nói. Bối cảnh cần cho người nghe biết đang so sánh khía cạnh nào.",
+      "examples": [
+        {
+          "chinese": "他的生活和我們的生活沒有兩樣。",
+          "simplified": "他的生活和我们的生活没有两样。",
+          "pinyin": "tā de shēng huó hé wǒ men de shēng huó méi yǒu liǎng yàng 。",
+          "meaningVi": "Cuộc sống của anh ấy chẳng khác cuộc sống của chúng ta."
+        },
+        {
+          "chinese": "這個地方跟以前沒有兩樣。",
+          "simplified": "这个地方跟以前没有两样。",
+          "pinyin": "zhè gè dì fāng gēn yǐ qián méi yǒu liǎng yàng 。",
+          "meaningVi": "Nơi này chẳng khác trước đây."
+        }
+      ],
+      "commonMistake": "Không suy ra A và B giống nhau về mọi mặt.",
+      "check": {
+        "id": "cc5-v5-l10-grammar-check-02",
+        "prompt": "「跟以前沒有兩樣」 nhấn điều gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Khác rất nhiều"
+          },
+          {
+            "id": "b",
+            "text": "Không khác trước đây"
+          },
+          {
+            "id": "c",
+            "text": "Hoàn toàn mới"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "沒有兩樣 nghĩa là không khác.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l10-t03"
+    },
+    {
+      "id": "cc5-v5-l10-grammar-03",
+      "title": "A 與 B 無關",
+      "structure": "A 與／跟 B 無關",
+      "explanation": "Bác bỏ mối liên hệ giữa A và B trong phạm vi đang xét. Trong bản tin, người được phỏng vấn nói tình yêu không liên quan đến giới tính.",
+      "examples": [
+        {
+          "chinese": "這個決定與他的年齡無關。",
+          "simplified": "这个决定与他的年龄无关。",
+          "pinyin": "zhè gè jué dìng yǔ tā de nián líng wú guān 。",
+          "meaningVi": "Quyết định này không liên quan đến tuổi của anh ấy."
+        },
+        {
+          "chinese": "成績跟學生的身高無關。",
+          "simplified": "成绩跟学生的身高无关。",
+          "pinyin": "chéng jī gēn xué shēng de shēn gāo wú guān 。",
+          "meaningVi": "Điểm số không liên quan đến chiều cao của học sinh."
+        }
+      ],
+      "commonMistake": "無關 không đồng nghĩa với “không quan trọng”; nó chỉ nói hai việc không liên quan.",
+      "check": {
+        "id": "cc5-v5-l10-grammar-check-03",
+        "prompt": "「與年齡無關」 nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Do tuổi quyết định"
+          },
+          {
+            "id": "b",
+            "text": "Chỉ nói về người già"
+          },
+          {
+            "id": "c",
+            "text": "Không liên quan đến tuổi"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "無關 phủ định mối liên hệ.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l10-t03"
+    },
+    {
+      "id": "cc5-v5-l10-grammar-04",
+      "title": "把 A 跟 B 連在一起",
+      "structure": "把 + A + 跟 + B + 連在一起",
+      "explanation": "Nói người ta liên tưởng hoặc gắn hai sự việc với nhau. Câu này chỉ mô tả cách liên hệ; bản thân mối liên hệ ấy có thể đúng hoặc sai.",
+      "examples": [
+        {
+          "chinese": "別把一個人的錯誤跟整個團體連在一起。",
+          "simplified": "别把一个人的错误跟整个团体连在一起。",
+          "pinyin": "bié bǎ yī gè rén de cuò wù gēn zhěng gè tuán tǐ lián zài yì qǐ 。",
+          "meaningVi": "Đừng gắn lỗi của một người với cả tập thể."
+        },
+        {
+          "chinese": "很多人把這首歌跟童年回憶連在一起。",
+          "simplified": "很多人把这首歌跟童年回忆连在一起。",
+          "pinyin": "hěn duō rén bǎ zhè shǒu gē gēn tóng nián huí yì lián zài yì qǐ 。",
+          "meaningVi": "Nhiều người gắn bài hát này với ký ức tuổi thơ."
+        }
+      ],
+      "commonMistake": "Đừng hiểu 連在一起 ở đây chỉ là buộc hai vật bằng dây.",
+      "check": {
+        "id": "cc5-v5-l10-grammar-check-04",
+        "prompt": "「把歌曲跟童年連在一起」 nói gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Không nhớ tuổi thơ"
+          },
+          {
+            "id": "b",
+            "text": "Liên tưởng bài hát với tuổi thơ"
+          },
+          {
+            "id": "c",
+            "text": "Xóa bài hát"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "連在一起 diễn tả sự liên hệ.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l10-t03"
+    },
+    {
+      "id": "cc5-v5-l10-grammar-05",
+      "title": "以 A 做為口號",
+      "structure": "以 + A + 做為口號",
+      "explanation": "Lấy A làm khẩu hiệu để nêu một mục tiêu hoặc giá trị. Có thể dùng thêm hành động mà người nói muốn thực hiện.",
+      "examples": [
+        {
+          "chinese": "他們以「保護河流」做為口號，發起清掃活動。",
+          "simplified": "他们以「保护河流」做为口号，发起清扫活动。",
+          "pinyin": "tā men yǐ 「 bǎo hù hé liú 」 zuò wèi kǒu hào ， fā qǐ qīng sǎo huó dòng 。",
+          "meaningVi": "Họ lấy “bảo vệ dòng sông” làm khẩu hiệu và phát động dọn dẹp."
+        },
+        {
+          "chinese": "學生以「平等學習」做為口號，提出建議。",
+          "simplified": "学生以「平等学习」做为口号，提出建议。",
+          "pinyin": "xué shēng yǐ 「 píng děng xué xí 」 zuò wèi kǒu hào ， tí chū jiàn yì 。",
+          "meaningVi": "Học sinh lấy “học tập bình đẳng” làm khẩu hiệu và đưa ra đề xuất."
+        }
+      ],
+      "commonMistake": "A cần là cụm có thể dùng làm khẩu hiệu, không phải tên của người phát biểu.",
+      "check": {
+        "id": "cc5-v5-l10-grammar-check-05",
+        "prompt": "「以保護河流做為口號」 nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Bán dòng sông"
+          },
+          {
+            "id": "b",
+            "text": "Quên khẩu hiệu"
+          },
+          {
+            "id": "c",
+            "text": "Lấy bảo vệ sông làm khẩu hiệu"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "以 A 做為 khẩu hiệu nêu thông điệp được chọn.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l10-t07"
+    },
+    {
+      "id": "cc5-v5-l10-grammar-06",
+      "title": "無視 A 的 B",
+      "structure": "無視 + đối tượng／vấn đề",
+      "explanation": "Chỉ việc phớt lờ một điều đáng lẽ cần xem xét. Trong bản tin, nhân vật cho rằng chỉ hô khẩu hiệu sẽ bỏ qua ý nghĩa văn hóa của hôn nhân.",
+      "examples": [
+        {
+          "chinese": "討論計畫時，不能無視居民的意見。",
+          "simplified": "讨论计划时，不能无视居民的意见。",
+          "pinyin": "tǎo lùn jì huà shí ， bù néng wú shì jū mín de yì jiàn 。",
+          "meaningVi": "Khi bàn kế hoạch, không thể phớt lờ ý kiến cư dân."
+        },
+        {
+          "chinese": "我們不該無視問題的嚴重性。",
+          "simplified": "我们不该无视问题的严重性。",
+          "pinyin": "wǒ men bù gāi wú shì wèn tí de yán zhòng xìng 。",
+          "meaningVi": "Chúng ta không nên phớt lờ mức độ nghiêm trọng của vấn đề."
+        }
+      ],
+      "commonMistake": "無視 mang sắc thái phê phán mạnh hơn 沒看到 (không nhìn thấy).",
+      "check": {
+        "id": "cc5-v5-l10-grammar-check-06",
+        "prompt": "「無視居民的意見」 nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Hỏi ý kiến cư dân"
+          },
+          {
+            "id": "b",
+            "text": "Phớt lờ ý kiến cư dân"
+          },
+          {
+            "id": "c",
+            "text": "Lắng nghe cư dân"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "無視 nghĩa là cố tình không xét tới.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l10-t07"
+    },
+    {
+      "id": "cc5-v5-l10-grammar-07",
+      "title": "A 無異於 B",
+      "structure": "A，無異於 B",
+      "explanation": "Nhận định hành động A về bản chất hoặc hậu quả chẳng khác B. Cách nói trang trọng, thường dùng để đánh giá mạnh; khác với 沒有兩樣 thiên về so sánh thông thường.",
+      "examples": [
+        {
+          "chinese": "不聽專家的警告，無異於增加風險。",
+          "simplified": "不听专家的警告，无异于增加风险。",
+          "pinyin": "bù tīng zhuān jiā de jǐng gào ， wú yì yú zēng jiā fēng xiǎn 。",
+          "meaningVi": "Không nghe cảnh báo của chuyên gia chẳng khác gì làm tăng rủi ro."
+        },
+        {
+          "chinese": "只看標題就下結論，無異於忽略文章內容。",
+          "simplified": "只看标题就下结论，无异于忽略文章内容。",
+          "pinyin": "zhǐ kàn biāo tí jiù xià jié lùn ， wú yì yú hū lüè wén zhāng nèi róng 。",
+          "meaningVi": "Chỉ đọc tiêu đề rồi kết luận chẳng khác nào bỏ qua nội dung bài."
+        }
+      ],
+      "commonMistake": "Đừng dùng khi A và B chỉ giống nhau ở một chi tiết nhỏ.",
+      "check": {
+        "id": "cc5-v5-l10-grammar-check-07",
+        "prompt": "「無異於增加風險」 nhấn điều gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Thực chất là làm tăng rủi ro"
+          },
+          {
+            "id": "b",
+            "text": "Giảm rủi ro"
+          },
+          {
+            "id": "c",
+            "text": "Không có liên hệ"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "無異於 nêu sự tương đương trong đánh giá.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l10-t07"
+    },
+    {
+      "id": "cc5-v5-l10-grammar-08",
+      "title": "A 有賴 B",
+      "structure": "A + 有賴 + B",
+      "explanation": "Kết quả A phụ thuộc vào sự đóng góp hoặc điều kiện B. B thường là nỗ lực, sự hợp tác hay hành động của ai đó.",
+      "examples": [
+        {
+          "chinese": "問題能否解決，有賴各方繼續對話。",
+          "simplified": "问题能否解决，有赖各方继续对话。",
+          "pinyin": "wèn tí néng fǒu jiě jué ， yǒu lài gè fāng jì xù duì huà 。",
+          "meaningVi": "Vấn đề có được giải quyết hay không còn nhờ các bên tiếp tục đối thoại."
+        },
+        {
+          "chinese": "孩子學得好不好，有賴平時的練習。",
+          "simplified": "孩子学得好不好，有赖平时的练习。",
+          "pinyin": "hái zi xué dé hǎo bù hǎo ， yǒu lài píng shí de liàn xí 。",
+          "meaningVi": "Trẻ học tốt hay không phụ thuộc vào việc luyện tập hằng ngày."
+        }
+      ],
+      "commonMistake": "Có 有賴 không có nghĩa kết quả A đã xảy ra.",
+      "check": {
+        "id": "cc5-v5-l10-grammar-check-08",
+        "prompt": "「有賴各方對話」 nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Không cần ai tham gia"
+          },
+          {
+            "id": "b",
+            "text": "Phụ thuộc vào đối thoại giữa các bên"
+          },
+          {
+            "id": "c",
+            "text": "Đối thoại đã kết thúc"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "有賴 chỉ điều kiện để đạt kết quả.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l10-t07"
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc5-v5-l10-listening-01",
+      "prompt": "Nghe bản tin 1: hoạt động diễn ra ở đâu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trong tòa án"
+        },
+        {
+          "id": "b",
+          "text": "Trước Quảng trường Hòa Bình"
+        },
+        {
+          "id": "c",
+          "text": "Tại trung tâm Paris"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Lời mở đầu nói 和平廣場前.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l10-t01"
+    },
+    {
+      "id": "cc5-v5-l10-listening-02",
+      "prompt": "Nghe bản tin 1: người tham gia muốn được bảo đảm những quyền nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ quyền đi du lịch"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ quyền mua vé"
+        },
+        {
+          "id": "c",
+          "text": "Tài sản, y tế và thân phận pháp lý"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Lời người tham gia nêu 財產、醫療、身分.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l10-t01"
+    },
+    {
+      "id": "cc5-v5-l10-listening-03",
+      "prompt": "Nghe bản tin 2: phóng viên đang tường thuật từ đâu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Paris"
+        },
+        {
+          "id": "b",
+          "text": "Quảng trường Hòa Bình"
+        },
+        {
+          "id": "c",
+          "text": "Tokyo"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Cuối bản tin nói 記者來自巴黎的報導.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l10-t05"
+    },
+    {
+      "id": "cc5-v5-l10-listening-04",
+      "prompt": "Nghe bản tin 2: người dân thứ ba dựa vào khái niệm nào để lập luận?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Giá điện"
+        },
+        {
+          "id": "b",
+          "text": "Thời tiết"
+        },
+        {
+          "id": "c",
+          "text": "Quyền tự do lựa chọn và nguyên tắc pháp luật"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Người này bàn về 自主權、自由 và 法律原則.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l10-t05"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc5-v5-l10-practice-01",
+      "prompt": "Điền: 在這件事上，我們跟你____。",
+      "options": [
+        {
+          "id": "a",
+          "text": "站在同一陣線"
+        },
+        {
+          "id": "b",
+          "text": "無異於"
+        },
+        {
+          "id": "c",
+          "text": "有賴"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Cùng phía về lập trường.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l10-practice-02",
+      "prompt": "Điền: 這個地方跟以前____。",
+      "options": [
+        {
+          "id": "a",
+          "text": "連在一起"
+        },
+        {
+          "id": "b",
+          "text": "以口號"
+        },
+        {
+          "id": "c",
+          "text": "沒有兩樣"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Không khác trước đây.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l10-practice-03",
+      "prompt": "Điền: 這個決定____他的年齡____。",
+      "options": [
+        {
+          "id": "a",
+          "text": "與；無關"
+        },
+        {
+          "id": "b",
+          "text": "以；做為"
+        },
+        {
+          "id": "c",
+          "text": "把；連在一起"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "與 B 無關 chỉ sự không liên quan.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l10-practice-04",
+      "prompt": "Điền: 別____一個人的錯誤____整個團體____。",
+      "options": [
+        {
+          "id": "a",
+          "text": "與；無關；有賴"
+        },
+        {
+          "id": "b",
+          "text": "以；做為；口號"
+        },
+        {
+          "id": "c",
+          "text": "把；跟；連在一起"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "把 A 跟 B 連在一起 diễn tả sự gắn hai việc.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l10-practice-05",
+      "prompt": "Điền: 他們____「保護河流」____口號。",
+      "options": [
+        {
+          "id": "a",
+          "text": "把；無視"
+        },
+        {
+          "id": "b",
+          "text": "與；有賴"
+        },
+        {
+          "id": "c",
+          "text": "以；做為"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "以 A 做為口號 là lấy A làm khẩu hiệu.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l10-practice-06",
+      "prompt": "Điền: 討論計畫時，不能____居民的意見。",
+      "options": [
+        {
+          "id": "a",
+          "text": "有賴"
+        },
+        {
+          "id": "b",
+          "text": "相愛"
+        },
+        {
+          "id": "c",
+          "text": "無視"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "無視 là phớt lờ.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l10-practice-07",
+      "prompt": "Điền: 不聽專家的警告，____增加風險。",
+      "options": [
+        {
+          "id": "a",
+          "text": "無異於"
+        },
+        {
+          "id": "b",
+          "text": "站在同一陣線"
+        },
+        {
+          "id": "c",
+          "text": "以口號"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "無異於 nhấn sự tương đương về hậu quả.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l10-practice-08",
+      "prompt": "Điền: 問題能否解決，____各方繼續對話。",
+      "options": [
+        {
+          "id": "a",
+          "text": "打破"
+        },
+        {
+          "id": "b",
+          "text": "有賴"
+        },
+        {
+          "id": "c",
+          "text": "無視"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "有賴 chỉ điều kiện để đạt kết quả.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc5-v5-l10-assessment-01",
+      "prompt": "「平權」 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thời tiết"
+        },
+        {
+          "id": "b",
+          "text": "Quyền bình đẳng"
+        },
+        {
+          "id": "c",
+          "text": "Mức thuế"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "平權 chỉ quyền bình đẳng.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc5-v5-l10-assessment-02",
+      "prompt": "Bản tin 1 có lập trường nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ủng hộ hợp pháp hóa hôn nhân cùng giới"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ bàn về du lịch"
+        },
+        {
+          "id": "c",
+          "text": "Phản đối mọi thay đổi pháp luật"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bản tin 1 ghi lại hoạt động vận động hợp pháp hóa.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l10-assessment-03",
+      "prompt": "「與性別無關」 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Do giới tính quyết định"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ nói về tuổi tác"
+        },
+        {
+          "id": "c",
+          "text": "Không liên quan đến giới tính"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "無關 phủ định mối liên hệ.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l10-assessment-04",
+      "prompt": "Người tham gia bản tin 1 nhắc vấn đề nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Quyền pháp lý về tài sản và y tế"
+        },
+        {
+          "id": "b",
+          "text": "Học phí đại học"
+        },
+        {
+          "id": "c",
+          "text": "Lịch bay quốc tế"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Lời phỏng vấn nhắc 財產、醫療、身分.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l10-assessment-05",
+      "prompt": "「把 A 跟 B 連在一起」 diễn tả gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tách A khỏi B"
+        },
+        {
+          "id": "b",
+          "text": "So sánh giá của A và B"
+        },
+        {
+          "id": "c",
+          "text": "Gắn hoặc liên tưởng A với B"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "連在一起 là kết nối trong cách nghĩ.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l10-assessment-06",
+      "prompt": "Bản tin 2 ghi lại ý kiến của mấy người dân?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bốn người"
+        },
+        {
+          "id": "b",
+          "text": "Ba người"
+        },
+        {
+          "id": "c",
+          "text": "Hai người"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Các nhãn 民眾一、二、三 xuất hiện trong bài.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l10-assessment-07",
+      "prompt": "Người dân thứ nhất trong bản tin 2 viện dẫn điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Quan điểm về sinh sản và quy luật tự nhiên"
+        },
+        {
+          "id": "b",
+          "text": "Giá thuê nhà"
+        },
+        {
+          "id": "c",
+          "text": "Quy định giao thông"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Nhân vật nhắc 繁衍下一代 và 自然法則.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l10-assessment-08",
+      "prompt": "「以 A 做為口號」 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bỏ qua A"
+        },
+        {
+          "id": "b",
+          "text": "Từ chối A"
+        },
+        {
+          "id": "c",
+          "text": "Lấy A làm khẩu hiệu"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "做為口號 nêu thông điệp.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l10-assessment-09",
+      "prompt": "「無異於」 gần nghĩa với cách nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hoàn toàn ngược lại"
+        },
+        {
+          "id": "b",
+          "text": "Đã kết thúc"
+        },
+        {
+          "id": "c",
+          "text": "Chẳng khác nào"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "無異於 nêu sự tương đương.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l10-assessment-10",
+      "prompt": "Cuối bản tin 2, phóng viên nói điều gì cần tiếp tục?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đối thoại và tranh luận giữa các bên"
+        },
+        {
+          "id": "b",
+          "text": "Đóng cửa báo chí"
+        },
+        {
+          "id": "c",
+          "text": "Tránh thảo luận"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Cuối bài nhắc 有賴各界不斷對話與激辯.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "writingTask": {
+    "id": "cc5-v5-l10-writing",
+    "title": "Phân biệt ý kiến và dẫn chứng",
+    "prompt": "Viết một đoạn tiếng Hoa tóm tắt lập trường của hai người được phỏng vấn, rồi nêu một câu hỏi bạn muốn đặt ra cho cả hai.",
+    "sampleTraditional": "第一位受訪者認為法律應保障伴侶的權益；另一位則擔心婚姻制度的定義會改變。我想問：雙方要如何繼續對話？",
+    "sampleSimplified": "第一位受访者认为法律应保障伴侣的权益；另一位则担心婚姻制度的定义会改变。我想问：双方要如何继续对话？"
+  }
+}

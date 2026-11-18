@@ -1967,9 +1967,17 @@
       "privatePath": "textbook/10-01.mp3",
       "bytes": 3963405,
       "sha256": "06c7b3c3a2cba907a4f9cce59ac510b8988bb5e2fffb1e37dcf5f55f46188460",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        238
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 238,
+        "bookPage": 212,
+        "labelVi": "Âm thanh kèm trang 212",
+        "referenceCode": "10-01"
+      },
+      "publicPath": "/academy/cc5/audio/cc5-textbook-l10-t01.mp3"
     },
     {
       "id": "cc5-textbook-l10-t02",
@@ -1982,9 +1990,17 @@
       "privatePath": "textbook/10-02.mp3",
       "bytes": 2281955,
       "sha256": "634ec7311b8caf13e55155d2c8bd46385285ebb1223e37f57c934e4e8a8d1a4d",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        239
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 239,
+        "bookPage": 213,
+        "labelVi": "Âm thanh kèm trang 213",
+        "referenceCode": "10-02"
+      },
+      "publicPath": "/academy/cc5/audio/cc5-textbook-l10-t02.mp3"
     },
     {
       "id": "cc5-textbook-l10-t03",
@@ -2041,9 +2057,17 @@
       "privatePath": "textbook/10-05.mp3",
       "bytes": 3688387,
       "sha256": "b3e9400ccca92e0d736ab23d6c94a3d1f91e6252f860a2d500680ba11653d45c",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        246
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 246,
+        "bookPage": 220,
+        "labelVi": "Âm thanh kèm trang 220",
+        "referenceCode": "10-05"
+      },
+      "publicPath": "/academy/cc5/audio/cc5-textbook-l10-t05.mp3"
     },
     {
       "id": "cc5-textbook-l10-t06",
@@ -2078,9 +2102,17 @@
       "privatePath": "textbook/10-07.mp3",
       "bytes": 1611966,
       "sha256": "b3a7d0478c348b8397c5c4d8f91fa123dfd69e32c3b8c09e902164e2ada3111a",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        249
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 249,
+        "bookPage": 223,
+        "labelVi": "Âm thanh kèm trang 223",
+        "referenceCode": "10-07"
+      },
+      "publicPath": "/academy/cc5/audio/cc5-textbook-l10-t07.mp3"
     },
     {
       "id": "cc5-workbook-l10-t01",

@@ -7,6 +7,7 @@ import lesson06Source from "../data/academy/cc5-lesson06-vocabulary.json" with {
 import lesson07Source from "../data/academy/cc5-lesson07-vocabulary.json" with { type: "json" };
 import lesson08Source from "../data/academy/cc5-lesson08-vocabulary.json" with { type: "json" };
 import lesson09Source from "../data/academy/cc5-lesson09-vocabulary.json" with { type: "json" };
+import lesson10Source from "../data/academy/cc5-lesson10-vocabulary.json" with { type: "json" };
 import { cc1Lesson01Words } from "./cc1-lesson01-vocabulary.ts";
 import { cc1CourseVocabularySets } from "./cc1-course-vocabulary.ts";
 import { cc2VocabularySets } from "./cc2-course-vocabulary.ts";
@@ -207,6 +208,27 @@ export const cc5Lesson09Words: VocabularyWord[] = lesson09Source.records.map((re
   translation: record.exampleVi,
 });
 
+const knownWordsForLesson10 = [...knownWordsForLesson09, ...cc5Lesson09Words];
+export const cc5Lesson10Words: VocabularyWord[] = lesson10Source.records.map((record) => knownWordsForLesson10.find((word) =>
+  word.traditional === record.traditional && normalized(word.pinyin) === normalized(record.pinyin) &&
+  (word.wordClass === record.wordClass || word.meaning === record.meaningVi),
+) ?? {
+  id: record.id,
+  source: "textbook",
+  sourceRecordId: record.id,
+  sourceLabel: "Giáo trình tiếng Hoa đương đại · Tập 5 · Bài 10",
+  hanzi: record.traditional,
+  traditional: record.traditional,
+  simplified: record.simplified,
+  pinyin: record.pinyin,
+  meaning: record.meaningVi,
+  wordClass: record.wordClass,
+  example: record.exampleTraditional,
+  exampleTraditional: record.exampleTraditional,
+  exampleSimplified: record.exampleSimplified,
+  translation: record.exampleVi,
+});
+
 export const cc5VocabularySets: VocabularySet[] = [{
   id: source.lessonId,
   title: "Bài 01 · 言論自由的界線",
@@ -252,4 +274,9 @@ export const cc5VocabularySets: VocabularySet[] = [{
   title: "Bài 09 · 有核到底可不可？",
   subtitle: "Có nên dùng điện hạt nhân?",
   words: cc5Lesson09Words,
+}, {
+  id: lesson10Source.lessonId,
+  title: "Bài 10 · 同性婚姻合法化",
+  subtitle: "Hợp pháp hóa hôn nhân cùng giới",
+  words: cc5Lesson10Words,
 }];

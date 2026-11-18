@@ -1593,9 +1593,16 @@
       "privatePath": "textbook/08-04.mp3",
       "bytes": 1286794,
       "sha256": "3f64a35dfe0b45c20e05e7a3f4171e29fcc3b4a34f63d2b437d290923b364b6e",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        193
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 193,
+        "bookPage": 167,
+        "labelVi": "Âm thanh kèm trang 167",
+        "referenceCode": "08-04"
+      }
     },
     {
       "id": "cc5-textbook-l08-t05",
@@ -1652,9 +1659,16 @@
       "privatePath": "textbook/08-07.mp3",
       "bytes": 2529805,
       "sha256": "37f79d2f9efdc14dfc777a9d17e3b6bd5855a15f1ef5ce1724380fdf94a6365d",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        201
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 201,
+        "bookPage": 175,
+        "labelVi": "Âm thanh kèm trang 175",
+        "referenceCode": "08-07"
+      }
     },
     {
       "id": "cc5-textbook-l08-t08",

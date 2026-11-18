@@ -1,0 +1,1036 @@
+{
+  "contentVersion": 2,
+  "id": "cc5-v5-l08",
+  "title": "左右為難的難民問題",
+  "titleVi": "Bài toán người tị nạn: khó xử cả hai phía",
+  "description": "Đọc hai lập luận về trách nhiệm với người tị nạn, an ninh và hợp tác quốc tế.",
+  "objectives": [
+    "Tóm tắt được luận điểm của hai bài đọc về tiếp nhận người tị nạn.",
+    "Dùng sáu mẫu câu để dẫn số liệu, nêu ưu tiên và mô tả mối liên hệ.",
+    "Phân biệt số liệu lịch sử và quan điểm của tác giả."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Cùng một cuộc khủng hoảng, hai bài đọc đặt trọng tâm khác nhau. Hãy chú ý nguồn và thời điểm của số liệu trước khi đánh giá lập luận.",
+    "sections": [
+      {
+        "id": "cc5-v5-l08-section-01",
+        "title": "Chia sẻ trách nhiệm",
+        "body": "Bài 1 xem hợp tác và đào tạo nghề là cách giúp người tị nạn xây dựng cuộc sống mới.",
+        "chinese": "各國分擔責任，化危機為轉機。",
+        "simplified": "各国分担责任，化危机为转机。",
+        "pinyin": "gè guó fēn dān zé rèn ， huà wēi jī wèi zhuǎn jī 。",
+        "meaningVi": "Các nước chia sẻ trách nhiệm, biến khủng hoảng thành cơ hội xoay chuyển."
+      },
+      {
+        "id": "cc5-v5-l08-section-02",
+        "title": "An ninh và năng lực tiếp nhận",
+        "body": "Bài 2 nêu gánh nặng ngân sách, lo ngại an ninh và việc cần giải quyết gốc rễ là chiến tranh.",
+        "chinese": "難民議題與戰爭息息相關。",
+        "simplified": "难民议题与战争息息相关。",
+        "pinyin": "nán mín yì tí yǔ zhàn zhēng xī xī xiāng guān 。",
+        "meaningVi": "Vấn đề người tị nạn gắn liền với chiến tranh."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc5-v5-l08-reading1",
+        "title": "課文一 · 各國分擔責任，化危機為轉機",
+        "context": "Tác giả kêu gọi hợp tác quốc tế và hỗ trợ người tị nạn hòa nhập.",
+        "audioTrackId": "cc5-textbook-l08-t02",
+        "turns": [
+          {
+            "speaker": "Tác giả",
+            "chinese": "海面上，難以數計的屍體讓人怵目驚心。因為宗教或戰爭的原因，幾百萬難民冒著生命危險，離鄉背井、飄洋過海，只是為了能到一個安全的地方好好活著。根據聯合國的統計，至2015年底止，全世界有六千多萬難民申請庇護，人數創下歷史新高，人權觀察組織就表示：「全球正面臨一個歷史性的難民危機，目前正是需要各國團結的時候。」2016年9月，聯合國在紐約召開了史上第一次難民高峰會，一百九十三國領袖和代表承諾將保護難民人權、協助難民就業，並消除國人仇外的心理。就如美國前總統歐巴馬在會議中所言：「難民本身不是威脅，而是戰爭及恐怖主義的受害者。」人道與自由向來是西方國家的重要價值，難民問題並非單一國家的責任，只有透過國際社會共同合作與分擔才能解決。人道危機正是各國合作的轉機，仇恨與排外只會使難民更加難以融入社會，帶來更大的傷害。短時間收容難民或許會對收容國的財政造成負擔，但從長期來看，只要提供語言與職業訓練，就能使他們自食其力。越早讓難民就業，他們就能越早融入社會。研究指出，貧窮的新移民都想為了安定的生活而努力工作。在歐洲人口老化與勞動力不足的情況下，這正是把難民危機轉化為生產力的大好機會。他們不但能為歐洲各國停滯不前的經濟帶來好處，也對國家稅收有所貢獻。",
+            "simplified": "海面上，难以数计的尸体让人怵目惊心。因为宗教或战争的原因，几百万难民冒着生命危险，离乡背井、飘洋过海，只是为了能到一个安全的地方好好活着。根据联合国的统计，至2015年底止，全世界有六千多万难民申请庇护，人数创下历史新高，人权观察组织就表示：「全球正面临一个历史性的难民危机，目前正是需要各国团结的时候。」2016年9月，联合国在纽约召开了史上第一次难民高峰会，一百九十三国领袖和代表承诺将保护难民人权、协助难民就业，并消除国人仇外的心理。就如美国前总统欧巴马在会议中所言：「难民本身不是威胁，而是战争及恐怖主义的受害者。」人道与自由向来是西方国家的重要价值，难民问题并非单一国家的责任，只有透过国际社会共同合作与分担才能解决。人道危机正是各国合作的转机，仇恨与排外只会使难民更加难以融入社会，带来更大的伤害。短时间收容难民或许会对收容国的财政造成负担，但从长期来看，只要提供语言与职业训练，就能使他们自食其力。越早让难民就业，他们就能越早融入社会。研究指出，贫穷的新移民都想为了安定的生活而努力工作。在欧洲人口老化与劳动力不足的情况下，这正是把难民危机转化为生产力的大好机会。他们不但能为欧洲各国停滞不前的经济带来好处，也对国家税收有所贡献。",
+            "pinyin": "hǎi miàn shàng ， nán yǐ shù jì de shī tǐ ràng rén chù mù jīng xīn 。 yīn wèi zōng jiào huò zhàn zhēng de yuán yīn ， jǐ bǎi wàn nán mín mào zhù shēng mìng wēi xiǎn ， lí xiāng bèi jǐng 、 piāo yáng guò hǎi ， zhǐ shì wèi le néng dào yī gè ān quán de dì fāng hǎo hǎo huó zhù 。 gēn jù lián hé guó de tǒng jì ， zhì 2 0 1 5 nián dǐ zhǐ ， quán shì jiè yǒu liù qiān duō wàn nán mín shēn qǐng bì hù ， rén shù chuàng xià lì shǐ xīn gāo ， rén quán guān chá zǔ zhī jiù biǎo shì ： 「 quán qiú zhèng miàn lín yī gè lì shǐ xìng de nán mín wēi jī ， mù qián zhèng shì xū yào gè guó tuán jié de shí hòu 。 」 2 0 1 6 nián 9 yuè ， lián hé guó zài niǔ yuē zhào kāi le shǐ shàng dì yī cì nán mín gāo fēng huì ， yì bǎi jiǔ shí sān guó lǐng xiù hé dài biǎo chéng nuò jiāng bǎo hù nán mín rén quán 、 xié zhù nán mín jiù yè ， bìng xiāo chú guó rén chóu wài de xīn lǐ 。 jiù rú měi guó qián zǒng tǒng ōu bā mǎ zài huì yì zhōng suǒ yán ： 「 nán mín běn shēn bú shì wēi xié ， ér shì zhàn zhēng jí kǒng bù zhǔ yì de shòu hài zhě 。 」 rén dào yǔ zì yóu xiàng lái shì xī fāng guó jiā de zhòng yào jià zhí ， nán mín wèn tí bìng fēi dān yī guó jiā de zé rèn ， zhǐ yǒu tòu guò guó jì shè huì gòng tóng hé zuò yǔ fēn dān cái néng jiě jué 。 rén dào wēi jī zhèng shì gè guó hé zuò de zhuǎn jī ， chóu hèn yǔ pái wài zhǐ huì shǐ nán mín gèng jiā nán yǐ róng rù shè huì ， dài lái gèng dà de shāng hài 。 duǎn shí jiān shōu róng nán mín huò xǔ huì duì shōu róng guó de cái zhèng zào chéng fù dān ， dàn cóng zhǎng qī lái kàn ， zhǐ yào tí gōng yǔ yán yǔ zhí yè xùn liàn ， jiù néng shǐ tā men zì shí qí lì 。 yuè zǎo ràng nán mín jiù yè ， tā men jiù néng yuè zǎo róng rù shè huì 。 yán jiū zhǐ chū ， pín qióng de xīn yí mín dōu xiǎng wèi le ān dìng de shēng huó ér nǔ lì gōng zuò 。 zài ōu zhōu rén kǒu lǎo huà yǔ láo dòng lì bù zú de qíng kuàng xià ， zhè zhèng shì bǎ nán mín wēi jī zhuǎn huà wèi shēng chǎn lì de dà hǎo jī huì 。 tā men bù dàn néng wèi ōu zhōu gè guó tíng zhì bù qián de jīng jì dài lái hǎo chù ， yě duì guó jiā shuì shōu yǒu suǒ gòng xiàn 。",
+            "meaningVi": "Trên mặt biển, số lượng thi thể không thể đếm được khiến người ta cảm thấy kinh hoàng. Do tôn giáo hoặc chiến tranh, hàng triệu người tị nạn đã phải rời quê hương, chịu rủi ro tính mạng để vượt biển, chỉ mong được đến một nơi an toàn để sống một cuộc sống bình yên. Theo thống kê của Liên Hợp Quốc, đến cuối năm 2015, toàn cầu có hơn sáu mươi triệu người tị nạn xin được bảo hộ, số lượng đạt mức cao kỷ lục. Tổ chức Theo dõi Nhân quyền đã nhấn mạnh: \"Thế giới đang đối mặt với một cuộc khủng hoảng tị nạn lịch sử, và lúc này chính là lúc các nước cần đoàn kết cùng nhau.\" Tháng 9 năm 2016, Liên Hợp Quốc đã tổ chức hội nghị thượng đỉnh đầu tiên trong lịch sử về người tị nạn tại New York, với lãnh đạo và đại diện của 193 nước tham gia, cam kết bảo vệ quyền con người của người tị nạn, hỗ trợ việc làm cho họ và xóa bỏ tâm lý thù địch đối với người nước ngoài. Như cựu Tổng thống Mỹ Barack Obama đã nói tại hội nghị: \"Người tị nạn không phải là mối đe dọa, mà là nạn nhân của chiến tranh và chủ nghĩa khủng bố.\" Giá trị nhân đạo và tự do luôn là điều cốt lõi ở các nước phương Tây. Vấn đề người tị nạn không phải là trách nhiệm của một quốc gia đơn lẻ, mà cần được giải quyết thông qua sự hợp tác và chia sẻ của cộng đồng quốc tế. Cuộc khủng hoảng nhân đạo cũng là cơ hội để các nước cùng hợp tác. Sự thù hận và thái độ kỳ thị sẽ khiến người tị nạn khó hòa nhập hơn, gây ra những tổn hại lớn hơn. Dù trong thời gian ngắn việc tiếp nhận người tị nạn có thể gây áp lực lên ngân sách quốc gia, nhưng nhìn dài hạn, chỉ cần cung cấp đào tạo ngôn ngữ và nghề nghiệp, họ có thể tự kiếm sống. Càng sớm tạo việc làm cho người tị nạn, họ càng sớm hòa nhập vào xã hội. Các nghiên cứu cho thấy, những người nhập cư nghèo đều mong muốn làm việc để có được cuộc sống ổn định. Trong bối cảnh châu Âu đang đối mặt với tình trạng dân số già và thiếu hụt lao động, đây chính là cơ hội để biến khủng hoảng người tị nạn thành nguồn lực sản xuất. Họ không chỉ mang lại lợi ích cho nền kinh tế đang trì trệ của các nước châu Âu, mà còn góp phần vào nguồn thu thuế của quốc gia."
+          },
+          {
+            "speaker": "Tác giả",
+            "chinese": "2016年的里約奧運，首度出現由難民組成的代表隊。有位因逃離戰火而斷了一條腿的難民，也為參加殘障奧運的游泳比賽而努力，他說：「我要忘掉過去、重新開始生活，有一天，我要以英雄的身分再回到我的國家。」另一位索馬利亞籍女性難民18歲時逃離戰火，靠著自己的努力取得美國哈佛大學碩士，成為聯合國公共衛生專家之後，回到自己的國家參選總統，希望能為國家創造繁榮和幸福。每個人都是世界的一分子，應該用友善與尊重的態度，不分國籍、種族、膚色與性別，幫助難民早日成為我們的同事和鄰居，重新建立幸福的家庭。希望下一代在讀到這段歷史時，看到的是，我們曾經一起努力扶持那些需要被保護的人們。",
+            "simplified": "2016年的里约奥运，首度出现由难民组成的代表队。有位因逃离战火而断了一条腿的难民，也为参加残障奥运的游泳比赛而努力，他说：「我要忘掉过去、重新开始生活，有一天，我要以英雄的身分再回到我的国家。」另一位索马利亚籍女性难民18岁时逃离战火，靠着自己的努力取得美国哈佛大学硕士，成为联合国公共卫生专家之后，回到自己的国家参选总统，希望能为国家创造繁荣和幸福。每个人都是世界的一分子，应该用友善与尊重的态度，不分国籍、种族、肤色与性别，帮助难民早日成为我们的同事和邻居，重新建立幸福的家庭。希望下一代在读到这段历史时，看到的是，我们曾经一起努力扶持那些需要被保护的人们。",
+            "pinyin": "2 0 1 6 nián de lǐ yuē ào yùn ， shǒu dù chū xiàn yóu nán mín zǔ chéng de dài biǎo duì 。 yǒu wèi yīn táo lí zhàn huǒ ér duàn le yī tiáo tuǐ de nán mín ， yě wèi cān jiā cán zhàng ào yùn de yóu yǒng bǐ sài ér nǔ lì ， tā shuō ： 「 wǒ yào wàng diào guò qù 、 chóng xīn kāi shǐ shēng huó ， yǒu yī tiān ， wǒ yào yǐ yīng xióng de shēn fèn zài huí dào wǒ de guó jiā 。 」 lìng yī wèi suǒ mǎ lì yà jí nǚ xìng nán mín 1 8 suì shí táo lí zhàn huǒ ， kào zhù zì jǐ de nǔ lì qǔ dé měi guó hā fú dà xué shuò shì ， chéng wèi lián hé guó gōng gòng wèi shēng zhuān jiā zhī hòu ， huí dào zì jǐ de guó jiā cān xuǎn zǒng tǒng ， xī wàng néng wèi guó jiā chuàng zào fán róng hé xìng fú 。 měi gè rén dōu shì shì jiè de yī fèn zǐ ， yīng gāi yòng yǒu shàn yǔ zūn zhòng de tài dù ， bù fēn guó jí 、 zhǒng zú 、 fū sè yǔ xìng bié ， bāng zhù nán mín zǎo rì chéng wèi wǒ men de tóng shì hé lín jū ， chóng xīn jiàn lì xìng fú de jiā tíng 。 xī wàng xià yí dài zài dú dào zhè duàn lì shǐ shí ， kàn dào de shì ， wǒ men céng jīng yì qǐ nǔ lì fú chí nà xiē xū yào bèi bǎo hù de rén men 。",
+            "meaningVi": "Tại Thế vận hội Rio năm 2016, lần đầu tiên xuất hiện đội tuyển gồm những người tị nạn. Một người tị nạn mất một chân do trốn khỏi chiến tranh, đã nỗ lực tham gia môn bơi tại Thế vận hội dành cho người khuyết tật, và nói: \"Tôi muốn quên quá khứ, bắt đầu lại cuộc sống, và một ngày nào đó, tôi sẽ trở lại quê hương mình với tư cách là một anh hùng.\" Một nữ người tị nạn Somalia, khi 18 tuổi đã phải rời khỏi chiến tranh, đã đạt được bằng thạc sĩ tại Đại học Harvard, Mỹ, sau đó trở thành chuyên gia về y tế công cộng của Liên Hợp Quốc, rồi trở về quê hương mình để ra tranh cử tổng thống, mong muốn mang lại sự phát triển và hạnh phúc cho đất nước. Mỗi người đều là một phần của thế giới, nên chúng ta nên đối xử với người tị nạn bằng sự thân thiện và tôn trọng, không phân biệt quốc tịch, sắc tộc, màu da hay giới tính, để giúp họ sớm trở thành đồng nghiệp và người hàng xóm của chúng ta, và tái thiết những gia đình hạnh phúc. Hy vọng thế hệ sau khi đọc lại lịch sử này sẽ thấy rằng, chúng ta từng cùng nhau nỗ lực hỗ trợ những người cần được bảo vệ."
+          }
+        ]
+      },
+      {
+        "id": "cc5-v5-l08-reading2",
+        "title": "課文二 · 國家安全應優先於人道",
+        "context": "Tác giả nhấn chi phí, an ninh và sự cần thiết phải giải quyết nguyên nhân chiến tranh.",
+        "audioTrackId": "cc5-textbook-l08-t06",
+        "turns": [
+          {
+            "speaker": "Tác giả",
+            "chinese": "經濟不景氣，歐洲各國失業率居高不下，許多國家已無力收容難民，因為無論在生活安置、醫療、教育和社會福利各方面，都是一筆非常大的支出，增加政府的財政負擔。許多人擔心會因此導致工資下降，賦稅增加，對當地居民的生活與就業造成壓力。長期下來，難民問題將使社會對立、貧富懸殊的情況更為嚴重。根據歐盟的一份調查統計顯示，難民中約有60%是「經濟難民」，也就是說，大部分的難民並非來自戰爭中的國家，許多人只不過是想移民到歐洲找份工作、追求更好的生活罷了。還有報導指出，有40%的德國經濟學家認為，難民將使國家經濟每況愈下，拖垮歐洲整體競爭力，歐盟整合也將更加困難。2015年就有超過一百萬人在德國申請庇護，沒有任何國家能夠在短時間內收容這麼大量的外來人口。現實世界往往不能只從「人道」的角度來考慮，忽略難民所帶來的問題。例如，由於無法一一過濾難民身分，讓恐怖分子有機可乘，歐洲各國接二連三發生恐怖攻擊，原來繁榮穩定的國家如今連出門都讓人擔心害怕。開放政策使得宗教和文化差異的問題更加嚴重，種族衝突、社會矛盾、犯罪率升高，在在都使人們對政府失去信心。當地居民不但抗議設置難民營，甚至還攻擊難民，雙方的關係越來越緊張。當政府無法保障人民的安全，當人道與國家安全衝突時，關閉邊界是唯一的選擇。",
+            "simplified": "经济不景气，欧洲各国失业率居高不下，许多国家已无力收容难民，因为无论在生活安置、医疗、教育和社会福利各方面，都是一笔非常大的支出，增加政府的财政负担。许多人担心会因此导致工资下降，赋税增加，对当地居民的生活与就业造成压力。长期下来，难民问题将使社会对立、贫富悬殊的情况更为严重。根据欧盟的一份调查统计显示，难民中约有60%是「经济难民」，也就是说，大部分的难民并非来自战争中的国家，许多人只不过是想移民到欧洲找份工作、追求更好的生活罢了。还有报导指出，有40%的德国经济学家认为，难民将使国家经济每况愈下，拖垮欧洲整体竞争力，欧盟整合也将更加困难。2015年就有超过一百万人在德国申请庇护，没有任何国家能够在短时间内收容这么大量的外来人口。现实世界往往不能只从「人道」的角度来考虑，忽略难民所带来的问题。例如，由于无法一一过滤难民身分，让恐怖分子有机可乘，欧洲各国接二连三发生恐怖攻击，原来繁荣稳定的国家如今连出门都让人担心害怕。开放政策使得宗教和文化差异的问题更加严重，种族冲突、社会矛盾、犯罪率升高，在在都使人们对政府失去信心。当地居民不但抗议设置难民营，甚至还攻击难民，双方的关系越来越紧张。当政府无法保障人民的安全，当人道与国家安全冲突时，关闭边界是唯一的选择。",
+            "pinyin": "jīng jì bù jǐng qì ， ōu zhōu gè guó shī yè lǜ jū gāo bù xià ， xǔ duō guó jiā yǐ wú lì shōu róng nán mín ， yīn wèi wú lùn zài shēng huó ān zhì 、 yī liáo 、 jiào yù hé shè huì fú lì gè fāng miàn ， dōu shì yī bǐ fēi cháng dà de zhī chū ， zēng jiā zhèng fǔ de cái zhèng fù dān 。 xǔ duō rén dān xīn huì yīn cǐ dǎo zhì gōng zī xià jiàng ， fù shuì zēng jiā ， duì dāng dì jū mín de shēng huó yǔ jiù yè zào chéng yā lì 。 zhǎng qī xià lái ， nán mín wèn tí jiāng shǐ shè huì duì lì 、 pín fù xuán shū de qíng kuàng gèng wèi yán zhòng 。 gēn jù ōu méng de yī fèn diào chá tǒng jì xiǎn shì ， nán mín zhōng yuē yǒu 6 0 % shì 「 jīng jì nán mín 」 ， yě jiù shì shuō ， dà bù fèn de nán mín bìng fēi lái zì zhàn zhēng zhōng de guó jiā ， xǔ duō rén zhǐ bù guò shì xiǎng yí mín dào ōu zhōu zhǎo fèn gōng zuò 、 zhuī qiú gèng hǎo de shēng huó bà le 。 hái yǒu bào dǎo zhǐ chū ， yǒu 4 0 % de dé guó jīng jì xué jiā rèn wèi ， nán mín jiāng shǐ guó jiā jīng jì měi kuàng yù xià ， tuō kuǎ ōu zhōu zhěng tǐ jìng zhēng lì ， ōu méng zhěng hé yě jiāng gèng jiā kùn nán 。 2 0 1 5 nián jiù yǒu chāo guò yì bǎi wàn rén zài dé guó shēn qǐng bì hù ， méi yǒu rèn hé guó jiā néng gòu zài duǎn shí jiān nèi shōu róng zhè me dà liàng de wài lái rén kǒu 。 xiàn shí shì jiè wǎng wǎng bù néng zhǐ cóng 「 rén dào 」 de jiǎo dù lái kǎo lǜ ， hū lüè nán mín suǒ dài lái de wèn tí 。 lì rú ， yóu yú wú fǎ yī yī guò lǜ nán mín shēn fèn ， ràng kǒng bù fèn zi yǒu jī kě chéng ， ōu zhōu gè guó jiē èr lián sān fā shēng kǒng bù gōng jī ， yuán lái fán róng wěn dìng de guó jiā rú jīn lián chū mén dōu ràng rén dān xīn hài pà 。 kāi fàng zhèng cè shǐ de zōng jiào hé wén huà chà yì de wèn tí gèng jiā yán zhòng ， zhǒng zú chōng tū 、 shè huì máo dùn 、 fàn zuì lǜ shēng gāo ， zài zài dōu shǐ rén men duì zhèng fǔ shī qù xìn xīn 。 dāng dì jū mín bù dàn kàng yì shè zhì nán mín yíng ， shèn zhì hái gōng jī nán mín ， shuāng fāng de guān xì yuè lái yuè jǐn zhāng 。 dāng zhèng fǔ wú fǎ bǎo zhàng rén mín de ān quán ， dāng rén dào yǔ guó jiā ān quán chōng tū shí ， guān bì biān jiè shì wéi yī de xuǎn zé 。",
+            "meaningVi": "Kinh tế suy thoái, tỷ lệ thất nghiệp ở các nước châu Âu vẫn ở mức cao, nhiều quốc gia đã không còn khả năng tiếp nhận người tị nạn vì chi phí trong các lĩnh vực như định cư, y tế, giáo dục và phúc lợi xã hội đều rất lớn, làm tăng gánh nặng tài chính cho chính phủ. Nhiều người lo ngại rằng điều này sẽ dẫn đến việc giảm lương, tăng thuế, gây áp lực lên cuộc sống và việc làm của người dân địa phương. Trong dài hạn, vấn đề người tị nạn sẽ làm trầm trọng thêm sự đối lập trong xã hội và tình trạng chênh lệch giàu nghèo. Theo một khảo sát của Liên minh châu Âu, khoảng 60% người tị nạn là \"người tị nạn kinh tế\", tức là đa số họ không đến từ các nước đang chiến tranh, mà chỉ đơn giản muốn di cư đến châu Âu để tìm việc làm, sống tốt hơn. Một số báo cáo cho biết, 40% các nhà kinh tế tại Đức cho rằng, việc tiếp nhận người tị nạn sẽ làm suy yếu nền kinh tế quốc gia, làm suy giảm sức cạnh tranh tổng thể của châu Âu và khiến quá trình hội nhập của Liên minh châu Âu trở nên khó khăn hơn. Năm 2015, đã có hơn một triệu người xin được bảo hộ tại Đức, và không quốc gia nào có thể tiếp nhận số lượng người nhập cư lớn như vậy trong thời gian ngắn. Thực tế thế giới không thể chỉ dựa vào góc độ nhân đạo mà bỏ qua các vấn đề mà người tị nạn mang lại. Ví dụ, do không thể kiểm tra và lọc danh tính người tị nạn, những kẻ khủng bố có cơ hội lợi dụng, dẫn đến các vụ tấn công khủng bố liên tiếp tại nhiều nước châu Âu. Ở những nước từng phồn thịnh và ổn định, nay người dân lo sợ ngay cả khi ra đường. Chính sách mở cửa đã làm trầm trọng thêm các vấn đề về tôn giáo và văn hóa, dẫn đến xung đột sắc tộc, mâu thuẫn xã hội, tỷ lệ tội phạm tăng cao, khiến người dân mất niềm tin vào chính quyền. Dân địa phương không chỉ phản đối việc xây dựng trại tị nạn, mà thậm chí còn tấn công người tị nạn, khiến mối quan hệ giữa hai bên ngày càng căng thẳng. Khi chính phủ không thể đảm bảo an toàn cho người dân, khi nhân đạo va chạm với an ninh quốc gia, theo tác giả, đóng cửa biên giới là lựa chọn duy nhất."
+          },
+          {
+            "speaker": "Tác giả",
+            "chinese": "再說，由於通往歐洲的路線受到了人口販子的控制，因此開放邊界等於是鼓勵更多難民把生命和大把金錢交託給那些人口販子，助長了人口販運的問題。根據統計，自2000年至2015年，為了前往歐洲，移民與難民已經向人口販子支付了160億歐元。這無疑是與西方向來強調的人道精神互相矛盾。這些問題，使得當時決定收容難民的德國總理梅克爾也不得不承認低估了開放邊界所帶來的傷害，以及難民融入社會的困難。難民議題與戰爭息息相關，唯有世界和平才能根本解決問題。世界各國應討論對策，共同解決難民危機與人口販運，同時努力結束戰爭以減少難民，這才是首要之務。",
+            "simplified": "再说，由于通往欧洲的路线受到了人口贩子的控制，因此开放边界等于是鼓励更多难民把生命和大把金钱交托给那些人口贩子，助长了人口贩运的问题。根据统计，自2000年至2015年，为了前往欧洲，移民与难民已经向人口贩子支付了160亿欧元。这无疑是与西方向来强调的人道精神互相矛盾。这些问题，使得当时决定收容难民的德国总理梅克尔也不得不承认低估了开放边界所带来的伤害，以及难民融入社会的困难。难民议题与战争息息相关，唯有世界和平才能根本解决问题。世界各国应讨论对策，共同解决难民危机与人口贩运，同时努力结束战争以减少难民，这才是首要之务。",
+            "pinyin": "zài shuō ， yóu yú tōng wǎng ōu zhōu de lù xiàn shòu dào le rén kǒu fàn zi de kòng zhì ， yīn cǐ kāi fàng biān jiè děng yú shì gǔ lì gèng duō nán mín bǎ shēng mìng hé dà bǎ jīn qián jiāo tuō gěi nà xiē rén kǒu fàn zi ， zhù zhǎng le rén kǒu fàn yùn de wèn tí 。 gēn jù tǒng jì ， zì 2 0 0 0 nián zhì 2 0 1 5 nián ， wèi le qián wǎng ōu zhōu ， yí mín yǔ nán mín yǐ jīng xiàng rén kǒu fàn zi zhī fù le 1 6 0 yì ōu yuán 。 zhè wú yí shì yǔ xī fāng xiàng lái qiáng diào de rén dào jīng shén hù xiāng máo dùn 。 zhè xiē wèn tí ， shǐ de dāng shí jué dìng shōu róng nán mín de dé guó zǒng lǐ méi kè ěr yě bù dé bù chéng rèn dī gū le kāi fàng biān jiè suǒ dài lái de shāng hài ， yǐ jí nán mín róng rù shè huì de kùn nán 。 nán mín yì tí yǔ zhàn zhēng xī xī xiāng guān ， wéi yǒu shì jiè hé píng cái néng gēn běn jiě jué wèn tí 。 shì jiè gè guó yīng tǎo lùn duì cè ， gòng tóng jiě jué nán mín wēi jī yǔ rén kǒu fàn yùn ， tóng shí nǔ lì jié shù zhàn zhēng yǐ jiǎn shǎo nán mín ， zhè cái shì shǒu yào zhī wù 。",
+            "meaningVi": "Hơn nữa, do những kẻ buôn người kiểm soát các tuyến đường đến châu Âu, việc mở cửa biên giới có nghĩa là đang khuyến khích thêm các nạn nhân di cư phải đặt cả tính mạng lẫn số tiền lớn vào tay những kẻ buôn người, làm gia tăng vấn đề buôn người. Theo thống kê, từ năm 2000 đến 2015, người di cư và người tị nạn đã chi trả cho những kẻ buôn người tổng cộng 16 tỷ euro nhằm di chuyển đến châu Âu. Điều này rõ ràng mâu thuẫn với tinh thần nhân đạo mà phương Tây luôn nhấn mạnh. Những vấn đề này khiến Thủ tướng Đức Angela Merkel, dù đã quyết định tiếp nhận người tị nạn, cũng phải thừa nhận rằng mình đã đánh giá thấp những tổn hại mà việc mở cửa biên giới gây ra, cũng như khó khăn trong việc hòa nhập xã hội của người tị nạn. Vấn đề người tị nạn gắn liền với chiến tranh, và chỉ khi thế giới đạt được hòa bình mới có thể giải quyết cốt lõi vấn đề này. Các nước trên thế giới nên thảo luận và cùng nhau tìm ra giải pháp để giải quyết khủng hoảng người tị nạn và buôn người, đồng thời nỗ lực chấm dứt chiến tranh nhằm giảm số lượng người tị nạn – đó mới là nhiệm vụ hàng đầu."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc5-v5-l08-check-01",
+        "prompt": "Theo bài 1, vấn đề người tị nạn cần được giải quyết bằng gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Sự hợp tác và chia sẻ của nhiều quốc gia"
+          },
+          {
+            "id": "b",
+            "text": "Chỉ một nước tự lo"
+          },
+          {
+            "id": "c",
+            "text": "Không cần chính sách"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Tác giả nêu 各國共同合作與分擔.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc5-v5-l08-check-02",
+        "prompt": "Bài 1 cho rằng đào tạo ngôn ngữ và nghề giúp điều gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Giúp người tị nạn tự kiếm sống và hòa nhập"
+          },
+          {
+            "id": "b",
+            "text": "Làm tăng chiến tranh"
+          },
+          {
+            "id": "c",
+            "text": "Thay thế tất cả trường học"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Đoạn giữa nêu 語言與職業訓練.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc5-v5-l08-check-03",
+        "prompt": "Bài 2 nêu lo ngại tài chính nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Không cần chi cho y tế"
+          },
+          {
+            "id": "b",
+            "text": "Chi phí tiếp nhận làm tăng gánh nặng ngân sách"
+          },
+          {
+            "id": "c",
+            "text": "Thuế chắc chắn giảm"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Tác giả nhắc chi phí an cư, y tế, giáo dục và phúc lợi.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc5-v5-l08-check-04",
+        "prompt": "Bài 2 nêu rủi ro nào khi không thể kiểm tra từng người?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Mọi người đều được miễn thuế"
+          },
+          {
+            "id": "b",
+            "text": "Không còn biên giới"
+          },
+          {
+            "id": "c",
+            "text": "Kẻ khủng bố có thể lợi dụng"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Bài đọc dùng 有機可乘 để nói nguy cơ bị lợi dụng.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc5-v5-l08-check-05",
+        "prompt": "Hai bài đều liên hệ vấn đề người tị nạn với điều gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Thời tiết lạnh"
+          },
+          {
+            "id": "b",
+            "text": "Giá sách"
+          },
+          {
+            "id": "c",
+            "text": "Chiến tranh"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Bài 1 nói người tị nạn trốn chiến tranh; bài 2 nói cần kết thúc chiến tranh.",
+        "skill": "Đọc hiểu"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem phát âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc5-v5-l08-v001",
+      "cc5-v5-l08-v002",
+      "cc5-v5-l08-v003",
+      "cc5-v5-l08-v004",
+      "cc5-v5-l08-v005",
+      "cc5-v5-l08-v006",
+      "cc5-v5-l08-v007",
+      "cc5-v5-l08-v008",
+      "cc5-v5-l08-v009",
+      "cc5-v5-l08-v010",
+      "cc5-v5-l08-v011",
+      "cc5-v5-l08-v012",
+      "cc5-v5-l08-v013",
+      "cc5-v5-l08-v014",
+      "cc5-v5-l08-v015",
+      "cc5-v5-l08-v016",
+      "cc5-v5-l08-v017",
+      "cc5-v5-l08-v018",
+      "cc5-v5-l08-v019",
+      "cc5-v5-l08-v020",
+      "cc5-v5-l08-v021",
+      "cc5-v5-l08-v022",
+      "cc5-v5-l08-v023",
+      "cc5-v5-l08-v024",
+      "cc5-v5-l08-v025",
+      "cc5-v5-l08-v026",
+      "cc5-v5-l08-v027",
+      "cc5-v5-l08-v028",
+      "cc5-v5-l08-v029",
+      "cc5-v5-l08-v030",
+      "cc5-v5-l08-v031",
+      "cc5-v5-l08-v032",
+      "cc5-v5-l08-v033",
+      "cc5-v5-l08-v034",
+      "cc5-v5-l08-v035",
+      "cc5-v5-l08-v036",
+      "cc5-v5-l08-v037",
+      "cc5-v5-l08-v038",
+      "cc5-v5-l08-v039",
+      "cc5-v5-l08-v040",
+      "cc5-v5-l08-v041",
+      "cc5-v5-l08-v042",
+      "cc5-v5-l08-v043",
+      "cc5-v5-l08-v044",
+      "cc5-v5-l08-v045",
+      "cc5-v5-l08-v046",
+      "cc5-v5-l08-v047",
+      "cc5-v5-l08-v048",
+      "cc5-v5-l08-v049",
+      "cc5-v5-l08-v050",
+      "cc5-v5-l08-v051",
+      "cc5-v5-l08-v052",
+      "cc5-v5-l08-v053",
+      "cc5-v5-l08-v054",
+      "cc5-v5-l08-v055",
+      "cc5-v5-l08-v056",
+      "cc5-v5-l08-v057",
+      "cc5-v5-l08-v058",
+      "cc5-v5-l08-v059",
+      "cc5-v5-l08-v060",
+      "cc5-v5-l08-v061",
+      "cc5-v5-l08-v062",
+      "cc5-v5-l08-v063",
+      "cc5-v5-l08-v064",
+      "cc5-v5-l08-v065",
+      "cc5-v5-l08-v066",
+      "cc5-v5-l08-v067",
+      "cc5-v5-l08-v068",
+      "cc5-v5-l08-v069",
+      "cc5-v5-l08-v070",
+      "cc5-v5-l08-v071",
+      "cc5-v5-l08-v072",
+      "cc5-v5-l08-v073",
+      "cc5-v5-l08-v074",
+      "cc5-v5-l08-v075",
+      "cc5-v5-l08-v076",
+      "cc5-v5-l08-v077",
+      "cc5-v5-l08-v078",
+      "cc5-v5-l08-v079",
+      "cc5-v5-l08-v080",
+      "cc5-v5-l08-v081",
+      "cc5-v5-l08-v082",
+      "cc5-v5-l08-v083",
+      "cc5-v5-l08-v084",
+      "cc5-v5-l08-v085",
+      "cc5-v5-l08-v086",
+      "cc5-v5-l08-v087",
+      "cc5-v5-l08-v088",
+      "cc5-v5-l08-v089",
+      "cc5-v5-l08-v090",
+      "cc5-v5-l08-v091",
+      "cc5-v5-l08-v092",
+      "cc5-v5-l08-v093",
+      "cc5-v5-l08-v094",
+      "cc5-v5-l08-v095"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc5-v5-l08-grammar-01",
+      "title": "化 A 為 B",
+      "structure": "化 + trạng thái A + 為 + trạng thái B",
+      "explanation": "Dùng khi một tình huống được chuyển thành tình huống khác. Bài 1 kêu gọi biến khủng hoảng thành cơ hội hợp tác.",
+      "examples": [
+        {
+          "chinese": "我們要化危機為轉機。",
+          "simplified": "我们要化危机为转机。",
+          "pinyin": "wǒ men yào huà wēi jī wèi zhuǎn jī 。",
+          "meaningVi": "Chúng ta cần biến khủng hoảng thành cơ hội xoay chuyển."
+        },
+        {
+          "chinese": "她化悲傷為力量，繼續幫助別人。",
+          "simplified": "她化悲伤为力量，继续帮助别人。",
+          "pinyin": "tā huà bēi shāng wèi lì liàng ， jì xù bāng zhù bié rén 。",
+          "meaningVi": "Cô ấy biến nỗi buồn thành sức mạnh và tiếp tục giúp người khác."
+        }
+      ],
+      "commonMistake": "A là trạng thái ban đầu, B là kết quả sau chuyển đổi.",
+      "check": {
+        "id": "cc5-v5-l08-grammar-check-01",
+        "prompt": "「化危機為轉機」 nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Tạo ra khủng hoảng mới"
+          },
+          {
+            "id": "b",
+            "text": "Lờ đi cơ hội"
+          },
+          {
+            "id": "c",
+            "text": "Biến khủng hoảng thành cơ hội"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "化 A 為 B nêu sự chuyển đổi.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l08-t04"
+    },
+    {
+      "id": "cc5-v5-l08-grammar-02",
+      "title": "根據…的統計／資料顯示",
+      "structure": "根據 + nguồn + 的統計／資料顯示，+ số liệu hoặc kết luận",
+      "explanation": "Dẫn nguồn dữ liệu cho một nhận định. Hãy giữ đúng nguồn và thời điểm; số liệu trong bài đọc là bối cảnh năm 2015–2016, không phải dữ liệu hiện tại.",
+      "examples": [
+        {
+          "chinese": "根據調查的統計，許多人希望學習新的技能。",
+          "simplified": "根据调查的统计，许多人希望学习新的技能。",
+          "pinyin": "gēn jù diào chá de tǒng jì ， xǔ duō rén xī wàng xué xí xīn de jì néng 。",
+          "meaningVi": "Theo thống kê khảo sát, nhiều người muốn học kỹ năng mới."
+        },
+        {
+          "chinese": "根據這份資料顯示，申請人數增加了。",
+          "simplified": "根据这份资料显示，申请人数增加了。",
+          "pinyin": "gēn jù zhè fèn zī liào xiǎn shì ， shēn qǐng rén shù zēng jiā le 。",
+          "meaningVi": "Theo tài liệu này, số người nộp đơn đã tăng."
+        }
+      ],
+      "commonMistake": "Không nêu số liệu mà bỏ mất nguồn hay gán nó cho hiện tại.",
+      "check": {
+        "id": "cc5-v5-l08-grammar-check-02",
+        "prompt": "「根據聯合國的統計」 cho biết gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Nguồn của số liệu"
+          },
+          {
+            "id": "b",
+            "text": "Ý kiến cá nhân của tác giả"
+          },
+          {
+            "id": "c",
+            "text": "Thời gian học"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "根據 giới thiệu nguồn thông tin.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l08-t04"
+    },
+    {
+      "id": "cc5-v5-l08-grammar-03",
+      "title": "向來",
+      "structure": "chủ thể + 向來 + thói quen/trạng thái",
+      "explanation": "Chỉ điều thường như vậy từ trước đến nay. Không dùng cho một sự việc mới xảy ra một lần.",
+      "examples": [
+        {
+          "chinese": "她向來很準時。",
+          "simplified": "她向来很准时。",
+          "pinyin": "tā xiàng lái hěn zhǔn shí 。",
+          "meaningVi": "Cô ấy luôn đúng giờ từ trước tới nay."
+        },
+        {
+          "chinese": "這家店向來重視服務。",
+          "simplified": "这家店向来重视服务。",
+          "pinyin": "zhè jiā diàn xiàng lái zhòng shì fú wù 。",
+          "meaningVi": "Cửa hàng này từ trước đến nay luôn coi trọng dịch vụ."
+        }
+      ],
+      "commonMistake": "向來 nói tính ổn định trong thời gian dài.",
+      "check": {
+        "id": "cc5-v5-l08-grammar-check-03",
+        "prompt": "「她向來很準時」 nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Cô ấy vốn luôn đúng giờ"
+          },
+          {
+            "id": "b",
+            "text": "Hôm nay cô ấy tới muộn"
+          },
+          {
+            "id": "c",
+            "text": "Cô ấy vừa học xem giờ"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "向來 nêu thói quen lâu dài.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l08-t04"
+    },
+    {
+      "id": "cc5-v5-l08-grammar-04",
+      "title": "A 優先於 B",
+      "structure": "A + 優先於 + B",
+      "explanation": "Nêu A cần được xét trước B. Trong bài 2, tác giả đặt an ninh quốc gia lên trước nghĩa vụ nhân đạo; đây là quan điểm của tác giả.",
+      "examples": [
+        {
+          "chinese": "病人的安全應優先於速度。",
+          "simplified": "病人的安全应优先于速度。",
+          "pinyin": "bìng rén de ān quán yīng yōu xiān yú sù dù 。",
+          "meaningVi": "An toàn của bệnh nhân cần được ưu tiên hơn tốc độ."
+        },
+        {
+          "chinese": "對她來說，家庭優先於工作。",
+          "simplified": "对她来说，家庭优先于工作。",
+          "pinyin": "duì tā lái shuō ， jiā tíng yōu xiān yú gōng zuò 。",
+          "meaningVi": "Với cô ấy, gia đình được ưu tiên hơn công việc."
+        }
+      ],
+      "commonMistake": "Đây là thứ tự ưu tiên theo một góc nhìn, không phải sự thật áp dụng cho mọi trường hợp.",
+      "check": {
+        "id": "cc5-v5-l08-grammar-check-04",
+        "prompt": "「安全優先於速度」 nhấn gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Tốc độ quan trọng hơn"
+          },
+          {
+            "id": "b",
+            "text": "Hai điều không liên quan"
+          },
+          {
+            "id": "c",
+            "text": "An toàn được xét trước tốc độ"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "優先於 chỉ thứ tự ưu tiên.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l08-t08"
+    },
+    {
+      "id": "cc5-v5-l08-grammar-05",
+      "title": "只不過…罷了",
+      "structure": "只不過 + điều được giới hạn + 罷了",
+      "explanation": "Giảm nhẹ hay giới hạn một sự việc: “chỉ là… thôi”. Trong bài 2, tác giả cho rằng một số người chỉ muốn tìm việc ở châu Âu.",
+      "examples": [
+        {
+          "chinese": "我只不過問了一個問題罷了。",
+          "simplified": "我只不过问了一个问题罢了。",
+          "pinyin": "wǒ zhǐ bù guò wèn le yī gè wèn tí bà le 。",
+          "meaningVi": "Tôi chỉ hỏi một câu thôi."
+        },
+        {
+          "chinese": "他只不過是想休息一下罷了。",
+          "simplified": "他只不过是想休息一下罢了。",
+          "pinyin": "tā zhǐ bù guò shì xiǎng xiū xī yī xià bà le 。",
+          "meaningVi": "Anh ấy chỉ muốn nghỉ một chút thôi."
+        }
+      ],
+      "commonMistake": "Mẫu này biểu thị cách đánh giá của người nói; không tự nó chứng minh sự việc nhỏ hay đơn giản.",
+      "check": {
+        "id": "cc5-v5-l08-grammar-check-05",
+        "prompt": "「只不過想休息一下罷了」 nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Không muốn nghỉ"
+          },
+          {
+            "id": "b",
+            "text": "Chỉ muốn nghỉ một chút thôi"
+          },
+          {
+            "id": "c",
+            "text": "Muốn bỏ việc ngay"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "只不過…罷了 giới hạn mức độ.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l08-t08"
+    },
+    {
+      "id": "cc5-v5-l08-grammar-06",
+      "title": "A 與 B 息息相關",
+      "structure": "A + 與 + B + 息息相關",
+      "explanation": "Nêu hai vấn đề có liên hệ mật thiết. Trong bài 2, tác giả nói vấn đề người tị nạn gắn liền với chiến tranh.",
+      "examples": [
+        {
+          "chinese": "健康與飲食息息相關。",
+          "simplified": "健康与饮食息息相关。",
+          "pinyin": "jiàn kāng yǔ yǐn shí xī xī xiāng guān 。",
+          "meaningVi": "Sức khỏe gắn liền với ăn uống."
+        },
+        {
+          "chinese": "難民問題與戰爭息息相關。",
+          "simplified": "难民问题与战争息息相关。",
+          "pinyin": "nán mín wèn tí yǔ zhàn zhēng xī xī xiāng guān 。",
+          "meaningVi": "Vấn đề người tị nạn gắn chặt với chiến tranh."
+        }
+      ],
+      "commonMistake": "Liên hệ chặt chẽ không có nghĩa A và B là một.",
+      "check": {
+        "id": "cc5-v5-l08-grammar-check-06",
+        "prompt": "「健康與飲食息息相關」 cho biết gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Hai điều liên hệ mật thiết"
+          },
+          {
+            "id": "b",
+            "text": "Hai điều giống hệt nhau"
+          },
+          {
+            "id": "c",
+            "text": "Hai điều không liên quan"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "息息相關 nhấn mối liên hệ.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l08-t08"
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc5-v5-l08-listening-01",
+      "prompt": "Nghe bài 1: tổ chức nào được tác giả dẫn số liệu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Một công ty bán vé"
+        },
+        {
+          "id": "b",
+          "text": "Liên Hợp Quốc"
+        },
+        {
+          "id": "c",
+          "text": "Một trường tiểu học"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nói 根據聯合國的統計.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l08-t02"
+    },
+    {
+      "id": "cc5-v5-l08-listening-02",
+      "prompt": "Nghe bài 1: người tị nạn có thể hòa nhập nhanh hơn khi nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Khi không được đi làm"
+        },
+        {
+          "id": "b",
+          "text": "Khi mọi nước đóng trường"
+        },
+        {
+          "id": "c",
+          "text": "Khi được học ngôn ngữ và nghề, có việc làm"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc nhấn 語言與職業訓練 và 就業.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l08-t02"
+    },
+    {
+      "id": "cc5-v5-l08-listening-03",
+      "prompt": "Nghe bài 2: tác giả đặt điều gì lên trước nhân đạo?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thể thao"
+        },
+        {
+          "id": "b",
+          "text": "An ninh quốc gia"
+        },
+        {
+          "id": "c",
+          "text": "Giải trí"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Tiêu đề và lập luận nói 國家安全應優先於人道.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l08-t06"
+    },
+    {
+      "id": "cc5-v5-l08-listening-04",
+      "prompt": "Nghe bài 2: tác giả coi việc gì là cốt lõi lâu dài?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bỏ học ngoại ngữ"
+        },
+        {
+          "id": "b",
+          "text": "Kết thúc chiến tranh và hướng tới hòa bình"
+        },
+        {
+          "id": "c",
+          "text": "Tăng số chuyến bay"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nói 唯有世界和平才能根本解決問題.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l08-t06"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc5-v5-l08-practice-01",
+      "prompt": "Điền: 我們要____危機____轉機。",
+      "options": [
+        {
+          "id": "a",
+          "text": "優先；於"
+        },
+        {
+          "id": "b",
+          "text": "化；為"
+        },
+        {
+          "id": "c",
+          "text": "只不過；罷了"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "化 A 為 B nói sự chuyển đổi.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l08-practice-02",
+      "prompt": "Điền: ____調查____，申請人數增加了。",
+      "options": [
+        {
+          "id": "a",
+          "text": "與；息息相關"
+        },
+        {
+          "id": "b",
+          "text": "根據；的統計"
+        },
+        {
+          "id": "c",
+          "text": "只不過；罷了"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "根據 giới thiệu nguồn số liệu.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l08-practice-03",
+      "prompt": "Điền: 她____很準時。",
+      "options": [
+        {
+          "id": "a",
+          "text": "罷了"
+        },
+        {
+          "id": "b",
+          "text": "化"
+        },
+        {
+          "id": "c",
+          "text": "向來"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "向來 nói thói quen từ trước tới nay.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l08-practice-04",
+      "prompt": "Điền: 病人的安全應____速度。",
+      "options": [
+        {
+          "id": "a",
+          "text": "只不過"
+        },
+        {
+          "id": "b",
+          "text": "優先於"
+        },
+        {
+          "id": "c",
+          "text": "息息相關"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "優先於 chỉ thứ tự ưu tiên.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l08-practice-05",
+      "prompt": "Điền: 我____問了一個問題____。",
+      "options": [
+        {
+          "id": "a",
+          "text": "根據；顯示"
+        },
+        {
+          "id": "b",
+          "text": "只不過；罷了"
+        },
+        {
+          "id": "c",
+          "text": "化；為"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "只不過…罷了: chỉ…thôi.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l08-practice-06",
+      "prompt": "Điền: 健康____飲食____。",
+      "options": [
+        {
+          "id": "a",
+          "text": "化；為"
+        },
+        {
+          "id": "b",
+          "text": "只不過；罷了"
+        },
+        {
+          "id": "c",
+          "text": "與；息息相關"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "息息相關 nói liên hệ chặt chẽ.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l08-practice-07",
+      "prompt": "Bài 1 nêu lợi ích dài hạn nào của việc tiếp nhận người tị nạn?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mọi người đều trở thành vận động viên"
+        },
+        {
+          "id": "b",
+          "text": "Đóng góp lao động và nguồn thu thuế"
+        },
+        {
+          "id": "c",
+          "text": "Bảo đảm không còn mọi chi phí"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Tác giả nói lao động và thuế có thể tăng về dài hạn.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l08-practice-08",
+      "prompt": "Bài 2 đặt câu hỏi về điều gì khi mở biên giới?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An ninh, chi phí và nạn buôn người"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ lịch thi đấu"
+        },
+        {
+          "id": "c",
+          "text": "Chỉ việc học tiếng Hoa"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Đó là ba mối lo trong lập luận phản đối.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc5-v5-l08-assessment-01",
+      "prompt": "「左右為難」 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đứng bên trái"
+        },
+        {
+          "id": "b",
+          "text": "Khó xử giữa hai phía"
+        },
+        {
+          "id": "c",
+          "text": "Rất dễ chọn"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "左右為難 nói tình thế tiến thoái lưỡng nan.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc5-v5-l08-assessment-02",
+      "prompt": "Bài 1 dẫn Liên Hợp Quốc để làm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Giới thiệu một bài hát"
+        },
+        {
+          "id": "b",
+          "text": "Nêu quy mô khủng hoảng theo số liệu ở thời điểm bài viết"
+        },
+        {
+          "id": "c",
+          "text": "Công bố kết quả hiện tại"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Đó là số liệu lịch sử trong bài, không phải thống kê mới.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l08-assessment-03",
+      "prompt": "「化危機為轉機」 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ngừng hợp tác"
+        },
+        {
+          "id": "b",
+          "text": "Biến khủng hoảng thành cơ hội"
+        },
+        {
+          "id": "c",
+          "text": "Tạo thêm khủng hoảng"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "化 A 為 B nêu sự chuyển đổi.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l08-assessment-04",
+      "prompt": "Theo bài 1, điều gì giúp người tị nạn hòa nhập?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cô lập lâu dài"
+        },
+        {
+          "id": "b",
+          "text": "Không tiếp xúc người địa phương"
+        },
+        {
+          "id": "c",
+          "text": "Đào tạo ngôn ngữ, nghề nghiệp và cơ hội làm việc"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Tác giả nhắc 訓練 và 就業.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l08-assessment-05",
+      "prompt": "「向來」 chỉ điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tình trạng vốn như vậy từ trước"
+        },
+        {
+          "id": "b",
+          "text": "Việc chỉ xảy ra một lần"
+        },
+        {
+          "id": "c",
+          "text": "Việc sẽ xảy ra ngày mai"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "向來 nêu tính lâu dài.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l08-assessment-06",
+      "prompt": "Bài 2 lo ngại điều gì về ngân sách?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chi phí tiếp nhận và phúc lợi tăng"
+        },
+        {
+          "id": "b",
+          "text": "Không có ai cần chăm sóc"
+        },
+        {
+          "id": "c",
+          "text": "Tất cả chi phí bằng không"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Tác giả liệt kê an cư, y tế, giáo dục.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l08-assessment-07",
+      "prompt": "「優先於」 nói về quan hệ nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hoàn toàn giống nhau"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ vị trí địa lý"
+        },
+        {
+          "id": "c",
+          "text": "Được xét trước hoặc coi trọng hơn"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "優先於 nêu thứ tự ưu tiên.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l08-assessment-08",
+      "prompt": "Theo bài 2, việc mở biên giới có thể giúp ai trục lợi?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kẻ buôn người"
+        },
+        {
+          "id": "b",
+          "text": "Giáo viên dạy ngôn ngữ"
+        },
+        {
+          "id": "c",
+          "text": "Nhóm thể thao"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc nhắc 人口販子.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l08-assessment-09",
+      "prompt": "「息息相關」 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Có liên hệ mật thiết"
+        },
+        {
+          "id": "b",
+          "text": "Không liên quan"
+        },
+        {
+          "id": "c",
+          "text": "Giống hệt"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Tác giả nói người tị nạn và chiến tranh gắn chặt.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l08-assessment-10",
+      "prompt": "Bài 1 và bài 2 có cùng quan điểm về tiếp nhận người tị nạn không?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Có, cả hai đều phản đối"
+        },
+        {
+          "id": "b",
+          "text": "Không, hai bài đặt ưu tiên khác nhau"
+        },
+        {
+          "id": "c",
+          "text": "Có, cả hai đều ủng hộ"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài 1 nhấn hợp tác; bài 2 nhấn an ninh và năng lực tiếp nhận.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "writingTask": {
+    "id": "cc5-v5-l08-writing",
+    "title": "So sánh hai ưu tiên",
+    "prompt": "Viết một đoạn tiếng Hoa nêu cách hai tác giả nhìn vấn đề người tị nạn. Dẫn một ý từ mỗi bài và nêu ý kiến của bạn.",
+    "sampleTraditional": "第一篇文章重視國際合作，認為各國應分擔責任；第二篇文章則強調國家安全。難民問題與戰爭息息相關，我認為討論政策時應同時考慮人道與安全。",
+    "sampleSimplified": "第一篇文章重视国际合作，认为各国应分担责任；第二篇文章则强调国家安全。难民问题与战争息息相关，我认为讨论政策时应同时考虑人道与安全。"
+  }
+}

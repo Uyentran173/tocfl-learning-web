@@ -1,0 +1,1077 @@
+{
+  "contentVersion": 2,
+  "id": "cc5-v5-l09",
+  "title": "有核到底可不可？",
+  "titleVi": "Có nên dùng điện hạt nhân?",
+  "description": "So sánh hai lập luận về an toàn, môi trường và kinh tế của điện hạt nhân.",
+  "objectives": [
+    "Xác định luận điểm và dẫn chứng của hai tác giả.",
+    "Dùng bảy mẫu câu để mở rộng ý, diễn đạt lại và so sánh.",
+    "Phân biệt phát biểu trong giáo trình với dữ liệu khoa học hiện tại."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Hai bài đọc đưa ra các khẳng định trái chiều về năng lượng. Số liệu và đánh giá trong bài phản ánh lập luận của tác giả vào thời điểm biên soạn; hãy kiểm tra nguồn mới trước khi dùng chúng để ra quyết định thực tế.",
+    "sections": [
+      {
+        "id": "cc5-v5-l09-section-01",
+        "title": "Rủi ro và chất thải",
+        "body": "Bài 1 lo ngại sự cố, ảnh hưởng sức khỏe và bài toán xử lý chất thải hạt nhân.",
+        "chinese": "核廢料處理更是一大難題。",
+        "simplified": "核废料处理更是一大难题。",
+        "pinyin": "hé fèi liào chù lǐ gèng shì yī dà nán tí 。",
+        "meaningVi": "Xử lý chất thải hạt nhân là một vấn đề nan giải."
+      },
+      {
+        "id": "cc5-v5-l09-section-02",
+        "title": "Cung ứng và chi phí",
+        "body": "Bài 2 lập luận rằng điện hạt nhân có thể cung cấp điện ổn định với chi phí và lượng phát thải thấp.",
+        "chinese": "核能發電不但成本低、效率高，又能穩定供電。",
+        "simplified": "核能发电不但成本低、效率高，又能稳定供电。",
+        "pinyin": "hé néng fā diàn bù dàn chéng běn dī 、 xiào lǜ gāo ， yòu néng wěn dìng gōng diàn 。",
+        "meaningVi": "Theo tác giả, điện hạt nhân có chi phí thấp, hiệu suất cao và cấp điện ổn định."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc5-v5-l09-reading1",
+        "title": "課文一 · 如發生意外，後果無法承擔",
+        "context": "Tác giả phản đối điện hạt nhân vì rủi ro sự cố, sức khỏe và chất thải.",
+        "audioTrackId": "cc5-textbook-l09-t02",
+        "turns": [
+          {
+            "speaker": "Tác giả",
+            "chinese": "你可以想像自己住的城市不遠處有座核電廠嗎？會不會擔心有一天輻射外洩，甚至發生爆炸，來不及逃離呢？這不是危言聳聽，正因核電廠有著致命風險，所以「反核」一直都是不退燒的社會議題。雖然核能發電行之有年，但從美國三哩島、烏克蘭車諾比，到日本福島核災事件，都顯示人類控制核電的能力仍然不足。以臺灣為例，在這座小島上就有超過三座的核電廠，且皆被列為「全球最危險等級」，人口過度密集是原因之一，加上臺灣位於地震帶上，地震頻率高，核電廠卻離海邊及城市不遠，得同時面對地震、海嘯、洪水等威脅。若發生七級以上的強震，恐怕無法讓數百萬人及時逃離。就像是一顆未爆的炸彈，如何讓人能安心睡覺？就算沒有立即危險，輻射的問題也令人擔憂。《歐洲癌症護理雜誌》所提供的數字以及德國的研究資料都顯示核電廠周圍居民罹癌的比例偏高。日本福島核災事件發生後，六年之間，青少年罹癌人數也超過一百五十人。",
+            "simplified": "你可以想像自己住的城市不远处有座核电厂吗？会不会担心有一天辐射外泄，甚至发生爆炸，来不及逃离呢？这不是危言耸听，正因核电厂有着致命风险，所以「反核」一直都是不退烧的社会议题。虽然核能发电行之有年，但从美国三哩岛、乌克兰车诺比，到日本福岛核灾事件，都显示人类控制核电的能力仍然不足。以台湾为例，在这座小岛上就有超过三座的核电厂，且皆被列为「全球最危险等级」，人口过度密集是原因之一，加上台湾位于地震带上，地震频率高，核电厂却离海边及城市不远，得同时面对地震、海啸、洪水等威胁。若发生七级以上的强震，恐怕无法让数百万人及时逃离。就像是一颗未爆的炸弹，如何让人能安心睡觉？就算没有立即危险，辐射的问题也令人担忧。《欧洲癌症护理杂志》所提供的数字以及德国的研究资料都显示核电厂周围居民罹癌的比例偏高。日本福岛核灾事件发生后，六年之间，青少年罹癌人数也超过一百五十人。",
+            "pinyin": "nǐ kě yǐ xiǎng xiàng zì jǐ zhù de chéng shì bù yuǎn chù yǒu zuò hé diàn chǎng ma ？ huì bù huì dān xīn yǒu yī tiān fú shè wài xiè ， shèn zhì fā shēng bào zhà ， lái bù jí táo lí ne ？ zhè bú shì wēi yán sǒng tīng ， zhèng yīn hé diàn chǎng yǒu zhù zhì mìng fēng xiǎn ， suǒ yǐ 「 fǎn hé 」 yì zhí dōu shì bù tuì shāo de shè huì yì tí 。 suī rán hé néng fā diàn xíng zhī yǒu nián ， dàn cóng měi guó sān lī dǎo 、 wū kè lán chē nuò bǐ ， dào rì běn fú dǎo hé zāi shì jiàn ， dōu xiǎn shì rén lèi kòng zhì hé diàn de néng lì réng rán bù zú 。 yǐ tái wān wèi lì ， zài zhè zuò xiǎo dǎo shàng jiù yǒu chāo guò sān zuò de hé diàn chǎng ， qiě jiē bèi liè wèi 「 quán qiú zuì wēi xiǎn děng jí 」 ， rén kǒu guò dù mì jí shì yuán yīn zhī yī ， jiā shàng tái wān wèi yú dì zhèn dài shàng ， dì zhèn pín lǜ gāo ， hé diàn chǎng què lí hǎi biān jí chéng shì bù yuǎn ， dé tóng shí miàn duì dì zhèn 、 hǎi xiào 、 hóng shuǐ děng wēi xié 。 ruò fā shēng qī jí yǐ shàng de qiáng zhèn ， kǒng pà wú fǎ ràng shù bǎi wàn rén jí shí táo lí 。 jiù xiàng shì yī kē wèi bào de zhà dàn ， rú hé ràng rén néng ān xīn shuì jué ？ jiù suàn méi yǒu lì jí wēi xiǎn ， fú shè de wèn tí yě lìng rén dān yōu 。 《 ōu zhōu ái zhèng hù lǐ zá zhì 》 suǒ tí gōng de shù zì yǐ jí dé guó de yán jiū zī liào dōu xiǎn shì hé diàn chǎng zhōu wéi jū mín lí ái de bǐ lì piān gāo 。 rì běn fú dǎo hé zāi shì jiàn fā shēng hòu ， liù nián zhī jiān ， qīng shào nián lí ái rén shù yě chāo guò yì bǎi wǔ shí rén 。",
+            "meaningVi": "Bạn có thể hình dung một nhà máy điện hạt nhân nằm không xa thành phố nơi mình ở không? Bạn có lo rằng một ngày nào đó sẽ xảy ra rò rỉ bức xạ, thậm chí nổ, khiến con người không kịp sơ tán? Đó không phải lời nói giật gân: theo tác giả, vì nhà máy điện hạt nhân có rủi ro chết người nên phong trào phản đối điện hạt nhân luôn là chủ đề xã hội nóng bỏng. Dù điện hạt nhân đã được sử dụng nhiều năm, nhưng các sự cố tại Three Mile Island (Mỹ), Chernobyl (Ukraine) và Fukushima (Nhật Bản) cho thấy khả năng kiểm soát năng lượng hạt nhân của con người vẫn còn rất khiêm tốn. Ví dụ tại Đài Loan, trên hòn đảo nhỏ này có hơn ba nhà máy điện hạt nhân, theo bài đọc, tất cả đều được xếp vào “mức nguy hiểm nhất thế giới”. Một trong những nguyên nhân là mật độ dân số quá cao, cùng với việc Đài Loan nằm trong vùng động đất, thường xuyên xảy ra động đất, và các nhà máy điện hạt nhân lại nằm gần biển và các khu đô thị, phải đối mặt với nhiều mối đe dọa như động đất, sóng thần, lũ lụt. Nếu xảy ra động đất mạnh cấp 7 trở lên, khả năng sơ tán kịp thời cho hàng triệu người dân là rất nhỏ. Giống như một quả bom chưa nổ, làm thế nào để người dân có thể yên tâm ngủ? Dù chưa có nguy cơ đe dọa tức thì, vấn đề bức xạ vẫn khiến người dân lo ngại. Bài đọc dẫn số liệu từ Tạp chí Điều dưỡng Ung thư châu Âu và nghiên cứu ở Đức để nói rằng tỷ lệ mắc ung thư ở người dân sống gần nhà máy điện hạt nhân cao hơn mức trung bình. Sau thảm họa hạt nhân Fukushima, trong vòng sáu năm, đã có hơn 150 trường hợp thanh thiếu niên mắc ung thư."
+          },
+          {
+            "speaker": "Tác giả",
+            "chinese": "許多例子都證明輻射會讓正常的細胞變成癌細胞，也可以說核能發電廠製造出了讓人容易生病的環境。除了看不見的輻射威脅，看得見的核廢料處理更是一大難題。核廢料造成的輻射汙染超過數百年，無論是埋在土裡還是丟到海底，長遠來看都不太可行。更糟糕的是，有些國家選擇犧牲住在偏遠地區的人民，把他們的家當做核廢料的「垃圾場」，這種做法更是任誰都無法接受。多年前，許多國家為了因應大量用電需求而蓋了核電廠。當時，再生能源技術不足且設備昂貴，從經濟的角度考量，選擇最低成本的核能發電是可以理解的。然而，核電風險究竟多高？如何妥善控制核輻射？廢料又應如何處理？皆是令人頭痛且仍無解的難題。沒有什麼比安全與健康更重要的了。人們不應該為了害怕電價上漲而選擇生活在危險當中，努力發展再生能源以取代核能發電才是正確的道路。",
+            "simplified": "许多例子都证明辐射会让正常的细胞变成癌细胞，也可以说核能发电厂制造出了让人容易生病的环境。除了看不见的辐射威胁，看得见的核废料处理更是一大难题。核废料造成的辐射污染超过数百年，无论是埋在土里还是丢到海底，长远来看都不太可行。更糟糕的是，有些国家选择牺牲住在偏远地区的人民，把他们的家当做核废料的「垃圾场」，这种做法更是任谁都无法接受。多年前，许多国家为了因应大量用电需求而盖了核电厂。当时，再生能源技术不足且设备昂贵，从经济的角度考量，选择最低成本的核能发电是可以理解的。然而，核电风险究竟多高？如何妥善控制核辐射？废料又应如何处理？皆是令人头痛且仍无解的难题。没有什么比安全与健康更重要的了。人们不应该为了害怕电价上涨而选择生活在危险当中，努力发展再生能源以取代核能发电才是正确的道路。",
+            "pinyin": "xǔ duō lì zi dōu zhèng míng fú shè huì ràng zhèng cháng de xì bāo biàn chéng ái xì bāo ， yě kě yǐ shuō hé néng fā diàn chǎng zhì zào chū le ràng rén róng yì shēng bìng de huán jìng 。 chú le kàn bù jiàn de fú shè wēi xié ， kàn dé jiàn de hé fèi liào chù lǐ gèng shì yī dà nán tí 。 hé fèi liào zào chéng de fú shè wū rǎn chāo guò shù bǎi nián ， wú lùn shì mái zài tǔ lǐ hái shì diū dào hǎi dǐ ， zhǎng yuǎn lái kàn dōu bù tài kě xíng 。 gèng zāo gāo de shì ， yǒu xiē guó jiā xuǎn zé xī shēng zhù zài piān yuǎn dì qū de rén mín ， bǎ tā men de jiā dāng zuò hé fèi liào de 「 lā jī chǎng 」 ， zhè zhǒng zuò fǎ gèng shì rèn shuí dōu wú fǎ jiē shòu 。 duō nián qián ， xǔ duō guó jiā wèi le yīn yīng dà liàng yòng diàn xū qiú ér gài le hé diàn chǎng 。 dāng shí ， zài shēng néng yuán jì shù bù zú qiě shè bèi áng guì ， cóng jīng jì de jiǎo dù kǎo liáng ， xuǎn zé zuì dī chéng běn de hé néng fā diàn shì kě yǐ lǐ jiě de 。 rán ér ， hé diàn fēng xiǎn jiū jìng duō gāo ？ rú hé tuǒ shàn kòng zhì hé fú shè ？ fèi liào yòu yīng rú hé chù lǐ ？ jiē shì lìng rén tóu tòng qiě réng wú jiě de nán tí 。 méi yǒu shén me bǐ ān quán yǔ jiàn kāng gèng zhòng yào de le 。 rén men bù yīng gāi wèi le hài pà diàn jià shàng zhǎng ér xuǎn zé shēng huó zài wēi xiǎn dāng zhōng ， nǔ lì fā zhǎn zài shēng néng yuán yǐ qǔ dài hé néng fā diàn cái shì zhèng què de dào lù 。",
+            "meaningVi": "Theo tác giả, nhiều ví dụ cho thấy bức xạ có thể biến các tế bào bình thường thành tế bào ung thư, nói cách khác, các nhà máy điện hạt nhân đã tạo ra một môi trường dễ mắc bệnh. Bên cạnh mối đe dọa từ bức xạ không nhìn thấy được, việc xử lý chất thải hạt nhân lại là một thách thức lớn. Ô nhiễm bức xạ do chất thải hạt nhân có thể kéo dài hàng trăm năm, dù chôn dưới đất hay vứt xuống đáy biển, đều không thực sự khả thi về lâu dài. Điều tệ hơn nữa là một số quốc gia đã hy sinh lợi ích của cư dân vùng xa, coi những ngôi nhà của họ như “bãi rác” chứa chất thải hạt nhân – hành động này không thể chấp nhận được. Nhiều năm trước, nhiều quốc gia đã xây dựng các nhà máy điện hạt nhân nhằm đáp ứng nhu cầu tiêu thụ điện lớn. Khi đó, công nghệ năng lượng tái tạo còn chưa phát triển và thiết bị rất đắt đỏ, nên từ góc độ kinh tế, việc lựa chọn điện hạt nhân với chi phí thấp là hoàn toàn dễ hiểu. Tuy nhiên, mức độ rủi ro của điện hạt nhân là bao nhiêu? Làm thế nào để kiểm soát bức xạ một cách an toàn? Và chất thải hạt nhân nên được xử lý như thế nào? Đây đều là những vấn đề khó giải quyết và vẫn chưa có lời giải. Không có điều gì quan trọng hơn an toàn và sức khỏe. Người dân không nên chọn sống trong nguy hiểm chỉ vì sợ giá điện tăng lên. Theo tác giả, hướng đi đúng là phát triển năng lượng tái tạo để thay thế điện hạt nhân."
+          }
+        ]
+      },
+      {
+        "id": "cc5-v5-l09-reading2",
+        "title": "課文二 · 最環保、最經濟的發電方式",
+        "context": "Tác giả ủng hộ điện hạt nhân vì cho rằng nó ổn định, ít phát thải và có chi phí thấp.",
+        "audioTrackId": "cc5-textbook-l09-t06",
+        "turns": [
+          {
+            "speaker": "Tác giả",
+            "chinese": "核能發電讓你聯想到什麼？爆炸？環境破壞？還是癌症？歷史上發生過的核電廠事故，是否讓你對核能發電產生恐懼？其實，核電的負面形象多半來自媒體過度放大核災發生的可能性。首先，我們應該要了解，每座核電廠的地理環境、建廠考量、運作方式都不相同，因而在安全性上有著極大的差異。曾經發生的核電廠事故，原因也各有不同，有的是天災，有的是人為疏失，跟核電廠本身沒有直接關係，應該被視為獨立事件，而非一概而論地說「核電廠是顆不定時炸彈」。其次，與風力、水力、火力、太陽能等發電方式相比，核能發電的研究結果比較完整，也更能控制風險。此外，核電廠發生災害的機率也最低，甚至十億年才可能發生一次核災，遠低於被雷打到的機率，實在不需要過度擔心。長遠來看，碳排放量低的核能才是最環保的發電方式之一。可惜，這些有利的因素往往被人們忽略。",
+            "simplified": "核能发电让你联想到什么？爆炸？环境破坏？还是癌症？历史上发生过的核电厂事故，是否让你对核能发电产生恐惧？其实，核电的负面形象多半来自媒体过度放大核灾发生的可能性。首先，我们应该要了解，每座核电厂的地理环境、建厂考量、运作方式都不相同，因而在安全性上有着极大的差异。曾经发生的核电厂事故，原因也各有不同，有的是天灾，有的是人为疏失，跟核电厂本身没有直接关系，应该被视为独立事件，而非一概而论地说「核电厂是颗不定时炸弹」。其次，与风力、水力、火力、太阳能等发电方式相比，核能发电的研究结果比较完整，也更能控制风险。此外，核电厂发生灾害的机率也最低，甚至十亿年才可能发生一次核灾，远低于被雷打到的机率，实在不需要过度担心。长远来看，碳排放量低的核能才是最环保的发电方式之一。可惜，这些有利的因素往往被人们忽略。",
+            "pinyin": "hé néng fā diàn ràng nǐ lián xiǎng dào shén me ？ bào zhà ？ huán jìng pò huài ？ hái shì ái zhèng ？ lì shǐ shàng fā shēng guò de hé diàn chǎng shì gù ， shì fǒu ràng nǐ duì hé néng fā diàn chǎn shēng kǒng jù ？ qí shí ， hé diàn de fù miàn xíng xiàng duō bàn lái zì méi tǐ guò dù fàng dà hé zāi fā shēng de kě néng xìng 。 shǒu xiān ， wǒ men yīng gāi yào liǎo jiě ， měi zuò hé diàn chǎng de dì lǐ huán jìng 、 jiàn chǎng kǎo liáng 、 yùn zuò fāng shì dōu bù xiāng tóng ， yīn ér zài ān quán xìng shàng yǒu zhù jí dà de chà yì 。 céng jīng fā shēng de hé diàn chǎng shì gù ， yuán yīn yě gè yǒu bù tóng ， yǒu de shì tiān zāi ， yǒu de shì rén wèi shū shī ， gēn hé diàn chǎng běn shēn méi yǒu zhí jiē guān xì ， yīng gāi bèi shì wèi dú lì shì jiàn ， ér fēi yī gài ér lùn dì shuō 「 hé diàn chǎng shì kē bù dìng shí zhà dàn 」 。 qí cì ， yǔ fēng lì 、 shuǐ lì 、 huǒ lì 、 tài yáng néng děng fā diàn fāng shì xiāng bǐ ， hé néng fā diàn de yán jiū jié guǒ bǐ jiào wán zhěng ， yě gèng néng kòng zhì fēng xiǎn 。 cǐ wài ， hé diàn chǎng fā shēng zāi hài de jī lǜ yě zuì dī ， shèn zhì shí yì nián cái kě néng fā shēng yī cì hé zāi ， yuǎn dī yú bèi léi dǎ dào de jī lǜ ， shí zài bù xū yào guò dù dān xīn 。 zhǎng yuǎn lái kàn ， tàn pái fàng liàng dī de hé néng cái shì zuì huán bǎo de fā diàn fāng shì zhī yī 。 kě xī ， zhè xiē yǒu lì de yīn sù wǎng wǎng bèi rén men hū lüè 。",
+            "meaningVi": "Điện hạt nhân khiến bạn liên tưởng tới điều gì? Nổ? Hủy hoại môi trường? Hay ung thư? Những tai nạn tại các nhà máy điện hạt nhân trong quá khứ có khiến bạn cảm thấy sợ hãi về năng lượng hạt nhân không? Theo tác giả, hình ảnh tiêu cực về năng lượng hạt nhân chủ yếu đến từ việc truyền thông phóng đại khả năng xảy ra tai nạn hạt nhân. Trước hết, chúng ta cần hiểu rằng, điều kiện địa lý, các yếu tố khi xây dựng và cách vận hành của từng nhà máy điện hạt nhân đều khác nhau, dẫn đến sự khác biệt lớn về độ an toàn. Các tai nạn đã xảy ra tại các nhà máy điện hạt nhân đều có nguyên nhân khác nhau: một số do thiên tai, một số do sai sót con người, và không liên quan trực tiếp đến bản thân nhà máy điện hạt nhân, nên xem chúng là các sự kiện độc lập, chứ không nên nói chung chung rằng \"nhà máy điện hạt nhân giống như quả bom hẹn giờ\". Thứ hai, so với các hình thức phát điện như gió, thủy điện, nhiệt điện và năng lượng mặt trời, thì các nghiên cứu về phát điện hạt nhân có kết quả đầy đủ và khả năng kiểm soát rủi ro cao hơn. Ngoài ra, xác suất xảy ra tai nạn tại nhà máy điện hạt nhân là cực kỳ thấp, theo lập luận của tác giả, thậm chí một tỷ năm mới có thể xảy ra một lần, thấp hơn rất nhiều so với xác suất bị sét đánh, nên thực sự không cần lo lắng quá mức. Về lâu dài, năng lượng hạt nhân có lượng phát thải carbon thấp là một trong những hình thức phát điện thân thiện với môi trường. Tuy nhiên, những lợi thế này thường bị người dân bỏ qua."
+          },
+          {
+            "speaker": "Tác giả",
+            "chinese": "事實上，火力發電會製造空氣汙染，產生大量的二氧化碳以加速溫室效應；水力發電會嚴重破壞河流、傷害魚類；風力發電會產生噪音，影響民眾的生活品質。無論風力、水力、地熱或太陽能等發電方式，除了技術還不夠成熟，也都受天然條件影響而有所限制，若想全面取代核能發電，可能出現能源不足的情況，而政府的解決之道，就是只能向人民收取高額電費。如此不但會惹來民怨，還可能導致工業停擺，經濟倒退。反觀核能發電，不但成本低、效率高，又能穩定供電，人民不用擔心無電可用，也能提供外商優良的投資環境，民生效益大。總之，再生能源的技術還不成熟、設備成本高且供電量比不上核能發電，即便核能電廠有安全上的隱憂，但它所帶來的便利與經濟價值卻是其他綠色能源難以替代的。",
+            "simplified": "事实上，火力发电会制造空气污染，产生大量的二氧化碳以加速温室效应；水力发电会严重破坏河流、伤害鱼类；风力发电会产生噪音，影响民众的生活品质。无论风力、水力、地热或太阳能等发电方式，除了技术还不够成熟，也都受天然条件影响而有所限制，若想全面取代核能发电，可能出现能源不足的情况，而政府的解决之道，就是只能向人民收取高额电费。如此不但会惹来民怨，还可能导致工业停摆，经济倒退。反观核能发电，不但成本低、效率高，又能稳定供电，人民不用担心无电可用，也能提供外商优良的投资环境，民生效益大。总之，再生能源的技术还不成熟、设备成本高且供电量比不上核能发电，即便核能电厂有安全上的隐忧，但它所带来的便利与经济价值却是其他绿色能源难以替代的。",
+            "pinyin": "shì shí shàng ， huǒ lì fā diàn huì zhì zào kōng qì wū rǎn ， chǎn shēng dà liàng de èr yǎng huà tàn yǐ jiā sù wēn shì xiào yīng ； shuǐ lì fā diàn huì yán zhòng pò huài hé liú 、 shāng hài yú lèi ； fēng lì fā diàn huì chǎn shēng zào yīn ， yǐng xiǎng mín zhòng de shēng huó pǐn zhì 。 wú lùn fēng lì 、 shuǐ lì 、 dì rè huò tài yáng néng děng fā diàn fāng shì ， chú le jì shù hái bù gòu chéng shú ， yě dōu shòu tiān rán tiáo jiàn yǐng xiǎng ér yǒu suǒ xiàn zhì ， ruò xiǎng quán miàn qǔ dài hé néng fā diàn ， kě néng chū xiàn néng yuán bù zú de qíng kuàng ， ér zhèng fǔ de jiě jué zhī dào ， jiù shì zhǐ néng xiàng rén mín shōu qǔ gāo é diàn fèi 。 rú cǐ bù dàn huì rě lái mín yuàn ， hái kě néng dǎo zhì gōng yè tíng bǎi ， jīng jì dào tuì 。 fǎn guān hé néng fā diàn ， bù dàn chéng běn dī 、 xiào lǜ gāo ， yòu néng wěn dìng gōng diàn ， rén mín bù yòng dān xīn wú diàn kě yòng ， yě néng tí gōng wài shāng yōu liáng de tóu zī huán jìng ， mín shēng xiào yì dà 。 zǒng zhī ， zài shēng néng yuán de jì shù hái bù chéng shú 、 shè bèi chéng běn gāo qiě gōng diàn liàng bǐ bù shàng hé néng fā diàn ， jí biàn hé néng diàn chǎng yǒu ān quán shàng de yǐn yōu ， dàn tā suǒ dài lái de biàn lì yǔ jīng jì jià zhí què shì qí tā lǜ sè néng yuán nán yǐ tì dài de 。",
+            "meaningVi": "Thực tế, nhiệt điện sẽ gây ô nhiễm không khí, phát thải lượng lớn khí carbon dioxide, làm gia tăng hiệu ứng nhà kính; thủy điện sẽ làm phá hủy nghiêm trọng các con sông và gây tổn hại đến các loài cá; điện gió sẽ tạo ra tiếng ồn, ảnh hưởng đến chất lượng cuộc sống của người dân. Theo tác giả, các hình thức điện gió, thủy điện, địa nhiệt hay mặt trời vừa có công nghệ chưa đủ hoàn thiện, vừa bị giới hạn bởi điều kiện tự nhiên. Nếu muốn thay thế toàn diện phát điện hạt nhân, có thể dẫn đến tình trạng thiếu hụt nguồn năng lượng, và theo tác giả, chính phủ sẽ chỉ còn cách thu tiền điện cao. Điều này không chỉ gây bất mãn dư luận mà còn có thể dẫn đến đình trệ sản xuất, suy giảm kinh tế. Ngược lại, phát điện hạt nhân không chỉ có chi phí thấp, hiệu suất cao mà còn đảm bảo cung cấp điện ổn định, người dân không lo thiếu điện, đồng thời tạo điều kiện đầu tư hấp dẫn cho doanh nghiệp nước ngoài, mang lại lợi ích lớn cho đời sống dân sinh. Tóm lại, theo tác giả, công nghệ năng lượng tái tạo vẫn chưa đủ phát triển, chi phí trang thiết bị cao và lượng điện cung cấp không bằng được phát điện hạt nhân. Dù các nhà máy phát điện hạt nhân có những lo ngại về an toàn, nhưng lợi ích về tiện ích và giá trị kinh tế mà chúng mang lại là điều mà các nguồn năng lượng xanh khác khó có thể thay thế được."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc5-v5-l09-check-01",
+        "prompt": "Bài 1 cho rằng điều gì khiến Đài Loan khó sơ tán khi có sự cố?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Mọi nhà máy ở rất xa biển"
+          },
+          {
+            "id": "b",
+            "text": "Dân cư đông và nguy cơ thiên tai"
+          },
+          {
+            "id": "c",
+            "text": "Có quá ít đường sắt"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Bài đọc nêu mật độ dân số và động đất, sóng thần.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc5-v5-l09-check-02",
+        "prompt": "Bài 1 nêu vấn đề kéo dài nào của điện hạt nhân?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Thiếu tài liệu học"
+          },
+          {
+            "id": "b",
+            "text": "Thiếu màu sơn nhà máy"
+          },
+          {
+            "id": "c",
+            "text": "Xử lý chất thải phóng xạ"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Tác giả nhắc 核廢料處理 là 難題.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc5-v5-l09-check-03",
+        "prompt": "Bài 2 cho rằng không nên đánh đồng các sự cố vì sao?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Mọi sự cố đều giống hệt"
+          },
+          {
+            "id": "b",
+            "text": "Không cần nghiên cứu nhà máy"
+          },
+          {
+            "id": "c",
+            "text": "Điều kiện và nguyên nhân từng sự cố khác nhau"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Bài đọc nói địa lý, vận hành và nguyên nhân không đồng nhất.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc5-v5-l09-check-04",
+        "prompt": "Theo bài 2, điện hạt nhân có ưu điểm gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Không cần thiết bị"
+          },
+          {
+            "id": "b",
+            "text": "Không bao giờ có rủi ro"
+          },
+          {
+            "id": "c",
+            "text": "Cung cấp điện ổn định và ít phát thải carbon"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Đây là các ưu điểm tác giả nêu, không phải khẳng định không có rủi ro.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc5-v5-l09-check-05",
+        "prompt": "Hai bài khác nhau ở trọng tâm nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Cả hai chỉ nói về học phí"
+          },
+          {
+            "id": "b",
+            "text": "Cả hai đều không nhắc môi trường"
+          },
+          {
+            "id": "c",
+            "text": "Một bài ưu tiên an toàn, bài kia ưu tiên tính ổn định và kinh tế"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Hai tác giả cân nhắc rủi ro và lợi ích khác nhau.",
+        "skill": "Đọc hiểu"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem phát âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc5-v5-l09-v001",
+      "cc5-v5-l09-v002",
+      "cc5-v5-l09-v003",
+      "cc5-v5-l09-v004",
+      "cc5-v5-l09-v005",
+      "cc5-v5-l09-v006",
+      "cc5-v5-l09-v007",
+      "cc5-v5-l09-v008",
+      "cc5-v5-l09-v009",
+      "cc5-v5-l09-v010",
+      "cc5-v5-l09-v011",
+      "cc5-v5-l09-v012",
+      "cc5-v5-l09-v013",
+      "cc5-v5-l09-v014",
+      "cc5-v5-l09-v015",
+      "cc5-v5-l09-v016",
+      "cc5-v5-l09-v017",
+      "cc5-v5-l09-v018",
+      "cc5-v5-l09-v019",
+      "cc5-v5-l09-v020",
+      "cc5-v5-l09-v021",
+      "cc5-v5-l09-v022",
+      "cc5-v5-l09-v023",
+      "cc5-v5-l09-v024",
+      "cc5-v5-l09-v025",
+      "cc5-v5-l09-v026",
+      "cc5-v5-l09-v027",
+      "cc5-v5-l09-v028",
+      "cc5-v5-l09-v029",
+      "cc5-v5-l09-v030",
+      "cc5-v5-l09-v031",
+      "cc5-v5-l09-v032",
+      "cc5-v5-l09-v033",
+      "cc5-v5-l09-v034",
+      "cc5-v5-l09-v035",
+      "cc5-v5-l09-v036",
+      "cc5-v5-l09-v037",
+      "cc5-v5-l09-v038",
+      "cc5-v5-l09-v039",
+      "cc5-v5-l09-v040",
+      "cc5-v5-l09-v041",
+      "cc5-v5-l09-v042",
+      "cc5-v5-l09-v043",
+      "cc5-v5-l09-v044",
+      "cc5-v5-l09-v045",
+      "cc5-v5-l09-v046",
+      "cc5-v5-l09-v047",
+      "cc5-v5-l09-v048",
+      "cc5-v5-l09-v049",
+      "cc5-v5-l09-v050",
+      "cc5-v5-l09-v051",
+      "cc5-v5-l09-v052",
+      "cc5-v5-l09-v053",
+      "cc5-v5-l09-v054",
+      "cc5-v5-l09-v055",
+      "cc5-v5-l09-v056",
+      "cc5-v5-l09-v057",
+      "cc5-v5-l09-v058",
+      "cc5-v5-l09-v059",
+      "cc5-v5-l09-v060",
+      "cc5-v5-l09-v061",
+      "cc5-v5-l09-v062",
+      "cc5-v5-l09-v063",
+      "cc5-v5-l09-v064",
+      "cc5-v5-l09-v065",
+      "cc5-v5-l09-v066",
+      "cc5-v5-l09-v067",
+      "cc5-v5-l09-v068",
+      "cc5-v5-l09-v069",
+      "cc5-v5-l09-v070",
+      "cc5-v5-l09-v071",
+      "cc5-v5-l09-v072",
+      "cc5-v5-l09-v073",
+      "cc5-v5-l09-v074",
+      "cc5-v5-l09-v075",
+      "cc5-v5-l09-v076",
+      "cc5-v5-l09-v077",
+      "cc5-v5-l09-v078",
+      "cc5-v5-l09-v079",
+      "cc5-v5-l09-v080",
+      "cc5-v5-l09-v081",
+      "cc5-v5-l09-v082",
+      "cc5-v5-l09-v083",
+      "cc5-v5-l09-v084",
+      "cc5-v5-l09-v085",
+      "cc5-v5-l09-v086",
+      "cc5-v5-l09-v087",
+      "cc5-v5-l09-v088",
+      "cc5-v5-l09-v089",
+      "cc5-v5-l09-v090",
+      "cc5-v5-l09-v091",
+      "cc5-v5-l09-v092"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc5-v5-l09-grammar-01",
+      "title": "A、B 乃至（於）C",
+      "structure": "A、B，乃至（於）C",
+      "explanation": "Liệt kê theo mức độ tăng dần: từ A, B cho đến cả C. C thường rộng hơn hoặc gây bất ngờ hơn hai mục trước.",
+      "examples": [
+        {
+          "chinese": "這個決定影響學生、家長，乃至整個社區。",
+          "simplified": "这个决定影响学生、家长，乃至整个社区。",
+          "pinyin": "zhè gè jué dìng yǐng xiǎng xué shēng 、 jiā zhǎng ， nǎi zhì zhěng gè shè qū 。",
+          "meaningVi": "Quyết định này ảnh hưởng học sinh, phụ huynh, thậm chí cả cộng đồng."
+        },
+        {
+          "chinese": "她的故事感動了朋友、老師，乃至陌生人。",
+          "simplified": "她的故事感动了朋友、老师，乃至陌生人。",
+          "pinyin": "tā de gù shì gǎn dòng le péng yǒu 、 lǎo shī ， nǎi zhì mò shēng rén 。",
+          "meaningVi": "Câu chuyện của cô ấy làm bạn bè, thầy cô, thậm chí người lạ xúc động."
+        }
+      ],
+      "commonMistake": "Không dùng 乃至 cho một mục C không mở rộng mức độ hay phạm vi.",
+      "check": {
+        "id": "cc5-v5-l09-grammar-check-01",
+        "prompt": "「學生、家長，乃至整個社區」 nhấn gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ba nhóm không liên quan"
+          },
+          {
+            "id": "b",
+            "text": "Tác động mở rộng tới cả cộng đồng"
+          },
+          {
+            "id": "c",
+            "text": "Chỉ ảnh hưởng học sinh"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "乃至 mở rộng phạm vi.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l09-t04"
+    },
+    {
+      "id": "cc5-v5-l09-grammar-02",
+      "title": "A，也可以說 B",
+      "structure": "ý A，也可以說 + cách diễn đạt khác B",
+      "explanation": "Diễn đạt lại A từ một góc nhìn khác để làm rõ hàm ý. B phải liên quan đến A, không phải một luận điểm hoàn toàn mới.",
+      "examples": [
+        {
+          "chinese": "他每天都幫忙，也可以說是團隊的支柱。",
+          "simplified": "他每天都帮忙，也可以说是团队的支柱。",
+          "pinyin": "tā měi tiān dōu bāng máng ， yě kě yǐ shuō shì tuán duì de zhī zhù 。",
+          "meaningVi": "Anh ấy giúp đỡ mỗi ngày; có thể nói là chỗ dựa của cả nhóm."
+        },
+        {
+          "chinese": "她不願面對問題，也可以說是在逃避。",
+          "simplified": "她不愿面对问题，也可以说是在逃避。",
+          "pinyin": "tā bù yuàn miàn duì wèn tí ， yě kě yǐ shuō shì zài táo bì 。",
+          "meaningVi": "Cô ấy không muốn đối diện vấn đề; cũng có thể nói là đang né tránh."
+        }
+      ],
+      "commonMistake": "Không dùng B để thay đổi sự thật của A.",
+      "check": {
+        "id": "cc5-v5-l09-grammar-check-02",
+        "prompt": "「也可以說」 dùng để làm gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Nêu địa điểm"
+          },
+          {
+            "id": "b",
+            "text": "Nói lại ý trước theo cách khác"
+          },
+          {
+            "id": "c",
+            "text": "Chỉ thời gian"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Cụm này giải thích lại A.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l09-t04"
+    },
+    {
+      "id": "cc5-v5-l09-grammar-03",
+      "title": "任誰都…",
+      "structure": "任誰都 + kết quả/nhận xét",
+      "explanation": "Nhấn bất cứ ai trong hoàn cảnh đó cũng có thể có phản ứng tương tự. Với câu phủ định, nghĩa là không ai.",
+      "examples": [
+        {
+          "chinese": "看到這樣的畫面，任誰都會擔心。",
+          "simplified": "看到这样的画面，任谁都会担心。",
+          "pinyin": "kàn dào zhè yàng de huà miàn ， rèn shuí dōu huì dān xīn 。",
+          "meaningVi": "Thấy cảnh ấy, ai cũng sẽ lo."
+        },
+        {
+          "chinese": "這麼困難的事，任誰都無法立刻解決。",
+          "simplified": "这么困难的事，任谁都无法立刻解决。",
+          "pinyin": "zhè me kùn nán de shì ， rèn shuí dōu wú fǎ lì kè jiě jué 。",
+          "meaningVi": "Việc khó thế này, không ai có thể giải quyết ngay."
+        }
+      ],
+      "commonMistake": "Đừng hiểu 任誰 là một người cụ thể.",
+      "check": {
+        "id": "cc5-v5-l09-grammar-check-03",
+        "prompt": "「任誰都會擔心」 nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Chỉ một người lo"
+          },
+          {
+            "id": "b",
+            "text": "Không ai biết"
+          },
+          {
+            "id": "c",
+            "text": "Ai cũng sẽ lo"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "任誰都 nhấn phạm vi mọi người.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l09-t04"
+    },
+    {
+      "id": "cc5-v5-l09-grammar-04",
+      "title": "因應 + tình huống",
+      "structure": "因應 + thay đổi/vấn đề + hành động đối phó",
+      "explanation": "Nêu việc điều chỉnh hành động để ứng phó tình huống mới. Trong bài 1, các nước xây nhà máy để đáp ứng nhu cầu điện tăng.",
+      "examples": [
+        {
+          "chinese": "學校因應颱風調整上課時間。",
+          "simplified": "学校因应台风调整上课时间。",
+          "pinyin": "xué xiào yīn yīng tái fēng diào zhěng shàng kè shí jiān 。",
+          "meaningVi": "Trường điều chỉnh giờ học để ứng phó bão."
+        },
+        {
+          "chinese": "政府因應用電需求增加供電量。",
+          "simplified": "政府因应用电需求增加供电量。",
+          "pinyin": "zhèng fǔ yīn yīng yòng diàn xū qiú zēng jiā gōng diàn liàng 。",
+          "meaningVi": "Chính phủ tăng lượng điện cung cấp để đáp ứng nhu cầu."
+        }
+      ],
+      "commonMistake": "因應 là phản ứng với hoàn cảnh, không phải nguyên nhân tự phát.",
+      "check": {
+        "id": "cc5-v5-l09-grammar-check-04",
+        "prompt": "「因應颱風調整時間」 nêu gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Điều chỉnh để ứng phó bão"
+          },
+          {
+            "id": "b",
+            "text": "Tạo ra bão"
+          },
+          {
+            "id": "c",
+            "text": "Không thay đổi gì"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "因應 chỉ sự ứng phó.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l09-t04"
+    },
+    {
+      "id": "cc5-v5-l09-grammar-05",
+      "title": "A 與 B 相比",
+      "structure": "A + 與 + B + 相比，+ nhận xét",
+      "explanation": "Đặt A cạnh B theo cùng tiêu chí. Cần nói rõ đang so sánh điểm gì: chi phí, độ an toàn hay sản lượng.",
+      "examples": [
+        {
+          "chinese": "今年與去年相比，電費高了一些。",
+          "simplified": "今年与去年相比，电费高了一些。",
+          "pinyin": "jīn nián yǔ qù nián xiāng bǐ ， diàn fèi gāo le yī xiē 。",
+          "meaningVi": "So với năm ngoái, tiền điện năm nay cao hơn một chút."
+        },
+        {
+          "chinese": "電車與汽車相比，排放量比較低。",
+          "simplified": "电车与汽车相比，排放量比较低。",
+          "pinyin": "diàn chē yǔ qì chē xiāng bǐ ， pái fàng liàng bǐ jiào dī 。",
+          "meaningVi": "So với ô tô, tàu điện có lượng phát thải thấp hơn."
+        }
+      ],
+      "commonMistake": "Không so sánh A và B theo hai tiêu chí khác nhau rồi rút ra kết luận.",
+      "check": {
+        "id": "cc5-v5-l09-grammar-check-05",
+        "prompt": "「今年與去年相比」 cho biết gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Nêu một nguyên nhân"
+          },
+          {
+            "id": "b",
+            "text": "Chỉ địa điểm"
+          },
+          {
+            "id": "c",
+            "text": "So sánh hai thời điểm"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "相比 đánh dấu phép so sánh.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l09-t08"
+    },
+    {
+      "id": "cc5-v5-l09-grammar-06",
+      "title": "遠 + tính từ + 於",
+      "structure": "遠 + 高／低／大／小 + 於 + đối tượng so sánh",
+      "explanation": "Nhấn mức độ chênh lệch lớn hơn cách nói 比 bình thường. Hai phía phải đo cùng một đại lượng.",
+      "examples": [
+        {
+          "chinese": "這個方案的成本遠低於原來的方案。",
+          "simplified": "这个方案的成本远低于原来的方案。",
+          "pinyin": "zhè gè fāng àn de chéng běn yuǎn dī yú yuán lái de fāng àn 。",
+          "meaningVi": "Chi phí phương án này thấp hơn nhiều so với phương án cũ."
+        },
+        {
+          "chinese": "今年的用電量遠高於去年。",
+          "simplified": "今年的用电量远高于去年。",
+          "pinyin": "jīn nián de yòng diàn liàng yuǎn gāo yú qù nián 。",
+          "meaningVi": "Lượng điện dùng năm nay cao hơn nhiều so với năm ngoái."
+        }
+      ],
+      "commonMistake": "遠 không có nghĩa là xa về địa lý trong mẫu so sánh này.",
+      "check": {
+        "id": "cc5-v5-l09-grammar-check-06",
+        "prompt": "「成本遠低於」 nhấn gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Hoàn toàn bằng nhau"
+          },
+          {
+            "id": "b",
+            "text": "Thấp hơn rất nhiều"
+          },
+          {
+            "id": "c",
+            "text": "Ở xa hơn"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "遠 tăng mức độ chênh lệch.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l09-t08"
+    },
+    {
+      "id": "cc5-v5-l09-grammar-07",
+      "title": "受 A 而有所 B",
+      "structure": "受 + tác động A + 而有所 + thay đổi B",
+      "explanation": "Diễn tả sự việc thay đổi vì chịu ảnh hưởng của A. Trong bài 2, tác giả cho rằng các nguồn tái tạo bị giới hạn bởi điều kiện tự nhiên.",
+      "examples": [
+        {
+          "chinese": "價格受季節影響而有所變化。",
+          "simplified": "价格受季节影响而有所变化。",
+          "pinyin": "jià gé shòu jì jié yǐng xiǎng ér yǒu suǒ biàn huà 。",
+          "meaningVi": "Giá thay đổi theo ảnh hưởng của mùa."
+        },
+        {
+          "chinese": "計畫受預算限制而有所調整。",
+          "simplified": "计划受预算限制而有所调整。",
+          "pinyin": "jì huà shòu yù suàn xiàn zhì ér yǒu suǒ diào zhěng 。",
+          "meaningVi": "Kế hoạch được điều chỉnh do giới hạn ngân sách."
+        }
+      ],
+      "commonMistake": "Sau 有所 thường là danh từ hoặc động từ chỉ sự thay đổi.",
+      "check": {
+        "id": "cc5-v5-l09-grammar-check-07",
+        "prompt": "「受季節影響而有所變化」 nói gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Tạo ra các mùa"
+          },
+          {
+            "id": "b",
+            "text": "Thay đổi do mùa tác động"
+          },
+          {
+            "id": "c",
+            "text": "Không thay đổi theo mùa"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "受 A chỉ nguyên nhân tác động.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l09-t08"
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc5-v5-l09-listening-01",
+      "prompt": "Nghe bài 1: tác giả nhắc ba sự cố ở đâu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ Đài Loan"
+        },
+        {
+          "id": "b",
+          "text": "Brazil, Úc và Canada"
+        },
+        {
+          "id": "c",
+          "text": "Mỹ, Ukraine và Nhật Bản"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc nêu 三哩島、車諾比、福島.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l09-t02"
+    },
+    {
+      "id": "cc5-v5-l09-listening-02",
+      "prompt": "Nghe bài 1: tác giả muốn phát triển nguồn nào để thay thế?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Năng lượng tái tạo"
+        },
+        {
+          "id": "b",
+          "text": "Nhiều bãi rác"
+        },
+        {
+          "id": "c",
+          "text": "Chỉ điện hạt nhân mới"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Câu cuối nói 再生能源以取代核能發電.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l09-t02"
+    },
+    {
+      "id": "cc5-v5-l09-listening-03",
+      "prompt": "Nghe bài 2: tác giả so sánh điện hạt nhân với điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ tàu điện"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ xe máy"
+        },
+        {
+          "id": "c",
+          "text": "Gió, nước, nhiệt điện và mặt trời"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc liệt kê 風力、水力、火力、太陽能.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l09-t06"
+    },
+    {
+      "id": "cc5-v5-l09-listening-04",
+      "prompt": "Nghe bài 2: tác giả nhấn điện hạt nhân cung cấp gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tiền học bổng"
+        },
+        {
+          "id": "b",
+          "text": "Nước uống"
+        },
+        {
+          "id": "c",
+          "text": "Nguồn điện ổn định"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc nói 又能穩定供電.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l09-t06"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc5-v5-l09-practice-01",
+      "prompt": "Điền: 這個決定影響學生、家長，____整個社區。",
+      "options": [
+        {
+          "id": "a",
+          "text": "乃至"
+        },
+        {
+          "id": "b",
+          "text": "因應"
+        },
+        {
+          "id": "c",
+          "text": "視為"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "乃至 mở rộng phạm vi tới cả cộng đồng.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l09-practice-02",
+      "prompt": "Điền: 她不願面對問題，____是在逃避。",
+      "options": [
+        {
+          "id": "a",
+          "text": "乃至"
+        },
+        {
+          "id": "b",
+          "text": "因應"
+        },
+        {
+          "id": "c",
+          "text": "也可以說"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "也可以說 diễn đạt lại từ góc nhìn khác.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l09-practice-03",
+      "prompt": "Điền: 看到這樣的畫面，____會擔心。",
+      "options": [
+        {
+          "id": "a",
+          "text": "任誰都"
+        },
+        {
+          "id": "b",
+          "text": "有所"
+        },
+        {
+          "id": "c",
+          "text": "相比"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "任誰都 nhấn bất cứ ai.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l09-practice-04",
+      "prompt": "Điền: 學校____颱風調整上課時間。",
+      "options": [
+        {
+          "id": "a",
+          "text": "乃至"
+        },
+        {
+          "id": "b",
+          "text": "遠低於"
+        },
+        {
+          "id": "c",
+          "text": "因應"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "因應: điều chỉnh để ứng phó.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l09-practice-05",
+      "prompt": "Điền: 今年____去年____，電費高了。",
+      "options": [
+        {
+          "id": "a",
+          "text": "與；相比"
+        },
+        {
+          "id": "b",
+          "text": "受；而有所"
+        },
+        {
+          "id": "c",
+          "text": "遠；於"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "與 B 相比 nói sự so sánh.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l09-practice-06",
+      "prompt": "Điền: 這個方案的成本____原來的方案。",
+      "options": [
+        {
+          "id": "a",
+          "text": "乃至"
+        },
+        {
+          "id": "b",
+          "text": "遠低於"
+        },
+        {
+          "id": "c",
+          "text": "任誰都"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "遠低於 nhấn thấp hơn nhiều.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l09-practice-07",
+      "prompt": "Điền: 價格____季節影響____變化。",
+      "options": [
+        {
+          "id": "a",
+          "text": "受；而有所"
+        },
+        {
+          "id": "b",
+          "text": "與；相比"
+        },
+        {
+          "id": "c",
+          "text": "遠；於"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "受 A 而有所 B diễn tả thay đổi vì tác động.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l09-practice-08",
+      "prompt": "Bài 2 thừa nhận điều gì về điện hạt nhân?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Không có bất cứ rủi ro nào"
+        },
+        {
+          "id": "b",
+          "text": "Không có giá trị kinh tế"
+        },
+        {
+          "id": "c",
+          "text": "Vẫn có lo ngại về an toàn"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Câu cuối nhắc 安全上的隱憂.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc5-v5-l09-assessment-01",
+      "prompt": "「危言聳聽」 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nói điều giật gân khiến người nghe sợ"
+        },
+        {
+          "id": "b",
+          "text": "Bình tĩnh giải thích"
+        },
+        {
+          "id": "c",
+          "text": "Kể chuyện vui"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài 1 dùng cụm này để phủ nhận việc chỉ gây hoang mang.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc5-v5-l09-assessment-02",
+      "prompt": "Bài 1 nhắc rủi ro thiên tai nào với nhà máy điện?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ tuyết rơi"
+        },
+        {
+          "id": "b",
+          "text": "Động đất, sóng thần và lũ lụt"
+        },
+        {
+          "id": "c",
+          "text": "Chỉ nắng nóng"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài 1 liệt kê các nguy cơ thiên tai.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l09-assessment-03",
+      "prompt": "「乃至」 làm gì trong danh sách?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nối hai địa điểm ngược hướng"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ việc đã hoàn tất"
+        },
+        {
+          "id": "c",
+          "text": "Mở rộng tới mức cao hơn hoặc phạm vi lớn hơn"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "乃至 có nghĩa “thậm chí đến”.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l09-assessment-04",
+      "prompt": "Theo bài 1, khó khăn nào của chất thải hạt nhân kéo dài?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ô nhiễm phóng xạ có thể tồn tại lâu và khó xử lý"
+        },
+        {
+          "id": "b",
+          "text": "Không cần nơi chứa"
+        },
+        {
+          "id": "c",
+          "text": "Chất thải tự biến mất ngay"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Tác giả nói 核廢料處理 là 難題.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l09-assessment-05",
+      "prompt": "「任誰都無法接受」 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ một người không chấp nhận"
+        },
+        {
+          "id": "b",
+          "text": "Mọi người đều đã chấp nhận"
+        },
+        {
+          "id": "c",
+          "text": "Không ai có thể chấp nhận"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "任誰都 với 無法 là phủ định cho mọi người.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l09-assessment-06",
+      "prompt": "Bài 2 vì sao không muốn đánh đồng các sự cố?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nhà máy và nguyên nhân từng sự cố khác nhau"
+        },
+        {
+          "id": "b",
+          "text": "Không có sự cố nào từng xảy ra"
+        },
+        {
+          "id": "c",
+          "text": "Mọi nhà máy giống hệt"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Tác giả nói 應該被視為獨立事件.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l09-assessment-07",
+      "prompt": "「遠低於」 nhấn điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hoàn toàn bằng nhau"
+        },
+        {
+          "id": "b",
+          "text": "Thấp hơn rất nhiều"
+        },
+        {
+          "id": "c",
+          "text": "Ở xa hơn"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "遠 tăng mức chênh lệch.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l09-assessment-08",
+      "prompt": "Theo bài 2, điểm mạnh nào được nêu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Không cần thiết bị"
+        },
+        {
+          "id": "b",
+          "text": "Điện ổn định và hiệu suất cao"
+        },
+        {
+          "id": "c",
+          "text": "Không cần kiểm soát"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Câu cuối nhắc 穩定供電 và 效率高.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l09-assessment-09",
+      "prompt": "「受天然條件影響而有所限制」 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Không bị điều kiện tác động"
+        },
+        {
+          "id": "b",
+          "text": "Tạo ra điều kiện tự nhiên"
+        },
+        {
+          "id": "c",
+          "text": "Bị giới hạn vì điều kiện tự nhiên"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "受 A 而有所 B nêu tác động và kết quả.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l09-assessment-10",
+      "prompt": "Hai bài có cùng kết luận về điện hạt nhân không?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Không, hai tác giả ưu tiên rủi ro và lợi ích khác nhau"
+        },
+        {
+          "id": "b",
+          "text": "Có, cả hai đều ủng hộ"
+        },
+        {
+          "id": "c",
+          "text": "Có, cả hai đều phản đối"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài 1 phản đối, bài 2 ủng hộ.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "writingTask": {
+    "id": "cc5-v5-l09-writing",
+    "title": "Cân nhắc rủi ro và lợi ích",
+    "prompt": "Viết một đoạn tiếng Hoa trình bày một ưu điểm và một rủi ro của một nguồn điện, rồi nêu tiêu chí bạn muốn ưu tiên.",
+    "sampleTraditional": "與其他發電方式相比，核能發電能穩定供電，但安全問題也令人擔憂。我認為能源政策應同時考慮成本、環境與人民的健康。",
+    "sampleSimplified": "与其他发电方式相比，核能发电能稳定供电，但安全问题也令人担忧。我认为能源政策应同时考虑成本、环境与人民的健康。"
+  }
+}

@@ -1791,9 +1791,16 @@
       "privatePath": "textbook/09-03.mp3",
       "bytes": 3165103,
       "sha256": "c7439bfcbe74e08da5ca154d753ad2fc82a852843766d22f43e0e69cb2a2bcf1",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        217
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 217,
+        "bookPage": 191,
+        "labelVi": "Âm thanh kèm trang 191",
+        "referenceCode": "09-03"
+      }
     },
     {
       "id": "cc5-textbook-l09-t04",

@@ -6,6 +6,7 @@ import lesson05Source from "../data/academy/cc5-lesson05-vocabulary.json" with {
 import lesson06Source from "../data/academy/cc5-lesson06-vocabulary.json" with { type: "json" };
 import lesson07Source from "../data/academy/cc5-lesson07-vocabulary.json" with { type: "json" };
 import lesson08Source from "../data/academy/cc5-lesson08-vocabulary.json" with { type: "json" };
+import lesson09Source from "../data/academy/cc5-lesson09-vocabulary.json" with { type: "json" };
 import { cc1Lesson01Words } from "./cc1-lesson01-vocabulary.ts";
 import { cc1CourseVocabularySets } from "./cc1-course-vocabulary.ts";
 import { cc2VocabularySets } from "./cc2-course-vocabulary.ts";
@@ -185,6 +186,27 @@ export const cc5Lesson08Words: VocabularyWord[] = lesson08Source.records.map((re
   translation: record.exampleVi,
 });
 
+const knownWordsForLesson09 = [...knownWordsForLesson08, ...cc5Lesson08Words];
+export const cc5Lesson09Words: VocabularyWord[] = lesson09Source.records.map((record) => knownWordsForLesson09.find((word) =>
+  word.traditional === record.traditional && normalized(word.pinyin) === normalized(record.pinyin) &&
+  (word.wordClass === record.wordClass || word.meaning === record.meaningVi),
+) ?? {
+  id: record.id,
+  source: "textbook",
+  sourceRecordId: record.id,
+  sourceLabel: "Giáo trình tiếng Hoa đương đại · Tập 5 · Bài 09",
+  hanzi: record.traditional,
+  traditional: record.traditional,
+  simplified: record.simplified,
+  pinyin: record.pinyin,
+  meaning: record.meaningVi,
+  wordClass: record.wordClass,
+  example: record.exampleTraditional,
+  exampleTraditional: record.exampleTraditional,
+  exampleSimplified: record.exampleSimplified,
+  translation: record.exampleVi,
+});
+
 export const cc5VocabularySets: VocabularySet[] = [{
   id: source.lessonId,
   title: "Bài 01 · 言論自由的界線",
@@ -225,4 +247,9 @@ export const cc5VocabularySets: VocabularySet[] = [{
   title: "Bài 08 · 左右為難的難民問題",
   subtitle: "Bài toán người tị nạn: khó xử cả hai phía",
   words: cc5Lesson08Words,
+}, {
+  id: lesson09Source.lessonId,
+  title: "Bài 09 · 有核到底可不可？",
+  subtitle: "Có nên dùng điện hạt nhân?",
+  words: cc5Lesson09Words,
 }];

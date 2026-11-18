@@ -111,7 +111,7 @@ export const academySeries = {
   id: "contemporary-chinese",
   title: "A Course in Contemporary Chinese",
   subtitle: "Giáo trình tiếng Hoa đương đại",
-  volumeIds: ["cc1-v1", "cc2-v2", "cc3-v3", "cc4-v4", "cc5-v5"],
+  volumeIds: ["cc1-v1", "cc2-v2", "cc3-v3", "cc4-v4", "cc5-v5", "cc6-v6"],
 } as const;
 export const academyVolume = {
   id: "cc1-v1",
@@ -191,6 +191,12 @@ export const academyVolume5 = {
   seriesId: academySeries.id,
   number: 5,
   lessonIds: Array.from({ length: 10 }, (_, index) => `cc5-v5-l${String(index + 1).padStart(2, "0")}`),
+} as const;
+export const academyVolume6 = {
+  id: "cc6-v6",
+  seriesId: academySeries.id,
+  number: 6,
+  lessonIds: [],
 } as const;
 export const academyVolume5Lesson01 = {
   ...cc5Lesson01Data,

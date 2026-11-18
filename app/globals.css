@@ -530,6 +530,8 @@ html[data-theme="dark"] .home-path-card p { color: var(--muted); }
 .academy-shelf { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 22px; }
 .academy-book-card { display: grid; grid-template-columns: minmax(140px,.7fr) 1fr; min-height: 310px; overflow: hidden; border: 1px solid var(--border); border-radius: 26px; background: var(--surface); box-shadow: 0 14px 34px var(--shadow-color); }
 .academy-book-cover { display: flex; flex-direction: column; justify-content: space-between; gap: 15px; padding: 25px 20px; background: linear-gradient(145deg,#0b348e,#011a66 60%,#07366b); color: #fff; box-shadow: inset -11px 0 14px rgba(0,0,0,.16); }
+.academy-book-cover.academy-book-cover--image { position: relative; padding: 0; background: #0b348e; box-shadow: none; }
+.academy-book-cover-image { object-fit: contain; }
 .academy-book-cover-kicker { font-size: 9px; font-weight: 800; letter-spacing: .18em; opacity: .8; }
 .academy-book-cover-mark { align-self: flex-end; font-family: var(--font-chinese); font-size: 52px; line-height: 1; opacity: .72; }
 .academy-book-cover-title { max-width: 100%; overflow-wrap: normal; font-size: clamp(19px,2vw,28px); font-weight: 800; line-height: 1.12; letter-spacing: -.04em; }

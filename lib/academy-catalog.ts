@@ -48,7 +48,8 @@ import cc5Lesson02Data from "../data/academy/cc5-lesson02.json" with { type: "js
 import cc5Lesson03Data from "../data/academy/cc5-lesson03.json" with { type: "json" };
 import cc5Lesson04Data from "../data/academy/cc5-lesson04.json" with { type: "json" };
 import cc5Lesson05Data from "../data/academy/cc5-lesson05.json" with { type: "json" };
-import { cc5Lesson01Words, cc5Lesson02Words, cc5Lesson03Words, cc5Lesson04Words, cc5Lesson05Words } from "./cc5-course-vocabulary.ts";
+import cc5Lesson06Data from "../data/academy/cc5-lesson06.json" with { type: "json" };
+import { cc5Lesson01Words, cc5Lesson02Words, cc5Lesson03Words, cc5Lesson04Words, cc5Lesson05Words, cc5Lesson06Words } from "./cc5-course-vocabulary.ts";
 export { academyLesson01 };
 
 export const academyActivityKinds = ["lecture", "vocabulary", "grammar", "practice", "assessment"] as const;
@@ -207,7 +208,11 @@ export const academyVolume5Lesson05 = {
   ...cc5Lesson05Data,
   vocabulary: { ...cc5Lesson05Data.vocabulary, wordIds: cc5Lesson05Words.map((word) => word.id!) },
 } as unknown as AcademyLessonContent;
-export const academyVolume5Lessons = [academyVolume5Lesson01, academyVolume5Lesson02, academyVolume5Lesson03, academyVolume5Lesson04, academyVolume5Lesson05];
+export const academyVolume5Lesson06 = {
+  ...cc5Lesson06Data,
+  vocabulary: { ...cc5Lesson06Data.vocabulary, wordIds: cc5Lesson06Words.map((word) => word.id!) },
+} as unknown as AcademyLessonContent;
+export const academyVolume5Lessons = [academyVolume5Lesson01, academyVolume5Lesson02, academyVolume5Lesson03, academyVolume5Lesson04, academyVolume5Lesson05, academyVolume5Lesson06];
 export const academyVolume3Lesson01 = {
   ...cc3Lesson01Data,
   vocabulary: { ...cc3Lesson01Data.vocabulary, wordIds: cc3Lesson01Words.map((word) => word.id!) },

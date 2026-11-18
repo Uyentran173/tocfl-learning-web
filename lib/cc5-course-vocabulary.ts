@@ -3,6 +3,7 @@ import lesson02Source from "../data/academy/cc5-lesson02-vocabulary.json" with {
 import lesson03Source from "../data/academy/cc5-lesson03-vocabulary.json" with { type: "json" };
 import lesson04Source from "../data/academy/cc5-lesson04-vocabulary.json" with { type: "json" };
 import lesson05Source from "../data/academy/cc5-lesson05-vocabulary.json" with { type: "json" };
+import lesson06Source from "../data/academy/cc5-lesson06-vocabulary.json" with { type: "json" };
 import { cc1Lesson01Words } from "./cc1-lesson01-vocabulary.ts";
 import { cc1CourseVocabularySets } from "./cc1-course-vocabulary.ts";
 import { cc2VocabularySets } from "./cc2-course-vocabulary.ts";
@@ -119,6 +120,27 @@ export const cc5Lesson05Words: VocabularyWord[] = lesson05Source.records.map((re
   translation: record.exampleVi,
 });
 
+const knownWordsForLesson06 = [...knownWordsForLesson05, ...cc5Lesson05Words];
+export const cc5Lesson06Words: VocabularyWord[] = lesson06Source.records.map((record) => knownWordsForLesson06.find((word) =>
+  word.traditional === record.traditional && normalized(word.pinyin) === normalized(record.pinyin) &&
+  (word.wordClass === record.wordClass || word.meaning === record.meaningVi),
+) ?? {
+  id: record.id,
+  source: "textbook",
+  sourceRecordId: record.id,
+  sourceLabel: "Giáo trình tiếng Hoa đương đại · Tập 5 · Bài 06",
+  hanzi: record.traditional,
+  traditional: record.traditional,
+  simplified: record.simplified,
+  pinyin: record.pinyin,
+  meaning: record.meaningVi,
+  wordClass: record.wordClass,
+  example: record.exampleTraditional,
+  exampleTraditional: record.exampleTraditional,
+  exampleSimplified: record.exampleSimplified,
+  translation: record.exampleVi,
+});
+
 export const cc5VocabularySets: VocabularySet[] = [{
   id: source.lessonId,
   title: "Bài 01 · 言論自由的界線",
@@ -144,4 +166,9 @@ export const cc5VocabularySets: VocabularySet[] = [{
   title: "Bài 05 · 代理孕母，帶來幸福？",
   subtitle: "Mang thai hộ có đem lại hạnh phúc?",
   words: cc5Lesson05Words,
+}, {
+  id: lesson06Source.lessonId,
+  title: "Bài 06 · 死刑的存廢",
+  subtitle: "Giữ hay bãi bỏ án tử hình",
+  words: cc5Lesson06Words,
 }];

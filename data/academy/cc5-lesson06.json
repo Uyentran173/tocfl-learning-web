@@ -1,0 +1,1194 @@
+{
+  "contentVersion": 2,
+  "id": "cc5-v5-l06",
+  "title": "死刑的存廢",
+  "titleVi": "Giữ hay bãi bỏ án tử hình",
+  "description": "Đọc và so sánh hai lập luận về việc duy trì hay bãi bỏ án tử hình.",
+  "objectives": [
+    "Tóm tắt được luận điểm và dẫn chứng của hai tác giả.",
+    "Dùng chín mẫu câu để nêu góc nhìn, ví dụ, điều kiện và hệ quả.",
+    "Viết một ý kiến có lập luận và tôn trọng quan điểm khác."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Cùng một vấn đề pháp lý, hai tác giả ưu tiên những giá trị khác nhau. Hãy phân biệt dẫn chứng, giả định và kết luận trong từng bài trước khi nêu ý kiến của mình.",
+    "sections": [
+      {
+        "id": "cc5-v5-l06-section-01",
+        "title": "An toàn và răn đe",
+        "body": "Bài đọc 1 lập luận từ an toàn cộng đồng, sự răn đe và cảm nhận của thân nhân nạn nhân.",
+        "chinese": "站在社會大眾的立場，死刑有存在的必要。",
+        "simplified": "站在社会大众的立场，死刑有存在的必要。",
+        "pinyin": "zhàn zài shè huì dà zhòng de lì chǎng ， sǐ xíng yǒu cún zài de bì yào 。",
+        "meaningVi": "Theo tác giả, từ góc nhìn của cộng đồng, án tử hình là cần thiết."
+      },
+      {
+        "id": "cc5-v5-l06-section-02",
+        "title": "Nhân quyền và nguy cơ xử sai",
+        "body": "Bài đọc 2 nhấn khả năng phán quyết sai và mong muốn giải quyết vấn đề từ giáo dục.",
+        "chinese": "生命無價，一旦發生誤判且執行死刑，再多的賠償金也難以彌補。",
+        "simplified": "生命无价，一旦发生误判且执行死刑，再多的赔偿金也难以弥补。",
+        "pinyin": "shēng mìng wú jià ， yí dàn fā shēng wù pàn qiě zhí xíng sǐ xíng ， zài duō de péi cháng jīn yě nán yǐ mí bǔ 。",
+        "meaningVi": "Theo tác giả, sinh mạng là vô giá; nếu xử án sai rồi thi hành án tử hình thì không khoản bồi thường nào có thể bù đắp."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc5-v5-l06-reading1",
+        "title": "Bài đọc 1 · Ủng hộ duy trì án tử hình",
+        "context": "Tác giả ưu tiên an toàn cộng đồng, răn đe và cảm nhận của thân nhân nạn nhân.",
+        "audioTrackId": "cc5-textbook-l06-t02",
+        "turns": [
+          {
+            "speaker": "Tác giả",
+            "chinese": "「隨機殺人」、「為了領保險金殺害親人」、「商人大賣黑心食品」…面對這類社會案件，如果你是法官會怎麼判呢？有期徒刑、無期徒刑，還是死刑？判決的考量是為了給死者一個交代、以彌補家屬失去親人的痛苦，或者是為了符合社會大眾的期待，還是不讓犯人有機會出獄傷害別人呢？相信你的心中有著一把尺。站在社會大眾的立場，死刑有存在的必要。因為在現行制度下，即使被判無期徒刑的人也有假釋出獄的機會，只有死刑才可以將罪犯永久與社會隔離，被害家屬不用害怕遭到報復，一般大眾也可以安心過日子。若以判無期徒刑取代死刑，政府須付出的金錢數目非常大，甚至得提供醫療及養老，等於用納稅人的錢來養罪犯。懲罰可以有效嚇阻犯罪。以交通罰單為例，知道闖紅燈會被開罰單，大部分的人會因此遵守規則。同理，如果知道犯了某些罪可能會被判死刑，多少會擔心嚴重的後果而不敢犯罪。換句話說，死刑仍能有效控制多數人的行為，具有維持的價值。",
+            "simplified": "「随机杀人」、「为了领保险金杀害亲人」、「商人大卖黑心食品」…面对这类社会案件，如果你是法官会怎么判呢？有期徒刑、无期徒刑，还是死刑？判决的考量是为了给死者一个交代、以弥补家属失去亲人的痛苦，或者是为了符合社会大众的期待，还是不让犯人有机会出狱伤害别人呢？相信你的心中有着一把尺。站在社会大众的立场，死刑有存在的必要。因为在现行制度下，即使被判无期徒刑的人也有假释出狱的机会，只有死刑才可以将罪犯永久与社会隔离，被害家属不用害怕遭到报复，一般大众也可以安心过日子。若以判无期徒刑取代死刑，政府须付出的金钱数目非常大，甚至得提供医疗及养老，等于用纳税人的钱来养罪犯。惩罚可以有效吓阻犯罪。以交通罚单为例，知道闯红灯会被开罚单，大部分的人会因此遵守规则。同理，如果知道犯了某些罪可能会被判死刑，多少会担心严重的后果而不敢犯罪。换句话说，死刑仍能有效控制多数人的行为，具有维持的价值。",
+            "pinyin": "「 suí jī shā rén 」 、 「 wèi le lǐng bǎo xiǎn jīn shā hài qīn rén 」 、 「 shāng rén dà mài hēi xīn shí pǐn 」 … miàn duì zhè lèi shè huì àn jiàn ， rú guǒ nǐ shì fǎ guān huì zěn me pàn ne ？ yǒu qī tú xíng 、 wú qī tú xíng ， hái shì sǐ xíng ？ pàn jué de kǎo liáng shì wèi le gěi sǐ zhě yī gè jiāo dài 、 yǐ mí bǔ jiā shǔ shī qù qīn rén de tòng kǔ ， huò zhě shì wèi le fú hé shè huì dà zhòng de qī dài ， hái shì bù ràng fàn rén yǒu jī huì chū yù shāng hài bié rén ne ？ xiāng xìn nǐ de xīn zhōng yǒu zhù yī bǎ chǐ 。 zhàn zài shè huì dà zhòng de lì chǎng ， sǐ xíng yǒu cún zài de bì yào 。 yīn wèi zài xiàn xíng zhì dù xià ， jí shǐ bèi pàn wú qī tú xíng de rén yě yǒu jiǎ shì chū yù de jī huì ， zhǐ yǒu sǐ xíng cái kě yǐ jiāng zuì fàn yǒng jiǔ yǔ shè huì gé lí ， bèi hài jiā shǔ bù yòng hài pà zāo dào bào fù ， yì bān dà zhòng yě kě yǐ ān xīn guò rì zi 。 ruò yǐ pàn wú qī tú xíng qǔ dài sǐ xíng ， zhèng fǔ xū fù chū de jīn qián shù mù fēi cháng dà ， shèn zhì dé tí gōng yī liáo jí yǎng lǎo ， děng yú yòng nà shuì rén de qián lái yǎng zuì fàn 。 chéng fá kě yǐ yǒu xiào xià zǔ fàn zuì 。 yǐ jiāo tōng fá dān wèi lì ， zhī dào chuǎng hóng dēng huì bèi kāi fá dān ， dà bù fèn de rén huì yīn cǐ zūn shǒu guī zé 。 tóng lǐ ， rú guǒ zhī dào fàn le mǒu xiē zuì kě néng huì bèi pàn sǐ xíng ， duō shǎo huì dān xīn yán zhòng de hòu guǒ ér bù gǎn fàn zuì 。 huàn jù huà shuō ， sǐ xíng réng néng yǒu xiào kòng zhì duō shù rén de xíng wèi ， jù yǒu wéi chí de jià zhí 。",
+            "meaningVi": "“Giết người ngẫu nhiên”, “sát hại người thân để lấy tiền bảo hiểm”, “doanh nghiệp bán thực phẩm vô lương tâm”... Trước những vụ việc như thế, nếu là thẩm phán, bạn sẽ tuyên án tù có thời hạn, tù chung thân hay tử hình? Khi quyết định, bạn muốn cho người đã mất một lời giải đáp, bù đắp nỗi đau cho gia đình, đáp ứng mong đợi của xã hội, hay ngăn người phạm tội ra tù rồi tiếp tục gây hại? Hẳn mỗi người đều có cách cân nhắc riêng. Đứng từ phía cộng đồng, tác giả cho rằng án tử hình là cần thiết. Theo quy định hiện hành, ngay cả người bị kết án tù chung thân cũng có thể được tha tù trước hạn; chỉ án tử hình mới khiến người phạm tội vĩnh viễn không thể trở lại xã hội. Khi đó, thân nhân nạn nhân không phải sợ bị trả thù và người dân có thể yên tâm sinh sống. Nếu thay án tử hình bằng án chung thân, chính phủ sẽ phải chi rất nhiều tiền, kể cả tiền chăm sóc y tế và tuổi già cho người phạm tội; như vậy chẳng khác nào dùng tiền thuế để nuôi họ. Tác giả còn cho rằng hình phạt có thể răn đe tội phạm. Chẳng hạn, biết vượt đèn đỏ sẽ bị phạt, đa số mọi người sẽ tuân thủ luật. Tương tự, nếu biết một số tội có thể bị xử tử hình, người ta sẽ ngại hậu quả nghiêm trọng mà không dám phạm tội. Nói cách khác, theo tác giả, án tử hình vẫn có giá trị trong việc kiềm chế hành vi của nhiều người."
+          },
+          {
+            "speaker": "Tác giả",
+            "chinese": "相較於人權團體重視的是罪犯的生命，反對廢除死刑者看重的則是被害人的生命價值，認為應該給死者一個交代。更何況，除非死者是孤兒，不然殺了一個人也等於毀了一個家庭。難怪許多被害人家屬氣憤地表示：「我們如何不恨？幸虧還有政府能為我們報仇，雖說以人道的方式執行死刑也還是太便宜他了！」家屬希望廢死團體不要用「置身事外」的態度跟他們談「放下」、原諒凶手，而是能感同身受地想像一下死者生前的恐懼與家屬一輩子的心痛。若拿出「人權的天平」來衡量，坦白說，以判死來撫慰死者與家屬只是「剛剛好」而已。",
+            "simplified": "相较于人权团体重视的是罪犯的生命，反对废除死刑者看重的则是被害人的生命价值，认为应该给死者一个交代。更何况，除非死者是孤儿，不然杀了一个人也等于毁了一个家庭。难怪许多被害人家属气愤地表示：「我们如何不恨？幸亏还有政府能为我们报仇，虽说以人道的方式执行死刑也还是太便宜他了！」家属希望废死团体不要用「置身事外」的态度跟他们谈「放下」、原谅凶手，而是能感同身受地想像一下死者生前的恐惧与家属一辈子的心痛。若拿出「人权的天平」来衡量，坦白说，以判死来抚慰死者与家属只是「刚刚好」而已。",
+            "pinyin": "xiāng jiào yú rén quán tuán tǐ zhòng shì de shì zuì fàn de shēng mìng ， fǎn duì fèi chú sǐ xíng zhě kàn zhòng de zé shì bèi hài rén de shēng mìng jià zhí ， rèn wèi yīng gāi gěi sǐ zhě yī gè jiāo dài 。 gèng hé kuàng ， chú fēi sǐ zhě shì gū ér ， bù rán shā le yī gè rén yě děng yú huǐ le yī gè jiā tíng 。 nán guài xǔ duō bèi hài rén jiā shǔ qì fèn dì biǎo shì ： 「 wǒ men rú hé bù hèn ？ xìng kuī hái yǒu zhèng fǔ néng wèi wǒ men bào chóu ， suī shuō yǐ rén dào de fāng shì zhí xíng sǐ xíng yě hái shì tài pián yi tā le ！ 」 jiā shǔ xī wàng fèi sǐ tuán tǐ bú yào yòng 「 zhì shēn shì wài 」 de tài dù gēn tā men tán 「 fàng xià 」 、 yuán liàng xiōng shǒu ， ér shì néng gǎn tóng shēn shòu dì xiǎng xiàng yī xià sǐ zhě shēng qián de kǒng jù yǔ jiā shǔ yī bèi zi de xīn tòng 。 ruò ná chū 「 rén quán de tiān píng 」 lái héng liáng ， tǎn bái shuō ， yǐ pàn sǐ lái fǔ wèi sǐ zhě yǔ jiā shǔ zhǐ shì 「 gāng gāng hǎo 」 ér yǐ 。",
+            "meaningVi": "Trong khi các tổ chức nhân quyền chú trọng tính mạng của người phạm tội, những người phản đối bãi bỏ án tử hình lại coi trọng tính mạng của nạn nhân và cho rằng cần cho người đã khuất một lời giải đáp. Hơn nữa, trừ khi nạn nhân là trẻ mồ côi, giết một người cũng có nghĩa là hủy hoại cả một gia đình. Vì vậy, nhiều thân nhân nạn nhân phẫn nộ nói: “Sao chúng tôi có thể không căm giận? May mà chính phủ còn có thể đòi lại công bằng cho chúng tôi. Dù thi hành án tử hình bằng cách nhân đạo, như vậy vẫn là quá nhẹ với kẻ đó!” Họ mong các nhóm vận động bãi bỏ án tử hình không đứng ngoài cuộc rồi khuyên họ “buông bỏ” hay tha thứ cho hung thủ, mà hãy thử đặt mình vào nỗi sợ của nạn nhân trước khi mất và nỗi đau đeo đẳng người nhà suốt đời. Nếu đặt lên “cán cân nhân quyền”, tác giả thẳng thắn cho rằng án tử hình để an ủi người đã mất và thân nhân chỉ vừa đủ mà thôi."
+          }
+        ]
+      },
+      {
+        "id": "cc5-v5-l06-reading2",
+        "title": "Bài đọc 2 · Ủng hộ bãi bỏ án tử hình",
+        "context": "Tác giả nhấn rủi ro xử án sai, nhân quyền và giáo dục.",
+        "audioTrackId": "cc5-textbook-l06-t06",
+        "turns": [
+          {
+            "speaker": "Tác giả",
+            "chinese": "即使國際人權組織致力推動廢除死刑，但在亞洲許多國家，廢死仍是條漫漫長路。政府有責任保護人民的安全，但死刑卻是讓某些人的生命不再受到保護。死刑同樣是殺人行為，「法律規定不可以殺人，國家卻可以殺人」，這個刑罰的存在顯得很矛盾。除了推動廢死，人權團體也費了很多心力救出被冤枉的人。在他們的努力下，有些原已等待槍決的罪犯活著回了家。可見無論科技多麼進步、犯案證據多麼充足，都不能百分之百保證法官不會誤判。對主張維持死刑的人來說，這是「為了社會安全不得不承受的失誤」，然而生命無價，一旦發生誤判且執行死刑，再多的賠償金也難以彌補。再壞的人都有善良的一面，無論犯下多麼殘忍的罪，生命都是可貴的，罪犯的人權也需要受到保護。受害人與家屬的遭遇雖然讓人同情，但執行死刑也換不回親人的生命，若能選擇原諒、放下或和解，透過教育使罪犯認錯，給他們重新做人的機會，應該比執行死刑更加有意義，這樣的大愛是社會不應放棄的理想。",
+            "simplified": "即使国际人权组织致力推动废除死刑，但在亚洲许多国家，废死仍是条漫漫长路。政府有责任保护人民的安全，但死刑却是让某些人的生命不再受到保护。死刑同样是杀人行为，「法律规定不可以杀人，国家却可以杀人」，这个刑罚的存在显得很矛盾。除了推动废死，人权团体也费了很多心力救出被冤枉的人。在他们的努力下，有些原已等待枪决的罪犯活着回了家。可见无论科技多么进步、犯案证据多么充足，都不能百分之百保证法官不会误判。对主张维持死刑的人来说，这是「为了社会安全不得不承受的失误」，然而生命无价，一旦发生误判且执行死刑，再多的赔偿金也难以弥补。再坏的人都有善良的一面，无论犯下多么残忍的罪，生命都是可贵的，罪犯的人权也需要受到保护。受害人与家属的遭遇虽然让人同情，但执行死刑也换不回亲人的生命，若能选择原谅、放下或和解，透过教育使罪犯认错，给他们重新做人的机会，应该比执行死刑更加有意义，这样的大爱是社会不应放弃的理想。",
+            "pinyin": "jí shǐ guó jì rén quán zǔ zhī zhì lì tuī dòng fèi chú sǐ xíng ， dàn zài yà zhōu xǔ duō guó jiā ， fèi sǐ réng shì tiáo màn màn zhǎng lù 。 zhèng fǔ yǒu zé rèn bǎo hù rén mín de ān quán ， dàn sǐ xíng què shì ràng mǒu xiē rén de shēng mìng bù zài shòu dào bǎo hù 。 sǐ xíng tóng yàng shì shā rén xíng wèi ， 「 fǎ lǜ guī dìng bù kě yǐ shā rén ， guó jiā què kě yǐ shā rén 」 ， zhè gè xíng fá de cún zài xiǎn dé hěn máo dùn 。 chú le tuī dòng fèi sǐ ， rén quán tuán tǐ yě fèi le hěn duō xīn lì jiù chū bèi yuān wǎng de rén 。 zài tā men de nǔ lì xià ， yǒu xiē yuán yǐ děng dài qiāng jué de zuì fàn huó zhù huí le jiā 。 kě jiàn wú lùn kē jì duō me jìn bù 、 fàn àn zhèng jù duō me chōng zú ， dōu bù néng bǎi fēn zhī bǎi bǎo zhèng fǎ guān bù huì wù pàn 。 duì zhǔ zhāng wéi chí sǐ xíng de rén lái shuō ， zhè shì 「 wèi le shè huì ān quán bù dé bù chéng shòu de shī wù 」 ， rán ér shēng mìng wú jià ， yí dàn fā shēng wù pàn qiě zhí xíng sǐ xíng ， zài duō de péi cháng jīn yě nán yǐ mí bǔ 。 zài huài de rén dōu yǒu shàn liáng de yí miàn ， wú lùn fàn xià duō me cán rěn de zuì ， shēng mìng dōu shì kě guì de ， zuì fàn de rén quán yě xū yào shòu dào bǎo hù 。 shòu hài rén yǔ jiā shǔ de zāo yù suī rán ràng rén tóng qíng ， dàn zhí xíng sǐ xíng yě huàn bù huí qīn rén de shēng mìng ， ruò néng xuǎn zé yuán liàng 、 fàng xià huò hé jiě ， tòu guò jiào yù shǐ zuì fàn rèn cuò ， gěi tā men chóng xīn zuò rén de jī huì ， yīng gāi bǐ zhí xíng sǐ xíng gèng jiā yǒu yì yì ， zhè yàng de dà ài shì shè huì bù yīng fàng qì de lǐ xiǎng 。",
+            "meaningVi": "Dù các tổ chức nhân quyền quốc tế dốc sức thúc đẩy bãi bỏ án tử hình, tại nhiều nước châu Á, đó vẫn là một con đường dài. Chính phủ có trách nhiệm bảo vệ người dân, nhưng án tử hình lại khiến tính mạng của một số người không còn được bảo vệ. Tử hình cũng là hành vi giết người: “Luật cấm giết người, nhưng nhà nước lại được giết người.” Theo tác giả, hình phạt này có vẻ mâu thuẫn. Ngoài vận động bãi bỏ án tử hình, các tổ chức nhân quyền đã dành nhiều tâm sức cứu những người bị kết án oan; nhờ đó, có người từng chờ xử bắn đã được trở về nhà. Điều này cho thấy dù công nghệ tiến bộ và chứng cứ đầy đủ đến đâu, cũng không thể bảo đảm thẩm phán không phán quyết sai. Người ủng hộ duy trì án tử hình có thể xem đó là “sai sót phải chấp nhận để bảo vệ xã hội”, nhưng sinh mạng là vô giá. Một khi đã xử tử người bị kết án oan, tiền bồi thường bao nhiêu cũng không thể bù đắp. Người xấu đến đâu vẫn có mặt lương thiện; dù phạm tội tàn nhẫn, sinh mạng và nhân quyền của họ vẫn cần được bảo vệ. Hoàn cảnh của nạn nhân và gia đình rất đáng cảm thông, nhưng xử tử hung thủ cũng không đem người thân trở lại. Nếu có thể tha thứ, buông bỏ hoặc hòa giải, giáo dục người phạm tội nhận lỗi và cho họ cơ hội làm lại cuộc đời, tác giả cho rằng việc ấy có ý nghĩa hơn thi hành án tử hình. Lòng nhân ái như vậy là lý tưởng xã hội không nên từ bỏ."
+          },
+          {
+            "speaker": "Tác giả",
+            "chinese": "廢除死刑並非忽視被害人家屬的感受。只是，用「一命還一命」的懲罰方法來讓家屬心裡好受一點，不但是種不健康的態度，也毀了罪犯的家庭，讓他們同樣承受失去親人的痛苦。也就是說，死刑只是報復的工具。目前歐洲各國多已廢除死刑，甚至是加入歐盟的條件之一，可見廢死已逐漸形成一股世界潮流。除了跟人權觀念的提升有關，也因為各國政府逐漸意識到死刑無法解決犯罪問題，因此唯有從教育做起，多關心身旁需要幫助的人，打造友善的社會環境，才能根本解決。",
+            "simplified": "废除死刑并非忽视被害人家属的感受。只是，用「一命还一命」的惩罚方法来让家属心里好受一点，不但是种不健康的态度，也毁了罪犯的家庭，让他们同样承受失去亲人的痛苦。也就是说，死刑只是报复的工具。目前欧洲各国多已废除死刑，甚至是加入欧盟的条件之一，可见废死已逐渐形成一股世界潮流。除了跟人权观念的提升有关，也因为各国政府逐渐意识到死刑无法解决犯罪问题，因此唯有从教育做起，多关心身旁需要帮助的人，打造友善的社会环境，才能根本解决。",
+            "pinyin": "fèi chú sǐ xíng bìng fēi hū shì bèi hài rén jiā shǔ de gǎn shòu 。 zhǐ shì ， yòng 「 yī mìng hái yī mìng 」 de chéng fá fāng fǎ lái ràng jiā shǔ xīn lǐ hǎo shòu yī diǎn ， bù dàn shì zhǒng bù jiàn kāng de tài dù ， yě huǐ le zuì fàn de jiā tíng ， ràng tā men tóng yàng chéng shòu shī qù qīn rén de tòng kǔ 。 yě jiù shì shuō ， sǐ xíng zhǐ shì bào fù de gōng jù 。 mù qián ōu zhōu gè guó duō yǐ fèi chú sǐ xíng ， shèn zhì shì jiā rù ōu méng de tiáo jiàn zhī yī ， kě jiàn fèi sǐ yǐ zhú jiàn xíng chéng yī gǔ shì jiè cháo liú 。 chú le gēn rén quán guān niàn de tí shēng yǒu guān ， yě yīn wèi gè guó zhèng fǔ zhú jiàn yì shí dào sǐ xíng wú fǎ jiě jué fàn zuì wèn tí ， yīn cǐ wéi yǒu cóng jiào yù zuò qǐ ， duō guān xīn shēn páng xū yào bāng zhù de rén ， dǎ zào yǒu shàn de shè huì huán jìng ， cái néng gēn běn jiě jué 。",
+            "meaningVi": "Bãi bỏ án tử hình không có nghĩa là phớt lờ cảm xúc của thân nhân nạn nhân. Tuy nhiên, dùng cách trừng phạt “mạng đền mạng” để họ thấy dễ chịu hơn, theo tác giả, là thái độ không lành mạnh; nó còn hủy hoại gia đình người phạm tội và khiến họ cũng phải chịu nỗi đau mất người thân. Nói cách khác, án tử hình chỉ là công cụ báo thù. Hiện nay, đa số nước châu Âu đã bãi bỏ án tử hình; đó thậm chí là một trong những điều kiện để gia nhập Liên minh châu Âu. Tác giả xem đây là một xu thế trên thế giới. Ngoài việc quan niệm về nhân quyền được nâng cao, các chính phủ cũng dần nhận ra án tử hình không giải quyết được tội phạm. Vì thế, theo tác giả, phải bắt đầu từ giáo dục, quan tâm hơn tới những người cần giúp đỡ quanh mình và xây dựng môi trường xã hội thân thiện thì mới giải quyết được vấn đề tận gốc."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc5-v5-l06-check-01",
+        "prompt": "Bài 1 nêu ba loại án nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Chỉ một loại án"
+          },
+          {
+            "id": "b",
+            "text": "Tù có thời hạn, tù chung thân và tử hình"
+          },
+          {
+            "id": "c",
+            "text": "Phạt tiền, trục xuất và cảnh cáo"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Bài đọc mở bằng câu hỏi so sánh ba loại án.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc5-v5-l06-check-02",
+        "prompt": "Theo bài 1, vì sao tác giả coi án tử hình có tác dụng?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Vì chắc chắn không tốn tiền"
+          },
+          {
+            "id": "b",
+            "text": "Vì mọi nạn nhân đều là trẻ mồ côi"
+          },
+          {
+            "id": "c",
+            "text": "Cách ly vĩnh viễn và răn đe"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Tác giả nêu lý do an toàn và răn đe.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc5-v5-l06-check-03",
+        "prompt": "Bài 1 muốn người vận động bãi bỏ án cân nhắc góc nhìn nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Thân nhân và nạn nhân"
+          },
+          {
+            "id": "b",
+            "text": "Chỉ nhà đầu tư"
+          },
+          {
+            "id": "c",
+            "text": "Chỉ người xem truyền hình"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Đoạn cuối nhấn cảm nhận của gia đình nạn nhân.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc5-v5-l06-check-04",
+        "prompt": "Bài 2 dùng trường hợp xử án oan để nói gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Mọi phán quyết đều sai"
+          },
+          {
+            "id": "b",
+            "text": "Bồi thường tiền luôn đủ"
+          },
+          {
+            "id": "c",
+            "text": "Sai lầm sau khi thi hành án không thể bù đắp"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Tác giả nhấn nguy cơ không thể đảo ngược.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc5-v5-l06-check-05",
+        "prompt": "Theo bài 2, muốn giảm tội phạm cần bắt đầu từ đâu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Chỉ cấm đọc báo"
+          },
+          {
+            "id": "b",
+            "text": "Giáo dục và môi trường xã hội hỗ trợ"
+          },
+          {
+            "id": "c",
+            "text": "Chỉ tăng tiền phạt xe"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Câu cuối nói 唯有從教育做起.",
+        "skill": "Đọc hiểu"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem phát âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc5-v5-l06-v001",
+      "cc5-v5-l06-v002",
+      "cc5-v5-l06-v003",
+      "cc5-v5-l06-v004",
+      "cc5-v5-l06-v005",
+      "cc5-v5-l06-v006",
+      "cc5-v5-l06-v007",
+      "cc5-v5-l06-v008",
+      "cc5-v5-l06-v009",
+      "cc5-v5-l06-v010",
+      "cc5-v5-l06-v011",
+      "cc5-v5-l06-v012",
+      "cc5-v5-l06-v013",
+      "cc5-v5-l06-v014",
+      "cc5-v5-l06-v015",
+      "cc5-v5-l06-v016",
+      "cc5-v5-l06-v017",
+      "cc5-v5-l06-v018",
+      "cc5-v5-l06-v019",
+      "cc5-v5-l06-v020",
+      "cc5-v5-l06-v021",
+      "cc5-v5-l06-v022",
+      "cc5-v5-l06-v023",
+      "cc5-v5-l06-v024",
+      "cc5-v5-l06-v025",
+      "cc5-v5-l06-v026",
+      "cc5-v5-l06-v027",
+      "cc5-v5-l06-v028",
+      "cc5-v5-l06-v029",
+      "cc5-v5-l06-v030",
+      "cc5-v5-l06-v031",
+      "cc5-v5-l06-v032",
+      "cc5-v5-l06-v033",
+      "cc5-v5-l06-v034",
+      "cc5-v5-l06-v035",
+      "cc5-v5-l06-v036",
+      "cc5-v5-l06-v037",
+      "cc5-v5-l06-v038",
+      "cc5-v5-l06-v039",
+      "cc5-v5-l06-v040",
+      "cc5-v5-l06-v041",
+      "cc5-v5-l06-v042",
+      "cc5-v5-l06-v043",
+      "cc5-v5-l06-v044",
+      "cc5-v5-l06-v045",
+      "cc5-v5-l06-v046",
+      "cc5-v5-l06-v047",
+      "cc5-v5-l06-v048",
+      "cc5-v5-l06-v049",
+      "cc5-v5-l06-v050",
+      "cc5-v5-l06-v051",
+      "cc5-v5-l06-v052",
+      "cc5-v5-l06-v053",
+      "cc5-v5-l06-v054",
+      "cc5-v5-l06-v055",
+      "cc5-v5-l06-v056",
+      "cc5-v5-l06-v057",
+      "cc5-v5-l06-v058",
+      "cc5-v5-l06-v059",
+      "cc5-v5-l06-v060",
+      "cc5-v5-l06-v061",
+      "cc5-v5-l06-v062",
+      "cc5-v5-l06-v063",
+      "cc5-v5-l06-v064",
+      "cc5-v5-l06-v065",
+      "cc5-v5-l06-v066",
+      "cc5-v5-l06-v067",
+      "cc5-v5-l06-v068",
+      "cc5-v5-l06-v069",
+      "cc5-v5-l06-v070",
+      "cc5-v5-l06-v071",
+      "cc5-v5-l06-v072",
+      "cc5-v5-l06-v073",
+      "cc5-v5-l06-v074",
+      "cc5-v5-l06-v075",
+      "cc5-v5-l06-v076",
+      "cc5-v5-l06-v077",
+      "cc5-v5-l06-v078",
+      "cc5-v5-l06-v079",
+      "cc5-v5-l06-v080",
+      "cc5-v5-l06-v081",
+      "cc5-v5-l06-v082",
+      "cc5-v5-l06-v083",
+      "cc5-v5-l06-v084",
+      "cc5-v5-l06-v085",
+      "cc5-v5-l06-v086",
+      "cc5-v5-l06-v087",
+      "cc5-v5-l06-v088",
+      "cc5-v5-l06-v089",
+      "cc5-v5-l06-v090",
+      "cc5-v5-l06-v091",
+      "cc5-v5-l06-v092",
+      "cc5-v5-l06-v093",
+      "cc5-v5-l06-v094",
+      "cc5-v5-l06-v095",
+      "cc5-v5-l06-v096",
+      "cc5-v5-l06-v097",
+      "cc5-v5-l06-v098",
+      "cc5-v5-l06-v099",
+      "cc5-v5-l06-v100"
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc5-v5-l06-grammar-01",
+      "title": "站在…的立場",
+      "structure": "站在 + người/nhóm + 的立場，+ quan điểm",
+      "explanation": "Đặt mình ở vị trí một người hoặc nhóm để giải thích vì sao họ nhìn vấn đề theo cách đó. Đây là góc nhìn, chưa phải kết luận đúng cho mọi người.",
+      "examples": [
+        {
+          "chinese": "站在家屬的立場，他們希望得到一個交代。",
+          "simplified": "站在家属的立场，他们希望得到一个交代。",
+          "pinyin": "zhàn zài jiā shǔ de lì chǎng ， tā men xī wàng dé dào yī gè jiāo dài 。",
+          "meaningVi": "Ở vị trí thân nhân, họ mong có một lời giải đáp."
+        },
+        {
+          "chinese": "站在學生的立場，課程時間太長。",
+          "simplified": "站在学生的立场，课程时间太长。",
+          "pinyin": "zhàn zài xué shēng de lì chǎng ， kè chéng shí jiān tài zhǎng 。",
+          "meaningVi": "Đứng từ phía học sinh, giờ học quá dài."
+        }
+      ],
+      "commonMistake": "Sau 站在 là chủ thể của góc nhìn, không phải địa điểm đứng.",
+      "check": {
+        "id": "cc5-v5-l06-grammar-check-01",
+        "prompt": "「站在家屬的立場」 nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Đứng trong nhà của thân nhân"
+          },
+          {
+            "id": "b",
+            "text": "Nói thay cho mọi người"
+          },
+          {
+            "id": "c",
+            "text": "Đặt mình vào góc nhìn của thân nhân"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "立場 ở đây là quan điểm.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l06-t04"
+    },
+    {
+      "id": "cc5-v5-l06-grammar-02",
+      "title": "以…為例",
+      "structure": "以 + ví dụ + 為例，+ điều minh họa",
+      "explanation": "Dẫn một ví dụ cụ thể để minh họa cho luận điểm vừa nêu. Ví dụ phải liên quan trực tiếp đến ý muốn chứng minh.",
+      "examples": [
+        {
+          "chinese": "以交通罰單為例，人們知道違規會被罰。",
+          "simplified": "以交通罚单为例，人们知道违规会被罚。",
+          "pinyin": "yǐ jiāo tōng fá dān wèi lì ， rén men zhī dào wéi guī huì bèi fá 。",
+          "meaningVi": "Lấy giấy phạt giao thông làm ví dụ, người ta biết vi phạm sẽ bị phạt."
+        },
+        {
+          "chinese": "以這座城市為例，公車班次比以前多。",
+          "simplified": "以这座城市为例，公车班次比以前多。",
+          "pinyin": "yǐ zhè zuò chéng shì wèi lì ， gōng chē bān cì bǐ yǐ qián duō 。",
+          "meaningVi": "Lấy thành phố này làm ví dụ, số chuyến xe buýt nhiều hơn trước."
+        }
+      ],
+      "commonMistake": "Ví dụ không tự nó chứng minh mọi trường hợp đều giống nhau.",
+      "check": {
+        "id": "cc5-v5-l06-grammar-check-02",
+        "prompt": "「以交通罰單為例」 làm gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Đưa một ví dụ minh họa"
+          },
+          {
+            "id": "b",
+            "text": "Ra quyết định cuối cùng"
+          },
+          {
+            "id": "c",
+            "text": "Nêu thời gian"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "以…為例 mở ra ví dụ.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l06-t04"
+    },
+    {
+      "id": "cc5-v5-l06-grammar-03",
+      "title": "相較於 A，B 則…",
+      "structure": "相較於 + A，B + 則 + điểm khác biệt",
+      "explanation": "So sánh hai phía về cùng một tiêu chí và chỉ rõ sự khác nhau. Trong bài, hai nhóm ưu tiên tính mạng của những người khác nhau.",
+      "examples": [
+        {
+          "chinese": "相較於去年，今年的遊客則多了許多。",
+          "simplified": "相较于去年，今年的游客则多了许多。",
+          "pinyin": "xiāng jiào yú qù nián ， jīn nián de yóu kè zé duō le xǔ duō 。",
+          "meaningVi": "So với năm ngoái, năm nay số du khách nhiều hơn hẳn."
+        },
+        {
+          "chinese": "相較於支持者，反對者則更擔心誤判。",
+          "simplified": "相较于支持者，反对者则更担心误判。",
+          "pinyin": "xiāng jiào yú zhī chí zhě ， fǎn duì zhě zé gèng dān xīn wù pàn 。",
+          "meaningVi": "So với người ủng hộ, người phản đối lo việc xử án sai hơn."
+        }
+      ],
+      "commonMistake": "A và B cần so sánh trên cùng một phương diện.",
+      "check": {
+        "id": "cc5-v5-l06-grammar-check-03",
+        "prompt": "Trong 「相較於支持者，反對者則…」, hai bên được làm gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Được nối theo thời gian"
+          },
+          {
+            "id": "b",
+            "text": "Được liệt kê không liên quan"
+          },
+          {
+            "id": "c",
+            "text": "Được so sánh"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "相較於 báo hiệu so sánh.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l06-t04"
+    },
+    {
+      "id": "cc5-v5-l06-grammar-04",
+      "title": "除非 A，不然 B",
+      "structure": "除非 + điều kiện ngoại lệ A，不然 + kết quả B",
+      "explanation": "B chỉ thay đổi nếu ngoại lệ A xảy ra. Dùng để nêu một điều kiện đặc biệt trong lập luận; tương đương “trừ khi A, nếu không B”.",
+      "examples": [
+        {
+          "chinese": "除非下雨，不然我們照常上課。",
+          "simplified": "除非下雨，不然我们照常上课。",
+          "pinyin": "chú fēi xià yǔ ， bù rán wǒ men zhào cháng shàng kè 。",
+          "meaningVi": "Trừ khi trời mưa, nếu không chúng tôi vẫn học như thường."
+        },
+        {
+          "chinese": "除非他同意，不然計畫不能開始。",
+          "simplified": "除非他同意，不然计划不能开始。",
+          "pinyin": "chú fēi tā tóng yì ， bù rán jì huà bù néng kāi shǐ 。",
+          "meaningVi": "Trừ khi anh ấy đồng ý, nếu không kế hoạch không thể bắt đầu."
+        }
+      ],
+      "commonMistake": "Không hiểu 除非 là nguyên nhân đã xảy ra.",
+      "check": {
+        "id": "cc5-v5-l06-grammar-check-04",
+        "prompt": "「除非下雨，不然照常上課」 nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Trừ khi mưa, còn không vẫn học"
+          },
+          {
+            "id": "b",
+            "text": "Mưa rồi nên nghỉ"
+          },
+          {
+            "id": "c",
+            "text": "Chỉ học khi mưa"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "除非 nêu ngoại lệ.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l06-t04"
+    },
+    {
+      "id": "cc5-v5-l06-grammar-05",
+      "title": "即使 A，也 B",
+      "structure": "即使 + tình huống A，也 + điều vẫn đúng B",
+      "explanation": "Nhấn rằng dù A xảy ra, B vẫn giữ nguyên. Trong bài 2, ngay cả khi có nhiều bằng chứng, việc phán quyết sai vẫn không thể bị loại trừ hoàn toàn.",
+      "examples": [
+        {
+          "chinese": "即使證據很多，也不能保證沒有誤判。",
+          "simplified": "即使证据很多，也不能保证没有误判。",
+          "pinyin": "jí shǐ zhèng jù hěn duō ， yě bù néng bǎo zhèng méi yǒu wù pàn 。",
+          "meaningVi": "Dù có nhiều chứng cứ, cũng không thể bảo đảm không xử sai."
+        },
+        {
+          "chinese": "即使很累，她也把工作做完。",
+          "simplified": "即使很累，她也把工作做完。",
+          "pinyin": "jí shǐ hěn lèi ， tā yě bǎ gōng zuò zuò wán 。",
+          "meaningVi": "Dù rất mệt, cô ấy vẫn làm xong việc."
+        }
+      ],
+      "commonMistake": "Đừng dùng khi A là nguyên nhân trực tiếp tạo ra B.",
+      "check": {
+        "id": "cc5-v5-l06-grammar-check-05",
+        "prompt": "「即使很累，也完成工作」 nói gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Vì mệt nên dừng"
+          },
+          {
+            "id": "b",
+            "text": "Chỉ làm khi rảnh"
+          },
+          {
+            "id": "c",
+            "text": "Dù mệt vẫn hoàn thành"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "即使…也… nêu kết quả vẫn giữ.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l06-t08"
+    },
+    {
+      "id": "cc5-v5-l06-grammar-06",
+      "title": "一旦 A，就 B",
+      "structure": "一旦 + tình huống A，就 + hệ quả B",
+      "explanation": "Nêu một hệ quả sẽ xảy ra nếu điều kiện A thành sự thật. Ở bài đọc, mẫu này nhấn một sai lầm sau khi thi hành án là không thể đảo ngược.",
+      "examples": [
+        {
+          "chinese": "一旦判決錯誤，後果就很嚴重。",
+          "simplified": "一旦判决错误，后果就很严重。",
+          "pinyin": "yí dàn pàn jué cuò wù ， hòu guǒ jiù hěn yán zhòng 。",
+          "meaningVi": "Một khi phán quyết sai, hậu quả sẽ rất nghiêm trọng."
+        },
+        {
+          "chinese": "一旦下雨，比賽就改期。",
+          "simplified": "一旦下雨，比赛就改期。",
+          "pinyin": "yí dàn xià yǔ ， bǐ sài jiù gǎi qī 。",
+          "meaningVi": "Nếu trời mưa, trận đấu sẽ dời ngày."
+        }
+      ],
+      "commonMistake": "A vẫn là giả định, không phải việc chắc chắn đã xảy ra.",
+      "check": {
+        "id": "cc5-v5-l06-grammar-check-06",
+        "prompt": "「一旦下雨，比賽就改期」 gồm gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Hai việc đang xảy ra đồng thời"
+          },
+          {
+            "id": "b",
+            "text": "Một lời cảm ơn"
+          },
+          {
+            "id": "c",
+            "text": "Điều kiện và hệ quả"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "一旦 giới thiệu điều kiện.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l06-t08"
+    },
+    {
+      "id": "cc5-v5-l06-grammar-07",
+      "title": "顯得 + tính từ",
+      "structure": "chủ ngữ + 顯得 + đặc điểm",
+      "explanation": "Dùng để nói một người hoặc sự việc tạo cảm giác có đặc điểm nào đó. Nó biểu thị đánh giá từ góc nhìn người nói.",
+      "examples": [
+        {
+          "chinese": "這個決定顯得很矛盾。",
+          "simplified": "这个决定显得很矛盾。",
+          "pinyin": "zhè gè jué dìng xiǎn dé hěn máo dùn 。",
+          "meaningVi": "Quyết định này có vẻ rất mâu thuẫn."
+        },
+        {
+          "chinese": "他今天顯得有些疲倦。",
+          "simplified": "他今天显得有些疲倦。",
+          "pinyin": "tā jīn tiān xiǎn dé yǒu xiē pí juàn 。",
+          "meaningVi": "Hôm nay anh ấy trông hơi mệt."
+        }
+      ],
+      "commonMistake": "Sau 顯得 là đặc điểm, không phải một hành động tùy ý.",
+      "check": {
+        "id": "cc5-v5-l06-grammar-check-07",
+        "prompt": "「顯得很矛盾」 nghĩa là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Không có đánh giá"
+          },
+          {
+            "id": "b",
+            "text": "Có vẻ mâu thuẫn"
+          },
+          {
+            "id": "c",
+            "text": "Đã được giải thích rõ"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "顯得 nói ấn tượng người nói nhận thấy.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l06-t08"
+    },
+    {
+      "id": "cc5-v5-l06-grammar-08",
+      "title": "也就是說",
+      "structure": "ý A。也就是說，+ cách diễn đạt rõ hơn",
+      "explanation": "Diễn đạt lại ý trước bằng lời trực tiếp, dễ hiểu hơn. Không dùng để đưa một ý hoàn toàn không liên quan.",
+      "examples": [
+        {
+          "chinese": "他明天不在家。也就是說，我們得改天再去。",
+          "simplified": "他明天不在家。也就是说，我们得改天再去。",
+          "pinyin": "tā míng tiān bù zài jiā 。 yě jiù shì shuō ， wǒ men dé gǎi tiān zài qù 。",
+          "meaningVi": "Ngày mai anh ấy không có nhà. Nói cách khác, chúng ta phải đến hôm khác."
+        },
+        {
+          "chinese": "房間已經滿了。也就是說，現在不能預約。",
+          "simplified": "房间已经满了。也就是说，现在不能预约。",
+          "pinyin": "fáng jiān yǐ jīng mǎn le 。 yě jiù shì shuō ， xiàn zài bù néng yù yuē 。",
+          "meaningVi": "Phòng đã kín. Nói cách khác, hiện không thể đặt chỗ."
+        }
+      ],
+      "commonMistake": "Ý sau phải giải thích hoặc suy ra từ ý trước.",
+      "check": {
+        "id": "cc5-v5-l06-grammar-check-08",
+        "prompt": "「也就是說」 dùng để làm gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Diễn đạt lại ý trước"
+          },
+          {
+            "id": "b",
+            "text": "Bắt đầu một chủ đề khác"
+          },
+          {
+            "id": "c",
+            "text": "Chỉ một địa điểm"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Cụm này giúp nói rõ điều vừa nêu.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l06-t08"
+    },
+    {
+      "id": "cc5-v5-l06-grammar-09",
+      "title": "唯有…才…",
+      "structure": "唯有 + điều kiện/cách làm A，才 + kết quả B",
+      "explanation": "Nhấn A là điều kiện cần để đạt B theo lập luận của người nói. Nó không chứng minh A chắc chắn đủ để tạo ra B.",
+      "examples": [
+        {
+          "chinese": "唯有互相理解，才能繼續合作。",
+          "simplified": "唯有互相理解，才能继续合作。",
+          "pinyin": "wéi yǒu hù xiāng lǐ jiě ， cái néng jì xù hé zuò 。",
+          "meaningVi": "Chỉ khi hiểu nhau mới có thể tiếp tục hợp tác."
+        },
+        {
+          "chinese": "唯有從教育做起，才能改善問題。",
+          "simplified": "唯有从教育做起，才能改善问题。",
+          "pinyin": "wéi yǒu cóng jiào yù zuò qǐ ， cái néng gǎi shàn wèn tí 。",
+          "meaningVi": "Theo tác giả, chỉ khi bắt đầu từ giáo dục mới có thể cải thiện vấn đề."
+        }
+      ],
+      "commonMistake": "Đừng bỏ 互相/從… nếu chúng là phần làm rõ điều kiện A.",
+      "check": {
+        "id": "cc5-v5-l06-grammar-check-09",
+        "prompt": "「唯有從教育做起，才能改善」 nhấn gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Giáo dục đã giải quyết xong"
+          },
+          {
+            "id": "b",
+            "text": "Không cần hành động"
+          },
+          {
+            "id": "c",
+            "text": "Giáo dục là điều kiện cần theo người nói"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "唯有…才… nhấn điều kiện cần.",
+        "skill": "Ngữ pháp"
+      },
+      "audioTrackId": "cc5-textbook-l06-t08"
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc5-v5-l06-listening-01",
+      "prompt": "Nghe bài 1: tác giả nêu loại án nào có thể cho phép tha tù trước hạn?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Án tử hình"
+        },
+        {
+          "id": "b",
+          "text": "Phạt đỗ xe"
+        },
+        {
+          "id": "c",
+          "text": "Tù chung thân"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc nhắc 無期徒刑 vẫn có thể 假釋.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l06-t02"
+    },
+    {
+      "id": "cc5-v5-l06-listening-02",
+      "prompt": "Nghe bài 1: ví dụ nào được dùng để nói về răn đe?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Giấy phạt vì vượt đèn đỏ"
+        },
+        {
+          "id": "b",
+          "text": "Giá vé tàu"
+        },
+        {
+          "id": "c",
+          "text": "Học phí đại học"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc nói 以交通罰單為例.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l06-t02"
+    },
+    {
+      "id": "cc5-v5-l06-listening-03",
+      "prompt": "Nghe bài 2: điều gì không thể bảo đảm tuyệt đối?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thẩm phán không phán quyết sai"
+        },
+        {
+          "id": "b",
+          "text": "Hôm nay trời nắng"
+        },
+        {
+          "id": "c",
+          "text": "Có người đọc báo"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài nói 不能百分之百保證法官不會誤判.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l06-t06"
+    },
+    {
+      "id": "cc5-v5-l06-listening-04",
+      "prompt": "Nghe bài 2: tác giả đề xuất bắt đầu từ đâu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Báo thù"
+        },
+        {
+          "id": "b",
+          "text": "Tăng bán vé"
+        },
+        {
+          "id": "c",
+          "text": "Giáo dục"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Cuối bài nói 唯有從教育做起.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc5-textbook-l06-t06"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc5-v5-l06-practice-01",
+      "prompt": "Điền: ____家屬的立場，他們需要一個交代。",
+      "options": [
+        {
+          "id": "a",
+          "text": "唯有"
+        },
+        {
+          "id": "b",
+          "text": "站在"
+        },
+        {
+          "id": "c",
+          "text": "以"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "站在…的立場 nêu góc nhìn.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l06-practice-02",
+      "prompt": "Điền: ____交通罰單____，人們知道違規會被罰。",
+      "options": [
+        {
+          "id": "a",
+          "text": "唯有；才"
+        },
+        {
+          "id": "b",
+          "text": "以；為例"
+        },
+        {
+          "id": "c",
+          "text": "一旦；就"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "以…為例 dẫn ví dụ.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l06-practice-03",
+      "prompt": "Điền: ____去年，今年的遊客____多了許多。",
+      "options": [
+        {
+          "id": "a",
+          "text": "即使；也"
+        },
+        {
+          "id": "b",
+          "text": "相較於；則"
+        },
+        {
+          "id": "c",
+          "text": "除非；不然"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "相較於…則… so sánh hai trường hợp.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l06-practice-04",
+      "prompt": "Điền: ____下雨，____我們照常上課。",
+      "options": [
+        {
+          "id": "a",
+          "text": "即使；也"
+        },
+        {
+          "id": "b",
+          "text": "除非；不然"
+        },
+        {
+          "id": "c",
+          "text": "一旦；就"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "除非 nêu ngoại lệ.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l06-practice-05",
+      "prompt": "Điền: ____證據很多，____不能保證沒有誤判。",
+      "options": [
+        {
+          "id": "a",
+          "text": "除非；不然"
+        },
+        {
+          "id": "b",
+          "text": "即使；也"
+        },
+        {
+          "id": "c",
+          "text": "唯有；才"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "即使…也… nói điều vẫn đúng.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l06-practice-06",
+      "prompt": "Điền: ____下雨，比賽____改期。",
+      "options": [
+        {
+          "id": "a",
+          "text": "一旦；就"
+        },
+        {
+          "id": "b",
+          "text": "即使；也"
+        },
+        {
+          "id": "c",
+          "text": "唯有；才"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "一旦…就… nối điều kiện với hệ quả.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l06-practice-07",
+      "prompt": "Điền: 這個決定____很矛盾。",
+      "options": [
+        {
+          "id": "a",
+          "text": "顯得"
+        },
+        {
+          "id": "b",
+          "text": "唯有"
+        },
+        {
+          "id": "c",
+          "text": "除非"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "顯得 diễn tả cảm nhận về đặc điểm.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l06-practice-08",
+      "prompt": "Điền: 房間已經滿了。____，現在不能預約。",
+      "options": [
+        {
+          "id": "a",
+          "text": "除非"
+        },
+        {
+          "id": "b",
+          "text": "相較於"
+        },
+        {
+          "id": "c",
+          "text": "也就是說"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "也就是說 nói rõ hệ quả từ ý trước.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc5-v5-l06-practice-09",
+      "prompt": "Điền: ____互相理解，____能繼續合作。",
+      "options": [
+        {
+          "id": "a",
+          "text": "唯有；才"
+        },
+        {
+          "id": "b",
+          "text": "即使；也"
+        },
+        {
+          "id": "c",
+          "text": "一旦；就"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "唯有…才… nhấn điều kiện cần.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc5-v5-l06-assessment-01",
+      "prompt": "「死刑的存廢」 nói về điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Giữ hay bãi bỏ án tử hình"
+        },
+        {
+          "id": "b",
+          "text": "Cách viết đơn xin việc"
+        },
+        {
+          "id": "c",
+          "text": "Quy định thi lái xe"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "存廢 là giữ hay bãi bỏ.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc5-v5-l06-assessment-02",
+      "prompt": "Bài 1 ủng hộ duy trì án tử hình vì lý do nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vì không cần xét xử"
+        },
+        {
+          "id": "b",
+          "text": "Vì người phạm tội đều được tha"
+        },
+        {
+          "id": "c",
+          "text": "An toàn cộng đồng và răn đe"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Tác giả nêu cách ly và răn đe.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l06-assessment-03",
+      "prompt": "「以…為例」 có tác dụng gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nêu điều kiện bắt buộc"
+        },
+        {
+          "id": "b",
+          "text": "Kết thúc bài"
+        },
+        {
+          "id": "c",
+          "text": "Đưa ví dụ minh họa"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Mẫu này giúp giải thích luận điểm.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l06-assessment-04",
+      "prompt": "Bài 1 muốn người đọc chú ý tới cảm nhận của ai?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ người đi xe buýt"
+        },
+        {
+          "id": "b",
+          "text": "Thân nhân nạn nhân"
+        },
+        {
+          "id": "c",
+          "text": "Chỉ công ty bảo hiểm"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Đoạn cuối đặt mình vào vị trí thân nhân.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l06-assessment-05",
+      "prompt": "「除非…不然…」 nêu gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Một lời so sánh không liên quan"
+        },
+        {
+          "id": "b",
+          "text": "Ngoại lệ và kết quả nếu ngoại lệ không xảy ra"
+        },
+        {
+          "id": "c",
+          "text": "Hai việc đang làm cùng lúc"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "除非 nêu trường hợp đặc biệt.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l06-assessment-06",
+      "prompt": "Bài 2 nêu rủi ro nào không thể đảo ngược?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thiếu vé xe"
+        },
+        {
+          "id": "b",
+          "text": "Thi hành án với người bị kết án oan"
+        },
+        {
+          "id": "c",
+          "text": "Quên mang giấy phạt"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Tác giả nói tiền bồi thường không bù đắp được.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l06-assessment-07",
+      "prompt": "「即使…也…」 nhấn gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A và B cùng chỉ địa điểm"
+        },
+        {
+          "id": "b",
+          "text": "Dù A xảy ra, B vẫn đúng"
+        },
+        {
+          "id": "c",
+          "text": "Vì A nên B chắc chắn xảy ra"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Mẫu này nói kết luận không đổi.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l06-assessment-08",
+      "prompt": "Theo bài 2, án tử hình có lấy lại sinh mạng nạn nhân không?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Có"
+        },
+        {
+          "id": "b",
+          "text": "Bài không nhắc"
+        },
+        {
+          "id": "c",
+          "text": "Không"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Tác giả nêu 執行死刑也換不回親人的生命.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc5-v5-l06-assessment-09",
+      "prompt": "「也就是說」 dùng để làm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đổi sang chủ đề khác"
+        },
+        {
+          "id": "b",
+          "text": "Hỏi tên người nghe"
+        },
+        {
+          "id": "c",
+          "text": "Diễn đạt rõ hơn điều vừa nói"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Cụm này diễn giải ý trước.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc5-v5-l06-assessment-10",
+      "prompt": "Bài 2 đề xuất hướng nào để giải quyết tội phạm?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Giáo dục và xây dựng môi trường hỗ trợ"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ tăng án phạt"
+        },
+        {
+          "id": "c",
+          "text": "Không cần hành động"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Tác giả kết luận từ giáo dục và quan tâm người cần giúp đỡ.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "writingTask": {
+    "id": "cc5-v5-l06-writing",
+    "title": "Nêu quan điểm có căn cứ",
+    "prompt": "Viết một đoạn tiếng Hoa về một vấn đề có hai lập trường. Nêu một lý do của mỗi bên và kết luận của bạn.",
+    "sampleTraditional": "相較於只看懲罰的效果，我也重視判決是否公平。即使證據很多，也不能保證完全沒有誤判。因此我認為討論這個問題時，應該同時考慮安全與人權。",
+    "sampleSimplified": "相较于只看惩罚的效果，我也重视判决是否公平。即使证据很多，也不能保证完全没有误判。因此我认为讨论这个问题时，应该同时考虑安全与人权。"
+  }
+}

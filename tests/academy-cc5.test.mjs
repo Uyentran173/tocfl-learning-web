@@ -13,7 +13,7 @@ const root = path.resolve(import.meta.dirname, '..');
 
 test('Volume 5 exposes only complete lessons and keeps their learning content isolated', () => {
   assert.equal(academyVolume5.lessonIds.length, 10);
-  assert.equal(academyVolume5Lessons.length, 5);
+  assert.equal(academyVolume5Lessons.length, 6);
   const lesson = academyVolume5Lessons[0];
   assert.equal(lesson.id, 'cc5-v5-l01');
   assert.equal(validateAcademyLessonContent(lesson), true);
@@ -94,6 +94,22 @@ test('Volume 5 exposes only complete lessons and keeps their learning content is
   assert.equal(lesson05.assessment.length, 10);
   assert.equal(academyScriptText(lesson05.title, 'simplified'), '代理孕母，带来幸福？');
   for (const reading of lesson05.lecture.dialogues) {
+    assert.ok(reading.turns.every((turn) => turn.chinese && turn.simplified && turn.meaningVi));
+    assert.ok(reading.audioTrackId && manifest.tracks.some((track) => track.id === reading.audioTrackId && track.mappingStatus === 'verified'));
+  }
+  const lesson06 = academyVolume5Lessons[5];
+  assert.equal(lesson06.id, 'cc5-v5-l06');
+  assert.equal(validateAcademyLessonContent(lesson06), true);
+  assert.deepEqual(lesson06.lecture.dialogues.map((reading) => reading.turns.length), [2, 2]);
+  assert.equal(lesson06.vocabulary.wordIds.length, 100);
+  assert.equal(new Set(lesson06.vocabulary.wordIds).size, 100);
+  assert.equal(academyVocabularyByIds(lesson06.vocabulary.wordIds).length, 100);
+  assert.equal(lesson06.grammar.length, 9);
+  assert.equal(lesson06.listening.length, 4);
+  assert.equal(lesson06.practice.length, 9);
+  assert.equal(lesson06.assessment.length, 10);
+  assert.equal(academyScriptText(lesson06.title, 'simplified'), '死刑的存废');
+  for (const reading of lesson06.lecture.dialogues) {
     assert.ok(reading.turns.every((turn) => turn.chinese && turn.simplified && turn.meaningVi));
     assert.ok(reading.audioTrackId && manifest.tracks.some((track) => track.id === reading.audioTrackId && track.mappingStatus === 'verified'));
   }

@@ -1,0 +1,1067 @@
+{
+  "contentVersion": 2,
+  "id": "cc6-v6-l02",
+  "title": "科技與生活",
+  "titleVi": "Công nghệ và đời sống",
+  "description": "Đọc hai câu chuyện về kính tự chỉnh độ và hệ thống chiếu sáng cho vùng xa; học cách nối ý nguyên nhân, nguồn gốc và kết quả.",
+  "objectives": [
+    "Tóm tắt nhu cầu thực tế đứng sau hai phát minh trong bài.",
+    "Phân biệt ý tưởng ban đầu với người đưa ý tưởng vào ứng dụng.",
+    "Dùng các mẫu 從X出發、出自、從而、對X習以為常 và 等於是 đúng ngữ cảnh."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Hai bài đọc kể về những giải pháp công nghệ đơn giản giúp người ở vùng thiếu thốn: kính có thể tự chỉnh độ và hệ thống chiếu sáng dùng năng lượng mặt trời. Hãy chú ý cách tác giả đi từ vấn đề thực tế đến giải pháp và tác động xã hội.",
+    "sections": [
+      {
+        "id": "cc6-v6-l02-section-01",
+        "title": "Bắt đầu từ nhu cầu thật",
+        "body": "Bài đọc mở đầu bằng quan sát rằng một phát minh có ích không nhất thiết phải là đột phá lớn; người nghiên cứu cần nhận ra nhu cầu cụ thể.",
+        "chinese": "科學家從他的專精領域出發，觀察到某些特殊的社會現象。",
+        "simplified": "科学家从他的专精领域出发，观察到某些特殊的社会现象。",
+        "pinyin": "kē xué jiā cóng tā de zhuān jīng lǐng yù chū fā ， guān chá dào mǒu xiē tè shū de shè huì xiàn xiàng 。",
+        "meaningVi": "Từ lĩnh vực mình am hiểu, nhà khoa học quan sát những hiện tượng xã hội đặc biệt."
+      },
+      {
+        "id": "cc6-v6-l02-section-02",
+        "title": "Đưa ý tưởng vào sử dụng",
+        "body": "Ý tưởng về kính có thể chỉnh độ đã có từ trước. Đóng góp của Silver là đưa cách làm ấy vào sản xuất để người cần kính thực sự sử dụng được.",
+        "chinese": "這個發明並不是席教授的創見，原始的想法其實是出自十八世紀德國的一位科學儀器的製造商。",
+        "simplified": "这个发明并不是席教授的创见，原始的想法其实是出自十八世纪德国的一位科学仪器的制造商。",
+        "pinyin": "zhè gè fā míng bìng bú shì xí jiào shòu de chuàng jiàn ， yuán shǐ de xiǎng fǎ qí shí shì chū zì shí bā shì jì dé guó de yī wèi kē xué yí qì de zhì zào shāng 。",
+        "meaningVi": "Phát minh này không phải ý tưởng mới của giáo sư Silver; ý tưởng ban đầu bắt nguồn từ một nhà sản xuất dụng cụ khoa học người Đức ở thế kỷ 18."
+      },
+      {
+        "id": "cc6-v6-l02-section-03",
+        "title": "Ánh sáng và cơ hội học tập",
+        "body": "Ở vùng chưa có điện, đèn dầu làm hại sức khỏe và việc học. Hệ thống chiếu sáng nhỏ dùng pin mặt trời giúp giải quyết một phần vấn đề ấy.",
+        "chinese": "缺乏照明，等於是剝奪他們受教育的權利。",
+        "simplified": "缺乏照明，等于是剥夺他们受教育的权利。",
+        "pinyin": "quē fá zhào míng ， děng yú shì bō duó tā men shòu jiào yù de quán lì 。",
+        "meaningVi": "Thiếu ánh sáng đồng nghĩa với tước đi quyền được học của họ."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc6-v6-l02-reading1",
+        "title": "課文一 · 簡單科技改變人類生活（I）",
+        "context": "Kính tự chỉnh độ và đóng góp của giáo sư Joshua Silver.",
+        "audioTrackId": "cc6-textbook-l02-t02",
+        "turns": [
+          {
+            "speaker": "Đoạn 1",
+            "chinese": "科技改變人類的生活，有時未必是科學上的大發現或大突破。科學家從他的專精領域出發，觀察到某些特殊的社會現象，了解到某一群人的需求，常能突發奇想，以基礎的科學原理，加上簡單工具，就能解決一些社會問題。",
+            "simplified": "科技改变人类的生活，有时未必是科学上的大发现或大突破。科学家从他的专精领域出发，观察到某些特殊的社会现象，了解到某一群人的需求，常能突发奇想，以基础的科学原理，加上简单工具，就能解决一些社会问题。",
+            "pinyin": "kē jì gǎi biàn rén lèi de shēng huó ， yǒu shí wèi bì shì kē xué shàng de dà fā xiàn huò dà tū pò 。 kē xué jiā cóng tā de zhuān jīng lǐng yù chū fā ， guān chá dào mǒu xiē tè shū de shè huì xiàn xiàng ， liǎo jiě dào mǒu yī qún rén de xū qiú ， cháng néng tū fā qí xiǎng ， yǐ jī chǔ de kē xué yuán lǐ ， jiā shàng jiǎn dān gōng jù ， jiù néng jiě jué yī xiē shè huì wèn tí 。",
+            "meaningVi": "Công nghệ thay đổi đời sống con người đôi khi không nhờ một phát hiện hay đột phá khoa học lớn. Từ lĩnh vực mình am hiểu, các nhà khoa học quan sát những hiện tượng xã hội đặc biệt, nhận ra nhu cầu của một nhóm người, rồi nảy ra ý tưởng dùng nguyên lý khoa học cơ bản và công cụ đơn giản để giải quyết vấn đề."
+          },
+          {
+            "speaker": "Đoạn 2",
+            "chinese": "如果我們眼睛看不清楚，會去看眼科醫師或去配眼鏡，這事情看似簡單，但對住在地球上相對窮困地區的人來說，卻是一項困難的任務。他們不是根本找不到眼科醫師，就是負擔不起。而這樣的人，全球估計有五億之多。",
+            "simplified": "如果我们眼睛看不清楚，会去看眼科医师或去配眼镜，这事情看似简单，但对住在地球上相对穷困地区的人来说，却是一项困难的任务。他们不是根本找不到眼科医师，就是负担不起。而这样的人，全球估计有五亿之多。",
+            "pinyin": "rú guǒ wǒ men yǎn jīng kàn bù qīng chǔ ， huì qù kàn yǎn kē yī shī huò qù pèi yǎn jìng ， zhè shì qíng kàn shì jiǎn dān ， dàn duì zhù zài dì qiú shàng xiàng duì qióng kùn dì qū de rén lái shuō ， què shì yī xiàng kùn nán de rèn wù 。 tā men bú shì gēn běn zhǎo bú dào yǎn kē yī shī ， jiù shì fù dān bù qǐ 。 ér zhè yàng de rén ， quán qiú gū jì yǒu wǔ yì zhī duō 。",
+            "meaningVi": "Khi nhìn không rõ, chúng ta thường đi khám mắt hoặc làm kính. Việc ấy có vẻ đơn giản, nhưng với người sống ở những vùng tương đối nghèo trên thế giới, đó là một việc khó khăn: họ hoặc không tìm được bác sĩ mắt, hoặc không đủ tiền. Ước tính trên thế giới có tới 500 triệu người như vậy."
+          },
+          {
+            "speaker": "Đoạn 3",
+            "chinese": "有個聰明人想到一個辦法，英國牛津大學的喬許．席爾佛（Dr. Joshua Silver）教授，發明了一種「可自行調整度數」的眼鏡。這副眼鏡的鏡片內充滿液體，使用者自行調整鏡片內的液體量，便能將眼鏡調整到適合自己的度數。",
+            "simplified": "有个聪明人想到一个办法，英国牛津大学的乔许．席尔佛（Dr. Joshua Silver）教授，发明了一种「可自行调整度数」的眼镜。这副眼镜的镜片内充满液体，使用者自行调整镜片内的液体量，便能将眼镜调整到适合自己的度数。",
+            "pinyin": "yǒu gè cōng míng rén xiǎng dào yī gè bàn fǎ ， yīng guó niú jīn dà xué de qiáo xǔ ． xí ěr fú （ D r .   J o s h u a   S i l v e r ） jiào shòu ， fā míng liǎo yī zhǒng 「 kě zì xíng diào zhěng dù shù 」 de yǎn jìng 。 zhè fù yǎn jìng de jìng piàn nèi chōng mǎn yè tǐ ， shǐ yòng zhě zì xíng diào zhěng jìng piàn nèi de yè tǐ liàng ， biàn néng jiāng yǎn jìng diào zhěng dào shì hé zì jǐ de dù shù 。",
+            "meaningVi": "Giáo sư Joshua Silver của Đại học Oxford (Anh) nghĩ ra một cách: kính có thể tự điều chỉnh độ. Tròng kính chứa chất lỏng; người đeo điều chỉnh lượng chất lỏng trong tròng để có độ kính phù hợp với mình."
+          },
+          {
+            "speaker": "Đoạn 4",
+            "chinese": "這個發明並不是席教授的創見，原始的想法其實是出自十八世紀德國的一位科學儀器的製造商，但席爾佛博士把這個簡單的想法實際運用在製造上，讓原本看不清楚，也不知道可以使用眼鏡矯正視力的人，多年來第一次「大放光明」，看到清楚的影像。他成立了一家公司，每天要製造兩千副這種眼鏡，由於開發中國家需求量極大，仍供不應求。",
+            "simplified": "这个发明并不是席教授的创见，原始的想法其实是出自十八世纪德国的一位科学仪器的制造商，但席尔佛博士把这个简单的想法实际运用在制造上，让原本看不清楚，也不知道可以使用眼镜矫正视力的人，多年来第一次「大放光明」，看到清楚的影像。他成立了一家公司，每天要制造两千副这种眼镜，由于开发中国家需求量极大，仍供不应求。",
+            "pinyin": "zhè gè fā míng bìng bú shì xí jiào shòu de chuàng jiàn ， yuán shǐ de xiǎng fǎ qí shí shì chū zì shí bā shì jì dé guó de yī wèi kē xué yí qì de zhì zào shāng ， dàn xí ěr fú bó shì bǎ zhè gè jiǎn dān de xiǎng fǎ shí jì yùn yòng zài zhì zào shàng ， ràng yuán běn kàn bù qīng chǔ ， yě bù zhī dào kě yǐ shǐ yòng yǎn jìng jiǎo zhèng shì lì de rén ， duō nián lái dì yī cì 「 dà fàng guāng míng 」 ， kàn dào qīng chǔ de yǐng xiàng 。 tā chéng lì le yī jiā gōng sī ， měi tiān yào zhì zào liǎng qiān fù zhè zhǒng yǎn jìng ， yóu yú kāi fā zhōng guó jiā xū qiú liàng jí dà ， réng gōng bù yīng qiú 。",
+            "meaningVi": "Ý tưởng ban đầu không phải sáng kiến của giáo sư Silver mà bắt nguồn từ một nhà sản xuất dụng cụ khoa học người Đức ở thế kỷ 18. Silver đã đưa ý tưởng đơn giản ấy vào sản xuất, giúp người trước kia nhìn không rõ, thậm chí không biết kính có thể chỉnh thị lực, lần đầu nhìn thấy hình ảnh rõ ràng. Công ty của ông phải làm 2.000 cặp kính mỗi ngày; nhu cầu ở các nước đang phát triển vẫn vượt quá nguồn cung."
+          },
+          {
+            "speaker": "Đoạn 5",
+            "chinese": "席教授的貢獻，在於他能洞察問題根源，利用簡單科技找到解決問題的方法，從而改善人群的生活，這是很值得我們學習的。",
+            "simplified": "席教授的贡献，在于他能洞察问题根源，利用简单科技找到解决问题的方法，从而改善人群的生活，这是很值得我们学习的。",
+            "pinyin": "xí jiào shòu de gòng xiàn ， zài yú tā néng dòng chá wèn tí gēn yuán ， lì yòng jiǎn dān kē jì zhǎo dào jiě jué wèn tí de fāng fǎ ， cóng ér gǎi shàn rén qún de shēng huó ， zhè shì hěn zhí de wǒ men xué xí de 。",
+            "meaningVi": "Đóng góp của giáo sư Silver là nhìn thấu gốc rễ vấn đề, tìm cách giải quyết bằng công nghệ đơn giản, qua đó cải thiện đời sống người dân. Đây là điều đáng để học hỏi."
+          }
+        ]
+      },
+      {
+        "id": "cc6-v6-l02-reading2",
+        "title": "課文二 · 簡單科技改變人類生活（II）",
+        "context": "Hệ thống chiếu sáng cho những vùng chưa có điện.",
+        "audioTrackId": "cc6-textbook-l02-t05",
+        "turns": [
+          {
+            "speaker": "Đoạn 1",
+            "chinese": "我們白天在學校、工作場所開著燈工作，回到家裡也開著燈，晚上出門到任何地方，也都靠著燈光來照明……我們對「燈」習以為常。但你知道嗎？世界上有多少人沒有辦法享受到電力，晚上沒有燈光？答案是大約有二十億人，那是全世界人口的三分之一。",
+            "simplified": "我们白天在学校、工作场所开着灯工作，回到家里也开着灯，晚上出门到任何地方，也都靠着灯光来照明……我们对「灯」习以为常。但你知道吗？世界上有多少人没有办法享受到电力，晚上没有灯光？答案是大约有二十亿人，那是全世界人口的三分之一。",
+            "pinyin": "wǒ men bái tiān zài xué xiào 、 gōng zuò chǎng suǒ kāi zhù dēng gōng zuò ， huí dào jiā lǐ yě kāi zhù dēng ， wǎn shàng chū mén dào rèn hé dì fāng ， yě dōu kào zhù dēng guāng lái zhào míng … … wǒ men duì 「 dēng 」 xí yǐ wèi cháng 。 dàn nǐ zhī dào ma ？ shì jiè shàng yǒu duō shǎo rén méi yǒu bàn fǎ xiǎng shòu dào diàn lì ， wǎn shàng méi yǒu dēng guāng ？ dá àn shì dà yuē yǒu èr shí yì rén ， nà shì quán shì jiè rén kǒu de sān fēn zhī yī 。",
+            "meaningVi": "Ban ngày chúng ta làm việc dưới ánh đèn ở trường và nơi làm việc; về nhà lại bật đèn, ra ngoài buổi tối cũng nhờ ánh đèn để nhìn đường. Ta đã quá quen với đèn. Nhưng bạn có biết khoảng bao nhiêu người trên thế giới không có điện và ánh sáng vào ban đêm không? Khoảng hai tỷ người, tức một phần ba dân số thế giới."
+          },
+          {
+            "speaker": "Đoạn 2",
+            "chinese": "那這些人入夜之後怎麼過日子，沒有燈怎麼辦？加拿大人爾文．哈樂戴（Dr. Dave Irvine-Halliday）是卡加利大學的教授，有一次他到尼泊爾喜馬拉雅山群爬山，看到村落居民的生活狀況，嚇了一大跳。尤其是小孩子，白天多半需要去工作來貼補家用，晚上是唯一可以進修功課的時候，但卻只能用煤油燈來照明。而煤油燈除了有損孩童視力，容易引起火災之外，最大的問題是，燃燒煤油帶來的空氣汙染造成小孩呼吸道的疾病。單單在二〇〇〇年一年之內，就有兩百萬兒童死於呼吸道病症，估計其中百分之十是因為室內的空氣汙染。",
+            "simplified": "那这些人入夜之后怎么过日子，没有灯怎么办？加拿大人尔文．哈乐戴（Dr. Dave Irvine-Halliday）是卡加利大学的教授，有一次他到尼泊尔喜马拉雅山群爬山，看到村落居民的生活状况，吓了一大跳。尤其是小孩子，白天多半需要去工作来贴补家用，晚上是唯一可以进修功课的时候，但却只能用煤油灯来照明。而煤油灯除了有损孩童视力，容易引起火灾之外，最大的问题是，燃烧煤油带来的空气污染造成小孩呼吸道的疾病。单单在二〇〇〇年一年之内，就有两百万儿童死于呼吸道病症，估计其中百分之十是因为室内的空气污染。",
+            "pinyin": "nà zhè xiē rén rù yè zhī hòu zěn me guò rì zi ， méi yǒu dēng zěn me bàn ？ jiā ná dà rén ěr wén ． hā lè dài （ D r .   D a v e   I r v i n e - H a l l i d a y ） shì kǎ jiā lì dà xué de jiào shòu ， yǒu yī cì tā dào ní pō ěr xǐ mǎ lā yǎ shān qún pá shān ， kàn dào cūn luò jū mín de shēng huó zhuàng kuàng ， xià le yī dà tiào 。 yóu qí shì xiǎo hái zi ， bái tiān duō bàn xū yào qù gōng zuò lái tiē bǔ jiā yòng ， wǎn shàng shì wéi yī kě yǐ jìn xiū gōng kè de shí hòu ， dàn què zhǐ néng yòng méi yóu dēng lái zhào míng 。 ér méi yóu dēng chú le yǒu sǔn hái tóng shì lì ， róng yì yǐn qǐ huǒ zāi zhī wài ， zuì dà de wèn tí shì ， rán shāo méi yóu dài lái de kōng qì wū rǎn zào chéng xiǎo hái hū xī dào de jí bìng 。 dān dān zài èr líng líng líng nián yī nián zhī nèi ， jiù yǒu liǎng bǎi wàn ér tóng sǐ yú hū xī dào bìng zhèng ， gū jì qí zhōng bǎi fēn zhī shí shì yīn wèi shì nèi de kōng qì wū rǎn 。",
+            "meaningVi": "Vậy khi đêm xuống họ sống ra sao? Giáo sư người Canada Dave Irvine-Halliday của Đại học Calgary từng đến dãy Himalaya ở Nepal và sửng sốt trước đời sống của dân làng. Nhiều trẻ em phải đi làm ban ngày để phụ giúp gia đình, chỉ có buổi tối để học nhưng phải dùng đèn dầu. Đèn dầu hại mắt, dễ gây cháy; nghiêm trọng hơn, khói dầu làm ô nhiễm không khí và gây bệnh đường hô hấp cho trẻ. Riêng năm 2000, hai triệu trẻ em tử vong vì bệnh đường hô hấp; ước tính 10% số ca liên quan đến ô nhiễm không khí trong nhà."
+          },
+          {
+            "speaker": "Đoạn 3",
+            "chinese": "哈樂戴教授和他的太太感同身受，回家之後成立了「照亮世界基金會」（Light Up the World Foundation）。他知道要在全世界這些偏遠地區接上電力，要動用驚人的人力、物力，架設電纜的工程也會對環境造成衝擊和破壞。於是，哈教授想到固態光源（solid state lighting，簡稱 SSL）可能是解決這個問題的辦法。他利用了一個五瓦的日光板（solar panel），一個蓄電電池，再加上兩個只有一瓦的白色發光二極體（WLED），組成一套照明系統。",
+            "simplified": "哈乐戴教授和他的太太感同身受，回家之后成立了「照亮世界基金会」（Light Up the World Foundation）。他知道要在全世界这些偏远地区接上电力，要动用惊人的人力、物力，架设电缆的工程也会对环境造成冲击和破坏。于是，哈教授想到固态光源（solid state lighting，简称 SSL）可能是解决这个问题的办法。他利用了一个五瓦的日光板（solar panel），一个蓄电电池，再加上两个只有一瓦的白色发光二极体（WLED），组成一套照明系统。",
+            "pinyin": "hā lè dài jiào shòu hé tā de tài tài gǎn tóng shēn shòu ， huí jiā zhī hòu chéng lì le 「 zhào liàng shì jiè jī jīn huì 」 （ L i g h t   U p   t h e   W o r l d   F o u n d a t i o n ） 。 tā zhī dào yào zài quán shì jiè zhè xiē piān yuǎn dì qū jiē shàng diàn lì ， yào dòng yòng jīng rén de rén lì 、 wù lì ， jià shè diàn lǎn de gōng chéng yě huì duì huán jìng zào chéng chōng jī hé pò huài 。 yú shì ， hā jiào shòu xiǎng dào gù tài guāng yuán （ s o l i d   s t a t e   l i g h t i n g ， jiǎn chēng   S S L ） kě néng shì jiě jué zhè gè wèn tí de bàn fǎ 。 tā lì yòng le yī gè wǔ wǎ de rì guāng bǎn （ s o l a r   p a n e l ） ， yī gè xù diàn diàn chí ， zài jiā shàng liǎng gè zhǐ yǒu yī wǎ de bái sè fā guāng èr jí tǐ （ W L E D ） ， zǔ chéng yī tào zhào míng xì tǒng 。",
+            "meaningVi": "Đồng cảm với họ, giáo sư Halliday và vợ thành lập Quỹ Light Up the World. Kéo điện đến những vùng xa đòi hỏi rất nhiều nhân lực, vật lực, còn việc dựng đường dây có thể gây hại môi trường. Ông nghĩ đến nguồn sáng thể rắn (SSL) và ghép một tấm pin mặt trời 5 watt, một pin tích điện cùng hai đèn LED trắng 1 watt thành hệ thống chiếu sáng."
+          },
+          {
+            "speaker": "Đoạn 4",
+            "chinese": "一九九七年「照亮世界基金會」成立，到二〇〇二年，哈教授已經在全球四十三個國家的偏遠村落，安裝上他發明的照明設備。哈教授認為，「照明」對這些弱勢群眾的社會、經濟、身體甚至精神狀態，都有深遠的影響。特別是孩童與女性，缺乏照明，等於是剝奪他們受教育的權利，更奪走了他們藉由教育，脫離貧窮和文盲的機會。",
+            "simplified": "一九九七年「照亮世界基金会」成立，到二〇〇二年，哈教授已经在全球四十三个国家的偏远村落，安装上他发明的照明设备。哈教授认为，「照明」对这些弱势群众的社会、经济、身体甚至精神状态，都有深远的影响。特别是孩童与女性，缺乏照明，等于是剥夺他们受教育的权利，更夺走了他们借由教育，脱离贫穷和文盲的机会。",
+            "pinyin": "yī jiǔ jiǔ qī nián 「 zhào liàng shì jiè jī jīn huì 」 chéng lì ， dào èr líng líng èr nián ， hā jiào shòu yǐ jīng zài quán qiú sì shí sān gè guó jiā de piān yuǎn cūn luò ， ān zhuāng shàng tā fā míng de zhào míng shè bèi 。 hā jiào shòu rèn wèi ， 「 zhào míng 」 duì zhè xiē ruò shì qún zhòng de shè huì 、 jīng jì 、 shēn tǐ shèn zhì jīng shén zhuàng tài ， dōu yǒu shēn yuǎn de yǐng xiǎng 。 tè bié shì hái tóng yǔ nǚ xìng ， quē fá zhào míng ， děng yú shì bō duó tā men shòu jiào yù de quán lì ， gèng duó zǒu le tā men jí yóu jiào yù ， tuō lí pín qióng hé wén máng de jī huì 。",
+            "meaningVi": "Quỹ Light Up the World ra đời năm 1997. Đến năm 2002, thiết bị của giáo sư đã được lắp tại các làng xa ở 43 quốc gia. Ông cho rằng ánh sáng ảnh hưởng sâu rộng đến đời sống xã hội, kinh tế, thể chất và tinh thần của người yếu thế. Với trẻ em và phụ nữ, thiếu ánh sáng đồng nghĩa với bị tước cơ hội học tập, từ đó mất đi cơ hội thoát nghèo và mù chữ."
+          },
+          {
+            "speaker": "Đoạn 5",
+            "chinese": "由於席、哈兩位教授能以鍥而不捨的精神與執行力，而產生了這些發明，不僅讓這些弱勢者能向上提升，同時也開創了改變世界的新契機。",
+            "simplified": "由于席、哈两位教授能以锲而不舍的精神与执行力，而产生了这些发明，不仅让这些弱势者能向上提升，同时也开创了改变世界的新契机。",
+            "pinyin": "yóu yú xí 、 hā liǎng wèi jiào shòu néng yǐ qiè ér bù shě de jīng shén yǔ zhí xíng lì ， ér chǎn shēng le zhè xiē fā míng ， bù jǐn ràng zhè xiē ruò shì zhě néng xiàng shàng tí shēng ， tóng shí yě kāi chuàng le gǎi biàn shì jiè de xīn qì jī 。",
+            "meaningVi": "Tinh thần kiên trì và khả năng biến ý tưởng thành hành động của hai giáo sư Silver và Halliday đã tạo nên những phát minh giúp người yếu thế vươn lên và mở ra cơ hội thay đổi thế giới."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc6-v6-l02-check-01",
+        "prompt": "Bài đọc 1 nói ai đã đưa ý tưởng kính tự điều chỉnh vào sản xuất?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Chính phủ Thụy Sĩ"
+          },
+          {
+            "id": "b",
+            "text": "Giáo sư Joshua Silver"
+          },
+          {
+            "id": "c",
+            "text": "Một bác sĩ mắt ở Nepal"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Bài viết phân biệt ý tưởng ban đầu của nhà sản xuất Đức với việc Silver ứng dụng vào sản xuất.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc6-v6-l02-check-02",
+        "prompt": "Vì sao đèn dầu gây vấn đề cho trẻ em trong bài đọc 2?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Hại mắt, dễ cháy và gây ô nhiễm không khí"
+          },
+          {
+            "id": "b",
+            "text": "Tiêu thụ quá nhiều điện"
+          },
+          {
+            "id": "c",
+            "text": "Không thể dùng vào ban đêm"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Bài đọc nêu ba tác hại: 有損視力、容易引起火災、空氣汙染.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc6-v6-l02-check-03",
+        "prompt": "Hai bài đọc có điểm chung nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Công nghệ đơn giản có thể đáp ứng nhu cầu của người yếu thế"
+          },
+          {
+            "id": "b",
+            "text": "Mọi nơi đều đã có điện"
+          },
+          {
+            "id": "c",
+            "text": "Các phát minh đều xuất phát từ chính phủ"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Kính điều chỉnh độ và hệ thống chiếu sáng đều bắt đầu từ nhu cầu thực tế.",
+        "skill": "Tổng hợp"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem phiên âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc6-v6-l02-v001",
+      "cc6-v6-l02-v002",
+      "cc6-v6-l02-v003",
+      "cc6-v6-l02-v004",
+      "cc6-v6-l02-v005",
+      "cc6-v6-l02-v006",
+      "cc6-v6-l02-v007",
+      "cc6-v6-l02-v008",
+      "cc6-v6-l02-v009",
+      "cc6-v6-l02-v010",
+      "cc6-v6-l02-v011",
+      "cc6-v6-l02-v012",
+      "cc6-v6-l02-v013",
+      "cc6-v6-l02-v014",
+      "cc6-v6-l02-v015",
+      "cc6-v6-l02-v016",
+      "cc6-v6-l02-v017",
+      "cc6-v6-l02-v018",
+      "cc6-v6-l02-v019",
+      "cc6-v6-l02-v020",
+      "cc6-v6-l02-v021",
+      "cc6-v6-l02-v022",
+      "cc6-v6-l02-v023",
+      "cc6-v6-l02-v024",
+      "cc6-v6-l02-v025",
+      "cc6-v6-l02-v026",
+      "cc6-v6-l02-v027",
+      "cc6-v6-l02-v028",
+      "cc6-v6-l02-v029",
+      "cc6-v6-l02-v030",
+      "cc6-v6-l02-v031",
+      "cc6-v6-l02-v032",
+      "cc6-v6-l02-v033",
+      "cc6-v6-l02-v034",
+      "cc6-v6-l02-v035",
+      "cc6-v6-l02-v036",
+      "cc6-v6-l02-v037",
+      "cc6-v6-l02-v038",
+      "cc6-v6-l02-v039",
+      "cc6-v6-l02-v040",
+      "cc6-v6-l02-v041",
+      "cc6-v6-l02-v042",
+      "cc6-v6-l02-v043",
+      "cc6-v6-l02-v044",
+      "cc6-v6-l02-v045",
+      "cc6-v6-l02-v046",
+      "cc6-v6-l02-v047",
+      "cc6-v6-l02-v048",
+      "cc6-v6-l02-v049",
+      "cc6-v6-l02-v050",
+      "cc6-v6-l02-v051",
+      "cc6-v6-l02-v052",
+      "cc6-v6-l02-v053",
+      "cc6-v6-l02-v054",
+      "cc6-v6-l02-v055",
+      "cc6-v6-l02-v056",
+      "cc6-v6-l02-v057",
+      "cc6-v6-l02-v058",
+      "cc6-v6-l02-v059",
+      "cc6-v6-l02-v060",
+      "cc6-v6-l02-v061",
+      "cc6-v6-l02-v062",
+      "cc6-v6-l02-v063",
+      "cc6-v6-l02-v064",
+      "cc6-v6-l02-v065",
+      "cc6-v6-l02-v066",
+      "cc6-v6-l02-v067",
+      "cc6-v6-l02-v068",
+      "cc6-v6-l02-v069",
+      "cc6-v6-l02-v070",
+      "cc6-v6-l02-v071",
+      "cc6-v6-l02-v072",
+      "cc6-v6-l02-v073",
+      "cc6-v6-l02-v074",
+      "cc6-v6-l02-v075",
+      "cc6-v6-l02-v076",
+      "cc6-v6-l02-v077",
+      "cc6-v6-l02-v078",
+      "cc6-v6-l02-v079"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc6-textbook-l02-t03",
+        "label": "Từ vựng bài đọc 1"
+      },
+      {
+        "id": "cc6-textbook-l02-t06",
+        "label": "Từ vựng bài đọc 2"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc6-v6-l02-grammar-01",
+      "title": "從X出發",
+      "explanation": "Nêu điểm bắt đầu hoặc góc tiếp cận của một hành động. X có thể là nơi chốn thật hoặc một ý tưởng, nhu cầu, kinh nghiệm. Trong bài, nhà khoa học bắt đầu từ lĩnh vực mình am hiểu để quan sát vấn đề xã hội.",
+      "structure": "從 + địa điểm / góc tiếp cận + 出發",
+      "examples": [
+        {
+          "chinese": "科學家從自己的專業領域出發，尋找解決方法。",
+          "simplified": "科学家从自己的专业领域出发，寻找解决方法。",
+          "pinyin": "kē xué jiā cóng zì jǐ de zhuān yè lǐng yù chū fā ， xún zhǎo jiě jué fāng fǎ 。",
+          "meaningVi": "Nhà khoa học bắt đầu từ chuyên môn của mình để tìm cách giải quyết."
+        },
+        {
+          "chinese": "我們可以從使用者的需要出發，重新設計產品。",
+          "simplified": "我们可以从使用者的需要出发，重新设计产品。",
+          "pinyin": "wǒ men kě yǐ cóng shǐ yòng zhě de xū yào chū fā ， chóng xīn shè jì chǎn pǐn 。",
+          "meaningVi": "Ta có thể bắt đầu từ nhu cầu người dùng để thiết kế lại sản phẩm."
+        }
+      ],
+      "commonMistake": "Đừng chỉ hiểu 出發 là lên đường theo nghĩa đen; 從經驗出發 nói về điểm xuất phát trong suy nghĩ.",
+      "check": {
+        "id": "cc6-v6-l02-grammar-check-01",
+        "prompt": "Điền vào chỗ trống: 研究社會問題時，應該從實際需要____。",
+        "options": [
+          {
+            "id": "a",
+            "text": "之多"
+          },
+          {
+            "id": "b",
+            "text": "等於是"
+          },
+          {
+            "id": "c",
+            "text": "出發"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Nêu điểm bắt đầu hoặc góc tiếp cận của một hành động.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l02-grammar-02",
+      "title": "有X之多",
+      "explanation": "Nhấn mạnh số lượng đạt mức người nói cho là rất lớn. X phải là số lượng cụ thể, thường gồm con số và lượng từ; 之多 đứng sau toàn bộ con số.",
+      "structure": "有 + số lượng + 之多",
+      "examples": [
+        {
+          "chinese": "全球需要眼鏡的人可能有五億之多。",
+          "simplified": "全球需要眼镜的人可能有五亿之多。",
+          "pinyin": "quán qiú xū yào yǎn jìng de rén kě néng yǒu wǔ yì zhī duō 。",
+          "meaningVi": "Trên thế giới có thể có tới 500 triệu người cần kính."
+        },
+        {
+          "chinese": "這個計畫的參與者有上千人之多。",
+          "simplified": "这个计划的参与者有上千人之多。",
+          "pinyin": "zhè gè jì huà de cān yǔ zhě yǒu shàng qiān rén zhī duō 。",
+          "meaningVi": "Dự án này có tới hơn một nghìn người tham gia."
+        }
+      ],
+      "commonMistake": "Không đặt 之多 trước con số hoặc sau một danh từ không biểu thị lượng.",
+      "check": {
+        "id": "cc6-v6-l02-grammar-check-02",
+        "prompt": "Điền vào chỗ trống: 這項計畫的參與者有兩千人____。",
+        "options": [
+          {
+            "id": "a",
+            "text": "出自"
+          },
+          {
+            "id": "b",
+            "text": "從而"
+          },
+          {
+            "id": "c",
+            "text": "之多"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Nhấn mạnh số lượng đạt mức người nói cho là rất lớn.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l02-grammar-03",
+      "title": "出自",
+      "explanation": "Cho biết một ý tưởng, tác phẩm hay lời nói bắt nguồn từ ai hoặc từ đâu. Trong bài, ý tưởng ban đầu bắt nguồn từ một nhà sản xuất dụng cụ khoa học, còn người đưa nó vào sản xuất là Silver.",
+      "structure": "ý tưởng / tác phẩm + 出自 + nguồn",
+      "examples": [
+        {
+          "chinese": "這個想法出自一位德國製造商。",
+          "simplified": "这个想法出自一位德国制造商。",
+          "pinyin": "zhè gè xiǎng fǎ chū zì yī wèi dé guó zhì zào shāng 。",
+          "meaningVi": "Ý tưởng này bắt nguồn từ một nhà sản xuất người Đức."
+        },
+        {
+          "chinese": "這句話出自他的研究報告。",
+          "simplified": "这句话出自他的研究报告。",
+          "pinyin": "zhè jù huà chū zì tā de yán jiū bào gào 。",
+          "meaningVi": "Câu này trích từ báo cáo nghiên cứu của ông ấy."
+        }
+      ],
+      "commonMistake": "Đừng hiểu 出自 là “đi ra khỏi” theo nghĩa di chuyển vật lý; nó chỉ nguồn gốc.",
+      "check": {
+        "id": "cc6-v6-l02-grammar-check-03",
+        "prompt": "Điền vào chỗ trống: 這個設計最初____一位工程師。",
+        "options": [
+          {
+            "id": "a",
+            "text": "出自"
+          },
+          {
+            "id": "b",
+            "text": "之多"
+          },
+          {
+            "id": "c",
+            "text": "等於是"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Cho biết một ý tưởng, tác phẩm hay lời nói bắt nguồn từ ai hoặc từ đâu.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l02-grammar-04",
+      "title": "從而",
+      "explanation": "Nối hành động hoặc điều kiện ở vế trước với kết quả phát sinh ở vế sau, nghĩa là “từ đó/qua đó”. Trong bài, tìm được cách giải quyết bằng công nghệ đơn giản rồi qua đó cải thiện đời sống.",
+      "structure": "vế nguyên nhân / hành động，從而 + kết quả",
+      "examples": [
+        {
+          "chinese": "他找到問題的根源，從而提出解決方法。",
+          "simplified": "他找到问题的根源，从而提出解决方法。",
+          "pinyin": "tā zhǎo dào wèn tí de gēn yuán ， cóng ér tí chū jiě jué fāng fǎ 。",
+          "meaningVi": "Ông tìm ra căn nguyên vấn đề, từ đó đề xuất cách giải quyết."
+        },
+        {
+          "chinese": "學校和企業合作，從而提高學生的實作能力。",
+          "simplified": "学校和企业合作，从而提高学生的实作能力。",
+          "pinyin": "xué xiào hé qǐ yè hé zuò ， cóng ér tí gāo xué shēng de shí zuò néng lì 。",
+          "meaningVi": "Trường học hợp tác với doanh nghiệp, qua đó nâng cao năng lực thực hành của học sinh."
+        }
+      ],
+      "commonMistake": "Không dùng 從而 để mở một ý mới không có quan hệ kết quả với vế trước.",
+      "check": {
+        "id": "cc6-v6-l02-grammar-check-04",
+        "prompt": "Điền vào chỗ trống: 他們改善了照明設備，____減少煤油燈造成的危害。",
+        "options": [
+          {
+            "id": "a",
+            "text": "出自"
+          },
+          {
+            "id": "b",
+            "text": "之多"
+          },
+          {
+            "id": "c",
+            "text": "從而"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Nối hành động hoặc điều kiện ở vế trước với kết quả phát sinh ở vế sau, nghĩa là “từ đó/qua đó”.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l02-grammar-05",
+      "title": "對X習以為常",
+      "explanation": "Diễn tả ai đó đã quen với X đến mức không còn thấy lạ. X là sự việc, hoàn cảnh hoặc hiện tượng đã lặp lại; bài đọc dùng để nói chúng ta xem ánh đèn là điều đương nhiên.",
+      "structure": "chủ thể + 對 + sự việc + 習以為常",
+      "examples": [
+        {
+          "chinese": "我們對晚上有燈可用早已習以為常。",
+          "simplified": "我们对晚上有灯可用早已习以为常。",
+          "pinyin": "wǒ men duì wǎn shàng yǒu dēng kě yòng zǎo yǐ xí yǐ wèi cháng 。",
+          "meaningVi": "Chúng ta đã quen với việc có đèn vào buổi tối."
+        },
+        {
+          "chinese": "居民對停電習以為常，卻仍希望情況改善。",
+          "simplified": "居民对停电习以为常，却仍希望情况改善。",
+          "pinyin": "jū mín duì tíng diàn xí yǐ wèi cháng ， què réng xī wàng qíng kuàng gǎi shàn 。",
+          "meaningVi": "Người dân đã quen với mất điện nhưng vẫn mong tình hình được cải thiện."
+        }
+      ],
+      "commonMistake": "習以為常 nói về sự quen thuộc, không tự nó mang nghĩa tán thành hay cho rằng điều ấy tốt.",
+      "check": {
+        "id": "cc6-v6-l02-grammar-check-05",
+        "prompt": "Điền vào chỗ trống: 我們對隨時有電可用已經____。",
+        "options": [
+          {
+            "id": "a",
+            "text": "有損"
+          },
+          {
+            "id": "b",
+            "text": "習以為常"
+          },
+          {
+            "id": "c",
+            "text": "供不應求"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Diễn tả ai đó đã quen với X đến mức không còn thấy lạ.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l02-grammar-06",
+      "title": "利用X組成Y",
+      "explanation": "Nói dùng các bộ phận hoặc nguồn lực X để tạo thành một hệ thống hay tổng thể Y. Trong bài, các linh kiện được ghép thành một bộ chiếu sáng.",
+      "structure": "利用 + vật liệu / bộ phận X + 組成 + tổng thể Y",
+      "examples": [
+        {
+          "chinese": "他利用日光板和電池組成一套照明系統。",
+          "simplified": "他利用日光板和电池组成一套照明系统。",
+          "pinyin": "tā lì yòng rì guāng bǎn hé diàn chí zǔ chéng yī tào zhào míng xì tǒng 。",
+          "meaningVi": "Ông dùng tấm pin mặt trời và pin để tạo thành một hệ thống chiếu sáng."
+        },
+        {
+          "chinese": "學生利用回收材料組成簡單的模型。",
+          "simplified": "学生利用回收材料组成简单的模型。",
+          "pinyin": "xué shēng lì yòng huí shōu cái liào zǔ chéng jiǎn dān de mó xíng 。",
+          "meaningVi": "Học sinh dùng vật liệu tái chế để ghép thành mô hình đơn giản."
+        }
+      ],
+      "commonMistake": "組成 cần một kết quả gồm nhiều phần; nếu chỉ nói sử dụng công cụ để làm việc, dùng 利用X做Y sẽ tự nhiên hơn.",
+      "check": {
+        "id": "cc6-v6-l02-grammar-check-06",
+        "prompt": "Điền vào chỗ trống: 工程師利用兩個電池和燈泡____簡單的照明系統。",
+        "options": [
+          {
+            "id": "a",
+            "text": "之多"
+          },
+          {
+            "id": "b",
+            "text": "組成"
+          },
+          {
+            "id": "c",
+            "text": "出自"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Nói dùng các bộ phận hoặc nguồn lực X để tạo thành một hệ thống hay tổng thể Y.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l02-grammar-07",
+      "title": "等於是",
+      "explanation": "Nêu hai tình trạng tương đương về ý nghĩa hoặc hệ quả. Trong bài, không có ánh sáng đồng nghĩa với tước mất cơ hội học tập của trẻ. Phủ định là 不等於.",
+      "structure": "tình trạng A + 等於是 + tình trạng / hệ quả B",
+      "examples": [
+        {
+          "chinese": "讓孩子晚上無法讀書，等於是剝奪他們學習的機會。",
+          "simplified": "让孩子晚上无法读书，等于是剥夺他们学习的机会。",
+          "pinyin": "ràng hái zi wǎn shàng wú fǎ dú shū ， děng yú shì bō duó tā men xué xí de jī huì 。",
+          "meaningVi": "Khiến trẻ không thể đọc sách buổi tối đồng nghĩa với tước cơ hội học tập của các em."
+        },
+        {
+          "chinese": "看不懂一篇文章不等於是沒有能力學外語。",
+          "simplified": "看不懂一篇文章不等于是没有能力学外语。",
+          "pinyin": "kàn bù dǒng yì piān wén zhāng bù děng yú shì méi yǒu néng lì xué wài yǔ 。",
+          "meaningVi": "Không hiểu một bài viết không có nghĩa là không có khả năng học ngoại ngữ."
+        }
+      ],
+      "commonMistake": "Đây là cách so sánh ý nghĩa hoặc hệ quả, không nhất thiết là phép bằng tuyệt đối về số lượng.",
+      "check": {
+        "id": "cc6-v6-l02-grammar-check-07",
+        "prompt": "Điền vào chỗ trống: 沒有安全的照明，____限制孩子夜間學習。",
+        "options": [
+          {
+            "id": "a",
+            "text": "出自"
+          },
+          {
+            "id": "b",
+            "text": "之多"
+          },
+          {
+            "id": "c",
+            "text": "等於是"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Nêu hai tình trạng tương đương về ý nghĩa hoặc hệ quả.",
+        "skill": "Ngữ pháp"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc6-v6-l02-listening-01",
+      "prompt": "Nghe bài đọc 1: người sống ở vùng nghèo gặp khó gì khi cần kính?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Họ không muốn nhìn rõ"
+        },
+        {
+          "id": "b",
+          "text": "Khó tìm bác sĩ mắt hoặc không đủ tiền"
+        },
+        {
+          "id": "c",
+          "text": "Kính luôn có giá quá thấp"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nói họ hoặc không tìm được bác sĩ, hoặc không chịu nổi chi phí.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l02-t02"
+    },
+    {
+      "id": "cc6-v6-l02-listening-02",
+      "prompt": "Nghe bài đọc 1: kính của giáo sư Silver được điều chỉnh bằng gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thay đổi lượng chất lỏng trong tròng kính"
+        },
+        {
+          "id": "b",
+          "text": "Thay toàn bộ tròng kính mỗi ngày"
+        },
+        {
+          "id": "c",
+          "text": "Nối kính với điện lưới"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Người đeo điều chỉnh lượng chất lỏng trong tròng để thay đổi độ kính.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l02-t02"
+    },
+    {
+      "id": "cc6-v6-l02-listening-03",
+      "prompt": "Nghe bài đọc 2: vì sao trẻ ở làng xa phải học buổi tối?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trường chỉ mở cửa vào ban đêm"
+        },
+        {
+          "id": "b",
+          "text": "Ban ngày không có sách"
+        },
+        {
+          "id": "c",
+          "text": "Ban ngày các em đi làm phụ gia đình"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc nói trẻ cần làm việc ban ngày để 貼補家用.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l02-t05"
+    },
+    {
+      "id": "cc6-v6-l02-listening-04",
+      "prompt": "Nghe bài đọc 2: hệ thống chiếu sáng gồm những bộ phận nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tấm pin mặt trời, pin tích điện và đèn LED"
+        },
+        {
+          "id": "b",
+          "text": "Đèn dầu, dây điện dài và máy phát điện"
+        },
+        {
+          "id": "c",
+          "text": "Chỉ một tấm pin mặt trời"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc liệt kê 日光板、蓄電電池 và 發光二極體.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l02-t05"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc6-v6-l02-practice-01",
+      "prompt": "Điền: 科學家應該從人的需要____。",
+      "options": [
+        {
+          "id": "a",
+          "text": "之多"
+        },
+        {
+          "id": "b",
+          "text": "等於是"
+        },
+        {
+          "id": "c",
+          "text": "出發"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "從X出發 nêu điểm bắt đầu khi suy nghĩ hay hành động.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l02-practice-02",
+      "prompt": "Trong bài đọc 1, ai nghĩ ra ý tưởng ban đầu về loại kính này?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Giáo sư Halliday"
+        },
+        {
+          "id": "b",
+          "text": "Người dân Nepal"
+        },
+        {
+          "id": "c",
+          "text": "Một nhà sản xuất dụng cụ khoa học người Đức"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài viết nói 原始的想法出自十八世紀德國的一位科學儀器的製造商.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l02-practice-03",
+      "prompt": "Điền: 這個計畫的參與者有兩千人____。",
+      "options": [
+        {
+          "id": "a",
+          "text": "出自"
+        },
+        {
+          "id": "b",
+          "text": "從而"
+        },
+        {
+          "id": "c",
+          "text": "之多"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "有X之多 dùng với số lượng cụ thể được xem là rất lớn.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l02-practice-04",
+      "prompt": "Trong bài đọc 2, giáo sư Halliday vì sao không chọn kéo điện đến mọi làng xa?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ông chỉ muốn nghiên cứu kính"
+        },
+        {
+          "id": "b",
+          "text": "Cần nhiều nguồn lực và có thể gây hại môi trường"
+        },
+        {
+          "id": "c",
+          "text": "Không có nhu cầu chiếu sáng"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nêu 人力、物力 và tác động của 架設電纜 đối với môi trường.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l02-practice-05",
+      "prompt": "Điền: 他找到問題根源，____提出新的辦法。",
+      "options": [
+        {
+          "id": "a",
+          "text": "從而"
+        },
+        {
+          "id": "b",
+          "text": "出自"
+        },
+        {
+          "id": "c",
+          "text": "之多"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Vế sau là kết quả của hành động tìm ra nguyên nhân ở vế trước.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l02-practice-06",
+      "prompt": "“供不應求” trong bài 1 nói về điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Không ai muốn dùng kính"
+        },
+        {
+          "id": "b",
+          "text": "Kính bị cấm bán"
+        },
+        {
+          "id": "c",
+          "text": "Nhu cầu kính lớn hơn lượng sản xuất"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Tuy công ty làm 2.000 cặp mỗi ngày, nhu cầu vẫn vượt nguồn cung.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc6-v6-l02-practice-07",
+      "prompt": "Điền: 我們對晚上有燈可用早已____。",
+      "options": [
+        {
+          "id": "a",
+          "text": "習以為常"
+        },
+        {
+          "id": "b",
+          "text": "出自"
+        },
+        {
+          "id": "c",
+          "text": "供不應求"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "習以為常 nghĩa là quá quen nên không còn thấy lạ.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l02-practice-08",
+      "prompt": "Bài đọc 2 xem thiếu ánh sáng có hệ quả gì với trẻ em và phụ nữ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hạn chế cơ hội học tập và thoát nghèo"
+        },
+        {
+          "id": "b",
+          "text": "Giúp học tốt hơn"
+        },
+        {
+          "id": "c",
+          "text": "Không ảnh hưởng gì"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Tác giả liên hệ thiếu ánh sáng với mất quyền học tập và cơ hội thoát nghèo.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc6-v6-l02-assessment-01",
+      "prompt": "未必 có nghĩa gần nhất là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ngay lập tức"
+        },
+        {
+          "id": "b",
+          "text": "Chưa chắc; không hẳn"
+        },
+        {
+          "id": "c",
+          "text": "Chắc chắn"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "未必 phủ định sự chắc chắn, không khẳng định điều ngược lại.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc6-v6-l02-assessment-02",
+      "prompt": "“Nguồn gốc của vấn đề” nói thế nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "問題根源"
+        },
+        {
+          "id": "b",
+          "text": "照明系統"
+        },
+        {
+          "id": "c",
+          "text": "供不應求"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "根源 là căn nguyên, gốc rễ của sự việc.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc6-v6-l02-assessment-03",
+      "prompt": "Điền: 這種技術最初____一位研究者。",
+      "options": [
+        {
+          "id": "a",
+          "text": "之多"
+        },
+        {
+          "id": "b",
+          "text": "出自"
+        },
+        {
+          "id": "c",
+          "text": "從而"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "出自 nêu nguồn gốc của ý tưởng hoặc tác phẩm.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l02-assessment-04",
+      "prompt": "Theo bài 1, người dùng điều chỉnh kính bằng cách nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Điều chỉnh lượng chất lỏng trong tròng kính"
+        },
+        {
+          "id": "b",
+          "text": "Thay bác sĩ mỗi lần đeo"
+        },
+        {
+          "id": "c",
+          "text": "Thay toàn bộ khung kính"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài viết viết 使用者自行調整鏡片內的液體量.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l02-assessment-05",
+      "prompt": "Điền: 全世界沒有電的人有二十億____。",
+      "options": [
+        {
+          "id": "a",
+          "text": "等於是"
+        },
+        {
+          "id": "b",
+          "text": "之多"
+        },
+        {
+          "id": "c",
+          "text": "出自"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "有X之多 nhấn mạnh số lượng lớn.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l02-assessment-06",
+      "prompt": "Theo bài 2, trẻ ở vùng xa phải dùng gì để học buổi tối?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đèn đường thành phố"
+        },
+        {
+          "id": "b",
+          "text": "Đèn trong thư viện"
+        },
+        {
+          "id": "c",
+          "text": "Đèn dầu hỏa"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc nói buổi tối các em 只能用煤油燈來照明.",
+      "skill": "Nghe/đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l02-assessment-07",
+      "prompt": "Điền: 這套設備利用日光板和電池____照明系統。",
+      "options": [
+        {
+          "id": "a",
+          "text": "組成"
+        },
+        {
+          "id": "b",
+          "text": "出自"
+        },
+        {
+          "id": "c",
+          "text": "之多"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "利用X組成Y nghĩa là dùng các phần X để ghép thành Y.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l02-assessment-08",
+      "prompt": "“剝奪受教育的權利” nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tước đi quyền được học"
+        },
+        {
+          "id": "b",
+          "text": "Mở thêm trường học"
+        },
+        {
+          "id": "c",
+          "text": "Tăng số giờ học"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "剝奪 là tước mất một quyền hay cơ hội.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc6-v6-l02-assessment-09",
+      "prompt": "Điền: 沒有光線，____限制孩子夜間讀書。",
+      "options": [
+        {
+          "id": "a",
+          "text": "出自"
+        },
+        {
+          "id": "b",
+          "text": "有損"
+        },
+        {
+          "id": "c",
+          "text": "等於是"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "等於是 nêu hệ quả tương đương về mặt ý nghĩa.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l02-assessment-10",
+      "prompt": "Hai câu chuyện nhấn mạnh điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ phát minh lớn mới có ích"
+        },
+        {
+          "id": "b",
+          "text": "Mọi vùng xa cần cùng một giải pháp"
+        },
+        {
+          "id": "c",
+          "text": "Hiểu nhu cầu thật và áp dụng công nghệ đơn giản có thể cải thiện đời sống"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Cả hai nhà nghiên cứu quan sát hoàn cảnh cụ thể rồi tìm giải pháp có thể dùng được.",
+      "skill": "Tổng hợp"
+    }
+  ],
+  "writingTask": {
+    "id": "cc6-v6-l02-writing",
+    "title": "Viết ngắn: công nghệ và nhu cầu",
+    "prompt": "Chọn một nhu cầu trong đời sống. Viết 4–5 câu tiếng Hoa nêu vấn đề, công cụ có thể dùng và tác động mong muốn. Thử dùng 從X出發 và 從而."
+  }
+}

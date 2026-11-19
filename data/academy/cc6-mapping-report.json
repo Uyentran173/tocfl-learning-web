@@ -2,13 +2,13 @@
   "courseId": "cc6",
   "volume": 6,
   "sourceTrackCount": 77,
-  "verifiedTrackCount": 9,
-  "pendingTrackCount": 68,
+  "verifiedTrackCount": 16,
+  "pendingTrackCount": 61,
   "publishedLessonIds": [
-    "cc6-v6-l01"
+    "cc6-v6-l01",
+    "cc6-v6-l02"
   ],
   "pendingLessonIds": [
-    "cc6-v6-l02",
     "cc6-v6-l03",
     "cc6-v6-l04",
     "cc6-v6-l05",
@@ -21,5 +21,5 @@
   "unassignedTrackIds": [
     "cc6-textbook-unassigned-00"
   ],
-  "reason": "Only Lesson 01 printed audio reference codes have been checked against rendered PDF pages. Other tracks are staged until their activity mapping and lesson content are reviewed."
+  "reason": "Lessons 01–02 printed audio reference codes and lesson content were checked against the source PDF. Remaining lessons are staged pending source verification."
 }

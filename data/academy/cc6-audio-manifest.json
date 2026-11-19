@@ -235,9 +235,16 @@
       "privatePath": "textbook/02-01.mp3",
       "bytes": 1318696,
       "sha256": "699c4ebe6ed208c0c0e08a96f59f320f0c11096e7cfaa94a7705e12239c97331",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        52
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 52,
+        "bookPage": 29,
+        "labelVi": "Tóm tắt và mở đầu Bài 02",
+        "referenceCode": "02-01"
+      }
     },
     {
       "id": "cc6-textbook-l02-t02",
@@ -250,9 +257,16 @@
       "privatePath": "textbook/02-02.mp3",
       "bytes": 3362098,
       "sha256": "6fde66949ee23f894c4a6b24471f0a2586ee216be1ffa496cf3d968fb325afaa",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        53
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 53,
+        "bookPage": 30,
+        "labelVi": "Bài đọc 1: 簡單科技改變人類生活 (I)",
+        "referenceCode": "02-02"
+      }
     },
     {
       "id": "cc6-textbook-l02-t03",
@@ -265,9 +279,16 @@
       "privatePath": "textbook/02-03.mp3",
       "bytes": 3565226,
       "sha256": "ad5b4d562be6ff41616f61058ded0d64b923f070749faf204ccb640db11a0829",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        54
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 54,
+        "bookPage": 31,
+        "labelVi": "Từ vựng tóm tắt và bài đọc 1",
+        "referenceCode": "02-03"
+      }
     },
     {
       "id": "cc6-textbook-l02-t04",
@@ -280,9 +301,16 @@
       "privatePath": "textbook/02-04.mp3",
       "bytes": 2480622,
       "sha256": "6b27e11f21249d1215491988c4a02308307e5c38aa6d5d62c752c243b0bb183a",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        60
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 60,
+        "bookPage": 37,
+        "labelVi": "Phân biệt từ dễ nhầm bài đọc 1",
+        "referenceCode": "02-04"
+      }
     },
     {
       "id": "cc6-textbook-l02-t05",
@@ -295,9 +323,16 @@
       "privatePath": "textbook/02-05.mp3",
       "bytes": 4078062,
       "sha256": "c8fc7f098d0b30cae71c483b7ce8d23849e7cd411c4f521d1389629c79890baf",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        63
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 63,
+        "bookPage": 40,
+        "labelVi": "Bài đọc 2: 簡單科技改變人類生活 (II)",
+        "referenceCode": "02-05"
+      }
     },
     {
       "id": "cc6-textbook-l02-t06",
@@ -310,9 +345,16 @@
       "privatePath": "textbook/02-06.mp3",
       "bytes": 3518415,
       "sha256": "89989730b5ba6fe8c6fb51f137804006bf6c48798dd21ed298eea1854d254820",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        64
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 64,
+        "bookPage": 41,
+        "labelVi": "Từ vựng bài đọc 2",
+        "referenceCode": "02-06"
+      }
     },
     {
       "id": "cc6-textbook-l02-t07",
@@ -325,9 +367,16 @@
       "privatePath": "textbook/02-07.mp3",
       "bytes": 1313262,
       "sha256": "09763bd6fd5951a878e5cb8f556334870415bb8ffbfee8d5987a96f668245bb0",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        69
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 69,
+        "bookPage": 46,
+        "labelVi": "Phân biệt từ dễ nhầm bài đọc 2",
+        "referenceCode": "02-07"
+      }
     },
     {
       "id": "cc6-textbook-l03-t01",

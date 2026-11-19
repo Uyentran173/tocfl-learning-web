@@ -7,7 +7,7 @@ import { createPageMetadata } from "@/lib/seo";
 
 export const metadata = createPageMetadata("Tai Wén Academy · Kệ sách", "Khám phá lộ trình học tiếng Hoa theo giáo trình tại Tai Wén Academy.", "/academy");
 
-const availableVolumes = [academyVolume, academyVolume2, academyVolume3, academyVolume4, academyVolume5] as const;
+const availableVolumes = [academyVolume, academyVolume2, academyVolume3, academyVolume4, academyVolume5, academyVolume6] as const;
 
 function BookCover({ number }: { number: number }) {
   return <div className={`academy-book-cover academy-book-cover--v${number}`} aria-hidden="true">
@@ -23,12 +23,8 @@ export default function AcademyPage() {
       <div className="academy-shelf mt-6">
         {availableVolumes.map((volume) => <Link key={volume.id} href={`/academy/contemporary-chinese/${volume.id}`} className="academy-book-card academy-card-link is-available">
           <BookCover number={volume.number} />
-          <div className="academy-book-details"><h3 className="mt-2 text-xl font-bold">{academySeries.title}</h3><p className="mt-1 text-sm muted"><T>{`Tập ${volume.number}`}</T> · {volume.lessonIds.length} <T>bài học</T></p><p className="mt-4 text-sm leading-6 muted"><T>{volume.number === 1 ? "Học hội thoại, từ vựng, ngữ pháp và luyện nghe qua 15 bài của Tập 1." : "Học qua hội thoại, bài đọc, từ vựng, ngữ pháp và luyện nghe."}</T></p><span className="academy-card-arrow" aria-hidden="true">→</span></div>
+          <div className="academy-book-details"><h3 className="mt-2 text-xl font-bold">{academySeries.title}</h3><p className="mt-1 text-sm muted"><T>{`Tập ${volume.number}`}</T> · {volume.number === 6 ? <T>Bài 01 đã mở</T> : <>{volume.lessonIds.length} <T>bài học</T></>}</p><p className="mt-4 text-sm leading-6 muted"><T>{volume.number === 1 ? "Học hội thoại, từ vựng, ngữ pháp và luyện nghe qua 15 bài của Tập 1." : "Học qua hội thoại, bài đọc, từ vựng, ngữ pháp và luyện nghe."}</T></p><span className="academy-card-arrow" aria-hidden="true">→</span></div>
         </Link>)}
-        <article className="academy-book-card is-upcoming">
-          <BookCover number={academyVolume6.number} />
-          <div className="academy-book-details"><h3 className="mt-2 text-xl font-bold">{academySeries.title}</h3><p className="mt-1 text-sm muted"><T>Tập 6</T> · <T>Sắp ra mắt</T></p><p className="mt-4 text-sm leading-6 muted"><T>Bài học sẽ mở khi Tập 6 sẵn sàng.</T></p></div>
-        </article>
       </div>
     </section>
     <div className="academy-crosslinks paper mt-12 p-5 sm:p-6"><p className="font-bold"><T>Tiếp tục theo cách của bạn</T></p><div className="mt-3 flex flex-wrap gap-x-6 gap-y-2 text-sm"><Link href="/vocabulary/textbook"><T>Học từ vựng theo giáo trình</T> ↗</Link><Link href="/tocfl"><T>Luyện đề TOCFL</T> ↗</Link></div></div>

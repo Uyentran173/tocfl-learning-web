@@ -54,6 +54,8 @@ import cc5Lesson08Data from "../data/academy/cc5-lesson08.json" with { type: "js
 import cc5Lesson09Data from "../data/academy/cc5-lesson09.json" with { type: "json" };
 import cc5Lesson10Data from "../data/academy/cc5-lesson10.json" with { type: "json" };
 import { cc5Lesson01Words, cc5Lesson02Words, cc5Lesson03Words, cc5Lesson04Words, cc5Lesson05Words, cc5Lesson06Words, cc5Lesson07Words, cc5Lesson08Words, cc5Lesson09Words, cc5Lesson10Words } from "./cc5-course-vocabulary.ts";
+import cc6Lesson01Data from "../data/academy/cc6-lesson01.json" with { type: "json" };
+import { cc6Lesson01Words } from "./cc6-course-vocabulary.ts";
 export { academyLesson01 };
 
 export const academyActivityKinds = ["lecture", "vocabulary", "grammar", "practice", "assessment"] as const;
@@ -196,8 +198,13 @@ export const academyVolume6 = {
   id: "cc6-v6",
   seriesId: academySeries.id,
   number: 6,
-  lessonIds: [],
+  lessonIds: Array.from({ length: 10 }, (_, index) => `cc6-v6-l${String(index + 1).padStart(2, "0")}`),
 } as const;
+export const academyVolume6Lesson01 = {
+  ...cc6Lesson01Data,
+  vocabulary: { ...cc6Lesson01Data.vocabulary, wordIds: cc6Lesson01Words.map((word) => word.id!) },
+} as unknown as AcademyLessonContent;
+export const academyVolume6Lessons = [academyVolume6Lesson01];
 export const academyVolume5Lesson01 = {
   ...cc5Lesson01Data,
   vocabulary: { ...cc5Lesson01Data.vocabulary, wordIds: cc5Lesson01Words.map((word) => word.id!) },
@@ -366,6 +373,18 @@ export const academyVolume5LessonSummaries = [
   { chinese: "有核到底可不可", vi: "Có nên dùng điện hạt nhân?" },
   { chinese: "同性婚姻合法化", vi: "Hợp pháp hóa hôn nhân đồng giới" },
 ] as const;
+export const academyVolume6LessonSummaries = [
+  { chinese: "職校教育", vi: "Giáo dục nghề" },
+  { chinese: "科技與生活", vi: "Công nghệ và đời sống" },
+  { chinese: "舞蹈藝術", vi: "Nghệ thuật múa" },
+  { chinese: "做人心法", vi: "Cách sống và ứng xử" },
+  { chinese: "國際語言", vi: "Ngôn ngữ quốc tế" },
+  { chinese: "貓熊角色", vi: "Vai trò của gấu trúc" },
+  { chinese: "感情世界", vi: "Thế giới tình cảm" },
+  { chinese: "奧運黑洞", vi: "Mặt trái tài chính của Olympic" },
+  { chinese: "鄉關何處", vi: "Quê nhà ở đâu?" },
+  { chinese: "智慧與能力", vi: "Trí tuệ và năng lực" },
+] as const;
 
 // Titles follow the Volume 1 contents page. Unpublished lessons have no activity content.
 export const academyLessonSummaries = [
@@ -390,7 +409,7 @@ export function academyLessonId(number: number) {
   return academyVolume.lessonIds[number - 1];
 }
 export function academyLessonNumber(id: string) {
-  const index = id.startsWith("cc5-v5-") ? academyVolume5.lessonIds.indexOf(id) : id.startsWith("cc4-v4-") ? academyVolume4.lessonIds.indexOf(id) : id.startsWith("cc3-v3-") ? academyVolume3.lessonIds.indexOf(id) : id.startsWith("cc2-v2-") ? academyVolume2.lessonIds.indexOf(id) : academyVolume.lessonIds.indexOf(id);
+  const index = id.startsWith("cc6-v6-") ? academyVolume6.lessonIds.indexOf(id) : id.startsWith("cc5-v5-") ? academyVolume5.lessonIds.indexOf(id) : id.startsWith("cc4-v4-") ? academyVolume4.lessonIds.indexOf(id) : id.startsWith("cc3-v3-") ? academyVolume3.lessonIds.indexOf(id) : id.startsWith("cc2-v2-") ? academyVolume2.lessonIds.indexOf(id) : academyVolume.lessonIds.indexOf(id);
   return index < 0 ? null : index + 1;
 }
 export function academyActivityId(lessonId: string, kind: AcademyActivityKind) {
@@ -405,6 +424,8 @@ export function academyStaticLesson(number: number): AcademyLessonContent | null
   return academyLessons02to15[number - 2] ?? null;
 }
 export function academyStaticLessonById(id: string): AcademyLessonContent | null {
+  const volume6Lesson = academyVolume6Lessons.find((lesson) => lesson.id === id);
+  if (volume6Lesson) return volume6Lesson;
   const volume5Lesson = academyVolume5Lessons.find((lesson) => lesson.id === id);
   if (volume5Lesson) return volume5Lesson;
   const volume4Lesson = academyVolume4Lessons.find((lesson) => lesson.id === id);
@@ -449,7 +470,7 @@ export function validateAcademyLessonContent(value: unknown): value is AcademyLe
   const sentence = (v: unknown) => record(v) && text(v.chinese) && text(v.simplified) && text(v.pinyin) && text(v.meaningVi);
   const question = (v: unknown) => record(v) && text(v.id, 100) && text(v.prompt) && text(v.feedback) && text(v.skill, 100) && Array.isArray(v.options) && v.options.length >= 2 && v.options.length <= 6 && v.options.every((choice: unknown) => record(choice) && text(choice.id, 10) && text(choice.text)) && new Set(v.options.map((choice: { id: string }) => choice.id)).size === v.options.length && v.options.some((choice: { id: string }) => choice.id === v.correctOptionId);
   const questionList = (v: unknown, min: number, max: number) => Array.isArray(v) && v.length >= min && v.length <= max && v.every(question) && new Set(v.map((q: { id: string }) => q.id)).size === v.length;
-  if (!record(value) || value.contentVersion !== 2 || !text(value.id, 100) || ![...academyVolume.lessonIds, ...academyVolume2.lessonIds, ...academyVolume3.lessonIds, ...academyVolume4.lessonIds, ...academyVolume5.lessonIds].includes(value.id as string) || !text(value.title, 100) || !text(value.titleVi, 100) || !text(value.description, 500) || !Array.isArray(value.objectives) || !value.objectives.length || !value.objectives.every((item: unknown) => text(item, 300)) || !(value.estimatedMinutes === null || (Number.isInteger(value.estimatedMinutes) && Number(value.estimatedMinutes) > 0 && Number(value.estimatedMinutes) <= 300))) return false;
+  if (!record(value) || value.contentVersion !== 2 || !text(value.id, 100) || ![...academyVolume.lessonIds, ...academyVolume2.lessonIds, ...academyVolume3.lessonIds, ...academyVolume4.lessonIds, ...academyVolume5.lessonIds, ...academyVolume6.lessonIds].includes(value.id as string) || !text(value.title, 100) || !text(value.titleVi, 100) || !text(value.description, 500) || !Array.isArray(value.objectives) || !value.objectives.length || !value.objectives.every((item: unknown) => text(item, 300)) || !(value.estimatedMinutes === null || (Number.isInteger(value.estimatedMinutes) && Number(value.estimatedMinutes) > 0 && Number(value.estimatedMinutes) <= 300))) return false;
   const isFirst = value.id === academyLesson01.id;
   if (!record(value.lecture) || !text(value.lecture.introduction) || !Array.isArray(value.lecture.sections) || value.lecture.sections.length < 2 || !value.lecture.sections.every((item: unknown) => record(item) && sentence(item) && text(item.id, 100) && text(item.title, 100) && text(item.body)) || !Array.isArray(value.lecture.dialogues) || value.lecture.dialogues.length < 2 || !value.lecture.dialogues.every((item: unknown) => record(item) && text(item.id, 100) && text(item.title, 100) && text(item.context) && Array.isArray(item.turns) && item.turns.length >= 2 && item.turns.every((turn: unknown) => record(turn) && text(turn.speaker, 100) && sentence(turn))) || !questionList(value.lecture.checks, 1, 10) || !Array.isArray(value.lecture.pronunciation) || (isFirst && value.lecture.pronunciation.length < 2) || !value.lecture.pronunciation.every((item: unknown) => record(item) && sentence(item) && text(item.id, 100) && text(item.title, 100) && text(item.explanation)) || !Array.isArray(value.lecture.culture) || (isFirst && value.lecture.culture.length < 1) || !value.lecture.culture.every((item: unknown) => record(item) && text(item.id, 100) && text(item.title, 100) && text(item.body))) return false;
   const expected = academyStaticLessonById(value.id as string);

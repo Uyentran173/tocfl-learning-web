@@ -7,6 +7,7 @@ import cc2ReviewedContent from "@/data/academy/cc2-reviewed-content.json";
 import cc3ReviewedContent from "@/data/academy/cc3-reviewed-content.json";
 import cc4ReviewedContent from "@/data/academy/cc4-reviewed-content.json";
 import cc5ReviewedContent from "@/data/academy/cc5-reviewed-content.json";
+import cc6ReviewedContent from "@/data/academy/cc6-reviewed-content.json";
 import { progressStorage } from "@/lib/progress-storage";
 import { useT } from "./PreferencesProvider";
 
@@ -33,7 +34,7 @@ function readProgress(firstTrackId: string, progressKey: string): LessonProgress
   } catch { return empty; }
 }
 
-export default function AcademyAudioLesson({ tracks, availableTrackIds, embedded = false, lessonNumber = 1, script = "traditional", courseId = "cc1" }: { tracks: AcademyTrack[]; availableTrackIds: string[]; embedded?: boolean; lessonNumber?: number; script?: "traditional" | "simplified"; courseId?: "cc1" | "cc2" | "cc3" | "cc4" | "cc5" }) {
+export default function AcademyAudioLesson({ tracks, availableTrackIds, embedded = false, lessonNumber = 1, script = "traditional", courseId = "cc1" }: { tracks: AcademyTrack[]; availableTrackIds: string[]; embedded?: boolean; lessonNumber?: number; script?: "traditional" | "simplified"; courseId?: "cc1" | "cc2" | "cc3" | "cc4" | "cc5" | "cc6" }) {
   const t = useT();
   const progressKey = progressKeyForLesson(lessonNumber, courseId);
   const textbook = tracks.filter((track) => track.source === "textbook");
@@ -59,7 +60,7 @@ export default function AcademyAudioLesson({ tracks, availableTrackIds, embedded
 
   const active = tracks.find((track) => track.id === progress.selectedTrackId) ?? tracks[0];
   const available = active && availableTrackIds.includes(active.id);
-  const reviewMap: Record<string, { transcriptTraditional?: string; transcriptSimplified?: string; translationVi?: string }> = courseId === "cc5" ? cc5ReviewedContent : courseId === "cc4" ? cc4ReviewedContent : courseId === "cc3" ? cc3ReviewedContent : courseId === "cc2" ? cc2ReviewedContent : reviewedContent;
+  const reviewMap: Record<string, { transcriptTraditional?: string; transcriptSimplified?: string; translationVi?: string }> = courseId === "cc6" ? cc6ReviewedContent : courseId === "cc5" ? cc5ReviewedContent : courseId === "cc4" ? cc4ReviewedContent : courseId === "cc3" ? cc3ReviewedContent : courseId === "cc2" ? cc2ReviewedContent : reviewedContent;
   const reviewed = reviewMap[active?.id ?? ""];
   function selectTrack(id: string) {
     audioRef.current?.pause();

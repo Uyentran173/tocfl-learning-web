@@ -4,6 +4,7 @@ import { cc2VocabularySets } from "./cc2-course-vocabulary.ts";
 import { cc3VocabularySets } from "./cc3-course-vocabulary.ts";
 import { cc4VocabularySets } from "./cc4-course-vocabulary.ts";
 import { cc5VocabularySets } from "./cc5-course-vocabulary.ts";
+import { cc6VocabularySets } from "./cc6-course-vocabulary.ts";
 
 export type VocabularyWord = {
   id?: string;
@@ -129,6 +130,7 @@ export const textbookSets: VocabularySet[] = [
   ...cc3VocabularySets,
   ...cc4VocabularySets,
   ...cc5VocabularySets,
+  ...cc6VocabularySets,
 ];
 
 // Keep course > chapter > lesson nesting so later textbook imports need no UI changes.
@@ -139,6 +141,7 @@ export const textbooks: VocabularyTextbook[] = [
     { id: "cc3-v3", title: "Tập 3", lessons: cc3VocabularySets },
     { id: "cc4-v4", title: "Tập 4", lessons: cc4VocabularySets },
     { id: "cc5-v5", title: "Tập 5", lessons: cc5VocabularySets },
+    { id: "cc6-v6", title: "Tập 6", lessons: cc6VocabularySets },
   ] },
   { id: "nhap-mon", title: "Bộ từ vựng nhập môn", chapters: [
     { id: "nen-tang", title: "Nền tảng", lessons: textbookSets.slice(1, 2) },

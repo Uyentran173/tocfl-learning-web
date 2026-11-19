@@ -1,0 +1,1135 @@
+{
+  "contentVersion": 2,
+  "id": "cc6-v6-l01",
+  "title": "職校教育",
+  "titleVi": "Giáo dục nghề",
+  "description": "Đọc hai phần bài báo về đào tạo nghề Thụy Sĩ, phân biệt nhận định và dẫn chứng, rồi luyện lập luận về giáo dục và thị trường.",
+  "objectives": [
+    "Nêu được cách tác giả liên hệ đào tạo nghề với năng lực cạnh tranh.",
+    "Giải thích sự đối chiếu giữa bằng cấp, kỹ năng thực hành và nhu cầu doanh nghiệp.",
+    "Dùng các mẫu 放眼、…之處在於…、反而是、逐年、迫使 để trình bày quan điểm."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Bài 01 đọc một bài báo hai phần về đào tạo nghề ở Thụy Sĩ. Tác giả dẫn lời Garelli để bàn về kỹ năng thực tế, sự hợp tác với doanh nghiệp và cách ứng phó khi thị trường thay đổi. Hãy tách lời được trích dẫn khỏi kết luận của chính mình.",
+    "sections": [
+      {
+        "id": "cc6-v6-l01-section-01",
+        "title": "Điểm mạnh của đào tạo nghề",
+        "body": "Đọc đoạn đầu để tìm luận điểm và bằng chứng: sức cạnh tranh của người tốt nghiệp trường nghề được giải thích bằng quan hệ giữa giáo dục và doanh nghiệp.",
+        "chinese": "瑞士教育制度成功之處，在於產業和高等教育的緊密合作與連結。",
+        "simplified": "瑞士教育制度成功之处，在于产业和高等教育的紧密合作与连结。",
+        "pinyin": "ruì shì jiào yù zhì dù chéng gōng zhī chù ， zài yú chǎn yè hé gāo děng jiào yù de jǐn mì hé zuò yǔ lián jié 。",
+        "meaningVi": "Điểm thành công của giáo dục Thụy Sĩ nằm ở sự hợp tác và kết nối chặt chẽ giữa ngành và giáo dục đại học."
+      },
+      {
+        "id": "cc6-v6-l01-section-02",
+        "title": "Bằng cấp và kỹ năng thực tế",
+        "body": "Chú ý lời nhân vật được dẫn trong bài: đây là nhận định của Garelli, không phải kết luận rằng mọi người học đại học đều thiếu kỹ năng.",
+        "chinese": "大學文憑比不上一技在身。",
+        "simplified": "大学文凭比不上一技在身。",
+        "pinyin": "dà xué wén píng bǐ bù shàng yī jì zài shēn 。",
+        "meaningVi": "Bằng đại học có thể không bằng một kỹ năng thực tế trong tay."
+      },
+      {
+        "id": "cc6-v6-l01-section-03",
+        "title": "Thị trường thay đổi và năng lực thích nghi",
+        "body": "Bài đọc thứ hai mở rộng sang xuất khẩu và nền kinh tế mới nổi. Hãy lần theo chuỗi nguyên nhân: quyết định chính sách → chuyển thị trường → đổi mới công nghệ.",
+        "chinese": "因為拒絕加入歐盟，迫使瑞士更開放對外發展。",
+        "simplified": "因为拒绝加入欧盟，迫使瑞士更开放对外发展。",
+        "pinyin": "yīn wèi jù jué jiā rù ōu méng ， pò shǐ ruì shì gèng kāi fàng duì wài fā zhǎn 。",
+        "meaningVi": "Việc không gia nhập EU đã buộc Thụy Sĩ mở rộng phát triển ra bên ngoài."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc6-v6-l01-reading1",
+        "title": "課文一 · 瑞士職校畢業生最有競爭力（I）",
+        "context": "Bài báo về quan hệ giữa đào tạo nghề, doanh nghiệp và khả năng tìm việc.",
+        "audioTrackId": "cc6-textbook-l01-t02",
+        "turns": [
+          {
+            "speaker": "Đoạn 1",
+            "chinese": "洛桑管理學院每年出版的世界競爭力報告，讓各國政府、媒體總要嚴陣以待。負責這項報告廿五年的世界競爭力中心主任葛瑞里，談到教育與競爭力關係，他直言，瑞士教育制度成功之處，在於產業和高等教育的緊密合作與連結。",
+            "simplified": "洛桑管理学院每年出版的世界竞争力报告，让各国政府、媒体总要严阵以待。负责这项报告廿五年的世界竞争力中心主任葛瑞里，谈到教育与竞争力关系，他直言，瑞士教育制度成功之处，在于产业和高等教育的紧密合作与连结。",
+            "pinyin": "luò sāng guǎn lǐ xué yuàn měi nián chū bǎn de shì jiè jìng zhēng lì bào gào ， ràng gè guó zhèng fǔ 、 méi tǐ zǒng yào yán zhèn yǐ dài 。 fù zé zhè xiàng bào gào niàn wǔ nián de shì jiè jìng zhēng lì zhōng xīn zhǔ rèn gé ruì lǐ ， tán dào jiào yù yǔ jìng zhēng lì guān xì ， tā zhí yán ， ruì shì jiào yù zhì dù chéng gōng zhī chù ， zài yú chǎn yè hé gāo děng jiào yù de jǐn mì hé zuò yǔ lián jié 。",
+            "meaningVi": "Báo cáo năng lực cạnh tranh thế giới do Học viện Quản lý Lausanne công bố hằng năm khiến chính phủ và truyền thông các nước luôn phải chuẩn bị đón nhận. Garelli, giám đốc trung tâm phụ trách báo cáo suốt 25 năm, nói thẳng rằng thành công của giáo dục Thụy Sĩ nằm ở sự hợp tác chặt chẽ giữa ngành công nghiệp và giáo dục đại học."
+          },
+          {
+            "speaker": "Đoạn 2",
+            "chinese": "葛瑞里指出，目前全球最有競爭力的是職校畢業生。他分析歐洲目前幾個較有競爭力的國家，包括瑞士、德國、奧地利和瑞典，都具有技職教育的傳統，如今成為各國爭相學習的典範。",
+            "simplified": "葛瑞里指出，目前全球最有竞争力的是职校毕业生。他分析欧洲目前几个较有竞争力的国家，包括瑞士、德国、奥地利和瑞典，都具有技职教育的传统，如今成为各国争相学习的典范。",
+            "pinyin": "gé ruì lǐ zhǐ chū ， mù qián quán qiú zuì yǒu jìng zhēng lì de shì zhí xiào bì yè shēng 。 tā fēn xī ōu zhōu mù qián jǐ gè jiào yǒu jìng zhēng lì de guó jiā ， bāo kuò ruì shì 、 dé guó 、 ào dì lì hé ruì diǎn ， dōu jù yǒu jì zhí jiào yù de chuán tǒng ， rú jīn chéng wèi gè guó zhēng xiāng xué xí de diǎn fàn 。",
+            "meaningVi": "Theo Garelli, người tốt nghiệp trường nghề hiện có sức cạnh tranh rất cao. Ông phân tích rằng Thụy Sĩ, Đức, Áo và Thụy Điển đều có truyền thống đào tạo nghề, nay trở thành hình mẫu được nhiều nước học hỏi."
+          },
+          {
+            "speaker": "Đoạn 3",
+            "chinese": "葛瑞里開玩笑說，自己身為大學教授，但也清楚這個時代，大學文憑比不上一技在身，技職學校的畢業生往往比碩士、博士更快、更容易找到工作。他點出，在瑞士，即使公司管理階層，沒上過大學的比比皆是，很多只懂得理論的人，對企業運作不見得了解。",
+            "simplified": "葛瑞里开玩笑说，自己身为大学教授，但也清楚这个时代，大学文凭比不上一技在身，技职学校的毕业生往往比硕士、博士更快、更容易找到工作。他点出，在瑞士，即使公司管理阶层，没上过大学的比比皆是，很多只懂得理论的人，对企业运作不见得了解。",
+            "pinyin": "gé ruì lǐ kāi wán xiào shuō ， zì jǐ shēn wèi dà xué jiào shòu ， dàn yě qīng chǔ zhè gè shí dài ， dà xué wén píng bǐ bù shàng yī jì zài shēn ， jì zhí xué xiào de bì yè shēng wǎng wǎng bǐ shuò shì 、 bó shì gèng kuài 、 gèng róng yì zhǎo dào gōng zuò 。 tā diǎn chū ， zài ruì shì ， jí shǐ gōng sī guǎn lǐ jiē céng ， méi shàng guò dà xué de bǐ bǐ jiē shì ， hěn duō zhǐ dǒng de lǐ lùn de rén ， duì qǐ yè yùn zuò bù jiàn dé liǎo jiě 。",
+            "meaningVi": "Garelli đùa rằng tuy bản thân là giáo sư đại học, ông vẫn hiểu rằng thời nay một kỹ năng thực tế có khi có giá trị hơn bằng cấp. Người tốt nghiệp trường nghề thường tìm việc nhanh và dễ hơn người có bằng thạc sĩ, tiến sĩ. Tại Thụy Sĩ, nhiều người quản lý doanh nghiệp cũng không học đại học; người chỉ biết lý thuyết chưa chắc hiểu cách doanh nghiệp vận hành."
+          },
+          {
+            "speaker": "Đoạn 4",
+            "chinese": "經常和各國大、小企業接觸的他，很清楚不管是製造業還是服務業，都發現職校、商業學校的學生，通常一畢業就可上工，反而是光會念書的大學生，還需要經過一段時間訓練。",
+            "simplified": "经常和各国大、小企业接触的他，很清楚不管是制造业还是服务业，都发现职校、商业学校的学生，通常一毕业就可上工，反而是光会念书的大学生，还需要经过一段时间训练。",
+            "pinyin": "jīng cháng hé gè guó dà 、 xiǎo qǐ yè jiē chù de tā ， hěn qīng chǔ bù guǎn shì zhì zào yè hái shì fú wù yè ， dōu fā xiàn zhí xiào 、 shāng yè xué xiào de xué shēng ， tōng cháng yī bì yè jiù kě shàng gōng ， fǎn ér shì guāng huì niàn shū de dà xué shēng ， hái xū yào jīng guò yī duàn shí jiān xùn liàn 。",
+            "meaningVi": "Qua tiếp xúc với doanh nghiệp lớn nhỏ ở nhiều nước, ông nhận thấy sinh viên trường nghề và trường thương mại thường làm việc được ngay sau tốt nghiệp, dù ở ngành sản xuất hay dịch vụ. Ngược lại, sinh viên đại học chỉ giỏi sách vở còn cần thời gian đào tạo."
+          },
+          {
+            "speaker": "Đoạn 5",
+            "chinese": "身為洛桑管理學院裡唯一的瑞士籍教授，葛瑞里更認為，高等教育需要政府和企業共同合作，瑞士教育制度成功之處，關鍵在於和產業有緊密合作與連結，尤其是科技大學與產業的合作。",
+            "simplified": "身为洛桑管理学院里唯一的瑞士籍教授，葛瑞里更认为，高等教育需要政府和企业共同合作，瑞士教育制度成功之处，关键在于和产业有紧密合作与连结，尤其是科技大学与产业的合作。",
+            "pinyin": "shēn wèi luò sāng guǎn lǐ xué yuàn lǐ wéi yī de ruì shì jí jiào shòu ， gé ruì lǐ gèng rèn wèi ， gāo děng jiào yù xū yào zhèng fǔ hé qǐ yè gòng tóng hé zuò ， ruì shì jiào yù zhì dù chéng gōng zhī chù ， guān jiàn zài yú hé chǎn yè yǒu jǐn mì hé zuò yǔ lián jié ， yóu qí shì kē jì dà xué yǔ chǎn yè de hé zuò 。",
+            "meaningVi": "Là giáo sư người Thụy Sĩ duy nhất tại học viện, ông cho rằng giáo dục đại học cần có sự hợp tác giữa chính phủ và doanh nghiệp. Điểm then chốt trong thành công của Thụy Sĩ là gắn giáo dục với công nghiệp, đặc biệt là hợp tác giữa đại học công nghệ và doanh nghiệp."
+          },
+          {
+            "speaker": "Đoạn 6",
+            "chinese": "他說，不只大企業和各大學、研究中心都有合作計畫案，即使是中、小型企業，沒有能力像大企業投入大筆資金研發、聘請高階研究人才，仍可透過和學校合作，讓產業不斷升級、維持競爭力。",
+            "simplified": "他说，不只大企业和各大学、研究中心都有合作计划案，即使是中、小型企业，没有能力像大企业投入大笔资金研发、聘请高阶研究人才，仍可透过和学校合作，让产业不断升级、维持竞争力。",
+            "pinyin": "tā shuō ， bù zhǐ dà qǐ yè hé gè dà xué 、 yán jiū zhōng xīn dōu yǒu hé zuò jì huà àn ， jí shǐ shì zhōng 、 xiǎo xíng qǐ yè ， méi yǒu néng lì xiàng dà qǐ yè tóu rù dà bǐ zī jīn yán fā 、 pìn qǐng gāo jiē yán jiū rén cái ， réng kě tòu guò hé xué xiào hé zuò ， ràng chǎn yè bù duàn shēng jí 、 wéi chí jìng zhēng lì 。",
+            "meaningVi": "Theo ông, doanh nghiệp lớn hợp tác với đại học và trung tâm nghiên cứu. Doanh nghiệp vừa và nhỏ tuy không đủ vốn đầu tư nghiên cứu hay tuyển nhân sự cấp cao như doanh nghiệp lớn, vẫn có thể hợp tác với trường học để nâng cấp hoạt động và duy trì sức cạnh tranh."
+          }
+        ]
+      },
+      {
+        "id": "cc6-v6-l01-reading2",
+        "title": "課文二 · 瑞士職校畢業生最有競爭力（II）",
+        "context": "Phần tiếp theo bàn về biến đổi kinh tế và hướng xuất khẩu của Thụy Sĩ.",
+        "audioTrackId": "cc6-textbook-l01-t05",
+        "turns": [
+          {
+            "speaker": "Đoạn 1",
+            "chinese": "葛瑞里提到，法國、義大利、西班牙都想學瑞士的技職教育制度，如果缺乏企業的加入，便難有成效。",
+            "simplified": "葛瑞里提到，法国、义大利、西班牙都想学瑞士的技职教育制度，如果缺乏企业的加入，便难有成效。",
+            "pinyin": "gé ruì lǐ tí dào ， fǎ guó 、 yì dà lì 、 xī bān yá dōu xiǎng xué ruì shì de jì zhí jiào yù zhì dù ， rú guǒ quē fá qǐ yè de jiā rù ， biàn nán yǒu chéng xiào 。",
+            "meaningVi": "Garelli nói Pháp, Ý và Tây Ban Nha đều muốn học mô hình đào tạo nghề của Thụy Sĩ; thiếu sự tham gia của doanh nghiệp thì khó có kết quả."
+          },
+          {
+            "speaker": "Đoạn 2",
+            "chinese": "面對全球愈來愈快的變化，葛瑞里說，廿五年前的世界競爭力年度報告，根本沒把俄國、中國大陸、巴西這些國家列入評比，如今愈來愈多新的國際品牌從這些新興經濟體產生。以前到洛桑管理學院進修的學生幾乎全來自歐、美，如今，來自亞洲、非洲、巴西等地的人逐年增加。",
+            "simplified": "面对全球愈来愈快的变化，葛瑞里说，廿五年前的世界竞争力年度报告，根本没把俄国、中国大陆、巴西这些国家列入评比，如今愈来愈多新的国际品牌从这些新兴经济体产生。以前到洛桑管理学院进修的学生几乎全来自欧、美，如今，来自亚洲、非洲、巴西等地的人逐年增加。",
+            "pinyin": "miàn duì quán qiú yù lái yù kuài de biàn huà ， gé ruì lǐ shuō ， niàn wǔ nián qián de shì jiè jìng zhēng lì nián dù bào gào ， gēn běn méi bǎ é guó 、 zhōng guó dà lù 、 bā xī zhè xiē guó jiā liè rù píng bǐ ， rú jīn yù lái yù duō xīn de guó jì pǐn pái cóng zhè xiē xīn xìng jīng jì tǐ chǎn shēng 。 yǐ qián dào luò sāng guǎn lǐ xué yuàn jìn xiū de xué shēng jǐ hū quán lái zì ōu 、 měi ， rú jīn ， lái zì yà zhōu 、 fēi zhōu 、 bā xī děng dì de rén zhú nián zēng jiā 。",
+            "meaningVi": "Trước những thay đổi ngày càng nhanh trên thế giới, Garelli cho biết báo cáo 25 năm trước không đưa Nga, Trung Quốc đại lục hay Brazil vào bảng xếp hạng. Nay ngày càng nhiều thương hiệu quốc tế xuất hiện từ các nền kinh tế mới nổi. Người học nâng cao tại Lausanne trước kia hầu hết từ châu Âu và châu Mỹ, còn nay số người từ châu Á, châu Phi và Brazil tăng dần từng năm."
+          },
+          {
+            "speaker": "Đoạn 3",
+            "chinese": "葛瑞里說，瑞士在廿一年前公投決定不加入歐盟，並因此將出口產業目標轉向亞洲、拉丁美洲等國家，不再自限於歐洲市場，如今證明當初決定正確，因為拒絕加入歐盟，迫使瑞士更開放對外發展，證明了「危機就是轉機」。",
+            "simplified": "葛瑞里说，瑞士在廿一年前公投决定不加入欧盟，并因此将出口产业目标转向亚洲、拉丁美洲等国家，不再自限于欧洲市场，如今证明当初决定正确，因为拒绝加入欧盟，迫使瑞士更开放对外发展，证明了「危机就是转机」。",
+            "pinyin": "gé ruì lǐ shuō ， ruì shì zài niàn yī nián qián gōng tóu jué dìng bù jiā rù ōu méng ， bìng yīn cǐ jiāng chū kǒu chǎn yè mù biāo zhuǎn xiàng yà zhōu 、 lā dīng měi zhōu děng guó jiā ， bù zài zì xiàn yú ōu zhōu shì chǎng ， rú jīn zhèng míng dāng chū jué dìng zhèng què ， yīn wèi jù jué jiā rù ōu méng ， pò shǐ ruì shì gèng kāi fàng duì wài fā zhǎn ， zhèng míng liǎo 「 wēi jī jiù shì zhuǎn jī 」。",
+            "meaningVi": "Ông nói Thụy Sĩ trưng cầu dân ý quyết định không gia nhập EU 21 năm trước, nên chuyển trọng tâm xuất khẩu sang châu Á và Mỹ Latinh, không bó mình trong thị trường châu Âu. Theo ông, quyết định đó thúc đẩy Thụy Sĩ mở rộng ra bên ngoài và cho thấy khủng hoảng có thể tạo cơ hội chuyển đổi."
+          },
+          {
+            "speaker": "Đoạn 4",
+            "chinese": "總是有危機感的瑞士和台灣一樣，都是高度仰賴出口的國家，這幾年也都是全球經濟衰敗的犧牲者。對瑞士而言，愈高等的教育機構，和企業合作愈緊密，讓企業永遠保有不斷創新的高階技術，才能維持不受新興經濟體低價傾銷的衝擊與消滅。",
+            "simplified": "总是有危机感的瑞士和台湾一样，都是高度仰赖出口的国家，这几年也都是全球经济衰败的牺牲者。对瑞士而言，愈高等的教育机构，和企业合作愈紧密，让企业永远保有不断创新的高阶技术，才能维持不受新兴经济体低价倾销的冲击与消灭。",
+            "pinyin": "zǒng shì yǒu wēi jī gǎn de ruì shì hé tái wān yī yàng ， dōu shì gāo dù yǎng lài chū kǒu de guó jiā ， zhè jǐ nián yě dōu shì quán qiú jīng jì shuāi bài de xī shēng zhě 。 duì ruì shì ér yán ， yù gāo děng de jiào yù jī gòu ， hé qǐ yè hé zuò yù jǐn mì ， ràng qǐ yè yǒng yuǎn bǎo yǒu bù duàn chuàng xīn de gāo jiē jì shù ， cái néng wéi chí bù shòu xīn xìng jīng jì tǐ dī jià qīng xiāo de chōng jī yǔ xiāo miè 。",
+            "meaningVi": "Thụy Sĩ, cũng như Đài Loan, phụ thuộc nhiều vào xuất khẩu và chịu tác động từ suy thoái kinh tế toàn cầu. Theo bài viết, các cơ sở giáo dục bậc cao cần hợp tác chặt hơn với doanh nghiệp để duy trì công nghệ tiên tiến, liên tục đổi mới và ứng phó với hàng giá rẻ từ các nền kinh tế mới nổi."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc6-v6-l01-check-01",
+        "prompt": "Theo bài đọc 1, điểm mạnh của giáo dục Thụy Sĩ nằm ở đâu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Chỉ chú trọng bằng cấp"
+          },
+          {
+            "id": "b",
+            "text": "Liên kết chặt giữa giáo dục và doanh nghiệp"
+          },
+          {
+            "id": "c",
+            "text": "Không có đào tạo nghề"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Bài đọc nêu rõ 緊密合作與連結 giữa ngành và giáo dục.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc6-v6-l01-check-02",
+        "prompt": "Vì sao người học trường nghề có thể đi làm sớm?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Vì đã được rèn năng lực thực tế"
+          },
+          {
+            "id": "b",
+            "text": "Vì doanh nghiệp không cần kỹ năng"
+          },
+          {
+            "id": "c",
+            "text": "Vì họ luôn có bằng tiến sĩ"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Bài đọc đối chiếu người có kỹ năng thực hành với người chỉ biết lý thuyết.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc6-v6-l01-check-03",
+        "prompt": "Bài đọc 2 nói Thụy Sĩ chuyển hướng xuất khẩu sau sự kiện nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Gia nhập EU"
+          },
+          {
+            "id": "b",
+            "text": "Trưng cầu dân ý không gia nhập EU"
+          },
+          {
+            "id": "c",
+            "text": "Đóng cửa trường nghề"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Sau cuộc 公投 không gia nhập EU, Thụy Sĩ chuyển mục tiêu xuất khẩu.",
+        "skill": "Đọc hiểu"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Xem chữ Hán trước, rồi chạm từng từ để mở nghĩa và ví dụ. Danh sách giữ thứ tự xuất hiện trong hai bảng 生詞 của Bài 01.",
+    "wordIds": [
+      "cc6-v6-l01-v001",
+      "cc6-v6-l01-v002",
+      "cc6-v6-l01-v003",
+      "cc6-v6-l01-v004",
+      "cc6-v6-l01-v005",
+      "cc6-v6-l01-v006",
+      "cc6-v6-l01-v007",
+      "cc6-v6-l01-v008",
+      "cc6-v6-l01-v009",
+      "cc6-v6-l01-v010",
+      "cc6-v6-l01-v011",
+      "cc6-v6-l01-v012",
+      "cc6-v6-l01-v013",
+      "cc6-v6-l01-v014",
+      "cc6-v6-l01-v015",
+      "cc6-v6-l01-v016",
+      "cc6-v6-l01-v017",
+      "cc6-v6-l01-v018",
+      "cc6-v6-l01-v019",
+      "cc6-v6-l01-v020",
+      "cc6-v6-l01-v021",
+      "cc6-v6-l01-v022",
+      "cc6-v6-l01-v023",
+      "cc6-v6-l01-v024",
+      "cc6-v6-l01-v025",
+      "cc6-v6-l01-v026",
+      "cc6-v6-l01-v027",
+      "cc6-v6-l01-v028",
+      "cc6-v6-l01-v029",
+      "cc6-v6-l01-v030",
+      "cc6-v6-l01-v031",
+      "cc6-v6-l01-v032",
+      "cc6-v6-l01-v033",
+      "cc6-v6-l01-v034",
+      "cc6-v6-l01-v035",
+      "cc6-v6-l01-v036",
+      "cc6-v6-l01-v037",
+      "cc6-v6-l01-v038",
+      "cc6-v6-l01-v039",
+      "cc6-v6-l01-v040",
+      "cc6-v6-l01-v041",
+      "cc6-v6-l01-v042",
+      "cc6-v6-l01-v043",
+      "cc6-v6-l01-v044",
+      "cc6-v6-l01-v045",
+      "cc6-v6-l01-v046",
+      "cc6-v6-l01-v047",
+      "cc6-v6-l01-v048",
+      "cc6-v6-l01-v049",
+      "cc6-v6-l01-v050",
+      "cc6-v6-l01-v051",
+      "cc6-v6-l01-v052",
+      "cc6-v6-l01-v053",
+      "cc6-v6-l01-v054",
+      "cc6-v6-l01-v055"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc6-textbook-l01-t03",
+        "label": "Từ mới bài đọc 1"
+      },
+      {
+        "id": "cc6-textbook-l01-t06",
+        "label": "Từ mới bài đọc 2"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc6-v6-l01-grammar-01",
+      "title": "放眼 + phạm vi",
+      "explanation": "Dùng khi mở rộng góc nhìn ra một phạm vi lớn rồi đưa ra nhận xét khái quát. Có thể nói 放眼全球、放眼未來 hoặc 放眼望去.",
+      "structure": "放眼 + địa điểm/phạm vi，+ nhận định",
+      "examples": [
+        {
+          "chinese": "放眼全球，技職教育愈來愈受重視。",
+          "simplified": "放眼全球，技职教育愈来愈受重视。",
+          "pinyin": "fàng yǎn quán qiú ， jì zhí jiào yù yù lái yù shòu zhòng shì 。",
+          "meaningVi": "Nhìn ra toàn cầu, giáo dục nghề ngày càng được chú trọng."
+        },
+        {
+          "chinese": "放眼未來，我們需要更多技術人才。",
+          "simplified": "放眼未来，我们需要更多技术人才。",
+          "pinyin": "fàng yǎn wèi lái ， wǒ men xū yào gèng duō jì shù rén cái 。",
+          "meaningVi": "Nhìn về tương lai, chúng ta cần thêm nhân lực kỹ thuật."
+        }
+      ],
+      "commonMistake": "Đừng dùng 放眼 cho việc nhìn một vật nhỏ ngay trước mắt.",
+      "check": {
+        "id": "cc6-v6-l01-grammar-check-01",
+        "prompt": "Hiểu câu “放眼全球，技術正在改變。” thế nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Chỉ đọc một trang giấy"
+          },
+          {
+            "id": "b",
+            "text": "Nhìn lại hôm qua"
+          },
+          {
+            "id": "c",
+            "text": "Nhìn ra toàn cầu"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Dùng khi mở rộng góc nhìn ra một phạm vi lớn rồi đưa ra nhận xét khái quát. Có thể nói 放眼全球、放眼未來 hoặc 放眼望去.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l01-grammar-02",
+      "title": "…之處，在於…",
+      "explanation": "Dùng để nêu đặc điểm đáng chú ý trước 之處 rồi giải thích nguyên nhân hoặc cốt lõi sau 在於. Sắc thái trang trọng hơn “điểm hay là…”.",
+      "structure": "A 的 + đặc điểm + 之處，在於 + nguyên nhân/nền tảng",
+      "examples": [
+        {
+          "chinese": "瑞士教育的成功之處，在於學校與企業合作。",
+          "simplified": "瑞士教育的成功之处，在于学校与企业合作。",
+          "pinyin": "ruì shì jiào yù de chéng gōng zhī chù ， zài yú xué xiào yǔ qǐ yè hé zuò 。",
+          "meaningVi": "Điểm thành công của giáo dục Thụy Sĩ nằm ở sự hợp tác giữa trường và doanh nghiệp."
+        },
+        {
+          "chinese": "這項計畫的困難之處，在於缺乏資金。",
+          "simplified": "这项计划的困难之处，在于缺乏资金。",
+          "pinyin": "zhè xiàng jì huà de kùn nán zhī chù ， zài yú quē fá zī jīn 。",
+          "meaningVi": "Khó khăn của kế hoạch này nằm ở việc thiếu vốn."
+        }
+      ],
+      "commonMistake": "Sau 在於 cần một nội dung giải thích cụ thể, không chỉ lặp lại đặc điểm phía trước.",
+      "check": {
+        "id": "cc6-v6-l01-grammar-check-02",
+        "prompt": "Hiểu câu “成功之處，在於密切合作。” thế nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "không có quan hệ nhân quả"
+          },
+          {
+            "id": "b",
+            "text": "thành công nhờ hợp tác chặt chẽ"
+          },
+          {
+            "id": "c",
+            "text": "hợp tác là kết quả của thành công"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Dùng để nêu đặc điểm đáng chú ý trước 之處 rồi giải thích nguyên nhân hoặc cốt lõi sau 在於. Sắc thái trang trọng hơn “điểm hay là…”.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l01-grammar-03",
+      "title": "爭相 + động từ",
+      "explanation": "Diễn tả nhiều người hoặc nhiều bên cùng vội làm một việc vì sợ bỏ lỡ cơ hội. Chủ ngữ thường mang nghĩa số nhiều.",
+      "structure": "Chủ ngữ số nhiều + 爭相 + hành động",
+      "examples": [
+        {
+          "chinese": "各國爭相學習瑞士的技職教育。",
+          "simplified": "各国争相学习瑞士的技职教育。",
+          "pinyin": "gè guó zhēng xiāng xué xí ruì shì de jì zhí jiào yù 。",
+          "meaningVi": "Các nước đua nhau học giáo dục nghề của Thụy Sĩ."
+        },
+        {
+          "chinese": "學生爭相報名實習計畫。",
+          "simplified": "学生争相报名实习计划。",
+          "pinyin": "xué shēng zhēng xiāng bào míng shí xí jì huà 。",
+          "meaningVi": "Sinh viên đua nhau đăng ký chương trình thực tập."
+        }
+      ],
+      "commonMistake": "Không dùng 爭相 cho một người đơn lẻ làm việc không có tính cạnh tranh.",
+      "check": {
+        "id": "cc6-v6-l01-grammar-check-03",
+        "prompt": "Hiểu câu “各國爭相學習。” thế nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Nhiều nước đua nhau học hỏi"
+          },
+          {
+            "id": "b",
+            "text": "Một nước âm thầm học hỏi"
+          },
+          {
+            "id": "c",
+            "text": "Các nước từ chối học hỏi"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Diễn tả nhiều người hoặc nhiều bên cùng vội làm một việc vì sợ bỏ lỡ cơ hội. Chủ ngữ thường mang nghĩa số nhiều.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l01-grammar-04",
+      "title": "身為 + thân phận",
+      "explanation": "Dùng để đặt người nói/người được nói đến vào một vai trò, rồi nêu trách nhiệm, suy nghĩ hoặc hành động gắn với vai trò đó.",
+      "structure": "身為 + vai trò，+ nhận định/trách nhiệm",
+      "examples": [
+        {
+          "chinese": "身為教授，他也重視實作能力。",
+          "simplified": "身为教授，他也重视实作能力。",
+          "pinyin": "shēn wèi jiào shòu ， tā yě zhòng shì shí zuò néng lì 。",
+          "meaningVi": "Là giáo sư, ông ấy cũng coi trọng năng lực thực hành."
+        },
+        {
+          "chinese": "身為學生，我們應該主動提問。",
+          "simplified": "身为学生，我们应该主动提问。",
+          "pinyin": "shēn wèi xué shēng ， wǒ men yīng gāi zhǔ dòng tí wèn 。",
+          "meaningVi": "Là học sinh, chúng ta nên chủ động đặt câu hỏi."
+        }
+      ],
+      "commonMistake": "身為 chỉ thân phận hiện có; nếu nói quá trình trở thành một vai trò, dùng 成為.",
+      "check": {
+        "id": "cc6-v6-l01-grammar-check-04",
+        "prompt": "Hiểu câu “身為教授，他重視實作。” thế nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Trở thành giáo sư trong tương lai"
+          },
+          {
+            "id": "b",
+            "text": "Không còn là giáo sư"
+          },
+          {
+            "id": "c",
+            "text": "Với tư cách giáo sư"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Dùng để đặt người nói/người được nói đến vào một vai trò, rồi nêu trách nhiệm, suy nghĩ hoặc hành động gắn với vai trò đó.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l01-grammar-05",
+      "title": "反而是 + kết quả trái dự đoán",
+      "explanation": "Sau khi nêu điều người ta dễ nghĩ sẽ xảy ra, dùng 反而是 để đưa ra sự thật ngược lại. Mấu chốt là có sự đối chiếu rõ.",
+      "structure": "Dự đoán thông thường，反而是 + tình huống ngược lại",
+      "examples": [
+        {
+          "chinese": "職校畢業生很快上工，反而是大學生需要訓練。",
+          "simplified": "职校毕业生很快上工，反而是大学生需要训练。",
+          "pinyin": "zhí xiào bì yè shēng hěn kuài shàng gōng ， fǎn ér shì dà xué shēng xū yào xùn liàn 。",
+          "meaningVi": "Người học trường nghề làm việc nhanh, ngược lại sinh viên đại học cần đào tạo thêm."
+        },
+        {
+          "chinese": "大家以為小公司缺乏資源，反而是它最早完成研發。",
+          "simplified": "大家以为小公司缺乏资源，反而是它最早完成研发。",
+          "pinyin": "dà jiā yǐ wèi xiǎo gōng sī quē fá zī yuán ， fǎn ér shì tā zuì zǎo wán chéng yán fā 。",
+          "meaningVi": "Ai cũng nghĩ công ty nhỏ thiếu nguồn lực, vậy mà chính nó hoàn thành nghiên cứu sớm nhất."
+        }
+      ],
+      "commonMistake": "Không dùng 反而是 để nối hai việc cùng chiều, không có yếu tố bất ngờ.",
+      "check": {
+        "id": "cc6-v6-l01-grammar-check-05",
+        "prompt": "Hiểu câu “反而是大學生需要訓練。” thế nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Cả hai nhóm đều không học"
+          },
+          {
+            "id": "b",
+            "text": "Trái dự đoán, sinh viên đại học cần được đào tạo"
+          },
+          {
+            "id": "c",
+            "text": "Sinh viên đại học chắc chắn làm việc ngay"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Sau khi nêu điều người ta dễ nghĩ sẽ xảy ra, dùng 反而是 để đưa ra sự thật ngược lại. Mấu chốt là có sự đối chiếu rõ.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l01-grammar-06",
+      "title": "逐年 + biến đổi",
+      "explanation": "Chỉ một xu hướng diễn ra qua từng năm. Đi với động từ biến đổi như 增加、下降、改善; không có nghĩa là một lần trong năm.",
+      "structure": "逐年 + 增加/減少/改善…",
+      "examples": [
+        {
+          "chinese": "來自亞洲的學生逐年增加。",
+          "simplified": "来自亚洲的学生逐年增加。",
+          "pinyin": "lái zì yà zhōu de xué shēng zhú nián zēng jiā 。",
+          "meaningVi": "Số học sinh từ châu Á tăng qua từng năm."
+        },
+        {
+          "chinese": "企業的研發預算逐年上升。",
+          "simplified": "企业的研发预算逐年上升。",
+          "pinyin": "qǐ yè de yán fā yù suàn zhú nián shàng shēng 。",
+          "meaningVi": "Ngân sách nghiên cứu của doanh nghiệp tăng hằng năm."
+        }
+      ],
+      "commonMistake": "Đừng dùng 逐年 cho một sự kiện xảy ra duy nhất vào một năm cụ thể.",
+      "check": {
+        "id": "cc6-v6-l01-grammar-check-06",
+        "prompt": "Hiểu câu “學生逐年增加。” thế nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Tăng qua từng năm"
+          },
+          {
+            "id": "b",
+            "text": "Chỉ tăng một lần"
+          },
+          {
+            "id": "c",
+            "text": "Tăng mỗi ngày"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Chỉ một xu hướng diễn ra qua từng năm. Đi với động từ biến đổi như 增加、下降、改善; không có nghĩa là một lần trong năm.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l01-grammar-07",
+      "title": "將 X 轉向 Y",
+      "explanation": "Nêu đối tượng hoặc mục tiêu X được chuyển sang hướng mới Y. Sau 轉向 là đích mới, không phải điểm xuất phát.",
+      "structure": "將 + đối tượng/mục tiêu + 轉向 + hướng/đích mới",
+      "examples": [
+        {
+          "chinese": "瑞士將出口目標轉向亞洲市場。",
+          "simplified": "瑞士将出口目标转向亚洲市场。",
+          "pinyin": "ruì shì jiāng chū kǒu mù biāo zhuǎn xiàng yà zhōu shì chǎng 。",
+          "meaningVi": "Thụy Sĩ chuyển mục tiêu xuất khẩu sang thị trường châu Á."
+        },
+        {
+          "chinese": "公司將資源轉向技術研發。",
+          "simplified": "公司将资源转向技术研发。",
+          "pinyin": "gōng sī jiāng zī yuán zhuǎn xiàng jì shù yán fā 。",
+          "meaningVi": "Công ty chuyển nguồn lực sang nghiên cứu công nghệ."
+        }
+      ],
+      "commonMistake": "Đừng đặt hướng cũ sau 轉向; nếu cần nói cả hai, dùng 從 X 轉向 Y.",
+      "check": {
+        "id": "cc6-v6-l01-grammar-check-07",
+        "prompt": "Hiểu câu “將出口目標轉向亞洲。” thế nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Châu Á là hướng cũ"
+          },
+          {
+            "id": "b",
+            "text": "Không có sự chuyển hướng"
+          },
+          {
+            "id": "c",
+            "text": "Châu Á là hướng mới"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Nêu đối tượng hoặc mục tiêu X được chuyển sang hướng mới Y. Sau 轉向 là đích mới, không phải điểm xuất phát.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l01-grammar-08",
+      "title": "自限於 + phạm vi",
+      "explanation": "Nói ai đó tự bó hẹp khả năng hoặc lựa chọn trong một giới hạn. Thường dùng trong lời khuyên không nên tự giới hạn.",
+      "structure": "Chủ thể + (不)自限於 + phạm vi",
+      "examples": [
+        {
+          "chinese": "企業不應自限於歐洲市場。",
+          "simplified": "企业不应自限于欧洲市场。",
+          "pinyin": "qǐ yè bù yīng zì xiàn yú ōu zhōu shì chǎng 。",
+          "meaningVi": "Doanh nghiệp không nên tự bó hẹp trong thị trường châu Âu."
+        },
+        {
+          "chinese": "學習中文不要自限於課本。",
+          "simplified": "学习中文不要自限于课本。",
+          "pinyin": "xué xí zhōng wén bú yào zì xiàn yú kè běn 。",
+          "meaningVi": "Học tiếng Hoa đừng chỉ bó mình trong sách giáo khoa."
+        }
+      ],
+      "commonMistake": "自限 nhấn mạnh giới hạn do chính chủ thể đặt ra, khác với bị người khác hạn chế.",
+      "check": {
+        "id": "cc6-v6-l01-grammar-check-08",
+        "prompt": "Hiểu câu “不再自限於歐洲市場。” thế nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Chỉ xuất khẩu sang châu Âu"
+          },
+          {
+            "id": "b",
+            "text": "Không còn tự giới hạn ở thị trường châu Âu"
+          },
+          {
+            "id": "c",
+            "text": "Bị châu Âu cấm xuất khẩu"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Nói ai đó tự bó hẹp khả năng hoặc lựa chọn trong một giới hạn. Thường dùng trong lời khuyên không nên tự giới hạn.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l01-grammar-09",
+      "title": "迫使 + người/vật + hành động",
+      "explanation": "Dùng khi một sức ép hoặc hoàn cảnh khiến ai đó buộc phải thay đổi. Tác nhân đứng trước 迫使, đối tượng chịu tác động đứng sau.",
+      "structure": "Nguyên nhân + 迫使 + đối tượng + hành động",
+      "examples": [
+        {
+          "chinese": "危機迫使企業尋找新的市場。",
+          "simplified": "危机迫使企业寻找新的市场。",
+          "pinyin": "wēi jī pò shǐ qǐ yè xún zhǎo xīn de shì chǎng 。",
+          "meaningVi": "Khủng hoảng buộc doanh nghiệp tìm thị trường mới."
+        },
+        {
+          "chinese": "成本上升迫使工廠調整生產方式。",
+          "simplified": "成本上升迫使工厂调整生产方式。",
+          "pinyin": "chéng běn shàng shēng pò shǐ gōng chǎng diào zhěng shēng chǎn fāng shì 。",
+          "meaningVi": "Chi phí tăng buộc nhà máy thay đổi cách sản xuất."
+        }
+      ],
+      "commonMistake": "Không dùng 迫使 cho lời mời hay lựa chọn tự nguyện.",
+      "check": {
+        "id": "cc6-v6-l01-grammar-check-09",
+        "prompt": "Hiểu câu “危機迫使企業改變。” thế nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Khủng hoảng buộc doanh nghiệp thay đổi"
+          },
+          {
+            "id": "b",
+            "text": "Doanh nghiệp tự chọn thay đổi vì thích"
+          },
+          {
+            "id": "c",
+            "text": "Khủng hoảng đã kết thúc"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Dùng khi một sức ép hoặc hoàn cảnh khiến ai đó buộc phải thay đổi. Tác nhân đứng trước 迫使, đối tượng chịu tác động đứng sau.",
+        "skill": "Ngữ pháp"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc6-v6-l01-listening-01",
+      "prompt": "Nghe bài đọc 1: Garelli đánh giá sức cạnh tranh của nhóm nào cao nhất?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Người tốt nghiệp trường nghề"
+        },
+        {
+          "id": "b",
+          "text": "Người chỉ học lý thuyết"
+        },
+        {
+          "id": "c",
+          "text": "Người chưa đi học"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Ông nói 職校畢業生 có sức cạnh tranh cao.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l01-t02"
+    },
+    {
+      "id": "cc6-v6-l01-listening-02",
+      "prompt": "Nghe bài đọc 1: doanh nghiệp nhỏ có thể duy trì sức cạnh tranh bằng cách nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ tuyển người có bằng tiến sĩ"
+        },
+        {
+          "id": "b",
+          "text": "Hợp tác với trường học"
+        },
+        {
+          "id": "c",
+          "text": "Dừng toàn bộ nghiên cứu"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Đoạn cuối nói doanh nghiệp vừa và nhỏ vẫn có thể hợp tác với trường.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l01-t02"
+    },
+    {
+      "id": "cc6-v6-l01-listening-03",
+      "prompt": "Nghe bài đọc 2: số học viên từ đâu tăng dần qua các năm?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ từ châu Âu"
+        },
+        {
+          "id": "b",
+          "text": "Từ châu Á, châu Phi và Brazil"
+        },
+        {
+          "id": "c",
+          "text": "Chỉ từ Thụy Sĩ"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nói số người từ 亞洲、非洲、巴西 逐年增加.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l01-t05"
+    },
+    {
+      "id": "cc6-v6-l01-listening-04",
+      "prompt": "Nghe bài đọc 2: điều gì buộc Thụy Sĩ mở rộng ra ngoài châu Âu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Quyết định không gia nhập EU"
+        },
+        {
+          "id": "b",
+          "text": "Đóng cửa các trường đại học"
+        },
+        {
+          "id": "c",
+          "text": "Ngừng xuất khẩu"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Việc không gia nhập EU 迫使 Thụy Sĩ mở rộng phát triển đối ngoại.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l01-t05"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc6-v6-l01-practice-01",
+      "prompt": "Điền: 瑞士教育制度的成功之處，____產業與學校合作。",
+      "options": [
+        {
+          "id": "a",
+          "text": "在於"
+        },
+        {
+          "id": "b",
+          "text": "轉向"
+        },
+        {
+          "id": "c",
+          "text": "身為"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "在於 giới thiệu nguyên nhân làm nên thành công.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc6-v6-l01-practice-02",
+      "prompt": "Điền: 各國____學習瑞士的技職教育。",
+      "options": [
+        {
+          "id": "a",
+          "text": "自限於"
+        },
+        {
+          "id": "b",
+          "text": "爭相"
+        },
+        {
+          "id": "c",
+          "text": "迫使"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "爭相 diễn tả nhiều nước đua nhau làm một việc.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc6-v6-l01-practice-03",
+      "prompt": "Điền: ____教授，他也了解實作的重要。",
+      "options": [
+        {
+          "id": "a",
+          "text": "逐年"
+        },
+        {
+          "id": "b",
+          "text": "身為"
+        },
+        {
+          "id": "c",
+          "text": "反而是"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "身為 nêu thân phận của người được nói đến.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc6-v6-l01-practice-04",
+      "prompt": "Chọn câu dùng 逐年 đúng.",
+      "options": [
+        {
+          "id": "a",
+          "text": "他昨天逐年去了學校。"
+        },
+        {
+          "id": "b",
+          "text": "學生人數逐年增加。"
+        },
+        {
+          "id": "c",
+          "text": "請把逐年放在桌上。"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "逐年 diễn tả xu hướng thay đổi qua các năm.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l01-practice-05",
+      "prompt": "Chọn cách nói đúng về hướng mới của xuất khẩu.",
+      "options": [
+        {
+          "id": "a",
+          "text": "將出口目標轉向亞洲"
+        },
+        {
+          "id": "b",
+          "text": "將亞洲轉向出口目標"
+        },
+        {
+          "id": "c",
+          "text": "自限亞洲轉向"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "將 X 轉向 Y: Y là hướng mới.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l01-practice-06",
+      "prompt": "Trong bài đọc 1, ai thường cần đào tạo thêm sau tốt nghiệp?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Người học nghề đã có kỹ năng"
+        },
+        {
+          "id": "b",
+          "text": "Sinh viên đại học chỉ giỏi sách vở"
+        },
+        {
+          "id": "c",
+          "text": "Mọi quản lý Thụy Sĩ"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài viết nói 光會念書的大學生 還需要經過一段時間訓練.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l01-practice-07",
+      "prompt": "Trong bài đọc 2, 低價傾銷 gây ra nguy cơ nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Làm doanh nghiệp mất sức cạnh tranh"
+        },
+        {
+          "id": "b",
+          "text": "Làm số học viên tự động tăng"
+        },
+        {
+          "id": "c",
+          "text": "Làm báo cáo xuất bản sớm"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài viết nói cần đổi mới công nghệ để chống tác động của hàng bán giá rẻ.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l01-practice-08",
+      "prompt": "Điền: 危機____企業尋找新的市場。",
+      "options": [
+        {
+          "id": "a",
+          "text": "逐年"
+        },
+        {
+          "id": "b",
+          "text": "迫使"
+        },
+        {
+          "id": "c",
+          "text": "比比皆是"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "迫使 diễn tả sức ép buộc doanh nghiệp thay đổi.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc6-v6-l01-assessment-01",
+      "prompt": "技職教育 có nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Giáo dục nghề kỹ thuật"
+        },
+        {
+          "id": "b",
+          "text": "Giáo dục mầm non"
+        },
+        {
+          "id": "c",
+          "text": "Học ngoại ngữ"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "技職 chỉ đào tạo nghề và kỹ thuật.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc6-v6-l01-assessment-02",
+      "prompt": "Điền: 高等教育與產業的____合作。",
+      "options": [
+        {
+          "id": "a",
+          "text": "緊密"
+        },
+        {
+          "id": "b",
+          "text": "低價"
+        },
+        {
+          "id": "c",
+          "text": "衰敗"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "緊密 mô tả mối hợp tác chặt chẽ.",
+      "skill": "Từ vựng",
+      "kind": "fill"
+    },
+    {
+      "id": "cc6-v6-l01-assessment-03",
+      "prompt": "Câu nào nêu lý do của một đặc điểm?",
+      "options": [
+        {
+          "id": "a",
+          "text": "成功之處，在於合作。"
+        },
+        {
+          "id": "b",
+          "text": "成功之處，爭相合作。"
+        },
+        {
+          "id": "c",
+          "text": "成功之處，轉向合作。"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "…之處，在於… nêu đặc điểm rồi giải thích nguyên nhân.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l01-assessment-04",
+      "prompt": "Trong bài đọc 1, mẫu 反而是 đối chiếu hai nhóm nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sinh viên trường nghề và sinh viên đại học"
+        },
+        {
+          "id": "b",
+          "text": "Giáo viên và phụ huynh"
+        },
+        {
+          "id": "c",
+          "text": "Chính phủ và truyền thông"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc đối chiếu khả năng đi làm ngay của hai nhóm.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l01-assessment-05",
+      "prompt": "Điền: 公司將研發資源____新產品。",
+      "options": [
+        {
+          "id": "a",
+          "text": "轉向"
+        },
+        {
+          "id": "b",
+          "text": "身為"
+        },
+        {
+          "id": "c",
+          "text": "比比皆是"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "轉向 giới thiệu hướng mới của nguồn lực.",
+      "skill": "Ngữ pháp",
+      "kind": "fill"
+    },
+    {
+      "id": "cc6-v6-l01-assessment-06",
+      "prompt": "自限於歐洲市場 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tự bó hẹp trong thị trường châu Âu"
+        },
+        {
+          "id": "b",
+          "text": "Bán hàng trên toàn cầu"
+        },
+        {
+          "id": "c",
+          "text": "Không liên quan đến thị trường"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "自限於 là tự giới hạn trong một phạm vi.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc6-v6-l01-assessment-07",
+      "prompt": "Từ nào diễn tả “tăng qua từng năm”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "當初"
+        },
+        {
+          "id": "b",
+          "text": "逐年"
+        },
+        {
+          "id": "c",
+          "text": "直言"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "逐年 là qua từng năm.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc6-v6-l01-assessment-08",
+      "prompt": "Vì sao Thụy Sĩ chuyển hướng xuất khẩu theo bài đọc 2?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vì không gia nhập EU"
+        },
+        {
+          "id": "b",
+          "text": "Vì mọi nước đóng cửa thị trường"
+        },
+        {
+          "id": "c",
+          "text": "Vì dừng công nghệ"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc liên hệ cuộc trưng cầu dân ý với việc mở rộng thị trường.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l01-assessment-09",
+      "prompt": "Chọn cách diễn đạt “khủng hoảng buộc doanh nghiệp đổi mới”.",
+      "options": [
+        {
+          "id": "a",
+          "text": "危機迫使企業創新。"
+        },
+        {
+          "id": "b",
+          "text": "危機逐年企業創新。"
+        },
+        {
+          "id": "c",
+          "text": "危機身為企業創新。"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "迫使 nối sức ép với hành động bắt buộc.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l01-assessment-10",
+      "prompt": "Theo bài đọc 2, doanh nghiệp giữ sức cạnh tranh nhờ điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Công nghệ tiên tiến và đổi mới liên tục"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ dựa vào hàng giá rẻ"
+        },
+        {
+          "id": "c",
+          "text": "Không hợp tác với trường"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Đoạn cuối nhấn mạnh 高階技術 và 不斷創新.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "writingTask": {
+    "id": "cc6-v6-l01-writing",
+    "title": "Viết một đoạn lập luận",
+    "prompt": "Viết 120–180 chữ Hoa về một cách để trường học và doanh nghiệp hợp tác. Nêu luận điểm, một ví dụ cụ thể, một khó khăn và cách giải quyết. Có thể dùng 成功之處在於、身為、反而是、迫使.",
+    "sampleTraditional": "我認為技職教育的成功之處，在於學校和企業保持緊密合作。身為學生，我希望在畢業前到企業實習，了解工作的要求。即使小企業沒有大筆研發資金，也可以和學校合作。市場的變化迫使我們不斷學習，才能保有競爭力。",
+    "sampleSimplified": "我认为技职教育的成功之处，在于学校和企业保持紧密合作。身为学生，我希望在毕业前到企业实习，了解工作的要求。即使小企业没有大笔研发资金，也可以和学校合作。市场的变化迫使我们不断学习，才能保有竞争力。"
+  }
+}

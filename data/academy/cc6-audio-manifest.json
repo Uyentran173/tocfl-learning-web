@@ -389,9 +389,16 @@
       "privatePath": "textbook/03-01.mp3",
       "bytes": 1391839,
       "sha256": "1f6872e5c3b8ce998ab9e303cae2d0bca33cfd8e3647cc09e3f0e7135dbeb06e",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        72
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 72,
+        "bookPage": 49,
+        "labelVi": "Tóm tắt và mở đầu Bài 03",
+        "referenceCode": "03-01"
+      }
     },
     {
       "id": "cc6-textbook-l03-t02",
@@ -404,9 +411,16 @@
       "privatePath": "textbook/03-02.mp3",
       "bytes": 4024563,
       "sha256": "cf8af299e828584437d19f7dfb4a698722e92d189c275472806e120eca5d4678",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        73
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 73,
+        "bookPage": 50,
+        "labelVi": "Bài đọc 1: 舞蹈家許芳宜「生身不息」的演出（I）",
+        "referenceCode": "03-02"
+      }
     },
     {
       "id": "cc6-textbook-l03-t03",
@@ -419,9 +433,16 @@
       "privatePath": "textbook/03-03.mp3",
       "bytes": 4434163,
       "sha256": "a8e487b9389b5f8b9825c290abfc3fcad1cf32da7d215b98a25ba97566efb2c4",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        74
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 74,
+        "bookPage": 51,
+        "labelVi": "Từ vựng tóm tắt và bài đọc 1",
+        "referenceCode": "03-03"
+      }
     },
     {
       "id": "cc6-textbook-l03-t04",
@@ -434,9 +455,16 @@
       "privatePath": "textbook/03-04.mp3",
       "bytes": 3537641,
       "sha256": "8ee29180f57db8b9f3d0929b4911c55aa32e671cfc306a8f8667aa2d2c91b3c0",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        82
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 82,
+        "bookPage": 59,
+        "labelVi": "Phân biệt từ dễ nhầm bài đọc 1",
+        "referenceCode": "03-04"
+      }
     },
     {
       "id": "cc6-textbook-l03-t05",
@@ -449,9 +477,16 @@
       "privatePath": "textbook/03-05.mp3",
       "bytes": 4080988,
       "sha256": "c5ede74044000628f73709939f309c69997c8e15b113aa423af2bed575c64e0e",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        85
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 85,
+        "bookPage": 62,
+        "labelVi": "Bài đọc 2: 舞蹈家許芳宜「生身不息」的演出（II）",
+        "referenceCode": "03-05"
+      }
     },
     {
       "id": "cc6-textbook-l03-t06",
@@ -464,9 +499,16 @@
       "privatePath": "textbook/03-06.mp3",
       "bytes": 3749964,
       "sha256": "ef3f010edb943a1c4d322cc3935edf809122934bab127bd6e9aa655884e88cf6",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        86
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 86,
+        "bookPage": 63,
+        "labelVi": "Từ vựng bài đọc 2",
+        "referenceCode": "03-06"
+      }
     },
     {
       "id": "cc6-textbook-l03-t07",
@@ -479,9 +521,16 @@
       "privatePath": "textbook/03-07.mp3",
       "bytes": 1570725,
       "sha256": "11a0fb773b8b6422483367cffb8b431c4cd922f0b3d623060f717f469cc2bfe2",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        93
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 93,
+        "bookPage": 70,
+        "labelVi": "Phân biệt từ dễ nhầm bài đọc 2",
+        "referenceCode": "03-07"
+      }
     },
     {
       "id": "cc6-textbook-l04-t01",

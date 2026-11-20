@@ -1,4 +1,4 @@
-"""Stage Volume 6 textbook audio and publish source-verified Lesson 1–2 tracks.
+"""Stage Volume 6 textbook audio and publish source-verified Lesson 1–3 tracks.
 
 Usage: python3 scripts/import_cc6_audio.py TEXTBOOK_PDF WORKBOOK_PDF AUDIO_ZIP
 The archive's original directory names are ignored; only numbered MP3 basenames are used.
@@ -38,6 +38,13 @@ VERIFIED = {
     "02-05": (63, "Bài đọc 2: 簡單科技改變人類生活 (II)"),
     "02-06": (64, "Từ vựng bài đọc 2"),
     "02-07": (69, "Phân biệt từ dễ nhầm bài đọc 2"),
+    "03-01": (72, "Tóm tắt và mở đầu Bài 03"),
+    "03-02": (73, "Bài đọc 1: 舞蹈家許芳宜「生身不息」的演出（I）"),
+    "03-03": (74, "Từ vựng tóm tắt và bài đọc 1"),
+    "03-04": (82, "Phân biệt từ dễ nhầm bài đọc 1"),
+    "03-05": (85, "Bài đọc 2: 舞蹈家許芳宜「生身不息」的演出（II）"),
+    "03-06": (86, "Từ vựng bài đọc 2"),
+    "03-07": (93, "Phân biệt từ dễ nhầm bài đọc 2"),
 }
 
 
@@ -96,7 +103,7 @@ def main() -> None:
                 "mappingStatus": "verified" if verified else "pending",
                 "activity": {"pdfPage": verified[0], "bookPage": verified[0] - 23, "labelVi": verified[1], "referenceCode": code} if verified else None,
             })
-    if len(tracks) != 77 or len([track for track in tracks if track["mappingStatus"] == "verified"]) != 16:
+    if len(tracks) != 77 or len([track for track in tracks if track["mappingStatus"] == "verified"]) != len(VERIFIED):
         raise SystemExit(f"Unexpected track count or verified set: {len(tracks)}")
     manifest = {
         "schemaVersion": 1, "courseId": "cc6", "volume": 6,
@@ -109,13 +116,13 @@ def main() -> None:
     report = {
         "courseId": "cc6", "volume": 6, "sourceTrackCount": len(tracks),
         "verifiedTrackCount": len(VERIFIED), "pendingTrackCount": len(tracks) - len(VERIFIED),
-        "publishedLessonIds": ["cc6-v6-l01", "cc6-v6-l02"],
-        "pendingLessonIds": [f"cc6-v6-l{n:02d}" for n in range(3, 11)],
+        "publishedLessonIds": [f"cc6-v6-l{n:02d}" for n in range(1, 4)],
+        "pendingLessonIds": [f"cc6-v6-l{n:02d}" for n in range(4, 11)],
         "unassignedTrackIds": [track["id"] for track in tracks if track["lesson"] is None],
-        "reason": "Lessons 01–02 printed audio reference codes and lesson content were checked against the source PDF. Remaining lessons are staged pending source verification.",
+        "reason": "Lessons 01–03 printed audio reference codes and lesson content were checked against the source PDF. Remaining lessons are staged pending source verification.",
     }
     REPORT.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n")
-    print(f"Staged {len(tracks)} MP3s; published {len(VERIFIED)} verified Lesson 01–02 tracks; {len(tracks)-len(VERIFIED)} pending mapping.")
+    print(f"Staged {len(tracks)} MP3s; published {len(VERIFIED)} verified Lesson 01–03 tracks; {len(tracks)-len(VERIFIED)} pending mapping.")
 
 
 if __name__ == "__main__":

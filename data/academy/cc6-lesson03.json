@@ -1,0 +1,1238 @@
+{
+  "contentVersion": 2,
+  "id": "cc6-v6-l03",
+  "title": "舞蹈藝術",
+  "titleVi": "Nghệ thuật múa",
+  "description": "Theo hành trình của vũ công Hứa Phương Nghi: từ lần đầu lên sân khấu đến khi trở về biểu diễn cho khán giả quê nhà.",
+  "objectives": [
+    "Tóm tắt các bước quan trọng trong hành trình của Hứa Phương Nghi.",
+    "Hiểu vai trò của thầy cô, nghị lực và lời phê bình trong sự nghiệp múa.",
+    "Dùng đúng các mẫu 以X身分、化為、憑、何嘗 và 不自覺."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Hai bài đọc kể về con đường trở thành vũ công của Hứa Phương Nghi. Hãy chú ý bước ngoặt đầu tiên trên sân khấu, người thầy đã nhìn ra tài năng của cô, và ý nghĩa của lần trở về biểu diễn.",
+    "sections": [
+      {
+        "id": "cc6-v6-l03-section-01",
+        "title": "Một lần lên sân khấu, một hướng đi mới",
+        "body": "Lần diễn hồi tiểu học giúp cô lần đầu cảm thấy tự do trên sân khấu và quyết định theo đuổi múa.",
+        "chinese": "在燈光灑落的剎那，自己感到前所未有的自在。",
+        "simplified": "在灯光洒落的刹那，自己感到前所未有的自在。",
+        "pinyin": "zài dēng guāng sǎ luò de shā nà ， zì jǐ gǎn dào qián suǒ wèi yǒu de zì zài 。",
+        "meaningVi": "Khi ánh đèn rọi xuống, cô thấy thoải mái như chưa từng có."
+      },
+      {
+        "id": "cc6-v6-l03-section-02",
+        "title": "Người thầy nhìn thấy tài năng",
+        "body": "Lời khen của thầy Ross Parkes ở đại học khiến cô quyết tâm theo múa chuyên nghiệp.",
+        "chinese": "羅斯老師一眼就發覺她的才華。",
+        "simplified": "罗斯老师一眼就发觉她的才华。",
+        "pinyin": "luó sī lǎo shī yī yǎn jiù fā jué tā de cái huá 。",
+        "meaningVi": "Thầy Ross vừa nhìn đã nhận ra tài năng của cô."
+      },
+      {
+        "id": "cc6-v6-l03-section-03",
+        "title": "Trở về và tự giới thiệu lại",
+        "body": "Câu nói quen thuộc về quê hương thay đổi khi cô được đứng trước khán giả quê nhà.",
+        "chinese": "我是許芳宜，我回來了。",
+        "simplified": "我是许芳宜，我回来了。",
+        "pinyin": "wǒ shì xǔ fāng yí ， wǒ huí lái le 。",
+        "meaningVi": "Tôi là Hứa Phương Nghi, tôi đã trở về."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc6-v6-l03-reading1",
+        "title": "課文一 · 舞蹈家許芳宜「生身不息」的演出（I）",
+        "context": "Từ lần biểu diễn đầu tiên đến quyết định học múa.",
+        "audioTrackId": "cc6-textbook-l03-t02",
+        "turns": [
+          {
+            "speaker": "Đoạn 1",
+            "chinese": "大導演勞勃．阿特曼幾年前拍了一部電影叫「舞動世紀」，這電影是描述女舞者夢想能在舞台上盡情表演，盡情揮灑。這部電影讓我想到「生身不息」舞碼。",
+            "simplified": "大导演劳勃．阿特曼几年前拍了一部电影叫「舞动世纪」，这电影是描述女舞者梦想能在舞台上尽情表演，尽情挥洒。这部电影让我想到「生身不息」舞码。",
+            "pinyin": "dà dǎo yǎn láo bó ． ā tè màn jǐ nián qián pāi le yī bù diàn yǐng jiào 「 wǔ dòng shì jì 」 ， zhè diàn yǐng shì miáo shù nǚ wǔ zhě mèng xiǎng néng zài wǔ tái shàng jǐn qíng biǎo yǎn ， jǐn qíng huī sǎ 。 zhè bù diàn yǐng ràng wǒ xiǎng dào 「 shēng shēn bù xī 」 wǔ mǎ 。",
+            "meaningVi": "Vài năm trước, đạo diễn Robert Altman làm bộ phim “舞動世紀”, kể về ước mơ được biểu diễn hết mình trên sân khấu của một nữ vũ công. Bộ phim khiến tác giả nghĩ đến tiết mục “生身不息”."
+          },
+          {
+            "speaker": "Đoạn 2",
+            "chinese": "這舞碼是由許芳宜演出，她是一個芭蕾只考三分的學生。結果這個不及格的學生，竟然在現代舞這塊得滿分，成為眾所皆知的現代舞大師「瑪莎．葛蘭姆的傳人」。",
+            "simplified": "这舞码是由许芳宜演出，她是一个芭蕾只考三分的学生。结果这个不及格的学生，竟然在现代舞这块得满分，成为众所皆知的现代舞大师「玛莎．葛兰姆的传人」。",
+            "pinyin": "zhè wǔ mǎ shì yóu xǔ fāng yí yǎn chū ， tā shì yī gè bā lěi zhǐ kǎo sān fēn de xué shēng 。 jié guǒ zhè gè bù jí gé de xué shēng ， jìng rán zài xiàn dài wǔ zhè kuài dé mǎn fēn ， chéng wèi zhòng suǒ jiē zhī de xiàn dài wǔ dà shī 「 mǎ shā ． gé lán mǔ de chuán rén 」 。",
+            "meaningVi": "Tiết mục ấy do Hứa Phương Nghi biểu diễn. Cô từng chỉ được ba điểm môn ba lê, nhưng lại đạt điểm tối đa ở múa hiện đại và trở thành nghệ sĩ múa nổi tiếng, được gọi là người kế thừa Martha Graham."
+          },
+          {
+            "speaker": "Đoạn 3",
+            "chinese": "為這次表演，許芳宜特地做了一些改變，她去年解散自己的舞團，以個人身分接受國際邀約，並且開始培訓一些年輕的舞者，讓她舞蹈的夢想可以無限制地傳承下去。此外，她特別邀請倫敦奧運編舞家阿喀郎．汗及克理斯多福．惠爾敦，量身打造這「生身不息」新的舞目，她還邀請紐約市立芭蕾舞團首席舞星溫蒂．威倫，來個現代舞大會芭蕾舞，許芳宜希望自己二十多年來的心血，能化為最好的作品。",
+            "simplified": "为这次表演，许芳宜特地做了一些改变，她去年解散自己的舞团，以个人身分接受国际邀约，并且开始培训一些年轻的舞者，让她舞蹈的梦想可以无限制地传承下去。此外，她特别邀请伦敦奥运编舞家阿喀郎．汗及克理斯多福．惠尔敦，量身打造这「生身不息」新的舞目，她还邀请纽约市立芭蕾舞团首席舞星温蒂．威伦，来个现代舞大会芭蕾舞，许芳宜希望自己二十多年来的心血，能化为最好的作品。",
+            "pinyin": "wèi zhè cì biǎo yǎn ， xǔ fāng yí tè dì zuò le yī xiē gǎi biàn ， tā qù nián jiě sàn zì jǐ de wǔ tuán ， yǐ gè rén shēn fèn jiē shòu guó jì yāo yuē ， bìng qiě kāi shǐ péi xùn yī xiē nián qīng de wǔ zhě ， ràng tā wǔ dǎo de mèng xiǎng kě yǐ wú xiàn zhì dì chuán chéng xià qù 。 cǐ wài ， tā tè bié yāo qǐng lún dūn ào yùn biān wǔ jiā ā kā láng ． hàn jí kè lǐ sī duō fú ． huì ěr dūn ， liàng shēn dǎ zào zhè 「 shēng shēn bù xī 」 xīn de wǔ mù ， tā hái yāo qǐng niǔ yuē shì lì bā lěi wǔ tuán shǒu xí wǔ xīng wēn dì ． wēi lún ， lái gè xiàn dài wǔ dà huì bā lěi wǔ ， xǔ fāng yí xī wàng zì jǐ èr shí duō nián lái de xīn xuè ， néng huà wèi zuì hǎo de zuò pǐn 。",
+            "meaningVi": "Để chuẩn bị cho buổi diễn, cô đã giải tán đoàn múa của mình vào năm trước, nhận lời mời quốc tế với tư cách cá nhân và bắt đầu đào tạo vũ công trẻ để tiếp nối ước mơ múa. Cô mời các biên đạo Akram Khan và Christopher Wheeldon sáng tác tiết mục mới, đồng thời mời Wendy Whelan, vũ công chính của New York City Ballet, cùng diễn một cuộc gặp gỡ giữa múa hiện đại và ba lê. Cô hy vọng tâm huyết hơn hai mươi năm sẽ trở thành tác phẩm tốt nhất."
+          },
+          {
+            "speaker": "Đoạn 4",
+            "chinese": "她從來不知道自己的命運會有這麼大的改變，在她的人生規劃裡，原本是沒有這段舞曲的人生，沒想到國小四年級一場表演，改變了她，改變了她的未來。她說：「那年參加民俗舞蹈比賽，是生平第一次上台，所以很緊張，但又不得不硬著頭皮上去。上去後就在燈光灑落的剎那，自己感到前所未有的自在，我好像在另一個世界，感覺是在演別人，可以很自在大方。」",
+            "simplified": "她从来不知道自己的命运会有这么大的改变，在她的人生规划里，原本是没有这段舞曲的人生，没想到国小四年级一场表演，改变了她，改变了她的未来。她说：「那年参加民俗舞蹈比赛，是生平第一次上台，所以很紧张，但又不得不硬着头皮上去。上去后就在灯光洒落的刹那，自己感到前所未有的自在，我好像在另一个世界，感觉是在演别人，可以很自在大方。」",
+            "pinyin": "tā cóng lái bù zhī dào zì jǐ de mìng yùn huì yǒu zhè me dà de gǎi biàn ， zài tā de rén shēng guī huà lǐ ， yuán běn shì méi yǒu zhè duàn wǔ qǔ de rén shēng ， méi xiǎng dào guó xiǎo sì nián jí yī chǎng biǎo yǎn ， gǎi biàn le tā ， gǎi biàn le tā de wèi lái 。 tā shuō ： 「 nà nián cān jiā mín sú wǔ dǎo bǐ sài ， shì shēng píng dì yī cì shàng tái ， suǒ yǐ hěn jǐn zhāng ， dàn yòu bù dé bù yìng zhù tóu pí shàng qù 。 shàng qù hòu jiù zài dēng guāng sǎ luò de shā nà ， zì jǐ gǎn dào qián suǒ wèi yǒu de zì zài ， wǒ hǎo xiàng zài lìng yī gè shì jiè ， gǎn jué shì zài yǎn bié rén ， kě yǐ hěn zì zài dà fāng 。 」",
+            "meaningVi": "Cô chưa từng nghĩ đời mình sẽ đổi khác đến vậy. Một buổi biểu diễn múa dân gian hồi lớp bốn đã thay đổi tương lai của cô. Lần đầu lên sân khấu, cô rất hồi hộp nhưng vẫn cắn răng bước ra. Khi ánh đèn rọi xuống, cô bỗng thấy thoải mái như chưa từng có, như đang sống trong một thế giới khác và có thể tự do biểu diễn."
+          },
+          {
+            "speaker": "Đoạn 5",
+            "chinese": "這種舞台感覺，讓她發現過去所沒有的快樂，也讓她找到存在的價值。這個存在感讓她衝動地去報考華岡藝校，沒想到芭蕾只考三分。許芳宜說：「去考試時我才發現，舞蹈不是只有民族舞，還有芭蕾及其他，還好努力的小孩終會被上帝疼愛的，最後我考上學校了。」",
+            "simplified": "这种舞台感觉，让她发现过去所没有的快乐，也让她找到存在的价值。这个存在感让她冲动地去报考华冈艺校，没想到芭蕾只考三分。许芳宜说：「去考试时我才发现，舞蹈不是只有民族舞，还有芭蕾及其他，还好努力的小孩终会被上帝疼爱的，最后我考上学校了。」",
+            "pinyin": "zhè zhǒng wǔ tái gǎn jué ， ràng tā fā xiàn guò qù suǒ méi yǒu de kuài lè ， yě ràng tā zhǎo dào cún zài de jià zhí 。 zhè gè cún zài gǎn ràng tā chōng dòng dì qù bào kǎo huá gāng yì xiào ， méi xiǎng dào bā lěi zhǐ kǎo sān fēn 。 xǔ fāng yí shuō ： 「 qù kǎo shì shí wǒ cái fā xiàn ， wǔ dǎo bú shì zhǐ yǒu mín zú wǔ ， hái yǒu bā lěi jí qí tā ， hái hǎo nǔ lì de xiǎo hái zhōng huì bèi shàng dì téng ài de ， zuì hòu wǒ kǎo shàng xué xiào le 。 」",
+            "meaningVi": "Cảm giác trên sân khấu đem đến niềm vui mới và giúp cô nhận ra giá trị của mình. Cô quyết định thi vào Trường Nghệ thuật Hoa Cương, rồi bất ngờ chỉ được ba điểm môn ba lê. Đến lúc thi cô mới biết múa còn có ba lê và nhiều thể loại khác ngoài múa dân tộc. Sau cùng, cô vẫn thi đỗ."
+          }
+        ]
+      },
+      {
+        "id": "cc6-v6-l03-reading2",
+        "title": "課文二 · 舞蹈家許芳宜「生身不息」的演出（II）",
+        "context": "Người thầy, thời gian ở Mỹ và lần trở về quê nhà.",
+        "audioTrackId": "cc6-textbook-l03-t05",
+        "turns": [
+          {
+            "speaker": "Đoạn 1",
+            "chinese": "考上學校後，三年來從不間斷地練習，畢業後她又順利保送上大學。大學這扇門讓她碰上她的貴人——現代舞老師羅斯．帕克斯，羅斯老師一眼就發覺她的才華。她感動到痛哭流涕，這輩子沒人對她有期待，今天竟然有人公開稱讚她，且還說她有潛力，這給了她極大的鼓勵。她因此下定決心，不能讓老師失望，她要做一個職業舞者。",
+            "simplified": "考上学校后，三年来从不间断地练习，毕业后她又顺利保送上大学。大学这扇门让她碰上她的贵人——现代舞老师罗斯．帕克斯，罗斯老师一眼就发觉她的才华。她感动到痛哭流涕，这辈子没人对她有期待，今天竟然有人公开称赞她，且还说她有潜力，这给了她极大的鼓励。她因此下定决心，不能让老师失望，她要做一个职业舞者。",
+            "pinyin": "kǎo shàng xué xiào hòu ， sān nián lái cóng bù jiān duàn dì liàn xí ， bì yè hòu tā yòu shùn lì bǎo sòng shàng dà xué 。 dà xué zhè shàn mén ràng tā pèng shàng tā de guì rén — — xiàn dài wǔ lǎo shī luó sī ． pà kè sī ， luó sī lǎo shī yī yǎn jiù fā jué tā de cái huá 。 tā gǎn dòng dào tòng kū liú tì ， zhè bèi zi méi rén duì tā yǒu qī dài ， jīn tiān jìng rán yǒu rén gōng kāi chēng zàn tā ， qiě hái shuō tā yǒu qián lì ， zhè gěi le tā jí dà de gǔ lì 。 tā yīn cǐ xià dìng jué xīn ， bù néng ràng lǎo shī shī wàng ， tā yào zuò yī gè zhí yè wǔ zhě 。",
+            "meaningVi": "Sau khi vào trường, cô luyện tập không ngừng suốt ba năm rồi được tuyển thẳng vào đại học. Ở đó cô gặp người thầy quan trọng của đời mình: giáo viên múa hiện đại Ross Parkes. Ông vừa nhìn đã nhận ra tài năng của cô và công khai khen cô có tiềm năng. Chưa từng được ai kỳ vọng như vậy, cô cảm động đến bật khóc và quyết tâm trở thành vũ công chuyên nghiệp để không phụ lòng thầy."
+          },
+          {
+            "speaker": "Đoạn 2",
+            "chinese": "老師的話，讓許芳宜的四年過得比別人認真，她就像海綿一樣不斷吸收，畢業後她考上葛蘭姆舞團，隻身前往美國。許芳宜在大學時只有術科跳舞成績好，其餘學科很不好，所以她出國時不會英文，但她憑毅力克服一切，靠著語言翻譯機，在三年後成為葛蘭姆舞團的首席舞者。",
+            "simplified": "老师的话，让许芳宜的四年过得比别人认真，她就像海绵一样不断吸收，毕业后她考上葛兰姆舞团，只身前往美国。许芳宜在大学时只有术科跳舞成绩好，其余学科很不好，所以她出国时不会英文，但她凭毅力克服一切，靠着语言翻译机，在三年后成为葛兰姆舞团的首席舞者。",
+            "pinyin": "lǎo shī de huà ， ràng xǔ fāng yí de sì nián guò dé bǐ bié rén rèn zhēn ， tā jiù xiàng hǎi mián yī yàng bù duàn xī shōu ， bì yè hòu tā kǎo shàng gé lán mǔ wǔ tuán ， zhī shēn qián wǎng měi guó 。 xǔ fāng yí zài dà xué shí zhǐ yǒu shù kē tiào wǔ chéng jī hǎo ， qí yú xué kē hěn bù hǎo ， suǒ yǐ tā chū guó shí bù huì yīng wén ， dàn tā píng yì lì kè fú yī qiè ， kào zhù yǔ yán fān yì jī ， zài sān nián hòu chéng wèi gé lán mǔ wǔ tuán de shǒu xí wǔ zhě 。",
+            "meaningVi": "Lời thầy khiến cô học hành nghiêm túc hơn trong bốn năm đại học, tiếp thu như miếng bọt biển. Tốt nghiệp, cô trúng tuyển vào đoàn múa Graham và một mình sang Mỹ. Môn múa của cô rất tốt nhưng các môn khác không giỏi, tiếng Anh cũng yếu. Nhờ nghị lực và máy phiên dịch, cô vượt qua khó khăn để ba năm sau trở thành vũ công chính của đoàn."
+          },
+          {
+            "speaker": "Đoạn 3",
+            "chinese": "種種的稱讚在瞬間全都加諸在她身上，但許芳宜沒有被這沖昏頭。她很清楚：「拿筆的人隨時都在筆下對你做不同評論，今天可以讓你快樂上天堂，明天或許就是讓你痛苦下地獄。」她隨時都戰戰兢兢，珍惜每次上台的機會，並且把每次當作是最後一次演出，所以，每一場表演是自己給觀眾的信任及給自己的肯定。",
+            "simplified": "种种的称赞在瞬间全都加诸在她身上，但许芳宜没有被这冲昏头。她很清楚：「拿笔的人随时都在笔下对你做不同评论，今天可以让你快乐上天堂，明天或许就是让你痛苦下地狱。」她随时都战战兢兢，珍惜每次上台的机会，并且把每次当作是最后一次演出，所以，每一场表演是自己给观众的信任及给自己的肯定。",
+            "pinyin": "zhǒng zhǒng de chēng zàn zài shùn jiān quán dōu jiā zhū zài tā shēn shàng ， dàn xǔ fāng yí méi yǒu bèi zhè chōng hūn tóu 。 tā hěn qīng chǔ ： 「 ná bǐ de rén suí shí dōu zài bǐ xià duì nǐ zuò bù tóng píng lùn ， jīn tiān kě yǐ ràng nǐ kuài lè shàng tiān táng ， míng tiān huò xǔ jiù shì ràng nǐ tòng kǔ xià dì yù 。 」 tā suí shí dōu zhàn zhàn jīng jīng ， zhēn xī měi cì shàng tái de jī huì ， bìng qiě bǎ měi cì dāng zuò shì zuì hòu yī cì yǎn chū ， suǒ yǐ ， měi yī chǎng biǎo yǎn shì zì jǐ gěi guān zhòng de xìn rèn jí gěi zì jǐ de kěn dìng 。",
+            "meaningVi": "Lời khen dồn đến cùng lúc nhưng không làm cô mất tỉnh táo. Cô hiểu rằng người viết phê bình hôm nay có thể nâng mình lên, ngày mai lại có thể chỉ trích nặng nề. Vì vậy, cô luôn cẩn trọng, trân trọng từng cơ hội và xem mỗi lần biểu diễn như lần cuối. Mỗi buổi diễn là cách cô đáp lại lòng tin của khán giả và khẳng định bản thân."
+          },
+          {
+            "speaker": "Đoạn 4",
+            "chinese": "「生身不息」讓我再次想到「舞動世紀」的舞者，舞是一場接一場地跳，舞者挑戰不可能的動作，不為什麼，只為他們想做舞者。許芳宜又何嘗不是？記得她在紐約一次表演時，不自覺從嘴裡說出「我是許芳宜，我來自台灣」，這聲音不大，但它從她體內散出來。當時台下的觀眾都是不熟悉的西方臉孔，現在她再站在舞台上，為自己人跳，看的人是她期待已久的家鄉熟悉的臉孔。「我是許芳宜，我來自台灣」，許芳宜上台固定的第一句，這句話終於可以改成：「我是許芳宜，我回來了。」",
+            "simplified": "「生身不息」让我再次想到「舞动世纪」的舞者，舞是一场接一场地跳，舞者挑战不可能的动作，不为什么，只为他们想做舞者。许芳宜又何尝不是？记得她在纽约一次表演时，不自觉从嘴里说出「我是许芳宜，我来自台湾」，这声音不大，但它从她体内散出来。当时台下的观众都是不熟悉的西方脸孔，现在她再站在舞台上，为自己人跳，看的人是她期待已久的家乡熟悉的脸孔。「我是许芳宜，我来自台湾」，许芳宜上台固定的第一句，这句话终于可以改成：「我是许芳宜，我回来了。」",
+            "pinyin": "「 shēng shēn bù xī 」 ràng wǒ zài cì xiǎng dào 「 wǔ dòng shì jì 」 de wǔ zhě ， wǔ shì yī chǎng jiē yī chǎng dì tiào ， wǔ zhě tiāo zhàn bù kě néng de dòng zuò ， bù wèi shén me ， zhǐ wèi tā men xiǎng zuò wǔ zhě 。 xǔ fāng yí yòu hé cháng bú shì ？ jì dé tā zài niǔ yuē yī cì biǎo yǎn shí ， bù zì jué cóng zuǐ lǐ shuō chū 「 wǒ shì xǔ fāng yí ， wǒ lái zì tái wān 」 ， zhè shēng yīn bù dà ， dàn tā cóng tā tǐ nèi sàn chū lái 。 dāng shí tái xià de guān zhòng dōu shì bù shú xī de xī fāng liǎn kǒng ， xiàn zài tā zài zhàn zài wǔ tái shàng ， wèi zì jǐ rén tiào ， kàn de rén shì tā qī dài yǐ jiǔ de jiā xiāng shú xī de liǎn kǒng 。 「 wǒ shì xǔ fāng yí ， wǒ lái zì tái wān 」 ， xǔ fāng yí shàng tái gù dìng de dì yī jù ， zhè jù huà zhōng yú kě yǐ gǎi chéng ： 「 wǒ shì xǔ fāng yí ， wǒ huí lái le 。 」",
+            "meaningVi": "Tiết mục “生身不息” khiến tác giả nhớ đến các vũ công trong phim “舞動世紀”: họ cứ tiếp tục múa và thử những động tác khó chỉ vì muốn được là vũ công. Hứa Phương Nghi cũng vậy. Từng ở New York, cô vô thức nói “Tôi là Hứa Phương Nghi, tôi đến từ Đài Loan” trước những gương mặt phương Tây xa lạ. Nay trở về biểu diễn cho khán giả quê nhà, câu nói quen thuộc ấy cuối cùng đổi thành “Tôi là Hứa Phương Nghi, tôi đã trở về”."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc6-v6-l03-check-01",
+        "prompt": "Vì sao tác giả nhắc tới bộ phim “舞動世紀”?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Bộ phim gợi tác giả nhớ đến tiết mục của Hứa Phương Nghi"
+          },
+          {
+            "id": "b",
+            "text": "Bộ phim do Hứa Phương Nghi đạo diễn"
+          },
+          {
+            "id": "c",
+            "text": "Phim kể về trường Hoa Cương"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Bài đọc mở đầu bằng bộ phim rồi liên tưởng đến “生身不息”.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc6-v6-l03-check-02",
+        "prompt": "Điểm thi ba lê của Hứa Phương Nghi lúc vào trường là bao nhiêu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Điểm tối đa"
+          },
+          {
+            "id": "b",
+            "text": "Không dự thi"
+          },
+          {
+            "id": "c",
+            "text": "Ba điểm"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Bài đọc nói 芭蕾只考三分.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc6-v6-l03-check-03",
+        "prompt": "Ai là người nhận ra tài năng của cô ở đại học?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Đạo diễn Robert Altman"
+          },
+          {
+            "id": "b",
+            "text": "Một nhà phê bình báo chí"
+          },
+          {
+            "id": "c",
+            "text": "Thầy múa hiện đại Ross Parkes"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Bài đọc 2 nêu 羅斯老師一眼就發覺她的才華.",
+        "skill": "Đọc hiểu"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem phiên âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc6-v6-l03-v001",
+      "cc6-v6-l03-v002",
+      "cc6-v6-l03-v003",
+      "cc6-v6-l03-v004",
+      "cc6-v6-l03-v005",
+      "cc6-v6-l03-v006",
+      "cc6-v6-l03-v007",
+      "cc6-v6-l03-v008",
+      "cc6-v6-l03-v009",
+      "cc6-v6-l03-v010",
+      "cc6-v6-l03-v011",
+      "cc6-v6-l03-v012",
+      "cc6-v6-l03-v013",
+      "cc6-v6-l03-v014",
+      "cc6-v6-l03-v015",
+      "cc6-v6-l03-v016",
+      "cc6-v6-l03-v017",
+      "cc6-v6-l03-v018",
+      "cc6-v6-l03-v019",
+      "cc6-v6-l03-v020",
+      "cc6-v6-l03-v021",
+      "cc6-v6-l03-v022",
+      "cc6-v6-l03-v023",
+      "cc6-v6-l03-v024",
+      "cc6-v6-l03-v025",
+      "cc6-v6-l03-v026",
+      "cc6-v6-l03-v027",
+      "cc6-v6-l03-v028",
+      "cc6-v6-l03-v029",
+      "cc6-v6-l03-v030",
+      "cc6-v6-l03-v031",
+      "cc6-v6-l03-v032",
+      "cc6-v6-l03-v033",
+      "cc6-v6-l03-v034",
+      "cc6-v6-l03-v035",
+      "cc6-v6-l03-v036",
+      "cc6-v6-l03-v037",
+      "cc6-v6-l03-v038",
+      "cc6-v6-l03-v039",
+      "cc6-v6-l03-v040",
+      "cc6-v6-l03-v041",
+      "cc6-v6-l03-v042",
+      "cc6-v6-l03-v043",
+      "cc6-v6-l03-v044",
+      "cc6-v6-l03-v045",
+      "cc6-v6-l03-v046",
+      "cc6-v6-l03-v047",
+      "cc6-v6-l03-v048",
+      "cc6-v6-l03-v049",
+      "cc6-v6-l03-v050",
+      "cc6-v6-l03-v051",
+      "cc6-v6-l03-v052",
+      "cc6-v6-l03-v053",
+      "cc6-v6-l03-v054",
+      "cc6-v6-l03-v055",
+      "cc6-v6-l03-v056",
+      "cc6-v6-l03-v057",
+      "cc6-v6-l03-v058",
+      "cc6-v6-l03-v059",
+      "cc6-v6-l03-v060",
+      "cc6-v6-l03-v061",
+      "cc6-v6-l03-v062",
+      "cc6-v6-l03-v063",
+      "cc6-v6-l03-v064",
+      "cc6-v6-l03-v065",
+      "cc6-v6-l03-v066",
+      "cc6-v6-l03-v067",
+      "cc6-v6-l03-v068",
+      "cc6-v6-l03-v069",
+      "cc6-v6-l03-v070",
+      "cc6-v6-l03-v071",
+      "cc6-v6-l03-v072",
+      "cc6-v6-l03-v073",
+      "cc6-v6-l03-v074",
+      "cc6-v6-l03-v075",
+      "cc6-v6-l03-v076",
+      "cc6-v6-l03-v077",
+      "cc6-v6-l03-v078",
+      "cc6-v6-l03-v079",
+      "cc6-v6-l03-v080",
+      "cc6-v6-l03-v081",
+      "cc6-v6-l03-v082",
+      "cc6-v6-l03-v083",
+      "cc6-v6-l03-v084",
+      "cc6-v6-l03-v085",
+      "cc6-v6-l03-v086",
+      "cc6-v6-l03-v087",
+      "cc6-v6-l03-v088",
+      "cc6-v6-l03-v089"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc6-textbook-l03-t03",
+        "label": "Từ vựng bài đọc 1"
+      },
+      {
+        "id": "cc6-textbook-l03-t06",
+        "label": "Từ vựng bài đọc 2"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc6-v6-l03-grammar-01",
+      "title": "盡情",
+      "explanation": "Làm một việc hết mức mình muốn, không bị gò bó. Thường đặt ngay trước động từ; khác 盡量 là “cố hết sức trong khả năng”.",
+      "structure": "盡情 + động từ",
+      "examples": [
+        {
+          "chinese": "舞者在台上盡情表演。",
+          "simplified": "舞者在台上尽情表演。",
+          "pinyin": "wǔ zhě zài tái shàng jǐn qíng biǎo yǎn 。",
+          "meaningVi": "Vũ công biểu diễn hết mình trên sân khấu."
+        },
+        {
+          "chinese": "放假時，我想盡情享受家人相聚的時間。",
+          "simplified": "放假时，我想尽情享受家人相聚的时间。",
+          "pinyin": "fàng jià shí ， wǒ xiǎng jǐn qíng xiǎng shòu jiā rén xiāng jù de shí jiān 。",
+          "meaningVi": "Ngày nghỉ, tôi muốn tận hưởng trọn vẹn thời gian bên gia đình."
+        }
+      ],
+      "commonMistake": "Đừng dùng 盡情 để nói cố gắng đạt một chỉ tiêu; trường hợp ấy thường dùng 盡量.",
+      "check": {
+        "id": "cc6-v6-l03-grammar-check-01",
+        "prompt": "Điền vào chỗ trống: 舞者在舞台上____揮灑。",
+        "options": [
+          {
+            "id": "a",
+            "text": "盡量"
+          },
+          {
+            "id": "b",
+            "text": "憑"
+          },
+          {
+            "id": "c",
+            "text": "盡情"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Làm một việc hết mức mình muốn, không bị gò bó.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l03-grammar-02",
+      "title": "以X的身分",
+      "explanation": "Nói người thực hiện việc gì với tư cách hoặc vai trò X. 的 có thể lược khi cụm danh từ đủ rõ.",
+      "structure": "以 + vai trò +（的）身分 + hành động",
+      "examples": [
+        {
+          "chinese": "她以個人身分接受國際邀約。",
+          "simplified": "她以个人身分接受国际邀约。",
+          "pinyin": "tā yǐ gè rén shēn fèn jiē shòu guó jì yāo yuē 。",
+          "meaningVi": "Cô nhận lời mời quốc tế với tư cách cá nhân."
+        },
+        {
+          "chinese": "他以學生代表的身分發言。",
+          "simplified": "他以学生代表的身分发言。",
+          "pinyin": "tā yǐ xué shēng dài biǎo de shēn fèn fā yán 。",
+          "meaningVi": "Anh ấy phát biểu với tư cách đại diện học sinh."
+        }
+      ],
+      "commonMistake": "X là vai trò của chủ thể khi hành động, không phải nơi chốn hay thời điểm.",
+      "check": {
+        "id": "cc6-v6-l03-grammar-check-02",
+        "prompt": "Điền vào chỗ trống: 她____個人身分接受邀約。",
+        "options": [
+          {
+            "id": "a",
+            "text": "在"
+          },
+          {
+            "id": "b",
+            "text": "從"
+          },
+          {
+            "id": "c",
+            "text": "以"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Nói người thực hiện việc gì với tư cách hoặc vai trò X.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l03-grammar-03",
+      "title": "來個X大會Y",
+      "explanation": "Cách nói sinh động về việc cho hai phong cách hay nhóm khác nhau “gặp nhau” trong một hoạt động, có sắc thái so sánh hoặc đối đầu.",
+      "structure": "來個 + X +（大）會 + Y",
+      "examples": [
+        {
+          "chinese": "這場演出來個現代舞大會芭蕾舞。",
+          "simplified": "这场演出来个现代舞大会芭蕾舞。",
+          "pinyin": "zhè chǎng yǎn chū lái gè xiàn dài wǔ dà huì bā lěi wǔ 。",
+          "meaningVi": "Buổi diễn cho múa hiện đại gặp gỡ ba lê."
+        },
+        {
+          "chinese": "今晚來個爵士樂大會古典樂。",
+          "simplified": "今晚来个爵士乐大会古典乐。",
+          "pinyin": "jīn wǎn lái gè jué shì yuè dà huì gǔ diǎn yuè 。",
+          "meaningVi": "Tối nay thử để nhạc jazz gặp nhạc cổ điển."
+        }
+      ],
+      "commonMistake": "Đây là cách nói giàu hình ảnh; không dùng thay cho 會 khi chỉ nói một cuộc gặp bình thường.",
+      "check": {
+        "id": "cc6-v6-l03-grammar-check-03",
+        "prompt": "Điền vào chỗ trống: 兩種舞風同台，來個現代舞____芭蕾舞。",
+        "options": [
+          {
+            "id": "a",
+            "text": "剎那"
+          },
+          {
+            "id": "b",
+            "text": "加諸"
+          },
+          {
+            "id": "c",
+            "text": "大會"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Cách nói sinh động về việc cho hai phong cách hay nhóm khác nhau “gặp nhau” trong một hoạt động, có sắc thái so sánh hoặc đối đầu.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l03-grammar-04",
+      "title": "X化為Y",
+      "explanation": "Diễn tả X biến thành Y, thường dùng với thành quả, tình cảm hoặc ý tưởng trừu tượng.",
+      "structure": "X + 化為 + Y",
+      "examples": [
+        {
+          "chinese": "她希望心血能化為最好的作品。",
+          "simplified": "她希望心血能化为最好的作品。",
+          "pinyin": "tā xī wàng xīn xuè néng huà wèi zuì hǎo de zuò pǐn 。",
+          "meaningVi": "Cô hy vọng tâm huyết sẽ thành tác phẩm tốt nhất."
+        },
+        {
+          "chinese": "把壓力化為前進的動力。",
+          "simplified": "把压力化为前进的动力。",
+          "pinyin": "bǎ yā lì huà wèi qián jìn de dòng lì 。",
+          "meaningVi": "Biến áp lực thành động lực tiến lên."
+        }
+      ],
+      "commonMistake": "Hai vế cần có quan hệ chuyển biến; 化為 không chỉ đơn thuần đặt hai sự vật cạnh nhau.",
+      "check": {
+        "id": "cc6-v6-l03-grammar-check-04",
+        "prompt": "Điền vào chỗ trống: 她希望多年的心血____一部作品。",
+        "options": [
+          {
+            "id": "a",
+            "text": "化為"
+          },
+          {
+            "id": "b",
+            "text": "憑"
+          },
+          {
+            "id": "c",
+            "text": "加諸"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Diễn tả X biến thành Y, thường dùng với thành quả, tình cảm hoặc ý tưởng trừu tượng.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l03-grammar-05",
+      "title": "在X的剎那",
+      "explanation": "Chỉ đúng khoảnh khắc X xảy ra, nhấn mạnh một biến chuyển rất nhanh.",
+      "structure": "在 + sự kiện X +（的）剎那，+ kết quả",
+      "examples": [
+        {
+          "chinese": "在燈光亮起的剎那，她不再緊張。",
+          "simplified": "在灯光亮起的刹那，她不再紧张。",
+          "pinyin": "zài dēng guāng liàng qǐ de shā nà ， tā bù zài jǐn zhāng 。",
+          "meaningVi": "Ngay khoảnh khắc đèn sáng, cô hết hồi hộp."
+        },
+        {
+          "chinese": "在看到觀眾的剎那，他想起了家鄉。",
+          "simplified": "在看到观众的刹那，他想起了家乡。",
+          "pinyin": "zài kàn dào guān zhòng de shā nà ， tā xiǎng qǐ le jiā xiāng 。",
+          "meaningVi": "Khoảnh khắc nhìn thấy khán giả, anh nhớ tới quê nhà."
+        }
+      ],
+      "commonMistake": "剎那 là thời điểm rất ngắn, không dùng cho một quãng thời gian kéo dài.",
+      "check": {
+        "id": "cc6-v6-l03-grammar-check-05",
+        "prompt": "Điền vào chỗ trống: ____燈光灑落的剎那，她感到自在。",
+        "options": [
+          {
+            "id": "a",
+            "text": "以"
+          },
+          {
+            "id": "b",
+            "text": "在"
+          },
+          {
+            "id": "c",
+            "text": "憑"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Chỉ đúng khoảnh khắc X xảy ra, nhấn mạnh một biến chuyển rất nhanh.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l03-grammar-06",
+      "title": "終會…的",
+      "explanation": "Khẳng định kết quả cuối cùng sẽ tới sau một quá trình, thường để động viên hoặc bày tỏ niềm tin.",
+      "structure": "chủ thể + 終會 + động từ / kết quả + 的",
+      "examples": [
+        {
+          "chinese": "努力的小孩終會被看見的。",
+          "simplified": "努力的小孩终会被看见的。",
+          "pinyin": "nǔ lì de xiǎo hái zhōng huì bèi kàn jiàn de 。",
+          "meaningVi": "Những đứa trẻ nỗ lực rồi sẽ được nhìn nhận."
+        },
+        {
+          "chinese": "只要持續練習，你終會進步的。",
+          "simplified": "只要持续练习，你终会进步的。",
+          "pinyin": "zhǐ yào chí xù liàn xí ， nǐ zhōng huì jìn bù de 。",
+          "meaningVi": "Cứ luyện tập đều đặn, rồi bạn sẽ tiến bộ."
+        }
+      ],
+      "commonMistake": "終會 không nói kết quả xảy ra ngay; nó hàm ý phải đợi và trải qua quá trình.",
+      "check": {
+        "id": "cc6-v6-l03-grammar-check-06",
+        "prompt": "Điền vào chỗ trống: 只要不放棄，你____找到方向的。",
+        "options": [
+          {
+            "id": "a",
+            "text": "一眼"
+          },
+          {
+            "id": "b",
+            "text": "不自覺"
+          },
+          {
+            "id": "c",
+            "text": "終會"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Khẳng định kết quả cuối cùng sẽ tới sau một quá trình, thường để động viên hoặc bày tỏ niềm tin.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l03-grammar-07",
+      "title": "一眼就",
+      "explanation": "Nhìn một cái đã nhận ra hoặc xảy ra một phản ứng nào đó; nhấn mạnh nhận biết rất nhanh qua thị giác.",
+      "structure": "一眼就 + nhìn ra / nhận ra / yêu thích…",
+      "examples": [
+        {
+          "chinese": "老師一眼就發覺她的才華。",
+          "simplified": "老师一眼就发觉她的才华。",
+          "pinyin": "lǎo shī yī yǎn jiù fā jué tā de cái huá 。",
+          "meaningVi": "Thầy vừa nhìn đã nhận ra tài năng của cô."
+        },
+        {
+          "chinese": "我一眼就認出那位老朋友。",
+          "simplified": "我一眼就认出那位老朋友。",
+          "pinyin": "wǒ yī yǎn jiù rèn chū nà wèi lǎo péng yǒu 。",
+          "meaningVi": "Tôi vừa nhìn đã nhận ra người bạn cũ."
+        }
+      ],
+      "commonMistake": "Chỉ dùng khi sự nhận biết đến từ việc nhìn, không thay cho “ngay lập tức” trong mọi tình huống.",
+      "check": {
+        "id": "cc6-v6-l03-grammar-check-07",
+        "prompt": "Điền vào chỗ trống: 老師____發覺她有才華。",
+        "options": [
+          {
+            "id": "a",
+            "text": "一眼就"
+          },
+          {
+            "id": "b",
+            "text": "終會"
+          },
+          {
+            "id": "c",
+            "text": "憑"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Nhìn một cái đã nhận ra hoặc xảy ra một phản ứng nào đó; nhấn mạnh nhận biết rất nhanh qua thị giác.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l03-grammar-08",
+      "title": "憑",
+      "explanation": "Nêu điều mình dựa vào để làm được việc gì: năng lực, bằng chứng, nghị lực hoặc tư cách.",
+      "structure": "憑 + căn cứ / năng lực + động từ",
+      "examples": [
+        {
+          "chinese": "她憑毅力克服語言困難。",
+          "simplified": "她凭毅力克服语言困难。",
+          "pinyin": "tā píng yì lì kè fú yǔ yán kùn nán 。",
+          "meaningVi": "Cô nhờ nghị lực vượt qua khó khăn ngôn ngữ."
+        },
+        {
+          "chinese": "他憑經驗完成了這份工作。",
+          "simplified": "他凭经验完成了这份工作。",
+          "pinyin": "tā píng jīng yàn wán chéng le zhè fèn gōng zuò 。",
+          "meaningVi": "Anh ấy dựa vào kinh nghiệm để hoàn thành công việc."
+        }
+      ],
+      "commonMistake": "Sau 憑 cần có căn cứ hoặc nguồn lực, không phải kết quả cuối cùng.",
+      "check": {
+        "id": "cc6-v6-l03-grammar-check-08",
+        "prompt": "Điền vào chỗ trống: 她____毅力克服一切。",
+        "options": [
+          {
+            "id": "a",
+            "text": "憑"
+          },
+          {
+            "id": "b",
+            "text": "以"
+          },
+          {
+            "id": "c",
+            "text": "化為"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Nêu điều mình dựa vào để làm được việc gì: năng lực, bằng chứng, nghị lực hoặc tư cách.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l03-grammar-09",
+      "title": "加諸在",
+      "explanation": "Cách viết trang trọng chỉ điều gì đó, thường là áp lực, trách nhiệm hoặc lời khen, được đặt lên ai.",
+      "structure": "điều trừu tượng + 加諸在 + người / sự vật + 身上",
+      "examples": [
+        {
+          "chinese": "種種稱讚瞬間加諸在她身上。",
+          "simplified": "种种称赞瞬间加诸在她身上。",
+          "pinyin": "zhǒng zhǒng chēng zàn shùn jiān jiā zhū zài tā shēn shàng 。",
+          "meaningVi": "Hàng loạt lời khen dồn đến cô trong chốc lát."
+        },
+        {
+          "chinese": "別把自己的期待加諸在孩子身上。",
+          "simplified": "别把自己的期待加诸在孩子身上。",
+          "pinyin": "bié bǎ zì jǐ de qī dài jiā zhū zài hái zi shēn shàng 。",
+          "meaningVi": "Đừng áp đặt kỳ vọng của mình lên con trẻ."
+        }
+      ],
+      "commonMistake": "Thường đi với điều trừu tượng; nếu đặt vật cụ thể lên bàn, dùng 放在.",
+      "check": {
+        "id": "cc6-v6-l03-grammar-check-09",
+        "prompt": "Điền vào chỗ trống: 別把壓力____孩子身上。",
+        "options": [
+          {
+            "id": "a",
+            "text": "加諸在"
+          },
+          {
+            "id": "b",
+            "text": "一眼就"
+          },
+          {
+            "id": "c",
+            "text": "終會"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Cách viết trang trọng chỉ điều gì đó, thường là áp lực, trách nhiệm hoặc lời khen, được đặt lên ai.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l03-grammar-10",
+      "title": "何嘗",
+      "explanation": "Câu hỏi tu từ bày tỏ một ý đối lập với dạng câu. 何嘗不是 nghĩa là “nào có phải không”; 何嘗不想 nghĩa là “nào có phải không muốn”.",
+      "structure": "何嘗 + phủ định / câu hỏi tu từ",
+      "examples": [
+        {
+          "chinese": "別人想被肯定，她又何嘗不是？",
+          "simplified": "别人想被肯定，她又何尝不是？",
+          "pinyin": "bié rén xiǎng bèi kěn dìng ， tā yòu hé cháng bú shì ？",
+          "meaningVi": "Người khác muốn được ghi nhận; cô nào có khác?"
+        },
+        {
+          "chinese": "他何嘗不想回家？",
+          "simplified": "他何尝不想回家？",
+          "pinyin": "tā hé cháng bù xiǎng huí jiā ？",
+          "meaningVi": "Nào phải anh không muốn về nhà?"
+        }
+      ],
+      "commonMistake": "Không đọc 何嘗 như câu hỏi cần trả lời thật; người nói đã ngầm khẳng định ý ngược lại.",
+      "check": {
+        "id": "cc6-v6-l03-grammar-check-10",
+        "prompt": "Điền vào chỗ trống: 其他舞者也想被看見，她又____不是？",
+        "options": [
+          {
+            "id": "a",
+            "text": "終會"
+          },
+          {
+            "id": "b",
+            "text": "何嘗"
+          },
+          {
+            "id": "c",
+            "text": "加諸"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Câu hỏi tu từ bày tỏ một ý đối lập với dạng câu.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l03-grammar-11",
+      "title": "不自覺地",
+      "explanation": "Diễn tả một hành động xảy ra vô thức, người làm không chủ ý hoặc không nhận ra ngay.",
+      "structure": "chủ thể + 不自覺（地）+ động từ",
+      "examples": [
+        {
+          "chinese": "她不自覺地說出自己來自台灣。",
+          "simplified": "她不自觉地说出自己来自台湾。",
+          "pinyin": "tā bù zì jué dì shuō chū zì jǐ lái zì tái wān 。",
+          "meaningVi": "Cô vô thức nói mình đến từ Đài Loan."
+        },
+        {
+          "chinese": "聽到音樂，他不自覺地跟著哼唱。",
+          "simplified": "听到音乐，他不自觉地跟着哼唱。",
+          "pinyin": "tīng dào yīn lè ， tā bù zì jué dì gēn zhù hēng chàng 。",
+          "meaningVi": "Nghe nhạc, anh bất giác ngân nga theo."
+        }
+      ],
+      "commonMistake": "Không dùng cho hành động đã được lên kế hoạch rõ; trái nghĩa là 有意識地 hoặc 故意.",
+      "check": {
+        "id": "cc6-v6-l03-grammar-check-11",
+        "prompt": "Điền vào chỗ trống: 她____說出「我來自台灣」。",
+        "options": [
+          {
+            "id": "a",
+            "text": "以個人身分"
+          },
+          {
+            "id": "b",
+            "text": "量身打造"
+          },
+          {
+            "id": "c",
+            "text": "不自覺地"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Diễn tả một hành động xảy ra vô thức, người làm không chủ ý hoặc không nhận ra ngay.",
+        "skill": "Ngữ pháp"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc6-v6-l03-listening-01",
+      "prompt": "Nghe bài đọc 1: điều gì đã khiến cô muốn thi vào trường nghệ thuật?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Được điểm ba lê tối đa"
+        },
+        {
+          "id": "b",
+          "text": "Cảm giác tự do, vui và có giá trị khi biểu diễn"
+        },
+        {
+          "id": "c",
+          "text": "Được gia đình ép đi thi"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Sau lần diễn đầu, cô tìm thấy niềm vui và cảm giác tồn tại.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l03-t02"
+    },
+    {
+      "id": "cc6-v6-l03-listening-02",
+      "prompt": "Nghe bài đọc 1: cô muốn các vũ công trẻ tiếp nối điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Việc kinh doanh trang phục"
+        },
+        {
+          "id": "b",
+          "text": "Một bộ phim điện ảnh"
+        },
+        {
+          "id": "c",
+          "text": "Ước mơ múa của mình"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Cô đào tạo người trẻ để 夢想可以無限制地傳承下去.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l03-t02"
+    },
+    {
+      "id": "cc6-v6-l03-listening-03",
+      "prompt": "Nghe bài đọc 2: nhờ đâu cô vượt qua khó khăn khi sang Mỹ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nghị lực và máy phiên dịch"
+        },
+        {
+          "id": "b",
+          "text": "Khả năng tiếng Anh xuất sắc sẵn có"
+        },
+        {
+          "id": "c",
+          "text": "Một khóa học ở quê nhà"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc nêu 她憑毅力克服一切，靠著語言翻譯機.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l03-t05"
+    },
+    {
+      "id": "cc6-v6-l03-listening-04",
+      "prompt": "Nghe bài đọc 2: cô nói gì khi trở lại biểu diễn ở quê nhà?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tôi là Hứa Phương Nghi, tôi đã trở về"
+        },
+        {
+          "id": "b",
+          "text": "Tôi sẽ không biểu diễn nữa"
+        },
+        {
+          "id": "c",
+          "text": "Tôi chỉ diễn cho khán giả Mỹ"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Câu cuối thay “我來自台灣” bằng “我回來了”.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l03-t05"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc6-v6-l03-practice-01",
+      "prompt": "Điền: 舞者在舞台上____表演。",
+      "options": [
+        {
+          "id": "a",
+          "text": "盡情"
+        },
+        {
+          "id": "b",
+          "text": "盡量"
+        },
+        {
+          "id": "c",
+          "text": "何嘗"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "盡情 chỉ biểu diễn hết mình, thoải mái.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l03-practice-02",
+      "prompt": "Vì sao lời thầy Ross có ý nghĩa lớn với cô?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lần đầu có người kỳ vọng và công khai khen tài năng cô"
+        },
+        {
+          "id": "b",
+          "text": "Thầy cho cô điểm ba lê tối đa"
+        },
+        {
+          "id": "c",
+          "text": "Thầy giúp cô đạo diễn phim"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Trước đó cô nghĩ không ai kỳ vọng vào mình.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l03-practice-03",
+      "prompt": "Điền: 她____個人身分接受國際邀約。",
+      "options": [
+        {
+          "id": "a",
+          "text": "以"
+        },
+        {
+          "id": "b",
+          "text": "憑"
+        },
+        {
+          "id": "c",
+          "text": "在"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "以X身分 nêu vai trò của người hành động.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l03-practice-04",
+      "prompt": "Hứa Phương Nghi làm gì để truyền lại ước mơ múa?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bỏ hẳn việc múa"
+        },
+        {
+          "id": "b",
+          "text": "Chuyển sang làm đạo diễn phim"
+        },
+        {
+          "id": "c",
+          "text": "Đào tạo vũ công trẻ"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc nói cô bắt đầu 培訓一些年輕的舞者.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l03-practice-05",
+      "prompt": "Điền: 她把多年心血____最好的作品。",
+      "options": [
+        {
+          "id": "a",
+          "text": "加諸"
+        },
+        {
+          "id": "b",
+          "text": "憑"
+        },
+        {
+          "id": "c",
+          "text": "化為"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "化為 nối điều ban đầu với kết quả chuyển biến.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l03-practice-06",
+      "prompt": "Sau khi tốt nghiệp đại học, cô đến nước nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đức"
+        },
+        {
+          "id": "b",
+          "text": "Canada"
+        },
+        {
+          "id": "c",
+          "text": "Mỹ"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Cô trúng tuyển đoàn múa Graham và 隻身前往美國.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l03-practice-07",
+      "prompt": "Điền: 老師____發覺她的才華。",
+      "options": [
+        {
+          "id": "a",
+          "text": "終會"
+        },
+        {
+          "id": "b",
+          "text": "何嘗"
+        },
+        {
+          "id": "c",
+          "text": "一眼就"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "一眼就 nhấn mạnh nhìn một cái đã nhận ra.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l03-practice-08",
+      "prompt": "Vì sao cô luôn cẩn trọng trước lời khen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cô không muốn đi diễn"
+        },
+        {
+          "id": "b",
+          "text": "Lời phê bình có thể thay đổi từ ngày này sang ngày khác"
+        },
+        {
+          "id": "c",
+          "text": "Cô không thích khán giả"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Cô hiểu người cầm bút có thể nâng mình lên hôm nay rồi hạ mình ngày mai.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc6-v6-l03-assessment-01",
+      "prompt": "舞碼 trong bài có nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đôi giày múa"
+        },
+        {
+          "id": "b",
+          "text": "Tiết mục múa"
+        },
+        {
+          "id": "c",
+          "text": "Mã số cửa"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "舞碼 là một tiết mục hoặc bài múa.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc6-v6-l03-assessment-02",
+      "prompt": "Cô được gọi là người kế thừa ai?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Martha Graham"
+        },
+        {
+          "id": "b",
+          "text": "Robert Altman"
+        },
+        {
+          "id": "c",
+          "text": "Wendy Whelan"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc ghi 瑪莎．葛蘭姆的傳人.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l03-assessment-03",
+      "prompt": "Điền: 她____舞者的身分上台。",
+      "options": [
+        {
+          "id": "a",
+          "text": "憑"
+        },
+        {
+          "id": "b",
+          "text": "加諸"
+        },
+        {
+          "id": "c",
+          "text": "以"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "以X身分 nêu tư cách khi hành động.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l03-assessment-04",
+      "prompt": "Ai đã công khai khen ngợi cô khi học đại học?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vũ công ba lê Wendy"
+        },
+        {
+          "id": "b",
+          "text": "Thầy Ross Parkes"
+        },
+        {
+          "id": "c",
+          "text": "Đạo diễn phim"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Thầy Ross nhận ra tài năng và khen cô.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l03-assessment-05",
+      "prompt": "Điền: 她____毅力克服困難。",
+      "options": [
+        {
+          "id": "a",
+          "text": "一眼"
+        },
+        {
+          "id": "b",
+          "text": "憑"
+        },
+        {
+          "id": "c",
+          "text": "終會"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "憑 nối hành động với nguồn lực/căn cứ.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l03-assessment-06",
+      "prompt": "保送 trong bài chỉ điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Được tuyển thẳng vào đại học"
+        },
+        {
+          "id": "b",
+          "text": "Thi lại lần hai"
+        },
+        {
+          "id": "c",
+          "text": "Bỏ học giữa chừng"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Sau ba năm tập luyện cô được 保送上大學.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc6-v6-l03-assessment-07",
+      "prompt": "Điền: 她希望心血能____作品。",
+      "options": [
+        {
+          "id": "a",
+          "text": "盡情"
+        },
+        {
+          "id": "b",
+          "text": "化為"
+        },
+        {
+          "id": "c",
+          "text": "何嘗"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "化為 nghĩa là biến thành.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l03-assessment-08",
+      "prompt": "Sau khi sang Mỹ, cô trở thành gì trong đoàn Graham?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vũ công chính"
+        },
+        {
+          "id": "b",
+          "text": "Nhà phê bình"
+        },
+        {
+          "id": "c",
+          "text": "Đạo diễn điện ảnh"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc ghi 首席舞者.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l03-assessment-09",
+      "prompt": "“何嘗不是？” diễn tả ý nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cô ấy hoàn toàn không giống"
+        },
+        {
+          "id": "b",
+          "text": "Người nói chưa biết"
+        },
+        {
+          "id": "c",
+          "text": "Cô ấy cũng vậy"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Câu hỏi tu từ khẳng định cô cũng có khát vọng như các vũ công khác.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l03-assessment-10",
+      "prompt": "Câu nói lúc về biểu diễn ở quê nhà kết thúc thế nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tôi đã trở về"
+        },
+        {
+          "id": "b",
+          "text": "Tôi ra đi lần nữa"
+        },
+        {
+          "id": "c",
+          "text": "Tôi không còn múa"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Câu cuối bài là 我是許芳宜，我回來了.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "writingTask": {
+    "id": "cc6-v6-l03-writing",
+    "title": "Viết ngắn: một bước ngoặt",
+    "prompt": "Viết 4–5 câu tiếng Hoa về một người đã động viên bạn học hoặc làm điều mình thích. Thử dùng 一眼就、憑 hoặc 化為."
+  }
+}

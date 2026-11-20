@@ -1,0 +1,1266 @@
+{
+  "contentVersion": 2,
+  "id": "cc6-v6-l05",
+  "title": "國際語言",
+  "titleVi": "Ngôn ngữ và tầm nhìn quốc tế",
+  "description": "Hai bài đọc từ Berlin đến những thị trấn châu Âu: tiếng Anh hữu ích, nhưng hiểu thế giới còn cần tôn trọng nhiều ngôn ngữ và góc nhìn.",
+  "objectives": [
+    "Tóm tắt được trải nghiệm giao tiếp tại quầy trái cây ở Berlin.",
+    "Giải thích được sự khác nhau giữa giỏi tiếng Anh và có tầm nhìn quốc tế.",
+    "Dùng đúng các mẫu 面對X時、跟X接軌、有一定的X và 從X的角度來看."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Bài đọc 1 kể một cuộc mua bán bất đồng ngôn ngữ ở Berlin. Bài đọc 2 bàn về việc học tiếng Anh và ý nghĩa rộng hơn của “tầm nhìn quốc tế”.",
+    "sections": [
+      {
+        "id": "cc6-v6-l05-section-01",
+        "title": "Ngôn ngữ trong một quầy trái cây",
+        "body": "Người bán, khách hàng và người phiên dịch dùng nhiều ngôn ngữ để hoàn tất giao dịch.",
+        "chinese": "有我這個臨時口譯當橋，兩人終於達成買賣。",
+        "simplified": "有我这个临时口译当桥，两人终于达成买卖。",
+        "pinyin": "yǒu wǒ zhè gè lín shí kǒu yì dāng qiáo ， liǎng rén zhōng yú dá chéng mǎi mài 。",
+        "meaningVi": "Nhờ tôi làm người phiên dịch tạm thời, hai người cuối cùng mua bán xong."
+      },
+      {
+        "id": "cc6-v6-l05-section-02",
+        "title": "Tiếng Anh hữu ích, nhưng chưa đủ",
+        "body": "Tác giả nhìn nhận lợi ích của tiếng Anh, đồng thời cho rằng những ngôn ngữ khác cũng mở ra những góc nhìn riêng.",
+        "chinese": "但是，外語，並不等同於英文。",
+        "simplified": "但是，外语，并不等同于英文。",
+        "pinyin": "dàn shì ， wài yǔ ， bìng bù děng tóng yú yīng wén 。",
+        "meaningVi": "Nhưng ngoại ngữ không chỉ có tiếng Anh."
+      },
+      {
+        "id": "cc6-v6-l05-section-03",
+        "title": "Nhìn từ góc độ người khác",
+        "body": "Tầm nhìn quốc tế gắn với sự tò mò và khả năng lắng nghe, không chỉ là điểm thi ngoại ngữ.",
+        "chinese": "「國際觀」是讓我們學習從他人的角度來看世界。",
+        "simplified": "「国际观」是让我们学习从他人的角度来看世界。",
+        "pinyin": "「 guó jì guān 」 shì ràng wǒ men xué xí cóng tā rén de jiǎo dù lái kàn shì jiè 。",
+        "meaningVi": "Tầm nhìn quốc tế giúp ta học cách nhìn thế giới từ góc độ người khác."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc6-v6-l05-reading1",
+        "title": "課文一 · 在歐洲，英文不等於「國際共通語言」（I）",
+        "context": "Chuyện ở quầy trái cây Berlin và câu hỏi về tiếng Anh.",
+        "audioTrackId": "cc6-textbook-l05-t02",
+        "turns": [
+          {
+            "speaker": "Đoạn 1",
+            "chinese": "我柏林家的隔壁是一家土耳其人開的水果攤，瓜香果豔，我是常客。柏林觀光客多，水果攤老闆說德文與土耳其文，但不說英文，面對各種國籍的旅客秤斤算錢時，手擺腳動取代語言，英文、西班牙文、中文、德文、法文、日文都出現過，水果攤每天都非常「國際化」。",
+            "simplified": "我柏林家的隔壁是一家土耳其人开的水果摊，瓜香果艳，我是常客。柏林观光客多，水果摊老板说德文与土耳其文，但不说英文，面对各种国籍的旅客秤斤算钱时，手摆脚动取代语言，英文、西班牙文、中文、德文、法文、日文都出现过，水果摊每天都非常「国际化」。",
+            "pinyin": "wǒ bó lín jiā de gé bì shì yī jiā tǔ ěr qí rén kāi de shuǐ guǒ tān ， guā xiāng guǒ yàn ， wǒ shì cháng kè 。 bó lín guān guāng kè duō ， shuǐ guǒ tān lǎo bǎn shuō dé wén yǔ tǔ ěr qí wén ， dàn bù shuō yīng wén ， miàn duì gè zhǒng guó jí de lǚ kè chèng jīn suàn qián shí ， shǒu bǎi jiǎo dòng qǔ dài yǔ yán ， yīng wén 、 xī bān yá wén 、 zhōng wén 、 dé wén 、 fǎ wén 、 rì wén dōu chū xiàn guò ， shuǐ guǒ tān měi tiān dōu fēi cháng 「 guó jì huà 」 。",
+            "meaningVi": "Bên cạnh nhà tôi ở Berlin là quầy trái cây của một người Thổ Nhĩ Kỳ. Trái cây thơm ngon, đẹp mắt nên tôi thường ghé mua. Berlin có nhiều du khách; người bán nói tiếng Đức và tiếng Thổ Nhĩ Kỳ, nhưng không nói tiếng Anh. Khi cân hàng và tính tiền cho khách từ nhiều nước, ông dùng cả tay chân để giao tiếp. Ở quầy, người ta nghe đủ tiếng Anh, Tây Ban Nha, Hoa, Đức, Pháp, Nhật; ngày nào quầy cũng rất “quốc tế”."
+          },
+          {
+            "speaker": "Đoạn 2",
+            "chinese": "一次我來買菜，前面的客人與土耳其老闆正身陷語言迷宮裡，客人說著文法亂、有濃重口音的英文，老闆則一直以德文回覆，客人的焦急，都快把手中的綠芒果給催熟了。老闆看到我，急忙請我幫忙，有我這個臨時口譯當橋，兩人終於達成買賣。",
+            "simplified": "一次我来买菜，前面的客人与土耳其老板正身陷语言迷宫里，客人说着文法乱、有浓重口音的英文，老板则一直以德文回复，客人的焦急，都快把手中的绿芒果给催熟了。老板看到我，急忙请我帮忙，有我这个临时口译当桥，两人终于达成买卖。",
+            "pinyin": "yī cì wǒ lái mǎi cài ， qián miàn de kè rén yǔ tǔ ěr qí lǎo bǎn zhèng shēn xiàn yǔ yán mí gōng lǐ ， kè rén shuō zhù wén fǎ luàn 、 yǒu nóng zhòng kǒu yīn de yīng wén ， lǎo bǎn zé yì zhí yǐ dé wén huí fù ， kè rén de jiāo jí ， dōu kuài bǎ shǒu zhōng de lǜ máng guǒ gěi cuī shú le 。 lǎo bǎn kàn dào wǒ ， jí máng qǐng wǒ bāng máng ， yǒu wǒ zhè gè lín shí kǒu yì dāng qiáo ， liǎng rén zhōng yú dá chéng mǎi mài 。",
+            "meaningVi": "Một lần tôi đến mua rau, người khách trước tôi và ông chủ người Thổ Nhĩ Kỳ đang mắc kẹt trong mê cung ngôn ngữ. Khách nói tiếng Anh sai ngữ pháp, giọng rất nặng; ông chủ cứ trả lời bằng tiếng Đức. Người khách sốt ruột đến mức như muốn làm quả xoài xanh trong tay chín ngay. Thấy tôi, ông chủ nhờ tôi phiên dịch tạm. Nhờ vậy, hai người mới mua bán xong."
+          },
+          {
+            "speaker": "Đoạn 3",
+            "chinese": "這位說英文的客人向我道謝，接著問我：「為什麼他們都不會說英文呢？好奇怪。」我答：「因為你在德國。這裡，人們說德文。」",
+            "simplified": "这位说英文的客人向我道谢，接着问我：「为什么他们都不会说英文呢？好奇怪。」我答：「因为你在德国。这里，人们说德文。」",
+            "pinyin": "zhè wèi shuō yīng wén de kè rén xiàng wǒ dào xiè ， jiē zhù wèn wǒ ： 「 wèi shén me tā men dōu bù huì shuō yīng wén ne ？ hào qí guài 。 」 wǒ dá ： 「 yīn wèi nǐ zài dé guó 。 zhè lǐ ， rén men shuō dé wén 。 」",
+            "meaningVi": "Người khách nói tiếng Anh cảm ơn rồi hỏi tôi: “Sao họ không biết nói tiếng Anh nhỉ? Lạ thật.” Tôi đáp: “Vì anh đang ở Đức. Ở đây người ta nói tiếng Đức.”"
+          },
+          {
+            "speaker": "Đoạn 4",
+            "chinese": "其實，我面前這位買水果客人，本身英文也紊亂，口音濃重，文法錯亂，但他卻覺得在德國柏林賣水果的老闆應該要會說英文，這邏輯很奇怪，自己都不太行的事，怎麼會要求人家一定要做到呢？我想，這位先生大概就是覺得「英文是國際共通語言」，而忘了去尊重每個國家對於自己母語的保有與使用。",
+            "simplified": "其实，我面前这位买水果客人，本身英文也紊乱，口音浓重，文法错乱，但他却觉得在德国柏林卖水果的老板应该要会说英文，这逻辑很奇怪，自己都不太行的事，怎么会要求人家一定要做到呢？我想，这位先生大概就是觉得「英文是国际共通语言」，而忘了去尊重每个国家对于自己母语的保有与使用。",
+            "pinyin": "qí shí ， wǒ miàn qián zhè wèi mǎi shuǐ guǒ kè rén ， běn shēn yīng wén yě wěn luàn ， kǒu yīn nóng zhòng ， wén fǎ cuò luàn ， dàn tā què jué dé zài dé guó bó lín mài shuǐ guǒ de lǎo bǎn yīng gāi yào huì shuō yīng wén ， zhè luó jí hěn qí guài ， zì jǐ dōu bù tài xíng de shì ， zěn me huì yāo qiú rén jiā yí dìng yào zuò dào ne ？ wǒ xiǎng ， zhè wèi xiān shēng dà gài jiù shì jué dé 「 yīng wén shì guó jì gòng tōng yǔ yán 」 ， ér wàng le qù zūn zhòng měi gè guó jiā duì yú zì jǐ mǔ yǔ de bǎo yǒu yǔ shǐ yòng 。",
+            "meaningVi": "Thật ra, chính người khách ấy nói tiếng Anh cũng lộn xộn: giọng nặng, ngữ pháp sai. Vậy mà anh lại cho rằng người bán trái cây ở Berlin nhất định phải nói tiếng Anh. Bản thân còn chưa giỏi, sao có thể đòi người khác phải làm được? Có lẽ anh nghĩ “tiếng Anh là ngôn ngữ chung quốc tế”, rồi quên tôn trọng việc mỗi nước gìn giữ và sử dụng tiếng mẹ đẻ của mình."
+          },
+          {
+            "speaker": "Đoạn 5",
+            "chinese": "幾年前，我在柏林採訪台灣某知名大學校長，他或許是旅途勞累，態度有些傲慢。問他這幾天在柏林的經驗，他皺眉抱怨：「怎麼德國英文標識這麼少？這樣誰看得懂啊？」那時我才發現，原來我們一直重視英文教育，到最後卻培養出了只以英文為世界中心的人才，他們把英文當做是唯一合理的外語想像。來到柏林看不懂標識，卻沒想過，這些標識其實主要是給本地人看的。",
+            "simplified": "几年前，我在柏林采访台湾某知名大学校长，他或许是旅途劳累，态度有些傲慢。问他这几天在柏林的经验，他皱眉抱怨：「怎么德国英文标识这么少？这样谁看得懂啊？」那时我才发现，原来我们一直重视英文教育，到最后却培养出了只以英文为世界中心的人才，他们把英文当做是唯一合理的外语想像。来到柏林看不懂标识，却没想过，这些标识其实主要是给本地人看的。",
+            "pinyin": "jǐ nián qián ， wǒ zài bó lín cǎi fǎng tái wān mǒu zhī míng dà xué xiào zhǎng ， tā huò xǔ shì lǚ tú láo lèi ， tài dù yǒu xiē ào màn 。 wèn tā zhè jǐ tiān zài bó lín de jīng yàn ， tā zhòu méi bào yuàn ： 「 zěn me dé guó yīng wén biāo shí zhè me shǎo ？ zhè yàng shuí kàn de dǒng a ？ 」 nà shí wǒ cái fā xiàn ， yuán lái wǒ men yì zhí zhòng shì yīng wén jiào yù ， dào zuì hòu què péi yǎng chū le zhǐ yǐ yīng wén wèi shì jiè zhōng xīn de rén cái ， tā men bǎ yīng wén dāng zuò shì wéi yī hé lǐ de wài yǔ xiǎng xiàng 。 lái dào bó lín kàn bù dǒng biāo shí ， què méi xiǎng guò ， zhè xiē biāo shí qí shí zhǔ yào shì gěi běn dì rén kàn de 。",
+            "meaningVi": "Vài năm trước, tôi phỏng vấn hiệu trưởng một đại học nổi tiếng của Đài Loan tại Berlin. Có lẽ mệt vì đi đường, ông tỏ ra hơi kiêu ngạo. Khi được hỏi về mấy ngày ở Berlin, ông nhíu mày: “Sao ở Đức ít biển hiệu tiếng Anh thế? Ai mà đọc hiểu được?” Lúc ấy tôi mới nhận ra: ta coi trọng giáo dục tiếng Anh đến mức đào tạo ra những người chỉ lấy tiếng Anh làm trung tâm thế giới, xem nó là ngoại ngữ hợp lý duy nhất. Họ không đọc được biển hiệu ở Berlin, nhưng không nghĩ những biển hiệu ấy chủ yếu dành cho dân địa phương."
+          },
+          {
+            "speaker": "Đoạn 6",
+            "chinese": "我不禁想，學外語，不是為了培養大家一天到晚強調的「國際觀」嗎？不是為了跟國際接軌嗎？不是為了讓自己世界更開闊嗎？怎麼這位校長，身在德國，心中卻只剩下了英文？",
+            "simplified": "我不禁想，学外语，不是为了培养大家一天到晚强调的「国际观」吗？不是为了跟国际接轨吗？不是为了让自己世界更开阔吗？怎么这位校长，身在德国，心中却只剩下了英文？",
+            "pinyin": "wǒ bù jīn xiǎng ， xué wài yǔ ， bú shì wèi le péi yǎng dà jiā yī tiān dào wǎn qiáng diào de 「 guó jì guān 」 ma ？ bú shì wèi le gēn guó jì jiē guǐ ma ？ bú shì wèi le ràng zì jǐ shì jiè gèng kāi kuò ma ？ zěn me zhè wèi xiào zhǎng ， shēn zài dé guó ， xīn zhōng què zhǐ shèng xià le yīng wén ？",
+            "meaningVi": "Tôi không khỏi tự hỏi: học ngoại ngữ chẳng phải để có “tầm nhìn quốc tế”, kết nối với thế giới và mở rộng thế giới của mình sao? Vậy tại sao vị hiệu trưởng ở ngay nước Đức mà trong đầu chỉ còn tiếng Anh?"
+          }
+        ]
+      },
+      {
+        "id": "cc6-v6-l05-reading2",
+        "title": "課文二 · 在歐洲，英文不等於「國際共通語言」（II）",
+        "context": "Tiếng Anh, các ngôn ngữ khác và tầm nhìn quốc tế.",
+        "audioTrackId": "cc6-textbook-l05-t05",
+        "turns": [
+          {
+            "speaker": "Đoạn 1",
+            "chinese": "大學時打工賺生活費，我當英文家教，也在補習班教兒童美語，因此眼見許多心急的家長，擔心自己的小孩英文學不好，會被全球化浪潮給遠遠拋在後，長大後一定會被徹底淘汰，因此督促小孩努力背英文單字。",
+            "simplified": "大学时打工赚生活费，我当英文家教，也在补习班教儿童美语，因此眼见许多心急的家长，担心自己的小孩英文学不好，会被全球化浪潮给远远抛在后，长大后一定会被彻底淘汰，因此督促小孩努力背英文单字。",
+            "pinyin": "dà xué shí dǎ gōng zhuàn shēng huó fèi ， wǒ dāng yīng wén jiā jiào ， yě zài bǔ xí bān jiào ér tóng měi yǔ ， yīn cǐ yǎn jiàn xǔ duō xīn jí de jiā zhǎng ， dān xīn zì jǐ de xiǎo hái yīng wén xué bù hǎo ， huì bèi quán qiú huà làng cháo gěi yuǎn yuǎn pāo zài hòu ， zhǎng dà hòu yí dìng huì bèi chè dǐ táo tài ， yīn cǐ dū cù xiǎo hái nǔ lì bèi yīng wén dān zì 。",
+            "meaningVi": "Hồi đại học, tôi làm thêm kiếm tiền sinh hoạt: dạy kèm tiếng Anh và dạy tiếng Anh thiếu nhi ở trung tâm. Tôi thấy nhiều phụ huynh nóng ruột, sợ con học tiếng Anh không giỏi sẽ bị làn sóng toàn cầu hóa bỏ xa rồi lớn lên bị đào thải. Vì vậy, họ thúc con học thuộc từ vựng tiếng Anh."
+          },
+          {
+            "speaker": "Đoạn 2",
+            "chinese": "學英文當然很重要，英文的普遍性不用多說，英文學好，可以讀的書倍增，聽到的聲音也不會只限於母語世界，世界可能會因此更遼闊。如果擁有英文能力，就能自己主動去了解這世界正在如何轉動。",
+            "simplified": "学英文当然很重要，英文的普遍性不用多说，英文学好，可以读的书倍增，听到的声音也不会只限于母语世界，世界可能会因此更辽阔。如果拥有英文能力，就能自己主动去了解这世界正在如何转动。",
+            "pinyin": "xué yīng wén dāng rán hěn zhòng yào ， yīng wén de pǔ biàn xìng bù yòng duō shuō ， yīng wén xué hǎo ， kě yǐ dú de shū bèi zēng ， tīng dào de shēng yīn yě bù huì zhǐ xiàn yú mǔ yǔ shì jiè ， shì jiè kě néng huì yīn cǐ gèng liáo kuò 。 rú guǒ yōng yǒu yīng wén néng lì ， jiù néng zì jǐ zhǔ dòng qù liǎo jiě zhè shì jiè zhèng zài rú hé zhuǎn dòng 。",
+            "meaningVi": "Học tiếng Anh dĩ nhiên rất quan trọng; sự phổ biến của nó khỏi cần nói thêm. Giỏi tiếng Anh, ta đọc được nhiều sách hơn, nghe được nhiều tiếng nói ngoài thế giới tiếng mẹ đẻ, và thế giới có thể rộng mở hơn. Có khả năng tiếng Anh, ta cũng tự tìm hiểu thế giới đang vận hành ra sao."
+          },
+          {
+            "speaker": "Đoạn 3",
+            "chinese": "但是，外語，並不等同於英文。這世界上，還有許許多多的語言，影響力不見得比英文小。若有機會學習英文之外的外語，一定會發現不同的語言會有不同的境地與角度。",
+            "simplified": "但是，外语，并不等同于英文。这世界上，还有许许多多的语言，影响力不见得比英文小。若有机会学习英文之外的外语，一定会发现不同的语言会有不同的境地与角度。",
+            "pinyin": "dàn shì ， wài yǔ ， bìng bù děng tóng yú yīng wén 。 zhè shì jiè shàng ， hái yǒu xǔ xǔ duō duō de yǔ yán ， yǐng xiǎng lì bù jiàn dé bǐ yīng wén xiǎo 。 ruò yǒu jī huì xué xí yīng wén zhī wài de wài yǔ ， yí dìng huì fā xiàn bù tóng de yǔ yán huì yǒu bù tóng de jìng dì yǔ jiǎo dù 。",
+            "meaningVi": "Nhưng ngoại ngữ không chỉ có tiếng Anh. Thế giới còn rất nhiều ngôn ngữ khác, sức ảnh hưởng chưa chắc kém tiếng Anh. Nếu có cơ hội học thêm một ngoại ngữ khác, ta sẽ nhận ra mỗi ngôn ngữ mở ra một hoàn cảnh và góc nhìn riêng."
+          },
+          {
+            "speaker": "Đoạn 4",
+            "chinese": "台灣是個島國，政治位置孤立，對於「國際觀」，我們有一定的焦慮。我們努力申請舉辦國際賽事，全民學英文。島嶼四處都有英文標識，但拼音紊亂，錯誤百出。我們一直努力拼觀光，英文標識堆疊，但就算全島都有精良正確的英文標識，就會吸引大量的國際觀光客前來嗎？",
+            "simplified": "台湾是个岛国，政治位置孤立，对于「国际观」，我们有一定的焦虑。我们努力申请举办国际赛事，全民学英文。岛屿四处都有英文标识，但拼音紊乱，错误百出。我们一直努力拼观光，英文标识堆叠，但就算全岛都有精良正确的英文标识，就会吸引大量的国际观光客前来吗？",
+            "pinyin": "tái wān shì gè dǎo guó ， zhèng zhì wèi zhì gū lì ， duì yú 「 guó jì guān 」 ， wǒ men yǒu yí dìng de jiāo lǜ 。 wǒ men nǔ lì shēn qǐng jǔ bàn guó jì sài shì ， quán mín xué yīng wén 。 dǎo yǔ sì chù dōu yǒu yīng wén biāo shí ， dàn pīn yīn wěn luàn ， cuò wù bǎi chū 。 wǒ men yì zhí nǔ lì pīn guān guāng ， yīng wén biāo shí duī dié ， dàn jiù suàn quán dǎo dōu yǒu jīng liáng zhèng què de yīng wén biāo shí ， jiù huì xī yǐn dà liàng de guó jì guān guāng kè qián lái ma ？",
+            "meaningVi": "Đài Loan là một hòn đảo có vị thế chính trị cô lập, nên người dân có phần lo lắng về “tầm nhìn quốc tế”. Chúng ta cố xin đăng cai sự kiện quốc tế, khuyến khích toàn dân học tiếng Anh. Biển hiệu tiếng Anh có khắp đảo, nhưng cách phiên âm lộn xộn, lỗi sai rất nhiều. Chúng ta tiếp tục dựng thêm biển hiệu để thu hút du lịch; song dù mọi biển hiệu đều chính xác, liệu du khách quốc tế có vì thế mà kéo đến đông?"
+          },
+          {
+            "speaker": "Đoạn 5",
+            "chinese": "我記得我拜訪過的義大利海邊小鎮、法國南部的小山城、還有捷克湖邊小村，當地沒有任何英文標識，菜單沒有英文版本，居民說著自己當地的語言，但，卻還是有源源不絕的訪客前來。因為這些地方有驚人的人文景觀、文化底蘊深厚，他們根本不用急著「國際化」，照自己生活步調過日子，煮家傳的菜，唱奶奶教的歌。",
+            "simplified": "我记得我拜访过的义大利海边小镇、法国南部的小山城、还有捷克湖边小村，当地没有任何英文标识，菜单没有英文版本，居民说着自己当地的语言，但，却还是有源源不绝的访客前来。因为这些地方有惊人的人文景观、文化底蕴深厚，他们根本不用急着「国际化」，照自己生活步调过日子，煮家传的菜，唱奶奶教的歌。",
+            "pinyin": "wǒ jì dé wǒ bài fǎng guò de yì dà lì hǎi biān xiǎo zhèn 、 fǎ guó nán bù de xiǎo shān chéng 、 hái yǒu jié kè hú biān xiǎo cūn ， dāng dì méi yǒu rèn hé yīng wén biāo shí ， cài dān méi yǒu yīng wén bǎn běn ， jū mín shuō zhù zì jǐ dāng dì de yǔ yán ， dàn ， què hái shì yǒu yuán yuán bù jué de fǎng kè qián lái 。 yīn wèi zhè xiē dì fāng yǒu jīng rén de rén wén jǐng guān 、 wén huà dǐ yùn shēn hòu ， tā men gēn běn bù yòng jí zhù 「 guó jì huà 」 ， zhào zì jǐ shēng huó bù diào guò rì zi ， zhǔ jiā chuán de cài ， chàng nǎi nǎi jiào de gē 。",
+            "meaningVi": "Tôi nhớ những thị trấn ven biển ở Ý, phố núi miền nam nước Pháp và làng ven hồ ở Séc mình từng đến. Chẳng có biển hiệu hay thực đơn tiếng Anh; cư dân nói tiếng địa phương, vậy mà khách vẫn tới không ngớt. Những nơi ấy có cảnh quan văn hóa ấn tượng và nền văn hóa sâu dày. Họ không vội “quốc tế hóa”, cứ sống theo nhịp của mình, nấu món ăn gia truyền và hát bài bà dạy."
+          },
+          {
+            "speaker": "Đoạn 6",
+            "chinese": "其實不見得一定英文好才會有所謂的「國際觀」，我身邊就有幾位柏林或台灣朋友，真是沒天分學外文，學英文等於被抓去撞牆。但他們勤讀翻譯書籍，知曉世界。",
+            "simplified": "其实不见得一定英文好才会有所谓的「国际观」，我身边就有几位柏林或台湾朋友，真是没天分学外文，学英文等于被抓去撞墙。但他们勤读翻译书籍，知晓世界。",
+            "pinyin": "qí shí bù jiàn dé yí dìng yīng wén hǎo cái huì yǒu suǒ wèi de 「 guó jì guān 」 ， wǒ shēn biān jiù yǒu jǐ wèi bó lín huò tái wān péng yǒu ， zhēn shì méi tiān fèn xué wài wén ， xué yīng wén děng yú bèi zhuā qù zhuàng qiáng 。 dàn tā men qín dú fān yì shū jí ， zhī xiǎo shì jiè 。",
+            "meaningVi": "Thật ra, không nhất thiết giỏi tiếng Anh mới có “tầm nhìn quốc tế”. Tôi có vài người bạn ở Berlin và Đài Loan chẳng có năng khiếu ngoại ngữ, học tiếng Anh như bị bắt đâm đầu vào tường. Nhưng họ chăm đọc sách dịch nên vẫn hiểu thế giới."
+          },
+          {
+            "speaker": "Đoạn 7",
+            "chinese": "所以，勤奮學習但卻依然無法駕馭英文，其實不是悲劇。重點是好奇心沒被磨損攪碎，不懂沒關係，還可以翻字典或讀翻譯。不是英文考一百分，腦子就會長出「國際觀」區塊。「國際觀」是讓我們學習從他人的角度來看世界，於是我們不自大，因為耳朵裡不是只有自己的獨白。",
+            "simplified": "所以，勤奋学习但却依然无法驾驭英文，其实不是悲剧。重点是好奇心没被磨损搅碎，不懂没关系，还可以翻字典或读翻译。不是英文考一百分，脑子就会长出「国际观」区块。「国际观」是让我们学习从他人的角度来看世界，于是我们不自大，因为耳朵里不是只有自己的独白。",
+            "pinyin": "suǒ yǐ ， qín fèn xué xí dàn què yī rán wú fǎ jià yù yīng wén ， qí shí bú shì bēi jù 。 zhòng diǎn shì hào qí xīn méi bèi mó sǔn jiǎo suì ， bù dǒng méi guān xì ， hái kě yǐ fān zì diǎn huò dú fān yì 。 bú shì yīng wén kǎo yì bǎi fēn ， nǎo zi jiù huì zhǎng chū 「 guó jì guān 」 qū kuài 。 「 guó jì guān 」 shì ràng wǒ men xué xí cóng tā rén de jiǎo dù lái kàn shì jiè ， yú shì wǒ men bù zì dà ， yīn wèi ěr duǒ lǐ bú shì zhǐ yǒu zì jǐ de dú bái 。",
+            "meaningVi": "Vì vậy, học chăm mà vẫn không làm chủ được tiếng Anh cũng chẳng phải bi kịch. Điều quan trọng là giữ được lòng tò mò. Không hiểu thì còn có thể tra từ điển, đọc bản dịch. Đạt điểm tuyệt đối môn tiếng Anh không tự làm não mọc ra một vùng “tầm nhìn quốc tế”. Tầm nhìn ấy giúp ta học cách nhìn thế giới từ góc độ người khác; nhờ vậy bớt tự cao, vì tai ta không chỉ nghe tiếng độc thoại của mình."
+          },
+          {
+            "speaker": "Đoạn 8",
+            "chinese": "隔壁的水果攤依然每日上演語言戲碼，他繼續說著德文或者土耳其文，回答各國旅客。問他要不要學英文？他說：「英文不是問題，西瓜甜不甜才是問題！」",
+            "simplified": "隔壁的水果摊依然每日上演语言戏码，他继续说着德文或者土耳其文，回答各国旅客。问他要不要学英文？他说：「英文不是问题，西瓜甜不甜才是问题！」",
+            "pinyin": "gé bì de shuǐ guǒ tān yī rán měi rì shàng yǎn yǔ yán xì mǎ ， tā jì xù shuō zhù dé wén huò zhě tǔ ěr qí wén ， huí dá gè guó lǚ kè 。 wèn tā yào bù yào xué yīng wén ？ tā shuō ： 「 yīng wén bú shì wèn tí ， xī guā tián bù tián cái shì wèn tí ！ 」",
+            "meaningVi": "Quầy trái cây bên cạnh nhà tôi vẫn diễn ra đủ màn giao tiếp bằng ngôn ngữ mỗi ngày. Ông chủ tiếp tục dùng tiếng Đức hoặc tiếng Thổ Nhĩ Kỳ để trả lời khách nhiều nước. Hỏi có muốn học tiếng Anh không, ông đáp: “Tiếng Anh không phải vấn đề; vấn đề là dưa hấu có ngọt hay không!”"
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc6-v6-l05-check-01",
+        "prompt": "Vì sao người bán trái cây ở Berlin giao tiếp bằng tay chân?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ông không muốn bán trái cây"
+          },
+          {
+            "id": "b",
+            "text": "Quầy không có biển hiệu"
+          },
+          {
+            "id": "c",
+            "text": "Khách đến từ nhiều nước và không phải ai cũng nói cùng một tiếng"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Ông nói tiếng Đức, Thổ Nhĩ Kỳ; khách nhiều quốc tịch nên cử chỉ giúp mua bán.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc6-v6-l05-check-02",
+        "prompt": "Tác giả trả lời gì khi khách hỏi vì sao người bán không nói tiếng Anh?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Vì quầy đã đóng cửa"
+          },
+          {
+            "id": "b",
+            "text": "Vì ông chủ chỉ nói tiếng Pháp"
+          },
+          {
+            "id": "c",
+            "text": "Vì họ đang ở Đức, nơi người ta nói tiếng Đức"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Tác giả đáp: 因為你在德國。這裡，人們說德文.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc6-v6-l05-check-03",
+        "prompt": "Theo bài đọc 2, tầm nhìn quốc tế bắt đầu từ đâu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Chỉ học thuộc từ tiếng Anh"
+          },
+          {
+            "id": "b",
+            "text": "Dựng càng nhiều biển hiệu tiếng Anh càng tốt"
+          },
+          {
+            "id": "c",
+            "text": "Học nhìn thế giới từ góc độ người khác"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Bài viết định nghĩa 國際觀 là học nhìn thế giới 從他人的角度.",
+        "skill": "Đọc hiểu"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem phiên âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc6-v6-l05-v001",
+      "cc6-v6-l05-v002",
+      "cc6-v6-l05-v003",
+      "cc6-v6-l05-v004",
+      "cc6-v6-l05-v005",
+      "cc6-v6-l05-v006",
+      "cc6-v6-l05-v007",
+      "cc6-v6-l05-v008",
+      "cc6-v6-l05-v009",
+      "cc6-v6-l05-v010",
+      "cc6-v6-l05-v011",
+      "cc6-v6-l05-v012",
+      "cc6-v6-l05-v013",
+      "cc6-v6-l05-v014",
+      "cc6-v6-l05-v015",
+      "cc6-v6-l05-v016",
+      "cc6-v6-l05-v017",
+      "cc6-v6-l05-v018",
+      "cc6-v6-l05-v019",
+      "cc6-v6-l05-v020",
+      "cc6-v6-l05-v021",
+      "cc6-v6-l05-v022",
+      "cc6-v6-l05-v023",
+      "cc6-v6-l05-v024",
+      "cc6-v6-l05-v025",
+      "cc6-v6-l05-v026",
+      "cc6-v6-l05-v027",
+      "cc6-v6-l05-v028",
+      "cc6-v6-l05-v029",
+      "cc6-v6-l05-v030",
+      "cc6-v6-l05-v031",
+      "cc6-v6-l05-v032",
+      "cc6-v6-l05-v033",
+      "cc6-v6-l05-v034",
+      "cc6-v6-l05-v035",
+      "cc6-v6-l05-v036",
+      "cc6-v6-l05-v037",
+      "cc6-v6-l05-v038",
+      "cc6-v6-l05-v039",
+      "cc6-v6-l05-v040",
+      "cc6-v6-l05-v041",
+      "cc6-v6-l05-v042",
+      "cc6-v6-l05-v043",
+      "cc6-v6-l05-v044",
+      "cc6-v6-l05-v045",
+      "cc6-v6-l05-v046",
+      "cc6-v6-l05-v047",
+      "cc6-v6-l05-v048",
+      "cc6-v6-l05-v049",
+      "cc6-v6-l05-v050",
+      "cc6-v6-l05-v051",
+      "cc6-v6-l05-v052",
+      "cc6-v6-l05-v053",
+      "cc6-v6-l05-v054",
+      "cc6-v6-l05-v055",
+      "cc6-v6-l05-v056",
+      "cc6-v6-l05-v057",
+      "cc6-v6-l05-v058",
+      "cc6-v6-l05-v059",
+      "cc6-v6-l05-v060",
+      "cc6-v6-l05-v061",
+      "cc6-v6-l05-v062",
+      "cc6-v6-l05-v063",
+      "cc6-v6-l05-v064",
+      "cc6-v6-l05-v065",
+      "cc6-v6-l05-v066",
+      "cc6-v6-l05-v067",
+      "cc6-v6-l05-v068",
+      "cc6-v6-l05-v069",
+      "cc6-v6-l05-v070",
+      "cc6-v6-l05-v071",
+      "cc6-v6-l05-v072",
+      "cc6-v6-l05-v073",
+      "cc6-v6-l05-v074",
+      "cc6-v6-l05-v075",
+      "cc6-v6-l05-v076",
+      "cc6-v6-l05-v077",
+      "cc6-v6-l05-v078",
+      "cc6-v6-l05-v079",
+      "cc6-v6-l05-v080",
+      "cc6-v6-l05-v081",
+      "cc6-v6-l05-v082"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc6-textbook-l05-t03",
+        "label": "Từ vựng bài đọc 1"
+      },
+      {
+        "id": "cc6-textbook-l05-t06",
+        "label": "Từ vựng bài đọc 2"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc6-v6-l05-grammar-01",
+      "title": "面對X時",
+      "explanation": "Dùng để đặt bối cảnh: khi gặp một người, vấn đề hoặc tình huống X thì làm gì. X đứng sau 面對; 時 đánh dấu thời điểm, không phải một hành động chính.",
+      "structure": "面對 + người/sự việc X + 時，+ phản ứng",
+      "examples": [
+        {
+          "chinese": "面對外國旅客時，老闆用手勢溝通。",
+          "simplified": "面对外国旅客时，老板用手势沟通。",
+          "pinyin": "miàn duì wài guó lǚ kè shí ， lǎo bǎn yòng shǒu shì gōu tōng 。",
+          "meaningVi": "Khi gặp khách nước ngoài, người bán dùng cử chỉ để giao tiếp."
+        },
+        {
+          "chinese": "面對困難時，她會先冷靜下來。",
+          "simplified": "面对困难时，她会先冷静下来。",
+          "pinyin": "miàn duì kùn nán shí ， tā huì xiān lěng jìng xià lái 。",
+          "meaningVi": "Khi gặp khó khăn, cô sẽ bình tĩnh trước."
+        }
+      ],
+      "commonMistake": "Đừng bỏ 時 nếu muốn câu nêu rõ “khi...”; 面對X tự nó chỉ việc đối diện X.",
+      "check": {
+        "id": "cc6-v6-l05-grammar-check-01",
+        "prompt": "Điền: ____不同語言的客人時，他用手勢溝通。",
+        "options": [
+          {
+            "id": "a",
+            "text": "吸引"
+          },
+          {
+            "id": "b",
+            "text": "面對"
+          },
+          {
+            "id": "c",
+            "text": "身陷"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Dùng để đặt bối cảnh: khi gặp một người, vấn đề hoặc tình huống X thì làm gì.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l05-grammar-02",
+      "title": "身陷X裡",
+      "explanation": "Diễn tả một người đang mắc trong hoàn cảnh rắc rối hoặc bất lợi. X thường là mê cung, khó khăn, tranh chấp; không dùng cho nơi chốn trung tính.",
+      "structure": "chủ thể + 身陷 + tình huống X + 裡",
+      "examples": [
+        {
+          "chinese": "兩人身陷語言迷宮裡。",
+          "simplified": "两人身陷语言迷宫里。",
+          "pinyin": "liǎng rén shēn xiàn yǔ yán mí gōng lǐ 。",
+          "meaningVi": "Hai người mắc kẹt trong mê cung ngôn ngữ."
+        },
+        {
+          "chinese": "他身陷困境，仍努力尋找辦法。",
+          "simplified": "他身陷困境，仍努力寻找办法。",
+          "pinyin": "tā shēn xiàn kùn jìng ， réng nǔ lì xún zhǎo bàn fǎ 。",
+          "meaningVi": "Anh mắc khó khăn nhưng vẫn tìm cách giải quyết."
+        }
+      ],
+      "commonMistake": "身陷 mang sắc thái khó thoát ra; với một địa điểm bình thường dùng 在.",
+      "check": {
+        "id": "cc6-v6-l05-grammar-check-02",
+        "prompt": "Điền: 兩人____語言迷宮裡，無法完成買賣。",
+        "options": [
+          {
+            "id": "a",
+            "text": "身陷"
+          },
+          {
+            "id": "b",
+            "text": "前來"
+          },
+          {
+            "id": "c",
+            "text": "倍增"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Diễn tả một người đang mắc trong hoàn cảnh rắc rối hoặc bất lợi.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l05-grammar-03",
+      "title": "向X道謝／致謝",
+      "explanation": "Nói lời cảm ơn với X; người nhận lời cảm ơn đứng sau 向. 道謝 thường dùng trong giao tiếp, 致謝 trang trọng hơn.",
+      "structure": "chủ thể + 向 + người X + 道謝/致謝",
+      "examples": [
+        {
+          "chinese": "客人向幫忙口譯的人道謝。",
+          "simplified": "客人向帮忙口译的人道谢。",
+          "pinyin": "kè rén xiàng bāng máng kǒu yì de rén dào xiè 。",
+          "meaningVi": "Khách cảm ơn người đã phiên dịch giúp."
+        },
+        {
+          "chinese": "主辦單位向所有志工致謝。",
+          "simplified": "主办单位向所有志工致谢。",
+          "pinyin": "zhǔ bàn dān wèi xiàng suǒ yǒu zhì gōng zhì xiè 。",
+          "meaningVi": "Ban tổ chức cảm ơn tất cả tình nguyện viên."
+        }
+      ],
+      "commonMistake": "向 đi với người nhận lời cảm ơn, không đi với lý do được cảm ơn.",
+      "check": {
+        "id": "cc6-v6-l05-grammar-check-03",
+        "prompt": "Điền: 客人____幫忙口譯的作者道謝。",
+        "options": [
+          {
+            "id": "a",
+            "text": "被"
+          },
+          {
+            "id": "b",
+            "text": "跟"
+          },
+          {
+            "id": "c",
+            "text": "向"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Nói lời cảm ơn với X; người nhận lời cảm ơn đứng sau 向.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l05-grammar-04",
+      "title": "培養出",
+      "explanation": "Nhấn mạnh kết quả hình thành sau quá trình đào tạo hoặc nuôi dưỡng. 出 làm rõ đã tạo ra người, khả năng hay thói quen nào.",
+      "structure": "chủ thể + 培養出 + kết quả",
+      "examples": [
+        {
+          "chinese": "學校培養出許多懂得尊重不同文化的人。",
+          "simplified": "学校培养出许多懂得尊重不同文化的人。",
+          "pinyin": "xué xiào péi yǎng chū xǔ duō dǒng de zūn zhòng bù tóng wén huà de rén 。",
+          "meaningVi": "Nhà trường đào tạo nhiều người biết tôn trọng các nền văn hóa."
+        },
+        {
+          "chinese": "每天閱讀能培養出好習慣。",
+          "simplified": "每天阅读能培养出好习惯。",
+          "pinyin": "měi tiān yuè dú néng péi yǎng chū hǎo xí guàn 。",
+          "meaningVi": "Đọc mỗi ngày giúp hình thành thói quen tốt."
+        }
+      ],
+      "commonMistake": "Không dùng 出 nếu chỉ nói quá trình đang diễn ra mà chưa nêu kết quả.",
+      "check": {
+        "id": "cc6-v6-l05-grammar-check-04",
+        "prompt": "Điền: 課程希望____有國際觀的學生。",
+        "options": [
+          {
+            "id": "a",
+            "text": "身陷"
+          },
+          {
+            "id": "b",
+            "text": "接軌"
+          },
+          {
+            "id": "c",
+            "text": "培養出"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Nhấn mạnh kết quả hình thành sau quá trình đào tạo hoặc nuôi dưỡng.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l05-grammar-05",
+      "title": "主要是",
+      "explanation": "Nêu nguyên nhân hoặc phần quan trọng nhất. Nếu giải thích nguyên nhân, có thể nối 因為 sau 主要是; đừng hiểu là nguyên nhân duy nhất.",
+      "structure": "chủ đề + 主要是 + điểm chính / nguyên nhân",
+      "examples": [
+        {
+          "chinese": "這些標識主要是給本地人看的。",
+          "simplified": "这些标识主要是给本地人看的。",
+          "pinyin": "zhè xiē biāo shí zhǔ yào shì gěi běn dì rén kàn de 。",
+          "meaningVi": "Những biển hiệu này chủ yếu dành cho người địa phương."
+        },
+        {
+          "chinese": "這裡吸引訪客，主要是因為文化底蘊深厚。",
+          "simplified": "这里吸引访客，主要是因为文化底蕴深厚。",
+          "pinyin": "zhè lǐ xī yǐn fǎng kè ， zhǔ yào shì yīn wèi wén huà dǐ yùn shēn hòu 。",
+          "meaningVi": "Nơi này thu hút khách chủ yếu vì văn hóa sâu dày."
+        }
+      ],
+      "commonMistake": "主要是 chỉ điểm chính, không loại trừ hoàn toàn các nguyên nhân khác.",
+      "check": {
+        "id": "cc6-v6-l05-grammar-check-05",
+        "prompt": "Điền: 這些標識____給本地人看的。",
+        "options": [
+          {
+            "id": "a",
+            "text": "身陷"
+          },
+          {
+            "id": "b",
+            "text": "主要是"
+          },
+          {
+            "id": "c",
+            "text": "被"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Nêu nguyên nhân hoặc phần quan trọng nhất.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l05-grammar-06",
+      "title": "跟X接軌",
+      "explanation": "Nói về việc kết nối hoặc hòa nhịp với hệ thống, thời đại hay thế giới X. X đứng sau 跟; không phải sự tiếp xúc vật lý giữa hai đường ray trong ngữ cảnh này.",
+      "structure": "chủ thể + 跟 + lĩnh vực X + 接軌",
+      "examples": [
+        {
+          "chinese": "學外語能幫助我們跟世界接軌。",
+          "simplified": "学外语能帮助我们跟世界接轨。",
+          "pinyin": "xué wài yǔ néng bāng zhù wǒ men gēn shì jiè jiē guǐ 。",
+          "meaningVi": "Học ngoại ngữ giúp ta kết nối với thế giới."
+        },
+        {
+          "chinese": "新制度需要跟國際標準接軌。",
+          "simplified": "新制度需要跟国际标准接轨。",
+          "pinyin": "xīn zhì dù xū yào gēn guó jì biāo zhǔn jiē guǐ 。",
+          "meaningVi": "Hệ thống mới cần phù hợp chuẩn quốc tế."
+        }
+      ],
+      "commonMistake": "Trong bài đọc, 接軌 không đồng nghĩa chỉ dùng tiếng Anh; đó là tiếp xúc và hiểu thế giới.",
+      "check": {
+        "id": "cc6-v6-l05-grammar-check-06",
+        "prompt": "Điền: 學外語可以讓我們____世界接軌。",
+        "options": [
+          {
+            "id": "a",
+            "text": "跟"
+          },
+          {
+            "id": "b",
+            "text": "被"
+          },
+          {
+            "id": "c",
+            "text": "向"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Nói về việc kết nối hoặc hòa nhịp với hệ thống, thời đại hay thế giới X.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l05-grammar-07",
+      "title": "被X（給）拋在後面",
+      "explanation": "Câu bị động chỉ người/vật bị X bỏ lại phía sau. 給 có thể thêm trong khẩu ngữ để nhấn mạnh; 後 hoặc 後面 đều được.",
+      "structure": "người bị tác động + 被 + tác nhân X + (給)拋在後(面)",
+      "examples": [
+        {
+          "chinese": "家長怕孩子被全球化浪潮給拋在後面。",
+          "simplified": "家长怕孩子被全球化浪潮给抛在后面。",
+          "pinyin": "jiā zhǎng pà hái zi bèi quán qiú huà làng cháo gěi pāo zài hòu miàn 。",
+          "meaningVi": "Cha mẹ sợ con bị làn sóng toàn cầu hóa bỏ lại."
+        },
+        {
+          "chinese": "跟不上變化的人可能被時代拋在後面。",
+          "simplified": "跟不上变化的人可能被时代抛在后面。",
+          "pinyin": "gēn bù shàng biàn huà de rén kě néng bèi shí dài pāo zài hòu miàn 。",
+          "meaningVi": "Người không theo kịp thay đổi có thể bị thời đại bỏ lại."
+        }
+      ],
+      "commonMistake": "Cần đặt người bị tác động trước 被 và tác nhân sau 被.",
+      "check": {
+        "id": "cc6-v6-l05-grammar-check-07",
+        "prompt": "Điền: 孩子怕____時代拋在後面。",
+        "options": [
+          {
+            "id": "a",
+            "text": "向"
+          },
+          {
+            "id": "b",
+            "text": "跟"
+          },
+          {
+            "id": "c",
+            "text": "被"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Câu bị động chỉ người/vật bị X bỏ lại phía sau.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l05-grammar-08",
+      "title": "倍增",
+      "explanation": "Nói số lượng hoặc mức độ tăng lên nhiều lần. Thường đứng sau thứ được tăng, không mang nghĩa chỉ tăng nhẹ.",
+      "structure": "đối tượng + 倍增",
+      "examples": [
+        {
+          "chinese": "學好英文，可讀的書會倍增。",
+          "simplified": "学好英文，可读的书会倍增。",
+          "pinyin": "xué hǎo yīng wén ， kě dú de shū huì bèi zēng 。",
+          "meaningVi": "Giỏi tiếng Anh, số sách có thể đọc tăng lên nhiều lần."
+        },
+        {
+          "chinese": "旅客人數在假期倍增。",
+          "simplified": "旅客人数在假期倍增。",
+          "pinyin": "lǚ kè rén shù zài jià qī bèi zēng 。",
+          "meaningVi": "Số du khách tăng mạnh trong kỳ nghỉ."
+        }
+      ],
+      "commonMistake": "Nếu chỉ tăng một chút, dùng 增加; 倍增 nhấn mạnh mức tăng lớn.",
+      "check": {
+        "id": "cc6-v6-l05-grammar-check-08",
+        "prompt": "Điền: 學會外語後，可讀的書會____。",
+        "options": [
+          {
+            "id": "a",
+            "text": "倍增"
+          },
+          {
+            "id": "b",
+            "text": "身陷"
+          },
+          {
+            "id": "c",
+            "text": "道謝"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Nói số lượng hoặc mức độ tăng lên nhiều lần.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l05-grammar-09",
+      "title": "有一定的X",
+      "explanation": "Nói có X ở mức đáng kể, dù chưa xác định chính xác bao nhiêu. X là danh từ trừu tượng như 影響、焦慮、能力.",
+      "structure": "chủ thể + 有一定的 + danh từ trừu tượng X",
+      "examples": [
+        {
+          "chinese": "對於國際觀，我們有一定的焦慮。",
+          "simplified": "对于国际观，我们有一定的焦虑。",
+          "pinyin": "duì yú guó jì guān ， wǒ men yǒu yí dìng de jiāo lǜ 。",
+          "meaningVi": "Chúng ta có phần lo lắng về tầm nhìn quốc tế."
+        },
+        {
+          "chinese": "她的建議對大家有一定的幫助。",
+          "simplified": "她的建议对大家有一定的帮助。",
+          "pinyin": "tā de jiàn yì duì dà jiā yǒu yí dìng de bāng zhù 。",
+          "meaningVi": "Gợi ý của cô có ích ở một mức độ nhất định."
+        }
+      ],
+      "commonMistake": "Không dùng 一定的 như khẳng định tuyệt đối “chắc chắn”; ở đây là mức độ.",
+      "check": {
+        "id": "cc6-v6-l05-grammar-check-09",
+        "prompt": "Điền: 這項改變對居民____影響。",
+        "options": [
+          {
+            "id": "a",
+            "text": "身陷"
+          },
+          {
+            "id": "b",
+            "text": "有一定的"
+          },
+          {
+            "id": "c",
+            "text": "被"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Nói có X ở mức đáng kể, dù chưa xác định chính xác bao nhiêu.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l05-grammar-10",
+      "title": "吸引X前來",
+      "explanation": "Diễn tả một thứ có sức hút làm X đến địa điểm hoặc sự kiện. X là người/nhóm người; 前來 nói hướng đến nơi đang được nhắc.",
+      "structure": "đặc điểm/sự kiện + 吸引 + người X + 前來",
+      "examples": [
+        {
+          "chinese": "文化景觀吸引許多訪客前來。",
+          "simplified": "文化景观吸引许多访客前来。",
+          "pinyin": "wén huà jǐng guān xī yǐn xǔ duō fǎng kè qián lái 。",
+          "meaningVi": "Cảnh quan văn hóa thu hút nhiều khách đến."
+        },
+        {
+          "chinese": "音樂節吸引各地的觀眾前來。",
+          "simplified": "音乐节吸引各地的观众前来。",
+          "pinyin": "yīn lè jié xī yǐn gè dì de guān zhòng qián lái 。",
+          "meaningVi": "Lễ hội âm nhạc thu hút khán giả từ nhiều nơi."
+        }
+      ],
+      "commonMistake": "Không hiểu 前來 là “đến trước” về thời gian; nó chỉ hướng người đến.",
+      "check": {
+        "id": "cc6-v6-l05-grammar-check-10",
+        "prompt": "Điền: 這座小鎮的文化____訪客前來。",
+        "options": [
+          {
+            "id": "a",
+            "text": "倍增"
+          },
+          {
+            "id": "b",
+            "text": "吸引"
+          },
+          {
+            "id": "c",
+            "text": "身陷"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Diễn tả một thứ có sức hút làm X đến địa điểm hoặc sự kiện.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l05-grammar-11",
+      "title": "從X的角度來看",
+      "explanation": "Đặt góc nhìn X làm điểm xuất phát để đưa ra nhận xét. X có thể là một người, nhóm người hoặc phương diện đánh giá.",
+      "structure": "從 + X + 的角度來看，+ nhận xét",
+      "examples": [
+        {
+          "chinese": "從當地人的角度來看，標識主要給居民使用。",
+          "simplified": "从当地人的角度来看，标识主要给居民使用。",
+          "pinyin": "cóng dāng dì rén de jiǎo dù lái kàn ， biāo shí zhǔ yào gěi jū mín shǐ yòng 。",
+          "meaningVi": "Từ góc nhìn dân địa phương, biển hiệu chủ yếu phục vụ cư dân."
+        },
+        {
+          "chinese": "從旅客的角度來看，清楚的地圖很重要。",
+          "simplified": "从旅客的角度来看，清楚的地图很重要。",
+          "pinyin": "cóng lǚ kè de jiǎo dù lái kàn ， qīng chǔ de dì tú hěn zhòng yào 。",
+          "meaningVi": "Từ góc nhìn du khách, bản đồ rõ ràng rất quan trọng."
+        }
+      ],
+      "commonMistake": "Sau 來看 cần có nhận xét; riêng cụm này chưa diễn đạt kết luận.",
+      "check": {
+        "id": "cc6-v6-l05-grammar-check-11",
+        "prompt": "Điền: ____當地人的角度來看，德文標識很自然。",
+        "options": [
+          {
+            "id": "a",
+            "text": "從"
+          },
+          {
+            "id": "b",
+            "text": "被"
+          },
+          {
+            "id": "c",
+            "text": "向"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Đặt góc nhìn X làm điểm xuất phát để đưa ra nhận xét.",
+        "skill": "Ngữ pháp"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc6-v6-l05-listening-01",
+      "prompt": "Nghe bài đọc 1: người bán trái cây nói những tiếng nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tiếng Đức và tiếng Thổ Nhĩ Kỳ"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ tiếng Anh"
+        },
+        {
+          "id": "c",
+          "text": "Tiếng Pháp và tiếng Tây Ban Nha"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Đầu bài ghi老闆說德文與土耳其文，但不說英文.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l05-t02"
+    },
+    {
+      "id": "cc6-v6-l05-listening-02",
+      "prompt": "Nghe bài đọc 1: người khách cảm thấy lạ vì điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Người bán ở Đức không nói tiếng Anh"
+        },
+        {
+          "id": "b",
+          "text": "Quầy không bán xoài xanh"
+        },
+        {
+          "id": "c",
+          "text": "Tác giả không biết tiếng Đức"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Khách hỏi: 為什麼他們都不會說英文呢？",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l05-t02"
+    },
+    {
+      "id": "cc6-v6-l05-listening-03",
+      "prompt": "Nghe bài đọc 2: vì sao phụ huynh thúc con học tiếng Anh?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Họ sợ con bị làn sóng toàn cầu hóa bỏ lại"
+        },
+        {
+          "id": "b",
+          "text": "Họ muốn con bán trái cây"
+        },
+        {
+          "id": "c",
+          "text": "Họ không muốn con đọc sách"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc nói家長擔心孩子被全球化浪潮拋在後.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l05-t05"
+    },
+    {
+      "id": "cc6-v6-l05-listening-04",
+      "prompt": "Nghe bài đọc 2: người bán kết lại bằng câu hỏi về điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Biển hiệu có đúng chính tả không"
+        },
+        {
+          "id": "b",
+          "text": "Dưa hấu có ngọt hay không"
+        },
+        {
+          "id": "c",
+          "text": "Ông nên đi nước nào"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Câu cuối: 西瓜甜不甜才是問題！",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l05-t05"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc6-v6-l05-practice-01",
+      "prompt": "Điền: ____不同國籍的旅客時，他用手勢溝通。",
+      "options": [
+        {
+          "id": "a",
+          "text": "面對"
+        },
+        {
+          "id": "b",
+          "text": "身陷"
+        },
+        {
+          "id": "c",
+          "text": "向"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "面對X時 nêu tình huống xảy ra trước phản ứng.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l05-practice-02",
+      "prompt": "Vì sao tác giả cho rằng lời đòi hỏi của người khách thiếu hợp lý?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bản thân khách nói tiếng Anh chưa tốt mà lại bắt người bán ở Đức phải nói"
+        },
+        {
+          "id": "b",
+          "text": "Khách muốn mua xoài xanh"
+        },
+        {
+          "id": "c",
+          "text": "Người bán đã tính sai tiền"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc đối chiếu tiếng Anh của khách với yêu cầu áp lên người bán.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l05-practice-03",
+      "prompt": "Điền: 他向幫忙口譯的人____。",
+      "options": [
+        {
+          "id": "a",
+          "text": "道謝"
+        },
+        {
+          "id": "b",
+          "text": "淘汰"
+        },
+        {
+          "id": "c",
+          "text": "倍增"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "向X道謝 là cảm ơn người X.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l05-practice-04",
+      "prompt": "Trong bài đọc 1, biển hiệu ở Berlin chủ yếu dành cho ai?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ hiệu trưởng đại học"
+        },
+        {
+          "id": "b",
+          "text": "Người địa phương"
+        },
+        {
+          "id": "c",
+          "text": "Chỉ khách nói tiếng Anh"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Tác giả nói標識其實主要是給本地人看的.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l05-practice-05",
+      "prompt": "Điền: 孩子怕被浪潮給____在後。",
+      "options": [
+        {
+          "id": "a",
+          "text": "倍增"
+        },
+        {
+          "id": "b",
+          "text": "拋"
+        },
+        {
+          "id": "c",
+          "text": "向"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "被X給拋在後 diễn tả bị bỏ lại.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l05-practice-06",
+      "prompt": "Tác giả có cho rằng tiếng Anh vô ích không?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Không, tiếng Anh hữu ích nhưng không phải ngoại ngữ duy nhất"
+        },
+        {
+          "id": "b",
+          "text": "Có, tác giả phản đối học tiếng Anh"
+        },
+        {
+          "id": "c",
+          "text": "Có, vì tất cả sách đều đã được dịch"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc 2 công nhận tiếng Anh quan trọng rồi phân biệt ngoại ngữ với chỉ riêng tiếng Anh.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l05-practice-07",
+      "prompt": "Điền: 這些標識____給本地人看的。",
+      "options": [
+        {
+          "id": "a",
+          "text": "身陷"
+        },
+        {
+          "id": "b",
+          "text": "主要是"
+        },
+        {
+          "id": "c",
+          "text": "接軌"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "主要是 nêu phần quan trọng nhất.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l05-practice-08",
+      "prompt": "Vì sao các thị trấn nhỏ vẫn có khách dù không có biển hiệu tiếng Anh?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vì cảnh quan và nền văn hóa địa phương hấp dẫn"
+        },
+        {
+          "id": "b",
+          "text": "Vì mọi cư dân đều biết tiếng Anh"
+        },
+        {
+          "id": "c",
+          "text": "Vì họ không có thực đơn"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc nhắc 人文景觀 và 文化底蘊深厚.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc6-v6-l05-assessment-01",
+      "prompt": "Quầy trái cây ở Berlin “quốc tế” theo nghĩa nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ bán trái cây nhập khẩu"
+        },
+        {
+          "id": "b",
+          "text": "Chủ quầy có bằng ngoại ngữ"
+        },
+        {
+          "id": "c",
+          "text": "Khách từ nhiều nước dùng nhiều tiếng và cử chỉ để mua bán"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Tác giả kể nhiều ngôn ngữ xuất hiện mỗi ngày ở quầy.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l05-assessment-02",
+      "prompt": "Điền: 老闆一直用德文____客人。",
+      "options": [
+        {
+          "id": "a",
+          "text": "淘汰"
+        },
+        {
+          "id": "b",
+          "text": "倍增"
+        },
+        {
+          "id": "c",
+          "text": "回覆"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "回覆 là trả lời.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc6-v6-l05-assessment-03",
+      "prompt": "Bài đọc 1 phê phán điều gì trong cách nhìn về tiếng Anh?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tôn trọng tiếng mẹ đẻ các nước"
+        },
+        {
+          "id": "b",
+          "text": "Nhờ người khác phiên dịch khi cần"
+        },
+        {
+          "id": "c",
+          "text": "Xem tiếng Anh là ngoại ngữ hợp lý duy nhất ở mọi nơi"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Vị hiệu trưởng chỉ lấy tiếng Anh làm trung tâm dù đang ở Đức.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l05-assessment-04",
+      "prompt": "Điền: 學外語可以幫助我們____世界接軌。",
+      "options": [
+        {
+          "id": "a",
+          "text": "被"
+        },
+        {
+          "id": "b",
+          "text": "向"
+        },
+        {
+          "id": "c",
+          "text": "跟"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "跟X接軌 nghĩa là kết nối, hòa nhịp với X.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l05-assessment-05",
+      "prompt": "Tiếng Anh có ích như thế nào theo bài đọc 2?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Giúp đọc nhiều sách và tiếp cận tiếng nói ngoài tiếng mẹ đẻ"
+        },
+        {
+          "id": "b",
+          "text": "Bảo đảm ai cũng có tầm nhìn quốc tế"
+        },
+        {
+          "id": "c",
+          "text": "Thay thế mọi ngôn ngữ khác"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Tác giả ghi sách đọc được tăng và thế giới mở rộng.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l05-assessment-06",
+      "prompt": "Điền: 學好英文後，可讀的書會____。",
+      "options": [
+        {
+          "id": "a",
+          "text": "身陷"
+        },
+        {
+          "id": "b",
+          "text": "道謝"
+        },
+        {
+          "id": "c",
+          "text": "倍增"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "倍增 là tăng lên nhiều lần.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l05-assessment-07",
+      "prompt": "Tại sao tác giả nhắc đến các thị trấn ở Ý, Pháp và Séc?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Để cho thấy văn hóa địa phương vẫn hút khách khi không dùng tiếng Anh"
+        },
+        {
+          "id": "b",
+          "text": "Để nói các nơi ấy không có du khách"
+        },
+        {
+          "id": "c",
+          "text": "Để khuyên bỏ biển hiệu tiếng địa phương"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Những nơi đó không có biển hiệu tiếng Anh nhưng khách vẫn tới đều.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l05-assessment-08",
+      "prompt": "Điền: 文化景觀____許多訪客前來。",
+      "options": [
+        {
+          "id": "a",
+          "text": "身陷"
+        },
+        {
+          "id": "b",
+          "text": "回覆"
+        },
+        {
+          "id": "c",
+          "text": "吸引"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "吸引X前來 là thu hút X đến.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l05-assessment-09",
+      "prompt": "Theo tác giả, điều gì quan trọng hơn điểm tiếng Anh tuyệt đối?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ đọc biển hiệu tiếng Anh"
+        },
+        {
+          "id": "b",
+          "text": "Giữ lòng tò mò và biết nhìn từ góc độ người khác"
+        },
+        {
+          "id": "c",
+          "text": "Chỉ học thuộc thêm từ vựng"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nói好奇心 và 從他人的角度來看世界.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l05-assessment-10",
+      "prompt": "Câu cuối của người bán trái cây nhấn mạnh điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ông muốn bỏ việc học tiếng Đức"
+        },
+        {
+          "id": "b",
+          "text": "Ông sẽ bán quầy để đi học tiếng Anh"
+        },
+        {
+          "id": "c",
+          "text": "Công việc và chất lượng trái cây mới là điều ông quan tâm"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Ông nói 西瓜甜不甜才是問題.",
+      "skill": "Tổng hợp"
+    }
+  ],
+  "writingTask": {
+    "id": "cc6-v6-l05-writing",
+    "title": "Viết ngắn: học ngoại ngữ để hiểu thế giới",
+    "prompt": "Viết 4–5 câu tiếng Hoa về vai trò của ngoại ngữ. Nêu một lợi ích của tiếng Anh và một lý do nên tìm hiểu các ngôn ngữ, văn hóa khác."
+  }
+}

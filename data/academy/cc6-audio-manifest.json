@@ -763,9 +763,16 @@
       "privatePath": "textbook/05-01.mp3",
       "bytes": 1437814,
       "sha256": "841daa36602a55e779b5e24f44e7a74cc1d44dcc655b2e71dca09159162c6acf",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        124
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 124,
+        "bookPage": 101,
+        "labelVi": "Tóm tắt và mở đầu Bài 05",
+        "referenceCode": "05-01"
+      }
     },
     {
       "id": "cc6-textbook-l05-t02",
@@ -778,9 +785,16 @@
       "privatePath": "textbook/05-02.mp3",
       "bytes": 4070539,
       "sha256": "9b7a392fb7df61529e4cede8c69772e221d288cc725daefb07e1a546f3f2738e",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        125
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 125,
+        "bookPage": 102,
+        "labelVi": "Bài đọc 1: 在歐洲，英文不等於「國際共通語言」（I）",
+        "referenceCode": "05-02"
+      }
     },
     {
       "id": "cc6-textbook-l05-t03",
@@ -793,9 +807,16 @@
       "privatePath": "textbook/05-03.mp3",
       "bytes": 3121354,
       "sha256": "399936c84ff89e5c4fdafa779122211ccfd801bd02b8dd1ce5545d7d0dfb9580",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        126
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 126,
+        "bookPage": 103,
+        "labelVi": "Từ vựng tóm tắt và bài đọc 1",
+        "referenceCode": "05-03"
+      }
     },
     {
       "id": "cc6-textbook-l05-t04",
@@ -808,9 +829,16 @@
       "privatePath": "textbook/05-04.mp3",
       "bytes": 2720531,
       "sha256": "f57e650b8663eb74463acc1046deba5a1328882bb976b1f4ebfa5068043d2dad",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        133
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 133,
+        "bookPage": 110,
+        "labelVi": "Phân biệt từ dễ nhầm bài đọc 1",
+        "referenceCode": "05-04"
+      }
     },
     {
       "id": "cc6-textbook-l05-t05",
@@ -823,9 +851,16 @@
       "privatePath": "textbook/05-05.mp3",
       "bytes": 4463421,
       "sha256": "6b6d4dfab652faf3b608a6bf9453ac3022c1a0a0a2c852f08d7ae05b52628e78",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        135
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 135,
+        "bookPage": 112,
+        "labelVi": "Bài đọc 2: 在歐洲，英文不等於「國際共通語言」（II）",
+        "referenceCode": "05-05"
+      }
     },
     {
       "id": "cc6-textbook-l05-t06",
@@ -838,9 +873,16 @@
       "privatePath": "textbook/05-06.mp3",
       "bytes": 3880368,
       "sha256": "0c8aefb3e0631ee240af81426f22c7260ae45cf984f78843621a8338aa798330",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        136
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 136,
+        "bookPage": 113,
+        "labelVi": "Từ vựng bài đọc 2",
+        "referenceCode": "05-06"
+      }
     },
     {
       "id": "cc6-textbook-l05-t07",
@@ -853,9 +895,16 @@
       "privatePath": "textbook/05-07.mp3",
       "bytes": 1916795,
       "sha256": "69c575c17e6ff9c7e35df94f5c743f09cb4406cb88ccebe8349406ff39ce5cf1",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        143
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 143,
+        "bookPage": 120,
+        "labelVi": "Phân biệt từ dễ nhầm bài đọc 2",
+        "referenceCode": "05-07"
+      }
     },
     {
       "id": "cc6-textbook-l06-t01",

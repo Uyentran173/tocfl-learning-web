@@ -1,0 +1,1267 @@
+{
+  "contentVersion": 2,
+  "id": "cc6-v6-l04",
+  "title": "做人心法",
+  "titleVi": "Bí quyết ứng xử",
+  "description": "Học bốn thói quen giúp tạo quan hệ gần gũi hơn: nhớ tên, lắng nghe, khen đúng và giữ sự nhiệt tình.",
+  "objectives": [
+    "Giải thích được bốn lời khuyên giao tiếp của bài đọc.",
+    "Phân biệt lời khen chân thành với lời khen có dụng ý.",
+    "Dùng đúng các mẫu 不妨、以致於、發自、以此來 và 藉著X的累積."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Hai bài đọc chính trình bày bốn thói quen giao tiếp của Hắc Ấu Long. Bài bổ sung kể một tình huống tuyển dụng cho thấy sự nhiệt tình và trung thành có thể tạo cơ hội.",
+    "sections": [
+      {
+        "id": "cc6-v6-l04-section-01",
+        "title": "Bắt đầu bằng sự quan tâm",
+        "body": "Nhớ tên và hỏi về điều người kia thích giúp họ có cơ hội chia sẻ.",
+        "chinese": "要踏出關心的第一步，就先從記得別人的名字開始。",
+        "simplified": "要踏出关心的第一步，就先从记得别人的名字开始。",
+        "pinyin": "yào tà chū guān xīn de dì yī bù ， jiù xiān cóng jì dé bié rén de míng zì kāi shǐ 。",
+        "meaningVi": "Bước đầu để quan tâm người khác là nhớ tên họ."
+      },
+      {
+        "id": "cc6-v6-l04-section-02",
+        "title": "Khen có chứng cứ",
+        "body": "Lời khen cụ thể và xuất phát từ lòng mình có sức nặng; lời khen để nhờ vả có thể phản tác dụng.",
+        "chinese": "讚美必須發自內心。",
+        "simplified": "赞美必须发自内心。",
+        "pinyin": "zàn měi bì xū fā zì nèi xīn 。",
+        "meaningVi": "Lời khen phải xuất phát từ lòng mình."
+      },
+      {
+        "id": "cc6-v6-l04-section-03",
+        "title": "Thái độ tạo cơ hội",
+        "body": "Bài đọc bổ sung cho thấy cách chào hỏi và giữ trách nhiệm với công việc cũ được người tuyển dụng trân trọng.",
+        "chinese": "一個熱情而忠誠的人，值得等候。",
+        "simplified": "一个热情而忠诚的人，值得等候。",
+        "pinyin": "yī gè rè qíng ér zhōng chéng de rén ， zhí de děng hòu 。",
+        "meaningVi": "Một người nhiệt tình và trung thành đáng để chờ đợi."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc6-v6-l04-reading1",
+        "title": "課文一 · 黑幼龍傳授4大獨門做人心法（I）",
+        "context": "Nhớ tên và bàn về điều người kia quan tâm.",
+        "audioTrackId": "cc6-textbook-l04-t02",
+        "turns": [
+          {
+            "speaker": "Đoạn 1",
+            "chinese": "與人拉近距離的技巧是可以培養的，人際溝通專家黑幼龍與你分享他的祕訣。寫過許多有關溝通、銷售、人際關係暢銷書，對於做人，黑幼龍謙稱自己還在學習，並抱持著「努力，是不夠的；練習，才能成功」的哲學。至於，要如何學做人，他提供4個小習慣，供讀者練習：",
+            "simplified": "与人拉近距离的技巧是可以培养的，人际沟通专家黑幼龙与你分享他的秘诀。写过许多有关沟通、销售、人际关系畅销书，对于做人，黑幼龙谦称自己还在学习，并抱持着「努力，是不够的；练习，才能成功」的哲学。至于，要如何学做人，他提供4个小习惯，供读者练习：",
+            "pinyin": "yǔ rén lā jìn jù lí de jì qiǎo shì kě yǐ péi yǎng de ， rén jì gōu tōng zhuān jiā hēi yòu lóng yǔ nǐ fēn xiǎng tā de mì jué 。 xiě guò xǔ duō yǒu guān gōu tōng 、 xiāo shòu 、 rén jì guān xì chàng xiāo shū ， duì yú zuò rén ， hēi yòu lóng qiān chēng zì jǐ hái zài xué xí ， bìng bào chí zhù 「 nǔ lì ， shì bù gòu de ； liàn xí ， cái néng chéng gōng 」 de zhé xué 。 zhì yú ， yào rú hé xué zuò rén ， tā tí gōng 4 gè xiǎo xí guàn ， gōng dú zhě liàn xí ：",
+            "meaningVi": "Kỹ năng tạo sự gần gũi với người khác có thể rèn luyện. Chuyên gia giao tiếp Hắc Ấu Long chia sẻ những cách ông đã học được. Dù viết nhiều sách bán chạy về giao tiếp, bán hàng và quan hệ giữa người với người, ông vẫn khiêm tốn nói mình còn đang học cách ứng xử. Ông tin rằng chỉ nỗ lực thôi chưa đủ; phải luyện tập mới thành công. Ông đề nghị bốn thói quen nhỏ để thực hành."
+          },
+          {
+            "speaker": "Đoạn 2",
+            "chinese": "1. 記得別人的名字。想想看，當你跟人一起拍團體照，拿到照片，你會先看誰？答案一定是先看你自己。黑幼龍指出，人通常只對自己感興趣，只關心自己。要踏出關心的第一步，就先從記得別人的名字開始，因為溝通大師卡內基曾說過：「一個人的名字，是他耳朵所能聽到最悅耳的聲音。」",
+            "simplified": "1. 记得别人的名字。想想看，当你跟人一起拍团体照，拿到照片，你会先看谁？答案一定是先看你自己。黑幼龙指出，人通常只对自己感兴趣，只关心自己。要踏出关心的第一步，就先从记得别人的名字开始，因为沟通大师卡内基曾说过：「一个人的名字，是他耳朵所能听到最悦耳的声音。」",
+            "pinyin": "1 .   jì dé bié rén de míng zì 。 xiǎng xiǎng kàn ， dāng nǐ gēn rén yì qǐ pāi tuán tǐ zhào ， ná dào zhào piān ， nǐ huì xiān kàn shuí ？ dá àn yí dìng shì xiān kàn nǐ zì jǐ 。 hēi yòu lóng zhǐ chū ， rén tōng cháng zhǐ duì zì jǐ gǎn xìng qù ， zhǐ guān xīn zì jǐ 。 yào tà chū guān xīn de dì yī bù ， jiù xiān cóng jì dé bié rén de míng zì kāi shǐ ， yīn wèi gōu tōng dà shī kǎ nèi jī céng shuō guò ： 「 yī gè rén de míng zì ， shì tā ěr duǒ suǒ néng tīng dào zuì yuè ěr de shēng yīn 。 」",
+            "meaningVi": "1. Nhớ tên người khác. Khi xem ảnh chụp tập thể, bạn thường nhìn ai đầu tiên? Chắc là chính mình. Theo ông, con người thường quan tâm đến bản thân trước tiên. Bước đầu tiên để quan tâm người khác là nhớ tên họ. Dale Carnegie từng nói: tên của một người là âm thanh dễ nghe nhất đối với chính người ấy."
+          },
+          {
+            "speaker": "Đoạn 3",
+            "chinese": "記得別人名字，最關鍵的就是你要對別人感興趣，有熱忱，再加上一些方法。當我們說話時，不妨將別人的名字帶到話的內容裡，好比與別人告別時，你可以說：「再見！」也可以說：「XXX再見。」盡量將別人的名字帶到你們的對話中，那麼你記住別人名字的可能性就高很多了。當你下次再見到時，能直接喊出對方的名字，不知他會有多高興！",
+            "simplified": "记得别人名字，最关键的就是你要对别人感兴趣，有热忱，再加上一些方法。当我们说话时，不妨将别人的名字带到话的内容里，好比与别人告别时，你可以说：「再见！」也可以说：「XXX再见。」尽量将别人的名字带到你们的对话中，那么你记住别人名字的可能性就高很多了。当你下次再见到时，能直接喊出对方的名字，不知他会有多高兴！",
+            "pinyin": "jì dé bié rén míng zì ， zuì guān jiàn de jiù shì nǐ yào duì bié rén gǎn xìng qù ， yǒu rè chén ， zài jiā shàng yī xiē fāng fǎ 。 dāng wǒ men shuō huà shí ， bù fáng jiāng bié rén de míng zì dài dào huà de nèi róng lǐ ， hǎo bǐ yǔ bié rén gào bié shí ， nǐ kě yǐ shuō ： 「 zài jiàn ！ 」 yě kě yǐ shuō ： 「 X X X zài jiàn 。 」 jǐn liàng jiāng bié rén de míng zì dài dào nǐ men de duì huà zhōng ， nà me nǐ jì zhù bié rén míng zì de kě néng xìng jiù gāo hěn duō le 。 dāng nǐ xià cì zài jiàn dào shí ， néng zhí jiē hǎn chū duì fāng de míng zì ， bù zhī tā huì yǒu duō gāo xìng ！",
+            "meaningVi": "Điều quan trọng để nhớ tên là thật lòng quan tâm đến người đó, có nhiệt tình và biết cách thực hành. Khi trò chuyện hay tạm biệt, hãy gọi tên họ trong câu nói. Bạn sẽ dễ nhớ hơn, và lần gặp sau có thể gọi đúng tên khiến họ vui."
+          },
+          {
+            "speaker": "Đoạn 4",
+            "chinese": "2. 多談別人感興趣的事。半年前，黑幼龍與一位在美國念書認識的老朋友見面，只見宴會桌上那位70多歲的老先生，自顧自地講自己的事，整整2個鐘頭，完全不讓人有插嘴的餘地，以致於同桌的朋友，像被罰站聽教似地，氣氛一片凝滯。",
+            "simplified": "2. 多谈别人感兴趣的事。半年前，黑幼龙与一位在美国念书认识的老朋友见面，只见宴会桌上那位70多岁的老先生，自顾自地讲自己的事，整整2个钟头，完全不让人有插嘴的余地，以致于同桌的朋友，像被罚站听教似地，气氛一片凝滞。",
+            "pinyin": "2 .   duō tán bié rén gǎn xìng qù de shì 。 bàn nián qián ， hēi yòu lóng yǔ yī wèi zài měi guó niàn shū rèn shí de lǎo péng yǒu jiàn miàn ， zhǐ jiàn yàn huì zhuō shàng nà wèi 7 0 duō suì de lǎo xiān shēng ， zì gù zì dì jiǎng zì jǐ de shì ， zhěng zhěng 2 gè zhōng tóu ， wán quán bù ràng rén yǒu chā zuǐ de yú dì ， yǐ zhì yú tóng zhuō de péng yǒu ， xiàng bèi fá zhàn tīng jiào shì dì ， qì fēn yī piàn níng zhì 。",
+            "meaningVi": "2. Nói nhiều hơn về điều người khác quan tâm. Nửa năm trước, ông gặp một người bạn quen từ thời du học Mỹ. Trong bữa tiệc, người bạn hơn bảy mươi tuổi chỉ nói về mình suốt hai tiếng, không để ai chen lời. Những người ngồi cùng bàn như bị bắt đứng nghe giảng, không khí trở nên nặng nề."
+          },
+          {
+            "speaker": "Đoạn 5",
+            "chinese": "黑幼龍指出，若要讓自己成為受歡迎的人，記得要引發別人的談話興趣，也就是要能多談對方感興趣的事，並讓他能有一吐為快的機會。他進一步提醒，鼓勵他人談論他感興趣的話題，最好的方法就是提問，而且要真誠。",
+            "simplified": "黑幼龙指出，若要让自己成为受欢迎的人，记得要引发别人的谈话兴趣，也就是要能多谈对方感兴趣的事，并让他能有一吐为快的机会。他进一步提醒，鼓励他人谈论他感兴趣的话题，最好的方法就是提问，而且要真诚。",
+            "pinyin": "hēi yòu lóng zhǐ chū ， ruò yào ràng zì jǐ chéng wèi shòu huān yíng de rén ， jì dé yào yǐn fā bié rén de tán huà xìng qù ， yě jiù shì yào néng duō tán duì fāng gǎn xìng qù de shì ， bìng ràng tā néng yǒu yī tǔ wèi kuài de jī huì 。 tā jìn yī bù tí xǐng ， gǔ lì tā rén tán lùn tā gǎn xìng qù de huà tí ， zuì hǎo de fāng fǎ jiù shì tí wèn ， ér qiě yào zhēn chéng 。",
+            "meaningVi": "Muốn được yêu mến, hãy khơi gợi để người khác nói về chủ đề họ quan tâm và tạo cơ hội cho họ bày tỏ hết lòng. Cách tốt nhất là hỏi, và phải hỏi bằng sự chân thành."
+          }
+        ]
+      },
+      {
+        "id": "cc6-v6-l04-reading2",
+        "title": "課文二 · 黑幼龍傳授4大獨門做人心法（II）",
+        "context": "Lời khen chân thành, nụ cười và nhiệt tình.",
+        "audioTrackId": "cc6-textbook-l04-t05",
+        "turns": [
+          {
+            "speaker": "Đoạn 1",
+            "chinese": "3. 讚美要到心坎裡。真誠的讚美，更是一種做人的魅力，人的本質裡最大的驅策力，就是讓他覺得自己很重要。現代心理學家、哈佛大學教授威廉．詹姆士（William James）說：「人內心深切的渴望，就是得到肯定與讚美。」若你能掌握真心讚美的能力，可想而知，你的人緣與影響力一定是最大的。",
+            "simplified": "3. 赞美要到心坎里。真诚的赞美，更是一种做人的魅力，人的本质里最大的驱策力，就是让他觉得自己很重要。现代心理学家、哈佛大学教授威廉．詹姆士（William James）说：「人内心深切的渴望，就是得到肯定与赞美。」若你能掌握真心赞美的能力，可想而知，你的人缘与影响力一定是最大的。",
+            "pinyin": "3 .   zàn měi yào dào xīn kǎn lǐ 。 zhēn chéng de zàn měi ， gèng shì yī zhǒng zuò rén de mèi lì ， rén de běn zhì lǐ zuì dà de qū cè lì ， jiù shì ràng tā jué dé zì jǐ hěn zhòng yào 。 xiàn dài xīn lǐ xué jiā 、 hā fú dà xué jiào shòu wēi lián ． zhān mǔ shì （ W i l l i a m   J a m e s ） shuō ： 「 rén nèi xīn shēn qiè de kě wàng ， jiù shì dé dào kěn dìng yǔ zàn měi 。 」 ruò nǐ néng zhǎng wò zhēn xīn zàn měi de néng lì ， kě xiǎng ér zhī ， nǐ de rén yuán yǔ yǐng xiǎng lì yí dìng shì zuì dà de 。",
+            "meaningVi": "3. Khen đúng điều chạm đến lòng người. Lời khen chân thành là một nét cuốn hút trong cách ứng xử. Con người vốn rất muốn được thấy mình quan trọng, được công nhận và khen ngợi. Nếu biết khen thật lòng, bạn dễ tạo thiện cảm và ảnh hưởng tích cực với người khác."
+          },
+          {
+            "speaker": "Đoạn 2",
+            "chinese": "關於讚美：首先，想一次命中核心，就讚美他的成就，若想再更真切，就讚美他的性格與特質，譬如：「你好關心別人」、「我覺得你好真誠、熱心」。其次，若要讓讚美的力量更強，就多增加一些證據。例如，當你稱讚別人「你好有愛心」時，可以加上：「因為有天我在百貨公司前面，看到你向一個老太太買口香糖，給了100元，沒讓她找錢。」有了事件描述，自然就會多了一些力道。",
+            "simplified": "关于赞美：首先，想一次命中核心，就赞美他的成就，若想再更真切，就赞美他的性格与特质，譬如：「你好关心别人」、「我觉得你好真诚、热心」。其次，若要让赞美的力量更强，就多增加一些证据。例如，当你称赞别人「你好有爱心」时，可以加上：「因为有天我在百货公司前面，看到你向一个老太太买口香糖，给了100元，没让她找钱。」有了事件描述，自然就会多了一些力道。",
+            "pinyin": "guān yú zàn měi ： shǒu xiān ， xiǎng yī cì mìng zhòng hé xīn ， jiù zàn měi tā de chéng jiù ， ruò xiǎng zài gèng zhēn qiè ， jiù zàn měi tā de xìng gé yǔ tè zhì ， pì rú ： 「 nǐ hǎo guān xīn bié rén 」 、 「 wǒ jué dé nǐ hǎo zhēn chéng 、 rè xīn 」 。 qí cì ， ruò yào ràng zàn měi de lì liàng gèng qiáng ， jiù duō zēng jiā yī xiē zhèng jù 。 lì rú ， dāng nǐ chēng zàn bié rén 「 nǐ hǎo yǒu ài xīn 」 shí ， kě yǐ jiā shàng ： 「 yīn wèi yǒu tiān wǒ zài bǎi huò gōng sī qián miàn ， kàn dào nǐ xiàng yī gè lǎo tài tài mǎi kǒu xiāng táng ， gěi le 1 0 0 yuán ， méi ràng tā zhǎo qián 。 」 yǒu liǎo shì jiàn miáo shù ， zì rán jiù huì duō le yī xiē lì dào 。",
+            "meaningVi": "Muốn khen trúng điểm chính, hãy ghi nhận thành tựu; muốn sâu sắc hơn, hãy khen tính cách và phẩm chất. Lời khen sẽ có sức nặng hơn nếu kèm bằng chứng cụ thể. Chẳng hạn, thay vì chỉ nói ai đó tốt bụng, hãy kể việc bạn từng thấy họ giúp một bà cụ bán kẹo cao su mà không lấy tiền thối."
+          },
+          {
+            "speaker": "Đoạn 3",
+            "chinese": "不過，讚美必須發自內心，不能預先有企圖、目的，否則以後的讚美都會失效。例如，若你對下屬的讚美是：「你是同事之中，最有責任感的人。」隨後加上：「我今天晚上有事，拜託你今天晚上留下來加班！」即使你加了證據，這樣別有居心的讚美，就會適得其反。",
+            "simplified": "不过，赞美必须发自内心，不能预先有企图、目的，否则以后的赞美都会失效。例如，若你对下属的赞美是：「你是同事之中，最有责任感的人。」随后加上：「我今天晚上有事，拜托你今天晚上留下来加班！」即使你加了证据，这样别有居心的赞美，就会适得其反。",
+            "pinyin": "bù guò ， zàn měi bì xū fā zì nèi xīn ， bù néng yù xiān yǒu qǐ tú 、 mù dì ， fǒu zé yǐ hòu de zàn měi dōu huì shī xiào 。 lì rú ， ruò nǐ duì xià shǔ de zàn měi shì ： 「 nǐ shì tóng shì zhī zhōng ， zuì yǒu zé rèn gǎn de rén 。 」 suí hòu jiā shàng ： 「 wǒ jīn tiān wǎn shàng yǒu shì ， bài tuō nǐ jīn tiān wǎn shàng liú xià lái jiā bān ！ 」 jí shǐ nǐ jiā le zhèng jù ， zhè yàng bié yǒu jū xīn de zàn měi ， jiù huì shì dé qí fǎn 。",
+            "meaningVi": "Tuy nhiên, lời khen phải xuất phát từ lòng mình, không nhằm đạt một mục đích riêng. Nếu vừa khen nhân viên có trách nhiệm nhất rồi lập tức nhờ người đó ở lại làm thêm giờ, lời khen sẽ có vẻ vụ lợi và phản tác dụng."
+          },
+          {
+            "speaker": "Đoạn 4",
+            "chinese": "4. 保持笑容與熱忱。可別小看笑容的威力！前美國總統艾森豪予人印象深刻的是他的笑容。笑容不但讓同事更願意接近，讓你更有親和力，別人常以此來決定要不要跟我們在一起，要與我們互動到什麼程度。",
+            "simplified": "4. 保持笑容与热忱。可别小看笑容的威力！前美国总统艾森豪予人印象深刻的是他的笑容。笑容不但让同事更愿意接近，让你更有亲和力，别人常以此来决定要不要跟我们在一起，要与我们互动到什么程度。",
+            "pinyin": "4 .   bǎo chí xiào róng yǔ rè chén 。 kě bié xiǎo kàn xiào róng de wēi lì ！ qián měi guó zǒng tǒng ài sēn háo yǔ rén yìn xiàng shēn kè de shì tā de xiào róng 。 xiào róng bù dàn ràng tóng shì gèng yuàn yì jiē jìn ， ràng nǐ gèng yǒu qīn hé lì ， bié rén cháng yǐ cǐ lái jué dìng yào bù yào gēn wǒ men zài yì qǐ ， yào yǔ wǒ men hù dòng dào shén me chéng dù 。",
+            "meaningVi": "4. Giữ nụ cười và sự nhiệt tình. Đừng xem nhẹ sức mạnh của nụ cười. Nụ cười của cựu Tổng thống Mỹ Eisenhower từng để lại ấn tượng sâu sắc. Nụ cười khiến đồng nghiệp muốn lại gần và giúp bạn dễ mến hơn. Người khác cũng thường dựa vào đó để quyết định có muốn ở cạnh, giao tiếp với ta hay không."
+          },
+          {
+            "speaker": "Đoạn 5",
+            "chinese": "要笑得真心，靠的就是內心的熱忱。要培養熱忱，不妨定下一些小的承諾，按照時間完成，鼓勵自己，也贏得別人的鼓勵與讚美。藉著小事情的累積，變成一種強大的驅動力，讓自己真正熱情起來。",
+            "simplified": "要笑得真心，靠的就是内心的热忱。要培养热忱，不妨定下一些小的承诺，按照时间完成，鼓励自己，也赢得别人的鼓励与赞美。借着小事情的累积，变成一种强大的驱动力，让自己真正热情起来。",
+            "pinyin": "yào xiào dé zhēn xīn ， kào de jiù shì nèi xīn de rè chén 。 yào péi yǎng rè chén ， bù fáng dìng xià yī xiē xiǎo de chéng nuò ， àn zhào shí jiān wán chéng ， gǔ lì zì jǐ ， yě yíng dé bié rén de gǔ lì yǔ zàn měi 。 jí zhù xiǎo shì qíng de lèi jī ， biàn chéng yī zhǒng qiáng dà de qū dòng lì ， ràng zì jǐ zhēn zhèng rè qíng qǐ lái 。",
+            "meaningVi": "Để cười thật lòng, cần có sự nhiệt tình từ bên trong. Có thể bắt đầu bằng những lời hứa nhỏ, thực hiện đúng hạn và tự khích lệ mình. Những việc nhỏ tích lũy dần sẽ tạo động lực mạnh hơn, giúp mình thật sự nhiệt tình."
+          }
+        ]
+      },
+      {
+        "id": "cc6-v6-l04-supplement",
+        "title": "延伸閱讀 · 好態度帶來好機緣",
+        "context": "Câu chuyện người kế toán và cơ hội chuyển việc.",
+        "audioTrackId": "cc6-textbook-l04-t08",
+        "turns": [
+          {
+            "speaker": "Đoạn 1",
+            "chinese": "我有個朋友原是某飯店的會計。有天一位先生進了電梯，她就很禮貌地跟那人打招呼問好，想不到那位先生伸手給了她一張名片，對她說：「你若願意，可以來我公司工作。」她看名片，那正是她夢寐以求的大公司，但她連想都沒想，就直覺地回答：「現在不行，旺季是最忙的時候，要走也要等到淡季。」那人吃了一驚說：「好，我等你。」",
+            "simplified": "我有个朋友原是某饭店的会计。有天一位先生进了电梯，她就很礼貌地跟那人打招呼问好，想不到那位先生伸手给了她一张名片，对她说：「你若愿意，可以来我公司工作。」她看名片，那正是她梦寐以求的大公司，但她连想都没想，就直觉地回答：「现在不行，旺季是最忙的时候，要走也要等到淡季。」那人吃了一惊说：「好，我等你。」",
+            "pinyin": "wǒ yǒu gè péng yǒu yuán shì mǒu fàn diàn de huì jì 。 yǒu tiān yī wèi xiān shēng jìn le diàn tī ， tā jiù hěn lǐ mào dì gēn nà rén dǎ zhāo hū wèn hǎo ， xiǎng bú dào nà wèi xiān shēng shēn shǒu gěi le tā yī zhāng míng piàn ， duì tā shuō ： 「 nǐ ruò yuàn yì ， kě yǐ lái wǒ gōng sī gōng zuò 。 」 tā kàn míng piàn ， nà zhèng shì tā mèng mèi yǐ qiú de dà gōng sī ， dàn tā lián xiǎng dōu méi xiǎng ， jiù zhí jué dì huí dá ： 「 xiàn zài bù xíng ， wàng jì shì zuì máng de shí hòu ， yào zǒu yě yào děng dào dàn jì 。 」 nà rén chī le yī jīng shuō ： 「 hǎo ， wǒ děng nǐ 。 」",
+            "meaningVi": "Một người bạn của tác giả từng làm kế toán ở khách sạn. Một hôm, cô lịch sự chào một người đàn ông trong thang máy. Ông đưa danh thiếp và mời cô về công ty mình làm việc. Đó đúng là công ty cô mơ ước, nhưng cô trả lời ngay rằng bây giờ đang mùa cao điểm; nếu chuyển việc, cô phải đợi đến mùa thấp điểm. Ông ngạc nhiên rồi đồng ý chờ."
+          },
+          {
+            "speaker": "Đoạn 2",
+            "chinese": "後來她過去那家公司做事，一直做到退休。退休時，老闆告訴她，服務業最重要的是熱情和忠誠——她主動和客人打招呼，是有服務的熱情；沒有因為高薪而立刻跳槽，等旺季過了再走，這是忠誠。一個熱情而忠誠的人，值得等候。",
+            "simplified": "后来她过去那家公司做事，一直做到退休。退休时，老板告诉她，服务业最重要的是热情和忠诚——她主动和客人打招呼，是有服务的热情；没有因为高薪而立刻跳槽，等旺季过了再走，这是忠诚。一个热情而忠诚的人，值得等候。",
+            "pinyin": "hòu lái tā guò qù nà jiā gōng sī zuò shì ， yì zhí zuò dào tuì xiū 。 tuì xiū shí ， lǎo bǎn gào sù tā ， fú wù yè zuì zhòng yào de shì rè qíng hé zhōng chéng — — tā zhǔ dòng hé kè rén dǎ zhāo hū ， shì yǒu fú wù de rè qíng ； méi yǒu yīn wèi gāo xīn ér lì kè tiào cáo ， děng wàng jì guò le zài zǒu ， zhè shì zhōng chéng 。 yī gè rè qíng ér zhōng chéng de rén ， zhí de děng hòu 。",
+            "meaningVi": "Sau này cô đến công ty ấy và làm đến lúc nghỉ hưu. Khi đó, sếp nói ngành dịch vụ quý nhất sự nhiệt tình và trung thành: cô chủ động chào khách vì có nhiệt tình phục vụ, và không bỏ khách sạn ngay vì lương cao mà đợi hết mùa bận mới chuyển. Một người vừa nhiệt tình vừa trung thành đáng để chờ đợi."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc6-v6-l04-check-01",
+        "prompt": "Theo Hắc Ấu Long, vì sao nên nhớ tên người khác?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Đó là bước đầu để thật lòng quan tâm họ"
+          },
+          {
+            "id": "b",
+            "text": "Để khoe trí nhớ của mình"
+          },
+          {
+            "id": "c",
+            "text": "Để nói chuyện nhiều hơn về bản thân"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Ông nói hãy bắt đầu quan tâm người khác bằng việc nhớ tên.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc6-v6-l04-check-02",
+        "prompt": "Câu chuyện ở bàn tiệc cho thấy điều gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Bữa tiệc là nơi nên nói thật to"
+          },
+          {
+            "id": "b",
+            "text": "Người lớn tuổi luôn được phát biểu trước"
+          },
+          {
+            "id": "c",
+            "text": "Chỉ nói về mình khiến người khác không có cơ hội góp lời"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Người bạn nói suốt hai tiếng, không ai chen lời được.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc6-v6-l04-check-03",
+        "prompt": "Lời khen chân thành cần điều gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Kèm lời nhờ làm việc ngay"
+          },
+          {
+            "id": "b",
+            "text": "Xuất phát từ lòng mình và có ví dụ cụ thể"
+          },
+          {
+            "id": "c",
+            "text": "Chỉ cần thật lớn tiếng"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Bài đọc 2 nhấn mạnh 發自內心 và tăng sức nặng bằng bằng chứng.",
+        "skill": "Đọc hiểu"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem phiên âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc6-v6-l04-v001",
+      "cc6-v6-l04-v002",
+      "cc6-v6-l04-v003",
+      "cc6-v6-l04-v004",
+      "cc6-v6-l04-v005",
+      "cc6-v6-l04-v006",
+      "cc6-v6-l04-v007",
+      "cc6-v6-l04-v008",
+      "cc6-v6-l04-v009",
+      "cc6-v6-l04-v010",
+      "cc6-v6-l04-v011",
+      "cc6-v6-l04-v012",
+      "cc6-v6-l04-v013",
+      "cc6-v6-l04-v014",
+      "cc6-v6-l04-v015",
+      "cc6-v6-l04-v016",
+      "cc6-v6-l04-v017",
+      "cc6-v6-l04-v018",
+      "cc6-v6-l04-v019",
+      "cc6-v6-l04-v020",
+      "cc6-v6-l04-v021",
+      "cc6-v6-l04-v022",
+      "cc6-v6-l04-v023",
+      "cc6-v6-l04-v024",
+      "cc6-v6-l04-v025",
+      "cc6-v6-l04-v026",
+      "cc6-v6-l04-v027",
+      "cc6-v6-l04-v028",
+      "cc6-v6-l04-v029",
+      "cc6-v6-l04-v030",
+      "cc6-v6-l04-v031",
+      "cc6-v6-l04-v032",
+      "cc6-v6-l04-v033",
+      "cc6-v6-l04-v034",
+      "cc6-v6-l04-v035",
+      "cc6-v6-l04-v036",
+      "cc6-v6-l04-v037",
+      "cc6-v6-l04-v038",
+      "cc6-v6-l04-v039",
+      "cc6-v6-l04-v040",
+      "cc6-v6-l04-v041",
+      "cc6-v6-l04-v042",
+      "cc6-v6-l04-v043",
+      "cc6-v6-l04-v044",
+      "cc6-v6-l04-v045",
+      "cc6-v6-l04-v046",
+      "cc6-v6-l04-v047",
+      "cc6-v6-l04-v048",
+      "cc6-v6-l04-v049",
+      "cc6-v6-l04-v050",
+      "cc6-v6-l04-v051",
+      "cc6-v6-l04-v052",
+      "cc6-v6-l04-v053",
+      "cc6-v6-l04-v054",
+      "cc6-v6-l04-v055",
+      "cc6-v6-l04-v056",
+      "cc6-v6-l04-v057",
+      "cc6-v6-l04-v058",
+      "cc6-v6-l04-v059",
+      "cc6-v6-l04-v060",
+      "cc6-v6-l04-v061",
+      "cc6-v6-l04-v062",
+      "cc6-v6-l04-v063",
+      "cc6-v6-l04-v064",
+      "cc6-v6-l04-v065",
+      "cc6-v6-l04-v066",
+      "cc6-v6-l04-v067",
+      "cc6-v6-l04-v068",
+      "cc6-v6-l04-v069",
+      "cc6-v6-l04-v070",
+      "cc6-v6-l04-v071",
+      "cc6-v6-l04-v072",
+      "cc6-v6-l04-v073",
+      "cc6-v6-l04-v074",
+      "cc6-v6-l04-v075",
+      "cc6-v6-l04-v076",
+      "cc6-v6-l04-v077",
+      "cc6-v6-l04-v078",
+      "cc6-v6-l04-v079",
+      "cc6-v6-l04-v080",
+      "cc6-v6-l04-v081",
+      "cc6-v6-l04-v082",
+      "cc6-v6-l04-v083",
+      "cc6-v6-l04-v084",
+      "cc6-v6-l04-v085"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc6-textbook-l04-t03",
+        "label": "Từ vựng bài đọc 1"
+      },
+      {
+        "id": "cc6-textbook-l04-t06",
+        "label": "Từ vựng bài đọc 2"
+      },
+      {
+        "id": "cc6-textbook-l04-t09",
+        "label": "Từ vựng bài đọc bổ sung"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc6-v6-l04-grammar-01",
+      "title": "與X分享Y",
+      "explanation": "Chỉ việc chia sẻ Y với X. Y có thể là đồ vật, thông tin, kinh nghiệm hoặc quan điểm; người nhận đứng sau 與.",
+      "structure": "chủ thể + 與 + người X + 分享 + điều Y",
+      "examples": [
+        {
+          "chinese": "他與讀者分享溝通的祕訣。",
+          "simplified": "他与读者分享沟通的秘诀。",
+          "pinyin": "tā yǔ dú zhě fēn xiǎng gōu tōng de mì jué 。",
+          "meaningVi": "Ông chia sẻ bí quyết giao tiếp với độc giả."
+        },
+        {
+          "chinese": "我想與朋友分享這段經驗。",
+          "simplified": "我想与朋友分享这段经验。",
+          "pinyin": "wǒ xiǎng yǔ péng yǒu fēn xiǎng zhè duàn jīng yàn 。",
+          "meaningVi": "Tôi muốn chia sẻ trải nghiệm này với bạn bè."
+        }
+      ],
+      "commonMistake": "Đừng đảo người nhận và nội dung: 與 đi với người được chia sẻ, 分享 đi với điều được chia sẻ.",
+      "check": {
+        "id": "cc6-v6-l04-grammar-check-01",
+        "prompt": "Điền vào chỗ trống: 他與學生____做人心法。",
+        "options": [
+          {
+            "id": "a",
+            "text": "發自"
+          },
+          {
+            "id": "b",
+            "text": "分享"
+          },
+          {
+            "id": "c",
+            "text": "以致於"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Chỉ việc chia sẻ Y với X.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l04-grammar-02",
+      "title": "抱持著X的哲學",
+      "explanation": "Nói về quan niệm hoặc lập trường được giữ khi ứng xử, học hay làm việc. X là nội dung của quan niệm.",
+      "structure": "抱持著 + quan niệm X + 的哲學",
+      "examples": [
+        {
+          "chinese": "他抱持著「練習才能成功」的哲學。",
+          "simplified": "他抱持着「练习才能成功」的哲学。",
+          "pinyin": "tā bào chí zhù 「 liàn xí cái néng chéng gōng 」 de zhé xué 。",
+          "meaningVi": "Ông giữ quan niệm phải luyện tập mới thành công."
+        },
+        {
+          "chinese": "她抱持著尊重他人的哲學。",
+          "simplified": "她抱持着尊重他人的哲学。",
+          "pinyin": "tā bào chí zhù zūn zhòng tā rén de zhé xué 。",
+          "meaningVi": "Cô giữ quan niệm phải tôn trọng người khác."
+        }
+      ],
+      "commonMistake": "Không dùng 抱持 cho đồ vật cầm trên tay; cụm này nói về thái độ hoặc tư tưởng.",
+      "check": {
+        "id": "cc6-v6-l04-grammar-check-02",
+        "prompt": "Điền vào chỗ trống: 他____努力不夠、還要練習的哲學。",
+        "options": [
+          {
+            "id": "a",
+            "text": "抱持著"
+          },
+          {
+            "id": "b",
+            "text": "以致於"
+          },
+          {
+            "id": "c",
+            "text": "似地"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Nói về quan niệm hoặc lập trường được giữ khi ứng xử, học hay làm việc.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l04-grammar-03",
+      "title": "踏出X的第一步",
+      "explanation": "Nói về việc chủ động bắt đầu X, thường là một thay đổi hoặc hành trình còn dài.",
+      "structure": "踏出 + hành trình / hành động X + 的第一步",
+      "examples": [
+        {
+          "chinese": "記住名字是踏出關心別人的第一步。",
+          "simplified": "记住名字是踏出关心别人的第一步。",
+          "pinyin": "jì zhù míng zì shì tà chū guān xīn bié rén de dì yī bù 。",
+          "meaningVi": "Nhớ tên là bước đầu để quan tâm người khác."
+        },
+        {
+          "chinese": "提出問題，才能踏出解決問題的第一步。",
+          "simplified": "提出问题，才能踏出解决问题的第一步。",
+          "pinyin": "tí chū wèn tí ， cái néng tà chū jiě jué wèn tí de dì yī bù 。",
+          "meaningVi": "Đặt câu hỏi mới có thể bắt đầu giải quyết vấn đề."
+        }
+      ],
+      "commonMistake": "第一步 chỉ bước khởi đầu, không có nghĩa là đã hoàn thành toàn bộ quá trình.",
+      "check": {
+        "id": "cc6-v6-l04-grammar-check-03",
+        "prompt": "Điền vào chỗ trống: 記住別人的名字，是____關心的第一步。",
+        "options": [
+          {
+            "id": "a",
+            "text": "發自"
+          },
+          {
+            "id": "b",
+            "text": "贏得"
+          },
+          {
+            "id": "c",
+            "text": "踏出"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Nói về việc chủ động bắt đầu X, thường là một thay đổi hoặc hành trình còn dài.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l04-grammar-04",
+      "title": "不妨",
+      "explanation": "Đưa ra một gợi ý nhẹ nhàng: “thử... xem”, “cũng nên...”. Thường đứng trước việc được đề nghị.",
+      "structure": "不妨 + động từ / đề nghị",
+      "examples": [
+        {
+          "chinese": "談話時不妨叫出對方的名字。",
+          "simplified": "谈话时不妨叫出对方的名字。",
+          "pinyin": "tán huà shí bù fáng jiào chū duì fāng de míng zì 。",
+          "meaningVi": "Khi trò chuyện, thử gọi tên người kia."
+        },
+        {
+          "chinese": "你不妨先問問他的意見。",
+          "simplified": "你不妨先问问他的意见。",
+          "pinyin": "nǐ bù fáng xiān wèn wèn tā de yì jiàn 。",
+          "meaningVi": "Bạn thử hỏi ý kiến anh ấy trước xem."
+        }
+      ],
+      "commonMistake": "Không hiểu 不妨 là “không cản trở” theo nghĩa đen trong câu gợi ý.",
+      "check": {
+        "id": "cc6-v6-l04-grammar-check-04",
+        "prompt": "Điền vào chỗ trống: 想記住名字，你____在談話中多叫幾次。",
+        "options": [
+          {
+            "id": "a",
+            "text": "發自"
+          },
+          {
+            "id": "b",
+            "text": "不妨"
+          },
+          {
+            "id": "c",
+            "text": "以致於"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Đưa ra một gợi ý nhẹ nhàng: “thử.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l04-grammar-05",
+      "title": "有X的餘地",
+      "explanation": "Nói còn không gian, cơ hội hoặc khả năng để làm X. Phủ định 沒有/不留...餘地 nhấn mạnh không còn cơ hội ấy.",
+      "structure": "有 / 沒有 + hành động X + 的餘地",
+      "examples": [
+        {
+          "chinese": "他一直說話，不讓別人有插嘴的餘地。",
+          "simplified": "他一直说话，不让别人有插嘴的余地。",
+          "pinyin": "tā yì zhí shuō huà ， bù ràng bié rén yǒu chā zuǐ de yú dì 。",
+          "meaningVi": "Ông nói mãi, không để ai có cơ hội chen lời."
+        },
+        {
+          "chinese": "現在還有討論的餘地。",
+          "simplified": "现在还有讨论的余地。",
+          "pinyin": "xiàn zài hái yǒu tǎo lùn de yú dì 。",
+          "meaningVi": "Hiện vẫn còn chỗ để bàn bạc."
+        }
+      ],
+      "commonMistake": "餘地 là cơ hội xoay xở hoặc điều chỉnh, không chỉ là một chỗ trống vật lý.",
+      "check": {
+        "id": "cc6-v6-l04-grammar-check-05",
+        "prompt": "Điền vào chỗ trống: 他講個不停，別人沒有插嘴的____。",
+        "options": [
+          {
+            "id": "a",
+            "text": "餘地"
+          },
+          {
+            "id": "b",
+            "text": "熱忱"
+          },
+          {
+            "id": "c",
+            "text": "心坎"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Nói còn không gian, cơ hội hoặc khả năng để làm X.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l04-grammar-06",
+      "title": "以致於",
+      "explanation": "Nối một nguyên nhân với hệ quả, thường là hệ quả không mong muốn hoặc vượt dự tính: “đến mức/dẫn đến”. Có thể lược 於 thành 以致.",
+      "structure": "sự việc A，+ 以致於 + kết quả xấu B",
+      "examples": [
+        {
+          "chinese": "他講了兩小時，以致於氣氛凝滯。",
+          "simplified": "他讲了两小时，以致于气氛凝滞。",
+          "pinyin": "tā jiǎng le liǎng xiǎo shí ， yǐ zhì yú qì fēn níng zhì 。",
+          "meaningVi": "Ông nói hai tiếng khiến không khí nặng nề."
+        },
+        {
+          "chinese": "她太忙，以致於忘了回覆朋友。",
+          "simplified": "她太忙，以致于忘了回复朋友。",
+          "pinyin": "tā tài máng ， yǐ zhì yú wàng le huí fù péng yǒu 。",
+          "meaningVi": "Cô quá bận đến mức quên trả lời bạn."
+        }
+      ],
+      "commonMistake": "Nếu kết quả tốt hoặc trung tính, dùng 因此/所以 sẽ tự nhiên hơn.",
+      "check": {
+        "id": "cc6-v6-l04-grammar-check-06",
+        "prompt": "Điền vào chỗ trống: 他不讓人插嘴，____大家都不想再聊。",
+        "options": [
+          {
+            "id": "a",
+            "text": "以致於"
+          },
+          {
+            "id": "b",
+            "text": "不妨"
+          },
+          {
+            "id": "c",
+            "text": "真心"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Nối sự việc với kết quả không tốt ở vế sau, nghĩa là “đến mức/dẫn đến”.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l04-grammar-07",
+      "title": "可想而知",
+      "explanation": "Dùng khi từ thông tin đã nêu, người nghe dễ suy ra kết quả tiếp theo. Thường đứng trước điều được suy ra.",
+      "structure": "nguyên nhân A；可想而知，+ kết quả B",
+      "examples": [
+        {
+          "chinese": "他每天練習，可想而知，進步很快。",
+          "simplified": "他每天练习，可想而知，进步很快。",
+          "pinyin": "tā měi tiān liàn xí ， kě xiǎng ér zhī ， jìn bù hěn kuài 。",
+          "meaningVi": "Anh luyện tập mỗi ngày nên dễ thấy anh tiến bộ rất nhanh."
+        },
+        {
+          "chinese": "他從不聽別人說話，可想而知，人緣不會好。",
+          "simplified": "他从不听别人说话，可想而知，人缘不会好。",
+          "pinyin": "tā cóng bù tīng bié rén shuō huà ， kě xiǎng ér zhī ， rén yuán bù huì hǎo 。",
+          "meaningVi": "Anh không bao giờ lắng nghe ai, dễ hiểu vì sao không được lòng người khác."
+        }
+      ],
+      "commonMistake": "Cần có căn cứ từ vế trước; không dùng để đoán mò khi thiếu dữ kiện.",
+      "check": {
+        "id": "cc6-v6-l04-grammar-check-07",
+        "prompt": "Điền vào chỗ trống: 他總是關心別人，____，人緣很好。",
+        "options": [
+          {
+            "id": "a",
+            "text": "以此來"
+          },
+          {
+            "id": "b",
+            "text": "可想而知"
+          },
+          {
+            "id": "c",
+            "text": "發自"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Dùng khi từ thông tin đã nêu, người nghe dễ suy ra kết quả tiếp theo.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l04-grammar-08",
+      "title": "發自",
+      "explanation": "Chỉ nguồn gốc của lời nói, cảm xúc hay hành động, thường dùng với 內心.",
+      "structure": "lời nói / hành động + 發自 + nguồn gốc",
+      "examples": [
+        {
+          "chinese": "讚美必須發自內心。",
+          "simplified": "赞美必须发自内心。",
+          "pinyin": "zàn měi bì xū fā zì nèi xīn 。",
+          "meaningVi": "Lời khen phải xuất phát từ lòng mình."
+        },
+        {
+          "chinese": "那句感謝發自她的真心。",
+          "simplified": "那句感谢发自她的真心。",
+          "pinyin": "nà jù gǎn xiè fā zì tā de zhēn xīn 。",
+          "meaningVi": "Lời cảm ơn ấy xuất phát từ lòng thành của cô."
+        }
+      ],
+      "commonMistake": "發自 nêu nguồn gốc trừu tượng, không phải động tác đi ra từ một địa điểm.",
+      "check": {
+        "id": "cc6-v6-l04-grammar-check-08",
+        "prompt": "Điền vào chỗ trống: 真正的讚美要____內心。",
+        "options": [
+          {
+            "id": "a",
+            "text": "以致於"
+          },
+          {
+            "id": "b",
+            "text": "命中"
+          },
+          {
+            "id": "c",
+            "text": "發自"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Chỉ nguồn gốc của lời nói, cảm xúc hay hành động, thường dùng với 內心.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l04-grammar-09",
+      "title": "隨後",
+      "explanation": "Nêu việc diễn ra ngay sau sự việc vừa kể, thường trong lối kể hoặc văn viết.",
+      "structure": "sự việc A，隨後 + sự việc B",
+      "examples": [
+        {
+          "chinese": "他先稱讚下屬，隨後請她加班。",
+          "simplified": "他先称赞下属，随后请她加班。",
+          "pinyin": "tā xiān chēng zàn xià shǔ ， suí hòu qǐng tā jiā bān 。",
+          "meaningVi": "Ông khen nhân viên rồi nhờ cô ở lại làm thêm."
+        },
+        {
+          "chinese": "她打招呼，隨後收到一張名片。",
+          "simplified": "她打招呼，随后收到一张名片。",
+          "pinyin": "tā dǎ zhāo hū ， suí hòu shōu dào yī zhāng míng piàn 。",
+          "meaningVi": "Cô chào hỏi rồi nhận được một tấm danh thiếp."
+        }
+      ],
+      "commonMistake": "隨後 nối thứ tự thời gian; không dùng để chỉ nguyên nhân trực tiếp nếu không có thứ tự trước-sau.",
+      "check": {
+        "id": "cc6-v6-l04-grammar-check-09",
+        "prompt": "Điền vào chỗ trống: 他先讚美同事，____拜託同事留下來。",
+        "options": [
+          {
+            "id": "a",
+            "text": "隨後"
+          },
+          {
+            "id": "b",
+            "text": "可想而知"
+          },
+          {
+            "id": "c",
+            "text": "發自"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Nêu việc diễn ra ngay sau sự việc vừa kể, thường trong lối kể hoặc văn viết.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l04-grammar-10",
+      "title": "以此來",
+      "explanation": "Cách nói văn viết nghĩa là “dùng điều này để...”. 此 thay cho sự việc vừa nhắc, không đứng một mình khi chưa có tham chiếu.",
+      "structure": "sự việc A；以此來 + mục đích/hành động B",
+      "examples": [
+        {
+          "chinese": "人們看你的笑容，以此來決定是否接近你。",
+          "simplified": "人们看你的笑容，以此来决定是否接近你。",
+          "pinyin": "rén men kàn nǐ de xiào róng ， yǐ cǐ lái jué dìng shì fǒu jiē jìn nǐ 。",
+          "meaningVi": "Người ta nhìn nụ cười của bạn để quyết định có muốn lại gần hay không."
+        },
+        {
+          "chinese": "先觀察對方的反應，以此來調整說話方式。",
+          "simplified": "先观察对方的反应，以此来调整说话方式。",
+          "pinyin": "xiān guān chá duì fāng de fǎn yīng ， yǐ cǐ lái diào zhěng shuō huà fāng shì 。",
+          "meaningVi": "Trước hết quan sát phản ứng của người kia, rồi dựa vào đó điều chỉnh cách nói."
+        }
+      ],
+      "commonMistake": "Phải có “điều này” đã nêu trước; không dùng 以此來 ở đầu một đoạn chưa rõ 此 chỉ gì.",
+      "check": {
+        "id": "cc6-v6-l04-grammar-check-10",
+        "prompt": "Điền vào chỗ trống: 他先看對方的表情，____判斷是否繼續談話。",
+        "options": [
+          {
+            "id": "a",
+            "text": "以致於"
+          },
+          {
+            "id": "b",
+            "text": "踏出"
+          },
+          {
+            "id": "c",
+            "text": "以此來"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Cách nói văn viết nghĩa là “dùng điều này để.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l04-grammar-11",
+      "title": "藉著X的累積",
+      "explanation": "Nói nhờ X tăng dần theo thời gian mà tạo ra một kết quả. X thường là việc nhỏ, kinh nghiệm hoặc nỗ lực lặp lại.",
+      "structure": "藉著 + X + 的累積，+ kết quả",
+      "examples": [
+        {
+          "chinese": "藉著小事情的累積，她建立了信心。",
+          "simplified": "借着小事情的累积，她建立了信心。",
+          "pinyin": "jí zhù xiǎo shì qíng de lèi jī ， tā jiàn lì le xìn xīn 。",
+          "meaningVi": "Nhờ tích lũy những việc nhỏ, cô xây dựng được sự tự tin."
+        },
+        {
+          "chinese": "藉著經驗的累積，他更懂得與人互動。",
+          "simplified": "借着经验的累积，他更懂得与人互动。",
+          "pinyin": "jí zhù jīng yàn de lèi jī ， tā gèng dǒng de yǔ rén hù dòng 。",
+          "meaningVi": "Nhờ tích lũy kinh nghiệm, ông hiểu cách giao tiếp hơn."
+        }
+      ],
+      "commonMistake": "累積 hàm ý nhiều lần theo thời gian; nếu chỉ có một sự kiện đơn lẻ, dùng 藉著X là đủ.",
+      "check": {
+        "id": "cc6-v6-l04-grammar-check-11",
+        "prompt": "Điền vào chỗ trống: ____經驗的累積，他慢慢學會溝通。",
+        "options": [
+          {
+            "id": "a",
+            "text": "發自"
+          },
+          {
+            "id": "b",
+            "text": "藉著"
+          },
+          {
+            "id": "c",
+            "text": "以致於"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Nói nhờ X tăng dần theo thời gian mà tạo ra một kết quả.",
+        "skill": "Ngữ pháp"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc6-v6-l04-listening-01",
+      "prompt": "Nghe bài đọc 1: khi nhìn ảnh tập thể, mọi người thường nhìn ai trước?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chính mình"
+        },
+        {
+          "id": "b",
+          "text": "Người đứng xa nhất"
+        },
+        {
+          "id": "c",
+          "text": "Người chụp ảnh"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Tác giả dùng ví dụ ấy để nói ta thường quan tâm mình trước.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l04-t02"
+    },
+    {
+      "id": "cc6-v6-l04-listening-02",
+      "prompt": "Nghe bài đọc 1: cách tốt nhất để khơi chuyện về điều người kia thích là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hỏi họ một cách chân thành"
+        },
+        {
+          "id": "b",
+          "text": "Nói về mình suốt hai tiếng"
+        },
+        {
+          "id": "c",
+          "text": "Không gọi tên họ"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Cuối bài đọc 1 nói phương pháp tốt nhất là 提問，而且要真誠.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l04-t02"
+    },
+    {
+      "id": "cc6-v6-l04-listening-03",
+      "prompt": "Nghe bài đọc 2: điều gì khiến lời khen mạnh hơn?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nói càng dài càng tốt"
+        },
+        {
+          "id": "b",
+          "text": "Có sự việc cụ thể làm bằng chứng"
+        },
+        {
+          "id": "c",
+          "text": "Có dụng ý nhờ vả"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc đề nghị thêm sự việc cụ thể vào lời khen.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l04-t05"
+    },
+    {
+      "id": "cc6-v6-l04-listening-04",
+      "prompt": "Nghe bài đọc bổ sung: vì sao vị sếp chờ người kế toán?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ông thấy cô nhiệt tình và trung thành"
+        },
+        {
+          "id": "b",
+          "text": "Cô đã hứa sẽ làm không lương"
+        },
+        {
+          "id": "c",
+          "text": "Ông không có ứng viên khác"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Việc chào khách và đợi hết mùa bận cho thấy hai phẩm chất ấy.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l04-t08"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc6-v6-l04-practice-01",
+      "prompt": "Điền: 他____讀者分享溝通技巧。",
+      "options": [
+        {
+          "id": "a",
+          "text": "與"
+        },
+        {
+          "id": "b",
+          "text": "以致於"
+        },
+        {
+          "id": "c",
+          "text": "發自"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "與X分享Y nêu người được chia sẻ.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l04-practice-02",
+      "prompt": "Vì sao gọi tên người kia trong cuộc nói chuyện có ích?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Giúp mình nhớ tên và khiến họ thấy được quan tâm"
+        },
+        {
+          "id": "b",
+          "text": "Giúp mình nói nhiều hơn về bản thân"
+        },
+        {
+          "id": "c",
+          "text": "Để khỏi phải đặt câu hỏi"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc nói lặp lại tên trong hội thoại giúp dễ nhớ và khiến họ vui.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l04-practice-03",
+      "prompt": "Điền: 談話時____叫出對方的名字。",
+      "options": [
+        {
+          "id": "a",
+          "text": "不妨"
+        },
+        {
+          "id": "b",
+          "text": "以致於"
+        },
+        {
+          "id": "c",
+          "text": "發自"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "不妨 đưa ra một gợi ý nhẹ nhàng.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l04-practice-04",
+      "prompt": "Người bạn trong bữa tiệc nói chuyện thế nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Im lặng cả buổi"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ nói chuyện của mình suốt hai tiếng"
+        },
+        {
+          "id": "c",
+          "text": "Liên tục hỏi người khác"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc ghi 自顧自地講自己的事，整整2個鐘頭.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l04-practice-05",
+      "prompt": "Điền: 他講不停，完全不給人插嘴的____。",
+      "options": [
+        {
+          "id": "a",
+          "text": "餘地"
+        },
+        {
+          "id": "b",
+          "text": "熱忱"
+        },
+        {
+          "id": "c",
+          "text": "心坎"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "餘地 là cơ hội hoặc không gian để làm việc gì.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l04-practice-06",
+      "prompt": "Lời khen nào dễ phản tác dụng?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Khen một phẩm chất với ví dụ rõ"
+        },
+        {
+          "id": "b",
+          "text": "Khen vì thật lòng cảm phục"
+        },
+        {
+          "id": "c",
+          "text": "Khen để ngay sau đó nhờ người kia làm thêm giờ"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc cảnh báo 別有居心的讚美 sẽ 適得其反.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l04-practice-07",
+      "prompt": "Điền: 讚美必須____內心。",
+      "options": [
+        {
+          "id": "a",
+          "text": "發自"
+        },
+        {
+          "id": "b",
+          "text": "以致於"
+        },
+        {
+          "id": "c",
+          "text": "不妨"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "發自 chỉ nơi lời khen bắt nguồn.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l04-practice-08",
+      "prompt": "Bài đọc bổ sung nêu hai phẩm chất nào của người kế toán?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Giỏi bán hàng và biết diễn thuyết"
+        },
+        {
+          "id": "b",
+          "text": "Nhiệt tình và trung thành"
+        },
+        {
+          "id": "c",
+          "text": "Giàu có và nói nhiều"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Chủ công ty đánh giá cô qua cách chào khách và không bỏ việc giữa mùa bận.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc6-v6-l04-assessment-01",
+      "prompt": "拉近距離 nghĩa là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đi xa hơn"
+        },
+        {
+          "id": "b",
+          "text": "Giảm giá hàng"
+        },
+        {
+          "id": "c",
+          "text": "Khiến mọi người gần gũi hơn"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Cụm này nói về rút ngắn khoảng cách trong quan hệ.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc6-v6-l04-assessment-02",
+      "prompt": "Điền: 我想____朋友分享這個故事。",
+      "options": [
+        {
+          "id": "a",
+          "text": "不妨"
+        },
+        {
+          "id": "b",
+          "text": "與"
+        },
+        {
+          "id": "c",
+          "text": "以致於"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "與X分享Y nêu người nghe nhận thông tin.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l04-assessment-03",
+      "prompt": "Bước đầu tiên để quan tâm người khác là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kể thành tích của mình"
+        },
+        {
+          "id": "b",
+          "text": "Nói trước khi họ nói xong"
+        },
+        {
+          "id": "c",
+          "text": "Nhớ tên họ"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Đó là lời khuyên đầu tiên trong bài đọc 1.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l04-assessment-04",
+      "prompt": "Điền: 他講太久，____大家沒有插嘴的餘地。",
+      "options": [
+        {
+          "id": "a",
+          "text": "不妨"
+        },
+        {
+          "id": "b",
+          "text": "發自"
+        },
+        {
+          "id": "c",
+          "text": "以致於"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "以致於 dẫn đến hậu quả không tốt.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l04-assessment-05",
+      "prompt": "Một lời khen có sức nặng hơn khi nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Khi kèm bằng chứng hoặc câu chuyện cụ thể"
+        },
+        {
+          "id": "b",
+          "text": "Khi có ý đồ nhờ vả"
+        },
+        {
+          "id": "c",
+          "text": "Khi chỉ lặp lại một tính từ"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc 2 khuyên nêu sự việc cụ thể.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l04-assessment-06",
+      "prompt": "Điền: 真誠的讚美____內心。",
+      "options": [
+        {
+          "id": "a",
+          "text": "以致於"
+        },
+        {
+          "id": "b",
+          "text": "發自"
+        },
+        {
+          "id": "c",
+          "text": "以此來"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "發自內心 nghĩa là xuất phát từ lòng mình.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l04-assessment-07",
+      "prompt": "適得其反 diễn tả kết quả nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đúng như mong đợi"
+        },
+        {
+          "id": "b",
+          "text": "Có thêm cơ hội"
+        },
+        {
+          "id": "c",
+          "text": "Phản tác dụng"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Lời khen vụ lợi có thể gây kết quả ngược.",
+      "skill": "Từ vựng"
+    },
+    {
+      "id": "cc6-v6-l04-assessment-08",
+      "prompt": "Bài đọc bổ sung: vì sao cô không chuyển việc ngay?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cô không thích công ty mới"
+        },
+        {
+          "id": "b",
+          "text": "Cô không nhận ra danh thiếp"
+        },
+        {
+          "id": "c",
+          "text": "Cô muốn đợi hết mùa cao điểm ở khách sạn"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Cô nói 旺季是最忙的時候，要走也要等到淡季.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l04-assessment-09",
+      "prompt": "Điền: 他先看對方的笑容，____判斷是否接近。",
+      "options": [
+        {
+          "id": "a",
+          "text": "不妨"
+        },
+        {
+          "id": "b",
+          "text": "以此來"
+        },
+        {
+          "id": "c",
+          "text": "發自"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "此 thay cho nụ cười vừa nhắc.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l04-assessment-10",
+      "prompt": "Bốn lời khuyên tập trung vào điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Quan tâm, lắng nghe, khen chân thành và giữ nụ cười"
+        },
+        {
+          "id": "b",
+          "text": "Nói thật nhiều về mình"
+        },
+        {
+          "id": "c",
+          "text": "Chỉ học thuộc tên người khác"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Hai bài đọc lần lượt trình bày bốn thói quen giao tiếp.",
+      "skill": "Tổng hợp"
+    }
+  ],
+  "writingTask": {
+    "id": "cc6-v6-l04-writing",
+    "title": "Viết ngắn: một lời khen chân thành",
+    "prompt": "Viết 4–5 câu tiếng Hoa khen một người quen. Nêu một việc cụ thể làm bằng chứng; thử dùng 發自內心 hoặc 以此來."
+  }
+}

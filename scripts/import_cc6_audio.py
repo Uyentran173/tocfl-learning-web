@@ -1,4 +1,4 @@
-"""Stage Volume 6 textbook audio and publish source-verified Lesson 1–3 tracks.
+"""Stage Volume 6 textbook audio and publish source-verified Lesson 1–4 tracks.
 
 Usage: python3 scripts/import_cc6_audio.py TEXTBOOK_PDF WORKBOOK_PDF AUDIO_ZIP
 The archive's original directory names are ignored; only numbered MP3 basenames are used.
@@ -45,6 +45,16 @@ VERIFIED = {
     "03-05": (85, "Bài đọc 2: 舞蹈家許芳宜「生身不息」的演出（II）"),
     "03-06": (86, "Từ vựng bài đọc 2"),
     "03-07": (93, "Phân biệt từ dễ nhầm bài đọc 2"),
+    "04-01": (96, "Tóm tắt và mở đầu Bài 04"),
+    "04-02": (97, "Bài đọc 1: 黑幼龍傳授4大獨門做人心法 (I)"),
+    "04-03": (98, "Từ vựng tóm tắt và bài đọc 1"),
+    "04-04": (106, "Phân biệt từ dễ nhầm bài đọc 1"),
+    "04-05": (109, "Bài đọc 2: 黑幼龍傳授4大獨門做人心法 (II)"),
+    "04-06": (110, "Từ vựng bài đọc 2"),
+    "04-07": (117, "Phân biệt từ dễ nhầm bài đọc 2"),
+    "04-08": (119, "Bài đọc bổ sung: 好態度帶來好機緣"),
+    "04-09": (120, "Từ vựng bài đọc bổ sung"),
+    "04-10": (120, "Phân biệt từ dễ nhầm bài đọc bổ sung"),
 }
 
 
@@ -116,13 +126,13 @@ def main() -> None:
     report = {
         "courseId": "cc6", "volume": 6, "sourceTrackCount": len(tracks),
         "verifiedTrackCount": len(VERIFIED), "pendingTrackCount": len(tracks) - len(VERIFIED),
-        "publishedLessonIds": [f"cc6-v6-l{n:02d}" for n in range(1, 4)],
-        "pendingLessonIds": [f"cc6-v6-l{n:02d}" for n in range(4, 11)],
+        "publishedLessonIds": [f"cc6-v6-l{n:02d}" for n in range(1, 5)],
+        "pendingLessonIds": [f"cc6-v6-l{n:02d}" for n in range(5, 11)],
         "unassignedTrackIds": [track["id"] for track in tracks if track["lesson"] is None],
-        "reason": "Lessons 01–03 printed audio reference codes and lesson content were checked against the source PDF. Remaining lessons are staged pending source verification.",
+        "reason": "Lessons 01–04 printed audio reference codes and lesson content were checked against the source PDF. Remaining lessons are staged pending source verification.",
     }
     REPORT.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n")
-    print(f"Staged {len(tracks)} MP3s; published {len(VERIFIED)} verified Lesson 01–03 tracks; {len(tracks)-len(VERIFIED)} pending mapping.")
+    print(f"Staged {len(tracks)} MP3s; published {len(VERIFIED)} verified Lesson 01–04 tracks; {len(tracks)-len(VERIFIED)} pending mapping.")
 
 
 if __name__ == "__main__":

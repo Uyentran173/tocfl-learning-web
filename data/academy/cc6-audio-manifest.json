@@ -543,9 +543,16 @@
       "privatePath": "textbook/04-01.mp3",
       "bytes": 1407303,
       "sha256": "e5037cb633559ac369ff1d0a2891eb9994f2607890e82c5bb525a52569d1d045",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        96
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 96,
+        "bookPage": 73,
+        "labelVi": "Tóm tắt và mở đầu Bài 04",
+        "referenceCode": "04-01"
+      }
     },
     {
       "id": "cc6-textbook-l04-t02",
@@ -558,9 +565,16 @@
       "privatePath": "textbook/04-02.mp3",
       "bytes": 3940554,
       "sha256": "c8bfbab45316d7c8ce7f138608803793e490808652285b7547a37f575bbec9f0",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        97
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 97,
+        "bookPage": 74,
+        "labelVi": "Bài đọc 1: 黑幼龍傳授4大獨門做人心法 (I)",
+        "referenceCode": "04-02"
+      }
     },
     {
       "id": "cc6-textbook-l04-t03",
@@ -573,9 +587,16 @@
       "privatePath": "textbook/04-03.mp3",
       "bytes": 3507130,
       "sha256": "77b1cb56568c2f201d72e88ed0cf163cb8f4d794e56e1f41eaf26b37df29e8d6",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        98
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 98,
+        "bookPage": 75,
+        "labelVi": "Từ vựng tóm tắt và bài đọc 1",
+        "referenceCode": "04-03"
+      }
     },
     {
       "id": "cc6-textbook-l04-t04",
@@ -588,9 +609,16 @@
       "privatePath": "textbook/04-04.mp3",
       "bytes": 3114666,
       "sha256": "11210ebad6c83bffc1de39fcc56a91439ccb8e0ecaba5a8a6d37f4f1da7b823a",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        106
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 106,
+        "bookPage": 83,
+        "labelVi": "Phân biệt từ dễ nhầm bài đọc 1",
+        "referenceCode": "04-04"
+      }
     },
     {
       "id": "cc6-textbook-l04-t05",
@@ -603,9 +631,16 @@
       "privatePath": "textbook/04-05.mp3",
       "bytes": 3768772,
       "sha256": "4e2bc0854c5db7a454fe6035c3f29ac1a286257e1136fc637e01a62954ccc170",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        109
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 109,
+        "bookPage": 86,
+        "labelVi": "Bài đọc 2: 黑幼龍傳授4大獨門做人心法 (II)",
+        "referenceCode": "04-05"
+      }
     },
     {
       "id": "cc6-textbook-l04-t06",
@@ -618,9 +653,16 @@
       "privatePath": "textbook/04-06.mp3",
       "bytes": 3068273,
       "sha256": "2215de3e15689bba6ff64388b6927573f007fbd64625e0ebe3fb9670d91ad67e",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        110
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 110,
+        "bookPage": 87,
+        "labelVi": "Từ vựng bài đọc 2",
+        "referenceCode": "04-06"
+      }
     },
     {
       "id": "cc6-textbook-l04-t07",
@@ -633,9 +675,16 @@
       "privatePath": "textbook/04-07.mp3",
       "bytes": 2852188,
       "sha256": "d6e42773482eb771335e24a26862b7757dea075dd4d63027d141f1b18f5a5bf9",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        117
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 117,
+        "bookPage": 94,
+        "labelVi": "Phân biệt từ dễ nhầm bài đọc 2",
+        "referenceCode": "04-07"
+      }
     },
     {
       "id": "cc6-textbook-l04-t08",
@@ -648,9 +697,16 @@
       "privatePath": "textbook/04-08.mp3",
       "bytes": 2218562,
       "sha256": "db155b157e504250a2babaf0654907eeae2ea78a905036f42826203684af78e2",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        119
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 119,
+        "bookPage": 96,
+        "labelVi": "Bài đọc bổ sung: 好態度帶來好機緣",
+        "referenceCode": "04-08"
+      }
     },
     {
       "id": "cc6-textbook-l04-t09",
@@ -663,9 +719,16 @@
       "privatePath": "textbook/04-09.mp3",
       "bytes": 1626732,
       "sha256": "f4400f5ef8021393a7003a7ca3ef3aab1187ef7bd57e93b0d62071f6052f0db7",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        120
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 120,
+        "bookPage": 97,
+        "labelVi": "Từ vựng bài đọc bổ sung",
+        "referenceCode": "04-09"
+      }
     },
     {
       "id": "cc6-textbook-l04-t10",
@@ -678,9 +741,16 @@
       "privatePath": "textbook/04-10.mp3",
       "bytes": 1613357,
       "sha256": "5ab52a7b21fb1e1099e532248988440c0559178c645faa7aabdfc993a783b267",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        120
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 120,
+        "bookPage": 97,
+        "labelVi": "Phân biệt từ dễ nhầm bài đọc bổ sung",
+        "referenceCode": "04-10"
+      }
     },
     {
       "id": "cc6-textbook-l05-t01",

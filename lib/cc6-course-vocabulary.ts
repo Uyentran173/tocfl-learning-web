@@ -1,6 +1,7 @@
 import source from "../data/academy/cc6-lesson01-vocabulary.json" with { type: "json" };
 import lesson02Source from "../data/academy/cc6-lesson02-vocabulary.json" with { type: "json" };
 import lesson03Source from "../data/academy/cc6-lesson03-vocabulary.json" with { type: "json" };
+import lesson04Source from "../data/academy/cc6-lesson04-vocabulary.json" with { type: "json" };
 import { cc1Lesson01Words } from "./cc1-lesson01-vocabulary.ts";
 import { cc1CourseVocabularySets } from "./cc1-course-vocabulary.ts";
 import { cc2VocabularySets } from "./cc2-course-vocabulary.ts";
@@ -76,6 +77,27 @@ export const cc6Lesson03Words: VocabularyWord[] = lesson03Source.records.map((re
     translation: record.exampleVi,
   });
 
+export const cc6Lesson04Words: VocabularyWord[] = lesson04Source.records.map((record) =>
+  [...previousWords, ...cc6Lesson01Words, ...cc6Lesson02Words, ...cc6Lesson03Words].find((word) =>
+    word.traditional === record.traditional && normalized(word.pinyin) === normalized(record.pinyin) &&
+    (word.wordClass === record.wordClass || word.meaning === record.meaningVi),
+  ) ?? {
+    id: record.id,
+    source: "textbook",
+    sourceRecordId: record.id,
+    sourceLabel: "Giáo trình tiếng Hoa đương đại · Tập 6 · Bài 04",
+    hanzi: record.traditional,
+    traditional: record.traditional,
+    simplified: record.simplified,
+    pinyin: record.pinyin,
+    meaning: record.meaningVi,
+    wordClass: record.wordClass,
+    example: record.exampleTraditional,
+    exampleTraditional: record.exampleTraditional,
+    exampleSimplified: record.exampleSimplified,
+    translation: record.exampleVi,
+  });
+
 export const cc6VocabularySets: VocabularySet[] = [{
   id: "cc6-v6-l01", title: "Bài 01 · 職校教育", subtitle: "Giáo dục nghề",
   words: cc6Lesson01Words,
@@ -85,4 +107,7 @@ export const cc6VocabularySets: VocabularySet[] = [{
 }, {
   id: "cc6-v6-l03", title: "Bài 03 · 舞蹈藝術", subtitle: "Nghệ thuật múa",
   words: cc6Lesson03Words,
+}, {
+  id: "cc6-v6-l04", title: "Bài 04 · 做人心法", subtitle: "Cách ứng xử",
+  words: cc6Lesson04Words,
 }];

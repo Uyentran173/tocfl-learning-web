@@ -10,10 +10,12 @@ import lesson02 from '../data/academy/cc6-lesson02.json' with { type: 'json' };
 import vocabulary02 from '../data/academy/cc6-lesson02-vocabulary.json' with { type: 'json' };
 import lesson03 from '../data/academy/cc6-lesson03.json' with { type: 'json' };
 import vocabulary03 from '../data/academy/cc6-lesson03-vocabulary.json' with { type: 'json' };
+import lesson04 from '../data/academy/cc6-lesson04.json' with { type: 'json' };
+import vocabulary04 from '../data/academy/cc6-lesson04-vocabulary.json' with { type: 'json' };
 import manifest from '../data/academy/cc6-audio-manifest.json' with { type: 'json' };
 import report from '../data/academy/cc6-mapping-report.json' with { type: 'json' };
 import reviewed from '../data/academy/cc6-reviewed-content.json' with { type: 'json' };
-import { academyVolume6Lesson01, academyVolume6Lesson02, academyVolume6Lesson03, academyVocabularyByIds, validateAcademyLessonContent } from '../lib/academy-catalog.ts';
+import { academyVolume6Lesson01, academyVolume6Lesson02, academyVolume6Lesson03, academyVolume6Lesson04, academyVocabularyByIds, validateAcademyLessonContent } from '../lib/academy-catalog.ts';
 
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 
@@ -65,24 +67,37 @@ test('Volume 6 Lesson 03 contains reviewed readings, vocabulary, grammar and ass
   assert.equal(lesson03.assessment.length, 10);
 });
 
-test('all 77 MP3s are accounted for; only the 23 source-verified Lesson 01–03 tracks are published', () => {
+test('Volume 6 Lesson 04 contains the two readings, supplementary text and reviewed learning activities', () => {
+  assert.ok(validateAcademyLessonContent(academyVolume6Lesson04));
+  assert.equal(lesson04.id, 'cc6-v6-l04');
+  assert.deepEqual(lesson04.lecture.dialogues.map((item) => item.turns.length), [5, 5, 2]);
+  assert.equal(vocabulary04.records.length, 85);
+  assert.equal(academyVocabularyByIds(academyVolume6Lesson04.vocabulary.wordIds).length, 85);
+  assert.ok(vocabulary04.records.every((item) => item.exampleTraditional.includes(item.traditional)));
+  assert.equal(lesson04.grammar.length, 11);
+  assert.equal(lesson04.listening.length, 4);
+  assert.equal(lesson04.practice.length, 8);
+  assert.equal(lesson04.assessment.length, 10);
+});
+
+test('all 77 MP3s are accounted for; only the 33 source-verified Lesson 01–04 tracks are published', () => {
   assert.equal(manifest.tracks.length, 77);
   assert.equal(new Set(manifest.tracks.map((item) => item.originalName)).size, 77);
-  assert.equal(manifest.tracks.filter((item) => item.mappingStatus === 'verified').length, 23);
-  assert.equal(manifest.tracks.filter((item) => item.mappingStatus === 'pending').length, 54);
+  assert.equal(manifest.tracks.filter((item) => item.mappingStatus === 'verified').length, 33);
+  assert.equal(manifest.tracks.filter((item) => item.mappingStatus === 'pending').length, 44);
   assert.equal(report.sourceTrackCount, manifest.tracks.length);
-  assert.equal(report.pendingTrackCount, 54);
-  assert.deepEqual(report.publishedLessonIds, ['cc6-v6-l01', 'cc6-v6-l02', 'cc6-v6-l03']);
+  assert.equal(report.pendingTrackCount, 44);
+  assert.deepEqual(report.publishedLessonIds, ['cc6-v6-l01', 'cc6-v6-l02', 'cc6-v6-l03', 'cc6-v6-l04']);
   assert.equal(manifest.tracks.find((item) => item.originalName === '00.mp3').mappingStatus, 'pending');
   for (const track of manifest.tracks.filter((item) => item.mappingStatus === 'verified')) {
-    assert.ok([1, 2, 3].includes(track.lesson));
+    assert.ok([1, 2, 3, 4].includes(track.lesson));
     assert.equal(track.pdfPages.length, 1);
     assert.equal(track.activity.referenceCode, track.originalName.slice(0, -4));
     const file = path.join(root, 'public/academy/cc6/audio', `${track.id}.mp3`);
     assert.ok(statSync(file).size > 1000, track.id);
     assert.equal(createHash('sha256').update(readFileSync(file)).digest('hex'), track.sha256, track.id);
   }
-  for (const dialogue of [...lesson.lecture.dialogues, ...lesson02.lecture.dialogues, ...lesson03.lecture.dialogues]) {
+  for (const dialogue of [...lesson.lecture.dialogues, ...lesson02.lecture.dialogues, ...lesson03.lecture.dialogues, ...lesson04.lecture.dialogues]) {
     assert.ok(manifest.tracks.some((item) => item.id === dialogue.audioTrackId && item.mappingStatus === 'verified'));
     assert.ok(reviewed[dialogue.audioTrackId].transcriptTraditional.includes(dialogue.turns[0].chinese));
     assert.ok(reviewed[dialogue.audioTrackId].translationVi.includes(dialogue.turns[0].meaningVi));

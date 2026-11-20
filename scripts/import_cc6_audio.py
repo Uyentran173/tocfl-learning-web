@@ -1,4 +1,4 @@
-"""Stage Volume 6 textbook audio and publish source-verified Lesson 1–5 tracks.
+"""Stage Volume 6 textbook audio and publish source-verified Lesson 1–6 tracks.
 
 Usage: python3 scripts/import_cc6_audio.py TEXTBOOK_PDF WORKBOOK_PDF AUDIO_ZIP
 The archive's original directory names are ignored; only numbered MP3 basenames are used.
@@ -62,6 +62,13 @@ VERIFIED = {
     "05-05": (135, "Bài đọc 2: 在歐洲，英文不等於「國際共通語言」（II）"),
     "05-06": (136, "Từ vựng bài đọc 2"),
     "05-07": (143, "Phân biệt từ dễ nhầm bài đọc 2"),
+    "06-01": (146, "Tóm tắt và mở đầu Bài 06"),
+    "06-02": (147, "Bài đọc 1: 貓熊出訪角色 · 由政轉商 (I)"),
+    "06-03": (148, "Từ vựng tóm tắt và bài đọc 1"),
+    "06-04": (158, "Phân biệt từ dễ nhầm bài đọc 1"),
+    "06-05": (159, "Bài đọc 2: 貓熊出訪角色 · 由政轉商 (II)"),
+    "06-06": (161, "Từ vựng bài đọc 2"),
+    "06-07": (165, "Phân biệt từ dễ nhầm bài đọc 2"),
 }
 
 
@@ -133,13 +140,13 @@ def main() -> None:
     report = {
         "courseId": "cc6", "volume": 6, "sourceTrackCount": len(tracks),
         "verifiedTrackCount": len(VERIFIED), "pendingTrackCount": len(tracks) - len(VERIFIED),
-        "publishedLessonIds": [f"cc6-v6-l{n:02d}" for n in range(1, 6)],
-        "pendingLessonIds": [f"cc6-v6-l{n:02d}" for n in range(6, 11)],
+        "publishedLessonIds": [f"cc6-v6-l{n:02d}" for n in range(1, 7)],
+        "pendingLessonIds": [f"cc6-v6-l{n:02d}" for n in range(7, 11)],
         "unassignedTrackIds": [track["id"] for track in tracks if track["lesson"] is None],
-        "reason": "Lessons 01–05 printed audio reference codes and lesson content were checked against the source PDF. Remaining lessons are staged pending source verification.",
+        "reason": "Lessons 01–06 printed audio reference codes and lesson content were checked against the source PDF. Remaining lessons are staged pending source verification.",
     }
     REPORT.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n")
-    print(f"Staged {len(tracks)} MP3s; published {len(VERIFIED)} verified Lesson 01–05 tracks; {len(tracks)-len(VERIFIED)} pending mapping.")
+    print(f"Staged {len(tracks)} MP3s; published {len(VERIFIED)} verified Lesson 01–06 tracks; {len(tracks)-len(VERIFIED)} pending mapping.")
 
 
 if __name__ == "__main__":

@@ -917,9 +917,16 @@
       "privatePath": "textbook/06-01.mp3",
       "bytes": 1424439,
       "sha256": "4571d6dfe58290e8675fd27abea416cb1dd3ea96e6fd552a1310c700e8b0269a",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        146
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 146,
+        "bookPage": 123,
+        "labelVi": "Tóm tắt và mở đầu Bài 06",
+        "referenceCode": "06-01"
+      }
     },
     {
       "id": "cc6-textbook-l06-t02",
@@ -932,9 +939,16 @@
       "privatePath": "textbook/06-02.mp3",
       "bytes": 3560629,
       "sha256": "1aca0b52f2c1b9322baf2a453fcf1905d48d6451ba0b49f0998ce7bff7046768",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        147
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 147,
+        "bookPage": 124,
+        "labelVi": "Bài đọc 1: 貓熊出訪角色 · 由政轉商 (I)",
+        "referenceCode": "06-02"
+      }
     },
     {
       "id": "cc6-textbook-l06-t03",
@@ -947,9 +961,16 @@
       "privatePath": "textbook/06-03.mp3",
       "bytes": 4706255,
       "sha256": "634e50dcb431578c9f903a381683aa7b821b44832612894679b9495a76c19a1e",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        148
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 148,
+        "bookPage": 125,
+        "labelVi": "Từ vựng tóm tắt và bài đọc 1",
+        "referenceCode": "06-03"
+      }
     },
     {
       "id": "cc6-textbook-l06-t04",
@@ -962,9 +983,16 @@
       "privatePath": "textbook/06-04.mp3",
       "bytes": 1611685,
       "sha256": "e0ba3a2c2a8114e09b44d7db1e53fe59e77a744532ebc508db7d1d79b24cf997",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        158
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 158,
+        "bookPage": 135,
+        "labelVi": "Phân biệt từ dễ nhầm bài đọc 1",
+        "referenceCode": "06-04"
+      }
     },
     {
       "id": "cc6-textbook-l06-t05",
@@ -977,9 +1005,16 @@
       "privatePath": "textbook/06-05.mp3",
       "bytes": 4331763,
       "sha256": "c8701189b19b058cfae1c07e1985e76532cb45aa85dda38ece1894b931469fa2",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        159
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 159,
+        "bookPage": 136,
+        "labelVi": "Bài đọc 2: 貓熊出訪角色 · 由政轉商 (II)",
+        "referenceCode": "06-05"
+      }
     },
     {
       "id": "cc6-textbook-l06-t06",
@@ -992,9 +1027,16 @@
       "privatePath": "textbook/06-06.mp3",
       "bytes": 3846931,
       "sha256": "ee451884f19f0a4b5efdc5a329a8122acbaf52c33e593a43a762821b5878e4ce",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        161
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 161,
+        "bookPage": 138,
+        "labelVi": "Từ vựng bài đọc 2",
+        "referenceCode": "06-06"
+      }
     },
     {
       "id": "cc6-textbook-l06-t07",
@@ -1007,9 +1049,16 @@
       "privatePath": "textbook/06-07.mp3",
       "bytes": 2943721,
       "sha256": "bde9e8a08f156d2d8bc6bf893b032a8f31f801dd7d5738d2d646b734a4acb0cc",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        165
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 165,
+        "bookPage": 142,
+        "labelVi": "Phân biệt từ dễ nhầm bài đọc 2",
+        "referenceCode": "06-07"
+      }
     },
     {
       "id": "cc6-textbook-l07-t01",

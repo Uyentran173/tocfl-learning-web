@@ -1,0 +1,1316 @@
+{
+  "contentVersion": 2,
+  "id": "cc6-v6-l06",
+  "title": "貓熊角色",
+  "titleVi": "Vai trò của gấu trúc",
+  "description": "Hai bài đọc theo dấu ngoại giao gấu trúc, sự chuyển sang cho thuê và những thách thức bảo tồn.",
+  "objectives": [
+    "Trình bày các giai đoạn gấu trúc được tặng, cho thuê và bảo tồn.",
+    "Giải thích được tác động của lợi ích thương mại đến việc bảo vệ gấu trúc.",
+    "Dùng đúng các mẫu 由X轉Y、追溯至、改由 và 以X的名義."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Bài đọc 1 nói về lịch sử “ngoại giao gấu trúc”. Bài đọc 2 theo dõi sự chuyển từ tặng sang cho thuê và tranh luận về bảo tồn.",
+    "sections": [
+      {
+        "id": "cc6-v6-l06-section-01",
+        "title": "Từ quà tặng đến sứ giả ngoại giao",
+        "body": "Bài đọc nêu các mốc lịch sử và lý do gấu trúc được đưa ra nước ngoài.",
+        "chinese": "貓熊自此開始以外交使者身分，被贈送到各國。",
+        "simplified": "猫熊自此开始以外交使者身分，被赠送到各国。",
+        "pinyin": "māo xióng zì cǐ kāi shǐ yǐ wài jiāo shǐ zhě shēn fèn ， bèi zèng sòng dào gè guó 。",
+        "meaningVi": "Từ đó gấu trúc bắt đầu được tặng cho các nước với tư cách sứ giả ngoại giao."
+      },
+      {
+        "id": "cc6-v6-l06-section-02",
+        "title": "Khi việc cho thuê có lợi nhuận",
+        "body": "Tiền thuê lớn khiến hoạt động này mang màu sắc thương mại và gây tranh cãi.",
+        "chinese": "這也從此打開貓熊商業租借的大門。",
+        "simplified": "这也从此打开猫熊商业租借的大门。",
+        "pinyin": "zhè yě cóng cǐ dǎ kāi māo xióng shāng yè zū jiè de dà mén 。",
+        "meaningVi": "Việc này mở đường cho cho thuê gấu trúc vì mục đích thương mại."
+      },
+      {
+        "id": "cc6-v6-l06-section-03",
+        "title": "Bảo tồn và thích nghi với tự nhiên",
+        "body": "Thả gấu trúc nuôi nhốt về tự nhiên là mục tiêu nghiên cứu nhưng còn nhiều khó khăn.",
+        "chinese": "至今圈養貓熊仍然無法適應野外生活。",
+        "simplified": "至今圈养猫熊仍然无法适应野外生活。",
+        "pinyin": "zhì jīn quān yǎng māo xióng réng rán wú fǎ shì yīng yě wài shēng huó 。",
+        "meaningVi": "Đến nay gấu trúc nuôi nhốt vẫn chưa thích nghi được với đời sống hoang dã."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc6-v6-l06-reading1",
+        "title": "課文一 · 貓熊出訪角色 · 由政轉商（I）",
+        "context": "Lịch sử ngoại giao gấu trúc và các lần tặng, trao đổi.",
+        "audioTrackId": "cc6-textbook-l06-t02",
+        "turns": [
+          {
+            "speaker": "Đoạn 1",
+            "chinese": "貓熊「甜甜」當選2011年BBC選出的十大風雲女性，今年美國全程直播貓熊「美香」產下雙胞胎，台灣「圓仔」睜眼登上新聞頭條，可見貓熊人見人愛。英國媒體認為，這將成為數位化時代的「新貓熊外交」。",
+            "simplified": "猫熊「甜甜」当选2011年BBC选出的十大风云女性，今年美国全程直播猫熊「美香」产下双胞胎，台湾「圆仔」睁眼登上新闻头条，可见猫熊人见人爱。英国媒体认为，这将成为数位化时代的「新猫熊外交」。",
+            "pinyin": "māo xióng 「 tián tián 」 dāng xuǎn 2 0 1 1 nián B B C xuǎn chū de shí dà fēng yún nǚ xìng ， jīn nián měi guó quán chéng zhí bō māo xióng 「 měi xiāng 」 chǎn xià shuāng bāo tāi ， tái wān 「 yuán zǎi 」 zhēng yǎn dēng shàng xīn wén tóu tiáo ， kě jiàn māo xióng rén jiàn rén ài 。 yīng guó méi tǐ rèn wèi ， zhè jiāng chéng wèi shù wèi huà shí dài de 「 xīn māo xióng wài jiāo 」 。",
+            "meaningVi": "Gấu trúc “Điềm Điềm” được BBC chọn vào danh sách mười phụ nữ nổi bật năm 2011. Năm nay, Mỹ truyền hình trực tiếp cảnh gấu trúc “Mỹ Hương” sinh đôi; ở Đài Loan, tin “Viên Tử” mở mắt cũng lên trang nhất. Gấu trúc quả là được mọi người yêu mến. Theo truyền thông Anh, đây sẽ là một kiểu “ngoại giao gấu trúc mới” trong thời đại số."
+          },
+          {
+            "speaker": "Đoạn 2",
+            "chinese": "貓熊外交可追溯至唐朝。無論何時何地，貓熊總是征服人心的大明星。中國「貓熊外交」的歷史可以追溯到西元685年唐代女皇武則天時期，當時武則天贈送二隻貓熊給日本天武天皇，是歷史記載最早的「貓熊外交」。",
+            "simplified": "猫熊外交可追溯至唐朝。无论何时何地，猫熊总是征服人心的大明星。中国「猫熊外交」的历史可以追溯到西元685年唐代女皇武则天时期，当时武则天赠送二只猫熊给日本天武天皇，是历史记载最早的「猫熊外交」。",
+            "pinyin": "māo xióng wài jiāo kě zhuī sù zhì táng cháo 。 wú lùn hé shí hé dì ， māo xióng zǒng shì zhēng fú rén xīn de dà míng xīng 。 zhōng guó 「 māo xióng wài jiāo 」 de lì shǐ kě yǐ zhuī sù dào xī yuán 6 8 5 nián táng dài nǚ huáng wǔ zé tiān shí qī ， dāng shí wǔ zé tiān zèng sòng èr zhī māo xióng gěi rì běn tiān wǔ tiān huáng ， shì lì shǐ jì zài zuì zǎo de 「 māo xióng wài jiāo 」 。",
+            "meaningVi": "Ngoại giao gấu trúc có thể truy về thời Đường. Ở đâu, vào thời nào, gấu trúc cũng là ngôi sao chinh phục lòng người. Lịch sử “ngoại giao gấu trúc” của Trung Quốc có thể truy đến năm 685, dưới triều nữ hoàng Võ Tắc Thiên: bà tặng hai con gấu trúc cho Thiên hoàng Tenmu của Nhật Bản. Đây là trường hợp sớm nhất được sử sách ghi lại."
+          },
+          {
+            "speaker": "Đoạn 3",
+            "chinese": "從西元685年到1982年，中國一共向國外贈送了約40隻貓熊。1941年，當時的總統夫人宋美齡贈送美國一對貓熊，以表救濟中國難民的謝意，貓熊自此開始以外交使者身分，被贈送到各國。",
+            "simplified": "从西元685年到1982年，中国一共向国外赠送了约40只猫熊。1941年，当时的总统夫人宋美龄赠送美国一对猫熊，以表救济中国难民的谢意，猫熊自此开始以外交使者身分，被赠送到各国。",
+            "pinyin": "cóng xī yuán 6 8 5 nián dào 1 9 8 2 nián ， zhōng guó yī gòng xiàng guó wài zèng sòng le yuē 4 0 zhī māo xióng 。 1 9 4 1 nián ， dāng shí de zǒng tǒng fū rén sòng měi líng zèng sòng měi guó yī duì māo xióng ， yǐ biǎo jiù jì zhōng guó nán mín de xiè yì ， māo xióng zì cǐ kāi shǐ yǐ wài jiāo shǐ zhě shēn fèn ， bèi zèng sòng dào gè guó 。",
+            "meaningVi": "Từ năm 685 đến 1982, Trung Quốc đã tặng nước ngoài khoảng 40 con gấu trúc. Năm 1941, phu nhân tổng thống khi ấy là Tống Mỹ Linh tặng Mỹ một đôi gấu trúc để bày tỏ lòng biết ơn về việc cứu trợ người tị nạn Trung Quốc. Từ đó, gấu trúc bắt đầu được tặng cho các nước với tư cách sứ giả ngoại giao."
+          },
+          {
+            "speaker": "Đoạn 4",
+            "chinese": "1949年中共取得政權後熱衷於「貓熊外交」，將貓熊贈送給各個友好、或欲建立友好關係的國家，這時期「出訪」的貓熊，相當具有政治意義。從1957年至1982年，共有23隻貓熊被贈送給蘇聯、北韓、美、日、法、德等九個國家，藉此促進雙邊的友好關係。",
+            "simplified": "1949年中共取得政权后热衷于「猫熊外交」，将猫熊赠送给各个友好、或欲建立友好关系的国家，这时期「出访」的猫熊，相当具有政治意义。从1957年至1982年，共有23只猫熊被赠送给苏联、北韩、美、日、法、德等九个国家，借此促进双边的友好关系。",
+            "pinyin": "1 9 4 9 nián zhōng gòng qǔ dé zhèng quán hòu rè zhōng yú 「 māo xióng wài jiāo 」 ， jiāng māo xióng zèng sòng gěi gè gè yǒu hǎo 、 huò yù jiàn lì yǒu hǎo guān xì de guó jiā ， zhè shí qī 「 chū fǎng 」 de māo xióng ， xiāng dāng jù yǒu zhèng zhì yì yì 。 cóng 1 9 5 7 nián zhì 1 9 8 2 nián ， gòng yǒu 2 3 zhī māo xióng bèi zèng sòng gěi sū lián 、 běi hán 、 měi 、 rì 、 fǎ 、 dé děng jiǔ gè guó jiā ， jí cǐ cù jìn shuāng biān de yǒu hǎo guān xì 。",
+            "meaningVi": "Sau khi Đảng Cộng sản Trung Quốc nắm chính quyền năm 1949, họ đặc biệt quan tâm đến “ngoại giao gấu trúc”, tặng gấu trúc cho những nước hữu nghị hoặc muốn thiết lập quan hệ hữu nghị. Những chuyến “thăm viếng” của gấu trúc thời ấy mang ý nghĩa chính trị rõ rệt. Từ năm 1957 đến 1982, 23 con gấu trúc được tặng cho chín nước, trong đó có Liên Xô, Bắc Triều Tiên, Mỹ, Nhật, Pháp và Đức, nhằm thúc đẩy quan hệ song phương."
+          },
+          {
+            "speaker": "Đoạn 5",
+            "chinese": "1956年至1957年，美國邁阿密稀有鳥類飼養場以及美國芝加哥動物園，分別向中國大陸表達希望以貨幣或動物交換一對貓熊的想法，中國大陸在1957年同意，但設下「雙方互派人員到對方動物園訪問並領取交換的動物」的條件，遭美國國務院以「不同意直接與中國進行動物交換」否決，因而作罷。",
+            "simplified": "1956年至1957年，美国迈阿密稀有鸟类饲养场以及美国芝加哥动物园，分别向中国大陆表达希望以货币或动物交换一对猫熊的想法，中国大陆在1957年同意，但设下「双方互派人员到对方动物园访问并领取交换的动物」的条件，遭美国国务院以「不同意直接与中国进行动物交换」否决，因而作罢。",
+            "pinyin": "1 9 5 6 nián zhì 1 9 5 7 nián ， měi guó mài ā mì xī yǒu niǎo lèi sì yǎng chǎng yǐ jí měi guó zhī jiā gē dòng wù yuán ， fēn bié xiàng zhōng guó dà lù biǎo dá xī wàng yǐ huò bì huò dòng wù jiāo huàn yī duì māo xióng de xiǎng fǎ ， zhōng guó dà lù zài 1 9 5 7 nián tóng yì ， dàn shè xià 「 shuāng fāng hù pài rén yuán dào duì fāng dòng wù yuán fǎng wèn bìng lǐng qǔ jiāo huàn de dòng wù 」 de tiáo jiàn ， zāo měi guó guó wù yuàn yǐ 「 bù tóng yì zhí jiē yǔ zhōng guó jìn xíng dòng wù jiāo huàn 」 fǒu jué ， yīn ér zuò bà 。",
+            "meaningVi": "Trong hai năm 1956–1957, trại nuôi chim quý ở Miami và vườn thú Chicago lần lượt đề nghị đổi tiền hoặc động vật lấy một đôi gấu trúc. Năm 1957, phía Trung Quốc đồng ý nhưng đặt điều kiện hai bên phải cử người đến thăm vườn thú của nhau và nhận động vật trao đổi. Bộ Ngoại giao Mỹ bác bỏ vì không đồng ý trao đổi động vật trực tiếp với Trung Quốc; kế hoạch vì thế bị hủy."
+          }
+        ]
+      },
+      {
+        "id": "cc6-v6-l06-reading2",
+        "title": "課文二 · 貓熊出訪角色 · 由政轉商（II）",
+        "context": "Cho thuê thương mại và nỗ lực bảo tồn.",
+        "audioTrackId": "cc6-textbook-l06-t05",
+        "turns": [
+          {
+            "speaker": "Đoạn 1",
+            "chinese": "不再為政治送貓熊。1972年2月21日，美國總統尼克森訪問中國大陸，當時大陸安排尼克森赴北京動物園參觀，也看了貓熊，在之後的一次宴會上，大陸總理周恩來表示將贈與美國二隻貓熊。",
+            "simplified": "不再为政治送猫熊。1972年2月21日，美国总统尼克森访问中国大陆，当时大陆安排尼克森赴北京动物园参观，也看了猫熊，在之后的一次宴会上，大陆总理周恩来表示将赠与美国二只猫熊。",
+            "pinyin": "bù zài wèi zhèng zhì sòng māo xióng 。 1 9 7 2 nián 2 yuè 2 1 rì ， měi guó zǒng tǒng ní kè sēn fǎng wèn zhōng guó dà lù ， dāng shí dà lù ān pái ní kè sēn fù běi jīng dòng wù yuán cān guān ， yě kàn le māo xióng ， zài zhī hòu de yī cì yàn huì shàng ， dà lù zǒng lǐ zhōu ēn lái biǎo shì jiāng zèng yǔ měi guó èr zhī māo xióng 。",
+            "meaningVi": "Không còn tặng gấu trúc vì mục đích chính trị. Ngày 21 tháng 2 năm 1972, Tổng thống Mỹ Nixon thăm Trung Quốc. Phía Trung Quốc sắp xếp cho ông đến vườn thú Bắc Kinh xem gấu trúc. Trong một buổi tiệc sau đó, Thủ tướng Chu Ân Lai nói sẽ tặng Mỹ hai con gấu trúc."
+          },
+          {
+            "speaker": "Đoạn 2",
+            "chinese": "1972年4月，「玲玲」與「興興」抵達美國華盛頓國家動物園時，約8,000名美國民眾冒雨迎接，首次見客就吸引了2萬名遊客，第一個月，參觀者就達100多萬人次。",
+            "simplified": "1972年4月，「玲玲」与「兴兴」抵达美国华盛顿国家动物园时，约8,000名美国民众冒雨迎接，首次见客就吸引了2万名游客，第一个月，参观者就达100多万人次。",
+            "pinyin": "1 9 7 2 nián 4 yuè ， 「 líng líng 」 yǔ 「 xìng xìng 」 dǐ dá měi guó huá shèng dùn guó jiā dòng wù yuán shí ， yuē 8 , 0 0 0 míng měi guó mín zhòng mào yǔ yíng jiē ， shǒu cì jiàn kè jiù xī yǐn le 2 wàn míng yóu kè ， dì yī gè yuè ， cān guān zhě jiù dá 1 0 0 duō wàn rén cì 。",
+            "meaningVi": "Tháng 4 năm 1972, khi “Linh Linh” và “Hưng Hưng” đến Vườn thú Quốc gia ở Washington, khoảng 8.000 người Mỹ đội mưa đón chúng. Ngay ngày đầu ra mắt, hai con gấu trúc thu hút 20.000 khách; trong tháng đầu, số lượt tham quan đã vượt một triệu."
+          },
+          {
+            "speaker": "Đoạn 3",
+            "chinese": "但到1982年，中共當局宣布開始停止贈送貓熊，改由「租借」或「科技交流」方式讓貓熊出國，傳統的政治性「貓熊外交」時代宣告結束。不過，1982年後，大陸政府還是先後贈送台灣與港澳貓熊。",
+            "simplified": "但到1982年，中共当局宣布开始停止赠送猫熊，改由「租借」或「科技交流」方式让猫熊出国，传统的政治性「猫熊外交」时代宣告结束。不过，1982年后，大陆政府还是先后赠送台湾与港澳猫熊。",
+            "pinyin": "dàn dào 1 9 8 2 nián ， zhōng gòng dāng jú xuān bù kāi shǐ tíng zhǐ zèng sòng māo xióng ， gǎi yóu 「 zū jiè 」 huò 「 kē jì jiāo liú 」 fāng shì ràng māo xióng chū guó ， chuán tǒng de zhèng zhì xìng 「 māo xióng wài jiāo 」 shí dài xuān gào jié shù 。 bù guò ， 1 9 8 2 nián hòu ， dà lù zhèng fǔ hái shì xiān hòu zèng sòng tái wān yǔ gǎng ào māo xióng 。",
+            "meaningVi": "Đến năm 1982, chính quyền Trung Quốc tuyên bố ngừng tặng gấu trúc, chuyển sang cho chúng ra nước ngoài theo hình thức “cho thuê” hoặc “trao đổi khoa học kỹ thuật”. Kỷ nguyên “ngoại giao gấu trúc” mang tính chính trị truyền thống kết thúc. Tuy vậy, sau năm 1982, chính phủ Trung Quốc vẫn lần lượt tặng gấu trúc cho Đài Loan, Hồng Kông và Ma Cao."
+          },
+          {
+            "speaker": "Đoạn 4",
+            "chinese": "1984年美國洛杉磯奧運會期間，中國大陸將貓熊「永永」和「迎新」臨時租借給洛杉磯動物園，進行為期三個月的巡展。在洛杉磯奧運會結束後，「永永」和「迎新」又被租借給舊金山動物園三個月，這項租借契約讓舊金山動物園付出高額的租金，有利可圖下，這也從此打開貓熊商業租借的大門。",
+            "simplified": "1984年美国洛杉矶奥运会期间，中国大陆将猫熊「永永」和「迎新」临时租借给洛杉矶动物园，进行为期三个月的巡展。在洛杉矶奥运会结束后，「永永」和「迎新」又被租借给旧金山动物园三个月，这项租借契约让旧金山动物园付出高额的租金，有利可图下，这也从此打开猫熊商业租借的大门。",
+            "pinyin": "1 9 8 4 nián měi guó luò shān jī ào yùn huì qī jiān ， zhōng guó dà lù jiāng māo xióng 「 yǒng yǒng 」 hé 「 yíng xīn 」 lín shí zū jiè gěi luò shān jī dòng wù yuán ， jìn xíng wèi qī sān gè yuè de xún zhǎn 。 zài luò shān jī ào yùn huì jié shù hòu ， 「 yǒng yǒng 」 hé 「 yíng xīn 」 yòu bèi zū jiè gěi jiù jīn shān dòng wù yuán sān gè yuè ， zhè xiàng zū jiè qì yuē ràng jiù jīn shān dòng wù yuán fù chū gāo é de zū jīn ， yǒu lì kě tú xià ， zhè yě cóng cǐ dǎ kāi māo xióng shāng yè zū jiè de dà mén 。",
+            "meaningVi": "Trong thời gian Thế vận hội Los Angeles năm 1984, Trung Quốc tạm cho Vườn thú Los Angeles thuê “Vĩnh Vĩnh” và “Nghênh Tân” để trưng bày lưu động ba tháng. Sau Thế vận hội, hai con tiếp tục được Vườn thú San Francisco thuê ba tháng. Hợp đồng khiến vườn thú này trả khoản tiền thuê rất cao; nhận thấy có lợi nhuận, hoạt động cho thuê gấu trúc vì mục đích thương mại từ đó bắt đầu."
+          },
+          {
+            "speaker": "Đoạn 5",
+            "chinese": "貓熊在沾染商業租借色彩後，國際關於動物保護的另一波拉鋸又再開始。由於租借貓熊對出租方及租借方都帶來可觀的資金收益，中國大陸的林業部門和動物園不斷地在保護貓熊的名義下，大量捕捉野生貓熊。",
+            "simplified": "猫熊在沾染商业租借色彩后，国际关于动物保护的另一波拉锯又再开始。由于租借猫熊对出租方及租借方都带来可观的资金收益，中国大陆的林业部门和动物园不断地在保护猫熊的名义下，大量捕捉野生猫熊。",
+            "pinyin": "māo xióng zài zhān rǎn shāng yè zū jiè sè cǎi hòu ， guó jì guān yú dòng wù bǎo hù de lìng yī bō lā jù yòu zài kāi shǐ 。 yóu yú zū jiè māo xióng duì chū zū fāng jí zū jiè fāng dōu dài lái kě guān de zī jīn shōu yì ， zhōng guó dà lù de lín yè bù mén hé dòng wù yuán bù duàn dì zài bǎo hù māo xióng de míng yì xià ， dà liàng bǔ zhuō yě shēng māo xióng 。",
+            "meaningVi": "Khi việc cho thuê gấu trúc mang màu sắc thương mại, tranh cãi quốc tế về bảo vệ động vật lại bùng lên. Việc cho thuê đem lại nguồn thu đáng kể cho cả bên cho thuê lẫn bên thuê. Vì thế, dưới danh nghĩa bảo vệ gấu trúc, cơ quan lâm nghiệp và các vườn thú ở Trung Quốc liên tục bắt nhiều gấu trúc hoang dã."
+          },
+          {
+            "speaker": "Đoạn 6",
+            "chinese": "觀光和商業收益驚人，多國租借貓熊。1990年代初，許多環境保護團體開始呼籲抵制貓熊租借。在壓力下，美國聯邦漁業和野生動物管理局禁止商業目的的貓熊租借，中國大陸之後也宣布停止商業目的的貓熊出租，各國動物園改以「繁殖」或「保護」的名義向大陸租借貓熊。",
+            "simplified": "观光和商业收益惊人，多国租借猫熊。1990年代初，许多环境保护团体开始呼吁抵制猫熊租借。在压力下，美国联邦渔业和野生动物管理局禁止商业目的的猫熊租借，中国大陆之后也宣布停止商业目的的猫熊出租，各国动物园改以「繁殖」或「保护」的名义向大陆租借猫熊。",
+            "pinyin": "guān guāng hé shāng yè shōu yì jīng rén ， duō guó zū jiè māo xióng 。 1 9 9 0 nián dài chū ， xǔ duō huán jìng bǎo hù tuán tǐ kāi shǐ hū yù dǐ zhì māo xióng zū jiè 。 zài yā lì xià ， měi guó lián bāng yú yè hé yě shēng dòng wù guǎn lǐ jú jìn zhǐ shāng yè mù dì de māo xióng zū jiè ， zhōng guó dà lù zhī hòu yě xuān bù tíng zhǐ shāng yè mù dì de māo xióng chū zū ， gè guó dòng wù yuán gǎi yǐ 「 fán zhí 」 huò 「 bǎo hù 」 de míng yì xiàng dà lù zū jiè māo xióng 。",
+            "meaningVi": "Doanh thu du lịch và thương mại rất lớn khiến nhiều nước thuê gấu trúc. Đầu thập niên 1990, nhiều tổ chức môi trường kêu gọi tẩy chay việc này. Dưới áp lực đó, Cơ quan Cá và Động vật hoang dã Liên bang Mỹ cấm thuê gấu trúc vì mục đích thương mại. Sau đó, Trung Quốc cũng tuyên bố ngừng cho thuê vì mục đích này; các vườn thú các nước chuyển sang thuê với danh nghĩa “nhân giống” hoặc “bảo vệ”."
+          },
+          {
+            "speaker": "Đoạn 7",
+            "chinese": "目前，主要為保育貓熊設立的四川臥龍自然保護區經過多年研究，在保育貓熊方面取得明顯進展，不過為了避免貓熊過度近親交配，也希望增加野外貓熊數量，大陸近年積極研究將圈養貓熊野放，但就算經過訓練，至今圈養貓熊仍然無法適應野外生活，是目前貓熊保育的一大難題。",
+            "simplified": "目前，主要为保育猫熊设立的四川卧龙自然保护区经过多年研究，在保育猫熊方面取得明显进展，不过为了避免猫熊过度近亲交配，也希望增加野外猫熊数量，大陆近年积极研究将圈养猫熊野放，但就算经过训练，至今圈养猫熊仍然无法适应野外生活，是目前猫熊保育的一大难题。",
+            "pinyin": "mù qián ， zhǔ yào wèi bǎo yù māo xióng shè lì de sì chuān wò lóng zì rán bǎo hù qū jīng guò duō nián yán jiū ， zài bǎo yù māo xióng fāng miàn qǔ dé míng xiǎn jìn zhǎn ， bù guò wèi le bì miǎn māo xióng guò dù jìn qīn jiāo pèi ， yě xī wàng zēng jiā yě wài māo xióng shù liàng ， dà lù jìn nián jī jí yán jiū jiāng quān yǎng māo xióng yě fàng ， dàn jiù suàn jīng guò xùn liàn ， zhì jīn quān yǎng māo xióng réng rán wú fǎ shì yīng yě wài shēng huó ， shì mù qián māo xióng bǎo yù de yī dà nán tí 。",
+            "meaningVi": "Hiện nay, Khu bảo tồn thiên nhiên Ngọa Long ở Tứ Xuyên, được lập chủ yếu để bảo tồn gấu trúc, đã đạt tiến triển rõ rệt sau nhiều năm nghiên cứu. Để tránh giao phối cận huyết và tăng số lượng gấu trúc sống ngoài tự nhiên, gần đây Trung Quốc tích cực nghiên cứu thả gấu trúc nuôi nhốt về rừng. Tuy nhiên, dù được huấn luyện, đến nay chúng vẫn chưa thích nghi được với đời sống hoang dã. Đây là một khó khăn lớn của công tác bảo tồn."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc6-v6-l06-check-01",
+        "prompt": "Trường hợp “ngoại giao gấu trúc” sớm nhất được ghi lại vào thời nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Thời Đường, dưới triều Võ Tắc Thiên"
+          },
+          {
+            "id": "b",
+            "text": "Thời Tống"
+          },
+          {
+            "id": "c",
+            "text": "Thời hiện đại"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Bài đọc 1 nhắc năm 685 và Võ Tắc Thiên.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc6-v6-l06-check-02",
+        "prompt": "Vì sao Tống Mỹ Linh tặng Mỹ một đôi gấu trúc?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Để đổi lấy tiền thuê"
+          },
+          {
+            "id": "b",
+            "text": "Để mở triển lãm thương mại"
+          },
+          {
+            "id": "c",
+            "text": "Để cảm ơn việc cứu trợ người tị nạn Trung Quốc"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Bài viết dùng cụm 以表救濟中國難民的謝意.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc6-v6-l06-check-03",
+        "prompt": "Sau năm 1982, hình thức đưa gấu trúc ra nước ngoài thay đổi ra sao?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ngừng mọi chuyến đi nước ngoài"
+          },
+          {
+            "id": "b",
+            "text": "Chỉ bán gấu trúc cho sở thú"
+          },
+          {
+            "id": "c",
+            "text": "Chuyển từ tặng sang cho thuê hoặc trao đổi khoa học"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Bài đọc 2 viết 改由「租借」或「科技交流」方式.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc6-v6-l06-check-04",
+        "prompt": "Vì sao các tổ chức môi trường phản đối việc cho thuê gấu trúc?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Vì lợi ích thương mại kéo theo việc bắt nhiều gấu trúc hoang dã"
+          },
+          {
+            "id": "b",
+            "text": "Vì không có khách tham quan"
+          },
+          {
+            "id": "c",
+            "text": "Vì gấu trúc không ăn tre"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Bài đọc liên hệ nguồn thu với việc bắt gấu trúc dưới danh nghĩa bảo vệ.",
+        "skill": "Đọc hiểu"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem phiên âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc6-v6-l06-v001",
+      "cc6-v6-l06-v002",
+      "cc6-v6-l06-v003",
+      "cc6-v6-l06-v004",
+      "cc6-v6-l06-v005",
+      "cc6-v6-l06-v006",
+      "cc6-v6-l06-v007",
+      "cc6-v6-l06-v008",
+      "cc6-v6-l06-v009",
+      "cc6-v6-l06-v010",
+      "cc6-v6-l06-v011",
+      "cc6-v6-l06-v012",
+      "cc6-v6-l06-v013",
+      "cc6-v6-l06-v014",
+      "cc6-v6-l06-v015",
+      "cc6-v6-l06-v016",
+      "cc6-v6-l06-v017",
+      "cc6-v6-l06-v018",
+      "cc6-v6-l06-v019",
+      "cc6-v6-l06-v020",
+      "cc6-v6-l06-v021",
+      "cc6-v6-l06-v022",
+      "cc6-v6-l06-v023",
+      "cc6-v6-l06-v024",
+      "cc6-v6-l06-v025",
+      "cc6-v6-l06-v026",
+      "cc6-v6-l06-v027",
+      "cc6-v6-l06-v028",
+      "cc6-v6-l06-v029",
+      "cc6-v6-l06-v030",
+      "cc6-v6-l06-v031",
+      "cc6-v6-l06-v032",
+      "cc6-v6-l06-v033",
+      "cc6-v6-l06-v034",
+      "cc6-v6-l06-v035",
+      "cc6-v6-l06-v036",
+      "cc6-v6-l06-v037",
+      "cc6-v6-l06-v038",
+      "cc6-v6-l06-v039",
+      "cc6-v6-l06-v040",
+      "cc6-v6-l06-v041",
+      "cc6-v6-l06-v042",
+      "cc6-v6-l06-v043",
+      "cc6-v6-l06-v044",
+      "cc6-v6-l06-v045",
+      "cc6-v6-l06-v046",
+      "cc6-v6-l06-v047",
+      "cc6-v6-l06-v048",
+      "cc6-v6-l06-v049",
+      "cc6-v6-l06-v050",
+      "cc6-v6-l06-v051",
+      "cc6-v6-l06-v052",
+      "cc6-v6-l06-v053",
+      "cc6-v6-l06-v054",
+      "cc6-v6-l06-v055",
+      "cc6-v6-l06-v056",
+      "cc6-v6-l06-v057",
+      "cc6-v6-l06-v058",
+      "cc6-v6-l06-v059",
+      "cc6-v6-l06-v060",
+      "cc6-v6-l06-v061",
+      "cc6-v6-l06-v062",
+      "cc6-v6-l06-v063",
+      "cc6-v6-l06-v064",
+      "cc6-v6-l06-v065",
+      "cc6-v6-l06-v066",
+      "cc6-v6-l06-v067",
+      "cc6-v6-l06-v068",
+      "cc6-v6-l06-v069",
+      "cc6-v6-l06-v070",
+      "cc6-v6-l06-v071",
+      "cc6-v6-l06-v072",
+      "cc6-v6-l06-v073",
+      "cc6-v6-l06-v074",
+      "cc6-v6-l06-v075",
+      "cc6-v6-l06-v076",
+      "cc6-v6-l06-v077",
+      "cc6-v6-l06-v078",
+      "cc6-v6-l06-v079",
+      "cc6-v6-l06-v080",
+      "cc6-v6-l06-v081",
+      "cc6-v6-l06-v082",
+      "cc6-v6-l06-v083"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc6-textbook-l06-t03",
+        "label": "Từ vựng bài đọc 1"
+      },
+      {
+        "id": "cc6-textbook-l06-t06",
+        "label": "Từ vựng bài đọc 2"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc6-v6-l06-grammar-01",
+      "title": "由X轉Y",
+      "explanation": "Nêu sự chuyển từ trạng thái X sang Y. 由 đứng trước điểm xuất phát, 轉 đứng trước kết quả; hai vế phải cùng một phương diện.",
+      "structure": "chủ thể + 由 + X + 轉 + Y",
+      "examples": [
+        {
+          "chinese": "貓熊外交由政治轉商業。",
+          "simplified": "猫熊外交由政治转商业。",
+          "pinyin": "māo xióng wài jiāo yóu zhèng zhì zhuǎn shāng yè 。",
+          "meaningVi": "Ngoại giao gấu trúc chuyển từ chính trị sang thương mại."
+        },
+        {
+          "chinese": "天氣由熱轉涼。",
+          "simplified": "天气由热转凉。",
+          "pinyin": "tiān qì yóu rè zhuǎn liáng 。",
+          "meaningVi": "Thời tiết chuyển từ nóng sang mát."
+        }
+      ],
+      "commonMistake": "Đừng đặt hai trạng thái không cùng loại ở X và Y.",
+      "check": {
+        "id": "cc6-v6-l06-grammar-check-01",
+        "prompt": "Điền: 貓熊外交由政治____商業。",
+        "options": [
+          {
+            "id": "a",
+            "text": "轉"
+          },
+          {
+            "id": "b",
+            "text": "至"
+          },
+          {
+            "id": "c",
+            "text": "赴"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Nêu sự chuyển từ trạng thái X sang Y.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l06-grammar-02",
+      "title": "追溯至／到",
+      "explanation": "Dùng khi lần ngược nguồn gốc một sự việc về thời điểm, thời kỳ hoặc sự kiện trước đó. 至 trang trọng hơn 到.",
+      "structure": "sự việc + 可以追溯至/到 + mốc quá khứ",
+      "examples": [
+        {
+          "chinese": "貓熊外交可以追溯到唐朝。",
+          "simplified": "猫熊外交可以追溯到唐朝。",
+          "pinyin": "māo xióng wài jiāo kě yǐ zhuī sù dào táng cháo 。",
+          "meaningVi": "Ngoại giao gấu trúc có thể truy về thời Đường."
+        },
+        {
+          "chinese": "這個習俗可追溯至百年前。",
+          "simplified": "这个习俗可追溯至百年前。",
+          "pinyin": "zhè gè xí sú kě zhuī sù zhì bǎi nián qián 。",
+          "meaningVi": "Tập tục này có thể truy về một trăm năm trước."
+        }
+      ],
+      "commonMistake": "Mốc sau 追溯至/到 phải là thời điểm hoặc nguồn gốc, không phải kết quả tương lai.",
+      "check": {
+        "id": "cc6-v6-l06-grammar-check-02",
+        "prompt": "Điền: 這段歷史可____唐朝。",
+        "options": [
+          {
+            "id": "a",
+            "text": "抵制"
+          },
+          {
+            "id": "b",
+            "text": "追溯至"
+          },
+          {
+            "id": "c",
+            "text": "分別"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Dùng khi lần ngược nguồn gốc một sự việc về thời điểm, thời kỳ hoặc sự kiện trước đó.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l06-grammar-03",
+      "title": "以表X的謝意",
+      "explanation": "Nêu hành động nhằm bày tỏ lòng biết ơn về X. Có thể dùng 以表對X的謝意 khi muốn nêu rõ người được cảm ơn.",
+      "structure": "hành động + 以表(對) + người/việc X + 的謝意",
+      "examples": [
+        {
+          "chinese": "她送花以表對醫護人員的謝意。",
+          "simplified": "她送花以表对医护人员的谢意。",
+          "pinyin": "tā sòng huā yǐ biǎo duì yī hù rén yuán de xiè yì 。",
+          "meaningVi": "Cô ấy tặng hoa để bày tỏ lòng biết ơn với nhân viên y tế."
+        },
+        {
+          "chinese": "他寫信以表救濟難民的謝意。",
+          "simplified": "他写信以表救济难民的谢意。",
+          "pinyin": "tā xiě xìn yǐ biǎo jiù jì nán mín de xiè yì 。",
+          "meaningVi": "Ông viết thư để bày tỏ lòng biết ơn về việc cứu trợ người tị nạn."
+        }
+      ],
+      "commonMistake": "表 ở đây là 表示, không phải “bảng”.",
+      "check": {
+        "id": "cc6-v6-l06-grammar-check-03",
+        "prompt": "Điền: 他送卡片，____大家幫忙的謝意。",
+        "options": [
+          {
+            "id": "a",
+            "text": "改由"
+          },
+          {
+            "id": "b",
+            "text": "因而"
+          },
+          {
+            "id": "c",
+            "text": "以表"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Nêu hành động nhằm bày tỏ lòng biết ơn về X.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l06-grammar-04",
+      "title": "自此",
+      "explanation": "Chỉ mốc bắt đầu của một thay đổi sau sự kiện vừa nêu. Chủ ngữ, nếu có, thường đặt trước 自此.",
+      "structure": "sự kiện A，chủ thể + 自此 + thay đổi B",
+      "examples": [
+        {
+          "chinese": "兩國簽約後，交流自此開始。",
+          "simplified": "两国签约后，交流自此开始。",
+          "pinyin": "liǎng guó qiān yuē hòu ， jiāo liú zì cǐ kāi shǐ 。",
+          "meaningVi": "Sau khi hai nước ký thỏa thuận, giao lưu bắt đầu từ đó."
+        },
+        {
+          "chinese": "貓熊自此成為外交使者。",
+          "simplified": "猫熊自此成为外交使者。",
+          "pinyin": "māo xióng zì cǐ chéng wèi wài jiāo shǐ zhě 。",
+          "meaningVi": "Từ đó gấu trúc trở thành sứ giả ngoại giao."
+        }
+      ],
+      "commonMistake": "Không dùng 自此 cho một hành động chỉ xảy ra một lần mà không kéo theo thay đổi.",
+      "check": {
+        "id": "cc6-v6-l06-grammar-check-04",
+        "prompt": "Điền: 簽約後，合作____開始。",
+        "options": [
+          {
+            "id": "a",
+            "text": "至"
+          },
+          {
+            "id": "b",
+            "text": "自此"
+          },
+          {
+            "id": "c",
+            "text": "欲"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Chỉ mốc bắt đầu của một thay đổi sau sự kiện vừa nêu.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l06-grammar-05",
+      "title": "熱衷於",
+      "explanation": "Nói ai đó rất say mê hoặc hăng hái với một hoạt động, lĩnh vực. 於 nối với đối tượng say mê.",
+      "structure": "người/tổ chức + 熱衷於 + danh từ/việc làm",
+      "examples": [
+        {
+          "chinese": "他熱衷於研究野生動物。",
+          "simplified": "他热衷于研究野生动物。",
+          "pinyin": "tā rè zhōng yú yán jiū yě shēng dòng wù 。",
+          "meaningVi": "Anh ấy say mê nghiên cứu động vật hoang dã."
+        },
+        {
+          "chinese": "那段時期政府熱衷於貓熊外交。",
+          "simplified": "那段时期政府热衷于猫熊外交。",
+          "pinyin": "nà duàn shí qī zhèng fǔ rè zhōng yú māo xióng wài jiāo 。",
+          "meaningVi": "Thời ấy chính quyền rất quan tâm đến ngoại giao gấu trúc."
+        }
+      ],
+      "commonMistake": "Sau 熱衷於 cần nêu việc hoặc lĩnh vực cụ thể.",
+      "check": {
+        "id": "cc6-v6-l06-grammar-check-05",
+        "prompt": "Điền: 她____研究動物。",
+        "options": [
+          {
+            "id": "a",
+            "text": "分別"
+          },
+          {
+            "id": "b",
+            "text": "以表"
+          },
+          {
+            "id": "c",
+            "text": "熱衷於"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Nói ai đó rất say mê hoặc hăng hái với một hoạt động, lĩnh vực.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l06-grammar-06",
+      "title": "分別",
+      "explanation": "Chỉ các chủ thể lần lượt thực hiện hành động, hoặc mỗi bên có kết quả riêng. Đặt 分別 trước động từ.",
+      "structure": "A và B + 分別 + động từ/kết quả tương ứng",
+      "examples": [
+        {
+          "chinese": "兩家動物園分別提出申請。",
+          "simplified": "两家动物园分别提出申请。",
+          "pinyin": "liǎng jiā dòng wù yuán fēn bié tí chū shēn qǐng 。",
+          "meaningVi": "Hai vườn thú lần lượt nộp đơn."
+        },
+        {
+          "chinese": "兩人分別負責宣傳和接待。",
+          "simplified": "两人分别负责宣传和接待。",
+          "pinyin": "liǎng rén fēn bié fù zé xuān chuán hé jiē dài 。",
+          "meaningVi": "Hai người lần lượt phụ trách truyền thông và đón tiếp."
+        }
+      ],
+      "commonMistake": "Phải có ít nhất hai đối tượng hoặc phần việc để “lần lượt” có nghĩa.",
+      "check": {
+        "id": "cc6-v6-l06-grammar-check-06",
+        "prompt": "Điền: 兩國____提出條件。",
+        "options": [
+          {
+            "id": "a",
+            "text": "分別"
+          },
+          {
+            "id": "b",
+            "text": "因而"
+          },
+          {
+            "id": "c",
+            "text": "自此"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Chỉ các chủ thể lần lượt thực hiện hành động, hoặc mỗi bên có kết quả riêng.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l06-grammar-07",
+      "title": "設下X的條件",
+      "explanation": "Nêu điều kiện được đặt ra để một việc có thể diễn ra, thường mang sắc thái yêu cầu rõ hoặc khá cao.",
+      "structure": "chủ thể + 設下 + X + 的條件",
+      "examples": [
+        {
+          "chinese": "動物園設下交換動物的條件。",
+          "simplified": "动物园设下交换动物的条件。",
+          "pinyin": "dòng wù yuán shè xià jiāo huàn dòng wù de tiáo jiàn 。",
+          "meaningVi": "Vườn thú đặt điều kiện trao đổi động vật."
+        },
+        {
+          "chinese": "銀行設下收入達標的條件。",
+          "simplified": "银行设下收入达标的条件。",
+          "pinyin": "yín xíng shè xià shōu rù dá biāo de tiáo jiàn 。",
+          "meaningVi": "Ngân hàng đặt điều kiện thu nhập đạt chuẩn."
+        }
+      ],
+      "commonMistake": "Sau 設下 cần nêu nội dung điều kiện, không chỉ kết quả.",
+      "check": {
+        "id": "cc6-v6-l06-grammar-check-07",
+        "prompt": "Điền: 雙方____互派人員的條件。",
+        "options": [
+          {
+            "id": "a",
+            "text": "自此"
+          },
+          {
+            "id": "b",
+            "text": "設下"
+          },
+          {
+            "id": "c",
+            "text": "作罷"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Nêu điều kiện được đặt ra để một việc có thể diễn ra, thường mang sắc thái yêu cầu rõ hoặc khá cao.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l06-grammar-08",
+      "title": "遭X否決",
+      "explanation": "遭 là cách nói trang trọng cho bị, thường đi với kết quả bất lợi. X là bên gây ra hành động; có thể lược X nếu đã rõ.",
+      "structure": "đề nghị + 遭 + người/cơ quan X + 否決",
+      "examples": [
+        {
+          "chinese": "提案遭國務院否決。",
+          "simplified": "提案遭国务院否决。",
+          "pinyin": "tí àn zāo guó wù yuàn fǒu jué 。",
+          "meaningVi": "Đề án bị Bộ Ngoại giao bác bỏ."
+        },
+        {
+          "chinese": "計畫遭委員會否決。",
+          "simplified": "计划遭委员会否决。",
+          "pinyin": "jì huà zāo wěi yuán huì fǒu jué 。",
+          "meaningVi": "Kế hoạch bị ủy ban bác bỏ."
+        }
+      ],
+      "commonMistake": "Không dùng 遭 để mô tả tác động tích cực như được khen thưởng.",
+      "check": {
+        "id": "cc6-v6-l06-grammar-check-08",
+        "prompt": "Điền: 這項提案____委員會否決。",
+        "options": [
+          {
+            "id": "a",
+            "text": "分別"
+          },
+          {
+            "id": "b",
+            "text": "遭"
+          },
+          {
+            "id": "c",
+            "text": "以表"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "遭 là cách nói trang trọng cho bị, thường đi với kết quả bất lợi.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l06-grammar-09",
+      "title": "因而",
+      "explanation": "Nối nguyên nhân đã nói với kết quả. Gần với 因此, thường dùng trong văn viết.",
+      "structure": "nguyên nhân A，因而 + kết quả B",
+      "examples": [
+        {
+          "chinese": "條件未被接受，計畫因而作罷。",
+          "simplified": "条件未被接受，计划因而作罢。",
+          "pinyin": "tiáo jiàn wèi bèi jiē shòu ， jì huà yīn ér zuò bà 。",
+          "meaningVi": "Điều kiện không được chấp nhận, nên kế hoạch bị hủy."
+        },
+        {
+          "chinese": "遊客增加，收入因而提高。",
+          "simplified": "游客增加，收入因而提高。",
+          "pinyin": "yóu kè zēng jiā ， shōu rù yīn ér tí gāo 。",
+          "meaningVi": "Khách tăng, vì thế doanh thu tăng."
+        }
+      ],
+      "commonMistake": "Vế sau 因而 phải là kết quả hợp lý của vế trước.",
+      "check": {
+        "id": "cc6-v6-l06-grammar-check-09",
+        "prompt": "Điền: 申請遭否決，活動____作罷。",
+        "options": [
+          {
+            "id": "a",
+            "text": "分別"
+          },
+          {
+            "id": "b",
+            "text": "欲"
+          },
+          {
+            "id": "c",
+            "text": "因而"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Nối nguyên nhân đã nói với kết quả.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l06-grammar-10",
+      "title": "改由X方式",
+      "explanation": "Nêu cách thức mới thay cho cách làm cũ. Để rõ sự thay đổi, có thể đặt cách cũ trước 改由.",
+      "structure": "cách cũ，改由 + cách mới + (方式) + thực hiện",
+      "examples": [
+        {
+          "chinese": "貓熊不再贈送，改由租借方式出國。",
+          "simplified": "猫熊不再赠送，改由租借方式出国。",
+          "pinyin": "māo xióng bù zài zèng sòng ， gǎi yóu zū jiè fāng shì chū guó 。",
+          "meaningVi": "Gấu trúc không còn được tặng mà ra nước ngoài theo hình thức cho thuê."
+        },
+        {
+          "chinese": "學校改由線上系統收費。",
+          "simplified": "学校改由线上系统收费。",
+          "pinyin": "xué jiào gǎi yóu xiàn shàng xì tǒng shōu fèi 。",
+          "meaningVi": "Nhà trường chuyển sang thu phí qua hệ thống trực tuyến."
+        }
+      ],
+      "commonMistake": "改由 phải dẫn tới phương thức thay thế, không chỉ nhắc lại cách cũ.",
+      "check": {
+        "id": "cc6-v6-l06-grammar-check-10",
+        "prompt": "Điền: 停止贈送後，____租借方式讓貓熊出國。",
+        "options": [
+          {
+            "id": "a",
+            "text": "以表"
+          },
+          {
+            "id": "b",
+            "text": "遭"
+          },
+          {
+            "id": "c",
+            "text": "改由"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Nêu cách thức mới thay cho cách làm cũ.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l06-grammar-11",
+      "title": "打開X的大門",
+      "explanation": "Cách nói hình tượng về việc mở ra một lĩnh vực hoặc cơ hội mới. X là lĩnh vực hay cơ hội được mở ra.",
+      "structure": "sự kiện + 打開 + lĩnh vực X + 的大門",
+      "examples": [
+        {
+          "chinese": "這項契約打開商業租借的大門。",
+          "simplified": "这项契约打开商业租借的大门。",
+          "pinyin": "zhè xiàng qì yuē dǎ kāi shāng yè zū jiè de dà mén 。",
+          "meaningVi": "Hợp đồng này mở đường cho việc cho thuê thương mại."
+        },
+        {
+          "chinese": "交流計畫打開合作的大門。",
+          "simplified": "交流计划打开合作的大门。",
+          "pinyin": "jiāo liú jì huà dǎ kāi hé zuò de dà mén 。",
+          "meaningVi": "Chương trình giao lưu mở ra cơ hội hợp tác."
+        }
+      ],
+      "commonMistake": "Không hiểu là mở một cánh cửa vật lý trong ngữ cảnh này.",
+      "check": {
+        "id": "cc6-v6-l06-grammar-check-11",
+        "prompt": "Điền: 這項合作____雙邊交流的大門。",
+        "options": [
+          {
+            "id": "a",
+            "text": "設下"
+          },
+          {
+            "id": "b",
+            "text": "抵制"
+          },
+          {
+            "id": "c",
+            "text": "打開"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Cách nói hình tượng về việc mở ra một lĩnh vực hoặc cơ hội mới.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l06-grammar-12",
+      "title": "以X的名義",
+      "explanation": "Nêu tư cách hoặc lý do được công bố khi làm việc gì. X là danh nghĩa được đưa ra; danh nghĩa không nhất thiết phản ánh động cơ thật.",
+      "structure": "chủ thể + 以 + X + 的名義 + hành động",
+      "examples": [
+        {
+          "chinese": "動物園以保護的名義租借貓熊。",
+          "simplified": "动物园以保护的名义租借猫熊。",
+          "pinyin": "dòng wù yuán yǐ bǎo hù de míng yì zū jiè māo xióng 。",
+          "meaningVi": "Vườn thú thuê gấu trúc dưới danh nghĩa bảo vệ."
+        },
+        {
+          "chinese": "他以學術交流的名義訪問台灣。",
+          "simplified": "他以学术交流的名义访问台湾。",
+          "pinyin": "tā yǐ xué shù jiāo liú de míng yì fǎng wèn tái wān 。",
+          "meaningVi": "Ông ấy đến Đài Loan dưới danh nghĩa giao lưu học thuật."
+        }
+      ],
+      "commonMistake": "Sau 以X的名義 cần có hành động được thực hiện.",
+      "check": {
+        "id": "cc6-v6-l06-grammar-check-12",
+        "prompt": "Điền: 他們____保護的名義租借貓熊。",
+        "options": [
+          {
+            "id": "a",
+            "text": "由"
+          },
+          {
+            "id": "b",
+            "text": "遭"
+          },
+          {
+            "id": "c",
+            "text": "以"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Nêu tư cách hoặc lý do được công bố khi làm việc gì.",
+        "skill": "Ngữ pháp"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc6-v6-l06-listening-01",
+      "prompt": "Nghe bài đọc 1: gấu trúc được tặng cho Nhật Bản vào thời nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thời Đường"
+        },
+        {
+          "id": "b",
+          "text": "Thời Tống"
+        },
+        {
+          "id": "c",
+          "text": "Thập niên 1990"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc nhắc năm 685 dưới triều Võ Tắc Thiên.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l06-t02"
+    },
+    {
+      "id": "cc6-v6-l06-listening-02",
+      "prompt": "Nghe bài đọc 1: đề nghị trao đổi động vật với Mỹ đã kết thúc thế nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bị phía Mỹ bác bỏ nên hủy bỏ"
+        },
+        {
+          "id": "b",
+          "text": "Được thực hiện ngay"
+        },
+        {
+          "id": "c",
+          "text": "Chuyển thành hợp đồng cho thuê"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Cuối bài có 遭美國國務院…否決，因而作罷.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l06-t02"
+    },
+    {
+      "id": "cc6-v6-l06-listening-03",
+      "prompt": "Nghe bài đọc 2: hợp đồng với Vườn thú San Francisco đem lại điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Giúp gấu trúc thích nghi với tự nhiên"
+        },
+        {
+          "id": "b",
+          "text": "Mở đường cho việc cho thuê gấu trúc vì thương mại"
+        },
+        {
+          "id": "c",
+          "text": "Chấm dứt mọi triển lãm"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nói 打開貓熊商業租借的大門.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l06-t05"
+    },
+    {
+      "id": "cc6-v6-l06-listening-04",
+      "prompt": "Nghe bài đọc 2: khó khăn bảo tồn hiện nay là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gấu trúc nuôi nhốt vẫn khó thích nghi với đời sống hoang dã"
+        },
+        {
+          "id": "b",
+          "text": "Không có khu bảo tồn"
+        },
+        {
+          "id": "c",
+          "text": "Không ai muốn nghiên cứu sinh sản"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Đoạn cuối nêu 圈養貓熊仍然無法適應野外生活.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l06-t05"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc6-v6-l06-practice-01",
+      "prompt": "Điền: 貓熊外交可以____唐朝。",
+      "options": [
+        {
+          "id": "a",
+          "text": "抵制"
+        },
+        {
+          "id": "b",
+          "text": "追溯至"
+        },
+        {
+          "id": "c",
+          "text": "分別"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "追溯至 nối sự việc với mốc khởi nguồn.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l06-practice-02",
+      "prompt": "Năm 1941, việc tặng gấu trúc cho Mỹ nhằm mục đích gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mở vườn thú mới"
+        },
+        {
+          "id": "b",
+          "text": "Bày tỏ cảm ơn về việc cứu trợ người tị nạn"
+        },
+        {
+          "id": "c",
+          "text": "Đổi lấy một đôi chim quý"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc 1 nêu 以表救濟中國難民的謝意.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l06-practice-03",
+      "prompt": "Điền: 兩家動物園____提出交換的要求。",
+      "options": [
+        {
+          "id": "a",
+          "text": "分別"
+        },
+        {
+          "id": "b",
+          "text": "因而"
+        },
+        {
+          "id": "c",
+          "text": "自此"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "分別 nghĩa là lần lượt, mỗi bên một việc.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l06-practice-04",
+      "prompt": "Đề nghị trao đổi động vật năm 1957 vì sao bị hủy?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trại chim quý đã đóng cửa"
+        },
+        {
+          "id": "b",
+          "text": "Bộ Ngoại giao Mỹ không đồng ý trao đổi trực tiếp với Trung Quốc"
+        },
+        {
+          "id": "c",
+          "text": "Không có gấu trúc"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Cuối bài đọc 1 nêu lý do phủ quyết và kết quả 作罷.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l06-practice-05",
+      "prompt": "Điền: 計畫遭否決，____作罷。",
+      "options": [
+        {
+          "id": "a",
+          "text": "分別"
+        },
+        {
+          "id": "b",
+          "text": "至"
+        },
+        {
+          "id": "c",
+          "text": "因而"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "因而 nối lý do với kết quả.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l06-practice-06",
+      "prompt": "Sau năm 1982, phương thức đưa gấu trúc ra nước ngoài là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ tặng làm quà chính trị"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ bán cho sở thú"
+        },
+        {
+          "id": "c",
+          "text": "Cho thuê hoặc trao đổi khoa học kỹ thuật"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc 2 nêu 改由「租借」或「科技交流」.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l06-practice-07",
+      "prompt": "Điền: 動物園____保護的名義租借貓熊。",
+      "options": [
+        {
+          "id": "a",
+          "text": "由"
+        },
+        {
+          "id": "b",
+          "text": "以"
+        },
+        {
+          "id": "c",
+          "text": "遭"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "以X的名義 nêu danh nghĩa của hành động.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l06-practice-08",
+      "prompt": "Tại sao nghiên cứu thả gấu trúc nuôi nhốt về tự nhiên?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Để tránh giao phối cận huyết và tăng số lượng ngoài tự nhiên"
+        },
+        {
+          "id": "b",
+          "text": "Để tăng tiền thuê"
+        },
+        {
+          "id": "c",
+          "text": "Để không cần khu bảo tồn"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Đoạn cuối nêu cả hai mục tiêu trước khi nói đến khó khăn thích nghi.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc6-v6-l06-assessment-01",
+      "prompt": "Lần tặng gấu trúc sớm nhất được sử sách ghi lại là cho ai?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vườn thú San Francisco"
+        },
+        {
+          "id": "b",
+          "text": "Thiên hoàng Tenmu của Nhật Bản"
+        },
+        {
+          "id": "c",
+          "text": "Tổng thống Nixon"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc 1 nhắc Võ Tắc Thiên tặng hai con cho Nhật.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l06-assessment-02",
+      "prompt": "Điền: 這段歷史可____唐朝。",
+      "options": [
+        {
+          "id": "a",
+          "text": "追溯到"
+        },
+        {
+          "id": "b",
+          "text": "吸金"
+        },
+        {
+          "id": "c",
+          "text": "作罷"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "追溯到 là truy ngược về mốc lịch sử.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l06-assessment-03",
+      "prompt": "Điền: 他送花____謝意。",
+      "options": [
+        {
+          "id": "a",
+          "text": "因而"
+        },
+        {
+          "id": "b",
+          "text": "以表"
+        },
+        {
+          "id": "c",
+          "text": "改由"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "以表謝意 là để bày tỏ lòng biết ơn.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l06-assessment-04",
+      "prompt": "Từ 1957 đến 1982, gấu trúc được tặng cho mấy nước theo bài đọc?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chín nước"
+        },
+        {
+          "id": "b",
+          "text": "Hai nước"
+        },
+        {
+          "id": "c",
+          "text": "Mười bảy nước"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc 1 ghi 等九個國家.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l06-assessment-05",
+      "prompt": "Điền: 兩家動物園____提出申請。",
+      "options": [
+        {
+          "id": "a",
+          "text": "分別"
+        },
+        {
+          "id": "b",
+          "text": "自此"
+        },
+        {
+          "id": "c",
+          "text": "遭"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "分別 là lần lượt.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l06-assessment-06",
+      "prompt": "Năm 1972, bao nhiêu người Mỹ đội mưa đón gấu trúc?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Khoảng một triệu người"
+        },
+        {
+          "id": "b",
+          "text": "Khoảng 8.000 người"
+        },
+        {
+          "id": "c",
+          "text": "Khoảng 800 người"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Một triệu là lượt khách trong tháng đầu, không phải số người ra đón.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l06-assessment-07",
+      "prompt": "Điền: 貓熊不再作為禮物，____租借方式出國。",
+      "options": [
+        {
+          "id": "a",
+          "text": "以表"
+        },
+        {
+          "id": "b",
+          "text": "作罷"
+        },
+        {
+          "id": "c",
+          "text": "改由"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "改由 nêu cách thức thay thế.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l06-assessment-08",
+      "prompt": "Điều gì mở đường cho việc cho thuê thương mại?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Lần tặng cho Nhật vào năm 685"
+        },
+        {
+          "id": "b",
+          "text": "Tin gấu trúc mở mắt ở Đài Loan"
+        },
+        {
+          "id": "c",
+          "text": "Hợp đồng thuê với Vườn thú San Francisco có tiền thuê cao"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc 2 liên hệ hợp đồng San Francisco với khoản thuê cao và lợi nhuận.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l06-assessment-09",
+      "prompt": "Điền: 各國動物園____繁殖的名義租借貓熊。",
+      "options": [
+        {
+          "id": "a",
+          "text": "由"
+        },
+        {
+          "id": "b",
+          "text": "以"
+        },
+        {
+          "id": "c",
+          "text": "遭"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "以X的名義 nêu lý do được công bố.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l06-assessment-10",
+      "prompt": "Khó khăn lớn của việc thả gấu trúc nuôi nhốt là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Không có nghiên cứu về bảo tồn"
+        },
+        {
+          "id": "b",
+          "text": "Không có người đến xem"
+        },
+        {
+          "id": "c",
+          "text": "Chúng vẫn chưa thích nghi với đời sống hoang dã"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Đoạn cuối viết 圈養貓熊仍然無法適應野外生活.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "writingTask": {
+    "id": "cc6-v6-l06-writing",
+    "title": "Viết ngắn: bảo tồn gấu trúc",
+    "prompt": "Viết 4–5 câu tiếng Hoa về một khó khăn trong việc bảo tồn gấu trúc. Nêu bằng chứng từ bài và một giải pháp bạn muốn đề xuất."
+  }
+}

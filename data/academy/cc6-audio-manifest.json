@@ -1071,9 +1071,16 @@
       "privatePath": "textbook/07-01.mp3",
       "bytes": 1449517,
       "sha256": "c757c7c4b48e9c9d4402c40964226d9c722a620f3229b0b60f0c46a622ae1ed2",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        170
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 170,
+        "bookPage": 147,
+        "labelVi": "Tóm tắt và mở đầu Bài 07",
+        "referenceCode": "07-01"
+      }
     },
     {
       "id": "cc6-textbook-l07-t02",
@@ -1086,9 +1093,16 @@
       "privatePath": "textbook/07-02.mp3",
       "bytes": 6063786,
       "sha256": "289e607f0a4a4fe5715cc2506b51bf4d3190031dd6ff6900a63fe2eea069849c",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        171
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 171,
+        "bookPage": 148,
+        "labelVi": "Bài đọc 1: 感情世界最大的情敵是「自我」（I）",
+        "referenceCode": "07-02"
+      }
     },
     {
       "id": "cc6-textbook-l07-t03",
@@ -1101,9 +1115,16 @@
       "privatePath": "textbook/07-03.mp3",
       "bytes": 4154549,
       "sha256": "393052b78d41d0e4a6ff9830f0a6e1adf36a4c315f928669613eacba13fd91e8",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        172
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 172,
+        "bookPage": 149,
+        "labelVi": "Từ vựng tóm tắt và bài đọc 1",
+        "referenceCode": "07-03"
+      }
     },
     {
       "id": "cc6-textbook-l07-t04",
@@ -1116,9 +1137,16 @@
       "privatePath": "textbook/07-04.mp3",
       "bytes": 3051554,
       "sha256": "5b16fb00fb838f3f3288fc0db8e77d03e03960456e5a216d7df3f05d34b4eb78",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        179
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 179,
+        "bookPage": 156,
+        "labelVi": "Phân biệt từ dễ nhầm bài đọc 1",
+        "referenceCode": "07-04"
+      }
     },
     {
       "id": "cc6-textbook-l07-t05",
@@ -1131,9 +1159,16 @@
       "privatePath": "textbook/07-05.mp3",
       "bytes": 4260710,
       "sha256": "2d6cf33c8d98cebab23dddb69b8af5ed26cbdae313d96ef5d36b44a2f0a18bae",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        181
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 181,
+        "bookPage": 158,
+        "labelVi": "Bài đọc 2: 感情世界最大的情敵是「自我」（II）",
+        "referenceCode": "07-05"
+      }
     },
     {
       "id": "cc6-textbook-l07-t06",
@@ -1146,9 +1181,16 @@
       "privatePath": "textbook/07-06.mp3",
       "bytes": 3360008,
       "sha256": "7d73ac76bbcbf5c741485f04638d0c0d7276173ad136d5fb617fab02e80a5641",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        182
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 182,
+        "bookPage": 159,
+        "labelVi": "Từ vựng bài đọc 2",
+        "referenceCode": "07-06"
+      }
     },
     {
       "id": "cc6-textbook-l07-t07",
@@ -1161,9 +1203,16 @@
       "privatePath": "textbook/07-07.mp3",
       "bytes": 1876671,
       "sha256": "24693e8027e8071177799328e0f0d050c709176277caffa263110c8e8a8a4a41",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        190
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 190,
+        "bookPage": 167,
+        "labelVi": "Phân biệt từ dễ nhầm bài đọc 2",
+        "referenceCode": "07-07"
+      }
     },
     {
       "id": "cc6-textbook-l08-t01",

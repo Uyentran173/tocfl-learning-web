@@ -1,0 +1,1305 @@
+{
+  "contentVersion": 2,
+  "id": "cc6-v6-l07",
+  "title": "感情世界",
+  "titleVi": "Thế giới tình cảm",
+  "description": "Hai bài đọc về cái tôi, cam kết và cách giao tiếp trong quan hệ, dưới góc nhìn của tác giả.",
+  "objectives": [
+    "Tóm tắt được lập luận của tác giả về cái tôi và cam kết.",
+    "Nhận diện được các quan điểm về giao tiếp trong bài, phân biệt chúng với sự thật áp dụng cho mọi người.",
+    "Dùng đúng 縱使X也Y、自詡為X、看在眼裡 và các mẫu khác của bài."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Bài đọc là một thư ngỏ và phần bình luận tiếp theo. Những nhận xét về nam nữ phản ánh quan điểm và bối cảnh của tác giả; hãy đọc như một lập luận để phân tích, không coi là quy luật cho mọi người.",
+    "sections": [
+      {
+        "id": "cc6-v6-l07-section-01",
+        "title": "Cái tôi và điểm mù",
+        "body": "Tác giả cho rằng tự cao khiến con người khó nhìn ra điểm mù trong quan hệ.",
+        "chinese": "「自我」太多的人，看不到盲點。",
+        "simplified": "「自我」太多的人，看不到盲点。",
+        "pinyin": "「 zì wǒ 」 tài duō de rén ， kàn bú dào máng diǎn 。",
+        "meaningVi": "Người có cái tôi quá lớn không thấy điểm mù của mình."
+      },
+      {
+        "id": "cc6-v6-l07-section-02",
+        "title": "Cam kết và trải nghiệm",
+        "body": "Tác giả xem cam kết là trải nghiệm có cả điều đẹp và điều khó chịu.",
+        "chinese": "你想體會「承諾」的美好與苦澀。",
+        "simplified": "你想体会「承诺」的美好与苦涩。",
+        "pinyin": "nǐ xiǎng tǐ huì 「 chéng nuò 」 de měi hǎo yǔ kǔ sè 。",
+        "meaningVi": "Cậu muốn trải nghiệm vẻ đẹp và vị đắng của cam kết."
+      },
+      {
+        "id": "cc6-v6-l07-section-03",
+        "title": "Khác biệt và điểm chung",
+        "body": "Phần kết khuyên hiểu khác biệt và nuôi dưỡng điểm chung, dù cách mô tả nam nữ trong bài mang tính khái quát của người viết.",
+        "chinese": "理解與欣賞彼此的差異，找出並經營其中的共同點。",
+        "simplified": "理解与欣赏彼此的差异，找出并经营其中的共同点。",
+        "pinyin": "lǐ jiě yǔ xīn shǎng bǐ cǐ de chà yì ， zhǎo chū bìng jīng yíng qí zhōng de gòng tóng diǎn 。",
+        "meaningVi": "Hiểu và trân trọng khác biệt, tìm và vun đắp điểm chung."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc6-v6-l07-reading1",
+        "title": "課文一 · 感情世界最大的情敵是「自我」（I）",
+        "context": "Thư ngỏ về cái tôi, hôn nhân và cam kết.",
+        "audioTrackId": "cc6-textbook-l07-t02",
+        "turns": [
+          {
+            "speaker": "Đoạn 1",
+            "chinese": "Dear 文華：你成家了嗎？這句話通常是你媽問你，現在我來問。我行我素的一個人生活，有什麼不好？如果你還未婚，我不是要你立志在今年結婚。這種志向跟減肥和上健身房一樣，很難撐過兩個星期。喔，不對，這種志向比減肥和上健身房更難！因為你可以一個人減肥，但不能一個人結婚。我只希望你想想這個問題。",
+            "simplified": "Dear 文华：你成家了吗？这句话通常是你妈问你，现在我来问。我行我素的一个人生活，有什么不好？如果你还未婚，我不是要你立志在今年结婚。这种志向跟减肥和上健身房一样，很难撑过两个星期。喔，不对，这种志向比减肥和上健身房更难！因为你可以一个人减肥，但不能一个人结婚。我只希望你想想这个问题。",
+            "pinyin": "D e a r wén huá ： nǐ chéng jiā le ma ？ zhè jù huà tōng cháng shì nǐ mā wèn nǐ ， xiàn zài wǒ lái wèn 。 wǒ xíng wǒ sù de yī gè rén shēng huó ， yǒu shén me bù hǎo ？ rú guǒ nǐ hái wèi hūn ， wǒ bú shì yào nǐ lì zhì zài jīn nián jié hūn 。 zhè zhǒng zhì xiàng gēn jiǎn féi hé shàng jiàn shēn fáng yī yàng ， hěn nán chēng guò liǎng gè xīng qī 。 ō ， bù duì ， zhè zhǒng zhì xiàng bǐ jiǎn féi hé shàng jiàn shēn fáng gèng nán ！ yīn wèi nǐ kě yǐ yī gè rén jiǎn féi ， dàn bù néng yī gè rén jié hūn 。 wǒ zhǐ xī wàng nǐ xiǎng xiǎng zhè gè wèn tí 。",
+            "meaningVi": "Văn Hoa thân mến, cậu đã lập gia đình chưa? Thường mẹ cậu mới hỏi câu ấy, nhưng giờ tôi hỏi. Sống một mình theo ý mình thì có gì không hay? Nếu cậu vẫn độc thân, tôi cũng không bảo cậu phải quyết tâm cưới ngay trong năm nay. Quyết tâm ấy giống như giảm cân hay đi tập thể hình: khó mà giữ được hai tuần. À không, còn khó hơn nữa! Bởi cậu có thể giảm cân một mình, nhưng không thể kết hôn một mình. Tôi chỉ mong cậu nghĩ về chuyện này."
+          },
+          {
+            "speaker": "Đoạn 2",
+            "chinese": "不結婚的原因。20歲時沒結婚，因為美女太多，定下來可惜。結果現在別人娶了適合你的老婆，生出來的可愛女兒叫你叔叔，而不是爸爸。一生只有一兩次真愛，你浪費了一次。你浪費後的確碰到其他美女，但她們覺得和你定下來可惜。30歲時沒結婚，因為工作太多，沒時間愛別人。結果你現在事業上又了不起到哪裡去呢？",
+            "simplified": "不结婚的原因。20岁时没结婚，因为美女太多，定下来可惜。结果现在别人娶了适合你的老婆，生出来的可爱女儿叫你叔叔，而不是爸爸。一生只有一两次真爱，你浪费了一次。你浪费后的确碰到其他美女，但她们觉得和你定下来可惜。30岁时没结婚，因为工作太多，没时间爱别人。结果你现在事业上又了不起到哪里去呢？",
+            "pinyin": "bù jié hūn de yuán yīn 。 2 0 suì shí méi jié hūn ， yīn wèi měi nǚ tài duō ， dìng xià lái kě xī 。 jié guǒ xiàn zài bié rén qǔ le shì hé nǐ de lǎo pó ， shēng chū lái de kě ài nǚ ér jiào nǐ shū shū ， ér bú shì bà bà 。 yī shēng zhǐ yǒu yī liǎng cì zhēn ài ， nǐ làng fèi le yī cì 。 nǐ làng fèi hòu de què pèng dào qí tā měi nǚ ， dàn tā men jué dé hé nǐ dìng xià lái kě xī 。 3 0 suì shí méi jié hūn ， yīn wèi gōng zuò tài duō ， méi shí jiān ài bié rén 。 jié guǒ nǐ xiàn zài shì yè shàng yòu liǎo bù qǐ dào nǎ lǐ qù ne ？",
+            "meaningVi": "Lý do không kết hôn. Năm hai mươi tuổi cậu chưa cưới vì có quá nhiều cô gái đẹp, thấy chọn một người để ổn định thật đáng tiếc. Giờ người khác cưới cô gái hợp với cậu, con gái họ gọi cậu là chú chứ không phải bố. Đời người chỉ có một hai lần gặp tình yêu đích thực; cậu đã bỏ lỡ một lần. Sau đó cậu quả có gặp những cô gái đẹp khác, nhưng họ lại thấy gắn bó với cậu là điều đáng tiếc. Năm ba mươi tuổi cậu chưa cưới vì công việc nhiều, không có thời gian yêu ai. Nhưng sự nghiệp cậu bây giờ đã xuất sắc đến đâu?"
+          },
+          {
+            "speaker": "Đoạn 3",
+            "chinese": "人生很殘酷，我們總無法在人或事出現的當下，了解那人或事真正的重要性。總要經過一段時間，才醒悟過來。但醒悟時，已錯過了重要的人或事。真正重要的人或事，不會重來。生像死，沒有第二次機會。",
+            "simplified": "人生很残酷，我们总无法在人或事出现的当下，了解那人或事真正的重要性。总要经过一段时间，才醒悟过来。但醒悟时，已错过了重要的人或事。真正重要的人或事，不会重来。生像死，没有第二次机会。",
+            "pinyin": "rén shēng hěn cán kù ， wǒ men zǒng wú fǎ zài rén huò shì chū xiàn de dāng xià ， liǎo jiě nà rén huò shì zhēn zhèng de zhòng yào xìng 。 zǒng yào jīng guò yī duàn shí jiān ， cái xǐng wù guò lái 。 dàn xǐng wù shí ， yǐ cuò guò le zhòng yào de rén huò shì 。 zhēn zhèng zhòng yào de rén huò shì ， bù huì zhòng lái 。 shēng xiàng sǐ ， méi yǒu dì èr cì jī huì 。",
+            "meaningVi": "Cuộc đời khắc nghiệt: khi một người hay một việc vừa xuất hiện, ta thường không nhận ra giá trị thật của họ. Phải qua một thời gian mới tỉnh ngộ, nhưng đến lúc ấy người hoặc việc quan trọng đã lỡ mất. Điều thực sự quan trọng không trở lại; đời người cũng như cái chết, không có cơ hội thứ hai."
+          },
+          {
+            "speaker": "Đoạn 4",
+            "chinese": "「自我」這個鬼東西。那40歲時沒結婚，又因為什麼呢？應該是「自我」太多吧！你想得沒錯。在任何感情中，最大的情敵不是另一個俊男美女，而是「自我」這個鬼東西。「自我」怎麼會是鬼東西？個人的成功失敗、歡喜悲傷、甚至愛人和被愛的原因，不都是「自我」激發出來的嗎？",
+            "simplified": "「自我」这个鬼东西。那40岁时没结婚，又因为什么呢？应该是「自我」太多吧！你想得没错。在任何感情中，最大的情敌不是另一个俊男美女，而是「自我」这个鬼东西。「自我」怎么会是鬼东西？个人的成功失败、欢喜悲伤、甚至爱人和被爱的原因，不都是「自我」激发出来的吗？",
+            "pinyin": "「 zì wǒ 」 zhè gè guǐ dōng xī 。 nà 4 0 suì shí méi jié hūn ， yòu yīn wèi shén me ne ？ yīng gāi shì 「 zì wǒ 」 tài duō ba ！ nǐ xiǎng dé méi cuò 。 zài rèn hé gǎn qíng zhōng ， zuì dà de qíng dí bú shì lìng yī gè jùn nán měi nǚ ， ér shì 「 zì wǒ 」 zhè gè guǐ dōng xī 。 「 zì wǒ 」 zěn me huì shì guǐ dōng xī ？ gè rén de chéng gōng shī bài 、 huān xǐ bēi shāng 、 shèn zhì ài rén hé bèi ài de yuán yīn ， bù dōu shì 「 zì wǒ 」 jī fā chū lái de ma ？",
+            "meaningVi": "Thứ gọi là “cái tôi”. Vậy đến tuổi bốn mươi cậu chưa cưới vì sao? Có lẽ vì cái tôi quá lớn. Trong tình cảm, tình địch lớn nhất không phải người đẹp khác, mà là cái tôi. Nhưng tại sao lại nói cái tôi đáng ghét? Chẳng phải chính nó khơi lên thành bại, vui buồn, cả việc yêu và được yêu hay sao?"
+          },
+          {
+            "speaker": "Đoạn 5",
+            "chinese": "「自我」當然重要。只不過它跟甜點一樣，實際的營養價值沒有看起來高，而且吃多了只是讓你膨脹發福，看不到自己的腳，和人與事真正的面貌。你一定記得：你很多所謂自由的夜晚，並不是「想幹嘛就幹嘛」，而是一個人坐在電腦前，什麼都沒幹。或是在一個無趣的party，斟酌著何時閃人才不會尷尬。",
+            "simplified": "「自我」当然重要。只不过它跟甜点一样，实际的营养价值没有看起来高，而且吃多了只是让你膨胀发福，看不到自己的脚，和人与事真正的面貌。你一定记得：你很多所谓自由的夜晚，并不是「想干嘛就干嘛」，而是一个人坐在电脑前，什么都没干。或是在一个无趣的party，斟酌着何时闪人才不会尴尬。",
+            "pinyin": "「 zì wǒ 」 dāng rán zhòng yào 。 zhǐ bù guò tā gēn tián diǎn yī yàng ， shí jì de yíng yǎng jià zhí méi yǒu kàn qǐ lái gāo ， ér qiě chī duō le zhǐ shì ràng nǐ péng zhàng fā fú ， kàn bú dào zì jǐ de jiǎo ， hé rén yǔ shì zhēn zhèng de miàn mào 。 nǐ yí dìng jì dé ： nǐ hěn duō suǒ wèi zì yóu de yè wǎn ， bìng bú shì 「 xiǎng gàn ma jiù gàn ma 」 ， ér shì yī gè rén zuò zài diàn nǎo qián ， shén me dōu méi gàn 。 huò shì zài yī gè wú qù de p a r t y ， zhēn zhuó zhù hé shí shǎn rén cái bù huì gān gà 。",
+            "meaningVi": "Cái tôi dĩ nhiên quan trọng, nhưng giống món tráng miệng: giá trị dinh dưỡng thật không cao như vẻ ngoài. Ăn nhiều chỉ khiến ta phình ra, đến mức không thấy đôi chân mình hay diện mạo thật của người và việc. Cậu hẳn nhớ nhiều đêm được gọi là “tự do” thực ra chỉ ngồi một mình trước máy tính, chẳng làm gì; hoặc ở một bữa tiệc tẻ nhạt, cân nhắc lúc nào chuồn đi cho đỡ ngượng."
+          },
+          {
+            "speaker": "Đoạn 6",
+            "chinese": "你很多所謂「忠於自我」的選擇，忠於的其實是膨脹或萎縮的自我，或只是社會眼中的你。如果有一個真心的伴，她可以當頭棒喝，指出你的盲點，叫你別再自以為是。「自我」太多的人，看不到盲點。",
+            "simplified": "你很多所谓「忠于自我」的选择，忠于的其实是膨胀或萎缩的自我，或只是社会眼中的你。如果有一个真心的伴，她可以当头棒喝，指出你的盲点，叫你别再自以为是。「自我」太多的人，看不到盲点。",
+            "pinyin": "nǐ hěn duō suǒ wèi 「 zhōng yú zì wǒ 」 de xuǎn zé ， zhōng yú de qí shí shì péng zhàng huò wēi suō de zì wǒ ， huò zhǐ shì shè huì yǎn zhōng de nǐ 。 rú guǒ yǒu yī gè zhēn xīn de bàn ， tā kě yǐ dāng tóu bàng hè ， zhǐ chū nǐ de máng diǎn ， jiào nǐ bié zài zì yǐ wèi shì 。 「 zì wǒ 」 tài duō de rén ， kàn bú dào máng diǎn 。",
+            "meaningVi": "Nhiều lựa chọn mà cậu gọi là “trung thành với bản thân” thực ra chỉ trung thành với cái tôi đang phình lên hoặc co lại, hay với hình ảnh của mình trong mắt xã hội. Nếu có người bạn đời thật lòng, cô ấy có thể cảnh tỉnh cậu, chỉ ra điểm mù và bảo cậu đừng tự cho mình luôn đúng. Người có cái tôi quá lớn không thấy được điểm mù ấy."
+          },
+          {
+            "speaker": "Đoạn 7",
+            "chinese": "有伴很好，幹嘛結婚？不過你一定看得出我邏輯的破綻：是啊，有伴很好，但幹嘛要結婚？因為我知道你想養小孩，而看你這德性，沒勇敢到能接受別人說你有私生子。縱使你自己能接受，也不希望別人這樣叫你孩子。你自詡為開明的知識份子，其實只是留過洋的老夫子。",
+            "simplified": "有伴很好，干嘛结婚？不过你一定看得出我逻辑的破绽：是啊，有伴很好，但干嘛要结婚？因为我知道你想养小孩，而看你这德性，没勇敢到能接受别人说你有私生子。纵使你自己能接受，也不希望别人这样叫你孩子。你自诩为开明的知识份子，其实只是留过洋的老夫子。",
+            "pinyin": "yǒu bàn hěn hǎo ， gàn ma jié hūn ？ bù guò nǐ yí dìng kàn dé chū wǒ luó jí de pò zhàn ： shì a ， yǒu bàn hěn hǎo ， dàn gàn ma yào jié hūn ？ yīn wèi wǒ zhī dào nǐ xiǎng yǎng xiǎo hái ， ér kàn nǐ zhè dé xìng ， méi yǒng gǎn dào néng jiē shòu bié rén shuō nǐ yǒu sī shēng zi 。 zòng shǐ nǐ zì jǐ néng jiē shòu ， yě bù xī wàng bié rén zhè yàng jiào nǐ hái zi 。 nǐ zì xǔ wèi kāi míng de zhī shí fèn zi ， qí shí zhǐ shì liú guò yáng de lǎo fū zǐ 。",
+            "meaningVi": "Có người đồng hành là tốt, nhưng sao phải cưới? Cậu chắc cũng thấy lỗ hổng trong lập luận của tôi. Bởi tôi biết cậu muốn nuôi con, mà với tính cậu, cậu chưa đủ can đảm để nghe người khác gọi con mình là con ngoài giá thú. Dù cậu chịu được, cậu cũng không muốn con bị gọi như thế. Cậu tự nhận là trí thức cởi mở, nhưng thật ra chỉ là ông đồ bảo thủ từng đi du học."
+          },
+          {
+            "speaker": "Đoạn 8",
+            "chinese": "但這不是最重要的原因，最重要的是：你想體會「承諾」的美好與苦澀，那是一種難得的人生經驗。婚姻，都在解決問題。談戀愛，只是在「實習」如何解決問題。為什麼要去解決問題，因為在過程中，會激發出你身體和心理上，最好和最壞的一面。你可能發現：哇！我愛玩，竟會為了孩子提早回家。哇！我溫和，但會跟老婆幹架。Surprise 你自己，好事或壞事。逼出每一種感覺，甜的或苦的。你像大部分人一樣，既善良也邪惡。走這一趟，你總希望把自己善良和邪惡的潛力都發揮到極致吧！",
+            "simplified": "但这不是最重要的原因，最重要的是：你想体会「承诺」的美好与苦涩，那是一种难得的人生经验。婚姻，都在解决问题。谈恋爱，只是在「实习」如何解决问题。为什么要去解决问题，因为在过程中，会激发出你身体和心理上，最好和最坏的一面。你可能发现：哇！我爱玩，竟会为了孩子提早回家。哇！我温和，但会跟老婆干架。Surprise 你自己，好事或坏事。逼出每一种感觉，甜的或苦的。你像大部分人一样，既善良也邪恶。走这一趟，你总希望把自己善良和邪恶的潜力都发挥到极致吧！",
+            "pinyin": "dàn zhè bú shì zuì zhòng yào de yuán yīn ， zuì zhòng yào de shì ： nǐ xiǎng tǐ huì 「 chéng nuò 」 de měi hǎo yǔ kǔ sè ， nà shì yī zhǒng nán dé de rén shēng jīng yàn 。 hūn yīn ， dōu zài jiě jué wèn tí 。 tán liàn ài ， zhǐ shì zài 「 shí xí 」 rú hé jiě jué wèn tí 。 wèi shén me yào qù jiě jué wèn tí ， yīn wèi zài guò chéng zhōng ， huì jī fā chū nǐ shēn tǐ hé xīn lǐ shàng ， zuì hǎo hé zuì huài de yí miàn 。 nǐ kě néng fā xiàn ： wa ！ wǒ ài wán ， jìng huì wèi le hái zi tí zǎo huí jiā 。 wa ！ wǒ wēn hé ， dàn huì gēn lǎo pó gàn jià 。 S u r p r i s e nǐ zì jǐ ， hǎo shì huò huài shì 。 bī chū měi yī zhǒng gǎn jué ， tián de huò kǔ de 。 nǐ xiàng dà bù fèn rén yī yàng ， jì shàn liáng yě xié è 。 zǒu zhè yī tàng ， nǐ zǒng xī wàng bǎ zì jǐ shàn liáng hé xié è de qián lì dōu fā huī dào jí zhì ba ！",
+            "meaningVi": "Nhưng đó chưa phải lý do quan trọng nhất. Điều quan trọng nhất là cậu muốn trải nghiệm vẻ đẹp và vị đắng của “cam kết”, một trải nghiệm đời người hiếm có. Hôn nhân luôn gắn với giải quyết vấn đề; yêu đương chỉ là lúc “thực tập” việc ấy. Quá trình này khơi ra mặt tốt lẫn mặt xấu trong cả thể chất và tâm lý. Cậu có thể ngạc nhiên: người ham chơi lại về sớm vì con; người ôn hòa lại cãi nhau với vợ. Dù dễ chịu hay đau lòng, ta nhận ra mình vừa có phần thiện vừa có phần xấu, và muốn hiểu chúng đến tận cùng."
+          }
+        ]
+      },
+      {
+        "id": "cc6-v6-l07-reading2",
+        "title": "課文二 · 感情世界最大的情敵是「自我」（II）",
+        "context": "Quan điểm của tác giả về cách giao tiếp và điểm chung trong quan hệ.",
+        "audioTrackId": "cc6-textbook-l07-t05",
+        "turns": [
+          {
+            "speaker": "Đoạn 1",
+            "chinese": "Why Now？如果成家對你來說很重要，接下來的問題是：Why now？你一直以為晚婚無所謂，直到你對心儀的女子表白時，她竟然說：「你不是同志嗎？」42歲，你的精子跟你一樣，對任何使命慢慢失去動力。很多方面，你都變得軟弱了。你這輩子已經不可能找到一個人跟你共度一生，你頂多只能找到一個人跟你共度「半生」。",
+            "simplified": "Why Now？如果成家对你来说很重要，接下来的问题是：Why now？你一直以为晚婚无所谓，直到你对心仪的女子表白时，她竟然说：「你不是同志吗？」42岁，你的精子跟你一样，对任何使命慢慢失去动力。很多方面，你都变得软弱了。你这辈子已经不可能找到一个人跟你共度一生，你顶多只能找到一个人跟你共度「半生」。",
+            "pinyin": "W h y   N o w ？ rú guǒ chéng jiā duì nǐ lái shuō hěn zhòng yào ， jiē xià lái de wèn tí shì ： W h y   n o w ？ nǐ yì zhí yǐ wèi wǎn hūn wú suǒ wèi ， zhí dào nǐ duì xīn yí de nǚ zǐ biǎo bái shí ， tā jìng rán shuō ： 「 nǐ bú shì tóng zhì ma ？ 」 4 2 suì ， nǐ de jīng zi gēn nǐ yī yàng ， duì rèn hé shǐ mìng màn màn shī qù dòng lì 。 hěn duō fāng miàn ， nǐ dōu biàn dé ruǎn ruò le 。 nǐ zhè bèi zi yǐ jīng bù kě néng zhǎo dào yī gè rén gēn nǐ gòng dù yī shēng ， nǐ dǐng duō zhǐ néng zhǎo dào yī gè rén gēn nǐ gòng dù 「 bàn shēng 」 。",
+            "meaningVi": "Tại sao là bây giờ? Nếu lập gia đình quan trọng với cậu, câu hỏi tiếp theo là: tại sao phải là lúc này? Cậu vẫn nghĩ kết hôn muộn chẳng sao, cho đến khi cậu tỏ tình với người mình thích mà cô ấy lại hỏi: “Anh không phải người đồng tính sao?” Ở tuổi bốn mươi hai, tinh trùng của cậu cũng như cậu, dần mất động lực với mọi sứ mệnh. Cậu yếu đi ở nhiều mặt. Đời này cậu không còn tìm được người cùng đi trọn cả đời, cùng lắm chỉ tìm được người đi cùng “nửa đời”."
+          },
+          {
+            "speaker": "Đoạn 2",
+            "chinese": "重點加碼：到底男女之間的溝通模式，有哪些重要的差異？",
+            "simplified": "重点加码：到底男女之间的沟通模式，有哪些重要的差异？",
+            "pinyin": "zhòng diǎn jiā mǎ ： dào dǐ nán nǚ zhī jiān de gōu tōng mó shì ， yǒu nǎ xiē zhòng yào de chà yì ？",
+            "meaningVi": "Điểm bổ sung: giữa nam và nữ, cách giao tiếp khác nhau ở những điểm quan trọng nào?"
+          },
+          {
+            "speaker": "Đoạn 3",
+            "chinese": "1. 男生看未來，女生想的是過去。男生永遠是向前看，在男性的大腦裡，過去是一片空白。但是女性記得過去的點點滴滴，某年某月某日、在某個地點、發生了某件事。此外，女人天生就敏感細膩，喜歡注意細節，男人卻是神經大條，缺乏察言觀色的能力。",
+            "simplified": "1. 男生看未来，女生想的是过去。男生永远是向前看，在男性的大脑里，过去是一片空白。但是女性记得过去的点点滴滴，某年某月某日、在某个地点、发生了某件事。此外，女人天生就敏感细腻，喜欢注意细节，男人却是神经大条，缺乏察言观色的能力。",
+            "pinyin": "1 .   nán shēng kàn wèi lái ， nǚ shēng xiǎng de shì guò qù 。 nán shēng yǒng yuǎn shì xiàng qián kàn ， zài nán xìng de dà nǎo lǐ ， guò qù shì yí piàn kòng bái 。 dàn shì nǚ xìng jì dé guò qù de diǎn diǎn dī dī ， mǒu nián mǒu yuè mǒu rì 、 zài mǒu gè dì diǎn 、 fā shēng le mǒu jiàn shì 。 cǐ wài ， nǚ rén tiān shēng jiù mǐn gǎn xì nì ， xǐ huān zhù yì xì jié ， nán rén què shì shén jīng dà tiáo ， quē fá chá yán guān sè de néng lì 。",
+            "meaningVi": "1. Đàn ông nhìn về tương lai, phụ nữ nghĩ về quá khứ. Đàn ông luôn nhìn phía trước; trong đầu họ, quá khứ như một khoảng trống. Phụ nữ lại nhớ từng việc nhỏ: ngày nào, ở đâu, đã xảy ra chuyện gì. Ngoài ra, phụ nữ nhạy cảm, tinh tế và chú ý chi tiết; đàn ông thì vô tâm hơn, thiếu khả năng nhìn nét mặt mà đoán ý người khác."
+          },
+          {
+            "speaker": "Đoạn 4",
+            "chinese": "2. 男人愛說理，女人要的是安慰。男人是理性思考的動物，在職場上的訓練就是要成為一個problem-solver（問題解決者），面對任何事情便不由自主地開始分析、找原因、提出解決方法，早已成了慣性。但是女人要的是安慰與理解，她一點也不想聽男生的長篇大論，只要男生的同理心，並和她站在同一陣線。",
+            "simplified": "2. 男人爱说理，女人要的是安慰。男人是理性思考的动物，在职场上的训练就是要成为一个problem-solver（问题解决者），面对任何事情便不由自主地开始分析、找原因、提出解决方法，早已成了惯性。但是女人要的是安慰与理解，她一点也不想听男生的长篇大论，只要男生的同理心，并和她站在同一阵线。",
+            "pinyin": "2 .   nán rén ài shuō lǐ ， nǚ rén yào de shì ān wèi 。 nán rén shì lǐ xìng sī kǎo de dòng wù ， zài zhí chǎng shàng de xùn liàn jiù shì yào chéng wèi yī gè p r o b l e m - s o l v e r （ wèn tí jiě jué zhě ） ， miàn duì rèn hé shì qíng biàn bù yóu zì zhǔ dì kāi shǐ fēn xī 、 zhǎo yuán yīn 、 tí chū jiě jué fāng fǎ ， zǎo yǐ chéng le guàn xìng 。 dàn shì nǚ rén yào de shì ān wèi yǔ lǐ jiě ， tā yī diǎn yě bù xiǎng tīng nán shēng de zhǎng piān dà lùn ， zhǐ yào nán shēng de tóng lǐ xīn ， bìng hé tā zhàn zài tóng yī zhèn xiàn 。",
+            "meaningVi": "2. Đàn ông thích nói lý, phụ nữ muốn được an ủi. Đàn ông suy nghĩ lý trí; việc rèn luyện ở nơi làm việc khiến họ quen phân tích, tìm nguyên nhân và nêu giải pháp khi gặp vấn đề. Nhưng phụ nữ muốn được an ủi, thấu hiểu chứ không muốn nghe bài diễn giải dài; họ cần sự đồng cảm và người đứng cùng phía."
+          },
+          {
+            "speaker": "Đoạn 5",
+            "chinese": "3. 男人說過即忘，女人卻認真看待。男人常常漫不經心，忘記自己說了什麼，女人卻是認真看待，因此總覺得男人不守信用、說話不算話。男性的一舉一動，女性都看在眼裡，男性說的一字一句，女性全部記得清清楚楚。如果你無法百分之百保證，最好不要說出來；如果不幸說了，就要百分之百要做到。",
+            "simplified": "3. 男人说过即忘，女人却认真看待。男人常常漫不经心，忘记自己说了什么，女人却是认真看待，因此总觉得男人不守信用、说话不算话。男性的一举一动，女性都看在眼里，男性说的一字一句，女性全部记得清清楚楚。如果你无法百分之百保证，最好不要说出来；如果不幸说了，就要百分之百要做到。",
+            "pinyin": "3 .   nán rén shuō guò jí wàng ， nǚ rén què rèn zhēn kàn dài 。 nán rén cháng cháng màn bù jīng xīn ， wàng jì zì jǐ shuō le shén me ， nǚ rén què shì rèn zhēn kàn dài ， yīn cǐ zǒng jué dé nán rén bù shǒu xìn yòng 、 shuō huà bù suàn huà 。 nán xìng de yī jǔ yī dòng ， nǚ xìng dōu kàn zài yǎn lǐ ， nán xìng shuō de yī zì yī jù ， nǚ xìng quán bù jì dé qīng qīng chǔ chǔ 。 rú guǒ nǐ wú fǎ bǎi fēn zhī bǎi bǎo zhèng ， zuì hǎo bù yào shuō chū lái ； rú guǒ bù xìng shuō le ， jiù yào bǎi fēn zhī bǎi yào zuò dào 。",
+            "meaningVi": "3. Đàn ông nói rồi quên, phụ nữ lại coi trọng. Đàn ông thường lơ đãng, quên điều mình đã nói; phụ nữ nhớ và vì thế cảm thấy đàn ông không giữ chữ tín, nói không làm. Phụ nữ để ý mọi cử chỉ, lời nói của đàn ông. Nếu không thể chắc chắn làm được, tốt nhất đừng nói; đã nói thì phải làm bằng được."
+          },
+          {
+            "speaker": "Đoạn 6",
+            "chinese": "4. 男人喜歡直接，女人喜歡拐彎抹角。男人喜歡抓語病，在字面上和女人爭辯不休。事實上，女人說了什麼並不重要，真正重要的是字面背後的意義。",
+            "simplified": "4. 男人喜欢直接，女人喜欢拐弯抹角。男人喜欢抓语病，在字面上和女人争辩不休。事实上，女人说了什么并不重要，真正重要的是字面背后的意义。",
+            "pinyin": "4 .   nán rén xǐ huān zhí jiē ， nǚ rén xǐ huān guǎi wān mǒ jiǎo 。 nán rén xǐ huān zhuā yǔ bìng ， zài zì miàn shàng hé nǚ rén zhēng biàn bù xiū 。 shì shí shàng ， nǚ rén shuō le shén me bìng bú zhòng yào ， zhēn zhèng zhòng yào de shì zì miàn bèi hòu de yì yì 。",
+            "meaningVi": "4. Đàn ông thích nói thẳng, phụ nữ thích nói vòng. Đàn ông hay bắt lỗi câu chữ để tranh cãi không thôi. Thực ra, điều quan trọng không phải lời nói trên mặt chữ mà là ý nghĩa phía sau."
+          },
+          {
+            "speaker": "Đoạn 7",
+            "chinese": "男女之間的互動其實相當微妙，需要親身去體會。不論是在婚姻或是愛情關係中，理解與欣賞彼此的差異，找出並經營其中的共同點，這段關係才有收成的可能。",
+            "simplified": "男女之间的互动其实相当微妙，需要亲身去体会。不论是在婚姻或是爱情关系中，理解与欣赏彼此的差异，找出并经营其中的共同点，这段关系才有收成的可能。",
+            "pinyin": "nán nǚ zhī jiān de hù dòng qí shí xiāng dāng wēi miào ， xū yào qīn shēn qù tǐ huì 。 bù lùn shì zài hūn yīn huò shì ài qíng guān xì zhōng ， lǐ jiě yǔ xīn shǎng bǐ cǐ de chà yì ， zhǎo chū bìng jīng yíng qí zhōng de gòng tóng diǎn ， zhè duàn guān xì cái yǒu shōu chéng de kě néng 。",
+            "meaningVi": "Sự tương tác giữa nam và nữ rất tinh tế, cần đích thân trải nghiệm. Dù trong hôn nhân hay tình yêu, chỉ khi hiểu và trân trọng khác biệt, tìm ra và vun đắp điểm chung thì mối quan hệ mới có thể đơm hoa kết quả."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc6-v6-l07-check-01",
+        "prompt": "Theo người viết, khi 20 tuổi nhân vật chưa cưới vì sao?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Vì vừa đi du học"
+          },
+          {
+            "id": "b",
+            "text": "Vì cho rằng còn quá nhiều người đẹp để chọn"
+          },
+          {
+            "id": "c",
+            "text": "Vì phải chăm sóc cha mẹ"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Bài đọc 1 ghi 20歲時沒結婚，因為美女太多.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc6-v6-l07-check-02",
+        "prompt": "Theo bài đọc 1, “tình địch” lớn nhất là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Cái tôi của chính mình"
+          },
+          {
+            "id": "b",
+            "text": "Một người bạn cũ"
+          },
+          {
+            "id": "c",
+            "text": "Công việc"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Tác giả viết 最大的情敵…是「自我」.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc6-v6-l07-check-03",
+        "prompt": "Điều gì khiến tác giả xem hôn nhân là trải nghiệm đáng thử?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Được đi du học"
+          },
+          {
+            "id": "b",
+            "text": "Có thêm thời gian chơi"
+          },
+          {
+            "id": "c",
+            "text": "Trải nghiệm cam kết và học giải quyết vấn đề"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Bài đọc nêu 承諾的美好與苦澀 và 解決問題.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc6-v6-l07-check-04",
+        "prompt": "Kết luận của bài đọc 2 về quan hệ là gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Chỉ tranh luận về từng câu chữ"
+          },
+          {
+            "id": "b",
+            "text": "Bỏ qua mọi lời hứa"
+          },
+          {
+            "id": "c",
+            "text": "Hiểu khác biệt và vun đắp điểm chung"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Đoạn cuối nói 理解與欣賞彼此的差異，找出並經營其中的共同點.",
+        "skill": "Đọc hiểu"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem phiên âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc6-v6-l07-v001",
+      "cc6-v6-l07-v002",
+      "cc6-v6-l07-v003",
+      "cc6-v6-l07-v004",
+      "cc6-v6-l07-v005",
+      "cc6-v6-l07-v006",
+      "cc6-v6-l07-v007",
+      "cc6-v6-l07-v008",
+      "cc6-v6-l07-v009",
+      "cc6-v6-l07-v010",
+      "cc6-v6-l07-v011",
+      "cc6-v6-l07-v012",
+      "cc6-v6-l07-v013",
+      "cc6-v6-l07-v014",
+      "cc6-v6-l07-v015",
+      "cc6-v6-l07-v016",
+      "cc6-v6-l07-v017",
+      "cc6-v6-l07-v018",
+      "cc6-v6-l07-v019",
+      "cc6-v6-l07-v020",
+      "cc6-v6-l07-v021",
+      "cc6-v6-l07-v022",
+      "cc6-v6-l07-v023",
+      "cc6-v6-l07-v024",
+      "cc6-v6-l07-v025",
+      "cc6-v6-l07-v026",
+      "cc6-v6-l07-v027",
+      "cc6-v6-l07-v028",
+      "cc6-v6-l07-v029",
+      "cc6-v6-l07-v030",
+      "cc6-v6-l07-v031",
+      "cc6-v6-l07-v032",
+      "cc6-v6-l07-v033",
+      "cc6-v6-l07-v034",
+      "cc6-v6-l07-v035",
+      "cc6-v6-l07-v036",
+      "cc6-v6-l07-v037",
+      "cc6-v6-l07-v038",
+      "cc6-v6-l07-v039",
+      "cc6-v6-l07-v040",
+      "cc6-v6-l07-v041",
+      "cc6-v6-l07-v042",
+      "cc6-v6-l07-v043",
+      "cc6-v6-l07-v044",
+      "cc6-v6-l07-v045",
+      "cc6-v6-l07-v046",
+      "cc6-v6-l07-v047",
+      "cc6-v6-l07-v048",
+      "cc6-v6-l07-v049",
+      "cc6-v6-l07-v050",
+      "cc6-v6-l07-v051",
+      "cc6-v6-l07-v052",
+      "cc6-v6-l07-v053",
+      "cc6-v6-l07-v054",
+      "cc6-v6-l07-v055",
+      "cc6-v6-l07-v056",
+      "cc6-v6-l07-v057",
+      "cc6-v6-l07-v058",
+      "cc6-v6-l07-v059",
+      "cc6-v6-l07-v060",
+      "cc6-v6-l07-v061",
+      "cc6-v6-l07-v062",
+      "cc6-v6-l07-v063",
+      "cc6-v6-l07-v064",
+      "cc6-v6-l07-v065",
+      "cc6-v6-l07-v066",
+      "cc6-v6-l07-v067",
+      "cc6-v6-l07-v068",
+      "cc6-v6-l07-v069",
+      "cc6-v6-l07-v070",
+      "cc6-v6-l07-v071",
+      "cc6-v6-l07-v072",
+      "cc6-v6-l07-v073",
+      "cc6-v6-l07-v074",
+      "cc6-v6-l07-v075",
+      "cc6-v6-l07-v076",
+      "cc6-v6-l07-v077",
+      "cc6-v6-l07-v078",
+      "cc6-v6-l07-v079",
+      "cc6-v6-l07-v080",
+      "cc6-v6-l07-v081",
+      "cc6-v6-l07-v082",
+      "cc6-v6-l07-v083",
+      "cc6-v6-l07-v084",
+      "cc6-v6-l07-v085",
+      "cc6-v6-l07-v086",
+      "cc6-v6-l07-v087",
+      "cc6-v6-l07-v088",
+      "cc6-v6-l07-v089",
+      "cc6-v6-l07-v090",
+      "cc6-v6-l07-v091",
+      "cc6-v6-l07-v092",
+      "cc6-v6-l07-v093"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc6-textbook-l07-t03",
+        "label": "Từ vựng bài đọc 1"
+      },
+      {
+        "id": "cc6-textbook-l07-t06",
+        "label": "Từ vựng bài đọc 2"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc6-v6-l07-grammar-01",
+      "title": "在X的當下",
+      "explanation": "Chỉ đúng thời điểm X xảy ra, nhấn mạnh phản ứng hoặc tình trạng ngay lúc đó. X là một sự kiện cụ thể.",
+      "structure": "在 + sự kiện X + (的)當下，+ phản ứng",
+      "examples": [
+        {
+          "chinese": "在車禍發生的當下，她立刻求助。",
+          "simplified": "在车祸发生的当下，她立刻求助。",
+          "pinyin": "zài chē huò fā shēng de dāng xià ， tā lì kè qiú zhù 。",
+          "meaningVi": "Ngay lúc tai nạn xảy ra, cô ấy lập tức cầu cứu."
+        },
+        {
+          "chinese": "在聽見消息的當下，他愣住了。",
+          "simplified": "在听见消息的当下，他愣住了。",
+          "pinyin": "zài tīng jiàn xiāo xī de dāng xià ， tā lèng zhù le 。",
+          "meaningVi": "Ngay khi nghe tin, anh ấy sững người."
+        }
+      ],
+      "commonMistake": "Không dùng 當下 để chỉ cả một giai đoạn dài.",
+      "check": {
+        "id": "cc6-v6-l07-grammar-check-01",
+        "prompt": "Điền: ____地震發生的當下，他跑到門口。",
+        "options": [
+          {
+            "id": "a",
+            "text": "遭"
+          },
+          {
+            "id": "b",
+            "text": "在"
+          },
+          {
+            "id": "c",
+            "text": "由"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Chỉ đúng thời điểm X xảy ra, nhấn mạnh phản ứng hoặc tình trạng ngay lúc đó.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l07-grammar-02",
+      "title": "忠於X",
+      "explanation": "Nói sự trung thành hoặc nhất quán với người, nguyên tắc, lời hứa X. Có thể dùng để đánh giá tích cực hoặc đặt câu hỏi về điều X thực sự là gì.",
+      "structure": "chủ thể + 忠於 + người/nguyên tắc X",
+      "examples": [
+        {
+          "chinese": "她忠於自己的承諾。",
+          "simplified": "她忠于自己的承诺。",
+          "pinyin": "tā zhōng yú zì jǐ de chéng nuò 。",
+          "meaningVi": "Cô ấy giữ đúng lời hứa của mình."
+        },
+        {
+          "chinese": "他以為自己忠於自我。",
+          "simplified": "他以为自己忠于自我。",
+          "pinyin": "tā yǐ wèi zì jǐ zhōng yú zì wǒ 。",
+          "meaningVi": "Anh ấy tưởng mình trung thành với bản thân."
+        }
+      ],
+      "commonMistake": "X là đối tượng được giữ lòng trung thành, không phải kết quả của hành động.",
+      "check": {
+        "id": "cc6-v6-l07-grammar-check-02",
+        "prompt": "Điền: 她一直____自己的理想。",
+        "options": [
+          {
+            "id": "a",
+            "text": "當下"
+          },
+          {
+            "id": "b",
+            "text": "忠於"
+          },
+          {
+            "id": "c",
+            "text": "因而"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Nói sự trung thành hoặc nhất quán với người, nguyên tắc, lời hứa X.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l07-grammar-03",
+      "title": "縱使X，也Y",
+      "explanation": "Diễn tả nhượng bộ: dù X đúng hoặc xảy ra thì Y vẫn không thay đổi. Mệnh đề sau thường có 也.",
+      "structure": "縱使 + tình huống X，+ chủ thể + 也 + kết quả Y",
+      "examples": [
+        {
+          "chinese": "縱使遇到困難，我們也不放棄。",
+          "simplified": "纵使遇到困难，我们也不放弃。",
+          "pinyin": "zòng shǐ yù dào kùn nán ， wǒ men yě bù fàng qì 。",
+          "meaningVi": "Dù gặp khó khăn, chúng tôi vẫn không bỏ cuộc."
+        },
+        {
+          "chinese": "縱使他能接受，也不希望孩子被那樣稱呼。",
+          "simplified": "纵使他能接受，也不希望孩子被那样称呼。",
+          "pinyin": "zòng shǐ tā néng jiē shòu ， yě bù xī wàng hái zi bèi nà yàng chēng hū 。",
+          "meaningVi": "Dù anh ấy chịu được, anh ấy cũng không muốn con bị gọi như thế."
+        }
+      ],
+      "commonMistake": "Không bỏ 也 nếu muốn mối quan hệ nhượng bộ rõ ràng.",
+      "check": {
+        "id": "cc6-v6-l07-grammar-check-03",
+        "prompt": "Điền: ____下雨，我們也會出發。",
+        "options": [
+          {
+            "id": "a",
+            "text": "分別"
+          },
+          {
+            "id": "b",
+            "text": "縱使"
+          },
+          {
+            "id": "c",
+            "text": "因而"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Diễn tả nhượng bộ: dù X đúng hoặc xảy ra thì Y vẫn không thay đổi.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l07-grammar-04",
+      "title": "自詡為X",
+      "explanation": "Nêu việc tự gọi hoặc tự tán dương mình là X; thường mang sắc thái hoài nghi, châm biếm. X là vai trò hay danh hiệu.",
+      "structure": "người + 自詡為 + danh hiệu/vai trò X",
+      "examples": [
+        {
+          "chinese": "他自詡為專家，卻不接受批評。",
+          "simplified": "他自诩为专家，却不接受批评。",
+          "pinyin": "tā zì xǔ wèi zhuān jiā ， què bù jiē shòu pī píng 。",
+          "meaningVi": "Anh ấy tự nhận là chuyên gia nhưng không nhận phê bình."
+        },
+        {
+          "chinese": "文中的人物自詡為開明的知識份子。",
+          "simplified": "文中的人物自诩为开明的知识份子。",
+          "pinyin": "wén zhōng de rén wù zì xǔ wèi kāi míng de zhī shí fèn zi 。",
+          "meaningVi": "Nhân vật trong bài tự nhận là trí thức cởi mở."
+        }
+      ],
+      "commonMistake": "Dùng với sắc thái tự đề cao; khi chỉ giới thiệu nghề trung tính, dùng 是.",
+      "check": {
+        "id": "cc6-v6-l07-grammar-check-04",
+        "prompt": "Điền: 他____電腦專家，卻不會修機器。",
+        "options": [
+          {
+            "id": "a",
+            "text": "追溯"
+          },
+          {
+            "id": "b",
+            "text": "自詡為"
+          },
+          {
+            "id": "c",
+            "text": "改由"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Nêu việc tự gọi hoặc tự tán dương mình là X; thường mang sắc thái hoài nghi, châm biếm.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l07-grammar-05",
+      "title": "把X發揮到極致",
+      "explanation": "Nói phát huy năng lực hoặc đặc điểm X đến mức cao nhất. X đứng sau 把; 到極致 chỉ mức độ đạt được.",
+      "structure": "chủ thể + 把 + năng lực/đặc điểm X + 發揮到極致",
+      "examples": [
+        {
+          "chinese": "她把自己的能力發揮到極致。",
+          "simplified": "她把自己的能力发挥到极致。",
+          "pinyin": "tā bǎ zì jǐ de néng lì fā huī dào jí zhì 。",
+          "meaningVi": "Cô ấy phát huy năng lực đến mức tối đa."
+        },
+        {
+          "chinese": "廚師把蔬菜的味道發揮到極致。",
+          "simplified": "厨师把蔬菜的味道发挥到极致。",
+          "pinyin": "chú shī bǎ shū cài de wèi dào fā huī dào jí zhì 。",
+          "meaningVi": "Đầu bếp phát huy tối đa hương vị rau củ."
+        }
+      ],
+      "commonMistake": "X phải là điều có thể phát huy, không phải một vật bất kỳ.",
+      "check": {
+        "id": "cc6-v6-l07-grammar-check-05",
+        "prompt": "Điền: 她____舞蹈天分發揮到極致。",
+        "options": [
+          {
+            "id": "a",
+            "text": "遭"
+          },
+          {
+            "id": "b",
+            "text": "把"
+          },
+          {
+            "id": "c",
+            "text": "被"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Nói phát huy năng lực hoặc đặc điểm X đến mức cao nhất.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l07-grammar-06",
+      "title": "不由自主地",
+      "explanation": "Diễn tả phản ứng xảy ra tự nhiên, người nói khó kiểm soát. Đứng trước động từ hoặc cụm động từ.",
+      "structure": "chủ thể + 不由自主地 + động từ",
+      "examples": [
+        {
+          "chinese": "聽到好消息，她不由自主地笑了。",
+          "simplified": "听到好消息，她不由自主地笑了。",
+          "pinyin": "tīng dào hǎo xiāo xī ， tā bù yóu zì zhǔ dì xiào le 。",
+          "meaningVi": "Nghe tin tốt, cô ấy bất giác cười."
+        },
+        {
+          "chinese": "看到照片，他不由自主地想起家人。",
+          "simplified": "看到照片，他不由自主地想起家人。",
+          "pinyin": "kàn dào zhào piān ， tā bù yóu zì zhǔ dì xiǎng qǐ jiā rén 。",
+          "meaningVi": "Nhìn ảnh, anh ấy bất giác nhớ gia đình."
+        }
+      ],
+      "commonMistake": "Không dùng cho việc được tính toán và quyết định có chủ ý.",
+      "check": {
+        "id": "cc6-v6-l07-grammar-check-06",
+        "prompt": "Điền: 看到孩子的笑容，她____笑了。",
+        "options": [
+          {
+            "id": "a",
+            "text": "不由自主地"
+          },
+          {
+            "id": "b",
+            "text": "有意地"
+          },
+          {
+            "id": "c",
+            "text": "分別"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Diễn tả phản ứng xảy ra tự nhiên, người nói khó kiểm soát.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l07-grammar-07",
+      "title": "和X站在同一陣線",
+      "explanation": "Nói đứng về phía X, cùng ủng hộ hoặc phối hợp để đối diện một vấn đề. X là người hoặc nhóm.",
+      "structure": "chủ thể + 和 + người/nhóm X + 站在同一陣線",
+      "examples": [
+        {
+          "chinese": "我們和居民站在同一陣線。",
+          "simplified": "我们和居民站在同一阵线。",
+          "pinyin": "wǒ men hé jū mín zhàn zài tóng yī zhèn xiàn 。",
+          "meaningVi": "Chúng tôi đứng cùng phía với cư dân."
+        },
+        {
+          "chinese": "她希望伴侶和自己站在同一陣線。",
+          "simplified": "她希望伴侣和自己站在同一阵线。",
+          "pinyin": "tā xī wàng bàn lǚ hé zì jǐ zhàn zài tóng yī zhèn xiàn 。",
+          "meaningVi": "Cô ấy mong bạn đời đứng về phía mình."
+        }
+      ],
+      "commonMistake": "Không hiểu 陣線 là hàng người đứng vật lý trong ngữ cảnh này.",
+      "check": {
+        "id": "cc6-v6-l07-grammar-check-07",
+        "prompt": "Điền: 家長應該____老師站在同一陣線。",
+        "options": [
+          {
+            "id": "a",
+            "text": "由"
+          },
+          {
+            "id": "b",
+            "text": "和"
+          },
+          {
+            "id": "c",
+            "text": "遭"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Nói đứng về phía X, cùng ủng hộ hoặc phối hợp để đối diện một vấn đề.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l07-grammar-08",
+      "title": "X過即Y",
+      "explanation": "Mẫu bốn chữ, hai vị trí X và Y thường là động từ một âm tiết: vừa xong X thì ngay lập tức Y.",
+      "structure": "động từ X + 過即 + động từ Y",
+      "examples": [
+        {
+          "chinese": "有些人聽過即忘。",
+          "simplified": "有些人听过即忘。",
+          "pinyin": "yǒu xiē rén tīng guò jí wàng 。",
+          "meaningVi": "Có người nghe xong là quên."
+        },
+        {
+          "chinese": "這種紙杯用過即丟。",
+          "simplified": "这种纸杯用过即丢。",
+          "pinyin": "zhè zhǒng zhǐ bēi yòng guò jí diū 。",
+          "meaningVi": "Loại cốc giấy này dùng xong là bỏ."
+        }
+      ],
+      "commonMistake": "X và Y cần là hành động ngắn, có thứ tự thời gian.",
+      "check": {
+        "id": "cc6-v6-l07-grammar-check-08",
+        "prompt": "Điền: 這種杯子用過____丟。",
+        "options": [
+          {
+            "id": "a",
+            "text": "才"
+          },
+          {
+            "id": "b",
+            "text": "即"
+          },
+          {
+            "id": "c",
+            "text": "也"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Mẫu bốn chữ, hai vị trí X và Y thường là động từ một âm tiết: vừa xong X thì ngay lập tức Y.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l07-grammar-09",
+      "title": "看在眼裡",
+      "explanation": "Diễn tả việc nhận thấy và ghi nhận hành động của người khác, dù không nói ra. Có thể thêm 都 để nhấn mạnh.",
+      "structure": "chủ thể + 把/sự việc + (都)看在眼裡",
+      "examples": [
+        {
+          "chinese": "孩子的努力，父母都看在眼裡。",
+          "simplified": "孩子的努力，父母都看在眼里。",
+          "pinyin": "hái zi de nǔ lì ， fù mǔ dōu kàn zài yǎn lǐ 。",
+          "meaningVi": "Bố mẹ đều thấy và ghi nhận nỗ lực của con."
+        },
+        {
+          "chinese": "他的改變，朋友都看在眼裡。",
+          "simplified": "他的改变，朋友都看在眼里。",
+          "pinyin": "tā de gǎi biàn ， péng yǒu dōu kàn zài yǎn lǐ 。",
+          "meaningVi": "Bạn bè đều thấy sự thay đổi của anh ấy."
+        }
+      ],
+      "commonMistake": "Không chỉ nghĩa nhìn bằng mắt; thường ngụ ý đã chú ý và ghi nhớ.",
+      "check": {
+        "id": "cc6-v6-l07-grammar-check-09",
+        "prompt": "Điền: 她的努力，老師都____。",
+        "options": [
+          {
+            "id": "a",
+            "text": "看在眼裡"
+          },
+          {
+            "id": "b",
+            "text": "拐彎抹角"
+          },
+          {
+            "id": "c",
+            "text": "自詡為"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Diễn tả việc nhận thấy và ghi nhận hành động của người khác, dù không nói ra.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l07-grammar-10",
+      "title": "V出其中的共同點",
+      "explanation": "Nêu việc tìm hoặc làm lộ ra điểm giống nhau giữa nhiều đối tượng. V thường là 找、看、發現; 出 nhấn mạnh kết quả.",
+      "structure": "chủ thể + 找/看/發現 + (出)其中的共同點",
+      "examples": [
+        {
+          "chinese": "兩人找出其中的共同點。",
+          "simplified": "两人找出其中的共同点。",
+          "pinyin": "liǎng rén zhǎo chū qí zhōng de gòng tóng diǎn 。",
+          "meaningVi": "Hai người tìm ra điểm chung giữa họ."
+        },
+        {
+          "chinese": "研究者分析出兩種方法的共同點。",
+          "simplified": "研究者分析出两种方法的共同点。",
+          "pinyin": "yán jiū zhě fēn xī chū liǎng zhǒng fāng fǎ de gòng tóng diǎn 。",
+          "meaningVi": "Nhà nghiên cứu phân tích ra điểm chung của hai cách làm."
+        }
+      ],
+      "commonMistake": "Phải có ít nhất hai đối tượng để nói đến 共同點.",
+      "check": {
+        "id": "cc6-v6-l07-grammar-check-10",
+        "prompt": "Điền: 請比較這兩種方法，____其中的共同點。",
+        "options": [
+          {
+            "id": "a",
+            "text": "找出"
+          },
+          {
+            "id": "b",
+            "text": "作罷"
+          },
+          {
+            "id": "c",
+            "text": "冒雨"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Nêu việc tìm hoặc làm lộ ra điểm giống nhau giữa nhiều đối tượng.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l07-grammar-11",
+      "title": "有X的可能",
+      "explanation": "Nói một kết quả X có thể xảy ra, chưa khẳng định chắc chắn. X thường là một sự việc hoặc trạng thái.",
+      "structure": "chủ thể + 有 + sự việc X + 的可能",
+      "examples": [
+        {
+          "chinese": "這項合作有成功的可能。",
+          "simplified": "这项合作有成功的可能。",
+          "pinyin": "zhè xiàng hé zuò yǒu chéng gōng de kě néng 。",
+          "meaningVi": "Sự hợp tác này có khả năng thành công."
+        },
+        {
+          "chinese": "天氣有變冷的可能。",
+          "simplified": "天气有变冷的可能。",
+          "pinyin": "tiān qì yǒu biàn lěng de kě néng 。",
+          "meaningVi": "Thời tiết có thể trở lạnh."
+        }
+      ],
+      "commonMistake": "可能 biểu thị khả năng, không phải kết quả đã chắc chắn xảy ra.",
+      "check": {
+        "id": "cc6-v6-l07-grammar-check-11",
+        "prompt": "Điền: 這段關係有____的可能。",
+        "options": [
+          {
+            "id": "a",
+            "text": "至"
+          },
+          {
+            "id": "b",
+            "text": "赴"
+          },
+          {
+            "id": "c",
+            "text": "收成"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Nói một kết quả X có thể xảy ra, chưa khẳng định chắc chắn.",
+        "skill": "Ngữ pháp"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc6-v6-l07-listening-01",
+      "prompt": "Nghe bài đọc 1: tác giả so sánh việc lập chí kết hôn với điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đi du lịch"
+        },
+        {
+          "id": "b",
+          "text": "Tìm công việc mới"
+        },
+        {
+          "id": "c",
+          "text": "Giảm cân và đi tập thể hình"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Đầu bài so sánh 志向 với 減肥和上健身房.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l07-t02"
+    },
+    {
+      "id": "cc6-v6-l07-listening-02",
+      "prompt": "Nghe bài đọc 1: theo tác giả, người có quá nhiều “cái tôi” không nhìn thấy gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đường về nhà"
+        },
+        {
+          "id": "b",
+          "text": "Điểm mù của mình"
+        },
+        {
+          "id": "c",
+          "text": "Tình hình kinh tế"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài viết nói 「自我」太多的人，看不到盲點.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l07-t02"
+    },
+    {
+      "id": "cc6-v6-l07-listening-03",
+      "prompt": "Nghe bài đọc 2: tác giả cho rằng phụ nữ cần gì khi buồn?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Một cuộc tranh cãi câu chữ"
+        },
+        {
+          "id": "b",
+          "text": "Sự an ủi và đồng cảm"
+        },
+        {
+          "id": "c",
+          "text": "Một bài lý luận dài"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài viết nêu 安慰與理解 và 同理心. Đây là quan điểm của tác giả.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l07-t05"
+    },
+    {
+      "id": "cc6-v6-l07-listening-04",
+      "prompt": "Nghe bài đọc 2: điều kiện để mối quan hệ có kết quả là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ nhìn nghĩa trên mặt chữ"
+        },
+        {
+          "id": "b",
+          "text": "Hiểu khác biệt và tìm điểm chung"
+        },
+        {
+          "id": "c",
+          "text": "Quên mọi lời đã nói"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Câu cuối nói 理解與欣賞彼此的差異，找出並經營其中的共同點.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l07-t05"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc6-v6-l07-practice-01",
+      "prompt": "Điền: ____車禍發生的當下，她立刻求助。",
+      "options": [
+        {
+          "id": "a",
+          "text": "由"
+        },
+        {
+          "id": "b",
+          "text": "遭"
+        },
+        {
+          "id": "c",
+          "text": "在"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "在X的當下 chỉ đúng lúc sự việc xảy ra.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l07-practice-02",
+      "prompt": "Tại sao bài đọc 1 gọi “cái tôi” là tình địch?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vì người bạn đời luôn là đối thủ"
+        },
+        {
+          "id": "b",
+          "text": "Vì công việc không quan trọng"
+        },
+        {
+          "id": "c",
+          "text": "Cái tôi quá lớn khiến người ta không thấy điểm mù của mình"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Tác giả nối tự cao với việc không nhìn rõ bản thân.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l07-practice-03",
+      "prompt": "Điền: ____遇到困難，我們也會一起面對。",
+      "options": [
+        {
+          "id": "a",
+          "text": "縱使"
+        },
+        {
+          "id": "b",
+          "text": "因而"
+        },
+        {
+          "id": "c",
+          "text": "分別"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "縱使X，也Y là dù X thì vẫn Y.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l07-practice-04",
+      "prompt": "Trong bài đọc 1, “cam kết” được miêu tả thế nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vừa đẹp vừa đắng, là trải nghiệm hiếm có"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ đem đến niềm vui"
+        },
+        {
+          "id": "c",
+          "text": "Không liên quan đến giải quyết vấn đề"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài viết nói 承諾的美好與苦澀.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l07-practice-05",
+      "prompt": "Điền: 她把能力____極致。",
+      "options": [
+        {
+          "id": "a",
+          "text": "當下"
+        },
+        {
+          "id": "b",
+          "text": "作罷"
+        },
+        {
+          "id": "c",
+          "text": "發揮到"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "把X發揮到極致 là phát huy X tới mức cao nhất.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l07-practice-06",
+      "prompt": "Theo tác giả bài đọc 2, vì sao tranh cãi câu chữ không đủ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vì mọi lời nói đều giống nhau"
+        },
+        {
+          "id": "b",
+          "text": "Vì cần hiểu ý nghĩa đằng sau lời nói"
+        },
+        {
+          "id": "c",
+          "text": "Vì không ai nhớ lời mình nói"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc đặt 字面 và 背後的意義 đối nhau.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l07-practice-07",
+      "prompt": "Điền: 孩子的努力，父母都____。",
+      "options": [
+        {
+          "id": "a",
+          "text": "自詡為"
+        },
+        {
+          "id": "b",
+          "text": "拐彎抹角"
+        },
+        {
+          "id": "c",
+          "text": "看在眼裡"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "看在眼裡 là thấy và ghi nhận.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l07-practice-08",
+      "prompt": "Đoạn cuối bài đọc 2 khuyên điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Luôn đồng ý trong mọi chuyện"
+        },
+        {
+          "id": "b",
+          "text": "Đừng nói về khác biệt"
+        },
+        {
+          "id": "c",
+          "text": "Trân trọng khác biệt và vun đắp điểm chung"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Câu cuối là 理解與欣賞彼此的差異，找出並經營其中的共同點.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc6-v6-l07-assessment-01",
+      "prompt": "Ở tuổi 30, nhân vật nêu lý do nào để chưa kết hôn?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Công việc quá nhiều, không có thời gian yêu"
+        },
+        {
+          "id": "b",
+          "text": "Không thích trẻ con"
+        },
+        {
+          "id": "c",
+          "text": "Không biết nấu ăn"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc 1 nêu 30歲時…因為工作太多.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l07-assessment-02",
+      "prompt": "Điền: 在消息公布的____，他很驚訝。",
+      "options": [
+        {
+          "id": "a",
+          "text": "當下"
+        },
+        {
+          "id": "b",
+          "text": "極致"
+        },
+        {
+          "id": "c",
+          "text": "背後"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "當下 chỉ ngay thời điểm sự kiện xảy ra.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l07-assessment-03",
+      "prompt": "Theo người viết, “cái tôi” giống thứ gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Một quyển sách"
+        },
+        {
+          "id": "b",
+          "text": "Một bản đồ"
+        },
+        {
+          "id": "c",
+          "text": "Món tráng miệng"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Tác giả so sánh cái tôi với 甜點.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l07-assessment-04",
+      "prompt": "Điền: ____他能接受，也不希望孩子被那樣叫。",
+      "options": [
+        {
+          "id": "a",
+          "text": "縱使"
+        },
+        {
+          "id": "b",
+          "text": "因而"
+        },
+        {
+          "id": "c",
+          "text": "自此"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "縱使X，也Y là dù X vẫn Y.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l07-assessment-05",
+      "prompt": "Tác giả muốn nhân vật trải nghiệm điều gì qua hôn nhân?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vẻ đẹp và vị đắng của cam kết"
+        },
+        {
+          "id": "b",
+          "text": "Nhiều bữa tiệc hơn"
+        },
+        {
+          "id": "c",
+          "text": "Việc chuyển đến nước ngoài"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc viết 體會「承諾」的美好與苦澀.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l07-assessment-06",
+      "prompt": "Điền: 他____專家，卻不願聽意見。",
+      "options": [
+        {
+          "id": "a",
+          "text": "追溯到"
+        },
+        {
+          "id": "b",
+          "text": "改由"
+        },
+        {
+          "id": "c",
+          "text": "自詡為"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "自詡為 mang sắc thái tự đề cao.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l07-assessment-07",
+      "prompt": "Theo bài đọc 2, người nói nên làm gì với lời hứa?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ nói khi có thể thực hiện và đã nói thì làm"
+        },
+        {
+          "id": "b",
+          "text": "Nói trước rồi quên"
+        },
+        {
+          "id": "c",
+          "text": "Cứ nói để làm vui lòng đối phương"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài viết nói 不要說出來 nếu không chắc và 說了就要做到.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l07-assessment-08",
+      "prompt": "Điền: 這種杯子用過____丟。",
+      "options": [
+        {
+          "id": "a",
+          "text": "即"
+        },
+        {
+          "id": "b",
+          "text": "也"
+        },
+        {
+          "id": "c",
+          "text": "才"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "X過即Y nghĩa là làm X xong thì ngay lập tức Y.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l07-assessment-09",
+      "prompt": "Theo bài đọc 2, chỉ nhìn nghĩa trên mặt chữ bỏ qua điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thời gian diễn ra"
+        },
+        {
+          "id": "b",
+          "text": "Ý nghĩa đằng sau lời nói"
+        },
+        {
+          "id": "c",
+          "text": "Số người tham gia"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Đoạn 4 phân biệt 字面 và 字面背後的意義.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l07-assessment-10",
+      "prompt": "Kết luận về quan hệ trong bài đọc 2 là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hiểu khác biệt, tìm và duy trì điểm chung"
+        },
+        {
+          "id": "b",
+          "text": "Không cần lắng nghe nhau"
+        },
+        {
+          "id": "c",
+          "text": "Chỉ giải quyết chuyện công việc"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Câu cuối nêu 理解與欣賞彼此的差異 và 經營其中的共同點.",
+      "skill": "Tổng hợp"
+    }
+  ],
+  "writingTask": {
+    "id": "cc6-v6-l07-writing",
+    "title": "Viết ngắn: điều gì làm nên một quan hệ tốt?",
+    "prompt": "Viết 4–5 câu tiếng Hoa nêu quan điểm của bạn. Có thể đồng ý hoặc phản biện tác giả; dùng ít nhất một mẫu 縱使…也… hoặc 有…的可能."
+  }
+}

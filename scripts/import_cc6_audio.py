@@ -1,4 +1,4 @@
-"""Stage Volume 6 textbook audio and publish source-verified Lesson 1–8 tracks.
+"""Stage Volume 6 textbook audio and publish source-verified Lesson 1–10 tracks.
 
 Usage: python3 scripts/import_cc6_audio.py TEXTBOOK_PDF WORKBOOK_PDF AUDIO_ZIP
 The archive's original directory names are ignored; only numbered MP3 basenames are used.
@@ -83,6 +83,21 @@ VERIFIED = {
     "08-05": (209, "Bài đọc 2: 主辦奧運是經濟的強心針還是國債的大黑洞（II）"),
     "08-06": (210, "Từ vựng bài đọc 2"),
     "08-07": (219, "Phân biệt từ dễ nhầm bài đọc 2"),
+    "09-01": (224, "Tóm tắt và mở đầu Bài 09"),
+    "09-02": (225, "Bài đọc 1: 鄉關何處（I）"),
+    "09-03": (226, "Từ vựng tóm tắt và bài đọc 1"),
+    "09-04": (231, "Phân biệt từ dễ nhầm bài đọc 1"),
+    "09-05": (233, "Bài đọc 2: 鄉關何處（II）"),
+    "09-06": (234, "Từ vựng bài đọc 2"),
+    "09-07": (238, "Phân biệt từ dễ nhầm bài đọc 2"),
+    "10-01": (244, "Tóm tắt và mở đầu Bài 10"),
+    "10-02": (245, "Bài đọc 1: 當街頭智慧遇上讀書智慧"),
+    "10-03": (246, "Từ vựng tóm tắt và bài đọc 1"),
+    "10-04": (249, "Phân biệt từ dễ nhầm bài đọc 1"),
+    "10-05": (253, "Tóm tắt bài đọc 2"),
+    "10-06": (253, "Bài đọc 2: 讀書能力≠做事能力"),
+    "10-07": (255, "Từ vựng tóm tắt và bài đọc 2"),
+    "10-08": (270, "Phân biệt từ dễ nhầm bài đọc 2"),
 }
 
 
@@ -154,13 +169,13 @@ def main() -> None:
     report = {
         "courseId": "cc6", "volume": 6, "sourceTrackCount": len(tracks),
         "verifiedTrackCount": len(VERIFIED), "pendingTrackCount": len(tracks) - len(VERIFIED),
-        "publishedLessonIds": [f"cc6-v6-l{n:02d}" for n in range(1, 9)],
-        "pendingLessonIds": [f"cc6-v6-l{n:02d}" for n in range(9, 11)],
+        "publishedLessonIds": [f"cc6-v6-l{n:02d}" for n in range(1, 11)],
+        "pendingLessonIds": [],
         "unassignedTrackIds": [track["id"] for track in tracks if track["lesson"] is None],
-        "reason": "Lessons 01–08 printed audio reference codes and lesson content were checked against the source PDF. Remaining lessons are staged pending source verification.",
+        "reason": "Lessons 01–10 printed audio reference codes and lesson content were checked against the source PDF. Unassigned 00.mp3 remains private pending source verification.",
     }
     REPORT.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n")
-    print(f"Staged {len(tracks)} MP3s; published {len(VERIFIED)} verified Lesson 01–08 tracks; {len(tracks)-len(VERIFIED)} pending mapping.")
+    print(f"Staged {len(tracks)} MP3s; published {len(VERIFIED)} verified Lesson 01–10 tracks; {len(tracks)-len(VERIFIED)} pending mapping.")
 
 
 if __name__ == "__main__":

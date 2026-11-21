@@ -20,10 +20,14 @@ import lesson07 from '../data/academy/cc6-lesson07.json' with { type: 'json' };
 import vocabulary07 from '../data/academy/cc6-lesson07-vocabulary.json' with { type: 'json' };
 import lesson08 from '../data/academy/cc6-lesson08.json' with { type: 'json' };
 import vocabulary08 from '../data/academy/cc6-lesson08-vocabulary.json' with { type: 'json' };
+import lesson09 from '../data/academy/cc6-lesson09.json' with { type: 'json' };
+import vocabulary09 from '../data/academy/cc6-lesson09-vocabulary.json' with { type: 'json' };
+import lesson10 from '../data/academy/cc6-lesson10.json' with { type: 'json' };
+import vocabulary10 from '../data/academy/cc6-lesson10-vocabulary.json' with { type: 'json' };
 import manifest from '../data/academy/cc6-audio-manifest.json' with { type: 'json' };
 import report from '../data/academy/cc6-mapping-report.json' with { type: 'json' };
 import reviewed from '../data/academy/cc6-reviewed-content.json' with { type: 'json' };
-import { academyVolume6Lesson01, academyVolume6Lesson02, academyVolume6Lesson03, academyVolume6Lesson04, academyVolume6Lesson05, academyVolume6Lesson06, academyVolume6Lesson07, academyVolume6Lesson08, academyVocabularyByIds, validateAcademyLessonContent } from '../lib/academy-catalog.ts';
+import { academyVolume6Lesson01, academyVolume6Lesson02, academyVolume6Lesson03, academyVolume6Lesson04, academyVolume6Lesson05, academyVolume6Lesson06, academyVolume6Lesson07, academyVolume6Lesson08, academyVolume6Lesson09, academyVolume6Lesson10, academyVolume6Lessons, academyVocabularyByIds, validateAcademyLessonContent } from '../lib/academy-catalog.ts';
 import { academyScriptText } from '../lib/academy-script.ts';
 
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
@@ -144,24 +148,58 @@ test('Volume 6 Lesson 08 contains source-reviewed Olympic readings and learning 
   assert.equal(lesson08.assessment.length, 10);
 });
 
-test('all 77 MP3s are accounted for; only the 61 source-verified Lesson 01–08 tracks are published', () => {
+test('Volume 6 Lesson 09 contains source-reviewed home and belonging readings', () => {
+  assert.ok(validateAcademyLessonContent(academyVolume6Lesson09));
+  assert.equal(lesson09.id, 'cc6-v6-l09');
+  assert.deepEqual(lesson09.lecture.dialogues.map((item) => item.turns.length), [4, 4]);
+  assert.equal(vocabulary09.records.length, 103);
+  assert.equal(academyVocabularyByIds(academyVolume6Lesson09.vocabulary.wordIds).length, 103);
+  assert.ok(academyVocabularyByIds(academyVolume6Lesson09.vocabulary.wordIds).every((word) => word.exampleSimplified));
+  assert.ok(vocabulary09.records.every((item) => item.exampleTraditional.includes(item.traditional)));
+  assert.equal(lesson09.grammar.length, 4);
+  assert.equal(academyScriptText(lesson09.title, 'simplified'), '乡关何处');
+  assert.equal(academyScriptText(lesson09.grammar[1].title, 'simplified'), '在不知不觉中');
+  assert.equal(lesson09.listening.length, 4);
+  assert.equal(lesson09.practice.length, 8);
+  assert.equal(lesson09.assessment.length, 10);
+});
+
+test('Volume 6 Lesson 10 completes the course with source-reviewed reading and ability content', () => {
+  assert.equal(academyVolume6Lessons.length, 10);
+  assert.ok(validateAcademyLessonContent(academyVolume6Lesson10));
+  assert.equal(lesson10.id, 'cc6-v6-l10');
+  assert.deepEqual(lesson10.lecture.dialogues.map((item) => item.turns.length), [5, 8]);
+  assert.equal(vocabulary10.records.length, 107);
+  assert.equal(academyVocabularyByIds(academyVolume6Lesson10.vocabulary.wordIds).length, 107);
+  assert.ok(academyVocabularyByIds(academyVolume6Lesson10.vocabulary.wordIds).every((word) => word.exampleSimplified));
+  assert.ok(vocabulary10.records.every((item) => item.exampleTraditional.includes(item.traditional)));
+  assert.equal(lesson10.grammar.length, 14);
+  assert.equal(academyScriptText(lesson10.title, 'simplified'), '智慧与能力');
+  assert.equal(academyScriptText(lesson10.grammar[1].title, 'simplified'), '把X和Y混为一谈');
+  assert.equal(lesson10.listening.length, 4);
+  assert.equal(lesson10.practice.length, 8);
+  assert.equal(lesson10.assessment.length, 10);
+  assert.equal(manifest.tracks.find((item) => item.originalName === '10-06.mp3')?.activity.pdfPage, 253);
+});
+
+test('all 77 MP3s are accounted for; only the 76 source-verified Lesson 01–10 tracks are published', () => {
   assert.equal(manifest.tracks.length, 77);
   assert.equal(new Set(manifest.tracks.map((item) => item.originalName)).size, 77);
-  assert.equal(manifest.tracks.filter((item) => item.mappingStatus === 'verified').length, 61);
-  assert.equal(manifest.tracks.filter((item) => item.mappingStatus === 'pending').length, 16);
+  assert.equal(manifest.tracks.filter((item) => item.mappingStatus === 'verified').length, 76);
+  assert.equal(manifest.tracks.filter((item) => item.mappingStatus === 'pending').length, 1);
   assert.equal(report.sourceTrackCount, manifest.tracks.length);
-  assert.equal(report.pendingTrackCount, 16);
-  assert.deepEqual(report.publishedLessonIds, ['cc6-v6-l01', 'cc6-v6-l02', 'cc6-v6-l03', 'cc6-v6-l04', 'cc6-v6-l05', 'cc6-v6-l06', 'cc6-v6-l07', 'cc6-v6-l08']);
+  assert.equal(report.pendingTrackCount, 1);
+  assert.deepEqual(report.publishedLessonIds, ['cc6-v6-l01', 'cc6-v6-l02', 'cc6-v6-l03', 'cc6-v6-l04', 'cc6-v6-l05', 'cc6-v6-l06', 'cc6-v6-l07', 'cc6-v6-l08', 'cc6-v6-l09', 'cc6-v6-l10']);
   assert.equal(manifest.tracks.find((item) => item.originalName === '00.mp3').mappingStatus, 'pending');
   for (const track of manifest.tracks.filter((item) => item.mappingStatus === 'verified')) {
-    assert.ok([1, 2, 3, 4, 5, 6, 7, 8].includes(track.lesson));
+    assert.ok(track.lesson >= 1 && track.lesson <= 10);
     assert.equal(track.pdfPages.length, 1);
     assert.equal(track.activity.referenceCode, track.originalName.slice(0, -4));
     const file = path.join(root, 'public/academy/cc6/audio', `${track.id}.mp3`);
     assert.ok(statSync(file).size > 1000, track.id);
     assert.equal(createHash('sha256').update(readFileSync(file)).digest('hex'), track.sha256, track.id);
   }
-  for (const dialogue of [...lesson.lecture.dialogues, ...lesson02.lecture.dialogues, ...lesson03.lecture.dialogues, ...lesson04.lecture.dialogues, ...lesson05.lecture.dialogues, ...lesson06.lecture.dialogues, ...lesson07.lecture.dialogues, ...lesson08.lecture.dialogues]) {
+  for (const dialogue of [...lesson.lecture.dialogues, ...lesson02.lecture.dialogues, ...lesson03.lecture.dialogues, ...lesson04.lecture.dialogues, ...lesson05.lecture.dialogues, ...lesson06.lecture.dialogues, ...lesson07.lecture.dialogues, ...lesson08.lecture.dialogues, ...lesson09.lecture.dialogues, ...lesson10.lecture.dialogues]) {
     assert.ok(manifest.tracks.some((item) => item.id === dialogue.audioTrackId && item.mappingStatus === 'verified'));
     assert.ok(reviewed[dialogue.audioTrackId].transcriptTraditional.includes(dialogue.turns[0].chinese));
     assert.ok(reviewed[dialogue.audioTrackId].translationVi.includes(dialogue.turns[0].meaningVi));

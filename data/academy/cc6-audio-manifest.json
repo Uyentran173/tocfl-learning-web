@@ -1379,9 +1379,16 @@
       "privatePath": "textbook/09-01.mp3",
       "bytes": 1391421,
       "sha256": "e988e23dc42525763d5eab3862609e26aff2fc9df45c1a0a287efea7bebbee7f",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        224
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 224,
+        "bookPage": 201,
+        "labelVi": "Tóm tắt và mở đầu Bài 09",
+        "referenceCode": "09-01"
+      }
     },
     {
       "id": "cc6-textbook-l09-t02",
@@ -1394,9 +1401,16 @@
       "privatePath": "textbook/09-02.mp3",
       "bytes": 3762085,
       "sha256": "f118594a86ba750cb83414143ae8290b68959180194d9884360a283012364668",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        225
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 225,
+        "bookPage": 202,
+        "labelVi": "Bài đọc 1: 鄉關何處（I）",
+        "referenceCode": "09-02"
+      }
     },
     {
       "id": "cc6-textbook-l09-t03",
@@ -1409,9 +1423,16 @@
       "privatePath": "textbook/09-03.mp3",
       "bytes": 4610124,
       "sha256": "5349d806de7fa7fdd1bfb2cb01409b3f2f130f335f0d094e6699e2ff19b48df5",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        226
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 226,
+        "bookPage": 203,
+        "labelVi": "Từ vựng tóm tắt và bài đọc 1",
+        "referenceCode": "09-03"
+      }
     },
     {
       "id": "cc6-textbook-l09-t04",
@@ -1424,9 +1445,16 @@
       "privatePath": "textbook/09-04.mp3",
       "bytes": 2860547,
       "sha256": "b759fba1b57e1c902d4f2129a0ec9e64f8c129bd70d994fe9ee70ffd553d8e46",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        231
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 231,
+        "bookPage": 208,
+        "labelVi": "Phân biệt từ dễ nhầm bài đọc 1",
+        "referenceCode": "09-04"
+      }
     },
     {
       "id": "cc6-textbook-l09-t05",
@@ -1439,9 +1467,16 @@
       "privatePath": "textbook/09-05.mp3",
       "bytes": 3674732,
       "sha256": "dd2b12a1c2525fa735b00c3dfdd011cc5ccb83bfebece1a079fa0a431e0cbfa9",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        233
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 233,
+        "bookPage": 210,
+        "labelVi": "Bài đọc 2: 鄉關何處（II）",
+        "referenceCode": "09-05"
+      }
     },
     {
       "id": "cc6-textbook-l09-t06",
@@ -1454,9 +1489,16 @@
       "privatePath": "textbook/09-06.mp3",
       "bytes": 3861977,
       "sha256": "29e9f32a6764f24a4ebfa48fee57dca74a00b85fadb3471d57a40fb5a03eab0b",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        234
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 234,
+        "bookPage": 211,
+        "labelVi": "Từ vựng bài đọc 2",
+        "referenceCode": "09-06"
+      }
     },
     {
       "id": "cc6-textbook-l09-t07",
@@ -1469,9 +1511,16 @@
       "privatePath": "textbook/09-07.mp3",
       "bytes": 2865563,
       "sha256": "bf8997e7d7e60584763b69b66741384ff838ec94d78f4f3d41e9b8de91ce4fc1",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        238
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 238,
+        "bookPage": 215,
+        "labelVi": "Phân biệt từ dễ nhầm bài đọc 2",
+        "referenceCode": "09-07"
+      }
     },
     {
       "id": "cc6-textbook-l10-t01",
@@ -1484,9 +1533,16 @@
       "privatePath": "textbook/10-01.mp3",
       "bytes": 1414408,
       "sha256": "a8827dd90710c414bf08abb2a21dfab24465e4a1959f3d95c35eceb75f131963",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        244
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 244,
+        "bookPage": 221,
+        "labelVi": "Tóm tắt và mở đầu Bài 10",
+        "referenceCode": "10-01"
+      }
     },
     {
       "id": "cc6-textbook-l10-t02",
@@ -1499,9 +1555,16 @@
       "privatePath": "textbook/10-02.mp3",
       "bytes": 4934043,
       "sha256": "140a7efc9476bbac0613e8f6ad967bd0f7ac0bade0b3067a0dd3fa6a0721298f",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        245
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 245,
+        "bookPage": 222,
+        "labelVi": "Bài đọc 1: 當街頭智慧遇上讀書智慧",
+        "referenceCode": "10-02"
+      }
     },
     {
       "id": "cc6-textbook-l10-t03",
@@ -1514,9 +1577,16 @@
       "privatePath": "textbook/10-03.mp3",
       "bytes": 3837736,
       "sha256": "a18258fc77c7a225ab57761e7337ff5c31564b33505f0aa819590748307bfa9f",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        246
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 246,
+        "bookPage": 223,
+        "labelVi": "Từ vựng tóm tắt và bài đọc 1",
+        "referenceCode": "10-03"
+      }
     },
     {
       "id": "cc6-textbook-l10-t04",
@@ -1529,9 +1599,16 @@
       "privatePath": "textbook/10-04.mp3",
       "bytes": 4894754,
       "sha256": "c97088ff8f75f24c6be0eb48242f928839be899a657845b522471144cc161b01",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        249
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 249,
+        "bookPage": 226,
+        "labelVi": "Phân biệt từ dễ nhầm bài đọc 1",
+        "referenceCode": "10-04"
+      }
     },
     {
       "id": "cc6-textbook-l10-t05",
@@ -1544,9 +1621,16 @@
       "privatePath": "textbook/10-05.mp3",
       "bytes": 1385151,
       "sha256": "658e543db6f96f26be4c064e986ec6345bdae9102389fbcc5d84a65daa6243b6",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        253
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 253,
+        "bookPage": 230,
+        "labelVi": "Tóm tắt bài đọc 2",
+        "referenceCode": "10-05"
+      }
     },
     {
       "id": "cc6-textbook-l10-t06",
@@ -1559,9 +1643,16 @@
       "privatePath": "textbook/10-06.mp3",
       "bytes": 5268410,
       "sha256": "d5deee399422d800886a7be8c4d7ed5e9e7daa8c73bb556d372b64d519705695",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        253
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 253,
+        "bookPage": 230,
+        "labelVi": "Bài đọc 2: 讀書能力≠做事能力",
+        "referenceCode": "10-06"
+      }
     },
     {
       "id": "cc6-textbook-l10-t07",
@@ -1574,9 +1665,16 @@
       "privatePath": "textbook/10-07.mp3",
       "bytes": 5124632,
       "sha256": "9f9dd5ae5bb9903ce4f62584b0017ff4b6f3f89757d86f057658687d08a76e34",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        255
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 255,
+        "bookPage": 232,
+        "labelVi": "Từ vựng tóm tắt và bài đọc 2",
+        "referenceCode": "10-07"
+      }
     },
     {
       "id": "cc6-textbook-l10-t08",
@@ -1589,9 +1687,16 @@
       "privatePath": "textbook/10-08.mp3",
       "bytes": 3609948,
       "sha256": "6001c1b699c05ec3cf3643d6e88237253b9f165b027d87cb5fcb4d14e5f2b491",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        270
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 270,
+        "bookPage": 247,
+        "labelVi": "Phân biệt từ dễ nhầm bài đọc 2",
+        "referenceCode": "10-08"
+      }
     }
   ]
 }

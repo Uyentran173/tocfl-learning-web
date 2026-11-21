@@ -1,0 +1,1431 @@
+{
+  "contentVersion": 2,
+  "id": "cc6-v6-l10",
+  "title": "智慧與能力",
+  "titleVi": "Trí tuệ và năng lực",
+  "description": "So sánh học từ sách với trải nghiệm; phân biệt điểm thi, kiến thức và khả năng thực hiện.",
+  "objectives": [
+    "Giải thích vì sao kiến thức sách vở và trải nghiệm thực tế bổ trợ nhau.",
+    "Phân biệt khả năng thi cử với khả năng học và làm việc trong lập luận của bài.",
+    "Dùng đúng 把X和Y混為一談、得以、把X內化為Y và các mẫu của bài."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Hai bài đọc đặt câu hỏi học ở trường giúp gì và trải nghiệm ngoài đời giúp gì. Các ví dụ về thần kinh học là nội dung của nguồn giáo trình; học viên nên hiểu chúng như lập luận trong bài đọc, không dùng để tự chẩn đoán.",
+    "sections": [
+      {
+        "id": "cc6-v6-l10-section-01",
+        "title": "Sách và đời bổ trợ nhau",
+        "body": "Một cách học giúp ghi nhớ và lý giải; cách kia rèn quan sát, ứng biến và thử nghiệm.",
+        "chinese": "兩者若能相輔相成，將能讓個人在為人處世上更為圓融。",
+        "simplified": "两者若能相辅相成，将能让个人在为人处世上更为圆融。",
+        "pinyin": "liǎng zhě ruò néng xiāng fǔ xiāng chéng ， jiāng néng ràng gè rén zài wèi rén chù shì shàng gèng wèi yuán róng 。",
+        "meaningVi": "Nếu hai cách học bổ trợ nhau, con người có thể xử sự khéo léo hơn."
+      },
+      {
+        "id": "cc6-v6-l10-section-02",
+        "title": "Điểm thi không phải mọi năng lực",
+        "body": "Bài đọc thứ hai cho rằng khả năng thi chỉ là một cách đánh giá việc học; khó đọc không đồng nghĩa với thiếu năng lực làm việc.",
+        "chinese": "這兩種能力，不能畫上等號。",
+        "simplified": "这两种能力，不能画上等号。",
+        "pinyin": "zhè liǎng zhǒng néng lì ， bù néng huà shàng děng hào 。",
+        "meaningVi": "Hai năng lực này không thể đánh đồng."
+      },
+      {
+        "id": "cc6-v6-l10-section-03",
+        "title": "Biến kiến thức thành năng lực",
+        "body": "Tác giả đề nghị kết hợp trải nghiệm trực tiếp, đọc sách và kiên trì để hành động hiệu quả.",
+        "chinese": "可以透過閱讀，把別人的經驗內化為自己的。",
+        "simplified": "可以透过阅读，把别人的经验内化为自己的。",
+        "pinyin": "kě yǐ tòu guò yuè dú ， bǎ bié rén de jīng yàn nèi huà wèi zì jǐ de 。",
+        "meaningVi": "Có thể qua việc đọc mà biến kinh nghiệm của người khác thành của mình."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc6-v6-l10-reading1",
+        "title": "課文一 · 當街頭智慧遇上讀書智慧",
+        "context": "Hai kiểu học và cách chúng bổ sung cho nhau.",
+        "audioTrackId": "cc6-textbook-l10-t02",
+        "turns": [
+          {
+            "speaker": "Đoạn 1",
+            "chinese": "古人說，「書中自有黃金屋」，也鼓勵「讀萬卷書、行萬里路」；在地球村的現代，人們常說「讀萬卷書不如行萬里路」，尤其中外有不少創業家曾由學校教育中「脫逃」，卻能在實戰中出類拔萃。因此，究竟「讀書智慧」與「街頭智慧」在人生的不同階段孰輕、孰重，如何相輔相成？頗引人深思。",
+            "simplified": "古人说，「书中自有黄金屋」，也鼓励「读万卷书、行万里路」；在地球村的现代，人们常说「读万卷书不如行万里路」，尤其中外有不少创业家曾由学校教育中「脱逃」，却能在实战中出类拔萃。因此，究竟「读书智慧」与「街头智慧」在人生的不同阶段孰轻、孰重，如何相辅相成？颇引人深思。",
+            "pinyin": "gǔ rén shuō ， 「 shū zhōng zì yǒu huáng jīn wū 」 ， yě gǔ lì 「 dú wàn juǎn shū 、 xíng wàn lǐ lù 」 ； zài dì qiú cūn de xiàn dài ， rén men cháng shuō 「 dú wàn juǎn shū bù rú xíng wàn lǐ lù 」 ， yóu qí zhōng wài yǒu bù shǎo chuàng yè jiā céng yóu xué xiào jiào yù zhōng 「 tuō táo 」 ， què néng zài shí zhàn zhōng chū lèi bá cuì 。 yīn cǐ ， jiū jìng 「 dú shū zhì huì 」 yǔ 「 jiē tóu zhì huì 」 zài rén shēng de bù tóng jiē duàn shú qīng 、 shú zhòng ， rú hé xiāng fǔ xiāng chéng ？ pō yǐn rén shēn sī 。",
+            "meaningVi": "Người xưa nói “trong sách có nhà vàng” và khuyến khích vừa đọc nhiều sách vừa đi nhiều nơi. Trong thế giới hiện đại, người ta lại bảo đi nhiều còn hơn đọc nhiều, nhất là khi không ít doanh nhân rời trường học nhưng vẫn nổi bật trong thực tế. Vậy tri thức từ sách và sự khôn ngoan ngoài đời quan trọng thế nào ở từng giai đoạn, và bổ trợ nhau ra sao? Đây là câu hỏi đáng suy nghĩ."
+          },
+          {
+            "speaker": "Đoạn 2",
+            "chinese": "前台科大管理學院院長盧希鵬就點出，我們的教育比較強調「讀書智慧」，讀書因而成為現在學生唯一的目標，但學校很少教的「街頭智慧」，其實才是離開學校後融入社會最重要的技巧。",
+            "simplified": "前台科大管理学院院长卢希鹏就点出，我们的教育比较强调「读书智慧」，读书因而成为现在学生唯一的目标，但学校很少教的「街头智慧」，其实才是离开学校后融入社会最重要的技巧。",
+            "pinyin": "qián tái kē dà guǎn lǐ xué yuàn yuàn zhǎng lú xī péng jiù diǎn chū ， wǒ men de jiào yù bǐ jiào qiáng diào 「 dú shū zhì huì 」 ， dú shū yīn ér chéng wèi xiàn zài xué shēng wéi yī de mù biāo ， dàn xué xiào hěn shǎo jiào de 「 jiē tóu zhì huì 」 ， qí shí cái shì lí kāi xué xiào hòu róng rù shè huì zuì zhòng yào de jì qiǎo 。",
+            "meaningVi": "Cựu viện trưởng Viện Quản lý của Đại học Khoa học và Công nghệ Quốc gia Đài Loan, Lư Hy Bằng, cho rằng giáo dục nhấn mạnh kiến thức sách vở đến mức việc học thành mục tiêu duy nhất của học sinh. Nhưng kỹ năng ứng xử ngoài đời, vốn ít được dạy ở trường, mới đặc biệt quan trọng khi rời trường để hòa nhập xã hội."
+          },
+          {
+            "speaker": "Đoạn 3",
+            "chinese": "盧希鵬說，「人類與猴子主要的差別之一，在於人類發明了『學校』，從此人類的學習開始與現實脫鉤。你看，猴子從小在叢林中學習，很快地就能獨立生存。人類從小在校園中學習，受教育20年後，步入社會叢林，卻什麼也不懂，好像隨時都會被野獸吃掉似的。」他認為，戴眼鏡的人類優點是能「聚焦」，解決核心問題；不戴眼鏡的猴子則因「周邊視野」開闊，機會與風險都能從容應對。盧希鵬希望學生讀書的同時也能綜觀大環境，因為核心與周邊同樣重要。",
+            "simplified": "卢希鹏说，「人类与猴子主要的差别之一，在于人类发明了『学校』，从此人类的学习开始与现实脱钩。你看，猴子从小在丛林中学习，很快地就能独立生存。人类从小在校园中学习，受教育20年后，步入社会丛林，却什么也不懂，好像随时都会被野兽吃掉似的。」他认为，戴眼镜的人类优点是能「聚焦」，解决核心问题；不戴眼镜的猴子则因「周边视野」开阔，机会与风险都能从容应对。卢希鹏希望学生读书的同时也能综观大环境，因为核心与周边同样重要。",
+            "pinyin": "lú xī péng shuō ， 「 rén lèi yǔ hóu zi zhǔ yào de chà bié zhī yī ， zài yú rén lèi fā míng liǎo 『 xué xiào 』 ， cóng cǐ rén lèi de xué xí kāi shǐ yǔ xiàn shí tuō gōu 。 nǐ kàn ， hóu zi cóng xiǎo zài cóng lín zhōng xué xí ， hěn kuài dì jiù néng dú lì shēng cún 。 rén lèi cóng xiǎo zài xiào yuán zhōng xué xí ， shòu jiào yù 2 0 nián hòu ， bù rù shè huì cóng lín ， què shén me yě bù dǒng ， hǎo xiàng suí shí dōu huì bèi yě shòu chī diào shì de 。 」 tā rèn wèi ， dài yǎn jìng de rén lèi yōu diǎn shì néng 「 jù jiāo 」 ， jiě jué hé xīn wèn tí ； bù dài yǎn jìng de hóu zi zé yīn 「 zhōu biān shì yě 」 kāi kuò ， jī huì yǔ fēng xiǎn dōu néng cóng róng yīng duì 。 lú xī péng xī wàng xué shēng dú shū de tóng shí yě néng zōng guān dà huán jìng ， yīn wèi hé xīn yǔ zhōu biān tóng yàng zhòng yào 。",
+            "meaningVi": "Ông ví con người với khỉ: con người học ở trường nên đôi khi xa rời thực tế, còn khỉ học trong rừng và sớm biết sinh tồn. Ông ví người đeo kính biết tập trung vào vấn đề cốt lõi, còn khỉ có tầm nhìn bao quát nên ứng phó với cơ hội và rủi ro. Theo ông, học sinh nên vừa học sách vừa nhìn toàn cảnh môi trường, bởi cả trọng tâm lẫn phần xung quanh đều quan trọng."
+          },
+          {
+            "speaker": "Đoạn 4",
+            "chinese": "美商中經合集團總經理朱永光表示，讀書智慧跟街頭智慧都是人生中不可缺少的修練。學校教育重點往往放在「避免危險」，畢竟前人的經驗可讓後人少走很多曲折路，但只走熟悉的路，缺點是不敢突破，長期下來在不知不覺中失去了應變、創新思維，偏偏這是行走江湖時很重要的能力。朱永光認為，「當生活中遇到困難，有時我們也會回頭在書中找答案……，這是讀書智慧；街頭智慧某種程度來說，是書中讀到那些技巧的實驗。」",
+            "simplified": "美商中经合集团总经理朱永光表示，读书智慧跟街头智慧都是人生中不可缺少的修练。学校教育重点往往放在「避免危险」，毕竟前人的经验可让后人少走很多曲折路，但只走熟悉的路，缺点是不敢突破，长期下来在不知不觉中失去了应变、创新思维，偏偏这是行走江湖时很重要的能力。朱永光认为，「当生活中遇到困难，有时我们也会回头在书中找答案……，这是读书智慧；街头智慧某种程度来说，是书中读到那些技巧的实验。」",
+            "pinyin": "měi shāng zhōng jīng hé jí tuán zǒng jīng lǐ zhū yǒng guāng biǎo shì ， dú shū zhì huì gēn jiē tóu zhì huì dōu shì rén shēng zhōng bù kě quē shǎo de xiū liàn 。 xué xiào jiào yù zhòng diǎn wǎng wǎng fàng zài 「 bì miǎn wēi xiǎn 」 ， bì jìng qián rén de jīng yàn kě ràng hòu rén shǎo zǒu hěn duō qū zhé lù ， dàn zhǐ zǒu shú xī de lù ， quē diǎn shì bù gǎn tū pò ， zhǎng qī xià lái zài bù zhī bù jué zhōng shī qù le yīng biàn 、 chuàng xīn sī wéi ， piān piān zhè shì xíng zǒu jiāng hú shí hěn zhòng yào de néng lì 。 zhū yǒng guāng rèn wèi ， 「 dāng shēng huó zhōng yù dào kùn nán ， yǒu shí wǒ men yě huì huí tóu zài shū zhōng zhǎo dá àn … … ， zhè shì dú shū zhì huì ； jiē tóu zhì huì mǒu zhǒng chéng dù lái shuō ， shì shū zhōng dú dào nà xiē jì qiǎo de shí yàn 。 」",
+            "meaningVi": "Tổng giám đốc Chu Vĩnh Quang cho rằng kiến thức sách vở và kinh nghiệm thực tế đều là phần học hỏi cần thiết. Trường học giúp tránh hiểm nguy nhờ bài học của người đi trước, nhưng chỉ đi đường quen có thể khiến ta thiếu khả năng thích nghi và đổi mới. Khi gặp khó, ta có thể quay lại tìm đáp án trong sách; còn trải nghiệm ngoài đời là nơi thử những kỹ năng đã học."
+          },
+          {
+            "speaker": "Đoạn 5",
+            "chinese": "盧希鵬認為，「讀書智慧」靠的是讀書和記憶；「街頭智慧」要的是觀察與詮釋，兩者都很重要。朱永光也指出，兩者若能相輔相成，在關鍵時刻發揮互補的效果，將能讓個人在職場、創業過程或為人處世上更為圓融。盧希鵬幽默地說，「關於思考術，你認為是人（讀書智慧）強還是猴子（街頭智慧）強？我只能說，人類愛看書，猴子善觀察⋯⋯如果你天生是猴子，就要多學學人；如果你本來就是人，不妨多學學猴子，或許有所突破。」",
+            "simplified": "卢希鹏认为，「读书智慧」靠的是读书和记忆；「街头智慧」要的是观察与诠释，两者都很重要。朱永光也指出，两者若能相辅相成，在关键时刻发挥互补的效果，将能让个人在职场、创业过程或为人处世上更为圆融。卢希鹏幽默地说，「关于思考术，你认为是人（读书智慧）强还是猴子（街头智慧）强？我只能说，人类爱看书，猴子善观察⋯⋯如果你天生是猴子，就要多学学人；如果你本来就是人，不妨多学学猴子，或许有所突破。」",
+            "pinyin": "lú xī péng rèn wèi ， 「 dú shū zhì huì 」 kào de shì dú shū hé jì yì ； 「 jiē tóu zhì huì 」 yào de shì guān chá yǔ quán shì ， liǎng zhě dōu hěn zhòng yào 。 zhū yǒng guāng yě zhǐ chū ， liǎng zhě ruò néng xiāng fǔ xiāng chéng ， zài guān jiàn shí kè fā huī hù bǔ de xiào guǒ ， jiāng néng ràng gè rén zài zhí chǎng 、 chuàng yè guò chéng huò wèi rén chù shì shàng gèng wèi yuán róng 。 lú xī péng yōu mò dì shuō ， 「 guān yú sī kǎo shù ， nǐ rèn wèi shì rén （ dú shū zhì huì ） qiáng hái shì hóu zi （ jiē tóu zhì huì ） qiáng ？ wǒ zhǐ néng shuō ， rén lèi ài kàn shū ， hóu zi shàn guān chá ⋯ ⋯ rú guǒ nǐ tiān shēng shì hóu zi ， jiù yào duō xué xué rén ； rú guǒ nǐ běn lái jiù shì rén ， bù fáng duō xué xué hóu zi ， huò xǔ yǒu suǒ tū pò 。 」",
+            "meaningVi": "Lư Hy Bằng nói học từ sách dựa vào đọc và ghi nhớ, còn học ngoài đời cần quan sát và diễn giải. Hai cách học bổ sung cho nhau, giúp ta xử lý công việc và quan hệ tốt hơn. Ông hóm hỉnh khuyên người thiên về sách hãy học quan sát, còn người thiên về trải nghiệm hãy học thêm từ sách để có thể tiến bộ."
+          }
+        ]
+      },
+      {
+        "id": "cc6-v6-l10-reading2",
+        "title": "課文二 · 讀書能力≠做事能力",
+        "context": "Khả năng đọc, thi cử, học hỏi và thực hiện.",
+        "audioTrackId": "cc6-textbook-l10-t06",
+        "turns": [
+          {
+            "speaker": "Đoạn 1",
+            "chinese": "我們常把讀書的能力和做事的能力混為一談，認為書讀不好，就沒有出息。其實這兩種能力，在本質上有很大的差別。",
+            "simplified": "我们常把读书的能力和做事的能力混为一谈，认为书读不好，就没有出息。其实这两种能力，在本质上有很大的差别。",
+            "pinyin": "wǒ men cháng bǎ dú shū de néng lì hé zuò shì de néng lì hùn wèi yī tán ， rèn wèi shū dú bù hǎo ， jiù méi yǒu chū xī 。 qí shí zhè liǎng zhǒng néng lì ， zài běn zhì shàng yǒu hěn dà de chà bié 。",
+            "meaningVi": "Chúng ta thường gộp khả năng học sách với khả năng làm việc và nghĩ rằng học không giỏi thì không có tương lai. Thực ra hai năng lực này khác nhau về bản chất."
+          },
+          {
+            "speaker": "Đoạn 2",
+            "chinese": "讀書識字有先天上的條件限制。有一種人很聰明，識字卻很慢，甚至不能辨識字。閱讀時眼睛會跳行，也有寫字上的困難，這就是「失讀症」（dyslexia）。政治家邱吉爾、李光耀皆為此症所苦，但都不損其偉大。其他神經上的疾病，如「妥瑞氏症」，也有閱讀困難，但也都不礙患者成就一番事業。所以，對於讀書慢、開竅晚的孩子，我們動不動罵他笨、是豬，是非常不對的。這兩種能力，不能畫上等號。",
+            "simplified": "读书识字有先天上的条件限制。有一种人很聪明，识字却很慢，甚至不能辨识字。阅读时眼睛会跳行，也有写字上的困难，这就是「失读症」（dyslexia）。政治家邱吉尔、李光耀皆为此症所苦，但都不损其伟大。其他神经上的疾病，如「妥瑞氏症」，也有阅读困难，但也都不碍患者成就一番事业。所以，对于读书慢、开窍晚的孩子，我们动不动骂他笨、是猪，是非常不对的。这两种能力，不能画上等号。",
+            "pinyin": "dú shū shí zì yǒu xiān tiān shàng de tiáo jiàn xiàn zhì 。 yǒu yī zhǒng rén hěn cōng míng ， shí zì què hěn màn ， shèn zhì bù néng biàn shí zì 。 yuè dú shí yǎn jīng huì tiào háng ， yě yǒu xiě zì shàng de kùn nán ， zhè jiù shì 「 shī dú zhèng 」 （ d y s l e x i a ） 。 zhèng zhì jiā qiū jí ěr 、 lǐ guāng yào jiē wèi cǐ zhèng suǒ kǔ ， dàn dōu bù sǔn qí wěi dà 。 qí tā shén jīng shàng de jí bìng ， rú 「 tuǒ ruì shì zhèng 」 ， yě yǒu yuè dú kùn nán ， dàn yě dōu bù ài huàn zhě chéng jiù yī fān shì yè 。 suǒ yǐ ， duì yú dú shū màn 、 kāi qiào wǎn de hái zi ， wǒ men dòng bù dòng mà tā bèn 、 shì zhū ， shì fēi cháng bù duì de 。 zhè liǎng zhǒng néng lì ， bù néng huà shàng děng hào 。",
+            "meaningVi": "Khả năng đọc chữ có những giới hạn bẩm sinh. Có người rất thông minh nhưng nhận mặt chữ chậm, đọc bị nhảy dòng và khó viết; đó là chứng khó đọc. Bài viết nêu Churchill và Lý Quang Diệu từng gặp tình trạng này nhưng vẫn thành tựu. Một số tình trạng thần kinh khác cũng có thể đi kèm khó đọc mà không cản trở người bệnh làm nên sự nghiệp. Vì vậy, mắng trẻ đọc chậm hay hiểu muộn là sai; học sách và làm việc không thể xem là một."
+          },
+          {
+            "speaker": "Đoạn 3",
+            "chinese": "教育的精神在使人類超越動物的本性，使天賦的能力得以發展出來。教育的做法，每個國家因其財政情況、或執政理念而有所不同，但此精神應該是放諸四海皆準。",
+            "simplified": "教育的精神在使人类超越动物的本性，使天赋的能力得以发展出来。教育的做法，每个国家因其财政情况、或执政理念而有所不同，但此精神应该是放诸四海皆准。",
+            "pinyin": "jiào yù de jīng shén zài shǐ rén lèi chāo yuè dòng wù de běn xìng ， shǐ tiān fù de néng lì dé yǐ fā zhǎn chū lái 。 jiào yù de zuò fǎ ， měi gè guó jiā yīn qí cái zhèng qíng kuàng 、 huò zhí zhèng lǐ niàn ér yǒu suǒ bù tóng ， dàn cǐ jīng shén yīng gāi shì fàng zhū sì hǎi jiē zhǔn 。",
+            "meaningVi": "Tinh thần giáo dục là giúp con người vượt qua bản năng và phát triển năng lực bẩm sinh. Cách làm ở mỗi nước có thể khác tùy tài chính và quan điểm cầm quyền, nhưng tinh thần ấy, theo tác giả, có giá trị rộng rãi."
+          },
+          {
+            "speaker": "Đoạn 4",
+            "chinese": "學術上已有無數論文在談knowing that（知其然）和knowing how（知其所以然）的差別。我們在此只問，如何提升國民的執行力。我們必須區分出讀書能力（考試力），和獲得知識的能力（學習力）。因為前者僅是評量後者的方式之一，不是唯一、也不是最好的方式。",
+            "simplified": "学术上已有无数论文在谈knowing that（知其然）和knowing how（知其所以然）的差别。我们在此只问，如何提升国民的执行力。我们必须区分出读书能力（考试力），和获得知识的能力（学习力）。因为前者仅是评量后者的方式之一，不是唯一、也不是最好的方式。",
+            "pinyin": "xué shù shàng yǐ yǒu wú shù lùn wén zài tán k n o w i n g   t h a t （ zhī qí rán ） hé k n o w i n g   h o w （ zhī qí suǒ yǐ rán ） de chà bié 。 wǒ men zài cǐ zhǐ wèn ， rú hé tí shēng guó mín de zhí xíng lì 。 wǒ men bì xū qū fēn chū dú shū néng lì （ kǎo shì lì ） ， hé huò dé zhī shí de néng lì （ xué xí lì ） 。 yīn wèi qián zhě jǐn shì píng liàng hòu zhě de fāng shì zhī yī ， bú shì wéi yī 、 yě bú shì zuì hǎo de fāng shì 。",
+            "meaningVi": "Nhiều nghiên cứu phân biệt “biết điều gì” với “biết làm thế nào”. Ở đây tác giả hỏi làm sao nâng năng lực thực hiện của người dân. Cần phân biệt khả năng thi cử với khả năng tiếp thu kiến thức: thi cử chỉ là một cách đánh giá việc học, không phải cách duy nhất hay tốt nhất."
+          },
+          {
+            "speaker": "Đoạn 5",
+            "chinese": "要有好的執行力，這個人必須知識廣、見聞多；同時他的知識必須是有組織的，使他能立即提取。重要的是，這個人須有預見未來的能力，而且能事先防範、未雨綢繆。",
+            "simplified": "要有好的执行力，这个人必须知识广、见闻多；同时他的知识必须是有组织的，使他能立即提取。重要的是，这个人须有预见未来的能力，而且能事先防范、未雨绸缪。",
+            "pinyin": "yào yǒu hǎo de zhí xíng lì ， zhè gè rén bì xū zhī shí guǎng 、 jiàn wén duō ； tóng shí tā de zhī shí bì xū shì yǒu zǔ zhī de ， shǐ tā néng lì jí tí qǔ 。 zhòng yào de shì ， zhè gè rén xū yǒu yù jiàn wèi lái de néng lì ， ér qiě néng shì xiān fáng fàn 、 wèi yǔ chóu móu 。",
+            "meaningVi": "Người có năng lực thực hiện cần biết rộng, hiểu nhiều và sắp xếp kiến thức để có thể dùng ngay. Quan trọng hơn, họ cần dự đoán và phòng bị trước khi vấn đề xảy ra."
+          },
+          {
+            "speaker": "Đoạn 6",
+            "chinese": "這個預見能力不用教，但必須靠經驗促發。對動物來說，凡是性命交關的事，一次就學會。其他的，只要眼睛看到，也自然就學會。因為，模仿這個最原始的學習機制——鏡像神經元，已經在人和猴子的大腦中找到了。模仿的學習，就是有樣學樣。所以孟母要三遷，它本身是個內隱的學習，不用特別教，只要暴露在這個環境下，自然就會。現在腦造影技術的精進，已經逐漸解開基因和環境互動之謎。環境竟然可以改變基因的展現，令科學家非常震驚。",
+            "simplified": "这个预见能力不用教，但必须靠经验促发。对动物来说，凡是性命交关的事，一次就学会。其他的，只要眼睛看到，也自然就学会。因为，模仿这个最原始的学习机制——镜像神经元，已经在人和猴子的大脑中找到了。模仿的学习，就是有样学样。所以孟母要三迁，它本身是个内隐的学习，不用特别教，只要暴露在这个环境下，自然就会。现在脑造影技术的精进，已经逐渐解开基因和环境互动之谜。环境竟然可以改变基因的展现，令科学家非常震惊。",
+            "pinyin": "zhè gè yù jiàn néng lì bù yòng jiào ， dàn bì xū kào jīng yàn cù fā 。 duì dòng wù lái shuō ， fán shì xìng mìng jiāo guān de shì ， yī cì jiù xué huì 。 qí tā de ， zhǐ yào yǎn jīng kàn dào ， yě zì rán jiù xué huì 。 yīn wèi ， mó fǎng zhè gè zuì yuán shǐ de xué xí jī zhì — — jìng xiàng shén jīng yuán ， yǐ jīng zài rén hé hóu zi de dà nǎo zhōng zhǎo dào le 。 mó fǎng de xué xí ， jiù shì yǒu yàng xué yàng 。 suǒ yǐ mèng mǔ yào sān qiān ， tā běn shēn shì gè nèi yǐn de xué xí ， bù yòng tè bié jiào ， zhǐ yào bào lù zài zhè gè huán jìng xià ， zì rán jiù huì 。 xiàn zài nǎo zào yǐng jì shù de jīng jìn ， yǐ jīng zhú jiàn jiě kāi jī yīn hé huán jìng hù dòng zhī mí 。 huán jìng jìng rán kě yǐ gǎi biàn jī yīn de zhǎn xiàn ， lìng kē xué jiā fēi cháng zhèn jīng 。",
+            "meaningVi": "Theo bài viết, khả năng dự đoán được khơi gợi từ trải nghiệm. Động vật học những điều sống còn rất nhanh và còn học bằng quan sát, bắt chước. Tác giả liên hệ điều đó với tế bào thần kinh gương, chuyện Mạnh Mẫu chuyển nhà ba lần và việc học ngầm từ môi trường. Bài viết cũng nhắc nghiên cứu hình ảnh não về sự tương tác giữa gen và môi trường."
+          },
+          {
+            "speaker": "Đoạn 7",
+            "chinese": "最近發現，童年受虐會改變大腦中情緒調控的機制，使這孩子十五年後，容易有焦慮症、憂鬱症，甚至反社會的行為，更令我們對孩子的教養，不敢掉以輕心。研究也顯示，父母對孩子的態度，決定了他的命運；而大人觀念的改變，是孩子成功的起點。大人需把考試和做事能力分開（其實考試題目出得好壞，跟成績很有關係），也需了解成長和開竅需要時間，更要知道知識和經驗不能畫上等號。",
+            "simplified": "最近发现，童年受虐会改变大脑中情绪调控的机制，使这孩子十五年后，容易有焦虑症、忧郁症，甚至反社会的行为，更令我们对孩子的教养，不敢掉以轻心。研究也显示，父母对孩子的态度，决定了他的命运；而大人观念的改变，是孩子成功的起点。大人需把考试和做事能力分开（其实考试题目出得好坏，跟成绩很有关系），也需了解成长和开窍需要时间，更要知道知识和经验不能画上等号。",
+            "pinyin": "zuì jìn fā xiàn ， tóng nián shòu nüè huì gǎi biàn dà nǎo zhōng qíng xù diào kòng de jī zhì ， shǐ zhè hái zi shí wǔ nián hòu ， róng yì yǒu jiāo lǜ zhèng 、 yōu yù zhèng ， shèn zhì fǎn shè huì de xíng wèi ， gèng lìng wǒ men duì hái zi de jiào yǎng ， bù gǎn diào yǐ qīng xīn 。 yán jiū yě xiǎn shì ， fù mǔ duì hái zi de tài dù ， jué dìng le tā de mìng yùn ； ér dà rén guān niàn de gǎi biàn ， shì hái zi chéng gōng de qǐ diǎn 。 dà rén xū bǎ kǎo shì hé zuò shì néng lì fēn kāi （ qí shí kǎo shì tí mù chū dé hǎo huài ， gēn chéng jī hěn yǒu guān xì ） ， yě xū liǎo jiě chéng zhǎng hé kāi qiào xū yào shí jiān ， gèng yào zhī dào zhī shí hé jīng yàn bù néng huà shàng děng hào 。",
+            "meaningVi": "Bài viết dẫn nghiên cứu về tác động lâu dài của việc trẻ bị ngược đãi, từ đó nhấn mạnh cần chăm sóc và giáo dục trẻ cẩn trọng. Cha mẹ cần phân biệt điểm thi với năng lực làm việc, hiểu rằng mỗi trẻ cần thời gian trưởng thành và không đánh đồng kiến thức với trải nghiệm."
+          },
+          {
+            "speaker": "Đoạn 8",
+            "chinese": "二度空間和三度空間的學習，在大腦上動用到的區域不同。經驗是促使神經連接最好的方法，所以教學應該盡量鼓勵學生動手做。人生苦短，我們無法經驗到世界上所有的東西，但可以透過閱讀，把別人的經驗內化為自己的。閱讀和經驗是培養執行力最好的方法，若再加上毅力，則攻無不克、事無不成了。",
+            "simplified": "二度空间和三度空间的学习，在大脑上动用到的区域不同。经验是促使神经连接最好的方法，所以教学应该尽量鼓励学生动手做。人生苦短，我们无法经验到世界上所有的东西，但可以透过阅读，把别人的经验内化为自己的。阅读和经验是培养执行力最好的方法，若再加上毅力，则攻无不克、事无不成了。",
+            "pinyin": "èr dù kōng jiān hé sān dù kōng jiān de xué xí ， zài dà nǎo shàng dòng yòng dào de qū yù bù tóng 。 jīng yàn shì cù shǐ shén jīng lián jiē zuì hǎo de fāng fǎ ， suǒ yǐ jiào xué yīng gāi jǐn liàng gǔ lì xué shēng dòng shǒu zuò 。 rén shēng kǔ duǎn ， wǒ men wú fǎ jīng yàn dào shì jiè shàng suǒ yǒu de dōng xī ， dàn kě yǐ tòu guò yuè dú ， bǎ bié rén de jīng yàn nèi huà wèi zì jǐ de 。 yuè dú hé jīng yàn shì péi yǎng zhí xíng lì zuì hǎo de fāng fǎ ， ruò zài jiā shàng yì lì ， zé gōng wú bù kè 、 shì wú bù chéng le 。",
+            "meaningVi": "Học từ hình ảnh hai chiều và trải nghiệm ba chiều có thể huy động những vùng não khác nhau. Tác giả khuyến khích học bằng làm, vì ta không thể tự trải nghiệm mọi điều. Đọc sách giúp biến kinh nghiệm của người khác thành của mình; kết hợp đọc, trải nghiệm và kiên trì sẽ nâng khả năng thực hiện."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc6-v6-l10-check-01",
+        "prompt": "Theo bài đọc 1, “trí tuệ sách vở” dựa vào gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Đọc và ghi nhớ"
+          },
+          {
+            "id": "b",
+            "text": "Chỉ đi du lịch"
+          },
+          {
+            "id": "c",
+            "text": "Chỉ quan sát rừng"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Cuối bài viết 讀書和記憶.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc6-v6-l10-check-02",
+        "prompt": "Theo bài đọc 1, “trí tuệ ngoài đời” cần gì?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Chỉ đọc sách"
+          },
+          {
+            "id": "b",
+            "text": "Quan sát và diễn giải"
+          },
+          {
+            "id": "c",
+            "text": "Chỉ làm bài thi"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Bài viết nói 觀察與詮釋.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc6-v6-l10-check-03",
+        "prompt": "Bài đọc 2 phân biệt hai năng lực nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Du lịch và thể thao"
+          },
+          {
+            "id": "b",
+            "text": "Thi cử và tiếp thu kiến thức"
+          },
+          {
+            "id": "c",
+            "text": "Múa và vẽ"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Đoạn 4 nói 考試力 và 學習力.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc6-v6-l10-check-04",
+        "prompt": "Theo bài đọc 2, điều gì giúp biến kinh nghiệm người khác thành của mình?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Chỉ sao chép"
+          },
+          {
+            "id": "b",
+            "text": "Đọc sách"
+          },
+          {
+            "id": "c",
+            "text": "Chỉ làm bài kiểm tra"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Câu kết nêu 透過閱讀，把別人的經驗內化為自己的.",
+        "skill": "Đọc hiểu"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem phiên âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc6-v6-l10-v001",
+      "cc6-v6-l10-v002",
+      "cc6-v6-l10-v003",
+      "cc6-v6-l10-v004",
+      "cc6-v6-l10-v005",
+      "cc6-v6-l10-v006",
+      "cc6-v6-l10-v007",
+      "cc6-v6-l10-v008",
+      "cc6-v6-l10-v009",
+      "cc6-v6-l10-v010",
+      "cc6-v6-l10-v011",
+      "cc6-v6-l10-v012",
+      "cc6-v6-l10-v013",
+      "cc6-v6-l10-v014",
+      "cc6-v6-l10-v015",
+      "cc6-v6-l10-v016",
+      "cc6-v6-l10-v017",
+      "cc6-v6-l10-v018",
+      "cc6-v6-l10-v019",
+      "cc6-v6-l10-v020",
+      "cc6-v6-l10-v021",
+      "cc6-v6-l10-v022",
+      "cc6-v6-l10-v023",
+      "cc6-v6-l10-v024",
+      "cc6-v6-l10-v025",
+      "cc6-v6-l10-v026",
+      "cc6-v6-l10-v027",
+      "cc6-v6-l10-v028",
+      "cc6-v6-l10-v029",
+      "cc6-v6-l10-v030",
+      "cc6-v6-l10-v031",
+      "cc6-v6-l10-v032",
+      "cc6-v6-l10-v033",
+      "cc6-v6-l10-v034",
+      "cc6-v6-l10-v035",
+      "cc6-v6-l10-v036",
+      "cc6-v6-l10-v037",
+      "cc6-v6-l10-v038",
+      "cc6-v6-l10-v039",
+      "cc6-v6-l10-v040",
+      "cc6-v6-l10-v041",
+      "cc6-v6-l10-v042",
+      "cc6-v6-l10-v043",
+      "cc6-v6-l10-v044",
+      "cc6-v6-l10-v045",
+      "cc6-v6-l10-v046",
+      "cc6-v6-l10-v047",
+      "cc6-v6-l10-v048",
+      "cc6-v6-l10-v049",
+      "cc6-v6-l10-v050",
+      "cc6-v6-l10-v051",
+      "cc6-v6-l10-v052",
+      "cc6-v6-l10-v053",
+      "cc6-v6-l10-v054",
+      "cc6-v6-l10-v055",
+      "cc6-v6-l10-v056",
+      "cc6-v6-l10-v057",
+      "cc6-v6-l10-v058",
+      "cc6-v6-l10-v059",
+      "cc6-v6-l10-v060",
+      "cc6-v6-l10-v061",
+      "cc6-v6-l10-v062",
+      "cc6-v6-l10-v063",
+      "cc6-v6-l10-v064",
+      "cc6-v6-l10-v065",
+      "cc6-v6-l10-v066",
+      "cc6-v6-l10-v067",
+      "cc6-v6-l10-v068",
+      "cc6-v6-l10-v069",
+      "cc6-v6-l10-v070",
+      "cc6-v6-l10-v071",
+      "cc6-v6-l10-v072",
+      "cc6-v6-l10-v073",
+      "cc6-v6-l10-v074",
+      "cc6-v6-l10-v075",
+      "cc6-v6-l10-v076",
+      "cc6-v6-l10-v077",
+      "cc6-v6-l10-v078",
+      "cc6-v6-l10-v079",
+      "cc6-v6-l10-v080",
+      "cc6-v6-l10-v081",
+      "cc6-v6-l10-v082",
+      "cc6-v6-l10-v083",
+      "cc6-v6-l10-v084",
+      "cc6-v6-l10-v085",
+      "cc6-v6-l10-v086",
+      "cc6-v6-l10-v087",
+      "cc6-v6-l10-v088",
+      "cc6-v6-l10-v089",
+      "cc6-v6-l10-v090",
+      "cc6-v6-l10-v091",
+      "cc6-v6-l10-v092",
+      "cc6-v6-l10-v093",
+      "cc6-v6-l10-v094",
+      "cc6-v6-l10-v095",
+      "cc6-v6-l10-v096",
+      "cc6-v6-l10-v097",
+      "cc6-v6-l10-v098",
+      "cc6-v6-l10-v099",
+      "cc6-v6-l10-v100",
+      "cc6-v6-l10-v101",
+      "cc6-v6-l10-v102",
+      "cc6-v6-l10-v103",
+      "cc6-v6-l10-v104",
+      "cc6-v6-l10-v105",
+      "cc6-v6-l10-v106",
+      "cc6-v6-l10-v107"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc6-textbook-l10-t03",
+        "label": "Từ vựng bài đọc 1"
+      },
+      {
+        "id": "cc6-textbook-l10-t07",
+        "label": "Từ vựng bài đọc 2"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc6-v6-l10-grammar-01",
+      "title": "某種程度來說",
+      "explanation": "Giới hạn mức độ của nhận xét: có thể nói như vậy ở một khía cạnh, nhưng không hoàn toàn đồng nhất. Thường đặt trước lời đánh giá.",
+      "structure": "某種程度來說，+ nhận xét có giới hạn",
+      "examples": [
+        {
+          "chinese": "某種程度來說，實習是課堂知識的實驗。",
+          "simplified": "某种程度来说，实习是课堂知识的实验。",
+          "pinyin": "mǒu zhǒng chéng dù lái shuō ， shí xí shì kè táng zhī shí de shí yàn 。",
+          "meaningVi": "Ở một mức độ nào đó, thực tập là nơi thử kiến thức trên lớp."
+        },
+        {
+          "chinese": "某種程度來說，旅行也是一種學習。",
+          "simplified": "某种程度来说，旅行也是一种学习。",
+          "pinyin": "mǒu zhǒng chéng dù lái shuō ， lǚ xíng yě shì yī zhǒng xué xí 。",
+          "meaningVi": "Ở một mức độ nào đó, du lịch cũng là một cách học."
+        }
+      ],
+      "commonMistake": "Không dùng để khẳng định một sự thật tuyệt đối.",
+      "check": {
+        "id": "cc6-v6-l10-grammar-check-01",
+        "prompt": "Điền: ____，閱讀能借用別人的經驗。",
+        "options": [
+          {
+            "id": "a",
+            "text": "凡是"
+          },
+          {
+            "id": "b",
+            "text": "不礙"
+          },
+          {
+            "id": "c",
+            "text": "某種程度來說"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Giới hạn mức độ của nhận xét: có thể nói như vậy ở một khía cạnh, nhưng không hoàn toàn đồng nhất.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l10-grammar-02",
+      "title": "把X和Y混為一談",
+      "explanation": "Chỉ việc đánh đồng hai khái niệm khác nhau; người nói thường cho rằng cách gộp ấy không đúng. X và Y là hai đối tượng cần phân biệt.",
+      "structure": "把 + X + 和 + Y + 混為一談",
+      "examples": [
+        {
+          "chinese": "不要把分數和能力混為一談。",
+          "simplified": "不要把分数和能力混为一谈。",
+          "pinyin": "bú yào bǎ fēn shù hé néng lì hùn wèi yī tán 。",
+          "meaningVi": "Đừng đánh đồng điểm số với năng lực."
+        },
+        {
+          "chinese": "他把閱讀和實踐混為一談了。",
+          "simplified": "他把阅读和实践混为一谈了。",
+          "pinyin": "tā bǎ yuè dú hé shí jiàn hùn wèi yī tán le 。",
+          "meaningVi": "Anh ấy đánh đồng đọc sách với thực hành."
+        }
+      ],
+      "commonMistake": "Nếu muốn phân biệt rõ, dùng 把X和Y分開 chứ không dùng 混為一談.",
+      "check": {
+        "id": "cc6-v6-l10-grammar-check-02",
+        "prompt": "Điền: 不能把知識和經驗____。",
+        "options": [
+          {
+            "id": "a",
+            "text": "得以"
+          },
+          {
+            "id": "b",
+            "text": "混為一談"
+          },
+          {
+            "id": "c",
+            "text": "相輔相成"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Chỉ việc đánh đồng hai khái niệm khác nhau; người nói thường cho rằng cách gộp ấy không đúng.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l10-grammar-03",
+      "title": "為X所苦",
+      "explanation": "Diễn tả việc bị X làm khổ, thường dùng trong văn viết; X có thể là bệnh tật, lo lắng hoặc khó khăn.",
+      "structure": "người + 為 + khó khăn X + 所苦",
+      "examples": [
+        {
+          "chinese": "他長期為焦慮所苦。",
+          "simplified": "他长期为焦虑所苦。",
+          "pinyin": "tā zhǎng qī wèi jiāo lǜ suǒ kǔ 。",
+          "meaningVi": "Anh ấy bị lo âu hành hạ lâu ngày."
+        },
+        {
+          "chinese": "許多家庭為債務所苦。",
+          "simplified": "许多家庭为债务所苦。",
+          "pinyin": "xǔ duō jiā tíng wèi zhài wù suǒ kǔ 。",
+          "meaningVi": "Nhiều gia đình khổ vì nợ nần."
+        }
+      ],
+      "commonMistake": "Không dùng với X là một lợi ích tích cực thông thường.",
+      "check": {
+        "id": "cc6-v6-l10-grammar-check-03",
+        "prompt": "Điền: 他多年____失眠所苦。",
+        "options": [
+          {
+            "id": "a",
+            "text": "得以"
+          },
+          {
+            "id": "b",
+            "text": "不礙"
+          },
+          {
+            "id": "c",
+            "text": "為"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Diễn tả việc bị X làm khổ, thường dùng trong văn viết; X có thể là bệnh tật, lo lắng hoặc khó khăn.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l10-grammar-04",
+      "title": "不損其X",
+      "explanation": "Nói một khó khăn không làm giảm giá trị hoặc phẩm chất X. 其 chỉ người/sự việc đã nêu, có thể bỏ khi ngữ cảnh rõ.",
+      "structure": "khó khăn + 不損其 + phẩm chất X",
+      "examples": [
+        {
+          "chinese": "閱讀困難不損其成就。",
+          "simplified": "阅读困难不损其成就。",
+          "pinyin": "yuè dú kùn nán bù sǔn qí chéng jiù 。",
+          "meaningVi": "Khó đọc không làm giảm thành tựu của người ấy."
+        },
+        {
+          "chinese": "失敗一次不損他的能力。",
+          "simplified": "失败一次不损他的能力。",
+          "pinyin": "shī bài yī cì bù sǔn tā de néng lì 。",
+          "meaningVi": "Một lần thất bại không làm giảm năng lực của anh."
+        }
+      ],
+      "commonMistake": "Không nhầm 不損 với 不礙: 不損 nói giá trị không giảm; 不礙 nói việc khác vẫn làm được.",
+      "check": {
+        "id": "cc6-v6-l10-grammar-check-04",
+        "prompt": "Điền: 這次失敗____他的成就。",
+        "options": [
+          {
+            "id": "a",
+            "text": "不礙"
+          },
+          {
+            "id": "b",
+            "text": "得以"
+          },
+          {
+            "id": "c",
+            "text": "不損"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Nói một khó khăn không làm giảm giá trị hoặc phẩm chất X.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l10-grammar-05",
+      "title": "不礙X",
+      "explanation": "Nói một hoàn cảnh không ngăn cản hành động hoặc kết quả X. Sau 不礙 thường là cụm động từ.",
+      "structure": "khó khăn + 不礙 + hành động/kết quả X",
+      "examples": [
+        {
+          "chinese": "學得慢不礙他完成目標。",
+          "simplified": "学得慢不碍他完成目标。",
+          "pinyin": "xué dé màn bù ài tā wán chéng mù biāo 。",
+          "meaningVi": "Học chậm không cản anh hoàn thành mục tiêu."
+        },
+        {
+          "chinese": "下雨不礙我們出發。",
+          "simplified": "下雨不碍我们出发。",
+          "pinyin": "xià yǔ bù ài wǒ men chū fā 。",
+          "meaningVi": "Mưa không ngăn chúng tôi khởi hành."
+        }
+      ],
+      "commonMistake": "Nếu nói giá trị không suy giảm, dùng 不損 thay vì 不礙.",
+      "check": {
+        "id": "cc6-v6-l10-grammar-check-05",
+        "prompt": "Điền: 閱讀慢也____她成功。",
+        "options": [
+          {
+            "id": "a",
+            "text": "不礙"
+          },
+          {
+            "id": "b",
+            "text": "不損"
+          },
+          {
+            "id": "c",
+            "text": "為"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Nói một hoàn cảnh không ngăn cản hành động hoặc kết quả X.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l10-grammar-06",
+      "title": "X的精神在於Y",
+      "explanation": "Nêu ý nghĩa cốt lõi hoặc mục tiêu nền tảng Y của X, không chỉ cách làm bên ngoài. 在 và 在於 đều có thể dùng.",
+      "structure": "X + 的精神在於 + mục tiêu Y",
+      "examples": [
+        {
+          "chinese": "教育的精神在於發展人的能力。",
+          "simplified": "教育的精神在于发展人的能力。",
+          "pinyin": "jiào yù de jīng shén zài yú fā zhǎn rén de néng lì 。",
+          "meaningVi": "Tinh thần giáo dục nằm ở việc phát triển năng lực con người."
+        },
+        {
+          "chinese": "合作的精神在於彼此信任。",
+          "simplified": "合作的精神在于彼此信任。",
+          "pinyin": "hé zuò de jīng shén zài yú bǐ cǐ xìn rèn 。",
+          "meaningVi": "Cốt lõi hợp tác nằm ở sự tin cậy lẫn nhau."
+        }
+      ],
+      "commonMistake": "Y là ý nghĩa chính, không phải một chi tiết ngẫu nhiên.",
+      "check": {
+        "id": "cc6-v6-l10-grammar-check-06",
+        "prompt": "Điền: 學習的精神____不斷探索。",
+        "options": [
+          {
+            "id": "a",
+            "text": "有所"
+          },
+          {
+            "id": "b",
+            "text": "不礙"
+          },
+          {
+            "id": "c",
+            "text": "在於"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Nêu ý nghĩa cốt lõi hoặc mục tiêu nền tảng Y của X, không chỉ cách làm bên ngoài.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l10-grammar-07",
+      "title": "得以X",
+      "explanation": "Cho biết nhờ điều kiện trước đó mà hành động hoặc kết quả X có thể thực hiện. Trang trọng hơn 可以.",
+      "structure": "điều kiện trước；chủ thể + 得以 + hành động X",
+      "examples": [
+        {
+          "chinese": "有了獎學金，她得以繼續念書。",
+          "simplified": "有了奖学金，她得以继续念书。",
+          "pinyin": "yǒu le jiǎng xué jīn ， tā dé yǐ jì xù niàn shū 。",
+          "meaningVi": "Nhờ học bổng, cô ấy có thể tiếp tục học."
+        },
+        {
+          "chinese": "在良好環境中，孩子的天賦得以發展。",
+          "simplified": "在良好环境中，孩子的天赋得以发展。",
+          "pinyin": "zài liáng hǎo huán jìng zhōng ， hái zi de tiān fù dé yǐ fā zhǎn 。",
+          "meaningVi": "Trong môi trường tốt, thiên phú của trẻ có thể phát triển."
+        }
+      ],
+      "commonMistake": "Đừng đặt sau 得以 một danh từ trần; cần một động từ hoặc kết quả.",
+      "check": {
+        "id": "cc6-v6-l10-grammar-check-07",
+        "prompt": "Điền: 有了幫助，她____完成研究。",
+        "options": [
+          {
+            "id": "a",
+            "text": "有所"
+          },
+          {
+            "id": "b",
+            "text": "凡是"
+          },
+          {
+            "id": "c",
+            "text": "得以"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Cho biết nhờ điều kiện trước đó mà hành động hoặc kết quả X có thể thực hiện.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l10-grammar-08",
+      "title": "有所V",
+      "explanation": "Diễn tả có một mức độ thay đổi hoặc hành động nào đó, thường kết hợp động từ hai âm tiết như 提升、準備、突破.",
+      "structure": "chủ thể + 有所 + động từ V",
+      "examples": [
+        {
+          "chinese": "經過練習，他的能力有所提升。",
+          "simplified": "经过练习，他的能力有所提升。",
+          "pinyin": "jīng guò liàn xí ， tā de néng lì yǒu suǒ tí shēng 。",
+          "meaningVi": "Sau luyện tập, năng lực của anh có tiến bộ."
+        },
+        {
+          "chinese": "遇到困難時，我們要有所準備。",
+          "simplified": "遇到困难时，我们要有所准备。",
+          "pinyin": "yù dào kùn nán shí ， wǒ men yào yǒu suǒ zhǔn bèi 。",
+          "meaningVi": "Gặp khó khăn, chúng ta phải có chuẩn bị."
+        }
+      ],
+      "commonMistake": "Không dùng với mọi động từ một âm tiết tùy ý; ưu tiên tổ hợp quen dùng.",
+      "check": {
+        "id": "cc6-v6-l10-grammar-check-08",
+        "prompt": "Điền: 讀完這篇文章，她的想法____改變。",
+        "options": [
+          {
+            "id": "a",
+            "text": "得以"
+          },
+          {
+            "id": "b",
+            "text": "為"
+          },
+          {
+            "id": "c",
+            "text": "有所"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Diễn tả có một mức độ thay đổi hoặc hành động nào đó, thường kết hợp động từ hai âm tiết như 提升、準備、突破.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l10-grammar-09",
+      "title": "區分出X和Y",
+      "explanation": "Nhấn mạnh kết quả phân biệt được hai điều dễ lẫn. 出 biểu thị nhận ra sự khác nhau.",
+      "structure": "區分出 + X + 和 + Y",
+      "examples": [
+        {
+          "chinese": "要區分出考試力和學習力。",
+          "simplified": "要区分出考试力和学习力。",
+          "pinyin": "yào qū fēn chū kǎo shì lì hé xué xí lì 。",
+          "meaningVi": "Cần phân biệt năng lực thi với năng lực học."
+        },
+        {
+          "chinese": "他能區分出事實和意見。",
+          "simplified": "他能区分出事实和意见。",
+          "pinyin": "tā néng qū fēn chū shì shí hé yì jiàn 。",
+          "meaningVi": "Anh ấy phân biệt được sự thật và ý kiến."
+        }
+      ],
+      "commonMistake": "Nếu chỉ nói việc phân loại chung, có thể dùng 區分; thêm 出 nhấn kết quả.",
+      "check": {
+        "id": "cc6-v6-l10-grammar-check-09",
+        "prompt": "Điền: 學生要____知識和經驗。",
+        "options": [
+          {
+            "id": "a",
+            "text": "區分出"
+          },
+          {
+            "id": "b",
+            "text": "混為一談"
+          },
+          {
+            "id": "c",
+            "text": "內化為"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Nhấn mạnh kết quả phân biệt được hai điều dễ lẫn.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l10-grammar-10",
+      "title": "X是Y的方式之一",
+      "explanation": "Nói X chỉ là một trong nhiều cách để đạt Y; không khẳng định X là cách duy nhất.",
+      "structure": "X + 是 + Y + 的方式之一",
+      "examples": [
+        {
+          "chinese": "考試是評量學習的方式之一。",
+          "simplified": "考试是评量学习的方式之一。",
+          "pinyin": "kǎo shì shì píng liàng xué xí de fāng shì zhī yī 。",
+          "meaningVi": "Thi cử là một trong các cách đánh giá việc học."
+        },
+        {
+          "chinese": "閱讀是增加見聞的方式之一。",
+          "simplified": "阅读是增加见闻的方式之一。",
+          "pinyin": "yuè dú shì zēng jiā jiàn wén de fāng shì zhī yī 。",
+          "meaningVi": "Đọc là một trong các cách mở mang kiến văn."
+        }
+      ],
+      "commonMistake": "Đừng bỏ 之一 nếu muốn nhấn mạnh còn cách khác.",
+      "check": {
+        "id": "cc6-v6-l10-grammar-check-10",
+        "prompt": "Điền: 模仿____學習的方式之一。",
+        "options": [
+          {
+            "id": "a",
+            "text": "有所"
+          },
+          {
+            "id": "b",
+            "text": "是"
+          },
+          {
+            "id": "c",
+            "text": "為"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Nói X chỉ là một trong nhiều cách để đạt Y; không khẳng định X là cách duy nhất.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l10-grammar-11",
+      "title": "凡是X，都Y",
+      "explanation": "Khái quát tất cả trường hợp thuộc nhóm X; vế sau thường có 都、便 hoặc 就.",
+      "structure": "凡是 + nhóm X，+ 都/便/就 + kết quả Y",
+      "examples": [
+        {
+          "chinese": "凡是有問題的地方，都可以討論。",
+          "simplified": "凡是有问题的地方，都可以讨论。",
+          "pinyin": "fán shì yǒu wèn tí de dì fāng ， dōu kě yǐ tǎo lùn 。",
+          "meaningVi": "Chỗ nào có vấn đề đều có thể thảo luận."
+        },
+        {
+          "chinese": "凡是重要的資料，都要先備份。",
+          "simplified": "凡是重要的资料，都要先备份。",
+          "pinyin": "fán shì zhòng yào de zī liào ， dōu yào xiān bèi fèn 。",
+          "meaningVi": "Dữ liệu quan trọng nào cũng phải sao lưu trước."
+        }
+      ],
+      "commonMistake": "Không dùng khi chỉ nói một cá thể riêng lẻ.",
+      "check": {
+        "id": "cc6-v6-l10-grammar-check-11",
+        "prompt": "Điền: ____遇到困難的學生，都能求助。",
+        "options": [
+          {
+            "id": "a",
+            "text": "凡是"
+          },
+          {
+            "id": "b",
+            "text": "有所"
+          },
+          {
+            "id": "c",
+            "text": "不損"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Khái quát tất cả trường hợp thuộc nhóm X; vế sau thường có 都、便 hoặc 就.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l10-grammar-12",
+      "title": "解開X之謎",
+      "explanation": "Nói tìm ra lời giải cho điều bí ẩn X bằng quan sát, nghiên cứu hoặc suy luận.",
+      "structure": "解開 + vấn đề X + 之謎",
+      "examples": [
+        {
+          "chinese": "研究者試圖解開記憶形成之謎。",
+          "simplified": "研究者试图解开记忆形成之谜。",
+          "pinyin": "yán jiū zhě shì tú jiě kāi jì yì xíng chéng zhī mí 。",
+          "meaningVi": "Nhà nghiên cứu cố giải bí ẩn về sự hình thành trí nhớ."
+        },
+        {
+          "chinese": "新的資料幫助我們解開這段歷史之謎。",
+          "simplified": "新的资料帮助我们解开这段历史之谜。",
+          "pinyin": "xīn de zī liào bāng zhù wǒ men jiě kāi zhè duàn lì shǐ zhī mí 。",
+          "meaningVi": "Tư liệu mới giúp ta giải bí ẩn lịch sử này."
+        }
+      ],
+      "commonMistake": "X phải là điều chưa rõ; không dùng cho việc hiển nhiên đã biết.",
+      "check": {
+        "id": "cc6-v6-l10-grammar-check-12",
+        "prompt": "Điền: 科學家希望____基因互動之謎。",
+        "options": [
+          {
+            "id": "a",
+            "text": "解開"
+          },
+          {
+            "id": "b",
+            "text": "混為"
+          },
+          {
+            "id": "c",
+            "text": "有所"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Nói tìm ra lời giải cho điều bí ẩn X bằng quan sát, nghiên cứu hoặc suy luận.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l10-grammar-13",
+      "title": "把X和Y分開",
+      "explanation": "Diễn tả tách hai đối tượng hoặc khái niệm X và Y ra để xem xét riêng. Có thể là sự tách biệt thực tế hoặc trong tư duy.",
+      "structure": "把 + X + 和 + Y + 分開",
+      "examples": [
+        {
+          "chinese": "要把考試和做事能力分開。",
+          "simplified": "要把考试和做事能力分开。",
+          "pinyin": "yào bǎ kǎo shì hé zuò shì néng lì fēn kāi 。",
+          "meaningVi": "Cần tách khả năng thi và khả năng làm việc."
+        },
+        {
+          "chinese": "她把工作和休息分開。",
+          "simplified": "她把工作和休息分开。",
+          "pinyin": "tā bǎ gōng zuò hé xiū xī fēn kāi 。",
+          "meaningVi": "Cô ấy tách công việc khỏi nghỉ ngơi."
+        }
+      ],
+      "commonMistake": "Nếu ngụ ý đánh đồng X và Y, đó là 混為一談.",
+      "check": {
+        "id": "cc6-v6-l10-grammar-check-13",
+        "prompt": "Điền: 別把分數和能力混為一談，要把兩者____。",
+        "options": [
+          {
+            "id": "a",
+            "text": "不礙"
+          },
+          {
+            "id": "b",
+            "text": "分開"
+          },
+          {
+            "id": "c",
+            "text": "得以"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Diễn tả tách hai đối tượng hoặc khái niệm X và Y ra để xem xét riêng.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l10-grammar-14",
+      "title": "把X內化為Y",
+      "explanation": "Chỉ quá trình biến kiến thức, kinh nghiệm hoặc quan niệm bên ngoài X thành năng lực/hiểu biết của bản thân Y.",
+      "structure": "把 + tri thức X + 內化為 + năng lực/hiểu biết Y",
+      "examples": [
+        {
+          "chinese": "她把課堂知識內化為自己的能力。",
+          "simplified": "她把课堂知识内化为自己的能力。",
+          "pinyin": "tā bǎ kè táng zhī shí nèi huà wèi zì jǐ de néng lì 。",
+          "meaningVi": "Cô ấy biến kiến thức trên lớp thành năng lực của mình."
+        },
+        {
+          "chinese": "閱讀能把別人的經驗內化為自己的理解。",
+          "simplified": "阅读能把别人的经验内化为自己的理解。",
+          "pinyin": "yuè dú néng bǎ bié rén de jīng yàn nèi huà wèi zì jǐ de lǐ jiě 。",
+          "meaningVi": "Đọc giúp biến kinh nghiệm người khác thành hiểu biết của mình."
+        }
+      ],
+      "commonMistake": "Không dùng cho việc cất giữ đồ vật; 內化 là chuyển hóa trong nhận thức.",
+      "check": {
+        "id": "cc6-v6-l10-grammar-check-14",
+        "prompt": "Điền: 他把別人的經驗____自己的知識。",
+        "options": [
+          {
+            "id": "a",
+            "text": "不損"
+          },
+          {
+            "id": "b",
+            "text": "內化為"
+          },
+          {
+            "id": "c",
+            "text": "分開"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Chỉ quá trình biến kiến thức, kinh nghiệm hoặc quan niệm bên ngoài X thành năng lực/hiểu biết của bản thân Y.",
+        "skill": "Ngữ pháp"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc6-v6-l10-listening-01",
+      "prompt": "Nghe bài đọc 1: điều gì ít được dạy ở trường nhưng quan trọng khi hòa nhập xã hội?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Trí tuệ ngoài đời"
+        },
+        {
+          "id": "b",
+          "text": "Lễ khai mạc"
+        },
+        {
+          "id": "c",
+          "text": "Cách tính điểm"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Đoạn 2 nói 街頭智慧 là kỹ năng quan trọng sau khi rời trường.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l10-t02"
+    },
+    {
+      "id": "cc6-v6-l10-listening-02",
+      "prompt": "Nghe bài đọc 1: hai lối học nên có quan hệ thế nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thay thế hoàn toàn nhau"
+        },
+        {
+          "id": "b",
+          "text": "Cạnh tranh để loại bỏ nhau"
+        },
+        {
+          "id": "c",
+          "text": "Bổ trợ lẫn nhau"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Đoạn cuối nêu 相輔相成 và 互補.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l10-t02"
+    },
+    {
+      "id": "cc6-v6-l10-listening-03",
+      "prompt": "Nghe bài đọc 2: thi cử là gì trong việc đo khả năng học?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Không liên quan gì đến học"
+        },
+        {
+          "id": "b",
+          "text": "Một trong nhiều cách đánh giá"
+        },
+        {
+          "id": "c",
+          "text": "Cách duy nhất và tốt nhất"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nói 前者僅是評量後者的方式之一.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l10-t06"
+    },
+    {
+      "id": "cc6-v6-l10-listening-04",
+      "prompt": "Nghe bài đọc 2: tác giả đề nghị kết hợp gì để nâng năng lực thực hiện?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đọc sách, trải nghiệm và kiên trì"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ thi nhiều hơn"
+        },
+        {
+          "id": "c",
+          "text": "Chỉ học thuộc định nghĩa"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Câu cuối kết hợp 閱讀、經驗 và 毅力.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l10-t06"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc6-v6-l10-practice-01",
+      "prompt": "Điền: 不要把考試和工作能力____。",
+      "options": [
+        {
+          "id": "a",
+          "text": "得以"
+        },
+        {
+          "id": "b",
+          "text": "混為一談"
+        },
+        {
+          "id": "c",
+          "text": "相輔相成"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "混為一談 nghĩa là đánh đồng hai điều khác nhau.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l10-practice-02",
+      "prompt": "Theo bài đọc 1, điểm yếu của chỉ đi đường quen là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Không thể đọc sách"
+        },
+        {
+          "id": "b",
+          "text": "Thiếu khả năng thích nghi và đổi mới"
+        },
+        {
+          "id": "c",
+          "text": "Biết quá nhiều ngôn ngữ"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Đoạn 4 nêu 失去了應變、創新思維.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l10-practice-03",
+      "prompt": "Điền: 有了獎學金，她____繼續學習。",
+      "options": [
+        {
+          "id": "a",
+          "text": "凡是"
+        },
+        {
+          "id": "b",
+          "text": "得以"
+        },
+        {
+          "id": "c",
+          "text": "有所"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "得以 chỉ kết quả có thể thực hiện nhờ điều kiện trước.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l10-practice-04",
+      "prompt": "Bài đọc 1 so sánh khỉ với người về điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Khả năng quan sát bao quát và tập trung cốt lõi"
+        },
+        {
+          "id": "b",
+          "text": "Cách dùng tiền"
+        },
+        {
+          "id": "c",
+          "text": "Chiều cao cơ thể"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài so sánh 聚焦 với 周邊視野.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l10-practice-05",
+      "prompt": "Điền: 考試____評量學習的方式之一。",
+      "options": [
+        {
+          "id": "a",
+          "text": "是"
+        },
+        {
+          "id": "b",
+          "text": "為"
+        },
+        {
+          "id": "c",
+          "text": "有所"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "X是Y的方式之一 nêu một trong nhiều phương thức.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l10-practice-06",
+      "prompt": "Theo bài đọc 2, vì sao không nên mắng trẻ đọc chậm?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vì không có trường học"
+        },
+        {
+          "id": "b",
+          "text": "Vì trẻ không cần học chữ"
+        },
+        {
+          "id": "c",
+          "text": "Khả năng đọc và làm việc không đồng nhất"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc nêu 兩種能力，不能畫上等號.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l10-practice-07",
+      "prompt": "Điền: 要把考試和做事能力____。",
+      "options": [
+        {
+          "id": "a",
+          "text": "得以"
+        },
+        {
+          "id": "b",
+          "text": "內化為"
+        },
+        {
+          "id": "c",
+          "text": "分開"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "把X和Y分開 là tách hai khái niệm.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l10-practice-08",
+      "prompt": "Bài đọc 2 khuyên giáo viên làm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ tăng số bài thi"
+        },
+        {
+          "id": "b",
+          "text": "Ngừng đọc sách"
+        },
+        {
+          "id": "c",
+          "text": "Khuyến khích học sinh tự tay thực hành"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài viết nói 鼓勵學生動手做.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc6-v6-l10-assessment-01",
+      "prompt": "Theo bài đọc 1, “trí tuệ sách vở” dựa vào gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ quan sát"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ thực tập"
+        },
+        {
+          "id": "c",
+          "text": "Đọc và ghi nhớ"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Cuối bài nêu 讀書和記憶.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l10-assessment-02",
+      "prompt": "Điền: ____，實習也是一種學習。",
+      "options": [
+        {
+          "id": "a",
+          "text": "凡是"
+        },
+        {
+          "id": "b",
+          "text": "不礙"
+        },
+        {
+          "id": "c",
+          "text": "某種程度來說"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "某種程度來說 giới hạn mức độ khẳng định.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l10-assessment-03",
+      "prompt": "Khả năng nào giúp nhận biết cơ hội và rủi ro theo phép ví trong bài?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Chỉ ghi nhớ"
+        },
+        {
+          "id": "b",
+          "text": "Tầm nhìn bao quát"
+        },
+        {
+          "id": "c",
+          "text": "Chỉ tập trung vào một chữ"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài viết nhắc 周邊視野開闊.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l10-assessment-04",
+      "prompt": "Điền: 孩子學得慢也____他成功。",
+      "options": [
+        {
+          "id": "a",
+          "text": "為"
+        },
+        {
+          "id": "b",
+          "text": "不礙"
+        },
+        {
+          "id": "c",
+          "text": "不損"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "不礙 nối với hành động/kết quả không bị cản.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l10-assessment-05",
+      "prompt": "Tác giả bài đọc 2 coi thi cử là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kinh nghiệm thực tế"
+        },
+        {
+          "id": "b",
+          "text": "Một cách đánh giá khả năng học"
+        },
+        {
+          "id": "c",
+          "text": "Năng lực làm việc duy nhất"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nêu 評量後者的方式之一.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l10-assessment-06",
+      "prompt": "Điền: 經驗讓他____預見風險的能力。",
+      "options": [
+        {
+          "id": "a",
+          "text": "得以發展"
+        },
+        {
+          "id": "b",
+          "text": "混為一談"
+        },
+        {
+          "id": "c",
+          "text": "有所是"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "得以 biểu thị kết quả có thể xảy ra nhờ điều kiện.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l10-assessment-07",
+      "prompt": "Theo bài đọc 2, kiến thức cần được sắp xếp thế nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Có tổ chức để có thể lấy ra dùng"
+        },
+        {
+          "id": "b",
+          "text": "Để rời rạc"
+        },
+        {
+          "id": "c",
+          "text": "Chỉ học một lần"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài viết nói 有組織的，使他能立即提取.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l10-assessment-08",
+      "prompt": "Điền: 要把分數和能力____。",
+      "options": [
+        {
+          "id": "a",
+          "text": "混為一談"
+        },
+        {
+          "id": "b",
+          "text": "為所苦"
+        },
+        {
+          "id": "c",
+          "text": "分開"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "把X和Y分開 là xem xét riêng hai khái niệm.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l10-assessment-09",
+      "prompt": "Theo bài đọc 2, vì sao nên “động tay làm”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Để học ít hơn"
+        },
+        {
+          "id": "b",
+          "text": "Trải nghiệm hỗ trợ việc học và kết nối thần kinh"
+        },
+        {
+          "id": "c",
+          "text": "Để khỏi cần đọc"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài kết khuyên 鼓勵學生動手做.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l10-assessment-10",
+      "prompt": "Thông điệp chung của hai bài đọc là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Thi cử thay thế mọi trải nghiệm"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ cần học trong lớp"
+        },
+        {
+          "id": "c",
+          "text": "Sách vở và trải nghiệm bổ trợ nhau"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài 1 nói 相輔相成; bài 2 kết hợp 閱讀和經驗.",
+      "skill": "Tổng hợp"
+    }
+  ],
+  "writingTask": {
+    "id": "cc6-v6-l10-writing",
+    "title": "Viết ngắn: tôi học bằng cách nào?",
+    "prompt": "Viết 4–5 câu kể một lần bạn học được điều gì từ sách và một lần từ trải nghiệm. Nêu chúng bổ trợ nhau thế nào; dùng một mẫu ngữ pháp của bài."
+  }
+}

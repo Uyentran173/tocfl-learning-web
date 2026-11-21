@@ -6,6 +6,8 @@ import lesson05Source from "../data/academy/cc6-lesson05-vocabulary.json" with {
 import lesson06Source from "../data/academy/cc6-lesson06-vocabulary.json" with { type: "json" };
 import lesson07Source from "../data/academy/cc6-lesson07-vocabulary.json" with { type: "json" };
 import lesson08Source from "../data/academy/cc6-lesson08-vocabulary.json" with { type: "json" };
+import lesson09Source from "../data/academy/cc6-lesson09-vocabulary.json" with { type: "json" };
+import lesson10Source from "../data/academy/cc6-lesson10-vocabulary.json" with { type: "json" };
 import { cc1Lesson01Words } from "./cc1-lesson01-vocabulary.ts";
 import { cc1CourseVocabularySets } from "./cc1-course-vocabulary.ts";
 import { cc2VocabularySets } from "./cc2-course-vocabulary.ts";
@@ -186,6 +188,48 @@ export const cc6Lesson08Words: VocabularyWord[] = lesson08Source.records.map((re
     translation: record.exampleVi,
   });
 
+export const cc6Lesson09Words: VocabularyWord[] = lesson09Source.records.map((record) =>
+  [...previousWords, ...cc6Lesson01Words, ...cc6Lesson02Words, ...cc6Lesson03Words, ...cc6Lesson04Words, ...cc6Lesson05Words, ...cc6Lesson06Words, ...cc6Lesson07Words, ...cc6Lesson08Words].find((word) =>
+    word.traditional === record.traditional && normalized(word.pinyin) === normalized(record.pinyin) &&
+    (word.wordClass === record.wordClass || word.meaning === record.meaningVi),
+  ) ?? {
+    id: record.id,
+    source: "textbook",
+    sourceRecordId: record.id,
+    sourceLabel: "Giáo trình tiếng Hoa đương đại · Tập 6 · Bài 09",
+    hanzi: record.traditional,
+    traditional: record.traditional,
+    simplified: record.simplified,
+    pinyin: record.pinyin,
+    meaning: record.meaningVi,
+    wordClass: record.wordClass,
+    example: record.exampleTraditional,
+    exampleTraditional: record.exampleTraditional,
+    exampleSimplified: record.exampleSimplified,
+    translation: record.exampleVi,
+  });
+
+export const cc6Lesson10Words: VocabularyWord[] = lesson10Source.records.map((record) =>
+  [...previousWords, ...cc6Lesson01Words, ...cc6Lesson02Words, ...cc6Lesson03Words, ...cc6Lesson04Words, ...cc6Lesson05Words, ...cc6Lesson06Words, ...cc6Lesson07Words, ...cc6Lesson08Words, ...cc6Lesson09Words].find((word) =>
+    word.traditional === record.traditional && normalized(word.pinyin) === normalized(record.pinyin) &&
+    (word.wordClass === record.wordClass || word.meaning === record.meaningVi),
+  ) ?? {
+    id: record.id,
+    source: "textbook",
+    sourceRecordId: record.id,
+    sourceLabel: "Giáo trình tiếng Hoa đương đại · Tập 6 · Bài 10",
+    hanzi: record.traditional,
+    traditional: record.traditional,
+    simplified: record.simplified,
+    pinyin: record.pinyin,
+    meaning: record.meaningVi,
+    wordClass: record.wordClass,
+    example: record.exampleTraditional,
+    exampleTraditional: record.exampleTraditional,
+    exampleSimplified: record.exampleSimplified,
+    translation: record.exampleVi,
+  });
+
 export const cc6VocabularySets: VocabularySet[] = [{
   id: "cc6-v6-l01", title: "Bài 01 · 職校教育", subtitle: "Giáo dục nghề",
   words: cc6Lesson01Words,
@@ -210,4 +254,10 @@ export const cc6VocabularySets: VocabularySet[] = [{
 }, {
   id: "cc6-v6-l08", title: "Bài 08 · 奧運黑洞", subtitle: "Hố đen Olympic",
   words: cc6Lesson08Words,
+}, {
+  id: "cc6-v6-l09", title: "Bài 09 · 鄉關何處", subtitle: "Quê nhà nơi đâu",
+  words: cc6Lesson09Words,
+}, {
+  id: "cc6-v6-l10", title: "Bài 10 · 智慧與能力", subtitle: "Trí tuệ và năng lực",
+  words: cc6Lesson10Words,
 }];

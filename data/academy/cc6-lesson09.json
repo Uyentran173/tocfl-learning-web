@@ -1,0 +1,972 @@
+{
+  "contentVersion": 2,
+  "id": "cc6-v6-l09",
+  "title": "鄉關何處",
+  "titleVi": "Quê nhà nơi đâu",
+  "description": "Hai bài tản văn về cảm giác thuộc về một nơi khi thường xuyên sống xa quê.",
+  "objectives": [
+    "Tóm tắt hành trình và suy nghĩ về “nhà” của người kể.",
+    "Giải thích được vì sao nhân vật coi “an lòng” quan trọng hơn địa chỉ cố định.",
+    "Dùng đúng 算計起來、在不知不覺中、之類的 và 一一."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Hai bài tản văn kể về những người sống ở nhiều nơi và đặt câu hỏi: điều gì khiến một nơi trở thành nhà?",
+    "sections": [
+      {
+        "id": "cc6-v6-l09-section-01",
+        "title": "Hành trình và nỗi nhớ quê",
+        "body": "Người kể rời quê từ sớm; đến trung niên mới nhận ra phần lớn đời mình là di chuyển.",
+        "chinese": "泰半生活是在遷移變換之中。",
+        "simplified": "泰半生活是在迁移变换之中。",
+        "pinyin": "tài bàn shēng huó shì zài qiān yí biàn huàn zhī zhōng 。",
+        "meaningVi": "Phần lớn cuộc đời là chuyển chỗ ở và thay đổi."
+      },
+      {
+        "id": "cc6-v6-l09-section-02",
+        "title": "“Nhà” trong mắt Alexander",
+        "body": "Alexander chọn Hồng Kông làm nhà dù sinh ra ở New York; câu trả lời ấy khiến người kể nghĩ lại về mình.",
+        "chinese": "香港，當然在香港，這是家。",
+        "simplified": "香港，当然在香港，这是家。",
+        "pinyin": "xiāng gǎng ， dāng rán zài xiāng gǎng ， zhè shì jiā 。",
+        "meaningVi": "Hồng Kông, tất nhiên là Hồng Kông. Đó là nhà."
+      },
+      {
+        "id": "cc6-v6-l09-section-03",
+        "title": "An lòng và chốn dừng chân",
+        "body": "Bài kết cho rằng cảm giác thoải mái ở một nơi quan trọng hơn việc có một địa chỉ cố định.",
+        "chinese": "安心永遠比安家重要。",
+        "simplified": "安心永远比安家重要。",
+        "pinyin": "ān xīn yǒng yuǎn bǐ ān jiā zhòng yào 。",
+        "meaningVi": "An lòng luôn quan trọng hơn an cư."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc6-v6-l09-reading1",
+        "title": "課文一 · 鄉關何處（I）",
+        "context": "Người kể nhớ hành trình xa quê và cuộc trò chuyện với Alexander.",
+        "audioTrackId": "cc6-textbook-l09-t02",
+        "turns": [
+          {
+            "speaker": "Đoạn 1",
+            "chinese": "小時候喜歡遠行，經常坐火車過山洞去基隆的姑媽家看海；上了中學離開家鄉去了台北念書，成了一個經常吃自助餐的寄宿生；大學畢業不久，帶著好奇與夢想開啟了浪遊的人生，爛漫的年歲都不知鄉愁，他鄉異地腳步愈走愈遠。算計起來，泰半生活是在遷移變換之中，過半的時間是在家國之外，似乎已經習慣了這樣的飄泊，以致到了中年，不時談起或被人問起：會在此地居留多久？來日可有何打算？",
+            "simplified": "小时候喜欢远行，经常坐火车过山洞去基隆的姑妈家看海；上了中学离开家乡去了台北念书，成了一个经常吃自助餐的寄宿生；大学毕业不久，带着好奇与梦想开启了浪游的人生，烂漫的年岁都不知乡愁，他乡异地脚步愈走愈远。算计起来，泰半生活是在迁移变换之中，过半的时间是在家国之外，似乎已经习惯了这样的飘泊，以致到了中年，不时谈起或被人问起：会在此地居留多久？来日可有何打算？",
+            "pinyin": "xiǎo shí hòu xǐ huān yuǎn xíng ， jīng cháng zuò huǒ chē guò shān dòng qù jī lóng de gū mā jiā kàn hǎi ； shàng le zhōng xué lí kāi jiā xiāng qù le tái běi niàn shū ， chéng le yī gè jīng cháng chī zì zhù cān de jì sù shēng ； dà xué bì yè bù jiǔ ， dài zhù hào qí yǔ mèng xiǎng kāi qǐ le làng yóu de rén shēng ， làn màn de nián suì dōu bù zhī xiāng chóu ， tā xiāng yì dì jiǎo bù yù zǒu yù yuǎn 。 suàn jì qǐ lái ， tài bàn shēng huó shì zài qiān yí biàn huàn zhī zhōng ， guò bàn de shí jiān shì zài jiā guó zhī wài ， sì hū yǐ jīng xí guàn le zhè yàng de piāo pō ， yǐ zhì dào le zhōng nián ， bù shí tán qǐ huò bèi rén wèn qǐ ： huì zài cǐ dì jū liú duō jiǔ ？ lái rì kě yǒu hé dǎ suàn ？",
+            "meaningVi": "Hồi nhỏ, tác giả thích đi xa, thường đi tàu qua núi đến nhà cô ở Cơ Long ngắm biển. Lên trung học, tác giả rời quê đến Đài Bắc học nội trú. Sau khi tốt nghiệp đại học, sự tò mò và ước mơ mở ra cuộc sống phiêu du; tuổi trẻ chưa biết nhớ quê, bước chân càng xa. Tính ra, phần lớn cuộc đời là chuyển chỗ ở; hơn nửa thời gian sống ngoài quê hương. Đến trung niên, tác giả đã quen phiêu bạt và thường được hỏi sẽ ở lại đây bao lâu, tương lai tính thế nào."
+          },
+          {
+            "speaker": "Đoạn 2",
+            "chinese": "習慣了這樣的話題，心裡似乎也認定了這樣的生活形態，不知不覺中失去了所謂「家」的觀念以及所謂「安身」這樣的念頭。彷彿生活是一段又一段的旅程，日子就隨著腳步前移邁進，家在哪裡？鄉關何處？",
+            "simplified": "习惯了这样的话题，心里似乎也认定了这样的生活形态，不知不觉中失去了所谓「家」的观念以及所谓「安身」这样的念头。仿佛生活是一段又一段的旅程，日子就随着脚步前移迈进，家在哪里？乡关何处？",
+            "pinyin": "xí guàn le zhè yàng de huà tí ， xīn lǐ sì hū yě rèn dìng le zhè yàng de shēng huó xíng tài ， bù zhī bù jué zhōng shī qù le suǒ wèi 「 jiā 」 de guān niàn yǐ jí suǒ wèi 「 ān shēn 」 zhè yàng de niàn tóu 。 páng fú shēng huó shì yī duàn yòu yī duàn de lǚ chéng ， rì zi jiù suí zhù jiǎo bù qián yí mài jìn ， jiā zài nǎ lǐ ？ xiāng guān hé chù ？",
+            "meaningVi": "Quen với những câu hỏi ấy, tác giả dần xem lối sống này là bình thường, vô thức mất đi ý niệm về “nhà” và mong muốn an cư. Cuộc sống như những chặng hành trình nối tiếp; theo mỗi bước chân, tác giả tự hỏi nhà ở đâu, quê hương nơi nào."
+          },
+          {
+            "speaker": "Đoạn 3",
+            "chinese": "不巧，生活裡的朋友泰半是這類隨工作派駐各地，在城市與機場之間流轉的「國際人士」，大部分人的家都是地球上臨時居住的某個城市，只有在義大利南部或瑞士山間之類的度假居所或伊媚兒，才是比較恆常不變的地址。",
+            "simplified": "不巧，生活里的朋友泰半是这类随工作派驻各地，在城市与机场之间流转的「国际人士」，大部分人的家都是地球上临时居住的某个城市，只有在义大利南部或瑞士山间之类的度假居所或伊媚儿，才是比较恒常不变的地址。",
+            "pinyin": "bù qiǎo ， shēng huó lǐ de péng yǒu tài bàn shì zhè lèi suí gōng zuò pài zhù gè dì ， zài chéng shì yǔ jī chǎng zhī jiān liú zhuǎn de 「 guó jì rén shì 」 ， dà bù fèn rén de jiā dōu shì dì qiú shàng lín shí jū zhù de mǒu gè chéng shì ， zhǐ yǒu zài yì dà lì nán bù huò ruì shì shān jiān zhī lèi de dù jià jū suǒ huò yī mèi ér ， cái shì bǐ jiào héng cháng bù biàn de dì zhǐ 。",
+            "meaningVi": "Tình cờ là phần lớn bạn bè cũng là những “công dân quốc tế” được cử đi làm ở nhiều nơi, qua lại giữa thành phố và sân bay. Nhà của họ chỉ là nơi ở tạm tại một thành phố nào đó; địa chỉ ổn định hơn lại là căn nhà nghỉ ở miền nam Ý, trên núi Thụy Sĩ, hoặc địa chỉ email."
+          },
+          {
+            "speaker": "Đoạn 4",
+            "chinese": "以致，不小心問了一個已經在亞洲住了二十多年的朋友亞力山大：將來打算在哪裡退休養老？對方有點愕然地回答：香港，當然在香港，這是家。這一回答才驚醒夢中人，原來，自己已然成了失根之人，心裡從來沒有一個理所當然的「家」，心裡的家依舊是在夢想中：一個有碧綠湖水或者可從窗外看著藍天大海的寧靜住所，落地窗前可以望見夜晚的星空，後院的老樹下有松鼠、麻雀嬉戲⋯⋯這樣的地方具體是在哪裡？如果有人問，實在也沒有確定的答案，也許是在旅途中偶然發現的無名村落？",
+            "simplified": "以致，不小心问了一个已经在亚洲住了二十多年的朋友亚力山大：将来打算在哪里退休养老？对方有点愕然地回答：香港，当然在香港，这是家。这一回答才惊醒梦中人，原来，自己已然成了失根之人，心里从来没有一个理所当然的「家」，心里的家依旧是在梦想中：一个有碧绿湖水或者可从窗外看着蓝天大海的宁静住所，落地窗前可以望见夜晚的星空，后院的老树下有松鼠、麻雀嬉戏⋯⋯这样的地方具体是在哪里？如果有人问，实在也没有确定的答案，也许是在旅途中偶然发现的无名村落？",
+            "pinyin": "yǐ zhì ， bù xiǎo xīn wèn le yī gè yǐ jīng zài yà zhōu zhù le èr shí duō nián de péng yǒu yà lì shān dà ： jiāng lái dǎ suàn zài nǎ lǐ tuì xiū yǎng lǎo ？ duì fāng yǒu diǎn è rán dì huí dá ： xiāng gǎng ， dāng rán zài xiāng gǎng ， zhè shì jiā 。 zhè yī huí dá cái jīng xǐng mèng zhōng rén ， yuán lái ， zì jǐ yǐ rán chéng le shī gēn zhī rén ， xīn lǐ cóng lái méi yǒu yī gè lǐ suǒ dāng rán de 「 jiā 」 ， xīn lǐ de jiā yī jiù shì zài mèng xiǎng zhōng ： yī gè yǒu bì lǜ hú shuǐ huò zhě kě cóng chuāng wài kàn zhù lán tiān dà hǎi de níng jìng zhù suǒ ， luò dì chuāng qián kě yǐ wàng jiàn yè wǎn de xīng kōng ， hòu yuàn de lǎo shù xià yǒu sōng shǔ 、 má què xī xì ⋯ ⋯ zhè yàng de dì fāng jù tǐ shì zài nǎ lǐ ？ rú guǒ yǒu rén wèn ， shí zài yě méi yǒu què dìng de dá àn ， yě xǔ shì zài lǚ tú zhōng ǒu rán fā xiàn de wú míng cūn luò ？",
+            "meaningVi": "Một lần tác giả hỏi Alexander, người đã sống hơn hai mươi năm ở châu Á, sau này định nghỉ hưu ở đâu. Anh ấy ngạc nhiên đáp: “Hồng Kông, tất nhiên là Hồng Kông. Đó là nhà.” Câu trả lời khiến tác giả nhận ra mình đã mất gốc, chưa từng có một mái nhà được mặc nhiên coi là của mình. Trong mơ, nhà là nơi yên tĩnh bên hồ xanh hoặc nhìn ra biển, có bầu trời sao và chim sóc đùa trong vườn. Nhưng nơi ấy thực sự ở đâu thì tác giả vẫn chưa biết; biết đâu sẽ bắt gặp một ngôi làng vô danh trên đường."
+          }
+        ]
+      },
+      {
+        "id": "cc6-v6-l09-reading2",
+        "title": "課文二 · 鄉關何處（II）",
+        "context": "Gia đình đa văn hóa của Alexander và suy ngẫm về ý nghĩa của nhà.",
+        "audioTrackId": "cc6-textbook-l09-t05",
+        "turns": [
+          {
+            "speaker": "Đoạn 1",
+            "chinese": "亞力山大在紐約出生，地道是個紐約人，但父母早年在上海與香港長期居住過，哥大建築學系畢業後，很自然就想到父母不時提起的亞洲生活。來了香港，認識同樣來自紐約的記者妻子，一個華裔美籍的第三代移民，兩人一起學廣東話，結了婚生下的混血孩子，習慣以流利的廣東話介紹自己：「我係香港人。」",
+            "simplified": "亚力山大在纽约出生，地道是个纽约人，但父母早年在上海与香港长期居住过，哥大建筑学系毕业后，很自然就想到父母不时提起的亚洲生活。来了香港，认识同样来自纽约的记者妻子，一个华裔美籍的第三代移民，两人一起学广东话，结了婚生下的混血孩子，习惯以流利的广东话介绍自己：「我系香港人。」",
+            "pinyin": "yà lì shān dà zài niǔ yuē chū shēng ， dì dào shì gè niǔ yuē rén ， dàn fù mǔ zǎo nián zài shàng hǎi yǔ xiāng gǎng zhǎng qī jū zhù guò ， gē dà jiàn zhù xué xì bì yè hòu ， hěn zì rán jiù xiǎng dào fù mǔ bù shí tí qǐ de yà zhōu shēng huó 。 lái le xiāng gǎng ， rèn shí tóng yàng lái zì niǔ yuē de jì zhě qī zǐ ， yī gè huá yì měi jí de dì sān dài yí mín ， liǎng rén yì qǐ xué guǎng dōng huà ， jié le hūn shēng xià de hùn xuè hái zi ， xí guàn yǐ liú lì de guǎng dōng huà jiè shào zì jǐ ： 「 wǒ xì xiāng gǎng rén 。 」",
+            "meaningVi": "Alexander sinh ở New York, đúng là người New York, nhưng cha mẹ từng sống lâu năm ở Thượng Hải và Hồng Kông. Tốt nghiệp ngành kiến trúc ở Đại học Columbia, anh nghĩ đến cuộc sống châu Á mà cha mẹ thường kể. Đến Hồng Kông, anh gặp người vợ là nhà báo cũng từ New York, một người Mỹ gốc Hoa thế hệ thứ ba. Họ học tiếng Quảng Đông, kết hôn và có con mang nhiều dòng máu; đứa trẻ thường giới thiệu bằng tiếng Quảng Đông trôi chảy: “Tôi là người Hồng Kông.”"
+          },
+          {
+            "speaker": "Đoạn 2",
+            "chinese": "朋友裡諸多這樣在不同國度、不同城市工作或生活的國際人士，他們的婚姻以及子女甚至身世都是多重混血、多元文化，已經很難追究一個純粹的血統或國族。大部分人雖然有家國的概念，但更習慣是世界的公民，地球的居民。",
+            "simplified": "朋友里诸多这样在不同国度、不同城市工作或生活的国际人士，他们的婚姻以及子女甚至身世都是多重混血、多元文化，已经很难追究一个纯粹的血统或国族。大部分人虽然有家国的概念，但更习惯是世界的公民，地球的居民。",
+            "pinyin": "péng yǒu lǐ zhū duō zhè yàng zài bù tóng guó dù 、 bù tóng chéng shì gōng zuò huò shēng huó de guó jì rén shì ， tā men de hūn yīn yǐ jí zǐ nǚ shèn zhì shēn shì dōu shì duō zhòng hùn xuè 、 duō yuán wén huà ， yǐ jīng hěn nán zhuī jiū yī gè chún cuì de xuè tǒng huò guó zú 。 dà bù fèn rén suī rán yǒu jiā guó de gài niàn ， dàn gèng xí guàn shì shì jiè de gōng mín ， dì qiú de jū mín 。",
+            "meaningVi": "Trong bạn bè tác giả, nhiều người làm việc và sống ở các nước, các thành phố khác nhau như vậy. Hôn nhân, con cái và xuất thân của họ đều đa dạng về dòng máu và văn hóa, khó truy về một huyết thống hay dân tộc thuần nhất. Dù vẫn có khái niệm quê nhà, họ quen xem mình là công dân thế giới và cư dân Trái Đất hơn."
+          },
+          {
+            "speaker": "Đoạn 3",
+            "chinese": "都已經如此習慣在一個完全陌生的城市裡，找到一個屬意的空間，歡喜的景致。借用一段門牌地址，把心愛的家當、必要的家用一一安放在合適的位置，在空白的牆壁掛上平日收集的各類畫作，在書房的窗台擺放綠色盆景⋯⋯然後，拿出不離不棄的老茶壺，在廚房裡泡一壺熱騰騰的菊花普洱，生活就從呷一口茶的溫馨中，新鮮又熟悉地開始。",
+            "simplified": "都已经如此习惯在一个完全陌生的城市里，找到一个属意的空间，欢喜的景致。借用一段门牌地址，把心爱的家当、必要的家用一一安放在合适的位置，在空白的墙壁挂上平日收集的各类画作，在书房的窗台摆放绿色盆景⋯⋯然后，拿出不离不弃的老茶壶，在厨房里泡一壶热腾腾的菊花普洱，生活就从呷一口茶的温馨中，新鲜又熟悉地开始。",
+            "pinyin": "dōu yǐ jīng rú cǐ xí guàn zài yī gè wán quán mò shēng de chéng shì lǐ ， zhǎo dào yī gè shǔ yì de kōng jiān ， huān xǐ de jǐng zhì 。 jiè yòng yī duàn mén pái dì zhǐ ， bǎ xīn ài de jiā dāng 、 bì yào de jiā yòng yī yī ān fàng zài hé shì de wèi zhì ， zài kòng bái de qiáng bì guà shàng píng rì shōu jí de gè lèi huà zuò ， zài shū fáng de chuāng tái bǎi fàng lǜ sè pén jǐng ⋯ ⋯ rán hòu ， ná chū bù lí bù qì de lǎo chá hú ， zài chú fáng lǐ pào yī hú rè téng téng de jú huā pǔ ěr ， shēng huó jiù cóng gā yī kǒu chá de wēn xīn zhōng ， xīn xiān yòu shú xī dì kāi shǐ 。",
+            "meaningVi": "Họ đã quen tìm một góc không gian ưng ý, một cảnh sắc dễ chịu ở thành phố xa lạ. Mượn một địa chỉ nhà, họ lần lượt đặt đồ đạc cần thiết vào chỗ, treo tranh đã sưu tập lên tường, để cây xanh ở bậu cửa sổ. Rồi họ lấy chiếc ấm trà cũ thân thuộc, pha một ấm trà hoa cúc Phổ Nhĩ nóng hổi; cuộc sống bắt đầu lại từ một ngụm trà ấm áp, vừa mới mẻ vừa quen thuộc."
+          },
+          {
+            "speaker": "Đoạn 4",
+            "chinese": "安心永遠比安家重要，在哪裡居住已經不再是問題，在哪裡好住似乎才是前提。比如一個空氣不受汙染的環境，一個氣候宜人的地方，一個人們友善熱忱的城鎮，一個蔬菜水果新鮮豐盛的所在⋯⋯我們所擁有的，只是一個被稱為「家」的房子，那裡有一張孤單卻永遠體貼的床，一張破敗卻縱容你懶惰的躺椅，一個陪你一起老舊的茶壺，幾幅天長地久的畫作⋯⋯生活之中選擇一個地方，或是被一個地方所選擇，就如羈旅中的驛站，家，真是一個安放行李、洗滌風塵的歇腳地。",
+            "simplified": "安心永远比安家重要，在哪里居住已经不再是问题，在哪里好住似乎才是前提。比如一个空气不受污染的环境，一个气候宜人的地方，一个人们友善热忱的城镇，一个蔬菜水果新鲜丰盛的所在⋯⋯我们所拥有的，只是一个被称为「家」的房子，那里有一张孤单却永远体贴的床，一张破败却纵容你懒惰的躺椅，一个陪你一起老旧的茶壶，几幅天长地久的画作⋯⋯生活之中选择一个地方，或是被一个地方所选择，就如羁旅中的驿站，家，真是一个安放行李、洗涤风尘的歇脚地。",
+            "pinyin": "ān xīn yǒng yuǎn bǐ ān jiā zhòng yào ， zài nǎ lǐ jū zhù yǐ jīng bù zài shì wèn tí ， zài nǎ lǐ hǎo zhù sì hū cái shì qián tí 。 bǐ rú yī gè kōng qì bù shòu wū rǎn de huán jìng ， yī gè qì hòu yí rén de dì fāng ， yī gè rén men yǒu shàn rè chén de chéng zhèn ， yī gè shū cài shuǐ guǒ xīn xiān fēng shèng de suǒ zài ⋯ ⋯ wǒ men suǒ yōng yǒu de ， zhǐ shì yī gè bèi chēng wèi 「 jiā 」 de fáng zi ， nà lǐ yǒu yī zhāng gū dān què yǒng yuǎn tǐ tiē de chuáng ， yī zhāng pò bài què zòng róng nǐ lǎn duò de tǎng yǐ ， yī gè péi nǐ yì qǐ lǎo jiù de chá hú ， jǐ fú tiān zhǎng dì jiǔ de huà zuò ⋯ ⋯ shēng huó zhī zhōng xuǎn zé yī gè dì fāng ， huò shì bèi yī gè dì fāng suǒ xuǎn zé ， jiù rú jī lǚ zhōng de yì zhàn ， jiā ， zhēn shì yī gè ān fàng xíng lǐ 、 xǐ dí fēng chén de xiē jiǎo dì 。",
+            "meaningVi": "An lòng luôn quan trọng hơn an cư; vấn đề giờ không phải sống ở đâu mà là nơi nào sống dễ chịu. Chẳng hạn môi trường không ô nhiễm, khí hậu dễ chịu, thị trấn có người thân thiện và rau quả tươi. Cái ta có chỉ là căn nhà được gọi là “nhà”: chiếc giường cô đơn nhưng luôn đón ta, ghế nằm cũ cho ta lười biếng, ấm trà cùng ta già đi, vài bức tranh ở mãi. Chọn một nơi, hoặc được nơi ấy chọn, như dừng chân ở trạm trên hành trình xa; nhà là chỗ đặt hành lý và rũ bụi đường."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc6-v6-l09-check-01",
+        "prompt": "Tác giả bài đọc 1 rời quê đến đâu học trung học?",
+        "options": [
+          {
+            "id": "a",
+            "text": "New York"
+          },
+          {
+            "id": "b",
+            "text": "Đài Bắc"
+          },
+          {
+            "id": "c",
+            "text": "Hồng Kông"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Bài đọc ghi 上了中學離開家鄉去了台北念書.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc6-v6-l09-check-02",
+        "prompt": "“Quốc tế nhân sĩ” trong bài là những người thế nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Chưa từng rời quê"
+          },
+          {
+            "id": "b",
+            "text": "Làm việc ở nhiều nơi, qua lại giữa thành phố và sân bay"
+          },
+          {
+            "id": "c",
+            "text": "Chỉ giỏi nhiều ngôn ngữ"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Đoạn 3 nói 隨工作派駐各地，在城市與機場之間流轉.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc6-v6-l09-check-03",
+        "prompt": "Alexander cho rằng nhà mình ở đâu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Hồng Kông"
+          },
+          {
+            "id": "b",
+            "text": "New York"
+          },
+          {
+            "id": "c",
+            "text": "Thượng Hải"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Anh đáp 香港，當然在香港，這是家.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc6-v6-l09-check-04",
+        "prompt": "Bài đọc 2 coi “nhà” là nơi nào?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Một địa chỉ cố định trên giấy"
+          },
+          {
+            "id": "b",
+            "text": "Một sân vận động"
+          },
+          {
+            "id": "c",
+            "text": "Chỗ dừng chân để đặt hành lý và rũ bụi đường"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Câu cuối nói 安放行李、洗滌風塵的歇腳地.",
+        "skill": "Đọc hiểu"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem phiên âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc6-v6-l09-v001",
+      "cc6-v6-l09-v002",
+      "cc6-v6-l09-v003",
+      "cc6-v6-l09-v004",
+      "cc6-v6-l09-v005",
+      "cc6-v6-l09-v006",
+      "cc6-v6-l09-v007",
+      "cc6-v6-l09-v008",
+      "cc6-v6-l09-v009",
+      "cc6-v6-l09-v010",
+      "cc6-v6-l09-v011",
+      "cc6-v6-l09-v012",
+      "cc6-v6-l09-v013",
+      "cc6-v6-l09-v014",
+      "cc6-v6-l09-v015",
+      "cc6-v6-l09-v016",
+      "cc6-v6-l09-v017",
+      "cc6-v6-l09-v018",
+      "cc6-v6-l09-v019",
+      "cc6-v6-l09-v020",
+      "cc6-v6-l09-v021",
+      "cc6-v6-l09-v022",
+      "cc6-v6-l09-v023",
+      "cc6-v6-l09-v024",
+      "cc6-v6-l09-v025",
+      "cc6-v6-l09-v026",
+      "cc6-v6-l09-v027",
+      "cc6-v6-l09-v028",
+      "cc6-v6-l09-v029",
+      "cc6-v6-l09-v030",
+      "cc6-v6-l09-v031",
+      "cc6-v6-l09-v032",
+      "cc6-v6-l09-v033",
+      "cc6-v6-l09-v034",
+      "cc6-v6-l09-v035",
+      "cc6-v6-l09-v036",
+      "cc6-v6-l09-v037",
+      "cc6-v6-l09-v038",
+      "cc6-v6-l09-v039",
+      "cc6-v6-l09-v040",
+      "cc6-v6-l09-v041",
+      "cc6-v6-l09-v042",
+      "cc6-v6-l09-v043",
+      "cc6-v6-l09-v044",
+      "cc6-v6-l09-v045",
+      "cc6-v6-l09-v046",
+      "cc6-v6-l09-v047",
+      "cc6-v6-l09-v048",
+      "cc6-v6-l09-v049",
+      "cc6-v6-l09-v050",
+      "cc6-v6-l09-v051",
+      "cc6-v6-l09-v052",
+      "cc6-v6-l09-v053",
+      "cc6-v6-l09-v054",
+      "cc6-v6-l09-v055",
+      "cc6-v6-l09-v056",
+      "cc6-v6-l09-v057",
+      "cc6-v6-l09-v058",
+      "cc6-v6-l09-v059",
+      "cc6-v6-l09-v060",
+      "cc6-v6-l09-v061",
+      "cc6-v6-l09-v062",
+      "cc6-v6-l09-v063",
+      "cc6-v6-l09-v064",
+      "cc6-v6-l09-v065",
+      "cc6-v6-l09-v066",
+      "cc6-v6-l09-v067",
+      "cc6-v6-l09-v068",
+      "cc6-v6-l09-v069",
+      "cc6-v6-l09-v070",
+      "cc6-v6-l09-v071",
+      "cc6-v6-l09-v072",
+      "cc6-v6-l09-v073",
+      "cc6-v6-l09-v074",
+      "cc6-v6-l09-v075",
+      "cc6-v6-l09-v076",
+      "cc6-v6-l09-v077",
+      "cc6-v6-l09-v078",
+      "cc6-v6-l09-v079",
+      "cc6-v6-l09-v080",
+      "cc6-v6-l09-v081",
+      "cc6-v6-l09-v082",
+      "cc6-v6-l09-v083",
+      "cc6-v6-l09-v084",
+      "cc6-v6-l09-v085",
+      "cc6-v6-l09-v086",
+      "cc6-v6-l09-v087",
+      "cc6-v6-l09-v088",
+      "cc6-v6-l09-v089",
+      "cc6-v6-l09-v090",
+      "cc6-v6-l09-v091",
+      "cc6-v6-l09-v092",
+      "cc6-v6-l09-v093",
+      "cc6-v6-l09-v094",
+      "cc6-v6-l09-v095",
+      "cc6-v6-l09-v096",
+      "cc6-v6-l09-v097",
+      "cc6-v6-l09-v098",
+      "cc6-v6-l09-v099",
+      "cc6-v6-l09-v100",
+      "cc6-v6-l09-v101",
+      "cc6-v6-l09-v102",
+      "cc6-v6-l09-v103"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc6-textbook-l09-t03",
+        "label": "Từ vựng bài đọc 1"
+      },
+      {
+        "id": "cc6-textbook-l09-t06",
+        "label": "Từ vựng bài đọc 2"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc6-v6-l09-grammar-01",
+      "title": "算計起來",
+      "explanation": "Dùng sau khi tính gộp, ước lượng một thời gian, số lượng hoặc tình hình chung. Gần nghĩa 算起來, nhưng trang trọng hơn.",
+      "structure": "算計起來，+ tổng kết về số lượng/thời gian",
+      "examples": [
+        {
+          "chinese": "算計起來，他已在國外住了二十年。",
+          "simplified": "算计起来，他已在国外住了二十年。",
+          "pinyin": "suàn jì qǐ lái ， tā yǐ zài guó wài zhù le èr shí nián 。",
+          "meaningVi": "Tính ra, anh ấy đã sống ở nước ngoài hai mươi năm."
+        },
+        {
+          "chinese": "這些書算計起來有上百本。",
+          "simplified": "这些书算计起来有上百本。",
+          "pinyin": "zhè xiē shū suàn jì qǐ lái yǒu shàng bǎi běn 。",
+          "meaningVi": "Tính ra, những cuốn sách này có hơn trăm quyển."
+        }
+      ],
+      "commonMistake": "Không dùng để nói “tính toán người khác” trong mẫu này; đây là cách tổng kết.",
+      "check": {
+        "id": "cc6-v6-l09-grammar-check-01",
+        "prompt": "Điền: 他搬家五次，____住過六個城市。",
+        "options": [
+          {
+            "id": "a",
+            "text": "算計起來"
+          },
+          {
+            "id": "b",
+            "text": "不知不覺中"
+          },
+          {
+            "id": "c",
+            "text": "之類"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Dùng sau khi tính gộp, ước lượng một thời gian, số lượng hoặc tình hình chung.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l09-grammar-02",
+      "title": "在不知不覺中",
+      "explanation": "Diễn tả thay đổi diễn ra mà người trong cuộc không nhận ra lúc ấy. Có thể lược 在.",
+      "structure": "(在)不知不覺中，+ sự thay đổi",
+      "examples": [
+        {
+          "chinese": "在不知不覺中，他習慣了異地生活。",
+          "simplified": "在不知不觉中，他习惯了异地生活。",
+          "pinyin": "zài bù zhī bù jué zhōng ， tā xí guàn le yì dì shēng huó 。",
+          "meaningVi": "Lúc nào không hay, anh ấy đã quen sống nơi đất khách."
+        },
+        {
+          "chinese": "孩子不知不覺中長大了。",
+          "simplified": "孩子不知不觉中长大了。",
+          "pinyin": "hái zi bù zhī bù jué zhōng zhǎng dà le 。",
+          "meaningVi": "Đứa trẻ lớn lên lúc nào không hay."
+        }
+      ],
+      "commonMistake": "Không dùng cho quyết định có chủ ý và được lên kế hoạch rõ.",
+      "check": {
+        "id": "cc6-v6-l09-grammar-check-02",
+        "prompt": "Điền: 多年旅行後，他____失去了安身的念頭。",
+        "options": [
+          {
+            "id": "a",
+            "text": "在不知不覺中"
+          },
+          {
+            "id": "b",
+            "text": "算計起來"
+          },
+          {
+            "id": "c",
+            "text": "之類的"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Diễn tả thay đổi diễn ra mà người trong cuộc không nhận ra lúc ấy.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l09-grammar-03",
+      "title": "X之類的N",
+      "explanation": "Nêu vài ví dụ X thuộc nhóm danh từ N; 之類的 đứng sau ví dụ, trước danh từ khái quát.",
+      "structure": "ví dụ X + 之類的 + loại N",
+      "examples": [
+        {
+          "chinese": "我喜歡茶和咖啡之類的飲料。",
+          "simplified": "我喜欢茶和咖啡之类的饮料。",
+          "pinyin": "wǒ xǐ huān chá hé kā fēi zhī lèi de yǐn liào 。",
+          "meaningVi": "Tôi thích những đồ uống như trà và cà phê."
+        },
+        {
+          "chinese": "他想住在基隆之類的海邊城市。",
+          "simplified": "他想住在基隆之类的海边城市。",
+          "pinyin": "tā xiǎng zhù zài jī lóng zhī lèi de hǎi biān chéng shì 。",
+          "meaningVi": "Anh ấy muốn sống ở thành phố ven biển như Cơ Long."
+        }
+      ],
+      "commonMistake": "Không đặt danh từ loại N trước 之類的 khi X là ví dụ.",
+      "check": {
+        "id": "cc6-v6-l09-grammar-check-03",
+        "prompt": "Điền: 我喜歡菊花茶、普洱____飲料。",
+        "options": [
+          {
+            "id": "a",
+            "text": "算計起來"
+          },
+          {
+            "id": "b",
+            "text": "之類的"
+          },
+          {
+            "id": "c",
+            "text": "不知不覺中"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Nêu vài ví dụ X thuộc nhóm danh từ N; 之類的 đứng sau ví dụ, trước danh từ khái quát.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l09-grammar-04",
+      "title": "一一",
+      "explanation": "Cho biết nhiều việc hoặc nhiều đối tượng được xử lý lần lượt, không bỏ sót. Thường đứng trước động từ.",
+      "structure": "chủ thể + 一一 + động từ + nhiều đối tượng",
+      "examples": [
+        {
+          "chinese": "她把畫作一一掛在牆上。",
+          "simplified": "她把画作一一挂在墙上。",
+          "pinyin": "tā bǎ huà zuò yī yī guà zài qiáng shàng 。",
+          "meaningVi": "Cô ấy lần lượt treo từng bức tranh lên tường."
+        },
+        {
+          "chinese": "老師一一回答學生的問題。",
+          "simplified": "老师一一回答学生的问题。",
+          "pinyin": "lǎo shī yī yī huí dá xué shēng de wèn tí 。",
+          "meaningVi": "Giáo viên trả lời từng câu hỏi của học sinh."
+        }
+      ],
+      "commonMistake": "Nếu chỉ có một đối tượng, 一一 không phù hợp.",
+      "check": {
+        "id": "cc6-v6-l09-grammar-check-04",
+        "prompt": "Điền: 搬家後，他把家當____安放好。",
+        "options": [
+          {
+            "id": "a",
+            "text": "依舊"
+          },
+          {
+            "id": "b",
+            "text": "一一"
+          },
+          {
+            "id": "c",
+            "text": "泰半"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Cho biết nhiều việc hoặc nhiều đối tượng được xử lý lần lượt, không bỏ sót.",
+        "skill": "Ngữ pháp"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc6-v6-l09-listening-01",
+      "prompt": "Nghe bài đọc 1: tác giả trải qua phần lớn cuộc đời như thế nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Di chuyển và thay đổi nơi ở"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ sống ở Đài Bắc"
+        },
+        {
+          "id": "c",
+          "text": "Ở mãi nhà cô tại Cơ Long"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc nêu 泰半生活是在遷移變換之中.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l09-t02"
+    },
+    {
+      "id": "cc6-v6-l09-listening-02",
+      "prompt": "Nghe bài đọc 1: điều gì khiến tác giả nhận ra mình “mất gốc”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Một lá thư từ quê"
+        },
+        {
+          "id": "b",
+          "text": "Một chiếc vé tàu"
+        },
+        {
+          "id": "c",
+          "text": "Alexander xem Hồng Kông là nhà"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Sau câu trả lời của Alexander, tác giả viết 驚醒夢中人.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l09-t02"
+    },
+    {
+      "id": "cc6-v6-l09-listening-03",
+      "prompt": "Nghe bài đọc 2: đứa trẻ của Alexander giới thiệu mình là người ở đâu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hồng Kông"
+        },
+        {
+          "id": "b",
+          "text": "New York"
+        },
+        {
+          "id": "c",
+          "text": "Đài Bắc"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Đứa trẻ nói 我係香港人.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l09-t05"
+    },
+    {
+      "id": "cc6-v6-l09-listening-04",
+      "prompt": "Nghe bài đọc 2: tác giả đặt điều gì lên trước việc “an cư”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cảm giác an lòng"
+        },
+        {
+          "id": "b",
+          "text": "Số nhà"
+        },
+        {
+          "id": "c",
+          "text": "Quốc tịch"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Đoạn cuối mở bằng 安心永遠比安家重要.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l09-t05"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc6-v6-l09-practice-01",
+      "prompt": "Điền: ____，她在香港住了十多年。",
+      "options": [
+        {
+          "id": "a",
+          "text": "不知不覺中"
+        },
+        {
+          "id": "b",
+          "text": "之類的"
+        },
+        {
+          "id": "c",
+          "text": "算計起來"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "算計起來 tổng kết thời gian sau khi tính.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l09-practice-02",
+      "prompt": "Theo bài đọc 1, tác giả đã quen điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Không bao giờ đi xa"
+        },
+        {
+          "id": "b",
+          "text": "Cuộc sống phiêu bạt, chuyển nơi ở"
+        },
+        {
+          "id": "c",
+          "text": "Ở mãi cùng một nhà"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Đoạn 1 nói 習慣了這樣的飄泊.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l09-practice-03",
+      "prompt": "Điền: 多年旅行後，他____習慣了異地生活。",
+      "options": [
+        {
+          "id": "a",
+          "text": "算計起來"
+        },
+        {
+          "id": "b",
+          "text": "之類的"
+        },
+        {
+          "id": "c",
+          "text": "在不知不覺中"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "在不知不覺中 chỉ thay đổi diễn ra lúc nào không hay.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l09-practice-04",
+      "prompt": "Câu trả lời của Alexander là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anh chưa từng có nhà"
+        },
+        {
+          "id": "b",
+          "text": "Anh muốn về New York"
+        },
+        {
+          "id": "c",
+          "text": "Hồng Kông là nhà"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc 1 trích: 香港，當然在香港，這是家.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l09-practice-05",
+      "prompt": "Điền: 他喜歡普洱、菊花茶____飲料。",
+      "options": [
+        {
+          "id": "a",
+          "text": "不時"
+        },
+        {
+          "id": "b",
+          "text": "之類的"
+        },
+        {
+          "id": "c",
+          "text": "一一"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "X之類的N nêu ví dụ thuộc một nhóm.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l09-practice-06",
+      "prompt": "Tại sao khó truy về một “huyết thống thuần nhất”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vì gia đình có nhiều dòng máu và văn hóa"
+        },
+        {
+          "id": "b",
+          "text": "Vì không giữ địa chỉ email"
+        },
+        {
+          "id": "c",
+          "text": "Vì chỉ nói tiếng Anh"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc 2 viết 多重混血、多元文化.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l09-practice-07",
+      "prompt": "Điền: 她把畫作____掛在牆上。",
+      "options": [
+        {
+          "id": "a",
+          "text": "前提"
+        },
+        {
+          "id": "b",
+          "text": "一一"
+        },
+        {
+          "id": "c",
+          "text": "泰半"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "一一 chỉ lần lượt từng thứ.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l09-practice-08",
+      "prompt": "Theo tác giả, điều kiện chọn chỗ ở là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nơi khiến mình an lòng và sống dễ chịu"
+        },
+        {
+          "id": "b",
+          "text": "Nơi có số nhà dài"
+        },
+        {
+          "id": "c",
+          "text": "Nơi luôn đông đúc"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc nói 安心永遠比安家重要 và 在哪裡好住才是前提.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc6-v6-l09-assessment-01",
+      "prompt": "Tác giả bài đọc 1 đã trải qua hơn nửa thời gian ở đâu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ở nhà cô tại Cơ Long"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ ở Đài Bắc"
+        },
+        {
+          "id": "c",
+          "text": "Bên ngoài quê hương"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc nêu 過半的時間是在家國之外.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l09-assessment-02",
+      "prompt": "Điền: ____，這些書已有一百多本。",
+      "options": [
+        {
+          "id": "a",
+          "text": "算計起來"
+        },
+        {
+          "id": "b",
+          "text": "不知不覺中"
+        },
+        {
+          "id": "c",
+          "text": "一一"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "算計起來 dùng để tổng kết số lượng.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l09-assessment-03",
+      "prompt": "Tác giả vô thức đánh mất ý niệm gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nhà và sự an cư"
+        },
+        {
+          "id": "b",
+          "text": "Việc học ngoại ngữ"
+        },
+        {
+          "id": "c",
+          "text": "Những bức tranh"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Đoạn 2 nêu 失去了所謂「家」的觀念 và 安身的念頭.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l09-assessment-04",
+      "prompt": "Điền: 他____習慣了新環境。",
+      "options": [
+        {
+          "id": "a",
+          "text": "在不知不覺中"
+        },
+        {
+          "id": "b",
+          "text": "之類的"
+        },
+        {
+          "id": "c",
+          "text": "一一"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "在不知不覺中 chỉ sự đổi thay không được nhận ra.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l09-assessment-05",
+      "prompt": "Alexander trả lời sẽ dưỡng già ở đâu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Đài Bắc"
+        },
+        {
+          "id": "b",
+          "text": "Hồng Kông"
+        },
+        {
+          "id": "c",
+          "text": "New York"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc 1 trích câu trả lời 香港.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l09-assessment-06",
+      "prompt": "Điền: 我喜歡基隆____海邊城市。",
+      "options": [
+        {
+          "id": "a",
+          "text": "算計起來"
+        },
+        {
+          "id": "b",
+          "text": "之類的"
+        },
+        {
+          "id": "c",
+          "text": "一一"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "之類的 nối ví dụ với nhóm danh từ.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l09-assessment-07",
+      "prompt": "Đứa con của Alexander dùng ngôn ngữ nào để giới thiệu mình?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Tiếng Quảng Đông"
+        },
+        {
+          "id": "b",
+          "text": "Tiếng Nhật"
+        },
+        {
+          "id": "c",
+          "text": "Tiếng Việt"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc nói 以流利的廣東話介紹自己.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l09-assessment-08",
+      "prompt": "Điền: 她把行李____放在房間裡。",
+      "options": [
+        {
+          "id": "a",
+          "text": "一一"
+        },
+        {
+          "id": "b",
+          "text": "泰半"
+        },
+        {
+          "id": "c",
+          "text": "依舊"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "一一 nhấn mạnh xử lý lần lượt.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l09-assessment-09",
+      "prompt": "Theo bài đọc 2, điều gì quan trọng hơn “an cư”?",
+      "options": [
+        {
+          "id": "a",
+          "text": "An lòng"
+        },
+        {
+          "id": "b",
+          "text": "Số nhà"
+        },
+        {
+          "id": "c",
+          "text": "Khoảng cách đến sân bay"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài viết nói 安心永遠比安家重要.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l09-assessment-10",
+      "prompt": "Hình ảnh “trạm dừng” cuối bài diễn tả gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nhà phải là khách sạn"
+        },
+        {
+          "id": "b",
+          "text": "Ai cũng phải đi tàu"
+        },
+        {
+          "id": "c",
+          "text": "Nhà là nơi nghỉ chân và rũ mệt mỏi"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Câu kết ví nhà như 羈旅中的驛站 và 歇腳地.",
+      "skill": "Tổng hợp"
+    }
+  ],
+  "writingTask": {
+    "id": "cc6-v6-l09-writing",
+    "title": "Viết ngắn: nơi nào là nhà?",
+    "prompt": "Viết 4–5 câu nêu nơi bạn thấy an lòng nhất và lý do. Dùng 在不知不覺中 hoặc 之類的 nếu phù hợp."
+  }
+}

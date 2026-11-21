@@ -1,0 +1,1429 @@
+{
+  "contentVersion": 2,
+  "id": "cc6-v6-l08",
+  "title": "奧運黑洞",
+  "titleVi": "Hố đen Olympic",
+  "description": "Cân nhắc vinh dự, lợi ích kinh tế và gánh nợ khi đăng cai Olympic.",
+  "objectives": [
+    "Tóm tắt lập luận về lợi ích và rủi ro tài chính của sự kiện thể thao lớn.",
+    "So sánh hai trường hợp Montreal và Los Angeles được nêu trong bài.",
+    "Dùng các mẫu 經由X而來、再者、不可不X để trình bày quan điểm."
+  ],
+  "estimatedMinutes": null,
+  "lecture": {
+    "introduction": "Bài đọc đặt câu hỏi: đăng cai Olympic là cú hích kinh tế hay gánh nợ? Các con số và dự đoán được giữ theo thời điểm xuất bản của giáo trình.",
+    "sections": [
+      {
+        "id": "cc6-v6-l08-section-01",
+        "title": "Vinh dự và cơ hội",
+        "body": "Tác giả nêu quảng bá thành phố, du lịch và sức mạnh quốc gia là lý do các thành phố muốn đăng cai.",
+        "chinese": "主辦奧運一直以來可以視為一種國力的展現。",
+        "simplified": "主办奥运一直以来可以视为一种国力的展现。",
+        "pinyin": "zhǔ bàn ào yùn yì zhí yǐ lái kě yǐ shì wèi yī zhǒng guó lì de zhǎn xiàn 。",
+        "meaningVi": "Đăng cai Olympic từ lâu được xem là một cách thể hiện sức mạnh quốc gia."
+      },
+      {
+        "id": "cc6-v6-l08-section-02",
+        "title": "Gánh nợ và hoàn vốn",
+        "body": "Montreal và London là ví dụ về khoản chi lớn, thời gian trả nợ kéo dài và khó thu hồi vốn.",
+        "chinese": "最終，還是需要納稅人來買單。",
+        "simplified": "最终，还是需要纳税人来买单。",
+        "pinyin": "zuì zhōng ， hái shì xū yào nà shuì rén lái mǎi dān 。",
+        "meaningVi": "Cuối cùng, người nộp thuế vẫn phải gánh chi phí."
+      },
+      {
+        "id": "cc6-v6-l08-section-03",
+        "title": "Thành công cần điều kiện",
+        "body": "Los Angeles 1984 là trường hợp huy động vốn thành công, nhưng bài đọc nhắc phải tính cả nhu cầu sử dụng và bảo trì sân bãi lâu dài.",
+        "chinese": "如果沒有持續地使用，之後就將變成蚊子館了。",
+        "simplified": "如果没有持续地使用，之后就将变成蚊子馆了。",
+        "pinyin": "rú guǒ méi yǒu chí xù dì shǐ yòng ， zhī hòu jiù jiāng biàn chéng wén zi guǎn le 。",
+        "meaningVi": "Nếu không tiếp tục sử dụng, sân bãi sẽ thành công trình bỏ không."
+      }
+    ],
+    "dialogues": [
+      {
+        "id": "cc6-v6-l08-reading1",
+        "title": "課文一 · 主辦奧運是經濟的強心針還是國債的大黑洞（I）",
+        "context": "Lợi ích và gánh nợ qua các kỳ Olympic trước.",
+        "audioTrackId": "cc6-textbook-l08-t02",
+        "turns": [
+          {
+            "speaker": "Đoạn 1",
+            "chinese": "在歷經兩輪投票之後，日本東京脫穎而出，成為西元2020年夏季奧運的主辦城市。這也是東京自1964年之後，再次舉辦夏季奧運會，也是亞洲第一個以及世界第五個舉辦過兩次夏季奧運會的城市（倫敦、雅典各三次，洛杉磯以及巴黎也有兩次舉辦夏季奧運的紀錄）。",
+            "simplified": "在历经两轮投票之后，日本东京脱颖而出，成为西元2020年夏季奥运的主办城市。这也是东京自1964年之后，再次举办夏季奥运会，也是亚洲第一个以及世界第五个举办过两次夏季奥运会的城市（伦敦、雅典各三次，洛杉矶以及巴黎也有两次举办夏季奥运的纪录）。",
+            "pinyin": "zài lì jīng liǎng lún tóu piào zhī hòu ， rì běn dōng jīng tuō yǐng ér chū ， chéng wèi xī yuán 2 0 2 0 nián xià jì ào yùn de zhǔ bàn chéng shì 。 zhè yě shì dōng jīng zì 1 9 6 4 nián zhī hòu ， zài cì jǔ bàn xià jì ào yùn huì ， yě shì yà zhōu dì yī gè yǐ jí shì jiè dì wǔ gè jǔ bàn guò liǎng cì xià jì ào yùn huì de chéng shì （ lún dūn 、 yǎ diǎn gè sān cì ， luò shān jī yǐ jí bā lí yě yǒu liǎng cì jǔ bàn xià jì ào yùn de jì lù ） 。",
+            "meaningVi": "Sau hai vòng bỏ phiếu, Tokyo của Nhật Bản nổi bật và được chọn làm thành phố đăng cai Olympic mùa hè 2020. Đây là lần thứ hai Tokyo tổ chức Olympic mùa hè kể từ năm 1964; thành phố này cũng là nơi đầu tiên ở châu Á và nơi thứ năm trên thế giới tổ chức hai lần. London và Athens từng tổ chức ba lần; Los Angeles và Paris cũng từng tổ chức hai lần."
+          },
+          {
+            "speaker": "Đoạn 2",
+            "chinese": "奧林匹克運動會（Olympic Games）以及世界盃足球賽（FIFA World Cup）一直是世界上最盛大的運動賽事。而奧運會，因為比賽的項目以及參賽國家的數量之多，更是吸引全球觀眾目光的盛會，世界各國城市，也無不把主辦奧運會當成一個極大的榮耀。一個城市舉辦奧運，不但是一個極好的城市行銷機會，也可以促進當地旅遊業的發展，更因為各種不同企業公司的贊助，會獲得極大的經濟發展；同時，主辦奧運一直以來可以視為一種國力的展現。",
+            "simplified": "奥林匹克运动会（Olympic Games）以及世界杯足球赛（FIFA World Cup）一直是世界上最盛大的运动赛事。而奥运会，因为比赛的项目以及参赛国家的数量之多，更是吸引全球观众目光的盛会，世界各国城市，也无不把主办奥运会当成一个极大的荣耀。一个城市举办奥运，不但是一个极好的城市行销机会，也可以促进当地旅游业的发展，更因为各种不同企业公司的赞助，会获得极大的经济发展；同时，主办奥运一直以来可以视为一种国力的展现。",
+            "pinyin": "ào lín pǐ kè yùn dòng huì （ O l y m p i c   G a m e s ） yǐ jí shì jiè bēi zú qiú sài （ F I F A   W o r l d   C u p ） yì zhí shì shì jiè shàng zuì shèng dà de yùn dòng sài shì 。 ér ào yùn huì ， yīn wèi bǐ sài de xiàng mù yǐ jí cān sài guó jiā de shù liàng zhī duō ， gèng shì xī yǐn quán qiú guān zhòng mù guāng de shèng huì ， shì jiè gè guó chéng shì ， yě wú bù bǎ zhǔ bàn ào yùn huì dāng chéng yī gè jí dà de róng yào 。 yī gè chéng shì jǔ bàn ào yùn ， bù dàn shì yī gè jí hǎo de chéng shì xíng xiāo jī huì ， yě kě yǐ cù jìn dāng dì lǚ yóu yè de fā zhǎn ， gèng yīn wèi gè zhǒng bù tóng qǐ yè gōng sī de zàn zhù ， huì huò dé jí dà de jīng jì fā zhǎn ； tóng shí ， zhǔ bàn ào yùn yì zhí yǐ lái kě yǐ shì wèi yī zhǒng guó lì de zhǎn xiàn 。",
+            "meaningVi": "Olympic và World Cup luôn là những sự kiện thể thao lớn nhất thế giới. Nhờ số môn thi và quốc gia tham dự đông, Olympic thu hút sự chú ý toàn cầu; các thành phố xem việc đăng cai là một vinh dự lớn. Đăng cai vừa là dịp quảng bá thành phố, thúc đẩy du lịch và nhận tài trợ doanh nghiệp, vừa được xem là cách thể hiện sức mạnh quốc gia."
+          },
+          {
+            "speaker": "Đoạn 3",
+            "chinese": "然而，主辦奧運會真的能夠帶來媒體上所宣稱的龐大經濟利益嗎？在奧運會過後，該國的運動會持續蓬勃發展，還是像一場絢麗的煙火，在綻放後歸於平靜呢？歷史上有許多前車之鑑可以讓人參考。",
+            "simplified": "然而，主办奥运会真的能够带来媒体上所宣称的庞大经济利益吗？在奥运会过后，该国的运动会持续蓬勃发展，还是像一场绚丽的烟火，在绽放后归于平静呢？历史上有许多前车之鉴可以让人参考。",
+            "pinyin": "rán ér ， zhǔ bàn ào yùn huì zhēn de néng gòu dài lái méi tǐ shàng suǒ xuān chēng de páng dà jīng jì lì yì ma ？ zài ào yùn huì guò hòu ， gāi guó de yùn dòng huì chí xù péng bó fā zhǎn ， hái shì xiàng yī chǎng xuàn lì de yān huǒ ， zài zhàn fàng hòu guī yú píng jìng ne ？ lì shǐ shàng yǒu xǔ duō qián chē zhī jiàn kě yǐ ràng rén cān kǎo 。",
+            "meaningVi": "Tuy nhiên, Olympic có thật sự đem lại lợi ích kinh tế lớn như truyền thông khẳng định không? Sau đại hội, thể thao nước chủ nhà sẽ tiếp tục phát triển hay chỉ rực sáng như pháo hoa rồi trở lại bình lặng? Lịch sử đã có nhiều bài học đáng tham khảo."
+          },
+          {
+            "speaker": "Đoạn 4",
+            "chinese": "1976年的蒙特婁（Montreal）奧運恐怕是歷史上財務負擔最重的一次奧運會。為了興建奧運運動場館以及周遭街道更新，蒙特婁政府大幅舉債以籌措資金，後果即是花了30年，直到2006年蒙特婁政府才把15億美金的債務還清。而所興建的奧運運動場，更因為財務上的困難以及施工時間不足，直到1980年代才把主要的塔柱完成——遠在奧運會結束之後。",
+            "simplified": "1976年的蒙特娄（Montreal）奥运恐怕是历史上财务负担最重的一次奥运会。为了兴建奥运运动场馆以及周遭街道更新，蒙特娄政府大幅举债以筹措资金，后果即是花了30年，直到2006年蒙特娄政府才把15亿美金的债务还清。而所兴建的奥运运动场，更因为财务上的困难以及施工时间不足，直到1980年代才把主要的塔柱完成——远在奥运会结束之后。",
+            "pinyin": "1 9 7 6 nián de méng tè lóu （ M o n t r e a l ） ào yùn kǒng pà shì lì shǐ shàng cái wù fù dān zuì zhòng de yī cì ào yùn huì 。 wèi le xìng jiàn ào yùn yùn dòng chǎng guǎn yǐ jí zhōu zāo jiē dào gēng xīn ， méng tè lóu zhèng fǔ dà fú jǔ zhài yǐ chóu cuò zī jīn ， hòu guǒ jí shì huā le 3 0 nián ， zhí dào 2 0 0 6 nián méng tè lóu zhèng fǔ cái bǎ 1 5 yì měi jīn de zhài wù hái qīng 。 ér suǒ xìng jiàn de ào yùn yùn dòng chǎng ， gèng yīn wèi cái wù shàng de kùn nán yǐ jí shī gōng shí jiān bù zú ， zhí dào 1 9 8 0 nián dài cái bǎ zhǔ yào de tǎ zhù wán chéng — — yuǎn zài ào yùn huì jié shù zhī hòu 。",
+            "meaningVi": "Olympic Montreal năm 1976 có lẽ là kỳ đại hội tạo gánh nặng tài chính nặng nề nhất. Chính quyền vay nhiều tiền để xây sân và cải tạo đường xung quanh, phải mất 30 năm, đến 2006 mới trả hết khoản nợ 1,5 tỷ đô la Mỹ. Do khó khăn tài chính và thiếu thời gian thi công, mãi đến thập niên 1980 trụ chính của sân mới hoàn thành, rất lâu sau khi đại hội kết thúc."
+          },
+          {
+            "speaker": "Đoạn 5",
+            "chinese": "2012年的倫敦奧運則恐怕是近五十年來花費最多的一次奧運會，從奧運會前預估的24億英鎊預算，一路提升至93億英鎊。到了奧運會該年，已有人士預估此次奧運會所舉辦的代價恐怕會花費240億英鎊，足足比當初參與競選奧運主辦城市時所提出的預算多了十倍有餘。花費超支恐怕不是倫敦奧運會的專屬，而是每屆奧運會必會傳承的傳統，2004年的雅典奧運也是由事前的60億美金，到最後共花了150億美金。而這些巨額的花費，只靠著贊助商、門票收入還有遊客所產生的經濟利益，似乎是不足以回本的。最終，還是需要納稅人來買單。",
+            "simplified": "2012年的伦敦奥运则恐怕是近五十年来花费最多的一次奥运会，从奥运会前预估的24亿英镑预算，一路提升至93亿英镑。到了奥运会该年，已有人士预估此次奥运会所举办的代价恐怕会花费240亿英镑，足足比当初参与竞选奥运主办城市时所提出的预算多了十倍有余。花费超支恐怕不是伦敦奥运会的专属，而是每届奥运会必会传承的传统，2004年的雅典奥运也是由事前的60亿美金，到最后共花了150亿美金。而这些巨额的花费，只靠着赞助商、门票收入还有游客所产生的经济利益，似乎是不足以回本的。最终，还是需要纳税人来买单。",
+            "pinyin": "2 0 1 2 nián de lún dūn ào yùn zé kǒng pà shì jìn wǔ shí nián lái huā fèi zuì duō de yī cì ào yùn huì ， cóng ào yùn huì qián yù gū de 2 4 yì yīng bàng yù suàn ， yī lù tí shēng zhì 9 3 yì yīng bàng 。 dào le ào yùn huì gāi nián ， yǐ yǒu rén shì yù gū cǐ cì ào yùn huì suǒ jǔ bàn de dài jià kǒng pà huì huā fèi 2 4 0 yì yīng bàng ， zú zú bǐ dāng chū cān yǔ jìng xuǎn ào yùn zhǔ bàn chéng shì shí suǒ tí chū de yù suàn duō le shí bèi yǒu yú 。 huā fèi chāo zhī kǒng pà bú shì lún dūn ào yùn huì de zhuān shǔ ， ér shì měi jiè ào yùn huì bì huì chuán chéng de chuán tǒng ， 2 0 0 4 nián de yǎ diǎn ào yùn yě shì yóu shì qián de 6 0 yì měi jīn ， dào zuì hòu gòng huā le 1 5 0 yì měi jīn 。 ér zhè xiē jù é de huā fèi ， zhǐ kào zhù zàn zhù shāng 、 mén piào shōu rù hái yǒu yóu kè suǒ chǎn shēng de jīng jì lì yì ， sì hū shì bù zú yǐ huí běn de 。 zuì zhōng ， hái shì xū yào nà shuì rén lái mǎi dān 。",
+            "meaningVi": "Olympic London 2012 có lẽ tốn kém nhất trong gần 50 năm: dự toán ban đầu 2,4 tỷ bảng tăng lên 9,3 tỷ bảng; đến năm tổ chức, có người ước tính chi phí sẽ là 24 tỷ bảng, cao hơn dự toán khi tranh quyền đăng cai hơn mười lần. Vượt chi không riêng London: Olympic Athens 2004 tăng từ 6 lên 15 tỷ đô la Mỹ. Tiền tài trợ, vé và du lịch dường như không đủ thu hồi vốn; cuối cùng người nộp thuế phải gánh chi phí."
+          }
+        ]
+      },
+      {
+        "id": "cc6-v6-l08-reading2",
+        "title": "課文二 · 主辦奧運是經濟的強心針還是國債的大黑洞（II）",
+        "context": "Trường hợp Los Angeles và bài toán sử dụng sân bãi sau đại hội.",
+        "audioTrackId": "cc6-textbook-l08-t05",
+        "turns": [
+          {
+            "speaker": "Đoạn 1",
+            "chinese": "主辦奧運不一定只能虧錢。當然，也並不是每一屆奧運會都是以虧本收場，歷史上還是有些成功的例子。1984年的洛杉磯奧運的行銷模式以及資金來源，成為當時城市主辦奧運會的典範。八〇年代的冷戰氛圍，以及前幾次奧運會巨額的債務，使1984年的奧運會突然之間成了燙手山芋，沒人想舉辦，洛杉磯以及紐約成為了唯二有興趣的城市。由於一個國家不能有兩個城市參與競選奧運主辦城市的規定，美國奧會決選出由洛杉磯代表美國參加奧運主辦城市的競選，也就意味著洛杉磯會接下1984年奧運的主辦權。",
+            "simplified": "主办奥运不一定只能亏钱。当然，也并不是每一届奥运会都是以亏本收场，历史上还是有些成功的例子。1984年的洛杉矶奥运的行销模式以及资金来源，成为当时城市主办奥运会的典范。八〇年代的冷战氛围，以及前几次奥运会巨额的债务，使1984年的奥运会突然之间成了烫手山芋，没人想举办，洛杉矶以及纽约成为了唯二有兴趣的城市。由于一个国家不能有两个城市参与竞选奥运主办城市的规定，美国奥会决选出由洛杉矶代表美国参加奥运主办城市的竞选，也就意味着洛杉矶会接下1984年奥运的主办权。",
+            "pinyin": "zhǔ bàn ào yùn bù yí dìng zhǐ néng kuī qián 。 dāng rán ， yě bìng bú shì měi yī jiè ào yùn huì dōu shì yǐ kuī běn shōu chǎng ， lì shǐ shàng hái shì yǒu xiē chéng gōng de lì zi 。 1 9 8 4 nián de luò shān jī ào yùn de xíng xiāo mó shì yǐ jí zī jīn lái yuán ， chéng wèi dāng shí chéng shì zhǔ bàn ào yùn huì de diǎn fàn 。 bā líng nián dài de lěng zhàn fēn wéi ， yǐ jí qián jǐ cì ào yùn huì jù é de zhài wù ， shǐ 1 9 8 4 nián de ào yùn huì tū rán zhī jiān chéng le tàng shǒu shān yù ， méi rén xiǎng jǔ bàn ， luò shān jī yǐ jí niǔ yuē chéng wèi le wéi èr yǒu xìng qù de chéng shì 。 yóu yú yī gè guó jiā bù néng yǒu liǎng gè chéng shì cān yǔ jìng xuǎn ào yùn zhǔ bàn chéng shì de guī dìng ， měi guó ào huì jué xuǎn chū yóu luò shān jī dài biǎo měi guó cān jiā ào yùn zhǔ bàn chéng shì de jìng xuǎn ， yě jiù yì wèi zhù luò shān jī huì jiē xià 1 9 8 4 nián ào yùn de zhǔ bàn quán 。",
+            "meaningVi": "Đăng cai Olympic không phải lúc nào cũng lỗ. Olympic Los Angeles 1984 là ví dụ thành công về cách quảng bá và nguồn vốn. Trong bầu không khí Chiến tranh Lạnh cùng gánh nợ của những kỳ trước, quyền đăng cai bỗng thành việc không ai muốn nhận; chỉ Los Angeles và New York còn quan tâm. Vì mỗi nước chỉ được một thành phố ứng cử, Ủy ban Olympic Mỹ chọn Los Angeles đại diện, đồng nghĩa thành phố này nhận quyền đăng cai năm 1984."
+          },
+          {
+            "speaker": "Đoạn 2",
+            "chinese": "此次奧運為人稱道的是，舉辦奧運會的資金完全沒有花到納稅人的錢，全部經由招商而來。而在奧運會結束之後，還有約兩億五千萬美金的盈餘，可以拿去補助殘障運動會以及洛杉磯的一些公共建設。然而，近幾屆奧運隨著參與的國家數目增多，以及追求華麗的開幕、閉幕典禮，想要損益平衡似乎成了件難事。",
+            "simplified": "此次奥运为人称道的是，举办奥运会的资金完全没有花到纳税人的钱，全部经由招商而来。而在奥运会结束之后，还有约两亿五千万美金的盈余，可以拿去补助残障运动会以及洛杉矶的一些公共建设。然而，近几届奥运随着参与的国家数目增多，以及追求华丽的开幕、闭幕典礼，想要损益平衡似乎成了件难事。",
+            "pinyin": "cǐ cì ào yùn wèi rén chēng dào de shì ， jǔ bàn ào yùn huì de zī jīn wán quán méi yǒu huā dào nà shuì rén de qián ， quán bù jīng yóu zhāo shāng ér lái 。 ér zài ào yùn huì jié shù zhī hòu ， hái yǒu yuē liǎng yì wǔ qiān wàn měi jīn de yíng yú ， kě yǐ ná qù bǔ zhù cán zhàng yùn dòng huì yǐ jí luò shān jī de yī xiē gōng gòng jiàn shè 。 rán ér ， jìn jǐ jiè ào yùn suí zhù cān yǔ de guó jiā shù mù zēng duō ， yǐ jí zhuī qiú huá lì de kāi mù 、 bì mù diǎn lǐ ， xiǎng yào sǔn yì píng héng sì hū chéng le jiàn nán shì 。",
+            "meaningVi": "Điều đáng khen ở kỳ này là kinh phí hoàn toàn đến từ việc kêu gọi doanh nghiệp, không dùng tiền thuế. Sau đại hội còn dư khoảng 250 triệu đô la Mỹ để hỗ trợ thể thao cho người khuyết tật và một số công trình công cộng ở Los Angeles. Nhưng các kỳ gần đây có nhiều nước tham dự hơn, lễ khai và bế mạc cũng ngày càng hoành tráng, nên hòa vốn trở nên khó."
+          },
+          {
+            "speaker": "Đoạn 3",
+            "chinese": "而該國的運動風氣，以及產業是否足以支撐運動場館的興建和後續的維護，也是一個極需考量的議題。",
+            "simplified": "而该国的运动风气，以及产业是否足以支撑运动场馆的兴建和后续的维护，也是一个极需考量的议题。",
+            "pinyin": "ér gāi guó de yùn dòng fēng qì ， yǐ jí chǎn yè shì fǒu zú yǐ zhī chēng yùn dòng chǎng guǎn de xìng jiàn hé hòu xù de wéi hù ， yě shì yī gè jí xū kǎo liáng de yì tí 。",
+            "meaningVi": "Phong trào thể thao và ngành thể thao của nước chủ nhà có đủ sức duy trì việc xây dựng và bảo trì sân bãi về lâu dài hay không cũng là điều cần cân nhắc."
+          },
+          {
+            "speaker": "Đoạn 4",
+            "chinese": "一次奧運會總共有28項的運動，如果沒有一定的人口基數，很難有足夠的市場去發展每一項運動。再者，奧運會所帶來的人潮以及經濟利益只能說是短期的，維持運動場館的維護費用卻是長遠的，如果沒有持續地使用，那所興建的場館只能維持一個月的使用期，之後就將變成蚊子館了。",
+            "simplified": "一次奥运会总共有28项的运动，如果没有一定的人口基数，很难有足够的市场去发展每一项运动。再者，奥运会所带来的人潮以及经济利益只能说是短期的，维持运动场馆的维护费用却是长远的，如果没有持续地使用，那所兴建的场馆只能维持一个月的使用期，之后就将变成蚊子馆了。",
+            "pinyin": "yī cì ào yùn huì zǒng gòng yǒu 2 8 xiàng de yùn dòng ， rú guǒ méi yǒu yí dìng de rén kǒu jī shù ， hěn nán yǒu zú gòu de shì chǎng qù fā zhǎn měi yī xiàng yùn dòng 。 zài zhě ， ào yùn huì suǒ dài lái de rén cháo yǐ jí jīng jì lì yì zhǐ néng shuō shì duǎn qī de ， wéi chí yùn dòng chǎng guǎn de wéi hù fèi yòng què shì zhǎng yuǎn de ， rú guǒ méi yǒu chí xù dì shǐ yòng ， nà suǒ xìng jiàn de chǎng guǎn zhǐ néng wéi chí yī gè yuè de shǐ yòng qī ， zhī hòu jiù jiāng biàn chéng wén zi guǎn le 。",
+            "meaningVi": "Một kỳ Olympic có tổng cộng 28 môn; nếu số người chơi không đủ lớn, khó có thị trường cho từng môn. Hơn nữa, đám đông và lợi ích kinh tế do Olympic mang đến chỉ ngắn hạn, còn chi phí bảo trì sân bãi kéo dài. Nếu không được sử dụng liên tục, sân có thể chỉ hoạt động một tháng rồi thành công trình bỏ không."
+          },
+          {
+            "speaker": "Đoạn 5",
+            "chinese": "因此，這次日本申請到2020年的奧運主辦權，值得好好觀察。有了前次奧運的舉辦經驗，以及日本本身運動產業的發達，能否為日本的經濟打入一劑強心針，而不會陷入其他國家被債務拖垮的景象，我相信日本人是有機會做到這點。舉辦奧運這個四年一度的盛會，可能不是世界上每一個國家都有福消受，一個不小心，所興建的各種大型運動場館以及之後龐大的維護費用，會像頭白色巨象，狠狠地拖垮該地的經濟發展，不可不謹慎為之。",
+            "simplified": "因此，这次日本申请到2020年的奥运主办权，值得好好观察。有了前次奥运的举办经验，以及日本本身运动产业的发达，能否为日本的经济打入一剂强心针，而不会陷入其他国家被债务拖垮的景象，我相信日本人是有机会做到这点。举办奥运这个四年一度的盛会，可能不是世界上每一个国家都有福消受，一个不小心，所兴建的各种大型运动场馆以及之后庞大的维护费用，会像头白色巨象，狠狠地拖垮该地的经济发展，不可不谨慎为之。",
+            "pinyin": "yīn cǐ ， zhè cì rì běn shēn qǐng dào 2 0 2 0 nián de ào yùn zhǔ bàn quán ， zhí de hǎo hǎo guān chá 。 yǒu le qián cì ào yùn de jǔ bàn jīng yàn ， yǐ jí rì běn běn shēn yùn dòng chǎn yè de fā dá ， néng fǒu wèi rì běn de jīng jì dǎ rù yī jì qiáng xīn zhēn ， ér bù huì xiàn rù qí tā guó jiā bèi zhài wù tuō kuǎ de jǐng xiàng ， wǒ xiāng xìn rì běn rén shì yǒu jī huì zuò dào zhè diǎn 。 jǔ bàn ào yùn zhè gè sì nián yí dù de shèng huì ， kě néng bú shì shì jiè shàng měi yī gè guó jiā dōu yǒu fú xiāo shòu ， yī gè bù xiǎo xīn ， suǒ xìng jiàn de gè zhǒng dà xíng yùn dòng chǎng guǎn yǐ jí zhī hòu páng dà de wéi hù fèi yòng ， huì xiàng tóu bái sè jù xiàng ， hěn hěn dì tuō kuǎ gāi dì de jīng jì fā zhǎn ， bù kě bù jǐn shèn wèi zhī 。",
+            "meaningVi": "Vì thế, việc Nhật Bản giành quyền đăng cai Olympic 2020 đáng để quan sát. Với kinh nghiệm lần trước và ngành thể thao phát triển, tác giả tin Nhật có cơ hội dùng Olympic làm cú hích kinh tế mà không sa vào cảnh nợ nần. Nhưng không phải nước nào cũng gánh nổi sự kiện bốn năm một lần này: các sân lớn cùng chi phí bảo trì lâu dài có thể đè nặng lên kinh tế địa phương, nên cần hết sức thận trọng."
+          }
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": "cc6-v6-l08-check-01",
+        "prompt": "Theo bài đọc 1, Tokyo được chọn sau mấy vòng bỏ phiếu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Ba vòng"
+          },
+          {
+            "id": "b",
+            "text": "Hai vòng"
+          },
+          {
+            "id": "c",
+            "text": "Một vòng"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Câu mở đầu viết 歷經兩輪投票.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc6-v6-l08-check-02",
+        "prompt": "Theo bài đọc 1, Montreal mất bao lâu để trả hết nợ?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Mười năm"
+          },
+          {
+            "id": "b",
+            "text": "Năm mươi năm"
+          },
+          {
+            "id": "c",
+            "text": "Ba mươi năm"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Bài viết nêu 花了30年.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc6-v6-l08-check-03",
+        "prompt": "Theo bài đọc 2, Los Angeles lấy nguồn vốn đăng cai từ đâu?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Thuế của người dân"
+          },
+          {
+            "id": "b",
+            "text": "Phát hành trái phiếu"
+          },
+          {
+            "id": "c",
+            "text": "Kêu gọi doanh nghiệp đầu tư"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Bài viết nói 全部經由招商而來.",
+        "skill": "Đọc hiểu"
+      },
+      {
+        "id": "cc6-v6-l08-check-04",
+        "prompt": "Vì sao sân vận động có thể thành “蚊子館”?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Không được sử dụng lâu dài"
+          },
+          {
+            "id": "b",
+            "text": "Có quá nhiều khách"
+          },
+          {
+            "id": "c",
+            "text": "Vì lễ khai mạc quá ngắn"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Đoạn 4 bài đọc 2 nêu 如果沒有持續地使用.",
+        "skill": "Đọc hiểu"
+      }
+    ],
+    "pronunciation": [],
+    "culture": []
+  },
+  "vocabulary": {
+    "introduction": "Chạm vào từ để xem phiên âm, nghĩa và ví dụ.",
+    "wordIds": [
+      "cc6-v6-l08-v001",
+      "cc6-v6-l08-v002",
+      "cc6-v6-l08-v003",
+      "cc6-v6-l08-v004",
+      "cc6-v6-l08-v005",
+      "cc6-v6-l08-v006",
+      "cc6-v6-l08-v007",
+      "cc6-v6-l08-v008",
+      "cc6-v6-l08-v009",
+      "cc6-v6-l08-v010",
+      "cc6-v6-l08-v011",
+      "cc6-v6-l08-v012",
+      "cc6-v6-l08-v013",
+      "cc6-v6-l08-v014",
+      "cc6-v6-l08-v015",
+      "cc6-v6-l08-v016",
+      "cc6-v6-l08-v017",
+      "cc6-v6-l08-v018",
+      "cc6-v6-l08-v019",
+      "cc6-v6-l08-v020",
+      "cc6-v6-l08-v021",
+      "cc6-v6-l08-v022",
+      "cc6-v6-l08-v023",
+      "cc6-v6-l08-v024",
+      "cc6-v6-l08-v025",
+      "cc6-v6-l08-v026",
+      "cc6-v6-l08-v027",
+      "cc6-v6-l08-v028",
+      "cc6-v6-l08-v029",
+      "cc6-v6-l08-v030",
+      "cc6-v6-l08-v031",
+      "cc6-v6-l08-v032",
+      "cc6-v6-l08-v033",
+      "cc6-v6-l08-v034",
+      "cc6-v6-l08-v035",
+      "cc6-v6-l08-v036",
+      "cc6-v6-l08-v037",
+      "cc6-v6-l08-v038",
+      "cc6-v6-l08-v039",
+      "cc6-v6-l08-v040",
+      "cc6-v6-l08-v041",
+      "cc6-v6-l08-v042",
+      "cc6-v6-l08-v043",
+      "cc6-v6-l08-v044",
+      "cc6-v6-l08-v045",
+      "cc6-v6-l08-v046",
+      "cc6-v6-l08-v047",
+      "cc6-v6-l08-v048",
+      "cc6-v6-l08-v049",
+      "cc6-v6-l08-v050",
+      "cc6-v6-l08-v051",
+      "cc6-v6-l08-v052",
+      "cc6-v6-l08-v053",
+      "cc6-v6-l08-v054",
+      "cc6-v6-l08-v055",
+      "cc6-v6-l08-v056",
+      "cc6-v6-l08-v057",
+      "cc6-v6-l08-v058",
+      "cc6-v6-l08-v059",
+      "cc6-v6-l08-v060",
+      "cc6-v6-l08-v061",
+      "cc6-v6-l08-v062",
+      "cc6-v6-l08-v063",
+      "cc6-v6-l08-v064",
+      "cc6-v6-l08-v065",
+      "cc6-v6-l08-v066",
+      "cc6-v6-l08-v067",
+      "cc6-v6-l08-v068",
+      "cc6-v6-l08-v069",
+      "cc6-v6-l08-v070",
+      "cc6-v6-l08-v071",
+      "cc6-v6-l08-v072",
+      "cc6-v6-l08-v073",
+      "cc6-v6-l08-v074",
+      "cc6-v6-l08-v075",
+      "cc6-v6-l08-v076",
+      "cc6-v6-l08-v077",
+      "cc6-v6-l08-v078",
+      "cc6-v6-l08-v079",
+      "cc6-v6-l08-v080",
+      "cc6-v6-l08-v081",
+      "cc6-v6-l08-v082",
+      "cc6-v6-l08-v083",
+      "cc6-v6-l08-v084"
+    ],
+    "audioTracks": [
+      {
+        "id": "cc6-textbook-l08-t03",
+        "label": "Từ vựng bài đọc 1"
+      },
+      {
+        "id": "cc6-textbook-l08-t06",
+        "label": "Từ vựng bài đọc 2"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "cc6-v6-l08-grammar-01",
+      "title": "在歷經X之後",
+      "explanation": "Sau khi trải qua X mới có kết quả được nêu ở vế sau; X thường là một quá trình khó hoặc kéo dài.",
+      "structure": "在歷經 + quá trình X + 之後，+ kết quả",
+      "examples": [
+        {
+          "chinese": "在歷經兩輪投票之後，東京獲選。",
+          "simplified": "在历经两轮投票之后，东京获选。",
+          "pinyin": "zài lì jīng liǎng lún tóu piào zhī hòu ， dōng jīng huò xuǎn 。",
+          "meaningVi": "Sau hai vòng bỏ phiếu, Tokyo được chọn."
+        },
+        {
+          "chinese": "在歷經多年準備之後，工程終於完成。",
+          "simplified": "在历经多年准备之后，工程终于完成。",
+          "pinyin": "zài lì jīng duō nián zhǔn bèi zhī hòu ， gōng chéng zhōng yú wán chéng 。",
+          "meaningVi": "Sau nhiều năm chuẩn bị, công trình cuối cùng hoàn thành."
+        }
+      ],
+      "commonMistake": "Đừng dùng cho hành động tức thời không có quá trình.",
+      "check": {
+        "id": "cc6-v6-l08-grammar-check-01",
+        "prompt": "Điền: ____多年努力之後，他終於成功。",
+        "options": [
+          {
+            "id": "a",
+            "text": "由於"
+          },
+          {
+            "id": "b",
+            "text": "然而"
+          },
+          {
+            "id": "c",
+            "text": "在歷經"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Sau khi trải qua X mới có kết quả được nêu ở vế sau; X thường là một quá trình khó hoặc kéo dài.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l08-grammar-02",
+      "title": "X之多，是Y的",
+      "explanation": "Nhấn mạnh số lượng X lớn đến mức dẫn tới nhận xét Y; khi Y là hành động, thường kết thúc bằng 的.",
+      "structure": "X + 之多，是 + kết quả Y + 的",
+      "examples": [
+        {
+          "chinese": "參賽國家之多，是大家沒有想到的。",
+          "simplified": "参赛国家之多，是大家没有想到的。",
+          "pinyin": "cān sài guó jiā zhī duō ， shì dà jiā méi yǒu xiǎng dào de 。",
+          "meaningVi": "Số quốc gia tham gia nhiều hơn mọi người tưởng."
+        },
+        {
+          "chinese": "遊客之多，是主辦方未曾預料的。",
+          "simplified": "游客之多，是主办方未曾预料的。",
+          "pinyin": "yóu kè zhī duō ， shì zhǔ bàn fāng wèi céng yù liào de 。",
+          "meaningVi": "Lượng khách đông hơn ban tổ chức dự liệu."
+        }
+      ],
+      "commonMistake": "之多 gắn với danh từ chỉ số lượng, không gắn với tính chất như đẹp hay đắt.",
+      "check": {
+        "id": "cc6-v6-l08-grammar-check-02",
+        "prompt": "Điền: 到場人數____，是我們沒想到的。",
+        "options": [
+          {
+            "id": "a",
+            "text": "之美"
+          },
+          {
+            "id": "b",
+            "text": "之快"
+          },
+          {
+            "id": "c",
+            "text": "之多"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Nhấn mạnh số lượng X lớn đến mức dẫn tới nhận xét Y; khi Y là hành động, thường kết thúc bằng 的.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l08-grammar-03",
+      "title": "一直以來",
+      "explanation": "Diễn tả tình trạng kéo dài từ trước đến nay, thường đặt trước vị ngữ.",
+      "structure": "chủ thể + 一直以來 + vị ngữ",
+      "examples": [
+        {
+          "chinese": "這座城市一直以來重視體育。",
+          "simplified": "这座城市一直以来重视体育。",
+          "pinyin": "zhè zuò chéng shì yì zhí yǐ lái zhòng shì tǐ yù 。",
+          "meaningVi": "Thành phố này từ trước đến nay coi trọng thể thao."
+        },
+        {
+          "chinese": "他一直以來都支持這項計畫。",
+          "simplified": "他一直以来都支持这项计划。",
+          "pinyin": "tā yì zhí yǐ lái dōu zhī chí zhè xiàng jì huà 。",
+          "meaningVi": "Anh ấy vẫn luôn ủng hộ kế hoạch này."
+        }
+      ],
+      "commonMistake": "Nếu chỉ nói một lần trong quá khứ, không dùng 一直以來.",
+      "check": {
+        "id": "cc6-v6-l08-grammar-check-03",
+        "prompt": "Điền: 她____都關心這個問題。",
+        "options": [
+          {
+            "id": "a",
+            "text": "一直以來"
+          },
+          {
+            "id": "b",
+            "text": "突然之間"
+          },
+          {
+            "id": "c",
+            "text": "最終"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Diễn tả tình trạng kéo dài từ trước đến nay, thường đặt trước vị ngữ.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l08-grammar-04",
+      "title": "把X視為Y的展現",
+      "explanation": "X được xem là biểu hiện cụ thể của đặc điểm Y. Có thể bỏ 把 và nói X可以視為Y的展現.",
+      "structure": "把 + X + 視為 + Y + 的展現",
+      "examples": [
+        {
+          "chinese": "他把成功視為努力的展現。",
+          "simplified": "他把成功视为努力的展现。",
+          "pinyin": "tā bǎ chéng gōng shì wèi nǔ lì de zhǎn xiàn 。",
+          "meaningVi": "Anh ấy xem thành công là biểu hiện của sự nỗ lực."
+        },
+        {
+          "chinese": "主辦奧運被視為國力的展現。",
+          "simplified": "主办奥运被视为国力的展现。",
+          "pinyin": "zhǔ bàn ào yùn bèi shì wèi guó lì de zhǎn xiàn 。",
+          "meaningVi": "Đăng cai Olympic được xem là biểu hiện sức mạnh quốc gia."
+        }
+      ],
+      "commonMistake": "Đừng đảo X và Y: Y là phẩm chất được thể hiện qua X.",
+      "check": {
+        "id": "cc6-v6-l08-grammar-check-04",
+        "prompt": "Điền: 他把合作____團隊精神的展現。",
+        "options": [
+          {
+            "id": "a",
+            "text": "視為"
+          },
+          {
+            "id": "b",
+            "text": "經由"
+          },
+          {
+            "id": "c",
+            "text": "歸於"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "X được xem là biểu hiện cụ thể của đặc điểm Y.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l08-grammar-05",
+      "title": "歸於X",
+      "explanation": "Có hai cách dùng: trở về trạng thái X, hoặc quy nguyên nhân/kết quả về X; bài đọc dùng nghĩa trở lại bình lặng.",
+      "structure": "sự việc + 歸於 + trạng thái/nguyên nhân X",
+      "examples": [
+        {
+          "chinese": "典禮後，街道歸於平靜。",
+          "simplified": "典礼后，街道归于平静。",
+          "pinyin": "diǎn lǐ hòu ， jiē dào guī yú píng jìng 。",
+          "meaningVi": "Sau buổi lễ, đường phố trở lại bình lặng."
+        },
+        {
+          "chinese": "他把成功歸於團隊的努力。",
+          "simplified": "他把成功归于团队的努力。",
+          "pinyin": "tā bǎ chéng gōng guī yú tuán duì de nǔ lì 。",
+          "meaningVi": "Anh ấy quy thành công cho nỗ lực của cả đội."
+        }
+      ],
+      "commonMistake": "Phân biệt 歸於平靜 (trở lại trạng thái) với 歸因於X (quy nguyên nhân).",
+      "check": {
+        "id": "cc6-v6-l08-grammar-check-05",
+        "prompt": "Điền: 煙火結束後，城市____平靜。",
+        "options": [
+          {
+            "id": "a",
+            "text": "接下"
+          },
+          {
+            "id": "b",
+            "text": "歸於"
+          },
+          {
+            "id": "c",
+            "text": "陷入"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Có hai cách dùng: trở về trạng thái X, hoặc quy nguyên nhân/kết quả về X; bài đọc dùng nghĩa trở lại bình lặng.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l08-grammar-06",
+      "title": "X即是Y",
+      "explanation": "即是 là cách viết trang trọng hơn của 就是; Y giải thích nội dung hoặc ý nghĩa của X.",
+      "structure": "X + 即是 + Y",
+      "examples": [
+        {
+          "chinese": "這項計畫的目標即是改善交通。",
+          "simplified": "这项计划的目标即是改善交通。",
+          "pinyin": "zhè xiàng jì huà de mù biāo jí shì gǎi shàn jiāo tōng 。",
+          "meaningVi": "Mục tiêu kế hoạch này chính là cải thiện giao thông."
+        },
+        {
+          "chinese": "超支的後果即是增加債務。",
+          "simplified": "超支的后果即是增加债务。",
+          "pinyin": "chāo zhī de hòu guǒ jí shì zēng jiā zhài wù 。",
+          "meaningVi": "Hậu quả vượt chi chính là làm tăng nợ."
+        }
+      ],
+      "commonMistake": "Không dùng 即是 để chỉ thời gian ngay lập tức; nghĩa này thuộc 即.",
+      "check": {
+        "id": "cc6-v6-l08-grammar-check-06",
+        "prompt": "Điền: 這項政策的核心____控制成本。",
+        "options": [
+          {
+            "id": "a",
+            "text": "即是"
+          },
+          {
+            "id": "b",
+            "text": "經由"
+          },
+          {
+            "id": "c",
+            "text": "遠在"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "即是 là cách viết trang trọng hơn của 就是; Y giải thích nội dung hoặc ý nghĩa của X.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l08-grammar-07",
+      "title": "遠在X之後",
+      "explanation": "Nhấn mạnh một sự việc xảy ra rất lâu sau mốc X, vượt quá thời điểm người ta chờ đợi.",
+      "structure": "sự việc + 遠在 + mốc X + 之後",
+      "examples": [
+        {
+          "chinese": "塔柱完工遠在奧運結束之後。",
+          "simplified": "塔柱完工远在奥运结束之后。",
+          "pinyin": "tǎ zhù wán gōng yuǎn zài ào yùn jié shù zhī hòu 。",
+          "meaningVi": "Trụ tháp hoàn thành rất lâu sau đại hội."
+        },
+        {
+          "chinese": "結果公布遠在報名截止之後。",
+          "simplified": "结果公布远在报名截止之后。",
+          "pinyin": "jié guǒ gōng bù yuǎn zài bào míng jié zhǐ zhī hòu 。",
+          "meaningVi": "Kết quả công bố rất lâu sau hạn đăng ký."
+        }
+      ],
+      "commonMistake": "Nếu chỉ cách một thời gian ngắn, dùng 在X之後 thay vì 遠在.",
+      "check": {
+        "id": "cc6-v6-l08-grammar-check-07",
+        "prompt": "Điền: 場館完成的時間____比賽結束之後。",
+        "options": [
+          {
+            "id": "a",
+            "text": "經由"
+          },
+          {
+            "id": "b",
+            "text": "遠在"
+          },
+          {
+            "id": "c",
+            "text": "即是"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Nhấn mạnh một sự việc xảy ra rất lâu sau mốc X, vượt quá thời điểm người ta chờ đợi.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l08-grammar-08",
+      "title": "X比Y多了N倍有餘",
+      "explanation": "So sánh lượng X vượt xa Y; 多了N倍有餘 nhấn mạnh phần chênh lệch hơn N lần mức Y, cần tính rõ gốc so sánh.",
+      "structure": "X + 比 + Y + 多了 + N倍有餘",
+      "examples": [
+        {
+          "chinese": "實際花費比原預算多了兩倍有餘。",
+          "simplified": "实际花费比原预算多了两倍有余。",
+          "pinyin": "shí jì huā fèi bǐ yuán yù suàn duō le liǎng bèi yǒu yú 。",
+          "meaningVi": "Chi phí thực tế cao hơn dự toán ban đầu trên hai lần dự toán."
+        },
+        {
+          "chinese": "今年的遊客比去年多了一倍有餘。",
+          "simplified": "今年的游客比去年多了一倍有余。",
+          "pinyin": "jīn nián de yóu kè bǐ qù nián duō le yí bèi yǒu yú 。",
+          "meaningVi": "Lượng khách năm nay nhiều hơn năm ngoái trên một lần lượng năm ngoái."
+        }
+      ],
+      "commonMistake": "Tránh nhầm “多了N倍” với “是N倍”: câu đầu nói phần tăng, câu sau nói tổng lượng.",
+      "check": {
+        "id": "cc6-v6-l08-grammar-check-08",
+        "prompt": "Điền: 實際費用比預算____三倍有餘。",
+        "options": [
+          {
+            "id": "a",
+            "text": "多了"
+          },
+          {
+            "id": "b",
+            "text": "歸於"
+          },
+          {
+            "id": "c",
+            "text": "接下"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "So sánh lượng X vượt xa Y; 多了N倍有餘 nhấn mạnh phần chênh lệch hơn N lần mức Y, cần tính rõ gốc so sánh.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l08-grammar-09",
+      "title": "以X收場",
+      "explanation": "Cho biết sự việc kết thúc trong trạng thái X; thường dùng cho kết quả không như ý, nhưng cũng có thể nói kết thúc tốt.",
+      "structure": "sự việc + 以 + kết quả X + 收場",
+      "examples": [
+        {
+          "chinese": "活動最後以虧本收場。",
+          "simplified": "活动最后以亏本收场。",
+          "pinyin": "huó dòng zuì hòu yǐ kuī běn shōu chǎng 。",
+          "meaningVi": "Sự kiện cuối cùng kết thúc bằng thua lỗ."
+        },
+        {
+          "chinese": "談判以雙方和解收場。",
+          "simplified": "谈判以双方和解收场。",
+          "pinyin": "tán pàn yǐ shuāng fāng hé jiě shōu chǎng 。",
+          "meaningVi": "Cuộc đàm phán kết thúc bằng hòa giải."
+        }
+      ],
+      "commonMistake": "X là kết cục, không phải người tổ chức.",
+      "check": {
+        "id": "cc6-v6-l08-grammar-check-09",
+        "prompt": "Điền: 計畫最後____失敗收場。",
+        "options": [
+          {
+            "id": "a",
+            "text": "遠在"
+          },
+          {
+            "id": "b",
+            "text": "以"
+          },
+          {
+            "id": "c",
+            "text": "經由"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Cho biết sự việc kết thúc trong trạng thái X; thường dùng cho kết quả không như ý, nhưng cũng có thể nói kết thúc tốt.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l08-grammar-10",
+      "title": "意味著X",
+      "explanation": "Dùng để giải thích điều một sự kiện hoặc lời nói kéo theo/hàm ý, không nhất thiết nói thẳng trên bề mặt.",
+      "structure": "sự việc A + 意味著 + hệ quả/hàm ý X",
+      "examples": [
+        {
+          "chinese": "預算增加意味著必須重新籌資。",
+          "simplified": "预算增加意味着必须重新筹资。",
+          "pinyin": "yù suàn zēng jiā yì wèi zhù bì xū chóng xīn chóu zī 。",
+          "meaningVi": "Dự toán tăng nghĩa là phải huy động vốn lại."
+        },
+        {
+          "chinese": "獲選意味著城市要負責主辦。",
+          "simplified": "获选意味着城市要负责主办。",
+          "pinyin": "huò xuǎn yì wèi zhù chéng shì yào fù zé zhǔ bàn 。",
+          "meaningVi": "Được chọn nghĩa là thành phố phải chịu trách nhiệm đăng cai."
+        }
+      ],
+      "commonMistake": "Không dùng như danh từ “ý nghĩa”; nó là động từ nối với mệnh đề.",
+      "check": {
+        "id": "cc6-v6-l08-grammar-check-10",
+        "prompt": "Điền: 成本上升____票價可能提高。",
+        "options": [
+          {
+            "id": "a",
+            "text": "再者"
+          },
+          {
+            "id": "b",
+            "text": "意味著"
+          },
+          {
+            "id": "c",
+            "text": "即是"
+          }
+        ],
+        "correctOptionId": "b",
+        "feedback": "Dùng để giải thích điều một sự kiện hoặc lời nói kéo theo/hàm ý, không nhất thiết nói thẳng trên bề mặt.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l08-grammar-11",
+      "title": "接下X",
+      "explanation": "Nhận lấy một nhiệm vụ hoặc trách nhiệm từ người khác; ở bài này là nhận quyền đăng cai khó khăn.",
+      "structure": "người/tổ chức + 接下 + nhiệm vụ X",
+      "examples": [
+        {
+          "chinese": "她決定接下這項艱難工作。",
+          "simplified": "她决定接下这项艰难工作。",
+          "pinyin": "tā jué dìng jiē xià zhè xiàng jiān nán gōng zuò 。",
+          "meaningVi": "Cô ấy quyết định nhận công việc khó này."
+        },
+        {
+          "chinese": "洛杉磯接下了奧運主辦權。",
+          "simplified": "洛杉矶接下了奥运主办权。",
+          "pinyin": "luò shān jī jiē xià le ào yùn zhǔ bàn quán 。",
+          "meaningVi": "Los Angeles nhận quyền đăng cai Olympic."
+        }
+      ],
+      "commonMistake": "Không nhầm với 接著: 接下 nhận nhiệm vụ; 接著 nối hành động tiếp theo.",
+      "check": {
+        "id": "cc6-v6-l08-grammar-check-11",
+        "prompt": "Điền: 他願意____主辦任務。",
+        "options": [
+          {
+            "id": "a",
+            "text": "接著"
+          },
+          {
+            "id": "b",
+            "text": "再者"
+          },
+          {
+            "id": "c",
+            "text": "接下"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Nhận lấy một nhiệm vụ hoặc trách nhiệm từ người khác; ở bài này là nhận quyền đăng cai khó khăn.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l08-grammar-12",
+      "title": "經由X而來",
+      "explanation": "Nêu con đường hoặc nguồn tạo ra kết quả; X là phương thức hay nguồn trung gian.",
+      "structure": "kết quả + 經由 + phương thức X + 而來",
+      "examples": [
+        {
+          "chinese": "經費經由企業贊助而來。",
+          "simplified": "经费经由企业赞助而来。",
+          "pinyin": "jīng fèi jīng yóu qǐ yè zàn zhù ér lái 。",
+          "meaningVi": "Kinh phí đến thông qua tài trợ của doanh nghiệp."
+        },
+        {
+          "chinese": "這項成果經由多年努力而來。",
+          "simplified": "这项成果经由多年努力而来。",
+          "pinyin": "zhè xiàng chéng guǒ jīng yóu duō nián nǔ lì ér lái 。",
+          "meaningVi": "Thành quả này có được qua nhiều năm nỗ lực."
+        }
+      ],
+      "commonMistake": "X là quá trình hoặc nguồn, không phải kết quả cuối cùng.",
+      "check": {
+        "id": "cc6-v6-l08-grammar-check-12",
+        "prompt": "Điền: 這筆資金____招商而來。",
+        "options": [
+          {
+            "id": "a",
+            "text": "經由"
+          },
+          {
+            "id": "b",
+            "text": "歸於"
+          },
+          {
+            "id": "c",
+            "text": "遠在"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Nêu con đường hoặc nguồn tạo ra kết quả; X là phương thức hay nguồn trung gian.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l08-grammar-13",
+      "title": "再者",
+      "explanation": "Nối thêm lý do thứ hai hoặc bổ sung trong lập luận; thường đặt đầu vế sau.",
+      "structure": "lý do 1；再者，+ lý do 2",
+      "examples": [
+        {
+          "chinese": "場館很貴；再者，維護也不容易。",
+          "simplified": "场馆很贵；再者，维护也不容易。",
+          "pinyin": "chǎng guǎn hěn guì ； zài zhě ， wéi hù yě bù róng yì 。",
+          "meaningVi": "Sân rất tốn kém; hơn nữa, bảo trì cũng không dễ."
+        },
+        {
+          "chinese": "旅遊能帶來收入；再者，也能推廣文化。",
+          "simplified": "旅游能带来收入；再者，也能推广文化。",
+          "pinyin": "lǚ yóu néng dài lái shōu rù ； zài zhě ， yě néng tuī guǎng wén huà 。",
+          "meaningVi": "Du lịch đem lại doanh thu; hơn nữa còn quảng bá văn hóa."
+        }
+      ],
+      "commonMistake": "Không dùng để mở lý do đầu tiên khi chưa có ý trước.",
+      "check": {
+        "id": "cc6-v6-l08-grammar-check-13",
+        "prompt": "Điền: 建設費高；____，日後維護也要花錢。",
+        "options": [
+          {
+            "id": "a",
+            "text": "最終"
+          },
+          {
+            "id": "b",
+            "text": "突然"
+          },
+          {
+            "id": "c",
+            "text": "再者"
+          }
+        ],
+        "correctOptionId": "c",
+        "feedback": "Nối thêm lý do thứ hai hoặc bổ sung trong lập luận; thường đặt đầu vế sau.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l08-grammar-14",
+      "title": "一個不小心",
+      "explanation": "Chỉ cần sơ suất là có thể gây hậu quả, thường dùng để cảnh báo.",
+      "structure": "一個不小心，+ hậu quả",
+      "examples": [
+        {
+          "chinese": "一個不小心，預算就會超支。",
+          "simplified": "一个不小心，预算就会超支。",
+          "pinyin": "yī gè bù xiǎo xīn ， yù suàn jiù huì chāo zhī 。",
+          "meaningVi": "Chỉ một chút sơ suất, ngân sách sẽ vượt dự toán."
+        },
+        {
+          "chinese": "開車時一個不小心就可能出事。",
+          "simplified": "开车时一个不小心就可能出事。",
+          "pinyin": "kāi chē shí yī gè bù xiǎo xīn jiù kě néng chū shì 。",
+          "meaningVi": "Lái xe sơ suất một chút có thể gặp chuyện."
+        }
+      ],
+      "commonMistake": "Không dùng cho kết quả đã được cố ý sắp đặt.",
+      "check": {
+        "id": "cc6-v6-l08-grammar-check-14",
+        "prompt": "Điền: ____，場館就可能變成蚊子館。",
+        "options": [
+          {
+            "id": "a",
+            "text": "一個不小心"
+          },
+          {
+            "id": "b",
+            "text": "一直以來"
+          },
+          {
+            "id": "c",
+            "text": "為人稱道"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Chỉ cần sơ suất là có thể gây hậu quả, thường dùng để cảnh báo.",
+        "skill": "Ngữ pháp"
+      }
+    },
+    {
+      "id": "cc6-v6-l08-grammar-15",
+      "title": "不可不X",
+      "explanation": "Phủ định kép nhấn mạnh “nhất định phải X”; giọng văn trang trọng và cảnh báo.",
+      "structure": "chủ thể + 不可不 + động từ X",
+      "examples": [
+        {
+          "chinese": "巨額投資不可不審慎評估。",
+          "simplified": "巨额投资不可不审慎评估。",
+          "pinyin": "jù é tóu zī bù kě bù shěn shèn píng gū 。",
+          "meaningVi": "Đầu tư lớn nhất định phải đánh giá cẩn trọng."
+        },
+        {
+          "chinese": "場館維護不可不事先規劃。",
+          "simplified": "场馆维护不可不事先规划。",
+          "pinyin": "chǎng guǎn wéi hù bù kě bù shì xiān guī huà 。",
+          "meaningVi": "Việc bảo trì sân nhất định phải được lên kế hoạch trước."
+        }
+      ],
+      "commonMistake": "Không hiểu thành “không được X”; 不可不X nghĩa là phải X.",
+      "check": {
+        "id": "cc6-v6-l08-grammar-check-15",
+        "prompt": "Điền: 面對高額債務，政府____謹慎。",
+        "options": [
+          {
+            "id": "a",
+            "text": "不可不"
+          },
+          {
+            "id": "b",
+            "text": "不能"
+          },
+          {
+            "id": "c",
+            "text": "不必"
+          }
+        ],
+        "correctOptionId": "a",
+        "feedback": "Phủ định kép nhấn mạnh “nhất định phải X”; giọng văn trang trọng và cảnh báo.",
+        "skill": "Ngữ pháp"
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "cc6-v6-l08-listening-01",
+      "prompt": "Nghe bài đọc 1: điều gì có thể khiến người nộp thuế phải gánh chi phí?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Không có thành phố ứng cử"
+        },
+        {
+          "id": "b",
+          "text": "Chi phí lớn không thể thu hồi vốn"
+        },
+        {
+          "id": "c",
+          "text": "Quá ít môn thi"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Đoạn cuối bài đọc 1 nói 不足以回本 và 納稅人來買單.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l08-t02"
+    },
+    {
+      "id": "cc6-v6-l08-listening-02",
+      "prompt": "Nghe bài đọc 1: thành phố được nêu làm ví dụ nợ kéo dài là nơi nào?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Los Angeles"
+        },
+        {
+          "id": "b",
+          "text": "Montreal"
+        },
+        {
+          "id": "c",
+          "text": "Tokyo"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc nêu 1976年的蒙特婁 và 花了30年.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l08-t02"
+    },
+    {
+      "id": "cc6-v6-l08-listening-03",
+      "prompt": "Nghe bài đọc 2: Olympic 1984 được nêu làm ví dụ gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kỳ có chi phí cao nhất"
+        },
+        {
+          "id": "b",
+          "text": "Sân vận động bỏ hoang"
+        },
+        {
+          "id": "c",
+          "text": "Mô hình huy động vốn thành công"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Đoạn 1–2 nói 洛杉磯 và 全部經由招商而來.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l08-t05"
+    },
+    {
+      "id": "cc6-v6-l08-listening-04",
+      "prompt": "Nghe bài đọc 2: vì sao lợi ích kinh tế có thể không bền?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vì Olympic không có khách"
+        },
+        {
+          "id": "b",
+          "text": "Vì mọi sân đều miễn phí"
+        },
+        {
+          "id": "c",
+          "text": "Dòng khách ngắn hạn nhưng bảo trì dài hạn"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Đoạn 4 đối chiếu 短期 với 長遠.",
+      "skill": "Nghe hiểu",
+      "audioTrackId": "cc6-textbook-l08-t05"
+    }
+  ],
+  "practice": [
+    {
+      "id": "cc6-v6-l08-practice-01",
+      "prompt": "Điền: ____多年準備之後，城市終於獲選。",
+      "options": [
+        {
+          "id": "a",
+          "text": "在歷經"
+        },
+        {
+          "id": "b",
+          "text": "由於"
+        },
+        {
+          "id": "c",
+          "text": "再者"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "在歷經X之後 nói kết quả sau quá trình dài.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l08-practice-02",
+      "prompt": "Theo bài đọc 1, lợi ích nào được nêu cho thành phố đăng cai?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Quảng bá thành phố và thúc đẩy du lịch"
+        },
+        {
+          "id": "b",
+          "text": "Miễn toàn bộ thuế"
+        },
+        {
+          "id": "c",
+          "text": "Không cần xây dựng sân"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc nêu 城市行銷 và 促進旅遊業.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l08-practice-03",
+      "prompt": "Điền: 煙火結束後，街道____平靜。",
+      "options": [
+        {
+          "id": "a",
+          "text": "經由"
+        },
+        {
+          "id": "b",
+          "text": "歸於"
+        },
+        {
+          "id": "c",
+          "text": "接下"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "歸於平靜 là trở lại bình lặng.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l08-practice-04",
+      "prompt": "Theo bài đọc 1, ai trả phần chi phí không thu hồi được?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Người nộp thuế"
+        },
+        {
+          "id": "b",
+          "text": "Vận động viên"
+        },
+        {
+          "id": "c",
+          "text": "Khán giả nước ngoài"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Câu cuối nêu 納稅人來買單.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l08-practice-05",
+      "prompt": "Điền: 活動最後____虧本收場。",
+      "options": [
+        {
+          "id": "a",
+          "text": "再者"
+        },
+        {
+          "id": "b",
+          "text": "即是"
+        },
+        {
+          "id": "c",
+          "text": "以"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "以X收場 là kết thúc trong trạng thái X.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l08-practice-06",
+      "prompt": "Điểm đặc biệt của Olympic Los Angeles 1984 là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nguồn vốn đến từ việc kêu gọi doanh nghiệp"
+        },
+        {
+          "id": "b",
+          "text": "Không có môn thi"
+        },
+        {
+          "id": "c",
+          "text": "Chỉ có một thành phố tham gia"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc ghi 全部經由招商而來.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l08-practice-07",
+      "prompt": "Điền: 成本上升____要重新評估預算。",
+      "options": [
+        {
+          "id": "a",
+          "text": "歸於"
+        },
+        {
+          "id": "b",
+          "text": "遠在"
+        },
+        {
+          "id": "c",
+          "text": "意味著"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "意味著 nối sự kiện với hệ quả của nó.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l08-practice-08",
+      "prompt": "Vì sao phải tính chi phí sau Olympic?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vì lễ khai mạc còn tiếp tục"
+        },
+        {
+          "id": "b",
+          "text": "Vì vé được bán mãi"
+        },
+        {
+          "id": "c",
+          "text": "Bảo trì sân bãi kéo dài"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc phân biệt lợi ích ngắn hạn và chi phí dài hạn.",
+      "skill": "Đọc hiểu"
+    }
+  ],
+  "assessment": [
+    {
+      "id": "cc6-v6-l08-assessment-01",
+      "prompt": "Tokyo được chọn đăng cai Olympic mùa hè 2020 sau điều gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hai vòng bỏ phiếu"
+        },
+        {
+          "id": "b",
+          "text": "Ba lần xây sân"
+        },
+        {
+          "id": "c",
+          "text": "Một lần trưng cầu thuế"
+        }
+      ],
+      "correctOptionId": "a",
+      "feedback": "Bài đọc mở đầu bằng 在歷經兩輪投票之後.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l08-assessment-02",
+      "prompt": "Điền: 她____多次面試後脫穎而出。",
+      "options": [
+        {
+          "id": "a",
+          "text": "再者"
+        },
+        {
+          "id": "b",
+          "text": "遠在"
+        },
+        {
+          "id": "c",
+          "text": "在歷經"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "在歷經X之後 đi với kết quả sau một quá trình.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l08-assessment-03",
+      "prompt": "Montreal mất bao nhiêu năm mới trả hết nợ theo bài đọc?",
+      "options": [
+        {
+          "id": "a",
+          "text": "15 năm"
+        },
+        {
+          "id": "b",
+          "text": "30 năm"
+        },
+        {
+          "id": "c",
+          "text": "10 năm"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài đọc ghi 花了30年.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l08-assessment-04",
+      "prompt": "Điền: 他把這個獎項____努力的展現。",
+      "options": [
+        {
+          "id": "a",
+          "text": "經由"
+        },
+        {
+          "id": "b",
+          "text": "視為"
+        },
+        {
+          "id": "c",
+          "text": "歸於"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "把X視為Y的展現: xem X là biểu hiện của Y.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l08-assessment-05",
+      "prompt": "Bài đọc 1 đối chiếu lợi ích du lịch với vấn đề gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ngôn ngữ của vận động viên"
+        },
+        {
+          "id": "b",
+          "text": "Chi phí và nợ vượt dự toán"
+        },
+        {
+          "id": "c",
+          "text": "Số đội thi quá ít"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Phần sau đặt câu hỏi lợi ích có đủ để 回本 không.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l08-assessment-06",
+      "prompt": "Điền: 巨額投資____事先評估。",
+      "options": [
+        {
+          "id": "a",
+          "text": "不准"
+        },
+        {
+          "id": "b",
+          "text": "不可不"
+        },
+        {
+          "id": "c",
+          "text": "不必"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "不可不 là nhất định phải, không phải cấm.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l08-assessment-07",
+      "prompt": "Nguồn vốn của Los Angeles 1984 đến từ đâu?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vay nợ dài hạn"
+        },
+        {
+          "id": "b",
+          "text": "Kêu gọi doanh nghiệp"
+        },
+        {
+          "id": "c",
+          "text": "Tiền thuế"
+        }
+      ],
+      "correctOptionId": "b",
+      "feedback": "Bài viết nêu 全部經由招商而來.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l08-assessment-08",
+      "prompt": "Điền: 場館很貴；____，維護也不容易。",
+      "options": [
+        {
+          "id": "a",
+          "text": "最終"
+        },
+        {
+          "id": "b",
+          "text": "突然"
+        },
+        {
+          "id": "c",
+          "text": "再者"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "再者 thêm lý do thứ hai.",
+      "skill": "Ngữ pháp"
+    },
+    {
+      "id": "cc6-v6-l08-assessment-09",
+      "prompt": "Điều kiện nào giúp sân tránh thành 蚊子館?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Xây càng lớn càng tốt"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ khai thác một tháng"
+        },
+        {
+          "id": "c",
+          "text": "Được sử dụng liên tục sau đại hội"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài đọc nói 如果沒有持續地使用 sẽ thành 蚊子館.",
+      "skill": "Đọc hiểu"
+    },
+    {
+      "id": "cc6-v6-l08-assessment-10",
+      "prompt": "Thông điệp kết bài là gì?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mọi nước đều nên đăng cai"
+        },
+        {
+          "id": "b",
+          "text": "Chỉ cần doanh thu vé"
+        },
+        {
+          "id": "c",
+          "text": "Cần thận trọng với chi phí xây và bảo trì"
+        }
+      ],
+      "correctOptionId": "c",
+      "feedback": "Bài kết bằng 不可不謹慎為之.",
+      "skill": "Tổng hợp"
+    }
+  ],
+  "writingTask": {
+    "id": "cc6-v6-l08-writing",
+    "title": "Viết ý kiến: có nên đăng cai sự kiện lớn?",
+    "prompt": "Viết 4–5 câu nêu một lợi ích và một rủi ro tài chính của việc đăng cai sự kiện thể thao. Dùng 再者 hoặc 不可不."
+  }
+}

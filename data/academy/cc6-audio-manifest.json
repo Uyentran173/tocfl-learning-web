@@ -1225,9 +1225,16 @@
       "privatePath": "textbook/08-01.mp3",
       "bytes": 1396018,
       "sha256": "dd533c2f65e5a125042dd8e0de38b87d6b73086c81c0a09304a58c7c6c9965af",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        194
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 194,
+        "bookPage": 171,
+        "labelVi": "Tóm tắt và mở đầu Bài 08",
+        "referenceCode": "08-01"
+      }
     },
     {
       "id": "cc6-textbook-l08-t02",
@@ -1240,9 +1247,16 @@
       "privatePath": "textbook/08-02.mp3",
       "bytes": 4725481,
       "sha256": "a1b518b31922028c653e37151fc9845f9028c037a75034574c7c177b94040b5b",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        195
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 195,
+        "bookPage": 172,
+        "labelVi": "Bài đọc 1: 主辦奧運是經濟的強心針還是國債的大黑洞（I）",
+        "referenceCode": "08-02"
+      }
     },
     {
       "id": "cc6-textbook-l08-t03",
@@ -1255,9 +1269,16 @@
       "privatePath": "textbook/08-03.mp3",
       "bytes": 4433328,
       "sha256": "40bd1b5841ac6427c797a81f067dfa6dfd2505ac6604c258e76cee24f36c9e3b",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        196
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 196,
+        "bookPage": 173,
+        "labelVi": "Từ vựng tóm tắt và bài đọc 1",
+        "referenceCode": "08-03"
+      }
     },
     {
       "id": "cc6-textbook-l08-t04",
@@ -1270,9 +1291,16 @@
       "privatePath": "textbook/08-04.mp3",
       "bytes": 3767101,
       "sha256": "b731b0ecb804b92bd4a9e1ef9082dfdd8b2831e2b2c6411456006afc51de0893",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        206
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 206,
+        "bookPage": 183,
+        "labelVi": "Phân biệt từ dễ nhầm bài đọc 1",
+        "referenceCode": "08-04"
+      }
     },
     {
       "id": "cc6-textbook-l08-t05",
@@ -1285,9 +1313,16 @@
       "privatePath": "textbook/08-05.mp3",
       "bytes": 4182552,
       "sha256": "f7ad0226f98de6f940356e82e50666db9a4ff5f0ddc7b00f8cb562f1137595ee",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        209
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 209,
+        "bookPage": 186,
+        "labelVi": "Bài đọc 2: 主辦奧運是經濟的強心針還是國債的大黑洞（II）",
+        "referenceCode": "08-05"
+      }
     },
     {
       "id": "cc6-textbook-l08-t06",
@@ -1300,9 +1335,16 @@
       "privatePath": "textbook/08-06.mp3",
       "bytes": 3166493,
       "sha256": "c24587825bb04be56411afcebaa2625a79aff917822438bf3c58dec9c475ecb8",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        210
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 210,
+        "bookPage": 187,
+        "labelVi": "Từ vựng bài đọc 2",
+        "referenceCode": "08-06"
+      }
     },
     {
       "id": "cc6-textbook-l08-t07",
@@ -1315,9 +1357,16 @@
       "privatePath": "textbook/08-07.mp3",
       "bytes": 3645056,
       "sha256": "30007574c7fcb8044b34c6ac09bd5190564a8065982911ce36dde2a9cf15d1af",
-      "pdfPages": [],
-      "mappingStatus": "pending",
-      "activity": null
+      "pdfPages": [
+        219
+      ],
+      "mappingStatus": "verified",
+      "activity": {
+        "pdfPage": 219,
+        "bookPage": 196,
+        "labelVi": "Phân biệt từ dễ nhầm bài đọc 2",
+        "referenceCode": "08-07"
+      }
     },
     {
       "id": "cc6-textbook-l09-t01",

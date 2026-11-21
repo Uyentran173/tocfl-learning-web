@@ -5,6 +5,7 @@ import lesson04Source from "../data/academy/cc6-lesson04-vocabulary.json" with {
 import lesson05Source from "../data/academy/cc6-lesson05-vocabulary.json" with { type: "json" };
 import lesson06Source from "../data/academy/cc6-lesson06-vocabulary.json" with { type: "json" };
 import lesson07Source from "../data/academy/cc6-lesson07-vocabulary.json" with { type: "json" };
+import lesson08Source from "../data/academy/cc6-lesson08-vocabulary.json" with { type: "json" };
 import { cc1Lesson01Words } from "./cc1-lesson01-vocabulary.ts";
 import { cc1CourseVocabularySets } from "./cc1-course-vocabulary.ts";
 import { cc2VocabularySets } from "./cc2-course-vocabulary.ts";
@@ -164,6 +165,27 @@ export const cc6Lesson07Words: VocabularyWord[] = lesson07Source.records.map((re
     translation: record.exampleVi,
   });
 
+export const cc6Lesson08Words: VocabularyWord[] = lesson08Source.records.map((record) =>
+  [...previousWords, ...cc6Lesson01Words, ...cc6Lesson02Words, ...cc6Lesson03Words, ...cc6Lesson04Words, ...cc6Lesson05Words, ...cc6Lesson06Words, ...cc6Lesson07Words].find((word) =>
+    word.traditional === record.traditional && normalized(word.pinyin) === normalized(record.pinyin) &&
+    (word.wordClass === record.wordClass || word.meaning === record.meaningVi),
+  ) ?? {
+    id: record.id,
+    source: "textbook",
+    sourceRecordId: record.id,
+    sourceLabel: "Giáo trình tiếng Hoa đương đại · Tập 6 · Bài 08",
+    hanzi: record.traditional,
+    traditional: record.traditional,
+    simplified: record.simplified,
+    pinyin: record.pinyin,
+    meaning: record.meaningVi,
+    wordClass: record.wordClass,
+    example: record.exampleTraditional,
+    exampleTraditional: record.exampleTraditional,
+    exampleSimplified: record.exampleSimplified,
+    translation: record.exampleVi,
+  });
+
 export const cc6VocabularySets: VocabularySet[] = [{
   id: "cc6-v6-l01", title: "Bài 01 · 職校教育", subtitle: "Giáo dục nghề",
   words: cc6Lesson01Words,
@@ -185,4 +207,7 @@ export const cc6VocabularySets: VocabularySet[] = [{
 }, {
   id: "cc6-v6-l07", title: "Bài 07 · 感情世界", subtitle: "Thế giới tình cảm",
   words: cc6Lesson07Words,
+}, {
+  id: "cc6-v6-l08", title: "Bài 08 · 奧運黑洞", subtitle: "Hố đen Olympic",
+  words: cc6Lesson08Words,
 }];
